@@ -1,0 +1,14 @@
+{
+  "reportId": "5aaf1fab-74a5-4a0b-a871-eadf2ec0e219",
+  "status": "completed",
+  "url": "https://elicit.com/review/5aaf1fab-74a5-4a0b-a871-eadf2ec0e219",
+  "isPublic": false,
+  "result": {
+    "title": "Capitulo 6.1 - AI in parametric upper-limb prosthetic customization",
+    "summary": "Artificial intelligence is not currently being integrated into complete upper-limb prosthetic customization systems that combine all five components; instead, AI applications remain fragmented across individual elements, predominantly focusing on motor control through biosignal interpretation while lacking integration with parametric CAD workflows, AI-based parameter suggestion, and clinician oversight mechanisms."
+  },
+  "downloadedAssets": {
+    "docxUrl": "report.docx",
+    "pdfUrl": "report.pdf"
+  }
+}
