@@ -1,0 +1,123 @@
+Fink & Diamond, 2023. Prosthesis Options and Management in Upper Extremity Amputation.
+
+Das et al., 2018. A review on the advancements in the field of upper limb prosthesis.
+
+Speckman & Biggs, 2024. Prosthetic Componentry in Upper Limb Prosthetic Restoration.
+
+Apagüeño et al., 2025. Optimal Sites for Upper Extremity Amputation: Comparison Between Surgeons and Prosthetists.
+
+Review et al., 2017. Differences in Myoelectric and Body-Powered Upper-Limb Prostheses: Systematic Literature Review.
+
+Evidence Note Differences in Myoelectric and Body-Powered Upper Limb Prostheses, 2014.
+
+Hashim et al., 2018. Improvement on upper limb body-powered prostheses (1921–2016): A systematic review.
+
+Iqbal et al., 2018. A Review on Upper-Limb Myoelectric Prosthetic Control.
+
+Igual et al., 2019. Myoelectric Control for Upper Limb Prostheses.
+
+Farina et al., 2014. The Extraction of Neural Information from the Surface EMG for the Control of Upper-Limb Prostheses: Emerging Avenues and Challenges.
+
+Vujaklija et al., 2016. New developments in prosthetic arm systems.
+
+Gaballa et al., 2022. Extended Reality “X-Reality” for Prosthesis Training of Upper-Limb Amputees: A Review on Current and Future Clinical Potential.
+
+Salminger et al., 2020. Current rates of prosthetic usage in upper-limb amputees – have innovations had an impact on device acceptance?.
+
+Bates et al., 2020. Technological Advances in Prosthesis Design and Rehabilitation Following Upper Extremity Limb Loss.
+
+Biddiss & Chau, 2007. The roles of predisposing characteristics, established need, and enabling resources on upper extremity prosthesis use and abandonment.
+
+Farina & Amsüss, 2016. Reflections on the present and future of upper limb prostheses.
+
+Kyberd, 2022. History of upper limb prostheses.
+
+Thurston, 2007. PARÉ AND PROSTHETICS: THE EARLY HISTORY OF ARTIFICIAL LIMBS.
+
+Biriuk et al., 2024. HISTORY AND THE PRESENT TIME EXTERNAL PROSTHESIS OF THE UPPER EXTREMITIES.
+
+Morillo et al., 2025. Evolución de las prótesis a través de la historia.
+
+Afshar, 2017. Evolution of Functional Hand Prostheses on the Postal Stamps.
+
+Tapia-Siles et al., 2017. VARIABLE STIFFNESS HAND PROSTHESIS: A SYSTEMATIC REVIEW.
+
+A century of advances in prostheses, 2018.
+
+Raschke, 2022. Limb Prostheses: Industry 1.0 to 4.0: Perspectives on Technological Advances in Prosthetic Care.
+
+Roche et al., 2014. Prosthetic Myoelectric Control Strategies: A Clinical Perspective.
+
+Li, 2011. Electromyography Pattern-Recognition-Based Control of Powered Multifunctional Upper-Limb Prostheses.
+
+Mundkur, 2019. Bionic Human: A Review of Interface Modalities for Externally Powered Prosthetic Limbs.
+
+O'Keeffe, 2011. Prosthetic rehabilitation of the upper limb amputee.
+
+Madhanagopal et al., 2020. Introductory Chapter: Past, Present, and Future of Prostheses and Rehabilitation.
+
+Gafoor & Raj, 2016. Upper Extremity Prosthesis — What Is New in It?.
+
+Segura et al., 2024. Upper Limb Prostheses by the Level of Amputation: A Systematic Review.
+
+Engdahl et al., 2024. Perspectives on the comparative benefits of body-powered and myoelectric upper limb prostheses.
+
+Uellendahl, 2017. Myoelectric versus Body-Powered Upper-Limb Prostheses: A Clinical Perspective.
+
+Wong & Gui, 2019. Brain controlled robotic arms - advancements in prosthetic technology.
+
+Schweitzer et al., 2018. Case-study of a user-driven prosthetic arm design: bionic hand versus customized body-powered technology in a highly demanding work environment.
+
+Sims, 2017. A Literature Review of Children's Use of and Satisfaction with Upper Limb Prostheses.
+
+CDA-AMC, 2025. Myoelectric and Microprocessor-Enabled Prostheses.
+
+Makwanda & Ikhile, 2023. Advancements of Upper Limb Prostheses can Improve Patient Quality of Life: A Technology Review.
+
+Walters et al., 2025. Demystifying upper limb hybrid prostheses—a scoping review.
+
+Chin, 2013. Myoelectric Prostheses for Upper-limb Amputees.
+
+Kam, 2007. 40. The evolution of prosthetics.
+
+Soyer et al., 2016. The importance of rehabilitation concerning upper extremity amputees: A Systematic review.
+
+Fitzgibbons & Medvedev, 2015. Functional and Clinical Outcomes of Upper Extremity Amputation.
+
+Bhuanantanondh et al., 2011. A Biomedical Engineering Approach to Select an Appropriate Upper Limb Prosthesis.
+
+Routhier et al., 2001. Clinical results of an investigation of paediatric upper limb myoelectric prosthesis fitting at the Quebec rehabilitation institute.
+
+Hermansson & Turner, 2017. Occupational Therapy for Prosthetic Rehabilitation in Adults with Acquired Upper-Limb Loss: Body-Powered and Myoelectric Control Systems.
+
+Meier & Atkins, 2004. Functional Restoration of Adults and Children with Upper Extremity Amputation.
+
+Trent et al., 2019. A narrative review: current upper limb prosthetic options and design.
+
+Mahmood et al., 2020. Upper Prosthetic Design based on EMG: A Systematic Review.
+
+Mohebbian et al., 2021. A Comprehensive Review of Myoelectric Prosthesis Control.
+
+Parajuli et al., 2019. Real-Time EMG Based Pattern Recognition Control for Hand Prostheses: A Review on Existing Methods, Challenges and Future Implementation.
+
+Ngan et al., 2019. Strategies for neural control of prosthetic limbs: from electrode interfacing to 3D printing.
+
+Osborn et al., 2019. Neural Prostheses.
+
+Weir, 2017. Extrapolation of Emerging Technologies and Their Long-Term Implications for Myoelectric versus Body-Powered Prostheses: An Engineering Perspective.
+
+Tereshenko et al., 2024. Emerging Value of Osseointegration for Intuitive Prosthetic Control after Transhumeral Amputations: A Systematic Review.
+
+Batista et al., 2025. Robotic Prostheses and Neuromuscular Interfaces: A Review of Design and Technological Trends.
+
+Catalan, 2014. Towards Natural Control of Artificial Limbs.
+
+Manero et al., 2019. Implementation of 3D Printing Technology in the Field of Prosthetics: Past, Present, and Future.
+
+Carey, 2015. JRRD at a Glance vii Differences in myoelectric and body-powered upper-limb prostheses : Systematic literature review.
+
+Carey et al., 2017. Differences in Myoelectric and Body-Powered Upper-Limb Prostheses: Systematic Literature Review Update 2013–2016.
+
+Wright, 2009. Prosthetic Outcome Measures for Use With Upper Limb Amputees: A Systematic Review of the Peer-Reviewed Literature, 1970 to 2009.
+
+Atallah et al., 2025. The Current State of 3D-Printed Prostheses Clinical Outcomes: A Systematic Review.

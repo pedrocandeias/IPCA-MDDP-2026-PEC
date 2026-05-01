@@ -1,0 +1,229 @@
+Summary
+This literature review establishes the theoretical and clinical background of upper limb prostheses as medical devices,
+focusing on their definition, purpose, primary typologies, and the clinical and regulatory frameworks that govern
+their prescription and use. An upper limb prosthesis is an externally applied medical device designed to replace
+a partially or fully absent limb, aiming to restore function, improve independence in daily activities, and enhance
+quality of life. The main types of prostheses are passive/cosmetic, body-powered, myoelectric (externally powered),
+and hybrid systems, each offering a distinct balance of functionality, cosmesis, durability, and cost.
+Clinical prescription is a complex, patient-centered process requiring a multidisciplinary team to assess numerous
+factors, including amputation level, residual limb condition, functional goals, and psychosocial needs. Despite technological advancements, prosthesis abandonment rates remain high, frequently attributed to a lack of functionality,
+discomfort, device weight, and inadequate control. Successful outcomes are strongly linked to comprehensive rehabilitation, including structured training, patient education, and long-term follow-up care.
+As medical devices, upper limb prostheses are subject to regulatory oversight by bodies such as the U.S. Food and
+Drug Administration (FDA) and European authorities (CE marking under the Medical Device Regulation). Classification is risk-based, with most components falling into lower-risk categories (Class I or II), while more advanced
+systems require more stringent controls and clinical data to ensure safety and effectiveness.
+
+Definitions and Purpose
+An upper limb prosthesis is an externally applied medical device designed to replace a wholly or partially absent
+limb segment resulting from amputation or congenital deficiency. The complete or partial loss of an arm represents a
+significant physical and psychological event, leading to severe impairments in everyday life and potentially affecting
+an individual's social and mental well-being.
+The primary purpose of a prosthetic device is to mitigate the impact of limb loss by restoring function, enabling
+independence in activities of daily living (ADLs), and improving overall quality of life. Functionally, these devices
+aim to compensate for the loss of the hand's complex movements, such as reaching, grasping, holding, and manipulating objects. Ideally, a prosthesis would replicate the fine, coordinated movements of a biological hand, provide
+sensory feedback, and have an aesthetic appearance, though this remains a tremendous technological challenge.
+Consequently, the goal of prosthetic rehabilitation is to fit the patient with a device that best suits their individual
+needs, maximizes their rehabilitation potential, and minimizes disability.
+
+Typologies of Upper Limb Prostheses
+Upper limb prostheses are broadly classified based on their source of power and control mechanism. The main
+categories include passive, body-powered, myoelectric (externally powered), and hybrid systems, each with distinct
+advantages and limitations.
+Passive/Cosmetic Prostheses
+Passive prostheses are devices with no active grasping function, designed primarily to restore a lifelike appearance
+and provide simple support. They range from static devices with no moving parts to adjustable prostheses where the
+fingers can be manually positioned to hold light objects. While they offer benefits in being lightweight and silent,
+their functional capabilities are minimal, and users report more difficulty with tasks compared to those with active
+devices. Despite this, users of cosmetic prostheses often report high satisfaction with the device's appearance.
+
+1
+
+Body-Powered Prostheses
+Body-powered prostheses are mechanical devices that use a harness and cable system to translate movements from
+other parts of the body (such as the shoulder or torso) into action at the terminal device. The terminal device is
+typically a split-hook or a simple mechanical hand that can be opened or closed. These systems are known for
+their durability, affordability, lower maintenance requirements, and the provision of some proprioceptive feedback
+through the harness. However, they can be restrictive due to the harness, offer limited grip force and dexterity, and
+can cause discomfort.
+Myoelectric/Externally Powered Prostheses
+Myoelectric prostheses are electrically powered devices controlled by electromyographic (EMG) signals generated
+by the user's remaining muscles in their residual limb. Surface electrodes detect these muscle signals, which are
+then processed to activate small motors in the hand, wrist, or elbow to produce movement. Compared to bodypowered systems, myoelectric devices often provide more cosmetic appeal, a stronger grip force, and may help reduce
+phantom limb pain. Their disadvantages include higher cost, greater weight, reliance on batteries, and vulnerability
+to environmental factors like moisture. Control can also be less intuitive, and they lack the direct sensory feedback
+of a body-powered system.
+Hybrid Systems
+Hybrid prostheses combine elements of both body-powered and externally powered controls within a single device.
+This approach is most common for individuals with higher-level amputations, such as at the transhumeral (aboveelbow) level. A typical configuration might use body power to control the elbow joint and myoelectric signals to
+control the terminal device (hand or hook). This combination allows for a balance of weight, cost, and simultaneous
+control of multiple joints, which can be difficult to achieve with a single control strategy.
+The table below provides a comparative summary of the primary prosthesis types.
+Prosthesis Type
+
+Control Mechanism
+
+Key Advantages
+
+Key Limitations
+
+Passive/Cosmetic
+
+No active control;
+manually positioned
+
+No functional grasp,
+limited utility for tasks
+
+Body-Powered
+
+Body movement via
+harness and cable
+
+Lightweight, silent, best
+cosmesis, low
+maintenance
+Durable, lower cost,
+reliable, provides
+proprioceptive feedback
+
+Myoelectric
+
+EMG signals from residual
+muscles
+
+Improved cosmesis,
+stronger grip force, no
+harness, may reduce
+phantom pain
+
+Hybrid
+
+Combination of body and
+external power
+
+Allows simultaneous
+control of multiple joints,
+balances weight and cost
+
+2
+
+Harness can be restrictive
+and uncomfortable,
+limited grip patterns and
+force
+Higher cost, heavier,
+requires battery, less
+durable, susceptible to
+moisture and signal
+interference
+Can be complex to learn
+and operate, may still be
+heavy or costly depending
+on components
+
+Clinical and Functional Considerations
+The prescription of an upper limb prosthesis is a complex clinical process that extends far beyond the choice of
+hardware. Successful outcomes depend on a patient-centered approach that considers a wide range of factors, from
+initial assessment to lifelong care.
+Patient Assessment and Prescription
+A comprehensive clinical evaluation by a multidisciplinary team—including the patient, physician, prosthetist, and
+therapist—is fundamental to a successful prosthetic fitting. The decision-making process must be individualized,
+taking into account a wide array of factors:
+• Physical Factors: Amputation level, residual limb length and condition, skin integrity, joint range of motion,
+and muscle strength are critical determinants of what type of prosthesis can be supported. Higher-level amputations present greater challenges for fitting and control.
+• Patient-Specific Factors: Age, comorbidities, hand dominance, and lifestyle (including vocational and avocational needs) heavily influence the selection of components and control strategies. For example, a durable
+body-powered device may be recommended for manual labor, whereas a myoelectric hand might be preferred
+for office work.
+• Psychosocial Factors: Patient motivation, cognitive function, and expectations are crucial. Unrealistic expectations can lead to dissatisfaction and abandonment, making patient education a vital part of the process.
+Rehabilitation and Training
+Prosthetic rehabilitation is a continuous process segmented into several phases: perioperative care, pre-prosthetic
+training, definitive prosthetic training, and lifelong follow-up. Training is a major determinant of a successful outcome, yet its efficacy and optimal methods remain subjects of debate. The goal of training is to enable the user to
+operate the device efficiently and integrate it into daily life. For myoelectric devices, this includes strengthening
+residual muscles and learning to generate consistent control signals. Evidence suggests that early fitting, particularly in children, is associated with lower rejection rates and better integration of the prosthesis into the user's body
+image.
+Functional Outcome Measures
+Quantifying the success of a prosthetic intervention is challenging, and there is a recognized lack of standardized,
+validated outcome measures for upper limb prosthetic users. This gap makes it difficult to compare outcomes across
+studies and to build a strong evidence base for clinical practice. Clinicians and researchers use a variety of tools,
+including:
+• Patient-Reported Outcome Measures (PROs): Questionnaires like the Disabilities of the Arm, Shoulder and
+Hand (DASH), the Trinity Amputation and Prosthesis Experience Scales (TAPES-R), and the Orthotics and
+Prosthetics Users' Survey (OPUS) assess function, satisfaction, and quality of life from the user's perspective.
+• Performance-Based Measures: Timed functional tasks such as the Box and Blocks Test (BBT), the Southampton Hand Assessment Procedure (SHAP), and the Assessment of Capacity for Myoelectric Control (ACMC) are
+used to objectively evaluate a user's dexterity and proficiency with the device.
+
+3
+
+Prosthesis Abandonment and Satisfaction
+A significant challenge in upper limb prosthetics is the high rate of device rejection or abandonment. Rejection rates
+in adults have been reported to be between 20-30% for active devices and higher for passive devices, with even greater
+rates among children. The primary reasons for abandonment consistently relate to a perceived lack of functional
+benefit and issues with comfort. Key complaints include:
+• Limited Functionality: Users often feel they can perform tasks more effectively without their prosthesis, citing
+poor dexterity, lack of sensory feedback, and non-intuitive control.
+• Discomfort: Issues such as device weight, heat and sweat inside the socket, skin irritation, and harness discomfort are major contributors to dissatisfaction and non-use.
+• Maintenance and Durability: Frequent need for repairs and adjustments can be a significant burden for users.
+Conversely, prosthesis use is associated with higher quality of life scores, greater independence, and higher rates of
+employment when compared to non-users.
+
+Regulatory and Medical Device Framework
+Upper limb prostheses are classified and regulated as medical devices, requiring them to meet specific standards
+for safety and performance before they can be marketed and prescribed to patients. The regulatory landscape is
+primarily governed by national or regional bodies, such as the Food and Drug Administration (FDA) in the United
+States and the European Medical Device Regulation (MDR) for CE marking in Europe.
+Device Classification
+Regulatory frameworks are risk-based, categorizing devices based on the level of control necessary to ensure their
+safety and effectiveness.
+• FDA Classification: The FDA uses a three-tiered system (Class I, II, and III). Most conventional prosthetic
+components are considered low-risk Class I devices, many of which are exempt from premarket review. More
+complex devices, such as advanced myoelectric arms with multiple powered joints, are typically classified
+as Class II devices, which require adherence to ”special controls” and often a premarket notification (510(k))
+submission. Class III devices, which pose the highest risk, require the most stringent premarket approval
+(PMA) process.
+• European Classification: The EU MDR (Regulation (EU) 2017/745) also uses a risk-based system, classifying
+devices into Class I, IIa, IIb, and III. Active therapeutic devices, which include body-powered and myoelectric
+prostheses, are generally classified as Class IIa or higher, requiring oversight from a Notified Body to obtain a
+CE mark. In the United Kingdom, prosthetic hands are generally considered Class I devices.
+Clinical Validation and Safety Requirements
+To gain regulatory approval, manufacturers must demonstrate that their device is safe and performs as intended.
+This involves a comprehensive clinical evaluation, which is a systematic process of collecting and analyzing clinical
+data.
+• Evidence Requirements: The level of required clinical evidence is proportional to the device's risk class. For
+lower-risk devices, evidence may be drawn from literature on equivalent devices. For innovative or higher-risk
+devices, prospective clinical studies are often necessary to demonstrate safety and clinical benefit.
+
+4
+
+• Special Controls and Standards: For Class II devices, the FDA mandates special controls, which can include
+performance standards, non-clinical testing (e.g., for mechanical and electrical safety), software validation,
+biocompatibility testing, and human factors testing. Adherence to recognized consensus standards, such as
+those from the International Organization for Standardization (ISO), can be used to demonstrate conformity.
+ISO/TC 168 is the technical committee responsible for developing standards for prosthetics and orthotics.
+• Post-Market Surveillance: Both FDA and EU regulations mandate robust post-market surveillance (PMS) and,
+for higher-risk devices, Post-Market Clinical Follow-up (PMCF). This requires manufacturers to proactively
+collect and review data from real-world use to continuously monitor the device's safety and performance
+throughout its lifecycle.
+
+Key Foundational Studies
+The contemporary understanding of upper limb prosthetics has been shaped by several foundational review articles and large-scale studies. A pivotal body of work by Biddiss and Chau provided a comprehensive synthesis of
+literature on prosthesis use and abandonment, establishing widely cited rejection rates that differentiate between
+pediatric and adult populations and among different device types. These reviews highlighted that despite technological advances, abandonment rates had not significantly decreased, pointing to persistent challenges in comfort,
+function, and control that continue to drive clinical research.
+Another critical area of research has been the direct comparison of different prosthesis types. Multiple systematic
+reviews have been conducted to compare the benefits of myoelectric versus body-powered prostheses. A recurring
+conclusion from these studies is the lack of high-quality, empirical evidence to definitively establish the superiority of
+one control strategy over the other for general use. This finding has reinforced the clinical consensus that prosthetic
+prescription must be highly individualized, based on patient-specific goals and needs rather than a one-size-fits-all
+approach.
+The development of evidence-based clinical practice guidelines, notably the VA/DoD Clinical Practice Guideline for
+the Management of Upper Limb Amputation Rehabilitation, represents a landmark effort to standardize care. By
+systematically reviewing available evidence and using the GRADE methodology, these guidelines provide clinicians
+with recommendations on patient assessment, prosthetic prescription, rehabilitation phases, and outcome measurement, while also transparently identifying areas where evidence is insufficient.
+Finally, a consistent theme in foundational literature from the past two decades has been the call for improved and
+standardized outcome measurement. Early reviews highlighted the scarcity of validated, prosthesis-specific functional outcome measures and the heterogeneity of assessment tools used in research, which hindered the ability to
+compare findings and build a robust evidence base. This has spurred the development and validation of new instruments like the Assessment of Capacity for Myoelectric Control (ACMC) and the Comprehensive Arm Prosthesis and
+Rehabilitation Outcomes Questionnaire (CAPROQ), and has led to the formation of working groups to establish core
+sets of measures for clinical practice and research.
+
+5
+
+

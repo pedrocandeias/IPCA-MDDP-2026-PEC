@@ -1,0 +1,75 @@
+Simian, 2025. Integrating randomness in parametric design: A tool for developing crafty additive manufactured designs.
+
+Stralen, 2018. Mass Customization: a critical perspective on parametric design, digital fabrication and design democratization.
+
+Zhang & Kwok, 2017. An interactive product customization framework for freeform shapes.
+
+Ozdemir et al., 2022. Design methodology for mass personalisation enabled by digital manufacturing.
+
+Ozdemir & Cascini, 2020. AN EXPERIMENT-DRIVEN MASS-PERSONALISATION MODEL: APPLICATION TO SAXOPHONE MOUTHPIECE PRODUCTION.
+
+Bailas & Papanikos, 2018. A New Methodology of Constructing Products Using Additive Manufacturing Technology: Case Study of a Push Button.
+
+Sicoe et al., 2023. EXPLORING DIMENSIONAL PRECISION OF PARAMETRICALLY DESIGNED COMPONENTS USING Z-ULTRAT MATERIAL.
+
+Lei et al., 2016. An additive manufacturing process model for product family design.
+
+Bai et al., 2021. A Parametric Product Design Framework for the Development of Mass Customized Head/Face (Eyewear) Products.
+
+Campbell et al., 2019. New Customized Elbow Orthosis Made by Additive Manufacturing.
+
+González et al., 2018. An Ergonomic Customized-Tool Handle Design for Precision Tools using Additive Manufacturing: A Case Study.
+
+Lim et al., 2018. Customization of a 3D Printed Prosthetic Finger Using Parametric Modeling.
+
+Teeling et al., 2017. PULSE: Integrated Parametric Modeling for a Shading System : From Daylight Optimization to Additive Manufacturing.
+
+Turek, 2025. Design Process for Additive Manufacturing.
+
+Nadal-Serrano et al., 2017. Democratizing science with the aid of parametric design and additive manufacturing: Design and fabrication of a versatile and low-cost optical instrument for scattering measurement.
+
+Lehmhus et al., 2015. Cloud-Based Automated Design and Additive Manufacturing: A Usage Data-Enabled Paradigm Shift.
+
+Ricotta et al., 2020. Additively manufactured textiles and parametric modelling by generative algorithms in orthopaedic applications.
+
+Chen et al., 2015. Design for Mass Customization using Additive Manufacture: Case-Study of a Balloon-Powered Car.
+
+Karagianni et al., 2015. Additive manufacturing for daylight - towards a customized shading device.
+
+Karagianni, 2015. Additive manufacturing by daylight: Towards a customized shading device [designyourshutters.com].
+
+García-Domínguez et al., 2020. Optimization Methodology for Additive Manufacturing of Customized Parts by Fused Deposition Modeling (FDM). Application to a Shoe Heel.
+
+García-Domínguez et al., 2020. Integration of Additive Manufacturing, Parametric Design, and Optimization of Parts Obtained by Fused Deposition Modeling (FDM). A Methodological Approach.
+
+Kolarevic & Duarte, 2018. Mass Customization and Design Democratization.
+
+Efendy, 2010. A CAD INTERFACE FOR PRODUCT CUSTOMIZATION.
+
+Chtioui et al., 2023. Design for additive manufacturing: Review and framework proposal.
+
+Yao et al., 2017. Multidisciplinary design optimization to identify additive manufacturing resources in customized product development.
+
+Mbodj et al., 2022. Parametric modeling approach in laser wire additive manufacturing process.
+
+Wiberg et al., 2019. Design for additive manufacturing – a review of available design methods and software.
+
+Gགྷrski et al., 2022. Automated Design and Rapid Manufacturing of Low-Cost Customized Upper Limb Prostheses.
+
+Berndt et al., 2012. Ring’s Anatomy - Parametric Design of Wedding Rings.
+
+Demarco et al., 2019. Algorithms for Jewelry Industry 4.0.
+
+Aranburu et al., 2022. Geometric Variability in Parametric 3D Models: Implications for Engineering Design.
+
+Li et al., 2020. Design Automation for Mass Customisation via Additive Manufacture: A Case Study on Continuous Positive Airway Pressure Mask.
+
+Lei et al., 2015. REDEFINING PRODUCT FAMILY DESIGN FOR ADDITIVE MANUFACTURING.
+
+Kudus & Syahibudil, 2017. The value of personalised consumer product design facilitated through additive manufacturing technology.
+
+Kandikjan et al., 2022. Integrating parametric design and additive manufacturing knowledge in industrial design education.
+
+Yao et al., 2016. A Cost-Driven Design Methodology for Additive Manufactured Variable Platforms in Product Families.
+
+Yao et al., 2015. The Additive Manufacturing Process Setting Feasible Space Exploration and Association With Variable Product Platform Design.

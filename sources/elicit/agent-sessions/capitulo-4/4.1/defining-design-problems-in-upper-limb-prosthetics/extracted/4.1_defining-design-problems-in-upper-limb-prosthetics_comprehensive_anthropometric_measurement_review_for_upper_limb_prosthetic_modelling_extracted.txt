@@ -1,0 +1,460 @@
+Anthropometric Measurements for Upper Limb Prosthetic Modelling: A Comprehensive Review
+Executive Summary
+The design of functional, comfortable, and aesthetically acceptable upper limb prostheses is fundamentally reliant
+on accurate anthropometric data. This review synthesizes current research on the key measurements of the hand,
+fingers, thumb, wrist, and forearm that are most critical for prosthetic modeling and personalization. Key dimensions
+such as hand length, hand breadth, phalanx lengths, and various circumferences form the basis of prosthetic design,
+influencing everything from kinematic accuracy to socket fit. While traditional measurement techniques like calipers
+remain prevalent, modern methods including 3D scanning, CT, and MRI offer enhanced precision, speed, and the
+ability to capture complex surface geometry, which is crucial for creating patient-specific devices. Despite these
+advancements, significant gaps persist, particularly the lack of comprehensive anthropometric databases for pediatric
+populations and amputees, and a need for standardized measurement protocols to improve design consistency and
+comparability. These findings underscore the importance of integrating detailed, population-specific anthropometric
+data into parametric CAD workflows to advance the development of customized and effective upper limb prostheses.
+
+Measurement Taxonomy by Body Region
+Accurate prosthetic design begins with a comprehensive understanding of the dimensions of the human upper limb.
+These measurements are categorized by body region to ensure all aspects of form and function are considered during
+the modeling process.
+HAND
+The overall dimensions of the hand provide the foundational parameters for sizing the entire prosthesis, ensuring it
+is proportional to the user's body.
+• Hand Length: Defined as the distance from the wrist crease (stylion landmark) to the tip of the middle finger,
+this is a primary parameter for scaling the overall prosthesis. Studies report mean hand lengths of 18.82 cm
+for males and 17.46 cm for females in a Northwest Mexican population, and 19.17 cm for males and 17.33 cm
+for females in an Egyptian cohort. This measurement is a fundamental input for CAD models and is often
+included in standardized measurement lists like ISO 7250.
+• Hand Breadth: Measured across the metacarpal joints (metacarpal II to metacarpal V), this dimension is critical
+for determining the width of the prosthetic palm. Research has identified it as one of the most important
+parameters for parametric hand design. Reported mean values include 8.79 cm for males and 7.80 cm for
+females.
+• Palm Length: This is the distance from the base of the middle finger to the wrist crease and is essential for
+sizing the palm component of a prosthesis.
+• Hand Circumference/Girth: Measured around the metacarpals, this parameter is important for socket design
+and ensuring a secure fit.
+• Hand Thickness: The measurement through the hand at the metacarpals is used to ensure the prosthetic has
+a realistic and functional volume.
+
+1
+
+FINGERS
+Individual finger and phalanx dimensions are crucial for creating kinematically accurate mechanisms that can replicate natural grip patterns.
+• Individual Finger Lengths: The lengths of the index, middle, ring, and little fingers are measured from the
+metacarpophalangeal (MCP) joint to the fingertip. One study reported average lengths of 63.9 mm (index),
+70.7 mm (middle), 65.5 mm (ring), and 53.3 mm (little finger). These are fundamental inputs for parametric
+CAD models to customize finger size.
+• Phalanx Lengths (Proximal, Middle, Distal): The lengths of the individual bone segments of each finger are
+critical for designing linkage mechanisms and ensuring the joints bend at anatomically correct locations. Studies have used radiography and dissection to measure these bone lengths directly. For example, one prosthetic
+design used phalanx lengths of 50 mm (proximal), 35 mm (middle), and 30 mm (distal), while another used a
+ratio of 17.3:29.2:44.5 for distal, intermediate, and proximal phalanges, respectively.
+• Finger Breadth and Depth: Measured at the proximal and distal interphalangeal joints, these dimensions are
+used to model the finger's volume and shape, which impacts the aesthetic appearance and the ability to grasp
+small objects. One study reported a mean breadth of the proximal phalanx of the middle finger as 0.94 cm.
+• Interphalangeal Joint Spacing: The distances between the DIP, PIP, and MCP joints are derived from phalanx
+length data and are essential for placing the mechanical joints of the prosthesis correctly.
+THUMB
+The thumb's unique geometry and opposition are vital for dexterity, making its accurate measurement a priority in
+prosthetic design.
+• Thumb Length: Measured from the thumb tip to its base, this is a key parameter for ensuring effective opposition and grasping. A study of young adults reported an average thumb length of 49.5 mm.
+• Thumb Phalanx and Metacarpal Lengths: The lengths of the thumb's bone segments are used to model its
+kinematic chain.
+• Thumb Breadth: This measurement informs the overall size and shape of the thumb mechanism.
+• Opposition Angle and Carpometacarpal (CMC) Joint Geometry: While not a simple linear measurement, the
+geometry of the CMC joint and the resulting opposition angle are critical for replicating the thumb's unique
+multi-degree-of-freedom movement, which is essential for various grip types.
+WRIST
+The wrist serves as the interface between the hand and forearm, and its dimensions are critical for both socket
+connection and joint mechanism design.
+• Wrist Breadth, Circumference, and Depth: These measurements are fundamental for designing the socket or
+wrist connector of a transradial prosthesis. Mean wrist girths of 14.83 cm for females and 15.57 cm for males
+have been reported. These measurements are defined in standards like ISO 7250-1.
+FOREARM
+For transradial amputees, the geometry of the residual limb is the most critical factor for a successful prosthetic
+fitting.
+• Forearm Length: The length from the elbow to the wrist or the length of the residual limb is used to scale the
+prosthetic forearm component.
+2
+
+• Forearm Circumference: Measurements at multiple points along the forearm (proximal, mid, distal) are essential for designing a custom-fitted socket that distributes pressure evenly and provides stable suspension.
+• Cross-sectional Shape: Modern workflows use 3D scanning or CT/MRI to capture the non-circular crosssectional shape of the residual limb, which is critical for creating a comfortable and functional socket.
+
+Measurement Methods
+A variety of methods are employed to capture anthropometric data, ranging from traditional manual techniques to
+advanced digital imaging technologies. The choice of method often involves a trade-off between accuracy, cost, time,
+and the complexity of the data required.
+The table below summarizes and compares the most common measurement methods.
+Measurement Method
+
+Description
+
+Advantages
+
+Limitations & Accuracy
+
+Traditional (Manual)
+
+Use of tools like calipers,
+measuring tapes, and
+goniometers to take direct
+physical measurements.
+
+Low cost, portable, widely
+understood and accessible.
+
+3D Scanning
+
+Non-contact optical
+methods (structured light
+or laser) capture surface
+geometry as a point cloud,
+which is converted to a 3D
+model.
+
+Fast data acquisition
+(often minutes), high
+accuracy, captures
+complex 3D surface
+geometry, cost-effective.
+
+CT/MRI
+
+Medical imaging
+techniques that provide
+detailed internal and
+external anatomical data,
+including bone and soft
+tissue structures.
+
+Extremely high accuracy
+and detail, captures
+internal bone geometry
+ideal for kinematic
+modeling, considered a
+gold standard for
+volumetric accuracy.
+
+Radiography
+
+X-ray imaging used to
+measure bone lengths and
+joint geometry from
+digitized images.
+Uses multiple
+photographs from
+different angles to
+reconstruct a 3D model or
+take 2D measurements.
+
+Provides accurate bone
+dimensions, useful for
+determining phalanx and
+metacarpal lengths.
+Very low cost (uses
+standard cameras),
+portable, and can be used
+for remote measurement.
+
+Prone to operator error,
+time-consuming for
+comprehensive
+measurements, captures
+limited 2D data, difficult
+to measure complex
+shapes.
+Can struggle with
+reflective or transparent
+surfaces. Accuracy can
+vary (0.05 mm to 4 mm),
+with some studies
+reporting volumetric
+deviation of 2-9%.
+High cost, slow
+acquisition time (~30
+minutes), radiation
+exposure (CT), and limited
+accessibility. MRI has
+shown the lowest
+deviation in comparative
+studies.
+Provides 2D projections,
+radiation exposure, does
+not capture soft tissue or
+surface geometry.
+Less accurate than
+dedicated 3D scanners,
+requires careful
+calibration and lighting,
+computationally intensive
+post-processing.
+
+Photogrammetry
+
+3
+
+Measurement Method
+
+Description
+
+Advantages
+
+Limitations & Accuracy
+
+Image Processing
+
+Software-based methods
+using algorithms (e.g.,
+OpenCV, Mediapipe) to
+detect landmarks and
+measure dimensions from
+2D or 3D images.
+
+Can automate
+measurements, enables
+remote data capture via
+webcam or smartphone,
+low cost.
+
+Accuracy is dependent on
+image quality, lighting,
+and algorithm robustness;
+often less precise than
+direct or 3D scanning
+methods.
+
+Population Variability and Databases
+Anthropometric dimensions of the upper limb exhibit significant variability across different populations, influenced
+by factors such as sex, age, and geographic origin. Designing effective prostheses requires an understanding of this
+variability to ensure devices can accommodate a wide range of users. For instance, studies consistently show that
+male hand dimensions are larger on average than female dimensions. Age is another critical factor, with different
+data required for pediatric users, whose anatomy changes rapidly, compared to adults.
+To address this variability, designers often rely on large-scale anthropometric databases. Key resources include:
+• ANSUR (Anthropometric Survey of U.S. Army Personnel): A major database providing comprehensive body
+measurements for military populations, which has historically been a common reference in design.
+• CAESAR (Civilian American and European Surface Anthropometry Resource): This database contains 3D
+body scans of thousands of individuals from North America and Europe, offering rich data for modern digital
+design workflows.
+• ISO 7250: This international standard provides definitions for body measurements and statistical data from
+various national populations. ISO/TR 7250-2 provides statistical summaries from different countries, while
+ISO 7250-1 defines the measurement protocols.
+• National Surveys: Various countries conduct their own anthropometric surveys to gather data specific to their
+populations, which can be more accurate for local design applications.
+When designing for a broad user base, a common practice is to accommodate the range from the 5th percentile
+female to the 95th percentile male to cover approximately 90% of the target population.
+
+Application to Prosthetic Design Workflows
+Anthropometric measurements are not merely static data points; they are integral inputs that drive modern, personalized prosthetic design workflows from conception to fabrication.
+• Parametric CAD: This is a primary application where key anthropometric values (e.g., hand length, finger
+width, palm breadth) are used as controlling parameters in a CAD model. By linking the model's geometry to
+these parameters, designers can rapidly generate a customized prosthesis for an individual by simply inputting
+their measurements. This approach is far superior to uniform scaling, which often results in poor fit due to
+the weak correlation between different body dimensions like finger length and width.
+• Socket Design: For transradial and transhumeral prostheses, the design of a comfortable and stable socket is
+paramount. 3D scans or CT/MRI data of the residual limb are used to create a precise digital model of the
+stump. This model serves as the basis for designing a custom socket that conforms perfectly to the user's
+anatomy, ensuring even pressure distribution and preventing discomfort or injury.
+
+4
+
+• Linkage Mechanism Sizing: The lengths of phalanges and the distances between joints directly inform the
+design of kinematic mechanisms, such as four-bar linkages, used to replicate finger movement. Accurate
+measurements ensure that the prosthetic finger's range of motion closely mimics the natural path, which is
+crucial for effective grasping.
+• 3D Printing Customization: Additive manufacturing enables the direct fabrication of these parametrically
+designed, personalized components.
+• Finite Element Analysis (FEA): Anthropometric data is used to create anatomically correct models for FEA
+simulations. These simulations can predict stress distributions, deformations under load, and pressure at the
+socket-limb interface, allowing designers to optimize the structural integrity and comfort of the prosthesis
+before fabrication.
+• Kinematic Modeling: Measurements of bone lengths and joint locations extracted from sources like radiographs or CT scans are used to create and validate kinematic models of the hand. These models are essential
+for designing control systems and ensuring that the prosthetic hand moves in a natural and intuitive way.
+
+Statistical Approaches
+To manage the complexity of the numerous variables involved in hand anthropometry, researchers employ statistical
+techniques to identify the most critical dimensions and predict others.
+• Factor Analysis and Principal Component Analysis (PCA): These methods are used for dimensionality reduction. By analyzing a large set of correlated measurements, PCA can identify a smaller set of underlying
+”principal components” that explain most of the variance in hand shape and size. This allows designers to
+focus on a few key measurements instead of dozens. Studies have used this approach to determine that a
+small number of parameters, such as grip circumference and palm breadth, can be used to derive many other
+dimensions of a prosthetic hand.
+• Regression Models: Linear regression is used to establish mathematical relationships between different body
+measurements. For example, models can be created to predict finger lengths based on hand length or stature,
+which is useful when only partial measurements are available. One study found a significant positive correlation between the length and breadth of the proximal phalanx and a person's stature, though another study
+found a weak correlation between index finger length and width.
+• Allometric Scaling: This involves studying the proportional relationships between the sizes of different body
+parts. These scaling laws can be used to estimate unmeasured dimensions from known ones, helping to create a proportionally correct model even from limited data. This is particularly relevant when attempting to
+reconstruct a missing hand based on the dimensions of the sound limb or other body parts.
+
+Identified Gaps and Recommendations
+Despite advancements in measurement technology and design workflows, the literature reveals several persistent
+gaps in the field of upper limb anthropometry for prosthetics.
+• Lack of Amputee-Specific Data: Most available anthropometric databases are based on able-bodied populations. The morphology of a residual limb can differ significantly from a non-amputated limb due to surgical
+procedures, muscle atrophy, and tissue changes. There is a critical need for more data collected directly from
+amputees to inform better socket design and overall prosthetic fitting.
+• Data Scarcity for Pediatric Populations: Children with limb differences require new prostheses frequently as
+they grow, yet there is a significant lack of comprehensive anthropometric data for this group. Developing robust growth models and collecting longitudinal data on children would greatly improve the design of pediatric
+
+5
+
+prostheses.
+• Standardization of Measurement Protocols: While standards like ISO 7250 exist, there is a wide variety of
+measurement techniques and landmarks used across different studies. This inconsistency makes it difficult to
+compare data across populations and establish universally applicable design principles. A more standardized
+and widely adopted measurement protocol is needed.
+Based on these gaps, the following recommendations are proposed:
+1. Establish Comprehensive Amputee Databases: Initiate large-scale data collection efforts focused on the anthropometry of residual upper limbs, categorizing data by amputation level, age, and sex.
+2. Conduct Longitudinal Pediatric Studies: Fund and conduct studies that track the anthropometric development of children with and without limb differences to create predictive growth models for prosthetic design.
+3. Develop a Minimum Essential Measurement Set: Researchers and clinicians should collaborate to define a
+standardized minimum set of key anthropometric parameters that are essential for the design and fitting of
+different types of upper limb prostheses. This would improve data comparability and streamline the design
+process.
+4. Promote Open-Access Data: Encourage the sharing of anonymized anthropometric datasets to accelerate
+research and innovation in the field, allowing designers and engineers worldwide to develop more effective
+and accessible prosthetic solutions.
+# Anthropometric Measurements for Upper Limb Prosthetic Modelling: A Comprehensive Review
+## Executive Summary
+
+The design of functional, comfortable, and aesthetically acceptable upper limb prostheses is fundament
+specific devices. Despite these advancements, significant gaps persist, particularly the lack of compr
+specific anthropometric data into parametric CAD workflows to advance the development of customized and
+## Measurement Taxonomy by Body Region
+
+Accurate prosthetic design begins with a comprehensive understanding of the dimensions of the human upp
+### HAND
+
+The overall dimensions of the hand provide the foundational parameters for sizing the entire prosthesis
+*
+*
+*
+*
+*
+
+**Hand Length:** Defined as the distance from the wrist crease (stylion landmark) to the tip of the m
+**Hand Breadth:** Measured across the metacarpal joints (metacarpal II to metacarpal V), this dimens
+**Palm Length:** This is the distance from the base of the middle finger to the wrist crease and is es
+**Hand Circumference/Girth:** Measured around the metacarpals, this parameter is important for sock
+**Hand Thickness:** The measurement through the hand at the metacarpals is used to ensure the prosth
+
+### FINGERS
+
+Individual finger and phalanx dimensions are crucial for creating kinematically accurate mechanisms th
+*
+*
+
+**Individual Finger Lengths:** The lengths of the index, middle, ring, and little fingers are measur
+**Phalanx Lengths (Proximal, Middle, Distal):** The lengths of the individual bone segments of each
+
+6
+
+*
+*
+
+**Finger Breadth and Depth:** Measured at the proximal and distal interphalangeal joints, these dime
+**Interphalangeal Joint Spacing:** The distances between the DIP, PIP, and MCP joints are derived fr
+
+### THUMB
+
+The thumb's unique geometry and opposition are vital for dexterity, making its accurate measurement a p
+
+* **Thumb Length:** Measured from the thumb tip to its base, this is a key parameter for ensuring effec
+* **Thumb Phalanx and Metacarpal Lengths:** The lengths of the thumb's bone segments are used to model
+* **Thumb Breadth:** This measurement informs the overall size and shape of the thumb mechanism.
+* **Opposition Angle and Carpometacarpal (CMC) Joint Geometry:** While not a simple linear measuremen
+degree-of-freedom movement, which is essential for various grip types.
+### WRIST
+
+The wrist serves as the interface between the hand and forearm, and its dimensions are critical for both
+
+* **Wrist Breadth, Circumference, and Depth:** These measurements are fundamental for designing the s
+1.
+### FOREARM
+
+For transradial amputees, the geometry of the residual limb is the most critical factor for a successful
+
+* **Forearm Length:** The length from the elbow to the wrist or the length of the residual limb is used
+* **Forearm Circumference:** Measurements at multiple points along the forearm (proximal, mid, distal
+fitted socket that distributes pressure evenly and provides stable suspension.
+* **Cross-sectional Shape:** Modern workflows use 3D scanning or CT/MRI to capture the noncircular cross-sectional shape of the residual limb, which is critical for creating a comfortable and f
+## Measurement Methods
+
+A variety of methods are employed to capture anthropometric data, ranging from traditional manual techn
+off between accuracy, cost, time, and the complexity of the data required.
+The table below summarizes and compares the most common measurement methods.
+
+| Measurement Method | Description | Advantages | Limitations & Accuracy |
+| :--- | :--- | :--- | :--- |
+| **Traditional (Manual)** | Use of tools like calipers, measuring tapes, and goniometers to take direc
+consuming for comprehensive measurements, captures limited 2D data, difficult to measure complex shape
+| **3D Scanning** | Non-contact optical methods (structured light or laser) capture surface geometry as
+effective. | Can struggle with reflective or transparent surfaces. Accuracy can vary (0.05 mm to 4 mm),
+9%. |
+| **CT/MRI** | Medical imaging techniques that provide detailed internal and external anatomical data,
+| **Radiography** | X-ray imaging used to measure bone lengths and joint geometry from digitized images
+
+7
+
+| **Photogrammetry** | Uses multiple photographs from different angles to reconstruct a 3D model or tak
+processing. |
+| **Image Processing** | Software-based methods using algorithms (e.g., OpenCV, Mediapipe) to detect la
+## Population Variability and Databases
+
+Anthropometric dimensions of the upper limb exhibit significant variability across different populatio
+
+To address this variability, designers often rely on large-scale anthropometric databases. Key resourc
+* **ANSUR (Anthropometric Survey of U.S. Army Personnel):** A major database providing comprehensive
+* **CAESAR (Civilian American and European Surface Anthropometry Resource):** This database contains
+* **ISO 7250:** This international standard provides definitions for body measurements and statistica
+2 provides statistical summaries from different countries, while ISO 72501 defines the measurement protocols.
+* **National Surveys:** Various countries conduct their own anthropometric surveys to gather data spe
+
+When designing for a broad user base, a common practice is to accommodate the range from the 5th percent
+## Application to Prosthetic Design Workflows
+
+Anthropometric measurements are not merely static data points; they are integral inputs that drive mode
+
+* **Parametric CAD:** This is a primary application where key anthropometric values (e.g., hand length
+* **Socket Design:** For transradial and transhumeral prostheses, the design of a comfortable and stab
+* **Linkage Mechanism Sizing:** The lengths of phalanges and the distances between joints directly inf
+bar linkages, used to replicate finger movement. Accurate measurements ensure that the prosthetic finge
+* **3D Printing Customization:** Additive manufacturing enables the direct fabrication of these param
+* **Finite Element Analysis (FEA):** Anthropometric data is used to create anatomically correct model
+limb interface, allowing designers to optimize the structural integrity and comfort of the prosthesis b
+* **Kinematic Modeling:** Measurements of bone lengths and joint locations extracted from sources lik
+## Statistical Approaches
+
+To manage the complexity of the numerous variables involved in hand anthropometry, researchers employ s
+*
+*
+*
+
+**Factor Analysis and Principal Component Analysis (PCA):** These methods are used for dimensionali
+**Regression Models:** Linear regression is used to establish mathematical relationships between di
+**Allometric Scaling:** This involves studying the proportional relationships between the sizes of
+
+## Identified Gaps and Recommendations
+
+Despite advancements in measurement technology and design workflows, the literature reveals several pe
+
+* **Lack of Amputee-Specific Data:** Most available anthropometric databases are based on ablebodied populations. The morphology of a residual limb can differ significantly from a nonamputated limb due to surgical procedures, muscle atrophy, and tissue changes. There is a critical need
+
+8
+
+*
+*
+
+**Data Scarcity for Pediatric Populations:** Children with limb differences require new prostheses
+**Standardization of Measurement Protocols:** While standards like ISO 7250 exist, there is a wide v
+
+Based on these gaps, the following recommendations are proposed:
+1.
+2.
+3.
+4.
+
+**Establish Comprehensive Amputee Databases:** Initiate large-scale data collection efforts focuse
+**Conduct Longitudinal Pediatric Studies:** Fund and conduct studies that track the anthropometric
+**Develop a Minimum Essential Measurement Set:** Researchers and clinicians should collaborate to d
+**Promote Open-Access Data:** Encourage the sharing of anonymized anthropometric datasets to accele
+
+9
+
+

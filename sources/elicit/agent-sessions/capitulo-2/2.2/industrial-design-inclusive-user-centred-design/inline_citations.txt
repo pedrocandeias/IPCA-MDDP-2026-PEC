@@ -1,0 +1,76 @@
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+[^1]: Lourenço et al., 2025. Challenges and strategies for the development and diffusion of assistive technologies.
+[^2]: König-Klever et al., 2024. Design of health technologies for users facing limitations: A scoping review.
+[^3]: Kapsalis et al., 2022. Disabled-by-design: effects of inaccessible urban public spaces on users of mobility assistive devices – a systematic review.
+[^4]: Keates et al., 2012. Designing a More Inclusive World.
+[^5]: McDonagh & Thomas, 2013. Innovating alongside designers.
+[^6]: Valdivia-Márquez et al., 2018. The Importance of Industrial Design in Medical Devices in the 21st Century.
+[^7]: Cortes-Chavez et al., 2018. Medical Device Design Challenges Based on Users Hierarchy and Their Correlation with Illness.
+[^8]: Clarkson & Coleman, 2010. Inclusive design.
+[^9]: Snyder, 2021. Universal Design as a Paradigm for Providing Health Interventions for Older Adults 1.
+[^10]: Groos, 2023. User centered design for the development of health technology: Towards sustainable healthcare systems.
+[^11]: Robb et al., 2021. Participatory Technology Design for Autism and Cognitive Disabilities: A Narrative Overview of Issues and Techniques.
+[^12]: Newbutt et al., 2023. How are Autistic People Involved in the Design of Extended Reality Technologies? A Systematic Literature Review.
+[^13]: Skrzypczak & Hofman, 2021. Preface.
+[^14]: Myerson & West, 2015. Make It Better: how universal design principles can have an impact on healthcare services to improve the patient experience.
+[^15]: White & Mosca, 2022. Developing Innovative Solutions for Universal Design in Healthcare and Other Sectors.
+[^16]: Churchill, 2021. Refactoring design to reframe (dis)ability.
+[^17]: Fisher & Johansen, 2020. Human-centered design for medical devices and diagnostics in global health.
+[^18]: Millet et al., 2018. Human centred criteria for healthcare design.
+[^19]: Wiklund, 2024. Medical Device and Equipment Design.
+[^20]: Chapman et al., 2025. Methods for Co-designing Health Communication Initiatives with People with Disability: A Scoping Review.
+[^21]: Holloway & Dawes, 2016. Disrupting the world of Disability: The Next Generation of Assistive Technologies and Rehabilitation Practices.
+[^22]: Howard et al., 2020. Exploring the barriers to using assistive technology for individuals with chronic conditions: a meta-synthesis review.
+[^23]: Privitera & Southee, 2016. COLLABORATIVE DESIGN PROCESSES IN MEDICAL DEVICE DEVELOPMENT.
+[^24]: West, 2020. Design in healthcare: the challenge of translation.
+[^25]: Wilke et al., 2020. THE HEALTHCARE DESIGN DILEMMA: PERILS OF A TECHNOLOGY-DRIVEN DESIGN PROCESS FOR MEDICAL PRODUCTS.
+[^26]: Pandolfi et al., 2024. INTEGRATING SYSTEMS AND DESIGN THINKING IN HEALTHCARE: A USER-CENTRED PERSPECTIVE.
+[^27]: Albayrak et al., 2018. The Role of Ergonomics in the Design of an Intravenous Therapy (IV) Set for Neonatal Intensive Care.
+[^28]: Clarke et al., 2011. User involvement in the early development of assistive technology devices.
+[^29]: Mosca et al., 2020. Universal Design assessment tool to promote well-being and inclusion in healthcare environment.
+[^30]: Elsaesser & Bauer, 2012. Integrating medical, assistive, and universal design products and technologies: Assistive Technology Service Method (ATSM).
+[^31]: Bauer & Elsaesser, 2012. Integrating medical, assistive, and universally designed products and technologies: assistive technology device classification (ATDC).
+[^32]: Niekerk et al., 2018. Factors Perceived by Rehabilitation Professionals to Influence the Provision of Assistive Technology to Children: A Systematic Review.
+[^33]: Piekema et al., 2024. From assistive to inclusive? A systematic review of the uses and effects of technology to support people with pervasive support needs.
+[^34]: Brandt et al., 2019. The effects of assistive technology service delivery processes and factors associated with positive outcomes – a systematic review.
+[^35]: Carroll et al., 2021. Supporting Healthy Aging through the Scale-Up, Spread, and Sustainability of Assistive Technology Implementation: A Rapid Realist Review of Participatory Co-Design for Assistive Technology with Older Adults.
+[^36]: Ommeren et al., 2018. Assistive Technology for the Upper Extremities After Stroke: Systematic Review of Users’ Needs.
+[^37]: Gleaton et al., 2024. Understanding adoption of mobility assistive products: a systematic review.
+[^38]: Guinness et al., 2025. Outcomes of assistive technology use by sex and gender; a scoping review.
