@@ -1,4 +1,4 @@
-**Versão do documento:** `0.1.9`
+**Versão do documento:** `0.1.8`
 
 ## **Capítulo 1 — Introdução** 
 
@@ -307,57 +307,59 @@ No âmbito desta investigação, estas perspetivas são particularmente relevant
 
 ### 2.6 Plataformas digitais e sistemas configuráveis  
 
-A evolução recente do desenvolvimento de produto, particularmente em contextos de saúde e tecnologias de apoio, tem sido acompanhada por um crescimento de plataformas digitais configuráveis e sistemas participativos orientados para personalização. A literatura caracteriza estes sistemas como infraestruturas sociotécnicas que articulam enquadramentos conceptuais que legitimam e estruturam a participação, mecanismos técnicos de configurabilidade, como configuradores, parametrização e modularidade, e *workflows* participativos que traduzem experiência vivida em requisitos, protótipos e iterações de projeto (Fischer et al., 2004; Hippel & Katz, 2002; Howard et al., 2022).
+A evolução recente do desenvolvimento de produto, particularmente em contextos de saúde e tecnologias de apoio, tem sido acompanhada por um crescimento de plataformas digitais configuráveis e sistemas participativos orientados para personalização. A literatura caracteriza estes sistemas como infraestruturas sociotécnicas que articulam (i) enquadramentos conceptuais que legitimam e estruturam a participação, (ii) mecanismos técnicos de configurabilidade (configuradores, parametrização, modularidade), e (iii) workflows participativos que traduzem experiência vivida em requisitos, protótipos e iterações de projeto.
 
-Em domínios como a reabilitação e as tecnologias assistivas, a personalização é frequentemente descrita como uma necessidade funcional, e não apenas como uma diferenciação de mercado. Tal significa que a adequação do produto ao utilizador pode ser determinante para segurança, usabilidade e adoção sustentada, deslocando o foco do design de uma solução “média” para sistemas capazes de acomodar variabilidade individual de forma controlada (Fischer et al., 2017; Kerr et al., 2024; Zhu & Zhong, 2022).
+Em domínios como a reabilitação e as tecnologias assistivas, a personalização é frequentemente descrita como uma necessidade funcional — “universe of one” — em vez de uma simples diferenciação de mercado. Tal significa que a adequação do produto ao utilizador pode ser determinante para segurança, usabilidade e adoção sustentada, deslocando o foco do design de uma solução “média” para sistemas capazes de acomodar variabilidade individual de forma controlada.
 
 #### **Fundamentos conceptuais: toolkits, meta-design e end-user development**
 
-Uma linha teórica relevante é a dos “toolkits for user innovation”, que entende sistemas configuráveis como ferramentas coordenadas e acessíveis que transferem parte do trabalho de design relacionado com necessidades para os utilizadores, enquanto fabricantes e especialistas retêm tarefas de solução e produção. A distinção entre configuradores, centrados em selecionar opções, e *toolkits*, centrados em desenhar dentro de um espaço de projeto delimitado, é central: a participação pode variar entre escolher alternativas pré-definidas e efetivamente criar configurações dentro de um ambiente com regras e *feedback* (Franke & Hippel, 2002; Hippel & Katz, 2002).
+Uma linha teórica relevante é a dos “toolkits for user innovation”, que entende sistemas configuráveis como ferramentas coordenadas e acessíveis que transferem parte do trabalho de design relacionado com necessidades para os utilizadores, enquanto fabricantes e especialistas retêm tarefas de solução e produção. A distinção entre configuradores (seleção de opções) e toolkits (capacidade de “desenhar” dentro de um espaço de projeto delimitado) é central: a participação pode variar entre escolher alternativas pré-definidas e efetivamente criar configurações dentro de um ambiente com regras e feedback.
 
-O *meta-design* aprofunda esta lógica ao defender a participação “em uso”, estabelecendo condições técnicas e sociais para que utilizadores se tornem co-designers e para que o sistema evolua ao longo do tempo. O modelo *Seeding, Evolutionary Growth, and Reseeding* formaliza este processo como alternância entre “sementes” iniciais, criadas por especialistas, evolução por desenvolvimento do utilizador e reestruturações periódicas que consolidam aprendizagens e reorganizam o sistema (Costabile et al., 2007; Fischer et al., 2004).
+O meta-design aprofunda esta lógica ao defender a participação “em uso” (use-time participation), estabelecendo condições técnicas e sociais para que utilizadores se tornem co-designers e para que o sistema evolua ao longo do tempo. O modelo Seeding, Evolutionary Growth, and Reseeding (SER) formaliza este processo como alternância entre “sementes” iniciais (criadas por especialistas), evolução por desenvolvimento do utilizador e reestruturações periódicas que consolidam aprendizagens e reorganizam o sistema. 
 
-A literatura identifica, contudo, riscos como *participation overload*, isto é, a transferência excessiva de carga de trabalho e decisão para utilizadores, o que requer mecanismos de apoio, curadoria e reutilização para tornar a participação sustentável (Fischer et al., 2017).
+A literatura identifica, contudo, riscos como “participation overload”, isto é, a transferência excessiva de carga de trabalho e decisão para utilizadores, o que requer mecanismos de apoio, curadoria e reutilização (re-use, redesign, remix) para tornar a participação sustentável.
 
-Em paralelo, o conceito de *Software Shaping Workshop* operacionaliza o *meta-design* como um “workshop virtual” composto por ferramentas familiares adaptadas à cultura e competências de uma comunidade. Em contextos de reabilitação e assistência, este paradigma manifesta-se em sistemas que fornecem a cuidadores e terapeutas interfaces tipo editor, permitindo adaptar *scripts*, exercícios e conteúdos sem necessidade de programação, respondendo a necessidades de personalização de forma pragmática (Costabile et al., 2007; Fischer et al., 2017).
+Em paralelo, o conceito de Software Shaping Workshop (SSW) operacionaliza o meta-design como um “workshop virtual” composto por ferramentas familiares adaptadas à cultura e competências de uma comunidade. Em contextos de reabilitação e assistência, este paradigma manifesta-se em sistemas que fornecem a cuidadores e terapeutas interfaces tipo editor, permitindo adaptar scripts, exercícios e conteúdos sem necessidade de programação, respondendo a necessidades de personalização de forma pragmática.
 
 #### **Mecanismos de personalização: modularidade, parametrização e tailoring**
 
-A literatura sintetiza a personalização através de mecanismos recorrentes que diferem em “quem configura”, “o que é configurável” e “quando se configura”. Três mecanismos destacam-se pela relevância para sistemas protésicos e dispositivos médicos personalizados:
+A literatura sintetiza a personalização através de mecanismos recorrentes que diferem em “quem configura”, “o que é configurável” e “quando se configura” (design-time vs use-time). Três mecanismos destacam-se pela relevância para sistemas protésicos e dispositivos médicos personalizados:
 
-1. **Seleção modular de componentes**: a personalização é obtida combinando módulos interoperáveis, permitindo adaptar funcionalidade por combinação e substituição. A modularidade surge como estratégia para conciliar personalização com reutilização e escalabilidade em ecossistemas de produto (Dechev et al., 2023; Peters & Richter, 2023).
+1. **Seleção modular de componentes**: a personalização é obtida combinando módulos interoperáveis (por exemplo, dispositivos terminais, punhos, encaixes, sistemas de arnês), permitindo adaptar funcionalidade por combinação e substituição. A modularidade surge como estratégia para conciliar personalização com reutilização e escalabilidade em ecossistemas de produto.
 
-2. **Configuração paramétrica**: o utilizador, ou um intermediário clínico, fornece *inputs* dentro de um espaço de parâmetros, e o sistema gera automaticamente artefactos de design, como ficheiros CAD, com base nesses valores. Este mecanismo é mais adequado quando a personalização depende de atributos mensuráveis, ligando diretamente dados antropométricos e cinemáticos a variáveis de projeto (Kuhl et al., 2020; Zhu & Zhong, 2022).
+2. **Configuração paramétrica**: o utilizador (ou intermediário clínico) fornece inputs dentro de um espaço de parâmetros, e o sistema gera automaticamente artefactos de design (por exemplo, ficheiros CAD) com base nesses valores. Este mecanismo é mais adequado quando a personalização depende de atributos mensuráveis (anatomia, movimento, padrões de uso), ligando diretamente a dados antropométricos e cinemáticos a variáveis de projeto.
 
-3. ***Tailoring* por toolkit/editor**: a personalização acontece em uso, permitindo editar conteúdos, instruções, rotinas de treino ou componentes informacionais associados ao produto ou serviço. Em saúde, este mecanismo é particularmente relevante em plataformas de reabilitação e telereabilitação, onde a adaptação de exercícios e objetivos é parte do cuidado contínuo (Cole, 2011; Fischer et al., 2017).
+3. ***Tailoring*** **por toolkit/editor**: a personalização acontece em uso, permitindo editar conteúdos, instruções, rotinas de treino ou componentes informacionais associados ao produto/serviço. Em saúde, este mecanismo é particularmente relevante em plataformas de reabilitação e telereabilitação, onde a adaptação de exercícios e objetivos é parte do cuidado contínuo.
 
-A seleção do mecanismo mais adequado depende do *locus* de conhecimento: modularidade funciona quando as necessidades podem ser expressas como combinações de módulos conhecidos; parametrização é mais eficaz quando há dados mensuráveis que podem ser mapeados para variáveis de design; e *toolkits* são indicados quando a adaptação contínua em contexto é crítica e quando o utilizador ou intermediário tem conhecimento situado para ajustar o sistema (Hippel & Katz, 2002; Peters & Richter, 2023; Zhu & Zhong, 2022).
+A seleção do mecanismo mais adequado depende do **locus de conhecimento**: modularidade funciona quando as necessidades podem ser expressas como combinações de módulos conhecidos; parametrização é mais eficaz quando há dados mensuráveis que podem ser mapeados para variáveis de design; e toolkits são indicados quando a adaptação contínua em contexto é crítica e quando o utilizador ou intermediário tem conhecimento situado para ajustar o sistema.
 
 #### **Workflows participativos e infraestruturas remotas**
 
-Uma característica transversal é o recurso crescente a participação remota e *workflows* digitalmente mediados. A literatura documenta sessões de co-design por videoconferência, *workshops* online e processos de co-manufactura à distância, em que o ciclo “definir → prototipar → fabricar → testar” ocorre com envio de protótipos para experimentação no contexto real do utilizador. Estes modelos são particularmente relevantes em tecnologias assistivas, onde a avaliação em contexto e a adaptação iterativa são determinantes para adequação funcional e aceitação (Dexter et al., 2013; Thorsen et al., 2023).
+Uma característica transversal é o recurso crescente a participação remota e workflows digitalmente mediados. A literatura documenta sessões de co-design por videoconferência, workshops online e processos de co-manufactura à distância, em que o ciclo “definir → prototipar → fabricar → testar” ocorre com envio de protótipos para experimentação no contexto real do utilizador. Estes modelos são particularmente relevantes em tecnologias assistivas, onde a avaliação em contexto e a adaptação iterativa são determinantes para adequação funcional e aceitação.
 
-No entanto, as fontes sublinham que tecnologia não é suficiente. A eficácia destes sistemas depende de *governance*, isto é, de quem decide o quê e quando, de mediação por clínicos, designers ou técnicos, e de mecanismos de gestão de carga de trabalho e comunicação. Em modelos abertos e distribuídos, surgem riscos de quebra de compromisso e atraso por falta de *accountability*, o que exige desenho explícito de regras, expectativas e responsabilidades (Frangos et al., 2016; Hussaini et al., 2023; Kerr et al., 2024).
+No entanto, as fontes sublinham que tecnologia não é suficiente. A eficácia destes sistemas depende de governance (quem decide o quê e quando), mediação (por clínicos, designers ou técnicos), e mecanismos de gestão de carga de trabalho e comunicação. Em modelos abertos e distribuídos, surgem riscos de quebra de compromisso e atraso por falta de accountability, o que exige desenho explícito de regras, expectativas e responsabilidades.
 
 #### **Aplicações em saúde, reabilitação e próteses**
 
-Em saúde, plataformas baseadas em *digital twins* são descritas como sistemas de serviço personalizados que conectam participantes através da *cloud*, integrando sensores, parâmetros de movimento e métricas de desempenho. Embora apresentem correlações elevadas em cenários controlados, a literatura reporta degradação de desempenho em contextos mais complexos, revelando limites entre modelos e variabilidade real do movimento humano. Estes sistemas mostram o potencial de ligar personalização, fabrico digital e monitorização remota, mas também deixam claro que a robustez do modelo depende da qualidade dos dados e da diversidade dos cenários de uso (Mikołajewski et al., 2023; Zhu & Zhong, 2022).
+ESTA SECÇÃO TEM QUE SER TODA REVISTA\!
 
-Na reabilitação, plataformas de *virtual coaching*, *serious games* configuráveis e modelos de cocriação tecnológica são apresentadas como formas de personalizar tratamentos com base em estado clínico, objetivos terapêuticos e *feedback* do utilizador. As avaliações reportam boa usabilidade e experiência do utilizador quando a participação é integrada no ciclo de desenvolvimento, e mostram que a personalização não se limita à interface, estendendo-se à seleção de exercícios, ao ritmo do programa e à mediação por profissionais de saúde (Cole, 2011; Kerr et al., 2024; Seregni et al., 2021).
+Em saúde, plataformas baseadas em “digital twins” são descritas como sistemas de serviço personalizados que conectam participantes através da cloud, integrando sensores, parâmetros de movimento e métricas de desempenho. Embora apresentem correlações elevadas em cenários controlados, a literatura reporta degradação de desempenho em contextos mais complexos, revelando limites entre modelos e variabilidade real do movimento humano.
 
-No contexto protésico e assistivo, evidencia-se a relevância de ecossistemas modulares e de cadeias de aprendizagem distribuída. Estudos sobre próteses pediátricas, serviços de reabilitação assistiva e modelos como o Victoria Hand Project mostram que a personalização pode combinar prototipagem iterativa, módulos intercambiáveis, criação digital de encaixes e circulação de *feedback* entre locais clínicos e equipas centrais de desenvolvimento. Neste enquadramento, a plataforma deixa de ser apenas uma interface de configuração e passa a funcionar como infraestrutura organizacional de aprendizagem e atualização contínua (Dechev et al., 2023; Howard et al., 2022; Sims et al., 2017).
+Na reabilitação, plataformas de “virtual coaching” e *serious games* configuráveis são apresentadas como formas de personalizar tratamentos com base em estado clínico e indicações terapêuticas, com avaliações que reportam boa usabilidade e experiência do utilizador quando a participação é integrada no ciclo de desenvolvimento.
 
-Em contextos de baixos recursos, a literatura reforça que a impressão 3D pode ser um facilitador importante, mas só produz benefício quando integrada em infraestruturas de apoio, confiança, manutenção e capacitação técnica. A simples disponibilização de tecnologia de fabrico não garante soluções adequadas nem adoção sustentada, pelo que os modelos participativos e a mediação local assumem papel determinante na tradução do potencial técnico em valor real para os utilizadores (Hussaini et al., 2023; Thorsen et al., 2023).
+No contexto protésico, evidencia-se a relevância de ecossistemas modulares e de cadeias de aprendizagem distribuída. Um exemplo conceptual recorrente é a existência de software clínico que integra CAD para criação de encaixes, seleção modular de componentes e distribuição central de atualizações testadas, alimentadas por feedback local, configurando um ciclo de co-evolução entre locais clínicos e núcleo de desenvolvimento. 
+
+Em contextos de baixos recursos (LMIC), a literatura reforça que a impressão 3D pode ser um facilitador, mas só produz benefício quando integrada em infraestruturas de apoio, confiança e capacitação técnica.
 
 #### **Limitações e lacunas: sustentabilidade, adoção e equilíbrio entre standardização e improviso**
 
-Apesar do potencial, a evidência empírica é frequentemente baseada em amostras pequenas e estudos de caso, limitando a generalização. Para além disso, surgem três tensões estruturais (Frangos et al., 2016; Howard et al., 2022; Thorsen et al., 2023):
+Apesar do potencial, a evidência empírica é frequentemente baseada em amostras pequenas e estudos de caso, limitando a generalização. Para além disso, surgem três tensões estruturais:
 
-– **Sustentabilidade da participação**: risco de *participation overload* e desistência; necessidade de mecanismos de apoio, curadoria e redistribuição de carga entre utilizadores e especialistas (Fischer et al., 2017).
+– **Sustentabilidade da participação**: risco de participation overload e desistência; necessidade de mecanismos de apoio e curadoria.
 
-– **Standardização vs personalização**: em domínios regulados, a personalização deve manter rastreabilidade, segurança e qualidade, o que pode colidir com improvisos locais necessários para responder a necessidades idiossincráticas (Costabile et al., 2007; Fischer et al., 2004).
+– **Standardização vs personalização**: em domínios regulados, a personalização deve manter rastreabilidade, segurança e qualidade, o que pode colidir com improvisos locais necessários para responder a necessidades idiossincráticas.
 
-– **Adoção e valor realizado**: a literatura sobre *mass customization* regista falhas frequentes em conversão e adoção de configuradores; por analogia, em saúde e tecnologias assistivas, configurabilidade não garante aceitação sem alinhamento com expectativas, confiança e integração em serviços (Akasaka et al., 2022; Frangos et al., 2016).
+– **Adoção e valor realizado**: a literatura sobre mass customization regista falhas frequentes em conversão e adoção de configuradores; por analogia, em saúde e tecnologias assistivas, configurabilidade não garante aceitação sem alinhamento com expectativas, confiança e integração em serviços.
 
 ### 2.7 Análise crítica do estado da arte e lacunas identificadas![Shape][image1] 
 
@@ -1051,50 +1053,6 @@ Virós-i-Martin, A., & Selva, D. (2021). A framework to study human-AI collabora
 Wang, X., & Hu, B. (2024). Machine learning algorithms for improved product design user experience. https://www.semanticscholar.org/paper/717e7ad25dcafec12f01b6732773bdf9c5a49661
 
 Yüksel, N., Börklü, H. R., Sezer, H. K., & Canyurt, O. (2023). Review of artificial intelligence applications in engineering design perspective. https://www.semanticscholar.org/paper/cd38b58edf6690459767097aca745a3806824236
-
-Akasaka, M., Veeckman, C., Georges, A., Schuurman, D., & Coorevits, L. (2022). A framework for configuring participation in living labs. https://www.semanticscholar.org/paper/305d55af5fda06b4d1b33e7d29c1f16d1b7ea488
-
-Akyol, P., Barker, T., Hall, R., Morrissey, K., McCarthy, J., & Mackley, K. L. (2021). DiaFit: Designing customizable wearables for Type 1 diabetes monitoring. https://www.semanticscholar.org/paper/ea18361f7564fb19db367899adb6295a07bfa05c
-
-Cole, E. (2011). Patient-centered design: Interface personalization for individuals with brain injury.
-
-Costabile, M. F., Fogli, D., Lanzilotti, R., Marcante, A., Mussio, P., Provenza, L. P., & Piccinno, A. (2007). Meta-design to face co-evolution and communication gaps between users and designers.
-
-Dechev, N., Penner, A., Barlow, I., Vukovic, G., & Lalji, M. (2023). Accessible prosthetic arms: Victoria Hand Project and the impact of 3D printing.
-
-Dexter, M., Crooks, E., Davies, P., & Simm, W. (2013). Open design and cystic fibrosis: Enabling participation in the design process.
-
-Fischer, G., Giaccardi, E., Ye, Y., Sutcliffe, A. G., & Mehandjiev, N. (2004). Meta-design.
-
-Fischer, G., Fogli, D., & Piccinno, A. (2017). Revisiting and broadening the meta-design framework for end-user development.
-
-Frangos, P., Mierdel, S., & Koirala, S. (2016). Democratising design in scientific innovation: Application of an open value network to open source hardware design.
-
-Franke, N., & von Hippel, E. (2002). Satisfying heterogeneous user needs via innovation toolkits: The case of Apache security software.
-
-Govender, R., Abrahmsén-Alami, S., Larsson, A., Borde, A., Liljeblad, A., & Folestad, S. (2020). Independent tailoring of dose and drug release via a modularized product design concept for mass customization. *Pharmaceutics*. 
-
-Howard, D., Davies, L., Dwyer, A., & Williams, J. (2022). Assessing the use of co-design to produce bespoke assistive technology solutions within a current healthcare service: A service evaluation.
-
-Hippel, E. von, & Katz, R. (2002). Shifting innovation to users via toolkits. *Management Science, 48*(7).
-
-Hussaini, A., Kyberd, P., Mulindwa, B., Ssekitoleko, R., Keeble, W., Kenney, L., & Howard, D. (2023). 3D printing in LMICs: Functional design for upper limb prosthetics in Uganda.
-
-Kerr, A., Del Din, S., Clarkson, P. J., & Rochester, L. (2024). A participatory model for cocreating accessible rehabilitation technology for stroke survivors: User-centered design approach.
-
-Kuhl, M., Lutz, J., Krause, D., & Vielhaber, M. (2020). Design of personalized devices: The tradeoff between individual value and personalization workload. *Applied Sciences*.
-
-Mikołajewski, D., Rojek, I., Kotlarz, P., Dorożyński, J., & Kopowski, J. (2023). Personalization of the 3D-printed upper limb exoskeleton design: Mechanical and IT aspects. *Applied Sciences*.
-
-Peters, C., & Richter, P. (2023). Individualizing patient pathways through modularization: Design and evaluation of healthcare-specific modularization parameters.
-
-Seregni, F., Arlati, S., Colombo, V., Spoladore, D., Greci, L., Pedroli, E., Serino, S., Cipresso, P., Goulene, K., Stroulia, E., Rizzo, A., & Sacco, M. (2021). Virtual coaching for rehabilitation: The participatory design experience of the vCare Project.
-
-Sims, T., Cranny, A., Metcalf, C., Chappell, P., & Donovan-Hall, M. (2017). Participatory design of pediatric upper limb prostheses: Qualitative methods and prototyping.
-
-Thorsen, R., Hansen, A. H., & Nilsen, E. R. (2023). From patient to maker: A workflow including people with cerebral palsy in co-creating assistive devices using 3D printing technologies.
-
-Zhu, Z., & Zhong, R. Y. (2022). A digital twin enabled wearable device for customized healthcare.
 
 [image1]: <data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVR4XmNgAAIAAAUAAQYUdaMAAAAASUVORK5CYII=>
 

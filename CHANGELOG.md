@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.1.9 - 2026-05-01
+
+- Created a new timestamped backup of `Projecto completo.md` before revising section `2.6`.
+- Revised section `2.6` in European Portuguese, strengthening the framing of configurable systems, meta-design, modularity, parametric personalization, remote participation, and healthcare/prosthetics applications.
+- Added in-text citations and the corresponding bibliography entries for the new `2.6` literature references, and bumped the manuscript version to `0.1.9`.
+
 ## 0.1.8 - 2026-05-01
 
 - Created a new timestamped backup of `Projecto completo.md` before revising section `2.5`.
