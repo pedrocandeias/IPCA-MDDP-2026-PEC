@@ -1,5 +1,37 @@
 # Changelog
 
+## 0.1.7 - 2026-05-01
+
+- Created a new timestamped backup of `Projecto completo.md` before revising section `2.4`.
+- Revised section `2.4` in European Portuguese, tightening the discussion of anthropometry, digital capture methods, interface measurement, and prosthetic fit.
+- Added in-text citations and the corresponding bibliography entries for the new `2.4` literature references, and bumped the manuscript version to `0.1.7`.
+
+## 0.1.6 - 2026-05-01
+
+- Created a new timestamped backup of `Projecto completo.md` before revising section `2.3`.
+- Added in-text citations to section `2.3` of `Projecto completo.md`, covering parametric variation, seed-design logic, DfAM integration, configurators, cost-performance tradeoffs, and educational implications.
+- Added the corresponding bibliography entries for the new `2.3` literature references and bumped the manuscript version to `0.1.6`.
+
+## 0.1.5 - 2026-05-01
+
+- Updated `AGENTS.md` to require that new `CHANGELOG.md` entries are added at the top of the file so the newest version always appears first.
+
+## 0.1.4 - 2026-05-01
+
+- Reordered `CHANGELOG.md` so the newest version entries appear at the top of the file.
+
+## 0.1.3 - 2026-05-01
+
+- Created a new timestamped backup of `Projecto completo.md` before revising section `2.2`.
+- Revised section `2.2` in European Portuguese, tightening the framing of industrial design, inclusive design, universal design, UCD/HCD, co-design, and healthcare implementation challenges.
+- Added in-text citations and the corresponding bibliography entries for the new `2.2` literature references, and bumped the manuscript version to `0.1.3`.
+
+## 0.1.2 - 2026-05-01
+
+- Created a new timestamped backup of `Projecto completo.md` before the next writing pass.
+- Added in-text citations to section `2.1` of `Projecto completo.md`, covering prosthesis definition, typologies, rehabilitation, abandonment, and regulatory framing.
+- Added the corresponding bibliography entries for the new `2.1` citations and bumped the manuscript version to `0.1.2`.
+
 ## 0.1.0 - 2026-05-01
 
 - Added document version tracking to `Projecto completo.md`.
@@ -19,15 +51,3 @@
 - Updated `AGENTS.md` to require that all text written or revised in `Projecto completo.md` uses European Portuguese (`português de Portugal`) consistently.
 - Expanded `AGENTS.md` with the full Elicit agent-session workflow, including section-mapped foldering, prose and source capture, export naming, local extraction, and cross-section handling guidance.
 - Revised section `2.1` of `Projecto completo.md` in European Portuguese, strengthening the framing of upper-limb prostheses as medical devices, clarifying typologies, clinical considerations, abandonment factors, and the regulatory context while preserving the existing chapter structure.
-
-## 0.1.2 - 2026-05-01
-
-- Created a new timestamped backup of `Projecto completo.md` before the next writing pass.
-- Added in-text citations to section `2.1` of `Projecto completo.md`, covering prosthesis definition, typologies, rehabilitation, abandonment, and regulatory framing.
-- Added the corresponding bibliography entries for the new `2.1` citations and bumped the manuscript version to `0.1.2`.
-
-## 0.1.3 - 2026-05-01
-
-- Created a new timestamped backup of `Projecto completo.md` before revising section `2.2`.
-- Revised section `2.2` in European Portuguese, tightening the framing of industrial design, inclusive design, universal design, UCD/HCD, co-design, and healthcare implementation challenges.
-- Added in-text citations and the corresponding bibliography entries for the new `2.2` literature references, and bumped the manuscript version to `0.1.3`.

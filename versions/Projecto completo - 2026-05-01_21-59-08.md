@@ -1,4 +1,4 @@
-**Versão do documento:** `0.1.7`
+**Versão do documento:** `0.1.3`
 
 ## **Capítulo 1 — Introdução** 
 
@@ -156,80 +156,80 @@ Estas lacunas evidenciam que o design industrial em dispositivos médicos não p
 
 ### 2.3 Fabricação Aditiva e parametrização no design de produto 
 
-A convergência entre modelação paramétrica e fabricação aditiva (FdA) tem sido amplamente reconhecida como um dos principais vetores de transformação no design contemporâneo, particularmente em contextos que exigem personalização, adaptação morfológica e produção de variantes em pequena escala. A literatura posiciona estas duas abordagens como complementares: a modelação paramétrica permite gerar múltiplas variações controladas a partir de um modelo-base, enquanto a fabricação aditiva viabiliza a materialização de geometrias complexas sem necessidade de moldes ou ferramentas dedicadas (Lei et al., 2016; Ozdemir et al., 2022; Stralen, 2018).
+A convergência entre modelação paramétrica e fabricação aditiva (FdA) tem sido amplamente reconhecida como um dos principais vetores de transformação no design contemporâneo, particularmente em contextos que exigem personalização, adaptação morfológica e produção de variantes em pequena escala. A literatura posiciona estas duas abordagens como complementares: a modelação paramétrica permite gerar múltiplas variações controladas a partir de um modelo-base, enquanto a fabricação aditiva viabiliza a materialização de geometrias complexas sem necessidade de moldes ou ferramentas dedicadas.
 
-Neste enquadramento, a personalização deixa de ser entendida como exceção e passa a constituir uma estratégia estruturada, operacionalizada através de “seed designs” ou modelos-base parametrizados. Estes modelos preservam uma arquitetura estável, expondo simultaneamente um conjunto limitado de variáveis ajustáveis, frequentemente acessíveis por meio de interfaces digitais ou configuradores destinados a utilizadores não especialistas (Ozdemir et al., 2022; Stralen, 2018).
+Neste enquadramento, a personalização deixa de ser entendida como exceção e passa a constituir uma estratégia estruturada, operacionalizada através de “seed designs” ou modelos-base parametrizados. Estes modelos preservam uma arquitetura estável, expondo simultaneamente um conjunto limitado de variáveis ajustáveis, frequentemente acessíveis por meio de interfaces digitais ou configuradores destinados a utilizadores não especialistas.
 
 #### **Modelação Paramétrica e Espaços de Variação**
 
-Os modelos paramétricos desempenham duas funções centrais. Em primeiro lugar, codificam a lógica geométrica do produto — relações, restrições e regras — assegurando que alterações nos valores dos parâmetros geram novas variantes sem comprometer integridade estrutural ou coerência funcional. Em segundo lugar, permitem explorar espaços de variação extensos, frequentemente descritos como quase contínuos, possibilitando a criação de famílias de produtos ajustáveis por meio da modificação de variáveis dimensionais ou funcionais (Lei et al., 2016; Ozdemir et al., 2022).
+Os modelos paramétricos desempenham duas funções centrais. Em primeiro lugar, codificam a lógica geométrica do produto — relações, restrições e regras — assegurando que alterações nos valores dos parâmetros geram novas variantes sem comprometer integridade estrutural ou coerência funcional. Em segundo lugar, permitem explorar espaços de variação extensos, frequentemente descritos como quase contínuos, possibilitando a criação de famílias de produtos ajustáveis por meio da modificação de variáveis dimensionais ou funcionais.
 
-No contexto de adaptação ao utilizador, a literatura destaca que a parametrização torna-se particularmente eficaz quando associada a dados mensuráveis, como antropometria ou digitalizações tridimensionais. Em vez de escalonamento uniforme, que pode introduzir desvios significativos, a definição de parâmetros independentes (por exemplo, comprimento e largura) permite ajustes mais precisos e controlo dimensional dentro de margens reduzidas. Em aplicações protésicas, esta abordagem revelou maior proximidade às cinemáticas naturais e melhor adequação morfológica face a modelos simplesmente escalados (Lim et al., 2018).
+No contexto de adaptação ao utilizador, a literatura destaca que a parametrização torna-se particularmente eficaz quando associada a dados mensuráveis, como antropometria ou digitalizações tridimensionais. Em vez de escalonamento uniforme, que pode introduzir desvios significativos, a definição de parâmetros independentes (por exemplo, comprimento e largura) permite ajustes mais precisos e controlo dimensional dentro de margens reduzidas. Em aplicações protésicas, esta abordagem revelou maior proximidade às cinemáticas naturais e melhor adequação morfológica face a modelos simplesmente escalados.
 
 #### **Integração com Fabricação Aditiva e Design for Additive manufacturing**
 
-A eficácia da personalização depende da integração precoce de constrangimentos de fabricação aditiva no processo de projeto. A literatura sobre *Design for Additive Manufacturing* (DfAM) sublinha que a incorporação antecipada de limitações de processo — tolerâncias, resistência mecânica, espessuras mínimas, orientação de impressão — reduz falhas de fabrico e encurta ciclos iterativos (Chtioui et al., 2023; Wiberg et al., 2019).
+A eficácia da personalização depende da integração precoce de constrangimentos de fabricação aditiva no processo de projeto. A literatura sobre Design for Additive Manufacturing (DfAM) sublinha que a incorporação antecipada de limitações de processo — tolerâncias, resistência mecânica, espessuras mínimas, orientação de impressão — reduz falhas de fabrico e encurta ciclos iterativos.
 
-Estudos aplicados demonstram que, ao determinar experimentalmente constrangimentos do processo e incorporá-los no modelo paramétrico, é possível produzir milhares de variantes únicas com elevada taxa de sucesso funcional, minimizando reimpressões (Wiberg et al., 2019). 
+Estudos aplicados demonstram que, ao determinar experimentalmente constrangimentos do processo e incorporá-los no modelo paramétrico, é possível produzir milhares de variantes únicas com elevada taxa de sucesso funcional, minimizando reimpressões. 
 
-Esta evidência reforça a necessidade de ligação sistemática entre fases de design e manufatura, contrariando abordagens que tratam a fabricação como etapa posterior e corretiva (Chtioui et al., 2023; Wiberg et al., 2019).
+Esta evidência reforça a necessidade de ligação sistemática entre fases de design e manufatura, contrariando abordagens que tratam a fabricação como etapa posterior e corretiva.
 
-As tecnologias de FA utilizadas incluem FDM/FFF (extrusão de termoplásticos), SLS (fusão seletiva a laser), SLA (estereolitografia) e processos industriais metálicos, refletindo diversidade de rotas produtivas para componentes personalizados. Cada tecnologia implica requisitos específicos de projeto, reforçando a importância de integrar critérios técnicos no modelo paramétrico desde o início (Chtioui et al., 2023; Wiberg et al., 2019).
+As tecnologias de FA utilizadas incluem FDM/FFF (extrusão de termoplásticos), SLS (fusão seletiva a laser), SLA (estereolitografia) e processos industriais metálicos, refletindo diversidade de rotas produtivas para componentes personalizados. Cada tecnologia implica requisitos específicos de projeto, reforçando a importância de integrar critérios técnicos no modelo paramétrico desde o início.
 
 #### **Configuradores e Co-criação Digital**
 
-A articulação entre modelação paramétrica e interfaces digitais possibilita novos modelos de co-criação e produção distribuída. Configuradores web ou interfaces baseadas em CAD expõem um conjunto delimitado de parâmetros, permitindo ao utilizador ajustar dimensões ou características dentro de intervalos válidos, frequentemente com feedback em tempo real sobre viabilidade (Ozdemir et al., 2022; Stralen, 2018).
+A articulação entre modelação paramétrica e interfaces digitais possibilita novos modelos de co-criação e produção distribuída. Configuradores web ou interfaces baseadas em CAD expõem um conjunto delimitado de parâmetros, permitindo ao utilizador ajustar dimensões ou características dentro de intervalos válidos, frequentemente com feedback em tempo real sobre viabilidade.
 
-Este modelo “*file-to-factory*” viabiliza fluxos digitais em que o ficheiro parametrizado é diretamente convertido em instruções de fabrico, seja localmente (impressão 3D descentralizada) ou através de encomenda online. A literatura associa esta lógica à democratização do design e à expansão de estratégias de *mass customization* e *mass personalization*, reduzindo custos marginais ao eliminar a utilização de moldes e dispositivos específicos de fabrico (Lei et al., 2016; Stralen, 2018).
+Este modelo “*file-to-factory”* viabiliza fluxos digitais em que o ficheiro parametrizado é diretamente convertido em instruções de fabrico, seja localmente (impressão 3D descentralizada) ou através de encomenda online. A literatura associa esta lógica à democratização do design e à expansão de estratégias de *mass customization* e *mass personalization*, reduzindo custos marginais ao eliminar a utilização de moldes e dispositivos específicos de fabrico.
 
-Contudo, é enfatizado que configuradores eficazes devem limitar o número de parâmetros expostos e fornecer orientação clara sobre limites válidos, evitando complexidade excessiva ou escolhas superficiais (Ozdemir et al., 2022).
+Contudo, é enfatizado que configuradores eficazes devem limitar o número de parâmetros expostos e fornecer orientação clara sobre limites válidos, evitando complexidade excessiva ou escolhas superficiais.
 
 #### **Otimização, Geração e Avaliação de Desempenho**
 
-A parametrização é frequentemente combinada com métodos de otimização topológica, geração de estruturas reticuladas e abordagens multiobjetivo. Estas estratégias permitem gerir compromissos entre peso, resistência, custo e tempo de fabrico, explorando fronteiras de Pareto para selecionar soluções alinhadas com objetivos específicos (Lei et al., 2016; Yao et al., 2016).
+A parametrização é frequentemente combinada com métodos de otimização topológica, geração de estruturas reticuladas e abordagens multiobjetivo. Estas estratégias permitem gerir compromissos entre peso, resistência, custo e tempo de fabrico, explorando fronteiras de Pareto para selecionar soluções alinhadas com objetivos específicos.
 
-Em contextos médicos e assistivos, estudos demonstram a integração de modelos paramétricos com análises de elementos finitos (FEM) para validar desempenho estrutural, bem como algoritmos generativos que adaptam padrões e estruturas superficiais a geometrias individualizadas (Lei et al., 2016; Lim et al., 2018). 
+Em contextos médicos e assistivos, estudos demonstram a integração de modelos paramétricos com análises de elementos finitos (FEM) para validar desempenho estrutural, bem como algoritmos generativos que adaptam padrões e estruturas superficiais a geometrias individualizadas. 
 
-Este cruzamento entre parametrização, simulação e FA evidencia um ecossistema digital integrado que sustenta personalização técnica com base quantitativa (Lei et al., 2016; Yao et al., 2016).
+Este cruzamento entre parametrização, simulação e FA evidencia um ecossistema digital integrado que sustenta personalização técnica com base quantitativa.
 
 #### **Implicações para o Design Industrial**
 
-A literatura converge na ideia de que a robustez do modelo paramétrico é condição crítica para personalização escalável. Modelos mal estruturados ou com dependências inconsistentes podem comprometer a simulação, otimização e configuração de famílias de produto (Lei et al., 2016; Wiberg et al., 2019). 
+A literatura converge na ideia de que a robustez do modelo paramétrico é condição crítica para personalização escalável. Modelos mal estruturados ou com dependências inconsistentes podem comprometer a simulação, otimização e configuração de famílias de produto. 
 
-Assim, a qualidade da definição paramétrica assume papel estratégico na viabilidade de sistemas adaptáveis (Ozdemir et al., 2022).
+Assim, a qualidade da definição paramétrica assume papel estratégico na viabilidade de sistemas adaptáveis.
 
-Em termos económicos, a FA permite reduzir penalizações tradicionais associadas à variação de produto, sustentando modelos de personalização acessíveis. Estudos orientados para famílias de produto indicam que a integração de modelos paramétricos com análises de custo e desempenho pode manter custos relativamente estáveis mesmo com elevada diversidade geométrica (Lei et al., 2016; Yao et al., 2016).
+Em termos económicos, a FA permite reduzir penalizações tradicionais associadas à variação de produto, sustentando modelos de personalização acessíveis. Estudos orientados para famílias de produto indicam que a integração de modelos paramétricos com análises de custo e desempenho pode manter custos relativamente estáveis mesmo com elevada diversidade geométrica.
 
-No plano educativo e profissional, recomenda-se a integração de DfAM em currículos de design industrial, promovendo competências que articulem conceção, simulação e fabricação digital num fluxo contínuo (Kandikjan et al., 2022).
+No plano educativo e profissional, recomenda-se a integração de DfAM em currículos de design industrial, promovendo competências que articulem conceção, simulação e fabricação digital num fluxo contínuo.
 
 ### 2.4 Antropometria aplicada ao design protésico
 
-A antropometria constitui um fundamento técnico e metodológico central no design protésico, na medida em que a adequação geométrica do dispositivo ao corpo do utilizador condiciona diretamente conforto, segurança, desempenho funcional e aceitação. Em próteses e tecnologias de apoio, a literatura recente evidencia uma transição progressiva de medições manuais baseadas em marcos anatómicos para processos digitais de captura de superfície (digitalização 3D e fotogrametria), integrados com fluxos CAD/CAM e fabricação aditiva. Esta evolução é frequentemente descrita como uma cadeia “aquisição anatómica → modelação/retificação em CAD → fabrico aditivo → pós-processamento”, embora seja também reconhecido que muitos estudos permanecem em fases de prova de conceito e carecem de validação longitudinal e em larga escala (Chainando et al., 2025).
+A antropometria constitui um fundamento técnico e metodológico central no design protésico, na medida em que a adequação geométrica do dispositivo ao corpo do utilizador condiciona diretamente conforto, segurança, desempenho funcional e aceitação. Em próteses e tecnologias de apoio, a literatura recente evidencia uma transição progressiva de medições manuais baseadas em marcos anatómicos para processos digitais de captura de superfície (digitalização 3D e fotogrametria), integrados com fluxos CAD/CAM e fabricação aditiva. Esta evolução é frequentemente descrita como uma cadeia “aquisição anatómica → modelação/retificação em CAD → fabrico aditivo → pós-processamento”, embora seja também reconhecido que muitos estudos permanecem em fases de prova de conceito e carecem de validação longitudinal e em larga escala.
 
 #### **Da dimensão linear à “forma” como dado de projeto**
 
-Historicamente, a antropometria aplicada ao design baseou-se em medidas escalares (comprimentos, larguras, perímetros), obtidas com instrumentos como paquímetros, compassos antropométricos e fita métrica, muitas vezes segundo procedimentos normalizados (por exemplo, ISO 7250). Contudo, no design protésico — particularmente em interfaces corpo–dispositivo, como o encaixe (*socket*) — a literatura sublinha que a “forma” (*shape*) tem um papel determinante, porque pequenas variações volumétricas e distribuições de pressão podem gerar desconforto, lesões cutâneas e abandono do dispositivo. Estudos e revisões referem que o ajuste protésico pode exigir tolerâncias muito reduzidas e que a complexidade anatómica, assim como trajetórias de carga e zonas de alívio, não é devidamente capturada por um conjunto limitado de medidas lineares (Albin & Molenbroek, 2023; Young et al., 2023).
+Historicamente, a antropometria aplicada ao design baseou-se em medidas escalares (comprimentos, larguras, perímetros), obtidas com instrumentos como paquímetros, compassos antropométricos e fita métrica, muitas vezes segundo procedimentos normalizados (por exemplo, ISO 7250). Contudo, no design protésico — particularmente em interfaces corpo–dispositivo, como o encaixe (*socket*) — a literatura sublinha que a “forma” (*shape)* tem um papel determinante, porque pequenas variações volumétricas e distribuições de pressão podem gerar desconforto, lesões cutâneas e abandono do dispositivo. Estudos e revisões referem que o ajuste protésico pode exigir tolerâncias muito reduzidas e que a complexidade anatómica, assim como trajetórias de carga e zonas de alívio, não é devidamente capturada por um conjunto limitado de medidas lineares.
 
-Assim, observa-se uma valorização crescente de métodos capazes de capturar geometria tridimensional de alta resolução e de traduzir essa informação para modelos CAD passíveis de retificação, parametrização e fabrico (Squibb et al., 2024).
+Assim, observa-se uma valorização crescente de métodos capazes de capturar geometria tridimensional de alta resolução e de traduzir essa informação para modelos CAD passíveis de retificação, parametrização e fabrico.
 
 #### **Métodos de recolha antropométrica em próteses e tecnologias de apoio**
 
 A literatura organiza os métodos de recolha em famílias, cada uma com potencialidades e limitações específicas para o design protésico:
 
 1. **Antropometria manual**  
-    Inclui medições em posturas normalizadas com instrumentos clínicos e de ergonomia. Mantém relevância em contextos de acessibilidade clínica e em monitorização simples (por exemplo, circunferências para inferir variações do coto). Contudo, é assinalado que medidas de circunferência podem ser um proxy frágil para alterações reais de volume, dependendo da geometria e distribuição de tecidos, o que limita a sua fiabilidade para decisões de ajuste fino (Ibrahim et al., 2024).
+    Inclui medições em posturas normalizadas com instrumentos clínicos e de ergonomia. Mantém relevância em contextos de acessibilidade clínica e em monitorização simples (por exemplo, circunferências para inferir variações do coto). Contudo, é assinalado que medidas de circunferência podem ser um proxy frágil para alterações reais de volume, dependendo da geometria e distribuição de tecidos, o que limita a sua fiabilidade para decisões de ajuste fino.
 
 2. **Digitalização 3D (scanning ótico)**  
-    Capta a superfície corporal em nuvens de pontos ou malhas, posteriormente limpas e convertidas em modelos utilizáveis (frequentemente STL) para CAD e fabrico. É descrita como facilitadora de fluxos de personalização, e pode ser combinada com automatização (por exemplo, correspondência de características anatómicas) para reduzir trabalho manual. A consistência pode variar com a complexidade da forma, sendo relatados desafios de repetibilidade quando a geometria é irregular, como em cotos complexos (Squibb et al., 2024).
+    Capta a superfície corporal em nuvens de pontos ou malhas, posteriormente limpas e convertidas em modelos utilizáveis (frequentemente STL) para CAD e fabrico. É descrita como facilitadora de fluxos de personalização, e pode ser combinada com automatização (por exemplo, correspondência de características anatómicas) para reduzir trabalho manual. A consistência pode variar com a complexidade da forma, sendo relatados desafios de repetibilidade quando a geometria é irregular, como em cotos complexos.
 
 3. **Fotogrametria**  
-    Reconstrói modelos 3D a partir de fotografias 2D, incluindo soluções baseadas em smartphone. É apresentada como método promissor pela rapidez de captura e potencial democratização, embora possa exigir mais tempo de processamento e cuidados com iluminação e cobertura de imagem. Em sínteses focadas em ortóteses, surge como uma das abordagens mais adequadas para aquisição de geometria 3D do corpo em fluxos personalizados (Silva et al., 2024).
+    Reconstrói modelos 3D a partir de fotografias 2D, incluindo soluções baseadas em smartphone. É apresentada como método promissor pela rapidez de captura e potencial democratização, embora possa exigir mais tempo de processamento e cuidados com iluminação e cobertura de imagem. Em sínteses focadas em ortóteses, surge como uma das abordagens mais adequadas para aquisição de geometria 3D do corpo em fluxos personalizados.
 
 4. **Imagem médica (CT/MRI)**  
     Permite obter geometria externa e, em alguns casos, informação interna (por exemplo, estruturas ósseas), suportando modelos mais ricos e abordagens como modelação estatística de forma. Contudo, envolve maior custo e acessibilidade, e, no caso do CT, considerações associadas a exposição a radiação e dependência de contexto hospitalar.
 
 5. **Medições complementares da interface (pressão, termografia, bioimpedância)**  
-    A literatura enfatiza que, em próteses, a adequação não é apenas geométrica: depende do comportamento da interface durante uso. Por isso, surgem métodos adjuntos que quantificam sinais de ajuste, como distribuição de pressão e cisalhamento, “hot spots” térmicos e flutuações de volume do coto. Estes métodos ajudam a ligar decisões de forma/retificação a desfechos de conforto e segurança, embora sejam descritos como, em muitos casos, ainda experimentais e com barreiras de adoção clínica (Ibrahim et al., 2024; Young et al., 2023).
+    A literatura enfatiza que, em próteses, a adequação não é apenas geométrica: depende do comportamento da interface durante uso. Por isso, surgem métodos adjuntos que quantificam sinais de ajuste, como distribuição de pressão e cisalhamento, “hot spots” térmicos e flutuações de volume do coto. Estes métodos ajudam a ligar decisões de forma/retificação a desfechos de conforto e segurança, embora sejam descritos como, em muitos casos, ainda experimentais e com barreiras de adoção clínica.
 
 #### **Interpretação e aplicação de dados antropométricos no projeto**
 
@@ -237,31 +237,31 @@ A passagem de dados antropométricos para critérios de projeto ocorre por difer
 
 – **Dimensionamento estatístico por percentis e avaliação de incompatibilidades dimensionais**: método típico em design ergonómico para definir dimensões que acomodam uma percentagem de população; aplicado sobretudo a produtos de uso “externo” (por exemplo, cadeiras de rodas e interfaces).  
  – **Métodos multivariados e aprendizagem estatística**: usados quando se trabalha com dados de forma de alta dimensão (malhas, secções, nuvens de pontos), permitindo extrair padrões de retificação ou modos de variação.  
-– **Modelos preditivos e modelação estatística de forma (SSM)**: aplicados para reconstruir geometria a partir de medições reduzidas e para inferir relações entre superfície e anatomia interna, com PCA e regressões como ferramentas frequentes, embora limitadas por tamanhos amostrais reduzidos em vários estudos (Sunderland et al., 2024).
+ – **Modelos preditivos e modelação estatística de forma (SSM)**: aplicados para reconstruir geometria a partir de medições reduzidas e para inferir relações entre superfície e anatomia interna, com PCA e regressões como ferramentas frequentes, embora limitadas por tamanhos amostrais reduzidos em vários estudos.
 
-Em design protésico, a aplicação mais crítica recai sobre o encaixe e zonas de contacto, onde a geometria capturada é submetida a processos de retificação (diferenças propositadas entre corpo e dispositivo) e depois validada por critérios de conforto e interface. A literatura é explícita ao considerar a captura dimensional/geométrica do coto como etapa decisiva para a qualidade do encaixe (Kannenberg et al., 2024; Young et al., 2023).
+Em design protésico, a aplicação mais crítica recai sobre o encaixe e zonas de contacto, onde a geometria capturada é submetida a processos de retificação (diferenças propositadas entre corpo e dispositivo) e depois validada por critérios de conforto e interface. A literatura é explícita ao considerar a captura dimensional/geométrica do coto como etapa decisiva para a qualidade do encaixe.
 
 #### **Evidência por tipo de dispositivo**
 
 Embora os princípios sejam transversais, a literatura evidencia diferenças por tipo de dispositivo:
 
-– **Encaixes protésicos e ortóteses**: forte ênfase em digitalização 3D, análise quantitativa de malhas e validação por métricas de interface e/ou simulação (FEA). Em workflows digitais de fabrico, verificam-se diferenças geométricas relevantes entre soluções manuais e digitais, reforçando que “digitalizar” não é apenas mudar de formato, mas alterar o resultado de ajuste final (Kannenberg et al., 2024; Silva et al., 2024).  
- – **Próteses de membro superior**: coexistência de CT, scanners comerciais e fotogrametria como métodos de captura; estudos comparativos reportam que medições obtidas por 3D scanning podem ser fiáveis e repetíveis face a métodos tradicionais quando bem implementadas. Há também destaque para pipelines automatizados que adaptam modelos CAD inteligentes a dados de digitalização, encurtando o tempo entre captura e modelo pronto a fabricar (Chainando et al., 2025; Çıklaçandır et al., 2022).  
+– **Encaixes protésicos e ortóteses**: forte ênfase em digitalização 3D, análise quantitativa de malhas e validação por métricas de interface e/ou simulação (FEA). Em workflows digitais de fabrico, verificam-se diferenças geométricas relevantes entre soluções manuais e digitais, reforçando que “digitalizar” não é apenas mudar de formato, mas alterar o resultado de ajuste final.  
+ – **Próteses de membro superior**: coexistência de CT, scanners comerciais e fotogrametria como métodos de captura; estudos comparativos reportam que medições obtidas por 3D scanning podem ser fiáveis e repetíveis face a métodos tradicionais quando bem implementadas. Há também destaque para pipelines automatizados que adaptam modelos CAD inteligentes a dados de digitalização, encurtando o tempo entre captura e modelo pronto a fabricar.  
  – **Produtos de assistência  assistivos definidos por zonas de alcance funcional (ex. cadeiras de rodas e acessórios)**: a antropometria é operacionalizada frequentemente como critérios de posicionamento e acessibilidade, com mapeamentos de alcance e critérios percentílicos.
 
 #### **Limitações, lacunas e recomendações**
 
 Apesar do avanço metodológico, a literatura identifica limitações consistentes: amostras pequenas em estudos aplicados, inconsistência no registo de etapas de retificação e pós-processamento e falta de validação em contexto real e de longo prazo.
 
-Um problema estrutural particularmente relevante para o design inclusivo é a escassez de bases de dados antropométricas normalizadas para pessoas com deficiência, o que dificulta estimativas de acomodação e pode perpetuar desajustes de design para populações sub-representadas (Bradtmiller, 2022).
+Um problema estrutural particularmente relevante para o design inclusivo é a escassez de bases de dados antropométricas normalizadas para pessoas com deficiência, o que dificulta estimativas de acomodação e pode perpetuar desajustes de design para populações sub-representadas.
 
-Como orientação prática, emergem recomendações claras: selecionar o método de medição em função da questão de design (captura de forma, monitorização de volume, validação de interface), garantir repetibilidade através de posturas e marcação consistente de pontos de referência anatómicos, e utilizar bases de dados antropométricas alinhadas com a população-alvo quando se pretende definir critérios de acomodação e ajuste (ASTM International, 2024; Ibrahim et al., 2024). 
+Como orientação prática, emergem recomendações claras: selecionar o método de medição em função da questão de design (captura de forma, monitorização de volume, validação de interface), garantir repetibilidade através de posturas e marcação consistente de pontos de referência anatómicos, e utilizar bases de dados antropométricas alinhadas com a população-alvo quando se pretende definir critérios de acomodação e ajuste. 
 
-Acresce a recomendação de distinguir ajuste estático (em posturas padronizadas) de ajuste dinâmico (durante amplitude de movimento funcional), reconhecendo que ajuste e conforto são conceitos relacionados, mas não equivalentes (ASTM International, 2024).
+Acresce a recomendação de distinguir ajuste estático (em posturas padronizadas) de ajuste dinâmico (durante amplitude de movimento funcional), reconhecendo que ajuste e conforto são conceitos relacionados, mas não equivalentes.
 
 #### **Síntese**
 
-A antropometria aplicada ao design protésico evoluiu para um paradigma digital centrado na captura e interpretação de forma tridimensional, complementada por métricas de interface que aproximam a medição do desempenho real em uso. Esta abordagem permite maior precisão na personalização, integração com CAD/parametrização e fabricação aditiva, e abre caminho a fluxos parcialmente automatizados de adaptação. Contudo, a consolidação destas práticas exige melhoria na padronização de procedimentos, aumento de amostras e criação de bases de dados antropométricas mais representativas, garantindo que a personalização e a inclusão não dependem apenas de capacidade tecnológica, mas também de evidência robusta e acessível (Bradtmiller, 2022; Sunderland et al., 2024).
+A antropometria aplicada ao design protésico evoluiu para um paradigma digital centrado na captura e interpretação de forma tridimensional, complementada por métricas de interface que aproximam a medição do desempenho real em uso. Esta abordagem permite maior precisão na personalização, integração com CAD/parametrização e fabricação aditiva, e abre caminho a fluxos parcialmente automatizados de adaptação. Contudo, a consolidação destas práticas exige melhoria na padronização de procedimentos, aumento de amostras e criação de bases de dados antropométricas mais representativas, garantindo que a personalização e a inclusão não dependem apenas de capacidade tecnológica, mas também de evidência robusta e acessível.
 
 ### 2.5 Inteligência Artificial no processo de design 
 
@@ -930,17 +930,9 @@ Deste ponto de vista, o sistema proposto assume uma posição produtiva: usa a i
 
 Alili, A., Nalam, V., Li, M., Liu, M., Feng, J., Si, J., & Huang, H. (2023). A novel framework to facilitate user preferred tuning for a robotic knee prosthesis. *IEEE Transactions on Neural Systems and Rehabilitation Engineering, 31*, 895-903. https://doi.org/10.1109/TNSRE.2023.3236217
 
-Albin, T., & Molenbroek, J. F. M. (2023). Introduction to the special issue, anthropometry in design. https://repository.tudelft.nl/file/File_da5bfdc9-98bc-41d3-a402-553d5f0d0a63
-
-ASTM International. (2024). *Standard guide for assessing fit accommodation of exoskeletons for manufacturers and designers*. https://www.astm.org/f3661-24.html
-
 Bai, X., Yuan, J., Liu, M., Huang, H., & Feng, J. (2024). Human factors considerations of interaction between wearers and intelligent lower-limb prostheses: A prospective discussion. *Journal of NeuroEngineering and Rehabilitation, 21*, 187. https://doi.org/10.1186/s12984-024-01475-x
 
 Bates, T., Fergason, J., & Pierrie, S. N. (2020). Technological advances in prosthesis design and rehabilitation following upper extremity limb loss. https://www.semanticscholar.org/paper/905056ffa9fa963e8df8b974d90b94c05a5f7e29
-
-Bradtmiller, B. (2022). Design for all, design for disabled: How important is anthropometry? https://researchonline.jcu.edu.au/76898/
-
-Chainando, N., Faephu, C., Suwaphong, N., Bureerat, S., Limphirat, W., Thammajaruk, P., & Syafrudin, M. (2025). Applying 3D scanning and printing techniques to produce upper limb prostheses: Bibliometric analysis and scoping review. *Prosthesis, 7*(2), 26. https://www.mdpi.com/2673-1592/7/2/26/pdf?version=1740996517
 
 da Silveira Romero, R. C., Costa, K. A., Reis, P. H. R. G., & Vimieiro, C. B. S. (2025). Development of parametric prostheses for different levels of human hand amputations manufactured through additive manufacturing. *Applied Sciences, 15*, 4467. https://doi.org/10.3390/app15084467
 
@@ -950,19 +942,7 @@ Engdahl, S., Gonzalez, M. A., Lee, C., & Gates, D. H. (2024). Perspectives on th
 
 Fink, C., & Diamond, Y. (2023). Prosthesis options and management in upper extremity amputation. https://www.semanticscholar.org/paper/3532a770446eb6144ef25a6b0162d1f98b61e0ff
 
-Ibrahim, M. T., Azman, H., Adzahar, N. S. I. A., Ismail, M. A., & Shaharuddin, S. (2024). Techniques for measuring the fluctuation of residual lower limb volume in clinical practices: A systematic review of the past four decades. *Applied Sciences, 14*(6), 2594. https://www.mdpi.com/2076-3417/14/6/2594/pdf?version=1710932396
-
-Kandikjan, T., Djokikj, J., Mircheski, I., & Angeleska, E. (2022). Integrating parametric design and additive manufacturing knowledge in industrial design education. https://www.semanticscholar.org/paper/7d28a8c124ef0a3599dd937791a3f3e093775ac0
-
-Kannenberg, A., Buis, A. W. P., Sengeh, D. M., & Worsley, P. R. (2024). Insights into the spectrum of transtibial prosthetic socket design from expert clinicians and their digital records. *Frontiers in Rehabilitation Sciences, 5*. https://doi.org/10.3389/fresc.2024.1354069
-
-Lei, N., Yao, X., Moon, S. K., & Bi, G. (2016). An additive manufacturing process model for product family design. https://dr.ntu.edu.sg/bitstream/10356/83735/1/An%20additive%20manufacturing%20process%20model%20for%20product%20family%20design.pdf
-
-Lindell, E., Tingsvik, H., Guo, L., & Peterson, J. (2021). 3D body scan as anthropometric tool for individualized prosthetic socks. https://sciendo.com/pdf/10.2478/aut-2021-0007
-
 Lim, D., Georgiou, T., Bhardwaj, A., O'Connell, G. D., & Agogino, A. M. (2018, August 26). Customization of a 3D printed prosthetic finger using parametric modeling. In *Proceedings of the ASME 2018 International Design Engineering Technical Conferences and Computers and Information in Engineering Conference*. https://doi.org/10.1115/DETC2018-85645
-
-Ozdemir, M., Verlinden, J., & Cascini, G. (2022). Design methodology for mass personalisation enabled by digital manufacturing. https://www.cambridge.org/core/services/aop-cambridge-core/content/view/0F2B66A61E2CE6410F9D1F335244EB9C/S2053470122000038a.pdf/div-class-title-design-methodology-for-mass-personalisation-enabled-by-digital-manufacturing-div.pdf
 
 Peixoto, S., Martins, N., Miranda, D., Matos, D., & Carvalho, V. (2025). The design process in the development of an online platform for personalizing wearable prostheses: A preliminary approach. *Designs, 9*(2), 39. https://doi.org/10.3390/designs9020039
 
@@ -971,8 +951,6 @@ Parlamento Europeu, & Conselho da União Europeia. (2017). *Regulation (EU) 2017
 Chapman, K., Allen, C., & Kendall, E. (2025). Methods for co-designing health communication initiatives with people with disability: A scoping review. *Health Communication*. https://doi.org/10.1080/10810730.2025.2462679
 
 Clarkson, J., & Coleman, R. (2010). Inclusive design. *Design Studies*. https://doi.org/10.1080/09544821003693689
-
-Chtioui, N., Gaha, R., & Benamara, A. (2023). Design for additive manufacturing: Review and framework proposal. https://sei.ardascience.com/index.php/journal/article/download/185/169
 
 Fisher, M., & Johansen, E. (2020). Human-centered design for medical devices and diagnostics in global health. https://www.semanticscholar.org/paper/89c3c6bd56f4d0b54f5da3e3c96f18e815d9f5d4
 
@@ -994,29 +972,13 @@ Saldarriaga, A. M., Romero, E., Abarca, V. E., & Elias, D. A. (2024). A parametr
 
 Shah, S., & Robinson, I. (2006). User involvement in healthcare technology development and assessment: Structured literature review. https://www.semanticscholar.org/paper/299d5b2c1d65791cc4c9f2db76edf20f479adcbc
 
-Silva, R., Silva, B., Fernandes, C., Morouco, P., Alves, N., & Veloso, A. (2024). A review on 3D scanners studies for producing customized orthoses. *Sensors, 24*(5), 1373. https://pmc.ncbi.nlm.nih.gov/articles/PMC10935386/pdf/sensors-24-01373.pdf
-
 Story, M. (2006). Applying the principles of universal design to medical devices. https://www.semanticscholar.org/paper/d0d84425d517331607c9120290ed26d1bf2e1862
 
-Stralen, M. V. (2018). Mass customization: A critical perspective on parametric design, digital fabrication and design democratization. https://www.semanticscholar.org/paper/a18f2c4d248e791d2a9b84f3cab268d5a377cc10
-
-Squibb, C., Madigan, M. L., & Philen, M. K. (2024). A high precision laser scanning system for measuring shape and volume of transtibial amputee residual limbs: Design and validation. *PLOS ONE, 19*(5). https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0301619&type=printable
-
-Sunderland, F., Willerth, S., Silver-Thorn, B., & Dickinson, A. (2024). OpenLimbTT, a transtibial residual limb shape model for prosthetics simulation and design: Creating a statistical anatomic model using sparse data. *medRxiv*. https://www.medrxiv.org/content/medrxiv/early/2024/11/30/2024.11.27.24317622.full.pdf
-
-Çıklaçandır, S., Yilmaz, M., Ozmert, O. S., Şahin, A. M., & Mihçin, S. (2022). Comparison of traditional, MRI, and 3D scanning anthropometric measurements in hand prosthesis design. https://www.semanticscholar.org/paper/a24aab5d4434a01eeeda73c8a62f921580ceba54
-
 White, J., & Mosca, E. I. (2022). Developing innovative solutions for universal design in healthcare and other sectors. https://www.semanticscholar.org/paper/df2bb0d53af547bd89b2c716933c2a544bf422b1
-
-Wiberg, A., Persson, J., & Ölvander, J. (2019). Design for additive manufacturing: A review of available design methods and software. https://www.semanticscholar.org/paper/e03bf769f344512519f1005baa1d6b83fe4fc8ed
 
 Wilke, H., Badke-Schaub, P., & Thoring, K. (2020). The healthcare design dilemma: Perils of a technology-driven design process for medical products. https://www.semanticscholar.org/paper/078781d9389d4618fc1b5db9347ab68ca7ef46d9
 
 Walters, S., Seminati, E., Metcalfe, B., Bailey, N. Y., & Pegg, E. C. (2025). Demystifying upper limb hybrid prostheses: A scoping review. https://www.semanticscholar.org/paper/d659aff9bb182a3c92377571973e6e077a3b1838
-
-Yao, X., Moon, S. K., & Bi, G. (2016). A cost-driven design methodology for additive manufactured variable platforms in product families. https://www.semanticscholar.org/paper/f7bc9dc2a80714c18ac068f45b99408b0f4fe65e
-
-Young, P. R., Hebert, J. S., Marasco, P., Carey, J., & Schofield, J. S. (2023). Advances in the measurement of prosthetic socket interface mechanics: A review of technology, techniques, and a 20-year update. https://www.tandfonline.com/doi/pdf/10.1080/17434440.2023.2244418?needAccess=true&role=button
 [image1]: <data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVR4XmNgAAIAAAUAAQYUdaMAAAAASUVORK5CYII=>
 
 [image2]: <data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVR4XmNgAAIAAAUAAQYUdaMAAAAASUVORK5CYII=>
