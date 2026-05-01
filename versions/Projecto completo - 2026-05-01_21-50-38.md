@@ -1,4 +1,4 @@
-**Versão do documento:** `0.1.3`
+**Versão do documento:** `0.1.2`
 
 ## **Capítulo 1 — Introdução** 
 
@@ -96,53 +96,53 @@ A demonstração de segurança e desempenho implica avaliação clínica sistem�
 
 ###  2.2 Design Industrial, Design Inclusivo e Design Centrado no Utilizador  
 
-O design industrial, no contexto da saúde e das tecnologias de apoio, é progressivamente reconhecido como uma disciplina mediadora entre necessidades humanas, contextos de utilização e sistemas técnicos regulados. A literatura evidencia que o design não se limita à configuração formal de produtos, mas desempenha um papel estruturante na promoção da inclusão, da autonomia e da participação social, ao modelar a relação entre indivíduos e ambientes através de artefactos e sistemas. Em particular, nas tecnologias de apoio, o design é descrito como um elemento que medeia a interação entre utilizadores e o seu meio envolvente, contribuindo para reduzir barreiras funcionais e sociais e, consequentemente, para melhorar resultados de participação e qualidade de vida (Clarkson & Coleman, 2010; Shah & Robinson, 2006).
+O design industrial, no contexto da saúde e das tecnologias de apoio, é progressivamente reconhecido como uma disciplina mediadora entre necessidades humanas, contextos de utilização e sistemas técnicos regulados. A literatura evidencia que o design não se limita à configuração formal de produtos, mas desempenha um papel estruturante na promoção da inclusão, da autonomia e da participação social, ao modelar a relação entre indivíduos e ambientes através de artefactos e sistemas. Em particular, nas tecnologias de apoio, o design é descrito como um elemento que medeia a interação entre utilizadores e o seu meio envolvente, contribuindo para reduzir barreiras funcionais e sociais e, consequentemente, para melhorar resultados de participação e qualidade de vida
 
-Paralelamente, o design inclusivo é apresentado como um imperativo contemporâneo que visa minimizar a exclusão evitável resultante de decisões projetuais que não consideram a diversidade populacional e a variabilidade de capacidades ao longo do tempo. Esta perspetiva alinha-se com a responsabilidade dos sistemas de saúde de responder a utilizadores heterogéneos, com diferentes condições físicas, cognitivas e contextuais (Clarkson & Coleman, 2010).
+Paralelamente, o design inclusivo é apresentado como um imperativo contemporâneo que visa minimizar a exclusão evitável resultante de decisões projetuais que não consideram a diversidade populacional e a variabilidade de capacidades ao longo do tempo Esta perspetiva alinha-se com a responsabilidade dos sistemas de saúde de responder a utilizadores heterogéneos, com diferentes condições físicas, cognitivas e contextuais.
 
 #### **Design Industrial em dispositivos médicos**
 
-No domínio dos dispositivos médicos, o design industrial surge tanto como prática metodológica centrada no utilizador como papel colaborativo integrado em equipas multidisciplinares de desenvolvimento. A literatura identifica, contudo, uma lacuna estrutural: muitos dispositivos médicos continuam a ser desenvolvidos predominantemente com base em abordagens de engenharia e requisitos regulatórios, com participação limitada de profissionais com formação específica em metodologias de design centrado no uso. Esta assimetria contribui para soluções tecnicamente robustas, mas nem sempre otimizadas em termos de ergonomia, usabilidade ou integração na vida quotidiana (Fisher & Johansen, 2020; Wilke et al., 2020).
+No domínio dos dispositivos médicos, o design industrial surge tanto como prática metodológica centrada no utilizador como papel colaborativo integrado em equipas multidisciplinares de desenvolvimento. A literatura identifica, contudo, uma lacuna estrutural: muitos dispositivos médicos continuam a ser desenvolvidos predominantemente com base em abordagens de engenharia e requisitos regulatórios, com participação limitada de designers industriais formados em metodologias centradas no uso. Esta assimetria contribui para soluções tecnicamente robustas, mas nem sempre otimizadas em termos de ergonomia, usabilidade ou integração na vida quotidiana.
 
-Neste contexto, o design industrial assume relevância não apenas na fase de conceptualização, mas também na definição de requisitos de utilização, na tradução de necessidades clínicas em soluções tangíveis e na articulação entre requisitos regulatórios e experiência do utilizador (Fisher & Johansen, 2020; Shah & Robinson, 2006).
+Neste contexto, o design industrial assume relevância não apenas na fase de conceptualização, mas também na definição de requisitos de utilização, na tradução de necessidades clínicas em soluções tangíveis e na articulação entre requisitos regulatórios e experiência do utilizador.
 
 #### **Design Inclusivo e Design Universal**
 
-O design inclusivo representa uma mudança conceptual significativa ao deslocar o foco da deficiência enquanto atributo individual para a compreensão da deficiência como resultado de desajustes entre capacidades humanas e ambientes projetados (Clarkson & Coleman, 2010). 
+O design inclusivo representa uma mudança conceptual significativa ao deslocar o foco da deficiência enquanto atributo individual para a compreensão da deficiência como resultado de desajustes entre capacidades humanas e ambientes projetados. 
 
-Esta perspetiva aproxima-se dos modelos sociais e relacionais da deficiência, enfatizando que a exclusão pode ser produzida por decisões de projeto que não contemplam a diversidade de utilizadores (Clarkson & Coleman, 2010).
+Esta perspetiva aproxima-se dos modelos sociais e relacionais da deficiência, enfatizando que a exclusão pode ser produzida por decisões de projeto que não contemplam a diversidade de utilizadores.
 
-Enquanto campo de prática e investigação, o design inclusivo desenvolveu ferramentas e orientações destinadas a apoiar equipas de projeto na consideração sistemática da diversidade populacional. Estas incluem estratégias de segmentação, análise de capacidades e critérios de acessibilidade aplicáveis a produtos e sistemas, incluindo tecnologias digitais em saúde (Clarkson & Coleman, 2010).
+Enquanto campo de prática e investigação, o design inclusivo desenvolveu ferramentas e orientações destinadas a apoiar equipas de projeto na consideração sistemática da diversidade populacional. Estas incluem estratégias de segmentação, análise de capacidades e critérios de acessibilidade aplicáveis a produtos e sistemas, incluindo tecnologias digitais em saúde.
 
-O design universal, por sua vez, é frequentemente enquadrado como abordagem amplamente aplicada no design industrial, tendo como princípio orientador a conceção de produtos e ambientes utilizáveis pelo maior número possível de pessoas, sem necessidade de adaptação ou design especializado. Os Sete Princípios do Design Universal, propostos por Ron Mace, são amplamente referenciados como quadro normativo para avaliar equidade, flexibilidade, simplicidade, tolerância ao erro e esforço físico reduzido (Story, 2006).
+O design universal, por sua vez, é frequentemente enquadrado como abordagem amplamente aplicada no design industrial, tendo como princípio orientador a conceção de produtos e ambientes utilizáveis pelo maior número possível de pessoas, sem necessidade de adaptação ou design especializado. Os Sete Princípios do Design Universal, propostos por Ron Mace, são amplamente referenciados como quadro normativo para avaliar equidade, flexibilidade, simplicidade, tolerância ao erro e esforço físico reduzido.
 
-Na área da saúde, o design universal é associado a abordagens centradas no paciente e avaliado através de critérios orientados para resultados, como participação, inclusão e igualdade de acesso. A convergência entre design inclusivo e design universal revela-se particularmente evidente na ênfase comum na redução de barreiras ambientais e na ampliação do conceito de usabilidade a uma população alargada (Story, 2006; White & Mosca, 2022).
+Na área da saúde, o design universal é associado a abordagens centradas no paciente e avaliado através de critérios orientados para resultados, como participação, inclusão e igualdade de acesso. A convergência entre design inclusivo e design universal revela-se particularmente evidente na ênfase comum na redução de barreiras ambientais e na ampliação do conceito de usabilidade a uma população alargada.
 
 #### **Design Centrado no Utilizador e Design Centrado no Humano**
 
-O design centrado no utilizador (User-Centred Design – UCD) é descrito como abordagem que envolve os utilizadores finais ao longo de todo o processo de desenvolvimento, com o objetivo de assegurar que o produto seja funcionalmente adequado, compreensível e valorizado. Esta abordagem mobiliza métodos como entrevistas, personas, protocolos *think-aloud*, prototipagem iterativa e grupos focais, promovendo ciclos sucessivos de recolha de requisitos e validação (Fisher & Johansen, 2020; Shah & Robinson, 2006).
+O design centrado no utilizador (User-Centred Design – UCD) é descrito como abordagem que envolve os utilizadores finais ao longo de todo o processo de desenvolvimento, com o objetivo de assegurar que o produto seja funcionalmente adequado, compreensível e valorizado. Esta abordagem mobiliza métodos como entrevistas, personas, protocolos think-aloud, prototipagem iterativa e grupos focais, promovendo ciclos sucessivos de recolha de requisitos e validação.
 
-O design centrado no humano (Human-Centred Design – HCD) amplia esta perspetiva ao integrar dimensões culturais, contextuais e sistémicas. No desenvolvimento de dispositivos médicos, o HCD é associado a práticas como etnografia, design participativo, mapeamento de jornadas (*journey maps*), mapeamento de *stakeholders* e avaliação de fatores humanos. A norma ISO 62366 estabelece requisitos específicos para a aplicação de engenharia de usabilidade em dispositivos médicos, reforçando a integração formal de testes formativos e sumativos no processo regulado (Fisher & Johansen, 2020; Millet et al., 2018).
+O design centrado no humano (Human-Centred Design – HCD) amplia esta perspetiva ao integrar dimensões culturais, contextuais e sistémicas. No desenvolvimento de dispositivos médicos, o HCD é associado a práticas como etnografia, design participativo, mapeamento de jornadas (journey maps), mapeamento de stakeholders e avaliação de fatores humanos. A norma ISO 62366 estabelece requisitos específicos para a aplicação de engenharia de usabilidade em dispositivos médicos, reforçando a integração formal de testes formativos e sumativos no processo regulado.
 
-A incorporação de fatores humanos é igualmente reforçada por diretivas e normas que exigem a redução de riscos de utilização incorreta, articulando segurança, ergonomia e usabilidade como dimensões indissociáveis do desenvolvimento de dispositivos médicos (Millet et al., 2018).
+A incorporação de fatores humanos é igualmente reforçada por diretivas e normas que exigem a redução de riscos de utilização incorreta, articulando segurança, ergonomia e usabilidade como dimensões indissociáveis do desenvolvimento de dispositivos médicos
 
 #### **Design Participativo e Co-design**
 
-O design participativo e o co-design representam um aprofundamento das abordagens centradas no utilizador, enfatizando a participação ativa e o empoderamento dos utilizadores no processo projetual. Nestes modelos, os utilizadores não são apenas fontes de dados, mas colaboradores na definição de problemas, geração de soluções e avaliação de protótipos (Chapman et al., 2025).
+O design participativo e o co-design representam um aprofundamento das abordagens centradas no utilizador, enfatizando a participação ativa e o empoderamento dos utilizadores no processo projetual. Nestes modelos, os utilizadores não são apenas fontes de dados, mas colaboradores na definição de problemas, geração de soluções e avaliação de protótipos
 
-Revisões sistemáticas apontam para a necessidade de maior transparência e rigor na descrição dos processos de co-design, de modo a fortalecer a sua validade metodológica e eficácia prática. Em tecnologias de apoio, observa-se uma evolução discursiva de modelos centrados no utilizador para paradigmas de co-criação, nos quais as experiências vividas dos utilizadores assumem estatuto central na tomada de decisão (Chapman et al., 2025).
+Revisões sistemáticas apontam para a necessidade de maior transparência e rigor na descrição dos processos de co-design, de modo a fortalecer a sua validade metodológica e eficácia prática. Em tecnologias de apoio, observa-se uma evolução discursiva de modelos centrados no utilizador para paradigmas de co-criação, nos quais as experiências vividas dos utilizadores assumem estatuto central na tomada de decisão.
 
-Contudo, persistem tensões entre ideais participativos e contextos regulatórios altamente estruturados, nos quais a autoridade decisional permanece frequentemente concentrada em profissionais clínicos e equipas técnicas (Chapman et al., 2025; Wilke et al., 2020).
+Contudo, persistem tensões entre ideais participativos e contextos regulatórios altamente estruturados, nos quais a autoridade decisional permanece frequentemente concentrada em profissionais clínicos e equipas técnicas.
 
 #### **Metodologias, instrumentos e avaliação**
 
-A literatura evidencia que as abordagens inclusivas e centradas no utilizador recorrem a repertórios metodológicos diversificados, incluindo *personas*, simulação de limitações, prototipagem iterativa, oficinas participativas e análise de ecossistemas de *stakeholders* (Fisher & Johansen, 2020; Shah & Robinson, 2006). 
+A literatura evidencia que as abordagens inclusivas e centradas no utilizador recorrem a repertórios metodológicos diversificados, incluindo personas, simulação de limitações, prototipagem iterativa, oficinas participativas e análise de ecossistemas de stakeholders. 
 
-No domínio hospitalar e de serviços de saúde, ferramentas de avaliação baseadas em critérios de design universal e design para todos (*Design for All*) introduzem sistemas de análise multicritério e listas de verificação estruturadas para aferir níveis de inclusão (White & Mosca, 2022).
+No domínio hospitalar e de serviços de saúde, ferramentas de avaliação baseadas em critérios de design universal e design para todos (Design for All) introduzem sistemas de análise multicritério e listas de verificação estruturadas para aferir níveis de inclusão.
 
-Em contextos de tecnologias de apoio, modelos como o *Matching Person and Technology* (MPT) e quadros conceptuais baseados na Classificação Internacional de Funcionalidade (ICF) são utilizados para apoiar decisões de seleção e adequação tecnológica, promovendo alinhamento entre características do utilizador, ambiente e dispositivo (White & Mosca, 2022).
+Em contextos de tecnologias de apoio, modelos como o Matching Person and Technology (MPT) e quadros conceptuais baseados na Classificação Internacional de Funcionalidade (ICF) são utilizados para apoiar decisões de seleção e adequação tecnológica, promovendo alinhamento entre características do utilizador, ambiente e dispositivo
 
-A avaliação da evidência tem sido igualmente reforçada através da utilização de protocolos sistemáticos como PRISMA e instrumentos de avaliação crítica, refletindo uma crescente preocupação em fundamentar decisões de design com base empírica robusta (Chapman et al., 2025).
+A avaliação da evidência tem sido igualmente reforçada através da utilização de protocolos sistemáticos como PRISMA e instrumentos de avaliação crítica, refletindo uma crescente preocupação em fundamentar decisões de design com base empírica robusta
 
 #### **Desafios e lacunas**
 
@@ -948,14 +948,6 @@ Peixoto, S., Martins, N., Miranda, D., Matos, D., & Carvalho, V. (2025). The des
 
 Parlamento Europeu, & Conselho da União Europeia. (2017). *Regulation (EU) 2017/745 of the European Parliament and of the Council of 5 April 2017 on medical devices*. https://eur-lex.europa.eu/eli/reg/2017/745/oj
 
-Chapman, K., Allen, C., & Kendall, E. (2025). Methods for co-designing health communication initiatives with people with disability: A scoping review. *Health Communication*. https://doi.org/10.1080/10810730.2025.2462679
-
-Clarkson, J., & Coleman, R. (2010). Inclusive design. *Design Studies*. https://doi.org/10.1080/09544821003693689
-
-Fisher, M., & Johansen, E. (2020). Human-centered design for medical devices and diagnostics in global health. https://www.semanticscholar.org/paper/89c3c6bd56f4d0b54f5da3e3c96f18e815d9f5d4
-
-Millet, A., Akle, A. A., & Legardeur, J. (2018). Human centred criteria for healthcare design. https://www.semanticscholar.org/paper/267b655f123f4f167f1f9e7e6c8a1f17f73a73d0
-
 Quintero, D., Reznick, E., Lambert, D. J., Rezazadeh, S., Gray, L., & Gregg, R. D. (2018). Intuitive clinician control interface for a powered knee-ankle prosthesis: A case study. *IEEE Journal of Translational Engineering in Health and Medicine, 6*, 2600209. https://doi.org/10.1109/JTEHM.2018.2880199
 
 Resnik, L., Klinger, S. L., Krauthamer, V., & Barnabe, K. (2010). U.S. Food and Drug Administration regulation of prosthetic research, development, and testing. https://www.semanticscholar.org/paper/71e1fef52dde69cbcea4f62c709f7c6689f9463d
@@ -969,14 +961,6 @@ Smail, L. C., Neal, C., Wilkins, C., & Packham, T. (2020). Comfort and function 
 Soyer, K., Unver, B., Tamer, S., & Ulger, O. (2016). The importance of rehabilitation concerning upper extremity amputees: A systematic review. https://pjms.com.pk/index.php/pjms/article/view/9922/4660
 
 Saldarriaga, A. M., Romero, E., Abarca, V. E., & Elias, D. A. (2024). A parametric design approach for affordable customized 3D socket for transradial upper limb prostheses. In *2024 10th International Conference on Control, Decision and Information Technologies (CoDIT)*. https://doi.org/10.1109/CoDIT62066.2024.10708382
-
-Shah, S., & Robinson, I. (2006). User involvement in healthcare technology development and assessment: Structured literature review. https://www.semanticscholar.org/paper/299d5b2c1d65791cc4c9f2db76edf20f479adcbc
-
-Story, M. (2006). Applying the principles of universal design to medical devices. https://www.semanticscholar.org/paper/d0d84425d517331607c9120290ed26d1bf2e1862
-
-White, J., & Mosca, E. I. (2022). Developing innovative solutions for universal design in healthcare and other sectors. https://www.semanticscholar.org/paper/df2bb0d53af547bd89b2c716933c2a544bf422b1
-
-Wilke, H., Badke-Schaub, P., & Thoring, K. (2020). The healthcare design dilemma: Perils of a technology-driven design process for medical products. https://www.semanticscholar.org/paper/078781d9389d4618fc1b5db9347ab68ca7ef46d9
 
 Walters, S., Seminati, E., Metcalfe, B., Bailey, N. Y., & Pegg, E. C. (2025). Demystifying upper limb hybrid prostheses: A scoping review. https://www.semanticscholar.org/paper/d659aff9bb182a3c92377571973e6e077a3b1838
 [image1]: <data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVR4XmNgAAIAAAUAAQYUdaMAAAAASUVORK5CYII=>

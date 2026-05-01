@@ -25,3 +25,9 @@
 - Created a new timestamped backup of `Projecto completo.md` before the next writing pass.
 - Added in-text citations to section `2.1` of `Projecto completo.md`, covering prosthesis definition, typologies, rehabilitation, abandonment, and regulatory framing.
 - Added the corresponding bibliography entries for the new `2.1` citations and bumped the manuscript version to `0.1.2`.
+
+## 0.1.3 - 2026-05-01
+
+- Created a new timestamped backup of `Projecto completo.md` before revising section `2.2`.
+- Revised section `2.2` in European Portuguese, tightening the framing of industrial design, inclusive design, universal design, UCD/HCD, co-design, and healthcare implementation challenges.
+- Added in-text citations and the corresponding bibliography entries for the new `2.2` literature references, and bumped the manuscript version to `0.1.3`.
