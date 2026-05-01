@@ -1,0 +1,119 @@
+A U Iwuoha, & C. Iheme. (2020). Design and 3d-printing of a body-powered
+prosthetic limb for amputee.
+https://doi.org/10.51456/IJEIT.2020.V10I04.003
+
+A. Mohammadi, Jim Lavranos, Peter Choong, & D. Oetomo. (2018). X-Limb: A
+Soft Prosthetic Hand with User-Friendly Interface. Converging Clinical
+and Engineering Research on Neurorehabilitation III.
+https://doi.org/10.1007/978-3-030-01845-0_16
+
+Alejandro M. Saldarriaga, Enzo Romero, Victoria E. Abarca, & Dante A.
+Elías. (2024). A Parametric Design Approach for Affordable Customized 3D
+Socket for Transradial Upper Limb Prostheses. International Conference
+on Control, Decision and Information Technologies.
+https://doi.org/10.1109/CoDIT62066.2024.10708382
+
+Augustin Lerebours, F. Marin, S. Bouvier, C. Egles, A. Masquelet, & A.
+Rassineux. (2019). A voxel-based method for designing a numerical
+biomechanical model patient-specific with an anatomical functional
+approach adapted to additive manufacturing. Computer Methods in
+Biomechanics and Biomedical Engineering.
+https://doi.org/10.1080/10255842.2018.1552684
+
+C. Chu, I-Jan Wang, Jing-Ru Sun, & Chien-Hsiou Liu. (2019). Customized
+designs of short thumb orthoses using 3D hand parametric models.
+Assistive Technology. https://doi.org/10.1080/10400435.2019.1709917
+
+C. H. Chua, R. Goodridge, S. Benford, & I. Ashcroft. (2019). Assessing
+the performance of upper limb prostheses with virtual evaluation.
+
+Daniel Lim. (2018). DETC 2018-85645 CUSTOMIZATION OF A 3 D PRINTED
+PROSTHETIC FINGER USING PARAMETRIC MODELING.
+
+Daniel Lim, T. Georgiou, Aashish Bhardwaj, G. O’Connell, & A. Agogino.
+(2018). Customization of a 3D Printed Prosthetic Finger Using Parametric
+Modeling. Design Automation Conference.
+https://doi.org/10.1115/DETC2018-85645
+
+Enzo Romero, Jose G. Garcia, Magno Parra, Sebastian Caballa, Alejandro
+M. Saldarriaga, E. F. Luque, Dante Rodriguez, Victoria E. Abarca, &
+Dante A. Elías. (2025). An Affordable AI-Driven and 3D-Printed
+Personalized Myoelectric Prosthesis: Design, Development, and
+Assessment. IEEE Access. https://doi.org/10.1109/ACCESS.2025.3596475
+
+Filip Gགྷrski, P. Zawadzki, Radosław Wichniarek, Wiesław Kuczko, Sandra
+Slupińska, & M. Zukowska. (2022). Automated Design and Rapid
+Manufacturing of Low-Cost Customized Upper Limb Prostheses. Journal of
+Physics: Conference Series.
+https://doi.org/10.1088/1742-6596/2198/1/012040
+
+Ipsita Dhar, Bibhuti Bhusan Choudhury, Bidyadhar Sahoo, S. K. Sahoo, D.
+Pamucar, & Dragan Marinković. (2026). Optimizing Robotic Prosthetic Palm
+Design through Integration of LOPCOW, COBRA, and EDAS for Efficient 3D
+Printing Material Selection. Acta Technica Jaurinensis.
+https://doi.org/10.14513/actatechjaur.00789
+
+J. Lopez. (2021). Accessible Hand Prostheses: 3D Printing meet
+Smartphones.
+https://doi.org/10.4233/UUID:7CAF6926-A673-4E01-9F2B-673F58828B9B
+
+Julio Fajardo, Victor Ferman, Ali Lemus, & E. Rohmer. (2017). An
+Affordable open-source multifunctional upper-limb prosthesis with
+intrinsic actuation. Workshop on Advanced Robotics and Its Social
+Impacts. https://doi.org/10.1109/ARSO.2017.8025206
+
+Julio Fajardo, Victor Ferman, Diego Cardona, Guillermo Maldonado, Ali
+Lemus, & E. Rohmer. (2020). Galileo Hand: An Anthropomorphic and
+Affordable Upper-Limb Prosthesis. IEEE Access.
+https://doi.org/10.1109/ACCESS.2020.2990881
+
+Junghun Lee, Andrew Chesang, Michael Gichane, M. Busogi, Jean
+Byiringiro, & Conrad Tucker. (2023). Reducing the Barriers to Designing
+3D-Printable Prosthetics In Resource-Constrained Environments. Design
+Automation Conference. https://doi.org/10.1115/detc2023-116399
+
+K. Ráž, Z. Chval, & Vladislav Kemka. (2024). Parametric Production of
+Prostheses Using the Additive Polymer Manufacturing Technology Multi Jet
+Fusion. Materials. https://doi.org/10.3390/ma17102347
+
+Kelvin Loutan, & Umesh Persad. (2023). The Design of a Low-Cost
+Voluntary Closing Finger Prosthetic for Developing Countries. Conference
+on Computability in Europe. https://doi.org/10.1115/detc2023-117072
+
+Ludovica Nini, Alessandro Ceccarelli, N. Tagliamonte, Loredana Zollo, &
+Fabrizio Taffoni. (2024). Parametric 3D Modeling of a Customized
+Prosthetic Hand Finger for Additive Manufacturing. International
+Conference on Biomedical Robotics and Biomechatronics.
+https://doi.org/10.1109/BioRob60516.2024.10719909
+
+M. Moreo. (2016a). Parametric design of a 3 D printable hand prosthesis
+for children in developing countries.
+
+M. Moreo. (2016b). Parametric design of a 3D printable hand prosthesis
+for children in developing countries.
+
+Marlene Bustamante, Rodrigo Vega-Centeno, M. Sanchez, & Renato Mio.
+(2018). [Regular Paper] A Parametric 3D-Printed Body-Powered Hand
+Prosthesis Based on the Four-Bar Linkage Mechanism. International
+Conferences on Biological Information and Biomedical Engineering.
+https://doi.org/10.1109/BIBE.2018.00022
+
+Mixuan Li, & L. Aflatoony. (2025). Parametric design and
+three-dimensional printing: enabling Occupational therapists to develop
+custom hand grips. Disability and Rehabilitation: Assistive Technology.
+https://doi.org/10.1080/17483107.2025.2483953
+
+Rodrigo Cézar da Silveira Romero, Kliftom Amorim Costa, P. Reis, &
+Claysson Bruno Santos Vimieiro. (2025). Development of Parametric
+Prostheses for Different Levels of Human Hand Amputations Manufactured
+Through Additive Manufacturing. Applied Sciences.
+https://doi.org/10.3390/app15084467
+
+Wrist Splints. (2014). Comparison of Additive Manufacturing Systems for
+the Design and Fabrication of Customised Wrist Splints.
+
+Yair Herbst, Shunit Polinsky, A. Fischer, Y. Medan, R. Schneor, Joshua
+A. Kahn, & A. Wolf. (2021). Scan-Driven Fully-Automated Pipeline for a
+Personalized, 3D Printed Low-Cost Prosthetic Hand. 2021 IEEE 17th
+International Conference on Automation Science and Engineering (CASE).
+https://doi.org/10.1109/CASE49439.2021.9551456

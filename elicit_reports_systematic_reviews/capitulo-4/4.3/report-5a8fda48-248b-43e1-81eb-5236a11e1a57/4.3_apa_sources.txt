@@ -1,0 +1,117 @@
+A. Baqer, & T. Abbas. (2018). E NERGY AND E NVIRONMENT.
+
+A. F. Okyar, Ogulcan Guldeniz, & B. Atalay. (2019). A holistic
+parametric design attempt towards geometric modeling of the lumbar
+spine. Comput. Methods Biomech. Biomed. Eng. Imaging Vis.
+https://doi.org/10.1080/21681163.2019.1574606
+
+A. Globa, M. Donn, & J. Moloney. (2015). Abstraction versus Case Based:
+A Comparative Study of Two Approaches to Support Parametric Design.
+Proceedings of the 34th Annual Conference of the Association for
+Computer Aided Design in Architecture (ACADIA).
+https://doi.org/10.1260/1478-0771.13.3-4.313
+
+A. S. Mathur, M. Pirron, & D. Zufferey. (2020). Interactive Programming
+for Parametric CAD. Computer Graphics Forum (Print).
+https://doi.org/10.1111/cgf.14046
+
+Aidan Hall, & Molly H. Goldstein. (2024). WIP: Generative vs.
+Traditional Computer-Aided Design-How Design Tools Impact CAD Artifact
+Quality. Frontiers in Education Conference.
+https://doi.org/10.1109/FIE61694.2024.10892999
+
+David M. Heard, Sam W. Deeks, & A. Lennox. (2024). ERCAD: A Parametric
+Reactor Design Tool That Enables Rapid Prototyping and Optimization of
+Electrochemical Reactors through 3D Printing. ACS Central Science.
+https://doi.org/10.1021/acscentsci.4c00988
+
+F. Machado, N. Malpica, & S. Borromeo. (2019). Parametric CAD modeling
+for open source scientific hardware: Comparing OpenSCAD and FreeCAD
+Python scripts. PLoS ONE. https://doi.org/10.1371/journal.pone.0225795
+
+Iliya Savov, G. Todorov, Y. Sofronov, & K. Kamberov. (2019). Research
+and Development of Methods and Tools for Rapid Digital Simulation and
+Design of Personalized Orthoses. IUTAM Symposium on Intelligent
+Multibody Systems – Dynamics, Control, Simulation.
+https://doi.org/10.1007/978-3-030-00527-6_8
+
+Jianyou Li, & Hiroya Tanaka. (2018). Feasibility study applying a
+parametric model as the design generator for 3D–printed orthosis for
+fracture immobilization. 3D Printing in Medicine.
+https://doi.org/10.1186/s41205-017-0024-1
+
+Johann Felipe Gonzalez Avila. (n.d.). Facilitating Programming-Based 3D
+Computer-Aided Design Using Bidirectional Programming.
+https://doi.org/10.22215/etd/2024-16084
+
+Johann Felipe Gonzalez, Thomas Pietrzak, Audrey Girouard, & Géry Casiez.
+(2024). Facilitating the Parametric Definition of Geometric Properties
+in Programming-Based CAD. ACM Symposium on User Interface Software and
+Technology. https://doi.org/10.1145/3654777.3676417
+
+Jose M. Nadal-Serrano, Adolfo Nadal-Serrano, & Marisa López-Vallejo.
+(2017). Democratizing science with the aid of parametric design and
+additive manufacturing: Design and fabrication of a versatile and
+low-cost optical instrument for scattering measurement. PLoS ONE.
+https://doi.org/10.1371/journal.pone.0187219
+
+K. Sweet, & Tony Sweet. (2019). A Reconceived Digital Workflow: A Case
+Study. Innovative Production and Construction.
+https://doi.org/10.1142/9789813272491_0012
+
+M. Mcmillan, M. Jurg, M. Leary, & M. Brandt. (2017). Programmatic
+generation of computationally efficient lattice structures for additive
+manufacture. https://doi.org/10.1108/RPJ-01-2016-0014
+
+M. Prado-Velasco, R. Marín, Laura Ruesgas, & Gloria Del Rio Cidoncha.
+(2020). Graphical Modelling with Computer Extended Descriptive Geometry
+(CeDG): Description and Comparison with CAD.
+https://doi.org/10.14733/cadaps.2021.272-284
+
+Mohd Qadafie Ibrahim, N. Hassim, Ahmad Anas Yusof, & Siti Zulaikha Abdul
+Mutalib. (2015). Direct Modelling CAD Technology Comparative Review in
+Efficiency and Productivity for Product Development Process.
+https://doi.org/10.4028/www.scientific.net/AMM.786.305
+
+Nicolas Lachenmaier, Daniel Baumgärtner, H. Schiffer, & J. Kech. (2020).
+Gradient-Free and Gradient-Based Optimization of a Radial Turbine.
+International Journal of Turbomachinery, Propulsion and Power.
+https://doi.org/10.3390/IJTPP5030014
+
+R. Yu, N. Gu, & Michael J. Ostwald. (2018). Evaluating creativity in
+parametric design environments and geometric modelling environments.
+Architectural Science Review.
+https://doi.org/10.1080/00038628.2018.1512043
+
+Simeon Gill, Hailah Al Houf, Steven Hayes, & Jo Conlon. (2023). Evolving
+pattern practice, from traditional patterns to bespoke parametric
+blocks. International Journal of Fashion Design, Technology and
+Education. https://doi.org/10.1080/17543266.2023.2260829
+
+Victor Gane, J. Haymaker, M. Fischer, & V. Bazjanac. (2014). Application
+of Design Scenarios Methodology to Evaluate the Effectiveness of
+Transparent Parametric Design Spaces.
+https://doi.org/10.1061/(ASCE)AE.1943-5568.0000116
+
+Wei Wu, Li Liang, Hanqian Kong, & Kaixiao Huang. (2025). Virtual design
+and manufacturing technology used for rapid parametric design of
+mechanical model. Metaverse. https://doi.org/10.54517/m3205
+
+Xiangzhong Li, Y. Qu, Shipei Cao, Zheng Liu, X. Ze, & Tao Zou. (2019).
+Parametric Design of Typical Components of Doors and Windows Based on
+Open Source Platform. International Conferences on Knowledge Innovation
+and Invention. https://doi.org/10.1109/ICKII46306.2019.9042657
+
+Yongliang Chen, Li Sun, Wen Ai, Jiantao Wu, Zhongzhi Qin, Hongfei Yu,
+Hao Song, Qi Wang, Changhong Jiang, & Jiangnan Li. (2025). V-Shaped
+Dynamic Morphology Curve: A Sustainable Approach to Automotive Wheel
+Design. Sustainability. https://doi.org/10.3390/su17062463
+
+Yuenyong Nilsiam, & Joshua M. Pearce. (2017). Free and Open Source 3-D
+Model Customizer for Websites to Democratize Design with OpenSCAD.
+https://doi.org/10.3390/DESIGNS1010005
+
+Yu-Min Fang, & Tzu-Lin Kao. (2023). Comparisons of Emotional Responses,
+Flow Experiences, and Operational Performances in Traditional Parametric
+Computer-Aided Design Modeling and Virtual-Reality Free-Form Modeling.
+Applied Sciences. https://doi.org/10.3390/app13116568
