@@ -1,0 +1,14 @@
+{
+  "reportId": "5ae68d08-b402-450c-a052-028d7953596c",
+  "status": "completed",
+  "url": "https://elicit.com/review/5ae68d08-b402-450c-a052-028d7953596c",
+  "isPublic": false,
+  "result": {
+    "title": "Capitulo 7.1 - Interface and interaction in parametric prosthetic customization",
+    "summary": "The most relevant literature for web-based parametric prosthetic customization platforms includes Peixoto et al. (2025) as the only web-based implementation addressing interface design and user experience, Colombo et al. (2015) for 3D preview and anthropometric input integration, Abbas Alili et al. (2023) for hierarchical human-in-the-loop configuration with AI-assisted parameter tuning, and Quintero et al. (2018) and Bai et al. (2024) for clinician oversight mechanisms, though no single study addresses all features in a web-based parametric context."
+  },
+  "downloadedAssets": {
+    "docxUrl": "report.docx",
+    "pdfUrl": "report.pdf"
+  }
+}

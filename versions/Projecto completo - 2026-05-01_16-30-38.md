@@ -1,5 +1,3 @@
-**Versão do documento:** `0.1.0`
-
 ## **Capítulo 1 — Introdução** 
 
 ### 1.1 Enquadramento geral, contexto e motivação
