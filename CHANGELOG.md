@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.1.8 - 2026-05-01
+
+- Created a new timestamped backup of `Projecto completo.md` before revising section `2.5`.
+- Revised section `2.5` in European Portuguese, clarifying AI roles in generative design, surrogate evaluation, adaptive optimization, human-AI collaboration, and explainability.
+- Added in-text citations and the corresponding bibliography entries for the new `2.5` literature references, and bumped the manuscript version to `0.1.8`.
+
 ## 0.1.7 - 2026-05-01
 
 - Created a new timestamped backup of `Projecto completo.md` before revising section `2.4`.

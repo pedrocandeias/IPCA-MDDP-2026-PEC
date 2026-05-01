@@ -1,4 +1,4 @@
-**Versão do documento:** `0.1.7`
+**Versão do documento:** `0.1.8`
 
 ## **Capítulo 1 — Introdução** 
 
@@ -265,45 +265,45 @@ A antropometria aplicada ao design protésico evoluiu para um paradigma digital 
 
 ### 2.5 Inteligência Artificial no processo de design 
 
-A integração de Inteligência Artificial (IA) nos processos de design tem vindo a consolidar-se como um campo transversal, que cruza práticas de design industrial, engenharia de produto e design centrado no utilizador. A literatura recente tende a enquadrar a IA não como uma técnica singular, mas como um conjunto de capacidades distribuídas ao longo do workflow de projeto, desempenhando funções como geração de alternativas, apoio à avaliação, otimização, automatização de tarefas e apoio à decisão. Um movimento conceptual recorrente consiste em mapear métodos de IA a etapas específicas do processo de design, tornando o “onde a IA atua” tão relevante quanto o “o que a IA faz”.
+A integração de Inteligência Artificial (IA) nos processos de design tem vindo a consolidar-se como um campo transversal, que cruza práticas de design industrial, engenharia de produto e design centrado no utilizador. A literatura recente tende a enquadrar a IA não como uma técnica singular, mas como um conjunto de capacidades distribuídas ao longo do workflow de projeto, desempenhando funções como geração de alternativas, apoio à avaliação, otimização, automatização de tarefas e apoio à decisão. Um movimento conceptual recorrente consiste em mapear métodos de IA a etapas específicas do processo de design, tornando o “onde a IA atua” tão relevante quanto o “o que a IA faz” (Khanolkar et al., 2023; Saeidnia & Ausloos, 2024; Yüksel et al., 2023).
 
-Em paralelo, destaca-se a emergência de modelos iterativos e “em circuito fechado”, nos quais a IA produz propostas (formas, configurações, previsões), e o designer orienta o processo através de seleção, interpretação e refinamento — uma lógica amplamente descrita como *human-in-the-loop*. Nesta perspetiva, a IA amplifica a exploração e acelera ciclos de iteração, mas a responsabilidade pelos objetivos, critérios e validação permanece no domínio humano.
+Em paralelo, destaca-se a emergência de modelos iterativos e “em circuito fechado”, nos quais a IA produz propostas, formas, configurações ou previsões, e o designer orienta o processo através de seleção, interpretação e refinamento, segundo uma lógica amplamente descrita como *human-in-the-loop*. Nesta perspetiva, a IA amplifica a exploração e acelera ciclos de iteração, mas a responsabilidade pelos objetivos, critérios e validação permanece no domínio humano (Ao et al., 2025; Menaka et al., 2025; Virós-i-Martin & Selva, 2021).
 
 #### **IA na geração de alternativas: *generative design*, aprendizagem profunda e síntese formal**
 
-Uma das áreas mais consolidadas é a geração de alternativas sob constrangimentos, associada a práticas de generative design e otimização topológica. Em ambientes de CAD e engenharia (por exemplo, em plataformas com módulos de generative design), o designer define parâmetros e restrições (cargas, materiais, limites geométricos), e o sistema gera múltiplas soluções potencialmente viáveis. A literatura sublinha que o valor está na expansão do espaço de alternativas e na possibilidade de explorar configurações que ultrapassam a capacidade humana de variação manual, cabendo ao designer a seleção e o refinamento estético e funcional das opções geradas.
+Uma das áreas mais consolidadas é a geração de alternativas sob constrangimentos, associada a práticas de *generative design* e otimização topológica. Em ambientes de CAD e engenharia, o designer define parâmetros e restrições, e o sistema gera múltiplas soluções potencialmente viáveis. A literatura sublinha que o valor está na expansão do espaço de alternativas e na possibilidade de explorar configurações que ultrapassam a capacidade humana de variação manual, cabendo ao designer a seleção e o refinamento estético e funcional das opções geradas (Nemme & Walden, 2022; Radaković, 2020).
 
-No domínio da aprendizagem automática, modelos generativos (como GANs, VAEs e autoencoders) são descritos como mecanismos para sintetizar forma e propor conceitos. Estes modelos podem aprender representações latentes a partir de dados de treino (imagens, modelos 3D, resultados de otimização topológica) e gerar variantes controladas por condições (por exemplo, dimensões, classes de produto ou restrições). O objetivo não é substituir o processo criativo, mas fornecer material de exploração e inspiração, reduzindo tarefas repetitivas e acelerando a prototipagem conceptual.
+No domínio da aprendizagem automática, modelos generativos, como GANs, VAEs e *autoencoders*, são descritos como mecanismos para sintetizar forma e propor conceitos. Estes modelos podem aprender representações latentes a partir de dados de treino, como imagens, modelos 3D e resultados de otimização topológica, e gerar variantes controladas por condições, como dimensões, classes de produto ou restrições. O objetivo não é substituir o processo criativo, mas fornecer material de exploração e inspiração, reduzindo tarefas repetitivas e acelerando a prototipagem conceptual (Burnap et al., 2019; Choudhury et al., 2025; Krahe et al., 2020).
 
 #### **IA como acelerador de avaliação: modelos substitutos e simulação assistida**
 
-Uma segunda contribuição estruturante da IA no design é a aceleração de avaliação e previsão, particularmente em problemas onde simulações físicas (FEA, CFD) são computacionalmente dispendiosas. A literatura descreve modelos substitutos (surrogate models) treinados para estimar desempenho (resistência, deformação, fluxo, custo, tempo de fabrico), permitindo ciclos de iteração mais rápidos. Em frameworks de “IA para CAD”, estes modelos integram-se com processos multiobjetivo: a IA prevê resultados, sugere melhorias e reduz o número de simulações completas necessárias, encurtando o tempo entre iteração e decisão.
+Uma segunda contribuição estruturante da IA no design é a aceleração de avaliação e previsão, particularmente em problemas onde simulações físicas, como FEA ou CFD, são computacionalmente dispendiosas. A literatura descreve modelos substitutos (*surrogate models*) treinados para estimar desempenho, como resistência, deformação, fluxo, custo ou tempo de fabrico, permitindo ciclos de iteração mais rápidos. Em *frameworks* de “IA para CAD”, estes modelos integram-se com processos multiobjetivo: a IA prevê resultados, sugere melhorias e reduz o número de simulações completas necessárias, encurtando o tempo entre iteração e decisão (Adewoyin et al., 2024; Ao et al., 2025; Menaka et al., 2025).
 
-Este papel é particularmente relevante quando a personalização ou a parametrização (ver secção 2.3) gera espaços de variação muito amplos. Nesse contexto, a IA pode funcionar como filtro e orientador, suportando exploração eficiente de milhares de variantes com base em métricas de desempenho e viabilidade.
+Este papel é particularmente relevante quando a personalização ou a parametrização, discutidas na secção 2.3, geram espaços de variação muito amplos. Nesse contexto, a IA pode funcionar como filtro e orientador, suportando exploração eficiente de milhares de variantes com base em métricas de desempenho e viabilidade (Ao et al., 2025; Ramnath et al., 2019).
 
 #### **IA e otimização adaptativa: aprendizagem por reforço e métodos híbridos**
 
-Para além da previsão, a literatura identifica abordagens de otimização adaptativa, combinando meta-heurísticas (por exemplo, *Particle Swarm Optimization*) com aprendizagem por reforço profundo (Deep Reinforcement Learning). Estas estratégias introduzem a capacidade de ajustar progressivamente recomendações e sugestões de design com base em feedback (por exemplo, desempenho previsto, preferências humanas, restrições dinâmicas), configurando sistemas mais responsivos e orientados por objetivos múltiplos. Em termos de processo, estas abordagens reforçam a ideia de que a IA pode contribuir tanto na geração como na condução do espaço de procura, mantendo o designer como decisor final.
+Para além da previsão, a literatura identifica abordagens de otimização adaptativa, combinando meta-heurísticas, como *Particle Swarm Optimization*, com aprendizagem por reforço profundo (*Deep Reinforcement Learning*). Estas estratégias introduzem a capacidade de ajustar progressivamente recomendações e sugestões de design com base em *feedback*, como desempenho previsto, preferências humanas e restrições dinâmicas, configurando sistemas mais responsivos e orientados por objetivos múltiplos. Em termos de processo, estas abordagens reforçam a ideia de que a IA pode contribuir tanto na geração como na condução do espaço de procura, mantendo o designer como decisor final (Wang & Hu, 2024).
 
 #### **Paradigmas de colaboração humano–IA: co-criação, controlo e agência**
 
-Uma dimensão crítica da IA no design prende-se com os modelos de colaboração humano–IA. A literatura sobre co-criação e sistemas mixed-initiative converge no princípio de que a IA deve aumentar a capacidade humana sem reduzir a agência do designer. A operacionalização mais comum traduz-se num padrão estável: “a IA gera (ou analisa) e o humano seleciona”, mantendo-se o controlo humano sobre objetivos, interpretação e validação.
+Uma dimensão crítica da IA no design prende-se com os modelos de colaboração humano–IA. A literatura sobre co-criação e sistemas *mixed-initiative* converge no princípio de que a IA deve aumentar a capacidade humana sem reduzir a agência do designer. A operacionalização mais comum traduz-se num padrão estável: a IA gera, analisa ou sugere, e o humano seleciona, mantendo-se o controlo humano sobre objetivos, interpretação e validação (Idris et al., 2024; Kadenhe et al., 2025; Virós-i-Martin & Selva, 2021).
 
-Estudos empíricos introduzem nuances relevantes: a colaboração contínua e simultânea pode levar a que a IA seja percecionada como parceira dominante (uma presença “intrusiva” no processo), enquanto contribuições em momentos mais espaçados podem manter um processo mais humano-dirigido, com a IA a assumir o papel de “especialista externo”. Isto sugere que a configuração temporal e o grau de iniciativa da IA são variáveis projetuais do próprio sistema de design, com implicações na experiência do designer e na qualidade das decisões.
+Estudos empíricos introduzem nuances relevantes: a colaboração contínua e simultânea pode levar a que a IA seja percecionada como parceira dominante, enquanto contribuições em momentos mais espaçados podem manter um processo mais humano-dirigido, com a IA a assumir o papel de “especialista externo”. Isto sugere que a configuração temporal e o grau de iniciativa da IA são variáveis projetuais do próprio sistema de design, com implicações na experiência do designer e na qualidade das decisões (Figoli et al., 2022; Rezwana & Maher, 2022).
 
-Algumas propostas avançam modelos baseados em papéis cognitivos para assistentes de design, onde a IA pode atuar como “historiador” (recuperação de conhecimento e precedentes), “analista” (interpretação de dados), “explorador” (geração de alternativas), “especialista” (apoio técnico) ou “crítico” (deteção de riscos e inconsistências), reforçando a visão da IA como ecossistema de funções integradas em vez de ferramenta monolítica.
+Algumas propostas avançam modelos baseados em papéis cognitivos para assistentes de design, onde a IA pode atuar como “historiador”, “analista”, “explorador”, “especialista” ou “crítico”, reforçando a visão da IA como ecossistema de funções integradas em vez de ferramenta monolítica (Virós-i-Martin & Selva, 2021).
 
 #### **Apoio à decisão, transparência e explicabilidade**
 
-À medida que a IA se aproxima de decisões com impacto relevante (segurança, fiabilidade, desempenho), a literatura evidencia a necessidade de confiança, transparência e explicabilidade (XAI). Uma lacuna recorrente consiste na fraca ligação entre modelos de IA e conhecimento físico/engenheiral, com críticas a abordagens “blackbox” que produzem sugestões sem justificações compreensíveis. Em resposta, emergem direções que procuram integrar modelos baseados em física, ontologias e restrições formais com aprendizagem automática, aproximando a IA de processos de design com maior responsabilidade técnica.
+À medida que a IA se aproxima de decisões com impacto relevante, a literatura evidencia a necessidade de confiança, transparência e explicabilidade (*XAI*). Uma lacuna recorrente consiste na fraca ligação entre modelos de IA e conhecimento físico ou engenheiral, com críticas a abordagens *blackbox* que produzem sugestões sem justificações compreensíveis. Em resposta, emergem direções que procuram integrar modelos baseados em física, ontologias e restrições formais com aprendizagem automática, aproximando a IA de processos de design com maior responsabilidade técnica (Panchal et al., 2019; Yüksel et al., 2023).
 
-Em design de produto, permanece também uma dificuldade estrutural: a formalização de preferências humanas e critérios estéticos. A literatura reconhece que estética e intenção projetual são parcialmente subjetivas e contextuais, tornando difícil a sua codificação plena. Assim, reforça-se que o papel humano na interpretação, curadoria e decisão final é indispensável, mesmo em workflows avançados de geração e otimização.
+Em design de produto, permanece também uma dificuldade estrutural: a formalização de preferências humanas e critérios estéticos. A literatura reconhece que estética e intenção projetual são parcialmente subjetivas e contextuais, tornando difícil a sua codificação plena. Assim, reforça-se que o papel humano na interpretação, curadoria e decisão final é indispensável, mesmo em *workflows* avançados de geração e otimização (Burnap et al., 2019; Li et al., 2021).
 
 #### **Implicações para o design industrial e para este projeto**
 
-A síntese da literatura aponta para três contributos centrais da IA no design: (i) ampliar o espaço de alternativas e estimular ideação; (ii) acelerar iteração e avaliação; e (iii) reconfigurar a colaboração, exigindo novas competências de definição de parâmetros, curadoria e tomada de decisão. Em termos práticos, a adoção mais robusta ocorre quando a IA é integrada como acelerador dentro de fluxos existentes, com supervisão humana explícita para validação e refinamento. REF:
+A síntese da literatura aponta para três contributos centrais da IA no design: ampliar o espaço de alternativas e estimular ideação, acelerar iteração e avaliação, e reconfigurar a colaboração, exigindo novas competências de definição de parâmetros, curadoria e tomada de decisão. Em termos práticos, a adoção mais robusta ocorre quando a IA é integrada como acelerador dentro de fluxos existentes, com supervisão humana explícita para validação e refinamento (Choudhury et al., 2025; Kadenhe et al., 2025; Verganti et al., 2020).
 
-No âmbito desta investigação, estas perspetivas são particularmente relevantes porque suportam a construção de workflows orientados para personalização: a IA pode contribuir na geração controlada de variantes, na previsão de desempenho e na organização de decisões em espaços de variação amplos, desde que o sistema preserve agência do designer e incorpore mecanismos de validação técnica e transparência. Esta base teórica prepara a discussão, nos capítulos seguintes, sobre como integrar IA, parametrização e dados antropométricos num processo de design protésico mais adaptável e inclusivo. REF.
+No âmbito desta investigação, estas perspetivas são particularmente relevantes porque suportam a construção de *workflows* orientados para personalização: a IA pode contribuir na geração controlada de variantes, na previsão de desempenho e na organização de decisões em espaços de variação amplos, desde que o sistema preserve a agência do designer e incorpore mecanismos de validação técnica e transparência. Esta base teórica prepara a discussão, nos capítulos seguintes, sobre como integrar IA, parametrização e dados antropométricos num processo de design protésico mais adaptável e inclusivo (Ao et al., 2025; Menaka et al., 2025; Wang & Hu, 2024).
 
 ### 2.6 Plataformas digitais e sistemas configuráveis  
 
@@ -1017,6 +1017,43 @@ Walters, S., Seminati, E., Metcalfe, B., Bailey, N. Y., & Pegg, E. C. (2025). De
 Yao, X., Moon, S. K., & Bi, G. (2016). A cost-driven design methodology for additive manufactured variable platforms in product families. https://www.semanticscholar.org/paper/f7bc9dc2a80714c18ac068f45b99408b0f4fe65e
 
 Young, P. R., Hebert, J. S., Marasco, P., Carey, J., & Schofield, J. S. (2023). Advances in the measurement of prosthetic socket interface mechanics: A review of technology, techniques, and a 20-year update. https://www.tandfonline.com/doi/pdf/10.1080/17434440.2023.2244418?needAccess=true&role=button
+
+Ao, Y., Li, S., & Duan, H. (2025). Artificial intelligence-aided design (AIAD) for structures and engineering: A state-of-the-art review and future perspectives. *Archives of Computational Methods in Engineering*. https://link.springer.com/content/pdf/10.1007/s11831-025-10264-1.pdf
+
+Burnap, A., Hauser, J., & Timoshenko, A. (2019). Design and evaluation of product aesthetics: A human-machine hybrid approach. https://www.semanticscholar.org/paper/7a7994f2de74a61cbdeb3c230d1ee343a0d5e783
+
+Choudhury, M. M., Eisenbart, B., & Kuys, B. (2025). Artificial intelligence (AI) in the design process: A review and analysis on generative AI perspectives. https://www.cambridge.org/core/services/aop-cambridge-core/content/view/36E8736EEB55F0B38C2C9AB47EF381FE/S2732527X25100771a.pdf/div-class-title-artificial-intelligence-ai-in-the-design-process-a-review-and-analysis-on-generative-ai-perspectives-div.pdf
+
+Figoli, F. A., Mattioli, F., & Rampino, L. (2022). AI in design idea development: A workshop on creativity and human-AI collaboration. https://dl.designresearchsociety.org/cgi/viewcontent.cgi?article=2915&context=drs-conference-papers
+
+Idris, M. Z., Hashim, M. E. A. H. B., Albakry, N., & Septian, N. (2024). Exploring the integration of artificial intelligence in co-design framework for designer. https://ebpj.e-iph.co.uk/index.php/EBProceedings/article/download/6348/3640
+
+Kadenhe, N., Al Musleh, M., & Lompot, A. (2025). Human-AI co-design and co-creation: A review of emerging approaches, challenges, and future directions. https://www.semanticscholar.org/paper/61c04706b7af0be5be4b0d15f595d4ab41874d12
+
+Khanolkar, P., Vrolijk, A., & Olechowski, A. (2023). Mapping artificial intelligence-based methods to engineering design stages: A focused literature review. https://www.semanticscholar.org/paper/4d63443d45e1a7156c5972ef009ed07bb0650117
+
+Krahe, C., Bräunche, A., Jacob, A., Stricker, N., & Lanza, G. (2020). Deep learning for automated product design. https://www.semanticscholar.org/paper/a5b9b4f63805f2b1773bc8214b29e38dbac27975
+
+Li, X., Demirel, H., Goldstein, M., & Sha, Z. (2021). Exploring generative design thinking for engineering design and design education. https://peer.asee.org/38349.pdf
+
+Menaka, S., Raja, W., Ramakrishnan, S., Karthikeswaran, D., Sridar, K., & Sivaranjani, T. (2025). AI-driven computer-aided design (CAD) systems: Leveraging neural networks for optimized engineering product development. https://ijamjournal.org/ijam/publication/index.php/ijam/article/download/341/311
+
+Panchal, J. H., Fuge, M., Liu, Y., Missoum, S., & Tucker, C. S. (2019). Special issue: Machine learning for engineering design. *Journal of Mechanical Design*. https://www.semanticscholar.org/paper/2c4f7ca9381db7debefe61d04da51f9e8e63d09d
+
+Ramnath, S., Haghighi, P., Kim, J. H., Detwiler, D., Berry, M., Shah, J., Aulig, N., Wollstadt, P., & Menzel, S. (2019). Automatically generating 60,000 CAD variants for big data applications. https://www.semanticscholar.org/paper/40a0b51e5b01234cec3e807158b26a284ea77e0f
+
+Rezwana, J., & Maher, M. (2022). Understanding user perceptions, collaborative experience and user engagement in different human-AI interaction designs for co-creative systems. https://arxiv.org/pdf/2204.13217
+
+Saeidnia, H. R., & Ausloos, M. (2024). Integrating artificial intelligence into design thinking: A comprehensive examination of the principles and potentialities of AI for design thinking framework. https://www.semanticscholar.org/paper/e2b8a10036428046443e24dc33ec5306876afdbb
+
+Verganti, R., Vendraminelli, L., & Iansiti, M. (2020). Innovation and design in the age of artificial intelligence. https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/jpim.12523
+
+Virós-i-Martin, A., & Selva, D. (2021). A framework to study human-AI collaborative design space exploration. https://www.semanticscholar.org/paper/716be148371af443169531b0856ae07dfe400869
+
+Wang, X., & Hu, B. (2024). Machine learning algorithms for improved product design user experience. https://www.semanticscholar.org/paper/717e7ad25dcafec12f01b6732773bdf9c5a49661
+
+Yüksel, N., Börklü, H. R., Sezer, H. K., & Canyurt, O. (2023). Review of artificial intelligence applications in engineering design perspective. https://www.semanticscholar.org/paper/cd38b58edf6690459767097aca745a3806824236
+
 [image1]: <data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVR4XmNgAAIAAAUAAQYUdaMAAAAASUVORK5CYII=>
 
 [image2]: <data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVR4XmNgAAIAAAUAAQYUdaMAAAAASUVORK5CYII=>
