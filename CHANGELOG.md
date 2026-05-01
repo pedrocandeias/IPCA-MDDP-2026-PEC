@@ -17,3 +17,11 @@
 - Renamed agent-session files again so they include both the section number and the session slug, preventing filename collisions between different session folders that share the same section number.
 - Extended the local agent-session extraction script with in-place extraction commands and ran it across `sources/elicit/agent-sessions/`, generating `extracted/` outputs, `manifest.json`, `README.md`, `bibliography_apa.txt`, and `inline_citations.txt` files for the current session folders.
 - Updated `AGENTS.md` to require that all text written or revised in `Projecto completo.md` uses European Portuguese (`português de Portugal`) consistently.
+- Expanded `AGENTS.md` with the full Elicit agent-session workflow, including section-mapped foldering, prose and source capture, export naming, local extraction, and cross-section handling guidance.
+- Revised section `2.1` of `Projecto completo.md` in European Portuguese, strengthening the framing of upper-limb prostheses as medical devices, clarifying typologies, clinical considerations, abandonment factors, and the regulatory context while preserving the existing chapter structure.
+
+## 0.1.2 - 2026-05-01
+
+- Created a new timestamped backup of `Projecto completo.md` before the next writing pass.
+- Added in-text citations to section `2.1` of `Projecto completo.md`, covering prosthesis definition, typologies, rehabilitation, abandonment, and regulatory framing.
+- Added the corresponding bibliography entries for the new `2.1` citations and bumped the manuscript version to `0.1.2`.
