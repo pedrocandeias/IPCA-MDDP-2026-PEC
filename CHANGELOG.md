@@ -1,5 +1,23 @@
 # Changelog
 
+## 0.2.5 - 2026-05-01
+
+- Created a new timestamped backup of `Projecto completo.md` before revising section `4.1`.
+- Revised section `4.1` in European Portuguese, replacing provisional references with a literature-based framing of the prosthetic design problem, requirement categories, user-need translation, and early constraint formalization.
+- Added in-text citations and the corresponding APA 7 bibliography entries for the new `4.1` literature references, and bumped the manuscript version to `0.2.5`.
+
+## 0.2.4 - 2026-05-01
+
+- Created a new timestamped backup of `Projecto completo.md` before revising Chapter 3.
+- Revised sections `3.1` to `3.5` in European Portuguese, strengthening the methodological framing of RTD, the investigative role of industrial design, the relation to the Double Diamond structure, and the interpretation of evaluation criteria and limitations.
+- Added in-text citations and the corresponding APA 7 bibliography entries for the Chapter 3 methodology references, and bumped the manuscript version to `0.2.4`.
+
+## 0.2.3 - 2026-05-01
+
+- Created a new timestamped backup of `Projecto completo.md` before refining the anthropometric dataset summary table presentation.
+- Reformatted the `2.4` dataset summary as an academic-style table with an explicit caption and source note in European Portuguese.
+- Bumped the manuscript version to `0.2.3`.
+
 ## 0.2.2 - 2026-05-01
 
 - Created a new timestamped backup of `Projecto completo.md` before adding the anthropometric dataset summary table.
