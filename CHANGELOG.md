@@ -1,5 +1,29 @@
 # Changelog
 
+## 0.2.16 - 2026-05-02
+
+- Created a new timestamped backup of `Projecto completo.md` before revising section `5.5`.
+- Revised section `5.5` in European Portuguese, strengthening the discussion of parameter formalization, practical version management through saved configurations, and the platform's real scalability constraints.
+- Added in-text citations to section `5.5` using bibliography entries already present in the manuscript, and bumped the manuscript version to `0.2.16`.
+
+## 0.2.15 - 2026-05-02
+
+- Created a new timestamped backup of `Projecto completo.md` before revising section `5.4`.
+- Revised section `5.4` in European Portuguese, reorganizing the platform discussion around its functional modules and the interaction flow between model selection, parameter editing, visualization, AI support, configuration management, and administration.
+- Added in-text citations to section `5.4` using bibliography entries already present in the manuscript, and bumped the manuscript version to `0.2.15`.
+
+## 0.2.14 - 2026-05-02
+
+- Created a new timestamped backup of `Projecto completo.md` before revising section `5.3`.
+- Revised section `5.3` in European Portuguese, clarifying the OpenSCAD-via-WebAssembly integration flow, its methodological implications, and its technical tradeoffs in browser-based local rendering.
+- Added in-text citations to section `5.3` using bibliography entries already present in the manuscript, and bumped the manuscript version to `0.2.14`.
+
+## 0.2.13 - 2026-05-02
+
+- Created a new timestamped backup of `Projecto completo.md` before revising section `5.2`.
+- Revised section `5.2` in European Portuguese, consolidating the layered system architecture around client-server separation, persistence, local rendering, and security responsibilities.
+- Added in-text citations to section `5.2` using bibliography entries already present in the manuscript, and bumped the manuscript version to `0.2.13`.
+
 ## 0.2.12 - 2026-05-02
 
 - Created a new timestamped backup of `Projecto completo.md` before revising section `5.1`.
