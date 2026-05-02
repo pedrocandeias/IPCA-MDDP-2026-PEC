@@ -1,5 +1,37 @@
 # Changelog
 
+## 0.2.29 - 2026-05-02
+
+- Created a new timestamped backup of `Projecto completo.md` before integrating a new subsection into section `4.2`.
+- Rewrote and integrated the contents of `data_extraction_explained.md` into section `4.2`, adding a new subsection on the collection, normalization, and use of anthropometric data in the parametric model.
+- Updated earlier manuscript passages to align the description of the local anthropometric datasets with the current consolidated workflow and corrected the local path to `material/antropometria/dados antropométricos/`.
+- Added the APA 7 bibliography entry for Gordon et al. (1989) and copied the corresponding local PDF into `project_completo_bibliografia/`.
+- Bumped the manuscript version to `0.2.29`.
+
+## 0.2.28 - 2026-05-02
+
+- Created a new timestamped backup of `Projecto completo.md` before replacing the anglicized label `clinician-dominant`.
+- Replaced `clinician-dominant` with `predomínio clínico` in section `7.2`, improving consistency with European Portuguese academic phrasing.
+- Bumped the manuscript version to `0.2.28`.
+
+## 0.2.27 - 2026-05-02
+
+- Created a new timestamped backup of `Projecto completo.md` before replacing the expression `painéis e controlos`.
+- Replaced `painéis e controlos` with `módulos de interação` in section `7.1`, improving lexical consistency in European Portuguese.
+- Bumped the manuscript version to `0.2.27`.
+
+## 0.2.26 - 2026-05-02
+
+- Created a new timestamped backup of `Projecto completo.md` before a second pass of stylistic cleanup on repeated words within nearby sentences and paragraphs.
+- Refined selected passages in sections `7.2` and `7.3`, reducing repeated uses of words such as `experiência`, `beneficia`, `processo`, and related terms through lighter reformulation while preserving the argument.
+- Bumped the manuscript version to `0.2.26`.
+
+## 0.2.25 - 2026-05-02
+
+- Created a new timestamped backup of `Projecto completo.md` before revising repeated words across consecutive sentences.
+- Revised selected passages in European Portuguese to reduce immediate lexical repetition in the manuscript body, replacing repeated nouns with simpler and more natural alternatives such as `ferramentas`, `pessoa`, `uso`, `adaptação`, `variáveis`, and equivalent reformulations.
+- Bumped the manuscript version to `0.2.25`.
+
 ## 0.2.24 - 2026-05-02
 
 - Created a new timestamped backup of `Projecto completo.md` before revising English-influenced uses of `reportado/reportar`.
