@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.2.18 - 2026-05-02
+
+- Created a new timestamped backup of `Projecto completo.md` before revising Chapter `6`.
+- Revised sections `6.1` to `6.3` in European Portuguese, clarifying the assistive role of AI in the proposed system, its relation to parametric modeling, and its technical and ethical validation limits.
+- Reused and consolidated existing in-text citations for Chapter `6`, and bumped the manuscript version to `0.2.18`.
+
 ## 0.2.16 - 2026-05-02
 
 - Created a new timestamped backup of `Projecto completo.md` before revising section `5.5`.

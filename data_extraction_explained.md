@@ -8,7 +8,7 @@ Foram produzidos três ficheiros CSV complementares:
 
 - `ansur_1988_complete.csv` — 2.726 linhas, 47 dimensões corporais do estudo ANSUR 1988 (Gordon et al., 1989), população militar norte-americana
 - `ansur_1988_hand_arm.csv` — 696 linhas, subconjunto do ANSUR restrito às medições da mão, antebraço e braço
-- `multi_population_hand.csv` — 734 linhas, dados de sete estudos populacionais independentes de seis países diferentes
+- `multi_population_hand.csv` — 1.740 linhas, dados de dez estudos populacionais independentes de oito países diferentes
 
 ---
 
@@ -229,23 +229,17 @@ O script aplica automaticamente as conversões de unidade, calcula `value_in` a 
 |---|---|---|---|---|
 | `ansur_1988_complete.csv` | 2.726 | 1 (EUA) | 1 | 47 |
 | `ansur_1988_hand_arm.csv` | 696 | 1 (EUA) | 1 | 17 |
-| `multi_population_hand.csv` | 734 | 6 | 7 | ~70 |
+| `multi_population_hand.csv` | 1.740 | 8 | 10 | ~80 |
 
-O ficheiro `multi_population_hand.csv` cobre seis países (EUA, Turquia, México, Índia, Portugal, Nigéria, Jordânia), ambos os sexos, grupos etários dos 15 aos 59 anos, e populações tão diversas como atletas universitários, trabalhadores industriais, trabalhadoras informais e trabalhadores com deficiência — fornecendo uma base suficientemente heterogénea para parametrização demográfica da prótese.
+O ficheiro `multi_population_hand.csv` cobre oito países (EUA, Países Baixos, Turquia, México, Índia, Portugal, Nigéria, Jordânia), ambos os sexos e grupos combinados, grupos etários desde os 2 até aos 80+ anos, e populações tão diversas como crianças em idade escolar, idosos, atletas universitários, trabalhadores industriais, trabalhadoras informais e militares — fornecendo uma base suficientemente heterogénea para parametrização demográfica da prótese ao longo do ciclo de vida.
 
 ---
 
 ## 10. Fontes Identificadas para Expansão Futura
 
-A análise das lacunas da base de dados actual revelou três eixos de cobertura ausentes: dados pediátricos (sem nenhum estudo com participantes abaixo dos 15 anos), dados de populações da Ásia Oriental (China, Japão, Coreia do Sul) e dados de idosos (sem nenhum grupo etário acima dos 59 anos). As fontes abaixo foram identificadas como candidatas prioritárias para uma versão futura do CSV.
+A análise das lacunas da base de dados actual revelou dois eixos de cobertura ainda em aberto: dados de populações da Ásia Oriental (China, Japão, Coreia do Sul) e dados específicos de amputados. As fontes DINED (Países Baixos) e ANSUR II (EUA, 2012) foram entretanto integradas na base de dados, eliminando as lacunas pediátrica, de idosos e de adultos neerlandeses. As fontes abaixo foram identificadas como candidatas prioritárias para uma versão futura do CSV.
 
 ### 10.1 Prioridade alta
-
-**DINED — Países Baixos, população pediátrica (TU Delft, acesso público)**
-Base de dados antropométrica de crianças neerlandesas mantida pelo Delft Institute for Ergonomics and Design. Disponível em acesso aberto, com dimensões da mão desagregadas por grupo etário desde os 0 até aos 18 anos. Preencheria integralmente a lacuna pediátrica, permitindo dimensionar a prótese para utilizadores infantis.
-
-**ANSUR II (2012) — EUA, militares**
-Versão actualizada do estudo ANSUR 1988, com amostra aproximada de 6.000 participantes (≈4.000 homens, ≈1.900 mulheres), maior diversidade étnica e protocolo de medição compatível com o estudo original. Publicado pelo U.S. Army Natick Research Center como relatório técnico de acesso público (Gordon et al., 2014). A compatibilidade de schema com o ANSUR 1988 simplificaria significativamente a codificação.
 
 **Zhuang et al. (2013) — China, população geral**
 *Ergonomics*, 56(7):1138–1148. n=3.356 adultos chineses (18–65 anos), 12 províncias. Comprimento e largura da mão por sexo e grupo etário. Referência mais citada para antropometria da mão da população chinesa geral; preencheria a lacuna da Ásia Oriental, que actualmente não tem qualquer representação na base de dados.
@@ -267,4 +261,4 @@ Base de dados antropométrica governamental da Korean Agency for Technology and 
 A maioria dos estudos antropométricos da mão incide sobre populações saudáveis e em idade activa. Para o design de próteses, seria particularmente relevante dispor de dados da mão intacta de utilizadores de próteses unilaterais — que é a mão de referência para a customização paramétrica. Não foi identificada uma fonte com estatística descritiva completa e publicada para esta população específica; a sua localização constitui uma lacuna bibliográfica a colmatar.
 
 **Dados de idosos (>60 anos)**
-Os utilizadores de próteses de mão incluem uma proporção significativa de pessoas acima dos 60 anos (por causas traumáticas, vasculares ou oncológicas). Nenhum dos estudos actualmente codificados cobre este grupo etário. Qualquer estudo com grupos etários acima dos 60 anos — mesmo com apenas duas ou três dimensões da mão — representaria uma adição com impacto directo na representatividade da base de dados para o utilizador típico de prótese.
+Com a integração dos dados DINED (geron1998 e dined2004), a base de dados cobre agora grupos etários até aos 80+ anos para a população neerlandesa. No entanto, a cobertura de idosos continua limitada a um único país. Estudos com grupos etários acima dos 60 anos noutras populações — em particular de países com alta prevalência de amputação vascular — representariam uma adição com impacto directo na representatividade da base de dados para o utilizador típico de prótese.
