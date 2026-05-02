@@ -28,3 +28,16 @@ File: `/home/pec/dev/mestrado/Projecto completo.md`
 
 - The first line is `**Versão do documento:** \`X.Y.Z\``. Increment it on every edit.
 - Bump **patch** for wording/typo fixes; **minor** for new sections or substantial rewrites; **major** for structural reorganisation.
+
+### 3 — Copy anthropometric CSVs to dados antropométricos
+After generating or updating any anthropometric CSV in `/home/pec/dev/ai-parametric-prosthetic-hand-generator/data/`, copy it to:
+
+```
+/home/pec/dev/mestrado/material/antropometria/dados antropométricos/
+```
+
+Example:
+```bash
+cp /home/pec/dev/ai-parametric-prosthetic-hand-generator/data/multi_population_hand.csv \
+   "/home/pec/dev/mestrado/material/antropometria/dados antropométricos/"
+```

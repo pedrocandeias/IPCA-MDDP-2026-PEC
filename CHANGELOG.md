@@ -1,5 +1,17 @@
 # Changelog
 
+## 0.2.12 - 2026-05-02
+
+- Created a new timestamped backup of `Projecto completo.md` before revising section `5.1`.
+- Revised section `5.1` in European Portuguese, strengthening the conceptual framing of the web platform as a sociotechnical mediation layer and clarifying the rationale for differentiated user roles.
+- Added in-text citations to section `5.1` using bibliography entries already present in the manuscript, and bumped the manuscript version to `0.2.12`.
+
+## 0.2.11 - 2026-05-02
+
+- Created a new timestamped backup of `Projecto completo.md` before revising section `4.4`.
+- Revised section `4.4` in European Portuguese, cleaning the heading markup and consolidating the discussion around iteration, parametric refinement, modularization, robustness testing, and fabrication constraints.
+- Added in-text citations to section `4.4` using bibliography entries already present in the manuscript, and bumped the manuscript version to `0.2.11`.
+
 ## 0.2.10 - 2026-05-02
 
 - Added `projecto_completo_bibliografia/pdfs_em_falta.md` to list the bibliography entries that still do not have an automatically matched local PDF.
