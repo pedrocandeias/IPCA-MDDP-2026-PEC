@@ -1,9 +1,35 @@
 # Changelog
 
+## 0.2.24 - 2026-05-02
+
+- Created a new timestamped backup of `Projecto completo.md` before revising English-influenced uses of `reportado/reportar`.
+- Revised the manuscript wording in European Portuguese, replacing `reportado/reportar` with more natural academic alternatives such as `indicado`, `assinalado`, `identificado`, `descrito`, `registado`, and `assinaladas`, depending on context.
+- Bumped the manuscript version to `0.2.24`.
+
+## 0.2.23 - 2026-05-02
+
+- Created a new timestamped backup of `Projecto completo.md` before removing explicit references to Elicit reports from sections `7.2` and `7.3`.
+- Replaced mentions of `Elicit` and `report` in the manuscript body with neutral references to the reviewed literature, to keep the academic argument grounded only in citeable literature.
+- Bumped the manuscript version to `0.2.23`.
+
+## 0.2.22 - 2026-05-02
+
+- Created a new timestamped backup of `Projecto completo.md` before revising section `7.3`.
+- Revised section `7.3` in European Portuguese, strengthening the analysis of the platform as a mediator of the design process through permissions, visibility control, constraint-setting, algorithmic starting points, and redistributed agency.
+- Reused and consolidated the Elicit-derived bridge from section `7.2` to `7.3`, and bumped the manuscript version to `0.2.22`.
+
+## 0.2.21 - 2026-05-02
+
+- Created a new timestamped backup of `Projecto completo.md` before revising section `7.2`.
+- Revised section `7.2` in European Portuguese, strengthening the distinction between professional and end-user experience, clarifying domain-specific distributions of agency, and aligning the discussion with the Elicit synthesis on asymmetric collaboration and mediated participation.
+- Reused and consolidated the Elicit-derived literature framing for section `7.2`, and bumped the manuscript version to `0.2.21`.
+
 ## 2026-05-02
 
 - Created `sources/elicit/capitulo-7/7.2/` with `queries.md`, `notes.md`, and local `searches/` and `reports/` placeholders to support the Elicit workflow for section `7.2`.
 - Updated `sources/elicit/capitulo-7/7.2/notes.md` with consolidated Elicit findings on direct versus transferable evidence, the main literature gaps, and writing implications for section `7.2`.
+- Downloaded Elicit report `5aeb15f6-71b8-4ac4-8fe1-912a29d46898` into `sources/elicit/capitulo-7/7.2/reports/5aeb15f6-71b8-4ac4-8fe1-912a29d46898/` and aligned file naming with the existing `sources/elicit` pattern, keeping `report.docx`, `report.json`, `report.pdf`, and `notes.md` for local working notes and pasted Elicit chat answers.
+- Integrated the Elicit chat answers from report `5aeb15f6-71b8-4ac4-8fe1-912a29d46898` into the local synthesis for `sources/elicit/capitulo-7/7.2/notes.md`, sharpening the role distinction between socket design, control customization, aesthetic customization, and the bridge from section `7.2` to `7.3`.
 
 ## 0.2.19 - 2026-05-02
 
