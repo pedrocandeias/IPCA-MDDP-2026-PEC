@@ -1,5 +1,24 @@
 # Changelog
 
+## 0.2.10 - 2026-05-02
+
+- Added `projecto_completo_bibliografia/pdfs_em_falta.md` to list the bibliography entries that still do not have an automatically matched local PDF.
+
+## 0.2.9 - 2026-05-02
+
+- Created `projecto_completo_bibliografia/` and copied the locally available PDF files matched against the current bibliography of `Projecto completo.md`.
+- Added `projecto_completo_bibliografia/README.md`, `copied_matches.json`, and `unmatched_references.txt` to document automatic matches and references without a local PDF match.
+
+## 0.2.8 - 2026-05-02
+
+- Updated `AGENTS.md` to require copying available local PDF files for sources cited in `Projecto completo.md` into `project_completo_bibliografia/` after bibliography additions.
+
+## 0.2.7 - 2026-05-02
+
+- Created a new timestamped backup of `Projecto completo.md` before revising section `4.3`.
+- Rewrote section `4.3` in European Portuguese, restoring the section boundary, removing misplaced draft residue, and consolidating the OpenSCAD discussion around technical structure, parameter logic, fabrication constraints, and a focused critical analysis.
+- Added in-text citations and the corresponding APA 7 bibliography entries for the new `4.3` script-based parametric modeling references, and bumped the manuscript version to `0.2.7`.
+
 ## 0.2.6 - 2026-05-01
 
 - Created a new timestamped backup of `Projecto completo.md` before revising section `4.2`.

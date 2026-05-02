@@ -36,6 +36,7 @@ Keep an explicit version line at the top of `Projecto completo.md` and bump that
 All text written or revised in `Projecto completo.md` must use European Portuguese (`português de Portugal`) consistently.
 When adding literature to the manuscript, always uniformize citation style within the edited section and, when feasible, across adjacent sections. Do not mix title-only references with author-year citations in running text when the source metadata is available.
 Whenever a new citation is added to the manuscript, add the corresponding full bibliographic entry to the bibliography at the end of the document using APA 7 format.
+After adding bibliography entries for sources cited in `Projecto completo.md`, locate the corresponding local PDF files when available and copy them into `project_completo_bibliografia/` so the manuscript bibliography and the supporting PDFs remain collocated for review.
 
 ## Research Workflow
 When using Elicit or similar literature tools, work sequentially and keep continuity between related sections instead of researching isolated fragments with no shared framing. For each substantial section, use both targeted searches and broader reports when useful, and treat the suggested bibliography as a primary research output rather than relying only on summaries. If the intended scope of a research task is ambiguous, confirm it before proceeding instead of assuming the focus.
