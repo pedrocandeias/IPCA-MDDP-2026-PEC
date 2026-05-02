@@ -8,7 +8,7 @@ Foram produzidos três ficheiros CSV complementares:
 
 - `ansur_1988_complete.csv` — 2.726 linhas, 47 dimensões corporais do estudo ANSUR 1988 (Gordon et al., 1989), população militar norte-americana
 - `ansur_1988_hand_arm.csv` — 696 linhas, subconjunto do ANSUR restrito às medições da mão, antebraço e braço
-- `multi_population_hand.csv` — 1.740 linhas, dados de dez estudos populacionais independentes de oito países diferentes
+- `multi_population_hand.csv` — 1.790 linhas, dados de onze estudos populacionais independentes de nove países diferentes
 
 ---
 
@@ -149,6 +149,40 @@ Esta informação é crítica porque estudos diferentes definem as mesmas dimens
 
 O trabalho de Moreo (2016), dissertação de mestrado sobre design paramétrico de prótese de mão para crianças, foi lido na íntegra (55 páginas). A Tabela 6.1 apresenta valores percentílicos de comprimento de dedo por grupo etário, mas estes valores são extraídos da base de dados DINED (TU Delft, n=965 crianças neerlandesas) — não constituindo uma recolha primária por parte da autora. Incluir estes valores equivaleria a duplicar uma fonte secundária sem rastreabilidade directa ao estudo DINED original. **Decisão: excluído.**
 
+### 5.10 EUA — militares ANSUR II (Gordon et al., 2015)
+
+**Fonte:** Relatório técnico NATICK/TR-15/007, U.S. Army Natick Soldier Research, Development and Engineering Center. n=6.068 militares activos (4.082M, 1.986F), idade 17–58, grande diversidade étnica. Os dados brutos individuais foram disponibilizados em acesso público em 2017 (licença CC BY 4.0). As estatísticas foram calculadas a partir dos CSVs individuais (não do relatório impresso), usando Python puro sem dependências externas, por forma a garantir reprodutibilidade exacta.
+
+**Decisão:** Inclusão total. É o maior conjunto de dados individuais de antropometria da mão disponível publicamente. A disponibilidade de dados brutos individuais (em vez de apenas tabelas sumárias) permitiu calcular o conjunto completo de 11 indicadores por dimensão (média, SD, mínimo, máximo, P5, P10, P25, P50, P75, P90, P95). Sete medições codificadas: comprimento da mão, largura da mão (metacarpal), circunferência da mão, comprimento da palma, circunferência do pulso, comprimento antebraço-ponta do dedo médio e comprimento antebraço-centro de preensão.
+
+**Nota:** A medição `wristheight` foi excluída — corresponde à distância do chão ao pulso em posição de pé, uma dimensão postural e não uma medição da mão.
+
+### 5.11 Países Baixos — DINED (TU Delft, 1993–2004)
+
+**Fonte:** Base de dados antropométrica do Delft Institute for Ergonomics and Design, acessível via conta institucional em dined.io.tudelft.nl. Três sub-datasets distintos, com dados de mão disponíveis:
+
+- **kima1993**: crianças neerlandesas, idades 2–12 (grupos por ano), por sexo e combinado; 8 medições da mão por grupo etário.
+- **geron1998**: idosos neerlandeses, idades 50–80+ (bandas de 5 anos), por sexo e combinado; 5 medições da mão.
+- **dined2004**: adultos neerlandeses, grupos etários 20–30, 31–60, 60+, por sexo e combinado; 6–7 medições da mão.
+
+Os dados foram extraídos a partir do HTML da interface web (padrões `id="mean{col}_{row}"` / `id="sd{col}_{row}"`), mapeando índices de coluna para combinações (sub-dataset, sexo, grupo etário) e índices de linha para nomes de medição.
+
+**Decisão:** Inclusão total (três sub-datasets). Apenas média e desvio-padrão estão disponíveis; percentis não são fornecidos pela interface DINED. O grupo combinado 20–60 do dined2004 foi excluído por ser redundante relativamente aos grupos 20–30 e 31–60. Primeiro dataset pediátrico e o dataset de idosos mais granular da base de dados.
+
+### 5.12 China — idosos de Pequim (Hu et al., 2007)
+
+**Fonte:** *International Journal of Industrial Ergonomics*, 37(4):303–311. DOI: 10.1016/j.ergon.2006.11.006. n=108 (58F, 50M), idade 65–85, residentes na área de Pequim, recrutados por conveniência entre reformados. Medições com paquímetro deslizante e paquímetro de pontas, segundo a norma chinesa GB/T 5703-1999 (equivalente à ISO 7250:1996). Tabela 1 (média e desvio-padrão) e Tabela 2 (P1, P5, P50, P95, P99).
+
+**Decisão:** Inclusão parcial (cinco medições de mão/antebraço: largura da mão no metacarpal, largura máxima da mão, comprimento da mão, comprimento do dedo, comprimento antebraço-ponta dos dedos). P5, P50 e P95 codificados a partir da Tabela 2. A medição "Finger length" usa a designação do padrão GB/T 5703 sem especificar o dígito; assume-se o dedo médio, documentado em `data_quality_note`.
+
+**Nota de cobertura:** Primeira fonte de dados de idosos chineses e, simultaneamente, a única fonte da Ásia Oriental na base de dados (após a verificação de que a referência "Zhuang et al. 2013" não era verificável).
+
+### 5.13 Estudo excluído: Zhou et al. (2016)
+
+**Fonte:** *International Journal of Industrial Ergonomics*, 53:27–36. DOI: 10.1016/j.ergon.2015.10.007. Artigo metodológico sobre reconstrução de modelos corporais 3D a partir de fotografias ortogonais, usando deformação de forma livre (FFD).
+
+**Decisão: excluído.** O artigo não é um estudo de antropometria populacional: apresenta um método de modelação e valida-o sobre um único sujeito. A Figura 12 do artigo compara valores do modelo com valores do participante real para 22 dimensões — não constituindo estatística descritiva de uma amostra. Não há média, desvio-padrão nem percentis de uma população. Incluir o valor de comprimento de mão do sujeito de validação (17 cm, lido do gráfico) seria metodologicamente incorrecto.
+
 ---
 
 ## 6. Estrutura do CSV e Schema
@@ -215,7 +249,7 @@ Cada linha do CSV contém a citação completa (`source_citation`) e o número d
 Os dados foram codificados em dois scripts Python independentes:
 
 - `generate_ansur_csv.py` — gera `ansur_1988_complete.csv` e `ansur_1988_hand_arm.csv` a partir de dicionários Python embutidos no script, um por tabela do relatório ANSUR
-- `generate_multi_population_hand_csv.py` — gera `multi_population_hand.csv` a partir de sete secções numeradas, cada uma correspondente a um estudo
+- `generate_multi_population_hand_csv.py` — gera `multi_population_hand.csv` a partir de dez secções numeradas, cada uma correspondente a um estudo ou conjunto de datasets
 
 A escolha de embeber os dados directamente no código (em vez de, por exemplo, folhas de cálculo intermédias) serve três propósitos: (1) rastreabilidade — cada valor está imediatamente adjacente à sua citação e nota de método; (2) reprodutibilidade — executar o script regenera o CSV de forma determinista; (3) controlo de versão — alterações aos dados são visíveis em diff de git, com o contexto de que estudo foi modificado.
 
@@ -229,36 +263,118 @@ O script aplica automaticamente as conversões de unidade, calcula `value_in` a 
 |---|---|---|---|---|
 | `ansur_1988_complete.csv` | 2.726 | 1 (EUA) | 1 | 47 |
 | `ansur_1988_hand_arm.csv` | 696 | 1 (EUA) | 1 | 17 |
-| `multi_population_hand.csv` | 1.740 | 8 | 10 | ~80 |
+| `multi_population_hand.csv` | 1.790 | 9 | 11 | ~85 |
 
-O ficheiro `multi_population_hand.csv` cobre oito países (EUA, Países Baixos, Turquia, México, Índia, Portugal, Nigéria, Jordânia), ambos os sexos e grupos combinados, grupos etários desde os 2 até aos 80+ anos, e populações tão diversas como crianças em idade escolar, idosos, atletas universitários, trabalhadores industriais, trabalhadoras informais e militares — fornecendo uma base suficientemente heterogénea para parametrização demográfica da prótese ao longo do ciclo de vida.
+O ficheiro `multi_population_hand.csv` cobre nove países (EUA, Países Baixos, Turquia, México, Índia, Portugal, Nigéria, Jordânia, China), ambos os sexos e grupos combinados, grupos etários desde os 2 até aos 80+ anos, e populações tão diversas como crianças em idade escolar, idosos, atletas universitários, trabalhadores industriais, trabalhadoras informais e militares.
 
 ---
 
-## 10. Fontes Identificadas para Expansão Futura
+## 10. Cobertura Global da Base de Dados e Lacunas
 
-A análise das lacunas da base de dados actual revelou dois eixos de cobertura ainda em aberto: dados de populações da Ásia Oriental (China, Japão, Coreia do Sul) e dados específicos de amputados. As fontes DINED (Países Baixos) e ANSUR II (EUA, 2012) foram entretanto integradas na base de dados, eliminando as lacunas pediátrica, de idosos e de adultos neerlandeses. As fontes abaixo foram identificadas como candidatas prioritárias para uma versão futura do CSV.
+### 10.1 O que está coberto
 
-### 10.1 Prioridade alta
+A base de dados `multi_population_hand.csv` foi construída com o objectivo de representar a variabilidade antropométrica da mão humana em múltiplas dimensões: geográfica, demográfica, etária e estatística. A tabela seguinte sintetiza a cobertura actual.
 
-**Zhuang et al. (2013) — China, população geral**
-*Ergonomics*, 56(7):1138–1148. n=3.356 adultos chineses (18–65 anos), 12 províncias. Comprimento e largura da mão por sexo e grupo etário. Referência mais citada para antropometria da mão da população chinesa geral; preencheria a lacuna da Ásia Oriental, que actualmente não tem qualquer representação na base de dados.
+#### 10.1.1 Cobertura geográfica
 
-### 10.2 Prioridade média
+| Região | Países representados | Fonte(s) |
+|---|---|---|
+| Europa Ocidental | Portugal, Países Baixos | Anacleto Filho et al. (2023); DINED kima1993, geron1998, dined2004 |
+| América do Norte | EUA | ANSUR 1988, ANSUR II 2012, Lim et al. (2018) |
+| América Latina | México | Rodríguez-Vega et al. (2024) |
+| Médio Oriente | Jordânia | Mistarihi (2020) |
+| África | Nigéria | Ibiwari et al. (2025) |
+| Sul da Ásia | Índia | Nag et al. (2003) |
+| Ásia Oriental | China (Pequim) | Hu et al. (2007) |
+| Europa do Sul / Ásia Menor | Turquia | Chatzioglou et al. (2024) |
 
-**Greiner (1991) — EUA, mão (relatório técnico Natick)**
-Relatório técnico "Hand Anthropometry of U.S. Army Personnel" (TR-91/010). Complemento ao ANSUR 1988 com dimensões da mão muito mais granulares: comprimentos por falange, profundidades por articulação, ângulos de preensão. Caso disponível no acervo, acrescentaria detalhe anatómico não disponível em nenhuma outra fonte já codificada.
+Nove países estão representados, distribuídos por sete regiões do mundo. A cobertura é particularmente densa nos EUA (três fontes independentes) e nos Países Baixos (três sub-datasets DINED).
+
+#### 10.1.2 Cobertura etária
+
+| Faixa etária | Cobertura | Fonte(s) |
+|---|---|---|
+| 2–12 anos | Países Baixos | DINED kima1993 (por ano de idade) |
+| 15–19 anos | México | Rodríguez-Vega et al. (2024), subgrupo |
+| 18–30 anos | EUA, Turquia | Lim et al. (2018); Chatzioglou et al. (2024) |
+| 17–58 anos | EUA | ANSUR II 2012 |
+| 15–59 anos | México | Rodríguez-Vega et al. (2024), 8 grupos etários |
+| 19–30 anos | Nigéria | Ibiwari et al. (2025) |
+| 20–40 anos | Jordânia | Mistarihi (2020) |
+| 20–60+ anos | Países Baixos | DINED dined2004 (3 grupos) |
+| 50–80+ anos | Países Baixos | DINED geron1998 (7 grupos de 5 anos) |
+| 65–85 anos | China | Hu et al. (2007) |
+
+A cobertura pediátrica (2–12 anos) existe apenas para os Países Baixos. A adolescência (13–17 anos) está ausente como grupo dedicado — o subgrupo mexicano 15–19 é o mais próximo, mas cobre uma faixa mais alargada. A idade adulta activa (20–60) está bem coberta em múltiplos países. Os idosos estão representados nos Países Baixos (50–80+) e na China (65–85), mas não noutras geografias.
+
+#### 10.1.3 Cobertura estatística
+
+A profundidade estatística varia consideravelmente entre fontes:
+
+| Nível de detalhe | Estudos |
+|---|---|
+| Média, SD, min, max, P5–P95 (11 indicadores) | ANSUR 1988, ANSUR II 2012 |
+| Média, SD, P5, P50, P95 (5 indicadores) | DINED (3 sub-datasets), Hu et al. (2007) |
+| P5, P50, P95 (3 indicadores) | Nag et al. (2003), Anacleto Filho et al. (2023), Rodríguez-Vega et al. (2024) |
+| Média, SD, min, max (4 indicadores) | Chatzioglou et al. (2024), Ibiwari et al. (2025) |
+| Média apenas | Mistarihi (2020) — largura da mão; Lim et al. (2018) |
+
+A maioria das fontes não-americanas fornece apenas subconjuntos de estatísticas. Percentis intermédios (P10, P25, P75, P90) estão disponíveis exclusivamente nos datasets ANSUR. Esta assimetria é uma limitação real: para populações não-americanas, o modelo paramétrico pode interpolar entre P5 e P95, mas não dispõe de percentis de granularidade fina.
+
+---
+
+### 10.2 Onde a cobertura falha
+
+#### 10.2.1 Lacunas geográficas
+
+As regiões mais populosas do mundo estão sub-representadas ou ausentes:
+
+- **Ásia Oriental** — China tem uma única fonte (n=108, apenas idosos de Pequim). Japão e Coreia do Sul estão completamente ausentes, apesar de serem países com literatura ergonómica activa. O conjunto ANSUR é amplamente usado como proxy para populações ocidentais, mas os valores diferem sistematicamente das populações do leste asiático (mãos tendencialmente mais pequenas nos estudos disponíveis).
+- **Ásia do Sudeste** — Nenhum país representado (Indonésia, Filipinas, Vietname, Tailândia, etc.), apesar de concentrarem uma fracção significativa da população mundial e de apresentarem diferenças antropométricas documentadas relativamente às populações sul-asiáticas.
+- **África Subsaariana** — Apenas a Nigéria, com uma amostra de atletas universitários (n=80) que não é representativa da população geral. Angola, Moçambique, e outros países de língua portuguesa estão ausentes, o que é particularmente relevante numa tese desenvolvida em Portugal.
+- **América do Sul** — Completamente ausente. Brasil, Colômbia e Argentina têm literatura ergonómica publicada mas não foram identificadas fontes acessíveis com dados de mão codificáveis.
+- **Europa Central e de Leste** — Ausente. Os Países Baixos e Portugal representam a Europa, mas há variabilidade antropométrica documentada entre populações do norte, sul e leste do continente.
+
+#### 10.2.2 Lacunas demográficas
+
+- **Adolescentes (13–17 anos)** — a transição da mão infantil para a adulta não está coberta por nenhum estudo dedicado. O kima1993 chega aos 12 anos e o ANSUR começa aos 17.
+- **Amputados** — a mão de referência para uma prótese unilateral é a mão contralateral intacta do próprio utilizador. Não foi identificado nenhum estudo com estatística descritiva da mão intacta de utilizadores de próteses. Esta é a lacuna de maior impacto directo para o objectivo desta tese: sem estes dados, a personalização paramétrica baseia-se em populações saudáveis como aproximação.
+- **Pessoas com deficiência física** — apenas o estudo de Mistarihi (2020) cobre esta população (n=40, sexos combinados, Jordânia). A dimensão amostral é insuficiente para ser estatisticamente representativa.
+- **Idosos fora da Europa e China** — a prevalência de amputação de membro superior é mais elevada em contextos de baixo rendimento (causas traumáticas, diabetes, doença vascular), mas os dados de idosos disponíveis limitam-se a populações europeias e chinesas.
+
+#### 10.2.3 Limitações qualitativas dos dados existentes
+
+Para além das lacunas por ausência, existem limitações nos dados já presentes:
+
+- **Heterogeneidade de protocolos** — "comprimento da mão" é medido desde pontos de referência distintos consoante o estudo (prega distal do pulso, processo estilóide do rádio, articulação metacarpo-falângica). Os valores não são directamente comparáveis entre fontes sem ajuste, o que limita a integração directa para inferência de valores fora da base de dados.
+- **Amostras de conveniência** — a maioria dos estudos não é probabilística: Chatzioglou et al. (2024) recrutou estudantes universitários de Izmir e Istanbul; Ibiwari et al. (2025) recrutou atletas universitários; Hu et al. (2007) recrutou reformados da área de Pequim. A representatividade nacional é, em todos estes casos, questionável.
+- **Desequilíbrio de dimensões** — o comprimento da mão e a largura da mão (metacarpal) estão presentes em quase todas as fontes; comprimentos por falange individual, profundidade da palma, e ângulos de abdução dos dedos estão ausentes excepto no ANSUR.
+- **Mão medida** — a maioria dos estudos mede a mão dominante ou a mão direita; o estudo português mede a mão esquerda por limitação de instalações. Esta inconsistência é registada nos metadados mas não pode ser corrigida post-hoc.
+
+---
+
+### 10.3 Fontes Identificadas para Expansão Futura
+
+#### 10.3.1 Prioridade alta
+
+**Ran et al. (2009) — China, crianças**
+*Lecture Notes in Computer Science* (ICDHM 2009), 5620:46–54. DOI: 10.1007/978-3-642-02809-0_6. n=20.000 crianças chinesas, idades 4–17 anos. Oito dimensões da mão com média, desvio-padrão, P5 e P95. Preencheria a lacuna pediátrica para a Ásia Oriental e complementaria o kima1993 neerlandês com uma população de outra origem.
 
 **Dianat et al. (2014) — Irão, trabalhadores industriais**
 *International Journal of Industrial Ergonomics*, 44:107–114. n=200 (100M, 100F), trabalhadores de Tabriz, Irão. Cobriria o Médio Oriente com maior dimensão amostral e desagregação por sexo, em contraste com o estudo de Mistarihi (2020), que tem apenas n=40 e sexos combinados.
 
 **SIZE KOREA — Coreia do Sul, base de dados pública**
-Base de dados antropométrica governamental da Korean Agency for Technology and Standards. Disponível em acesso aberto, cobre adultos e crianças com dados da mão. Completaria a cobertura da Ásia Oriental a par do estudo de Zhuang et al. (2013).
+Base de dados antropométrica governamental da Korean Agency for Technology and Standards. Disponível em acesso aberto, cobre adultos e crianças com dados da mão. Completaria a cobertura da Ásia Oriental.
 
-### 10.3 Pertinência para o tema da tese
+#### 10.3.2 Prioridade média
+
+**Greiner (1991) — EUA, mão (relatório técnico Natick)**
+Relatório técnico "Hand Anthropometry of U.S. Army Personnel" (TR-91/010). Complemento ao ANSUR com dimensões da mão muito mais granulares: comprimentos por falange, profundidades por articulação, ângulos de preensão. Acrescentaria detalhe anatómico de alta relevância para o design de dedos protésicos articulados.
+
+**Chen, Wang & Liu (2022) — China, adultos (3D scanning)**
+*Lecture Notes in Computer Science* (HCII 2022), 13322. DOI: 10.1007/978-3-031-05900-1_26. n=937 adultos (468M, 469F), 6 regiões da China, idades 22–60. Método de escaneamento 3D semi-automático. Complementaria o Hu et al. (2007) com uma amostra de adultos em idade activa e maior cobertura geográfica dentro da China.
+
+#### 10.3.3 Pertinência directa para o tema da tese
 
 **Dados de amputados — mão contralateral intacta**
-A maioria dos estudos antropométricos da mão incide sobre populações saudáveis e em idade activa. Para o design de próteses, seria particularmente relevante dispor de dados da mão intacta de utilizadores de próteses unilaterais — que é a mão de referência para a customização paramétrica. Não foi identificada uma fonte com estatística descritiva completa e publicada para esta população específica; a sua localização constitui uma lacuna bibliográfica a colmatar.
-
-**Dados de idosos (>60 anos)**
-Com a integração dos dados DINED (geron1998 e dined2004), a base de dados cobre agora grupos etários até aos 80+ anos para a população neerlandesa. No entanto, a cobertura de idosos continua limitada a um único país. Estudos com grupos etários acima dos 60 anos noutras populações — em particular de países com alta prevalência de amputação vascular — representariam uma adição com impacto directo na representatividade da base de dados para o utilizador típico de prótese.
+Esta é a lacuna de maior impacto. Para o design de próteses de mão personalizada, a referência correcta é a mão intacta do próprio utilizador — não a média de uma população saudável. Não foi identificada nenhuma fonte publicada com estatística descritiva desta população específica. A condução de uma recolha primária de dados (mesmo com n reduzido) seria metodologicamente mais valiosa do que acrescentar novas populações saudáveis.

@@ -1,5 +1,16 @@
 # Changelog
 
+## 2026-05-02
+
+- Created `sources/elicit/capitulo-7/7.2/` with `queries.md`, `notes.md`, and local `searches/` and `reports/` placeholders to support the Elicit workflow for section `7.2`.
+- Updated `sources/elicit/capitulo-7/7.2/notes.md` with consolidated Elicit findings on direct versus transferable evidence, the main literature gaps, and writing implications for section `7.2`.
+
+## 0.2.19 - 2026-05-02
+
+- Created a new timestamped backup of `Projecto completo.md` before revising section `7.1`.
+- Revised section `7.1` in European Portuguese, strengthening the discussion of interaction strategy, task-oriented interface structure, controlled exposure of the parametric space, and the methodological role of UI/UX mediation.
+- Reused existing in-text citations for section `7.1`, and bumped the manuscript version to `0.2.19`.
+
 ## 0.2.18 - 2026-05-02
 
 - Created a new timestamped backup of `Projecto completo.md` before revising Chapter `6`.
