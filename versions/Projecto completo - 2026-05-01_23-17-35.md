@@ -1,4 +1,4 @@
-**Versão do documento:** `0.2.2`
+**Versão do documento:** `0.2.1`
 
 ## **Capítulo 1 — Introdução** 
 
@@ -265,16 +265,6 @@ A antropometria aplicada ao design protésico evoluiu para um paradigma digital 
 
 No contexto desta investigação, esta necessidade de estruturação de dados foi operacionalizada através da criação de uma tabela local consolidada de medidas antropométricas da mão, registada em `material/antropometria/Dados antopométricos/multi_population_hand.csv`. O ficheiro agrega 723 registos extraídos de cinco estudos com populações do México, Índia, Turquia, Portugal e Nigéria, preservando para cada entrada a proveniência bibliográfica, a medida recolhida, o grupo populacional, o tipo de estatística reportada e os valores convertidos para unidades comparáveis. Esta consolidação não elimina a heterogeneidade metodológica das fontes originais, mas constitui uma infraestrutura intermédia relevante para comparação entre amostras, seleção de parâmetros dimensionais e teste de coerência geométrica no desenvolvimento do modelo paramétrico (Anacleto Filho et al., 2023; Chatzioglou et al., 2024; Ibiwari et al., 2025; Nag et al., 2003; Rodríguez-Vega & Rodríguez-Vega, 2024).
 
-A composição desta tabela consolidada pode ser sintetizada do seguinte modo:
-
-| País | Estudo | n | Medidas | Linhas |
-| --- | --- | --- | --- | --- |
-| Turquia | Chatzioglou et al. (2024) | 51 | 5 comprimentos dos dedos da mão direita, por sexo e combinado | 56 |
-| México | Rodríguez-Vega et al. (2024) | 2.837 | Comprimento da mão, comprimento da palma, largura da mão e diâmetro de preensão, com valores gerais e por 8 grupos etários | 360 |
-| Índia | Nag et al. (2003) | 95 mulheres | 51 dimensões, incluindo comprimentos, larguras, circunferências, profundidades e aberturas, com P5/P50/P95 | 255 |
-| Portugal | Anacleto Filho et al. (2023) | 343 | Comprimento e largura da mão, com P5/P50/P95 | 20 |
-| Nigéria | Ibiwari et al. (2025) | 80 atletas | Comprimento da mão, largura da mão, comprimento palmar e 3.º dedo, com subgrupos de basquetebol e voleibol | 32 |
-
 ### 2.5 Inteligência Artificial no processo de design 
 
 A integração de Inteligência Artificial (IA) nos processos de design tem vindo a consolidar-se como um campo transversal, que cruza práticas de design industrial, engenharia de produto e design centrado no utilizador. A literatura recente tende a enquadrar a IA não como uma técnica singular, mas como um conjunto de capacidades distribuídas ao longo do workflow de projeto, desempenhando funções como geração de alternativas, apoio à avaliação, otimização, automatização de tarefas e apoio à decisão. Um movimento conceptual recorrente consiste em mapear métodos de IA a etapas específicas do processo de design, tornando o “onde a IA atua” tão relevante quanto o “o que a IA faz” (Khanolkar et al., 2023; Saeidnia & Ausloos, 2024; Yüksel et al., 2023).
@@ -467,7 +457,7 @@ Num primeiro nível, procede-se à análise documental e revisão da literatura,
 
 Durante o desenvolvimento do sistema paramétrico, os dados assumem natureza técnica e projetual, incluindo parâmetros geométricos, relações dimensionais, tempos de fabrico, consumo de material e desempenho estrutural dos protótipos. Estes dados são analisados de forma iterativa, permitindo reformular o modelo paramétrico e otimizar a sua performance.
 
-Na fase de prototipagem, a análise incide sobre critérios de exequibilidade de fabrico, robustez estrutural, coerência dimensional e facilidade de montagem. Não são recolhidos dados pessoais ou biométricos de utilizadores reais, sendo utilizados exclusivamente conjuntos de dados antropométricos públicos, o que delimita o âmbito empírico ao domínio técnico e projetual. Entre estes inclui-se a tabela local `material/antropometria/Dados antopométricos/multi_population_hand.csv`, compilada a partir de cinco estudos de referência sobre dimensões da mão em diferentes populações, funcionando como base intermédia para seleção, comparação e normalização de medidas relevantes para a parametrização geométrica. A organização da tabela preserva ainda informação sobre país, amostra, tipo de medida, estatística e granularidade dos subconjuntos analisados, tornando explícita a cobertura e os limites de cada fonte antes da sua tradução para parâmetros de projeto (Anacleto Filho et al., 2023; Chatzioglou et al., 2024; Ibiwari et al., 2025; Nag et al., 2003; Rodríguez-Vega & Rodríguez-Vega, 2024).
+Na fase de prototipagem, a análise incide sobre critérios de exequibilidade de fabrico, robustez estrutural, coerência dimensional e facilidade de montagem. Não são recolhidos dados pessoais ou biométricos de utilizadores reais, sendo utilizados exclusivamente conjuntos de dados antropométricos públicos, o que delimita o âmbito empírico ao domínio técnico e projetual. Entre estes inclui-se a tabela local `material/antropometria/Dados antopométricos/multi_population_hand.csv`, compilada a partir de cinco estudos de referência sobre dimensões da mão em diferentes populações, funcionando como base intermédia para seleção, comparação e normalização de medidas relevantes para a parametrização geométrica (Anacleto Filho et al., 2023; Chatzioglou et al., 2024; Ibiwari et al., 2025; Nag et al., 2003; Rodríguez-Vega & Rodríguez-Vega, 2024).
 
 ### 3.5 Critérios de avaliação e limitações metodológicas
 

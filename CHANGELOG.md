@@ -1,5 +1,23 @@
 # Changelog
 
+## 0.2.2 - 2026-05-01
+
+- Created a new timestamped backup of `Projecto completo.md` before adding the anthropometric dataset summary table.
+- Expanded section `2.4` in European Portuguese with a summary table describing the composition of `material/antropometria/Dados antopométricos/multi_population_hand.csv` by country, study, sample, measurement coverage, and row count.
+- Refined the methodological description in section `3.4` to clarify which metadata dimensions are preserved in the consolidated anthropometric dataset, and bumped the manuscript version to `0.2.2`.
+
+## 0.2.1 - 2026-05-01
+
+- Created a new timestamped backup of `Projecto completo.md` before adding the anthropometric dataset references.
+- Revised sections `2.4`, `3.3`, and `3.4` in European Portuguese to document the local hand anthropometry dataset in `material/antropometria/Dados antopométricos/multi_population_hand.csv` and its methodological role in the project.
+- Added in-text citations and the corresponding APA 7 bibliography entries for the five source papers used to build the consolidated anthropometric table, and bumped the manuscript version to `0.2.1`.
+
+## 0.1.10 - 2026-05-01
+
+- Created a new timestamped backup of `Projecto completo.md` before revising section `2.7`.
+- Revised section `2.7` in European Portuguese, grounding the critical synthesis in review literature on evidence quality, personalization, control, access, and user involvement.
+- Added in-text citations and the corresponding bibliography entries for the new `2.7` literature references, and bumped the manuscript version to `0.1.10`.
+
 ## 0.1.9 - 2026-05-01
 
 - Created a new timestamped backup of `Projecto completo.md` before revising section `2.6`.

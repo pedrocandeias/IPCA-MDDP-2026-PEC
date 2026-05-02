@@ -1,4 +1,4 @@
-**Versão do documento:** `0.2.2`
+**Versão do documento:** `0.1.9`
 
 ## **Capítulo 1 — Introdução** 
 
@@ -263,18 +263,6 @@ Acresce a recomendação de distinguir ajuste estático (em posturas padronizada
 
 A antropometria aplicada ao design protésico evoluiu para um paradigma digital centrado na captura e interpretação de forma tridimensional, complementada por métricas de interface que aproximam a medição do desempenho real em uso. Esta abordagem permite maior precisão na personalização, integração com CAD/parametrização e fabricação aditiva, e abre caminho a fluxos parcialmente automatizados de adaptação. Contudo, a consolidação destas práticas exige melhoria na padronização de procedimentos, aumento de amostras e criação de bases de dados antropométricas mais representativas, garantindo que a personalização e a inclusão não dependem apenas de capacidade tecnológica, mas também de evidência robusta e acessível (Bradtmiller, 2022; Sunderland et al., 2024).
 
-No contexto desta investigação, esta necessidade de estruturação de dados foi operacionalizada através da criação de uma tabela local consolidada de medidas antropométricas da mão, registada em `material/antropometria/Dados antopométricos/multi_population_hand.csv`. O ficheiro agrega 723 registos extraídos de cinco estudos com populações do México, Índia, Turquia, Portugal e Nigéria, preservando para cada entrada a proveniência bibliográfica, a medida recolhida, o grupo populacional, o tipo de estatística reportada e os valores convertidos para unidades comparáveis. Esta consolidação não elimina a heterogeneidade metodológica das fontes originais, mas constitui uma infraestrutura intermédia relevante para comparação entre amostras, seleção de parâmetros dimensionais e teste de coerência geométrica no desenvolvimento do modelo paramétrico (Anacleto Filho et al., 2023; Chatzioglou et al., 2024; Ibiwari et al., 2025; Nag et al., 2003; Rodríguez-Vega & Rodríguez-Vega, 2024).
-
-A composição desta tabela consolidada pode ser sintetizada do seguinte modo:
-
-| País | Estudo | n | Medidas | Linhas |
-| --- | --- | --- | --- | --- |
-| Turquia | Chatzioglou et al. (2024) | 51 | 5 comprimentos dos dedos da mão direita, por sexo e combinado | 56 |
-| México | Rodríguez-Vega et al. (2024) | 2.837 | Comprimento da mão, comprimento da palma, largura da mão e diâmetro de preensão, com valores gerais e por 8 grupos etários | 360 |
-| Índia | Nag et al. (2003) | 95 mulheres | 51 dimensões, incluindo comprimentos, larguras, circunferências, profundidades e aberturas, com P5/P50/P95 | 255 |
-| Portugal | Anacleto Filho et al. (2023) | 343 | Comprimento e largura da mão, com P5/P50/P95 | 20 |
-| Nigéria | Ibiwari et al. (2025) | 80 atletas | Comprimento da mão, largura da mão, comprimento palmar e 3.º dedo, com subgrupos de basquetebol e voleibol | 32 |
-
 ### 2.5 Inteligência Artificial no processo de design 
 
 A integração de Inteligência Artificial (IA) nos processos de design tem vindo a consolidar-se como um campo transversal, que cruza práticas de design industrial, engenharia de produto e design centrado no utilizador. A literatura recente tende a enquadrar a IA não como uma técnica singular, mas como um conjunto de capacidades distribuídas ao longo do workflow de projeto, desempenhando funções como geração de alternativas, apoio à avaliação, otimização, automatização de tarefas e apoio à decisão. Um movimento conceptual recorrente consiste em mapear métodos de IA a etapas específicas do processo de design, tornando o “onde a IA atua” tão relevante quanto o “o que a IA faz” (Khanolkar et al., 2023; Saeidnia & Ausloos, 2024; Yüksel et al., 2023).
@@ -373,51 +361,51 @@ Apesar do potencial, a evidência empírica é frequentemente baseada em amostra
 
 ### 2.7 Análise crítica do estado da arte e lacunas identificadas![Shape][image1] 
 
-A síntese das secções anteriores evidencia um panorama marcado por avanços técnicos significativos, mas também por limitações estruturais persistentes na investigação e no desenvolvimento de próteses e tecnologias assistivas. Um tema transversal é o desfasamento entre inovação tecnológica e evidência robusta: muitos desenvolvimentos permanecem em fase de protótipo, testados em amostras reduzidas e por períodos curtos, com escassa validação através de ensaios clínicos, estudos longitudinais e avaliação em contexto real (Chadwell et al., 2020; Samuelsson et al., 2012; Windrich et al., 2016). 
+A síntese das secções anteriores evidencia um panorama marcado por avanços técnicos significativos, mas também por limitações estruturais persistentes na investigação e no desenvolvimento de próteses e tecnologias assistivas. Um tema transversal é o desfasamento entre inovação tecnológica e evidência robusta: muitos desenvolvimentos permanecem em fase de protótipo, testados em amostras reduzidas e por períodos curtos, com escassa validação através de ensaios clínicos, estudos longitudinais e avaliação em contexto real. 
 
-Este padrão enfraquece a capacidade de comparar soluções, generalizar conclusões e traduzir melhorias laboratoriais em benefícios consistentes na vida quotidiana (Hafner & Sawers, 2016; Samuelsson et al., 2012).
+Este padrão enfraquece a capacidade de comparar soluções, generalizar conclusões e traduzir melhorias laboratoriais em benefícios consistentes na vida quotidiana.
 
 #### **Lacuna 1 — Evidência insuficiente e fraca tradução para o mundo real**
 
-A literatura de revisão aponta repetidamente para a ausência de estudos comparativos robustos e de ensaios clínicos que confrontem dispositivos avançados com prescrições convencionais, particularmente em sistemas ativos e externamente alimentados. Em vários subdomínios, observa-se dependência de protótipos e de pequenas amostras, o que limita inferências sobre eficácia, segurança e valor clínico. Em paralelo, verifica-se uma predominância de avaliações em laboratório e tarefas pouco representativas, não captando adequadamente o desempenho em ambientes naturais, com variabilidade de contextos, objetos e exigências funcionais (Ghillebert et al., 2019; Samuelsson et al., 2012; Windrich et al., 2016).
+A literatura de revisão aponta repetidamente para a ausência de estudos comparativos robustos e de ensaios clínicos que confrontem dispositivos avançados com prescrições convencionais, particularmente em sistemas ativos e externamente alimentados. Em vários subdomínios, observa-se dependência de protótipos e de pequenas amostras, o que limita inferências sobre eficácia, segurança e valor clínico. Em paralelo, verifica-se uma predominância de avaliações em laboratório e tarefas pouco representativas, não captando adequadamente o desempenho em ambientes naturais, com variabilidade de contextos, objetos e exigências funcionais.
 
-Esta lacuna é particularmente relevante porque a adaptação, aprendizagem e abandono de próteses ocorrem ao longo do tempo e em ecossistemas reais, como trabalho, casa e espaço público. Quando a evidência se baseia em janelas de observação curtas, torna-se difícil compreender trajetórias de adoção, padrões de uso e emergências de problemas de conforto ou manutenção (Chadwell et al., 2020; Samuelsson et al., 2012).
+Esta lacuna é particularmente relevante porque a adaptação, aprendizagem e abandono de próteses ocorrem ao longo do tempo e em ecossistemas reais (trabalho, casa, espaço público). Quando a evidência se baseia em janelas de observação curtas, torna-se difícil compreender trajetórias de adoção, padrões de uso e emergências de problemas de conforto ou manutenção.
 
 #### **Lacuna 2 — Desalinhamento entre necessidades identificadas, métricas objetivas e qualidade de vida**
 
-Um problema recorrente é a ligação frágil entre aquilo que os utilizadores referem como necessidades, como conforto, controlo intuitivo, aparência e participação social, os indicadores objetivos habitualmente medidos, como desempenho em testes funcionais, parâmetros biomecânicos e contagens de atividade, e os resultados finais desejáveis, como autonomia e qualidade de vida. Revisões salientam que necessidades são contextuais e interdependentes, e que medições laboratoriais podem não refletir tarefas relevantes do quotidiano, contribuindo para contradições entre resultados subjetivos e objetivos (Cordella et al., 2016; Manz et al., 2022).
+Um problema recorrente é a ligação frágil entre aquilo que os utilizadores referem como necessidades (conforto, controlo intuitivo, aparência, participação social), os indicadores objetivos habitualmente medidos (desempenho em testes funcionais, parâmetros biomecânicos, contagens de passos/atividade) e os resultados finais desejáveis, como autonomia e qualidade de vida. Revisões salientam que necessidades são contextuais e interdependentes, e que medições laboratoriais podem não refletir tarefas relevantes do quotidiano, contribuindo para contradições entre resultados subjetivos e objetivos.
 
-Esta desconexão tem implicações diretas no design: sem métricas ecologicamente válidas e sensíveis às prioridades do utilizador, torna-se difícil orientar decisões de projeto para benefícios significativos e sustentados, podendo ocorrer “melhorias técnicas” que não se traduzem em aceitação ou uso continuado (Manz et al., 2022; Samuelsson et al., 2012).
+Esta desconexão tem implicações diretas no design: sem métricas ecologicamente válidas e sensíveis às prioridades do utilizador, torna-se difícil orientar decisões de projeto para benefícios significativos e sustentados, podendo ocorrer “melhorias técnicas” que não se traduzem em aceitação ou uso continuado.
 
 #### **Lacuna 3 — Persistência de problemas na interface corpo–dispositivo e na personalização**
 
-Apesar do progresso em componentes e controlo, a literatura converge na identificação da interface corpo–dispositivo como um ponto crítico ainda não resolvido. Problemas de ajuste, desconforto, irritação cutânea e dificuldades de adaptação persistem como fatores determinantes para insatisfação e abandono. Em revisões, a personalização é frequentemente descrita como insuficiente ou metodologicamente frágil, com evidência difícil de sintetizar devido à variabilidade de intervenções e ao registo incompleto (Alluhydan et al., 2023; Baldock et al., 2023; Richardson & Dillon, 2017).
+Apesar do progresso em componentes e controlo, a literatura converge na identificação da interface corpo–dispositivo como um ponto crítico ainda não resolvido. Problemas de ajuste, desconforto, irritação cutânea e dificuldades de adaptação persistem como fatores determinantes para insatisfação e abandono. Em revisões, a personalização é frequentemente descrita como insuficiente ou metodologicamente frágil, com evidência difícil de sintetizar devido a variabilidade de intervenções e registo  incompleto.
 
-Um aspeto estruturante desta lacuna é a falta de *pipelines* “medição → decisão de design → validação” que sejam consistentes e acessíveis, com dados objetivos suficientes para orientar ajustes individualizados. Mesmo quando se propõem soluções baseadas em sensores e monitorização de uso, emergem barreiras práticas, como custo, bateria, disponibilidade e formação, o que limita a adoção como prática clínica padrão (Chadwell et al., 2020; Richardson & Dillon, 2017).
+Um aspeto estruturante desta lacuna é a falta de pipelines “medição → decisão de design → validação” que sejam consistentes e acessíveis, com dados objetivos suficientes para orientar ajustes individualizados. Mesmo quando se propõem soluções baseadas em sensores e monitorização de uso, emergem barreiras práticas (custo, bateria, disponibilidade, formação), o que limita a adoção como prática clínica padrão.
 
 #### **Lacuna 4 — Estagnação e fragilidade metodológica em controlo e interação humano–prótese**
 
-No caso das próteses de membro superior, algumas revisões caracterizam uma estagnação relativa nas estratégias de controlo em aplicações comerciais, com evolução lenta desde as primeiras abordagens do século XX. Persistem dificuldades de robustez e transferibilidade entre cenários laboratoriais e uso real, bem como desafios associados a esforço cognitivo, tempo de aprendizagem e inconsistência de desempenho em situações quotidianas (Cordella et al., 2016; Marinelli et al., 2022).
+No caso das próteses de membro superior, algumas revisões caracterizam uma estagnação relativa nas estratégias de controlo em aplicações comerciais, com evolução lenta desde as primeiras abordagens do século XX. Persistem dificuldades de robustez e transferibilidade entre cenários laboratoriais e uso real, bem como desafios associados a esforço cognitivo, tempo de aprendizagem e inconsistência de desempenho em situações quotidianas.
 
-Esta lacuna não é apenas técnica: reflete também uma insuficiente conceptualização da interação humano–prótese como sistema integrado, onde controlo, *feedback*, treino e contexto de uso devem ser co-otimizados (Domínguez-Ruiz et al., 2023; Marinelli et al., 2022).
+Esta lacuna não é apenas técnica: reflete também uma insuficiente conceptualização da interação humano–prótese como sistema integrado, onde controlo, feedback, treino e contexto de uso devem ser co-otimizados.
 
 #### **Lacuna 5 — Acesso, custo, manutenção e inequidades sistémicas**
 
-A acessibilidade surge como constrangimento central e persistente, tanto em contextos de baixos recursos como em sistemas de saúde mais robustos. Revisões reportam barreiras associadas a custos elevados, necessidade de formação especializada, atrasos na prestação de cuidados e pressões sistémicas que levam utilizadores a negociar intensivamente para obter soluções adequadas. Em contextos de baixos e médios rendimentos, enfatizam-se ainda problemas de durabilidade e manutenção, com *trade-offs* claros: soluções biomecanicamente mais sofisticadas podem ser mais frágeis e difíceis de manter, comprometendo a sustentabilidade do uso (Alluhydan et al., 2023; Andrysek, 2010; Baumann & Maria, 2023).
+A acessibilidade surge como constrangimento central e persistente, tanto em contextos de baixos recursos como em sistemas de saúde mais robustos. Revisões reportam barreiras associadas a custos elevados, necessidade de formação especializada, atrasos na prestação de cuidados, e pressões sistémicas que levam utilizadores a negociar intensivamente para obter soluções adequadas. Em contextos de baixos e médios rendimentos, enfatizam-se ainda problemas de durabilidade e manutenção, com trade-offs claros: soluções biomecanicamente mais sofisticadas podem ser mais frágeis e difíceis de manter, comprometendo a sustentabilidade do uso.
 
-Assim, a inovação pode agravar inequidades quando introduz dependências de infraestruturas, apoio técnico e cadeias de fornecimento indisponíveis para parte significativa da população (Andrysek, 2010; Segura et al., 2024).
+Assim, a inovação pode agravar inequidades quando introduz dependências de infraestruturas, apoio técnico e cadeias de fornecimento indisponíveis para parte significativa da população.
 
 #### **Lacuna 6 — Envolvimento do utilizador e registo metodológico insuficiente**
 
-O envolvimento do utilizador é descrito como problema metodológico e ético ainda não resolvido. Revisões relacionam explicitamente processos pouco *patient-tailored* com abandono e com a incapacidade de responder a necessidades relevantes. Em várias áreas, identifica-se ausência de métodos qualitativos sistemáticos para captar experiência e aceitabilidade, mesmo em componentes centrados no conforto, como *liners*, o que limita compreensão profunda de fatores de uso e rejeição (Marinelli et al., 2022; Richardson & Dillon, 2017; Walker et al., 2019).
+O envolvimento do utilizador é descrito como problema metodológico e ético ainda não resolvido. Revisões relacionam explicitamente processos pouco “patient-tailored” com abandono e com a incapacidade de responder a necessidades relevantes. Em várias áreas, identifica-se ausência de métodos qualitativos sistemáticos para captar experiência e aceitabilidade, mesmo em componentes centrados no conforto (por exemplo, liners), o que limita compreensão profunda de fatores de uso e rejeição.
 
-Adicionalmente, a heterogeneidade de métodos e a falta de critérios comuns de avaliação, como escalas partilhadas para utilidade e satisfação, dificultam sínteses e meta-análises, mantendo o campo fragmentado e com baixa comparabilidade (Cordella et al., 2016; Hafner & Sawers, 2016; Richardson & Dillon, 2017).
+Adicionalmente, a heterogeneidade de métodos e a falta de critérios comuns de avaliação (por exemplo, escalas partilhadas para utilidade/satisfação) dificultam sínteses e meta-análises, mantendo o campo fragmentado e com baixa comparabilidade.
 
 #### **Implicações para esta investigação**
 
 Em conjunto, estas lacunas apontam para a necessidade de abordagens que:
 
-1. reforcem a ligação entre personalização e evidência, com *pipelines* integrados de aquisição de dados, geração de variantes e validação;
+1. reforcem a ligação entre personalização e evidência, com pipelines integrados de aquisição de dados, geração de variantes e validação;
 
 2. privilegiem avaliação ecologicamente válida e longitudinal, aproximando métricas de resultados de participação e qualidade de vida;
 
@@ -425,7 +413,7 @@ Em conjunto, estas lacunas apontam para a necessidade de abordagens que:
 
 4. incorporem envolvimento do utilizador como elemento contínuo e reportável, articulando métodos qualitativos e quantitativos;
 
-5. considerem acessibilidade, manutenção e contexto de serviço como parte do problema de design (Anderson et al., 2024; Baumann & Maria, 2023; Chadwell et al., 2020).
+5. considerem acessibilidade, manutenção e contexto de serviço como parte do problema de design.
 
 ## Capítulo 3 — Metodologia de Investigação
 
@@ -453,7 +441,7 @@ A hipótese principal sustenta que a integração de design paramétrico e ferra
 
 A metodologia organiza-se em três fases interligadas — conceptual, metodológica e empírica — que evoluem de forma sequencial, mantendo, contudo, a natureza iterativa própria do processo de design.
 
-A fase conceptual corresponde ao momento de enquadramento teórico e problematização. Neste estágio procede-se à revisão crítica da literatura nas áreas do design paramétrico, fabricação aditiva, design inclusivo, antropometria aplicada e integração de inteligência artificial no processo de design. Paralelamente, realiza-se a análise comparativa de soluções open-source existentes no domínio das próteses impressas em 3D, identificando abordagens formais, estruturais e tecnológicas, bem como limitações ao nível da personalização e da reprodutibilidade. Foi também nesta fase que se estruturou uma base local consolidada de dados antropométricos da mão, materializada no ficheiro `material/antropometria/Dados antopométricos/multi_population_hand.csv`, a partir de medições publicadas em cinco estudos de referência, de modo a apoiar a definição dos parâmetros iniciais do sistema e a comparação entre perfis populacionais. O resultado desta fase é a consolidação de um quadro conceptual alinhado com as questões de investigação e com a hipótese central.
+A fase conceptual corresponde ao momento de enquadramento teórico e problematização. Neste estágio procede-se à revisão crítica da literatura nas áreas do design paramétrico, fabricação aditiva, design inclusivo, antropometria aplicada e integração de inteligência artificial no processo de design. Paralelamente, realiza-se a análise comparativa de soluções open-source existentes no domínio das próteses impressas em 3D, identificando abordagens formais, estruturais e tecnológicas, bem como limitações ao nível da personalização e da reprodutibilidade. O resultado desta fase é a consolidação de um quadro conceptual alinhado com as questões de investigação e com a hipótese central.
 
 A fase metodológica corresponde à definição e implementação do sistema paramétrico assistido por IA. Nesta etapa especifica-se a arquitetura da plataforma digital, integrando módulos de configuração paramétrica, bases de dados antropométricas e algoritmos de apoio à interpretação de medidas e à otimização geométrica. São desenvolvidos protótipos digitais iterativos, testando relações formais e funcionais e avaliando a viabilidade de fabrico segundo princípios de DfAM.
 
@@ -467,7 +455,7 @@ Num primeiro nível, procede-se à análise documental e revisão da literatura,
 
 Durante o desenvolvimento do sistema paramétrico, os dados assumem natureza técnica e projetual, incluindo parâmetros geométricos, relações dimensionais, tempos de fabrico, consumo de material e desempenho estrutural dos protótipos. Estes dados são analisados de forma iterativa, permitindo reformular o modelo paramétrico e otimizar a sua performance.
 
-Na fase de prototipagem, a análise incide sobre critérios de exequibilidade de fabrico, robustez estrutural, coerência dimensional e facilidade de montagem. Não são recolhidos dados pessoais ou biométricos de utilizadores reais, sendo utilizados exclusivamente conjuntos de dados antropométricos públicos, o que delimita o âmbito empírico ao domínio técnico e projetual. Entre estes inclui-se a tabela local `material/antropometria/Dados antopométricos/multi_population_hand.csv`, compilada a partir de cinco estudos de referência sobre dimensões da mão em diferentes populações, funcionando como base intermédia para seleção, comparação e normalização de medidas relevantes para a parametrização geométrica. A organização da tabela preserva ainda informação sobre país, amostra, tipo de medida, estatística e granularidade dos subconjuntos analisados, tornando explícita a cobertura e os limites de cada fonte antes da sua tradução para parâmetros de projeto (Anacleto Filho et al., 2023; Chatzioglou et al., 2024; Ibiwari et al., 2025; Nag et al., 2003; Rodríguez-Vega & Rodríguez-Vega, 2024).
+Na fase de prototipagem, a análise incide sobre critérios de exequibilidade de fabrico, robustez estrutural, coerência dimensional e facilidade de montagem. Não são recolhidos dados pessoais ou biométricos de utilizadores reais, sendo utilizados exclusivamente conjuntos de dados antropométricos públicos, o que delimita o âmbito empírico ao domínio técnico e projetual.
 
 ### 3.5 Critérios de avaliação e limitações metodológicas
 
@@ -1107,48 +1095,6 @@ Sims, T., Cranny, A., Metcalf, C., Chappell, P., & Donovan-Hall, M. (2017). Part
 Thorsen, R., Hansen, A. H., & Nilsen, E. R. (2023). From patient to maker: A workflow including people with cerebral palsy in co-creating assistive devices using 3D printing technologies.
 
 Zhu, Z., & Zhong, R. Y. (2022). A digital twin enabled wearable device for customized healthcare.
-
-Alluhydan, A., Alsaadi, S., Almutairi, A., & Alharbi, A. (2023). Functionality and comfort design of lower-limb prosthetics: A review.
-
-Anderson, C. B., Stephens, A. R., Scully, A., Pasquina, P. F., & Highsmith, M. J. (2024). A narrative review of prosthesis design decision making after lower-limb amputation for developing shared decision-making resources.
-
-Andrysek, J. (2010). Lower-limb prosthetic technologies in the developing world: A review of literature from 1994-2010.
-
-Baldock, C., Greaves, M., Chockalingam, N., & Kark, L. (2023). Adjustable prosthetic sockets: A systematic review of industrial and research design characteristics and their justifications.
-
-Baumann, C., & Maria, P. (2023). Improving access to prosthetic limbs in Germany: An explorative review.
-
-Chadwell, A., Kenney, L., Thies, S., Galpin, A., & Head, J. (2020). Technology for monitoring everyday prosthesis use: A systematic review.
-
-Cordella, F., Ciancio, A. L., Sacchetti, R., Davalli, A., Cutti, A. G., Guglielmelli, E., & Zollo, L. (2016). Literature review on needs of upper limb prosthesis users.
-
-Domínguez-Ruiz, M., Ráez-Ballesteros, E., & Castillo-Castañeda, E. (2023). Low limb prostheses and complex human prosthetic interaction: A systematic literature review.
-
-Ghillebert, J., Schoukens, J., & Vanderborght, B. (2019). Guidelines and recommendations to investigate the efficacy of a lower-limb prosthetic device: A systematic review.
-
-Hafner, B. J., & Sawers, A. B. (2016). Issues affecting the level of prosthetics research evidence: Secondary analysis of a systematic review.
-
-Manz, S. M., Menges, M. M., Schaffernicht, E., Mattes, K., & Kannenberg, A. (2022). A review of user needs to drive the development of lower limb prostheses.
-
-Marinelli, M., Putrino, D., Stella, F., & Guglielmelli, E. (2022). Active upper limb prostheses: A review on current state and upcoming breakthroughs.
-
-Richardson, C., & Dillon, M. P. (2017). User experience of transtibial prosthetic liners: A systematic review.
-
-Samuelsson, K. A. M., Töytäri, O., Salminen, A.-L., & Brandt, Å. (2012). Effects of lower limb prosthesis on activity, participation, and quality of life: A systematic review.
-
-Walker, M., Paras, A., Boonstra, N., & Murrup-Stewart, C. (2019). Towards including end-users in the design of prosthetic hands: Ethical analysis of a survey of Australians with upper-limb difference.
-
-Windrich, M., Grimmer, M., Christ, O., Rinderknecht, S., & Beckerle, P. (2016). Active lower limb prosthetics: A systematic review of design issues and solutions.
-
-Anacleto Filho, P. C., da Silva, L., Mattos, D., Pombeiro, A., Castellucci, H. I., Colim, A., Carneiro, P., & Arezes, P. (2023). Establishing an anthropometric database: A case for the Portuguese working population. *International Journal of Industrial Ergonomics, 97*, 103473. https://doi.org/10.1016/j.ergon.2023.103473
-
-Chatzioglou, G. N., Pinar, Y., & Govsa, F. (2024). Biometric analysis hand parameters in young adults for prosthetic hand and ergonomic product applications. *Anatomy & Cell Biology, 57*, 172-182. https://doi.org/10.5115/acb.23.310
-
-Ibiwari, B. W., Osemeke, B. E., Progress, V. D., Khadija, A., & Chikere, O. P. (2025). Hand anthropometric measurement and grip strength for basketball and volleyball players in higher institutions in Port Harcourt metropolis. *International Journal of Science Academic Research, 6*(8), 10513-10517.
-
-Nag, A., Nag, P. K., & Desai, H. (2003). Hand anthropometry of Indian women. *Indian Journal of Medical Research, 117*, 260-269.
-
-Rodríguez-Vega, G., & Rodríguez-Vega, D. A. (2024). Normative data for the anthropometric hand dimensions of the Mexican population. *European Public & Social Innovation Review, 9*, 1-15. https://doi.org/10.31637/epsir-2024-932
 
 [image1]: <data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVR4XmNgAAIAAAUAAQYUdaMAAAAASUVORK5CYII=>
 
