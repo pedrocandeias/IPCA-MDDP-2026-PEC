@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.2.6 - 2026-05-01
+
+- Created a new timestamped backup of `Projecto completo.md` before revising section `4.2`.
+- Revised section `4.2` in European Portuguese, tightening its scope around anthropometric parameter selection, minimum measurement sets, collection methods, dataset normalization, and mapping into the model structure.
+- Added in-text citations and the corresponding APA 7 bibliography entries for the new `4.2` anthropometry and parametric-workflow references, and bumped the manuscript version to `0.2.6`.
+
 ## 0.2.5 - 2026-05-01
 
 - Created a new timestamped backup of `Projecto completo.md` before revising section `4.1`.
