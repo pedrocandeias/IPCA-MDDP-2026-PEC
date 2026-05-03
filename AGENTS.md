@@ -37,6 +37,7 @@ All text written or revised in `Projecto completo.md` must use European Portugue
 When adding literature to the manuscript, always uniformize citation style within the edited section and, when feasible, across adjacent sections. Do not mix title-only references with author-year citations in running text when the source metadata is available.
 Whenever a new citation is added to the manuscript, add the corresponding full bibliographic entry to the bibliography at the end of the document using APA 7 format.
 After adding bibliography entries for sources cited in `Projecto completo.md`, locate the corresponding local PDF files when available and copy them into `project_completo_bibliografia/` so the manuscript bibliography and the supporting PDFs remain collocated for review.
+Whenever citations or bibliography entries are added or changed in `Projecto completo.md`, update `projecto_completo_bibliografia/pdfs_em_falta.md` so it remains the authoritative list of bibliography items that still lack a local PDF in `material/` or `projecto_completo_bibliografia/`.
 
 ## Research Workflow
 When using Elicit or similar literature tools, work sequentially and keep continuity between related sections instead of researching isolated fragments with no shared framing. For each substantial section, use both targeted searches and broader reports when useful, and treat the suggested bibliography as a primary research output rather than relying only on summaries. If the intended scope of a research task is ambiguous, confirm it before proceeding instead of assuming the focus.
@@ -55,6 +56,7 @@ Create a short notes file for each report covering the query objective, why it m
 Treat `search` as exploratory mapping and `report` as deeper synthesis. Use both deliberately rather than interchangeably.
 When a section is likely to require a more rigorous literature workflow, use the sequence `report -> systematic review` rather than starting directly with a systematic review. Use the report to refine scope, terminology, and likely anchor papers first, then carry that framing into the systematic review protocol.
 Do not move claims from Elicit outputs into the manuscript without checking the underlying primary sources when those claims are used as factual support.
+Do not refer explicitly in `Projecto completo.md` to Elicit, its reports, or its interface outputs (for example, phrases such as “segundo o report do Elicit”). You may, however, use locally saved Elicit notes, reports, and syntheses as working material for drafting and restructuring the manuscript, provided the final prose is written as normal academic text grounded in the cited literature rather than in the tool itself.
 Prioritize high-value sources such as systematic reviews, meta-analyses, guidelines, validation studies, and papers directly related to prosthetics, orthotics, parametrization, and decision support.
 Clearly distinguish literature evidence from project-specific interpretation or inference in notes and draft writing.
 Link every Elicit search or report to a specific manuscript section so research outputs do not become detached from writing goals.

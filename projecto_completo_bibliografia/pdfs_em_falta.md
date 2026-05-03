@@ -1,5 +1,7 @@
 # PDFs em falta
 
+Este ficheiro é o registo autoritativo das referências do manuscrito que ainda não têm PDF localizado em `material/` ou em `projecto_completo_bibliografia/`.
+
 Total de referências sem correspondência automática: 11
 
 - Akasaka, M., Veeckman, C., Georges, A., Schuurman, D., & Coorevits, L. (2022). A framework for configuring participation in living labs. https://www.semanticscholar.org/paper/305d55af5fda06b4d1b33e7d29c1f16d1b7ea488

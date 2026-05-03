@@ -1,5 +1,38 @@
 # Changelog
 
+## 2026-05-02
+
+- Consolidated the bibliography-missing-PDF tracking into `projecto_completo_bibliografia/pdfs_em_falta.md` and removed the duplicate `projecto_completo_bibliografia/unmatched_references.txt`.
+- Updated `AGENTS.md` to require refreshing `projecto_completo_bibliografia/pdfs_em_falta.md` whenever citations or bibliography entries are added or changed in `Projecto completo.md`.
+
+## 0.2.32 - 2026-05-02
+
+- Created a new timestamped backup of `Projecto completo.md` before a directed bibliographic revision of sections `7.1` and `7.2`.
+- Strengthened the bibliographic alignment of `7.1` and `7.2` with the locally saved chapter 7 notes, without changing the general argument of either section.
+- Added `Colombo et al. (2015)` to support the discussion of 3D visualisation and natural interaction in `7.1`.
+- Reinforced `7.2` with more explicit framing of direct upper-limb evidence versus transferable adjacent evidence, and added bibliographic support where appropriate.
+- Added bibliography entries for `Colombo et al. (2015)` and `Oldfrey et al. (2024)`.
+- Bumped the manuscript version to `0.2.32`.
+
+## 0.2.31 - 2026-05-02
+
+- Created a new timestamped backup of `Projecto completo.md` before revising section `2.5`.
+- Reworked section `2.5` in European Portuguese as a clearer introductory framing of artificial intelligence for non-specialist readers, restructuring the section around definition, basic functioning, relevant forms of AI, integration across the design process, and the role of human supervision.
+- Consolidated the section's argument using the locally saved research notes while keeping the manuscript free of explicit references to Elicit.
+- Bumped the manuscript version to `0.2.31`.
+
+## 2026-05-02
+
+- Updated `AGENTS.md` to clarify the Elicit writing rule: the manuscript must not mention Elicit explicitly, but locally saved Elicit notes and syntheses may be used as drafting support so long as the final prose is written as regular academic text grounded in cited literature.
+- Downloaded Elicit report `5a13094d-fe10-4caa-a182-6db2611bdf48` for section `2.5` into `sources/elicit/capitulo-2/2.5/reports/5a13094d-fe10-4caa-a182-6db2611bdf48/`.
+- Added local working files `report.md`, `notes.md`, and `query.md` for the report, keeping the full report body in Markdown alongside `report.json`, `report.pdf`, and `report.docx`.
+
+## 0.2.30 - 2026-05-02
+
+- Created a new timestamped backup of `Projecto completo.md` before revising the transition between sections `4.2` and `4.3`.
+- Refined the closing of section `4.2` and the opening of section `4.3` to make the passage from anthropometric data organization to OpenSCAD-based parametric modeling more explicit and fluent.
+- Bumped the manuscript version to `0.2.30`.
+
 ## 0.2.29 - 2026-05-02
 
 - Created a new timestamped backup of `Projecto completo.md` before integrating a new subsection into section `4.2`.
