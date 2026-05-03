@@ -2,6 +2,8 @@
 
 ## 2026-05-03
 
+- Reworked `README.md` to reflect the current repository structure, the local Elicit workflow, the bibliography cache, the utility scripts stored in `material/`, and the newly added `mendeley-downloader/`, reusing the guidance from `material/README.md`.
+- Updated `origin` to the repository's new GitHub location, switched this clone back to `main`, set `origin/HEAD` to `main`, removed the remote branch `MDDP---IPCA-2026` after confirming that `main` already contained it, and deleted the local branch `MDDP---IPCA-2026`.
 - Located and downloaded local PDFs for `Akasaka et al. (2022)`, `Colombo et al. (2015)`, `Machado et al. (2019)`, `von Hippel & Katz (2002)`, and `Seregni et al. (2021)` into `projecto_completo_bibliografia/`.
 - Copied those five PDFs into the most appropriate thematic subfolders under `material/` to keep the local library aligned with the manuscript bibliography cache.
 - Attempted to download `Govender et al. (2020)` but the available endpoints returned HTML instead of a valid PDF; removed the invalid file.
