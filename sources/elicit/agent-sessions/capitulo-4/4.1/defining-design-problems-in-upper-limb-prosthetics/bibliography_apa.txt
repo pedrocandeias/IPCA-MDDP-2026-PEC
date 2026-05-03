@@ -1,0 +1,299 @@
+Sonawane & Walavalkar, 2017. Design of Finger and Thumb Mechanism for Prosthetic Arm.
+
+Rodríguez-Vega. [PDF] Normative data for the anthropometric hand dimensions of the ...
+
+A Systematic Review of Glove Construction Based on Hand ... - MDPI.
+
+Çıklaçandır et al., 2022. Comparison of Traditional, MRI, and 3D Scanning Anthropometric Measurements in Hand Prosthesis Design. Medical Technologies National Conference.
+
+[PDF] Anthropometry of the Hand and Product Design Prof. Ahmed ...
+
+Moreo, 2016. Parametric design of a 3 D printable hand prosthesis for children in developing countries.
+
+Hooshiar, 2023. Review and critique of current testing protocols for upper-limb prostheses: a call for standardization amidst rapid technological advancements.
+
+Untitled.
+
+Moreo, 2016. Parametric design of a 3D printable hand prosthesis for children in developing countries.
+
+Pre-Press. [PDF] Ergonomics and Design A Reference Guide.
+
+Lim et al., 2018. Customization of a 3D Printed Prosthetic Finger Using Parametric Modeling. Design Automation Conference.
+
+Chatzioglou et al., 2024. Biometric analysis hand parameters in young adults for prosthetic hand and ergonomic product applications. Anatomy & Cell Biology.
+
+Biometric analysis hand parameters in young adults for prosthetic ... - PMC.
+
+Biometric analysis hand parameters in young adults for prosthetic hand and ergonomic product applications.
+
+Nini et al., 2024. Parametric 3D Modeling of a Customized Prosthetic Hand Finger for Additive Manufacturing. International Conference on Biomedical Robotics and Biomechatronics.
+
+Bhadugale, 2018. Anthropomorphically Inspired Design of a Tendon-Driven Robotic Prosthesis for Hand Impairments.
+
+Ryu et al., 2020. Development of an Anthropomorphic Prosthetic Hand with Underactuated Mechanism. Applied Sciences.
+
+Aydinlioğlu et al., 1998. Mathematical relations between the lengths of the metacarpal bones and phalanges: surgical significance. Tohoku journal of experimental medicine.
+
+Urmi et al., 2025. Exploring The Correlation of Stature with Length and Breadth of Proximal Phalanx of Middle Finger for Forensic Assessment: A Radiological Study. International Journal of Forensic Expert Alliance.
+
+Ash & Unsworth, 1996. Proximal Interphalangeal Joint Dimensions for the Design of a Surface Replacement Prosthesis. Proceedings of the Institution of mechanical engineers. Part H, journal of engineering in medicine.
+
+Bianchi, 2020. Design of an automatic optical system to measure anthropometric hand parameters.
+
+Herbst et al., 2021. Scan-Driven Fully-Automated Pipeline for a Personalized, 3D Printed Low-Cost Prosthetic Hand. 2021 IEEE 17th International Conference on Automation Science and Engineering (CASE).
+
+Peller-Konrad. KIT Whole-Body Human Motion Database.
+
+Elsheikh, 2017. Design Development, Fabrication, and Preliminary Specifications of Multi-Fingered Prosthetic Hand.
+
+Gu et al., 2024. A Data-Driven Design Framework for Structural Optimization to Enhance Wearing Adaptability of Prosthetic Hands. IEEE transactions on neural systems and rehabilitation engineering.
+
+Cabibihan et al., 2018. A Method for 3-D Printing Patient-Specific Prosthetic Arms With High Accuracy Shape and Size. IEEE Access.
+
+P. C. Anacleto Filho, 2023. Comparison Between Anthropometric Equipment and Scanners in Hand Measurement.
+
+Baron et al., 2020. 3D Multi-Material Printing of an Anthropomorphic, Personalized Replacement Hand for Use in Neuroprosthetics Using 3D Scanning and Computer-Aided Design: First Proof-of-Technical-Concept Study. Prosthesis.
+
+Tasdemirci & Özkan, 2021. Mechanical Design and Kinematic Analysis of a Hand Prosthesis from Computerized Tomography Images. Journal of Polytechnic.
+
+Castañeda & Bemardo-Vasquez, 2017. Personalized design of a hand prosthesis considering anthropometry of a real hand extracted from radiography. International Conference on Rehabilitation Robotics.
+
+Khandare et al., 2024. Integration into 3D Printing for Image Processing using AI ML. International Journal of Advanced Research in Science, Communication and Technology.
+
+Tong et al., 2019. Low-cost sensor-integrated 3D-printed personalized prosthetic hands for children with amniotic band syndrome: A case study in sensing pressure distribution on an anatomical human-machine interface (AHMI) using 3D-printed conformal electrode arrays. PLoS ONE.
+
+Untitled, 2022.
+
+FUBINI. INTERNATIONAL STANDARD ISO/TR 7250-2:“Basic human body  measurements for technological design — Part 2: Statistical summaries of body measurements from national populations”.
+
+ISO/TR 7250-2:2024, 2024.
+
+Dataset on anthropometric measurements of the adult population in ...
+
+Romero et al., 2025. Development of Parametric Prostheses for Different Levels of Human Hand Amputations Manufactured Through Additive Manufacturing. Applied Sciences.
+
+Ali et al., 2011. Anthromorphic Design Methodology for Multifingered Arm Prosthesis.
+
+a comparison using the anthropomorphic hand assessment protocol.
+
+Rosa et al., 2013. Modelling of a prosthetic hand featuring individual grip on each one of the five fingers.
+
+Herneth et al., 2024. Functional kinematic and kinetic requirements of the upper limb during activities of daily living: a recommendation on necessary joint capabilities for prosthetic arms. IEEE/RJS International Conference on Intelligent RObots and Systems.
+
+Farina et al., 2013. Introduction to Upper Limb Prosthetics.
+
+Kashiwakura et al., 2023. Task-Oriented Design of a Multi-Degree of Freedom Upper Limb Prosthesis With Integrated Myocontrol and Sensory Feedback. IEEE Transactions on Medical Robotics and Bionics.
+
+Guo, 2025. Human-Centered Design Strategies for Prosthetics Based on User Needs. Interdisciplinary Humanities and Communication Studies.
+
+Peerdeman et al., 2011. Myoelectric forearm prostheses: state of the art from a user-centered perspective. Journal of rehabilitation research and development.
+
+Damerla et al., 2021. A Review of the Performance of Extrinsically Powered Prosthetic Hands. IEEE Transactions on Medical Robotics and Bionics.
+
+Francesca Cordella, 2016. Literature Review on Needs of Upper Limb Prosthesis Users.
+
+Henao et al., 2025. Upper-limb prosthetic requirements from the healthcare providers, end-users and relatives' perspectives. Journal of Hand Therapy.
+
+Biddiss et al., 2007. Consumer design priorities for upper limb prosthetics. Disability and Rehabilitation: Assistive Technology.
+
+Brack & Amalu, 2021. A review of technology, materials and R&D challenges of upper limb prosthesis for improved user suitability. Journal of Orthopaedics.
+
+Hofmann et al., 2016. Helping Hands: Requirements for a Prototyping Methodology for Upper-limb Prosthetics Users. International Conference on Human Factors in Computing Systems.
+
+Smit et al., 2015. The Lightweight Delft Cylinder Hand: First Multi-Articulating Hand That Meets the Basic User Requirements. IEEE transactions on neural systems and rehabilitation engineering.
+
+Walker et al., 2019. Towards Including End-Users in the Design of Prosthetic Hands: Ethical Analysis of a Survey of Australians with Upper-Limb Difference. Science and Engineering Ethics.
+
+2024], 2024. Functional kinematic and kinetic requirements of the upper limb during activities of daily living: a recommendation on necessary joint capabilities for prosthetic arms.
+
+Remote Co-Creation of Upper Limb Prostheses: Insights from a Feasibility Study, 2025.
+
+A performance evaluation of commercially available and 3D-printable prosthetic hands: a comparison using the anthropomorphic hand assessment protocol | BMC Biomedical Engineering | Springer Nature Link, 2024.
+
+Ju et al., 2021. A User-Driven Approach to Prosthetic Upper Limb Development in Korea. Healthcare.
+
+Light & Chappell, 2000. Development of a lightweight and adaptable multiple-axis hand prosthesis. Medical Engineering and Physics.
+
+Caldas et al., 2026. Redefining Prosthetic Needs: Insights from Individuals with Upper Limb Loss—A Systematic Review. Italian National Conference on Sensors.
+
+Cordella et al., 2016. Literature Review on Needs of Upper Limb Prosthesis Users. Frontiers in Neuroscience.
+
+Kyberd et al., 1998. A Survey of Upper-Limb Prosthesis Users in Oxfordshire.
+
+Bucur, 2011. Design Of Hand Prostheses Based On Data Captured During Reaching To Grasp Activities Of The Human Hand.
+
+Prosthetics Design: Engineering Principles | Vaia, 2024.
+
+Dimitrov et al., 2015. Towards user-centered design of a robotic prosthetic hand with EMG control interfaces. Petra.
+
+Gurav & Udgave, 2024. Innovative Prosthetic Hand Design: Integrating EMG Sensors and 3D Printing for Enhanced Usability. Asian Review of Mechanical Engineering.
+
+Christ et al., 2012. Prosthesis-user-in-the-loop: User-centered design parameters and visual simulation. Annual International Conference of the IEEE Engineering in Medicine and Biology Society.
+
+Radder et al., 2015. User-centred input for a wearable soft-robotic glove supporting hand function in daily life. International Conference on Rehabilitation Robotics.
+
+Untitled, 2025.
+
+[PDF] Systematic Review of Integrating User-Centered Design Principles ...
+
+Towards User-Centred Prosthetics Research Beyond the Laboratory, 2022.
+
+Vieira, 2026. Advances in Assistive Technology: A Systematic Review of 3D-Printed Hand Prostheses | MDPI.
+
+Qin, 2023. An Interdisciplinary Approach and Advanced Techniques for Enhanced 3D-Printed Upper Limb Prosthetic Socket Design: A Literature Review.
+
+Fingland. The Application of Generative Algorithms in Human-Centered Product Development | MDPI.
+
+Ntop, 2023. 3D Printing in Prosthetics: A Design Guide | nTopology.
+
+John-John Cabibihan, 2021. Suitability of the Openly Accessible 3D Printed Prosthetic Hands for War-Wounded Children.
+
+Medical Devices Chapter 8, 2015.
+
+Customized Prosthetics - an overview.
+
+Jones et al., 2023. Evidencing the effectiveness of upper limb prostheses: a multi-stakeholder perspective on study requirements. Frontiers in Health Services.
+
+Information, 2025. A scoping review of digital fabrication techniques applied... : Prosthetics and Orthotics International.
+
+Kent, 2019. Prosthetic hand control: A multidisciplinary review to identify strengths, shortcomings, and the future.
+
+A Perspective on Prosthetic Hands Control: From the Brain to the Hand.
+
+Technology for monitoring everyday prosthesis use: a systematic ..., 2020.
+
+SIGCHI, 2016. SIGCHI Conference Paper Format.
+
+Sunderland, 2024. OpenLimbTT, a Transtibial Residual Limb Shape Model for Prosthetics Simulation and Design: creating a statistical anatomic model using sparse data.
+
+Sunderland. Untitled.
+
+Alexander Dickinson, 2021. Characterising Residual Limb Morphology and Prosthetic Socket Design Based on Expert Clinician Practice.
+
+PLOS One.
+
+Troncossi et al., 2005. DESIGN OF UPPER LIMB PROSTHESES: A NEW SUBJECT-ORIENTED APPROACH.
+
+McWilliam, 1968. Paper 13: Design of an Experimental Arm Prosthesis: Biological Aspects.
+
+A practical 3D-printed soft robotic prosthetic hand with multi-articulating capabilities | PLOS One.
+
+Troncossi & Parenti-Castelli, 2007. Synthesis of Prosthesis Architectures and Design of Prosthetic Devices for Upper Limb Amputees.
+
+Weir, 2005. CHAPTER 32 DESIGN OF ARTIFICIAL ARMS AND HANDS FOR PROSTHETIC APPLICATIONS.
+
+Dermitzakis & Arieta, 2009. Anthropomimetic approach to the design of a prosthetic robot hand. Robotics: Science and Systems Conference.
+
+fucai, 2024. DESIGN OF ARTIFICIAL ARMS AND HANDS FOR PROSTHETIC APPLICATIONS.
+
+Mark Sullivan. [PDF] 3d Printed Prosthetic Hand.
+
+Hepp et al., 2015. Smartphone supported upper limb prosthesis.
+
+A Review of Myoelectric Prosthetic Arm Designs from 2011 to 2022, 2024.
+
+Asfour, 2022. Designing Prosthetic Hands With Embodied Intelligence: The KIT Prosthetic Hands.
+
+ProACT: An Augmented Reality Testbed for Intelligent Prosthetic Arms.
+
+V et al., 2025. Study of the Movements of Active Upper Limb Prostheses. 2025 IEEE International Students' Conference on Electrical, Electronics and Computer Science (SCEECS).
+
+Roche, 2023. Upper limb prostheses: bridging the sensory gap.
+
+Yair Herbst, 2019. Microsoft Word - Paper - V14.
+
+Biomechanical Design of an Anthropomorphic Prosthetic Hand, 2025.
+
+Valentina A. Yurova, 2022. Design and Implementation of an Anthropomorphic Robotic Arm Prosthesis.
+
+Hands-on Activity The Power in Prosthetics - Teach Engineering, 2023.
+
+He et al., 2014. Mechatronic Design of an Upper Limb Prosthesis with a Hand. International Conference on Intelligent Robotics and Applications.
+
+Puchhammer, 2008. Michelangelo 03 - A versatile hand prosthesis, featuring superb controllability and sophisticated bio mimicry.
+
+Dange, 2017. Design of a working model of an upper limb prosthesis: wrist mechanism.
+
+Jackson et al., 2017. Novel Design for a Simple and Affordable End-Effector for an Upper-Limb Prosthesis.
+
+Belter & Dollar, 2011. Performance characteristics of anthropomorphic prosthetic hands. International Conference on Rehabilitation Robotics.
+
+Ali et al., 2021. A Quantitative Research to Determine User’s Requirements for the Mind-Controlled Prosthesis Arm Intelligent System. European Conference on Artificial Intelligence.
+
+Design aspects of a low-cost prosthetic arm for people with severe movement disabilities, 2025.
+
+Montgomery, 1968. Paper 12: Design of an Experimental Arm Prosthesis: Engineering Aspects.
+
+Fyson et al., 1969. Design considerations in a myoelectric hand prosthesis.
+
+Das et al., 2018. A review on the advancements in the field of upper limb prosthesis. Journal of Medical Engineering & Technology.
+
+IJNRD. Design and Modelling of a Prosthetic Arm using CATIA: Enhancing Functionality and User Experience | INTERNATIONAL JOURNAL OF NOVEL RESEARCH AND DEVELOPMENT.
+
+Fourie & Stopforth, 2017. The mechanical design of a biologically inspired prosthetic hand, the touch hand 3. 2017 Pattern Recognition Association of South Africa and Robotics and Mechatronics (PRASA-RobMech).
+
+Pischke, 2016. The Basics Of 3D Printing Prosthetic Hands - Print Your Mind 3D.
+
+S. et al., 2024. Emotionally Intelligent Next-Generation Touch-Controlled Prosthetic Hand. September 2024.
+
+Prosthetic Arm: Prototype Design, 2025.
+
+Designing a Prosthetic Arm, 2025.
+
+Veer, 2015. An analytical approach to test and design upper limb prosthesis. Journal of Medical Engineering & Technology.
+
+Galiano et al., 2007. Research, design & development project Myoelectric Prosthesis of Upper Limb.
+
+Susanto et al., 2018. Usability Evaluation of Anthropomorphic Prosthetic Hand Based on ISO 9241-11.
+
+Clinical Team Manager, 2023. How Do You Design and Realize a Customized 3D-Printed Hand?.
+
+Chen et al., 2007. A Cost-Effective Upper Extremity Prosthesis Design.
+
+Juan Sebastian Cuellar 1. Ten guidelines for the design of non-assembly mechanisms - PubMed.
+
+Boser et al., 2018. Defining the design requirements for an assistive powered hand exoskeleton. bioRxiv.
+
+Moltaji et al., 2023. Qualitative needs assessment for the development of a smart thumb prosthesis. Disability and Rehabilitation.
+
+OpenBionics, 2015. GitHub - OpenBionics/Prosthetic-Hands: Affordable (< 200$), light-weight (< 300 gr), anthropomorphic prosthetic hands, using a novel selectively-lockable differential mechanism.
+
+Walker. E-Nable: A Guide to Creating 3D-Printed Prosthetics.
+
+Nazarpour, 2021. Co-creation and User Perspectives for Upper Limb Prosthetics.
+
+Coldewey, 2018. SmartArm's AI-powered prosthesis takes the prize at Microsoft's Imagine Cup | TechCrunch.
+
+Cunha-Matos et al., 2017. Investigation of wrist and hand function for the improvement of upper limb prosthetic device design.
+
+Vimieiro. Development of Parametric Prostheses for Different Levels ...
+
+Getting to know... macu4: 3D Printed Arm Prosthetics!, 2022.
+
+Hall, 2026. QMS Consultancy Ltd.
+
+SechMed Ltd, 2026.
+
+I.S. EN ISO 22523:2006 EXTERNAL LIMB PROSTHESES AND EXTERNAL ORTHOSES, 2006.
+
+ISO 22523:2006 External limb prostheses and external orthoses — Requi, 2006.
+
+ISO 22523:2006 - External limb prostheses and external orthoses.
+
+s.r.o., 2006. BS EN ISO 22523:2006 31.10.2006 | technical standard.
+
+Standards, 2007. ÖNORM EN ISO 22523:2007 04 01.
+
+Designing a functional forearm prosthesis, 2025.
+
+Design and Development of Fully Functional Prosthesis Robotic ARM, 2025.
+
+A novel framework for designing a multi-DoF prosthetic wrist control using machine learning, 2024.
+
+Co-creation and User Perspectives for Upper Limb Prosthetics, 2021.
+
+Troncossi et al., 2011. Determination of the design specifications of a powered humeral rotator for a myoelectric prosthesis. Proceedings of the Institution of mechanical engineers. Part H, journal of engineering in medicine.
+
+Custom fitted body powered prosthetic upper limb ..., 2016.
+
+Naffeti et al., 2020. Design of robust, ergonomic myoelectric handwriting prosthesis.

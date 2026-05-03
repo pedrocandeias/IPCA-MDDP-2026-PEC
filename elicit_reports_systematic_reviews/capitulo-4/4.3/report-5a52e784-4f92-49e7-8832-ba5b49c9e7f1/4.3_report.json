@@ -1,0 +1,14 @@
+{
+  "reportId": "5a52e784-4f92-49e7-8832-ba5b49c9e7f1",
+  "status": "completed",
+  "url": "https://elicit.com/review/5a52e784-4f92-49e7-8832-ba5b49c9e7f1",
+  "isPublic": false,
+  "result": {
+    "title": "Parametric Modelling for Personalized Prosthetics",
+    "summary": "No study in this literature directly compared script-based and graphical parametric modeling for upper limb prosthetics, but the repeated convergence of graphical-tool users toward externalized, script-like automation strategies—alongside persistent gaps in embedded DfAM constraints and clinical accessibility—strongly suggests that script-based tools offer untapped advantages in reproducibility, conditional geometry logic, and manufacturing rule integration, with their principal limitation being a usability barrier for non-engineering clinical users."
+  },
+  "downloadedAssets": {
+    "docxUrl": "report.docx",
+    "pdfUrl": "report.pdf"
+  }
+}

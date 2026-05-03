@@ -372,7 +372,7 @@ def build_parser() -> argparse.ArgumentParser:
     )
     list_reports.add_argument("--limit", type=int, default=10)
     list_reports.add_argument("--cursor")
-    list_reports.add_argument("--source", choices=("api", "all"), default="all")
+    list_reports.add_argument("--source", choices=("api", "user"), default="user")
     list_reports.add_argument("--status")
     list_reports.add_argument("--json", action="store_true")
     list_reports.set_defaults(func=command_list_reports)

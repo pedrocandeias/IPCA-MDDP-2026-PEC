@@ -1,0 +1,113 @@
+{
+  "title": "Find academic literature that explores the use of artificial intelligence in the design process, including generative design, AI-assisted decision-making, optimisation, and human-AI collaboration in design workflows. Focus on conceptual frameworks and applied examples in product design or engineering design. Exclude studies focused exclusively on medical diagnostics or clinical AI systems unrelated to design processes. Prioritise recent literature (last 5–7 years) and review papers.",
+  "chapter": "capitulo-2",
+  "section": "2.5",
+  "slug": "ai-in-design-processes",
+  "files": [
+    {
+      "sourcePath": "/home/pec/dev/mestrado/sources/elicit/agent-sessions/capitulo-2/2.5/ai-in-design-processes/2.5_ai-in-design-processes_prose.md",
+      "relativePath": "2.5_ai-in-design-processes_prose.md",
+      "kind": "artifact",
+      "extractedPath": "extracted/2.5_ai-in-design-processes_prose_extracted.md"
+    },
+    {
+      "sourcePath": "/home/pec/dev/mestrado/sources/elicit/agent-sessions/capitulo-2/2.5/ai-in-design-processes/2.5_ai-in-design-processes_session_title.md",
+      "relativePath": "2.5_ai-in-design-processes_session_title.md",
+      "kind": "artifact",
+      "extractedPath": "extracted/2.5_ai-in-design-processes_session_title_extracted.md"
+    },
+    {
+      "sourcePath": "/home/pec/dev/mestrado/sources/elicit/agent-sessions/capitulo-2/2.5/ai-in-design-processes/Elicit - AI in Design Processes Academic Literature Review.csv",
+      "relativePath": "Elicit - AI in Design Processes Academic Literature Review.csv",
+      "kind": "data_export",
+      "extractedPath": "extracted/Elicit - AI in Design Processes Academic Literature Review_extracted.md"
+    },
+    {
+      "sourcePath": "/home/pec/dev/mestrado/sources/elicit/agent-sessions/capitulo-2/2.5/ai-in-design-processes/Elicit - Critical Synthesis AI in Design Processes (2018–2.csv",
+      "relativePath": "Elicit - Critical Synthesis AI in Design Processes (2018–2.csv",
+      "kind": "data_export",
+      "extractedPath": "extracted/Elicit - Critical Synthesis AI in Design Processes (2018–2_extracted.md"
+    }
+  ],
+  "docxHeadings": [],
+  "chat": {
+    "detected": false,
+    "speakers": []
+  },
+  "bibliographyEntryCount": 29,
+  "inlineCitationCount": 58,
+  "inlineCitations": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "16",
+    "17",
+    "18",
+    "19",
+    "20",
+    "21",
+    "22",
+    "23",
+    "24",
+    "25",
+    "26",
+    "27",
+    "28",
+    "29",
+    "[^1]: Yüksel et al., 2023. Review of artificial intelligence applications in engineering design perspective.",
+    "[^2]: Khanolkar et al., 2023. Mapping artificial intelligence-based methods to engineering design stages: a focused literature review.",
+    "[^3]: Saeidnia & Ausloos, 2024. Integrating Artificial Intelligence into Design Thinking: A Comprehensive Examination of the Principles and Potentialities of AI for Design Thinking Framework.",
+    "[^4]: Stige et al., 2023. Artificial intelligence (AI) for user experience (UX) design: a systematic literature review and future research agenda.",
+    "[^5]: Menaka et al., 2025. AI-DRIVEN COMPUTER-AIDED DESIGN (CAD) SYSTEMS: LEVERAGING NEURAL NETWORKS FOR OPTIMIZED ENGINEERING PRODUCT DEVELOPMENT.",
+    "[^6]: Ao et al., 2025. Artificial Intelligence-Aided Design (AIAD) for Structures and Engineering: A State-of-the-Art Review and Future Perspectives.",
+    "[^7]: Virós-i-Martin & Selva, 2021. A Framework to Study Human-AI Collaborative Design Space Exploration.",
+    "[^8]: Figoli, 2022. AI in design idea development: A workshop on creativity and human-AI collaboration.",
+    "[^9]: Krahe et al., 2020. Deep Learning for Automated Product Design.",
+    "[^10]: Burnap et al., 2019. Design and Evaluation of Product Aesthetics: A Human-Machine Hybrid Approach.",
+    "[^11]: Wang & Hu, 2024. Machine Learning Algorithms for Improved Product Design User Experience.",
+    "[^12]: Radaković, 2020. Bridging Nature-Art-Engineering with Generative Design.",
+    "[^13]: Adewoyin et al., 2024. Advances in AI-Based Optimization for Multiphysics Fluid Dynamics in Product Design Engineering.",
+    "[^14]: Moosbrugger, 2023. Design Intelligence - AI and Design Process Modules to Foster Collaboration Between Design, Data (Science) and Business Experts.",
+    "[^15]: Nemme & Walden, 2022. Integrating generative design and topology optimisation with product design values.",
+    "[^16]: Sharpe & Seepersad, 2019. Topology Design With Conditional Generative Adversarial Networks.",
+    "[^17]: Oh et al., 2018. Design Automation by Integrating Generative Adversarial Networks and Topology Optimization.",
+    "[^18]: Kadenhe et al., 2025. Human-AI Co-Design and Co-Creation: A Review of Emerging Approaches, Challenges, and Future Directions.",
+    "[^19]: M.Matter & G.Gado, 2024. Artificial Intelligence in Architecture: Integration into Architectural Design Process.",
+    "[^20]: Hwang, 2022. Too Late to be Creative? AI-Empowered Tools in Creative Processes.",
+    "[^21]: Schmitt & Weiß, 2018. The Chair Project: A Case-Study for using Generative Machine Learning as Automatism.",
+    "[^22]: Choudhury et al., 2025. Artificial intelligence (AI) in the design process – a review and analysis on generative AI perspectives.",
+    "[^23]: Verganti et al., 2020. Innovation and Design in the Age of Artificial Intelligence.",
+    "[^24]: Akay & Kim, 2021. Artificial Intelligence Tools for Better Use of Axiomatic Design.",
+    "[^25]: Ramnath et al., 2019. Automatically Generating 60,000 CAD Variants for Big Data Applications.",
+    "[^26]: Panchal et al., 2019. Special Issue: Machine Learning for Engineering Design.",
+    "[^27]: Li et al., 2021. Exploring Generative Design Thinking for Engineering Design and Design Education.",
+    "[^28]: Idris et al., 2024. Exploring the Integration of Artificial Intelligence in Co-Design Framework for Designer.",
+    "[^29]: Rezwana & Maher, 2022. Understanding User Perceptions, Collaborative Experience and User Engagement in Different Human-AI Interaction Designs for Co-Creative Systems."
+  ],
+  "dataFiles": [
+    {
+      "file": "Elicit - AI in Design Processes Academic Literature Review.csv",
+      "rows": 84,
+      "columns": 10,
+      "preview": "extracted/Elicit - AI in Design Processes Academic Literature Review_extracted.md"
+    },
+    {
+      "file": "Elicit - Critical Synthesis AI in Design Processes (2018–2.csv",
+      "rows": 29,
+      "columns": 6,
+      "preview": "extracted/Elicit - Critical Synthesis AI in Design Processes (2018–2_extracted.md"
+    }
+  ]
+}

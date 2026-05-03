@@ -1,0 +1,63 @@
+Information, 2025. A scoping review of digital fabrication techniques applied... : Prosthetics and Orthotics International.
+
+Albin & Molenbroek, 2023. Introduction to the Special Issue, Anthropometry in Design.
+
+Mcgarry et al., 2008. Evaluation of the effect of shape on a contemporary CAD system.
+
+Huthaifa Atallah, 2025. The Current State of 3D-Printed Prostheses Clinical Outcomes: A Systematic Review.
+
+Young et al., 2023. Advances in the measurement of prosthetic socket interface mechanics: a review of technology, techniques, and a 20-year update.
+
+Functionality and Comfort Design of Lower-Limb Prosthetics: A Review, 2023.
+
+Cutti et al., 2023. A Workflow for Studying the Stump–Socket Interface in Persons with Transtibial Amputation through 3D Thermographic Mapping.
+
+Ibrahim et al., 2024. Techniques for Measuring the Fluctuation of Residual Lower Limb Volume in Clinical Practices: A Systematic Review of the Past Four Decades.
+
+Hsiao et al., 2024. Anatomical-Based Customized Cervical Orthosis Design in Automation.
+
+Standard Guide for Assessing Fit Accommodation of Exoskeletons for Manufacturers  and Designers, 2024.
+
+Bradtmiller, 2022. Design for All – Design for Disabled: How important is anthropometry?.
+
+Alrasheedi et al., 2024. Customized Orthosis Design Based on Surface Reconstruction from 3D-Scanned Points.
+
+Tsiokou et al., 2023. An Integrative Computational Design Workflow and Validation Methodology for 3D-Printed Personalized Orthopedic Devices: Case Study of a Wrist–Hand Orthosis (WHO).
+
+A.H.Hilmi & A.R.A.Hamid, 2024. Current Issues Related to Anthropometry in Engineering.
+
+Cirello et al., 2024. A New Automatic Process Based on Generative Design for CAD Modeling and Manufacturing of Customized Orthosis.
+
+Chainando et al., 2025. Applying 3D Scanning and Printing Techniques to Produce Upper Limb Prostheses: Bibliometric Analysis and Scoping Review.
+
+Lindell et al., 2021. 3D Body Scan as Anthropometric Tool for Individualized Prosthetic Socks.
+
+Musa et al., 2024. Utilizing Additive Manufacturing for Economical Prosthetic Limb Prototyping: A Guide from Regression Modelling.
+
+Štefanovič et al., 2021. Custom Prosthetic Cover Development Methodology.
+
+Squibb et al., 2024. A high precision laser scanning system for measuring shape and volume of transtibial amputee residual limbs: Design and validation.
+
+Kannenberg et al., 2024. Insights into the spectrum of transtibial prosthetic socket design from expert clinicians and their digital records.
+
+Silva et al., 2024. A Review on 3D Scanners Studies for Producing Customized Orthoses.
+
+Sunderland et al., 2024. OpenLimbTT, a transtibial residual limb shape model for prosthetics simulation and design: creating a statistical anatomic model using sparse data.
+
+Fitrianto et al., 2025. EVALUATION OF OFFICE CHAIR DESIGN FROM ERGONOMIC AND ANTHROPOMETRIC PERSPECTIVES.
+
+Muhamad Rezky Putra Pratama, 2025. Antropometric Based Optimization Of Wheelchair Design For Enhanced User Ergonomics.
+
+Nagarajan et al., 2024. Shape Analysis of Prosthetic Socket Rectification Procedure for Transtibial Amputees.
+
+Kyriakidis et al., 2025. Topologically Optimized Anthropomorphic Prosthetic Limb: Finite Element Analysis and Mechanical Evaluation Using Plantogram-Derived Foot Pressure Data.
+
+Hooshiar, 2023. Review and critique of current testing protocols for upper-limb prostheses: a call for standardization amidst rapid technological advancements.
+
+Giedrowicz, 2023. Ergonomic guidelines for the design interfaces of additive modules for manual wheelchairs: sagittal plane.
+
+Çıklaçandır et al., 2022. Comparison of Traditional, MRI, and 3D Scanning Anthropometric Measurements in Hand Prosthesis Design.
+
+Gགྷrski et al., 2022. Automated Design and Rapid Manufacturing of Low-Cost Customized Upper Limb Prostheses.
+
+Methods to assess lower limb prosthetic adaptation: a systematic ..., 2025.

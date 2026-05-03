@@ -1,0 +1,121 @@
+{
+  "title": "Identify peer-reviewed studies that address the use of anthropometric data in the design of prosthetic or assistive products. Focus on methods for collecting, interpreting, and applying human body measurements to inform dimensional adaptation, fit, ergonomics, and comfort. Exclude studies focused solely on clinical biomechanics or surgical outcomes without design implications. Prioritise literature that bridges anthropometry, ergonomics, and product design.",
+  "chapter": "capitulo-2",
+  "section": "2.4",
+  "slug": "anthropometric-data-in-prosthetic-and-assistive-design",
+  "files": [
+    {
+      "sourcePath": "/home/pec/dev/mestrado/sources/elicit/agent-sessions/capitulo-2/2.4/anthropometric-data-in-prosthetic-and-assistive-design/2.4_anthropometric-data-in-prosthetic-and-assistive-design_prose.md",
+      "relativePath": "2.4_anthropometric-data-in-prosthetic-and-assistive-design_prose.md",
+      "kind": "artifact",
+      "extractedPath": "extracted/2.4_anthropometric-data-in-prosthetic-and-assistive-design_prose_extracted.md"
+    },
+    {
+      "sourcePath": "/home/pec/dev/mestrado/sources/elicit/agent-sessions/capitulo-2/2.4/anthropometric-data-in-prosthetic-and-assistive-design/2.4_anthropometric-data-in-prosthetic-and-assistive-design_session_title.md",
+      "relativePath": "2.4_anthropometric-data-in-prosthetic-and-assistive-design_session_title.md",
+      "kind": "artifact",
+      "extractedPath": "extracted/2.4_anthropometric-data-in-prosthetic-and-assistive-design_session_title_extracted.md"
+    },
+    {
+      "sourcePath": "/home/pec/dev/mestrado/sources/elicit/agent-sessions/capitulo-2/2.4/anthropometric-data-in-prosthetic-and-assistive-design/Elicit - Anthropometric Methods in Prosthetic and Assistive Device Design.csv",
+      "relativePath": "Elicit - Anthropometric Methods in Prosthetic and Assistive Device Design.csv",
+      "kind": "data_export",
+      "extractedPath": "extracted/Elicit - Anthropometric Methods in Prosthetic and Assistive Device Design_extracted.md"
+    },
+    {
+      "sourcePath": "/home/pec/dev/mestrado/sources/elicit/agent-sessions/capitulo-2/2.4/anthropometric-data-in-prosthetic-and-assistive-design/sources.csv",
+      "relativePath": "sources.csv",
+      "kind": "data_export",
+      "extractedPath": "extracted/sources_extracted.md"
+    }
+  ],
+  "docxHeadings": [],
+  "chat": {
+    "detected": false,
+    "speakers": []
+  },
+  "bibliographyEntryCount": 32,
+  "inlineCitationCount": 66,
+  "inlineCitations": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "16",
+    "17",
+    "18",
+    "19",
+    "20",
+    "21",
+    "22",
+    "23",
+    "24",
+    "25",
+    "26",
+    "27",
+    "28",
+    "29",
+    "30",
+    "31",
+    "32",
+    "33",
+    "[^1]: Information, 2025. A scoping review of digital fabrication techniques applied... : Prosthetics and Orthotics International.",
+    "[^2]: Albin & Molenbroek, 2023. Introduction to the Special Issue, Anthropometry in Design.",
+    "[^3]: Mcgarry et al., 2008. Evaluation of the effect of shape on a contemporary CAD system.",
+    "[^4]: Huthaifa Atallah, 2025. The Current State of 3D-Printed Prostheses Clinical Outcomes: A Systematic Review.",
+    "[^5]: Young et al., 2023. Advances in the measurement of prosthetic socket interface mechanics: a review of technology, techniques, and a 20-year update.",
+    "[^6]: Functionality and Comfort Design of Lower-Limb Prosthetics: A Review, 2023.",
+    "[^7]: Cutti et al., 2023. A Workflow for Studying the Stump–Socket Interface in Persons with Transtibial Amputation through 3D Thermographic Mapping.",
+    "[^8]: Ibrahim et al., 2024. Techniques for Measuring the Fluctuation of Residual Lower Limb Volume in Clinical Practices: A Systematic Review of the Past Four Decades.",
+    "[^9]: Hsiao et al., 2024. Anatomical-Based Customized Cervical Orthosis Design in Automation.",
+    "[^10]: Standard Guide for Assessing Fit Accommodation of Exoskeletons for Manufacturers  and Designers, 2024.",
+    "[^11]: Bradtmiller, 2022. Design for All – Design for Disabled: How important is anthropometry?.",
+    "[^12]: Alrasheedi et al., 2024. Customized Orthosis Design Based on Surface Reconstruction from 3D-Scanned Points.",
+    "[^13]: Tsiokou et al., 2023. An Integrative Computational Design Workflow and Validation Methodology for 3D-Printed Personalized Orthopedic Devices: Case Study of a Wrist–Hand Orthosis (WHO).",
+    "[^14]: A.H.Hilmi & A.R.A.Hamid, 2024. Current Issues Related to Anthropometry in Engineering.",
+    "[^15]: Cirello et al., 2024. A New Automatic Process Based on Generative Design for CAD Modeling and Manufacturing of Customized Orthosis.",
+    "[^16]: Chainando et al., 2025. Applying 3D Scanning and Printing Techniques to Produce Upper Limb Prostheses: Bibliometric Analysis and Scoping Review.",
+    "[^17]: Lindell et al., 2021. 3D Body Scan as Anthropometric Tool for Individualized Prosthetic Socks.",
+    "[^18]: Musa et al., 2024. Utilizing Additive Manufacturing for Economical Prosthetic Limb Prototyping: A Guide from Regression Modelling.",
+    "[^19]: Štefanovič et al., 2021. Custom Prosthetic Cover Development Methodology.",
+    "[^20]: Squibb et al., 2024. A high precision laser scanning system for measuring shape and volume of transtibial amputee residual limbs: Design and validation.",
+    "[^21]: Kannenberg et al., 2024. Insights into the spectrum of transtibial prosthetic socket design from expert clinicians and their digital records.",
+    "[^22]: Silva et al., 2024. A Review on 3D Scanners Studies for Producing Customized Orthoses.",
+    "[^23]: Sunderland et al., 2024. OpenLimbTT, a transtibial residual limb shape model for prosthetics simulation and design: creating a statistical anatomic model using sparse data.",
+    "[^24]: Fitrianto et al., 2025. EVALUATION OF OFFICE CHAIR DESIGN FROM ERGONOMIC AND ANTHROPOMETRIC PERSPECTIVES.",
+    "[^25]: Muhamad Rezky Putra Pratama, 2025. Antropometric Based Optimization Of Wheelchair Design For Enhanced User Ergonomics.",
+    "[^26]: Nagarajan et al., 2024. Shape Analysis of Prosthetic Socket Rectification Procedure for Transtibial Amputees.",
+    "[^27]: Kyriakidis et al., 2025. Topologically Optimized Anthropomorphic Prosthetic Limb: Finite Element Analysis and Mechanical Evaluation Using Plantogram-Derived Foot Pressure Data.",
+    "[^28]: Hooshiar, 2023. Review and critique of current testing protocols for upper-limb prostheses: a call for standardization amidst rapid technological advancements.",
+    "[^29]: Giedrowicz, 2023. Ergonomic guidelines for the design interfaces of additive modules for manual wheelchairs: sagittal plane.",
+    "[^30]: Çıklaçandır et al., 2022. Comparison of Traditional, MRI, and 3D Scanning Anthropometric Measurements in Hand Prosthesis Design.",
+    "[^31]: Gགྷrski et al., 2022. Automated Design and Rapid Manufacturing of Low-Cost Customized Upper Limb Prostheses.",
+    "[^32]: Methods to assess lower limb prosthetic adaptation: a systematic ..., 2025.",
+    "[^33]: Information, 2025. A scoping review of digital fabrication techniques applied... : Prosthetics and Orthotics International."
+  ],
+  "dataFiles": [
+    {
+      "file": "Elicit - Anthropometric Methods in Prosthetic and Assistive Device Design.csv",
+      "rows": 235,
+      "columns": 10,
+      "preview": "extracted/Elicit - Anthropometric Methods in Prosthetic and Assistive Device Design_extracted.md"
+    },
+    {
+      "file": "sources.csv",
+      "rows": 103,
+      "columns": 6,
+      "preview": "extracted/sources_extracted.md"
+    }
+  ]
+}

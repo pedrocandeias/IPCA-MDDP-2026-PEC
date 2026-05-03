@@ -1,0 +1,57 @@
+Yüksel et al., 2023. Review of artificial intelligence applications in engineering design perspective.
+
+Khanolkar et al., 2023. Mapping artificial intelligence-based methods to engineering design stages: a focused literature review.
+
+Saeidnia & Ausloos, 2024. Integrating Artificial Intelligence into Design Thinking: A Comprehensive Examination of the Principles and Potentialities of AI for Design Thinking Framework.
+
+Stige et al., 2023. Artificial intelligence (AI) for user experience (UX) design: a systematic literature review and future research agenda.
+
+Menaka et al., 2025. AI-DRIVEN COMPUTER-AIDED DESIGN (CAD) SYSTEMS: LEVERAGING NEURAL NETWORKS FOR OPTIMIZED ENGINEERING PRODUCT DEVELOPMENT.
+
+Ao et al., 2025. Artificial Intelligence-Aided Design (AIAD) for Structures and Engineering: A State-of-the-Art Review and Future Perspectives.
+
+Virós-i-Martin & Selva, 2021. A Framework to Study Human-AI Collaborative Design Space Exploration.
+
+Figoli, 2022. AI in design idea development: A workshop on creativity and human-AI collaboration.
+
+Krahe et al., 2020. Deep Learning for Automated Product Design.
+
+Burnap et al., 2019. Design and Evaluation of Product Aesthetics: A Human-Machine Hybrid Approach.
+
+Wang & Hu, 2024. Machine Learning Algorithms for Improved Product Design User Experience.
+
+Radaković, 2020. Bridging Nature-Art-Engineering with Generative Design.
+
+Adewoyin et al., 2024. Advances in AI-Based Optimization for Multiphysics Fluid Dynamics in Product Design Engineering.
+
+Moosbrugger, 2023. Design Intelligence - AI and Design Process Modules to Foster Collaboration Between Design, Data (Science) and Business Experts.
+
+Nemme & Walden, 2022. Integrating generative design and topology optimisation with product design values.
+
+Sharpe & Seepersad, 2019. Topology Design With Conditional Generative Adversarial Networks.
+
+Oh et al., 2018. Design Automation by Integrating Generative Adversarial Networks and Topology Optimization.
+
+Kadenhe et al., 2025. Human-AI Co-Design and Co-Creation: A Review of Emerging Approaches, Challenges, and Future Directions.
+
+M.Matter & G.Gado, 2024. Artificial Intelligence in Architecture: Integration into Architectural Design Process.
+
+Hwang, 2022. Too Late to be Creative? AI-Empowered Tools in Creative Processes.
+
+Schmitt & Weiß, 2018. The Chair Project: A Case-Study for using Generative Machine Learning as Automatism.
+
+Choudhury et al., 2025. Artificial intelligence (AI) in the design process – a review and analysis on generative AI perspectives.
+
+Verganti et al., 2020. Innovation and Design in the Age of Artificial Intelligence.
+
+Akay & Kim, 2021. Artificial Intelligence Tools for Better Use of Axiomatic Design.
+
+Ramnath et al., 2019. Automatically Generating 60,000 CAD Variants for Big Data Applications.
+
+Panchal et al., 2019. Special Issue: Machine Learning for Engineering Design.
+
+Li et al., 2021. Exploring Generative Design Thinking for Engineering Design and Design Education.
+
+Idris et al., 2024. Exploring the Integration of Artificial Intelligence in Co-Design Framework for Designer.
+
+Rezwana & Maher, 2022. Understanding User Perceptions, Collaborative Experience and User Engagement in Different Human-AI Interaction Designs for Co-Creative Systems.

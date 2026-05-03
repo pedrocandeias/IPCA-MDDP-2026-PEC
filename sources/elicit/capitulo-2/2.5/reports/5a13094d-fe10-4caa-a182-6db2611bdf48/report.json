@@ -1,0 +1,14 @@
+{
+  "reportId": "5a13094d-fe10-4caa-a182-6db2611bdf48",
+  "status": "completed",
+  "url": "https://elicit.com/review/5a13094d-fe10-4caa-a182-6db2611bdf48",
+  "isPublic": false,
+  "result": {
+    "title": "AI in Industrial Design: An Accessible Introduction",
+    "summary": "The literature consistently establishes that AI—spanning decision support, optimization, computer vision, natural language processing, and generative systems—augments rather than replaces the industrial designer across all process stages, serving as a powerful assistive tool for parametric customization and assistive product development while requiring sustained human oversight to manage inherent risks of bias, opacity, error, and creative homogenization."
+  },
+  "downloadedAssets": {
+    "docxUrl": "report.docx",
+    "pdfUrl": "report.pdf"
+  }
+}

@@ -1,0 +1,50 @@
+Alejandro M. Saldarriaga, Enzo Romero, Victoria E. Abarca, & Dante A.
+Elías. (2024). A Parametric Design Approach for Affordable Customized 3D
+Socket for Transradial Upper Limb Prostheses. International Conference
+on Control, Decision and Information Technologies.
+https://doi.org/10.1109/CoDIT62066.2024.10708382
+
+Enzo Romero, Jose G. Garcia, Magno Parra, Sebastian Caballa, Alejandro
+M. Saldarriaga, Edson F. Luque, Dante J. Rodriguez, Victoria E. Abarca,
+& Dante A. Elías. (2025). An Affordable AI-Driven and 3D-Printed
+Personalized Myoelectric Prosthesis: Design, Development, and
+Assessment. IEEE Access. https://doi.org/10.1109/ACCESS.2025.3596475
+
+J. Cabibihan, M. K. Abubasha, & N. Thakor. (2018). A Method for 3-D
+Printing Patient-Specific Prosthetic Arms With High Accuracy Shape and
+Size. IEEE Access. https://doi.org/10.1109/ACCESS.2018.2825224
+
+J. Lopez. (2021). Accessible Hand Prostheses: 3D Printing meet
+Smartphones.
+https://doi.org/10.4233/UUID:7CAF6926-A673-4E01-9F2B-673F58828B9B
+
+J. Zuniga, D. Katsavelis, Jean M Peck, John Stollberg, Marcin
+Petrykowski, Adam Carson, & Cristina Fernandez. (2015). Cyborg beast: a
+low-cost 3d-printed prosthetic hand for children with upper-limb
+differences. BMC Research Notes.
+https://doi.org/10.1186/s13104-015-0971-9
+
+Julio Fajardo, Victor Ferman, Ali Lemus, & E. Rohmer. (2017). An
+Affordable open-source multifunctional upper-limb prosthesis with
+intrinsic actuation. Workshop on Advanced Robotics and Its Social
+Impacts. https://doi.org/10.1109/ARSO.2017.8025206
+
+Julio Fajardo, Victor Ferman, Diego Cardona, Guillermo Maldonado, Ali
+Lemus, & E. Rohmer. (2020). Galileo Hand: An Anthropomorphic and
+Affordable Upper-Limb Prosthesis. IEEE Access.
+https://doi.org/10.1109/ACCESS.2020.2990881
+
+Ludovica Nini, Alessandro Ceccarelli, N. Tagliamonte, Loredana Zollo, &
+Fabrizio Taffoni. (2024). Parametric 3D Modeling of a Customized
+Prosthetic Hand Finger for Additive Manufacturing. International
+Conference on Biomedical Robotics and Biomechatronics.
+https://doi.org/10.1109/BioRob60516.2024.10719909
+
+M. Moreo. (2016). Parametric design of a 3D printable hand prosthesis
+for children in developing countries.
+
+Yu Gu, Long He, Haozhou Zeng, Jiaxing Li, Ning Zhang, Xiufeng Zhang, &
+Tao Liu. (2024). A Data-Driven Design Framework for Structural
+Optimization to Enhance Wearing Adaptability of Prosthetic Hands. IEEE
+Transactions on Neural Systems and Rehabilitation Engineering.
+https://doi.org/10.1109/TNSRE.2024.3430070
