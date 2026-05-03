@@ -1,4 +1,4 @@
-**Versão do documento:** `0.2.32`
+**Versão do documento:** `0.2.34`
 
 ## **Capítulo 1 — Introdução** 
 

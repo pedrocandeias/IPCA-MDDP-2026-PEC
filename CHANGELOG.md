@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026-05-03
+
+- Located and downloaded local PDFs for `Akasaka et al. (2022)`, `Colombo et al. (2015)`, `Machado et al. (2019)`, `von Hippel & Katz (2002)`, and `Seregni et al. (2021)` into `projecto_completo_bibliografia/`.
+- Copied those five PDFs into the most appropriate thematic subfolders under `material/` to keep the local library aligned with the manuscript bibliography cache.
+- Attempted to download `Govender et al. (2020)` but the available endpoints returned HTML instead of a valid PDF; removed the invalid file.
+- Updated `projecto_completo_bibliografia/pdfs_em_falta.md` to reduce the unresolved list from 11 items to 6.
+
 ## 2026-05-02
 
 - Consolidated the bibliography-missing-PDF tracking into `projecto_completo_bibliografia/pdfs_em_falta.md` and removed the duplicate `projecto_completo_bibliografia/unmatched_references.txt`.
