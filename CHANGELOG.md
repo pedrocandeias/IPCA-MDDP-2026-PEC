@@ -1,5 +1,15 @@
 # Changelog
 
+## 2026-05-04
+
+- Updated `material/extract_suggested_assets.py` so extracted figure and table assets are now written to the root-level `figuras/` and `tabelas/` directories instead of the old `material/` subfolders.
+
+## 0.2.40 - 2026-05-04
+
+- Created a new timestamped backup of `Projecto completo.md` before updating asset paths.
+- Moved the extracted asset folders from `material/figuras` and `material/tabelas` to the repository root as `figuras/` and `tabelas/`.
+- Updated the image paths in `Projecto completo.md` to point to the new root-level `figuras/` directory and bumped the manuscript version to `0.2.40`.
+
 ## 0.2.39 - 2026-05-04
 
 - Created a new timestamped backup of `Projecto completo.md` before revising the newly added figure and table captions.

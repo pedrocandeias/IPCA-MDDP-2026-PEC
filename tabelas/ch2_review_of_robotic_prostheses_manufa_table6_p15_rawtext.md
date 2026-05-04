@@ -1,0 +1,67 @@
+# Review of Robotic Prostheses Manufactured with 3D Printing... — CH2 Table 6
+
+> Table could not be parsed automatically. Raw page text:
+
+```
+Appl.Sci.2025,15,1350 15of26
+robotic prosthetics. In addition, the use of more durable materials such as nylon has
+expandedtherangeofapplicationsoftheseprostheses,allowinguserstoperformphysical
+activitiesthattheycouldnotpreviouslycarryout.
+7.4. MetalPowdersin3DPrinting
+Metalpowder3Dprintingisanemergingtechnologythathasbeguntobeappliedin
+themanufactureofroboticprostheses,particularlyforthosethatrequireagreaterstructural
+strength,suchaslower-limbprostheses. Inthisprocess,alaserisusedtomeltlayersof
+metalpowder,suchastitaniumorstainlesssteel,creatingextremelystrongandlightweight
+structures. Thistechnologyhasbeenusedmainlyinspecializedclinicalsettingsdueto
+itshighcost,butitpromisestoconsiderablyimprovethedurabilityandfunctionalityof
+prostheses[2].
+Theuseofmetalmaterialshasallowedforprosthesestobemuchmoreresistantto
+fatigue and wear, which is essential for users who rely on devices that support heavy
+loads. Althoughmetallic3Dprintingtechnologyisstillinitsearlystagesofadoptionin
+theprostheticspace,itslong-termbenefitsintermsofdurabilityandcustomizationare
+undeniable[3].
+Three-dimensionalprintingtechnologycontinuestochangeconstantly. Table6shows
+areviewofthemain3Dprintingtechnologieswithsomeoftheirmostimportantfeatures
+focusedonthecreationofprosthetics.
+Table6.Comparisonof3Dprintingtechnologiesforprosthetics.
+Applicationsin
+Technology MaterialsUsed PrecisionandDetail PrintSpeed ProductionCost
+Prosthetics
+Manufactureof
+functionaland
+FusedDeposition PlasticssuchasPLA, Moderateaccuracy,
+Mediumtofast Low economicalprostheses.
+Modeling(FDM)[4,5] ABS,PETG limiteddetail
+Commonusein
+low-costprototypes.
+Highlydetailed
+Stereo-lithography Light-curable Highprecisionand prostheses,especially
+Slowtomedium Moderatetohigh
+(SLA)[6,7] liquidresins surfacequality smallpartsand
+aestheticcomponents.
+Creationof
+robust,resistant,
+SelectiveLaser Nylonpowders, Highprecision,
+Mediumtofast High andcustomized
+Sintering(SLS)[8,9] polymers complexdetails
+prostheses;idealfor
+functionalapplications.
+Bionicormechanical
+prostheses,andstrong
+MetalPowders(Metal Metalalloyssuchas Veryhighprecision,
+Slow Veryhigh andresistantstructures,
+3DPrinting)[1,10] titanium,steel,cobalt complexparts
+suchashipimplants
+andjoints.
+8. CurrentChallengesintheDevelopmentof3D-PrintedProstheses
+Despitethesignificantadvancesthat3Dprintinghasbroughttothefieldofprosthetics,
+therearestilltechnicalandeconomicchallengesthatlimititswidespreadadoption. Theup-
+front costs of high-quality 3D printers and specialized materials remain major barriers,
+especiallyindevelopingcountries. Inaddition,althoughtechnologiessuchasFDMand
+SLAallowfortherapidproductionofprosthetics,thetimeandpost-processingcoststo
+improvefinishesandfunctionalitystillrepresentachallenge[11].
+Thefutureof3Dprintinginprostheticslookspromising, withadvancesinhybrid
+technologiesthatcombineplasticandmetalmaterials,aswellastheuseofbio-compatible
+materialsthatallowforamorenaturalintegrationwiththehumanbody. Moreadvanced
+3D printers that can print on multiple materials simultaneously are also being devel-
+```

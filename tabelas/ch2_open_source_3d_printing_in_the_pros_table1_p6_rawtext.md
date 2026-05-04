@@ -1,0 +1,59 @@
+# Open-Source 3D Printing in the Prosthetic Field — CH2 Table 1
+
+> Table could not be parsed automatically. Raw page text:
+
+```
+Machines2022,10,413 6of35
+2.3. OnlineDatabasesSearch
+We concluded our attempt to gather all 3D-printed upper limb prosthetic devices
+by searching online databases. We chose those online repositories based on their spe-
+cializationin3Dprintingastheyhost3D-printabledesignsandtheirassociatedprinting
+files. Weemployedtermsrelatedto3Dprintingandupperlimbsegments. Here,arethe
+onlinerepositoriessearched: Thingiverse,Cults,CGTrader,MyMiniFactory,Pinshape,Tur-
+boSquid,PrusaPrinters,3DExport,YouMagine,NIH3DPrintExchange,Free3D,Redpah,
+XYZprinting3DGallery,Fab365,Instructables,ZortraxlibraryandLibre3D.
+We subjected each online database and their devices to the selection criteria and
+extractedthefollowingdataforincluded3D-printedprostheses: name,creator,original
+hostingdatabase,yearofupload,provisionofinstructions,signsofcontinuingsupport,
+signsoffurtherdevelopment,andmechanicalandkinematicspecifications.
+e-NABLEPlatform
+Wethoroughlysearchedtheonlinee-NABLEplatformasitisalivingglobalcommu-
+nity that aims to give free access to 3D-printed upper limb prosthetics and orthotics to
+individuals,youngandold[18]. Theirspecializedrepositorygathersmultiple3D-printable
+upperlimbprostheticswhicharehostedbyotherexternalonlinedatabases. Thus,itwas
+predictablethatsomeduplicateswouldbefoundbetweenthedevicestheysupportedand
+thosepresentonoriginalonlinerepositories.
+Weonlyreviewedthedevicescategorizedunderthesections“ArmsDesigns”and
+“HandsDesigns”onthewebpage‘e-NABLEDevicesCatalog’[19]. Allthearmandhands
+devicesassessedaregatheredinTable1.
+Table1.Upperlimbprostheticdesignsfrome-NABLEDevicesCatalog.
+ArmDesigns
+“ElMedallo”BionicArm
+AdjustowrapGripperArm
+FlexyArm
+KwawuArm
+PhoenixRebornArm
+PoArm
+Self-suspendingbelow-elbowsocketsmethodology
+UnlimbitedArmv2.1
+VersatileElbowOperatedGripper—VEOG
+HandDesigns
+CyborgBeast
+e-NABLEPhoenixHandv3
+Flexy-Hand2
+K1Hand
+KineticHand
+MotoGripperTerminalDevice
+OdyHand
+OspreyHand
+Phoenixv2Hand
+RaptorReloaded
+TalonHand
+TheParaglider
+UnlimbitedPhoenixHand
+Itisrelevanttoindicatethatthee-NABLEcommunityratesthedevicespresentin
+itscatalogbasedonfivecategories: maturity,costofmaterials,popularity,difficultyand
+gripstrength. Forfullexplanation,theirDeviceRatingsGuideisavailableonline[20]. We
+specificallydecidedtoaddthe“Maturity”criteriatoscreendevicesfromtheirplatform.
+Anupperlimbprostheticdevicewithamaturityconsidered“High”referstoa3Dprintable
+```

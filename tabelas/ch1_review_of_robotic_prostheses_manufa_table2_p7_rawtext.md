@@ -1,0 +1,56 @@
+# Review of Robotic Prostheses Manufactured with 3D Printing... — CH1 Table 2
+
+> Table could not be parsed automatically. Raw page text:
+
+```
+Appl.Sci.2025,15,1350 7of26
+Today’sresearchinmodulardesignandaccessiblematerials,inspiredbyearlylimi-
+tations,hasledtoprosthesesthatarebothmoreaffordableandcustomizableforbroader
+populations[14]. Thesemodernadvancementsreflecttheinfluenceofearlyworkwhile
+makingprostheticsmoreaccessibleandversatile.
+Table2.Commercialprosthesispricelist.
+NameoftheProsthesis Maker Price,USD Features
+Lightweight,multi-gripprosthesis,compatiblewith
+HeroArm[15] OpenBionics 3000–5000
+childrenandadults,customized,bionicdesign
+Advanced,multi-articulatedprosthesis,electrode
+LUKEArm[17] MobiusBionics 100,000
+control,highprecisionandfunctionality
+Intuitivecontrol,variousgrippatterns,waterresistance,
+i-LimbQuantum[18] Össur 80,000–100,000
+quickgripchange
+Armsupportsystem,electromyographiccontrol,
+MyoPro[19] Myomo 25,000–50,000
+movementassistant
+Naturallook,multiplegripmodes,intuitivecontrol,
+MichelangeloHand[20] Ottobock 60,000–75,000
+rotatingwrist
+Highfunctionality,aestheticdesign,multi-grip,
+bebionicHand Ottobock 40,000–60,000
+durablematerials
+TASKAHand[21] TASKAProsthetics 50,000–60,000 Waterproof,multi-grip,robustanddurable
+Customdesign,3Dscanningforfit,multiplecolorand
+TrueLimb UnlimitedTomorrow 7995
+designoptions
+Nexobrace[22] YouBionic 1200 Musclecontrol,3Dprinting,customized,simpledesign
+Handiii[23] Exiii 300–500 Lowcost,smartphonecontrol,3Dprinting,lightweight
+5. EvolutionofRoboticProstheseswith3DPrinting
+Theevolutionofprostheticshasbeenmarkedbyconstanttechnologicalandscientific
+advances,fromsimplemechanicalextensionstohighlyfunctionalroboticdevices. Inthis
+context, the introduction of 3D printing has represented a paradigm shift, allowing for
+greatercustomization,costreduction,andwideraccesstoadvancedtechnologies. Toun-
+derstandthemagnitudeofthisadvance,itisimportanttotracethedevelopmentofrobotic
+prostheticsfromtheirearliestmechanicaldesignstomoderndevicesthatcombinesensors,
+actuators,and3D-printedbio-compatiblematerials[24].
+Thedevelopmentof3Dprintingattheendofthetwentiethcenturyradicallychanged
+thelandscapeofthemanufactureofroboticprostheses. Thistechnology,whichallowsfor
+thecreationofthree-dimensionalobjectsbysuperimposinglayersofmaterials,transformed
+thedesignandproductionprocesses. Theabilitytocreatecustompartsaccuratelyand
+quicklymadeiteasiertoadaptroboticprostheticstotheindividualneedsofusers[25].
+Thee-NABLEproject,launchedin2011,wasoneofthepioneersintheuseof3Dprint-
+ingtomanufacturelow-costprostheticsforchildren(Figure4). Thisprojectdemonstrated
+thatitwaspossibletoproducefunctionaldevicesatafractionofthecostoftraditional
+prosthetics,anditusheredinatrendtowardsdemocratizingaccesstocustomizedrobotic
+prosthetics[26].
+Figure4.Low-costprostheticsforchildrendesignedbye-NABLEproject[27].
+```

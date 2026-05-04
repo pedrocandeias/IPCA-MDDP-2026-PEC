@@ -1,0 +1,83 @@
+# Review of Robotic Prostheses Manufactured with 3D Printing... — CH1 Table 1
+
+> Table could not be parsed automatically. Raw page text:
+
+```
+Appl.Sci.2025,15,1350 5of26
+morenaturalmotion. Suchadvancesaretransformingtheindustry,deliveringaffordable,
+customizedoptionsthatenhancebothcomfortandcontrol,illustratinghowthefieldhas
+evolvedtomeetboththefunctionalandemotionalneedsofusers[13].
+Table1.Evolutionofprosthetictechnology.
+Period Description Example MaterialsUsed Technology/Innovation
+Egyptiantoeprosthesis
+madeofwoodand
+Firstprostheseswith leather(950–710B.C.)
+Wood,leather,
+Antiquity[14] bothfunctionaland andtheironhandof Manualcraftsmanship
+metal,iron
+aestheticpurposes. RomanGeneralMarcus
+Sergius,designed
+forcombat.
+Limitedadvancements;
+Ironlegprosthesisused
+prosthesesusedfor
+bysoldiersinthe Manualadjustments
+MiddleAges[15] knightsinbattle, Iron,leather,wood
+Crusades,showcasing andbasicmechanisms
+servingbothfunctional
+bothutilityandstatus.
+andsymbolicroles.
+Prosthetichandcreated
+Mechanicalinnovations byAmbroiseParéin
+forlimbprostheses, the16thcentury, Wood,iron, Basic
+Renaissance[16]
+improvingmobility featuringjoint leather,paper hingemechanisms
+andarticulation. mechanismsfor
+improvedgrip.
+Developmentof The“VoltaicArm”,
+functionalprostheses introducedbySirJames
+Movementscontrolled
+Nineteenthcentury[2] withgreatermobility; Syme,allowingfor Metal,rubber,leather
+bybeltsandpulleys
+introductionofarm greaterfunctionality
+hooksforworktasks. withmechanicalfingers.
+Thefirstexternally
+Advancedprosthetics
+poweredprosthesisin
+developedafterWWI Myoelectriccontrol,
+1919,designedby Aluminum,
+Twentiethcentury[3] andWWII,drivenby devicesoperatedby
+Dr.EdwardTaub, steel,plastic
+theneedforfunctional musclesignals
+usingpneumaticand
+solutionsforveterans.
+electricsystems.
+The“BionicHand”
+Emergenceofbionic
+developedbyDean
+prosthesesthatinteract
+Kameninthe1990s, Titanium,carbon Electromyography
+Late20thcentury[4] withthenervous
+allowingusersto fiber,silicone (EMG),neuralsensors
+system,enhancing
+controlmovements
+controlanddexterity.
+throughneuralsignals.
+Integrationof Prostheticlimbscreated
+advancedtechnologies using3Dprinting
+3Dprinting,artificial
+suchas3Dprinting,AI, technologyby
+Plastics,smart intelligence,
+XXICentury[5] andsmartmaterials, organizationslike
+polymers,lightmetals brain–machine
+facilitatinggreater e-NABLE,providing
+interfaces(BCIs)
+customization affordablesolutions
+andaccessibility. foramputees.
+4. LimitationsofEarlyRoboticProstheses
+Thedevelopmentofroboticprostheticdevicesbeganinearnestinthe1960s,aimingto
+restoremobilityinindividualswithupperlimbamputations. Onenotableadvancement
+fromthiseraisthemyoelectricprosthesis,whichutilizeselectricalsignalsproducedbythe
+residualmusclesoftheusertocontrolthemovementoftheprostheticlimb. Thisinnovative
+approachallowedformorenaturalmovementscomparedtoearliermechanicaldesigns,
+```

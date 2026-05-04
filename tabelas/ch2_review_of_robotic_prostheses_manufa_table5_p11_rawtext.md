@@ -1,0 +1,63 @@
+# Review of Robotic Prostheses Manufactured with 3D Printing... — CH2 Table 5
+
+> Table could not be parsed automatically. Raw page text:
+
+```
+Appl.Sci.2025,15,1350 11of26
+6.3. InnovationinMaterialsandFunctionality
+With the integration of 3D printing, designers have had access to a wider variety
+of materials that can better adapt to the different parts of a robotic prosthesis (Table 5).
+Three-dimensionalprintingallowsforthecombinationofdifferenttypesofmaterialsina
+singleconstruction,suchasrigidplasticsforexternalstructuresandflexiblematerialsfor
+movingpartsorcontactsurfaces. Thisabilitytousemultiplematerialsinthesameprinting
+processhasmadeitpossibletodevelopmorefunctionalandresistantprostheses[46].
+Inaddition,technologyhasallowedforprosthesestobelighterwithoutsacrificing
+durability. Thishasbeencrucialinimprovingcomfortandusability,especiallyinupper-
+limbprosthetics,whereweightisadeterminingfactorintheuser’sabilitytousethedevice
+forlongperiods[47].
+Table5. Comparisonofmaterialsfor3D-printedprostheses. Thistablehighlightsvariousmateri-
+alsusedin3D-printingprostheticdevices,alongwiththeirspecificadvantagesandapplications
+inprosthetics.
+MaterialType Characteristics ApplicationsinProsthetics
+Suitableforbasicprostheticmodelsand
+PolylacticAcid(PLA)[48] Biodegradable,easytoprint,lowstrength
+non-load-bearingcomponents
+Durable,higherstrengththanPLA, Usedforstructuralcomponentsand
+AcrylonitrileButadieneStyrene(ABS)
+resistanttoimpact housingforelectronics
+Highflexibility,excellent Idealforjoints,gears,andload-bearing
+Nylon[48]
+strength-to-weightratio,resistanttowear partsinfunctionalprosthetics
+Elastic,highresilience,and Usedinflexiblejointsandsocketsthat
+ThermoplasticPolyurethane(TPU)[49]
+wearresistance requirecushioning
+Highmechanicalstrength,chemical,and Suitableforhigh-performanceprosthetic
+PolyetherEtherKetone(PEEK)[50]
+thermalresistance partsindemandingapplications
+Smoothfinish,suitablefordetailedparts, Bestforcosmeticcoversandintricate
+Resin(SLA/DLPPrinting)
+variableflexibility parts;limitedstrengthforstructuraluse
+Usedinprostheticframesand
+Lightweightwithhighstiffness
+CarbonFiberReinforcedPolymers[2] load-bearingcomponentsfor
+andstrength
+highdurability
+6.4. EaseofDistributionandGlobalCollaboration
+Three-dimensional printing has revolutionized global collaboration in the devel-
+opment of robotic prosthetics, allowing for digital designs to be freely shared on plat-
+forms such as Thingiverse and Cults3D (Figure 7). This accessibility has fostered a
+collaborative environment where communities of developers, researchers, and clini-
+cianscancollectivelyenhanceprostheticdesigns,adaptingthemtomeetspecificpatient
+needs. Additionally, nonprofits have leveraged 3D printing to distribute prosthetics to
+resource-limitedcommunities—overcomingbarrierspreviouslyposedbyhighcostsand
+logisticalchallenges.
+However, the implementation of 3D-printed prosthetics varies significantly across
+countriesduetodifferingnationalcertificationstandardsthatensuredevicesafetyand
+effectiveness. Whiletheseregulatorypathwaysareessential,theycanalsoimpactaccess
+andinnovation,ascertificationprocessescanbelengthyandcostly. Forexample,inthe
+United States, the FDA requires rigorous testing and approvals for prosthetic devices,
+particularly those intended for children. In the European Union, the Medical Device
+Regulation(MDR)establishesstrictcertificationprotocols,includingdesigntransparency
+andqualitycontrol. Consequently,whileprojectslike“e-NABLE”successfullydistribute
+3D-printedprosthetichandstounderservedregions,furtheradaptationisoftennecessary
+```

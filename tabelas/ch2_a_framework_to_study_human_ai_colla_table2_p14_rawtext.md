@@ -1,0 +1,82 @@
+# A Framework to Study Human-AI Collaborative Design Space Exploration — CH2 Table 2
+
+> Table could not be parsed automatically. Raw page text:
+
+```
+TransparentMLModels Post-hoc
+Model Simulatability Decomposability AlgorithmicTransparency analysis
+Predictorsarehumanreadableand Variablesarestillreadable,butthenumber
+Variablesandinteractionsaretoocomplex
+Linear/LogisticRegression interactionsamongthemarekepttoa ofinteractionsandpredictorsinvolvedin tobeanalyzedwithoutmathematicaltools Notneeded
+minimum themhavegrowntoforcedecomposition
+Ahumancansimulateandobtainthe Human-readablerulesthatexplainthe
+Themodelcomprisesrulesthatdonotalter
+predictionofadecisiontreeonhis/herown, knowledgelearnedfromdataandallows
+DecisionTrees withoutrequiringanymathematical datawhatsoever,andpreservestheir foradirectunderstandingoftheprediction Notneeded
+readability
+background process
+Theamountofvariablesistoohighand/or
+Thesimilaritymeasurecannotbe
+Thecomplexityofthemodel(numberofthesimilaritymeasureistoocomplextobe
+decomposedand/orthenumberof
+variables,theirunderstandabilityandthe abletosimulatethemodelcompletely,but
+K-NearestNeighbors similaritymeasureunderuse)matches thesimilaritymeasureandthesetof variablesissohighthattheuserhastorely Notneeded
+onmathematicalandstatisticaltoolsto
+humannaivecapabilitiesforsimulation variablescanbedecomposedandanalyzed
+analyzethemodel
+separately
+Ruleshavebecomesocomplicated(and
+Variablesincludedinrulesarereadable, Thesizeoftherulesetbecomestoolarge
+therulesetsizehasgrownsomuch)that
+RuleBasedLearners andthesizeoftherulesetismanageabletobeanalyzedwithoutdecomposingitinto mathematicaltoolsareneededfor Notneeded
+byahumanuserwithoutexternalhelp smallrulechunks
+inspectingthemodelbehaviour
+Variablesandtheinteractionamongthem Duetotheircomplexity,variablesand
+Interactionsbecometoocomplextobe
+asperthesmoothfunctionsinvolvedinthe interactionscannotbeanalyzedwithoutthe
+GeneralAdditiveModels modelmustbeconstrainedwithinhuman simulated,sodecompositiontechniquesare applicationofmathematicalandstatistical Notneeded
+requiredforanalyzingthemodel
+capabilitiesforunderstanding tools
+Statisticalrelationshipscannotbe
+Statisticalrelationshipsmodeledamong
+Statisticalrelationshipsinvolvesomany interpretedevenifalreadydecomposed,
+variablesandthevariablesthemselves
+BayesianModels shouldbedirectlyunderstandablebythe variablesthattheymustbedecomposedinandpredictorsaresocomplexthatmodel Notneeded
+marginalssoastoeasetheiranalysis canbeonlyanalyzedwithmathematical
+targetaudience
+tools
+TreeEnsembles (cid:55) (cid:55) (cid:55) Neede F d e : a U tu s r u e a r l e ly le M va o n d c e e l t s e i c m h p n l i i q fi u c e a s tionor
+SupportVectorMachines (cid:55) (cid:55) (cid:55) Need L ed o : ca U l s e u x a p l l l a y n M at o io d n el s s t i e m ch p n li i fi q c u a e t s ionor
+Needed:UsuallyModelsimplification,
+Multi–layerNeuralNetwork (cid:55) (cid:55) (cid:55) FeaturerelevanceorVisualization
+techniques
+ConvolutionalNeuralNetwork (cid:55) (cid:55) (cid:55) Needed V : is U u s a u li a z l a ly tio F n ea te tu c r h e n r iq el u e e v s anceor
+RecurrentNeuralNetwork (cid:55) (cid:55) (cid:55) Needed:Usu te a c ll h y n F iq e u a e tu s rerelevance
+Table2:OverallpictureoftheclassificationofMLmodelsattendingtotheirlevelofexplainability.
+gressionmodels. Visualizationtechniquesareverypowerfulwhenpresentingstatisticalconclusionsto
+usersnotwell-versedinstatistics. Forinstance,theworkin[178]showsthattheusageofprobabilitiesto
+communicatetheresults,impliedthattheuserswhereabletoestimatetheoutcomescorrectlyin10%of
+thecases,asopposedto46%ofthecaseswhenusingnaturalfrequencies. Althoughlogisticregressionis
+amongthesimplestclassificationmodelsinsupervisedlearning,thereareconceptsthatmustbetaken
+careof.
+Inthislineofreasoning,theauthorsof[179]unveilsomeconcernswiththeinterpretationsderived
+fromLR.Theyfirstmentionhowdangerousitmightbetointerpretlogoddsratiosandoddratiosas
+substantive effects, since they also represent unobserved heterogeneity. Linked to this first concern,
+[179]alsostatesthatacomparisonbetweentheseratiosacrossmodelswithdifferentvariablesmightbe
+problematic,sincetheunobservedheterogeneityislikelytovary,therebyinvalidatingthecomparison.
+Finallytheyalsomentionthatthecomparisonoftheseoddsacrossdifferentsamples,groupsandtimeis
+alsorisky,sincethevariationoftheheterogeneityisnotknownacrosssamples,groupsandtimepoints.
+Thislastpaperservesthepurposeofvisualizingtheproblemsamodel’sinterpretationmightentail,even
+whenitsconstructionisassimpleasthatofLR.
+Alsointerestingistonotethat,foramodelsuchaslogisticorlinearregressiontomaintaindecompos-
+abilityandsimulatability,itssizemustbelimited,andthevariablesusedmustbeunderstandablebytheir
+users. AsstatedinSection2,ifinputstothemodelarehighlyengineeredfeaturesthatarecomplexor
+difficulttounderstand,themodelathandwillbefarfrombeingdecomposable. Similarly,ifthemodelis
+solargethatahumancannotthinkofthemodelasawhole,itssimulatabilitywillbeputtoquestion.
+3.2. DecisionTrees
+Decisiontreesareanotherexampleofamodelthatcaneasilyfulfilleveryconstraintfortransparency.
+Decisiontreesarehierarchicalstructuresfordecisionmakingusedtosupportregressionandclassification
+problems[132,180]. Inthesimplestoftheirflavors,decisiontreesaresimulatablemodels. However,
+theirpropertiescanrenderthemdecomposableoralgorithmicallytransparent.
+14
+```
