@@ -1,5 +1,15 @@
 # Changelog
 
+## 2026-05-04
+
+- Added `scripts/md_to_docx.py`, a dependency-free local CLI that exports Markdown files to `.docx` with support for headings, paragraphs, bullet lists, block quotes, code blocks, and simple pipe tables.
+- Updated `README.md` with usage notes for the new Markdown-to-DOCX exporter.
+
+## 2026-05-04
+
+- Added `scripts/grammarly_api.py`, a local CLI wrapper for Grammarly's official `AI Detection API (Beta)` and `Plagiarism Detection API (Beta)` using OAuth 2.0 client credentials, score request creation, file upload, polling, and result retrieval.
+- Added [docs/grammarly-api.md](/home/pec/dev/mestrado/docs/grammarly-api.md:1) with setup requirements, environment variables, usage examples, and current API constraints from Grammarly's developer documentation.
+
 ## 0.2.41 - 2026-05-04
 
 - Created a new timestamped backup of `Projecto completo.md` before normalizing GitHub image paths.

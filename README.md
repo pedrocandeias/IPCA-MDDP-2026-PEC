@@ -113,6 +113,22 @@ CLI principal para interagir com a API do Elicit:
 
 Script de apoio para ingestão e extração de conteúdo de sessões locais do Elicit, preservando estrutura legível e materiais reutilizáveis.
 
+### `scripts/md_to_docx.py`
+
+CLI local para exportar ficheiros Markdown para `.docx` sem dependências externas. Suporta o subset de Markdown mais usado neste repositório:
+- headings
+- parágrafos
+- listas com marcadores
+- citações em bloco
+- blocos de código
+- tabelas simples em pipe syntax
+
+Exemplo:
+
+```bash
+python3 scripts/md_to_docx.py "Projecto completo.md" -o sources/docx/projecto_completo.docx
+```
+
 ## Ferramentas em `material/`
 
 O diretório `material/` não guarda apenas PDFs. Também inclui utilitários para gestão da biblioteca e manutenção do corpus local.
