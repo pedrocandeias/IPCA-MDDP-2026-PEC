@@ -115,7 +115,7 @@ Script de apoio para ingestão e extração de conteúdo de sessões locais do E
 
 ### `scripts/md_to_docx.py`
 
-CLI local para exportar ficheiros Markdown para `.docx` sem dependências externas. Suporta o subset de Markdown mais usado neste repositório:
+CLI local para exportar ficheiros Markdown para `.docx` sem dependências externas. Cada execução cria uma nova cópia em `docs/` com timestamp no nome, no formato `nome-do-ficheiro-hhmm-ddmmyyyy.docx`. Suporta o subset de Markdown mais usado neste repositório:
 - headings
 - parágrafos
 - listas com marcadores
@@ -126,7 +126,13 @@ CLI local para exportar ficheiros Markdown para `.docx` sem dependências extern
 Exemplo:
 
 ```bash
-python3 scripts/md_to_docx.py "Projecto completo.md" -o sources/docx/projecto_completo.docx
+python3 scripts/md_to_docx.py "Projecto completo.md"
+```
+
+Exemplo com directoria de destino alternativa:
+
+```bash
+python3 scripts/md_to_docx.py "Projecto completo.md" --output-dir sources/docx
 ```
 
 ## Ferramentas em `material/`

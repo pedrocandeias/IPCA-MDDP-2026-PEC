@@ -17,6 +17,8 @@ from html import escape
 from pathlib import Path
 
 XML_HEADER = '<?xml version="1.0" encoding="UTF-8" standalone="yes"?>'
+REPO_ROOT = Path(__file__).resolve().parent.parent
+DEFAULT_OUTPUT_DIR = REPO_ROOT / "docs"
 
 
 @dataclass
@@ -35,6 +37,12 @@ Block = ParagraphBlock | TableBlock
 
 def xml_text(value: str) -> str:
     return escape(value, quote=False)
+
+
+def slugify_filename(value: str) -> str:
+    slug = re.sub(r"[^a-zA-Z0-9]+", "-", value.strip().lower())
+    slug = slug.strip("-")
+    return slug or "documento"
 
 
 def normalize_lines(text: str) -> list[str]:
@@ -260,7 +268,8 @@ def paragraph_xml(block: ParagraphBlock) -> str:
     style_xml = ""
     if block.style != "Normal":
         style_xml = f"<w:pStyle w:val=\"{block.style}\"/>"
-    runs = "".join(run_xml(kind, content) for kind, content in parse_inlines(block.text))
+    text = f"- {block.text}" if block.style == "ListBullet" else block.text
+    runs = "".join(run_xml(kind, content) for kind, content in parse_inlines(text))
     if not runs:
         runs = "<w:r><w:t></w:t></w:r>"
     return f"<w:p><w:pPr>{style_xml}</w:pPr>{runs}</w:p>"
@@ -420,6 +429,13 @@ def infer_title(path: Path, blocks: list[Block]) -> str:
     return path.stem
 
 
+def build_output_path(input_path: Path, output_dir: Path | None) -> Path:
+    timestamp = dt.datetime.now().strftime("%H%M-%d%m%Y")
+    filename = f"{slugify_filename(input_path.stem)}-{timestamp}.docx"
+    target_dir = output_dir if output_dir is not None else DEFAULT_OUTPUT_DIR
+    return target_dir / filename
+
+
 def write_docx(input_path: Path, output_path: Path) -> None:
     markdown = input_path.read_text(encoding="utf-8", errors="replace")
     blocks = parse_markdown(markdown)
@@ -441,14 +457,9 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("input", type=Path, help="Path to the input Markdown file.")
     parser.add_argument(
         "-o",
-        "--output",
+        "--output-dir",
         type=Path,
-        help="Path to the output DOCX file. Defaults to the input path with .docx suffix.",
-    )
-    parser.add_argument(
-        "--force",
-        action="store_true",
-        help="Overwrite the output file if it already exists.",
+        help="Output directory for the generated DOCX copy. Defaults to the repository docs/ directory.",
     )
     return parser.parse_args()
 
@@ -456,14 +467,13 @@ def parse_args() -> argparse.Namespace:
 def main() -> int:
     args = parse_args()
     input_path = args.input.expanduser().resolve()
-    output_path = (args.output.expanduser().resolve() if args.output else input_path.with_suffix(".docx"))
+    output_dir = args.output_dir.expanduser().resolve() if args.output_dir else None
+    output_path = build_output_path(input_path, output_dir)
 
     if not input_path.exists():
         raise SystemExit(f"Input file not found: {input_path}")
     if input_path.suffix.lower() not in {".md", ".markdown", ".txt"}:
         raise SystemExit(f"Input file must be Markdown-like (.md, .markdown, .txt): {input_path}")
-    if output_path.exists() and not args.force:
-        raise SystemExit(f"Output file already exists: {output_path}. Use --force to overwrite.")
 
     write_docx(input_path, output_path)
     print(output_path)
