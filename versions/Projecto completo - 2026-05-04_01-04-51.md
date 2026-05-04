@@ -1,4 +1,4 @@
-**Versão do documento:** `0.2.41`
+**Versão do documento:** `0.2.40`
 
 ## **Capítulo 1 — Introdução** 
 
@@ -70,7 +70,7 @@ As próteses de membro superior podem ser classificadas de acordo com a sua font
 
 Uma representação visual útil desta diversidade tipológica é apresentada na Figura 2.1, que reúne exemplos de próteses impressas em 3D com soluções morfológicas e mecânicas distintas, ajudando a perceber como diferentes opções de configuração materializam compromissos distintos entre simplicidade, função e custo.
 
-![](./figuras/ch2_3d_printed_upper_limb_prostheses_a_figure2_p5.png)
+![](figuras/ch2_3d_printed_upper_limb_prostheses_a_figure2_p5.png)
 
 *Figura 2.1 — Exemplos de próteses de membro superior impressas em 3D, ilustrando diversidade tipológica e construtiva.*
 *Fonte original (APA 7): ten Kate, J., Smit, G., & Breedveld, P. (2017). 3D-printed upper limb prostheses: A review. Disability and Rehabilitation: Assistive Technology, 12(3), 300-314. https://doi.org/10.1080/17483107.2016.1253117*
@@ -95,7 +95,7 @@ Apesar da evolução tecnológica, as taxas de abandono permanecem elevadas. A l
 
 Esta persistência do abandono é sintetizada de forma clara na Figura 2.2, que relaciona uso, rejeição primária e rejeição secundária, reforçando que o problema não é marginal, mas estrutural no campo das próteses de membro superior.
 
-![](./figuras/ch2_prosthesis_rejection_in_acquired_ma_figure1_p4.png)
+![](figuras/ch2_prosthesis_rejection_in_acquired_ma_figure1_p4.png)
 
 *Figura 2.2 — Utilização, rejeição primária e rejeição secundária de próteses em amputados adquiridos do membro superior.*
 *Fonte original (APA 7): Biddiss, E., Beaton, D., & Chau, T. (2007). Consumer design priorities for upper limb prosthetics. Disability and Rehabilitation: Assistive Technology, 2(6), 346-357. https://doi.org/10.1080/17483100701714733*
@@ -187,7 +187,7 @@ A convergência entre modelação paramétrica e fabricação aditiva (FdA) tem 
 
 Esta articulação é representada com clareza na Figura 2.3, que resume o encadeamento entre aquisição digital, modelação/retificação e fabrico, evidenciando que a personalização depende menos de um único software ou etapa isolada e mais de um *workflow* integrado.
 
-![](./figuras/ch2_a_scoping_review_of_digital_fabrica_figure1_p2.png)
+![](figuras/ch2_a_scoping_review_of_digital_fabrica_figure1_p2.png)
 
 *Figura 2.3 — Fluxo digital entre aquisição, CAD/CAM e fabricação aditiva em próteses e ortóteses.*
 *Fonte original (APA 7): Chainando, N., Faephu, C., Suwaphong, N., Bureerat, S., Limphirat, W., Thammajaruk, P., & Syafrudin, M. (2025). Applying 3D scanning and printing techniques to produce upper limb prostheses: Bibliometric analysis and scoping review. Prosthesis, 7(2), 26. https://www.mdpi.com/2673-1592/7/2/26/pdf?version=1740996517*
@@ -216,7 +216,7 @@ A articulação entre modelação paramétrica e interfaces digitais possibilita
 
 A Figura 2.4 mostra um exemplo especialmente relevante desta lógica: a personalização mediada por interface, em que o utilizador atua sobre atributos visuais e formais dentro de um espaço de variação previamente estruturado. Este tipo de configurador ajuda a compreender como a co-criação digital pode ser operacionalizada sem exigir domínio direto de ferramentas CAD complexas.
 
-![](./figuras/ch2_implementation_of_3d_printing_techn_figure5_p8.png)
+![](figuras/ch2_implementation_of_3d_printing_techn_figure5_p8.png)
 
 *Figura 2.4 — Exemplo de configurador digital para personalização de uma prótese impressa em 3D.*
 *Fonte original (APA 7): Manero, A., Smith, P., Sparkman, J., Dombrowski, M., Courbin, D., Kester, A., Womack, I., & Chi, A. (2019). Implementation of 3D printing technology in the field of prosthetics: Past, present, and future. International Journal of Environmental Research and Public Health, 16, 1641. https://doi.org/10.3390/ijerph16091641*
@@ -255,7 +255,7 @@ Assim, observa-se uma valorização crescente de métodos capazes de capturar ge
 
 Mesmo assim, a medição linear continua a ser indispensável para estruturar o modelo paramétrico, sobretudo quando se pretende definir um conjunto mínimo de entradas robustas e replicáveis. A Figura 2.5 ilustra precisamente este nível basal: os marcos anatómicos e comprimentos de referência que sustentam medições comparáveis da mão.
 
-![](./figuras/ch2_2d_and_3d_anatomical_analyses_of_ha_figure1_p3.png)
+![](figuras/ch2_2d_and_3d_anatomical_analyses_of_ha_figure1_p3.png)
 
 *Figura 2.5 — Marcos anatómicos e medidas de referência da mão para fins de personalização.*
 *Fonte original (APA 7): Yu, A., Yick, K. L., Ng, S. P., & Yip, J. (2013). 2D and 3D anatomical analyses of hand dimensions for custom-made gloves. Applied Ergonomics, 44, 381-392.*
@@ -331,7 +331,7 @@ A integração de Inteligência Artificial (IA) no design tornou-se um tema cent
 
 Para efeitos de enquadramento, a Figura 2.6 é útil porque mostra a IA não como bloco monolítico, mas como camada integrada num fluxo CAD mais amplo, onde recolha de dados, modelação, otimização e avaliação permanecem articuladas com decisão projetual.
 
-![](./figuras/ch2_ai_driven_computer_aided_design_cad_figure1_p6.png)
+![](figuras/ch2_ai_driven_computer_aided_design_cad_figure1_p6.png)
 
 *Figura 2.6 — Enquadramento de um fluxo de CAD assistido por IA para desenvolvimento de produto.*
 *Fonte original (APA 7): Menaka, S., Raja A, W., Ramakrishnan, S., Karthikeswaran, D., Sridar, K., & Sivaranjani, T. (2025). AI-driven computer-aided design (CAD) systems: Leveraging neural networks for optimized engineering product development. International Journal of Applied Mathematics, 38(5s).*
@@ -390,7 +390,7 @@ O *meta-design* aprofunda esta lógica ao defender a participação “em uso”
 
 Para enquadrar estes fundamentos de forma mais operacional, a Figura 2.7 mostra um modelo de configuração da participação em *living labs*, útil porque desloca a discussão da participação como princípio abstrato para a participação como estrutura desenhável.
 
-![](./figuras/ch2_a_framework_for_configuring_partici_figure1_p4.png)
+![](figuras/ch2_a_framework_for_configuring_partici_figure1_p4.png)
 
 *Figura 2.7 — Modelo de processo para configurar participação em ecossistemas de inovação e co-criação.*
 *Fonte original (APA 7): Akasaka, M., Veeckman, C., Georges, A., Schuurman, D., & Coorevits, L. (2022). A framework for configuring participation in living labs. https://www.semanticscholar.org/paper/305d55af5fda06b4d1b33e7d29c1f16d1b7ea488*
@@ -455,7 +455,7 @@ Apesar do potencial, a evidência empírica é frequentemente baseada em amostra
 
 A transição entre entusiasmo técnico e maturidade efetiva do campo torna-se particularmente visível quando se observam os níveis de prontidão tecnológica presentes na literatura. A Figura 2.8 antecipa esta leitura ao mostrar a distribuição dos estudos por *technology readiness level* (TRL), reforçando que muitos contributos permanecem concentrados em fases ainda distantes de adoção ampla e sustentada.
 
-![](./figuras/ch2_a_scoping_review_of_digital_fabrica_figure10_p9.png)
+![](figuras/ch2_a_scoping_review_of_digital_fabrica_figure10_p9.png)
 
 *Figura 2.8 — Distribuição dos estudos por nível de prontidão tecnológica (TRL) em próteses e ortóteses com fabrico digital.*
 *Fonte original (APA 7): Chainando, N., Faephu, C., Suwaphong, N., Bureerat, S., Limphirat, W., Thammajaruk, P., & Syafrudin, M. (2025). Applying 3D scanning and printing techniques to produce upper limb prostheses: Bibliometric analysis and scoping review. Prosthesis, 7(2), 26. https://www.mdpi.com/2673-1592/7/2/26/pdf?version=1740996517*
@@ -558,7 +558,7 @@ Na fase de prototipagem, a análise incide sobre critérios de exequibilidade de
 
 Embora o presente estudo não utilize participantes reais, a literatura metodológica na área ajuda a clarificar como medições lineares e procedimentos de ajuste são normalmente operacionalizados em contextos aplicados. A Figura 3.1 ilustra esse tipo de recolha dimensional orientada para fabrico, servindo aqui como precedente metodológico para a tradução de medidas em parâmetros de projeto.
 
-![](./figuras/ch3_an_undergraduate_engineering_servic_figure1_p4.png)
+![](figuras/ch3_an_undergraduate_engineering_servic_figure1_p4.png)
 
 *Figura 3.1 — Exemplo de recolha dimensional para ajuste de prótese impressa em 3D.*
 *Fonte original (APA 7): Kellam, S. M., Boleneus, G. J., Stewart, J., Richter, D. C., Michaelis, B. M., & Gerlick, R. E. (2019). An undergraduate engineering service learning project involving 3D-printed prosthetic hands for children. In American Society for Engineering Education Annual Conference & Exposition Proceedings.*
@@ -595,7 +595,7 @@ A definição e operacionalização de parâmetros antropométricos constituem u
 
 Esta exigência de organizar medições em parâmetros operáveis é particularmente evidente em modelos digitais do dedo e da mão. A Figura 4.1 mostra um exemplo de decomposição paramétrica em comprimentos, larguras e secções articulares, clarificando o tipo de estrutura dimensional que sustenta a passagem de antropometria para geometria configurável.
 
-![](./figuras/ch4_parametric_3d_modeling_of_a_customi_figure3_p2.png)
+![](figuras/ch4_parametric_3d_modeling_of_a_customi_figure3_p2.png)
 
 *Figura 4.1 — Parâmetros antropométricos usados na modelação paramétrica de dedos protésicos.*
 *Fonte original (APA 7): Nini, L., Ceccarelli, A., Tagliamonte, N., Zollo, L., & Taffoni, F. (2024). Parametric 3D modeling of a customized prosthetic hand finger for additive manufacturing. In 2024 10th IEEE RAS/EMBS International Conference for Biomedical Robotics and Biomechatronics (BioRob). IEEE. https://doi.org/10.1109/BioRob60516.2024.10719909*
@@ -638,7 +638,7 @@ Uma limitação recorrente em abordagens simplificadas de modelação é a utili
 
 Esta limitação torna-se visualmente evidente na Figura 4.2, que compara um modelo apenas escalado de forma uniforme com um modelo parametrizado a partir de variáveis independentes. A diferença é relevante porque mostra que a personalização não depende apenas de “aumentar ou reduzir” um modelo-base, mas de reorganizar relações geométricas internas.
 
-![](./figuras/ch4_customization_of_a_3d_printed_prost_figure8_p7.png)
+![](figuras/ch4_customization_of_a_3d_printed_prost_figure8_p7.png)
 
 *Figura 4.2 — Comparação entre escalonamento uniforme e modelação paramétrica de dedo protésico.*
 *Fonte original (APA 7): Lim, D., Georgiou, T., Bhardwaj, A., O'Connell, G. D., & Agogino, A. M. (2018, August 26). Customization of a 3D printed prosthetic finger using parametric modeling. In Proceedings of the ASME 2018 International Design Engineering Technical Conferences and Computers and Information in Engineering Conference. https://doi.org/10.1115/DETC2018-85645*

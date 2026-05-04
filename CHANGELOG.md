@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.2.41 - 2026-05-04
+
+- Created a new timestamped backup of `Projecto completo.md` before normalizing GitHub image paths.
+- Rewrote the manuscript image links from `figuras/...` to `./figuras/...` to improve GitHub Markdown rendering consistency.
+- Bumped the manuscript version to `0.2.41`.
+
 ## 2026-05-04
 
 - Updated `material/extract_suggested_assets.py` so extracted figure and table assets are now written to the root-level `figuras/` and `tabelas/` directories instead of the old `material/` subfolders.
