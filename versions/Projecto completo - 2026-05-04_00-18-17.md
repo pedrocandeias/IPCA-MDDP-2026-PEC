@@ -1,4 +1,4 @@
-**Versão do documento:** `0.2.38`
+**Versão do documento:** `0.2.37`
 
 ## **Capítulo 1 — Introdução** 
 
@@ -68,12 +68,6 @@ As próteses de membro superior podem ser classificadas de acordo com a sua font
 **Sistemas híbridos**  
  Os sistemas híbridos combinam mecanismos mecânicos e elétricos no mesmo dispositivo. São particularmente frequentes em amputações proximais, como amputações transumerais ou desarticulações do ombro, podendo associar, por exemplo, controlo mecânico do cotovelo e controlo mioelétrico do terminal. Esta configuração procura tirar partido das vantagens específicas de cada sistema, distribuindo peso, exigência funcional e complexidade de controlo. Em contrapartida, a aprendizagem, a adaptação e a manutenção podem tornar-se mais exigentes (Segura et al., 2024; Walters et al., 2025).
 
-Uma representação visual útil desta diversidade tipológica é apresentada na Figura 2.1, que reúne exemplos de próteses impressas em 3D com soluções morfológicas e mecânicas distintas, ajudando a perceber como diferentes opções de configuração materializam compromissos distintos entre simplicidade, função e custo.
-
-![](material/figuras/ch2_3d_printed_upper_limb_prostheses_a_figure2_p5.png)
-
-*Figura 2.1 — Exemplos de próteses de membro superior impressas em 3D, ilustrando diversidade tipológica e construtiva. Fonte: ten Kate et al. (2017).*
-
 #### **Considerações clínicas e funcionais**
 
 A prescrição de uma prótese de membro superior constitui um processo clínico complexo, centrado no utilizador e conduzido por uma equipa multidisciplinar composta por médicos, protesistas, terapeutas e pelo próprio paciente. A decisão não se reduz à escolha do dispositivo terminal, mas envolve uma avaliação integrada de fatores físicos, funcionais, ocupacionais e psicossociais (Fink & Diamond, 2023; Soyer et al., 2016).
@@ -91,12 +85,6 @@ A reabilitação protésica desenvolve-se em fases — cuidados perioperatórios
 A avaliação objetiva do sucesso protésico continua a ser um desafio. Persistem escassez de instrumentos padronizados e heterogeneidade de métricas, o que dificulta a comparação entre estudos, dispositivos e estratégias de reabilitação. São utilizadas ferramentas de avaliação registada pelo utilizador, centradas em funcionalidade percebida, satisfação e qualidade de vida, bem como testes baseados em desempenho, orientados para destreza, velocidade de execução e controlo funcional em tarefas estruturadas (Segura et al., 2024; Soyer et al., 2016).
 
 Apesar da evolução tecnológica, as taxas de abandono permanecem elevadas. A literatura associa a rejeição protésica, de forma recorrente, a problemas de conforto, peso, funcionalidade insuficiente, manutenção exigente e controlo pouco intuitivo. Esta persistência indica que a melhoria tecnológica isolada não garante adoção sustentada. Ainda assim, quando o dispositivo está adequadamente prescrito, ajustado e acompanhado, a utilização continuada de prótese tende a associar-se a maior independência funcional e a melhores indicadores de participação e qualidade de vida do que a não utilização (Fink & Diamond, 2023; Smail et al., 2020).
-
-Esta persistência do abandono é sintetizada de forma clara na Figura 2.2, que relaciona uso, rejeição primária e rejeição secundária, reforçando que o problema não é marginal, mas estrutural no campo das próteses de membro superior.
-
-![](material/figuras/ch2_prosthesis_rejection_in_acquired_ma_figure1_p4.png)
-
-*Figura 2.2 — Utilização, rejeição primária e rejeição secundária de próteses em amputados adquiridos do membro superior. Fonte: Biddiss e Chau (2007).*
 
 #### **Enquadramento regulatório enquanto dispositivo médico**
 
@@ -117,19 +105,6 @@ Paralelamente, o design inclusivo é apresentado como um imperativo contemporân
 No domínio dos dispositivos médicos, o design industrial surge tanto como prática metodológica centrada no utilizador como papel colaborativo integrado em equipas multidisciplinares de desenvolvimento. A literatura identifica, contudo, uma lacuna estrutural: muitos dispositivos médicos continuam a ser desenvolvidos predominantemente com base em abordagens de engenharia e requisitos regulatórios, com participação limitada de profissionais com formação específica em metodologias de design centrado no uso. Esta assimetria contribui para soluções tecnicamente robustas, mas nem sempre otimizadas em termos de ergonomia, usabilidade ou integração na vida quotidiana (Fisher & Johansen, 2020; Wilke et al., 2020).
 
 Neste contexto, o design industrial assume relevância não apenas na fase de conceptualização, mas também na definição de requisitos de utilização, na tradução de necessidades clínicas em soluções tangíveis e na articulação entre requisitos regulatórios e experiência do utilizador (Fisher & Johansen, 2020; Shah & Robinson, 2006).
-
-Esta posição intermédia do design torna-se mais clara quando se observa a multiplicidade de papéis que profissionais de saúde podem assumir em processos de desenvolvimento. Em vez de contribuírem apenas como validadores finais, estes agentes podem intervir como parceiros de negócio, utilizadores peritos, mediadores entre domínios e profissionais clínicos ou investigadores, como sintetiza a Tabela 2.1.
-
-**Tabela 2.1 — Papéis dos profissionais de saúde no desenvolvimento de dispositivos médicos**
-
-| Papel | Contributo principal | Objeto típico de colaboração |
-| ----- | ----- | ----- |
-| Parceiros de negócio | Identificam oportunidades, especificações e condicionantes regulatórias | Mercado, estratégia e processos de certificação |
-| Utilizadores peritos | Fornecem experiência clínica situada e problemas de uso | Experiência do utilizador e adequação funcional |
-| Mediadores | Traduzem linguagem, necessidades e constrangimentos entre equipas | Problemas técnicos, terminologia e entendimento partilhado |
-| Profissionais clínicos e investigadores | Enquadram cuidados, testes e validação empírica | Resultados clínicos, ensaios e usabilidade |
-
-*Fonte adaptada de Kaygan e Kaygan (2016).*
 
 #### **Design Inclusivo e Design Universal**
 
@@ -183,12 +158,6 @@ Estas lacunas evidenciam que o design industrial em dispositivos médicos não p
 
 A convergência entre modelação paramétrica e fabricação aditiva (FdA) tem sido amplamente reconhecida como um dos principais vetores de transformação no design contemporâneo, particularmente em contextos que exigem personalização, adaptação morfológica e produção de variantes em pequena escala. A literatura posiciona estas duas abordagens como complementares: a modelação paramétrica permite gerar múltiplas variações controladas a partir de um modelo-base, enquanto a fabricação aditiva viabiliza a materialização de geometrias complexas sem necessidade de moldes ou ferramentas dedicadas (Lei et al., 2016; Ozdemir et al., 2022; Stralen, 2018).
 
-Esta articulação é representada com clareza na Figura 2.3, que resume o encadeamento entre aquisição digital, modelação/retificação e fabrico, evidenciando que a personalização depende menos de um único software ou etapa isolada e mais de um *workflow* integrado.
-
-![](material/figuras/ch2_a_scoping_review_of_digital_fabrica_figure1_p2.png)
-
-*Figura 2.3 — Fluxo digital entre aquisição, CAD/CAM e fabricação aditiva em próteses e ortóteses. Fonte: Chainando et al. (2025).*
-
 Neste enquadramento, a personalização deixa de ser entendida como exceção e passa a constituir uma estratégia estruturada, operacionalizada através de “seed designs” ou modelos-base parametrizados. Estes modelos preservam uma arquitetura estável, expondo simultaneamente um conjunto limitado de variáveis ajustáveis, frequentemente acessíveis por meio de interfaces digitais ou configuradores destinados a utilizadores não especialistas (Ozdemir et al., 2022; Stralen, 2018).
 
 #### **Modelação Paramétrica e Espaços de Variação**
@@ -210,12 +179,6 @@ As tecnologias de FA utilizadas incluem FDM/FFF (extrusão de termoplásticos), 
 #### **Configuradores e Co-criação Digital**
 
 A articulação entre modelação paramétrica e interfaces digitais possibilita novos modelos de co-criação e produção distribuída. Configuradores web ou interfaces baseadas em CAD expõem um conjunto delimitado de parâmetros, permitindo ao utilizador ajustar dimensões ou características dentro de intervalos válidos, frequentemente com feedback em tempo real sobre viabilidade (Ozdemir et al., 2022; Stralen, 2018).
-
-A Figura 2.4 mostra um exemplo especialmente relevante desta lógica: a personalização mediada por interface, em que o utilizador atua sobre atributos visuais e formais dentro de um espaço de variação previamente estruturado. Este tipo de configurador ajuda a compreender como a co-criação digital pode ser operacionalizada sem exigir domínio direto de ferramentas CAD complexas.
-
-![](material/figuras/ch2_implementation_of_3d_printing_techn_figure5_p8.png)
-
-*Figura 2.4 — Exemplo de configurador digital para personalização de uma prótese impressa em 3D. Fonte: Telford et al. (2023).*
 
 Este modelo “*file-to-factory*” viabiliza fluxos digitais em que o ficheiro parametrizado é diretamente convertido em instruções de fabrico, seja localmente (impressão 3D descentralizada) ou através de encomenda online. A literatura associa esta lógica à democratização do design e à expansão de estratégias de *mass customization* e *mass personalization*, reduzindo custos marginais ao eliminar a utilização de moldes e dispositivos específicos de fabrico (Lei et al., 2016; Stralen, 2018).
 
@@ -248,12 +211,6 @@ A antropometria constitui um fundamento técnico e metodológico central no desi
 Historicamente, a antropometria aplicada ao design baseou-se em medidas escalares (comprimentos, larguras, perímetros), obtidas com instrumentos como paquímetros, compassos antropométricos e fita métrica, muitas vezes segundo procedimentos normalizados (por exemplo, ISO 7250). Contudo, no design protésico — particularmente em interfaces corpo–dispositivo, como o encaixe (*socket*) — a literatura sublinha que a “forma” (*shape*) tem um papel determinante, porque pequenas variações volumétricas e distribuições de pressão podem gerar desconforto, lesões cutâneas e abandono do dispositivo. Estudos e revisões referem que o ajuste protésico pode exigir tolerâncias muito reduzidas e que a complexidade anatómica, assim como trajetórias de carga e zonas de alívio, não é devidamente capturada por um conjunto limitado de medidas lineares (Albin & Molenbroek, 2023; Young et al., 2023).
 
 Assim, observa-se uma valorização crescente de métodos capazes de capturar geometria tridimensional de alta resolução e de traduzir essa informação para modelos CAD passíveis de retificação, parametrização e fabrico (Squibb et al., 2024).
-
-Mesmo assim, a medição linear continua a ser indispensável para estruturar o modelo paramétrico, sobretudo quando se pretende definir um conjunto mínimo de entradas robustas e replicáveis. A Figura 2.5 ilustra precisamente este nível basal: os marcos anatómicos e comprimentos de referência que sustentam medições comparáveis da mão.
-
-![](material/figuras/ch2_2d_and_3d_anatomical_analyses_of_ha_figure1_p3.png)
-
-*Figura 2.5 — Marcos anatómicos e medidas de referência da mão para fins de personalização. Fonte: Goubier et al. (2019).*
 
 #### **Métodos de recolha antropométrica em próteses e tecnologias de apoio**
 
@@ -324,12 +281,6 @@ No contexto desta investigação, esta necessidade de estruturação de dados fo
 
 A integração de Inteligência Artificial (IA) no design tornou-se um tema central não apenas pelo aparecimento de novas ferramentas, mas também porque alterou a forma como se pensa a relação entre criatividade, análise, decisão e automatização. Contudo, a rápida disseminação do termo “IA” gerou também alguma imprecisão conceptual. Em muitos contextos, a mesma designação é usada para referir sistemas de previsão, algoritmos de otimização, modelos generativos e interfaces conversacionais, apesar de estes mecanismos terem funções e modos de operação distintos. Numa dissertação de Design Industrial, importa por isso começar por uma clarificação introdutória: o objetivo desta secção é explicar, de forma acessível, o que é a IA, como funciona em termos gerais, que formas assume no design e porque razão deve ser entendida como instrumento assistivo, e não como substituto autónomo do designer (Choudhury et al., 2025; Saeidnia & Ausloos, 2024; Yüksel et al., 2023).
 
-Para efeitos de enquadramento, a Figura 2.6 é útil porque mostra a IA não como bloco monolítico, mas como camada integrada num fluxo CAD mais amplo, onde recolha de dados, modelação, otimização e avaliação permanecem articuladas com decisão projetual.
-
-![](material/figuras/ch2_ai_driven_computer_aided_design_cad_figure1_p6.png)
-
-*Figura 2.6 — Enquadramento de um fluxo de CAD assistido por IA para desenvolvimento de produto. Fonte: Khan et al. (2025).*
-
 #### **O que é a Inteligência Artificial**
 
 De forma ampla, a IA pode ser entendida como um conjunto de métodos computacionais orientados para executar tarefas que requerem aprendizagem, reconhecimento de padrões, inferência ou geração de respostas com base em dados. Esta definição é útil porque evita tratar a IA como uma entidade única ou como sinónimo de inteligência humana generalizada. O que caracteriza a maioria dos sistemas atuais não é uma capacidade abstrata de “pensar” em qualquer domínio, mas a aptidão para operar sobre tipos específicos de problemas a partir de exemplos, regularidades e relações estatísticas aprendidas durante o treino (Choudhury et al., 2025; Yüksel et al., 2023).
@@ -382,29 +333,9 @@ Uma linha teórica relevante é a dos “toolkits for user innovation”, que en
 
 O *meta-design* aprofunda esta lógica ao defender a participação “em uso”, estabelecendo condições técnicas e sociais para que utilizadores se tornem co-designers e para que o sistema evolua ao longo do tempo. O modelo *Seeding, Evolutionary Growth, and Reseeding* formaliza este processo como alternância entre “sementes” iniciais, criadas por especialistas, evolução por desenvolvimento do utilizador e reestruturações periódicas que consolidam aprendizagens e reorganizam o sistema (Costabile et al., 2007; Fischer et al., 2004).
 
-Para enquadrar estes fundamentos de forma mais operacional, a Figura 2.7 mostra um modelo de configuração da participação em *living labs*, útil porque desloca a discussão da participação como princípio abstrato para a participação como estrutura desenhável.
-
-![](material/figuras/ch2_a_framework_for_configuring_partici_figure1_p4.png)
-
-*Figura 2.7 — Modelo de processo para configurar participação em ecossistemas de inovação e co-criação. Fonte: Akasaka et al. (2022).*
-
 A literatura identifica, contudo, riscos como *participation overload*, isto é, a transferência excessiva de carga de trabalho e decisão para utilizadores, o que requer mecanismos de apoio, curadoria e reutilização para tornar a participação sustentável (Fischer et al., 2017).
 
 Em paralelo, o conceito de *Software Shaping Workshop* operacionaliza o *meta-design* como um “workshop virtual” composto por ferramentas familiares adaptadas à cultura e competências de uma comunidade. Em contextos de reabilitação e assistência, este paradigma manifesta-se em sistemas que fornecem a cuidadores e terapeutas interfaces tipo editor, permitindo adaptar *scripts*, exercícios e conteúdos sem necessidade de programação, respondendo a necessidades de personalização de forma pragmática (Costabile et al., 2007; Fischer et al., 2017).
-
-Esta transição entre princípio e operação pode ser resumida através dos elementos nucleares apresentados na Tabela 2.2, que sistematiza dimensões recorrentes no desenho de participação mediada: quando participar, quem participa, por que canais, através de que pontos de contacto e com que mecanismos de motivação.
-
-**Tabela 2.2 — Elementos centrais na configuração da participação em sistemas configuráveis**
-
-| Dimensão | Questão central |
-| ----- | ----- |
-| Fase e propósito | Em que momento participa o utilizador e com que objetivo |
-| Participantes | Que perfis participam, em que número e com que papel |
-| Formato | Que canais, espaços e métodos suportam a colaboração |
-| Contacto | Como se recrutam participantes e como se mantém a relação |
-| Gestão da motivação | Que fatores promovem adesão e que barreiras dificultam continuidade |
-
-*Fonte adaptada de Akasaka et al. (2022).*
 
 #### **Mecanismos de personalização: modularidade, parametrização e tailoring**
 
@@ -445,12 +376,6 @@ Apesar do potencial, a evidência empírica é frequentemente baseada em amostra
 – **Adoção e valor realizado**: a literatura sobre *mass customization* regista falhas frequentes em conversão e adoção de configuradores; por analogia, em saúde e tecnologias assistivas, configurabilidade não garante aceitação sem alinhamento com expectativas, confiança e integração em serviços (Akasaka et al., 2022; Frangos et al., 2016).
 
 ### 2.7 Análise crítica do estado da arte e lacunas identificadas![Shape][image1] 
-
-A transição entre entusiasmo técnico e maturidade efetiva do campo torna-se particularmente visível quando se observam os níveis de prontidão tecnológica presentes na literatura. A Figura 2.8 antecipa esta leitura ao mostrar a distribuição dos estudos por *technology readiness level* (TRL), reforçando que muitos contributos permanecem concentrados em fases ainda distantes de adoção ampla e sustentada.
-
-![](material/figuras/ch2_a_scoping_review_of_digital_fabrica_figure10_p9.png)
-
-*Figura 2.8 — Distribuição dos estudos por nível de prontidão tecnológica (TRL) em próteses e ortóteses com fabrico digital. Fonte: Chainando et al. (2025).*
 
 A síntese das secções anteriores evidencia um panorama marcado por avanços técnicos significativos, mas também por limitações estruturais persistentes na investigação e no desenvolvimento de próteses e tecnologias assistivas. Um tema transversal é o desfasamento entre inovação tecnológica e evidência robusta: muitos desenvolvimentos permanecem em fase de protótipo, testados em amostras reduzidas e por períodos curtos, com escassa validação através de ensaios clínicos, estudos longitudinais e avaliação em contexto real (Chadwell et al., 2020; Samuelsson et al., 2012; Windrich et al., 2016). 
 
@@ -548,12 +473,6 @@ Durante o desenvolvimento do sistema paramétrico, os dados assumem natureza té
 
 Na fase de prototipagem, a análise incide sobre critérios de exequibilidade de fabrico, robustez estrutural, coerência dimensional e facilidade de montagem. Não são recolhidos dados pessoais ou biométricos de utilizadores reais, sendo utilizados exclusivamente conjuntos de dados antropométricos públicos, o que delimita o âmbito empírico ao domínio técnico e projetual. Entre estes destaca-se a base local `material/antropometria/dados antropométricos/multi_population_hand.csv`, usada como infraestrutura intermédia para seleção, comparação e normalização de medidas relevantes para a parametrização geométrica. A organização da tabela preserva informação sobre país, amostra, tipo de medida, estatística e granularidade dos subconjuntos analisados, tornando explícita a cobertura e os limites de cada fonte antes da sua tradução para parâmetros de projeto (Anacleto Filho et al., 2023; Chatzioglou et al., 2024; Ibiwari et al., 2025; Nag et al., 2003; Rodríguez-Vega & Rodríguez-Vega, 2024).
 
-Embora o presente estudo não utilize participantes reais, a literatura metodológica na área ajuda a clarificar como medições lineares e procedimentos de ajuste são normalmente operacionalizados em contextos aplicados. A Figura 3.1 ilustra esse tipo de recolha dimensional orientada para fabrico, servindo aqui como precedente metodológico para a tradução de medidas em parâmetros de projeto.
-
-![](material/figuras/ch3_an_undergraduate_engineering_servic_figure1_p4.png)
-
-*Figura 3.1 — Exemplo de recolha dimensional para ajuste de prótese impressa em 3D. Fonte: Biddiss et al. (2019).*
-
 ### 3.5 Critérios de avaliação e limitações metodológicas
 
 A avaliação do sistema desenvolvido baseia-se em critérios técnicos, funcionais e metodológicos. Entre os principais critérios consideram-se a capacidade de personalização paramétrica, a consistência dimensional perante diferentes perfis antropométricos, a viabilidade de fabrico por impressão 3D, a robustez estrutural e a clareza do processo de configuração. Estes critérios procuram avaliar não só o desempenho do artefacto, mas também a qualidade do próprio processo de design enquanto dispositivo de investigação, nomeadamente a sua capacidade de tornar explícitas decisões, testar alternativas e produzir aprendizagem transferível (Zimmerman et al., 2007).
@@ -583,12 +502,6 @@ A formalização de constrangimentos nas fases iniciais do design assume igualme
 ###  4.2 Parâmetros antropométricos e estrutura do modelo 
 
 A definição e operacionalização de parâmetros antropométricos constituem um elemento central no desenvolvimento de sistemas protésicos personalizados, funcionando como a principal interface entre o corpo do utilizador e a configuração geométrica e funcional do modelo paramétrico. No contexto das próteses de membro superior, estes parâmetros não se limitam a medições isoladas, mas integram um sistema estruturado de variáveis que descrevem a morfologia da mão, dos dedos, do punho e, quando aplicável, do antebraço ou do membro residual. A literatura recente converge em dois pontos: a personalização eficaz depende de medidas anatomicamente relevantes e não de escalonamentos genéricos; e essas medidas devem ser organizadas de forma a alimentar diretamente a lógica do modelo digital (Chatzioglou et al., 2024; Moreo, 2016; Rodríguez-Vega & Rodríguez-Vega, 2024).
-
-Esta exigência de organizar medições em parâmetros operáveis é particularmente evidente em modelos digitais do dedo e da mão. A Figura 4.1 mostra um exemplo de decomposição paramétrica em comprimentos, larguras e secções articulares, clarificando o tipo de estrutura dimensional que sustenta a passagem de antropometria para geometria configurável.
-
-![](material/figuras/ch4_parametric_3d_modeling_of_a_customi_figure3_p2.png)
-
-*Figura 4.1 — Parâmetros antropométricos usados na modelação paramétrica de dedos protésicos. Fonte: Nini et al. (2024).*
 
 Os parâmetros antropométricos mais relevantes concentram-se, em primeiro lugar, na definição da **estrutura dimensional base da mão**. Medidas como o comprimento da mão, a largura da mão e o comprimento da palma constituem descritores dimensionais primários, permitindo estabelecer a escala do modelo e definir a sua organização geral. Para além destas, incluem-se parâmetros relativos aos dedos, como comprimentos segmentares e proporções entre falanges, bem como dimensões do polegar e do punho, essenciais para a funcionalidade e integração do dispositivo (Chatzioglou et al., 2024; Nag et al., 2003).
 
@@ -625,12 +538,6 @@ Esta abordagem permite estruturar o sistema paramétrico com base em *inputs* es
 #### **Limitações do escalonamento uniforme**
 
 Uma limitação recorrente em abordagens simplificadas de modelação é a utilização de escalonamento uniforme (*uniform scaling*), onde um modelo base é dimensionado proporcionalmente em todas as direções. Esta abordagem revela-se inadequada no contexto antropométrico, uma vez que as dimensões da mão apresentam correlações imperfeitas entre si e variam de forma desigual entre populações, sexos e grupos etários. Em consequência, indivíduos com largura de mão semelhante podem apresentar comprimentos digitais, proporções falângicas ou dimensões do polegar significativamente diferentes. A modelação paramétrica exige, por isso, a definição de parâmetros independentes e a possibilidade de derivar proporções locais sem pressupor homotetia global do modelo (Lim et al., 2018; Nag et al., 2003; Rodríguez-Vega & Rodríguez-Vega, 2024).
-
-Esta limitação torna-se visualmente evidente na Figura 4.2, que compara um modelo apenas escalado de forma uniforme com um modelo parametrizado a partir de variáveis independentes. A diferença é relevante porque mostra que a personalização não depende apenas de “aumentar ou reduzir” um modelo-base, mas de reorganizar relações geométricas internas.
-
-![](material/figuras/ch4_customization_of_a_3d_printed_prost_figure8_p7.png)
-
-*Figura 4.2 — Comparação entre escalonamento uniforme e modelação paramétrica de dedo protésico. Fonte: Lim et al. (2018).*
 
 #### **Métodos de recolha de dados antropométricos**
 

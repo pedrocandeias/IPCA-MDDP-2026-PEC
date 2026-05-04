@@ -1,7 +1,16 @@
 # Changelog
 
+## 0.2.38 - 2026-05-04
+
+- Created a new timestamped backup of `Projecto completo.md` before integrating selected figures and tables from `material/figures_tables_suggestions.md`.
+- Reviewed the extracted assets in `material/figuras/` and `material/tabelas/` and integrated only the items with the strongest direct fit to the manuscript argument.
+- Added new figure and table integrations to sections `2.1`, `2.2`, `2.3`, `2.4`, `2.5`, `2.6`, `2.7`, `3.4`, and `4.2`, including explicit captions and short connective prose in European Portuguese.
+- Bumped the manuscript version to `0.2.38`.
+
 ## 2026-05-03
 
+- Reconciled `projecto_completo_bibliografia/pdfs_em_falta.md` against the PDFs now present in `material/` and cleared the remaining unresolved entries after confirming local matches for `DiaFit`, `Meta-design`, `Satisfying heterogeneous user needs via innovation toolkits`, `Independent tailoring of dose and drug release via a modularized product design concept for mass customization`, `A digital twin enabled wearable device for customized healthcare`, and `Designerly ways of knowing`.
+- Corrected `projecto_completo_bibliografia/pdfs_em_falta.md` to remove `Design Council (2020). Framework for innovation` from the missing-PDF list, since that reference is a webpage/image resource rather than a PDF-tracked document.
 - Reworked `README.md` to reflect the current repository structure, the local Elicit workflow, the bibliography cache, the utility scripts stored in `material/`, and the newly added `mendeley-downloader/`, reusing the guidance from `material/README.md`.
 - Updated `origin` to the repository's new GitHub location, switched this clone back to `main`, set `origin/HEAD` to `main`, removed the remote branch `MDDP---IPCA-2026` after confirming that `main` already contained it, and deleted the local branch `MDDP---IPCA-2026`.
 - Located and downloaded local PDFs for `Akasaka et al. (2022)`, `Colombo et al. (2015)`, `Machado et al. (2019)`, `von Hippel & Katz (2002)`, and `Seregni et al. (2021)` into `projecto_completo_bibliografia/`.
