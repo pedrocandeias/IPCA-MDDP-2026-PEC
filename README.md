@@ -135,6 +135,24 @@ Exemplo com directoria de destino alternativa:
 python3 scripts/md_to_docx.py "Projecto completo.md" --output-dir sources/docx
 ```
 
+### `scripts/docx_to_md.py`
+
+CLI local para converter ficheiros `.docx` de volta para Markdown. Cada execução cria uma nova cópia em `docs/` com timestamp no nome, no formato `nome-do-ficheiro-hhmm-ddmmyyyy.md`.
+
+Suporta a recuperação de:
+- headings
+- parágrafos
+- listas simples
+- citações em bloco
+- blocos de código
+- tabelas Word simples
+
+Exemplo:
+
+```bash
+python3 scripts/docx_to_md.py "sources/docx/cap_2_3_Parametric Design and Additive Manufacturing for Product Customization.docx"
+```
+
 ## Ferramentas em `material/`
 
 O diretório `material/` não guarda apenas PDFs. Também inclui utilitários para gestão da biblioteca e manutenção do corpus local.

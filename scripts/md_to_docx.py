@@ -9,8 +9,11 @@ blocks, horizontal rules, and pipe tables.
 from __future__ import annotations
 
 import argparse
+import base64
+import binascii
 import datetime as dt
 import re
+import struct
 import zipfile
 from dataclasses import dataclass
 from html import escape
@@ -32,7 +35,16 @@ class TableBlock:
     rows: list[list[str]]
 
 
-Block = ParagraphBlock | TableBlock
+@dataclass
+class ImageBlock:
+    alt_text: str
+    data: bytes
+    extension: str
+    width_px: int
+    height_px: int
+
+
+Block = ParagraphBlock | TableBlock | ImageBlock
 
 
 def xml_text(value: str) -> str:
@@ -49,6 +61,20 @@ def normalize_lines(text: str) -> list[str]:
     return text.replace("\r\n", "\n").replace("\r", "\n").split("\n")
 
 
+def extract_reference_definitions(text: str) -> tuple[str, dict[str, str]]:
+    references: dict[str, str] = {}
+    kept_lines: list[str] = []
+    pattern = re.compile(r"^\[([^\]]+)\]:\s*(.+?)\s*$")
+
+    for line in normalize_lines(text):
+        match = pattern.match(line.strip())
+        if not match:
+            kept_lines.append(line)
+            continue
+        references[match.group(1).strip().lower()] = match.group(2).strip().strip("<>")
+    return "\n".join(kept_lines), references
+
+
 def is_table_delimiter(line: str) -> bool:
     stripped = line.strip()
     if "|" not in stripped:
@@ -63,7 +89,127 @@ def parse_pipe_row(line: str) -> list[str]:
     return [cell.strip() for cell in line.strip().strip("|").split("|")]
 
 
-def parse_markdown(text: str) -> list[Block]:
+def is_escaped_horizontal_rule(line: str) -> bool:
+    normalized = re.sub(r"\s+", "", line)
+    return bool(normalized) and re.fullmatch(r"(\\_){8,}", normalized) is not None
+
+
+def load_data_uri(uri: str) -> tuple[bytes, str]:
+    match = re.match(r"^data:image/([a-zA-Z0-9.+-]+);base64,(.+)$", uri, flags=re.DOTALL)
+    if not match:
+        raise ValueError("Unsupported data URI")
+    subtype = match.group(1).lower()
+    extension = "jpg" if subtype == "jpeg" else subtype
+    try:
+        data = base64.b64decode(match.group(2), validate=True)
+    except binascii.Error as exc:
+        raise ValueError("Invalid base64 image payload") from exc
+    return data, extension
+
+
+def load_image_resource(source: str, base_dir: Path) -> tuple[bytes, str]:
+    if source.startswith("data:image/"):
+        return load_data_uri(source)
+
+    image_path = (base_dir / source).resolve()
+    if not image_path.exists():
+        raise FileNotFoundError(f"Image not found: {image_path}")
+    extension = image_path.suffix.lower().lstrip(".")
+    if extension == "jpeg":
+        extension = "jpg"
+    if extension not in {"png", "jpg", "gif"}:
+        raise ValueError(f"Unsupported image type: {image_path.suffix}")
+    return image_path.read_bytes(), extension
+
+
+def png_dimensions(data: bytes) -> tuple[int, int] | None:
+    if data[:8] != b"\x89PNG\r\n\x1a\n" or len(data) < 24:
+        return None
+    width, height = struct.unpack(">II", data[16:24])
+    return width, height
+
+
+def gif_dimensions(data: bytes) -> tuple[int, int] | None:
+    if data[:6] not in {b"GIF87a", b"GIF89a"} or len(data) < 10:
+        return None
+    width, height = struct.unpack("<HH", data[6:10])
+    return width, height
+
+
+def jpeg_dimensions(data: bytes) -> tuple[int, int] | None:
+    if len(data) < 4 or data[:2] != b"\xff\xd8":
+        return None
+    offset = 2
+    while offset + 9 < len(data):
+        if data[offset] != 0xFF:
+            offset += 1
+            continue
+        marker = data[offset + 1]
+        offset += 2
+        if marker in {0xD8, 0xD9}:
+            continue
+        if offset + 2 > len(data):
+            return None
+        segment_length = struct.unpack(">H", data[offset:offset + 2])[0]
+        if segment_length < 2 or offset + segment_length > len(data):
+            return None
+        if marker in {0xC0, 0xC1, 0xC2, 0xC3, 0xC5, 0xC6, 0xC7, 0xC9, 0xCA, 0xCB, 0xCD, 0xCE, 0xCF}:
+            if offset + 7 > len(data):
+                return None
+            height, width = struct.unpack(">HH", data[offset + 3:offset + 7])
+            return width, height
+        offset += segment_length
+    return None
+
+
+def image_dimensions(data: bytes, extension: str) -> tuple[int, int]:
+    dimensions = None
+    if extension == "png":
+        dimensions = png_dimensions(data)
+    elif extension == "jpg":
+        dimensions = jpeg_dimensions(data)
+    elif extension == "gif":
+        dimensions = gif_dimensions(data)
+    return dimensions or (800, 600)
+
+
+def image_block_from_source(source: str, alt_text: str, base_dir: Path) -> ImageBlock:
+    data, extension = load_image_resource(source, base_dir)
+    width_px, height_px = image_dimensions(data, extension)
+    return ImageBlock(alt_text=alt_text, data=data, extension=extension, width_px=width_px, height_px=height_px)
+
+
+def extract_inline_images(text: str, references: dict[str, str], base_dir: Path) -> tuple[str, list[ImageBlock]]:
+    images: list[ImageBlock] = []
+
+    def replace_inline(match: re.Match[str]) -> str:
+        alt_text = match.group(1).strip()
+        source = match.group(2).strip().strip("<>")
+        try:
+            images.append(image_block_from_source(source, alt_text, base_dir))
+        except (FileNotFoundError, ValueError):
+            return match.group(0)
+        return ""
+
+    def replace_reference(match: re.Match[str]) -> str:
+        alt_text = match.group(1).strip()
+        ref_name = match.group(2).strip().lower()
+        source = references.get(ref_name)
+        if not source:
+            return match.group(0)
+        try:
+            images.append(image_block_from_source(source, alt_text or ref_name, base_dir))
+        except (FileNotFoundError, ValueError):
+            return match.group(0)
+        return ""
+
+    text = re.sub(r"!\[([^\]]*)\]\(([^)]+)\)", replace_inline, text)
+    text = re.sub(r"!\[([^\]]*)\]\[([^\]]+)\]", replace_reference, text)
+    return text.strip(), images
+
+
+def parse_markdown(text: str, base_dir: Path) -> list[Block]:
+    text, references = extract_reference_definitions(text)
     lines = normalize_lines(text)
     blocks: list[Block] = []
     paragraph_lines: list[str] = []
@@ -75,8 +221,10 @@ def parse_markdown(text: str) -> list[Block]:
         nonlocal paragraph_lines
         if paragraph_lines:
             joined = " ".join(line.strip() for line in paragraph_lines).strip()
+            joined, images = extract_inline_images(joined, references, base_dir)
             if joined:
                 blocks.append(ParagraphBlock(joined))
+            blocks.extend(images)
         paragraph_lines = []
 
     def flush_code() -> None:
@@ -146,11 +294,14 @@ def parse_markdown(text: str) -> list[Block]:
             flush_paragraph()
             flush_quote()
             level = min(len(heading.group(1)), 3)
-            blocks.append(ParagraphBlock(heading.group(2).strip(), style=f"Heading{level}"))
+            heading_text, images = extract_inline_images(heading.group(2).strip(), references, base_dir)
+            if heading_text:
+                blocks.append(ParagraphBlock(heading_text, style=f"Heading{level}"))
+            blocks.extend(images)
             i += 1
             continue
 
-        if re.fullmatch(r"(-{3,}|\*{3,}|_{3,})", stripped):
+        if re.fullmatch(r"(-{3,}|\*{3,}|_{3,})", stripped) or is_escaped_horizontal_rule(stripped):
             flush_paragraph()
             flush_quote()
             blocks.append(ParagraphBlock("", style="HorizontalRule"))
@@ -160,7 +311,10 @@ def parse_markdown(text: str) -> list[Block]:
         quote = re.match(r"^>\s?(.*)$", stripped)
         if quote:
             flush_paragraph()
-            quote_lines.append(quote.group(1))
+            quote_text, images = extract_inline_images(quote.group(1), references, base_dir)
+            if quote_text:
+                quote_lines.append(quote_text)
+            blocks.extend(images)
             i += 1
             continue
         flush_quote()
@@ -168,11 +322,19 @@ def parse_markdown(text: str) -> list[Block]:
         bullet = re.match(r"^[-*+]\s+(.*)$", stripped)
         if bullet:
             flush_paragraph()
-            blocks.append(ParagraphBlock(bullet.group(1).strip(), style="ListBullet"))
+            bullet_text, images = extract_inline_images(bullet.group(1).strip(), references, base_dir)
+            if bullet_text:
+                blocks.append(ParagraphBlock(bullet_text, style="ListBullet"))
+            blocks.extend(images)
             i += 1
             continue
 
-        paragraph_lines.append(line)
+        line_text, images = extract_inline_images(line, references, base_dir)
+        if line_text:
+            paragraph_lines.append(line_text)
+        if images:
+            flush_paragraph()
+            blocks.extend(images)
         i += 1
 
     flush_paragraph()
@@ -302,13 +464,61 @@ def table_xml(block: TableBlock) -> str:
     )
 
 
+def image_xml(block: ImageBlock, rel_id: str, image_id: int) -> str:
+    emu_per_px = 9525
+    max_width_px = 600
+    width_px = block.width_px
+    height_px = block.height_px
+    if width_px > max_width_px:
+        height_px = max(1, int(height_px * max_width_px / width_px))
+        width_px = max_width_px
+    width_emu = width_px * emu_per_px
+    height_emu = height_px * emu_per_px
+    name = xml_text(block.alt_text or f"Image {image_id}")
+    return (
+        "<w:p><w:r><w:drawing>"
+        "<wp:inline xmlns:wp=\"http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing\" "
+        "distT=\"0\" distB=\"0\" distL=\"0\" distR=\"0\">"
+        f"<wp:extent cx=\"{width_emu}\" cy=\"{height_emu}\"/>"
+        f"<wp:docPr id=\"{image_id}\" name=\"{name}\" descr=\"{name}\"/>"
+        "<wp:cNvGraphicFramePr>"
+        "<a:graphicFrameLocks xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" noChangeAspect=\"1\"/>"
+        "</wp:cNvGraphicFramePr>"
+        "<a:graphic xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\">"
+        "<a:graphicData uri=\"http://schemas.openxmlformats.org/drawingml/2006/picture\">"
+        "<pic:pic xmlns:pic=\"http://schemas.openxmlformats.org/drawingml/2006/picture\">"
+        "<pic:nvPicPr>"
+        f"<pic:cNvPr id=\"{image_id}\" name=\"{name}\" descr=\"{name}\"/>"
+        "<pic:cNvPicPr/>"
+        "</pic:nvPicPr>"
+        "<pic:blipFill>"
+        f"<a:blip r:embed=\"{rel_id}\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\"/>"
+        "<a:stretch><a:fillRect/></a:stretch>"
+        "</pic:blipFill>"
+        "<pic:spPr>"
+        "<a:xfrm><a:off x=\"0\" y=\"0\"/>"
+        f"<a:ext cx=\"{width_emu}\" cy=\"{height_emu}\"/></a:xfrm>"
+        "<a:prstGeom prst=\"rect\"><a:avLst/></a:prstGeom>"
+        "</pic:spPr>"
+        "</pic:pic>"
+        "</a:graphicData>"
+        "</a:graphic>"
+        "</wp:inline>"
+        "</w:drawing></w:r></w:p>"
+    )
+
+
 def document_xml(blocks: list[Block]) -> str:
     body_parts: list[str] = []
+    image_index = 0
     for block in blocks:
         if isinstance(block, ParagraphBlock):
             body_parts.append(paragraph_xml(block))
-        else:
+        elif isinstance(block, TableBlock):
             body_parts.append(table_xml(block))
+        else:
+            image_index += 1
+            body_parts.append(image_xml(block, rel_id=f"rId{image_index + 1}", image_id=image_index))
     body_parts.append(
         "<w:sectPr>"
         "<w:pgSz w:w=\"11906\" w:h=\"16838\"/>"
@@ -318,17 +528,33 @@ def document_xml(blocks: list[Block]) -> str:
     )
     return (
         XML_HEADER
-        + "<w:document xmlns:w=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\">"
+        + "<w:document xmlns:w=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\" "
+        + "xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" "
+        + "xmlns:wp=\"http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing\" "
+        + "xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" "
+        + "xmlns:pic=\"http://schemas.openxmlformats.org/drawingml/2006/picture\">"
         + f"<w:body>{''.join(body_parts)}</w:body></w:document>"
     )
 
 
-def content_types_xml() -> str:
+def content_types_xml(blocks: list[Block]) -> str:
+    image_defaults: list[str] = []
+    seen_extensions = {block.extension for block in blocks if isinstance(block, ImageBlock)}
+    content_map = {
+        "png": "image/png",
+        "jpg": "image/jpeg",
+        "gif": "image/gif",
+    }
+    for extension in sorted(seen_extensions):
+        content_type = content_map.get(extension)
+        if content_type:
+            image_defaults.append(f"<Default Extension=\"{extension}\" ContentType=\"{content_type}\"/>")
     return (
         XML_HEADER
         + "<Types xmlns=\"http://schemas.openxmlformats.org/package/2006/content-types\">"
         + "<Default Extension=\"rels\" ContentType=\"application/vnd.openxmlformats-package.relationships+xml\"/>"
         + "<Default Extension=\"xml\" ContentType=\"application/xml\"/>"
+        + "".join(image_defaults)
         + "<Override PartName=\"/word/document.xml\" "
         + "ContentType=\"application/vnd.openxmlformats-officedocument.wordprocessingml.document.main+xml\"/>"
         + "<Override PartName=\"/word/styles.xml\" "
@@ -353,12 +579,25 @@ def root_rels_xml() -> str:
     )
 
 
-def document_rels_xml() -> str:
+def document_rels_xml(blocks: list[Block]) -> str:
+    relationships = [
+        "<Relationship Id=\"rId1\" Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/styles\" "
+        "Target=\"styles.xml\"/>"
+    ]
+    image_index = 0
+    for block in blocks:
+        if not isinstance(block, ImageBlock):
+            continue
+        image_index += 1
+        relationships.append(
+            f"<Relationship Id=\"rId{image_index + 1}\" "
+            "Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/image\" "
+            f"Target=\"media/image{image_index}.{block.extension}\"/>"
+        )
     return (
         XML_HEADER
         + "<Relationships xmlns=\"http://schemas.openxmlformats.org/package/2006/relationships\">"
-        + "<Relationship Id=\"rId1\" Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/styles\" "
-        + "Target=\"styles.xml\"/>"
+        + "".join(relationships)
         + "</Relationships>"
     )
 
@@ -438,18 +677,24 @@ def build_output_path(input_path: Path, output_dir: Path | None) -> Path:
 
 def write_docx(input_path: Path, output_path: Path) -> None:
     markdown = input_path.read_text(encoding="utf-8", errors="replace")
-    blocks = parse_markdown(markdown)
+    blocks = parse_markdown(markdown, input_path.parent)
     title = infer_title(input_path, blocks)
 
     output_path.parent.mkdir(parents=True, exist_ok=True)
     with zipfile.ZipFile(output_path, "w", compression=zipfile.ZIP_DEFLATED) as archive:
-        archive.writestr("[Content_Types].xml", content_types_xml())
+        archive.writestr("[Content_Types].xml", content_types_xml(blocks))
         archive.writestr("_rels/.rels", root_rels_xml())
         archive.writestr("word/document.xml", document_xml(blocks))
-        archive.writestr("word/_rels/document.xml.rels", document_rels_xml())
+        archive.writestr("word/_rels/document.xml.rels", document_rels_xml(blocks))
         archive.writestr("word/styles.xml", styles_xml())
         archive.writestr("docProps/core.xml", core_xml(title))
         archive.writestr("docProps/app.xml", app_xml())
+        image_index = 0
+        for block in blocks:
+            if not isinstance(block, ImageBlock):
+                continue
+            image_index += 1
+            archive.writestr(f"word/media/image{image_index}.{block.extension}", block.data)
 
 
 def parse_args() -> argparse.Namespace:

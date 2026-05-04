@@ -2,6 +2,11 @@
 
 ## 2026-05-04
 
+- Added `scripts/docx_to_md.py`, a dependency-free local CLI that converts `.docx` files back to timestamped Markdown copies in `docs/`.
+- Updated `README.md` with usage notes for the new DOCX-to-Markdown exporter.
+
+## 2026-05-04
+
 - Updated `scripts/md_to_docx.py` so each export now creates a timestamped `.docx` copy in `docs/` by default, using the filename pattern `nome-do-ficheiro-hhmm-ddmmyyyy.docx`.
 - Updated the exporter usage notes in `README.md` to reflect the new default output location and naming convention.
 
