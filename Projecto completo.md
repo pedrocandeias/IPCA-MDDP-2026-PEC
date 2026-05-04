@@ -1,4 +1,4 @@
-**Versão do documento:** `0.2.38`
+**Versão do documento:** `0.2.39`
 
 ## **Capítulo 1 — Introdução** 
 
@@ -72,7 +72,8 @@ Uma representação visual útil desta diversidade tipológica é apresentada na
 
 ![](material/figuras/ch2_3d_printed_upper_limb_prostheses_a_figure2_p5.png)
 
-*Figura 2.1 — Exemplos de próteses de membro superior impressas em 3D, ilustrando diversidade tipológica e construtiva. Fonte: ten Kate et al. (2017).*
+*Figura 2.1 — Exemplos de próteses de membro superior impressas em 3D, ilustrando diversidade tipológica e construtiva.*
+*Fonte original (APA 7): ten Kate, J., Smit, G., & Breedveld, P. (2017). 3D-printed upper limb prostheses: A review. Disability and Rehabilitation: Assistive Technology, 12(3), 300-314. https://doi.org/10.1080/17483107.2016.1253117*
 
 #### **Considerações clínicas e funcionais**
 
@@ -96,7 +97,8 @@ Esta persistência do abandono é sintetizada de forma clara na Figura 2.2, que 
 
 ![](material/figuras/ch2_prosthesis_rejection_in_acquired_ma_figure1_p4.png)
 
-*Figura 2.2 — Utilização, rejeição primária e rejeição secundária de próteses em amputados adquiridos do membro superior. Fonte: Biddiss e Chau (2007).*
+*Figura 2.2 — Utilização, rejeição primária e rejeição secundária de próteses em amputados adquiridos do membro superior.*
+*Fonte original (APA 7): Biddiss, E., Beaton, D., & Chau, T. (2007). Consumer design priorities for upper limb prosthetics. Disability and Rehabilitation: Assistive Technology, 2(6), 346-357. https://doi.org/10.1080/17483100701714733*
 
 #### **Enquadramento regulatório enquanto dispositivo médico**
 
@@ -129,7 +131,7 @@ Esta posição intermédia do design torna-se mais clara quando se observa a mul
 | Mediadores | Traduzem linguagem, necessidades e constrangimentos entre equipas | Problemas técnicos, terminologia e entendimento partilhado |
 | Profissionais clínicos e investigadores | Enquadram cuidados, testes e validação empírica | Resultados clínicos, ensaios e usabilidade |
 
-*Fonte adaptada de Kaygan e Kaygan (2016).*
+*Fonte adaptada. Referência original (APA 7): Kaygan, H., & Kaygan, P. (2025). Clients and carers: Healthcare professionals’ roles in medical device development processes in SMEs. The Design Journal, 28(2), 213-231. https://doi.org/10.1080/14606925.2024.2420152*
 
 #### **Design Inclusivo e Design Universal**
 
@@ -187,7 +189,8 @@ Esta articulação é representada com clareza na Figura 2.3, que resume o encad
 
 ![](material/figuras/ch2_a_scoping_review_of_digital_fabrica_figure1_p2.png)
 
-*Figura 2.3 — Fluxo digital entre aquisição, CAD/CAM e fabricação aditiva em próteses e ortóteses. Fonte: Chainando et al. (2025).*
+*Figura 2.3 — Fluxo digital entre aquisição, CAD/CAM e fabricação aditiva em próteses e ortóteses.*
+*Fonte original (APA 7): Chainando, N., Faephu, C., Suwaphong, N., Bureerat, S., Limphirat, W., Thammajaruk, P., & Syafrudin, M. (2025). Applying 3D scanning and printing techniques to produce upper limb prostheses: Bibliometric analysis and scoping review. Prosthesis, 7(2), 26. https://www.mdpi.com/2673-1592/7/2/26/pdf?version=1740996517*
 
 Neste enquadramento, a personalização deixa de ser entendida como exceção e passa a constituir uma estratégia estruturada, operacionalizada através de “seed designs” ou modelos-base parametrizados. Estes modelos preservam uma arquitetura estável, expondo simultaneamente um conjunto limitado de variáveis ajustáveis, frequentemente acessíveis por meio de interfaces digitais ou configuradores destinados a utilizadores não especialistas (Ozdemir et al., 2022; Stralen, 2018).
 
@@ -215,7 +218,8 @@ A Figura 2.4 mostra um exemplo especialmente relevante desta lógica: a personal
 
 ![](material/figuras/ch2_implementation_of_3d_printing_techn_figure5_p8.png)
 
-*Figura 2.4 — Exemplo de configurador digital para personalização de uma prótese impressa em 3D. Fonte: Telford et al. (2023).*
+*Figura 2.4 — Exemplo de configurador digital para personalização de uma prótese impressa em 3D.*
+*Fonte original (APA 7): Manero, A., Smith, P., Sparkman, J., Dombrowski, M., Courbin, D., Kester, A., Womack, I., & Chi, A. (2019). Implementation of 3D printing technology in the field of prosthetics: Past, present, and future. International Journal of Environmental Research and Public Health, 16, 1641. https://doi.org/10.3390/ijerph16091641*
 
 Este modelo “*file-to-factory*” viabiliza fluxos digitais em que o ficheiro parametrizado é diretamente convertido em instruções de fabrico, seja localmente (impressão 3D descentralizada) ou através de encomenda online. A literatura associa esta lógica à democratização do design e à expansão de estratégias de *mass customization* e *mass personalization*, reduzindo custos marginais ao eliminar a utilização de moldes e dispositivos específicos de fabrico (Lei et al., 2016; Stralen, 2018).
 
@@ -253,7 +257,8 @@ Mesmo assim, a medição linear continua a ser indispensável para estruturar o 
 
 ![](material/figuras/ch2_2d_and_3d_anatomical_analyses_of_ha_figure1_p3.png)
 
-*Figura 2.5 — Marcos anatómicos e medidas de referência da mão para fins de personalização. Fonte: Goubier et al. (2019).*
+*Figura 2.5 — Marcos anatómicos e medidas de referência da mão para fins de personalização.*
+*Fonte original (APA 7): Yu, A., Yick, K. L., Ng, S. P., & Yip, J. (2013). 2D and 3D anatomical analyses of hand dimensions for custom-made gloves. Applied Ergonomics, 44, 381-392.*
 
 #### **Métodos de recolha antropométrica em próteses e tecnologias de apoio**
 
@@ -328,7 +333,8 @@ Para efeitos de enquadramento, a Figura 2.6 é útil porque mostra a IA não com
 
 ![](material/figuras/ch2_ai_driven_computer_aided_design_cad_figure1_p6.png)
 
-*Figura 2.6 — Enquadramento de um fluxo de CAD assistido por IA para desenvolvimento de produto. Fonte: Khan et al. (2025).*
+*Figura 2.6 — Enquadramento de um fluxo de CAD assistido por IA para desenvolvimento de produto.*
+*Fonte original (APA 7): Menaka, S., Raja A, W., Ramakrishnan, S., Karthikeswaran, D., Sridar, K., & Sivaranjani, T. (2025). AI-driven computer-aided design (CAD) systems: Leveraging neural networks for optimized engineering product development. International Journal of Applied Mathematics, 38(5s).*
 
 #### **O que é a Inteligência Artificial**
 
@@ -386,7 +392,8 @@ Para enquadrar estes fundamentos de forma mais operacional, a Figura 2.7 mostra 
 
 ![](material/figuras/ch2_a_framework_for_configuring_partici_figure1_p4.png)
 
-*Figura 2.7 — Modelo de processo para configurar participação em ecossistemas de inovação e co-criação. Fonte: Akasaka et al. (2022).*
+*Figura 2.7 — Modelo de processo para configurar participação em ecossistemas de inovação e co-criação.*
+*Fonte original (APA 7): Akasaka, M., Veeckman, C., Georges, A., Schuurman, D., & Coorevits, L. (2022). A framework for configuring participation in living labs. https://www.semanticscholar.org/paper/305d55af5fda06b4d1b33e7d29c1f16d1b7ea488*
 
 A literatura identifica, contudo, riscos como *participation overload*, isto é, a transferência excessiva de carga de trabalho e decisão para utilizadores, o que requer mecanismos de apoio, curadoria e reutilização para tornar a participação sustentável (Fischer et al., 2017).
 
@@ -404,7 +411,7 @@ Esta transição entre princípio e operação pode ser resumida através dos el
 | Contacto | Como se recrutam participantes e como se mantém a relação |
 | Gestão da motivação | Que fatores promovem adesão e que barreiras dificultam continuidade |
 
-*Fonte adaptada de Akasaka et al. (2022).*
+*Fonte adaptada. Referência original (APA 7): Akasaka, M., Veeckman, C., Georges, A., Schuurman, D., & Coorevits, L. (2022). A framework for configuring participation in living labs. https://www.semanticscholar.org/paper/305d55af5fda06b4d1b33e7d29c1f16d1b7ea488*
 
 #### **Mecanismos de personalização: modularidade, parametrização e tailoring**
 
@@ -450,7 +457,8 @@ A transição entre entusiasmo técnico e maturidade efetiva do campo torna-se p
 
 ![](material/figuras/ch2_a_scoping_review_of_digital_fabrica_figure10_p9.png)
 
-*Figura 2.8 — Distribuição dos estudos por nível de prontidão tecnológica (TRL) em próteses e ortóteses com fabrico digital. Fonte: Chainando et al. (2025).*
+*Figura 2.8 — Distribuição dos estudos por nível de prontidão tecnológica (TRL) em próteses e ortóteses com fabrico digital.*
+*Fonte original (APA 7): Chainando, N., Faephu, C., Suwaphong, N., Bureerat, S., Limphirat, W., Thammajaruk, P., & Syafrudin, M. (2025). Applying 3D scanning and printing techniques to produce upper limb prostheses: Bibliometric analysis and scoping review. Prosthesis, 7(2), 26. https://www.mdpi.com/2673-1592/7/2/26/pdf?version=1740996517*
 
 A síntese das secções anteriores evidencia um panorama marcado por avanços técnicos significativos, mas também por limitações estruturais persistentes na investigação e no desenvolvimento de próteses e tecnologias assistivas. Um tema transversal é o desfasamento entre inovação tecnológica e evidência robusta: muitos desenvolvimentos permanecem em fase de protótipo, testados em amostras reduzidas e por períodos curtos, com escassa validação através de ensaios clínicos, estudos longitudinais e avaliação em contexto real (Chadwell et al., 2020; Samuelsson et al., 2012; Windrich et al., 2016). 
 
@@ -552,7 +560,8 @@ Embora o presente estudo não utilize participantes reais, a literatura metodol�
 
 ![](material/figuras/ch3_an_undergraduate_engineering_servic_figure1_p4.png)
 
-*Figura 3.1 — Exemplo de recolha dimensional para ajuste de prótese impressa em 3D. Fonte: Biddiss et al. (2019).*
+*Figura 3.1 — Exemplo de recolha dimensional para ajuste de prótese impressa em 3D.*
+*Fonte original (APA 7): Kellam, S. M., Boleneus, G. J., Stewart, J., Richter, D. C., Michaelis, B. M., & Gerlick, R. E. (2019). An undergraduate engineering service learning project involving 3D-printed prosthetic hands for children. In American Society for Engineering Education Annual Conference & Exposition Proceedings.*
 
 ### 3.5 Critérios de avaliação e limitações metodológicas
 
@@ -588,7 +597,8 @@ Esta exigência de organizar medições em parâmetros operáveis é particularm
 
 ![](material/figuras/ch4_parametric_3d_modeling_of_a_customi_figure3_p2.png)
 
-*Figura 4.1 — Parâmetros antropométricos usados na modelação paramétrica de dedos protésicos. Fonte: Nini et al. (2024).*
+*Figura 4.1 — Parâmetros antropométricos usados na modelação paramétrica de dedos protésicos.*
+*Fonte original (APA 7): Nini, L., Ceccarelli, A., Tagliamonte, N., Zollo, L., & Taffoni, F. (2024). Parametric 3D modeling of a customized prosthetic hand finger for additive manufacturing. In 2024 10th IEEE RAS/EMBS International Conference for Biomedical Robotics and Biomechatronics (BioRob). IEEE. https://doi.org/10.1109/BioRob60516.2024.10719909*
 
 Os parâmetros antropométricos mais relevantes concentram-se, em primeiro lugar, na definição da **estrutura dimensional base da mão**. Medidas como o comprimento da mão, a largura da mão e o comprimento da palma constituem descritores dimensionais primários, permitindo estabelecer a escala do modelo e definir a sua organização geral. Para além destas, incluem-se parâmetros relativos aos dedos, como comprimentos segmentares e proporções entre falanges, bem como dimensões do polegar e do punho, essenciais para a funcionalidade e integração do dispositivo (Chatzioglou et al., 2024; Nag et al., 2003).
 
@@ -630,7 +640,8 @@ Esta limitação torna-se visualmente evidente na Figura 4.2, que compara um mod
 
 ![](material/figuras/ch4_customization_of_a_3d_printed_prost_figure8_p7.png)
 
-*Figura 4.2 — Comparação entre escalonamento uniforme e modelação paramétrica de dedo protésico. Fonte: Lim et al. (2018).*
+*Figura 4.2 — Comparação entre escalonamento uniforme e modelação paramétrica de dedo protésico.*
+*Fonte original (APA 7): Lim, D., Georgiou, T., Bhardwaj, A., O'Connell, G. D., & Agogino, A. M. (2018, August 26). Customization of a 3D printed prosthetic finger using parametric modeling. In Proceedings of the ASME 2018 International Design Engineering Technical Conferences and Computers and Information in Engineering Conference. https://doi.org/10.1115/DETC2018-85645*
 
 #### **Métodos de recolha de dados antropométricos**
 
@@ -951,6 +962,10 @@ Bradtmiller, B. (2022). Design for all, design for disabled: How important is an
 
 Chainando, N., Faephu, C., Suwaphong, N., Bureerat, S., Limphirat, W., Thammajaruk, P., & Syafrudin, M. (2025). Applying 3D scanning and printing techniques to produce upper limb prostheses: Bibliometric analysis and scoping review. *Prosthesis, 7*(2), 26. https://www.mdpi.com/2673-1592/7/2/26/pdf?version=1740996517
 
+Kaygan, H., & Kaygan, P. (2025). Clients and carers: Healthcare professionals’ roles in medical device development processes in SMEs. *The Design Journal, 28*(2), 213-231. https://doi.org/10.1080/14606925.2024.2420152
+
+Kellam, S. M., Boleneus, G. J., Stewart, J., Richter, D. C., Michaelis, B. M., & Gerlick, R. E. (2019). *An undergraduate engineering service learning project involving 3D-printed prosthetic hands for children*. In *American Society for Engineering Education Annual Conference & Exposition Proceedings*.
+
 Colombo, G., Facoetti, G., Rizzi, C., & Vitali, A. (2015). Low cost hand-tracking devices to design customized medical devices. *Interacción*. https://doi.org/10.1007/978-3-319-21067-4_36
 
 da Silveira Romero, R. C., Costa, K. A., Reis, P. H. R. G., & Vimieiro, C. B. S. (2025). Development of parametric prostheses for different levels of human hand amputations manufactured through additive manufacturing. *Applied Sciences, 15*, 4467. https://doi.org/10.3390/app15084467
@@ -1193,9 +1208,17 @@ Romero, M., Sánchez, J., & Álvarez, H. (2025). Development of parametric prost
 
 Machado, F., Malpica, N., & Borromeo, S. (2019). Parametric CAD modeling for open source scientific hardware: Comparing OpenSCAD and FreeCAD Python scripts. *PLOS ONE, 14*(12), e0225795. https://doi.org/10.1371/journal.pone.0225795
 
+Manero, A., Smith, P., Sparkman, J., Dombrowski, M., Courbin, D., Kester, A., Womack, I., & Chi, A. (2019). Implementation of 3D printing technology in the field of prosthetics: Past, present, and future. *International Journal of Environmental Research and Public Health, 16*, 1641. https://doi.org/10.3390/ijerph16091641
+
+Menaka, S., Raja A, W., Ramakrishnan, S., Karthikeswaran, D., Sridar, K., & Sivaranjani, T. (2025). AI-driven computer-aided design (CAD) systems: Leveraging neural networks for optimized engineering product development. *International Journal of Applied Mathematics, 38*(5s).
+
 Nilsiam, Y., & Pearce, J. M. (2017). Free and open source 3-D model customizer for websites to democratize design with OpenSCAD. *Designs, 1*(1), 5. https://doi.org/10.3390/designs1010005
 
 Nini, L., Ceccarelli, A., Tagliamonte, N., Zollo, L., & Taffoni, F. (2024). Parametric 3D modeling of a customized prosthetic hand finger for additive manufacturing. In *2024 10th IEEE RAS/EMBS International Conference for Biomedical Robotics and Biomechatronics (BioRob)*. IEEE. https://doi.org/10.1109/BioRob60516.2024.10719909
+
+ten Kate, J., Smit, G., & Breedveld, P. (2017). 3D-printed upper limb prostheses: A review. *Disability and Rehabilitation: Assistive Technology, 12*(3), 300-314. https://doi.org/10.1080/17483107.2016.1253117
+
+Yu, A., Yick, K. L., Ng, S. P., & Yip, J. (2013). 2D and 3D anatomical analyses of hand dimensions for custom-made gloves. *Applied Ergonomics, 44*, 381-392.
 
 [image1]: <data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVR4XmNgAAIAAAUAAQYUdaMAAAAASUVORK5CYII=>
 

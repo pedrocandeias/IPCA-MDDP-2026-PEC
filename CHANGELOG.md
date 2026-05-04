@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.2.39 - 2026-05-04
+
+- Created a new timestamped backup of `Projecto completo.md` before revising the newly added figure and table captions.
+- Replaced the abbreviated source notes under the recently inserted figures and tables with explicit APA 7 reference lines.
+- Corrected several caption source attributions to match the original documents used for extraction, including the figures from the Manero et al., Yu et al., and Menaka et al. sources.
+- Added the newly cited source entries to the bibliography at the end of `Projecto completo.md` and bumped the manuscript version to `0.2.39`.
+
 ## 0.2.38 - 2026-05-04
 
 - Created a new timestamped backup of `Projecto completo.md` before integrating selected figures and tables from `material/figures_tables_suggestions.md`.
