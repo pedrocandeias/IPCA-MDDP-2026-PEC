@@ -122,6 +122,7 @@ CLI local para exportar ficheiros Markdown para `.docx` sem dependências extern
 - citações em bloco
 - blocos de código
 - tabelas simples em pipe syntax
+- imagens locais em sintaxe Markdown e referências `![...][imageN]`, incluindo `data:image/...`
 
 Exemplo:
 

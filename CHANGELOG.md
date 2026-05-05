@@ -2,6 +2,11 @@
 
 ## 2026-05-04
 
+- Fixed `scripts/md_to_docx.py` so Markdown images are now embedded into the generated `.docx` package instead of being emitted as literal text, including support for local image paths and `[imageN]` reference definitions backed by `data:image/...`.
+- Fixed the exporter parsing of escaped underscore separator lines so they are written as horizontal rules instead of long literal backslash sequences in the `.docx`.
+
+## 2026-05-04
+
 - Added `scripts/docx_to_md.py`, a dependency-free local CLI that converts `.docx` files back to timestamped Markdown copies in `docs/`.
 - Updated `README.md` with usage notes for the new DOCX-to-Markdown exporter.
 
