@@ -1,0 +1,8 @@
+{
+  "name": "mestrado-tools",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "harper.js": "^0.42.0"
+  }
+}

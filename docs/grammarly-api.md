@@ -4,7 +4,7 @@ Local CLI for Grammarly's official `AI Detection API (Beta)` and `Plagiarism Det
 
 Script:
 
-- `scripts/grammarly_api.py`
+- `tools/grammarly_api.py`
 
 ## Access requirements
 
@@ -34,32 +34,32 @@ GRAMMARLY_CLIENT_SECRET=your_client_secret
 Request a token:
 
 ```bash
-python3 scripts/grammarly_api.py token --api ai-detection
-python3 scripts/grammarly_api.py token --api plagiarism
+python3 tools/grammarly_api.py token --api ai-detection
+python3 tools/grammarly_api.py token --api plagiarism
 ```
 
 Run AI detection end-to-end:
 
 ```bash
-python3 scripts/grammarly_api.py ai-detection check path/to/file.docx
-python3 scripts/grammarly_api.py ai-detection check path/to/file.txt --json
+python3 tools/grammarly_api.py ai-detection check path/to/file.docx
+python3 tools/grammarly_api.py ai-detection check path/to/file.txt --json
 ```
 
 Run plagiarism detection end-to-end:
 
 ```bash
-python3 scripts/grammarly_api.py plagiarism check path/to/file.docx
-python3 scripts/grammarly_api.py plagiarism check path/to/file.txt --json
+python3 tools/grammarly_api.py plagiarism check path/to/file.docx
+python3 tools/grammarly_api.py plagiarism check path/to/file.txt --json
 ```
 
 Split the workflow into submit/get:
 
 ```bash
-python3 scripts/grammarly_api.py ai-detection submit path/to/file.docx
-python3 scripts/grammarly_api.py ai-detection get <score_request_id>
+python3 tools/grammarly_api.py ai-detection submit path/to/file.docx
+python3 tools/grammarly_api.py ai-detection get <score_request_id>
 
-python3 scripts/grammarly_api.py plagiarism submit path/to/file.docx
-python3 scripts/grammarly_api.py plagiarism get <score_request_id>
+python3 tools/grammarly_api.py plagiarism submit path/to/file.docx
+python3 tools/grammarly_api.py plagiarism get <score_request_id>
 ```
 
 ## Notes

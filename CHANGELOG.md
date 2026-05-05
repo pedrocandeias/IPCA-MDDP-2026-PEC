@@ -1,5 +1,35 @@
 # Changelog
 
+## 2026-05-05
+
+- Consolidated the repository tooling into a single top-level `tools/` folder, moving the former `scripts/` CLIs and the Python helpers that were previously scattered under `material/`.
+- Updated the moved tools to resolve `REPO_ROOT` and `material/` paths correctly from their new location, and refreshed the main documentation to point to `tools/...` commands.
+- Cleaned the default converted thesis file `projecto-completo-2236-04052026-1553-05052026.md` to restore structural Markdown hierarchy, replacing stray backslash separators with horizontal rules, normalizing chapters 5 to 9 and their subsection headings, fixing table blocks, and separating glued figure captions from their source lines.
+- Fixed `scripts/odt_to_md.py` table emission so Markdown tables are now written as contiguous pipe-table blocks instead of being broken by blank lines between rows.
+- Improved `scripts/odt_to_md.py` with ODT-specific reconstruction heuristics so converted Markdown now better restores chapter headings stored as plain paragraphs, splits headings that were glued to body text, normalizes literal Markdown image lines, and converts long backslash runs into horizontal rules.
+- Improved ODT caption reconstruction so figure captions no longer keep `Fonte original` glued onto the previous sentence in the generated Markdown.
+- Re-tested the ODT-to-Markdown flow against the thesis ODT export to reduce structural degradation in the generated `.md`.
+- Updated one converted thesis Markdown copy to correct the `1.6 Estrutura da dissertação` paragraph from five to nine chapters.
+
+## 2026-05-05
+
+- Updated the Markdown/DOCX/ODT converters to accept an explicit output filepath via `--output`, while keeping `--output-dir` for timestamped destination-folder output.
+- Extended the shared Markdown parser and the ODT conversion flow to support simple ordered lists, so numbered list structure now survives the `.md -> .odt -> .md` round-trip more cleanly.
+- Replaced the initial LibreOffice-dependent ODT wrappers with pure-Python `scripts/md_to_odt.py` and `scripts/odt_to_md.py`, so Markdown and LibreOffice Writer (`.odt`) conversion now works without calling LibreOffice.
+- Updated `README.md` to document the direct ODT workflow and ODT image extraction behavior.
+
+## 2026-05-05
+
+- Updated `scripts/harper_lint.mjs` to use `pt-PT` as the default locale for this repository and to skip linting by default with an explicit message, since Harper does not yet support European Portuguese.
+- Added explicit `--locale` switching for supported English variants such as `en-GB` when Harper linting is desired.
+- Updated `README.md` to document the new default locale behavior and the opt-in English locale workflow.
+
+## 2026-05-05
+
+- Added a local Harper integration via `scripts/harper_lint.mjs`, backed by `harper.js` in Node.js, for offline grammar and style linting of Markdown and plain-text files.
+- Added a minimal `package.json` for the Harper dependency and updated `.gitignore` to exclude `node_modules/`.
+- Updated `README.md` with installation and usage examples for the new Harper-based linter.
+
 ## 2026-05-04
 
 - Fixed `scripts/md_to_docx.py` so Markdown images are now embedded into the generated `.docx` package instead of being emitted as literal text, including support for local image paths and `[imageN]` reference definitions backed by `data:image/...`.

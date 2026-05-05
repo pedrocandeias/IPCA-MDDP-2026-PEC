@@ -1,6 +1,6 @@
 # Elicit API
 
-Este repositório tem uma integração local mínima com o Elicit em `scripts/elicit_api.py`, alinhada com os exemplos oficiais em `elicit/api-examples`.
+Este repositório tem uma integração local mínima com o Elicit em `tools/elicit_api.py`, alinhada com os exemplos oficiais em `elicit/api-examples`.
 
 ## Configuração
 
@@ -17,27 +17,27 @@ Também pode copiar `.env.example` para o seu fluxo local de variáveis de ambie
 Pesquisar papers:
 
 ```bash
-python3 scripts/elicit_api.py search "upper limb prosthetics personalization" --min-year 2020 --type RCT --max-results 5
+python3 tools/elicit_api.py search "upper limb prosthetics personalization" --min-year 2020 --type RCT --max-results 5
 ```
 
 Criar relatório:
 
 ```bash
-python3 scripts/elicit_api.py report "How can parametric design improve upper limb prosthetic personalization?" --title "Parametric Prosthetic Personalization"
+python3 tools/elicit_api.py report "How can parametric design improve upper limb prosthetic personalization?" --title "Parametric Prosthetic Personalization"
 ```
 
 Ver estado de um relatório:
 
 ```bash
-python3 scripts/elicit_api.py reports --limit 5
-python3 scripts/elicit_api.py get-report <report_id>
-python3 scripts/elicit_api.py wait-report <report_id> --poll-seconds 30
+python3 tools/elicit_api.py reports --limit 5
+python3 tools/elicit_api.py get-report <report_id>
+python3 tools/elicit_api.py wait-report <report_id> --poll-seconds 30
 ```
 
 Descarregar outputs concluídos para `sources/elicit/reports/<report_id>/`:
 
 ```bash
-python3 scripts/elicit_api.py download-report <report_id>
+python3 tools/elicit_api.py download-report <report_id>
 ```
 
 ## Notas

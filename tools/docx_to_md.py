@@ -32,6 +32,14 @@ def build_output_path(input_path: Path, output_dir: Path | None) -> Path:
     return target_dir / filename
 
 
+def resolve_output_path(input_path: Path, output: Path | None, output_dir: Path | None) -> Path:
+    if output and output_dir:
+        raise SystemExit("Use either --output or --output-dir, not both.")
+    if output:
+        return output.expanduser().resolve()
+    return build_output_path(input_path, output_dir.expanduser().resolve() if output_dir else None)
+
+
 def extract_paragraph_text(element: ET.Element) -> str:
     parts: list[str] = []
     for child in element.iter():
@@ -50,6 +58,8 @@ def extract_paragraph_text(element: ET.Element) -> str:
 def paragraph_prefix(element: ET.Element, style: str) -> str:
     if style == "ListBullet":
         return "- "
+    if style == "ListNumber":
+        return ""
     num_pr = element.find("w:pPr/w:numPr", WORD_NS)
     if num_pr is not None:
         return "- "
@@ -131,6 +141,11 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("input", type=Path, help="Path to the input DOCX file.")
     parser.add_argument(
         "-o",
+        "--output",
+        type=Path,
+        help="Explicit output file path, including filename.",
+    )
+    parser.add_argument(
         "--output-dir",
         type=Path,
         help="Output directory for the generated Markdown copy. Defaults to the repository docs/ directory.",
@@ -141,8 +156,7 @@ def parse_args() -> argparse.Namespace:
 def main() -> int:
     args = parse_args()
     input_path = args.input.expanduser().resolve()
-    output_dir = args.output_dir.expanduser().resolve() if args.output_dir else None
-    output_path = build_output_path(input_path, output_dir)
+    output_path = resolve_output_path(input_path, args.output, args.output_dir)
 
     if not input_path.exists():
         raise SystemExit(f"Input file not found: {input_path}")

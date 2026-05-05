@@ -15,7 +15,7 @@ The `report` is used first to refine scope, terminology, anchor papers, and like
 
 ## Current limitation
 
-The local CLI in `scripts/elicit_api.py` supports `search` and `report`, but this repository does not yet assume public API support for creating Elicit Systematic Reviews programmatically. Until that is confirmed, systematic reviews should be run through the Elicit web interface, with all protocol materials mirrored locally.
+The local CLI in `tools/elicit_api.py` supports `search` and `report`, but this repository does not yet assume public API support for creating Elicit Systematic Reviews programmatically. Until that is confirmed, systematic reviews should be run through the Elicit web interface, with all protocol materials mirrored locally.
 
 ## Local folder convention
 

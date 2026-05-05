@@ -60,7 +60,7 @@ Claude will spawn an agent that reads both files in chunks and writes the update
 |------|---------|
 | `material/figures_tables_index.md` | Raw index of all captions (auto-generated, overwrite freely) |
 | `material/figures_tables_suggestions.md` | Curated placement suggestions per thesis section (review before use) |
-| `material/extract_figures_tables.py` | The extraction script (edit to improve caption detection if needed) |
+| `tools/extract_figures_tables.py` | The extraction script (edit to improve caption detection if needed) |
 
 ### 4 — Copy anthropometric CSVs to dados antropométricos
 After generating or updating any anthropometric CSV in `/home/pec/dev/ai-parametric-prosthetic-hand-generator/data/`, copy it to:

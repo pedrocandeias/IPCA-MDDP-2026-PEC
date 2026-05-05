@@ -28,6 +28,7 @@ DEFAULT_OUTPUT_DIR = REPO_ROOT / "docs"
 class ParagraphBlock:
     text: str
     style: str = "Normal"
+    number: int | None = None
 
 
 @dataclass
@@ -329,6 +330,16 @@ def parse_markdown(text: str, base_dir: Path) -> list[Block]:
             i += 1
             continue
 
+        ordered = re.match(r"^(\d+)[.)]\s+(.*)$", stripped)
+        if ordered:
+            flush_paragraph()
+            ordered_text, images = extract_inline_images(ordered.group(2).strip(), references, base_dir)
+            if ordered_text:
+                blocks.append(ParagraphBlock(ordered_text, style="ListNumber", number=int(ordered.group(1))))
+            blocks.extend(images)
+            i += 1
+            continue
+
         line_text, images = extract_inline_images(line, references, base_dir)
         if line_text:
             paragraph_lines.append(line_text)
@@ -430,7 +441,13 @@ def paragraph_xml(block: ParagraphBlock) -> str:
     style_xml = ""
     if block.style != "Normal":
         style_xml = f"<w:pStyle w:val=\"{block.style}\"/>"
-    text = f"- {block.text}" if block.style == "ListBullet" else block.text
+    if block.style == "ListBullet":
+        text = f"- {block.text}"
+    elif block.style == "ListNumber":
+        prefix = block.number if block.number is not None else 1
+        text = f"{prefix}. {block.text}"
+    else:
+        text = block.text
     runs = "".join(run_xml(kind, content) for kind, content in parse_inlines(text))
     if not runs:
         runs = "<w:r><w:t></w:t></w:r>"
@@ -620,6 +637,8 @@ def styles_xml() -> str:
         + "<w:rPr><w:b/><w:sz w:val=\"24\"/></w:rPr></w:style>"
         + "<w:style w:type=\"paragraph\" w:styleId=\"ListBullet\"><w:name w:val=\"List Bullet\"/>"
         + "<w:basedOn w:val=\"Normal\"/><w:pPr><w:ind w:left=\"720\" w:hanging=\"360\"/></w:pPr></w:style>"
+        + "<w:style w:type=\"paragraph\" w:styleId=\"ListNumber\"><w:name w:val=\"List Number\"/>"
+        + "<w:basedOn w:val=\"Normal\"/><w:pPr><w:ind w:left=\"720\" w:hanging=\"360\"/></w:pPr></w:style>"
         + "<w:style w:type=\"paragraph\" w:styleId=\"Quote\"><w:name w:val=\"Quote\"/>"
         + "<w:basedOn w:val=\"Normal\"/><w:pPr><w:ind w:left=\"720\" w:right=\"720\"/></w:pPr>"
         + "<w:rPr><w:i/><w:color w:val=\"555555\"/></w:rPr></w:style>"
@@ -675,6 +694,14 @@ def build_output_path(input_path: Path, output_dir: Path | None) -> Path:
     return target_dir / filename
 
 
+def resolve_output_path(input_path: Path, output: Path | None, output_dir: Path | None) -> Path:
+    if output and output_dir:
+        raise SystemExit("Use either --output or --output-dir, not both.")
+    if output:
+        return output.expanduser().resolve()
+    return build_output_path(input_path, output_dir.expanduser().resolve() if output_dir else None)
+
+
 def write_docx(input_path: Path, output_path: Path) -> None:
     markdown = input_path.read_text(encoding="utf-8", errors="replace")
     blocks = parse_markdown(markdown, input_path.parent)
@@ -702,6 +729,11 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("input", type=Path, help="Path to the input Markdown file.")
     parser.add_argument(
         "-o",
+        "--output",
+        type=Path,
+        help="Explicit output file path, including filename.",
+    )
+    parser.add_argument(
         "--output-dir",
         type=Path,
         help="Output directory for the generated DOCX copy. Defaults to the repository docs/ directory.",
@@ -712,8 +744,7 @@ def parse_args() -> argparse.Namespace:
 def main() -> int:
     args = parse_args()
     input_path = args.input.expanduser().resolve()
-    output_dir = args.output_dir.expanduser().resolve() if args.output_dir else None
-    output_path = build_output_path(input_path, output_dir)
+    output_path = resolve_output_path(input_path, args.output, args.output_dir)
 
     if not input_path.exists():
         raise SystemExit(f"Input file not found: {input_path}")
