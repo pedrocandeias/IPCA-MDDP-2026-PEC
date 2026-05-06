@@ -284,7 +284,7 @@ As subpastas de `material/` estão organizadas por tema, por exemplo:
 - `material/antropometria/`
 - `material/normas/`
 
-Isto separa a biblioteca temática da bibliografia colocalizada do manuscrito.
+Isto separa a biblioteca temática da bibliografia guardada na mesma pasta do manuscrito.
 
 ## Bibliografia do manuscrito
 

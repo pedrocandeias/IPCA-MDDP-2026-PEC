@@ -2,6 +2,9 @@
 
 ## 2026-05-05
 
+- Corrected the AI-related citation placeholders in `projecto-completo-2236-04052026-1553-05052026.md`, added the APA entry for `Elbreki et al. (2022)`, and verified/collocated the supporting PDFs in `projecto_completo_bibliografia/`.
+- Added `tools/link_citations_to_bibliography.py` and applied it to the default thesis Markdown file so inline citations now link to matching bibliography entries at the end of the document, including disambiguation for `Romero et al., 2025` to the `da Silveira Romero et al. (2025)` reference.
+- Replaced the broken `material` gitlink with a normal tracked folder in the main repository so the directory can be browsed correctly on GitHub, while keeping local cache and lock files out of version control.
 - Consolidated the repository tooling into a single top-level `tools/` folder, moving the former `scripts/` CLIs and the Python helpers that were previously scattered under `material/`.
 - Updated the moved tools to resolve `REPO_ROOT` and `material/` paths correctly from their new location, and refreshed the main documentation to point to `tools/...` commands.
 - Cleaned the default converted thesis file `projecto-completo-2236-04052026-1553-05052026.md` to restore structural Markdown hierarchy, replacing stray backslash separators with horizontal rules, normalizing chapters 5 to 9 and their subsection headings, fixing table blocks, and separating glued figure captions from their source lines.
