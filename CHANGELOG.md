@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-05-20
+
+- Brief text corrections and comments added.
+- Added AI Parametric Prosthetic hand Generator to the repository in projects;
+
+
 ## 2026-05-05
 
 - Corrected the AI-related citation placeholders in `projecto-completo-2236-04052026-1553-05052026.md`, added the APA entry for `Elbreki et al. (2022)`, and verified/collocated the supporting PDFs in `projecto_completo_bibliografia/`.

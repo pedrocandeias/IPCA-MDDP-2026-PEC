@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projecto-completo-2236-04052026-1553-05052026.md",
+                "file": "data_extraction_explained.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "projecto-completo-2236-04052026-1553-05052026"
+              "title": "data_extraction_explained"
             }
           }
         ]
@@ -185,21 +185,28 @@
   },
   "active": "1f26592499be5057",
   "lastOpenFiles": [
+    "CLAUDE.md",
+    "projecto-completo-2236-04052026-1553-05052026.md",
+    "README.md",
+    "Projecto completo_baseline.md",
+    "data_extraction_explained.md",
+    "material/README.md",
+    "material/Meta-Design_A_manifesto_for_End-User_Development.pdf",
+    "material/1-s2.0-S0048733303000490-main.pdf",
+    "material/antropometria/Anthropometric Data Analytics a Portuguese Case Study.pdf",
+    "material/antropometria/978-3-642-02809-0.pdf",
+    "material/antropometria/1_wcsjNXW4OD0kw1eN35Y5mg.webp",
+    "material/antropometria/1_pur0a9wdF1qNGokmOKxIvQ.webp",
+    "material/antropometria/1_I3NfCB-u78BQm-P--nqBGg.webp",
+    "material/antropometria/The Use of Factor Analysis in the Development of Hand Sizes for Glove Design.pdf",
+    "material/antropometria/Vista de Estimación de medidas antropom...tir del método de relaciones de escala.pdf",
     "tools/__pycache__/rename_pdfs.cpython-312.pyc",
     "tools/__pycache__/organize_toorganize.cpython-312.pyc",
     "tools/__pycache__/odt_to_md.cpython-312.pyc",
     "tools/__pycache__/mendeley_organizer.cpython-312.pyc",
-    "tools/__pycache__/mendeley_enrich.cpython-312.pyc",
-    "tools/__pycache__/md_to_odt.cpython-312.pyc",
-    "tools/__pycache__/md_to_docx.cpython-312.pyc",
-    "tools/__pycache__/grammarly_api.cpython-312.pyc",
-    "tools/__pycache__/flag_titles.cpython-312.pyc",
-    "tools/__pycache__/extract_suggested_assets.cpython-312.pyc",
-    "tools/__pycache__/extract_figures_tables.cpython-312.pyc",
     "docs/projecto-completo-2236-04052026-fixed.md",
     "2026-05-05.md",
     "Sem título.canvas",
-    "projecto-completo-2236-04052026-1553-05052026.md",
     "docs/ordered_list_explicit.md",
     "docs/projecto-completo-2236-04052026-1448-05052026.md",
     "node_modules/harper.js/README.md"

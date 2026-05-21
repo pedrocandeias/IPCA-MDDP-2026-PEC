@@ -1,0 +1,3 @@
+[submodule "projects/ai-parametric-prosthetic-hand-generator"]
+	path = projects/ai-parametric-prosthetic-hand-generator
+	url = https://github.com/pedrocandeias/ai-parametric-prosthetic-hand-generator
