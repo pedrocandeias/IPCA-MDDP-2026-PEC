@@ -2,6 +2,7 @@
 
 ## 2026-06-05
 
+- Expanded `projecto-completo.md` with the platform model-integration discussion for Paraglider/Flexible Flyer and Cyborg Beast/Flexy Hand, added the anthropometric AI validation section, and bumped the manuscript version to 0.4.0.
 - Updated deploy.sh to reuse an existing local changelog entry when it differs from the latest committed changelog section, generating an automatic entry only when the two match.
 - Updated `projecto-completo.md` against `versions/projecto-completo-172559-05062026.md`, affecting: Bibliografia (4 line(s) added, 1 removed).
 - Added the local anthropometric dataset as a final reference in the manuscript and bumped the manuscript version to 0.3.1.
