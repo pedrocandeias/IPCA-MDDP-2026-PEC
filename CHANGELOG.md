@@ -2,6 +2,7 @@
 
 ## 2026-06-05
 
+- Updated repository files: `projecto-completo-2236-04052026-1553-05052026.md`, `projecto-completo.md`.
 - Updated `projecto-completo-2236-04052026-1553-05052026.md` against `versions/projecto-completo-2236-04052026-1553-05052026-2026-05-06_09-10-00.md`, affecting: Estruturação de dados; Fundamentos conceptuais: toolkits, meta-design e end-user development.; 6.1 Papel da IA no sistema proposto; Bibliografia (18 line(s) added, 15 removed).
 - Updated deploy.sh and tools/update_changelog.py so ./deploy.sh can generate a changelog entry automatically from the manuscript diff.
 - Added deploy.sh to run the manuscript snapshot, changelog update, and git commit workflow sequentially.
