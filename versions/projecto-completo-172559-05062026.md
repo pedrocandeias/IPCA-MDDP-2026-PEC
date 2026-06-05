@@ -1,6 +1,6 @@
 Projecto completo
 
-Versão do documento:0.3.1
+Versão do documento:0.3.0
 
 ## Capítulo 1 — Introdução
 
@@ -1363,9 +1363,6 @@ ten Kate, J., Smit, G., & Breedveld, P. (2017). 3D-printed upper limb prostheses
 
 <a id="ref-yu-2013"></a>
 Yu, A., Yick, K. L., Ng, S. P., & Yip, J. (2013). 2D and 3D anatomical analyses of hand dimensions for custom-made gloves. Applied Ergonomics, 44, 381-392.
-
-<a id="ref-base-local-antropometrica-2026"></a>
-Base local consolidada de dados antropométricos da mão e do membro superior distal. (2026). [Conjunto de dados]. Material de apoio da investigação, `material/antropometria/dados antropométricos/multi_population_hand.csv`.
 
 <a id="ref-1-definir-o-que-e-propriocep"></a>
 [^1]: definir o que é proprioceptivo

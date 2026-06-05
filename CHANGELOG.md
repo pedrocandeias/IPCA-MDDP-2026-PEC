@@ -2,6 +2,9 @@
 
 ## 2026-06-05
 
+- Updated `projecto-completo.md` against `versions/projecto-completo-172559-05062026.md`, affecting: Bibliografia (4 line(s) added, 1 removed).
+- Added the local anthropometric dataset as a final reference in the manuscript and bumped the manuscript version to 0.3.1.
+- Expanded the manuscript's anthropometric data extraction methodology in section 4.2, moved the detailed operational discussion out of section 2.4, added the new cited data-source bibliography entries, copied the available Hu et al. (2007) PDF into the bibliography folder, updated pdfs_em_falta.md, and bumped the manuscript version to 0.3.0.
 - Updated repository files: `projecto-completo-2236-04052026-1553-05052026.md`, `projecto-completo.md`.
 - Updated `projecto-completo-2236-04052026-1553-05052026.md` against `versions/projecto-completo-2236-04052026-1553-05052026-2026-05-06_09-10-00.md`, affecting: Estruturação de dados; Fundamentos conceptuais: toolkits, meta-design e end-user development.; 6.1 Papel da IA no sistema proposto; Bibliografia (18 line(s) added, 15 removed).
 - Updated deploy.sh and tools/update_changelog.py so ./deploy.sh can generate a changelog entry automatically from the manuscript diff.
