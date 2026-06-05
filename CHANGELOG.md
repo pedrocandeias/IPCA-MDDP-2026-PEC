@@ -2,6 +2,7 @@
 
 ## 2026-06-05
 
+- Updated deploy.sh to reuse an existing local changelog entry when it differs from the latest committed changelog section, generating an automatic entry only when the two match.
 - Updated `projecto-completo.md` against `versions/projecto-completo-172559-05062026.md`, affecting: Bibliografia (4 line(s) added, 1 removed).
 - Added the local anthropometric dataset as a final reference in the manuscript and bumped the manuscript version to 0.3.1.
 - Expanded the manuscript's anthropometric data extraction methodology in section 4.2, moved the detailed operational discussion out of section 2.4, added the new cited data-source bibliography entries, copied the available Hu et al. (2007) PDF into the bibliography folder, updated pdfs_em_falta.md, and bumped the manuscript version to 0.3.0.
