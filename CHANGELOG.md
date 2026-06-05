@@ -1,5 +1,14 @@
 # Changelog
 
+## 2026-06-05
+
+- Updated `projecto-completo-2236-04052026-1553-05052026.md` against `versions/projecto-completo-2236-04052026-1553-05052026-2026-05-06_09-10-00.md`, affecting: Estruturação de dados; Fundamentos conceptuais: toolkits, meta-design e end-user development.; 6.1 Papel da IA no sistema proposto; Bibliografia (18 line(s) added, 15 removed).
+- Updated deploy.sh and tools/update_changelog.py so ./deploy.sh can generate a changelog entry automatically from the manuscript diff.
+- Added deploy.sh to run the manuscript snapshot, changelog update, and git commit workflow sequentially.
+- Added tools/update_changelog.py to prepend dated entries to CHANGELOG.md.
+- Added tools/commit_from_changelog.py to stage changes and create a git commit from the latest changelog section.
+- Added `tools/version_manuscript.py` to create timestamped manuscript snapshots in `versions/` using the `projecto-completo-hhmmss-ddmmyyyy.md` naming pattern.
+
 ## 2026-05-20
 
 - Brief text corrections and comments added.
