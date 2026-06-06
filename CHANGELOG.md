@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026-06-06
+
+- Added `projecto-completo-audit.md` with a reduced, non-destructive audit version of the manuscript focused on removing repeated context across chapters.
+- Added `project-completo-audit-changes.md` comparing the original manuscript with the audit version, including reduction metrics, repeated-pattern findings, and chapter-level change notes.
+- Revised the audit files to preserve the original duplicate bibliography IDs and review-note artefacts, while correcting internal citation targets instead of removing them.
+- Validated `projecto-completo-audit.md` after the audit revision: duplicate bibliography IDs are intentionally preserved, review notes `[^1]` to `[^13]` are restored, and internal citation targets resolve without missing references.
+
 ## 2026-06-05
 
 - Updated repository files: `projecto-completo-2236-04052026-1553-05052026.md`, `projecto-completo.md`.
