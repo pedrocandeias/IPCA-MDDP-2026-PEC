@@ -1,5 +1,23 @@
 # Changelog
 
+## 2026-06-15
+
+- Exported `projecto-completo.md` version 0.4.2 to `docs/projecto-completo-2016-15062026.docx` using `tools/md_to_docx.py`.
+
+## 2026-06-13
+
+- Created timestamped backup `versions/projecto-completo-103548-13062026.md` before structural manuscript corrections.
+- Corrected manuscript structure in `projecto-completo.md`: Chapter 1 section numbering, heading hierarchy, table sequence, stale figure paths, and the stray image artefact in section 2.7.
+- Bumped the manuscript version to `0.4.2`.
+- Added `projecto_questoes.md` mapping the current `projecto-completo.md` version 0.4.1 against the six research questions/objectives, including coverage level, supporting sections, and remaining gaps.
+
+## 0.4.1 - 2026-06-07
+
+- Created a timestamped backup of `projecto-completo.md` before revising the AI and anthropometric validation discussion.
+- Updated `projecto-completo.md` with the current AI-assisted anthropometric sizing pipeline, including live model-schema prompting, JSON parameter filtering, validation criteria, observed results, stochastic variation and handedness limitations.
+- Expanded Chapter 8 with the evaluation synthesis for technical coherence, anthropometric plausibility and the limits of AI-assisted parameter suggestions.
+- Bumped the manuscript version to `0.4.1`.
+
 ## 2026-06-06
 
 - Added `projecto-completo-audit.md` with a reduced, non-destructive audit version of the manuscript focused on removing repeated context across chapters.
