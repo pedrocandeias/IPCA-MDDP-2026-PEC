@@ -1,7 +1,20 @@
 # Changelog
 
+## 0.4.4 - 2026-06-29
+
+- Corrected the root convenience DOCX filename to `projecto-completo.docx` and updated the repository export instruction accordingly.
+- Created timestamped backup `versions/projecto-completo-2026-06-29_22-03-07.md` before synchronising the updated AI validation and simulation notes.
+- Updated `projecto-completo.md` with the UCD validation results, deterministic laterality correction, model-fit warning/provenance requirements, and universalisation notes for other paired limbs.
+- Bumped the manuscript version to `0.4.4`.
+- Exported `projecto-completo.md` version `0.4.4` to `docs/projecto-completo-2204-29062026.docx` using `tools/md_to_docx.py`.
+- Refreshed root convenience copy `projecto-completo.docx` from the latest DOCX export.
+
 ## 0.4.3 - 2026-06-29
 
+- Added an `AGENTS.md` shorthand rule defining `cpd` as `commit, push, deploy`.
+- Added an `AGENTS.md` instruction requiring DOCX exports to be saved both as timestamped files under `docs/` and as root `projecto-completo.docx`.
+- Created root convenience copy `projecto-completo.docx` from the latest DOCX export.
+- Exported `projecto-completo.md` version `0.4.3` to `docs/projecto-completo-1724-29062026.docx` using `tools/md_to_docx.py`.
 - Created timestamped backup `versions/projecto-completo-2026-06-29_08-42-08.md` before integrating the AI anthropometric validation document.
 - Integrated `docs/ai_anthropometric_validation.md` across `projecto-completo.md`, distributing the methodology, platform grounding, AI prompt architecture, anthropometric validation, inter-model geometric validation, conclusions and future work.
 - Bumped the manuscript version to `0.4.3`.

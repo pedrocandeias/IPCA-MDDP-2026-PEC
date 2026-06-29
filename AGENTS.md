@@ -27,11 +27,13 @@ If you add derived outputs, note the source file and generation method in the sa
 
 ## Commit & Pull Request Guidelines
 Git history is not available in this workspace, so no repository-specific commit convention could be inferred. Use short imperative commit messages, for example: `Update chapter 2 literature review sources`. Keep each commit scoped to one chapter or dataset change. Pull requests should include a short summary, affected paths, and screenshots only when layout-sensitive HTML output changed.
+When the user says `cpd`, treat it as shorthand for the full `commit, push, deploy` workflow.
 
 ## Document Handling Tips
 Do not overwrite raw research exports or original library files in `material/`. Keep original source files intact and create edited derivatives with chapter-specific names. Prefer updating existing manuscript files over creating parallel copies.
 Before each substantive writing pass on the main manuscript, create a timestamped copy of the file at the moment writing starts. Use the date and time in the filename so each writing version is recoverable and ordered chronologically.
 Maintain a root `CHANGELOG.md` and update it after every repository change, with a short dated note describing what changed. Add new changelog entries at the top of the file so the newest version appears first.
+When exporting the main manuscript to DOCX, create the timestamped export under `docs/` and also create or replace a root-level convenience copy named `projecto-completo.docx`.
 Keep an explicit version line at the top of `Projecto completo.md` and bump that version after every manuscript change. Reflect the same manuscript version bump in `CHANGELOG.md`.
 All text written or revised in `Projecto completo.md` must use European Portuguese (`português de Portugal`) consistently.
 When adding literature to the manuscript, always uniformize citation style within the edited section and, when feasible, across adjacent sections. Do not mix title-only references with author-year citations in running text when the source metadata is available.
