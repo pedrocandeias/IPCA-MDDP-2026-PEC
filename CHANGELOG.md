@@ -1,5 +1,15 @@
 # Changelog
 
+## 0.4.3 - 2026-06-29
+
+- Created timestamped backup `versions/projecto-completo-2026-06-29_08-42-08.md` before integrating the AI anthropometric validation document.
+- Integrated `docs/ai_anthropometric_validation.md` across `projecto-completo.md`, distributing the methodology, platform grounding, AI prompt architecture, anthropometric validation, inter-model geometric validation, conclusions and future work.
+- Bumped the manuscript version to `0.4.3`.
+
+## 2026-06-16
+
+- Added `material/antropometria/antropometria_criancas.md` summarizing local anthropometry sources with child and adolescent data, including direct studies, a cautious mixed-age source, and excluded adult/fetal sources.
+
 ## 2026-06-15
 
 - Exported `projecto-completo.md` version 0.4.2 to `docs/projecto-completo-2016-15062026.docx` using `tools/md_to_docx.py`.
