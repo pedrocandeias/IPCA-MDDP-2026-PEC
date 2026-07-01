@@ -1,5 +1,21 @@
 # Changelog
 
+## 2026-07-01
+
+- Backed up the current `figuras/` folder to `versions/figuras-backup-2026-07-01_10-13-33_before-visual-fixes/` before manual visual crop fixes.
+- Corrected manually identified bad figure crops that contained page headers, article text, or incomplete fragments, including the living-lab process, digital fabrication workflow, biometric hand image, anthropometric hand dimensions, D3Frame, XAI/responsible AI, and motion-similarity chart figures.
+- Regenerated `docs/figuras-contact-sheets-2026-06-30/` after the visual corrections and added `docs/figuras-correcoes-visuais-2026-07-01.md` documenting the corrected files.
+
+## 2026-06-30
+
+- Added docs/figuras-contact-sheets-2026-06-30/ with all-figure and per-chapter contact sheets for manual visual crop review.
+- Backed up the current figure PNGs to `versions/figuras-backup-2026-06-30_before-recrops/` and regenerated all `125` extracted figure PNGs from their source PDFs using bottommost-caption matching, original-caption exclusion, and white margins.
+- Corrected the final recrop pass to handle compact `Fig.N.` captions and bottommost caption selection, fixing the blank `figuras/ch4_parametric_3d_modeling_of_a_customi_figure7_p5.png` crop.
+- Updated `docs/figuras-imagens-auditoria-2026-06-30.md` with the post-recorte validation and refreshed dimensions in `docs/figuras-auditoria-2026-06-30.md`.
+- Added `docs/figuras-imagens-auditoria-2026-06-30.md` auditing PNG crop quality, original-caption presence, white margins, and edge/cut risk for all extracted figures.
+- Updated `docs/figuras-auditoria-2026-06-30.md` to include the local source PDF filename for each extracted image.
+- Added `docs/figuras-auditoria-2026-06-30.md` auditing the extracted figures against `projecto-completo.md`, including usage counts, duplicate groups, per-chapter status, and integration priorities.
+
 ## 0.4.4 - 2026-06-29
 
 - Corrected the root convenience DOCX filename to `projecto-completo.docx` and updated the repository export instruction accordingly.
