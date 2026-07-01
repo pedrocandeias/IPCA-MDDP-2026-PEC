@@ -2,7 +2,7 @@
 
 Este ficheiro é o registo autoritativo das referências do manuscrito que ainda não têm PDF localizado em `material/` ou em `projecto_completo_bibliografia/`.
 
-Última verificação manual: 2026-06-05. Foi confirmado e copiado para a pasta da bibliografia o PDF local de Hu et al. (2007), localizado em `material/antropometria/`.
+Última verificação manual: 2026-07-01. Foi confirmado e copiado para a pasta da bibliografia o PDF local de Hu et al. (2007), localizado em `material/antropometria/`. Na integração das novas figuras, foram também confirmados PDFs locais para Silva et al. (2018), Górski et al. (2022), Li e Aflatoony (2025), Barredo Arrieta et al. (2020) e Romero et al. (2025); os PDFs em falta listados abaixo não se alteraram.
 
 ## Referências sem PDF local confirmado
 

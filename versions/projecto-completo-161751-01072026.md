@@ -1,6 +1,6 @@
 Projecto completo
 
-Versão do documento:0.4.5
+Versão do documento:0.4.4
 
 ## Capítulo 1 — Introdução
 
@@ -9,14 +9,6 @@ Versão do documento:0.4.5
 A perda de membros superiores provoca impactos funcionais (limitação nas tarefas quotidianas), sociais (alterações na interação e na inclusão) e simbólicos (mudanças na identidade e na percepção), o que requer soluções técnicas e projetuais que aliem desempenho mecânico, conforto ergonómico, aceitação estética e viabilidade económica. Apesar dos avanços em dispositivos médicos e na fabricação aditiva, persistem obstáculos relacionados ao custo, à personalização anatómica e à dependência de técnicos especializados para a adaptação e manutenção das próteses.
 
 Nos últimos anos, a impressão 3D e as plataformas *open source* ampliaram o acesso a dispositivos protésicos, especialmente em contextos economicamente desfavorecidos. No entanto, muitos desses modelos dependem de geometrias fixas, isto é, formas pré-definidas sem adaptação automática, ou de ajustes manuais pouco padronizados, o que resulta em alterações sem um protocolo uniforme e dificulta a escalabilidade, a reprodutibilidade e a integração robusta de dados antropométricos, ou seja, medidas corporais específicas do utilizador.
-
-A Figura 1.1 introduz visualmente este contexto, mostrando como a fabricação aditiva tem sido associada a soluções protésicas abertas, acessíveis e adaptáveis. Esta leitura ajuda a enquadrar a motivação inicial do projeto: a impressão 3D amplia o campo de possibilidades, mas a personalização robusta continua a exigir modelos configuráveis, critérios de ajuste e mediação projetual.
-
-![](./figuras/ch1_implementation_of_3d_printing_techn_figure1_p4.png)
-
-Figura 1.1 — Exemplos de próteses e dispositivos associados à fabricação aditiva em contexto protésico.
-
-Fonte original (APA 7): Manero, A., Smith, P., Sparkman, J., Dombrowski, M., Courbin, D., Kester, A., Womack, I., & Chi, A. (2019). Implementation of 3D printing technology in the field of prosthetics: Past, present, and future. International Journal of Environmental Research and Public Health, 16, 1641. https://doi.org/10.3390/ijerph16091641
 
 O Design Industrial é o mediador entre a tecnologia e a experiência humana. A parametrização e a inteligência artificial podem estruturar sistemas configuráveis adequados a requisitos anatómicos, funcionais e simbólicos, promovendo próteses personalizadas, acessíveis e ajustáveis. Este trabalho explora criticamente essas ferramentas no contexto de Research Through Design.
 
@@ -510,14 +502,6 @@ A pertinência da abordagem RTD justifica-se pela natureza exploratória e itera
 
 A investigação é igualmente estruturada segundo a lógica processual do modelo Double Diamond, articulando momentos de divergência e de convergência nas fases de descoberta, definição, desenvolvimento e entrega. Esta estrutura não é aplicada de forma linear, mas como orientação para ciclos iterativos de exploração, síntese e validação, coerentes com a combinação entre pesquisa, formulação do problema, geração de alternativas, prototipagem e teste que caracteriza a prática do design contemporâneo ([Design Council, 2020](#ref-design-council-2020)).
 
-Esta articulação entre investigação, prototipagem e participação encontra um precedente relevante em processos interdisciplinares de desenvolvimento de próteses impressas em 3D. A Figura 3.1 sintetiza um fluxo de desenvolvimento em que avaliação clínica, definição de requisitos, prototipagem e teste com utilizador são tratados como etapas interdependentes, aproximando a metodologia do presente projeto de uma lógica iterativa e situada de Research Through Design ([Silva et al., 2018](#ref-silva-alcara-2018)).
-
-![](./figuras/ch3_interdisciplinary_based_development_figure1_p2.png)
-
-Figura 3.1 — Processo interdisciplinar de desenvolvimento de uma prótese de membro superior impressa em 3D.
-
-Fonte original (APA 7): Silva, L. A. da, Medola, F. O., Rodrigues, O. V., Rodrigues, A. C. T., & Sandnes, F. E. (2018). Interdisciplinary-based development of user-friendly customized 3D printed upper limb prosthesis. Comunicação em conferência.
-
 ### 3.2 O design industrial como prática investigativa
 
 O projeto parte do entendimento do design industrial como disciplina projetual, técnica e social, capaz de mediar entre a inovação tecnológica e a experiência humana. No domínio das próteses de membros superiores, esta mediação assume particular relevância, dado que o objeto projetado intervém diretamente na corporeidade, na autonomia e na identidade do utilizador. Esta perspetiva aproxima-se da ideia de designerly ways of knowing, segundo a qual o design possui modos próprios de formular problemas, produzir conhecimento e articular exigências funcionais, formais e humanas ([Cross, 1982](#ref-cross-1982)).
@@ -548,11 +532,11 @@ Durante o desenvolvimento do sistema paramétrico, os dados assumem natureza té
 
 Na fase de prototipagem, a análise incide sobre os critérios de exequibilidade de fabrico, robustez estrutural, coerência dimensional e facilidade de montagem. Não são recolhidos dados pessoais ou biométricos de utilizadores reais; utilizam-se exclusivamente conjuntos de dados antropométricos públicos, o que delimita o âmbito empírico ao domínio técnico e projetual. Entre estes, destaca-se a base local consolidada de medidas da mão e do membro superior distal, usada como infraestrutura intermédia para a seleção, comparação e normalização de medidas relevantes para a parametrização geométrica. A organização dos dados preserva informação sobre país, amostra, tipo de medida, estatística, fonte documental e granularidade dos subconjuntos analisados, tornando explícitas a cobertura e as limitações de cada fonte antes da sua tradução em parâmetros de projeto.
 
-Embora o presente estudo não utilize participantes reais, a literatura metodológica da área ajuda a esclarecer como medições lineares e procedimentos de ajuste são normalmente operacionalizados em contextos aplicados. A Figura 3.2 ilustra esse tipo de recolha dimensional orientada para fabrico, servindo aqui como precedente metodológico para a tradução de medidas em parâmetros de projeto.
+Embora o presente estudo não utilize participantes reais, a literatura metodológica da área ajuda a esclarecer como medições lineares e procedimentos de ajuste são normalmente operacionalizados em contextos aplicados. A Figura 3.1 ilustra esse tipo de recolha dimensional orientada para fabrico, servindo aqui como precedente metodológico para a tradução de medidas em parâmetros de projeto.
 
 ![](./figuras/ch3_an_undergraduate_engineering_servic_figure1_p4.png)
 
-Figura 3.2 — Exemplo de recolha dimensional para ajuste de prótese impressa em 3D.
+Figura 3.1 — Exemplo de recolha dimensional para ajuste de prótese impressa em 3D.
 
 Fonte original (APA 7): Kellam, S. M., Boleneus, G. J., Stewart, J., Richter, D. C., Michaelis, B. M., & Gerlick, R. E. (2019). An undergraduate engineering service learning project involving 3D-printed prosthetic hands for children. In American Society for Engineering Education Annual Conference & Exposition Proceedings.
 
@@ -727,14 +711,6 @@ A modelação paramétrica em OpenSCAD é, por isso, aqui entendida como uma abo
 
 Ao contrário de ambientes centrados na manipulação gráfica direta, o OpenSCAD opera como uma especificação computacional do objeto. Essa característica é metodologicamente relevante para a presente investigação porque torna o modelo não apenas um resultado geométrico, mas também um artefacto explícito de projeto: um sistema em que se registam as relações entre entradas antropométricas, módulos geométricos, restrições construtivas e decisões formais. Neste sentido, a modelação baseada em código articula-se bem com uma perspetiva de Research Through Design, na medida em que o próprio modelo pode ser lido, revisto, testado e documentado como uma estrutura de conhecimento técnico.
 
-A Figura 4.3 reforça esta passagem entre definição paramétrica, modelo virtual e protótipo físico. O seu valor para esta investigação não reside em replicar a solução apresentada, mas em tornar visível a cadeia que liga a decomposição dimensional do dedo, a modelação computacional e a verificação material, isto é, o mesmo tipo de continuidade que o modelo em OpenSCAD procura preservar ([Nini et al., 2024](#ref-nini-2024)).
-
-![](./figuras/ch4_parametric_3d_modeling_of_a_customi_figure7_p5.png)
-
-Figura 4.3 — Relação entre modelo paramétrico digital, prototipagem e verificação de um dedo protésico.
-
-Fonte original (APA 7): Nini, L., Ceccarelli, A., Tagliamonte, N., Zollo, L., & Taffoni, F. (2024). Parametric 3D modeling of a customized prosthetic hand finger for additive manufacturing. In 2024 10th IEEE RAS/EMBS International Conference for Biomedical Robotics and Biomechatronics (BioRob). IEEE. https://doi.org/10.1109/BioRob60516.2024.10719909
-
 #### 4.3.1 Estrutura técnica, parâmetros e restrições
 
 A estrutura técnica de um modelo paramétrico baseado em OpenSCAD pode ser compreendida como uma arquitetura em camadas. Numa primeira camada situam-se os dados de entrada, provenientes de medições lineares, de dados consolidados de referência ou de digitalização tridimensional. Numa segunda camada, esses dados são transformados em parâmetros geométricos derivados, responsáveis por estabelecer proporções, espessuras, posições articulares e relações entre subcomponentes. Segue-se uma camada funcional, na qual se definem exigências de mobilidade, montagem ou integração mecânica, e uma camada de restrições produtivas, na qual se enquadram espessuras mínimas, folgas, tolerâncias e limites de fabricabilidade. Esta organização permite controlar a personalização sem comprometer a coerência interna do sistema ([Moreo, 2016](#ref-moreo-2016); [Nini et al., 2024](#ref-nini-2024); [Saldarriaga et al., 2024](#ref-saldarriaga-2024)).
@@ -807,14 +783,6 @@ Deste modo, o enquadramento conceptual da plataforma articula três objetivos co
 
 A arquitetura geral do sistema foi concebida como uma estrutura em camadas, organizada para separar a interface, a lógica de aplicação, a persistência de dados e os serviços complementares de apoio à configuração. Esta opção procura responder a um problema central do projeto: tornar operável um modelo paramétrico tecnicamente exigente num ambiente web sem concentrar, no mesmo ponto, responsabilidades de interação, cálculo geométrico, armazenamento e controlo de acesso. Em termos conceptuais, esta separação prolonga a lógica já discutida nas secções anteriores: a personalização digital exige sistemas suficientemente configuráveis para acomodar a variação, mas também suficientemente disciplinados para preservar a coerência, a rastreabilidade e a capacidade de manutenção ([Ozdemir et al., 2022](#ref-ozdemir-2022); [Lei et al., 2016](#ref-lei-2016)).
 
-A Figura 5.1 apresenta um precedente de arquitetura de produção personalizada em que a digitalização, o processamento de dados, a adaptação CAD e o fabrico aditivo são articulados num fluxo de ponta a ponta. A comparação é útil porque mostra que a personalização digital depende da continuidade entre captura, parametrização e produção, ainda que, no presente projeto, essa continuidade seja deslocada para uma plataforma web e para modelos OpenSCAD executados localmente ([Górski et al., 2022](#ref-gorski-2022)).
-
-![](./figuras/ch5_automated_design_and_rapid_manufact_figure1_p4.png)
-
-Figura 5.1 — Fluxo geral de produção personalizada de próteses a partir de digitalização, CAD adaptativo e fabrico aditivo.
-
-Fonte original (APA 7): Górski, F., Zawadzki, P., Wichniarek, R., Kuczko, W., Słupińska, S., & Żukowska, M. (2022). Automated design and rapid manufacturing of low-cost customized upper limb prostheses. Journal of Physics: Conference Series, 2198, 012040. https://doi.org/10.1088/1742-6596/2198/1/012040
-
 No lado do cliente, a aplicação funciona no navegador e integra os componentes responsáveis pela interface, pela recolha e edição de parâmetros, pela gestão do estado da sessão e pela visualização local dos modelos. No lado do servidor, um serviço desenvolvido em Node.js com Express assegura o fornecimento de ficheiros estáticos, o processamento de pedidos à API, a autenticação de utilizadores, a aplicação de permissões e a comunicação com a camada de persistência. Esta distribuição de responsabilidades evita que a interface dependa de processamento remoto contínuo para todas as operações e, simultaneamente, impede que tarefas sensíveis, como a gestão de utilizadores, o controlo de acessos e a comunicação com serviços externos, fiquem expostas diretamente no cliente. A arquitetura não corresponde, portanto, a uma simples divisão técnica entre “frente” e “retaguarda”, mas sim a uma estratégia de contenção da complexidade e de delimitação explícita de responsabilidades.
 
 A camada de persistência assenta numa base de dados SQLite, utilizada para armazenar contas de utilizador, configurações guardadas, relações de atribuição técnica e tokens de autenticação. A escolha desta solução responde ao caráter prototípico e funcional do sistema nesta fase da investigação, privilegiando a leveza de implementação, a portabilidade e a facilidade de manutenção. As configurações paramétricas são armazenadas como estruturas JSON associadas a um modelo e a um utilizador, permitindo preservar diferentes instâncias de personalização, recuperá-las em momentos posteriores e compará-las como estados distintos do processo projetual. Deste modo, a base de dados não funciona apenas como repositório administrativo, mas também como infraestrutura que sustenta a continuidade, o versionamento prático e a rastreabilidade das variantes produzidas.
@@ -840,14 +808,6 @@ Não obstante as vantagens, esta solução introduz limitações que importa rec
 ### 5.4 Estrutura funcional da plataforma
 
 A estrutura funcional da plataforma organiza-se em um conjunto de módulos interligados que suportam o ciclo completo de configuração paramétrica: seleção do modelo, introdução e edição de parâmetros, visualização tridimensional, sugestões assistidas por IA, gestão de configurações e administração multiutilizador. Esta organização modular não serve apenas para distribuir funcionalidades; também torna o processo de personalização legível e sequencial. Em vez de expor o utilizador a um ambiente indiferenciado de opções, a plataforma reparte o trabalho por etapas e componentes com funções distintas, o que está de acordo com a literatura sobre configuradores digitais, segundo a qual a eficácia da personalização depende, em grande medida, da clareza com que o sistema delimita o espaço de ação disponível e articula feedback com decisão ([Ozdemir et al., 2022](#ref-ozdemir-2022); [Peixoto et al., 2025](#ref-peixoto-2025)).
-
-A Figura 5.2 ilustra um precedente particularmente próximo desta lógica: uma ferramenta paramétrica orientada a terapeutas ocupacionais, na qual múltiplas variantes de produto podem ser configuradas a partir de dimensões, materiais e pesos ajustáveis. A sua pertinência para esta dissertação está na demonstração de que a parametrização ganha valor quando é mediada por uma interface capaz de ser usada por profissionais que não são necessariamente modeladores CAD avançados ([Li & Aflatoony, 2025](#ref-li-aflatoony-2025)).
-
-![](./figuras/ch5_mixuan_li_parametric_design_and_thr_figure1_p4.png)
-
-Figura 5.2 — Ferramenta paramétrica para configuração de ajudas técnicas com variação de dimensões, materiais e peso.
-
-Fonte original (APA 7): Li, M., & Aflatoony, L. (2025). Parametric design and three-dimensional printing: Enabling occupational therapists to develop custom hand grips. Disability and Rehabilitation: Assistive Technology, 20(6), 1829-1837. https://doi.org/10.1080/17483107.2025.2483953
 
 O ponto de entrada do sistema é o módulo de seleção de modelos. Cada modelo é descrito por um ficheiro de configuração que inclui o identificador, a descrição, o ficheiro OpenSCAD associado e a lista de parâmetros editáveis. A partir dessa estrutura, a interface consegue gerar dinamicamente os controlos de edição necessários, como sliders, campos numéricos, caixas de seleção ou campos de texto. Esta opção reduz a rigidez do sistema e permite acomodar famílias distintas de modelos paramétricos sem exigir reprogramação manual de cada ecrã. Em termos funcionais, este módulo atua como mediador entre a biblioteca de modelos e a interface, convertendo uma estrutura técnica de ficheiros e parâmetros num ponto de entrada compreensível para a configuração.
 
@@ -945,14 +905,6 @@ A introdução de IA num sistema deste tipo exige distinguir claramente entre su
 
 Do ponto de vista técnico, subsistem limitações significativas. A IA pode produzir sugestões plausíveis, mas inadequadas para casos extremos, perfis antropométricos pouco representados ou combinações paramétricas fora da distribuição esperada. Pode também introduzir inconsistências difíceis de detetar se a sua saída não for confrontada com restrições geométricas, limites de fabrico e critérios funcionais explícitos. Assim, a integração robusta da IA depende da existência de salvaguardas no próprio sistema: limites paramétricos, validação de intervalos, verificação de coerência entre módulos, comparação entre alternativas e supervisão humana capaz de identificar quando uma sugestão é tecnicamente infundada ou insuficientemente justificada. Esta necessidade de enquadramento crítico é coerente com a literatura sobre explicabilidade e responsabilidade no design assistido por IA, que sublinha a importância de não tratar o modelo algorítmico como uma caixa-preta autojustificada ([Panchal et al., 2019](#ref-panchal-2019); [Yüksel et al., 2023](#ref-yuksel-2023)).
 
-A Figura 6.1 sintetiza esta tensão entre desafios de explicabilidade e princípios de IA responsável. No contexto desta investigação, a figura é útil porque torna explícito que a responsabilidade não depende apenas de desempenho preditivo, mas de condições como transparência, auditabilidade, privacidade, justiça e prestação de contas. Estes princípios reforçam a opção do sistema por uma IA assistiva, limitada por regras e sujeita a revisão humana ([Barredo Arrieta et al., 2020](#ref-arrieta-2020)).
-
-![](./figuras/ch6_a_framework_to_study_human_ai_colla_figure14_p46.png)
-
-Figura 6.1 — Relação entre desafios de explicabilidade e princípios de IA responsável.
-
-Fonte original (APA 7): Barredo Arrieta, A., Díaz-Rodríguez, N., Del Ser, J., Bennetot, A., Tabik, S., Barbado, A., García, S., Gil-López, S., Molina, D., Benjamins, R., Chatila, R., & Herrera, F. (2020). Explainable Artificial Intelligence (XAI): Concepts, taxonomies, opportunities and challenges toward responsible AI. Information Fusion, 58, 82-115. https://doi.org/10.1016/j.inffus.2019.12.012
-
 As limitações éticas são igualmente centrais. Num domínio associado a dispositivos personalizados e potencialmente sensíveis, importa evitar a recolha excessiva de dados, a exposição desnecessária de informação pessoal e a falsa perceção de objetividade algorítmica. Mesmo quando o sistema trabalha com dados antropométricos não clínicos ou em cenários experimentais, a sua arquitetura deve assumir princípios de minimização de dados, controlo de acesso e transparência quanto ao papel efetivo da IA. O utilizador deve compreender que está perante um sistema de apoio à decisão e não perante uma autoridade clínica autónoma. Esta clareza é essencial para evitar deslocamentos indevidos de responsabilidade e definir corretamente o escopo da ferramenta.
 
 Por fim, subsiste uma limitação metodológica mais ampla: a qualidade da IA depende da qualidade das estruturas em que se insere. Sem modelos paramétricos bem definidos, sem critérios de validação claros e sem dados suficientemente representativos, a IA tende a amplificar incerteza em vez de a reduzir. Neste sentido, a sua integração só se torna relevante quando articulada com uma base projetual explícita, com procedimentos de verificação e com uma compreensão crítica das suas margens de erro. A principal contribuição da IA para o sistema proposto não reside, portanto, numa promessa de automatização total, mas na possibilidade de reforçar processos de personalização e decisão, desde que permaneça enquadrada por regras, validação e responsabilidade humanas.
@@ -987,14 +939,6 @@ Esta diferenciação torna-se mais clara quando se distinguem três domínios de
 
 A coexistência destes perfis e domínios justifica a adoção de permissões diferenciadas e de uma experiência graduada por papéis. O sistema não distribui o mesmo poder de edição a todos os agentes, pois isso reduziria a segurança, a coerência e a legibilidade do processo. Em vez disso, estrutura diferentes níveis de acesso, permitindo que determinadas ações sejam reservadas a perfis técnicos, enquanto outras se mantêm acessíveis ao utilizador que acompanha a sua configuração. Esta diferenciação não deve ser entendida como uma limitação arbitrária, mas como uma decisão de desenho que procura equilibrar autonomia, segurança e responsabilidade. A literatura recente sobre próteses inteligentes e interfaces configuráveis aponta no mesmo sentido, defendendo modelos de controlo em que parâmetros críticos permanecem sob supervisão profissional, enquanto ajustes mais circunscritos podem tornar-se acessíveis ao utilizador final ([Bai et al., 2024](#ref-bai-2024); [Quintero et al., 2018](#ref-quintero-2018)).
 
-A Figura 7.1 ilustra a importância de observar a experiência em uso, e não apenas a configuração abstrata do dispositivo. O teste com utilizador permite identificar problemas de acoplamento, ativação, conforto e adequação funcional que não emergem de forma suficiente no modelo digital. Para esta investigação, a imagem funciona como lembrete metodológico: a plataforma pode tornar o processo mais legível e configurável, mas a experiência situada continua a ser indispensável para validação futura ([Silva et al., 2018](#ref-silva-alcara-2018)).
-
-![](./figuras/ch7_interdisciplinary_based_development_figure4_p6.png)
-
-Figura 7.1 — Teste de uma prótese impressa em 3D com utilizador em contexto aplicado.
-
-Fonte original (APA 7): Silva, L. A. da, Medola, F. O., Rodrigues, O. V., Rodrigues, A. C. T., & Sandnes, F. E. (2018). Interdisciplinary-based development of user-friendly customized 3D printed upper limb prosthesis. Comunicação em conferência.
-
 Do ponto de vista da experiência global, a plataforma revela-se mais forte quando entendida como um espaço de colaboração assimétrica. O designer ou técnico dispõe de uma ferramenta que acelera iterações, estrutura a exploração paramétrica e apoia decisões de maior responsabilidade; o utilizador final ganha maior transparência, inteligibilidade e possibilidade de acompanhamento; e o sistema, no seu conjunto, passa a oferecer uma cadeia de interação mais clara entre o conhecimento especializado e a necessidade individual. A utilização da plataforma não se resume, por isso, à ergonomia dos ecrãs, mas à forma como distribui a agência entre diferentes participantes no processo de personalização. Esta leitura é consistente com abordagens human-in-the-loop, nas quais as preferências do utilizador, o ajustamento algorítmico e a supervisão profissional coexistem de forma hierárquica e não mutuamente exclusiva, ao mesmo tempo que a literatura mais ampla sobre fabrico digital em próteses continua a assinalar lacunas de formação, validação longitudinal e comparação sistemática entre workflows ([Alili et al., 2023](#ref-alili-2023); [Oldfrey et al., 2024](#ref-oldfrey-2024)). É precisamente essa distribuição desigual, mas intencional, de acesso, interpretação e decisão que prepara a questão seguinte: não apenas quem usa a plataforma, mas também de que modo ela própria medeia o processo de design.
 
 ### 7.3 Mediação do processo de design e reflexão crítica
@@ -1020,14 +964,6 @@ A avaliação do sistema foi organizada em torno de três níveis complementares
 No plano antropométrico, a avaliação concentrou-se em invariantes: conformidade com o esquema de parâmetros, respeito pelos limites mínimos e máximos, proporcionalidade entre dedos, adequação etária, coerência com intervalos adultos e lateralidade correta em casos de amputação unilateral. Estes critérios foram escolhidos porque são verificáveis dentro do sistema e correspondem a riscos diretamente relacionados com a personalização inicial. Não avaliam conforto, desempenho funcional nem segurança clínica, mas permitem identificar se a cadeia descrição livre, sugestão paramétrica e modelo renderizado preserva condições mínimas de plausibilidade antes de qualquer prototipagem.
 
 A avaliação geométrica prolongou estes critérios até à saída fabricável. Para isso, foram executados fluxos de ponta a ponta com a interface real: autenticação, introdução de descrição de paciente, chamada ao serviço de IA, aplicação dos valores sugeridos, renderização por OpenSCAD/WebAssembly, exportação STL e medição das malhas resultantes. Esta etapa foi importante porque uma resposta numérica correta não garante, por si só, que a geometria final escale da forma esperada. Ao medir as peças exportadas, tornou-se possível verificar se as relações paramétricas declaradas atravessavam efetivamente toda a arquitetura da plataforma.
-
-A Figura 8.1 apresenta um precedente de avaliação funcional baseado em tarefas quotidianas de membro superior. Embora o presente trabalho não realize validação clínica nem testes com utilizadores reais, este tipo de protocolo ajuda a enquadrar o horizonte de avaliação futura: depois da coerência paramétrica e geométrica, será necessário observar desempenho em tarefas, facilidade de uso e adequação funcional em contexto real ([Romero et al., 2025](#ref-romero-2025)).
-
-![](./figuras/ch8_an_affordable_ai_driven_and_3d_prin_figure10_p11.png)
-
-Figura 8.1 — Tarefas funcionais usadas em avaliação de prótese personalizada de membro superior.
-
-Fonte original (APA 7): Romero, E., Garcia, J. G., Parra, M., Caballa, S., Saldarriaga, A. M., Luque, E. F., Rodriguez, D. J., Abarca, V. E., & Elias, D. A. (2025). An affordable AI-driven and 3D-printed personalized myoelectric prosthesis: Design, development, and assessment. IEEE Access, 13. https://doi.org/10.1109/ACCESS.2025.3596475
 
 ### 8.2 Validação antropométrica das sugestões de IA
 
@@ -1122,9 +1058,6 @@ Alili, A., Nalam, V., Li, M., Liu, M., Feng, J., Si, J., & Huang, H. (2023). A n
 
 <a id="ref-albin-2023"></a>
 Albin, T., & Molenbroek, J. F. M. (2023). Introduction to the special issue, anthropometry in design. https://repository.tudelft.nl/file/Fileda5bfdc9-98bc-41d3-a402-553d5f0d0a63
-
-<a id="ref-arrieta-2020"></a>
-Barredo Arrieta, A., Díaz-Rodríguez, N., Del Ser, J., Bennetot, A., Tabik, S., Barbado, A., García, S., Gil-López, S., Molina, D., Benjamins, R., Chatila, R., & Herrera, F. (2020). Explainable Artificial Intelligence (XAI): Concepts, taxonomies, opportunities and challenges toward responsible AI. Information Fusion, 58, 82-115. https://doi.org/10.1016/j.inffus.2019.12.012
 
 <a id="ref-astm-international-2024"></a>
 ASTM International. (2024). Standard guide for assessing fit accommodation of exoskeletons for manufacturers and designers. https://www.astm.org/f3661-24.html
@@ -1233,9 +1166,6 @@ Saldarriaga, A. M., Romero, E., Abarca, V. E., & Elias, D. A. (2024). A parametr
 
 <a id="ref-shah-2006"></a>
 Shah, S., & Robinson, I. (2006). User involvement in healthcare technology development and assessment: Structured literature review. https://www.semanticscholar.org/paper/299d5b2c1d65791cc4c9f2db76edf20f479adcbc
-
-<a id="ref-silva-alcara-2018"></a>
-Silva, L. A. da, Medola, F. O., Rodrigues, O. V., Rodrigues, A. C. T., & Sandnes, F. E. (2018). Interdisciplinary-based development of user-friendly customized 3D printed upper limb prosthesis. Comunicação em conferência.
 
 <a id="ref-silva-2024"></a>
 Silva, R., Silva, B., Fernandes, C., Morouco, P., Alves, N., & Veloso, A. (2024). A review on 3D scanners studies for producing customized orthoses. Sensors, 24(5), 1373. https://pmc.ncbi.nlm.nih.gov/articles/PMC10935386/pdf/sensors-24-01373.pdf
@@ -1450,9 +1380,6 @@ Chatzioglou, G. N., Pinar, Y., & Govsa, F. (2024). Biometric analysis hand param
 <a id="ref-gordon-1989"></a>
 Gordon, C. C., Churchill, T., Clauser, C. E., Bradtmiller, B., McConville, J. T., Tebbetts, I., & Walker, R. A. (1989). Anthropometric survey of U.S. Army personnel: Methods and summary statistics 1988 (Technical Report NATICK/TR-89/044). U.S. Army Natick Research, Development and Engineering Center.
 
-<a id="ref-gorski-2022"></a>
-Górski, F., Zawadzki, P., Wichniarek, R., Kuczko, W., Słupińska, S., & Żukowska, M. (2022). Automated design and rapid manufacturing of low-cost customized upper limb prostheses. Journal of Physics: Conference Series, 2198, 012040. https://doi.org/10.1088/1742-6596/2198/1/012040
-
 <a id="ref-ibiwari-2025"></a>
 Ibiwari, B. W., Osemeke, B. E., Progress, V. D., Khadija, A., & Chikere, O. P. (2025). Hand anthropometric measurement and grip strength for basketball and volleyball players in higher institutions in Port Harcourt metropolis. International Journal of Science Academic Research, 6(8), 10513-10517.
 
@@ -1527,9 +1454,6 @@ Herbst, Y., Georgopoulou, A., Dettwyler, M., Fernandez, A., Bacher, M., & Paik, 
 
 <a id="ref-lim-2018"></a>
 Lim, S. H., Bae, M., & Kim, S. H. (2018). Customization of a 3D printed prosthetic finger using parametric modeling. In ASME 2018 International Design Engineering Technical Conferences and Computers and Information in Engineering Conference. ASME. https://doi.org/10.1115/DETC2018-86211
-
-<a id="ref-li-aflatoony-2025"></a>
-Li, M., & Aflatoony, L. (2025). Parametric design and three-dimensional printing: Enabling occupational therapists to develop custom hand grips. Disability and Rehabilitation: Assistive Technology, 20(6), 1829-1837. https://doi.org/10.1080/17483107.2025.2483953
 
 <a id="ref-moreo-2016"></a>
 Moreo, A. M. (2016). Parametric design of a 3D printable hand prosthesis for children in developing countries [Master's thesis, Delft University of Technology].

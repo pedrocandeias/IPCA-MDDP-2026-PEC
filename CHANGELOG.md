@@ -2,6 +2,15 @@
 
 ## 2026-07-01
 
+- Added `tools/extract_docx_comments.py` to extract DOCX comments, classify likely action types, and map annotated paragraphs back to `projecto-completo.md` line numbers without modifying the manuscript.
+- Restored DOCX comments from `docs/projecto-completo-151329-01072026.docx` into the root `projecto-completo.docx`, preserving the 19 embedded figures from the latest export and validating the result with LibreOffice.
+- Added `docs/projecto-completo-1844-01072026-com-comentarios-libreoffice.docx` as the timestamped recovered DOCX for the initial 23 restored comments and kept a pre-restore backup at `versions/projecto-completo-docx-1823-01072026-before-comment-restore.docx`.
+- Added `docs/projecto-completo-2304-01072026-com-comentarios-libreoffice.docx` as a timestamped copy of the current root `projecto-completo.docx`, preserving its 19 figures and 32 DOCX comments.
+- Added `tools/recover_docx_comments.py` to recover DOCX comments after Markdown-based manuscript exports while preserving the target DOCX XML structure for LibreOffice compatibility.
+- Bumped `projecto-completo.md` to version `0.4.5` and integrated 8 additional figures across Chapters 1, 3, 4, 5, 6, 7, and 8, bringing the manuscript to 19 referenced figures.
+- Exported the updated manuscript to `docs/projecto-completo-1617-01072026.docx` and refreshed the root convenience copy `projecto-completo.docx`.
+- Added bibliography entries and local bibliography PDFs for the new figure sources where needed, and updated `projecto_completo_bibliografia/pdfs_em_falta.md`.
+- Embedded the 11 manuscript figures referenced in `projecto-completo.md` into `projecto-completo.docx`, created timestamped export `docs/projecto-completo-151329-01072026.docx`, and kept a pre-image DOCX backup in `versions/`.
 - Backed up the current `figuras/` folder to `versions/figuras-backup-2026-07-01_10-13-33_before-visual-fixes/` before manual visual crop fixes.
 - Corrected manually identified bad figure crops that contained page headers, article text, or incomplete fragments, including the living-lab process, digital fabrication workflow, biometric hand image, anthropometric hand dimensions, D3Frame, XAI/responsible AI, and motion-similarity chart figures.
 - Regenerated `docs/figuras-contact-sheets-2026-06-30/` after the visual corrections and added `docs/figuras-correcoes-visuais-2026-07-01.md` documenting the corrected files.
