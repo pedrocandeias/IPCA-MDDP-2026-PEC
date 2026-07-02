@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026-07-02
+
+- Trimmed excessive white top margins from the 19 figures referenced in `projecto-completo.md`, preserving a small top margin and documenting the crop in `docs/figuras-recorte-margem-superior-2026-07-02.md`.
+- Created figure backups in `versions/figuras-backup-2026-07-02_18-06-35_before-top-whitespace-trim/` and a pre-change DOCX backup at `versions/projecto-completo-docx-2026-07-02_18-06-35-before-top-whitespace-trim.docx`.
+- Added a post-trim backup at `versions/projecto-completo-docx-2026-07-02_19-49-51-after-top-whitespace-trim.docx` before committing the corrected DOCX.
+- Added `docs/projecto-completo-1807-02072026-recorte-margem-superior.docx` as the LibreOffice-validated initial trimmed DOCX and `docs/projecto-completo-1951-02072026-recorte-margem-superior-comentarios.docx` as the current timestamped copy matching the root `projecto-completo.docx`, preserving 19 embedded figures and 36 DOCX comments.
+
 ## 2026-07-01
 
 - Added `tools/extract_docx_comments.py` to extract DOCX comments, classify likely action types, and map annotated paragraphs back to `projecto-completo.md` line numbers without modifying the manuscript.
