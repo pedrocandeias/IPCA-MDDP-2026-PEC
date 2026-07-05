@@ -1,5 +1,18 @@
 # Changelog
 
+## 2026-07-05
+
+- Converted the current root `projecto-completo.docx` into `docs/projecto-completo-0125-05072026-convertido-de-docx.md`, extracting its 19 embedded images into the matching `_media/` folder.
+- Updated `tools/docx_to_md.py` so DOCX-to-Markdown exports preserve embedded images and external hyperlinks instead of dropping them during conversion.
+
+## 2026-07-03
+
+- Added `tabelas/tabelas_revisadas.md` as the editable source for a consolidated `tabelas.docx` covering Tables 2.1, 2.2, 4.1-4.7, and 8.1-8.3, and strengthened Table 4.2 with additional support from local PDFs on transradial sockets, parametric fingers, and body-powered hand parametrization.
+- Added `tabelas/tabela_4_2_parametros_por_nivel_amputacao.md` and exported `tabelas.docx` with a revised credited version of Table 4.2, separating Romero et al.'s hand-amputation levels from Moreo's anthropometric parameter reduction.
+- Created Portuguese `_pt.png` variants for Figures 2.3, 2.6, 2.7, 2.8, 3.1, and 4.1 under `figuras/`, preserving the original figure files and leaving `projecto-completo.docx` unchanged.
+- Localized Figure 4.2 labels from English to European Portuguese in `figuras/ch4_customization_of_a_3d_printed_prost_figure8_p7.png`, replacing "Uniformly Scaled" with "Escala uniforme" and "Parametric Modeling" with "Modelação paramétrica".
+- Created backups at `versions/figuras-backup-2026-07-03_14-33-29_before-figura-4-2-pt/` and `versions/projecto-completo-docx-2026-07-03_14-33-29-before-figura-4-2-pt.docx`, then refreshed `projecto-completo.docx` and added `docs/projecto-completo-1434-03072026-figura-4-2-pt.docx`.
+
 ## 2026-07-02
 
 - Trimmed excessive white top margins from the 19 figures referenced in `projecto-completo.md`, preserving a small top margin and documenting the crop in `docs/figuras-recorte-margem-superior-2026-07-02.md`.
