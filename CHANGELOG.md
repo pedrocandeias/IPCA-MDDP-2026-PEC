@@ -2,6 +2,7 @@
 
 ## 2026-07-05
 
+- Added `figuras/ch6_a_framework_to_study_human_ai_colla_figure14_p46_pt.png`, a Portuguese redraw of the Chapter 6 Responsible AI/XAI framework figure, and refreshed `projecto-completo.docx` to embed it.
 - Converted the current root `projecto-completo.docx` into `docs/projecto-completo-0125-05072026-convertido-de-docx.md`, extracting its 19 embedded images into the matching `_media/` folder.
 - Updated `tools/docx_to_md.py` so DOCX-to-Markdown exports preserve embedded images and external hyperlinks instead of dropping them during conversion.
 
