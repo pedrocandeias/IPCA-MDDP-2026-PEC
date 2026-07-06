@@ -1,5 +1,10 @@
 # Changelog
 
+## 2026-07-06
+
+- Added `docs/reconstruction_protocol_phoenix_hand.md` documenting the STEP-to-OpenSCAD parametric reconstruction protocol for the e-NABLE Phoenix Hand v3 case study.
+- Committed the latest `projecto-completo.docx` update, including document/comment XML changes from the current LibreOffice workflow.
+
 ## 2026-07-05
 
 - Added `figuras/ch6_a_framework_to_study_human_ai_colla_figure14_p46_pt.png`, a Portuguese redraw of the Chapter 6 Responsible AI/XAI framework figure, and refreshed `projecto-completo.docx` to embed it.
