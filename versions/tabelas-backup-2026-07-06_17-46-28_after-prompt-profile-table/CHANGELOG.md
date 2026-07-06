@@ -2,7 +2,6 @@
 
 ## 2026-07-06
 
-- Converted the current root `projecto-completo.docx` to `docs/projecto-completo-2109-06072026-convertido-de-docx.md`, extracting 19 embedded images into the matching `_media/` folder.
 - Created `versions/tabelas-backup-2026-07-06_17-46-28_after-prompt-profile-table/` with the regenerated tables DOCX, editable Markdown source, and current changelog.
 - Added a prompt/profile table for Section 8.2 to `tabelas/tabelas_revisadas.md` and regenerated `tabelas.docx`, renumbering Chapter 8 table drafts through Table 8.4.
 - Added `docs/reconstruction_protocol_phoenix_hand.md` documenting the STEP-to-OpenSCAD parametric reconstruction protocol for the e-NABLE Phoenix Hand v3 case study.
