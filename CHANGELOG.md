@@ -1,5 +1,9 @@
 # Changelog
 
+## 2026-07-07
+
+- Added `figuras/ch4_parametric_3d_modeling_of_a_customi_figure7_p5_pt.png`, a Portuguese localized version of the Chapter 4 parametric finger trajectory figure.
+
 ## 2026-07-06
 
 - Converted the current root `projecto-completo.docx` to `docs/projecto-completo-2109-06072026-convertido-de-docx.md`, extracting 19 embedded images into the matching `_media/` folder.
