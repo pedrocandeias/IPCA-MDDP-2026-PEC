@@ -1,6 +1,6 @@
 Projecto completo
 
-Versão do documento:0.4.10
+Versão do documento:0.4.9
 
 ## Capítulo 1 — Introdução
 
@@ -781,20 +781,6 @@ Este mapeamento constitui a base da modelação paramétrica, permitindo convert
 Antes da tradução do modelo para o ambiente de modelação paramétrica, torna-se necessário estabilizar três níveis: os dados de entrada, as relações entre parâmetros e os limites técnicos que condicionam a sua transformação em forma.
 
 No contexto desta investigação, o papel da secção 4.2 é, portanto, delimitado com clareza: identificar quais são os parâmetros antropométricos relevantes, como são recolhidos ou inferidos, e de que modo se organizam antes de entrarem na estrutura computacional do modelo. A secção seguinte retoma precisamente esta base para mostrar como esse sistema de entradas, dependências e restrições é formalizado em OpenSCAD como um modelo executável, modular e regenerável.
-
-### OpenSCAD: enquadramento e justificação da escolha
-
-Antes de avançar para a formalização do modelo, importa clarificar o que é o OpenSCAD e por que motivo foi escolhido como ambiente de modelação paramétrica neste projeto. O OpenSCAD é um ambiente livre e open source de CAD tridimensional baseado em ficheiros de script, orientado para a criação de geometria sólida e não para a modelação artística de superfícies. O modelo é descrito num ficheiro `.scad`, escrito numa linguagem própria, e esse ficheiro é interpretado pelo programa para gerar o sólido correspondente. Do ponto de vista geométrico, o OpenSCAD assenta numa lógica de Constructive Solid Geometry (CSG), na qual primitivas como cubos, cilindros, esferas e extrusões são combinadas por operações booleanas, transformações e relações hierárquicas entre módulos (OpenSCAD Project, n.d.-a (#ref-openscad-project-nd-a); OpenSCAD Project, n.d.-b (#ref-openscad-project-nd-b); Ghali, 2008 (#ref-ghali-2008)).
-
-Esta natureza programável distingue o OpenSCAD dos ambientes CAD convencionais baseados sobretudo em manipulação gráfica direta. Em muitos sistemas CAD, o utilizador constrói uma sequência de operações num histórico visual e parametriza algumas características desse histórico; no OpenSCAD, pelo contrário, a própria descrição textual é o modelo paramétrico. As variáveis, funções e módulos não são uma camada posterior aplicada à geometria, mas a estrutura que a gera. Esta diferença é relevante para a investigação, porque torna as relações entre parâmetros, componentes e restrições mais explícitas, reexecutáveis e documentáveis, embora implique uma curva de aprendizagem maior e dificuldades conhecidas em tarefas de navegação código-vista, validação e criação de formas orgânicas complexas (Trautmann, 2021 (#ref-trautmann-2021); Gonzalez Avila et al., 2024 (#ref-gonzalez-avila-2024)).
-
-A escolha do OpenSCAD resulta, em primeiro lugar, da sua adequação a processos reprodutíveis de design paramétrico. Por ser texto simples, o ficheiro-fonte pode ser versionado, comparado, revisto e reutilizado, o que favorece a rastreabilidade das decisões de modelação e a replicação das variantes geradas. Esta característica é particularmente valorizada em hardware científico e open source, precisamente porque a documentação do processo é tão importante como o ficheiro final exportado. Além disso, o OpenSCAD pode ser executado por linha de comando, receber valores por parâmetros e exportar automaticamente geometrias para formatos de fabrico digital, como STL ou 3MF, tornando-o compatível com fluxos de geração em lote e com configuradores digitais (Machado et al., 2019 (#ref-machado-2019); OpenSCAD Community, n.d. (#ref-openscad-community-nd)).
-
-Em segundo lugar, o OpenSCAD adapta-se bem à arquitetura web proposta nesta dissertação. A separação entre definição geométrica e interface permite que o ficheiro `.scad` permaneça como núcleo técnico do modelo, enquanto a plataforma apresenta ao utilizador apenas os parâmetros relevantes. Esta lógica já foi explorada em configuradores web baseados em OpenSCAD, nos quais utilizadores sem domínio da linguagem podem gerar variantes imprimíveis a partir de modelos parametrizados por designers. A existência de implementações em WebAssembly, como o OpenSCAD Web, reforça esta escolha, porque demonstra que o motor de geração pode ser executado no navegador, associado a editores, visualizadores 3D e interfaces de customização sem exigir a instalação local de software CAD completo (Nilsiam & Pearce, 2017 (#ref-nilsiam-2017); Brooks, 2026 (#ref-brooks-2026)).
-
-Em terceiro lugar, o OpenSCAD é particularmente compatível com um fluxo de design assistido por inteligência artificial. Como a geometria é expressa em código curto, estruturado e relativamente legível, uma IA pode sugerir valores, explicar relações entre variáveis ou propor alterações ao script sem substituir a lógica paramétrica por uma geometria opaca. Trabalhos recentes sobre geração de modelos 3D a partir de linguagem natural e automação de desenho paramétrico mostram que modelos de linguagem podem atuar sobre scripts CAD, embora continuem a exigir revisão humana, verificação dimensional e validação técnica antes de qualquer aplicação produtiva ou clínica (ELhadad et al., 2026 (#ref-elhadad-2026); Schöfer & Seibel, 2025 (#ref-schofer-seibel-2025); Gonzalez Avila et al., 2024 (#ref-gonzalez-avila-2024)).
-
-No contexto específico das próteses e das tecnologias de apoio, esta escolha é ainda reforçada por estudos que usam modelação paramétrica para adaptar dedos protésicos, mãos mecânicas acionadas pelo corpo e produtos assistivos às medidas ou necessidades do utilizador. Estes trabalhos não eliminam a necessidade de ensaios funcionais, avaliação ergonómica ou validação clínica, mas demonstram que a personalização geométrica pode ser estruturada por parâmetros explícitos e por modelos reexecutáveis. Para este projeto, o OpenSCAD é, portanto, adequado não porque resolva sozinho o problema da prótese personalizada, mas porque oferece uma base transparente para ligar medidas antropométricas, regras de modelação, interface web, sugestões de IA, exportação para fabrico aditivo e revisão humana (Lim et al., 2018 (#ref-lim-2018); Bustamante et al., 2018 (#ref-bustamante-2018); Romani & Levi, 2020 (#ref-romani-levi-2020)).
 
 ### 4.3 Modelação paramétrica em OpenSCAD
 
@@ -1585,24 +1571,6 @@ Por fim, a investigação abre espaço para estudos com utilizadores, técnicos 
 
 <a id="ref-moreo-2016"></a> Moreo, A. M. (2016). Parametric design of a 3D printable hand prosthesis for children in developing countries [Master's thesis, Delft University of Technology].
 
-<a id="ref-brooks-2026"></a> Brooks, C. (2026). OpenSCAD Web [Computer software]. GitHub. https://github.com/CameronBrooks11/openscad-web
-
-<a id="ref-bustamante-2018"></a> Bustamante, M., Vega-Centeno, R., Sanchez, M., & Mio, R. (2018). A parametric 3D-printed body-powered hand prosthesis based on the four-bar linkage mechanism. In International Conferences on Biological Information and Biomedical Engineering.
-
-<a id="ref-elhadad-2026"></a> ELhadad, N., Aboulhassan, A., & Hassan, Y. M. I. (2026). LLM-based 3D model generation of MHE for OpenSCAD. Procedia Computer Science.
-
-<a id="ref-ghali-2008"></a> Ghali, S. (2008). Constructive solid geometry. In Introduction to geometric computing.
-
-<a id="ref-gonzalez-avila-2024"></a> Gonzalez Avila, J. F., Pietrzak, T., Girouard, A., & Casiez, G. (2024). Understanding the challenges of OpenSCAD users for 3D printing. In Proceedings of the CHI Conference on Human Factors in Computing Systems. ACM. https://arxiv.org/abs/2408.01796
-
-<a id="ref-openscad-community-nd"></a> OpenSCAD Community. (n.d.). OpenSCAD User Manual/Using OpenSCAD in a command line environment. Wikibooks. Retrieved July 7, 2026, from https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Using_OpenSCAD_in_a_command_line_environment
-
-<a id="ref-openscad-project-nd-a"></a> OpenSCAD Project. (n.d.-a). OpenSCAD: The programmers solid 3D CAD modeller. Retrieved July 7, 2026, from https://openscad.org/
-
-<a id="ref-openscad-project-nd-b"></a> OpenSCAD Project. (n.d.-b). OpenSCAD source repository [Computer software]. GitHub. Retrieved July 7, 2026, from https://github.com/openscad/openscad
-
-<a id="ref-romani-levi-2020"></a> Romani, A., & Levi, M. (2020). Parametric design for online user customization of 3D printed assistive technology for rheumatic diseases. In International Conference on Augmented and Virtual Reality.
-
 <a id="ref-romero-2025"></a> Romero, M., Sánchez, J., & Álvarez, H. (2025). Development of parametric prostheses for different levels of human hand amputations manufactured through additive manufacturing. Applied Sciences, 15(3), 1124. https://doi.org/10.3390/app15031124
 
 <a id="ref-machado-2019"></a> Machado, F., Malpica, N., & Borromeo, S. (2019). Parametric CAD modeling for open source scientific hardware: Comparing OpenSCAD and FreeCAD Python scripts. PLOS ONE, 14(12), e0225795. https://doi.org/10.1371/journal.pone.0225795
@@ -1612,10 +1580,6 @@ Por fim, a investigação abre espaço para estudos com utilizadores, técnicos 
 <a id="ref-menaka-2025"></a> Menaka, S., Raja A, W., Ramakrishnan, S., Karthikeswaran, D., Sridar, K., & Sivaranjani, T. (2025). AI-driven computer-aided design (CAD) systems: Leveraging neural networks for optimized engineering product development. International Journal of Applied Mathematics, 38(5s).
 
 <a id="ref-nilsiam-2017"></a> Nilsiam, Y., & Pearce, J. M. (2017). Free and open source 3-D model customizer for websites to democratize design with OpenSCAD. Designs, 1(1), 5. https://doi.org/10.3390/designs1010005
-
-<a id="ref-schofer-seibel-2025"></a> Schöfer, F., & Seibel, A. (2025). Augmented design automation: Leveraging parametric designs using large language models. Proceedings of the Design Society.
-
-<a id="ref-trautmann-2021"></a> Trautmann, L. (2021). Product customization and generative design. Multidiszciplináris Tudományok.
 
 <a id="ref-nini-2024"></a> Nini, L., Ceccarelli, A., Tagliamonte, N., Zollo, L., & Taffoni, F. (2024). Parametric 3D modeling of a customized prosthetic hand finger for additive manufacturing. In 2024 10th IEEE RAS/EMBS International Conference for Biomedical Robotics and Biomechatronics (BioRob). IEEE. https://doi.org/10.1109/BioRob60516.2024.10719909
 

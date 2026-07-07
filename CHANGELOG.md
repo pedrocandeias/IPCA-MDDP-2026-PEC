@@ -3,6 +3,10 @@
 ## 2026-07-07
 
 - Captured all remaining working tree changes requested by the user, including the updated root DOCX, reconstruction protocol notes, HandFab image assets, temporary document copies, and workspace state.
+- Added an OpenSCAD introductory and justification subsection before Section 4.3 in `projecto-completo.md` and `projecto-completo.docx`, citing the OpenSCAD/web/AI-supported parametric modelling sources from the local Elicit report, added the corresponding APA bibliography entries, updated `projecto_completo_bibliografia/pdfs_em_falta.md`, created `docs/projecto-completo-1744-07072026-introducao-openscad.docx`, and bumped the manuscript version to 0.4.10.
+- Reapplied Section 2.4, `Próteses open source de membro superior passíveis de impressão 3D`, after pulling the latest root DOCX, restored the manuscript version to 0.4.9, regenerated the root DOCX while preserving its comments, and created `docs/projecto-completo-1731-07072026-pos-pull-secao-open-source.docx`.
+- Removed the explicit `(APA 7)` markers from source/reference notes in `projecto-completo.md` and `projecto-completo.docx`, and backed up the post-pull Markdown and DOCX files before reapplying the section.
+- Added Section 2.4, `Próteses open source de membro superior passíveis de impressão 3D`, linking e-NABLE models such as Flexy Beast, Paraglider/Flexible Flyer, Phoenix and Unlimbited Phoenix to the manuscript's parametric platform, added supporting APA references, updated `projecto_completo_bibliografia/pdfs_em_falta.md`, and bumped the manuscript version to 0.4.8.
 - Added `figuras/ch4_parametric_3d_modeling_of_a_customi_figure7_p5_pt.png`, a Portuguese localized version of the Chapter 4 parametric finger trajectory figure.
 
 ## 2026-07-06

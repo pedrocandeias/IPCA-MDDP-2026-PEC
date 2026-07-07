@@ -1,6 +1,6 @@
 Projecto completo
 
-Versão do documento:0.4.10
+Versão do documento:0.4.8
 
 ## Capítulo 1 — Introdução
 
@@ -16,7 +16,7 @@ A Figura 1.1 introduz visualmente este contexto, mostrando como a fabricação a
 
 Figura 1.1 — Exemplos de próteses e dispositivos associados à fabricação aditiva em contexto protésico.
 
-Fonte original: Manero, A., Smith, P., Sparkman, J., Dombrowski, M., Courbin, D., Kester, A., Womack, I., & Chi, A. (2019). Implementation of 3D printing technology in the field of prosthetics: Past, present, and future. International Journal of Environmental Research and Public Health, 16, 1641. https://doi.org/10.3390/ijerph16091641
+Fonte original (APA 7): Manero, A., Smith, P., Sparkman, J., Dombrowski, M., Courbin, D., Kester, A., Womack, I., & Chi, A. (2019). Implementation of 3D printing technology in the field of prosthetics: Past, present, and future. International Journal of Environmental Research and Public Health, 16, 1641. https://doi.org/10.3390/ijerph16091641
 
 O Design Industrial é o mediador entre a tecnologia e a experiência humana. A parametrização e a inteligência artificial podem estruturar sistemas configuráveis adequados a requisitos anatómicos, funcionais e simbólicos, promovendo próteses personalizadas, acessíveis e ajustáveis. Este trabalho explora criticamente essas ferramentas no contexto de Research Through Design.
 
@@ -108,7 +108,7 @@ Esta persistência do abandono é sintetizada de forma clara na Figura 2.2, que 
 
 Figura 2.2 — Utilização, rejeição primária e rejeição secundária de próteses do membro superior adquiridas.
 
-Fonte original: Biddiss, E., Beaton, D., & Chau, T. (2007). Consumer design priorities for upper limb prosthetics. Disability and Rehabilitation: Assistive Technology, 2(6), 346-357. [https://doi.org/10.1080/17483100701714733](https://doi.org/10.1080/17483100701714733)
+Fonte original (APA 7): Biddiss, E., Beaton, D., & Chau, T. (2007). Consumer design priorities for upper limb prosthetics. Disability and Rehabilitation: Assistive Technology, 2(6), 346-357. [https://doi.org/10.1080/17483100701714733](https://doi.org/10.1080/17483100701714733)
 
 ### Enquadramento regulatório enquanto dispositivo médico
 
@@ -144,7 +144,7 @@ Tabela 2.1 — Papéis dos profissionais de saúde no desenvolvimento de disposi
 
 | Profissionais clínicos e investigadores | Enquadram cuidados, testes e validação empírica | Resultados clínicos, ensaios e usabilidade |
 
-Fonte adaptada. Referência original: Kaygan, H., & Kaygan, P. (2025). Clients and carers: Healthcare professionals’ roles in medical device development processes in SMEs. The Design Journal, 28(2), 213-231. [https://doi.org/10.1080/14606925.2024.2420152](https://doi.org/10.1080/14606925.2024.2420152)
+Fonte adaptada. Referência original (APA 7): Kaygan, H., & Kaygan, P. (2025). Clients and carers: Healthcare professionals’ roles in medical device development processes in SMEs. The Design Journal, 28(2), 213-231. [https://doi.org/10.1080/14606925.2024.2420152](https://doi.org/10.1080/14606925.2024.2420152)
 
 ### Design Inclusivo e Design Universal
 
@@ -198,7 +198,7 @@ Esta articulação é representada com clareza na Figura 2.3, que resume o encad
 
 Figura 2.3 — Fluxo digital entre aquisição, CAD/CAM e fabricação aditiva em próteses e ortóteses.
 
-Fonte original: Chainando, N., Faephu, C., Suwaphong, N., Bureerat, S., Limphirat, W., Thammajaruk, P., & Syafrudin, M. (2025). Applying 3D scanning and printing techniques to produce upper limb prostheses: Bibliometric analysis and scoping review. Prosthesis, 7(2), 26. https://www.mdpi.com/2673-1592/7/2/26/pdf?version=1740996517
+Fonte original (APA 7): Chainando, N., Faephu, C., Suwaphong, N., Bureerat, S., Limphirat, W., Thammajaruk, P., & Syafrudin, M. (2025). Applying 3D scanning and printing techniques to produce upper limb prostheses: Bibliometric analysis and scoping review. Prosthesis, 7(2), 26. https://www.mdpi.com/2673-1592/7/2/26/pdf?version=1740996517
 
 Neste enquadramento, a personalização deixa de ser entendida como exceção e passa a constituir uma estratégia estruturada, operacionalizada por meio de “seed designs”[^7] ou modelos-base parametrizados. Estes modelos preservam uma arquitetura estável, expondo simultaneamente um conjunto limitado de variáveis ajustáveis, frequentemente acessíveis por meio de interfaces digitais ou de configuradores destinados a utilizadores não especialistas (Ozdemir et al., 2022 (#ref-ozdemir-2022); Stralen, 2018 (#ref-stralen-2018)).
 
@@ -228,7 +228,7 @@ A Figura 2.4 mostra um exemplo especialmente relevante desta lógica: a personal
 
 Figura 2.4 — Exemplo de configurador digital para personalização de uma prótese impressa em 3D.
 
-Fonte original: Manero, A., Smith, P., Sparkman, J., Dombrowski, M., Courbin, D., Kester, A., Womack, I., & Chi, A. (2019). Implementation of 3D printing technology in the field of prosthetics: Past, present, and future. International Journal of Environmental Research and Public Health, 16, 1641. https://doi.org/10.3390/ijerph16091641
+Fonte original (APA 7): Manero, A., Smith, P., Sparkman, J., Dombrowski, M., Courbin, D., Kester, A., Womack, I., & Chi, A. (2019). Implementation of 3D printing technology in the field of prosthetics: Past, present, and future. International Journal of Environmental Research and Public Health, 16, 1641. https://doi.org/10.3390/ijerph16091641
 
 Este modelo “file-to-factory” viabiliza fluxos digitais em que o ficheiro parametrizado é convertido diretamente em instruções de fabrico, seja localmente (impressão 3D descentralizada) ou através de uma encomenda online[^11]. A literatura associa esta lógica à democratização do design e à expansão de estratégias de mass customization e mass personalization, reduzindo custos marginais ao eliminar a utilização de moldes e dispositivos específicos de [^12]fabrico (Lei et al., 2016 (#ref-lei-2016); Stralen, 2018 (#ref-stralen-2018)).
 
@@ -284,7 +284,7 @@ Mesmo assim, a medição linear continua a ser indispensável para estruturar o 
 
 Figura 2.5 — Marcos anatómicos e medidas de referência da mão para fins de personalização.
 
-Fonte original: Yu, A., Yick, K. L., Ng, S. P., & Yip, J. (2013). 2D and 3D anatomical analyses of hand dimensions for custom-made gloves. Applied Ergonomics, 44, 381-392.
+Fonte original (APA 7): Yu, A., Yick, K. L., Ng, S. P., & Yip, J. (2013). 2D and 3D anatomical analyses of hand dimensions for custom-made gloves. Applied Ergonomics, 44, 381-392.
 
 ### Métodos de recolha antropométrica em próteses e tecnologias de apoio
 
@@ -340,7 +340,7 @@ Para efeitos de enquadramento, a Figura 2.6 é útil porque mostra a IA não com
 
 Figura 2.6 — Enquadramento de um fluxo de CAD assistido por IA para desenvolvimento de produto.
 
-Fonte original: Menaka, S., Raja, A. W., Ramakrishnan, S., Karthikeswaran, D., Sridar, K., & Sivaranjani, T. (2025). AI-driven computer-aided design (CAD) systems: Leveraging neural networks for optimized engineering product development. International Journal of Applied Mathematics, 38(5s).
+Fonte original (APA 7): Menaka, S., Raja, A. W., Ramakrishnan, S., Karthikeswaran, D., Sridar, K., & Sivaranjani, T. (2025). AI-driven computer-aided design (CAD) systems: Leveraging neural networks for optimized engineering product development. International Journal of Applied Mathematics, 38(5s).
 
 ### O que é a Inteligência Artificial
 
@@ -394,7 +394,7 @@ Para enquadrar estes fundamentos de forma mais operacional, a Figura 2.7 mostra 
 
 Figura 2.7 — Modelo de processo para configurar participação em ecossistemas de inovação e cocriação.
 
-Fonte original: Akasaka, M., Veeckman, C., Georges, A., Schuurman, D., & Coorevits, L. (2022). A framework for configuring participation in living labs. https://www.semanticscholar.org/paper/305d55af5fda06b4d1b33e7d29c1f16d1b7ea488
+Fonte original (APA 7): Akasaka, M., Veeckman, C., Georges, A., Schuurman, D., & Coorevits, L. (2022). A framework for configuring participation in living labs. https://www.semanticscholar.org/paper/305d55af5fda06b4d1b33e7d29c1f16d1b7ea488
 
 A literatura identifica, contudo, riscos como a participation overload, isto é, a transferência excessiva de carga de trabalho e de decisão para os utilizadores, o que requer mecanismos de apoio, curadoria e reutilização para tornar a participação sustentável (Fischer et al., 2017 (#ref-fischer-2017)).
 
@@ -416,7 +416,7 @@ Tabela 2.2 — Elementos centrais na configuração da participação em sistema
 
 | Gestão da motivação | Que fatores promovem adesão e que barreiras dificultam continuidade |
 
-Fonte adaptada. Referência original: Akasaka, M., Veeckman, C., Georges, A., Schuurman, D., & Coorevits, L. (2022). A framework for configuring participation in living labs. [https://www.semanticscholar.org/paper/305d55af5fda06b4d1b33e7d29c1f16d1b7ea488](https://www.semanticscholar.org/paper/305d55af5fda06b4d1b33e7d29c1f16d1b7ea488)
+Fonte adaptada. Referência original (APA 7): Akasaka, M., Veeckman, C., Georges, A., Schuurman, D., & Coorevits, L. (2022). A framework for configuring participation in living labs. [https://www.semanticscholar.org/paper/305d55af5fda06b4d1b33e7d29c1f16d1b7ea488](https://www.semanticscholar.org/paper/305d55af5fda06b4d1b33e7d29c1f16d1b7ea488)
 
 ### Mecanismos de personalização: modularidade, parametrização e adaptação individualizada
 
@@ -464,7 +464,7 @@ A distância entre o potencial técnico destas abordagens e a sua consolidação
 
 Figura 2.8 — Distribuição dos estudos por nível de prontidão tecnológica (TRL) e categoria de aplicação. O gráfico distingue estudos sobre próteses em geral, próteses de membro inferior produzidas por impressão 3D (LL 3DP), próteses de membro inferior desenvolvidas com recurso a CAD/CAM (LL CAD/CAM), outras abordagens aplicadas ao membro inferior (LL other), próteses de membro superior produzidas por impressão 3D (UL 3DP) e outros casos não enquadrados nas categorias anteriores.
 
-Fonte original: Chainando, N., Faephu, C., Suwaphong, N., Bureerat, S., Limphirat, W., Thammajaruk, P., & Syafrudin, M. (2025). Applying 3D scanning and printing techniques to produce upper limb prostheses: Bibliometric analysis and scoping review. Prosthesis, 7(2), 26. https://www.mdpi.com/2673-1592/7/2/26/pdf?version=1740996517
+Fonte original (APA 7): Chainando, N., Faephu, C., Suwaphong, N., Bureerat, S., Limphirat, W., Thammajaruk, P., & Syafrudin, M. (2025). Applying 3D scanning and printing techniques to produce upper limb prostheses: Bibliometric analysis and scoping review. Prosthesis, 7(2), 26. https://www.mdpi.com/2673-1592/7/2/26/pdf?version=1740996517
 
 A síntese das secções anteriores evidencia um panorama marcado por avanços técnicos significativos, mas também por limitações estruturais persistentes na investigação e no desenvolvimento de próteses e de tecnologias de apoio. Um tema transversal é o desfasamento entre o desenvolvimento tecnológico e a sua validação empírica. Muitos contributos permanecem em fase de protótipo, com testes realizados em amostras reduzidas e por períodos curtos, o que limita a demonstração da sua eficácia, segurança e adequação em contextos reais de utilização. (Chadwell et al., 2020 (#ref-chadwell-2020); Samuelsson et al., 2012 (#ref-samuelsson-2012); Windrich et al., 2016 (#ref-windrich-2016)).
 
@@ -538,7 +538,7 @@ Esta articulação entre investigação, prototipagem e participação encontra 
 
 Figura 3.1 — Processo interdisciplinar de desenvolvimento de uma prótese de membro superior impressa em 3D.
 
-Fonte original: Silva, L. A. da, Medola, F. O., Rodrigues, O. V., Rodrigues, A. C. T., & Sandnes, F. E. (2018). Interdisciplinary-based development of user-friendly customized 3D printed upper limb prosthesis. Comunicação em conferência.
+Fonte original (APA 7): Silva, L. A. da, Medola, F. O., Rodrigues, O. V., Rodrigues, A. C. T., & Sandnes, F. E. (2018). Interdisciplinary-based development of user-friendly customized 3D printed upper limb prosthesis. Comunicação em conferência.
 
 ### 3.2 O design industrial como prática investigativa
 
@@ -574,7 +574,7 @@ Embora o presente estudo não utilize participantes reais, a literatura metodol�
 
 Figura 3.2 — Exemplo de recolha dimensional para ajuste de prótese impressa em 3D.
 
-Fonte original: Kellam, S. M., Boleneus, G. J., Stewart, J., Richter, D. C., Michaelis, B. M., & Gerlick, R. E. (2019). An undergraduate engineering service learning project involving 3D-printed prosthetic hands for children. In American Society for Engineering Education Annual Conference & Exposition Proceedings.
+Fonte original (APA 7): Kellam, S. M., Boleneus, G. J., Stewart, J., Richter, D. C., Michaelis, B. M., & Gerlick, R. E. (2019). An undergraduate engineering service learning project involving 3D-printed prosthetic hands for children. In American Society for Engineering Education Annual Conference & Exposition Proceedings.
 
 ### 3.5 Critérios de avaliação e limitações metodológicas
 
@@ -616,7 +616,7 @@ Esta exigência de organizar as medições em parâmetros operáveis é particul
 
 Figura 4.1 — Parâmetros antropométricos utilizados na modelação paramétrica de dedos protésicos.
 
-Fonte original: Nini, L., Ceccarelli, A., Tagliamonte, N., Zollo, L., & Taffoni, F. (2024). Parametric 3D modeling of a customized prosthetic hand finger for additive manufacturing. In 2024 10th IEEE RAS/EMBS International Conference for Biomedical Robotics and Biomechatronics (BioRob). IEEE. [https://doi.org/10.1109/BioRob60516.2024.10719909](https://doi.org/10.1109/BioRob60516.2024.10719909)
+Fonte original (APA 7): Nini, L., Ceccarelli, A., Tagliamonte, N., Zollo, L., & Taffoni, F. (2024). Parametric 3D modeling of a customized prosthetic hand finger for additive manufacturing. In 2024 10th IEEE RAS/EMBS International Conference for Biomedical Robotics and Biomechatronics (BioRob). IEEE. [https://doi.org/10.1109/BioRob60516.2024.10719909](https://doi.org/10.1109/BioRob60516.2024.10719909)
 
 Os parâmetros antropométricos mais relevantes concentram-se, em primeiro lugar, na definição da estrutura dimensional base da mão. Medidas como o comprimento da mão, a largura da mão e o comprimento da palma constituem descritores dimensionais primários, permitindo estabelecer a escala do modelo e definir a sua organização geral. Para além destas, incluem-se parâmetros relativos aos dedos, como comprimentos segmentares e proporções entre falanges, bem como as dimensões do polegar e do punho, essenciais para a funcionalidade e a integraçãoe a integração da mão protésica no uso quotidiano (Chatzioglou et al., 2024 (#ref-chatzioglou-2024); Nag et al., 2003 (#ref-nag-2003)).
 
@@ -782,20 +782,6 @@ Antes da tradução do modelo para o ambiente de modelação paramétrica, torna
 
 No contexto desta investigação, o papel da secção 4.2 é, portanto, delimitado com clareza: identificar quais são os parâmetros antropométricos relevantes, como são recolhidos ou inferidos, e de que modo se organizam antes de entrarem na estrutura computacional do modelo. A secção seguinte retoma precisamente esta base para mostrar como esse sistema de entradas, dependências e restrições é formalizado em OpenSCAD como um modelo executável, modular e regenerável.
 
-### OpenSCAD: enquadramento e justificação da escolha
-
-Antes de avançar para a formalização do modelo, importa clarificar o que é o OpenSCAD e por que motivo foi escolhido como ambiente de modelação paramétrica neste projeto. O OpenSCAD é um ambiente livre e open source de CAD tridimensional baseado em ficheiros de script, orientado para a criação de geometria sólida e não para a modelação artística de superfícies. O modelo é descrito num ficheiro `.scad`, escrito numa linguagem própria, e esse ficheiro é interpretado pelo programa para gerar o sólido correspondente. Do ponto de vista geométrico, o OpenSCAD assenta numa lógica de Constructive Solid Geometry (CSG), na qual primitivas como cubos, cilindros, esferas e extrusões são combinadas por operações booleanas, transformações e relações hierárquicas entre módulos (OpenSCAD Project, n.d.-a (#ref-openscad-project-nd-a); OpenSCAD Project, n.d.-b (#ref-openscad-project-nd-b); Ghali, 2008 (#ref-ghali-2008)).
-
-Esta natureza programável distingue o OpenSCAD dos ambientes CAD convencionais baseados sobretudo em manipulação gráfica direta. Em muitos sistemas CAD, o utilizador constrói uma sequência de operações num histórico visual e parametriza algumas características desse histórico; no OpenSCAD, pelo contrário, a própria descrição textual é o modelo paramétrico. As variáveis, funções e módulos não são uma camada posterior aplicada à geometria, mas a estrutura que a gera. Esta diferença é relevante para a investigação, porque torna as relações entre parâmetros, componentes e restrições mais explícitas, reexecutáveis e documentáveis, embora implique uma curva de aprendizagem maior e dificuldades conhecidas em tarefas de navegação código-vista, validação e criação de formas orgânicas complexas (Trautmann, 2021 (#ref-trautmann-2021); Gonzalez Avila et al., 2024 (#ref-gonzalez-avila-2024)).
-
-A escolha do OpenSCAD resulta, em primeiro lugar, da sua adequação a processos reprodutíveis de design paramétrico. Por ser texto simples, o ficheiro-fonte pode ser versionado, comparado, revisto e reutilizado, o que favorece a rastreabilidade das decisões de modelação e a replicação das variantes geradas. Esta característica é particularmente valorizada em hardware científico e open source, precisamente porque a documentação do processo é tão importante como o ficheiro final exportado. Além disso, o OpenSCAD pode ser executado por linha de comando, receber valores por parâmetros e exportar automaticamente geometrias para formatos de fabrico digital, como STL ou 3MF, tornando-o compatível com fluxos de geração em lote e com configuradores digitais (Machado et al., 2019 (#ref-machado-2019); OpenSCAD Community, n.d. (#ref-openscad-community-nd)).
-
-Em segundo lugar, o OpenSCAD adapta-se bem à arquitetura web proposta nesta dissertação. A separação entre definição geométrica e interface permite que o ficheiro `.scad` permaneça como núcleo técnico do modelo, enquanto a plataforma apresenta ao utilizador apenas os parâmetros relevantes. Esta lógica já foi explorada em configuradores web baseados em OpenSCAD, nos quais utilizadores sem domínio da linguagem podem gerar variantes imprimíveis a partir de modelos parametrizados por designers. A existência de implementações em WebAssembly, como o OpenSCAD Web, reforça esta escolha, porque demonstra que o motor de geração pode ser executado no navegador, associado a editores, visualizadores 3D e interfaces de customização sem exigir a instalação local de software CAD completo (Nilsiam & Pearce, 2017 (#ref-nilsiam-2017); Brooks, 2026 (#ref-brooks-2026)).
-
-Em terceiro lugar, o OpenSCAD é particularmente compatível com um fluxo de design assistido por inteligência artificial. Como a geometria é expressa em código curto, estruturado e relativamente legível, uma IA pode sugerir valores, explicar relações entre variáveis ou propor alterações ao script sem substituir a lógica paramétrica por uma geometria opaca. Trabalhos recentes sobre geração de modelos 3D a partir de linguagem natural e automação de desenho paramétrico mostram que modelos de linguagem podem atuar sobre scripts CAD, embora continuem a exigir revisão humana, verificação dimensional e validação técnica antes de qualquer aplicação produtiva ou clínica (ELhadad et al., 2026 (#ref-elhadad-2026); Schöfer & Seibel, 2025 (#ref-schofer-seibel-2025); Gonzalez Avila et al., 2024 (#ref-gonzalez-avila-2024)).
-
-No contexto específico das próteses e das tecnologias de apoio, esta escolha é ainda reforçada por estudos que usam modelação paramétrica para adaptar dedos protésicos, mãos mecânicas acionadas pelo corpo e produtos assistivos às medidas ou necessidades do utilizador. Estes trabalhos não eliminam a necessidade de ensaios funcionais, avaliação ergonómica ou validação clínica, mas demonstram que a personalização geométrica pode ser estruturada por parâmetros explícitos e por modelos reexecutáveis. Para este projeto, o OpenSCAD é, portanto, adequado não porque resolva sozinho o problema da prótese personalizada, mas porque oferece uma base transparente para ligar medidas antropométricas, regras de modelação, interface web, sugestões de IA, exportação para fabrico aditivo e revisão humana (Lim et al., 2018 (#ref-lim-2018); Bustamante et al., 2018 (#ref-bustamante-2018); Romani & Levi, 2020 (#ref-romani-levi-2020)).
-
 ### 4.3 Modelação paramétrica em OpenSCAD
 
 A modelação paramétrica em OpenSCAD corresponde, nesta investigação, ao momento em que a estrutura definida na secção anterior deixa de ser apenas um quadro conceptual e passa a constituir um modelo operacional, capaz de traduzir parâmetros, relações e restrições em geometrias configuráveis. Os parâmetros antropométricos selecionados, as relações hierárquicas entre variáveis e os limites de configuração deixam de funcionar apenas como critérios de organização e passam a ser inscritos em código, de modo a gerar geometria de forma consistente e repetível. Assim, a transição para OpenSCAD não representa uma mudança de tema, mas a continuação lógica do mesmo problema: como transformar dados corporais e regras de projeto num modelo configurável que preserve coerência formal, funcional e produtiva.
@@ -810,7 +796,7 @@ A Figura 4.3 reforça esta passagem entre definição paramétrica, modelo virtu
 
 Figura 4.3 — Relação entre modelo paramétrico digital, prototipagem e verificação de um dedo protésico.
 
-Fonte original: Nini, L., Ceccarelli, A., Tagliamonte, N., Zollo, L., & Taffoni, F. (2024). Parametric 3D modeling of a customized prosthetic hand finger for additive manufacturing. In 2024 10th IEEE RAS/EMBS International Conference for Biomedical Robotics and Biomechatronics (BioRob). IEEE. [https://doi.org/10.1109/BioRob60516.2024.10719909](https://doi.org/10.1109/BioRob60516.2024.10719909)
+Fonte original (APA 7): Nini, L., Ceccarelli, A., Tagliamonte, N., Zollo, L., & Taffoni, F. (2024). Parametric 3D modeling of a customized prosthetic hand finger for additive manufacturing. In 2024 10th IEEE RAS/EMBS International Conference for Biomedical Robotics and Biomechatronics (BioRob). IEEE. [https://doi.org/10.1109/BioRob60516.2024.10719909](https://doi.org/10.1109/BioRob60516.2024.10719909)
 
 ### 4.3.1 Estrutura técnica, parâmetros e restrições
 
@@ -904,7 +890,7 @@ A Figura 5.1 apresenta um precedente de arquitetura de produção personalizada 
 
 Figura 5.1 — Fluxo geral de produção personalizada de próteses a partir de digitalização, CAD adaptativo e fabrico aditivo.
 
-Fonte original: Górski, F., Zawadzki, P., Wichniarek, R., Kuczko, W., Słupińska, S., & Żukowska, M. (2022). Automated design and rapid manufacturing of low-cost customized upper limb prostheses. Journal of Physics: Conference Series, 2198, 012040. [https://doi.org/10.1088/1742-6596/2198/1/012040](https://doi.org/10.1088/1742-6596/2198/1/012040)
+Fonte original (APA 7): Górski, F., Zawadzki, P., Wichniarek, R., Kuczko, W., Słupińska, S., & Żukowska, M. (2022). Automated design and rapid manufacturing of low-cost customized upper limb prostheses. Journal of Physics: Conference Series, 2198, 012040. [https://doi.org/10.1088/1742-6596/2198/1/012040](https://doi.org/10.1088/1742-6596/2198/1/012040)
 
 No navegador do utilizador, a aplicação integra os componentes responsáveis pela interface, pela recolha e edição de parâmetros, pela gestão do estado da sessão e pela visualização local dos modelos. No servidor, um serviço desenvolvido em Node.js, com recurso ao framework Express.js, assegura a disponibilização de ficheiros estáticos, o processamento de pedidos à API, a autenticação de utilizadores, a aplicação de permissões e a comunicação com a camada de persistência. Esta distribuição de responsabilidades evita que a interface dependa de processamento remoto contínuo para todas as operações e, simultaneamente, impede que tarefas sensíveis, como a gestão de utilizadores, o controlo de acessos e a comunicação com serviços externos, fiquem expostas diretamente no cliente. A arquitetura não corresponde, portanto, a uma simples divisão técnica entre “frente” (frontend) e “retaguarda” (backend), mas sim a uma estratégia de contenção da complexidade e de delimitação explícita de responsabilidades.
 
@@ -942,7 +928,7 @@ A Figura 5.2 ilustra um precedente particularmente próximo desta lógica: uma f
 
 Figura 5.2 — Ferramenta paramétrica para configuração de ajudas técnicas com variação de dimensões, materiais e peso.
 
-Fonte original: Li, M., & Aflatoony, L. (2025). Parametric design and three-dimensional printing: Enabling occupational therapists to develop custom hand grips. Disability and Rehabilitation: Assistive Technology, 20(6), 1829-1837. [https://doi.org/10.1080/17483107.2025.2483953](https://doi.org/10.1080/17483107.2025.2483953)
+Fonte original (APA 7): Li, M., & Aflatoony, L. (2025). Parametric design and three-dimensional printing: Enabling occupational therapists to develop custom hand grips. Disability and Rehabilitation: Assistive Technology, 20(6), 1829-1837. [https://doi.org/10.1080/17483107.2025.2483953](https://doi.org/10.1080/17483107.2025.2483953)
 
 O ponto de entrada do sistema é o módulo de seleção de modelos. Cada modelo é descrito por um ficheiro de configuração que inclui o identificador, a descrição, o ficheiro OpenSCAD associado e a lista de parâmetros editáveis. A partir dessa estrutura, a interface gera automaticamente os controlos necessários para editar esses parâmetros, incluindo campos numéricos, seletores de valores dentro de intervalos definidos, caixas de seleção e campos de texto. Esta opção reduz a rigidez do sistema e permite acomodar famílias distintas de modelos paramétricos sem exigir reprogramação manual de cada ecrã. Em termos funcionais, este módulo atua como mediador entre a biblioteca de modelos e a interface, convertendo uma estrutura técnica de ficheiros e parâmetros num ponto de entrada compreensível para a configuração.
 
@@ -1130,7 +1116,7 @@ A Figura 7.1 evidencia a importância de analisar a utilização concreta do dis
 
 Figura 7.1 — Teste de uma prótese impressa em 3D com utilizador em contexto aplicado.
 
-Fonte original: Silva, L. A. da, Medola, F. O., Rodrigues, O. V., Rodrigues, A. C. T., & Sandnes, F. E. (2018). Interdisciplinary-based development of user-friendly customized 3D printed upper limb prosthesis. Comunicação em conferência.
+Fonte original (APA 7): Silva, L. A. da, Medola, F. O., Rodrigues, O. V., Rodrigues, A. C. T., & Sandnes, F. E. (2018). Interdisciplinary-based development of user-friendly customized 3D printed upper limb prosthesis. Comunicação em conferência.
 
 Do ponto de vista da experiência global, a plataforma deve ser entendida como um espaço de colaboração assimétrica. Neste enquadramento, o designer ou técnico dispõe de uma ferramenta que acelera iterações, estrutura a exploração paramétrica e apoia decisões de maior responsabilidade, enquanto o utilizador final obtém maior transparência, compreensão do processo e possibilidade de acompanhamento. O sistema passa, assim, a articular de forma mais clara o conhecimento especializado e a necessidade individual. A utilização da plataforma deve ser entendida, por isso, como uma forma de organizar a intervenção dos diferentes participantes no processo de personalização, articulando decisões técnicas, acompanhamento pelo utilizador e mediação pela interface. Esta leitura é consistente com abordagens human-in-the-loop, nas quais as preferências do utilizador, o ajustamento algorítmico e a supervisão profissional coexistem de forma hierárquica e não mutuamente exclusiva, ao mesmo tempo que a literatura mais ampla sobre fabrico digital em próteses continua a assinalar lacunas de formação, validação longitudinal e comparação sistemática entre workflows (Alili et al., 2023 (#ref-alili-2023); Oldfrey et al., 2024 (#ref-oldfrey-2024)). A distribuição diferenciada de acesso, interpretação e decisão conduz, assim, à questão seguinte: compreender de que modo a plataforma medeia o processo de design, para além de definir quem participa na sua utilização.
 
@@ -1185,7 +1171,7 @@ A Figura 8.1 apresenta um precedente de avaliação funcional baseado em tarefas
 
 Figura 8.1 — Tarefas funcionais usadas em avaliação de prótese personalizada de membro superior.
 
-Fonte original: Romero, E., Garcia, J. G., Parra, M., Caballa, S., Saldarriaga, A. M., Luque, E. F., Rodriguez, D. J., Abarca, V. E., & Elias, D. A. (2025). An affordable AI-driven and 3D-printed personalized myoelectric prosthesis: Design, development, and assessment. IEEE Access, 13. https://doi.org/10.1109/ACCESS.2025.3596475
+Fonte original (APA 7): Romero, E., Garcia, J. G., Parra, M., Caballa, S., Saldarriaga, A. M., Luque, E. F., Rodriguez, D. J., Abarca, V. E., & Elias, D. A. (2025). An affordable AI-driven and 3D-printed personalized myoelectric prosthesis: Design, development, and assessment. IEEE Access, 13. https://doi.org/10.1109/ACCESS.2025.3596475
 
 ### 8.2 Validação antropométrica das sugestões de IA
 
@@ -1585,24 +1571,6 @@ Por fim, a investigação abre espaço para estudos com utilizadores, técnicos 
 
 <a id="ref-moreo-2016"></a> Moreo, A. M. (2016). Parametric design of a 3D printable hand prosthesis for children in developing countries [Master's thesis, Delft University of Technology].
 
-<a id="ref-brooks-2026"></a> Brooks, C. (2026). OpenSCAD Web [Computer software]. GitHub. https://github.com/CameronBrooks11/openscad-web
-
-<a id="ref-bustamante-2018"></a> Bustamante, M., Vega-Centeno, R., Sanchez, M., & Mio, R. (2018). A parametric 3D-printed body-powered hand prosthesis based on the four-bar linkage mechanism. In International Conferences on Biological Information and Biomedical Engineering.
-
-<a id="ref-elhadad-2026"></a> ELhadad, N., Aboulhassan, A., & Hassan, Y. M. I. (2026). LLM-based 3D model generation of MHE for OpenSCAD. Procedia Computer Science.
-
-<a id="ref-ghali-2008"></a> Ghali, S. (2008). Constructive solid geometry. In Introduction to geometric computing.
-
-<a id="ref-gonzalez-avila-2024"></a> Gonzalez Avila, J. F., Pietrzak, T., Girouard, A., & Casiez, G. (2024). Understanding the challenges of OpenSCAD users for 3D printing. In Proceedings of the CHI Conference on Human Factors in Computing Systems. ACM. https://arxiv.org/abs/2408.01796
-
-<a id="ref-openscad-community-nd"></a> OpenSCAD Community. (n.d.). OpenSCAD User Manual/Using OpenSCAD in a command line environment. Wikibooks. Retrieved July 7, 2026, from https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Using_OpenSCAD_in_a_command_line_environment
-
-<a id="ref-openscad-project-nd-a"></a> OpenSCAD Project. (n.d.-a). OpenSCAD: The programmers solid 3D CAD modeller. Retrieved July 7, 2026, from https://openscad.org/
-
-<a id="ref-openscad-project-nd-b"></a> OpenSCAD Project. (n.d.-b). OpenSCAD source repository [Computer software]. GitHub. Retrieved July 7, 2026, from https://github.com/openscad/openscad
-
-<a id="ref-romani-levi-2020"></a> Romani, A., & Levi, M. (2020). Parametric design for online user customization of 3D printed assistive technology for rheumatic diseases. In International Conference on Augmented and Virtual Reality.
-
 <a id="ref-romero-2025"></a> Romero, M., Sánchez, J., & Álvarez, H. (2025). Development of parametric prostheses for different levels of human hand amputations manufactured through additive manufacturing. Applied Sciences, 15(3), 1124. https://doi.org/10.3390/app15031124
 
 <a id="ref-machado-2019"></a> Machado, F., Malpica, N., & Borromeo, S. (2019). Parametric CAD modeling for open source scientific hardware: Comparing OpenSCAD and FreeCAD Python scripts. PLOS ONE, 14(12), e0225795. https://doi.org/10.1371/journal.pone.0225795
@@ -1612,10 +1580,6 @@ Por fim, a investigação abre espaço para estudos com utilizadores, técnicos 
 <a id="ref-menaka-2025"></a> Menaka, S., Raja A, W., Ramakrishnan, S., Karthikeswaran, D., Sridar, K., & Sivaranjani, T. (2025). AI-driven computer-aided design (CAD) systems: Leveraging neural networks for optimized engineering product development. International Journal of Applied Mathematics, 38(5s).
 
 <a id="ref-nilsiam-2017"></a> Nilsiam, Y., & Pearce, J. M. (2017). Free and open source 3-D model customizer for websites to democratize design with OpenSCAD. Designs, 1(1), 5. https://doi.org/10.3390/designs1010005
-
-<a id="ref-schofer-seibel-2025"></a> Schöfer, F., & Seibel, A. (2025). Augmented design automation: Leveraging parametric designs using large language models. Proceedings of the Design Society.
-
-<a id="ref-trautmann-2021"></a> Trautmann, L. (2021). Product customization and generative design. Multidiszciplináris Tudományok.
 
 <a id="ref-nini-2024"></a> Nini, L., Ceccarelli, A., Tagliamonte, N., Zollo, L., & Taffoni, F. (2024). Parametric 3D modeling of a customized prosthetic hand finger for additive manufacturing. In 2024 10th IEEE RAS/EMBS International Conference for Biomedical Robotics and Biomechatronics (BioRob). IEEE. https://doi.org/10.1109/BioRob60516.2024.10719909
 
