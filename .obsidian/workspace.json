@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "94d6eaef2a2fbec0",
+        "id": "4259a9b5717467df",
         "type": "tabs",
         "children": [
           {
-            "id": "1f26592499be5057",
+            "id": "2257964e508b6431",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "data_extraction_explained.md",
+                "file": "project-completo-audit-changes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "data_extraction_explained"
+              "title": "project-completo-audit-changes"
             }
           }
         ]
@@ -183,27 +183,43 @@
       "bases:Criar nova base": false
     }
   },
-  "active": "1f26592499be5057",
+  "active": "2257964e508b6431",
   "lastOpenFiles": [
+    "material/antropometria/Hand anthropometry and its Hand anthropometry and its\nrelation to grip pinch strengt in children aged 5 to 13 years.pdf",
+    "material/antropometria/antropometria_criancas.md",
+    "projects/ai-parametric-prosthetic-hand-generator/translations.js",
+    "projects/ai-parametric-prosthetic-hand-generator/test-results/cms-i18n-CMS-i18n-admin-UI-viewer-switcher-chromium/error-context.md",
+    "projects/ai-parametric-prosthetic-hand-generator/test-results/cms-i18n-CMS-i18n-admin-UI-viewer-switcher-chromium",
+    "projects/ai-parametric-prosthetic-hand-generator/server/services/profileMapping.js",
+    "projects/ai-parametric-prosthetic-hand-generator/server/routes/contentRoutes.js",
+    "projects/ai-parametric-prosthetic-hand-generator/scripts/seed-content.js",
+    "projects/ai-parametric-prosthetic-hand-generator/page.html",
+    "projects/ai-parametric-prosthetic-hand-generator/models/reconstruction/flexy_beast/previews/4-top-20260614-200722.png",
+    "projects/ai-parametric-prosthetic-hand-generator/models/reconstruction/flexy_beast/previews/4-top-20260614-145050.png",
+    "projects/ai-parametric-prosthetic-hand-generator/models/reconstruction/flexy_beast/previews/4-top-20260614-122546.png",
+    "projects/ai-parametric-prosthetic-hand-generator/models/reconstruction/flexy_beast/previews/3-right-20260614-200722.png",
+    "projects/ai-parametric-prosthetic-hand-generator/models/reconstruction/flexy_beast/previews/3-right-20260614-145050.png",
+    "projects/ai-parametric-prosthetic-hand-generator/models/reconstruction/flexy_beast/previews/3-right-20260614-122546.png",
+    "projects/ai-parametric-prosthetic-hand-generator/models/reconstruction/flexy_beast/previews/2-front-20260614-200722.png",
+    "projects/ai-parametric-prosthetic-hand-generator/models/reconstruction/flexy_beast/previews/2-front-20260614-145050.png",
+    "projects/ai-parametric-prosthetic-hand-generator/models/reconstruction/flexy_beast/previews/2-front-20260614-122546.png",
+    "projects/ai-parametric-prosthetic-hand-generator/models/reconstruction/flexy_beast/previews/1-isometric-20260614-200722.png",
+    "projects/ai-parametric-prosthetic-hand-generator/models/reconstruction/flexy_beast/output/normal_gauntlet_w_tensioner_primitive.stl",
+    "projects/ai-parametric-prosthetic-hand-generator/models/reconstruction/flexy_beast/previews",
+    "projects/ai-parametric-prosthetic-hand-generator/models/reconstruction/flexy_beast/output",
+    "projects/ai-parametric-prosthetic-hand-generator/models/reconstruction/flexy_beast/normal_gauntlet_w_tensioner_reconstructed.stl",
+    "projects/ai-parametric-prosthetic-hand-generator/models/reconstruction/flexy_beast/README.md",
+    "projects/ai-parametric-prosthetic-hand-generator/README.pt.md",
+    "versions/projecto-completo-103548-13062026.md",
+    "projecto-completo-audit.md",
+    "projecto_questoes.md",
+    "projecto-completo.md",
+    "material/README.md",
+    "data_extraction_explained.md",
     "CLAUDE.md",
     "projecto-completo-2236-04052026-1553-05052026.md",
     "README.md",
     "Projecto completo_baseline.md",
-    "data_extraction_explained.md",
-    "material/README.md",
-    "material/Meta-Design_A_manifesto_for_End-User_Development.pdf",
-    "material/1-s2.0-S0048733303000490-main.pdf",
-    "material/antropometria/Anthropometric Data Analytics a Portuguese Case Study.pdf",
-    "material/antropometria/978-3-642-02809-0.pdf",
-    "material/antropometria/1_wcsjNXW4OD0kw1eN35Y5mg.webp",
-    "material/antropometria/1_pur0a9wdF1qNGokmOKxIvQ.webp",
-    "material/antropometria/1_I3NfCB-u78BQm-P--nqBGg.webp",
-    "material/antropometria/The Use of Factor Analysis in the Development of Hand Sizes for Glove Design.pdf",
-    "material/antropometria/Vista de Estimación de medidas antropom...tir del método de relaciones de escala.pdf",
-    "tools/__pycache__/rename_pdfs.cpython-312.pyc",
-    "tools/__pycache__/organize_toorganize.cpython-312.pyc",
-    "tools/__pycache__/odt_to_md.cpython-312.pyc",
-    "tools/__pycache__/mendeley_organizer.cpython-312.pyc",
     "docs/projecto-completo-2236-04052026-fixed.md",
     "2026-05-05.md",
     "Sem título.canvas",

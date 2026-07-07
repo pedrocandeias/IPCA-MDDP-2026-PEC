@@ -2,6 +2,7 @@
 
 ## 2026-07-07
 
+- Captured all remaining working tree changes requested by the user, including the updated root DOCX, reconstruction protocol notes, HandFab image assets, temporary document copies, and workspace state.
 - Added `figuras/ch4_parametric_3d_modeling_of_a_customi_figure7_p5_pt.png`, a Portuguese localized version of the Chapter 4 parametric finger trajectory figure.
 
 ## 2026-07-06
