@@ -9,11 +9,11 @@ O manuscrito editável principal é [`projecto-completo.md`](projecto-completo.m
 - `projecto-completo.md`: manuscrito consolidado em Markdown. Mantém uma linha de versão no topo.
 - `projecto-completo.docx`: cópia DOCX principal para revisão no LibreOffice, incluindo imagens e comentários.
 - `projecto-completo-repeticoes.docx`: versão derivada com cortes e condensações focados em repetições. Não substitui automaticamente o manuscrito principal.
-- `data_extraction_explained.md`: material técnico integrado como Anexo A no manuscrito.
+- `sources/manuscript/annexes/data_extraction_explained.md`: material técnico integrado como Anexo A no manuscrito.
 - `CHANGELOG.md`: registo cronológico das alterações do repositório.
 - `AGENTS.md`: regras operacionais para edição, pesquisa, bibliografia, backups, commits e exportações.
 
-Nota: ficheiros antigos como `Projecto completo_baseline.md` são históricos. O ficheiro ativo é `projecto-completo.md`.
+Nota: ficheiros antigos como `sources/manuscript/baselines/Projecto completo_baseline.md` são históricos. O ficheiro ativo é `projecto-completo.md`.
 
 ## Estrutura do repositório
 
@@ -25,6 +25,8 @@ Nota: ficheiros antigos como `Projecto completo_baseline.md` são históricos. O
 - `sources/`: fontes de trabalho, documentos auxiliares e outputs de pesquisa.
 - `sources/docx/`: documentos `.docx` de apoio.
 - `sources/elicit/`: pesquisas, reports, notas e sessões locais do Elicit por capítulo/secção.
+- `sources/manuscript/`: materiais derivados do próprio manuscrito, incluindo anexos, auditorias, versões base e revisões.
+- `sources/notes/`: notas soltas ou datadas que não pertencem ao corpo principal do manuscrito.
 - `material/`: biblioteca local de PDFs e recursos temáticos.
 - `projecto_completo_bibliografia/`: PDFs e controlo bibliográfico específico do manuscrito.
 - `projecto-completo_media/`: imagens associadas ao Markdown convertido/extraído.
@@ -70,6 +72,27 @@ Ferramentas relevantes:
 - `tools/extract_docx_comments.py`: extrai comentários de DOCX e ajuda a mapear texto comentado.
 - `tools/recover_docx_comments.py`: recupera comentários após exports baseados em Markdown quando a estrutura permite.
 - `tools/docx_to_md.py`: converte DOCX para Markdown e extrai imagens embebidas.
+- `tools/backup_docx.sh`: cria um backup datado de `projecto-completo.docx` em `versions/` e regenera sempre `projecto-completo.pdf` a partir do DOCX atual.
+- `tools/docx_to_pdf.sh`: regenera `projecto-completo.pdf` a partir do `projecto-completo.docx` atual (fonte única da conversão DOCX→PDF).
+- `tools/install_hooks.sh`: instala os git hooks versionados do repositório (aponta `core.hooksPath` para `tools/hooks/`).
+
+## Backup do DOCX e PDF
+
+```bash
+./tools/backup_docx.sh [etiqueta]
+```
+
+Guarda uma cópia datada em `versions/projecto-completo-docx-<timestamp>-<etiqueta>.docx` e, no mesmo passo, regenera `projecto-completo.pdf` a partir do `projecto-completo.docx` atual usando LibreOffice em modo headless. Correr sempre que o DOCX for alterado, para o PDF acompanhar a versão mais recente.
+
+### PDF automático no commit
+
+O PDF é mantido em sincronia automaticamente por um git hook `pre-commit` versionado (`tools/hooks/pre-commit`): sempre que `projecto-completo.docx` faz parte de um commit, o hook regenera `projecto-completo.pdf` e adiciona-o ao mesmo commit. Instalar os hooks uma vez por clone:
+
+```bash
+./tools/install_hooks.sh
+```
+
+Isto aponta `core.hooksPath` para `tools/hooks/`, pelo que os hooks ficam versionados com o repositório. Não usar `git commit --no-verify` quando o DOCX foi alterado.
 
 ## Conversão entre formatos
 
