@@ -1,6 +1,6 @@
 Projecto completo
 
-Versão do documento:0.4.17
+Versão do documento:0.4.14
 
 ## INTEGRAÇÃO DO DESIGN E DA INTELIGÊNCIA ARTIFICIAL EM PROCESSOS PARAMÉTRICOS PARA O DESENVOLVIMENTO DE PRÓTESES DE MEMBROS SUPERIORES EM IMPRESSÃO 3D.
 
@@ -17,8 +17,6 @@ Versão do documento:0.4.17
 | 3DP | 3D Printing; impressão 3D. |
 
 | 3MF | 3D Manufacturing Format; formato de ficheiro para fabrico aditivo. |
-
-| AMS | Automatic Material System; sistema automático de alimentação de filamento usado em impressoras Bambu Lab. |
 
 | ANSUR | Anthropometric Survey of U.S. Army Personnel; inquérito antropométrico do Exército dos Estados Unidos. |
 
@@ -151,11 +149,10 @@ Versão do documento:0.4.17
 | Tabela 4.5 | Estrutura hierárquica dos parâmetros no modelo paramétrico | 61 |
 | Tabela 4.6 | Mapeamento entre parâmetros antropométricos e elementos do modelo | 63 |
 | Tabela 4.7 | Estrutura técnica em camadas de um modelo paramétrico em OpenSCAD para próteses personalizadas | 65 |
-| Tabela 8.1 | Síntese dos resultados da validação por impressão 3D | 98 |
-| Tabela 8.2 | Entradas/prompt utilizadas para criação dos perfis de validação antropométrica por IA | 100 |
-| Tabela 8.3 | Síntese da validação antropométrica assistida por IA | 102 |
-| Tabela 8.4 | Modelos e mecanismos de escala avaliados | 103 |
-| Tabela 8.5 | Rácio adimensional da maior dimensão da palma exportada face ao baseline | 103 |
+| Tabela 8.1 | Entradas/prompt utilizadas para criação dos perfis de validação antropométrica por IA | 99 |
+| Tabela 8.2 | Síntese da validação antropométrica assistida por IA | 102 |
+| Tabela 8.3 | Modelos e mecanismos de escala avaliados | 103 |
+| Tabela 8.4 | Rácio adimensional da maior dimensão da palma exportada face ao baseline | 103 |
 
 ## Lista de figuras
 
@@ -180,7 +177,7 @@ Versão do documento:0.4.17
 | Figura 5.3 | Ferramenta paramétrica para configuração de ajudas técnicas com variação de dimensões, materiais e peso. | 77 |
 | Figura 6.1 | Relação entre desafios de explicabilidade e princípios de IA responsável. | 89 |
 | Figura 7.1 | Teste de uma prótese impressa em 3D com utilizador em contexto aplicado. | 94 |
-| Figura 8.1 | Tarefas funcionais usadas em avaliação de prótese personalizada de membro superior. | 99 |
+| Figura 8.1 | Tarefas funcionais usadas em avaliação de prótese personalizada de membro superior. | 98 |
 
 ## Capítulo 1 — Introdução
 
@@ -214,7 +211,7 @@ O objetivo geral é gerar conhecimento por meio da prática do Design, criando e
 
 ### 1.3.2 Objetivos específicos
 
-Pretende-se analisar criticamente o papel do Design Industrial como mediador entre a tecnologia e a experiência humana. O sistema paramétrico é um modelo ajustável, apoiado por uma plataforma digital, que permite configurar próteses com base em dados antropométricos (medidas físicas do utilizador) e em preferências individuais. A validação da abordagem combina testes de perfil, exportação de geometrias, análise de malhas e prototipagem por impressão 3D, avaliando a coerência dimensional, a montagem preliminar, a viabilidade de fabrico e os limites materiais, sem reivindicar validação clínica do dispositivo.
+Pretende-se analisar criticamente o papel do Design Industrial como mediador entre a tecnologia e a experiência humana. O sistema paramétrico é um modelo ajustável, apoiado por uma plataforma digital, que permite configurar próteses com base em dados antropométricos (medidas físicas do utilizador) e em preferências individuais. A validação da abordagem combina testes de perfil, exportação de geometrias, análise de malhas e prototipagem por impressão 3D em PLA e PETG, avaliando a coerência dimensional, a montagem preliminar, a viabilidade de fabrico e os limites materiais, sem reivindicar validação clínica do dispositivo.
 
 A investigação busca responder: como o design de produto, métodos paramétricos e inteligência artificial podem melhorar a personalização, o conforto e a adequação funcional de próteses, mantendo a acessibilidade e o controle projetual? Quais metodologias e ferramentas validam a eficácia, a usabilidade, a durabilidade e a reprodutibilidade de próteses impressas em 3D? Como o Design Industrial concilia requisitos anatómicos, funcionais, ergonómicos, estéticos e simbólicos, promovendo a aceitação, a dignidade e a autonomia?
 
@@ -222,7 +219,7 @@ A investigação busca responder: como o design de produto, métodos paramétric
 
 O projeto adota uma metodologia aplicada, baseada em Research Through Design, que reconhece o ato de projetar como uma forma de gerar conhecimento. Estrutura-se em fases conceptual, metodológica e empírica, articuladas pelo modelo Double Diamond, que promove ciclos iterativos de exploração, definição, desenvolvimento e validação.
 
-A fase conceptual realiza uma revisão crítica da literatura e das plataformas, consolidando o quadro teórico e os requisitos técnicos. A fase metodológica estabelece a arquitetura do sistema paramétrico assistido por inteligência artificial, integrando dados antropométricos e princípios de design para fabricação aditiva. A fase empírica operacionaliza a modelação paramétrica, a produção de protótipos por impressão 3D e a avaliação técnica e funcional preliminar, sem utilizar dados pessoais de utilizadores.
+A fase conceptual realiza uma revisão crítica da literatura e das plataformas, consolidando o quadro teórico e os requisitos técnicos. A fase metodológica estabelece a arquitetura do sistema paramétrico assistido por inteligência artificial, integrando dados antropométricos e princípios de design para fabricação aditiva. A fase empírica operacionaliza a modelação paramétrica, a produção de protótipos por impressão 3D em PLA e PETG e a avaliação técnica e funcional preliminar, sem utilizar dados pessoais de utilizadores.
 
 ### 1.5 Estrutura da dissertação
 
@@ -754,7 +751,7 @@ A fase conceptual corresponde ao momento de enquadramento teórico e de problema
 
 A fase metodológica corresponde à definição e implementação do sistema paramétrico assistido por IA. Nesta etapa especifica-se a arquitetura da plataforma digital, integrando módulos de configuração paramétrica, bases de dados antropométricas e algoritmos de apoio à interpretação de medidas e à otimização geométrica. Desenvolvem-se protótipos digitais iterativos, testando relações formais e funcionais e avaliando a viabilidade de fabrico segundo os princípios de DfAM. É nesta fase que a investigação se aproxima mais claramente de uma lógica de research by making, em que as decisões de modelação, parametrização e iteração constituem simultaneamente desenvolvimento técnico e produção de conhecimento metodológico.
 
-A fase empírica materializa a operacionalização do conhecimento gerado. Os modelos paramétricos são testados com diferentes perfis antropométricos provenientes de bases de dados públicas, e as configurações resultantes dos testes de perfil são exportadas para fabrico e produzidas por impressão 3D. Esta fase permite avaliar a passagem do perfil simulado para a geometria exportada e desta para o protótipo físico, observando a exequibilidade de impressão, a integridade estrutural preliminar, a montagem, a ajustabilidade e a coerência formal perante variações dimensionais.
+A fase empírica materializa a operacionalização do conhecimento gerado. Os modelos paramétricos são testados com diferentes perfis antropométricos provenientes de bases de dados públicas, e as configurações resultantes dos testes de perfil são exportadas para fabrico e produzidas por impressão 3D em PLA e PETG. Esta fase permite avaliar a passagem do perfil simulado para a geometria exportada e desta para o protótipo físico, observando a exequibilidade de impressão, a integridade estrutural preliminar, a montagem, a ajustabilidade e a coerência formal perante variações dimensionais.
 
 ### 3.4 Métodos de recolha e análise de dados
 
@@ -764,7 +761,7 @@ Num primeiro nível, procede-se à análise documental e à revisão da literatu
 
 Durante o desenvolvimento do sistema paramétrico, os dados assumem natureza técnica e projetual, incluindo parâmetros geométricos, relações dimensionais, tempos de fabrico, consumo de material e desempenho estrutural dos protótipos. Estes dados são analisados de forma iterativa, permitindo reformular o modelo paramétrico e otimizar o seu desempenho.
 
-Na fase de prototipagem, a análise incide sobre os critérios de exequibilidade de fabrico, robustez estrutural preliminar, coerência dimensional, facilidade de montagem e comportamento material inicial. Os modelos exportados a partir dos testes de perfil foram preparados para impressão no PrusaSlicer 2.9.6 e no Bambu Studio, e materializados por impressão 3D em PLA e PETG numa Bambu Lab A1 com AMS. A opção por estes dois materiais permite comparar uma solução rígida, estável e económica, adequada à verificação rápida da geometria, com uma alternativa mais resistente e menos frágil, útil para observar o comportamento dos componentes em manipulação, encaixe e montagem preliminar. Esta comparação permite verificar se a geometria gerada pelo sistema se mantém imprimível, manipulável e coerente depois da transição do ambiente digital para o objeto físico. Não são recolhidos dados pessoais ou biométricos de utilizadores reais; utilizam-se exclusivamente conjuntos de dados antropométricos públicos, o que delimita o âmbito empírico ao domínio técnico e projetual. Entre estes, destaca-se a base local consolidada de medidas da mão e do membro superior distal, usada como infraestrutura intermédia para a seleção, comparação e normalização de medidas relevantes para a parametrização geométrica. A organização dos dados preserva informação sobre país, amostra, tipo de medida, estatística, fonte documental e granularidade dos subconjuntos analisados, tornando explícitas a cobertura e as limitações de cada fonte antes da sua tradução em parâmetros de projeto.
+Na fase de prototipagem, a análise incide sobre os critérios de exequibilidade de fabrico, robustez estrutural preliminar, coerência dimensional, facilidade de montagem e comportamento material inicial. Os modelos exportados a partir dos testes de perfil são preparados para impressão, fatiados e materializados em PLA e PETG, permitindo verificar se a geometria gerada pelo sistema se mantém imprimível, manipulável e coerente depois da transição do ambiente digital para o objeto físico. Não são recolhidos dados pessoais ou biométricos de utilizadores reais; utilizam-se exclusivamente conjuntos de dados antropométricos públicos, o que delimita o âmbito empírico ao domínio técnico e projetual. Entre estes, destaca-se a base local consolidada de medidas da mão e do membro superior distal, usada como infraestrutura intermédia para a seleção, comparação e normalização de medidas relevantes para a parametrização geométrica. A organização dos dados preserva informação sobre país, amostra, tipo de medida, estatística, fonte documental e granularidade dos subconjuntos analisados, tornando explícitas a cobertura e as limitações de cada fonte antes da sua tradução em parâmetros de projeto.
 
 Embora o presente estudo não utilize participantes reais, a literatura metodológica da área ajuda a esclarecer como medições lineares e procedimentos de ajuste são normalmente operacionalizados em contextos aplicados. A Figura 3.2 ilustra esse tipo de recolha dimensional orientada para fabrico, servindo aqui como precedente metodológico para a tradução de medidas em parâmetros de projeto.
 
@@ -1406,22 +1403,9 @@ A avaliação geométrica prolongou estes critérios até à etapa de exportaç�
 
 Esta etapa foi relevante porque a correção dos valores numéricos sugeridos não garante, por si só, que a geometria final responda de forma coerente aos parâmetros aplicados. A medição das peças exportadas permitiu verificar se as relações paramétricas definidas se preservavam desde a sugestão inicial até ao modelo gerado.
 
-A validação foi depois prolongada para prototipagem física. Com base nos resultados dos testes de perfil, foram selecionadas configurações representativas dos cenários avaliados, incluindo perfis de mão pequena, perfil adulto feminino e perfil adulto masculino. Estas geometrias foram exportadas em STL/3MF, preparadas no PrusaSlicer 2.9.6 e no Bambu Studio, e impressas nos materiais definidos na metodologia numa Bambu Lab A1 com AMS, para verificar a passagem do modelo exportado ao protótipo físico.
+A validação foi depois prolongada para prototipagem física. Com base nos resultados dos testes de perfil, foram selecionadas configurações representativas dos cenários avaliados, incluindo perfis de mão pequena, perfil adulto feminino e perfil adulto masculino. Estas geometrias foram exportadas em STL/3MF, preparadas em ambiente de fatiamento e impressas em PLA e PETG. A utilização dos dois materiais teve uma função comparativa: o PLA permitiu uma verificação rápida, estável e económica da geometria, enquanto o PETG permitiu observar a resposta de um material mais resistente e menos frágil em componentes sujeitos a manipulação, encaixe e montagem preliminar.
 
-A validação física seguiu cinco verificações principais: compatibilidade do ficheiro exportado com o software de preparação para impressão, ausência de falhas críticas de malha ou escala, conclusão da impressão sem defeitos impeditivos, inspeção visual e dimensional das zonas críticas e, quando aplicável, teste de encaixe ou montagem entre componentes. Esta etapa não teve como objetivo demonstrar eficácia clínica, conforto de uso ou durabilidade prolongada; o seu objetivo foi confirmar que os resultados dos perfis testados podiam atravessar a cadeia completa perfil -> parâmetros -> OpenSCAD/WebAssembly -> STL/3MF -> impressão 3D, mantendo coerência geométrica e viabilidade produtiva.
-
-A Tabela 8.1 sintetiza os resultados observados nas impressões realizadas. A leitura deve ser entendida como registo técnico preliminar de produção e verificação material, e não como ensaio mecânico normalizado ou validação clínica.
-
-Tabela 8.1 — Síntese dos resultados da validação por impressão 3D
-
-| Configuração testada | Material | Verificações realizadas | Resultado observado |
-| --- | --- | --- | --- |
-| Perfil de mão pequena | PLA | Geração do ficheiro de impressão, escala e zonas finas | Impressão concluída sem defeitos impeditivos; geometria imprimível, mantendo necessidade de atenção às espessuras nas zonas reduzidas. |
-| Perfil de mão pequena | PETG | Geração do ficheiro de impressão, manipulação e encaixe preliminar | Impressão concluída; comportamento material menos frágil na manipulação e no encaixe preliminar. |
-| Perfil adulto feminino | PLA | Geração do ficheiro de impressão, escala e integridade formal | Impressão concluída; proporções e escala mantiveram coerência com o modelo exportado. |
-| Perfil adulto feminino | PETG | Geração do ficheiro de impressão, zonas críticas e montagem preliminar | Impressão concluída; zonas críticas e encaixes verificáveis no protótipo físico. |
-| Perfil adulto masculino | PLA | Geração do ficheiro de impressão e escala aumentada | Impressão concluída; a escala maior não impediu a produção do protótipo. |
-| Perfil adulto masculino | PETG | Geração do ficheiro de impressão, manipulação e montagem preliminar | Impressão concluída; manipulação preliminar sem falhas impeditivas observadas. |
+A validação física seguiu cinco verificações principais: compatibilidade do ficheiro exportado com o fatiamento, ausência de falhas críticas de malha ou escala, conclusão da impressão sem defeitos impeditivos, inspeção visual e dimensional das zonas críticas e, quando aplicável, teste de encaixe ou montagem entre componentes. Esta etapa não teve como objetivo demonstrar eficácia clínica, conforto de uso ou durabilidade prolongada; o seu objetivo foi confirmar que os resultados dos perfis testados podiam atravessar a cadeia completa perfil -> parâmetros -> OpenSCAD/WebAssembly -> STL/3MF -> impressão 3D, mantendo coerência geométrica e viabilidade produtiva.
 
 A Figura 8.1 apresenta um precedente de avaliação funcional baseado em tarefas quotidianas de membro superior. Embora o presente trabalho não realize validação clínica nem testes com utilizadores reais, este tipo de protocolo ajuda a enquadrar o horizonte de avaliação futura: depois da coerência paramétrica e geométrica, será necessário observar desempenho em tarefas, facilidade de uso e adequação funcional em contexto real (Romero et al., 2025 (#ref-romero-2025)).
 
@@ -1439,7 +1423,7 @@ Este cenário assume especial relevância para a acessibilidade do sistema, uma 
 
 Nas cinco situações, a IA produziu JSON válido, usou apenas parâmetros existentes, respeitou os limites declarados do modelo e manteve a ordenação anatómica esperada entre os dedos.
 
-Tabela 8.2 — Entradas/prompt utilizadas para criação dos perfis de validação antropométrica por IA
+Tabela 8.1 — Entradas/prompt utilizadas para criação dos perfis de validação antropométrica por IA
 
 | Conjunto experimental | Tipo de perfil criado | Descrição usada como entrada | Finalidade da validação |
 
@@ -1471,7 +1455,7 @@ A falha, neste caso, estava na regra de teste demasiado rígida, e não na suges
 
 O segundo conjunto experimental avaliou três cenários de amputação unilateral com riqueza variável de dados. No caso com medições completas da mão intacta, os valores fornecidos foram preservados literalmente e o lado sugerido correspondeu à mão amputada. No caso parcial, a largura da palma fornecida foi mantida e os restantes comprimentos foram estimados proporcionalmente. No caso apenas demográfico, a IA gerou um conjunto completo de medidas plausíveis. Estes ensaios iniciais sugeriam lateralidade correta, mas a avaliação UCD posterior revelou que pedidos explícitos de mão esquerda podiam ser sistematicamente convertidos em mão direita. A correção subsequente retirou a lateralidade do espaço de decisão da IA e transferiu-a para um controlo determinístico da interface.
 
-Tabela 8.3 — Síntese da validação antropométrica assistida por IA
+Tabela 8.2 — Síntese da validação antropométrica assistida por IA
 
 | Eixo avaliado | Resultado observado | Interpretação |
 
@@ -1495,7 +1479,7 @@ A repetição de perfis idênticos evidenciou a natureza estocástica da compone
 
 A validação geométrica testou se os valores sugeridos chegavam à malha exportada em três modelos ativos da plataforma: Flexy Beast, Paraglider Hand e UnLimbited Phoenix. Para cada modelo foram comparados um baseline por omissão e três perfis antropométricos simulados: criança, mulher adulta e homem adulto. Todas as execuções devolveram sugestões ancoradas em perfis populacionais e valores dentro dos intervalos declarados.
 
-Tabela 8.4 — Modelos e mecanismos de escala avaliados
+Tabela 8.3 — Modelos e mecanismos de escala avaliados
 
 | Modelo | Entradas antropométricas principais | Mecanismo de escala | Implicação observada |
 
@@ -1511,7 +1495,7 @@ Nota: os rácios apresentados são adimensionais. Um valor de 1,000 corresponde 
 
 Os resultados mostraram que o Flexy Beast e o Paraglider Hand respondem de forma semelhante aos mesmos perfis, reduzindo ou aumentando as dimensões da palma de modo aproximadamente linear. A criança produziu uma escala de cerca de 0,76 face ao baseline nos modelos escaláveis, a mulher adulta ficou próxima de 0,93 e o homem adulto ficou entre 1,15 e 1,16. No Phoenix, pelo contrário, o piso mínimo de escala impediu a redução abaixo de cerca de 82 mm de largura de palma, fazendo com que perfis pequenos fossem truncados para o tamanho mínimo suportado pelo próprio modelo.
 
-Tabela 8.5 — Rácio adimensional da maior dimensão da palma exportada face ao baseline
+Tabela 8.4 — Rácio adimensional da maior dimensão da palma exportada face ao baseline
 
 | Perfil | Flexy Beast | Paraglider Hand | UnLimbited Phoenix |
 
@@ -1539,9 +1523,9 @@ Face aos objetivos da investigação, os resultados reforçam a pertinência de 
 
 Esta capacidade responde diretamente ao problema de acessibilidade identificado no projeto: muitos utilizadores conseguem descrever idade, altura, constituição física ou lado amputado, mas não dominam a nomenclatura nem os procedimentos de medição necessários para parametrizar uma mão protésica.
 
-A avaliação também delimita com clareza os limites do sistema. A variabilidade estocástica da IA impede tratar uma saída isolada como prescrição fixa; a ausência de uma referência clínica direta impede afirmar precisão individual; e a lateralidade revelou-se um parâmetro crítico que não deve ser delegado à inferência do modelo. A correção implementada resolve esse risco ao deslocar a decisão para a interface, mas exige ainda reforço de UX para tornar a escolha do lado suficientemente visível e obrigatória. Do mesmo modo, a validação geométrica e física demonstra que cada modelo transporta constrangimentos próprios: alguns aceitam escalas pequenas, outros impõem pisos mínimos ou preservam proporções globais herdadas do desenho original. A prototipagem física confirmou a viabilidade das configurações selecionadas, mas também reforçou que a passagem para o objeto físico deve ser tratada como etapa de verificação material e não como prova clínica. Consequentemente, os resultados são promissores enquanto validação de coerência interna, acessibilidade paramétrica e viabilidade de prototipagem, mas permanecem preliminares enquanto validação protésica.
+A avaliação também delimita com clareza os limites do sistema. A variabilidade estocástica da IA impede tratar uma saída isolada como prescrição fixa; a ausência de uma referência clínica direta impede afirmar precisão individual; e a lateralidade revelou-se um parâmetro crítico que não deve ser delegado à inferência do modelo. A correção implementada resolve esse risco ao deslocar a decisão para a interface, mas exige ainda reforço de UX para tornar a escolha do lado suficientemente visível e obrigatória. Do mesmo modo, a validação geométrica e física demonstra que cada modelo transporta constrangimentos próprios: alguns aceitam escalas pequenas, outros impõem pisos mínimos ou preservam proporções globais herdadas do desenho original. A impressão em PLA e PETG confirmou a viabilidade de prototipagem das configurações selecionadas, mas também reforçou que a passagem para o objeto físico deve ser tratada como etapa de verificação material e não como prova clínica. Consequentemente, os resultados são promissores enquanto validação de coerência interna, acessibilidade paramétrica e viabilidade de prototipagem, mas permanecem preliminares enquanto validação protésica.
 
-A principal conclusão metodológica é que a robustez do sistema depende menos da presença isolada da IA do que da qualidade das regras, limites e mecanismos de validação que enquadram a sua atuação. O esquema de parâmetros do modelo, os limites declarados, a filtragem dos campos devolvidos, a ancoragem em dados populacionais, a renderização por OpenSCAD/WebAssembly, a exportação em STL/3MF, a preparação para impressão e a impressão 3D formam uma cadeia de verificações sucessivas.
+A principal conclusão metodológica é que a robustez do sistema depende menos da presença isolada da IA do que da qualidade das regras, limites e mecanismos de validação que enquadram a sua atuação. O esquema de parâmetros do modelo, os limites declarados, a filtragem dos campos devolvidos, a ancoragem em dados populacionais, a renderização por OpenSCAD/WebAssembly, a exportação em STL/3MF, a preparação para fatiamento e a impressão em PLA/PETG formam uma cadeia de verificações sucessivas.
 
 Quando essa cadeia é respeitada, a IA contribui para reduzir a barreira inicial de configuração; quando qualquer elo fica implícito, surgem riscos como lateralidade inferida, parâmetros sem correspondência geométrica ou escalas incompatíveis com o modelo físico.
 
@@ -1559,7 +1543,7 @@ A validação realizada mostrou quatro resultados principais. Primeiro, as suges
 
 Terceiro, a validação geométrica entre modelos demonstrou que a exportação em STL/3MF é indispensável para identificar constrangimentos que a resposta numérica não revela, como limites mínimos de escala, dependências herdadas do código original e diferenças efetivas entre modelos.
 
-Quarto, a prototipagem física confirmou que as configurações selecionadas a partir dos testes de perfil podiam ser preparadas para impressão e impressas, permitindo verificar escala, integridade formal, zonas críticas e montagem preliminar. Esta etapa validou a viabilidade produtiva do fluxo, mas não constitui validação clínica ou biomecânica completa.
+Quarto, a prototipagem física em PLA e PETG confirmou que as configurações selecionadas a partir dos testes de perfil podiam ser preparadas, fatiadas e impressas, permitindo verificar escala, integridade formal, zonas críticas e montagem preliminar. Esta etapa validou a viabilidade produtiva do fluxo, mas não constitui validação clínica ou biomecânica completa.
 
 Quinto, a avaliação centrada no utilizador revelou que a acessibilidade paramétrica depende tanto da qualidade da inferência - entendida como o processo através do qual a IA transforma informação incompleta, indireta ou descritiva em sugestões paramétricas plausíveis - como das salvaguardas incorporadas na interface: entradas vagas e formuladas em diferentes línguas foram tratadas com robustez, mas a lateralidade, a adequação do modelo escolhido e a proveniência das estimativas exigem controlos explícitos para evitar confiança excessiva no resultado.
 
@@ -1585,7 +1569,7 @@ A componente de IA exige desenvolvimento adicional, mesmo após a correção det
 
 A variabilidade estocástica deve ser quantificada com múltiplas extrações por perfil, reportando médias, dispersão e taxas de aprovação dos invariantes. A comparação com bases de dados antropométricas ou medições reais permitiria passar da plausibilidade para uma estimativa mais rigorosa de erro. Do ponto de vista da experiência de utilização, a plataforma deve também mostrar a proveniência das estimativas, a incerteza associada ao grupo populacional usado e avisos explícitos quando o modelo escolhido não consegue representar a dimensão estimada do utilizador.
 
-Do ponto de vista geométrico e produtivo, a validação física realizada deve ser aprofundada através de ensaios mais sistemáticos de montagem, tolerâncias, resistência, desgaste, repetibilidade de impressão e adequação ao uso. Também será necessário clarificar a seleção de modelos segundo faixas dimensionais: modelos como o Flexy Beast são mais adequados a mãos pequenas, enquanto modelos com piso mínimo, como o Phoenix, exigem restrições claras na interface para evitar expectativas incorretas. A plataforma deve, portanto, evoluir de um configurador que aceita parâmetros para um sistema que também orienta a escolha do modelo adequado ao perfil, ao material e ao objetivo de fabrico.
+Do ponto de vista geométrico e produtivo, a validação física realizada em PLA e PETG deve ser aprofundada através de ensaios mais sistemáticos de montagem, tolerâncias, resistência, desgaste, repetibilidade de impressão e adequação ao uso. Também será necessário clarificar a seleção de modelos segundo faixas dimensionais: modelos como o Flexy Beast são mais adequados a mãos pequenas, enquanto modelos com piso mínimo, como o Phoenix, exigem restrições claras na interface para evitar expectativas incorretas. A plataforma deve, portanto, evoluir de um configurador que aceita parâmetros para um sistema que também orienta a escolha do modelo adequado ao perfil, ao material e ao objetivo de fabrico.
 
 Por fim, a investigação abre espaço para estudos com utilizadores, técnicos e designers, avaliando não apenas a geometria exportada, mas também a inteligibilidade da interface, a confiança nas sugestões, a distribuição de responsabilidade e a utilidade real do fluxo em contextos de prototipagem. A continuidade do projeto deve manter a distinção que estruturou esta dissertação: a IA pode ampliar a acessibilidade e a velocidade de exploração, mas a qualidade de uma prótese personalizada continua a depender da articulação entre design, dados, fabrico, validação técnica e experiência humana.
 

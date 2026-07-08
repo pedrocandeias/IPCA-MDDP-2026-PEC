@@ -1,186 +1,75 @@
 Projecto completo
 
-Versão do documento:0.4.17
-
-## INTEGRAÇÃO DO DESIGN E DA INTELIGÊNCIA ARTIFICIAL EM PROCESSOS PARAMÉTRICOS PARA O DESENVOLVIMENTO DE PRÓTESES DE MEMBROS SUPERIORES EM IMPRESSÃO 3D.
+Versão do documento:0.4.12
 
 ## Lista de acrónimos
 
+A lista seguinte reúne as siglas e acrónimos utilizados no corpo do texto, nas figuras, nas tabelas e nos anexos. Foram excluídas abreviaturas que surgem apenas em entradas bibliográficas, nomes de revistas ou nomes de conferências quando não são usadas no texto principal.
+
 | Acrónimo | Designação/explicação |
-
-| --- | --- |
-
+|---|---|
 | 2D | Bidimensional. |
-
 | 3D | Tridimensional. |
-
-| 3DP | 3D Printing; impressão 3D. |
-
-| 3MF | 3D Manufacturing Format; formato de ficheiro para fabrico aditivo. |
-
-| AMS | Automatic Material System; sistema automático de alimentação de filamento usado em impressoras Bambu Lab. |
-
-| ANSUR | Anthropometric Survey of U.S. Army Personnel; inquérito antropométrico do Exército dos Estados Unidos. |
-
-| API | Application Programming Interface; interface de programação de aplicações. |
-
-| ASTM | American Society for Testing and Materials; organismo internacional de normalização. |
-
-| CAD | Computer-Aided Design; desenho ou projeto assistido por computador. |
-
-| CAM | Computer-Aided Manufacturing; fabrico assistido por computador. |
-
-| CE | Conformité Européenne; marcação europeia de conformidade. |
-
-| CSG | Constructive Solid Geometry; geometria sólida construtiva. |
-
-| CSV | Comma-Separated Values; formato de valores separados por vírgulas. |
-
-| CT | Computed Tomography; tomografia computorizada. |
-
-| DfAM | Design for Additive Manufacturing; design para fabricação aditiva. |
-
-| DINED | Delft Institute of Ergonomics and Design; base de dados antropométrica da TU Delft. |
-
-| DOI | Digital Object Identifier; identificador digital de objeto. |
-
+| 3DP | *3D Printing*; impressão 3D. |
+| 3MF | *3D Manufacturing Format*; formato de ficheiro para fabrico aditivo. |
+| ANSUR | *Anthropometric Survey of U.S. Army Personnel*; inquérito antropométrico do Exército dos Estados Unidos. |
+| API | *Application Programming Interface*; interface de programação de aplicações. |
+| ASTM | *American Society for Testing and Materials*; organismo internacional de normalização. |
+| CAD | *Computer-Aided Design*; desenho ou projeto assistido por computador. |
+| CAM | *Computer-Aided Manufacturing*; fabrico assistido por computador. |
+| CE | *Conformité Européenne*; marcação europeia de conformidade. |
+| CSG | *Constructive Solid Geometry*; geometria sólida construtiva. |
+| CSV | *Comma-Separated Values*; formato de valores separados por vírgulas. |
+| CT | *Computed Tomography*; tomografia computorizada. |
+| DfAM | *Design for Additive Manufacturing*; design para fabricação aditiva. |
+| DINED | *Delft Institute of Ergonomics and Design*; base de dados antropométrica da TU Delft. |
+| DOI | *Digital Object Identifier*; identificador digital de objeto. |
 | EMG | Eletromiografia; registo da atividade elétrica muscular. |
-
-| EU | European Union; União Europeia. |
-
+| EU | *European Union*; União Europeia. |
 | EUA | Estados Unidos da América. |
-
 | FA/FdA | Fabricação aditiva. |
-
-| FDA | Food and Drug Administration; agência reguladora dos Estados Unidos para alimentos, medicamentos e dispositivos médicos. |
-
-| FDM | Fused Deposition Modelling; modelação por deposição fundida. |
-
-| FEA | Finite Element Analysis; análise por elementos finitos. |
-
-| FEM | Finite Element Method; método dos elementos finitos. |
-
-| FFF | Fused Filament Fabrication; fabricação por filamento fundido. |
-
-| FFD | Free-Form Deformation; deformação de forma livre. |
-
+| FDA | *Food and Drug Administration*; agência reguladora dos Estados Unidos para alimentos, medicamentos e dispositivos médicos. |
+| FDM | *Fused Deposition Modelling*; modelação por deposição fundida. |
+| FEA | *Finite Element Analysis*; análise por elementos finitos. |
+| FEM | *Finite Element Method*; método dos elementos finitos. |
+| FFF | *Fused Filament Fabrication*; fabricação por filamento fundido. |
+| FFD | *Free-Form Deformation*; deformação de forma livre. |
 | GB/T | Norma nacional recomendada chinesa. |
-
-| HB | Hand Breadth; largura da mão. |
-
-| HCD | Human-Centred Design; design centrado no humano. |
-
-| HGD | Hand Grip Diameter; diâmetro de preensão da mão. |
-
-| HL | Hand Length; comprimento da mão. |
-
-| HTML | HyperText Markup Language; linguagem de marcação de hipertexto. |
-
+| HB | *Hand Breadth*; largura da mão. |
+| HCD | *Human-Centred Design*; design centrado no humano. |
+| HGD | *Hand Grip Diameter*; diâmetro de preensão da mão. |
+| HL | *Hand Length*; comprimento da mão. |
+| HTML | *HyperText Markup Language*; linguagem de marcação de hipertexto. |
 | IA | Inteligência Artificial. |
-
-| ICF | International Classification of Functioning, Disability and Health; Classificação Internacional de Funcionalidade, Incapacidade e Saúde. |
-
-| IEEE | Institute of Electrical and Electronics Engineers; associação técnico-científica e entidade editorial/de normalização. |
-
-| ISO | International Organization for Standardization; Organização Internacional de Normalização. |
-
-| JSON | JavaScript Object Notation; formato leve de intercâmbio de dados. |
-
-| JWT | JSON Web Token; token web em formato JSON para autenticação e autorização. |
-
-| LL | Lower Limb; membro inferior. |
-
-| MCP | Metacarpophalangeal; articulação metacarpofalângica. |
-
-| MDR | Medical Device Regulation; Regulamento Europeu dos Dispositivos Médicos. |
-
-| MPT | Matching Person and Technology; modelo de adequação entre pessoa e tecnologia. |
-
-| MRI | Magnetic Resonance Imaging; ressonância magnética. |
-
-| PCA | Principal Component Analysis; análise de componentes principais. |
-
-| PDF | Portable Document Format; formato portátil de documento. |
-
-| PIP | Proximal Interphalangeal; articulação interfalângica proximal. |
-
-| PL | Palm Length; comprimento da palma. |
-
-| PRISMA | Preferred Reporting Items for Systematic Reviews and Meta-Analyses; diretrizes para reporte de revisões sistemáticas e meta-análises. |
-
-| RTD | Research Through Design; investigação através do design. |
-
-| SD | Standard Deviation; desvio-padrão. |
-
-| SLA | Stereolithography; estereolitografia. |
-
-| SLS | Selective Laser Sintering; sinterização seletiva a laser. |
-
-| SSM | Statistical Shape Modelling; modelação estatística da forma. |
-
-| SQLite | Motor leve de base de dados relacional baseado em SQL, autónomo e incorporável na aplicação. |
-
-| STL | Stereolithography; formato de ficheiro de malha tridimensional usado em impressão 3D. |
-
-| TC | Technical Committee; comité técnico. |
-
-| TRL | Technology Readiness Level; nível de prontidão tecnológica. |
-
-| UCD | User-Centred Design; design centrado no utilizador. |
-
-| UI | User Interface; interface do utilizador. |
-
-| UL | Upper Limb; membro superior. |
-
-| UX | User Experience; experiência do utilizador. |
-
-| WASM | WebAssembly; tecnologia para execução de código compilado no navegador. |
-
-| XAI | Explainable Artificial Intelligence; inteligência artificial explicável. |
-
-## Lista de tabelas
-
-| Identificação | Descrição | Página |
-| --- | --- | --- |
-| Tabela 2.1 | Papéis dos profissionais de saúde no desenvolvimento de dispositivos médicos | 14 |
-| Tabela 2.2 | Elementos centrais na configuração da participação em sistemas configuráveis | 34 |
-| Tabela 4.1 | Principais parâmetros antropométricos da mão e do membro superior relevantes para modelação paramétrica | 53 |
-| Tabela 4.2 | Conjuntos mínimos de parâmetros por nível de amputação | 53 |
-| Tabela 4.3 | Métodos de recolha de dados antropométricos e suas características | 55 |
-| Tabela 4.4 | Fontes integradas na base local de dados antropométricos | 57 |
-| Tabela 4.5 | Estrutura hierárquica dos parâmetros no modelo paramétrico | 61 |
-| Tabela 4.6 | Mapeamento entre parâmetros antropométricos e elementos do modelo | 63 |
-| Tabela 4.7 | Estrutura técnica em camadas de um modelo paramétrico em OpenSCAD para próteses personalizadas | 65 |
-| Tabela 8.1 | Síntese dos resultados da validação por impressão 3D | 98 |
-| Tabela 8.2 | Entradas/prompt utilizadas para criação dos perfis de validação antropométrica por IA | 100 |
-| Tabela 8.3 | Síntese da validação antropométrica assistida por IA | 102 |
-| Tabela 8.4 | Modelos e mecanismos de escala avaliados | 103 |
-| Tabela 8.5 | Rácio adimensional da maior dimensão da palma exportada face ao baseline | 103 |
-
-## Lista de figuras
-
-| Identificação | Descrição | Página |
-| --- | --- | --- |
-| Figura 1.1 | Exemplos de próteses e dispositivos associados à fabricação aditiva em contexto protésico. | 5 |
-| Figura 2.1 | Exemplos de próteses de membro superior impressas em 3D, ilustrando diversidade tipológica e construtiva. | 10 |
-| Figura 2.2 | Utilização, rejeição primária e rejeição secundária de próteses do membro superior adquiridas. | 12 |
-| Figura 2.3 | Fluxo digital entre aquisição, CAD/CAM e fabricação aditiva em próteses e ortóteses. | 17 |
-| Figura 2.4 | Exemplo de configurador digital para personalização de uma prótese impressa em 3D. | 20 |
-| Figura 2.5 | Marcos anatómicos e medidas de referência da mão para fins de personalização. | 25 |
-| Figura 2.6 | Enquadramento de um fluxo de CAD assistido por IA para desenvolvimento de produto. | 29 |
-| Figura 2.7 | Modelo de processo para configurar participação em ecossistemas de inovação e cocriação. | 34 |
-| Figura 2.8 | Distribuição dos estudos por nível de prontidão tecnológica (TRL) e categoria de aplicação. O gráfico distingue estudos sobre próteses em geral, próteses de membro inferior produzidas por impressão 3D (LL 3DP), próteses de membro inferior desenvolvidas com recurso a CAD/CAM (LL CAD/CAM), outras abordagens aplicadas ao membro inferior (LL other), próteses de membro superior produzidas por impressão 3D (UL 3DP) e outros casos não enquadrados nas categorias anteriores. | 39 |
-| Figura 3.1 | Processo interdisciplinar de desenvolvimento de uma prótese de membro superior impressa em 3D. | 44 |
-| Figura 3.2 | Exemplo de recolha dimensional para ajuste de prótese impressa em 3D. | 47 |
-| Figura 4.1 | Parâmetros antropométricos utilizados na modelação paramétrica de dedos protésicos. | 51 |
-| Figura 4.2 | Comparação entre o escalonamento uniforme e a modelação paramétrica de dedo protésico. | 55 |
-| Figura 4.3 | Relação entre modelo paramétrico digital, prototipagem e verificação de um dedo protésico. | 65 |
-| Figura 5.1 | Fluxo geral de produção personalizada de próteses a partir de plataforma web – Hand Fab | 71 |
-| Figura 5.2 | Fluxo geral de produção personalizada de próteses a partir de digitalização, CAD adaptativo e fabrico aditivo. | 73 |
-| Figura 5.3 | Ferramenta paramétrica para configuração de ajudas técnicas com variação de dimensões, materiais e peso. | 77 |
-| Figura 6.1 | Relação entre desafios de explicabilidade e princípios de IA responsável. | 89 |
-| Figura 7.1 | Teste de uma prótese impressa em 3D com utilizador em contexto aplicado. | 94 |
-| Figura 8.1 | Tarefas funcionais usadas em avaliação de prótese personalizada de membro superior. | 99 |
+| ICF | *International Classification of Functioning, Disability and Health*; Classificação Internacional de Funcionalidade, Incapacidade e Saúde. |
+| IEEE | *Institute of Electrical and Electronics Engineers*; associação técnico-científica e entidade editorial/de normalização. |
+| ISO | *International Organization for Standardization*; Organização Internacional de Normalização. |
+| JSON | *JavaScript Object Notation*; formato leve de intercâmbio de dados. |
+| JWT | *JSON Web Token*; token web em formato JSON para autenticação e autorização. |
+| LL | *Lower Limb*; membro inferior. |
+| MCP | *Metacarpophalangeal*; articulação metacarpofalângica. |
+| MDR | *Medical Device Regulation*; Regulamento Europeu dos Dispositivos Médicos. |
+| MPT | *Matching Person and Technology*; modelo de adequação entre pessoa e tecnologia. |
+| MRI | *Magnetic Resonance Imaging*; ressonância magnética. |
+| PCA | *Principal Component Analysis*; análise de componentes principais. |
+| PDF | *Portable Document Format*; formato portátil de documento. |
+| PIP | *Proximal Interphalangeal*; articulação interfalângica proximal. |
+| PL | *Palm Length*; comprimento da palma. |
+| PRISMA | *Preferred Reporting Items for Systematic Reviews and Meta-Analyses*; diretrizes para reporte de revisões sistemáticas e meta-análises. |
+| RTD | *Research Through Design*; investigação através do design. |
+| SD | *Standard Deviation*; desvio-padrão. |
+| SLA | *Stereolithography*; estereolitografia. |
+| SLS | *Selective Laser Sintering*; sinterização seletiva a laser. |
+| SSM | *Statistical Shape Modelling*; modelação estatística da forma. |
+| STL | *Stereolithography*; formato de ficheiro de malha tridimensional usado em impressão 3D. |
+| TC | *Technical Committee*; comité técnico. |
+| TRL | *Technology Readiness Level*; nível de prontidão tecnológica. |
+| UCD | *User-Centred Design*; design centrado no utilizador. |
+| UI | *User Interface*; interface do utilizador. |
+| UL | *Upper Limb*; membro superior. |
+| UX | *User Experience*; experiência do utilizador. |
+| WASM | *WebAssembly*; tecnologia para execução de código compilado no navegador. |
+| XAI | *Explainable Artificial Intelligence*; inteligência artificial explicável. |
 
 ## Capítulo 1 — Introdução
 
@@ -214,7 +103,7 @@ O objetivo geral é gerar conhecimento por meio da prática do Design, criando e
 
 ### 1.3.2 Objetivos específicos
 
-Pretende-se analisar criticamente o papel do Design Industrial como mediador entre a tecnologia e a experiência humana. O sistema paramétrico é um modelo ajustável, apoiado por uma plataforma digital, que permite configurar próteses com base em dados antropométricos (medidas físicas do utilizador) e em preferências individuais. A validação da abordagem combina testes de perfil, exportação de geometrias, análise de malhas e prototipagem por impressão 3D, avaliando a coerência dimensional, a montagem preliminar, a viabilidade de fabrico e os limites materiais, sem reivindicar validação clínica do dispositivo.
+Pretende-se analisar criticamente o papel do Design Industrial como mediador entre a tecnologia e a experiência humana. O sistema paramétrico é um modelo ajustável, apoiado por uma plataforma digital, que permite configurar próteses com base em dados antropométricos (medidas físicas do utilizador) e em preferências individuais. Validar-se-á a abordagem por meio de prototipagem e de experimentação por impressão 3D, avaliando aspectos funcionais, ergonómicos e formais, bem como a viabilidade de fabricação.
 
 A investigação busca responder: como o design de produto, métodos paramétricos e inteligência artificial podem melhorar a personalização, o conforto e a adequação funcional de próteses, mantendo a acessibilidade e o controle projetual? Quais metodologias e ferramentas validam a eficácia, a usabilidade, a durabilidade e a reprodutibilidade de próteses impressas em 3D? Como o Design Industrial concilia requisitos anatómicos, funcionais, ergonómicos, estéticos e simbólicos, promovendo a aceitação, a dignidade e a autonomia?
 
@@ -222,7 +111,7 @@ A investigação busca responder: como o design de produto, métodos paramétric
 
 O projeto adota uma metodologia aplicada, baseada em Research Through Design, que reconhece o ato de projetar como uma forma de gerar conhecimento. Estrutura-se em fases conceptual, metodológica e empírica, articuladas pelo modelo Double Diamond, que promove ciclos iterativos de exploração, definição, desenvolvimento e validação.
 
-A fase conceptual realiza uma revisão crítica da literatura e das plataformas, consolidando o quadro teórico e os requisitos técnicos. A fase metodológica estabelece a arquitetura do sistema paramétrico assistido por inteligência artificial, integrando dados antropométricos e princípios de design para fabricação aditiva. A fase empírica operacionaliza a modelação paramétrica, a produção de protótipos por impressão 3D e a avaliação técnica e funcional preliminar, sem utilizar dados pessoais de utilizadores.
+A fase conceptual realiza uma revisão crítica da literatura e das plataformas, consolidando o quadro teórico e os requisitos técnicos. A fase metodológica estabelece a arquitetura do sistema paramétrico assistido por inteligência artificial, integrando dados antropométricos e princípios de design para fabricação aditiva. A fase empírica operacionaliza a modelação paramétrica, a produção de protótipos por impressão 3D e a avaliação técnica e funcional, sem utilizar dados pessoais de utilizadores.
 
 ### 1.5 Estrutura da dissertação
 
@@ -236,21 +125,17 @@ Prótese de membro superior é um dispositivo médico externo que substitui um s
 
 A perda total ou parcial de um membro superior provoca consequências físicas, funcionais, sociais e emocionais profundas. "Perda total" refere-se à ausência completa do membro, enquanto "perda parcial" indica ausência apenas de parte dele. A mão humana incorpora capacidades motoras e sensoriais complexas, abrangendo o alcance (movimento do membro para tocar ou agarrar objetos), a preensão (ato de segurar objetos), a manipulação fina (habilidade para movimentos precisos), a estabilização (manter objetos ou posições), a coordenação bimanual (uso de ambas as mãos em colaboração) e a exploração tátil (detecção de propriedades dos objetos pelo contato). Replicar artificialmente estas funções continua a ser um desafio significativo nos dispositivos médicos e na reabilitação. O desenvolvimento e a prescrição de próteses envolvem compromissos permanentes entre funcionalidade, peso, robustez, conforto, controle intuitivo, manutenção e custo.
 
-Nas últimas décadas, o setor evoluiu de soluções maioritariamente cosméticas e mecânicas para sistemas com maior sofisticação eletromecânica, integração eletrônica aprimorada e potencial de personalização ampliado. Ainda assim, o avanço tecnológico não resolveu desafios estruturais como desconforto, dificuldade de controle, ausência de feedback sensorial e alta taxa de abandono. Esta tensão entre o potencial técnico e os resultados práticos é fundamental para compreender o estado atual das próteses de membro superior como dispositivos médicos.
+> Nas últimas décadas, o setor evoluiu de soluções maioritariamente cosméticas e mecânicas para sistemas com maior sofisticação eletromecânica, integração eletrônica aprimorada e potencial de personalização ampliado. Ainda assim, o avanço tecnológico não resolveu desafios estruturais como desconforto, dificuldade de controle, ausência de feedback sensorial e alta taxa de abandono. Esta tensão entre o potencial técnico e os resultados práticos é fundamental para compreender o estado atual das próteses de membro superior como dispositivos médicos.
 
 ### Tipologias de próteses de membro superior
 
-As próteses de membro superior podem ser classificadas de acordo com a fonte de energia e o mecanismo de controlo. Distinguem-se quatro categorias principais: passivas (cosméticas), mecânicas acionadas pelo corpo, mioelétricas (externamente alimentadas) e híbridas. Cada tipo possui vantagens e limitações, o que reflete diferentes equilíbrios entre desempenho funcional, conforto, durabilidade e custo   (Brack & Amalu, 2021).
-
-.
+> [!Quem diz que são 4?] As próteses de membro superior podem ser classificadas de acordo com a fonte de energia e o mecanismo de controlo. Distinguem-se quatro categorias principais: passivas (cosméticas), mecânicas acionadas pelo corpo, mioelétricas (externamente alimentadas) e híbridas. Cada tipo possui vantagens e limitações, o que reflete diferentes equilíbrios entre desempenho funcional, conforto, durabilidade e custo.
 
 Próteses passivas destinam-se à aparência e ao apoio estático em tarefas simples, sem preensão ativa. Variam entre dispositivos rígidos e versões ajustáveis, nas quais os dedos ou os terminais podem ser movidos manualmente. São leves, simples, silenciosas e requerem pouca manutenção. Oferecem utilidade funcional limitada e são preferidas quando a estética é prioritária ou quando o utilizador procura um dispositivo discreto (Fink & Diamond, 2023 (#ref-fink-2023); Segura et al., 2024 (#ref-segura-2024)).
 
 ### Próteses mecânicas acionadas pelo corpo (body-powered)
 
-As próteses mecânicas utilizam um sistema de arnês e cabos que converte movimentos do ombro, do tronco ou da cintura escapular em ação no dispositivo terminal, tipicamente um gancho ou uma mão mecânica. São soluções tradicionalmente valorizadas pela robustez, pela previsibilidade mecânica, pelo menor custo e pela relativa facilidade de manutenção.
-
-Um atributo particularmente relevante é o feedback proprioceptivo indireto proporcionado pela tensão transmitida pelo sistema de cabos, que pode contribuir para um controlo funcional mais previsível em determinadas tarefas. Contudo, estas próteses apresentam limitações expressivas: o arnês pode ser desconfortável e restritivo, os padrões de preensão tendem a ser mais limitados e a sua utilização exige esforço físico contínuo e aprendizagem motora específica (Engdahl et al., 2024 (#ref-engdahl-2024); Fink & Diamond, 2023 (#ref-fink-2023)).
+As próteses mecânicas utilizam sistemas de arnês e cabos para converter movimentos do ombro, do tronco ou da cintura escapular em ação no dispositivo terminal, tipicamente um gancho ou uma mão mecânica. São soluções tradicionalmente valorizadas pela robustez, fiabilidade, menor custo e relativa facilidade de manutenção. Um atributo particularmente relevante é o feedback [^1]proprioceptivo indireto proporcionado pela tensão transmitida pelo sistema de cabos, que pode contribuir para um controlo funcional mais previsível em determinadas tarefas. Contudo, estas próteses apresentam limitações expressivas: o arnês pode ser desconfortável e restritivo, os padrões de preensão tendem a ser mais limitados e a sua utilização exige esforço físico contínuo e aprendizagem motora específica (Engdahl et al., 2024 (#ref-engdahl-2024); Fink & Diamond, 2023 (#ref-fink-2023)).
 
 ### Próteses mioelétricas
 
@@ -272,7 +157,7 @@ Fonte original: ten Kate, J., Smit, G., & Breedveld, P. (2017). 3D-printed upper
 
 A prescrição de uma prótese de membro superior constitui um processo clínico complexo, centrado no utilizador e conduzido por uma equipa multidisciplinar composta por médicos, protesistas, terapeutas e pelo próprio utilizador/paciente na escolha do dispositivo terminal, mas envolve uma avaliação integrada de fatores físicos, funcionais, ocupacionais e psicossociais (Fink & Diamond, 2023 (#ref-fink-2023); Soyer et al., 2016 (#ref-soyer-2016)).
 
-Entre os fatores físicos incluem-se o nível de amputação, o comprimento e a condição do membro residual, a integridade cutânea, a amplitude articular e a força muscular. Amputações de nível mais proximal implicam desafios acrescidos em termos de controlo e do peso do sistema protésico.
+Entre os fatores físicos incluem-se o nível de amputação, o comprimento e a condição do coto residual, a integridade cutânea, a amplitude articular e a força muscular. Amputações de nível mais proximal implicam desafios acrescidos em termos de controlo e do peso do sistema protésico.
 
 Os fatores individuais, como idade, comorbilidades, dominância manual, literacia técnica, contexto profissional e atividades recreativas, influenciam significativamente a escolha da tipologia protésica. A título de exemplo, utilizadores envolvidos em trabalho manual intensivo ou em ambientes mais exigentes podem beneficiar de soluções mecânicas mais robustas, enquanto contextos profissionais e sociais em que a integração estética e a diversidade funcional são mais valorizadas podem favorecer dispositivos mioelétricos.
 
@@ -304,11 +189,7 @@ A demonstração de segurança e desempenho implica avaliação clínica sistem�
 
 ### 2.2 Design Industrial, Design Inclusivo e Design Centrado no Utilizador
 
-O design industrial, no contexto da saúde e das tecnologias de apoio, é reconhecido progressivamente como uma disciplina mediadora entre as necessidades humanas, os contextos de utilização e os sistemas técnicos regulados.
-
-A literatura revista evidencia que o design desempenha um papel estruturante na promoção da inclusão, da autonomia e da participação social, ao articular a configuração formal dos produtos com a modelação da relação entre indivíduos, ambientes, artefactos e sistemas.
-
-Em particular, nas tecnologias de apoio, o design é descrito como um elemento que medeia a interação entre os utilizadores e o seu meio envolvente, contribuindo para reduzir barreiras funcionais e sociais e, consequentemente, para melhorar os resultados de participação e a qualidade de vida (Clarkson & Coleman, 2010 (#ref-clarkson-2010); Shah & Robinson, 2006 (#ref-shah-2006)).
+O design industrial, no contexto da saúde e das tecnologias de apoio, é reconhecido progressivamente como uma disciplina mediadora entre as necessidades humanas, os contextos de utilização e os sistemas técnicos regulados. A literatura evidencia que o design não se limita à configuração formal de produtos, mas também desempenha um papel estruturante na promoção da inclusão, da autonomia e da participação social, ao modelar a relação entre indivíduos e ambientes por meio de artefactos e sistemas. Em particular, nas tecnologias de apoio, o design é descrito como um elemento que medeia a interação entre os utilizadores e o seu meio envolvente, contribuindo para reduzir barreiras funcionais e sociais e, consequentemente, para melhorar os resultados de participação e a qualidade de vida (Clarkson & Coleman, 2010 (#ref-clarkson-2010); Shah & Robinson, 2006 (#ref-shah-2006)).
 
 Paralelamente, o design inclusivo é apresentado como um imperativo contemporâneo que visa minimizar a exclusão evitável decorrente de decisões projetuais que não consideram a diversidade populacional e a variabilidade de capacidades ao longo do tempo. Esta perspetiva alinha-se com a responsabilidade dos sistemas de saúde de responder a utilizadores heterogéneos, com diferentes condições físicas, cognitivas e contextuais (Clarkson & Coleman, 2010 (#ref-clarkson-2010)).
 
@@ -350,7 +231,7 @@ Na área da saúde, o design universal é associado a abordagens centradas no pa
 
 O design centrado no utilizador (User-Centred Design – UCD) é descrito como uma abordagem que envolve os utilizadores finais ao longo de todo o processo de desenvolvimento, com o objetivo de assegurar que o produto seja funcionalmente adequado, compreensível e valorizado. Esta abordagem mobiliza métodos como entrevistas, personas, protocolos de think-aloud, prototipagem iterativa e grupos focais, promovendo ciclos sucessivos de recolha de requisitos e de validação (Fisher & Johansen, 2020 (#ref-fisher-2020); Shah & Robinson, 2006 (#ref-shah-2006)).
 
-O design centrado no humano (Human-Centred Design – HCD) amplia esta perspetiva ao integrar dimensões culturais, contextuais e sistémicas. No desenvolvimento de dispositivos médicos, o HCD é associado a práticas como etnografia, design participativo, mapeamento de jornadas (journey maps), mapeamento de stakeholders e avaliação de fatores humanos. A norma ISO 62366 define requisitos específicos para a aplicação da engenharia de usabilidade a dispositivos médicos, reforçando a integração formal de avaliações formativas e sumativas no processo regulado de desenvolvimento. (Fisher & Johansen, 2020 (#ref-fisher-2020); Millet et al., 2018 (#ref-millet-2018)).
+O design centrado no humano (Human-Centred Design – HCD) amplia esta perspetiva ao integrar dimensões culturais, contextuais e sistémicas. No desenvolvimento de dispositivos médicos, o HCD é associado a práticas como etnografia, design participativo, mapeamento de jornadas (journey maps), mapeamento de stakeholders e avaliação de fatores humanos. A norma ISO 62366 estabelece requisitos específicos para a aplicação de engenharia de usabilidade em dispositivos médicos, reforçando a integração formal de testes formativos e sumativos no processo regulado (Fisher & Johansen, 2020 (#ref-fisher-2020); Millet et al., 2018 (#ref-millet-2018)).
 
 A incorporação de fatores humanos é igualmente reforçada por diretivas e normas que exigem a redução dos riscos de uso inadequado, articulando segurança, ergonomia e usabilidade como dimensões indissociáveis do desenvolvimento de dispositivos médicos (Millet et al., 2018 (#ref-millet-2018)).
 
@@ -366,13 +247,13 @@ A literatura evidencia que as abordagens inclusivas e centradas no utilizador re
 
 No domínio hospitalar e dos serviços de saúde, ferramentas de avaliação baseadas em critérios de design universal e de design para todos (Design for All) introduzem sistemas de análise multicritério e listas de verificação estruturadas para aferir os níveis de inclusão (White & Mosca, 2022 (#ref-white-2022)).
 
-Em contextos de tecnologias de apoio, modelos como o Matching Person and Technology (MPT) e quadros conceptuais baseados na Classificação Internacional de Funcionalidade (ICF) são utilizados para apoiar decisões de seleção e de adequação tecnológica, promovendo o alinhamento entre as características do utilizador, do ambiente e do dispositivo (White & Mosca, 2022 (#ref-white-2022)).
+Em contextos de tecnologias de apoio, modelos como o Matching Person and Technology (MPT)[^6] e quadros conceptuais baseados na Classificação Internacional de Funcionalidade (ICF) são utilizados para apoiar decisões de seleção e de adequação tecnológica, promovendo o alinhamento entre as características do utilizador, do ambiente e do dispositivo (White & Mosca, 2022 (#ref-white-2022)).
 
-A avaliação da evidência tem sido igualmente reforçada através do uso de protocolos sistemáticos, como o PRISMA, que orienta a identificação, seleção e apresentação transparente dos estudos analisados, bem como de instrumentos de avaliação crítica. Esta evolução reflete uma preocupação crescente em fundamentar decisões de design numa base empírica robusta. (Chapman et al., 2025 (#ref-chapman-2025)).
+A avaliação da evidência tem sido igualmente reforçada por meio do uso de protocolos sistemáticos, como o PRISMA, e de instrumentos de avaliação crítica, o que reflete uma crescente preocupação em fundamentar decisões de design com base empírica robusta (Chapman et al., 2025 (#ref-chapman-2025)).
 
 ### Desafios e lacunas
 
-Entre os principais desafios identificados destacam-se: – a articulação entre padronização e personalização, particularmente relevante em dispositivos médicos sujeitos a regulamentação rigorosa; – a discrepância entre modelos teóricos de UCD ensinados academicamente e as restrições institucionais à prática em saúde; – a dificuldade de tradução de processos participativos para contextos de implementação e de expansão; – e a necessidade de integrar dimensões interseccionais (como género e fatores socioculturais) na investigação e no desenvolvimento (Privitera, 2017;  Oldfrey et al 2024;   Mc Guinness et al, 2025).
+Entre os principais desafios identificados destacam-se: – a articulação entre padronização e personalização, particularmente relevante em dispositivos médicos sujeitos a regulamentação rigorosa; – a discrepância entre modelos teóricos de UCD ensinados academicamente e as restrições institucionais à prática em saúde; – a dificuldade de tradução de processos participativos para contextos de implementação e de expansão; – e a necessidade de integrar dimensões interseccionais (como género e fatores socioculturais) na investigação e no desenvolvimento.
 
 Estas lacunas evidenciam que o design industrial em dispositivos médicos não pode ser compreendido apenas como uma prática formal ou estética, mas como uma disciplina estratégica que articula inclusão, regulação, implementação e experiência do utilizador.
 
@@ -386,17 +267,15 @@ Esta articulação é representada com clareza na Figura 2.3, que resume o encad
 
 Figura 2.3 — Fluxo digital entre aquisição, CAD/CAM e fabricação aditiva em próteses e ortóteses.
 
-Fonte original: Chainando, N., Faephu, C., Suwaphong, N., Bureerat, S., Limphirat, W., Thammajaruk, P., & Syafrudin, M. (2025). Applying 3D scanning and printing techniques to produce upper limb prostheses: Bibliometric analysis and scoping review. Prosthesis, 7(2), 26. [https://www.mdpi.com/2673-1592/7/2/26/pdf?version=1740996517](https://www.mdpi.com/2673-1592/7/2/26/pdf?version=1740996517)
+Fonte original: Chainando, N., Faephu, C., Suwaphong, N., Bureerat, S., Limphirat, W., Thammajaruk, P., & Syafrudin, M. (2025). Applying 3D scanning and printing techniques to produce upper limb prostheses: Bibliometric analysis and scoping review. Prosthesis, 7(2), 26. https://www.mdpi.com/2673-1592/7/2/26/pdf?version=1740996517
 
-Neste enquadramento, a personalização deixa de ser entendida como exceção e passa a constituir uma estratégia estruturada, operacionalizada por meio de “seed designs” ou modelos-base parametrizados. Estes modelos preservam uma arquitetura estável, expondo simultaneamente um conjunto limitado de variáveis ajustáveis, frequentemente acessíveis por meio de interfaces digitais ou de configuradores destinados a utilizadores não especialistas (Ozdemir et al., 2022 (#ref-ozdemir-2022); Stralen, 2018 (#ref-stralen-2018)).
+Neste enquadramento, a personalização deixa de ser entendida como exceção e passa a constituir uma estratégia estruturada, operacionalizada por meio de “seed designs”[^7] ou modelos-base parametrizados. Estes modelos preservam uma arquitetura estável, expondo simultaneamente um conjunto limitado de variáveis ajustáveis, frequentemente acessíveis por meio de interfaces digitais ou de configuradores destinados a utilizadores não especialistas (Ozdemir et al., 2022 (#ref-ozdemir-2022); Stralen, 2018 (#ref-stralen-2018)).
 
 ### Modelação Paramétrica e Espaços de Variação
 
 Os modelos paramétricos desempenham duas funções centrais. Em primeiro lugar, codificam a lógica geométrica do produto — relações, restrições e regras —, assegurando que alterações nos valores dos parâmetros gerem novas variantes sem comprometer a integridade estrutural nem a coerência funcional. Em segundo lugar, permitem explorar espaços de variação extensos, frequentemente descritos como quase contínuos, o que possibilita a criação de famílias de produtos ajustáveis por meio da modificação de variáveis dimensionais ou funcionais (Lei et al., 2016 (#ref-lei-2016); Ozdemir et al., 2022 (#ref-ozdemir-2022)).
 
-No contexto da adaptação ao utilizador, a literatura destaca que a parametrização torna-se particularmente eficaz quando associada a dados mensuráveis, como a antropometria ou as digitalizações tridimensionais.
-
-Em vez de recorrer a um escalonamento uniforme, que pode introduzir desvios significativos, a definição de parâmetros independentes, como comprimento e largura, permite ajustes mais precisos e maior controlo dimensional dentro de margens reduzidas. Em aplicações protésicas, esta abordagem revelou maior proximidade às cinemáticas naturais e melhor adequação morfológica face a modelos ajustados apenas por escala global. (Lim et al., 2018 (#ref-lim-2018)).
+No contexto da adaptação ao utilizador, a literatura destaca que a parametrização torna-se particularmente eficaz quando associada a dados mensuráveis, como a antropometria ou as digitalizações tridimensionais. Em vez de um escalonamento uniforme, que pode introduzir desvios significativos, a definição de parâmetros independentes (por exemplo, comprimento e largura) permite ajustes mais precisos e controlo dimensional dentro de margens reduzidas. Em aplicações protésicas, esta abordagem revelou maior proximidade às cinemáticas naturais e melhor adequação morfológica face a modelos simplesmente [^8]escalados (Lim et al., 2018 (#ref-lim-2018)).
 
 ### Integração com Fabricação Aditiva e Design for Additive Manufacturing
 
@@ -406,7 +285,7 @@ Estudos aplicados demonstram que, ao determinar experimentalmente constrangiment
 
 Esta evidência reforça a necessidade de uma ligação sistemática entre as fases de design e manufatura, contrariando abordagens que tratam a fabricação como etapa posterior e corretiva (Chtioui et al., 2023 (#ref-chtioui-2023); Wiberg et al., 2019 (#ref-wiberg-2019)).
 
-As tecnologias de fabricação aditiva (FA) utilizadas incluem FDM/FFF (extrusão de termoplásticos), SLS (fusão seletiva a laser), SLA (estereolitografia) e processos industriais metálicos, o que reflete a diversidade de rotas produtivas para componentes personalizados. Cada tecnologia implica requisitos específicos de projeto, reforçando a importância de integrar critérios técnicos no modelo paramétrico desde o início (Chtioui et al., 2023 (#ref-chtioui-2023); Wiberg et al., 2019 (#ref-wiberg-2019)).[^10]
+As tecnologias de FA utilizadas incluem FDM/FFF (extrusão de termoplásticos), SLS (fusão seletiva a laser), SLA (estereolitografia) e processos industriais metálicos, o que reflete a diversidade de rotas produtivas para componentes personalizados. Cada tecnologia implica requisitos específicos de projeto, reforçando a importância de integrar critérios técnicos no modelo paramétrico desde o início (Chtioui et al., 2023 (#ref-chtioui-2023); Wiberg et al., 2019 (#ref-wiberg-2019)).[^10]
 
 ### Configuradores e Cocriação Digital
 
@@ -420,7 +299,7 @@ Figura 2.4 — Exemplo de configurador digital para personalização de uma pró
 
 Fonte original: Manero, A., Smith, P., Sparkman, J., Dombrowski, M., Courbin, D., Kester, A., Womack, I., & Chi, A. (2019). Implementation of 3D printing technology in the field of prosthetics: Past, present, and future. International Journal of Environmental Research and Public Health, 16, 1641. https://doi.org/10.3390/ijerph16091641
 
-Este modelo “file-to-factory” viabiliza fluxos digitais em que o ficheiro parametrizado é convertido diretamente em instruções de fabrico, seja localmente (impressão 3D descentralizada) ou através de uma encomenda online[^11]. A literatura associa esta lógica à democratização do design e à expansão de estratégias de customização em massa (mass customization) e personalização em massa (mass personalization), reduzindo custos marginais ao dispensar moldes e dispositivos específicos de fabrico.[^12] (Lei et al., 2016 (#ref-lei-2016); Stralen, 2018 (#ref-stralen-2018)).
+Este modelo “file-to-factory” viabiliza fluxos digitais em que o ficheiro parametrizado é convertido diretamente em instruções de fabrico, seja localmente (impressão 3D descentralizada) ou através de uma encomenda online[^11]. A literatura associa esta lógica à democratização do design e à expansão de estratégias de mass customization e mass personalization, reduzindo custos marginais ao eliminar a utilização de moldes e dispositivos específicos de [^12]fabrico (Lei et al., 2016 (#ref-lei-2016); Stralen, 2018 (#ref-stralen-2018)).
 
 Contudo, enfatiza-se que configuradores eficazes devem limitar o número de parâmetros expostos e fornecer orientação clara sobre os limites válidos, evitando complexidade excessiva ou escolhas superficiais (Ozdemir et al., 2022 (#ref-ozdemir-2022)).
 
@@ -428,7 +307,7 @@ Contudo, enfatiza-se que configuradores eficazes devem limitar o número de par�
 
 A parametrização é frequentemente combinada com métodos de otimização topológica, de geração de estruturas reticuladas e de abordagens multiobjetivo. Estas estratégias permitem gerir compromissos entre peso, resistência, custo e tempo de fabrico, explorando fronteiras de Pareto para selecionar soluções alinhadas com objetivos específicos (Lei et al., 2016 (#ref-lei-2016); Yao et al., 2016 (#ref-yao-2016)).
 
-Em contextos médicos e de tecnologias de apoio, estudos demonstram a integração de modelos paramétricos com análises de elementos finitos (FEM) para validar o desempenho estrutural, bem como a utilização de algoritmos generativos capazes de adaptar padrões e estruturas superficiais a geometrias individualizadas. (Lei et al., 2016 (#ref-lei-2016); Lim et al., 2018 (#ref-lim-2018)).
+Em contextos médicos e assistivos, estudos demonstram a integração de modelos paramétricos com análises de elementos finitos (FEM) para validar o desempenho estrutural, bem como de algoritmos generativos que adaptam padrões e estruturas superficiais a geometrias individualizadas (Lei et al., 2016 (#ref-lei-2016); Lim et al., 2018 (#ref-lim-2018)).
 
 Este cruzamento entre parametrização, simulação e FA evidencia um ecossistema digital integrado que sustenta personalização técnica com base quantitativa (Lei et al., 2016 (#ref-lei-2016); Yao et al., 2016 (#ref-yao-2016)).
 
@@ -480,37 +359,29 @@ Fonte original: Yu, A., Yick, K. L., Ng, S. P., & Yip, J. (2013). 2D and 3D anat
 
 A literatura organiza os métodos de recolha em famílias, cada uma com potencialidades e limitações específicas para o design protésico:
 
-A antropometria manual inclui medições em posturas normalizadas, com instrumentos clínicos e de ergonomia. Mantém relevância em contextos de acessibilidade clínica e de monitorização simples, por exemplo através da medição de circunferências para acompanhar variações do membro residual. Contudo, estas medidas podem representar de forma limitada as alterações reais de volume, uma vez que dependem da geometria do segmento e da distribuição dos tecidos, o que reduz a precisão necessária para decisões de ajuste fino. (Ibrahim et al., 2024 (#ref-ibrahim-2024)).
+1. A antropometria manual inclui medições em posturas normalizadas, com instrumentos clínicos e de ergonomia. Mantém relevância em contextos de acessibilidade clínica e de monitorização simples (por exemplo, circunferências para inferir variações do coto). Contudo, assinala-se que as medidas de circunferência podem ser um proxy frágil para alterações reais de volume, dependendo da geometria e da distribuição dos tecidos, o que limita a sua fiabilidade para decisões de ajuste fino (Ibrahim et al., 2024 (#ref-ibrahim-2024)).
 
-2. A digitalização 3D, através de scanning óptico, permite captar a superfície corporal sob a forma de nuvens de pontos ou malhas, posteriormente limpas e convertidas em modelos utilizáveis em CAD e fabrico, frequentemente no formato STL. Esta tecnologia facilita fluxos de personalização e pode ser combinada com processos de automatização, como a correspondência de características anatómicas, para reduzir o trabalho manual. A consistência dos resultados pode, contudo, variar conforme a complexidade da forma, sobretudo em geometrias irregulares, como segmentos residuais complexos. (Squibb et al., 2024 (#ref-squibb-2024)).
+2. Digitalização 3D (scanning óptico)capta a superfície corporal em nuvens de pontos ou malhas, que são posteriormente limpas e convertidas em modelos utilizáveis (frequentemente em STL) para CAD e fabrico. É descrita como facilitadora de fluxos de personalização e pode ser combinada com a automatização (por exemplo, correspondência de características anatómicas) para reduzir o trabalho manual. A consistência pode variar conforme a complexidade da forma, e desafios de repetibilidade são relatados quando a geometria é irregular, como em cotos complexos (Squibb et al., 2024 (#ref-squibb-2024)).
 
-3. Fotogrametria reconstrói modelos 3D a partir de fotografias 2D, incluindo soluções baseadas em smartphones.É apresentada como um método promissor pela rapidez na captura e pelo potencial de democratização, embora possa exigir mais tempo de processamento e cuidados com a iluminação e a cobertura da imagem. (Silva et al., 2024 (#ref-silva-2024)).
+3. Fotogrametria reconstrói modelos 3D a partir de fotografias 2D, incluindo soluções baseadas em smartphones.É apresentada como um método promissor pela rapidez na captura e pelo potencial de democratização, embora possa exigir mais tempo de processamento e cuidados com a iluminação e a cobertura da imagem. Em síntese, as ortóteses constituem uma das abordagens mais adequadas para a aquisição da geometria 3D do corpo em fluxos personalizados (Silva et al., 2024 (#ref-silva-2024)).
 
-4. As imagens médicas, como tomografia computorizada (CT) ou ressonância magnética (MRI: Magnetic Resonance Imaging), permitem obter geometria externa e, em alguns casos, informação interna, por exemplo sobre estruturas ósseas. Esta informação pode sustentar modelos mais ricos e abordagens como a modelação estatística de forma. Contudo, estas técnicas implicam maior custo e menor acessibilidade e, no caso do CT, exigem ainda considerar a exposição à radiação e a dependência de contexto hospitalar.
+4. Imagens médicas (CT/MRI) permitem obter geometria externa e, em alguns casos, informação interna (por exemplo, estruturas ósseas), o que sustenta modelos mais ricos e abordagens como a modelação estatística de forma. Contudo, envolve maior custo e menor acessibilidade e, no caso do CT, implica considerações associadas à exposição à radiação e à dependência do contexto hospitalar.
 
-5. Medições complementares da interface (pressão, termografia, bioimpedância) A literatura enfatiza que, em próteses, a adequação não é apenas geométrica: depende do comportamento da interface durante o uso. Por isso, surgem métodos adjuntos que quantificam sinais de ajuste, como a distribuição de pressão e de cisalhamento, zonas de aquecimento localizado (Thermal hot spots) e flutuações de volume do membro residual. Estes métodos ajudam a ligar decisões de forma/retificação a desfechos de conforto e segurança, embora, em muitos casos, sejam descritos como ainda experimentais e com barreiras à adoção clínica (Ibrahim et al., 2024 (#ref-ibrahim-2024); Young et al., 2023 (#ref-young-2023)).
+5. Medições complementares da interface (pressão, termografia, bioimpedância) A literatura enfatiza que, em próteses, a adequação não é apenas geométrica: depende do comportamento da interface durante o uso. Por isso, surgem métodos adjuntos que quantificam sinais de ajuste, como a distribuição de pressão e de cisalhamento, “hot spots” térmicos e flutuações de volume do coto. Estes métodos ajudam a ligar decisões de forma/retificação a desfechos de conforto e segurança, embora, em muitos casos, sejam descritos como ainda experimentais e com barreiras à adoção clínica (Ibrahim et al., 2024 (#ref-ibrahim-2024); Young et al., 2023 (#ref-young-2023)).
 
 ### Interpretação e aplicação de dados antropométricos no projeto
 
 A passagem de dados antropométricos para critérios de projeto ocorre por diferentes vias analíticas:
 
-– Dimensionamento estatístico por percentis e avaliação de incompatibilidades dimensionais: método típico no design ergonómico para definir dimensões que acomodam uma percentagem da população; aplicado sobretudo a produtos de uso “externo” (por exemplo, cadeiras de rodas e interfaces).
+– Dimensionamento estatístico por percentis e avaliação de incompatibilidades dimensionais: método típico no design ergonómico para definir dimensões que acomodam uma percentagem da população; aplicado sobretudo a produtos de uso “externo” (por exemplo, cadeiras de rodas e interfaces). – Métodos multivariados e aprendizagem estatística: usados quando se trabalha com dados de alta dimensionalidade (malhas, secções, nuvens de pontos), permitindo extrair padrões de retificação ou modos de variação. – Modelos preditivos e modelação estatística de forma (SSM): aplicados para reconstruir a geometria a partir de medições reduzidas e inferir relações entre a superfície e a anatomia interna, com PCA e regressões como ferramentas frequentes, embora limitados por tamanhos amostrais reduzidos em vários estudos (Sunderland et al., 2024 (#ref-sunderland-2024)).
 
-– Métodos multivariados e aprendizagem estatística: usados quando se trabalha com dados de alta dimensionalidade (malhas, secções, nuvens de pontos), permitindo extrair padrões de retificação ou modos de variação.
-
-– Modelos preditivos e modelação estatística de forma (SSM): aplicados para reconstruir a geometria a partir de medições reduzidas e inferir relações entre a superfície e a anatomia interna, com análise de componentes principais (PCA) e regressões como ferramentas frequentes, embora limitados por tamanhos amostrais reduzidos em vários estudos (Sunderland et al., 2024 (#ref-sunderland-2024)).
-
-Em design protésico, a aplicação mais crítica recai sobre o encaixe e as zonas de contacto, onde a geometria capturada é submetida a processos de retificação (diferenças propositadas entre o corpo e o dispositivo) e, depois, validada por critérios de conforto e de interface. A literatura é explícita ao considerar a captura dimensional/geométrica do membro como etapa decisiva para a qualidade do encaixe (Kannenberg et al., 2024 (#ref-kannenberg-2024); Young et al., 2023 (#ref-young-2023)).
+Em design protésico, a aplicação mais crítica recai sobre o encaixe e as zonas de contacto, onde a geometria capturada é submetida a processos de retificação (diferenças propositadas entre o corpo e o dispositivo) e, depois, validada por critérios de conforto e de interface. A literatura é explícita ao considerar a captura dimensional/geométrica do coto como etapa decisiva para a qualidade do encaixe (Kannenberg et al., 2024 (#ref-kannenberg-2024); Young et al., 2023 (#ref-young-2023)).
 
 ### Evidência por tipo de dispositivo
 
 Embora os princípios sejam transversais, a literatura evidencia diferenças por tipo de dispositivo:
 
-– Encaixes protésicos e ortóteses: forte ênfase na digitalização 3D, na análise quantitativa de malhas e na validação através de métricas de interface e/ou de simulação por elementos finitos (FEA). Em fluxos digitais de fabrico, verificam-se diferenças geométricas relevantes entre soluções manuais e digitais, reforçando que a digitalização implica uma transformação do próprio processo de ajuste e pode alterar o resultado final (Kannenberg et al., 2024 (#ref-kannenberg-2024); Silva et al., 2024 (#ref-silva-2024)).
-
-– Próteses de membro superior: coexistência de tomografia computorizada (CT), scanners comerciais e fotogrametria como métodos de captura; estudos comparativos indicam que medições obtidas por digitalização 3D podem ser fiáveis e consistentes face a métodos tradicionais quando bem implementadas. Destacam-se também fluxos automatizados que adaptam modelos CAD inteligentes a dados de digitalização, reduzindo o intervalo entre a captura anatómica e a obtenção de um modelo pronto para fabrico (Chainando et al., 2025 (#ref-chainando-2025); Çıklaçandır et al., 2022 (#ref-cklacandr-2022)).
-
-– Produtos de assistência definidos por zonas de alcance funcional (ex.: cadeiras de rodas e acessórios): a antropometria é frequentemente operacionalizada como critério de posicionamento e de acessibilidade, com mapeamentos de alcance e critérios percentílicos.
+– Encaixes protésicos e ortóteses: forte ênfase na digitalização 3D, na análise quantitativa de malhas e na validação por meio de métricas de interface e/ou de simulação (FEA). Em workflows digitais de fabrico, verificam-se diferenças geométricas relevantes entre soluções manuais e digitais, reforçando que “digitalizar” não se limita a mudar de formato, mas também a alterar o resultado do ajuste final (Kannenberg et al., 2024 (#ref-kannenberg-2024); Silva et al., 2024 (#ref-silva-2024)). – Próteses de membro superior: coexistência de CT, scanners comerciais e fotogrametria como métodos de captura; estudos comparativos indicam que medições obtidas por 3D scanning podem ser fiáveis e repetíveis face a métodos tradicionais quando bem implementadas. Há também destaque para pipelines automatizados que adaptam modelos CAD inteligentes a dados de digitalização, encurtando o intervalo entre a captura e a obtenção de um modelo pronto para fabricação (Chainando et al., 2025 (#ref-chainando-2025); Çıklaçandır et al., 2022 (#ref-cklacandr-2022)). – Produtos de assistência definidos por zonas de alcance funcional (ex.: cadeiras de rodas e acessórios): a antropometria é frequentemente operacionalizada como critério de posicionamento e de acessibilidade, com mapeamentos de alcance e critérios percentílicos.
 
 ### Limitações, lacunas e recomendações
 
@@ -518,7 +389,7 @@ Apesar do avanço metodológico, a literatura identifica limitações consistent
 
 Um problema estrutural particularmente relevante para o design inclusivo é a escassez de bases de dados antropométricas normalizadas para pessoas com deficiência, o que dificulta estimativas de acomodação e pode perpetuar desajustes de design em populações sub-representadas (Bradtmiller, 2022 (#ref-bradtmiller-2022)).
 
-Como orientação prática, emergem recomendações claras: selecionar o método de medição em função da questão de design — captura de forma, monitorização de volume ou validação de interface —, garantir a consistência da medição através de posturas padronizadas e da marcação coerente dos pontos de referência anatómicos, e utilizar bases de dados antropométricas alinhadas com a população-alvo quando se pretende definir critérios de acomodação e ajuste (ASTM International, 2024 (#ref-astm-international-2024); Ibrahim et al., 2024 (#ref-ibrahim-2024)).
+Como orientação prática, emergem recomendações claras: selecionar o método de medição em função da questão de design (captura de forma, monitorização de volume, validação de interface), garantir a repetibilidade através de posturas e de uma marcação consistente dos pontos de referência anatómicos, e utilizar bases de dados antropométricas alinhadas com a população-alvo quando se pretende definir critérios de acomodação e ajuste (ASTM International, 2024 (#ref-astm-international-2024); Ibrahim et al., 2024 (#ref-ibrahim-2024)).
 
 Acresce a recomendação de distinguir o ajuste estático (em posturas padronizadas) do ajuste dinâmico (durante a amplitude de movimento funcional), reconhecendo que ajuste e conforto são conceitos relacionados, mas não equivalentes (ASTM International, 2024 (#ref-astm-international-2024)).
 
@@ -538,11 +409,11 @@ Para efeitos de enquadramento, a Figura 2.6 é útil porque mostra a IA não com
 
 Figura 2.6 — Enquadramento de um fluxo de CAD assistido por IA para desenvolvimento de produto.
 
-Adaptado de Menaka, S., Raja, A. W., Ramakrishnan, S., Karthikeswaran, D., Sridar, K., & Sivaranjani, T. (2025). AI-driven computer-aided design (CAD) systems: Leveraging neural networks for optimized engineering product development. International Journal of Applied Mathematics, 38(5s).
+Fonte original: Menaka, S., Raja, A. W., Ramakrishnan, S., Karthikeswaran, D., Sridar, K., & Sivaranjani, T. (2025). AI-driven computer-aided design (CAD) systems: Leveraging neural networks for optimized engineering product development. International Journal of Applied Mathematics, 38(5s).
 
 ### O que é a Inteligência Artificial
 
-De forma ampla, a IA pode ser entendida como um conjunto de métodos computacionais orientados para executar tarefas que requerem aprendizagem, reconhecimento de padrões, inferência ou geração de respostas com base em dados. Neste contexto, inferência designa o processo pelo qual um sistema aplica padrões aprendidos durante o treino a novos dados de entrada, produzindo uma classificação, previsão, recomendação ou resposta plausível. Esta definição é útil porque evita tratar a IA como uma entidade única ou como sinónimo de inteligência humana generalizada. O que caracteriza a maioria dos sistemas atuais não é uma capacidade abstrata de “pensar” em qualquer domínio, mas a aptidão para operar sobre tipos específicos de problemas a partir de exemplos, regularidades e relações estatísticas aprendidas durante o treino. (Choudhury et al., 2025 (#ref-choudhury-2025); Yüksel et al., 2023 (#ref-yuksel-2023)).
+De forma ampla, a IA pode ser entendida como um conjunto de métodos computacionais orientados a executar tarefas que requerem aprendizagem, reconhecimento de padrões, inferência ou geração de respostas com base em dados. Esta definição é útil porque evita tratar a IA como uma entidade única ou um sinônimo de inteligência humana generalizada. O que caracteriza a maioria dos sistemas atuais não é uma capacidade abstrata de “pensar” em qualquer domínio, mas a aptidão para operar sobre tipos específicos de problemas a partir de exemplos, regularidades e relações estatísticas aprendidas durante o treino (Choudhury et al., 2025 (#ref-choudhury-2025); Yüksel et al., 2023 (#ref-yuksel-2023)).
 
 Dentro deste campo, a aprendizagem automática designa as abordagens em que o sistema aprende a partir de dados, em vez de depender exclusivamente de regras explicitamente escritas. A aprendizagem profunda corresponde a um subconjunto desta família e baseia-se em redes neuronais artificiais com múltiplas camadas, particularmente adequadas para tratar dados complexos, como imagens, texto ou som. Já a IA generativa refere-se a modelos capazes de produzir novos conteúdos — por exemplo, texto, imagens, composições formais ou variantes de projeto — com base nos padrões que aprenderam. Esta distinção é particularmente importante para o design, pois diferentes tipos de IA apoiam diferentes tipos de tarefas: algumas ajudam a analisar, outras a prever, outras a otimizar e outras ainda a gerar alternativas (Khanolkar et al., 2023 (#ref-khanolkar-2023); Krahe et al., 2020 (#ref-krahe-2020); Li et al., 2021 (#ref-li-2021)).
 
@@ -564,11 +435,11 @@ Para o Design Industrial, estas famílias não têm exatamente o mesmo peso. A I
 
 Uma das conclusões mais consistentes da literatura é que a IA não atua apenas numa fase isolada do processo projetual. Nas fases iniciais, pode apoiar a pesquisa, a síntese de informação e o enquadramento do problema, ajudando a identificar padrões nas necessidades dos utilizadores, tendências, dados de mercado ou requisitos de contexto. Na ideação, pode ampliar o espaço de procura, reduzir fixação prematura e produzir rapidamente múltiplas alternativas de partida. No desenvolvimento, pode acelerar a iteração, gerar variantes paramétricas e articular a exploração formal às restrições técnicas. Em fases posteriores, pode apoiar a prototipagem, a simulação, a previsão de desempenho e a comparação entre opções concorrentes. Também pode reforçar a comunicação e a documentação, produzindo representações mais rápidas de cenários, conceitos e soluções (Khanolkar et al., 2023 (#ref-khanolkar-2023); Saeidnia & Ausloos, 2024 (#ref-saeidnia-2024); Verganti et al., 2020 (#ref-verganti-2020)).
 
-A eficácia da IA varia consoante a etapa do processo de design. A literatura sugere que o seu valor tende a ser maior em tarefas de exploração divergente, análise extensiva e automatização parcial, enquanto as etapas de convergência, enquadramento contextual, decisão ética e validação final exigem avaliação humana qualificada. A IA pode ampliar o campo de exploração e acelerar a comparação entre alternativas, mas a decisão sobre o que faz sentido desenvolver, para quem, em que contexto e com que consequências permanece uma responsabilidade humana. (Ao et al., 2025 (#ref-ao-2025); Choudhury et al., 2025 (#ref-choudhury-2025); Virós-i-Martin & Selva, 2021 (#ref-viros-i-martin-2021)).
+Isto não significa, porém, que a IA seja igualmente eficaz em todas as etapas. A literatura sugere que seu valor tende a ser maior em tarefas de exploração divergente, análise extensiva e automatização parcial, enquanto as etapas de convergência, enquadramento contextual, decisão ética e validação final continuam a depender fortemente do julgamento humano. A IA pode ampliar o que é possível explorar e tornar mais rápida a comparação entre alternativas, mas não elimina a necessidade de decidir o que faz sentido desenvolver, para quem, em que contexto e com que consequências (Ao et al., 2025 (#ref-ao-2025); Choudhury et al., 2025 (#ref-choudhury-2025); Virós-i-Martin & Selva, 2021 (#ref-viros-i-martin-2021)).
 
 ### Papel do designer, riscos e necessidade de supervisão humana
 
-A integração da IA no processo de design exige uma redefinição do papel do designer, sobretudo quando a geração de alternativas, a análise de dados ou a sugestão de soluções passam a ser parcialmente mediadas por sistemas computacionais. Neste contexto, a questão central desloca-se da autoria formal para a capacidade de orientar, interpretar e avaliar criticamente os resultados produzidos. A literatura consultada descreve, assim, uma evolução do designer enquanto gerador exclusivo de forma para um papel mais híbrido, no qual assume funções de orientação, curadoria, interpretação e decisão estratégica. O papel humano torna-se particularmente exigente em tarefas como a formulação do problema, a definição de critérios, a leitura contextual, a seleção entre alternativas e a justificação das decisões. Esta transformação é especialmente relevante em domínios sensíveis, nos quais a adequação ao utilizador, a responsabilidade técnica e a aceitabilidade ética exigem supervisão humana qualificada (Figoli et al., 2022 (#ref-figoli-2022); Kadenhe et al., 2025 (#ref-kadenhe-2025); Virós-i-Martin & Selva, 2021 (#ref-viros-i-martin-2021)).
+Neste quadro, a questão central deixa de ser se a IA substitui o designer e passa a ser como ela redistribui a agência no processo de projeto. A literatura descreve uma deslocação do designer, enquanto gerador exclusivo de forma, para um papel mais híbrido de orientador, curador, intérprete e decisor estratégico. Em vez de desaparecer, o papel humano torna-se mais exigente em tarefas como a formulação do problema, a definição de critérios, a leitura contextual, a seleção entre alternativas e a justificação das decisões. Esta transformação é particularmente relevante em domínios sensíveis, onde a adequação ao utilizador, a responsabilidade técnica e a aceitabilidade ética não podem ser delegadas a um sistema treinado apenas com dados passados (Figoli et al., 2022 (#ref-figoli-2022); Kadenhe et al., 2025 (#ref-kadenhe-2025); Virós-i-Martin & Selva, 2021 (#ref-viros-i-martin-2021)).
 
 É também neste ponto que emergem os principais riscos. Um primeiro risco é o enviesamento, já que modelos treinados com dados históricos ou desequilibrados podem reproduzir exclusões, preferências dominantes e padrões culturais pouco representativos. Um segundo risco é a opacidade: muitos sistemas produzem resultados eficazes, mas são difíceis de explicar em termos do seu raciocínio interno, o que dificulta a confiança e a responsabilização. Um terceiro risco é o erro, incluindo respostas plausíveis, mas incorretas, simplificações abusivas e sugestões sem robustez técnica suficiente. A estes somam-se riscos de dependência excessiva, homogeneização formal, enfraquecimento de competências críticas e incerteza quanto à autoria e originalidade dos resultados produzidos com assistência algorítmica (Burnap et al., 2019 (#ref-burnap-2019); Panchal et al., 2019 (#ref-panchal-2019); Yüksel et al., 2023 (#ref-yuksel-2023)).
 
@@ -592,11 +463,11 @@ Para enquadrar estes fundamentos de forma mais operacional, a Figura 2.7 mostra 
 
 Figura 2.7 — Modelo de processo para configurar participação em ecossistemas de inovação e cocriação.
 
-Fonte original: Akasaka, M., Veeckman, C., Georges, A., Schuurman, D., & Coorevits, L. (2022). A framework for configuring participation in living labs. [https://www.semanticscholar.org/paper/305d55af5fda06b4d1b33e7d29c1f16d1b7ea488](https://www.semanticscholar.org/paper/305d55af5fda06b4d1b33e7d29c1f16d1b7ea488)
+Fonte original: Akasaka, M., Veeckman, C., Georges, A., Schuurman, D., & Coorevits, L. (2022). A framework for configuring participation in living labs. https://www.semanticscholar.org/paper/305d55af5fda06b4d1b33e7d29c1f16d1b7ea488
 
-A literatura identifica, contudo, o risco de sobrecarga participativa, entendido como a transferência excessiva de trabalho, responsabilidade e decisão para os utilizadores. Este risco exige mecanismos de apoio, curadoria e reutilização que tornem a participação sustentável (Fischer et al., 2017 (#ref-fischer-2017)).
+A literatura identifica, contudo, riscos como a participation overload, isto é, a transferência excessiva de carga de trabalho e de decisão para os utilizadores, o que requer mecanismos de apoio, curadoria e reutilização para tornar a participação sustentável (Fischer et al., 2017 (#ref-fischer-2017)).
 
-Em paralelo, o conceito de Software Shaping Workshop operacionaliza o meta-design, entendido como uma abordagem que cria condições técnicas e sociais para que utilizadores finais participem ativamente na adaptação e evolução dos sistemas que utilizam. Neste enquadramento, o Software Shaping Workshop funciona como uma “oficina virtual”: um ambiente digital composto por ferramentas familiares, ajustadas à cultura, às práticas e às competências de uma comunidade específica. Em contextos de reabilitação e assistência, este paradigma manifesta-se em sistemas que fornecem a cuidadores e terapeutas interfaces do tipo editor, permitindo adaptar scripts, exercícios e conteúdos sem necessidade de programação especializada, respondendo de forma pragmática às necessidades de personalização (Costabile et al., 2007 (#ref-costabile-2007); Fischer et al., 2017 (#ref-fischer-2017)).
+Em paralelo, o conceito de Software Shaping Workshop operacionaliza o meta-design como um “workshop virtual” composto por ferramentas familiares adaptadas à cultura e às competências de uma comunidade. Em contextos de reabilitação e assistência, este paradigma manifesta-se em sistemas que fornecem a cuidadores e terapeutas interfaces do tipo editor, permitindo adaptar scripts, exercícios e conteúdos sem necessidade de programação, respondendo de forma pragmática às necessidades de personalização (Costabile et al., 2007 (#ref-costabile-2007); Fischer et al., 2017 (#ref-fischer-2017)).
 
 Esta transição entre princípio e operação pode ser resumida pelos elementos nucleares apresentados na Tabela 2.2, que sistematiza dimensões recorrentes no desenho de participação mediada: quando participar, quem participa, por quais canais, através de quais pontos de contacto e com que mecanismos de motivação.
 
@@ -678,7 +549,7 @@ Esta lacuna é particularmente relevante porque a adaptação, a aprendizagem e 
 
 A literatura evidencia uma articulação insuficiente entre as necessidades expressas pelos utilizadores, como conforto, controlo intuitivo, aparência e participação social; os indicadores objetivos habitualmente medidos, como desempenho em testes funcionais, parâmetros biomecânicos e métricas instrumentadas de uso da prótese; e os resultados finais desejáveis, como autonomia e qualidade de vida. As revisões salientam que estas necessidades são contextuais e interdependentes, e que as medições laboratoriais nem sempre refletem tarefas relevantes do quotidiano, contribuindo para contradições entre resultados subjetivos e objetivos (Cordella et al., 2016 (#ref-cordella-2016); Manz et al., 2022 (#ref-manz-2022)).
 
-Esta desarticulação tem implicações diretas para o design. A existência de métricas ecologicamente válidas e sensíveis às prioridades do utilizador é essencial para orientar decisões de projeto para benefícios significativos e sustentados. Como consequência, melhorias técnicas isoladas podem produzir ganhos limitados em termos de aceitação, integração funcional ou uso continuado da prótese (Manz et al., 2022 (#ref-manz-2022); Samuelsson et al., 2012 (#ref-samuelsson-2012)).
+Esta desarticulação tem implicações diretas para o design. Sem métricas ecologicamente válidas e sensíveis às prioridades do utilizador, torna-se difícil orientar decisões de projeto para benefícios significativos e sustentados. Como consequência, podem ocorrer melhorias técnicas que não se traduzem necessariamente em aceitação, integração funcional ou uso continuado da prótese. (Manz et al., 2022 (#ref-manz-2022); Samuelsson et al., 2012 (#ref-samuelsson-2012)).
 
 ### Lacuna 3 — Persistência de problemas na interface corpo–prótese e no ajuste individualizado
 
@@ -754,7 +625,7 @@ A fase conceptual corresponde ao momento de enquadramento teórico e de problema
 
 A fase metodológica corresponde à definição e implementação do sistema paramétrico assistido por IA. Nesta etapa especifica-se a arquitetura da plataforma digital, integrando módulos de configuração paramétrica, bases de dados antropométricas e algoritmos de apoio à interpretação de medidas e à otimização geométrica. Desenvolvem-se protótipos digitais iterativos, testando relações formais e funcionais e avaliando a viabilidade de fabrico segundo os princípios de DfAM. É nesta fase que a investigação se aproxima mais claramente de uma lógica de research by making, em que as decisões de modelação, parametrização e iteração constituem simultaneamente desenvolvimento técnico e produção de conhecimento metodológico.
 
-A fase empírica materializa a operacionalização do conhecimento gerado. Os modelos paramétricos são testados com diferentes perfis antropométricos provenientes de bases de dados públicas, e as configurações resultantes dos testes de perfil são exportadas para fabrico e produzidas por impressão 3D. Esta fase permite avaliar a passagem do perfil simulado para a geometria exportada e desta para o protótipo físico, observando a exequibilidade de impressão, a integridade estrutural preliminar, a montagem, a ajustabilidade e a coerência formal perante variações dimensionais.
+A fase empírica materializa a operacionalização do conhecimento gerado. Os modelos paramétricos são testados com diferentes perfis antropométricos provenientes de bases de dados públicas, e protótipos físicos são produzidos por meio de impressão 3D. Esta fase permite avaliar a integridade estrutural, a montagem, a ajustabilidade e a coerência formal, bem como verificar a consistência do sistema perante variações dimensionais.
 
 ### 3.4 Métodos de recolha e análise de dados
 
@@ -764,7 +635,7 @@ Num primeiro nível, procede-se à análise documental e à revisão da literatu
 
 Durante o desenvolvimento do sistema paramétrico, os dados assumem natureza técnica e projetual, incluindo parâmetros geométricos, relações dimensionais, tempos de fabrico, consumo de material e desempenho estrutural dos protótipos. Estes dados são analisados de forma iterativa, permitindo reformular o modelo paramétrico e otimizar o seu desempenho.
 
-Na fase de prototipagem, a análise incide sobre os critérios de exequibilidade de fabrico, robustez estrutural preliminar, coerência dimensional, facilidade de montagem e comportamento material inicial. Os modelos exportados a partir dos testes de perfil foram preparados para impressão no PrusaSlicer 2.9.6 e no Bambu Studio, e materializados por impressão 3D em PLA e PETG numa Bambu Lab A1 com AMS. A opção por estes dois materiais permite comparar uma solução rígida, estável e económica, adequada à verificação rápida da geometria, com uma alternativa mais resistente e menos frágil, útil para observar o comportamento dos componentes em manipulação, encaixe e montagem preliminar. Esta comparação permite verificar se a geometria gerada pelo sistema se mantém imprimível, manipulável e coerente depois da transição do ambiente digital para o objeto físico. Não são recolhidos dados pessoais ou biométricos de utilizadores reais; utilizam-se exclusivamente conjuntos de dados antropométricos públicos, o que delimita o âmbito empírico ao domínio técnico e projetual. Entre estes, destaca-se a base local consolidada de medidas da mão e do membro superior distal, usada como infraestrutura intermédia para a seleção, comparação e normalização de medidas relevantes para a parametrização geométrica. A organização dos dados preserva informação sobre país, amostra, tipo de medida, estatística, fonte documental e granularidade dos subconjuntos analisados, tornando explícitas a cobertura e as limitações de cada fonte antes da sua tradução em parâmetros de projeto.
+Na fase de prototipagem, a análise incide sobre os critérios de exequibilidade de fabrico, robustez estrutural, coerência dimensional e facilidade de montagem. Não são recolhidos dados pessoais ou biométricos de utilizadores reais; utilizam-se exclusivamente conjuntos de dados antropométricos públicos, o que delimita o âmbito empírico ao domínio técnico e projetual. Entre estes, destaca-se a base local consolidada de medidas da mão e do membro superior distal, usada como infraestrutura intermédia para a seleção, comparação e normalização de medidas relevantes para a parametrização geométrica. A organização dos dados preserva informação sobre país, amostra, tipo de medida, estatística, fonte documental e granularidade dos subconjuntos analisados, tornando explícitas a cobertura e as limitações de cada fonte antes da sua tradução em parâmetros de projeto.
 
 Embora o presente estudo não utilize participantes reais, a literatura metodológica da área ajuda a esclarecer como medições lineares e procedimentos de ajuste são normalmente operacionalizados em contextos aplicados. A Figura 3.2 ilustra esse tipo de recolha dimensional orientada para fabrico, servindo aqui como precedente metodológico para a tradução de medidas em parâmetros de projeto.
 
@@ -784,15 +655,13 @@ Adicionalmente, são considerados critérios relacionados com a acessibilidade e
 
 Importa, contudo, reconhecer limitações metodológicas. A ausência de testes com utilizadores reais impede a validação clínica e a avaliação aprofundada da experiência de uso subjetiva. A utilização de dados antropométricos secundários limita a verificação empírica da adaptação individual. Por fim, a integração de inteligência artificial é circunscrita a funções de apoio à configuração e otimização geométricas, não abrangendo sistemas clínicos ou biomédicos avançados. Acresce que a própria estrutura iterativa adotada, embora adequada à exploração projetual, não produz, por si só, evidência clínica ou generalização estatística, exigindo que os resultados sejam lidos como contributo metodológico assente no desenvolvimento de um protótipo, e não como validação final de eficácia em contexto de uso.
 
-Estas limitações são assumidas como enquadramento do estudo, que se posiciona prioritariamente no domínio do design de produto e da investigação metodológica, contribuindo para a reflexão sobre o papel do design paramétrico e da inteligência artificial na personalização de dispositivos de apoio.
+Estas limitações são assumidas como enquadramento do estudo, que se posiciona prioritariamente no domínio do design de produto e da investigação metodológica, contribuindo para a reflexão sobre o papel do design paramétrico e da inteligência artificial na personalização de dispositivos assistivos.
 
 ## Capítulo 4 — Desenvolvimento do Modelo Paramétrico
 
 ### 4.1 Definição do problema de design e requisitos
 
-Como referido anteriormente, o desenvolvimento de próteses de membro superior é enquadrado na literatura como um problema de elevada complexidade, situado na interseção entre desempenho biomecânico, integração corpo–dispositivo e experiência vivida do utilizador (Cordella et al., 2016 (#ref-cordella-2016); Guo, 2025 (#ref-guo-2025); Peerdeman et al., 2011 (#ref-peerdeman-2011)). Este desafio não pode ser reduzido à mera replicação formal da mão ou do segmento ausente. Implica, pelo contrário, a conceção de dispositivos capazes de conciliar funcionalidade, conforto, leveza, funcionamento consistente, controlo inteligível, aceitabilidade estética e custos compatíveis com a produção, adaptação, manutenção e acesso continuado à prótese, num contexto em que continuam a registar-se taxas elevadas de rejeição e abandono.
-
-A literatura associa estas taxas, de forma recorrente, a desconforto no encaixe, peso excessivo, limitações funcionais, baixa robustez e estratégias de controlo pouco intuitivas, evidenciando uma lacuna persistente entre a capacidade tecnológica dos dispositivos e as necessidades reais de uso (Biddiss et al., 2007 (#ref-biddiss-2007); Cordella et al., 2016 (#ref-cordella-2016); Peerdeman et al., 2011 (#ref-peerdeman-2011)).
+Como referido anteriormente, o desenvolvimento de próteses de membro superior é enquadrado na literatura como um problema de elevada complexidade, situado na interseção entre desempenho biomecânico, integração corpo–dispositivo e experiência vivida do utilizador (Cordella et al., 2016 (#ref-cordella-2016); Guo, 2025 (#ref-guo-2025); Peerdeman et al., 2011 (#ref-peerdeman-2011)). Este desafio não pode ser reduzido à mera replicação formal da mão ou do segmento ausente. Implica, pelo contrário, a conceção de dispositivos capazes de conciliar funcionalidade, conforto, leveza, fiabilidade, controlo inteligível, aceitabilidade estética e e custos compatíveis com a produção, adaptação, manutenção e acesso continuado à prótese, num contexto em que continuam a registar-se taxas elevadas de rejeição e abandono. A literatura associa estas taxas, de forma recorrente, a desconforto no encaixe, peso excessivo, limitações funcionais, baixa robustez e estratégias de controlo pouco intuitivas, evidenciando uma lacuna persistente entre a capacidade tecnológica dos dispositivos e as necessidades reais de uso (Biddiss et al., 2007 (#ref-biddiss-2007); Cordella et al., 2016 (#ref-cordella-2016); Peerdeman et al., 2011 (#ref-peerdeman-2011)).
 
 Neste contexto, a definição de requisitos não constitui apenas uma etapa técnica de especificação, mas um processo de tradução entre problemas de uso, limitações clínicas, possibilidades tecnológicas e condições concretas de adoção. Assim, os requisitos considerados no projeto de uma prótese de membro superior devem ser entendidos como categorias interdependentes, que procuram responder simultaneamente ao desempenho funcional do dispositivo, à sua adequação ao corpo, à experiência quotidiana do utilizador e à viabilidade do seu desenvolvimento e manutenção.
 
@@ -876,7 +745,7 @@ Adaptado de fonte original: Lim, D., Georgiou, T., Bhardwaj, A., O'Connell, G. D
 
 ### Métodos de recolha de dados antropométricos
 
-A recolha de dados pode ser realizada por diferentes métodos, com implicações diretas na precisão das medições e na sua tradução para parâmetros de projeto. A escolha do método depende do objetivo da medição: parametrização dimensional básica, reconstrução geométrica fina, desenho do encaixe ou obtenção de relações internas entre superfícies e estruturas ósseas. Em termos práticos, a literatura mostra que não há um método universalmente superior; há, sim, uma adequação diferencial entre método, custo, acessibilidade e o tipo de dados necessários (Çıklaçandır et al., 2022 (#ref-cklacandr-2022); Herbst et al., 2021 (#ref-herbst-2021)).
+A recolha de dados pode ser realizada por diferentes métodos, com implicações diretas na precisão e na aplicabilidade dos modelos. A escolha do método depende do objetivo da medição: parametrização dimensional básica, reconstrução geométrica fina, desenho do encaixe ou obtenção de relações internas entre superfícies e estruturas ósseas. Em termos práticos, a literatura mostra que não há um método universalmente superior; há, sim, uma adequação diferencial entre método, custo, acessibilidade e o tipo de dados necessários (Çıklaçandır et al., 2022 (#ref-cklacandr-2022); Herbst et al., 2021 (#ref-herbst-2021)).
 
 Tabela 4.3 — Métodos de recolha de dados antropométricos e suas características
 
@@ -930,25 +799,15 @@ Tabela 4.4 — Fontes integradas na base local de dados antropométricos
 
 A extração foi realizada a partir das tabelas dos artigos e, quando aplicável, da interface estruturada das bases de dados. Nos artigos científicos, a leitura concentrou-se em duas zonas: a metodologia, para identificar instrumento, postura, mão medida e pontos anatómicos; e os resultados, para localizar as tabelas com médias, desvios-padrão, percentis, mínimos e máximos. Cada valor foi transcrito para uma estrutura comum que preserva a fonte documental, a página, a citação, o nome da medida, a região corporal, o protocolo de medição, a população, o país, o sexo, o grupo etário, a dimensão amostral, o tipo de estatística, as unidades convertidas e uma nota de qualidade quando necessário. A decisão de preservar simultaneamente a fonte, a página, a população e a nota metodológica torna cada valor auditável e permite regressar ao documento original sempre que uma medida pareça incoerente.
 
-A opção pelo formato longo resultou de uma decisão metodológica orientada para a flexibilidade da estrutura de dados. Em vez de criar uma linha por dimensão com colunas fixas para média, desvio-padrão e percentis, cada estatística foi registada como uma linha própria. Assim, uma mesma dimensão pode originar várias linhas relativas à média, ao desvio-padrão, ao P5, P50, P95, mínimo ou máximo.
+A opção pelo formato longo foi deliberada. Em vez de criar uma linha por dimensão com colunas fixas para média, desvio-padrão e percentis, cada estatística foi registada como uma linha própria. Assim, uma mesma dimensão pode originar várias linhas para média, desvio-padrão, P5, P50, P95, mínimo ou máximo. Este formato facilita a integração de fontes incompletas, porque nem todos os estudos reportam o mesmo conjunto de estatísticas. Na base atual, existem 612 médias, 609 desvios-padrão, 513 percentis, 28 mínimos e 28 máximos. Esta assimetria é metodologicamente relevante: os datasets ANSUR e algumas fontes DINED permitem uma leitura estatística mais ampla, enquanto estudos como Mistarihi (2020) ou Lim et al. (2018) só oferecem valores parciais, úteis como referência contextual mas insuficientes para inferência populacional robusta (Gordon et al., 2015 (#ref-gordon-2015); Lim et al., 2018 (#ref-lim-2018); Mistarihi, 2020 (#ref-mistarihi-2020)).
 
-Este formato facilita a integração de fontes incompletas, porque nem todos os estudos reportam o mesmo conjunto de estatísticas.
-
-Na base atual, existem 612 médias, 609 desvios-padrão, 513 percentis, 28 mínimos e 28 máximos. Esta assimetria é metodologicamente relevante: os conjuntos de dados (Datasets) ANSUR e algumas fontes DINED permitem uma leitura estatística mais ampla, enquanto estudos como Mistarihi (2020) ou Lim et al. (2018) só oferecem valores parciais, úteis como referência contextual mas insuficientes para inferência populacional robusta (Gordon et al., 2015 (#ref-gordon-2015); Lim et al., 2018 (#ref-lim-2018); Mistarihi, 2020 (#ref-mistarihi-2020)).
-
-As principais dificuldades encontradas dizem respeito à heterogeneidade dos protocolos. A expressão “comprimento da mão”, por exemplo, nem sempre corresponde ao mesmo trajeto anatómico: alguns estudos tomam como referência a linha de flexão do punho, outros o processo estilóide, enquanto outros definem o comprimento a partir de marcos funcionais da palma.
+As principais dificuldades encontradas dizem respeito à heterogeneidade dos protocolos. A expressão “comprimento da mão”, por exemplo, nem sempre corresponde ao mesmo trajeto anatómico: alguns estudos usam a prega do punho, outros o processo estilóide, e outros definem o comprimento a partir de marcos funcionais da palma.
 
 Do mesmo modo, verifica-se heterogeneidade no critério de seleção da mão analisada, com estudos que consideram a mão direita, a mão dominante ou, no caso do estudo português, a mão esquerda, em função das condições específicas de recolha de dados. (Anacleto Filho et al., 2023 (#ref-anacleto-filho-2023)). Estas diferenças impedem que todos os dados sejam tratados como diretamente equivalentes e justificam o registo explícito dos respetivos protocolos de medição. A base de dados não elimina a heterogeneidade das fontes; pelo contrário, torna-a visível, permitindo que o modelo paramétrico utilize os valores antropométricos de forma contextualizada e metodologicamente informada.
 Foram igualmente identificadas dificuldades relacionadas com a granularidade e a representatividade dos dados. Algumas fontes apresentam amostras robustas, mas oferecem informação limitada sobre dimensões específicas da mão; outras disponibilizam medições detalhadas, mas circunscritas a populações muito particulares. Nag et al. (2003), por exemplo, fornece uma cobertura dimensional extensa, embora limitada a mulheres indianas trabalhadoras. Rodríguez-Vega (2024) apresentam uma amostra mexicana numerosa e grupos etários úteis para comparação, mas concentram-se em quatro dimensões principais. Ibiwari et al. (2025) acrescenta dados relativos a uma população africana, embora a amostra seja composta por atletas universitários, e não por população geral. Mistarihi (2020) é relevante por incluir trabalhadores com deficiência física, mas apresenta um número reduzido de registos e insuficiente desagregação por sexo. Estes casos foram mantidos por ampliarem a diversidade das referências antropométricas, sendo as suas limitações registadas nos metadados relativos à população, à dimensão amostral e à qualidade dos dados.
-Em sentido inverso, algumas fontes facilitaram a extração. As tabelas com percentis claros, unidades explícitas e separação por sexo ou idade permitiram uma codificação direta e maior confiança na transcrição dos valores. No caso da DINED, a estrutura HTML da interface facilitou a identificação e extração repetível das médias e dos desvios-padrão, permitindo registar, para cada medida antropométrica, tanto o valor médio observado no grupo como a respetiva variabilidade interna. Esta informação foi recolhida mantendo a separação entre sub-bases, sexo e grupos etários, embora os percentis não estivessem disponíveis na mesma interface.
+Em sentido inverso, algumas fontes facilitaram a extração. As tabelas com percentis claros, unidades explícitas e separação por sexo ou idade permitiram codificação direta e maior confiança. A estrutura HTML da DINED facilitou a recuperação sistemática de médias e desvios-padrão por sub-base, sexo e grupo etário, embora não disponibilize percentis na mesma interface. O ANSUR II também foi particularmente útil por disponibilizar estatísticas amplas e uma grande amostra militar, permitindo trabalhar com medições da mão, punho e antebraço em escala populacional (Gordon et al., 2015 (#ref-gordon-2015); Molenbroek, 1998 (#ref-molenbroek-1998); Molenbroek et al., 2003 (#ref-molenbroek-2003); Steenbekkers & van Beijsterveldt, 1998 (#ref-steenbekkers-1998)). Ainda assim, estas fontes não resolvem o problema da personalização clínica, uma vez que amostras compostas por militares, crianças neerlandesas ou idosos chineses não podem ser diretamente extrapoladas para utilizadores com amputação de membro superior.
 
-O ANSUR II também foi particularmente útil por disponibilizar estatísticas amplas e uma grande amostra militar, permitindo trabalhar com medições da mão, punho e antebraço em escala populacional (Gordon et al., 2015 (#ref-gordon-2015); Molenbroek, 1998 (#ref-molenbroek-1998); Molenbroek et al., 2003 (#ref-molenbroek-2003); Steenbekkers & van Beijsterveldt, 1998 (#ref-steenbekkers-1998)). Ainda assim, estas fontes não resolvem o problema da personalização clínica, uma vez que amostras compostas por militares, crianças neerlandesas ou idosos chineses não podem ser diretamente extrapoladas para utilizadores com amputação de membro superior.
-
-As decisões de normalização dos dados seguiram quatro princípios metodológicos. Em primeiro lugar, todas as medidas antropométricas foram convertidas para milímetros, centímetros e polegadas, mantendo-se também a unidade originalmente utilizada em cada fonte. Esta decisão permite comparar valores entre estudos sem perder a referência ao formato de publicação original e reduz o risco de conversões ambíguas no momento de utilização dos dados. Em segundo lugar, valores provenientes de subgrupos com dimensão amostral reduzida, dados extraídos de figuras em vez de tabelas, desvios-padrão discrepantes ou definições anatómicas pouco explícitas foram mantidos na base, mas assinalados através de notas de qualidade. Deste modo, a incerteza associada a cada registo permanece documentada, em vez de ser eliminada sem justificação metodológica. Em terceiro lugar, as medidas foram agrupadas por região corporal, distinguindo dimensões da mão, dedos e palma, diretamente relevantes para a geração da geometria principal, de dimensões do punho e antebraço, mais associadas à interface, à fixação ou à adaptação ao membro residual. Por fim, os valores recolhidos foram tratados como referências paramétricas, e não como prescrições dimensionais finais. A base antropométrica construída responde, assim, a uma necessidade específica do modelo desenvolvido: traduzir o enquadramento antropométrico da personalização protésica em intervalos, relações proporcionais e restrições utilizáveis no processo de modelação. Deste modo, os dados não definem automaticamente a forma da prótese, mas delimitam o espaço de variação dentro do qual o modelo pode operar com maior coerência geométrica e metodológica. Para tal, o sistema necessita de identificar quais as medidas recorrentes na literatura, que variações podem ser consideradas plausíveis entre populações, que dimensões podem funcionar como entradas mínimas de configuração e em que situações o redimensionamento uniforme se torna metodologicamente arriscado.
-
-A base de dados construída permite comparar valores relativos ao comprimento da mão, à largura da palma, aos comprimentos digitais, às dimensões do punho e às relações com o antebraço, mantendo a referência à fonte, à população e ao contexto metodológico de cada registo.
-
-Deste modo, a base de dados sustenta a passagem entre o enquadramento antropométrico e a modelação paramétrica tridimensional, usando OpenSCAD: os dados não geram automaticamente a prótese, mas delimitam o espaço de variação dentro do qual o modelo pode operar com maior coerência geométrica e metodológica.
+As decisões de normalização dos dados seguiram quatro princípios metodológicos. Em primeiro lugar, todas as medidas antropométricas foram convertidas para milímetros, centímetros e polegadas, mantendo-se também a unidade originalmente utilizada em cada fonte. Esta decisão permite comparar valores entre estudos sem perder a referência ao formato de publicação original e reduz o risco de conversões ambíguas no momento de utilização dos dados. Em segundo lugar, valores provenientes de subgrupos com dimensão amostral reduzida, dados extraídos de figuras em vez de tabelas, desvios-padrão discrepantes ou definições anatómicas pouco explícitas foram mantidos na base, mas assinalados através de notas de qualidade. Deste modo, a incerteza associada a cada registo permanece documentada, em vez de ser eliminada sem justificação metodológica. Em terceiro lugar, as medidas foram agrupadas por região corporal, distinguindo dimensões da mão, dedos e palma, diretamente relevantes para a geração da geometria principal, de dimensões do punho e antebraço, mais associadas à interface, à fixação ou à adaptação ao membro residual. Por fim, os valores recolhidos foram tratados como referências paramétricas, e não como prescrições dimensionais finais. A base antropométrica construída responde, assim, a uma necessidade específica do modelo desenvolvido: traduzir o enquadramento antropométrico da personalização protésica em intervalos, relações proporcionais e restrições utilizáveis no processo de modelação. Deste modo, os dados não definem automaticamente a forma da prótese, mas delimitam o espaço de variação dentro do qual o modelo pode operar com maior coerência geométrica e metodológica. Para tal, o sistema necessita de identificar quais as medidas recorrentes na literatura, que variações podem ser consideradas plausíveis entre populações, que dimensões podem funcionar como entradas mínimas de configuração e em que situações o redimensionamento uniforme se torna metodologicamente arriscado. A base de dados construída permite comparar, de forma rastreável, valores relativos ao comprimento da mão, à largura da palma, aos comprimentos digitais, às dimensões do punho e às relações com o antebraço. Deste modo, sustenta a passagem entre o enquadramento antropométrico e a modelação em OpenSCAD: os dados não geram a prótese de forma automática, mas delimitam o espaço de variação dentro do qual o modelo pode operar com maior coerência geométrica e metodológica.
 
 Permanece, contudo, uma limitação central. A maior parte dos dados disponíveis provém de populações sem amputação e não descreve a morfologia do membro residual, nem a interação dinâmica entre tecido, carga e encaixe. Para uma prótese definitiva, a referência mais adequada seria a medição direta do utilizador, idealmente complementada por digitalização tridimensional e validação de interface. Nesta investigação, os dados antropométricos públicos são usados para estruturar o sistema, testar coerência dimensional e fundamentar decisões de parametrização; não são apresentados como substituto de avaliação clínica, prova de conforto ou validação individual.
 
@@ -969,21 +828,6 @@ Tabela 4.5 — Estrutura hierárquica dos parâmetros no modelo paramétrico
 | Construtivos | Espessuras, folgas, tolerâncias | Fabrico | Ajuste técnico |
 
 A tradução destes parâmetros em geometria é realizada por meio de relações explícitas entre medições e componentes do modelo.
-
-### OpenSCAD: enquadramento e justificação da escolha
-
-Antes de avançar para a formalização do modelo, importa clarificar o que é o OpenSCAD e por que motivo foi escolhido como ambiente de modelação paramétrica neste projeto. O OpenSCAD é um ambiente livre e open source de CAD tridimensional baseado em ficheiros de script, orientado para a criação de geometria sólida e não para a modelação artística de superfícies. O modelo é descrito num ficheiro .scad, escrito numa linguagem própria, e esse ficheiro é interpretado pelo programa para gerar o sólido correspondente. Do ponto de vista geométrico, o OpenSCAD assenta numa lógica de Constructive Solid Geometry (CSG), na qual primitivas como cubos, cilindros, esferas e extrusões são combinadas por operações booleanas, transformações e relações hierárquicas entre módulos (OpenSCAD Project, n.d.-a (#ref-openscad-project-nd-a); OpenSCAD Project, n.d.-b (#ref-openscad-project-nd-b); Ghali, 2008 (#ref-ghali-2008)).
-
-Esta natureza programável distingue o OpenSCAD dos ambientes CAD convencionais baseados sobretudo em manipulação gráfica direta. Em muitos sistemas CAD, o utilizador constrói uma sequência de operações num histórico visual e parametriza algumas características desse histórico; no OpenSCAD, pelo contrário, a própria descrição textual é o modelo paramétrico. As variáveis, funções e módulos não são uma camada posterior aplicada à geometria, mas a estrutura que a gera. Esta diferença é relevante para a investigação, porque torna as relações entre parâmetros, componentes e restrições mais explícitas, reexecutáveis e documentáveis, embora implique uma curva de aprendizagem maior e dificuldades conhecidas em tarefas de navegação código-vista, validação e criação de formas orgânicas complexas (Trautmann, 2021 (#ref-trautmann-2021); Gonzalez Avila et al., 2024 (#ref-gonzalez-avila-2024)).
-
-A escolha do OpenSCAD resulta, em primeiro lugar, da sua adequação a processos reprodutíveis de design paramétrico. Por ser texto simples, o ficheiro-fonte pode ser versionado, comparado, revisto e reutilizado, o que favorece a rastreabilidade das decisões de modelação e a replicação das variantes geradas. Esta característica é particularmente valorizada em hardware científico e open source, precisamente porque a documentação do processo é tão importante como o ficheiro final exportado. Além disso, o OpenSCAD pode ser executado por linha de comando, receber valores por parâmetros e exportar automaticamente geometrias para formatos de fabrico digital, como STL ou 3MF, tornando-o compatível com fluxos de geração em lote e com configuradores digitais (Machado et al., 2019 (#ref-machado-2019); OpenSCAD Community, n.d. (#ref-openscad-community-nd)).
-
-Em segundo lugar, o OpenSCAD adapta-se bem à arquitetura web proposta nesta dissertação. A separação entre definição geométrica e interface permite que o ficheiro .scad permaneça como núcleo técnico do modelo, enquanto a plataforma apresenta ao utilizador apenas os parâmetros relevantes. Esta lógica já foi explorada em configuradores web baseados em OpenSCAD, nos quais utilizadores sem domínio da linguagem podem gerar variantes imprimíveis a partir de modelos parametrizados por designers. A existência de implementações em WebAssembly, como o OpenSCAD Web, reforça esta escolha, porque demonstra que o motor de geração pode ser executado no navegador, associado a editores, visualizadores 3D e interfaces de customização sem exigir a instalação local de software CAD completo (Nilsiam & Pearce, 2017 (#ref-nilsiam-2017); Brooks, 2026 (#ref-brooks-2026)).
-
-Em terceiro lugar, o OpenSCAD é particularmente compatível com um fluxo de design assistido por inteligência artificial. Como a geometria é expressa em código curto, estruturado e relativamente legível, uma IA pode sugerir valores, explicar relações entre variáveis ou propor alterações ao script sem substituir a lógica paramétrica por uma geometria opaca. Trabalhos recentes sobre geração de modelos 3D a partir de linguagem natural e automação de desenho paramétrico mostram que modelos de linguagem podem atuar sobre scripts CAD, embora continuem a exigir revisão humana, verificação dimensional e validação técnica antes de qualquer aplicação produtiva ou clínica (ELhadad et al., 2026 (#ref-elhadad-2026); Schöfer & Seibel, 2025 (#ref-schofer-seibel-2025); Gonzalez Avila et al., 2024 (#ref-gonzalez-avila-2024)).
-
-No contexto específico das próteses e das tecnologias de apoio, esta escolha é ainda reforçada por estudos que usam modelação paramétrica para adaptar dedos protésicos, mãos mecânicas acionadas pelo corpo e outros dispositivos de apoio às medidas ou necessidades do utilizador.
-Estes trabalhos não eliminam a necessidade de ensaios funcionais, avaliação ergonómica ou validação clínica, mas demonstram que a personalização geométrica pode ser estruturada por parâmetros explícitos e por modelos reexecutáveis. Para este projeto, o OpenSCAD é, portanto, adequado não porque resolva sozinho o problema da prótese personalizada, mas porque oferece uma base transparente para ligar medidas antropométricas, regras de modelação, interface web, sugestões de IA, exportação para fabrico aditivo e revisão humana (Lim et al., 2018 (#ref-lim-2018); Bustamante et al., 2018 (#ref-bustamante-2018); Romani & Levi, 2020 (#ref-romani-levi-2020)).
 
 Tabela 4.6 — Mapeamento entre parâmetros antropométricos e elementos do modelo
 
@@ -1006,6 +850,20 @@ Este mapeamento constitui a base da modelação paramétrica, permitindo convert
 Antes da tradução do modelo para o ambiente de modelação paramétrica, torna-se necessário estabilizar três níveis: os dados de entrada, as relações entre parâmetros e os limites técnicos que condicionam a sua transformação em forma.
 
 No contexto desta investigação, o papel da secção 4.2 é, portanto, delimitado com clareza: identificar quais são os parâmetros antropométricos relevantes, como são recolhidos ou inferidos, e de que modo se organizam antes de entrarem na estrutura computacional do modelo. A secção seguinte retoma precisamente esta base para mostrar como esse sistema de entradas, dependências e restrições é formalizado em OpenSCAD como um modelo executável, modular e regenerável.
+
+### OpenSCAD: enquadramento e justificação da escolha
+
+Antes de avançar para a formalização do modelo, importa clarificar o que é o OpenSCAD e por que motivo foi escolhido como ambiente de modelação paramétrica neste projeto. O OpenSCAD é um ambiente livre e open source de CAD tridimensional baseado em ficheiros de script, orientado para a criação de geometria sólida e não para a modelação artística de superfícies. O modelo é descrito num ficheiro `.scad`, escrito numa linguagem própria, e esse ficheiro é interpretado pelo programa para gerar o sólido correspondente. Do ponto de vista geométrico, o OpenSCAD assenta numa lógica de Constructive Solid Geometry (CSG), na qual primitivas como cubos, cilindros, esferas e extrusões são combinadas por operações booleanas, transformações e relações hierárquicas entre módulos (OpenSCAD Project, n.d.-a (#ref-openscad-project-nd-a); OpenSCAD Project, n.d.-b (#ref-openscad-project-nd-b); Ghali, 2008 (#ref-ghali-2008)).
+
+Esta natureza programável distingue o OpenSCAD dos ambientes CAD convencionais baseados sobretudo em manipulação gráfica direta. Em muitos sistemas CAD, o utilizador constrói uma sequência de operações num histórico visual e parametriza algumas características desse histórico; no OpenSCAD, pelo contrário, a própria descrição textual é o modelo paramétrico. As variáveis, funções e módulos não são uma camada posterior aplicada à geometria, mas a estrutura que a gera. Esta diferença é relevante para a investigação, porque torna as relações entre parâmetros, componentes e restrições mais explícitas, reexecutáveis e documentáveis, embora implique uma curva de aprendizagem maior e dificuldades conhecidas em tarefas de navegação código-vista, validação e criação de formas orgânicas complexas (Trautmann, 2021 (#ref-trautmann-2021); Gonzalez Avila et al., 2024 (#ref-gonzalez-avila-2024)).
+
+A escolha do OpenSCAD resulta, em primeiro lugar, da sua adequação a processos reprodutíveis de design paramétrico. Por ser texto simples, o ficheiro-fonte pode ser versionado, comparado, revisto e reutilizado, o que favorece a rastreabilidade das decisões de modelação e a replicação das variantes geradas. Esta característica é particularmente valorizada em hardware científico e open source, precisamente porque a documentação do processo é tão importante como o ficheiro final exportado. Além disso, o OpenSCAD pode ser executado por linha de comando, receber valores por parâmetros e exportar automaticamente geometrias para formatos de fabrico digital, como STL ou 3MF, tornando-o compatível com fluxos de geração em lote e com configuradores digitais (Machado et al., 2019 (#ref-machado-2019); OpenSCAD Community, n.d. (#ref-openscad-community-nd)).
+
+Em segundo lugar, o OpenSCAD adapta-se bem à arquitetura web proposta nesta dissertação. A separação entre definição geométrica e interface permite que o ficheiro `.scad` permaneça como núcleo técnico do modelo, enquanto a plataforma apresenta ao utilizador apenas os parâmetros relevantes. Esta lógica já foi explorada em configuradores web baseados em OpenSCAD, nos quais utilizadores sem domínio da linguagem podem gerar variantes imprimíveis a partir de modelos parametrizados por designers. A existência de implementações em WebAssembly, como o OpenSCAD Web, reforça esta escolha, porque demonstra que o motor de geração pode ser executado no navegador, associado a editores, visualizadores 3D e interfaces de customização sem exigir a instalação local de software CAD completo (Nilsiam & Pearce, 2017 (#ref-nilsiam-2017); Brooks, 2026 (#ref-brooks-2026)).
+
+Em terceiro lugar, o OpenSCAD é particularmente compatível com um fluxo de design assistido por inteligência artificial. Como a geometria é expressa em código curto, estruturado e relativamente legível, uma IA pode sugerir valores, explicar relações entre variáveis ou propor alterações ao script sem substituir a lógica paramétrica por uma geometria opaca. Trabalhos recentes sobre geração de modelos 3D a partir de linguagem natural e automação de desenho paramétrico mostram que modelos de linguagem podem atuar sobre scripts CAD, embora continuem a exigir revisão humana, verificação dimensional e validação técnica antes de qualquer aplicação produtiva ou clínica (ELhadad et al., 2026 (#ref-elhadad-2026); Schöfer & Seibel, 2025 (#ref-schofer-seibel-2025); Gonzalez Avila et al., 2024 (#ref-gonzalez-avila-2024)).
+
+No contexto específico das próteses e das tecnologias de apoio, esta escolha é ainda reforçada por estudos que usam modelação paramétrica para adaptar dedos protésicos, mãos mecânicas acionadas pelo corpo e produtos assistivos às medidas ou necessidades do utilizador. Estes trabalhos não eliminam a necessidade de ensaios funcionais, avaliação ergonómica ou validação clínica, mas demonstram que a personalização geométrica pode ser estruturada por parâmetros explícitos e por modelos reexecutáveis. Para este projeto, o OpenSCAD é, portanto, adequado não porque resolva sozinho o problema da prótese personalizada, mas porque oferece uma base transparente para ligar medidas antropométricas, regras de modelação, interface web, sugestões de IA, exportação para fabrico aditivo e revisão humana (Lim et al., 2018 (#ref-lim-2018); Bustamante et al., 2018 (#ref-bustamante-2018); Romani & Levi, 2020 (#ref-romani-levi-2020)).
 
 ### 4.3 Modelação paramétrica em OpenSCAD
 
@@ -1031,7 +889,7 @@ Numa primeira camada situam-se os dados de entrada, provenientes de medições l
 
 Tabela 4.7 — Estrutura técnica em camadas de um modelo paramétrico em OpenSCAD para próteses personalizadas
 
-| Entrada | Dados antropométricos e/ou dados de digitalização | Individualizar o modelo | Largura da palma, comprimentos digitais, perímetro do membro residual |
+| Entrada | Dados antropométricos e/ou dados de digitalização | Individualizar o modelo | Largura da palma, comprimentos digitais, perímetro do coto |
 
 | --- | --- | --- | --- |
 
@@ -1059,9 +917,7 @@ Contudo, esta abordagem apresenta limitações importantes. Uma delas prende-se 
 
 Há ainda uma limitação relacionada com a interoperabilidade. Os estudos comparativos sobre OpenSCAD sublinham que este ambiente de modelação está fortemente orientado para formatos baseados em malhas, nos quais a geometria é representada por uma aproximação poligonal da superfície, como acontece nos ficheiros STL. Esta orientação favorece fluxos de fabrico digital e impressão 3D, mas pode dificultar a integração com certos circuitos CAD industriais ou com ambientes que exijam a preservação completa da informação paramétrica em formatos normalizados (Machado et al., 2019 (#ref-machado-2019)). Isto não invalida a adequação do OpenSCAD ao presente projeto, mas significa que a sua adoção deve ser vista como uma escolha situada: muito eficaz para estruturar um núcleo paramétrico explícito, menos adequada quando o objetivo depende de plena continuidade com certos fluxos proprietários de engenharia.
 
-Por fim, importa reconhecer que a robustez da abordagem resulta da articulação entre a geração da geometria e as etapas subsequentes de validação. Mesmo quando a lógica paramétrica é clara e as restrições estão integradas, a confirmação do modelo depende da verificação durante a preparação do modelo para impressão 3D, do controlo dimensional, de eventual simulação estrutural e da observação do comportamento da peça em protótipo.
-
-Em consequência, o valor do OpenSCAD nesta investigação não reside numa promessa de automatização total, mas na capacidade de fornecer uma infraestrutura técnica clara para ligar a personalização antropométrica, a modularidade, as restrições de fabrico e a documentação do processo. É precisamente essa combinação entre explicitação, reexecução e possibilidade de revisão crítica que justifica a sua escolha como base para a modelação paramétrica aqui desenvolvida.
+Por fim, importa reconhecer que a robustez da abordagem não se esgota na geração da geometria. Mesmo quando a lógica paramétrica é clara e as restrições estão integradas, a validação continua a depender da verificação no slicer, do controlo dimensional, de eventual simulação estrutural e da observação do comportamento da peça em protótipo. Em consequência, o valor do OpenSCAD nesta investigação não reside numa promessa de automatização total, mas na capacidade de fornecer uma infraestrutura técnica clara para ligar a personalização antropométrica, a modularidade, as restrições de fabrico e a documentação do processo. É precisamente essa combinação entre explicitação, reexecução e possibilidade de revisão crítica que justifica a sua escolha como base para a modelação paramétrica aqui desenvolvida.
 
 ### 4.4 Iterações, refinamento e discussão intermédia
 
@@ -1077,9 +933,7 @@ As iterações também mostraram que a robustez de um modelo paramétrico só se
 
 Outro eixo central do processo prendeu-se à relação entre personalização e fabricação. Nem todas as variações formalmente admissíveis se revelaram compatíveis com as exigências do fabrico. Algumas configurações geravam geometrias excessivamente finas, folgas insuficientes ou desproporcionadas, transições abruptas e zonas potencialmente frágeis no contexto da impressão 3D. Neste sentido, a evolução do modelo confirmou a relevância de integrar critérios de Design for Additive Manufacturing à própria lógica paramétrica, em vez de tratá-los como uma verificação externa e posterior. A literatura sobre DfAM aponta precisamente para a necessidade de incorporar tolerâncias, espessuras mínimas, orientações de fabrico e limites materiais desde a fase de conceção, reduzindo falhas e encurtando os ciclos de reimpressão e de correção (Chtioui, Gaha, & Benamara, 2023; Wiberg et al., 2019 (#ref-wiberg-2019)).
 
-Em sistemas configuráveis para próteses, a coerência geométrica e a compatibilidade com o processo de impressão não são suficientes para assegurar a adequação ao uso. A articulação entre segmentos, o posicionamento relativo dos mecanismos, a distribuição de massa, as zonas sujeitas a esforço e a amplitude de movimento influenciam diretamente o desempenho esperado do objeto. Por essa razão, várias revisões do modelo implicaram reajustes que articularam a correção formal da geometria com a necessidade de manter um equilíbrio plausível entre adaptação dimensional, comportamento funcional e viabilidade material.
-
-O refinamento correspondeu, assim, a uma negociação contínua entre a simplificação paramétrica e as exigências funcionais e materiais do protótipo.
+Em sistemas configuráveis para próteses, a coerência geométrica e a compatibilidade com o processo de impressão não são suficientes para assegurar a adequação ao uso. A articulação entre segmentos, o posicionamento relativo dos mecanismos, a distribuição de massa, as zonas sujeitas a esforço e a amplitude de movimento influenciam diretamente o desempenho esperado do objeto. Por essa razão, várias revisões do modelo implicaram reajustes que não se limitavam à correção formal da geometria, mas procuravam manter um equilíbrio plausível entre adaptação dimensional, comportamento funcional e viabilidade material. O refinamento correspondeu, assim, a uma negociação contínua entre a simplificação paramétrica e as exigências funcionais e materiais do protótipo.
 
 Do ponto de vista metodológico, importa sublinhar que este percurso não deve ser lido como uma simples sucessão de tentativas e erros. Cada iteração reconfigurou a compreensão do problema e tornou mais explícitos aspetos que não eram plenamente antecipáveis na formulação inicial. Entre eles, destacam-se a dificuldade de traduzir certas qualidades anatómicas em relações paramétricas simples, a tendência de modelos demasiado abertos a perderem consistência e a necessidade de explicitar restrições para preservar a coerência perante a variação. Neste sentido, o conhecimento produzido não reside apenas no estado final do modelo, mas também no próprio processo de convergência crítica que permitiu delimitar o que pode e o que não pode ser razoavelmente parametrizado neste contexto (Zimmerman et al., 2007 (#ref-zimmerman-2007)).
 
@@ -1093,15 +947,7 @@ A plataforma web desenvolvida no âmbito deste projeto constitui a camada de med
 
 Do ponto de vista funcional, a plataforma foi concebida para suportar um processo progressivo de personalização, no qual a definição geométrica da prótese resulta da articulação entre a recolha de dados, a seleção do modelo, o ajustamento de parâmetros, a visualização do resultado e a eventual exportação para prototipagem. Esta organização procura reduzir a distância entre o domínio técnico da modelação paramétrica e o contexto aplicado de utilização clínica, experimental ou de projecto.
 
-Em vez de exigir que cada interveniente compreenda a estrutura interna do ficheiro OpenSCAD, o sistema disponibiliza uma camada de interação mais acessível, baseada em controlos paramétricos, pré-visualização tridimensional e gestão de configurações.
-
-Tal opção aproxima-se de abordagens recentes em plataformas de personalização de próteses, nas quais a interface funciona como meio de tornar observável, configurável e progressivamente verificável um processo que, de outro modo, permaneceria dependente de software especializado ou de mediação exclusivamente técnica (Peixoto et al., 2025 (#ref-peixoto-2025)).
-
-![](projecto-completo_media/image15.png)
-
-Figura 5.1 — Fluxo geral de produção personalizada de próteses a partir de plataforma web – Hand Fab
-
-Produção própria
+Em vez de exigir que cada interveniente compreenda a estrutura interna do ficheiro OpenSCAD, o sistema disponibiliza uma camada de interação mais acessível, baseada em controlos paramétricos, pré-visualização tridimensional e gestão de configurações. Tal opção aproxima-se de abordagens recentes em plataformas de personalização de próteses, nas quais a interface funciona como meio de tornar observável, configurável e progressivamente verificável um processo que, de outro modo, permaneceria dependente de software especializado ou de mediação exclusivamente técnica (Peixoto et al., 2025 (#ref-peixoto-2025)).
 
 Neste sentido, a plataforma deve ser entendida como uma infraestrutura de mediação entre componentes técnicos, utilizadores e intervenientes especializados, e não apenas como um artefacto de software. A personalização deixa, assim, de corresponder a um ato individual e isolado, passando a ser enquadrada como um processo distribuído, no qual diferentes intervenientes participam com graus distintos de responsabilidade, conhecimento e controlo.
 
@@ -1121,11 +967,11 @@ Deste modo, o enquadramento conceptual da plataforma articula três objetivos co
 
 O sistema organiza-se numa estrutura em camadas, concebida para distinguir a interface de utilização, a lógica de configuração, a persistência de dados e os serviços complementares de apoio ao processo de personalização. Esta opção procura responder a um problema central do projeto: tornar operável um modelo paramétrico tecnicamente exigente num ambiente web sem concentrar, no mesmo ponto, responsabilidades de interação, cálculo geométrico, armazenamento e controlo de acesso. Em termos conceptuais, esta separação prolonga a lógica já discutida nas secções anteriores: a personalização digital exige sistemas suficientemente configuráveis para acomodar a variação, mas também suficientemente disciplinados para preservar a coerência, a rastreabilidade e a capacidade de manutenção (Ozdemir et al., 2022 (#ref-ozdemir-2022); Lei et al., 2016 (#ref-lei-2016)).
 
-A Figura 5.2 apresenta um precedente de arquitetura de produção personalizada em que a digitalização, o processamento de dados, a adaptação CAD e o fabrico aditivo são articulados num fluxo de ponta a ponta. A comparação é útil porque mostra que a personalização digital depende da continuidade entre captura, parametrização e produção, ainda que, no presente projeto, essa continuidade seja deslocada para uma plataforma web e para modelos OpenSCAD executados localmente (Górski et al., 2022 (#ref-gorski-2022)).
+A Figura 5.1 apresenta um precedente de arquitetura de produção personalizada em que a digitalização, o processamento de dados, a adaptação CAD e o fabrico aditivo são articulados num fluxo de ponta a ponta. A comparação é útil porque mostra que a personalização digital depende da continuidade entre captura, parametrização e produção, ainda que, no presente projeto, essa continuidade seja deslocada para uma plataforma web e para modelos OpenSCAD executados localmente (Górski et al., 2022 (#ref-gorski-2022)).
 
-![](projecto-completo_media/image16.png)
+![](projecto-completo_media/image15.png)
 
-Figura 5.2 — Fluxo geral de produção personalizada de próteses a partir de digitalização, CAD adaptativo e fabrico aditivo.
+Figura 5.1 — Fluxo geral de produção personalizada de próteses a partir de digitalização, CAD adaptativo e fabrico aditivo.
 
 Fonte original: Górski, F., Zawadzki, P., Wichniarek, R., Kuczko, W., Słupińska, S., & Żukowska, M. (2022). Automated design and rapid manufacturing of low-cost customized upper limb prostheses. Journal of Physics: Conference Series, 2198, 012040. [https://doi.org/10.1088/1742-6596/2198/1/012040](https://doi.org/10.1088/1742-6596/2198/1/012040)
 
@@ -1143,7 +989,7 @@ Estes mecanismos não devem ser entendidos como adições periféricas, mas como
 
 A integração do OpenSCAD por meio de WebAssembly, como referido anteriormente, constitui um dos elementos técnicos mais relevantes da plataforma, pois permite executar localmente, no navegador, um modelo paramétrico baseado em código, sem depender de um serviço externo de renderização contínua. O OpenSCAD funciona como linguagem e ambiente de modelação em que a geometria é definida por instruções escritas, parâmetros numéricos e relações explícitas entre componentes, em vez de resultar exclusivamente de manipulação gráfica direta. O WebAssembly (WASM), por sua vez, possibilita a execução de aplicações compiladas com desempenho próximo ao nativo no contexto da web. A articulação entre ambos torna viável um cenário particularmente pertinente para esta investigação: preservar a lógica algorítmica do modelo e, ao mesmo tempo, disponibilizá-la num ambiente de utilização mais acessível, orientado por uma interface (Machado et al., 2019 (#ref-machado-2019); Nilsiam & Pearce, 2017 (#ref-nilsiam-2017)).
 
-Operacionalmente, a integração articula três elementos principais: os ficheiros .scad, formato de script utilizado pelo OpenSCAD para definir modelos geométricos por código; os parâmetros introduzidos ou ajustados na interface; e o ambiente de execução em WebAssembly. Quando o utilizador altera uma configuração, a plataforma envia os valores atualizados para um Web Worker, que aplica esses parâmetros ao modelo em OpenSCAD e gera a geometria tridimensional correspondente. O resultado é depois devolvido ao visualizador no navegador, permitindo observar os efeitos das alterações sem recorrer a software CAD instalado localmente. Este fluxo estabelece uma ligação direta entre edição paramétrica, cálculo geométrico e feedback visual, permitindo que o processo seja documentado, verificado e revisto dentro da própria plataforma.
+Em termos operacionais, o processo organiza-se  numa cadeia relativamente clara. Os ficheiros .scad, que contêm a definição algorítmica do modelo, e os conjuntos de parâmetros produzidos pela interface são carregados no frontend. Esses elementos são depois encaminhados para um Web Worker, isto é, um processo separado da interface principal, capaz de executar tarefas pesadas em segundo plano. Nesse worker, a versão compilada do OpenSCAD em WASM interpreta o código, aplica os parâmetros recebidos e gera a geometria tridimensional correspondente. O resultado é então devolvido ao ambiente de visualização no navegador, onde o utilizador pode observar os efeitos das alterações introduzidas sem sair da plataforma nem recorrer a software CAD instalado localmente. Esta cadeia de parâmetros -> worker -> OpenSCAD em WASM -> geometria visível é central para o funcionamento do sistema, pois liga a edição, o cálculo e o feedback formal numa sequência rastreável.
 
 Do ponto de vista metodológico, esta solução tem implicações importantes. Em primeiro lugar, preserva o estatuto do modelo paramétrico como especificação explícita e não como caixa negra geométrica. A plataforma não substitui o OpenSCAD por uma representação simplificada desligada do código; antes, torna o próprio núcleo algorítmico operável em ambiente web. Em segundo lugar, esta integração reduz a distância entre modelação e interação, permitindo que a exploração formal decorra num contexto mais observável e iterativo. O utilizador não necessita de dominar a sintaxe do OpenSCAD para beneficiar da estrutura paramétrica do modelo, mas essa estrutura continua a ser a base efetiva da geometria apresentada. Neste sentido, a plataforma atua como uma camada intermédia entre a disciplina técnica do código e a experiência configurável descrita na literatura sobre configuradores e sistemas de personalização digital (Nilsiam & Pearce, 2017 (#ref-nilsiam-2017); Ozdemir et al., 2022 (#ref-ozdemir-2022)).
 
@@ -1155,17 +1001,15 @@ Não obstante as vantagens, esta solução introduz limitações que importa rec
 
 ### 5.4 Estrutura funcional da plataforma
 
-A estrutura funcional da plataforma organiza-se num conjunto de módulos interligados que suportam o ciclo completo de configuração paramétrica: seleção do modelo, introdução e edição de parâmetros, visualização tridimensional, sugestões assistidas por IA, gestão de configurações e administração multiutilizador.Esta organização modular permite distribuir as funcionalidades da plataforma, ao mesmo tempo que estrutura o processo de personalização como uma sequência legível de operações.
+A estrutura funcional da plataforma organiza-se num conjunto de módulos interligados que suportam o ciclo completo de configuração paramétrica: seleção do modelo, introdução e edição de parâmetros, visualização tridimensional, sugestões assistidas por IA, gestão de configurações e administração multiutilizador. Esta organização modular não serve apenas para distribuir funcionalidades; também torna o processo de personalização legível e sequencial. Em vez de expor o utilizador a um ambiente indiferenciado de opções, a plataforma reparte o trabalho por etapas e componentes com funções distintas, o que está de acordo com a literatura sobre configuradores digitais, segundo a qual a eficácia da personalização depende, em grande medida, da clareza com que o sistema delimita o espaço de ação disponível e articula feedback com decisão (Ozdemir et al., 2022 (#ref-ozdemir-2022); Peixoto et al., 2025 (#ref-peixoto-2025)).
 
-Em vez de expor o utilizador a um ambiente indiferenciado de opções, a plataforma reparte o trabalho por etapas e componentes com funções distintas, o que está de acordo com a literatura sobre configuradores digitais, segundo a qual a eficácia da personalização depende, em grande medida, da clareza com que o sistema delimita o espaço de ação disponível e articula feedback com decisão (Ozdemir et al., 2022 (#ref-ozdemir-2022); Peixoto et al., 2025 (#ref-peixoto-2025)).
-
-A Figura 5.3 ilustra um precedente particularmente próximo desta lógica: uma ferramenta paramétrica orientada a terapeutas ocupacionais, na qual múltiplas variantes de produto podem ser configuradas a partir de dimensões, materiais e pesos ajustáveis. A sua pertinência para esta dissertação reside em demonstrar que a parametrização ganha valor quando é mediada por uma interface acessível a profissionais que não são necessariamente especialistas em modelação CAD.
+A Figura 5.2 ilustra um precedente particularmente próximo desta lógica: uma ferramenta paramétrica orientada a terapeutas ocupacionais, na qual múltiplas variantes de produto podem ser configuradas a partir de dimensões, materiais e pesos ajustáveis. A sua pertinência para esta dissertação reside em demonstrar que a parametrização ganha valor quando é mediada por uma interface acessível a profissionais que não são necessariamente especialistas em modelação CAD.
 
 (Li & Aflatoony, 2025 (#ref-li-aflatoony-2025)).
 
-![](projecto-completo_media/image17.png)
+![](projecto-completo_media/image16.png)
 
-Figura 5.3 — Ferramenta paramétrica para configuração de ajudas técnicas com variação de dimensões, materiais e peso.
+Figura 5.2 — Ferramenta paramétrica para configuração de ajudas técnicas com variação de dimensões, materiais e peso.
 
 Fonte original: Li, M., & Aflatoony, L. (2025). Parametric design and three-dimensional printing: Enabling occupational therapists to develop custom hand grips. Disability and Rehabilitation: Assistive Technology, 20(6), 1829-1837. [https://doi.org/10.1080/17483107.2025.2483953](https://doi.org/10.1080/17483107.2025.2483953)
 
@@ -1181,9 +1025,7 @@ A evolução posterior do módulo acrescentou uma ancoragem opcional em dados po
 
 Outro componente central é o módulo de gestão de configurações. A possibilidade de nomear, guardar, recuperar, atualizar e eliminar instâncias de personalização é particularmente relevante num processo iterativo, em que diferentes variantes podem corresponder a hipóteses sucessivas de trabalho e não apenas a estados finais. Funcionalmente, este módulo transforma a configuração de um ato momentâneo numa sequência acumulativa, na qual diferentes estados podem ser guardados, recuperados e comparados ao longo do processo, permitindo retomar versões anteriores, comparar alternativas e sustentar processos de revisão progressiva. Deste modo, a gestão de configurações não é uma simples conveniência de interface: é parte integrante da estrutura funcional que torna a personalização verificável e acumulável ao longo do tempo.
 
-Por fim, a plataforma inclui um módulo administrativo e de controlo de acesso que suporta a organização multi-utilizador. Este módulo assegura a criação de contas, a diferenciação de permissões, a atribuição de utilizadores a técnicos e a delimitação das ações acessíveis a cada perfil.
-
-A sua presença confirma que a estrutura funcional da plataforma abrange a manipulação de parâmetros, a visualização de formas e a gestão das relações entre agentes, responsabilidades e níveis de intervenção. Neste sentido, a aplicação obtém sugestões paramétricas através do servidor, que comunica com serviços externos por intermédio de um proxy seguro, enquadrando essa capacidade numa estrutura funcional mais ampla, em que configuração, supervisão e persistência coexistem como partes de um mesmo sistema operativo.
+Por fim, a plataforma inclui um módulo administrativo e de controlo de acesso que suporta a organização multi-utilizador. Este módulo assegura a criação de contas, a diferenciação de permissões, a atribuição de utilizadores a técnicos e a delimitação das ações acessíveis a cada perfil. A sua presença confirma que a estrutura funcional da plataforma não se esgota na manipulação de parâmetros e na visualização de formas; inclui também a gestão das relações entre agentes, das responsabilidades e dos níveis de intervenção. Neste sentido, a aplicação obtém sugestões paramétricas através do servidor, que se comunica com serviços externos por intermédio de um proxy seguro, mas enquadra essa capacidade dentro de uma estrutura funcional mais ampla, em que configuração, supervisão e persistência coexistem como partes de um mesmo sistema operativo.
 
 A biblioteca de modelos integrada na plataforma confirma esta lógica modular. Em vez de tratar a prótese como um único ficheiro estático, o sistema organiza diferentes famílias de próteses como modelos registados, cada uma com parâmetros, dependências, limites e modos de visualização próprios. Esta decisão permitiu comparar estratégias distintas de integração: modelos reconstruídos integralmente em OpenSCAD, modelos provenientes de geometrias existentes e modelos open source já paramétricos, mas não alinhados com a nomenclatura antropométrica da plataforma. A integração não consistiu, portanto, apenas em “carregar” ficheiros tridimensionais; consistiu em traduzir cada modelo para uma interface comum de parâmetros, mantendo as suas restrições mecânicas específicas.
 
@@ -1201,7 +1043,7 @@ Controlar parâmetros constitui uma das condições centrais para transformar um
 
 Ao descrever os parâmetros em estruturas independentes do código geométrico principal, a plataforma obtém duas vantagens. A primeira é a rastreabilidade: torna-se possível saber quais variáveis são editáveis, quais são os seus intervalos válidos e como se articulam com a interface. A segunda vantagem reside na possibilidade de adaptar a estrutura do próprio sistema: parâmetros podem ser adicionados, removidos ou ajustados sem que seja necessário reescrever integralmente a lógica de interação. Assim, a gestão de parâmetros funciona como uma camada intermédia entre a definição geométrica e a experiência de uso, permitindo que o modelo permaneça tecnicamente explícito sem exigir que o utilizador interaja diretamente com a sua sintaxe interna.
 
-A gestão de versões manifesta-se, neste estágio do projeto, sobretudo por meio do armazenamento de configurações salvas. A plataforma permite conservar diferentes conjuntos de parâmetros associados ao mesmo modelo, atribuindo-lhes identificação própria, notas descritivas e associação a um utilizador específico. Embora esta solução ainda não corresponda a um sistema completo de gestão de versões, como os utilizados no desenvolvimento de software, já suporta uma função relevante para o processo de projeto: acompanhar a configuração ao longo do tempo, preservar variantes e permitir a comparação entre estados sucessivos do mesmo artefacto. Cada configuração registada pode, assim, ser entendida como uma instância documentada do processo de personalização, passível de recuperação, comparação e revisão, e não apenas como um ficheiro transitório. Esta capacidade é particularmente importante num contexto em que a personalização não é um ato único, mas uma sequência de aproximações, testes e revisões.
+A gestão de versões manifesta-se, neste estágio do projeto, sobretudo por meio do armazenamento de configurações salvas. A plataforma permite conservar diferentes conjuntos de parâmetros associados ao mesmo modelo, atribuindo-lhes identificação própria, notas descritivas e associação a um utilizador específico. Embora esta solução ainda não corresponda a um sistema completo de gestão de versões, como os utilizados no desenvolvimento de software, já suporta uma função relevante para o processo de projeto: acompanhar a configuração ao longo do tempo, preservar variantes e permitir a comparação entre estados sucessivos do mesmo artefacto. Cada configuração registada pode, assim, ser entendida como uma instância rastreável do processo de personalização, e não apenas como um ficheiro transitório. Esta capacidade é particularmente importante num contexto em que a personalização não é um ato único, mas uma sequência de aproximações, testes e revisões.
 
 Do ponto de vista funcional, a persistência dessas configurações em estruturas JSON associadas a modelos e utilizadores reforça a continuidade entre interação, revisão e reutilização. O sistema deixa, assim, de limitar a configuração ao estado temporário da sessão e passa a preservar um registo das configurações realizadas, possibilitando retomar soluções anteriores, documentar alternativas exploradas e preparar comparações futuras entre versões. Esta forma de gestão prática de versões é coerente com o caráter experimental da plataforma: ainda não pretende substituir mecanismos mais sofisticados de gestão de revisões, mas fornece uma base suficiente para sustentar o acompanhamento iterativo do desenvolvimento e a análise reflexiva do processo.
 
@@ -1249,7 +1091,7 @@ No protótipo implementado, esta separação é materializada pela construção 
 
 O apoio à decisão emerge precisamente desta capacidade de transformar dados de entrada em cenários comparáveis. Em vez de produzir uma única configuração apresentada como “ótima”, a integração da IA revela maior utilidade quando ajuda a explicitar compromissos entre robustez, leveza, amplitude de ajuste, rapidez de fabrico, facilidade de montagem e adequação anatómica. Esta lógica está alinhada com exemplos recentes de integração entre digitalização, modelação paramétrica, fabrico aditivo e sistemas inteligentes, como o trabalho de Romero et al. (2025) (#ref-da-silveira-romero-2025), ainda que aí a componente de IA esteja mais ligada ao controlo mioelétrico do que à sugestão paramétrica em ambiente web. A pertinência desse precedente reside menos na equivalência técnica direta e mais no facto de mostrar que a personalização digital e a camada inteligente podem coexistir no mesmo fluxo, desde que cada componente mantenha uma função claramente delimitada.
 
-É por isso que, nesta investigação, a personalização assistida por IA deve ser entendida como uma prática de human-in-the-loop.O sistema procura ampliar a capacidade de análise e de exploração do protesista, do designer ou do utilizador informado. A IA pode sugerir configurações iniciais, organizar alternativas, sinalizar dependências entre parâmetros e tornar mais claras certas consequências de projeto, a aceitação final, porém, continua dependente de verificação técnica e de julgamento contextual. Deste modo, a parametrização assistida por IA não corresponde a uma automatização cega da personalização, mas a um mecanismo de apoio à decisão que atua sobre uma base geométrica explícita, documentada e tecnicamente verificável.
+É por isso que, nesta investigação, a personalização assistida por IA deve ser entendida como uma prática de human-in-the-loop.O sistema procura ampliar a capacidade de análise e de exploração do protesista, do designer ou do utilizador informado. A IA pode sugerir configurações iniciais, organizar alternativas, sinalizar dependências entre parâmetros e tornar mais claras certas consequências de projeto, a aceitação final, porém, continua dependente de verificação técnica e de julgamento contextual. Deste modo, a parametrização assistida por IA não corresponde a uma automatização cega da personalização, mas a um mecanismo de apoio à decisão que atua sobre uma base geométrica explícita, rastreável e tecnicamente verificável.
 
 ### 6.3 Validação antropométrica assistida por IA no sistema
 
@@ -1291,7 +1133,7 @@ Do ponto de vista técnico, subsistem limitações significativas. A IA pode pro
 
 A Figura 6.1 sintetiza esta tensão entre desafios de explicabilidade e princípios de IA responsável. No contexto desta investigação, a figura é útil porque torna explícito que a responsabilidade não depende apenas de desempenho preditivo, mas de condições como transparência, auditabilidade, privacidade, justiça e prestação de contas. Estes princípios reforçam a opção do sistema por uma IA assistiva, limitada por regras e sujeita a revisão humana (Barredo Arrieta et al., 2020 (#ref-arrieta-2020)).
 
-![](projecto-completo_media/image18.png)
+![](projecto-completo_media/image17.png)
 
 Figura 6.1 — Relação entre desafios de explicabilidade e princípios de IA responsável.
 
@@ -1353,7 +1195,7 @@ A coexistência destes perfis e domínios justifica a adoção de permissões di
 
 A Figura 7.1 evidencia a importância de analisar a utilização concreta do dispositivo, para além da sua configuração digital. A avaliação com utilizadores permite identificar problemas relacionados com o ajuste ao corpo, o modo de ativação, o conforto e a adequação funcional, aspetos que dificilmente são detetados de forma suficiente apenas através do modelo digital. Para esta investigação, a imagem constitui um ponto de referência metodológico: embora a plataforma possa tornar o processo mais claro e configurável, a validação futura continua a depender da observação do uso em contexto real (Silva et al., 2018 (#ref-silva-alcara-2018)).
 
-![](projecto-completo_media/image19.png)
+![](projecto-completo_media/image18.png)
 
 Figura 7.1 — Teste de uma prótese impressa em 3D com utilizador em contexto aplicado.
 
@@ -1400,32 +1242,15 @@ Um modelo OpenSCAD pode ser parametricamente consistente e, ainda assim, a inter
 No plano antropométrico, a avaliação concentrou-se em invariantes: conformidade com o esquema de parâmetros, respeito pelos limites mínimos e máximos, proporcionalidade entre dedos, adequação etária, coerência com intervalos adultos e lateralidade correta em casos de amputação unilateral.
 Estes critérios foram escolhidos porque são verificáveis dentro do sistema e correspondem a riscos diretamente relacionados com a personalização inicial.
 
-Estas validações incidem sobre a coerência preliminar do processo, permitindo verificar se a cadeia entre descrição livre, sugestão paramétrica e modelo renderizado preserva condições mínimas de plausibilidade antes da preparação para fabrico. A avaliação de conforto, desempenho funcional em uso e segurança clínica permanece dependente de testes posteriores com utilizadores e validação especializada.
+Estas validações incidem sobre a coerência preliminar do processo, permitindo verificar se a cadeia entre descrição livre, sugestão paramétrica e modelo renderizado preserva condições mínimas de plausibilidade antes de qualquer prototipagem. A avaliação de conforto, desempenho funcional e segurança clínica permanece dependente de testes posteriores com utilizadores e validação especializada.
 
 A avaliação geométrica prolongou estes critérios até à etapa de exportação do modelo para fabrico. Para isso, foram executados fluxos de ponta a ponta com a interface real, incluindo autenticação, introdução da descrição do paciente, chamada ao serviço de IA, aplicação dos valores sugeridos, renderização por OpenSCAD/WebAssembly, exportação em STL e medição das malhas resultantes.
 
 Esta etapa foi relevante porque a correção dos valores numéricos sugeridos não garante, por si só, que a geometria final responda de forma coerente aos parâmetros aplicados. A medição das peças exportadas permitiu verificar se as relações paramétricas definidas se preservavam desde a sugestão inicial até ao modelo gerado.
 
-A validação foi depois prolongada para prototipagem física. Com base nos resultados dos testes de perfil, foram selecionadas configurações representativas dos cenários avaliados, incluindo perfis de mão pequena, perfil adulto feminino e perfil adulto masculino. Estas geometrias foram exportadas em STL/3MF, preparadas no PrusaSlicer 2.9.6 e no Bambu Studio, e impressas nos materiais definidos na metodologia numa Bambu Lab A1 com AMS, para verificar a passagem do modelo exportado ao protótipo físico.
-
-A validação física seguiu cinco verificações principais: compatibilidade do ficheiro exportado com o software de preparação para impressão, ausência de falhas críticas de malha ou escala, conclusão da impressão sem defeitos impeditivos, inspeção visual e dimensional das zonas críticas e, quando aplicável, teste de encaixe ou montagem entre componentes. Esta etapa não teve como objetivo demonstrar eficácia clínica, conforto de uso ou durabilidade prolongada; o seu objetivo foi confirmar que os resultados dos perfis testados podiam atravessar a cadeia completa perfil -> parâmetros -> OpenSCAD/WebAssembly -> STL/3MF -> impressão 3D, mantendo coerência geométrica e viabilidade produtiva.
-
-A Tabela 8.1 sintetiza os resultados observados nas impressões realizadas. A leitura deve ser entendida como registo técnico preliminar de produção e verificação material, e não como ensaio mecânico normalizado ou validação clínica.
-
-Tabela 8.1 — Síntese dos resultados da validação por impressão 3D
-
-| Configuração testada | Material | Verificações realizadas | Resultado observado |
-| --- | --- | --- | --- |
-| Perfil de mão pequena | PLA | Geração do ficheiro de impressão, escala e zonas finas | Impressão concluída sem defeitos impeditivos; geometria imprimível, mantendo necessidade de atenção às espessuras nas zonas reduzidas. |
-| Perfil de mão pequena | PETG | Geração do ficheiro de impressão, manipulação e encaixe preliminar | Impressão concluída; comportamento material menos frágil na manipulação e no encaixe preliminar. |
-| Perfil adulto feminino | PLA | Geração do ficheiro de impressão, escala e integridade formal | Impressão concluída; proporções e escala mantiveram coerência com o modelo exportado. |
-| Perfil adulto feminino | PETG | Geração do ficheiro de impressão, zonas críticas e montagem preliminar | Impressão concluída; zonas críticas e encaixes verificáveis no protótipo físico. |
-| Perfil adulto masculino | PLA | Geração do ficheiro de impressão e escala aumentada | Impressão concluída; a escala maior não impediu a produção do protótipo. |
-| Perfil adulto masculino | PETG | Geração do ficheiro de impressão, manipulação e montagem preliminar | Impressão concluída; manipulação preliminar sem falhas impeditivas observadas. |
-
 A Figura 8.1 apresenta um precedente de avaliação funcional baseado em tarefas quotidianas de membro superior. Embora o presente trabalho não realize validação clínica nem testes com utilizadores reais, este tipo de protocolo ajuda a enquadrar o horizonte de avaliação futura: depois da coerência paramétrica e geométrica, será necessário observar desempenho em tarefas, facilidade de uso e adequação funcional em contexto real (Romero et al., 2025 (#ref-romero-2025)).
 
-![](projecto-completo_media/image20.png)
+![](projecto-completo_media/image19.png)
 
 Figura 8.1 — Tarefas funcionais usadas em avaliação de prótese personalizada de membro superior.
 
@@ -1439,30 +1264,6 @@ Este cenário assume especial relevância para a acessibilidade do sistema, uma 
 
 Nas cinco situações, a IA produziu JSON válido, usou apenas parâmetros existentes, respeitou os limites declarados do modelo e manteve a ordenação anatómica esperada entre os dedos.
 
-Tabela 8.2 — Entradas/prompt utilizadas para criação dos perfis de validação antropométrica por IA
-
-| Conjunto experimental | Tipo de perfil criado | Descrição usada como entrada | Finalidade da validação |
-
-| --- | --- | --- | --- |
-
-| Ensaio 1 — indicadores populacionais indiretos | Adulto masculino com dados demográficos e regionais | man, 28 years old, 82 kg, 180 cm height, Brazil, arm length 70 cm | Testar a inferência paramétrica sem medições diretas da mão |
-
-| Ensaio 1 — indicadores populacionais indiretos | Criança do sexo feminino, com estrutura corporal pequena | girl, 10 years old, 32 kg, 138 cm height, Japan, small frame | Verificar o ajuste à idade e a redução das dimensões e dos componentes mecânicos |
-
-| Ensaio 1 — indicadores populacionais indiretos | Mulher idosa com dados demográficos e regionais | woman, 65 years old, 68 kg, 160 cm height, Nigeria, arm length 62 cm | Avaliar a plausibilidade dos parâmetros num perfil adulto feminino e sénior |
-
-| Ensaio 1 — indicadores populacionais indiretos | Adulto masculino com indicação qualitativa de mãos largas | man, 50 years old, 95 kg, 175 cm height, Germany, broad hands, arm length 66 cm | Verificar a resposta do sistema a uma característica anatómica descrita qualitativamente |
-
-| Ensaio 1 — indicadores populacionais indiretos | Adolescente masculino alto e magro | teenage boy, 15 years old, 60 kg, 168 cm height, India, slim build, arm length 67 cm | Testar a fronteira entre perfil pediátrico e dimensões próximas de adulto |
-
-| Ensaio 2 — amputação unilateral | Entrada completa com medições da mão intacta | Medições completas da mão esquerda intacta: palma 84 mm; indicador 72 mm; médio 78 mm; anelar 75 mm; mínimo 58 mm; polegar 64 mm; prótese necessária para a mão direita | Confirmar a preservação dos valores fornecidos e a geração contralateral |
-
-| Ensaio 2 — amputação unilateral | Entrada parcial com dados demográficos e uma medição direta | Homem, 40 anos; mão direita intacta; largura da palma 90 mm; prótese necessária para a mão esquerda | Confirmar a manutenção da medida fornecida e a estimativa proporcional dos campos em falta |
-
-| Ensaio 2 — amputação unilateral | Entrada apenas demográfica | Mulher, 30 anos, asiática oriental, 158 cm; prótese necessária para a mão direita | Verificar a adaptação do sistema quando não existem medições diretas da mão |
-
-Fonte: elaboração própria a partir dos prompts registados no protocolo de validação antropométrica assistida por IA (docs/aianthropometricvalidation.md) e nos metadados de execução dos ensaios (docs/-ai-sim/run-metadata.json). A coluna apresenta a entrada de paciente usada no prompt; o prompt completo incluía ainda o schema vivo do modelo, os intervalos permitidos e a instrução de devolver apenas JSON válido.
-
 A leitura dos resultados mostra uma adaptação coerente ao grau de detalhe da informação disponível. Nos perfis adultos, as dimensões sugeridas permaneceram dentro dos intervalos antropométricos usados como referência no sistema. No perfil infantil, as dimensões foram reduzidas de forma consistente e os parâmetros relativos aos componentes mecânicos das articulações flexíveis foram também ajustados, com base na informação presente nas legendas do esquema.
 
 No perfil adolescente, um critério preliminar de verificação assinalou a dimensão da palma como potencialmente excessiva. Contudo, a análise posterior mostrou que o valor era compatível com um adolescente alto em fase intermédia da adolescência.
@@ -1471,31 +1272,31 @@ A falha, neste caso, estava na regra de teste demasiado rígida, e não na suges
 
 O segundo conjunto experimental avaliou três cenários de amputação unilateral com riqueza variável de dados. No caso com medições completas da mão intacta, os valores fornecidos foram preservados literalmente e o lado sugerido correspondeu à mão amputada. No caso parcial, a largura da palma fornecida foi mantida e os restantes comprimentos foram estimados proporcionalmente. No caso apenas demográfico, a IA gerou um conjunto completo de medidas plausíveis. Estes ensaios iniciais sugeriam lateralidade correta, mas a avaliação UCD posterior revelou que pedidos explícitos de mão esquerda podiam ser sistematicamente convertidos em mão direita. A correção subsequente retirou a lateralidade do espaço de decisão da IA e transferiu-a para um controlo determinístico da interface.
 
-Tabela 8.3 — Síntese da validação antropométrica assistida por IA
+Tabela 8.1 — Síntese da validação antropométrica assistida por IA
 
 | Eixo avaliado | Resultado observado | Interpretação |
 
 | --- | --- | --- |
 
-| Conformidade com o esquema | Respostas interpretáveis, campos previstos e valores dentro dos limites definidos | O esquema de parâmetros reduziu a ocorrência de sugestões inválidas |
+| Conformidade com o esquema | Saídas parseáveis, chaves conhecidas e valores dentro dos limites | O esquema vivo do modelo reduziu sugestões inválidas |
 
-| Proporcionalidade digital | Dedo médio mais longo, dedo mínimo mais curto e polegar inferior ao dedo médio | As principais relações anatómicas entre os dedos foram preservadas |
+| Proporcionalidade digital | Dedo médio mais longo, mindinho mais curto e polegar abaixo do dedo médio | As relações anatómicas principais foram preservadas |
 
-| Entradas completas | Medições fornecidas mantidas sem alteração | A IA preservou os valores diretamente declarados pelo utilizador |
+| Entradas ricas | Medições fornecidas mantidas literalmente | A IA não reestimou valores diretamente declarados |
 
-| Entradas parciais | Campos em falta estimados a partir da medida fornecida | O sistema combinou dados explícitos com referências populacionais |
+| Entradas parciais | Campos em falta estimados em torno da medida fornecida | O sistema combinou dados explícitos e priors populacionais |
 
-| Entradas apenas demográficas | Conjunto completo e plausível de parâmetros | O fluxo gerou um ponto de partida para utilizadores sem domínio técnico |
+| Entradas apenas demográficas | Conjunto completo e plausível de parâmetros | O fluxo oferece um ponto de partida para utilizadores não especialistas |
 
-| Lateralidade | Correta nos cenários iniciais, mas inconsistente em pedidos explícitos de mão esquerda na avaliação centrada no utilizador | A lateralidade passou a ser controlada pela interface e excluída das sugestões da IA |
+| Lateralidade | Correta nos cenários iniciais, mas falhou em pedidos explícitos de mão esquerda na avaliação UCD | Corrigida por controlo determinístico da interface e exclusão da lateralidade das sugestões da IA |
 
 A repetição de perfis idênticos evidenciou a natureza estocástica da componente de IA. As diferenças observadas foram pequenas, tipicamente de poucos milímetros, e preservaram os invariantes anatómicos e os limites do modelo. Também se observou variação estrutural aceitável: em algumas execuções, certos parâmetros de hardware foram sugeridos explicitamente; noutras, foram omitidos e permaneceram nos valores correntes. A avaliação UCD alargou este teste a entradas vagas, comparativas, multilingues e sem medidas diretas, confirmando que o sistema manteve valores válidos e anatomicamente ordenados em descrições próximas das que um utilizador leigo poderia escrever. Esta variabilidade confirma que a avaliação deve privilegiar propriedades invariantes, taxas de aprovação e comportamento em cenários de baixo conhecimento, e não valores absolutos isolados.
 
-### 8.3 Validação geométrica entre modelos
+### 8.3 Validação geométrica intermodelos
 
 A validação geométrica testou se os valores sugeridos chegavam à malha exportada em três modelos ativos da plataforma: Flexy Beast, Paraglider Hand e UnLimbited Phoenix. Para cada modelo foram comparados um baseline por omissão e três perfis antropométricos simulados: criança, mulher adulta e homem adulto. Todas as execuções devolveram sugestões ancoradas em perfis populacionais e valores dentro dos intervalos declarados.
 
-Tabela 8.4 — Modelos e mecanismos de escala avaliados
+Tabela 8.2 — Modelos e mecanismos de escala avaliados
 
 | Modelo | Entradas antropométricas principais | Mecanismo de escala | Implicação observada |
 
@@ -1507,11 +1308,9 @@ Tabela 8.4 — Modelos e mecanismos de escala avaliados
 
 | UnLimbited Phoenix | Largura da palma | Escala uniforme limitada por piso mínimo | Fiel ao modelo original, mas inadequado para mãos pequenas |
 
-Nota: os rácios apresentados são adimensionais. Um valor de 1,000 corresponde à dimensão do baseline; valores inferiores indicam redução e valores superiores indicam aumento face ao modelo de referência.
-
 Os resultados mostraram que o Flexy Beast e o Paraglider Hand respondem de forma semelhante aos mesmos perfis, reduzindo ou aumentando as dimensões da palma de modo aproximadamente linear. A criança produziu uma escala de cerca de 0,76 face ao baseline nos modelos escaláveis, a mulher adulta ficou próxima de 0,93 e o homem adulto ficou entre 1,15 e 1,16. No Phoenix, pelo contrário, o piso mínimo de escala impediu a redução abaixo de cerca de 82 mm de largura de palma, fazendo com que perfis pequenos fossem truncados para o tamanho mínimo suportado pelo próprio modelo.
 
-Tabela 8.5 — Rácio adimensional da maior dimensão da palma exportada face ao baseline
+Tabela 8.3 — Rácio da maior dimensão da palma exportada face ao baseline
 
 | Perfil | Flexy Beast | Paraglider Hand | UnLimbited Phoenix |
 
@@ -1525,67 +1324,47 @@ Tabela 8.5 — Rácio adimensional da maior dimensão da palma exportada face ao
 
 | Homem adulto | 1,148 | 1,157 | 1,171 |
 
-Esta validação revelou três fragilidades técnicas que não eram visíveis na análise numérica isolada. A primeira estava no mecanismo de correspondência populacional: a análise inicial de género e idade era demasiado frágil, e certas abreviaturas presentes no texto de entrada podiam ser interpretadas incorretamente, confundindo unidades de medida com indicação de sexo masculino.
+Esta validação revelou três fragilidades técnicas que não eram visíveis na análise numérica isolada. A primeira estava no mecanismo de correspondência populacional: a análise inicial de género e idade era demasiado frágil, e certos tokens abreviados confundiam unidades de medida com indicação de sexo masculino. A correção passou por análise multilingue com fronteiras de palavra e classificação mais robusta de grupos etários. A segunda fragilidade estava no Paraglider, cuja palma permanecia congelada numa escala interna herdada da biblioteca original; a correção reaplicou a escala no ponto de chamada relevante. A terceira surgiu no Phoenix, onde um parâmetro de override permitia contornar o piso mínimo de escala; a correção passou por aplicar o mesmo limite ao ramo alternativo.
 
-A correção passou por uma análise mais robusta do texto de entrada, capaz de reconhecer termos em diferentes línguas, respeitar fronteiras de palavra e classificar de forma mais fiável os grupos etários.
-
-A segunda fragilidade foi identificada no modelo Paraglider. Neste caso, a dimensão da palma da mão protésica não estava a responder corretamente aos valores sugeridos, porque permanecia associada a uma escala interna herdada da biblioteca original. A correção consistiu em aplicar novamente a escala no ponto do código responsável pela geração dessa geometria. A terceira fragilidade surgiu no modelo UnLimbited Phoenix, onde um parâmetro alternativo permitia ultrapassar o limite mínimo de escala definido para o modelo. A correção passou por aplicar esse mesmo limite também a esse percurso alternativo de geração.
-
-Esta etapa confirmou que a validação das sugestões de IA deve prolongar-se para além da resposta em JSON, pois a geometria exportada e a sua materialização por impressão 3D podem revelar dependências internas, limites de escala, problemas de espessura, folgas insuficientes e heranças de código invisíveis na análise numérica. Evidenciou ainda que os modelos integrados não são intercambiáveis, uma vez que cada um responde de forma distinta aos mesmos perfis antropométricos: o Flexy Beast é mais adequado a mãos pequenas, o Paraglider oferece uma escala ampla para perfis adultos e o Phoenix preserva elevada fidelidade ao original, mas apenas dentro de uma gama dimensional mais restrita.
+O contributo desta etapa é duplo. Por um lado, confirma que a validação de IA não deve terminar no JSON, pois a geometria pode esconder acoplamentos, limites e heranças de código que só se tornam visíveis na exportação. Por outro lado, mostra que os modelos integrados não são intercambiáveis: o Flexy Beast é mais adequado a mãos pequenas, o Paraglider oferece uma escala ampla para perfis adultos e o Phoenix preserva elevada fidelidade ao original, mas apenas dentro de uma gama dimensional mais restrita.
 
 ### 8.4 Discussão dos resultados face aos objetivos
 
-Face aos objetivos da investigação, os resultados reforçam a pertinência de articular design paramétrico, dados antropométricos, interface web e IA numa plataforma única, desde que a IA permaneça enquadrada por regras explícitas e revisão humana. A contribuição não está em automatizar a conceção de uma prótese final, mas em estruturar um fluxo no qual informação incompleta pode ser convertida num ponto de partida  de dimensões plausíveis, editável, visualizável e passível de revisão crítica.
+Face aos objetivos da investigação, os resultados reforçam a pertinência de articular design paramétrico, dados antropométricos, interface web e IA numa plataforma única, desde que a IA permaneça enquadrada por regras explícitas e revisão humana. A contribuição não está em automatizar a conceção de uma prótese final, mas em estruturar um fluxo no qual informação incompleta pode ser convertida num ponto de partida dimensionalmente plausível, editável, visualizável e passível de revisão crítica.
 
 Esta capacidade responde diretamente ao problema de acessibilidade identificado no projeto: muitos utilizadores conseguem descrever idade, altura, constituição física ou lado amputado, mas não dominam a nomenclatura nem os procedimentos de medição necessários para parametrizar uma mão protésica.
 
-A avaliação também delimita com clareza os limites do sistema. A variabilidade estocástica da IA impede tratar uma saída isolada como prescrição fixa; a ausência de uma referência clínica direta impede afirmar precisão individual; e a lateralidade revelou-se um parâmetro crítico que não deve ser delegado à inferência do modelo. A correção implementada resolve esse risco ao deslocar a decisão para a interface, mas exige ainda reforço de UX para tornar a escolha do lado suficientemente visível e obrigatória. Do mesmo modo, a validação geométrica e física demonstra que cada modelo transporta constrangimentos próprios: alguns aceitam escalas pequenas, outros impõem pisos mínimos ou preservam proporções globais herdadas do desenho original. A prototipagem física confirmou a viabilidade das configurações selecionadas, mas também reforçou que a passagem para o objeto físico deve ser tratada como etapa de verificação material e não como prova clínica. Consequentemente, os resultados são promissores enquanto validação de coerência interna, acessibilidade paramétrica e viabilidade de prototipagem, mas permanecem preliminares enquanto validação protésica.
+A avaliação também delimita com clareza os limites do sistema. A variabilidade estocástica da IA impede tratar uma saída isolada como prescrição fixa; a ausência de uma referência clínica direta impede afirmar precisão individual; e a lateralidade revelou-se um parâmetro crítico que não deve ser delegado à inferência do modelo. A correção implementada resolve esse risco ao deslocar a decisão para a interface, mas exige ainda reforço de UX para tornar a escolha do lado suficientemente visível e obrigatória. Do mesmo modo, a validação geométrica demonstra que cada modelo transporta constrangimentos próprios: alguns aceitam escalas pequenas, outros impõem pisos mínimos ou preservam proporções globais herdadas do desenho original. Consequentemente, os resultados são promissores enquanto validação de coerência interna e de acessibilidade paramétrica, mas permanecem preliminares enquanto validação protésica.
 
-A principal conclusão metodológica é que a robustez do sistema depende menos da presença isolada da IA do que da qualidade das regras, limites e mecanismos de validação que enquadram a sua atuação. O esquema de parâmetros do modelo, os limites declarados, a filtragem dos campos devolvidos, a ancoragem em dados populacionais, a renderização por OpenSCAD/WebAssembly, a exportação em STL/3MF, a preparação para impressão e a impressão 3D formam uma cadeia de verificações sucessivas.
-
-Quando essa cadeia é respeitada, a IA contribui para reduzir a barreira inicial de configuração; quando qualquer elo fica implícito, surgem riscos como lateralidade inferida, parâmetros sem correspondência geométrica ou escalas incompatíveis com o modelo físico.
+A principal aprendizagem metodológica é que a robustez do sistema depende menos da presença isolada de IA e mais da qualidade das fronteiras que a enquadram. O esquema vivo do modelo, os limites declarados, a filtragem de chaves, a ancoragem em dados populacionais, a renderização por OpenSCAD/WebAssembly e a exportação STL formam uma cadeia de verificações sucessivas. Quando essa cadeia é respeitada, a IA contribui para reduzir a barreira inicial de configuração; quando qualquer elo fica implícito, surgem riscos como lateralidade inferida, parâmetros sem correspondência geométrica ou escalas incompatíveis com o modelo físico.
 
 ## Capítulo 9 — Conclusões e Trabalhos Futuros
 
 ### 9.1 Síntese dos principais contributos
 
-A investigação desenvolveu e avaliou um sistema de design paramétrico assistido por IA para próteses personalizadas de membro superior, articulando modelação em OpenSCAD, renderização em ambiente web, gestão de parâmetros antropométricos, perfis populacionais e sugestões geradas a partir de linguagem natural. O contributo metodológico da investigação reside no desenvolvimento de uma infraestrutura de apoio à configuração protésica, capaz de tornar mais explícita, documentável e acessível a passagem entre dados do utilizador, parâmetros geométricos e geometria exportável, sem reivindicar validação clínica da prótese resultante.
+A investigação desenvolveu e avaliou um sistema de design paramétrico assistido por IA para próteses personalizadas de membro superior, articulando modelação em OpenSCAD, renderização em ambiente web, gestão de parâmetros antropométricos, perfis populacionais e sugestões geradas a partir de linguagem natural. O contributo central não é uma prótese clinicamente validada, mas uma infraestrutura projetual que torna mais explícita, rastreável e acessível a passagem entre dados do utilizador, parâmetros geométricos e geometria exportável.
 
-O trabalho confirma que a personalização paramétrica é mais robusta quando assenta numa gramática comum de medidas, limites e relações geométricas. A plataforma permitiu expor essa gramática numa interface utilizável, guardar configurações, renderizar modelos localmente e exportar ficheiros STL e 3MF.
+O trabalho confirma que a personalização paramétrica é mais robusta quando assenta numa gramática comum de medidas, limites e relações geométricas. A plataforma permitiu expor essa gramática numa interface utilizável, guardar configurações, renderizar modelos localmente e exportar ficheiros STL. A integração da IA acrescentou uma camada de apoio à decisão, capaz de transformar descrições incompletas em pontos de partida plausíveis, desde que as sugestões permaneçam limitadas pelo esquema vivo do modelo e sujeitas a validação posterior.
 
-A integração da IA acrescentou uma camada de apoio à decisão, capaz de transformar descrições incompletas em pontos de partida plausíveis, desde que as sugestões sejam enquadradas pelo esquema de parâmetros do modelo, pelos limites definidos e por validação posterior.
+A validação realizada mostrou quatro resultados principais. Primeiro, as sugestões numéricas respeitaram os limites do modelo, preservaram proporções anatómicas e adaptaram-se de forma coerente à riqueza variável das entradas. Segundo, as medições diretamente fornecidas foram preservadas e os dados em falta foram estimados proporcionalmente. Terceiro, a validação geométrica intermodelos demonstrou que a exportação STL é indispensável para revelar constrangimentos que não aparecem na resposta numérica, como pisos de escala, dependências herdadas e diferenças reais entre modelos. Quarto, a avaliação centrada no utilizador revelou que a acessibilidade paramétrica depende tanto da qualidade da inferência como das salvaguardas de interface: entradas vagas e multilingues foram absorvidas com robustez, mas a lateralidade, a adequação do modelo escolhido e a proveniência das estimativas exigem controlos explícitos para evitar confiança excessiva no resultado.
 
-A validação realizada mostrou quatro resultados principais. Primeiro, as sugestões numéricas respeitaram os limites do modelo, preservaram proporções anatómicas e adaptaram-se de forma coerente à riqueza variável das entradas. Segundo, as medições diretamente fornecidas foram preservadas e os dados em falta foram estimados proporcionalmente.
-
-Terceiro, a validação geométrica entre modelos demonstrou que a exportação em STL/3MF é indispensável para identificar constrangimentos que a resposta numérica não revela, como limites mínimos de escala, dependências herdadas do código original e diferenças efetivas entre modelos.
-
-Quarto, a prototipagem física confirmou que as configurações selecionadas a partir dos testes de perfil podiam ser preparadas para impressão e impressas, permitindo verificar escala, integridade formal, zonas críticas e montagem preliminar. Esta etapa validou a viabilidade produtiva do fluxo, mas não constitui validação clínica ou biomecânica completa.
-
-Quinto, a avaliação centrada no utilizador revelou que a acessibilidade paramétrica depende tanto da qualidade da inferência - entendida como o processo através do qual a IA transforma informação incompleta, indireta ou descritiva em sugestões paramétricas plausíveis - como das salvaguardas incorporadas na interface: entradas vagas e formuladas em diferentes línguas foram tratadas com robustez, mas a lateralidade, a adequação do modelo escolhido e a proveniência das estimativas exigem controlos explícitos para evitar confiança excessiva no resultado.
-
-A mesma lógica sugere a possibilidade de extensão da arquitetura a outros segmentos corporais. A plataforma deixa de depender exclusivamente de pressupostos específicos da mão quando propriedades como lateralidade, tipo de membro e orientação antropométrica passam a ser declaradas no ficheiro de configuração do modelo.
-
-Este passo não valida automaticamente a plataforma para dispositivos destinados ao pé, à perna ou ao braço, uma vez que essa extensão exigiria novos conjuntos de dados, novos mapeamentos antropométricos e validação geométrica específica. Ainda assim, demonstra que a estrutura técnica pode evoluir de um configurador de membros superiores e mãos para uma plataforma paramétrica organizada por tipo de membro, desde que cada modelo declare a sua lógica dimensional, os parâmetros relevantes e os respetivos limites de fabrico.
+A mesma lógica abre uma via de universalização para outros membros. A arquitetura deixa de depender apenas de pressupostos específicos da mão quando propriedades como lateralidade, tipo de membro e orientação antropométrica passam a ser declaradas no ficheiro de configuração do modelo. Este passo não torna automaticamente a plataforma válida para pé, perna ou braço, pois seriam necessários novos datasets, novos mapeamentos antropométricos e nova validação geométrica; contudo, mostra que a estrutura técnica pode evoluir de um configurador de mãos para uma plataforma paramétrica por tipo de membro, desde que cada modelo declare a sua gramática dimensional e os seus limites de fabrico.
 
 ### 9.2 Contributos para o Design Industrial
 
-O contributo principal reside na demonstração de um processo em que o artefacto, a interface e a lógica paramétrica funcionam como instrumentos de investigação. A prótese é aqui entendida como sistema configurável, no qual requisitos anatómicos, funcionais, produtivos e de utilização são traduzidos em parâmetros passíveis de análise crítica.
+Para o Design Industrial, o principal contributo está na demonstração de um processo em que o artefacto, a interface e a lógica paramétrica funcionam como instrumentos de investigação. O projeto não trata a prótese apenas como objeto formal, mas como sistema configurável em que requisitos anatómicos, funcionais, produtivos e experienciais são traduzidos em parâmetros criticáveis. Esta abordagem reforça o papel do designer como mediador entre dados, tecnologia, fabrico e experiência humana.
 
-Esta abordagem reforça o papel do designer como mediador entre dados, tecnologia, fabrico e experiência humana.
-
-A plataforma também contribui para uma leitura mais disciplinada da personalização. Em vez de associar personalização a liberdade ilimitada de escolha, o sistema mostra a importância de definir que parâmetros são editáveis, quais permanecem sob controlo técnico, que intervalos são aceitáveis e que modelos são adequados a diferentes perfis. Esta contenção é particularmente relevante em dispositivos de apoio, nos quais a acessibilidade da configuração deve ser equilibrada com responsabilidade, segurança e coerência funcional.
+A plataforma também contribui para uma leitura mais disciplinada da personalização. Em vez de associar personalização a liberdade ilimitada de escolha, o sistema mostra a importância de definir que parâmetros são editáveis, quais permanecem sob controlo técnico, que intervalos são aceitáveis e que modelos são adequados a diferentes perfis. Esta contenção é particularmente relevante em dispositivos assistivos, nos quais a acessibilidade da configuração deve ser equilibrada com responsabilidade, segurança e coerência funcional.
 
 A integração da IA reforça essa mediação, mas não a substitui. O modelo de linguagem é útil quando reduz a barreira inicial de parametrização e apoia o utilizador não especialista; torna-se frágil quando a sua saída é interpretada como decisão autónoma. A contribuição projetual está, por isso, em enquadrar a IA como componente human-in-the-loop, articulada com regras explícitas, dados antropométricos, visualização, exportação e revisão técnica.
 
 ### 9.3 Limitações e perspetivas de desenvolvimento futuro
 
-O alcance das conclusões deve ser entendido a partir do caráter metodológico e técnico da validação realizada. A avaliação incidiu sobre perfis simulados, dados secundários e critérios internos de plausibilidade, deixando para investigação futura os testes com utilizadores reais, as avaliações clínicas, as medições diretas de conforto, os ensaios funcionais prolongados e a validação biomecânica completa. Assim, os resultados sustentam a validação do fluxo de personalização, sem constituírem demonstração de eficácia protésica em contexto de uso.
+As limitações do estudo são relevantes e delimitam o alcance das conclusões. Não foram realizados testes com utilizadores reais, avaliações clínicas, medições diretas de conforto, ensaios funcionais prolongados nem validação biomecânica completa. A avaliação antropométrica baseou-se em perfis simulados, dados secundários e critérios internos de plausibilidade. Por isso, os resultados devem ser interpretados como validação metodológica e técnica do fluxo de personalização, não como prova de eficácia protésica em contexto de uso.
 
-A componente de IA exige desenvolvimento adicional, mesmo após a correção determinística da lateralidade. A saída deve ser validada por esquema JSON no servidor, prevendo-se a repetição automática do pedido sempre que a resposta se afaste da estrutura definida.
+A componente de IA exige desenvolvimento adicional, mesmo após a correção determinística da lateralidade. A saída deve ser validada por esquema JSON no servidor, com repetição automática do pedido quando a resposta violar o contrato esperado. A variabilidade estocástica deve ser quantificada com múltiplas extrações por perfil, reportando médias, dispersão e taxas de aprovação dos invariantes. A comparação com bases de dados antropométricas ou medições reais permitiria passar da plausibilidade para uma estimativa mais rigorosa de erro. Do ponto de vista da experiência de utilização, a plataforma deve também mostrar a proveniência das estimativas, a incerteza associada ao grupo populacional usado e avisos explícitos quando o modelo escolhido não consegue representar a dimensão estimada do utilizador.
 
-A variabilidade estocástica deve ser quantificada com múltiplas extrações por perfil, reportando médias, dispersão e taxas de aprovação dos invariantes. A comparação com bases de dados antropométricas ou medições reais permitiria passar da plausibilidade para uma estimativa mais rigorosa de erro. Do ponto de vista da experiência de utilização, a plataforma deve também mostrar a proveniência das estimativas, a incerteza associada ao grupo populacional usado e avisos explícitos quando o modelo escolhido não consegue representar a dimensão estimada do utilizador.
-
-Do ponto de vista geométrico e produtivo, a validação física realizada deve ser aprofundada através de ensaios mais sistemáticos de montagem, tolerâncias, resistência, desgaste, repetibilidade de impressão e adequação ao uso. Também será necessário clarificar a seleção de modelos segundo faixas dimensionais: modelos como o Flexy Beast são mais adequados a mãos pequenas, enquanto modelos com piso mínimo, como o Phoenix, exigem restrições claras na interface para evitar expectativas incorretas. A plataforma deve, portanto, evoluir de um configurador que aceita parâmetros para um sistema que também orienta a escolha do modelo adequado ao perfil, ao material e ao objetivo de fabrico.
+Do ponto de vista geométrico e produtivo, o trabalho futuro deve aprofundar a validação por impressão física, montagem, tolerâncias, resistência, desgaste e adequação ao uso. Também será necessário clarificar a seleção de modelos segundo faixas dimensionais: modelos como o Flexy Beast são mais adequados a mãos pequenas, enquanto modelos com piso mínimo, como o Phoenix, exigem restrições claras na interface para evitar expectativas incorretas. A plataforma deve, portanto, evoluir de um configurador que aceita parâmetros para um sistema que também orienta a escolha do modelo adequado ao perfil e ao objetivo de fabrico.
 
 Por fim, a investigação abre espaço para estudos com utilizadores, técnicos e designers, avaliando não apenas a geometria exportada, mas também a inteligibilidade da interface, a confiança nas sugestões, a distribuição de responsabilidade e a utilidade real do fluxo em contextos de prototipagem. A continuidade do projeto deve manter a distinção que estruturou esta dissertação: a IA pode ampliar a acessibilidade e a velocidade de exploração, mas a qualidade de uma prótese personalizada continua a depender da articulação entre design, dados, fabrico, validação técnica e experiência humana.
 
@@ -1599,11 +1378,15 @@ Por fim, a investigação abre espaço para estudos com utilizadores, técnicos 
 
 <a id="ref-astm-international-2024"></a> ASTM International. (2024). Standard guide for assessing fit accommodation of exoskeletons for manufacturers and designers. https://www.astm.org/f3661-24.html
 
+<a id="ref-atallah-2025"></a> Atallah, H., Qufabz, T., Naeem, R., Bakhsh, H. R., Ferriero, G., Varga, D., Derkács, E., & Molics, B. (2025). The current state of 3D-printed prostheses clinical outcomes: A systematic review. Journal of Functional Biomaterials, 16(10), 370. https://doi.org/10.3390/jfb16100370
+
 <a id="ref-bai-2024"></a> Bai, X., Yuan, J., Liu, M., Huang, H., & Feng, J. (2024). Human factors considerations of interaction between wearers and intelligent lower-limb prostheses: A prospective discussion. Journal of NeuroEngineering and Rehabilitation, 21, 187. https://doi.org/10.1186/s12984-024-01475-x
 
 <a id="ref-bates-2020"></a> Bates, T., Fergason, J., & Pierrie, S. N. (2020). Technological advances in prosthesis design and rehabilitation following upper extremity limb loss. https://www.semanticscholar.org/paper/905056ffa9fa963e8df8b974d90b94c05a5f7e29
 
 <a id="ref-bradtmiller-2022"></a> Bradtmiller, B. (2022). Design for all, design for disabled: How important is anthropometry? https://researchonline.jcu.edu.au/76898/
+
+<a id="ref-cabibihan-2021"></a> Cabibihan, J.-J., Abubasha, M. K., & Thakor, N. V. (2021). Suitability of the openly accessible 3D printed prosthetic hands for war-wounded children. Frontiers in Robotics and AI, 7, 594196. https://doi.org/10.3389/frobt.2020.594196
 
 <a id="ref-chainando-2025"></a> Chainando, N., Faephu, C., Suwaphong, N., Bureerat, S., Limphirat, W., Thammajaruk, P., & Syafrudin, M. (2025). Applying 3D scanning and printing techniques to produce upper limb prostheses: Bibliometric analysis and scoping review. Prosthesis, 7(2), 26. https://www.mdpi.com/2673-1592/7/2/26/pdf?version=1740996517
 
@@ -1620,6 +1403,8 @@ Por fim, a investigação abre espaço para estudos com utilizadores, técnicos 
 <a id="ref-engdahl-2024"></a> Engdahl, S., Gonzalez, M. A., Lee, C., & Gates, D. H. (2024). Perspectives on the comparative benefits of body-powered and myoelectric upper limb prostheses. https://jneuroengrehab.biomedcentral.com/counter/pdf/10.1186/s12984-024-01436-4
 
 <a id="ref-elbreki-2022"></a> Elbreki, A. M., Alshari, K., Ramdan, S., & Rajab, Z. (2022). Practical design of an upper prosthetic limb using three dimensional printer with an artificial intelligence based controller. In 2022 International Conference on Engineering & MIS (ICEMIS). IEEE. https://doi.org/10.1109/ICEMIS56295.2022.9914291
+
+<a id="ref-diment-2018"></a> Diment, L. E., Thompson, M. S., & Bergmann, J. H. M. (2018). Three-dimensional printed upper-limb prostheses lack randomised controlled trials: A systematic review. Prosthetics and Orthotics International, 42(1), 7-13. https://doi.org/10.1177/0309364617704803
 
 <a id="ref-fink-2023"></a> Fink, C., & Diamond, Y. (2023). Prosthesis options and management in upper extremity amputation. https://www.semanticscholar.org/paper/3532a770446eb6144ef25a6b0162d1f98b61e0ff
 
@@ -1869,6 +1654,24 @@ Por fim, a investigação abre espaço para estudos com utilizadores, técnicos 
 
 <a id="ref-moreo-2016"></a> Moreo, A. M. (2016). Parametric design of a 3D printable hand prosthesis for children in developing countries [Master's thesis, Delft University of Technology].
 
+<a id="ref-brooks-2026"></a> Brooks, C. (2026). OpenSCAD Web [Computer software]. GitHub. https://github.com/CameronBrooks11/openscad-web
+
+<a id="ref-bustamante-2018"></a> Bustamante, M., Vega-Centeno, R., Sanchez, M., & Mio, R. (2018). A parametric 3D-printed body-powered hand prosthesis based on the four-bar linkage mechanism. In International Conferences on Biological Information and Biomedical Engineering.
+
+<a id="ref-elhadad-2026"></a> ELhadad, N., Aboulhassan, A., & Hassan, Y. M. I. (2026). LLM-based 3D model generation of MHE for OpenSCAD. Procedia Computer Science.
+
+<a id="ref-ghali-2008"></a> Ghali, S. (2008). Constructive solid geometry. In Introduction to geometric computing.
+
+<a id="ref-gonzalez-avila-2024"></a> Gonzalez Avila, J. F., Pietrzak, T., Girouard, A., & Casiez, G. (2024). Understanding the challenges of OpenSCAD users for 3D printing. In Proceedings of the CHI Conference on Human Factors in Computing Systems. ACM. https://arxiv.org/abs/2408.01796
+
+<a id="ref-openscad-community-nd"></a> OpenSCAD Community. (n.d.). OpenSCAD User Manual/Using OpenSCAD in a command line environment. Wikibooks. Retrieved July 7, 2026, from https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Using_OpenSCAD_in_a_command_line_environment
+
+<a id="ref-openscad-project-nd-a"></a> OpenSCAD Project. (n.d.-a). OpenSCAD: The programmers solid 3D CAD modeller. Retrieved July 7, 2026, from https://openscad.org/
+
+<a id="ref-openscad-project-nd-b"></a> OpenSCAD Project. (n.d.-b). OpenSCAD source repository [Computer software]. GitHub. Retrieved July 7, 2026, from https://github.com/openscad/openscad
+
+<a id="ref-romani-levi-2020"></a> Romani, A., & Levi, M. (2020). Parametric design for online user customization of 3D printed assistive technology for rheumatic diseases. In International Conference on Augmented and Virtual Reality.
+
 <a id="ref-romero-2025"></a> Romero, M., Sánchez, J., & Álvarez, H. (2025). Development of parametric prostheses for different levels of human hand amputations manufactured through additive manufacturing. Applied Sciences, 15(3), 1124. https://doi.org/10.3390/app15031124
 
 <a id="ref-machado-2019"></a> Machado, F., Malpica, N., & Borromeo, S. (2019). Parametric CAD modeling for open source scientific hardware: Comparing OpenSCAD and FreeCAD Python scripts. PLOS ONE, 14(12), e0225795. https://doi.org/10.1371/journal.pone.0225795
@@ -1879,17 +1682,23 @@ Por fim, a investigação abre espaço para estudos com utilizadores, técnicos 
 
 <a id="ref-nilsiam-2017"></a> Nilsiam, Y., & Pearce, J. M. (2017). Free and open source 3-D model customizer for websites to democratize design with OpenSCAD. Designs, 1(1), 5. https://doi.org/10.3390/designs1010005
 
+<a id="ref-schofer-seibel-2025"></a> Schöfer, F., & Seibel, A. (2025). Augmented design automation: Leveraging parametric designs using large language models. Proceedings of the Design Society.
+
+<a id="ref-trautmann-2021"></a> Trautmann, L. (2021). Product customization and generative design. Multidiszciplináris Tudományok.
+
 <a id="ref-nini-2024"></a> Nini, L., Ceccarelli, A., Tagliamonte, N., Zollo, L., & Taffoni, F. (2024). Parametric 3D modeling of a customized prosthetic hand finger for additive manufacturing. In 2024 10th IEEE RAS/EMBS International Conference for Biomedical Robotics and Biomechatronics (BioRob). IEEE. https://doi.org/10.1109/BioRob60516.2024.10719909
 
 <a id="ref-ten-kate-2017"></a> ten Kate, J., Smit, G., & Breedveld, P. (2017). 3D-printed upper limb prostheses: A review. Disability and Rehabilitation: Assistive Technology, 12(3), 300-314. https://doi.org/10.1080/17483107.2016.1253117
 
+<a id="ref-wendo-2022"></a> Wendo, K., Barbier, O., Bollen, X., Schubert, T., Lejeune, T., Raucent, B., & Olszewski, R. (2022). Open-source 3D printing in the prosthetic field: The case of upper limb prostheses: A review. Machines, 10(6), 413. https://doi.org/10.3390/machines10060413
+
 <a id="ref-yu-2013"></a> Yu, A., Yick, K. L., Ng, S. P., & Yip, J. (2013). 2D and 3D anatomical analyses of hand dimensions for custom-made gloves. Applied Ergonomics, 44, 381-392.
+
+<a id="ref-zuniga-2015"></a> Zuniga, J., Katsavelis, D., Peck, J., Stollberg, J., Petrykowski, M., Carson, A., & Fernandez, C. (2015). Cyborg beast: A low-cost 3D-printed prosthetic hand for children with upper-limb differences. BMC Research Notes, 8, 10. https://doi.org/10.1186/s13104-015-0971-9
 
 <a id="ref-base-local-antropometrica-2026"></a> Base local consolidada de dados antropométricos da mão e do membro superior distal. (2026). [Conjunto de dados]. Material de apoio da investigação, material/antropometria/dados antropométricos/multipopulationhand.csv.
 
-Brack, R., & Amalu, E. H. (2021). A review  of technology, materials and R&D  challenges of upper limb prosthesis for  improved user suitability. Journal of
-
-Orthopaedics, 23, 88–96.  https://doi.org/10.1016/j.jor.2020.12.009
+<a id="ref-1-definir-o-que-e-propriocep"></a>
 
 <a id="ref-2-meter-este-link-na-bibliog"></a>
 
@@ -1900,6 +1709,8 @@ Orthopaedics, 23, 88–96.  https://doi.org/10.1016/j.jor.2020.12.009
 <a id="ref-5-vamos-adicionar-a-citacao"></a>
 
 <a id="ref-6-explicar-oque-sao-todos-es"></a>
+
+<a id="ref-7-definir-seed-design"></a>
 
 <a id="ref-8-escalonados-amplicados-e"></a>
 
@@ -1921,428 +1732,368 @@ O desenvolvimento de um gerador paramétrico de próteses de mão requer dados a
 
 Foram produzidos três ficheiros CSV complementares:
 
-- - ansur1988complete.csv — 2.726 linhas, 47 dimensões corporais do estudo ANSUR 1988 (Gordon et al., 1989), população militar norte-americana
+- `ansur_1988_complete.csv` — 2.726 linhas, 47 dimensões corporais do estudo ANSUR 1988 (Gordon et al., 1989), população militar norte-americana
+- `ansur_1988_hand_arm.csv` — 696 linhas, subconjunto do ANSUR restrito às medições da mão, antebraço e braço
+- `multi_population_hand.csv` — 1.790 linhas, dados de onze estudos populacionais independentes de nove países diferentes
 
-- - ansur1988handarm.csv — 696 linhas, subconjunto do ANSUR restrito às medições da mão, antebraço e braço
-
-- - multipopulationhand.csv — 1.790 linhas, dados de onze estudos populacionais independentes de nove países diferentes
+---
 
 ### A.2 Estratégia de Pesquisa Bibliográfica
 
-### A.2.1 Pesquisa bibliográfica assistida e revisões sistemáticas
+#### A.2.1 Pesquisa bibliográfica assistida e revisões sistemáticas
 
 A pesquisa de literatura foi conduzida através de pesquisas bibliográficas orientadas por questões, complementadas por ferramentas de apoio à revisão e triagem, com o objetivo de identificar estudos de antropometria da mão com dados primários tabelados. As questões-chave incluíam variações de:
 
-> "hand anthropometry normative data population study percentiles" "hand dimensions measurement ergonomics working population" "anthropometric survey finger length breadth caliper"
+> *"hand anthropometry normative data population study percentiles"*
+> *"hand dimensions measurement ergonomics working population"*
+> *"anthropometric survey finger length breadth caliper"*
 
 As listas de referências resultantes foram guardadas localmente em pastas organizadas por capítulo da tese. Os ficheiros de trabalho, citações e listas bibliográficas foram cruzados com a coleção local de PDFs para identificar lacunas.
 
-### A.2.2 Base ANSUR 1988
+#### A.2.2 Base ANSUR 1988
 
 O relatório ANSUR 1988 (Gordon et al., 1989) foi identificado como fonte de referência fundamental por ser um dos estudos antropométricos com maior dimensão amostral disponíveis publicamente (n=9.068 militares norte-americanos). Os dados foram extraídos diretamente das tabelas estatísticas detalhadas do relatório (Appendix B), que fornece, para cada dimensão e por sexo, a média, o desvio-padrão, os percentis P5, P10, P25, P50, P75, P90, P95, o mínimo e o máximo.
+
+---
 
 ### A.3 Critérios de Inclusão e Exclusão de Estudos
 
 Para cada estudo identificado, a decisão de incluir ou excluir os seus dados na base CSV seguiu critérios explícitos.
 
-### A.3.1 Critérios de inclusão
+#### A.3.1 Critérios de inclusão
 
 Um estudo foi incluído se satisfazia simultaneamente as seguintes condições:
 
-1. Dados primários — o estudo apresenta medições recolhidas pelos seus próprios autores sobre participantes reais, não reutilizando tabelas de terceiros sem transformação.
+1. **Dados primários** — o estudo apresenta medições recolhidas pelos seus próprios autores sobre participantes reais, não reutilizando tabelas de terceiros sem transformação.
+2. **Dimensões da mão ou do membro superior** — pelo menos uma medição refere-se à mão, dedos, palma, antebraço ou punho.
+3. **Estatística descritiva legível** — a tabela do artigo fornece, no mínimo, a média. A presença de desvio-padrão e/ou percentis constituía um critério de preferência.
+4. **Identificação clara da população** — o artigo especifica país, sexo, dimensão amostral e método de medição.
 
-2. Dimensões da mão ou do membro superior — pelo menos uma medição refere-se à mão, dedos, palma, antebraço ou punho.
-
-3. Estatística descritiva legível — a tabela do artigo fornece, no mínimo, a média. A presença de desvio-padrão e/ou percentis constituía um critério de preferência.
-
-4. Identificação clara da população — o artigo especifica país, sexo, dimensão amostral e método de medição.
-
-### A.3.2 Critérios de exclusão
+#### A.3.2 Critérios de exclusão
 
 Um estudo foi excluído nas seguintes situações:
 
-- - Dados secundários sem valor acrescentado — por exemplo, o trabalho de Moreo (2016) apresenta valores percentílicos de comprimento de dedo extraídos da base de dados DINED (TU Delft, n=965 crianças neerlandesas), sem recolha própria. A Tabela 6.1 desse trabalho serve apenas para validar as escolhas de design do protótipo, não constituindo uma fonte primária codificável de forma independente.
+- **Dados secundários sem valor acrescentado** — por exemplo, o trabalho de Moreo (2016) apresenta valores percentílicos de comprimento de dedo extraídos da base de dados DINED (TU Delft, n=965 crianças neerlandesas), sem recolha própria. A Tabela 6.1 desse trabalho serve apenas para validar as escolhas de design do protótipo, não constituindo uma fonte primária codificável de forma independente.
+- **Artigos de engenharia sem tabelas antropométricas** — estudos centrados em materiais, análise de elementos finitos ou fabrico aditivo que referenciam dimensões da mão apenas de forma incidental e sem estatística descritiva.
+- **Dimensões não da mão em estudos mistos** — medições de outras regiões corporais presentes no mesmo artigo foram excluídas se não existia uma razão direta para a prótese de mão (exceção: comprimento cotovelo-ponta dos dedos, incluído por ser relevante para o encaixe do socket).
 
-- - Artigos de engenharia sem tabelas antropométricas — estudos centrados em materiais, análise de elementos finitos ou fabrico aditivo que referenciam dimensões da mão apenas de forma incidental e sem estatística descritiva.
-
-- - Dimensões não da mão em estudos mistos — medições de outras regiões corporais presentes no mesmo artigo foram excluídas se não existia uma razão direta para a prótese de mão (exceção: comprimento cotovelo-ponta dos dedos, incluído por ser relevante para o encaixe do socket).
+---
 
 ### A.4 Processo de Extração de Dados
 
-### A.4.1 Leitura dos PDFs e localização das tabelas
+#### A.4.1 Leitura dos PDFs e localização das tabelas
 
-Cada artigo foi lido integralmente, com foco nas secções de Methods (para identificar o instrumento de medição, a mão medida, e a posição do participante) e Results (para localizar as tabelas com estatística descritiva). A página exata de cada tabela foi registada no campo sourcepage do CSV.
+Cada artigo foi lido integralmente, com foco nas secções de *Methods* (para identificar o instrumento de medição, a mão medida, e a posição do participante) e *Results* (para localizar as tabelas com estatística descritiva). A página exata de cada tabela foi registada no campo `source_page` do CSV.
 
 Quando um artigo reportava medições em mais do que uma tabela (por exemplo, comprimentos numa tabela e larguras noutra), cada tabela foi processada separadamente.
 
-### A.4.2 Identificação das unidades e conversão
+#### A.4.2 Identificação das unidades e conversão
 
-Os artigos consultados reportam medições em milímetros (mm), centímetros (cm) ou, no caso do ANSUR, em polegadas (in). O CSV armazena sempre os três sistemas em simultâneo (valuemm, valuecm, valuein), calculados a partir de uma única unidade-fonte:
+Os artigos consultados reportam medições em milímetros (mm), centímetros (cm) ou, no caso do ANSUR, em polegadas (in). O CSV armazena sempre os três sistemas em simultâneo (`value_mm`, `value_cm`, `value_in`), calculados a partir de uma única unidade-fonte:
 
-- - Se o artigo reporta em mm: valuecm = valuemm / 10; valuein = valuecm / 2.54
-
-- - Se o artigo reporta em cm: valuemm = valuecm × 10; valuein = valuecm / 2.54
+- Se o artigo reporta em mm: `value_cm = value_mm / 10`; `value_in = value_cm / 2.54`
+- Se o artigo reporta em cm: `value_mm = value_cm × 10`; `value_in = value_cm / 2.54`
 
 Esta redundância elimina conversões em tempo de execução por parte do modelo paramétrico.
 
-### A.4.3 Decomposição em linhas atómicas
+#### A.4.3 Decomposição em linhas atómicas
 
-Cada célula de uma tabela estatística origina uma linha independente no CSV. Assim, para uma dada dimensão, população e sexo, existem tantas linhas quantos os indicadores estatísticos disponíveis: por exemplo, se um artigo reporta média, desvio-padrão, P5, P50 e P95, são criadas cinco linhas — cada uma com o campo stattype definido como mean, stddev ou percentile, e o campo percentile preenchido apenas nas linhas de tipo percentile.
+Cada célula de uma tabela estatística origina **uma linha independente** no CSV. Assim, para uma dada dimensão, população e sexo, existem tantas linhas quantos os indicadores estatísticos disponíveis: por exemplo, se um artigo reporta média, desvio-padrão, P5, P50 e P95, são criadas cinco linhas — cada uma com o campo `stat_type` definido como `mean`, `std_dev` ou `percentile`, e o campo `percentile` preenchido apenas nas linhas de tipo `percentile`.
 
-Esta estrutura longa (long format) permite filtrar e agregar por qualquer combinação de variáveis sem necessidade de transformação prévia.
+Esta estrutura longa (*long format*) permite filtrar e agregar por qualquer combinação de variáveis sem necessidade de transformação prévia.
 
-### A.4.4 Registo fiel do contexto da medição
+#### A.4.4 Registo fiel do contexto da medição
 
-O campo measurementmethodnote regista, para cada estudo, informações sobre:
+O campo `measurement_method_note` regista, para cada estudo, informações sobre:
 
-- - O instrumento utilizado (e.g., "paquímetro digital Vernier 200 mm, resolução 0,01 mm")
-
-- - A mão medida (direita/esquerda/dominante)
-
-- - A posição da mão durante a medição (estendida e plana, em posição de repouso, sentado)
-
-- - O ponto de referência do comprimento (e.g., "da prega palmar proximal à ponta do dedo")
+- O instrumento utilizado (e.g., "paquímetro digital Vernier 200 mm, resolução 0,01 mm")
+- A mão medida (direita/esquerda/dominante)
+- A posição da mão durante a medição (estendida e plana, em posição de repouso, sentado)
+- O ponto de referência do comprimento (e.g., "da prega palmar proximal à ponta do dedo")
 
 Esta informação é crítica porque estudos diferentes definem as mesmas dimensões com protocolos diferentes: por exemplo, "comprimento da mão" pode ser medido desde a prega do pulso até à ponta do dedo médio (Rodríguez-Vega et al., 2024) ou desde o processo estilóide até à mesma ponta (Anacleto Filho et al., 2023), produzindo valores não diretamente comparáveis.
 
+---
+
 ### A.5 Decisões por Estudo
 
-### A.5.1 ANSUR 1988 — EUA, militares (Gordon et al., 1989)
+#### A.5.1 ANSUR 1988 — EUA, militares (Gordon et al., 1989)
 
-Fonte: Tabelas de dados detalhados do relatório técnico do U.S. Army Natick Research Center (março de 1989), 47 dimensões corporais, separadas por sexo (n=2.208 mulheres, n=6.682 homens). As dimensões da mão e do membro superior foram codificadas na íntegra: comprimento da mão, largura da mão, comprimentos dos dedos, circunferência do pulso, comprimento do antebraço, entre outras.
+**Fonte:** Tabelas de dados detalhados do relatório técnico do U.S. Army Natick Research Center (março de 1989), 47 dimensões corporais, separadas por sexo (n=2.208 mulheres, n=6.682 homens). As dimensões da mão e do membro superior foram codificadas na íntegra: comprimento da mão, largura da mão, comprimentos dos dedos, circunferência do pulso, comprimento do antebraço, entre outras.
 
-Decisão: Incluição total. A dimensão amostral, a abrangência estatística (11 indicadores por dimensão) e a origem militar controlada tornam-no a âncora de referência da base de dados.
+**Decisão:** Incluição total. A dimensão amostral, a abrangência estatística (11 indicadores por dimensão) e a origem militar controlada tornam-no a âncora de referência da base de dados.
 
-Notas: Sete valores no relatório original apresentavam inconsistências tipográficas (e.g., percentil aparentemente invertido ou unidade suspeita); todos foram corrigidos com anotação inline no campo dataqualitynote.
+**Notas:** Sete valores no relatório original apresentavam inconsistências tipográficas (e.g., percentil aparentemente invertido ou unidade suspeita); todos foram corrigidos com anotação inline no campo `data_quality_note`.
 
-### A.5.2 Turquia — jovens adultos (Chatzioglou et al., 2024)
+#### A.5.2 Turquia — jovens adultos (Chatzioglou et al., 2024)
 
-Fonte: Anatomy & Cell Biology, 57:172–182. n=51 (32F, 19M), idade 18–30, Izmir e Istanbul. Método foto-antropométrico com ImageJ (pixel → mm via fator de calibração 0,08618 ×). Comprimentos dos cinco dedos da mão direita, por sexo e amostra total, Tabela 1.
+**Fonte:** *Anatomy & Cell Biology*, 57:172–182. n=51 (32F, 19M), idade 18–30, Izmir e Istanbul. Método foto-antropométrico com ImageJ (pixel → mm via fator de calibração 0,08618 ×). Comprimentos dos cinco dedos da mão direita, por sexo e amostra total, Tabela 1.
 
-Decisão: Incluição. Primeiro estudo de foto-antropometria da mão na base de dados; o método é documentado de forma rigorosa e o artigo é publicado em revista indexada com revisão por pares. Os valores mínimo e máximo (mas não percentis) são reportados; foram codificados como stattype = min e max.
+**Decisão:** Incluição. Primeiro estudo de foto-antropometria da mão na base de dados; o método é documentado de forma rigorosa e o artigo é publicado em revista indexada com revisão por pares. Os valores mínimo e máximo (mas não percentis) são reportados; foram codificados como `stat_type = min` e `max`.
 
-### A.5.3 México — população geral (Rodríguez-Vega & Rodríguez-Vega, 2024)
+#### A.5.3 México — população geral (Rodríguez-Vega & Rodríguez-Vega, 2024)
 
-Fonte: European Public & Social Innovation Review, 9:1–15. n=2.837 (2.275M, 562F), Noroeste do México, idade 15–59. Quatro dimensões: comprimento da mão (HL), comprimento da palma (PL), largura da mão (HB) e diâmetro de preensão (HGD). Tabela 3 (amostra geral) e Tabela 4 (oito grupos etários: 15–19, 20–24, …, 50–54).
+**Fonte:** *European Public & Social Innovation Review*, 9:1–15. n=2.837 (2.275M, 562F), Noroeste do México, idade 15–59. Quatro dimensões: comprimento da mão (HL), comprimento da palma (PL), largura da mão (HB) e diâmetro de preensão (HGD). Tabela 3 (amostra geral) e Tabela 4 (oito grupos etários: 15–19, 20–24, …, 50–54).
 
-Decisão: Incluição, com marcação de qualidade nos subgrupos de pequena dimensão. A desagregação por grupo etário é única na base de dados e de grande valor para modelação por faixa etária. Foram detetados dois casos problemáticos na Tabela 4: o subgrupo feminino 50–54 tem n=3 (SD=0,00 reportado para HB, provavelmente artefacto de arredondamento); o subgrupo feminino 45–49 tem n=10. Ambos foram incluídos mas marcados no campo dataqualitynote.
+**Decisão:** Incluição, com marcação de qualidade nos subgrupos de pequena dimensão. A desagregação por grupo etário é única na base de dados e de grande valor para modelação por faixa etária. Foram detetados dois casos problemáticos na Tabela 4: o subgrupo feminino 50–54 tem n=3 (SD=0,00 reportado para HB, provavelmente artefacto de arredondamento); o subgrupo feminino 45–49 tem n=10. Ambos foram incluídos mas marcados no campo `data_quality_note`.
 
-### A.5.4 Índia — mulheres trabalhadoras (Nag et al., 2003)
+#### A.5.4 Índia — mulheres trabalhadoras (Nag et al., 2003)
 
-Fonte: Indian Journal of Medical Research, 117:260–269. n=95 mulheres, trabalhadores informais (indústria de bidis, agarbattis e vestuário), Ahmedabad. 51 dimensões da mão direita em cinco tabelas (comprimentos, larguras, circunferências, profundidades, extensões e folgas), com P5, P50 e P95 reportados.
+**Fonte:** *Indian Journal of Medical Research*, 117:260–269. n=95 mulheres, trabalhadores informais (indústria de bidis, agarbattis e vestuário), Ahmedabad. 51 dimensões da mão direita em cinco tabelas (comprimentos, larguras, circunferências, profundidades, extensões e folgas), com P5, P50 e P95 reportados.
 
-Decisão: Incluição total. É o estudo com maior granularidade de dimensões da mão na base de dados, e o único com dados de profundidade e circunferência por articulação. A restrição a mulheres e a uma população laboral informal específica é documentada na coluna population.
+**Decisão:** Incluição total. É o estudo com maior granularidade de dimensões da mão na base de dados, e o único com dados de profundidade e circunferência por articulação. A restrição a mulheres e a uma população laboral informal específica é documentada na coluna `population`.
 
-### A.5.5 Portugal — trabalhadores industriais (Anacleto Filho et al., 2023)
+#### A.5.5 Portugal — trabalhadores industriais (Anacleto Filho et al., 2023)
 
-Fonte: International Journal of Industrial Ergonomics, 97:103473. n=343 (169M, 174F),
+**Fonte:** *International Journal of Industrial Ergonomics*, 97:103473. n=343 (169M, 174F), trabalhadores industriais do Norte de Portugal, 2021. De um conjunto de 27 dimensões corporais, apenas duas são da mão: comprimento da mão e largura da mão (metacarpal II–V). Tabela 3, P5, P50, P95 por sexo.
 
-trabalhadores industriais do Norte de Portugal, 2021. De um conjunto de 27 dimensões corporais, apenas duas são da mão: comprimento da mão e largura da mão (metacarpal II–V). Tabela 3, P5, P50, P95 por sexo.
+**Decisão:** Incluição. Embora apenas duas dimensões da mão sejam disponibilizadas, trata-se da única fonte de dados antropométricos da mão para população portuguesa adulta identificada na literatura, o que a torna indispensável para a contextualização nacional desta tese.
 
-Decisão: Incluição. Embora apenas duas dimensões da mão sejam disponibilizadas, trata-se da única fonte de dados antropométricos da mão para população portuguesa adulta identificada na literatura, o que a torna indispensável para a contextualização nacional desta tese.
+**Nota metodológica:** O estudo mediu o lado esquerdo por limitação de instalações; este facto é registado em `measurement_method_note`.
 
-Nota metodológica: O estudo mediu o lado esquerdo por limitação de instalações; este facto é registado em measurementmethodnote.
+#### A.5.6 Nigéria — atletas universitários (Ibiwari et al., 2025)
 
-### A.5.6 Nigéria — atletas universitários (Ibiwari et al., 2025)
+**Fonte:** *International Journal of Science Academic Research*, 6(8):10513–10517. n=80: basquetebol (n=41: 21M, 20F) e voleibol (n=39: 20M, 19F), Universidade de Port Harcourt, idade 19–30. Quatro dimensões da mão direita por desporto e sexo: comprimento da mão, largura da mão, comprimento palmar e comprimento do 3.º dígito. Tabelas 3 e 4.
 
-Fonte: International Journal of Science Academic Research, 6(8):10513–10517. n=80: basquetebol (n=41: 21M, 20F) e voleibol (n=39: 20M, 19F), Universidade de Port Harcourt, idade 19–30. Quatro dimensões da mão direita por desporto e sexo: comprimento da mão, largura da mão, comprimento palmar e comprimento do 3.º dígito. Tabelas 3 e 4.
+**Decisão:** Incluição com marcação de subgrupo desportivo. Dois subgrupos apresentam desvio-padrão atipicamente elevado (e.g., comprimento da mão no voleibol masculino: SD=37,49 mm), sugerindo a presença de outliers na amostra original. Estes casos foram marcados com nota de qualidade; os valores não foram excluídos porque provêm de tabelas publicadas e revistas.
 
-Decisão: Incluição com marcação de subgrupo desportivo. Dois subgrupos apresentam desvio-padrão atipicamente elevado (e.g., comprimento da mão no voleibol masculino: SD=37,49 mm), sugerindo a presença de outliers na amostra original. Estes casos foram marcados com nota de qualidade; os valores não foram excluídos porque provêm de tabelas publicadas e revistas.
+**Nota:** A população de atletas não é representativa da população geral; os valores refletem uma seleção fisicamente ativa e potencialmente com mãos de dimensões superiores à média.
 
-Nota: A população de atletas não é representativa da população geral; os valores refletem uma seleção fisicamente ativa e potencialmente com mãos de dimensões superiores à média.
+#### A.5.7 Jordânia — trabalhadores com deficiência (Mistarihi, 2020)
 
-### A.5.7 Jordânia — trabalhadores com deficiência (Mistarihi, 2020)
+**Fonte:** *Data in Brief*, 30:105420. n=40 trabalhadores com deficiência física, governorate de Irbid, Jordânia, idade 20–40. Sexos combinados (sem desagregação por sexo em Tabela 4). Comprimento da mão (mm) e comprimento cotovelo-ponta dos dedos (cm) com P5 e P95 na Tabela 4; largura da mão (cm, média apenas) a partir da Figura 2.
 
-Fonte: Data in Brief, 30:105420. n=40 trabalhadores com deficiência física, governorate de Irbid, Jordânia, idade 20–40. Sexos combinados (sem desagregação por sexo em Tabela 4). Comprimento da mão (mm) e comprimento cotovelo-ponta dos dedos (cm) com P5 e P95 na Tabela 4; largura da mão (cm, média apenas) a partir da Figura 2.
+**Decisão:** Inclusão parcial. A dimensão amostral reduzida (n=40) e a ausência de desagregação por sexo limitam a utilidade direta dos dados. No entanto, é o único estudo com dados de uma população do Médio Oriente e com uma população com deficiência, o que justifica a inclusão para representatividade demográfica. A largura da mão (apenas média, sem SD, retirada de um diagrama de figura e não de uma tabela) foi incluída com marcação explícita de qualidade.
 
-Decisão: Inclusão parcial. A dimensão amostral reduzida (n=40) e a ausência de desagregação por sexo limitam a utilidade direta dos dados. No entanto, é o único estudo com dados de uma população do Médio Oriente e com uma população com deficiência, o que justifica a inclusão para representatividade demográfica. A largura da mão (apenas média, sem SD, retirada de um diagrama de figura e não de uma tabela) foi incluída com marcação explícita de qualidade.
+#### A.5.8 EUA — dedo indicador (Lim et al., 2018)
 
-### A.5.8 EUA — dedo indicador (Lim et al., 2018)
+**Fonte:** Trabalho académico UC Berkeley. n=50 adultos, idade 18–30. Apenas duas dimensões do dedo indicador (D2): comprimento MCP-ponta (média=90,9 mm) e largura na articulação PIP (média=16,9 mm). Apenas médias reportadas, sem SD ou percentis.
 
-Fonte: Trabalho académico UC Berkeley. n=50 adultos, idade 18–30. Apenas duas dimensões do dedo indicador (D2): comprimento MCP-ponta (média=90,9 mm) e largura na articulação PIP (média=16,9 mm). Apenas médias reportadas, sem SD ou percentis.
+**Decisão:** Inclusão limitada. A ausência de desvio-padrão e percentis reduz significativamente a utilidade estatística. No entanto, o estudo foi incluído porque é especificamente orientado para a customização de próteses de dedo e fornece valores de referência para o design de um dedo índice protésico — diretamente relevantes para o objetivo desta tese. O coeficiente de determinação R²=0,18 entre comprimento e largura do dedo é marcado como indicador de correlação fraca.
 
-Decisão: Inclusão limitada. A ausência de desvio-padrão e percentis reduz significativamente a utilidade estatística. No entanto, o estudo foi incluído porque é especificamente orientado para a customização de próteses de dedo e fornece valores de referência para o design de um dedo índice protésico — diretamente relevantes para o objetivo desta tese. O coeficiente de determinação R²=0,18 entre comprimento e largura do dedo é marcado como indicador de correlação fraca.
+#### A.5.9 Estudo excluído: Moreo (2016)
 
-### A.5.9 Estudo excluído: Moreo (2016)
+O trabalho de Moreo (2016), dissertação de mestrado sobre design paramétrico de prótese de mão para crianças, foi lido na íntegra (55 páginas). A Tabela 6.1 apresenta valores percentílicos de comprimento de dedo por grupo etário, mas estes valores são extraídos da base de dados DINED (TU Delft, n=965 crianças neerlandesas) — não constituindo uma recolha primária por parte da autora. Incluir estes valores equivaleria a duplicar uma fonte secundária sem rastreabilidade direta ao estudo DINED original. **Decisão: excluído.**
 
-O trabalho de Moreo (2016), dissertação de mestrado sobre design paramétrico de prótese de mão para crianças, foi lido na íntegra (55 páginas). A Tabela 6.1 apresenta valores percentílicos de comprimento de dedo por grupo etário, mas estes valores são extraídos da base de dados DINED (TU Delft, n=965 crianças neerlandesas) — não constituindo uma recolha primária por parte da autora. Incluir estes valores equivaleria a duplicar uma fonte secundária sem rastreabilidade direta ao estudo DINED original. Decisão: excluído.
+#### A.5.10 EUA — militares ANSUR II (Gordon et al., 2015)
 
-### A.5.10 EUA — militares ANSUR II (Gordon et al., 2015)
+**Fonte:** Relatório técnico NATICK/TR-15/007, U.S. Army Natick Soldier Research, Development and Engineering Center. n=6.068 militares ativos (4.082M, 1.986F), idade 17–58, grande diversidade étnica. Os dados brutos individuais foram disponibilizados em acesso público em 2017 (licença CC BY 4.0). As estatísticas foram calculadas a partir dos CSVs individuais (não do relatório impresso), usando Python puro sem dependências externas, por forma a garantir reprodutibilidade exata.
 
-Fonte: Relatório técnico NATICK/TR-15/007, U.S. Army Natick Soldier Research, Development and Engineering Center. n=6.068 militares ativos (4.082M, 1.986F), idade 17–58, grande diversidade étnica. Os dados brutos individuais foram disponibilizados em acesso público em 2017 (licença CC BY 4.0). As estatísticas foram calculadas a partir dos CSVs individuais (não do relatório impresso), usando Python puro sem dependências externas, por forma a garantir reprodutibilidade exata.
+**Decisão:** Inclusão total. É o maior conjunto de dados individuais de antropometria da mão disponível publicamente. A disponibilidade de dados brutos individuais (em vez de apenas tabelas sumárias) permitiu calcular o conjunto completo de 11 indicadores por dimensão (média, SD, mínimo, máximo, P5, P10, P25, P50, P75, P90, P95). Sete medições codificadas: comprimento da mão, largura da mão (metacarpal), circunferência da mão, comprimento da palma, circunferência do pulso, comprimento antebraço-ponta do dedo médio e comprimento antebraço-centro de preensão.
 
-Decisão: Inclusão total. É o maior conjunto de dados individuais de antropometria da mão disponível publicamente. A disponibilidade de dados brutos individuais (em vez de apenas tabelas sumárias) permitiu calcular o conjunto completo de 11 indicadores por dimensão (média, SD, mínimo, máximo, P5, P10, P25, P50, P75, P90, P95). Sete medições codificadas: comprimento da mão, largura da mão (metacarpal), circunferência da mão, comprimento da palma, circunferência do pulso, comprimento antebraço-ponta do dedo médio e comprimento antebraço-centro de preensão.
+**Nota:** A medição `wristheight` foi excluída — corresponde à distância do chão ao pulso em posição de pé, uma dimensão postural e não uma medição da mão.
 
-Nota: A medição wristheight foi excluída — corresponde à distância do chão ao pulso em posição de pé, uma dimensão postural e não uma medição da mão.
+#### A.5.11 Países Baixos — DINED (TU Delft, 1993–2004)
 
-### A.5.11 Países Baixos — DINED (TU Delft, 1993–2004)
+**Fonte:** Base de dados antropométrica do Delft Institute for Ergonomics and Design, acessível via conta institucional em dined.io.tudelft.nl. Três sub-datasets distintos, com dados de mão disponíveis:
 
-Fonte: Base de dados antropométrica do Delft Institute for Ergonomics and Design, acessível via conta institucional em dined.io.tudelft.nl. Três sub-datasets distintos, com dados de mão disponíveis:
+- **kima1993**: crianças neerlandesas, idades 2–12 (grupos por ano), por sexo e combinado; 8 medições da mão por grupo etário.
+- **geron1998**: idosos neerlandeses, idades 50–80+ (bandas de 5 anos), por sexo e combinado; 5 medições da mão.
+- **dined2004**: adultos neerlandeses, grupos etários 20–30, 31–60, 60+, por sexo e combinado; 6–7 medições da mão.
 
-- - kima1993: crianças neerlandesas, idades 2–12 (grupos por ano), por sexo e combinado; 8 medições da mão por grupo etário.
+Os dados foram extraídos a partir do HTML da interface web (padrões `id="mean{col}_{row}"` / `id="sd{col}_{row}"`), mapeando índices de coluna para combinações (sub-dataset, sexo, grupo etário) e índices de linha para nomes de medição.
 
-- - geron1998: idosos neerlandeses, idades 50–80+ (bandas de 5 anos), por sexo e combinado; 5 medições da mão.
+**Decisão:** Inclusão total (três sub-datasets). Apenas média e desvio-padrão estão disponíveis; percentis não são fornecidos pela interface DINED. O grupo combinado 20–60 do dined2004 foi excluído por ser redundante relativamente aos grupos 20–30 e 31–60. Primeiro dataset pediátrico e o dataset de idosos mais granular da base de dados.
 
-- - dined2004: adultos neerlandeses, grupos etários 20–30, 31–60, 60+, por sexo e combinado; 6–7 medições da mão.
+#### A.5.12 China — idosos de Pequim (Hu et al., 2007)
 
-Os dados foram extraídos a partir do HTML da interface web (padrões id="mean{col}{row}" / id="sd{col}{row}"), mapeando índices de coluna para combinações (sub-dataset, sexo, grupo etário) e índices de linha para nomes de medição.
+**Fonte:** *International Journal of Industrial Ergonomics*, 37(4):303–311. DOI: 10.1016/j.ergon.2006.11.006. n=108 (58F, 50M), idade 65–85, residentes na área de Pequim, recrutados por conveniência entre reformados. Medições com paquímetro deslizante e paquímetro de pontas, segundo a norma chinesa GB/T 5703-1999 (equivalente à ISO 7250:1996). Tabela 1 (média e desvio-padrão) e Tabela 2 (P1, P5, P50, P95, P99).
 
-Decisão: Inclusão total (três sub-datasets). Apenas média e desvio-padrão estão disponíveis; percentis não são fornecidos pela interface DINED. O grupo combinado 20–60 do dined2004 foi excluído por ser redundante relativamente aos grupos 20–30 e 31–60. Primeiro dataset pediátrico e o dataset de idosos mais granular da base de dados.
+**Decisão:** Inclusão parcial (cinco medições de mão/antebraço: largura da mão no metacarpal, largura máxima da mão, comprimento da mão, comprimento do dedo, comprimento antebraço-ponta dos dedos). P5, P50 e P95 codificados a partir da Tabela 2. A medição "Finger length" usa a designação do padrão GB/T 5703 sem especificar o dígito; assume-se o dedo médio, documentado em `data_quality_note`.
 
-### A.5.12 China — idosos de Pequim (Hu et al., 2007)
+**Nota de cobertura:** Primeira fonte de dados de idosos chineses e, simultaneamente, a única fonte da Ásia Oriental na base de dados (após a verificação de que uma referência alternativa inicialmente identificada não era verificável).
 
-Fonte: International Journal of Industrial Ergonomics, 37(4):303–311. DOI: 10.1016/j.ergon.2006.11.006. n=108 (58F, 50M), idade 65–85, residentes na área de Pequim, recrutados por conveniência entre reformados. Medições com paquímetro deslizante e paquímetro de pontas, segundo a norma chinesa GB/T 5703-1999 (equivalente à ISO 7250:1996). Tabela 1 (média e desvio-padrão) e Tabela 2 (P1, P5, P50, P95, P99).
+#### A.5.13 Estudo excluído: reconstrução corporal 3D a partir de fotografias ortogonais
 
-Decisão: Inclusão parcial (cinco medições de mão/antebraço: largura da mão no metacarpal, largura máxima da mão, comprimento da mão, comprimento do dedo, comprimento antebraço-ponta dos dedos). P5, P50 e P95 codificados a partir da Tabela 2. A medição "Finger length" usa a designação do padrão GB/T 5703 sem especificar o dígito; assume-se o dedo médio, documentado em dataqualitynote.
+**Fonte:** artigo metodológico sobre reconstrução de modelos corporais 3D a partir de fotografias ortogonais, publicado no *International Journal of Industrial Ergonomics*, usando deformação de forma livre (FFD).
 
-Nota de cobertura: Primeira fonte de dados de idosos chineses e, simultaneamente, a única fonte da Ásia Oriental na base de dados (após a verificação de que uma referência alternativa inicialmente identificada não era verificável).
+**Decisão: excluído.** O artigo não é um estudo de antropometria populacional: apresenta um método de modelação e valida-o sobre um único sujeito. A figura de validação do artigo compara valores do modelo com valores do participante real para 22 dimensões — não constituindo estatística descritiva de uma amostra. Não há média, desvio-padrão nem percentis de uma população. Incluir o valor de comprimento de mão do sujeito de validação (17 cm, lido do gráfico) seria metodologicamente incorreto.
 
-### A.5.13 Estudo excluído: reconstrução corporal 3D a partir de fotografias ortogonais
-
-Fonte: artigo metodológico sobre reconstrução de modelos corporais 3D a partir de fotografias ortogonais, publicado no International Journal of Industrial Ergonomics, usando deformação de forma livre (FFD).
-
-Decisão: excluído. O artigo não é um estudo de antropometria populacional: apresenta um método de modelação e valida-o sobre um único sujeito. A figura de validação do artigo compara valores do modelo com valores do participante real para 22 dimensões — não constituindo estatística descritiva de uma amostra. Não há média, desvio-padrão nem percentis de uma população. Incluir o valor de comprimento de mão do sujeito de validação (17 cm, lido do gráfico) seria metodologicamente incorreto.
+---
 
 ### A.6 Estrutura do CSV e Schema
 
-### A.6.1 Campos
+#### A.6.1 Campos
 
 | Campo | Tipo | Descrição |
+|---|---|---|
+| `source_document` | string | Título abreviado do artigo ou relatório fonte |
+| `source_page` | int | Página da tabela de origem no documento |
+| `source_citation` | string | Citação completa em estilo APA |
+| `measurement_name` | string | Nome da dimensão, incluindo especificações de método quando relevante |
+| `body_region` | string | Região corporal (`hand`, `forearm`, `upper_arm`, `lower_limb`, `torso`, `head`) |
+| `measurement_method_note` | string | Instrumento, mão medida, posição e protocolo de medição |
+| `population` | string | Descrição da população (e.g., "Young adults (age 18-30)") |
+| `country` | string | País de recolha dos dados |
+| `sex` | string | `male`, `female` ou `combined` |
+| `age_group` | string | Intervalo etário da (sub)amostra |
+| `sample_size` | int | Número de participantes na (sub)amostra |
+| `stat_type` | string | Tipo de estatística: `mean`, `std_dev`, `percentile`, `min`, `max` |
+| `percentile` | string | Valor do percentil (5, 10, 25, 50, 75, 90, 95) — vazio se não aplicável |
+| `value_cm` | float | Valor em centímetros |
+| `value_mm` | float | Valor em milímetros |
+| `value_in` | float | Valor em polegadas (calculado automaticamente) |
+| `data_quality_note` | string | Notas sobre limitações, artefactos ou incertezas do valor |
 
-| --- | --- | --- |
+#### A.6.2 Formato longo (*long format*)
 
-| sourcedocument | string | Título abreviado do artigo ou relatório fonte |
+A opção pelo formato longo — uma linha por estatística, e não uma linha por dimensão com colunas `mean`, `sd`, `p5`, etc. — permite:
 
-| sourcepage | int | Página da tabela de origem no documento |
-
-| sourcecitation | string | Citação completa em estilo APA |
-
-| measurementname | string | Nome da dimensão, incluindo especificações de método quando relevante |
-
-| bodyregion | string | Região corporal (hand, forearm, upperarm, lowerlimb, torso, head) |
-
-| measurementmethodnote | string | Instrumento, mão medida, posição e protocolo de medição |
-
-| population | string | Descrição da população (e.g., "Young adults (age 18-30)") |
-
-| country | string | País de recolha dos dados |
-
-| sex | string | male, female ou combined |
-
-| agegroup | string | Intervalo etário da (sub)amostra |
-
-| samplesize | int | Número de participantes na (sub)amostra |
-
-| stattype | string | Tipo de estatística: mean, stddev, percentile, min, max |
-
-| percentile | string | Valor do percentil (5, 10, 25, 50, 75, 90, 95) — vazio se não aplicável |
-
-| valuecm | float | Valor em centímetros |
-
-| valuemm | float | Valor em milímetros |
-
-| valuein | float | Valor em polegadas (calculado automaticamente) |
-
-| dataqualitynote | string | Notas sobre limitações, artefactos ou incertezas do valor |
-
-### A.6.2 Formato longo (long format)
-
-A opção pelo formato longo — uma linha por estatística, e não uma linha por dimensão com colunas mean, sd, p5, etc. — permite:
-
-- - Filtrar facilmente por tipo de estatística sem tratamento especial de colunas opcionais
-
-- - Incluir estudos que reportam apenas subconjuntos de estatísticas (e.g., apenas média, sem percentis) sem introduzir células vazias em colunas estruturais
-
-- - Acrescentar novos tipos de estatística (e.g., intervalo de confiança) sem alterar o schema
+- Filtrar facilmente por tipo de estatística sem tratamento especial de colunas opcionais
+- Incluir estudos que reportam apenas subconjuntos de estatísticas (e.g., apenas média, sem percentis) sem introduzir células vazias em colunas estruturais
+- Acrescentar novos tipos de estatística (e.g., intervalo de confiança) sem alterar o schema
 
 O custo é a repetição dos campos de identificação (país, sexo, dimensão) em cada linha — aceitável dado o volume total de dados (< 5 MB).
 
+---
+
 ### A.7 Controlo de Qualidade dos Dados
 
-### A.7.1 Marcação inline de limitações
+#### A.7.1 Marcação inline de limitações
 
-O campo dataqualitynote é preenchido sempre que existe uma das seguintes situações:
+O campo `data_quality_note` é preenchido sempre que existe uma das seguintes situações:
 
-- - Valor extraído de uma figura (diagrama ou gráfico) em vez de uma tabela
+- Valor extraído de uma figura (diagrama ou gráfico) em vez de uma tabela
+- Subgrupo com n ≤ 10
+- Desvio-padrão ausente ou atipicamente elevado
+- Valor estimado a partir de estatísticas adjacentes por ilegibilidade da tabela
+- Correlação fraca entre variáveis reportada pelo próprio estudo
+- Inconsistência tipográfica no documento original, corrigida com nota
 
-- - Subgrupo com n ≤ 10
-
-- - Desvio-padrão ausente ou atipicamente elevado
-
-- - Valor estimado a partir de estatísticas adjacentes por ilegibilidade da tabela
-
-- - Correlação fraca entre variáveis reportada pelo próprio estudo
-
-- - Inconsistência tipográfica no documento original, corrigida com nota
-
-### A.7.2 Verificação de unidades
+#### A.7.2 Verificação de unidades
 
 Todos os valores foram verificados pela coerência de ordem de grandeza. Por exemplo, um comprimento de mão adulta reportado em cm deve situar-se entre 15 e 22 cm; qualquer valor fora deste intervalo foi relido no artigo original antes de ser codificado.
 
-### A.7.3 Rastreabilidade total
+#### A.7.3 Rastreabilidade total
 
-Cada linha do CSV contém a citação completa (sourcecitation) e o número de página exato (sourcepage), permitindo que qualquer valor seja verificado diretamente na fonte primária sem necessidade de metadados externos.
+Cada linha do CSV contém a citação completa (`source_citation`) e o número de página exato (`source_page`), permitindo que qualquer valor seja verificado diretamente na fonte primária sem necessidade de metadados externos.
+
+---
 
 ### A.8 Escrita do Código de Geração
 
 Os dados foram codificados em dois scripts Python independentes:
 
-- - generateansurcsv.py — gera ansur1988complete.csv e ansur1988handarm.csv a partir de dicionários Python embutidos no script, um por tabela do relatório ANSUR
-
-- - generatemultipopulationhandcsv.py — gera multipopulationhand.csv a partir de dez secções numeradas, cada uma correspondente a um estudo ou conjunto de datasets
+- `generate_ansur_csv.py` — gera `ansur_1988_complete.csv` e `ansur_1988_hand_arm.csv` a partir de dicionários Python embutidos no script, um por tabela do relatório ANSUR
+- `generate_multi_population_hand_csv.py` — gera `multi_population_hand.csv` a partir de dez secções numeradas, cada uma correspondente a um estudo ou conjunto de datasets
 
 A escolha de embeber os dados diretamente no código (em vez de, por exemplo, folhas de cálculo intermédias) serve três propósitos: (1) rastreabilidade — cada valor está imediatamente adjacente à sua citação e nota de método; (2) reprodutibilidade — executar o script regenera o CSV de forma determinista; (3) controlo de versão — alterações aos dados são visíveis em diff de git, com o contexto de que estudo foi modificado.
 
-O script aplica automaticamente as conversões de unidade, calcula valuein a partir de valuecm, e valida que nenhuma linha é emitida sem pelo menos uma das colunas valuemm ou valuecm preenchida.
+O script aplica automaticamente as conversões de unidade, calcula `value_in` a partir de `value_cm`, e valida que nenhuma linha é emitida sem pelo menos uma das colunas `value_mm` ou `value_cm` preenchida.
+
+---
 
 ### A.9 Resultado Final
 
 | Ficheiro | Linhas (dados) | Países | Estudos | Dimensões distintas |
+|---|---|---|---|---|
+| `ansur_1988_complete.csv` | 2.726 | 1 (EUA) | 1 | 47 |
+| `ansur_1988_hand_arm.csv` | 696 | 1 (EUA) | 1 | 17 |
+| `multi_population_hand.csv` | 1.790 | 9 | 11 | ~85 |
 
-| --- | --- | --- | --- | --- |
+O ficheiro `multi_population_hand.csv` cobre nove países (EUA, Países Baixos, Turquia, México, Índia, Portugal, Nigéria, Jordânia, China), ambos os sexos e grupos combinados, grupos etários desde os 2 até aos 80+ anos, e populações tão diversas como crianças em idade escolar, idosos, atletas universitários, trabalhadores industriais, trabalhadoras informais e militares.
 
-| ansur1988complete.csv | 2.726 | 1 (EUA) | 1 | 47 |
-
-| ansur1988handarm.csv | 696 | 1 (EUA) | 1 | 17 |
-
-| multipopulationhand.csv | 1.790 | 9 | 11 | ~85 |
-
-O ficheiro multipopulationhand.csv cobre nove países (EUA, Países Baixos, Turquia, México, Índia, Portugal, Nigéria, Jordânia, China), ambos os sexos e grupos combinados, grupos etários desde os 2 até aos 80+ anos, e populações tão diversas como crianças em idade escolar, idosos, atletas universitários, trabalhadores industriais, trabalhadoras informais e militares.
+---
 
 ### A.10 Cobertura Global da Base de Dados e Lacunas
 
-### A.10.1 O que está coberto
+#### A.10.1 O que está coberto
 
-A base de dados multipopulationhand.csv foi construída com o objetivo de representar a variabilidade antropométrica da mão humana em múltiplas dimensões: geográfica, demográfica, etária e estatística. A tabela seguinte sintetiza a cobertura atual.
+A base de dados `multi_population_hand.csv` foi construída com o objetivo de representar a variabilidade antropométrica da mão humana em múltiplas dimensões: geográfica, demográfica, etária e estatística. A tabela seguinte sintetiza a cobertura atual.
 
-### A.10.1.1 Cobertura geográfica
+##### A.10.1.1 Cobertura geográfica
 
 | Região | Países representados | Fonte(s) |
-
-| --- | --- | --- |
-
+|---|---|---|
 | Europa Ocidental | Portugal, Países Baixos | Anacleto Filho et al. (2023); DINED kima1993, geron1998, dined2004 |
-
 | América do Norte | EUA | ANSUR 1988, ANSUR II 2012, Lim et al. (2018) |
-
 | América Latina | México | Rodríguez-Vega et al. (2024) |
-
 | Médio Oriente | Jordânia | Mistarihi (2020) |
-
 | África | Nigéria | Ibiwari et al. (2025) |
-
 | Sul da Ásia | Índia | Nag et al. (2003) |
-
 | Ásia Oriental | China (Pequim) | Hu et al. (2007) |
-
 | Europa do Sul / Ásia Menor | Turquia | Chatzioglou et al. (2024) |
 
 Nove países estão representados, distribuídos por sete regiões do mundo. A cobertura é particularmente densa nos EUA (três fontes independentes) e nos Países Baixos (três sub-datasets DINED).
 
-### A.10.1.2 Cobertura etária
+##### A.10.1.2 Cobertura etária
 
 | Faixa etária | Cobertura | Fonte(s) |
-
-| --- | --- | --- |
-
+|---|---|---|
 | 2–12 anos | Países Baixos | DINED kima1993 (por ano de idade) |
-
 | 15–19 anos | México | Rodríguez-Vega et al. (2024), subgrupo |
-
 | 18–30 anos | EUA, Turquia | Lim et al. (2018); Chatzioglou et al. (2024) |
-
 | 17–58 anos | EUA | ANSUR II 2012 |
-
 | 15–59 anos | México | Rodríguez-Vega et al. (2024), 8 grupos etários |
-
 | 19–30 anos | Nigéria | Ibiwari et al. (2025) |
-
 | 20–40 anos | Jordânia | Mistarihi (2020) |
-
 | 20–60+ anos | Países Baixos | DINED dined2004 (3 grupos) |
-
 | 50–80+ anos | Países Baixos | DINED geron1998 (7 grupos de 5 anos) |
-
 | 65–85 anos | China | Hu et al. (2007) |
 
 A cobertura pediátrica (2–12 anos) existe apenas para os Países Baixos. A adolescência (13–17 anos) está ausente como grupo dedicado — o subgrupo mexicano 15–19 é o mais próximo, mas cobre uma faixa mais alargada. A idade adulta ativa (20–60) está bem coberta em múltiplos países. Os idosos estão representados nos Países Baixos (50–80+) e na China (65–85), mas não noutras geografias.
 
-### A.10.1.3 Cobertura estatística
+##### A.10.1.3 Cobertura estatística
 
 A profundidade estatística varia consideravelmente entre fontes:
 
 | Nível de detalhe | Estudos |
-
-| --- | --- |
-
+|---|---|
 | Média, SD, min, max, P5–P95 (11 indicadores) | ANSUR 1988, ANSUR II 2012 |
-
 | Média, SD, P5, P50, P95 (5 indicadores) | DINED (3 sub-datasets), Hu et al. (2007) |
-
 | P5, P50, P95 (3 indicadores) | Nag et al. (2003), Anacleto Filho et al. (2023), Rodríguez-Vega et al. (2024) |
-
 | Média, SD, min, max (4 indicadores) | Chatzioglou et al. (2024), Ibiwari et al. (2025) |
-
 | Média apenas | Mistarihi (2020) — largura da mão; Lim et al. (2018) |
 
 A maioria das fontes não-americanas fornece apenas subconjuntos de estatísticas. Percentis intermédios (P10, P25, P75, P90) estão disponíveis exclusivamente nos datasets ANSUR. Esta assimetria é uma limitação real: para populações não-americanas, o modelo paramétrico pode interpolar entre P5 e P95, mas não dispõe de percentis de granularidade fina.
 
-### A.10.2 Onde a cobertura falha
+---
 
-### A.10.2.1 Lacunas geográficas
+#### A.10.2 Onde a cobertura falha
+
+##### A.10.2.1 Lacunas geográficas
 
 As regiões mais populosas do mundo estão sub-representadas ou ausentes:
 
-- - Ásia Oriental — China tem uma única fonte (n=108, apenas idosos de Pequim). Japão e Coreia do Sul estão completamente ausentes, apesar de serem países com literatura ergonómica ativa. O conjunto ANSUR é amplamente usado como proxy para populações ocidentais, mas os valores diferem sistematicamente das populações do leste asiático (mãos tendencialmente mais pequenas nos estudos disponíveis).
+- **Ásia Oriental** — China tem uma única fonte (n=108, apenas idosos de Pequim). Japão e Coreia do Sul estão completamente ausentes, apesar de serem países com literatura ergonómica ativa. O conjunto ANSUR é amplamente usado como proxy para populações ocidentais, mas os valores diferem sistematicamente das populações do leste asiático (mãos tendencialmente mais pequenas nos estudos disponíveis).
+- **Ásia do Sudeste** — Nenhum país representado (Indonésia, Filipinas, Vietname, Tailândia, etc.), apesar de concentrarem uma fração significativa da população mundial e de apresentarem diferenças antropométricas documentadas relativamente às populações sul-asiáticas.
+- **África Subsaariana** — Apenas a Nigéria, com uma amostra de atletas universitários (n=80) que não é representativa da população geral. Angola, Moçambique, e outros países de língua portuguesa estão ausentes, o que é particularmente relevante numa tese desenvolvida em Portugal.
+- **América do Sul** — Completamente ausente. Brasil, Colômbia e Argentina têm literatura ergonómica publicada mas não foram identificadas fontes acessíveis com dados de mão codificáveis.
+- **Europa Central e de Leste** — Ausente. Os Países Baixos e Portugal representam a Europa, mas há variabilidade antropométrica documentada entre populações do norte, sul e leste do continente.
 
-- - Ásia do Sudeste — Nenhum país representado (Indonésia, Filipinas, Vietname, Tailândia, etc.), apesar de concentrarem uma fração significativa da população mundial e de apresentarem diferenças antropométricas documentadas relativamente às populações sul-asiáticas.
+##### A.10.2.2 Lacunas demográficas
 
-- - África Subsaariana — Apenas a Nigéria, com uma amostra de atletas universitários (n=80) que não é representativa da população geral. Angola, Moçambique, e outros países de língua portuguesa estão ausentes, o que é particularmente relevante numa tese desenvolvida em Portugal.
+- **Adolescentes (13–17 anos)** — a transição da mão infantil para a adulta não está coberta por nenhum estudo dedicado. O kima1993 chega aos 12 anos e o ANSUR começa aos 17.
+- **Amputados** — a mão de referência para uma prótese unilateral é a mão contralateral intacta do próprio utilizador. Não foi identificado nenhum estudo com estatística descritiva da mão intacta de utilizadores de próteses. Esta é a lacuna de maior impacto direto para o objetivo desta tese: sem estes dados, a personalização paramétrica baseia-se em populações saudáveis como aproximação.
+- **Pessoas com deficiência física** — apenas o estudo de Mistarihi (2020) cobre esta população (n=40, sexos combinados, Jordânia). A dimensão amostral é insuficiente para ser estatisticamente representativa.
+- **Idosos fora da Europa e China** — a prevalência de amputação de membro superior é mais elevada em contextos de baixo rendimento (causas traumáticas, diabetes, doença vascular), mas os dados de idosos disponíveis limitam-se a populações europeias e chinesas.
 
-- - América do Sul — Completamente ausente. Brasil, Colômbia e Argentina têm literatura ergonómica publicada mas não foram identificadas fontes acessíveis com dados de mão codificáveis.
-
-- - Europa Central e de Leste — Ausente. Os Países Baixos e Portugal representam a Europa, mas há variabilidade antropométrica documentada entre populações do norte, sul e leste do continente.
-
-### A.10.2.2 Lacunas demográficas
-
-- - Adolescentes (13–17 anos) — a transição da mão infantil para a adulta não está coberta por nenhum estudo dedicado. O kima1993 chega aos 12 anos e o ANSUR começa aos 17.
-
-- - Amputados — a mão de referência para uma prótese unilateral é a mão contralateral intacta do próprio utilizador. Não foi identificado nenhum estudo com estatística descritiva da mão intacta de utilizadores de próteses. Esta é a lacuna de maior impacto direto para o objetivo desta tese: sem estes dados, a personalização paramétrica baseia-se em populações saudáveis como aproximação.
-
-- - Pessoas com deficiência física — apenas o estudo de Mistarihi (2020) cobre esta população (n=40, sexos combinados, Jordânia). A dimensão amostral é insuficiente para ser estatisticamente representativa.
-
-- - Idosos fora da Europa e China — a prevalência de amputação de membro superior é mais elevada em contextos de baixo rendimento (causas traumáticas, diabetes, doença vascular), mas os dados de idosos disponíveis limitam-se a populações europeias e chinesas.
-
-### A.10.2.3 Limitações qualitativas dos dados existentes
+##### A.10.2.3 Limitações qualitativas dos dados existentes
 
 Para além das lacunas por ausência, existem limitações nos dados já presentes:
 
-- - Heterogeneidade de protocolos — "comprimento da mão" é medido desde pontos de referência distintos consoante o estudo (prega distal do pulso, processo estilóide do rádio, articulação metacarpo-falângica). Os valores não são diretamente comparáveis entre fontes sem ajuste, o que limita a integração direta para inferência de valores fora da base de dados.
+- **Heterogeneidade de protocolos** — "comprimento da mão" é medido desde pontos de referência distintos consoante o estudo (prega distal do pulso, processo estilóide do rádio, articulação metacarpo-falângica). Os valores não são diretamente comparáveis entre fontes sem ajuste, o que limita a integração direta para inferência de valores fora da base de dados.
+- **Amostras de conveniência** — a maioria dos estudos não é probabilística: Chatzioglou et al. (2024) recrutou estudantes universitários de Izmir e Istanbul; Ibiwari et al. (2025) recrutou atletas universitários; Hu et al. (2007) recrutou reformados da área de Pequim. A representatividade nacional é, em todos estes casos, questionável.
+- **Desequilíbrio de dimensões** — o comprimento da mão e a largura da mão (metacarpal) estão presentes em quase todas as fontes; comprimentos por falange individual, profundidade da palma, e ângulos de abdução dos dedos estão ausentes exceto no ANSUR.
+- **Mão medida** — a maioria dos estudos mede a mão dominante ou a mão direita; o estudo português mede a mão esquerda por limitação de instalações. Esta inconsistência é registada nos metadados mas não pode ser corrigida post-hoc.
 
-- - Amostras de conveniência — a maioria dos estudos não é probabilística: Chatzioglou et al. (2024) recrutou estudantes universitários de Izmir e Istanbul; Ibiwari et al. (2025) recrutou atletas universitários; Hu et al. (2007) recrutou reformados da área de Pequim. A representatividade nacional é, em todos estes casos, questionável.
+---
 
-- - Desequilíbrio de dimensões — o comprimento da mão e a largura da mão (metacarpal) estão presentes em quase todas as fontes; comprimentos por falange individual, profundidade da palma, e ângulos de abdução dos dedos estão ausentes exceto no ANSUR.
-
-- - Mão medida — a maioria dos estudos mede a mão dominante ou a mão direita; o estudo português mede a mão esquerda por limitação de instalações. Esta inconsistência é registada nos metadados mas não pode ser corrigida post-hoc.
-
-### A.10.3 Frentes identificadas para expansão futura
+#### A.10.3 Frentes identificadas para expansão futura
 
 A expansão futura da base de dados deverá priorizar três frentes: dados pediátricos e adolescentes fora do contexto europeu, fontes nacionais de antropometria da mão em regiões ainda ausentes, e conjuntos de dados com maior granularidade anatómica dos dedos, falanges, punho e antebraço distal.
 
-### A.10.3.1 Prioridade alta
+##### A.10.3.1 Prioridade alta
 
-- - Dados pediátricos e adolescentes da Ásia Oriental, capazes de preencher a lacuna entre os 13 e os 17 anos e de reduzir a dependência de fontes neerlandesas para perfis infantis.
+- Dados pediátricos e adolescentes da Ásia Oriental, capazes de preencher a lacuna entre os 13 e os 17 anos e de reduzir a dependência de fontes neerlandesas para perfis infantis.
+- Dados industriais ou ergonómicos do Médio Oriente com maior dimensão amostral e separação por sexo, de modo a complementar a fonte jordana já incluída.
+- Bases públicas nacionais com dados de mão para populações asiáticas, quando disponibilizarem metadados claros e condições de reutilização compatíveis com investigação académica.
 
-- - Dados industriais ou ergonómicos do Médio Oriente com maior dimensão amostral e separação por sexo, de modo a complementar a fonte jordana já incluída.
+##### A.10.3.2 Prioridade média
 
-- - Bases públicas nacionais com dados de mão para populações asiáticas, quando disponibilizarem metadados claros e condições de reutilização compatíveis com investigação académica.
+- Relatórios técnicos com medições granulares da mão, incluindo comprimentos por falange, profundidades articulares e ângulos de preensão.
+- Estudos baseados em digitalização 3D com amostras adultas amplas, desde que disponibilizem estatísticas por dimensão e não apenas exemplos individuais.
 
-### A.10.3.2 Prioridade média
-
-- - Relatórios técnicos com medições granulares da mão, incluindo comprimentos por falange, profundidades articulares e ângulos de preensão.
-
-- - Estudos baseados em digitalização 3D com amostras adultas amplas, desde que disponibilizem estatísticas por dimensão e não apenas exemplos individuais.
-
-### A.10.3.3 Pertinência direta para o tema da tese
+##### A.10.3.3 Pertinência direta para o tema da tese
 
 A lacuna de maior impacto continua a ser a ausência de dados de pessoas amputadas, sobretudo medições da mão contralateral intacta. Para o design de próteses de mão personalizadas, a referência mais adequada é a mão intacta do próprio utilizador, e não a média de uma população saudável. Uma recolha primária de dados, mesmo com dimensão reduzida, poderia ser metodologicamente mais valiosa do que acrescentar novas populações saudáveis sem relação clínica direta com o problema da personalização protésica.
