@@ -1,5 +1,9 @@
 # Changelog
 
+## 2026-07-08
+
+- Updated `README.md` to reflect the current manuscript filenames, LibreOffice/DOCX workflow, repetition-review derivative, bibliography handling, figures/tables structure, Elicit workflow, and local conversion/comment tools.
+
 ## 2026-07-07
 
 - Added `projecto-completo-repeticoes.docx` as a derivative DOCX version with repetition-focused edits, condensing overlapping AI validation material between Chapters 6, 8, and 9, removing an exact duplicate sentence in Chapter 7, and correcting duplicated Chapter 8 table numbering while preserving the original root DOCX.
