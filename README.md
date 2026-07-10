@@ -9,6 +9,7 @@ O manuscrito editável principal é [`projecto-completo.md`](projecto-completo.m
 - `projecto-completo.md`: manuscrito consolidado em Markdown. Mantém uma linha de versão no topo.
 - `projecto-completo.docx`: cópia DOCX principal para revisão no LibreOffice, incluindo imagens e comentários.
 - `projecto-completo-repeticoes.docx`: versão derivada com cortes e condensações focados em repetições. Não substitui automaticamente o manuscrito principal.
+- `projecto-completo-sem-repeticoes.docx`: versão derivada mais recente com revisão editorial de repetições, criada diretamente a partir do DOCX para preservar tabelas, comentários e notas de rodapé.
 - `sources/manuscript/annexes/data_extraction_explained.md`: material técnico integrado como Anexo A no manuscrito.
 - `CHANGELOG.md`: registo cronológico das alterações do repositório.
 - `AGENTS.md`: regras operacionais para edição, pesquisa, bibliografia, backups, commits e exportações.
@@ -139,6 +140,7 @@ Relatórios úteis recentes:
 - `docs/figuras-imagens-auditoria-2026-06-30.md`
 - `docs/figuras-correcoes-visuais-2026-07-01.md`
 - `docs/figuras-recorte-margem-superior-2026-07-02.md`
+- `docs/relatorio-repeticoes-projecto-completo-1815-09072026.md`
 - `docs/relatorio-repeticoes-projecto-completo-2209-07072026.md`
 
 ## Bibliografia do manuscrito

@@ -1,20 +1,8 @@
 Projecto completo
 
-Versão do documento:0.4.20
+Versão do documento:0.4.19
 
 ## INTEGRAÇÃO DO DESIGN E DA INTELIGÊNCIA ARTIFICIAL EM PROCESSOS PARAMÉTRICOS PARA O DESENVOLVIMENTO DE PRÓTESES DE MEMBROS SUPERIORES EM IMPRESSÃO 3D.
-
-## Resumo
-
-A personalização de próteses de membros superiores continua a ser condicionada por custos elevados, dependência de competências técnicas especializadas e dificuldade em traduzir dados antropométricos em geometrias ajustadas, reprodutíveis e fabricáveis. Esta dissertação investiga de que modo o design industrial, articulado com modelação paramétrica e inteligência artificial, pode apoiar processos mais acessíveis, explícitos e controláveis de desenvolvimento de próteses personalizadas para impressão 3D. A investigação adota uma abordagem de Research Through Design, combinando revisão crítica da literatura, análise de soluções open source, estruturação de uma base local de dados antropométricos, desenvolvimento de modelos paramétricos em OpenSCAD, integração numa plataforma web e avaliação por testes de perfil, exportação de geometrias e prototipagem física. O sistema desenvolvido permite converter descrições e medidas do utilizador em sugestões paramétricas, visualizar o modelo no navegador, exportar ficheiros STL/3MF e verificar a sua passagem para fabrico digital. A validação incidiu sobre a coerência entre perfil, parâmetros, geometria exportada e protótipo físico, usando dados antropométricos públicos e testes de impressão realizados a partir do mesmo perfil de base, com alteração controlada da idade. As peças foram preparadas no PrusaSlicer 2.9.6 e no Bambu Studio e materializadas em PLA e PETG em impressoras FDM. Os resultados mostram que a combinação entre regras paramétricas explícitas, apoio de IA e verificação material pode tornar o processo de personalização mais rastreável e replicável, embora não substitua validação clínica, avaliação biomecânica completa ou testes com utilizadores reais. O contributo principal reside na formulação de um processo metodológico que articula design, dados antropométricos, IA e fabrico digital de forma crítica e operacional.
-
-**Palavras-chave:** design industrial; próteses de membro superior; design paramétrico; inteligência artificial; impressão 3D; dados antropométricos; fabrico digital.
-
-## Abstract
-
-The personalisation of upper-limb prostheses remains constrained by high costs, dependence on specialised technical expertise, and the difficulty of translating anthropometric data into geometries that are fitted, reproducible, and manufacturable. This dissertation investigates how industrial design, combined with parametric modelling and artificial intelligence, can support more accessible, explicit, and controllable processes for developing personalised prostheses for 3D printing. The research follows a Research Through Design approach, combining a critical literature review, analysis of open-source prosthetic solutions, the structuring of a local anthropometric database, the development of parametric models in OpenSCAD, integration into a web platform, and evaluation through profile tests, geometry export, and physical prototyping. The developed system converts user descriptions and measurements into parametric suggestions, enables browser-based model visualisation, exports STL/3MF files, and supports verification of the transition from digital model to digital fabrication. Validation focused on coherence between profile, parameters, exported geometry, and physical prototype, using public anthropometric data and print tests derived from the same base profile, with age changed as a controlled variable. The parts were prepared in PrusaSlicer 2.9.6 and Bambu Studio and materialised in PLA and PETG using FDM printers. The results indicate that combining explicit parametric rules, AI support, and material verification can make personalisation processes more traceable and replicable, although it does not replace clinical validation, full biomechanical assessment, or tests with real users. The main contribution lies in the formulation of a methodological process that critically and operationally connects design, anthropometric data, AI, and digital fabrication.
-
-**Keywords:** industrial design; upper-limb prostheses; parametric design; artificial intelligence; 3D printing; anthropometric data; digital fabrication.
 
 ## Lista de acrónimos
 
@@ -154,45 +142,45 @@ The personalisation of upper-limb prostheses remains constrained by high costs, 
 
 | Identificação | Descrição | Página |
 | --- | --- | --- |
-| Tabela 2.1 | Papéis dos profissionais de saúde no desenvolvimento de dispositivos médicos | 15 |
-| Tabela 2.2 | Elementos centrais na configuração da participação em sistemas configuráveis | 36 |
-| Tabela 4.1 | Principais parâmetros antropométricos da mão e do membro superior relevantes para modelação paramétrica | 54 |
-| Tabela 4.2 | Conjuntos mínimos de parâmetros por nível de amputação | 54 |
-| Tabela 4.3 | Métodos de recolha de dados antropométricos e suas características | 56 |
-| Tabela 4.4 | Fontes integradas na base local de dados antropométricos | 58 |
-| Tabela 4.5 | Estrutura hierárquica dos parâmetros no modelo paramétrico | 62 |
-| Tabela 4.6 | Mapeamento entre parâmetros antropométricos e elementos do modelo | 64 |
-| Tabela 4.7 | Estrutura técnica em camadas de um modelo paramétrico em OpenSCAD para próteses personalizadas | 66 |
-| Tabela 8.1 | Síntese dos resultados da validação por impressão 3D | 99 |
-| Tabela 8.2 | Entradas/prompt utilizadas para criação dos perfis de validação antropométrica por IA | 101 |
-| Tabela 8.3 | Síntese da validação antropométrica assistida por IA | 103 |
-| Tabela 8.4 | Modelos e mecanismos de escala avaliados | 104 |
-| Tabela 8.5 | Rácio adimensional da maior dimensão da palma exportada face ao baseline | 104 |
+| Tabela 2.1 | Papéis dos profissionais de saúde no desenvolvimento de dispositivos médicos | 14 |
+| Tabela 2.2 | Elementos centrais na configuração da participação em sistemas configuráveis | 34 |
+| Tabela 4.1 | Principais parâmetros antropométricos da mão e do membro superior relevantes para modelação paramétrica | 53 |
+| Tabela 4.2 | Conjuntos mínimos de parâmetros por nível de amputação | 53 |
+| Tabela 4.3 | Métodos de recolha de dados antropométricos e suas características | 55 |
+| Tabela 4.4 | Fontes integradas na base local de dados antropométricos | 57 |
+| Tabela 4.5 | Estrutura hierárquica dos parâmetros no modelo paramétrico | 61 |
+| Tabela 4.6 | Mapeamento entre parâmetros antropométricos e elementos do modelo | 63 |
+| Tabela 4.7 | Estrutura técnica em camadas de um modelo paramétrico em OpenSCAD para próteses personalizadas | 65 |
+| Tabela 8.1 | Síntese dos resultados da validação por impressão 3D | 98 |
+| Tabela 8.2 | Entradas/prompt utilizadas para criação dos perfis de validação antropométrica por IA | 100 |
+| Tabela 8.3 | Síntese da validação antropométrica assistida por IA | 102 |
+| Tabela 8.4 | Modelos e mecanismos de escala avaliados | 103 |
+| Tabela 8.5 | Rácio adimensional da maior dimensão da palma exportada face ao baseline | 103 |
 
 ## Lista de figuras
 
 | Identificação | Descrição | Página |
 | --- | --- | --- |
-| Figura 1.1 | Exemplos de próteses e dispositivos associados à fabricação aditiva em contexto protésico. | 6 |
-| Figura 2.1 | Exemplos de próteses de membro superior impressas em 3D, ilustrando diversidade tipológica e construtiva. | 11 |
-| Figura 2.2 | Utilização, rejeição primária e rejeição secundária de próteses do membro superior adquiridas. | 13 |
-| Figura 2.3 | Fluxo digital entre aquisição, CAD/CAM e fabricação aditiva em próteses e ortóteses. | 18 |
-| Figura 2.4 | Exemplo de configurador digital para personalização de uma prótese impressa em 3D. | 21 |
-| Figura 2.5 | Marcos anatómicos e medidas de referência da mão para fins de personalização. | 26 |
-| Figura 2.6 | Enquadramento de um fluxo de CAD assistido por IA para desenvolvimento de produto. | 30 |
-| Figura 2.7 | Modelo de processo para configurar participação em ecossistemas de inovação e cocriação. | 35 |
-| Figura 2.8 | Distribuição dos estudos por nível de prontidão tecnológica (TRL) e categoria de aplicação. O gráfico distingue estudos sobre próteses em geral, próteses de membro inferior produzidas por impressão 3D (LL 3DP), próteses de membro inferior desenvolvidas com recurso a CAD/CAM (LL CAD/CAM), outras abordagens aplicadas ao membro inferior (LL other), próteses de membro superior produzidas por impressão 3D (UL 3DP) e outros casos não enquadrados nas categorias anteriores. | 40 |
-| Figura 3.1 | Processo interdisciplinar de desenvolvimento de uma prótese de membro superior impressa em 3D. | 45 |
-| Figura 3.2 | Exemplo de recolha dimensional para ajuste de prótese impressa em 3D. | 49 |
-| Figura 4.1 | Parâmetros antropométricos utilizados na modelação paramétrica de dedos protésicos. | 53 |
-| Figura 4.2 | Comparação entre o escalonamento uniforme e a modelação paramétrica de dedo protésico. | 56 |
-| Figura 4.3 | Relação entre modelo paramétrico digital, prototipagem e verificação de um dedo protésico. | 66 |
-| Figura 5.1 | Fluxo geral de produção personalizada de próteses a partir de plataforma web – Hand Fab | 72 |
-| Figura 5.2 | Fluxo geral de produção personalizada de próteses a partir de digitalização, CAD adaptativo e fabrico aditivo. | 74 |
-| Figura 5.3 | Ferramenta paramétrica para configuração de ajudas técnicas com variação de dimensões, materiais e peso. | 78 |
-| Figura 6.1 | Relação entre desafios de explicabilidade e princípios de IA responsável. | 90 |
-| Figura 7.1 | Teste de uma prótese impressa em 3D com utilizador em contexto aplicado. | 95 |
-| Figura 8.1 | Tarefas funcionais usadas em avaliação de prótese personalizada de membro superior. | 100 |
+| Figura 1.1 | Exemplos de próteses e dispositivos associados à fabricação aditiva em contexto protésico. | 5 |
+| Figura 2.1 | Exemplos de próteses de membro superior impressas em 3D, ilustrando diversidade tipológica e construtiva. | 10 |
+| Figura 2.2 | Utilização, rejeição primária e rejeição secundária de próteses do membro superior adquiridas. | 12 |
+| Figura 2.3 | Fluxo digital entre aquisição, CAD/CAM e fabricação aditiva em próteses e ortóteses. | 17 |
+| Figura 2.4 | Exemplo de configurador digital para personalização de uma prótese impressa em 3D. | 20 |
+| Figura 2.5 | Marcos anatómicos e medidas de referência da mão para fins de personalização. | 25 |
+| Figura 2.6 | Enquadramento de um fluxo de CAD assistido por IA para desenvolvimento de produto. | 29 |
+| Figura 2.7 | Modelo de processo para configurar participação em ecossistemas de inovação e cocriação. | 34 |
+| Figura 2.8 | Distribuição dos estudos por nível de prontidão tecnológica (TRL) e categoria de aplicação. O gráfico distingue estudos sobre próteses em geral, próteses de membro inferior produzidas por impressão 3D (LL 3DP), próteses de membro inferior desenvolvidas com recurso a CAD/CAM (LL CAD/CAM), outras abordagens aplicadas ao membro inferior (LL other), próteses de membro superior produzidas por impressão 3D (UL 3DP) e outros casos não enquadrados nas categorias anteriores. | 39 |
+| Figura 3.1 | Processo interdisciplinar de desenvolvimento de uma prótese de membro superior impressa em 3D. | 44 |
+| Figura 3.2 | Exemplo de recolha dimensional para ajuste de prótese impressa em 3D. | 47 |
+| Figura 4.1 | Parâmetros antropométricos utilizados na modelação paramétrica de dedos protésicos. | 51 |
+| Figura 4.2 | Comparação entre o escalonamento uniforme e a modelação paramétrica de dedo protésico. | 55 |
+| Figura 4.3 | Relação entre modelo paramétrico digital, prototipagem e verificação de um dedo protésico. | 65 |
+| Figura 5.1 | Fluxo geral de produção personalizada de próteses a partir de plataforma web – Hand Fab | 71 |
+| Figura 5.2 | Fluxo geral de produção personalizada de próteses a partir de digitalização, CAD adaptativo e fabrico aditivo. | 73 |
+| Figura 5.3 | Ferramenta paramétrica para configuração de ajudas técnicas com variação de dimensões, materiais e peso. | 77 |
+| Figura 6.1 | Relação entre desafios de explicabilidade e princípios de IA responsável. | 89 |
+| Figura 7.1 | Teste de uma prótese impressa em 3D com utilizador em contexto aplicado. | 94 |
+| Figura 8.1 | Tarefas funcionais usadas em avaliação de prótese personalizada de membro superior. | 99 |
 
 ## Capítulo 1 — Introdução
 

@@ -1,5 +1,18 @@
 # Changelog
 
+## 2026-07-10
+
+- Added `.gitignore` patterns for LibreOffice lock files and the local `recoverd/` recovery folder so transient document-session artefacts are not staged accidentally.
+- Bumped `projecto-completo.md`, `projecto-completo.docx` and `projecto-completo-sem-repeticoes.docx` to version 0.4.20, adding a Portuguese `Resumo`, English `Abstract`, and corresponding keywords before the acronym list; refreshed list-of-tables and list-of-figures pagination after the new front matter, regenerated `projecto-completo.pdf`, created `docs/projecto-completo-2203-10072026-abstract-pt-en.docx`, and added pre-change backups under `versions/`.
+- Added `AGENTS.md` guidance that thesis writing and revision should be handled as academic dissertation work, in European Portuguese, with a detailed, specific and academically precise tone.
+- Bumped `projecto-completo.md`, `projecto-completo.docx` and `projecto-completo-sem-repeticoes.docx` to version 0.4.19, adding that the 3D print validation was carried out on a FDM Bambu Lab A1 with AMS and a FDM Prusa Mini, clarifying that the print tests used the same base profile with age changed as a controlled variable, and reducing repeated equipment/material wording outside the methodology; updated the 3D print validation report, refreshed `projecto-completo.pdf`, created `docs/projecto-completo-2108-10072026-prusa-mini-fdm.docx`, and created pre-change backups under `versions/`.
+- Corrected the six Portuguese `customização` occurrences in both `projecto-completo.docx` and `projecto-completo-sem-repeticoes.docx` to formulations using `personalização`, including the footnote occurrence while preserving English bibliography/title terms and the `mass customization`/`mass personalization` distinction; regenerated `projecto-completo.pdf` from the updated root DOCX and recorded the applied correction in the language audit report.
+- Added `docs/relatorio-portugues-europeu-projecto-completo-1715-10072026.md` with a detailed audit of Brazilian Portuguese or non-preferred European Portuguese expressions in `projecto-completo.docx` and `projecto-completo-sem-repeticoes.docx`, covering body text, tables, comments and footnotes without changing the DOCX files.
+
+## 2026-07-09
+
+- Created `projecto-completo-sem-repeticoes.docx` as a new repetition-reduced derivative of the current DOCX, editing the DOCX package directly to preserve tables, comments and footnotes; added `docs/relatorio-repeticoes-projecto-completo-1815-09072026.md` with the repetition audit, edit log and structural validation, and updated `README.md` to list the new derivative and report.
+
 ## 2026-07-08
 
 - Automated DOCX→PDF sync: added a version-controlled `pre-commit` hook (`tools/hooks/pre-commit`) that regenerates `projecto-completo.pdf` and stages it whenever `projecto-completo.docx` is part of a commit, plus `tools/install_hooks.sh` to point `core.hooksPath` at `tools/hooks/`; extracted the conversion into `tools/docx_to_pdf.sh` (now the single source of truth used by both the hook and `tools/backup_docx.sh`); documented the hook workflow in `AGENTS.md` and `README.md`.

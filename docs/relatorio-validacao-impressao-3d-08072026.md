@@ -2,18 +2,20 @@
 
 Data: 2026-07-08
 
-Última actualização do relatório: 2026-07-08, alinhada com a versão `0.4.17` do manuscrito.
+Última actualização do relatório: 2026-07-10, alinhada com a versão `0.4.19` do manuscrito.
 
 ## Objetivo
 
 Actualizar o manuscrito para declarar explicitamente que a validação geométrica/produtiva incluiu impressões 3D, realizadas com base nos resultados dos testes de perfil. A alteração distingue esta validação física preliminar de uma validação clínica, biomecânica ou de uso prolongado.
 
-O texto final mantém a informação sobre os materiais usados, PLA e PETG, concentra a justificação da sua escolha na metodologia, identifica o PrusaSlicer 2.9.6 e o Bambu Studio como ferramentas de preparação para impressão e indica que a produção foi realizada numa Bambu Lab A1 com AMS.
+O texto final concentra na metodologia a identificação dos materiais, dos programas de preparação para impressão e das impressoras usadas. No Capítulo 8, a validação física remete para esses elementos já definidos, evitando repetir `PLA`, `PETG`, `PrusaSlicer 2.9.6`, `Bambu Studio`, `Bambu Lab A1`, `Prusa Mini` e `impressoras FDM` fora dos pontos em que a repetição é necessária, como a tabela de resultados por material.
 
 ## Ficheiros alterados
 
 - `projecto-completo.md`
 - `projecto-completo.docx`
+- `projecto-completo-sem-repeticoes.docx`
+- `projecto-completo.pdf`
 - `docs/relatorio-validacao-impressao-3d-08072026.md`
 - `CHANGELOG.md`
 
@@ -31,6 +33,9 @@ O texto final mantém a informação sobre os materiais usados, PLA e PETG, conc
 - `versions/projecto-completo-docx-2026-07-08_16-40-13-before-material-rationale-relocation.docx`
 - `versions/projecto-completo-2026-07-08_16-48-07-before-print-results-table-and-slicing-term.md`
 - `versions/projecto-completo-docx-2026-07-08_16-48-07-before-print-results-table-and-slicing-term.docx`
+- `versions/projecto-completo-2026-07-10_21-04-41-before-prusa-mini.md`
+- `versions/projecto-completo-sem-repeticoes-docx-2026-07-10_21-04-41-before-prusa-mini.docx`
+- `versions/projecto-completo-docx-2026-07-10_21-05-00-before-prusa-mini-printing.docx`
 
 ## Evolução da alteração
 
@@ -50,6 +55,12 @@ A justificação da escolha dos dois materiais foi deslocada para a metodologia,
 
 Foi acrescentada a Tabela 8.1 com a síntese dos resultados das impressões, as tabelas seguintes do Capítulo 8 foram renumeradas, a terminologia anteriormente usada para o slicing foi substituída por expressões mais adequadas ao português europeu, e a preparação para impressão passou a indicar explicitamente o PrusaSlicer 2.9.6, o Bambu Studio e a Bambu Lab A1 com AMS. A versão 2.9.6 do PrusaSlicer foi confirmada em 2026-07-08 através da página oficial de releases do projecto no GitHub.
 
+### Versão 0.4.19
+
+Foi acrescentada a Prusa Mini como segundo equipamento usado nas impressões 3D de validação, mantendo a Bambu Lab A1 com AMS como equipamento já identificado. A redação passou a apresentar ambos os equipamentos como impressoras FDM na metodologia e a evitar a repetição completa desses nomes no Capítulo 8.
+
+Na mesma versão, foi explicitado que os testes de impressão partiram do mesmo perfil de base criado na plataforma, alterando-se a idade para gerar variações dimensionais comparáveis entre configurações.
+
 ## Alterações detalhadas no manuscrito
 
 ### Versão do documento
@@ -60,7 +71,7 @@ Tipo de alteração: actualização da versão do manuscrito.
 
 Texto final:
 
-> Versão do documento:0.4.17
+> Versão do documento:0.4.19
 
 ### Capítulo 1 — Introdução
 
@@ -100,11 +111,15 @@ Texto alterado/introduzido no parágrafo:
 
 Local: `projecto-completo.md:767`
 
-Tipo de alteração: reformulação dos métodos de análise na fase de prototipagem, com explicitação da preparação para impressão, materialização por impressão 3D em PLA/PETG, ferramentas usadas e razão da escolha dos dois materiais.
+Tipo de alteração: reformulação dos métodos de análise na fase de prototipagem, com explicitação da preparação para impressão, materialização física, equipamentos usados, variável idade e razão da escolha dos dois materiais.
 
 Texto alterado/introduzido no parágrafo:
 
-> Os modelos exportados a partir dos testes de perfil foram preparados para impressão no PrusaSlicer 2.9.6 e no Bambu Studio, e materializados por impressão 3D em PLA e PETG numa Bambu Lab A1 com AMS. A opção por estes dois materiais permite comparar uma solução rígida, estável e económica, adequada à verificação rápida da geometria, com uma alternativa mais resistente e menos frágil, útil para observar o comportamento dos componentes em manipulação, encaixe e montagem preliminar.
+> Os modelos exportados a partir dos testes de perfil foram preparados para fabrico digital em dois programas de preparação para impressão 3D: PrusaSlicer 2.9.6 e Bambu Studio.
+
+> A materialização dos modelos foi realizada em duas impressoras FDM: Bambu Lab A1 com AMS e Prusa Mini. Os testes de impressão usaram o mesmo perfil de base criado na plataforma, alterando-se a idade como variável controlada para produzir variações dimensionais comparáveis entre configurações.
+
+> Foram utilizados dois materiais: PLA e PETG. O PLA foi selecionado por ser rígido, estável, económico e adequado à verificação rápida da geometria, permitindo avaliar dimensões gerais, encaixes preliminares e coerência formal. O PETG foi utilizado como alternativa mais resistente e menos frágil, permitindo observar o comportamento dos componentes em situações de manipulação, encaixe e montagem preliminar.
 
 Função desta alteração:
 
@@ -128,7 +143,7 @@ Tipo de alteração: inserção de parágrafo sobre a validação física por im
 
 Texto final:
 
-> A validação foi depois prolongada para prototipagem física. Com base nos resultados dos testes de perfil, foram selecionadas configurações representativas dos cenários avaliados, incluindo perfis de mão pequena, perfil adulto feminino e perfil adulto masculino. Estas geometrias foram exportadas em STL/3MF, preparadas no PrusaSlicer 2.9.6 e no Bambu Studio, e impressas nos materiais definidos na metodologia numa Bambu Lab A1 com AMS, para verificar a passagem do modelo exportado ao protótipo físico.
+> A validação foi depois prolongada para prototipagem física. Com base nos resultados dos testes de perfil, foram selecionadas configurações representativas dos cenários avaliados, incluindo perfis de mão pequena, perfil adulto feminino e perfil adulto masculino. Nos testes de impressão, estas configurações foram geradas a partir do mesmo perfil de base criado na plataforma, alterando-se a idade como variável controlada para observar a forma como o sistema propagava essa alteração para a geometria exportada e para a viabilidade de impressão. Estas geometrias foram exportadas em STL/3MF, preparadas e impressas com os programas, materiais e equipamentos definidos na metodologia, para verificar a passagem do modelo exportado ao protótipo físico.
 
 Local: `projecto-completo.md:1411`
 
@@ -225,19 +240,23 @@ Texto alterado/introduzido no parágrafo:
 
 ## Alterações no DOCX
 
-As mesmas alterações textuais foram aplicadas em `projecto-completo.docx`, nas secções correspondentes aos capítulos indicados acima, preservando a estrutura interna de comentários.
+As mesmas alterações textuais foram aplicadas em `projecto-completo.docx` e `projecto-completo-sem-repeticoes.docx`, nas secções correspondentes aos capítulos indicados acima, preservando a estrutura interna de comentários.
 
 Validação técnica realizada sobre o DOCX actual:
 
 - `projecto-completo.docx`: ficheiro ZIP válido, sem erros.
-- versão detectada no DOCX: `0.4.17`.
-- ocorrências de `PLA`: 4.
-- ocorrências de `PETG`: 4.
-- ocorrências de `PrusaSlicer 2.9.6`: 2.
-- ocorrências de `Bambu Studio`: 2.
+- versão detectada no DOCX: `0.4.19`.
+- ocorrências de `PLA`: 5.
+- ocorrências de `PETG`: 5.
+- ocorrências de `PrusaSlicer 2.9.6`: 1.
+- ocorrências de `Bambu Studio`: 1.
 - ocorrências de `Bambu Lab A1`: 2.
+- ocorrências de `Prusa Mini`: 1.
+- ocorrências de `impressoras FDM`: 1.
 - ocorrências dos termos substituídos associados ao slicing: 0.
-- comentários preservados: 27 comentários, 27 referências, 16 intervalos ancorados.
+- comentários preservados: 24 comentários, 24 referências, 16 intervalos ancorados.
+
+As ocorrências restantes de `PLA` e `PETG` concentram-se na explicação dos materiais e na Tabela 8.1, onde são necessárias para identificar o material usado em cada configuração testada.
 
 ## Delimitação metodológica acrescentada
 
@@ -245,8 +264,9 @@ O texto passou a explicitar que:
 
 - foram feitas impressões 3D a partir dos resultados dos testes de perfil;
 - as impressões foram realizadas em PLA e PETG;
-- a preparação para impressão foi feita no PrusaSlicer 2.9.6 e no Bambu Studio;
-- a impressão foi realizada numa Bambu Lab A1 com AMS;
+- os testes de impressão usaram o mesmo perfil de base criado na plataforma, alterando-se a idade como variável controlada;
+- a preparação para impressão foi feita nos programas indicados na metodologia;
+- a impressão foi realizada com os materiais e equipamentos aí definidos;
 - a razão da escolha dos materiais é comparativa: PLA para verificação rápida, estável e económica da geometria; PETG para observar uma alternativa mais resistente e menos frágil durante manipulação, encaixe e montagem preliminar;
 - a validação física incidiu sobre viabilidade produtiva, coerência geométrica, preparação para impressão, geração do ficheiro de impressão, impressão, zonas críticas e montagem preliminar;
 - esta etapa não constitui validação clínica, validação biomecânica completa, avaliação de conforto em utilizadores reais ou prova de durabilidade prolongada.

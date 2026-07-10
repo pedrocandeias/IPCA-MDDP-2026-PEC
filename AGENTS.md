@@ -16,6 +16,9 @@ Use these to confirm file placement and naming. For Markdown or HTML edits, prev
 ## Coding Style & Naming Conventions
 Preserve the existing document-first style. Use clear section headings, short paragraphs, and consistent academic Portuguese where a file already uses it. Follow existing filename patterns such as `cap_2_5.txt` or `capitulo_4_3_1.html`. Prefer lowercase names with underscores, and keep chapter-related files grouped by chapter number. Avoid creating duplicate variants like `final`, `final2`, or `new`.
 
+## Writing Role & Tone
+When drafting, revising or explaining thesis material, write as an academic author working on a dissertation. Use European Portuguese consistently, with a detailed, specific and academically precise tone. Prefer explicit contextualisation, clearly delimited claims, and concrete technical descriptions over generic or conversational wording.
+
 ## Testing Guidelines
 Quality control here is manual. After changes, verify:
 

@@ -1,20 +1,8 @@
 Projecto completo
 
-Versão do documento:0.4.20
+Versão do documento:0.4.18
 
 ## INTEGRAÇÃO DO DESIGN E DA INTELIGÊNCIA ARTIFICIAL EM PROCESSOS PARAMÉTRICOS PARA O DESENVOLVIMENTO DE PRÓTESES DE MEMBROS SUPERIORES EM IMPRESSÃO 3D.
-
-## Resumo
-
-A personalização de próteses de membros superiores continua a ser condicionada por custos elevados, dependência de competências técnicas especializadas e dificuldade em traduzir dados antropométricos em geometrias ajustadas, reprodutíveis e fabricáveis. Esta dissertação investiga de que modo o design industrial, articulado com modelação paramétrica e inteligência artificial, pode apoiar processos mais acessíveis, explícitos e controláveis de desenvolvimento de próteses personalizadas para impressão 3D. A investigação adota uma abordagem de Research Through Design, combinando revisão crítica da literatura, análise de soluções open source, estruturação de uma base local de dados antropométricos, desenvolvimento de modelos paramétricos em OpenSCAD, integração numa plataforma web e avaliação por testes de perfil, exportação de geometrias e prototipagem física. O sistema desenvolvido permite converter descrições e medidas do utilizador em sugestões paramétricas, visualizar o modelo no navegador, exportar ficheiros STL/3MF e verificar a sua passagem para fabrico digital. A validação incidiu sobre a coerência entre perfil, parâmetros, geometria exportada e protótipo físico, usando dados antropométricos públicos e testes de impressão realizados a partir do mesmo perfil de base, com alteração controlada da idade. As peças foram preparadas no PrusaSlicer 2.9.6 e no Bambu Studio e materializadas em PLA e PETG em impressoras FDM. Os resultados mostram que a combinação entre regras paramétricas explícitas, apoio de IA e verificação material pode tornar o processo de personalização mais rastreável e replicável, embora não substitua validação clínica, avaliação biomecânica completa ou testes com utilizadores reais. O contributo principal reside na formulação de um processo metodológico que articula design, dados antropométricos, IA e fabrico digital de forma crítica e operacional.
-
-**Palavras-chave:** design industrial; próteses de membro superior; design paramétrico; inteligência artificial; impressão 3D; dados antropométricos; fabrico digital.
-
-## Abstract
-
-The personalisation of upper-limb prostheses remains constrained by high costs, dependence on specialised technical expertise, and the difficulty of translating anthropometric data into geometries that are fitted, reproducible, and manufacturable. This dissertation investigates how industrial design, combined with parametric modelling and artificial intelligence, can support more accessible, explicit, and controllable processes for developing personalised prostheses for 3D printing. The research follows a Research Through Design approach, combining a critical literature review, analysis of open-source prosthetic solutions, the structuring of a local anthropometric database, the development of parametric models in OpenSCAD, integration into a web platform, and evaluation through profile tests, geometry export, and physical prototyping. The developed system converts user descriptions and measurements into parametric suggestions, enables browser-based model visualisation, exports STL/3MF files, and supports verification of the transition from digital model to digital fabrication. Validation focused on coherence between profile, parameters, exported geometry, and physical prototype, using public anthropometric data and print tests derived from the same base profile, with age changed as a controlled variable. The parts were prepared in PrusaSlicer 2.9.6 and Bambu Studio and materialised in PLA and PETG using FDM printers. The results indicate that combining explicit parametric rules, AI support, and material verification can make personalisation processes more traceable and replicable, although it does not replace clinical validation, full biomechanical assessment, or tests with real users. The main contribution lies in the formulation of a methodological process that critically and operationally connects design, anthropometric data, AI, and digital fabrication.
-
-**Keywords:** industrial design; upper-limb prostheses; parametric design; artificial intelligence; 3D printing; anthropometric data; digital fabrication.
 
 ## Lista de acrónimos
 
@@ -154,45 +142,45 @@ The personalisation of upper-limb prostheses remains constrained by high costs, 
 
 | Identificação | Descrição | Página |
 | --- | --- | --- |
-| Tabela 2.1 | Papéis dos profissionais de saúde no desenvolvimento de dispositivos médicos | 15 |
-| Tabela 2.2 | Elementos centrais na configuração da participação em sistemas configuráveis | 36 |
-| Tabela 4.1 | Principais parâmetros antropométricos da mão e do membro superior relevantes para modelação paramétrica | 54 |
-| Tabela 4.2 | Conjuntos mínimos de parâmetros por nível de amputação | 54 |
-| Tabela 4.3 | Métodos de recolha de dados antropométricos e suas características | 56 |
-| Tabela 4.4 | Fontes integradas na base local de dados antropométricos | 58 |
-| Tabela 4.5 | Estrutura hierárquica dos parâmetros no modelo paramétrico | 62 |
-| Tabela 4.6 | Mapeamento entre parâmetros antropométricos e elementos do modelo | 64 |
-| Tabela 4.7 | Estrutura técnica em camadas de um modelo paramétrico em OpenSCAD para próteses personalizadas | 66 |
-| Tabela 8.1 | Síntese dos resultados da validação por impressão 3D | 99 |
-| Tabela 8.2 | Entradas/prompt utilizadas para criação dos perfis de validação antropométrica por IA | 101 |
-| Tabela 8.3 | Síntese da validação antropométrica assistida por IA | 103 |
-| Tabela 8.4 | Modelos e mecanismos de escala avaliados | 104 |
-| Tabela 8.5 | Rácio adimensional da maior dimensão da palma exportada face ao baseline | 104 |
+| Tabela 2.1 | Papéis dos profissionais de saúde no desenvolvimento de dispositivos médicos | 14 |
+| Tabela 2.2 | Elementos centrais na configuração da participação em sistemas configuráveis | 34 |
+| Tabela 4.1 | Principais parâmetros antropométricos da mão e do membro superior relevantes para modelação paramétrica | 53 |
+| Tabela 4.2 | Conjuntos mínimos de parâmetros por nível de amputação | 53 |
+| Tabela 4.3 | Métodos de recolha de dados antropométricos e suas características | 55 |
+| Tabela 4.4 | Fontes integradas na base local de dados antropométricos | 57 |
+| Tabela 4.5 | Estrutura hierárquica dos parâmetros no modelo paramétrico | 61 |
+| Tabela 4.6 | Mapeamento entre parâmetros antropométricos e elementos do modelo | 63 |
+| Tabela 4.7 | Estrutura técnica em camadas de um modelo paramétrico em OpenSCAD para próteses personalizadas | 65 |
+| Tabela 8.1 | Síntese dos resultados da validação por impressão 3D | 98 |
+| Tabela 8.2 | Entradas/prompt utilizadas para criação dos perfis de validação antropométrica por IA | 100 |
+| Tabela 8.3 | Síntese da validação antropométrica assistida por IA | 102 |
+| Tabela 8.4 | Modelos e mecanismos de escala avaliados | 103 |
+| Tabela 8.5 | Rácio adimensional da maior dimensão da palma exportada face ao baseline | 103 |
 
 ## Lista de figuras
 
 | Identificação | Descrição | Página |
 | --- | --- | --- |
-| Figura 1.1 | Exemplos de próteses e dispositivos associados à fabricação aditiva em contexto protésico. | 6 |
-| Figura 2.1 | Exemplos de próteses de membro superior impressas em 3D, ilustrando diversidade tipológica e construtiva. | 11 |
-| Figura 2.2 | Utilização, rejeição primária e rejeição secundária de próteses do membro superior adquiridas. | 13 |
-| Figura 2.3 | Fluxo digital entre aquisição, CAD/CAM e fabricação aditiva em próteses e ortóteses. | 18 |
-| Figura 2.4 | Exemplo de configurador digital para personalização de uma prótese impressa em 3D. | 21 |
-| Figura 2.5 | Marcos anatómicos e medidas de referência da mão para fins de personalização. | 26 |
-| Figura 2.6 | Enquadramento de um fluxo de CAD assistido por IA para desenvolvimento de produto. | 30 |
-| Figura 2.7 | Modelo de processo para configurar participação em ecossistemas de inovação e cocriação. | 35 |
-| Figura 2.8 | Distribuição dos estudos por nível de prontidão tecnológica (TRL) e categoria de aplicação. O gráfico distingue estudos sobre próteses em geral, próteses de membro inferior produzidas por impressão 3D (LL 3DP), próteses de membro inferior desenvolvidas com recurso a CAD/CAM (LL CAD/CAM), outras abordagens aplicadas ao membro inferior (LL other), próteses de membro superior produzidas por impressão 3D (UL 3DP) e outros casos não enquadrados nas categorias anteriores. | 40 |
-| Figura 3.1 | Processo interdisciplinar de desenvolvimento de uma prótese de membro superior impressa em 3D. | 45 |
-| Figura 3.2 | Exemplo de recolha dimensional para ajuste de prótese impressa em 3D. | 49 |
-| Figura 4.1 | Parâmetros antropométricos utilizados na modelação paramétrica de dedos protésicos. | 53 |
-| Figura 4.2 | Comparação entre o escalonamento uniforme e a modelação paramétrica de dedo protésico. | 56 |
-| Figura 4.3 | Relação entre modelo paramétrico digital, prototipagem e verificação de um dedo protésico. | 66 |
-| Figura 5.1 | Fluxo geral de produção personalizada de próteses a partir de plataforma web – Hand Fab | 72 |
-| Figura 5.2 | Fluxo geral de produção personalizada de próteses a partir de digitalização, CAD adaptativo e fabrico aditivo. | 74 |
-| Figura 5.3 | Ferramenta paramétrica para configuração de ajudas técnicas com variação de dimensões, materiais e peso. | 78 |
-| Figura 6.1 | Relação entre desafios de explicabilidade e princípios de IA responsável. | 90 |
-| Figura 7.1 | Teste de uma prótese impressa em 3D com utilizador em contexto aplicado. | 95 |
-| Figura 8.1 | Tarefas funcionais usadas em avaliação de prótese personalizada de membro superior. | 100 |
+| Figura 1.1 | Exemplos de próteses e dispositivos associados à fabricação aditiva em contexto protésico. | 5 |
+| Figura 2.1 | Exemplos de próteses de membro superior impressas em 3D, ilustrando diversidade tipológica e construtiva. | 10 |
+| Figura 2.2 | Utilização, rejeição primária e rejeição secundária de próteses do membro superior adquiridas. | 12 |
+| Figura 2.3 | Fluxo digital entre aquisição, CAD/CAM e fabricação aditiva em próteses e ortóteses. | 17 |
+| Figura 2.4 | Exemplo de configurador digital para personalização de uma prótese impressa em 3D. | 20 |
+| Figura 2.5 | Marcos anatómicos e medidas de referência da mão para fins de personalização. | 25 |
+| Figura 2.6 | Enquadramento de um fluxo de CAD assistido por IA para desenvolvimento de produto. | 29 |
+| Figura 2.7 | Modelo de processo para configurar participação em ecossistemas de inovação e cocriação. | 34 |
+| Figura 2.8 | Distribuição dos estudos por nível de prontidão tecnológica (TRL) e categoria de aplicação. O gráfico distingue estudos sobre próteses em geral, próteses de membro inferior produzidas por impressão 3D (LL 3DP), próteses de membro inferior desenvolvidas com recurso a CAD/CAM (LL CAD/CAM), outras abordagens aplicadas ao membro inferior (LL other), próteses de membro superior produzidas por impressão 3D (UL 3DP) e outros casos não enquadrados nas categorias anteriores. | 39 |
+| Figura 3.1 | Processo interdisciplinar de desenvolvimento de uma prótese de membro superior impressa em 3D. | 44 |
+| Figura 3.2 | Exemplo de recolha dimensional para ajuste de prótese impressa em 3D. | 47 |
+| Figura 4.1 | Parâmetros antropométricos utilizados na modelação paramétrica de dedos protésicos. | 51 |
+| Figura 4.2 | Comparação entre o escalonamento uniforme e a modelação paramétrica de dedo protésico. | 55 |
+| Figura 4.3 | Relação entre modelo paramétrico digital, prototipagem e verificação de um dedo protésico. | 65 |
+| Figura 5.1 | Fluxo geral de produção personalizada de próteses a partir de plataforma web – Hand Fab | 71 |
+| Figura 5.2 | Fluxo geral de produção personalizada de próteses a partir de digitalização, CAD adaptativo e fabrico aditivo. | 73 |
+| Figura 5.3 | Ferramenta paramétrica para configuração de ajudas técnicas com variação de dimensões, materiais e peso. | 77 |
+| Figura 6.1 | Relação entre desafios de explicabilidade e princípios de IA responsável. | 89 |
+| Figura 7.1 | Teste de uma prótese impressa em 3D com utilizador em contexto aplicado. | 94 |
+| Figura 8.1 | Tarefas funcionais usadas em avaliação de prótese personalizada de membro superior. | 99 |
 
 ## Capítulo 1 — Introdução
 
@@ -776,13 +764,7 @@ Num primeiro nível, procede-se à análise documental e à revisão da literatu
 
 Durante o desenvolvimento do sistema paramétrico, os dados assumem natureza técnica e projetual, incluindo parâmetros geométricos, relações dimensionais, tempos de fabrico, consumo de material e desempenho estrutural dos protótipos. Estes dados são analisados de forma iterativa, permitindo reformular o modelo paramétrico e otimizar o seu desempenho.
 
-Na fase de prototipagem, a análise incide sobre os critérios de exequibilidade de fabrico, robustez estrutural preliminar, coerência dimensional, facilidade de montagem e comportamento material inicial. Os modelos exportados a partir dos testes de perfil foram preparados para fabrico digital em dois programas de preparação para impressão 3D: PrusaSlicer 2.9.6 e Bambu Studio. Estes programas permitem converter o modelo tridimensional num conjunto de instruções interpretáveis pela impressora, definindo parâmetros como orientação da peça, altura de camada, preenchimento interno, suportes, temperaturas, velocidades e trajetórias de deposição do material. A utilização de dois ambientes de preparação permitiu verificar a compatibilidade dos ficheiros exportados e observar eventuais diferenças na interpretação da geometria antes da produção física.
-
-A materialização dos modelos foi realizada em duas impressoras FDM: Bambu Lab A1 com AMS e Prusa Mini. Os testes de impressão usaram o mesmo perfil de base criado na plataforma, alterando-se a idade como variável controlada para produzir variações dimensionais comparáveis entre configurações. Ambas são impressoras 3D de extrusão de filamento, adequadas à produção rápida de protótipos em materiais termoplásticos. O sistema AMS, associado à Bambu Lab A1, permite gerir automaticamente vários rolos de filamento, facilitando a alternância entre materiais ou cores durante o processo de impressão.
-
-Foram utilizados dois materiais: PLA e PETG. O PLA foi selecionado por ser rígido, estável, económico e adequado à verificação rápida da geometria, permitindo avaliar dimensões gerais, encaixes preliminares e coerência formal. O PETG foi utilizado como alternativa mais resistente e menos frágil, permitindo observar o comportamento dos componentes em situações de manipulação, encaixe e montagem preliminar. Esta comparação permitiu verificar se a geometria gerada pelo sistema permanecia compatível com a preparação para impressão 3D, com a manipulação física dos componentes e com a transição do ambiente digital para o objeto materializado.
-
-Não são recolhidos dados pessoais ou biométricos de utilizadores reais; utilizam-se exclusivamente conjuntos de dados antropométricos públicos, o que delimita o âmbito empírico ao domínio técnico e projetual. Entre estes, destaca-se a base local consolidada de medidas da mão e do membro superior distal, usada como infraestrutura intermédia para a seleção, comparação e normalização de medidas relevantes para a parametrização geométrica. A organização dos dados preserva informação sobre país, amostra, tipo de medida, estatística, fonte documental e granularidade dos subconjuntos analisados, tornando explícitas a cobertura e as limitações de cada fonte antes da sua tradução em parâmetros de projeto.
+Na fase de prototipagem, a análise incide sobre os critérios de exequibilidade de fabrico, robustez estrutural preliminar, coerência dimensional, facilidade de montagem e comportamento material inicial. Os modelos exportados a partir dos testes de perfil foram preparados para impressão no PrusaSlicer 2.9.6 e no Bambu Studio, e materializados por impressão 3D em PLA e PETG numa Bambu Lab A1 com AMS. A opção por estes dois materiais permite comparar uma solução rígida, estável e económica, adequada à verificação rápida da geometria, com uma alternativa mais resistente e menos frágil, útil para observar o comportamento dos componentes em manipulação, encaixe e montagem preliminar. Esta comparação permite verificar se a geometria gerada pelo sistema se mantém imprimível, manipulável e coerente depois da transição do ambiente digital para o objeto físico. Não são recolhidos dados pessoais ou biométricos de utilizadores reais; utilizam-se exclusivamente conjuntos de dados antropométricos públicos, o que delimita o âmbito empírico ao domínio técnico e projetual. Entre estes, destaca-se a base local consolidada de medidas da mão e do membro superior distal, usada como infraestrutura intermédia para a seleção, comparação e normalização de medidas relevantes para a parametrização geométrica. A organização dos dados preserva informação sobre país, amostra, tipo de medida, estatística, fonte documental e granularidade dos subconjuntos analisados, tornando explícitas a cobertura e as limitações de cada fonte antes da sua tradução em parâmetros de projeto.
 
 Embora o presente estudo não utilize participantes reais, a literatura metodológica da área ajuda a esclarecer como medições lineares e procedimentos de ajuste são normalmente operacionalizados em contextos aplicados. A Figura 3.2 ilustra esse tipo de recolha dimensional orientada para fabrico, servindo aqui como precedente metodológico para a tradução de medidas em parâmetros de projeto.
 
@@ -1424,7 +1406,7 @@ A avaliação geométrica prolongou estes critérios até à etapa de exportaç�
 
 Esta etapa foi relevante porque a correção dos valores numéricos sugeridos não garante, por si só, que a geometria final responda de forma coerente aos parâmetros aplicados. A medição das peças exportadas permitiu verificar se as relações paramétricas definidas se preservavam desde a sugestão inicial até ao modelo gerado.
 
-A validação foi depois prolongada para prototipagem física. Com base nos resultados dos testes de perfil, foram selecionadas configurações representativas dos cenários avaliados, incluindo perfis de mão pequena, perfil adulto feminino e perfil adulto masculino. Nos testes de impressão, estas configurações foram geradas a partir do mesmo perfil de base criado na plataforma, alterando-se a idade como variável controlada para observar a forma como o sistema propagava essa alteração para a geometria exportada e para a viabilidade de impressão. Estas geometrias foram exportadas em STL/3MF, preparadas e impressas com os programas, materiais e equipamentos definidos na metodologia, para verificar a passagem do modelo exportado ao protótipo físico.
+A validação foi depois prolongada para prototipagem física. Com base nos resultados dos testes de perfil, foram selecionadas configurações representativas dos cenários avaliados, incluindo perfis de mão pequena, perfil adulto feminino e perfil adulto masculino. Estas geometrias foram exportadas em STL/3MF, preparadas no PrusaSlicer 2.9.6 e no Bambu Studio, e impressas nos materiais definidos na metodologia numa Bambu Lab A1 com AMS, para verificar a passagem do modelo exportado ao protótipo físico.
 
 A validação física seguiu cinco verificações principais: compatibilidade do ficheiro exportado com o software de preparação para impressão, ausência de falhas críticas de malha ou escala, conclusão da impressão sem defeitos impeditivos, inspeção visual e dimensional das zonas críticas e, quando aplicável, teste de encaixe ou montagem entre componentes. Esta etapa não teve como objetivo demonstrar eficácia clínica, conforto de uso ou durabilidade prolongada; o seu objetivo foi confirmar que os resultados dos perfis testados podiam atravessar a cadeia completa perfil -> parâmetros -> OpenSCAD/WebAssembly -> STL/3MF -> impressão 3D, mantendo coerência geométrica e viabilidade produtiva.
 
