@@ -1,6 +1,6 @@
 Projecto completo
 
-Versão do documento:0.4.21
+Versão do documento:0.4.20
 
 ## INTEGRAÇÃO DO DESIGN E DA INTELIGÊNCIA ARTIFICIAL EM PROCESSOS PARAMÉTRICOS PARA O DESENVOLVIMENTO DE PRÓTESES DE MEMBROS SUPERIORES EM IMPRESSÃO 3D.
 
@@ -163,12 +163,11 @@ The personalisation of upper-limb prostheses remains constrained by high costs, 
 | Tabela 4.5 | Estrutura hierárquica dos parâmetros no modelo paramétrico | 62 |
 | Tabela 4.6 | Mapeamento entre parâmetros antropométricos e elementos do modelo | 64 |
 | Tabela 4.7 | Estrutura técnica em camadas de um modelo paramétrico em OpenSCAD para próteses personalizadas | 66 |
-| Tabela 6.1 | Especificação técnica dos modelos de IA e do contrato de sugestão paramétrica | 87 |
-| Tabela 8.1 | Síntese dos resultados da validação por impressão 3D | 100 |
+| Tabela 8.1 | Síntese dos resultados da validação por impressão 3D | 99 |
 | Tabela 8.2 | Entradas/prompt utilizadas para criação dos perfis de validação antropométrica por IA | 101 |
-| Tabela 8.3 | Síntese da validação antropométrica assistida por IA | 104 |
-| Tabela 8.4 | Modelos e mecanismos de escala avaliados | 105 |
-| Tabela 8.5 | Rácio adimensional da maior dimensão da palma exportada face ao baseline | 105 |
+| Tabela 8.3 | Síntese da validação antropométrica assistida por IA | 103 |
+| Tabela 8.4 | Modelos e mecanismos de escala avaliados | 104 |
+| Tabela 8.5 | Rácio adimensional da maior dimensão da palma exportada face ao baseline | 104 |
 
 ## Lista de figuras
 
@@ -1266,24 +1265,9 @@ A operacionalização desta lógica ocorre em dois objetos distintos. O primeiro
 
 No protótipo implementado, esta separação é materializada pela construção dinâmica do pedido enviado ao modelo de linguagem. O pedido inclui a descrição livre do utilizador, o esquema vivo do modelo selecionado, os nomes exatos dos parâmetros, as legendas, os tipos, os limites e os valores correntes. Quando existe correspondência com um perfil populacional importado, inclui também as médias medidas desse grupo como referência explícita. Deste modo, a IA não infere valores num espaço aberto: opera dentro de uma gramática paramétrica previamente declarada, limitada pelo modelo ativo e sujeita a filtragem posterior pela aplicação.
 
-A designação "modelo" é usada, nesta investigação, em dois sentidos técnicos distintos: o modelo de linguagem responsável pela sugestão paramétrica e o modelo CAD paramétrico ao qual essa sugestão é aplicada. Para evitar ambiguidade metodológica, a Tabela 6.1 explicita a configuração de IA efetivamente implementada no protótipo e a sua relação com os modelos paramétricos disponibilizados na plataforma.
-
-Tabela 6.1 — Especificação técnica dos modelos de IA e do contrato de sugestão paramétrica
-
-| Elemento | Especificação no protótipo |
-| --- | --- |
-| Função da IA | Sugestão inicial de parâmetros antropométricos e geométricos a partir de descrições em linguagem natural; não gera autonomamente a geometria final nem valida clinicamente a prótese. |
-| Endpoint de integração | `POST /api/ai/suggest`, através de chamada autenticada e limitada por frequência, com as chaves de API mantidas no servidor. |
-| Fornecedor e modelo usados na validação | Anthropic, com o modelo `claude-sonnet-4-6`, definido como opção predefinida no backend do protótipo. |
-| Modelo alternativo disponibilizado | OpenAI, com o modelo `gpt-4`, acessível através da mesma rota de sugestão paramétrica. |
-| Seleção do fornecedor | A interface permite escolher entre `Anthropic (Claude)` e `OpenAI (GPT-4)`; o pedido enviado ao servidor identifica o fornecedor através do campo `provider`. |
-| Contrato de resposta | Objeto JSON simples no formato parâmetro-valor; chaves desconhecidas são rejeitadas ou ignoradas e apenas parâmetros pertencentes ao modelo ativo podem ser aplicados. |
-| Enquadramento dos dados | O pedido inclui o esquema vivo do modelo, limites mínimos e máximos, valores correntes, legendas dos parâmetros e, quando disponível, médias de perfis antropométricos populacionais. |
-| Modelos CAD parametrizados abrangidos | Flexy Beast, Paraglider Hand e UnLimbited Phoenix, cada um com parâmetros, limites e mecanismos de escala próprios. |
-
 O apoio à decisão emerge precisamente desta capacidade de transformar dados de entrada em cenários comparáveis. Em vez de produzir uma única configuração apresentada como “ótima”, a integração da IA revela maior utilidade quando ajuda a explicitar compromissos entre robustez, leveza, amplitude de ajuste, rapidez de fabrico, facilidade de montagem e adequação anatómica. Esta lógica está alinhada com exemplos recentes de integração entre digitalização, modelação paramétrica, fabrico aditivo e sistemas inteligentes, como o trabalho de Romero et al. (2025) (#ref-da-silveira-romero-2025), ainda que aí a componente de IA esteja mais ligada ao controlo mioelétrico do que à sugestão paramétrica em ambiente web. A pertinência desse precedente reside menos na equivalência técnica direta e mais no facto de mostrar que a personalização digital e a camada inteligente podem coexistir no mesmo fluxo, desde que cada componente mantenha uma função claramente delimitada.
 
-É por isso que, nesta investigação, a personalização assistida por IA deve ser entendida como uma prática de human-in-the-loop. O sistema procura ampliar a capacidade de análise e de exploração do protesista, do designer ou do utilizador informado. A IA pode sugerir configurações iniciais, organizar alternativas, sinalizar dependências entre parâmetros e tornar mais claras certas consequências de projeto, a aceitação final, porém, continua dependente de verificação técnica e de julgamento contextual. Deste modo, a parametrização assistida por IA não corresponde a uma automatização cega da personalização, mas a um mecanismo de apoio à decisão que atua sobre uma base geométrica explícita, documentada e tecnicamente verificável.
+É por isso que, nesta investigação, a personalização assistida por IA deve ser entendida como uma prática de human-in-the-loop.O sistema procura ampliar a capacidade de análise e de exploração do protesista, do designer ou do utilizador informado. A IA pode sugerir configurações iniciais, organizar alternativas, sinalizar dependências entre parâmetros e tornar mais claras certas consequências de projeto, a aceitação final, porém, continua dependente de verificação técnica e de julgamento contextual. Deste modo, a parametrização assistida por IA não corresponde a uma automatização cega da personalização, mas a um mecanismo de apoio à decisão que atua sobre uma base geométrica explícita, documentada e tecnicamente verificável.
 
 ### 6.3 Validação antropométrica assistida por IA no sistema
 
