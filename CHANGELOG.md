@@ -2,6 +2,10 @@
 
 ## 2026-07-12
 
+- Bumped the manuscript to version 0.4.22 and synchronized the updated images and figure captions from `projecto-completo-sem-repeticoes.docx` into `projecto-completo.docx`, including the revised Chapter 1/2/3/4 figures and the new Chapter 5 platform/code-transparency figure blocks; regenerated the root PDF from the updated DOCX.
+- Redrew the legend in `figuras/ch4_parametric_3d_modeling_of_a_customi_figure3_p2_pt.png` so the Portuguese labels no longer overflow the image bounds and the colour key rectangles are cleanly rebuilt.
+- Redrew `figuras/ch2_a_scoping_review_of_digital_fabrica_figure1_p2_pt.png` to correct Portuguese labels, centre the `Fluxo CAD/CAM` title, replace the red process blocks with `#45c4b0`, and use white block text.
+- Added `figuras/ch5_automated_design_and_rapid_manufact_figure1_p4_pt.png` as the European Portuguese-labelled derivative of the original automated design workflow figure, preserving the source PNG unchanged.
 - Copied `Open-Source 3D Printing in the Prosthetic Field—The Case of Upper Limb Prostheses A Review.pdf` from `material/3dprinting-prosthetics/` into `projecto_completo_bibliografia/` so the bibliography folder also contains the paper with multi-example open-source hand/forearm prosthesis figures.
 - Bumped `projecto-completo.md`, `projecto-completo.docx` and `projecto-completo-sem-repeticoes.docx` to version 0.4.21, adding Table 6.1 to specify the AI providers/models used by the platform (`claude-sonnet-4-6` and `gpt-4`), the `/api/ai/suggest` contract, server-side API key handling, JSON response filtering, and the relationship between LLM suggestions and the active CAD models; updated the list of tables, regenerated `projecto-completo.pdf`, created timestamped DOCX copies under `docs/`, and added pre-change backups under `versions/`.
 
