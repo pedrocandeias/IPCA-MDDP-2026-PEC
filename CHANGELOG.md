@@ -2,6 +2,7 @@
 
 ## 2026-07-12
 
+- Copied `Open-Source 3D Printing in the Prosthetic Field—The Case of Upper Limb Prostheses A Review.pdf` from `material/3dprinting-prosthetics/` into `projecto_completo_bibliografia/` so the bibliography folder also contains the paper with multi-example open-source hand/forearm prosthesis figures.
 - Bumped `projecto-completo.md`, `projecto-completo.docx` and `projecto-completo-sem-repeticoes.docx` to version 0.4.21, adding Table 6.1 to specify the AI providers/models used by the platform (`claude-sonnet-4-6` and `gpt-4`), the `/api/ai/suggest` contract, server-side API key handling, JSON response filtering, and the relationship between LLM suggestions and the active CAD models; updated the list of tables, regenerated `projecto-completo.pdf`, created timestamped DOCX copies under `docs/`, and added pre-change backups under `versions/`.
 
 ## 2026-07-10
