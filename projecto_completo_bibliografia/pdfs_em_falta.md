@@ -2,7 +2,7 @@
 
 Este ficheiro é o registo autoritativo das referências do manuscrito que ainda não têm PDF localizado em `material/` ou em `projecto_completo_bibliografia/`.
 
-Última verificação manual: 2026-07-07. Na integração da introdução ao OpenSCAD, não foram localizados PDFs em `material/` ou em `projecto_completo_bibliografia/` para Brooks (2026), Bustamante et al. (2018), ELhadad et al. (2026), Ghali (2008), Gonzalez Avila et al. (2024), OpenSCAD Community (n.d.), OpenSCAD Project (n.d.-a, n.d.-b), Romani e Levi (2020), Schöfer e Seibel (2025) e Trautmann (2021). Na integração da secção sobre próteses open source imprimíveis em 3D, não foram localizados PDFs para Atallah et al. (2025), Cabibihan et al. (2021), Diment et al. (2018), Wendo et al. (2022) e Zuniga et al. (2015), pelo que estas referências foram acrescentadas à lista abaixo. Foi previamente confirmado e copiado para a pasta da bibliografia o PDF local de Hu et al. (2007), localizado em `material/antropometria/`. Na integração das novas figuras, foram também confirmados PDFs locais para Silva et al. (2018), Górski et al. (2022), Li e Aflatoony (2025), Barredo Arrieta et al. (2020) e Romero et al. (2025).
+Última verificação manual: 2026-07-13. Na integração da introdução ao OpenSCAD, não foram localizados PDFs em `material/` ou em `projecto_completo_bibliografia/` para Brooks (2026), Bustamante et al. (2018), ELhadad et al. (2026), Ghali (2008), Gonzalez Avila et al. (2024), OpenSCAD Community (n.d.), OpenSCAD Project (n.d.-a, n.d.-b), Romani e Levi (2020), Schöfer e Seibel (2025) e Trautmann (2021). Na secção sobre próteses open source imprimíveis em 3D, continuam sem PDF local confirmado Atallah et al. (2025), Cabibihan et al. (2021), Diment et al. (2018) e Zuniga et al. (2015). O PDF de Wendo et al. (2022) foi localizado em `projecto_completo_bibliografia/` com o título `Open-Source 3D Printing in the Prosthetic Field—The Case of Upper Limb Prostheses A Review.pdf`. Foram igualmente confirmados PDFs locais para Hu et al. (2007), Silva et al. (2018), Górski et al. (2022), Li e Aflatoony (2025), Barredo Arrieta et al. (2020) e Romero et al. (2025).
 
 ## Referências sem PDF local confirmado
 
@@ -25,7 +25,6 @@ Este ficheiro é o registo autoritativo das referências do manuscrito que ainda
 - Schöfer, F., & Seibel, A. (2025). Augmented design automation: Leveraging parametric designs using large language models. Proceedings of the Design Society.
 - Steenbekkers, L. P. A., & van Beijsterveldt, C. E. M. (Eds.). (1998). Design-relevant characteristics of ageing users. Delft University Press.
 - Trautmann, L. (2021). Product customization and generative design. Multidiszciplináris Tudományok.
-- Wendo, K., Barbier, O., Bollen, X., Schubert, T., Lejeune, T., Raucent, B., & Olszewski, R. (2022). Open-source 3D printing in the prosthetic field: The case of upper limb prostheses: A review. Machines, 10(6), 413. https://doi.org/10.3390/machines10060413
 - Zuniga, J., Katsavelis, D., Peck, J., Stollberg, J., Petrykowski, M., Carson, A., & Fernandez, C. (2015). Cyborg beast: A low-cost 3D-printed prosthetic hand for children with upper-limb differences. BMC Research Notes, 8, 10. https://doi.org/10.1186/s13104-015-0971-9
 
 ## Nota

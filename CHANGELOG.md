@@ -2,6 +2,12 @@
 
 ## 2026-07-13
 
+- Bumped `projecto-completo.md` to version 0.4.26 and completed the integral academic correction pass, aligning the research problem, objectives, questions, methodology, Research Through Design cycles, anthropometric data flow, parametric-model specification, platform architecture, AI scope, technical evaluation, physical prototypes, discussion, conclusions and annex with the evidence available in the repository and the declared non-clinical scope.
+- Generated the final corrected deliverables as `pedro-candeias-projeto-mestrado-mdddp-ipca-2026-revisto.docx` and PDF, synchronized the root `projecto-completo.docx` and PDF, and stored the timestamped DOCX/PDF pair under `docs/`; final validation confirmed 146 A4 pages, 23 tables, 24 figures, 161 bibliography entries, 26 embedded media files and a valid DOCX package.
+- Removed all visible `(#ref-...)` markers while preserving author-date citations and bibliography entries, alphabetized the bibliography, corrected the static contents/table/figure lists, added the platform architecture diagram, normalized Annex A lists and technical paths, and improved Table 8.3 column sizing and alignment.
+- Added `docs/relatorio-final-correcao-dissertacao-2026-07-13.md`, including the platform/code checks, final document checks, a prioritized set of further thesis additions with their required evidence, and the list of 15 publications plus five digital resources without a confirmed local PDF; updated `projecto_completo_bibliografia/pdfs_em_falta.md` accordingly.
+- Updated `tools/md_to_docx.py` to preserve underscores in inline code and `tools/migrate_to_ipca_template.py` to improve static index tabs, bibliography alignment and table presentation in the IPCA template.
+- Added `docs/relatorio-revisao-academica-integral-dissertacao-2026-07-13.md`, a full European Portuguese academic review of `pedro-candeias-projeto-mestrado-mdddp-ipca-2026.docx`, covering global coherence, methodology, Research Through Design, anthropometry, parametric modelling, AI, platform architecture, additive manufacturing, results, terminology, figures, references, traceability, claims requiring moderation, and an ordered pre-submission revision plan; the dissertation itself was not changed.
 - Migrated the content of `projecto-completo.docx` into the clean IPCA template supplied as `pedro-candeias-projeto-mestrado-mdddp-ipca-2026.docx.docx`, generating the final `pedro-candeias-projeto-mestrado-mdddp-ipca-2026.docx` and PDF; preserved the institutional cover, title page, declaration, headers and section model, filled the project metadata, removed optional placeholder sections, imported the current Resumo/Abstract, regenerated the acronym list, list of tables, list of figures and static index, and adapted headings, tables, figure captions, source notes, images, hyperlinks and footnotes to the IPCA template styles through `tools/migrate_to_ipca_template.py`.
 
 ## 2026-07-12
@@ -25,6 +31,8 @@
 ## 2026-07-09
 
 - Created `projecto-completo-sem-repeticoes.docx` as a new repetition-reduced derivative of the current DOCX, editing the DOCX package directly to preserve tables, comments and footnotes; added `docs/relatorio-repeticoes-projecto-completo-1815-09072026.md` with the repetition audit, edit log and structural validation, and updated `README.md` to list the new derivative and report.
+- Rebuilt the repetition audit for `projecto-completo.md` version 0.4.18, added `docs/relatorio-repeticoes-projecto-completo-2026-07-09.md`, created the derivative source `docs/projecto-completo-sem-repeticoes.md`, and exported `projecto-completo-sem-repetições.docx` with the 20 manuscript images embedded; the derivative removes the remaining exact duplicate sentence, condenses repeated IA validation material between Chapters 6, 8 and 9, and does not replace the root manuscript files.
+- Fixed `tools/md_to_docx.py` so Markdown tables with blank lines between the header, delimiter and rows are exported as DOCX tables, then regenerated `projecto-completo-sem-repetições.docx`; validation confirmed 22 Word tables, 20 embedded images and no raw Markdown table paragraphs for the reported `population` row.
 
 ## 2026-07-08
 

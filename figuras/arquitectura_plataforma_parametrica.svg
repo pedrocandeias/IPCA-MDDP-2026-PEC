@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1080" viewBox="0 0 1800 1080">
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#59636d"/>
+    </marker>
+    <style>
+      .title { font-family: Arial, sans-serif; font-size: 30px; font-weight: 700; fill: #20262b; }
+      .cluster-title { font-family: Arial, sans-serif; font-size: 20px; font-weight: 700; fill: #30383f; }
+      .node-title { font-family: Arial, sans-serif; font-size: 17px; font-weight: 700; fill: #20262b; }
+      .node-text { font-family: Arial, sans-serif; font-size: 13px; font-weight: 400; fill: #3d474f; }
+      .edge-text { font-family: Arial, sans-serif; font-size: 12px; font-weight: 400; fill: #4a555e; }
+      .box { stroke: #3f4a54; stroke-width: 2; rx: 8; }
+      .edge { fill: none; stroke: #59636d; stroke-width: 2.5; marker-end: url(#arrow); }
+    </style>
+  </defs>
+
+  <rect width="1800" height="1080" fill="#ffffff"/>
+  <text class="title" x="900" y="52" text-anchor="middle">Arquitectura e fluxo principal da plataforma</text>
+
+  <rect x="45" y="90" width="1710" height="455" rx="16" fill="#fbfdfc" stroke="#2e7d6f" stroke-width="3"/>
+  <text class="cluster-title" x="70" y="126">Navegador</text>
+
+  <rect class="box" x="80" y="190" width="210" height="120" fill="#ddefea"/>
+  <text class="node-title" x="185" y="229" text-anchor="middle">Interface</text>
+  <text class="node-text" x="185" y="260" text-anchor="middle">selecção e parâmetros</text>
+  <text class="node-text" x="185" y="286" text-anchor="middle">estado da configuração</text>
+
+  <rect class="box" x="335" y="190" width="220" height="120" fill="#eaf5f2"/>
+  <text class="node-title" x="445" y="226" text-anchor="middle">Configuração</text>
+  <text class="node-text" x="445" y="257" text-anchor="middle">nomes, tipos, limites</text>
+  <text class="node-text" x="445" y="283" text-anchor="middle">e campos protegidos</text>
+
+  <rect class="box" x="600" y="190" width="175" height="120" fill="#f4f7f8"/>
+  <text class="node-title" x="688" y="240" text-anchor="middle">Web Worker</text>
+  <text class="node-text" x="688" y="270" text-anchor="middle">tarefa separada</text>
+
+  <rect class="box" x="820" y="190" width="215" height="120" fill="#dce9f6"/>
+  <text class="node-title" x="928" y="226" text-anchor="middle">OpenSCAD</text>
+  <text class="node-text" x="928" y="257" text-anchor="middle">em WebAssembly</text>
+  <text class="node-text" x="928" y="283" text-anchor="middle">geração determinística</text>
+
+  <rect class="box" x="1080" y="190" width="200" height="120" fill="#e8eef5"/>
+  <text class="node-title" x="1180" y="236" text-anchor="middle">Geometria</text>
+  <text class="node-text" x="1180" y="268" text-anchor="middle">OFF / STL / 3MF</text>
+
+  <rect class="box" x="1325" y="140" width="260" height="105" fill="#f3ebdd"/>
+  <text class="node-title" x="1455" y="180" text-anchor="middle">Visualização 3D</text>
+  <text class="node-text" x="1455" y="210" text-anchor="middle">conversão GLB e cores</text>
+
+  <rect class="box" x="1325" y="330" width="260" height="105" fill="#f5e4d5"/>
+  <text class="node-title" x="1455" y="370" text-anchor="middle">Exportação</text>
+  <text class="node-text" x="1455" y="400" text-anchor="middle">ficheiros STL / 3MF</text>
+
+  <path class="edge" d="M290 250 H335"/>
+  <text class="edge-text" x="312" y="238" text-anchor="middle">valores</text>
+  <path class="edge" d="M555 250 H600"/>
+  <text class="edge-text" x="578" y="238" text-anchor="middle">script</text>
+  <path class="edge" d="M775 250 H820"/>
+  <path class="edge" d="M1035 250 H1080"/>
+  <path class="edge" d="M1280 230 C1300 230 1300 192 1325 192"/>
+  <path class="edge" d="M1280 270 C1300 270 1300 382 1325 382"/>
+  <path class="edge" d="M1325 166 C1190 115 300 110 185 190"/>
+  <text class="edge-text" x="820" y="112" text-anchor="middle">pré-visualização actualizada</text>
+
+  <rect x="45" y="595" width="820" height="400" rx="16" fill="#fffaf7" stroke="#a15c38" stroke-width="3"/>
+  <text class="cluster-title" x="70" y="635">Servidor</text>
+
+  <rect class="box" x="95" y="700" width="220" height="125" fill="#f8e7dd"/>
+  <text class="node-title" x="205" y="740" text-anchor="middle">Express</text>
+  <text class="node-text" x="205" y="770" text-anchor="middle">autenticação, API</text>
+  <text class="node-text" x="205" y="796" text-anchor="middle">e permissões</text>
+
+  <rect class="box" x="370" y="680" width="230" height="165" fill="#eee5f4"/>
+  <text class="node-title" x="485" y="720" text-anchor="middle">SQLite</text>
+  <text class="node-text" x="485" y="750" text-anchor="middle">utilizadores</text>
+  <text class="node-text" x="485" y="776" text-anchor="middle">configurações</text>
+  <text class="node-text" x="485" y="802" text-anchor="middle">perfis antropométricos</text>
+
+  <rect class="box" x="655" y="700" width="175" height="125" fill="#f5ddd4"/>
+  <text class="node-title" x="743" y="740" text-anchor="middle">Serviço de IA</text>
+  <text class="node-text" x="743" y="770" text-anchor="middle">esquema + referência</text>
+  <text class="node-text" x="743" y="796" text-anchor="middle">filtragem da resposta</text>
+
+  <path class="edge" d="M315 762 H370"/>
+  <text class="edge-text" x="343" y="749" text-anchor="middle">dados</text>
+  <path class="edge" d="M600 762 H655"/>
+
+  <rect x="910" y="595" width="390" height="400" rx="16" fill="#fbf9fe" stroke="#6a5a8c" stroke-width="3"/>
+  <text class="cluster-title" x="935" y="635">Serviço externo</text>
+  <rect class="box" x="985" y="710" width="240" height="115" fill="#e8e1f2"/>
+  <text class="node-title" x="1105" y="752" text-anchor="middle">Modelo de linguagem</text>
+  <text class="node-text" x="1105" y="784" text-anchor="middle">sugestão em JSON</text>
+  <path class="edge" d="M830 762 H985"/>
+  <text class="edge-text" x="908" y="749" text-anchor="middle">pedido / resposta</text>
+
+  <rect x="1345" y="595" width="410" height="400" rx="16" fill="#fbfcf6" stroke="#6c7a35" stroke-width="3"/>
+  <text class="cluster-title" x="1370" y="635">Fabrico</text>
+  <rect class="box" x="1390" y="690" width="320" height="120" fill="#edf1dd"/>
+  <text class="node-title" x="1550" y="730" text-anchor="middle">Programa de fatiamento</text>
+  <text class="node-text" x="1550" y="760" text-anchor="middle">perfil, orientação e suportes</text>
+  <rect class="box" x="1390" y="850" width="320" height="100" fill="#e3eacd"/>
+  <text class="node-title" x="1550" y="890" text-anchor="middle">Impressora FFF</text>
+  <text class="node-text" x="1550" y="920" text-anchor="middle">protótipo físico</text>
+  <path class="edge" d="M1550 810 V850"/>
+
+  <path class="edge" d="M185 310 V700"/>
+  <text class="edge-text" x="198" y="555">sessão e configurações</text>
+  <path class="edge" d="M290 285 C525 420 720 520 743 700"/>
+  <text class="edge-text" x="520" y="470">descrição + esquema</text>
+  <path class="edge" d="M1455 435 V690"/>
+  <text class="edge-text" x="1468" y="565">ficheiro exportado</text>
+</svg>

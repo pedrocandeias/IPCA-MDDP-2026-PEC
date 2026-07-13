@@ -239,7 +239,13 @@ def transform_heading(
 
 def make_toc_para(title: str, level: int, page: str) -> etree._Element:
     p = etree.Element(qn(W, "p"))
-    p.append(make_ppr(f"{STYLE_TOC_PREFIX}{min(max(level, 1), 5)}"))
+    p_pr = make_ppr(f"{STYLE_TOC_PREFIX}{min(max(level, 1), 5)}")
+    tabs = etree.SubElement(p_pr, qn(W, "tabs"))
+    tab = etree.SubElement(tabs, qn(W, "tab"))
+    tab.set(qn(W, "val"), "right")
+    tab.set(qn(W, "leader"), "dot")
+    tab.set(qn(W, "pos"), "8204")
+    p.append(p_pr)
     r = etree.SubElement(p, qn(W, "r"))
     t = etree.SubElement(r, qn(W, "t"))
     t.text = title
@@ -690,6 +696,7 @@ def migrate(
             new_body_children.append(deepcopy(ch))
 
         bibliography_mode = False
+        last_caption_text = ""
         inserted_body_heading = False
         for ch in source_children[source_start:]:
             if ch.tag == qn(W, "sectPr"):
@@ -728,9 +735,10 @@ def migrate(
                     remove_anchor_markup(p)
                     if not wt(p):
                         continue
-                    set_paragraph_style(p, STYLE_BIBLIOGRAPHY)
+                    set_paragraph_style(p, STYLE_BIBLIOGRAPHY, jc="left")
                 elif text.startswith(("Figura ", "Tabela ", "Quadro ")):
                     set_paragraph_style(p, STYLE_CAPTION)
+                    last_caption_text = text
                 elif has_drawing:
                     set_paragraph_style(p, "Normal", jc="center")
                 elif text.startswith(("Fonte", "Adaptado", "Produção própria")):
@@ -766,8 +774,10 @@ def migrate(
                     if tr_pr.find("w:tblHeader", NS) is None:
                         etree.SubElement(tr_pr, qn(W, "tblHeader"))
                 for p in tbl.xpath(".//w:p", namespaces=NS):
-                    set_paragraph_style(p, STYLE_BODY)
+                    set_paragraph_style(p, STYLE_BODY, jc="left")
                 if rows:
+                    for p in rows[0].xpath(".//w:p", namespaces=NS):
+                        set_paragraph_style(p, STYLE_BODY, jc="center")
                     for r in rows[0].xpath(".//w:r", namespaces=NS):
                         r_pr = r.find("w:rPr", NS)
                         if r_pr is None:
@@ -775,7 +785,45 @@ def migrate(
                             r.insert(0, r_pr)
                         if r_pr.find("w:b", NS) is None:
                             etree.SubElement(r_pr, qn(W, "b"))
+                if last_caption_text.startswith("Tabela 8.3"):
+                    layout = tbl_pr.find("w:tblLayout", NS)
+                    if layout is None:
+                        layout = etree.SubElement(tbl_pr, qn(W, "tblLayout"))
+                    layout.set(qn(W, "type"), "fixed")
+                    widths = [1220, 850, 1050, 720, 800, 1760]
+                    grid = tbl.find("w:tblGrid", NS)
+                    if grid is not None:
+                        tbl.remove(grid)
+                    grid = etree.Element(qn(W, "tblGrid"))
+                    tbl.insert(1, grid)
+                    for width in widths:
+                        col = etree.SubElement(grid, qn(W, "gridCol"))
+                        col.set(qn(W, "w"), str(width))
+                    for row in rows:
+                        for index, cell in enumerate(row.xpath("./w:tc", namespaces=NS)):
+                            if index >= len(widths):
+                                continue
+                            tc_pr = cell.find("w:tcPr", NS)
+                            if tc_pr is None:
+                                tc_pr = etree.Element(qn(W, "tcPr"))
+                                cell.insert(0, tc_pr)
+                            tc_w = tc_pr.find("w:tcW", NS)
+                            if tc_w is None:
+                                tc_w = etree.SubElement(tc_pr, qn(W, "tcW"))
+                            tc_w.set(qn(W, "w"), str(widths[index]))
+                            tc_w.set(qn(W, "type"), "dxa")
+                    for r in tbl.xpath(".//w:r", namespaces=NS):
+                        r_pr = r.find("w:rPr", NS)
+                        if r_pr is None:
+                            r_pr = etree.Element(qn(W, "rPr"))
+                            r.insert(0, r_pr)
+                        for tag in ("sz", "szCs"):
+                            size = r_pr.find(f"w:{tag}", NS)
+                            if size is None:
+                                size = etree.SubElement(r_pr, qn(W, tag))
+                            size.set(qn(W, "val"), "18")
                 new_body_children.append(tbl)
+                last_caption_text = ""
 
         # Use the first body-content section properties from the IPCA template:
         # decimal page numbering starts at 1 and body margins/header/footer are applied.

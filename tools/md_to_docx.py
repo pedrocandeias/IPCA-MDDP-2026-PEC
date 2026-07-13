@@ -90,6 +90,13 @@ def parse_pipe_row(line: str) -> list[str]:
     return [cell.strip() for cell in line.strip().strip("|").split("|")]
 
 
+def next_nonblank_index(lines: list[str], start: int) -> int:
+    i = start
+    while i < len(lines) and not lines[i].strip():
+        i += 1
+    return i
+
+
 def is_escaped_horizontal_rule(line: str) -> bool:
     normalized = re.sub(r"\s+", "", line)
     return bool(normalized) and re.fullmatch(r"(\\_){8,}", normalized) is not None
@@ -269,21 +276,22 @@ def parse_markdown(text: str, base_dir: Path) -> list[Block]:
             i += 1
             continue
 
-        if (
-            "|" in line
-            and i + 1 < len(lines)
-            and is_table_delimiter(lines[i + 1])
-        ):
+        delimiter_index = next_nonblank_index(lines, i + 1)
+        if "|" in line and delimiter_index < len(lines) and is_table_delimiter(lines[delimiter_index]):
             flush_paragraph()
             flush_quote()
             rows = [parse_pipe_row(line)]
-            i += 2
+            i = delimiter_index + 1
             while i < len(lines):
-                candidate = lines[i]
-                if not candidate.strip() or "|" not in candidate:
+                candidate_index = next_nonblank_index(lines, i)
+                if candidate_index >= len(lines):
+                    i = candidate_index
+                    break
+                candidate = lines[candidate_index]
+                if "|" not in candidate or is_table_delimiter(candidate):
                     break
                 rows.append(parse_pipe_row(candidate))
-                i += 1
+                i = candidate_index + 1
             if rows:
                 width = max(len(row) for row in rows)
                 padded = [row + [""] * (width - len(row)) for row in rows]
@@ -381,6 +389,10 @@ def parse_inlines(text: str) -> list[tuple[str, str]]:
         if text[i] == "`":
             flush()
             state = "code" if state != "code" else "normal"
+            i += 1
+            continue
+        if state == "code":
+            buffer.append(text[i])
             i += 1
             continue
         if text.startswith("[", i):
