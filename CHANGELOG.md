@@ -2,7 +2,7 @@
 
 ## 2026-07-13
 
-- Migrated the content of `projecto-completo-repeticoes.docx` into the final IPCA template `pedro-candeias-projeto-mestrado-mdddp-ipca-2026.docx`, preserving the institutional front matter, incorporating the current Resumo/Abstract from `projecto-completo.docx`, and adapting headings, acronym list, tables, figure captions, source notes, images, hyperlinks and footnotes to the template styles; generated `pedro-candeias-projeto-mestrado-mdddp-ipca-2026.pdf`, removed visible conversion artefacts such as `(#ref-...)`, and added `tools/migrate_to_ipca_template.py` to make the migration reproducible.
+- Migrated the content of `projecto-completo.docx` into the clean IPCA template supplied as `pedro-candeias-projeto-mestrado-mdddp-ipca-2026.docx.docx`, generating the final `pedro-candeias-projeto-mestrado-mdddp-ipca-2026.docx` and PDF; preserved the institutional cover, title page, declaration, headers and section model, filled the project metadata, removed optional placeholder sections, imported the current Resumo/Abstract, regenerated the acronym list, list of tables, list of figures and static index, and adapted headings, tables, figure captions, source notes, images, hyperlinks and footnotes to the IPCA template styles through `tools/migrate_to_ipca_template.py`.
 
 ## 2026-07-12
 
