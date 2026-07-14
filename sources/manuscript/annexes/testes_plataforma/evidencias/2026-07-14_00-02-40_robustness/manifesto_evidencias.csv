@@ -1,0 +1,9 @@
+evidence_id,campaign_id,test_id,data_hora,caminho,tipo,formato,sha256,gerado_por,descricao,observacoes
+robustness-0001,robustness,ROB-NOM-001,2026-07-13T23:03:19.445Z,artifacts/ROB-NOM-001/nominal.stl,geometria,stl,6716de73537a092aba77c7ce1d7e5e793ac5d3c99bf1b585e7811d6c9552a269,automated,,
+robustness-0002,robustness,,2026-07-13T23:03:19.445Z,artifacts/pw-output/.last-run.json,artefacto,json,91d1c43004802cd49950d78eb11c8fa7d05da8ffffe219a8b13b2f561bc00903,automated,,
+robustness-0003,robustness,,2026-07-13T23:03:19.445Z,frozen-configs.json,configuracao,json,c2d93cd5e486dc2e23fc29de1bca05ef215149f06cc23bf90feadfabc6c9de86,automated,,
+robustness-0004,robustness,,2026-07-13T23:03:19.445Z,metadados.json,metadados,json,e4a6529e2157e5b92c4e58ef3b2ecb65d81a8b3de0434572305f4b2e45a59d59,automated,,
+robustness-0005,robustness,,2026-07-13T23:03:19.445Z,playwright-report/index.html,relatorio,html,9c2c27c04c253c5ada4beda7e9ef1ec346f6ac6bfbd1f157f20cc394db249d14,automated,,
+robustness-0006,robustness,,2026-07-13T23:03:19.445Z,results/playwright-results.json,resultado,json,7a2acc8f3b8659f28707572b62e65da42be9300e211b938ead1e5195b5284b2b,automated,,
+robustness-0007,robustness,,2026-07-13T23:03:19.445Z,results/robustness-api.json,resultado,json,7d9a811b5360c098bc9b8e3646f71f261b696c77f477f1b832580a9301ce8533,automated,,
+robustness-0008,robustness,,2026-07-13T23:03:19.445Z,results/robustness-ui.json,resultado,json,d553007267a5eb1582fd0794bf3a22774ea63725beb4d4bea1a27b62ac5f7965,automated,,

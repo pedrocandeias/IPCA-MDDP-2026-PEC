@@ -1,0 +1,9 @@
+evidence_id,campaign_id,test_id,data_hora,caminho,tipo,formato,sha256,gerado_por,descricao,observacoes
+a11y-public-0001,a11y-public,,2026-07-13T23:06:52.349Z,artifacts/a11y/ACC-PUB-landing.png,captura,png,eee0c9f0c70f18c972ca22b42d4397740422e710ea810b3c8fc85b095843148d,automated,,
+a11y-public-0002,a11y-public,,2026-07-13T23:06:52.349Z,artifacts/pw-output/.last-run.json,artefacto,json,91d1c43004802cd49950d78eb11c8fa7d05da8ffffe219a8b13b2f561bc00903,automated,,
+a11y-public-0003,a11y-public,,2026-07-13T23:06:52.349Z,frozen-configs.json,configuracao,json,c2d93cd5e486dc2e23fc29de1bca05ef215149f06cc23bf90feadfabc6c9de86,automated,,
+a11y-public-0004,a11y-public,,2026-07-13T23:06:52.349Z,metadados.json,metadados,json,676a2f2d07f23e5f252827fc87a7709ee21f119cd474f318ea5591fe000b6d4d,automated,,
+a11y-public-0005,a11y-public,,2026-07-13T23:06:52.349Z,playwright-report/index.html,relatorio,html,bb7b56f90e3f80c93a6d16ac98a0c1eb1c50a03f24c272bd78583b2f93b8a0d2,automated,,
+a11y-public-0006,a11y-public,,2026-07-13T23:06:52.349Z,results/a11y-manual-checklist.json,resultado,json,ef6378e762356f2803b6fa2b5d8a73984b15699dfa6c1a6decebc4e3a183ed10,automated,,
+a11y-public-0007,a11y-public,,2026-07-13T23:06:52.349Z,results/a11y-public.json,resultado,json,ee043cf172d2e4ccd4ff4e837959da73ca6ebbfb4e8ebfeecee9d4927273c559,automated,,
+a11y-public-0008,a11y-public,,2026-07-13T23:06:52.349Z,results/playwright-results.json,resultado,json,d0cabc7e21d999e2e9e895445ac54f9c45e001578cfef2636be11afc9dfe5dc4,automated,,

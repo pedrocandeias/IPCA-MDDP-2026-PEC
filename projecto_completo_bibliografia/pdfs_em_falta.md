@@ -11,6 +11,7 @@ Este ficheiro é o registo autoritativo das referências do manuscrito que ainda
 - Bustamante, M., Vega-Centeno, R., Sanchez, M., & Mio, R. (2018). A parametric 3D-printed body-powered hand prosthesis based on the four-bar linkage mechanism. In International Conferences on Biological Information and Biomedical Engineering.
 - Cabibihan, J.-J., Abubasha, M. K., & Thakor, N. V. (2021). Suitability of the openly accessible 3D printed prosthetic hands for war-wounded children. Frontiers in Robotics and AI, 7, 594196. https://doi.org/10.3389/frobt.2020.594196
 - Diment, L. E., Thompson, M. S., & Bergmann, J. H. M. (2018). Three-dimensional printed upper-limb prostheses lack randomised controlled trials: A systematic review. Prosthetics and Orthotics International, 42(1), 7-13. https://doi.org/10.1177/0309364617704803
+- daprice. (n.d.). Flexy Beast [README file]. GitHub. Retrieved July 13, 2026, from https://github.com/daprice/Flexy-Beast/blob/master/README.md
 - ELhadad, N., Aboulhassan, A., & Hassan, Y. M. I. (2026). LLM-based 3D model generation of MHE for OpenSCAD. Procedia Computer Science.
 - Ghali, S. (2008). Constructive solid geometry. In Introduction to geometric computing.
 - Gonzalez Avila, J. F., Pietrzak, T., Girouard, A., & Casiez, G. (2024). Understanding the challenges of OpenSCAD users for 3D printing. In Proceedings of the CHI Conference on Human Factors in Computing Systems. ACM. https://arxiv.org/abs/2408.01796
@@ -29,4 +30,4 @@ Este ficheiro é o registo autoritativo das referências do manuscrito que ainda
 
 ## Nota
 
-Existe material local de apoio para DINED em `material/dadosantropometricos-dined.txt`, mas não foi localizado um PDF bibliográfico correspondente às entradas DINED citadas.
+Existe material local de apoio para DINED em `material/dadosantropometricos-dined.txt`, mas não foi localizado um PDF bibliográfico correspondente às entradas DINED citadas. A entrada `daprice` corresponde a documentação digital nativa do repositório GitHub e não a uma publicação com PDF autónomo.

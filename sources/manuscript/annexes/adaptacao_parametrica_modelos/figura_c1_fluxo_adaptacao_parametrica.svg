@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="920" viewBox="0 0 1600 920" role="img" aria-labelledby="title desc">
+  <title id="title">Fluxo de adaptação paramétrica dos modelos de mão protésica</title>
+  <desc id="desc">Diagrama que liga medidas directas, mapa canónico, regras específicas de quatro modelos, verificação geométrica e malha para fabrico.</desc>
+  <defs>
+    <style>
+      .title { font: 700 34px Arial, sans-serif; fill: #17233c; }
+      .head { font: 700 25px Arial, sans-serif; fill: #17233c; }
+      .body { font: 21px Arial, sans-serif; fill: #27364f; }
+      .small { font: 18px Arial, sans-serif; fill: #44536a; }
+      .box { fill: #f7f9fc; stroke: #334e78; stroke-width: 3; rx: 18; }
+      .model { fill: #eef4fb; stroke: #3c6eaa; stroke-width: 3; rx: 16; }
+      .warn { fill: #fff7e8; stroke: #bf7a13; stroke-width: 3; rx: 16; }
+      .arrow { stroke: #526b8d; stroke-width: 5; fill: none; marker-end: url(#arrow); }
+    </style>
+    <marker id="arrow" markerWidth="13" markerHeight="13" refX="11" refY="6.5" orient="auto">
+      <path d="M0,0 L13,6.5 L0,13 z" fill="#526b8d"/>
+    </marker>
+  </defs>
+
+  <text x="800" y="52" text-anchor="middle" class="title">Da medida à variante geométrica: regras específicas de cada modelo</text>
+
+  <rect x="45" y="118" width="260" height="195" class="box"/>
+  <text x="175" y="157" text-anchor="middle" class="head">Entradas</text>
+  <text x="75" y="198" class="body">• Medida individual</text>
+  <text x="75" y="232" class="body">• Referência populacional</text>
+  <text x="75" y="266" class="body">• Ajuste manual</text>
+  <text x="75" y="296" class="small">Unidade canónica: mm</text>
+
+  <rect x="382" y="118" width="330" height="195" class="box"/>
+  <text x="547" y="157" text-anchor="middle" class="head">Mapa canónico</text>
+  <text x="412" y="198" class="body">Nome anatómico comum</text>
+  <text x="412" y="232" class="body">Campo disponível no modelo</text>
+  <text x="412" y="266" class="body">Intervalo declarado</text>
+  <text x="412" y="296" class="small">Campos ausentes são omitidos</text>
+
+  <path d="M305 215 L382 215" class="arrow"/>
+
+  <rect x="790" y="90" width="340" height="135" class="model"/>
+  <text x="960" y="130" text-anchor="middle" class="head">Flexy Beast</text>
+  <text x="820" y="169" class="body">Palma: fórmula Cyborg Beast</text>
+  <text x="820" y="201" class="small">Dedos: proporções face ao médio</text>
+
+  <rect x="1195" y="90" width="340" height="135" class="model"/>
+  <text x="1365" y="130" text-anchor="middle" class="head">Cyborg Beast</text>
+  <text x="1225" y="169" class="body">Escala da palma + alavancas</text>
+  <text x="1225" y="201" class="small">Divisão proximal/distal calibrada</text>
+
+  <rect x="790" y="270" width="340" height="135" class="model"/>
+  <text x="960" y="310" text-anchor="middle" class="head">Paraglider Hand</text>
+  <text x="820" y="349" class="body">Palma: escala uniforme</text>
+  <text x="820" y="381" class="small">Dedos: escalas próprias</text>
+
+  <rect x="1195" y="270" width="340" height="135" class="model"/>
+  <text x="1365" y="310" text-anchor="middle" class="head">UnLimbited Phoenix</text>
+  <text x="1225" y="349" class="body">Escala global com piso</text>
+  <text x="1225" y="381" class="small">Alongamento em zonas sem furos</text>
+
+  <path d="M712 178 C745 178,750 157,790 157" class="arrow"/>
+  <path d="M712 198 C830 198,1060 157,1195 157" class="arrow"/>
+  <path d="M712 230 C745 230,750 337,790 337" class="arrow"/>
+  <path d="M712 250 C850 250,1060 337,1195 337" class="arrow"/>
+
+  <rect x="285" y="505" width="430" height="165" class="warn"/>
+  <text x="500" y="546" text-anchor="middle" class="head">Verificações necessárias</text>
+  <text x="320" y="586" class="body">• limites e dependências internas</text>
+  <text x="320" y="621" class="body">• furos, folgas e interfaces mecânicas</text>
+  <text x="320" y="656" class="small">• comportamento fora da gama do modelo</text>
+
+  <rect x="865" y="505" width="450" height="165" class="box"/>
+  <text x="1090" y="546" text-anchor="middle" class="head">Resultado intermédio</text>
+  <text x="900" y="586" class="body">Geometria OpenSCAD regenerada</text>
+  <text x="900" y="621" class="body">Malha STL/3MF mensurável</text>
+  <text x="900" y="656" class="small">Não equivale a ajuste anatómico validado</text>
+
+  <path d="M960 405 C960 455,700 455,650 505" class="arrow"/>
+  <path d="M1365 405 C1365 470,1235 470,1200 505" class="arrow"/>
+  <path d="M715 588 L865 588" class="arrow"/>
+
+  <rect x="360" y="760" width="880" height="100" class="warn"/>
+  <text x="800" y="802" text-anchor="middle" class="head">Decisão de projecto</text>
+  <text x="800" y="838" text-anchor="middle" class="body">Aceitar, corrigir, limitar ou rejeitar a configuração antes do fabrico</text>
+  <path d="M1090 670 C1090 725,800 715,800 760" class="arrow"/>
+</svg>

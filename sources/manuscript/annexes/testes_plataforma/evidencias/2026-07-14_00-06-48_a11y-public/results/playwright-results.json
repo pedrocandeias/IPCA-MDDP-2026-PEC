@@ -1,0 +1,168 @@
+{
+  "config": {
+    "configFile": "/home/pec/dev/ai-parametric-prosthetic-hand-generator/test/thesis/playwright.thesis.config.js",
+    "rootDir": "/home/pec/dev/ai-parametric-prosthetic-hand-generator/test/thesis",
+    "forbidOnly": true,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "/home/pec/dev/ai-parametric-prosthetic-hand-generator/test-results/thesis-evaluation/2026-07-14_00-06-48_a11y-public/artifacts/pw-output",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "/home/pec/dev/ai-parametric-prosthetic-hand-generator/test/thesis",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.spec.js"
+        ],
+        "timeout": 360000
+      },
+      {
+        "outputDir": "/home/pec/dev/ai-parametric-prosthetic-hand-generator/test-results/thesis-evaluation/2026-07-14_00-06-48_a11y-public/artifacts/pw-output",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "firefox",
+        "name": "firefox",
+        "testDir": "/home/pec/dev/ai-parametric-prosthetic-hand-generator/test/thesis",
+        "testIgnore": [],
+        "testMatch": [
+          "**/rep-xbr.spec.js"
+        ],
+        "timeout": 360000
+      },
+      {
+        "outputDir": "/home/pec/dev/ai-parametric-prosthetic-hand-generator/test-results/thesis-evaluation/2026-07-14_00-06-48_a11y-public/artifacts/pw-output",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "webkit",
+        "name": "webkit",
+        "testDir": "/home/pec/dev/ai-parametric-prosthetic-hand-generator/test/thesis",
+        "testIgnore": [],
+        "testMatch": [
+          "**/rep-xbr.spec.js"
+        ],
+        "timeout": 360000
+      },
+      {
+        "outputDir": "/home/pec/dev/ai-parametric-prosthetic-hand-generator/test-results/thesis-evaluation/2026-07-14_00-06-48_a11y-public/artifacts/pw-output",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "public",
+        "name": "public",
+        "testDir": "/home/pec/dev/ai-parametric-prosthetic-hand-generator/test/thesis",
+        "testIgnore": [],
+        "testMatch": [
+          "**/a11y-public.spec.js"
+        ],
+        "timeout": 360000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "html",
+        {
+          "open": "never",
+          "outputFolder": "/home/pec/dev/ai-parametric-prosthetic-hand-generator/test-results/thesis-evaluation/2026-07-14_00-06-48_a11y-public/playwright-report"
+        }
+      ],
+      [
+        "json",
+        {
+          "outputFile": "/home/pec/dev/ai-parametric-prosthetic-hand-generator/test-results/thesis-evaluation/2026-07-14_00-06-48_a11y-public/results/playwright-results.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.59.1",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "a11y/a11y-public.spec.js",
+      "file": "a11y/a11y-public.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "ACC-PUB · public unauthenticated WCAG 2.2 A/AA audit (non-destructive)",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "public",
+              "projectName": "public",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2770,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-07-13T23:06:49.434Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "9cf5d60d4cf0464c3534-b0e4ad7a28431275736c",
+          "file": "a11y/a11y-public.spec.js",
+          "line": 20,
+          "column": 1
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-07-13T23:06:49.029Z",
+    "duration": 3279.5190000000002,
+    "expected": 1,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

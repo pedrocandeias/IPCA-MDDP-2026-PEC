@@ -3,3 +3,7 @@
 node_modules/
 .~lock.*#
 recoverd/
+recovered/
+.lo-*/
+__pycache__/
+*.pyc

@@ -1,0 +1,362 @@
+{
+  "config": {
+    "configFile": "/home/pec/dev/ai-parametric-prosthetic-hand-generator/test/thesis/playwright.thesis.config.js",
+    "rootDir": "/home/pec/dev/ai-parametric-prosthetic-hand-generator/test/thesis",
+    "forbidOnly": true,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "/home/pec/dev/ai-parametric-prosthetic-hand-generator/test-results/thesis-evaluation/2026-07-14_00-03-19_a11y-local/artifacts/pw-output",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "/home/pec/dev/ai-parametric-prosthetic-hand-generator/test/thesis",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.spec.js"
+        ],
+        "timeout": 360000
+      },
+      {
+        "outputDir": "/home/pec/dev/ai-parametric-prosthetic-hand-generator/test-results/thesis-evaluation/2026-07-14_00-03-19_a11y-local/artifacts/pw-output",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "firefox",
+        "name": "firefox",
+        "testDir": "/home/pec/dev/ai-parametric-prosthetic-hand-generator/test/thesis",
+        "testIgnore": [],
+        "testMatch": [
+          "**/rep-xbr.spec.js"
+        ],
+        "timeout": 360000
+      },
+      {
+        "outputDir": "/home/pec/dev/ai-parametric-prosthetic-hand-generator/test-results/thesis-evaluation/2026-07-14_00-03-19_a11y-local/artifacts/pw-output",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "webkit",
+        "name": "webkit",
+        "testDir": "/home/pec/dev/ai-parametric-prosthetic-hand-generator/test/thesis",
+        "testIgnore": [],
+        "testMatch": [
+          "**/rep-xbr.spec.js"
+        ],
+        "timeout": 360000
+      },
+      {
+        "outputDir": "/home/pec/dev/ai-parametric-prosthetic-hand-generator/test-results/thesis-evaluation/2026-07-14_00-03-19_a11y-local/artifacts/pw-output",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "public",
+        "name": "public",
+        "testDir": "/home/pec/dev/ai-parametric-prosthetic-hand-generator/test/thesis",
+        "testIgnore": [],
+        "testMatch": [
+          "**/a11y-public.spec.js"
+        ],
+        "timeout": 360000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "html",
+        {
+          "open": "never",
+          "outputFolder": "/home/pec/dev/ai-parametric-prosthetic-hand-generator/test-results/thesis-evaluation/2026-07-14_00-03-19_a11y-local/playwright-report"
+        }
+      ],
+      [
+        "json",
+        {
+          "outputFile": "/home/pec/dev/ai-parametric-prosthetic-hand-generator/test-results/thesis-evaluation/2026-07-14_00-03-19_a11y-local/results/playwright-results.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.59.1",
+    "workers": 1,
+    "webServer": {
+      "command": "node server/index.js",
+      "cwd": "/home/pec/dev/ai-parametric-prosthetic-hand-generator",
+      "url": "http://localhost:3100/api/setup/status",
+      "reuseExistingServer": false,
+      "timeout": 30000,
+      "env": {
+        "PORT": "3100",
+        "HANDFAB_DB_PATH": "/home/pec/dev/ai-parametric-prosthetic-hand-generator/data/thesis-test.db",
+        "JWT_SECRET": "d29b60b85b867dfd74e9cc168d142d42e2eb52af71c4a7a5d62a417668aa7ab7",
+        "NODE_ENV": "test",
+        "LOGIN_RATE_LIMIT_MAX": "100000",
+        "ANTHROPIC_API_KEY": "",
+        "OPENAI_API_KEY": ""
+      }
+    }
+  },
+  "suites": [
+    {
+      "title": "a11y/a11y-local.spec.js",
+      "file": "a11y/a11y-local.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "ACC · local automated WCAG 2.2 A/AA audit",
+          "file": "a11y/a11y-local.spec.js",
+          "line": 51,
+          "column": 6,
+          "specs": [
+            {
+              "title": "ACC-AUT-001 · authentication (unauthenticated login)",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 360000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1212,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-13T23:03:21.457Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f60f463b2f9fcf30000f-8933a498c6a82d568f65",
+              "file": "a11y/a11y-local.spec.js",
+              "line": 63,
+              "column": 5
+            },
+            {
+              "title": "ACC-AUT-002 · dashboard (authenticated)",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 360000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 915,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-13T23:03:22.740Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f60f463b2f9fcf30000f-c83c5b725abadb10209c",
+              "file": "a11y/a11y-local.spec.js",
+              "line": 72,
+              "column": 5
+            },
+            {
+              "title": "ACC-AUT-003 · profile (initial + error state)",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 360000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 182181,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-13T23:03:32.514Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f60f463b2f9fcf30000f-0a7df342b4b2c73516e6",
+              "file": "a11y/a11y-local.spec.js",
+              "line": 78,
+              "column": 5
+            },
+            {
+              "title": "ACC-AUT-004 · model configuration (parameter controls)",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 360000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 3296,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-13T23:06:34.706Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f60f463b2f9fcf30000f-d13d9ad805269399d49d",
+              "file": "a11y/a11y-local.spec.js",
+              "line": 92,
+              "column": 5
+            },
+            {
+              "title": "ACC-AUT-005 · AI suggestion (before + after, mocked)",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 360000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 5145,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-13T23:06:38.011Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f60f463b2f9fcf30000f-e620ca124563fd51651b",
+              "file": "a11y/a11y-local.spec.js",
+              "line": 99,
+              "column": 5
+            },
+            {
+              "title": "ACC-AUT-006 · 3D viewer (rendered geometry)",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 180000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 4935,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-13T23:06:43.166Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f60f463b2f9fcf30000f-d5e3c505cc0603cac3d9",
+              "file": "a11y/a11y-local.spec.js",
+              "line": 113,
+              "column": 5
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-07-13T23:03:20.664Z",
+    "duration": 207537.89800000002,
+    "expected": 6,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "campaign_id": "a11y-local",
+  "started_at": "2026-07-13T23:03:19.997Z",
+  "finished_at": "2026-07-13T23:06:48.243Z",
+  "timezone": "Europe/Lisbon",
+  "executor": "pec",
+  "platform": {
+    "repository": "/home/pec/dev/ai-parametric-prosthetic-hand-generator",
+    "environment": "local",
+    "tested_url": "http://localhost:3100",
+    "transport": "http",
+    "branch": "staging",
+    "commit": "7e604558b337d02fff979169f057d6cbd0c80c0a",
+    "working_tree_status": "dirty",
+    "working_tree_changes": 13,
+    "version": "14.69.0"
+  },
+  "environment": {
+    "operating_system": "linux 6.17.0-35-generic",
+    "architecture": "x64",
+    "node": "v22.14.0",
+    "package_manager": "npm 11.6.1",
+    "playwright": "1.59.1",
+    "axe_core": "4.12.1",
+    "browsers": [
+      "chromium"
+    ],
+    "openscad_wasm": "in-browser WebAssembly (openscad.wasm, served from repo root)"
+  },
+  "ai": {
+    "anthropic_key_present": true,
+    "openai_key_present": true,
+    "live_ai_enabled": false,
+    "provider": null,
+    "model_id": null,
+    "sampling_settings": {},
+    "prompt_sha256": null,
+    "schema_sha256": null
+  },
+  "commands": [
+    "npx playwright test test/thesis/a11y/a11y-local.spec.js --config test/thesis/playwright.thesis.config.js --project chromium"
+  ],
+  "test_ids": [
+    "ACC-AUT-001",
+    "ACC-AUT-002",
+    "ACC-AUT-003",
+    "ACC-AUT-004",
+    "ACC-AUT-005",
+    "ACC-AUT-006"
+  ],
+  "deviations": [
+    "Local campaigns run against an isolated synthetic DB on port 3100 (HANDFAB_DB_PATH=data/thesis-test.db), not the developer :3000 instance, to satisfy the \"isolated DB + synthetic data\" requirement."
+  ],
+  "notes": null
+}

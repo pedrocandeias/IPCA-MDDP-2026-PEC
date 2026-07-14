@@ -1,0 +1,77 @@
+{
+  "test_id": "ACC-AUT-006",
+  "state": "rendered",
+  "tags": [
+    "wcag2a",
+    "wcag2aa",
+    "wcag21a",
+    "wcag21aa",
+    "wcag22aa"
+  ],
+  "violation_count": 1,
+  "passes": 30,
+  "incomplete": 2,
+  "violations": [
+    {
+      "id": "color-contrast",
+      "impact": "serious",
+      "help": "Elements must meet minimum color contrast ratio thresholds",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+      "tags": [
+        "wcag2aa",
+        "wcag143"
+      ],
+      "nodes": [
+        {
+          "target": [
+            "button[data-tab=\"params\"]"
+          ],
+          "html": "<button class=\"hf-tab-btn\" data-tab=\"params\" data-i18n=\"cfg.tabParams\">Parameters</button>",
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.06 (foreground color: #717182, background color: #ececf0, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "target": [
+            "button[data-tab=\"colors\"]"
+          ],
+          "html": "<button class=\"hf-tab-btn\" data-tab=\"colors\" data-i18n=\"cfg.tabColors\">Colors</button>",
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.06 (foreground color: #717182, background color: #ececf0, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "target": [
+            "button[data-tab=\"saved\"]"
+          ],
+          "html": "<button class=\"hf-tab-btn\" data-tab=\"saved\" data-i18n=\"cfg.tabSaved\">Saved</button>",
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.06 (foreground color: #717182, background color: #ececf0, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "target": [
+            "h3[data-i18n=\"cfg.aiTitle\"]"
+          ],
+          "html": "<h3 data-i18n=\"cfg.aiTitle\">AI Parameter Assistant</h3>",
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.73 (foreground color: #9b9bab, background color: #ffffff, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "target": [
+            "p[data-i18n=\"cfg.aiDescribe\"]"
+          ],
+          "html": "<p class=\"ai-description\" data-i18n=\"cfg.aiDescribe\">Describe the patient's anthropometric data (e.g., \"woman, 42 years old, 75 kg, 172 cm, arm length 65 cm\")</p>",
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.73 (foreground color: #9b9bab, background color: #ffffff, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "target": [
+            "p[data-i18n=\"cfg.baselineHint\"]"
+          ],
+          "html": "<p class=\"ai-description\" style=\"margin:4px 0 0\" data-i18n=\"cfg.baselineHint\">Seed the sliders from an imported population group, then fine-tune.</p>",
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.73 (foreground color: #9b9bab, background color: #ffffff, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "target": [
+            "p[data-i18n=\"preview.subtitle\"]"
+          ],
+          "html": "<p data-i18n=\"preview.subtitle\">Interactive model viewer</p>",
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.73 (foreground color: #9b9bab, background color: #ffffff, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,255 @@
+{
+  "test_id": "ACC-AUT-004",
+  "state": "params",
+  "tags": [
+    "wcag2a",
+    "wcag2aa",
+    "wcag21a",
+    "wcag21aa",
+    "wcag22aa"
+  ],
+  "violation_count": 3,
+  "passes": 31,
+  "incomplete": 2,
+  "violations": [
+    {
+      "id": "color-contrast",
+      "impact": "serious",
+      "help": "Elements must meet minimum color contrast ratio thresholds",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+      "tags": [
+        "wcag2aa",
+        "wcag143"
+      ],
+      "nodes": [
+        {
+          "target": [
+            "button[data-tab=\"ai\"]"
+          ],
+          "html": "<button class=\"hf-tab-btn\" data-tab=\"ai\" data-i18n=\"cfg.tabAi\">AI Assistant</button>",
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.06 (foreground color: #717182, background color: #ececf0, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "target": [
+            "button[data-tab=\"colors\"]"
+          ],
+          "html": "<button class=\"hf-tab-btn\" data-tab=\"colors\" data-i18n=\"cfg.tabColors\">Colors</button>",
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.06 (foreground color: #717182, background color: #ececf0, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "target": [
+            "button[data-tab=\"saved\"]"
+          ],
+          "html": "<button class=\"hf-tab-btn\" data-tab=\"saved\" data-i18n=\"cfg.tabSaved\">Saved</button>",
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.06 (foreground color: #717182, background color: #ececf0, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "target": [
+            ".param-group:nth-child(1) > div:nth-child(1) > h3"
+          ],
+          "html": "<h3>Anthropometric</h3>",
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.73 (foreground color: #9b9bab, background color: #ffffff, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "target": [
+            "#parameters > .param-group:nth-child(1) > .param-item:nth-child(2) > .param-caption"
+          ],
+          "html": "<div class=\"param-caption\">Which hand to generate — Right hand mirrors the geometry along X</div>",
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.73 (foreground color: #9b9bab, background color: #ffffff, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "target": [
+            "#parameters > .param-group:nth-child(1) > .param-item:nth-child(3) > .param-caption"
+          ],
+          "html": "<div class=\"param-caption\">Knuckle-to-knuckle metacarpal breadth — drives uniform palm and hand scale via Cyborg Beast formula: scale = (breadth + 5) / 55 (mm)</div>",
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.73 (foreground color: #9b9bab, background color: #ffffff, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "target": [
+            ".param-group:nth-child(1) > .param-item:nth-child(3) > div:nth-child(4) > span:nth-child(1)"
+          ],
+          "html": "<span>55</span>",
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.84 (foreground color: #999999, background color: #ffffff, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "target": [
+            ".param-group:nth-child(1) > .param-item:nth-child(3) > div:nth-child(4) > span:nth-child(2)"
+          ],
+          "html": "<span>110</span>",
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.84 (foreground color: #999999, background color: #ffffff, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "target": [
+            "#parameters > .param-group:nth-child(1) > .param-item:nth-child(4) > .param-caption"
+          ],
+          "html": "<div class=\"param-caption\">Middle finger MCP crease to tip — drives global finger length multiplier; reference reach at scale = REF_FINGER × xScaleFactor = 37 × ((palm_breadth + 5) / 55) mm (mm)</div>",
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.73 (foreground color: #9b9bab, background color: #ffffff, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "target": [
+            ".param-group:nth-child(1) > .param-item:nth-child(4) > div:nth-child(4) > span:nth-child(1)"
+          ],
+          "html": "<span>40</span>",
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.84 (foreground color: #999999, background color: #ffffff, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "target": [
+            ".param-group:nth-child(1) > .param-item:nth-child(4) > div:nth-child(4) > span:nth-child(2)"
+          ],
+          "html": "<span>120</span>",
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.84 (foreground color: #999999, background color: #ffffff, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "target": [
+            "#parameters > .param-group:nth-child(1) > .param-item:nth-child(5) > .param-caption"
+          ],
+          "html": "<div class=\"param-caption\">Index finger MCP crease to tip — sets index finger proportion relative to middle finger (mm)</div>",
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.73 (foreground color: #9b9bab, background color: #ffffff, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "target": [
+            "p[data-i18n=\"preview.subtitle\"]"
+          ],
+          "html": "<p data-i18n=\"preview.subtitle\">Interactive model viewer</p>",
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.73 (foreground color: #9b9bab, background color: #ffffff, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+        }
+      ]
+    },
+    {
+      "id": "label",
+      "impact": "critical",
+      "help": "Form elements must have labels",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/label?application=playwright",
+      "tags": [
+        "wcag2a",
+        "wcag412"
+      ],
+      "nodes": [
+        {
+          "target": [
+            "#param-palm_breadth_mm"
+          ],
+          "html": "<input type=\"range\" id=\"param-palm_breadth_mm\" class=\"param-control\" min=\"55\" max=\"110\" step=\"1\" value=\"83\" style=\"--range-pct: 50.9%\">",
+          "failureSummary": "Fix any of the following:\n  Element does not have an implicit (wrapped) <label>\n  Element does not have an explicit <label>\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element has no placeholder attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+        },
+        {
+          "target": [
+            "#param-middle_finger_length_mm"
+          ],
+          "html": "<input type=\"range\" id=\"param-middle_finger_length_mm\" class=\"param-control\" min=\"40\" max=\"120\" step=\"1\" value=\"72\" style=\"--range-pct: 40.0%\">",
+          "failureSummary": "Fix any of the following:\n  Element does not have an implicit (wrapped) <label>\n  Element does not have an explicit <label>\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element has no placeholder attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+        },
+        {
+          "target": [
+            "#param-index_finger_length_mm"
+          ],
+          "html": "<input type=\"range\" id=\"param-index_finger_length_mm\" class=\"param-control\" min=\"40\" max=\"120\" step=\"1\" value=\"68\" style=\"--range-pct: 35.0%\">",
+          "failureSummary": "Fix any of the following:\n  Element does not have an implicit (wrapped) <label>\n  Element does not have an explicit <label>\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element has no placeholder attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+        },
+        {
+          "target": [
+            "#param-ring_finger_length_mm"
+          ],
+          "html": "<input type=\"range\" id=\"param-ring_finger_length_mm\" class=\"param-control\" min=\"40\" max=\"120\" step=\"1\" value=\"68\" style=\"--range-pct: 35.0%\">",
+          "failureSummary": "Fix any of the following:\n  Element does not have an implicit (wrapped) <label>\n  Element does not have an explicit <label>\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element has no placeholder attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+        },
+        {
+          "target": [
+            "#param-pinky_finger_length_mm"
+          ],
+          "html": "<input type=\"range\" id=\"param-pinky_finger_length_mm\" class=\"param-control\" min=\"30\" max=\"100\" step=\"1\" value=\"55\" style=\"--range-pct: 35.7%\">",
+          "failureSummary": "Fix any of the following:\n  Element does not have an implicit (wrapped) <label>\n  Element does not have an explicit <label>\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element has no placeholder attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+        },
+        {
+          "target": [
+            "#param-thumb_length_mm"
+          ],
+          "html": "<input type=\"range\" id=\"param-thumb_length_mm\" class=\"param-control\" min=\"35\" max=\"100\" step=\"1\" value=\"65\" style=\"--range-pct: 46.2%\">",
+          "failureSummary": "Fix any of the following:\n  Element does not have an implicit (wrapped) <label>\n  Element does not have an explicit <label>\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element has no placeholder attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+        },
+        {
+          "target": [
+            "#param-joint_dia"
+          ],
+          "html": "<input type=\"range\" id=\"param-joint_dia\" class=\"param-control\" min=\"4\" max=\"10\" step=\"0.5\" value=\"7\" style=\"--range-pct: 50.0%\">",
+          "failureSummary": "Fix any of the following:\n  Element does not have an implicit (wrapped) <label>\n  Element does not have an explicit <label>\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element has no placeholder attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+        },
+        {
+          "target": [
+            "#param-joint_thick"
+          ],
+          "html": "<input type=\"range\" id=\"param-joint_thick\" class=\"param-control\" min=\"1\" max=\"6\" step=\"0.5\" value=\"4\" style=\"--range-pct: 60.0%\">",
+          "failureSummary": "Fix any of the following:\n  Element does not have an implicit (wrapped) <label>\n  Element does not have an explicit <label>\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element has no placeholder attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+        },
+        {
+          "target": [
+            "#param-gauntlet_width_mm"
+          ],
+          "html": "<input type=\"range\" id=\"param-gauntlet_width_mm\" class=\"param-control\" min=\"40\" max=\"90\" step=\"1\" value=\"60\" style=\"--range-pct: 40.0%\">",
+          "failureSummary": "Fix any of the following:\n  Element does not have an implicit (wrapped) <label>\n  Element does not have an explicit <label>\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element has no placeholder attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+        },
+        {
+          "target": [
+            "#param-gauntlet_length_mm"
+          ],
+          "html": "<input type=\"range\" id=\"param-gauntlet_length_mm\" class=\"param-control\" min=\"70\" max=\"150\" step=\"1\" value=\"108\" style=\"--range-pct: 47.5%\">",
+          "failureSummary": "Fix any of the following:\n  Element does not have an implicit (wrapped) <label>\n  Element does not have an explicit <label>\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element has no placeholder attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+        },
+        {
+          "target": [
+            "#param-gauntlet_wall_mm"
+          ],
+          "html": "<input type=\"range\" id=\"param-gauntlet_wall_mm\" class=\"param-control\" min=\"2\" max=\"5\" step=\"0.5\" value=\"3\" style=\"--range-pct: 33.3%\">",
+          "failureSummary": "Fix any of the following:\n  Element does not have an implicit (wrapped) <label>\n  Element does not have an explicit <label>\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element has no placeholder attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+        },
+        {
+          "target": [
+            "#param-gauntlet_pos_adjust"
+          ],
+          "html": "<input type=\"range\" id=\"param-gauntlet_pos_adjust\" class=\"param-control\" min=\"-25\" max=\"25\" step=\"1\" value=\"0\" style=\"--range-pct: 50.0%\">",
+          "failureSummary": "Fix any of the following:\n  Element does not have an implicit (wrapped) <label>\n  Element does not have an explicit <label>\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element has no placeholder attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+        },
+        {
+          "target": [
+            "#param-wrist_pin_dia"
+          ],
+          "html": "<input type=\"range\" id=\"param-wrist_pin_dia\" class=\"param-control\" min=\"3\" max=\"8\" step=\"0.5\" value=\"7\" style=\"--range-pct: 80.0%\">",
+          "failureSummary": "Fix any of the following:\n  Element does not have an implicit (wrapped) <label>\n  Element does not have an explicit <label>\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element has no placeholder attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+        },
+        {
+          "target": [
+            "#param-wrist_pin_clearance"
+          ],
+          "html": "<input type=\"range\" id=\"param-wrist_pin_clearance\" class=\"param-control\" min=\"0.1\" max=\"0.8\" step=\"0.05\" value=\"0.35\" style=\"--range-pct: 35.7%\">",
+          "failureSummary": "Fix any of the following:\n  Element does not have an implicit (wrapped) <label>\n  Element does not have an explicit <label>\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element has no placeholder attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+        },
+        {
+          "target": [
+            "#param-strap_splay_adjust"
+          ],
+          "html": "<input type=\"range\" id=\"param-strap_splay_adjust\" class=\"param-control\" min=\"-8\" max=\"8\" step=\"0.5\" value=\"0\" style=\"--range-pct: 50.0%\">",
+          "failureSummary": "Fix any of the following:\n  Element does not have an implicit (wrapped) <label>\n  Element does not have an explicit <label>\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element has no placeholder attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+        }
+      ]
+    },
+    {
+      "id": "select-name",
+      "impact": "critical",
+      "help": "Select element must have an accessible name",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/select-name?application=playwright",
+      "tags": [
+        "wcag2a",
+        "wcag412"
+      ],
+      "nodes": [
+        {
+          "target": [
+            "#param-mirrored"
+          ],
+          "html": "<select id=\"param-mirrored\" class=\"param-control\"><option value=\"false\" selected=\"\">Left hand</option><option value=\"true\">Right hand</option></select>",
+          "failureSummary": "Fix any of the following:\n  Element does not have an implicit (wrapped) <label>\n  Element does not have an explicit <label>\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+        }
+      ]
+    }
+  ]
+}

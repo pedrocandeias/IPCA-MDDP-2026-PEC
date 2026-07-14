@@ -1,0 +1,75 @@
+{
+  "test_id": "ACC-AUT-002",
+  "state": "dashboard",
+  "tags": [
+    "wcag2a",
+    "wcag2aa",
+    "wcag21a",
+    "wcag21aa",
+    "wcag22aa"
+  ],
+  "violation_count": 2,
+  "passes": 27,
+  "incomplete": 2,
+  "violations": [
+    {
+      "id": "color-contrast",
+      "impact": "serious",
+      "help": "Elements must meet minimum color contrast ratio thresholds",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+      "tags": [
+        "wcag2aa",
+        "wcag143"
+      ],
+      "nodes": [
+        {
+          "target": [
+            ".sel-empty"
+          ],
+          "html": "<p class=\"sel-empty\">No saved configurations yet. Configure a model to save it here.</p>",
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.73 (foreground color: #9b9bab, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+        }
+      ]
+    },
+    {
+      "id": "nested-interactive",
+      "impact": "serious",
+      "help": "Interactive controls must not be nested",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/nested-interactive?application=playwright",
+      "tags": [
+        "wcag2a",
+        "wcag412"
+      ],
+      "nodes": [
+        {
+          "target": [
+            "div[data-model-id=\"flexy_beast\"]"
+          ],
+          "html": "<div class=\"sel-model-card\" data-model-id=\"flexy_beast\" role=\"button\" tabindex=\"0\" aria-label=\"Configure Flexy Beast\">",
+          "failureSummary": "Fix any of the following:\n  Using a negative tabindex on an element inside an interactive control does not prevent assistive technologies from focusing the element (even with aria-hidden=\"true\")"
+        },
+        {
+          "target": [
+            "div[data-model-id=\"unlimbed_phoenix_hand\"]"
+          ],
+          "html": "<div class=\"sel-model-card\" data-model-id=\"unlimbed_phoenix_hand\" role=\"button\" tabindex=\"0\" aria-label=\"Configure UnLimbited Phoenix Hand\">",
+          "failureSummary": "Fix any of the following:\n  Using a negative tabindex on an element inside an interactive control does not prevent assistive technologies from focusing the element (even with aria-hidden=\"true\")"
+        },
+        {
+          "target": [
+            "div[data-model-id=\"paraglider_hand\"]"
+          ],
+          "html": "<div class=\"sel-model-card\" data-model-id=\"paraglider_hand\" role=\"button\" tabindex=\"0\" aria-label=\"Configure Paraglider · Hand\">",
+          "failureSummary": "Fix any of the following:\n  Using a negative tabindex on an element inside an interactive control does not prevent assistive technologies from focusing the element (even with aria-hidden=\"true\")"
+        },
+        {
+          "target": [
+            "div[data-model-id=\"cyborg_beast\"]"
+          ],
+          "html": "<div class=\"sel-model-card\" data-model-id=\"cyborg_beast\" role=\"button\" tabindex=\"0\" aria-label=\"Configure Cyborg Beast\">",
+          "failureSummary": "Fix any of the following:\n  Using a negative tabindex on an element inside an interactive control does not prevent assistive technologies from focusing the element (even with aria-hidden=\"true\")"
+        }
+      ]
+    }
+  ]
+}

@@ -466,16 +466,30 @@ def paragraph_xml(block: ParagraphBlock) -> str:
     return f"<w:p><w:pPr>{style_xml}</w:pPr>{runs}</w:p>"
 
 
-def cell_xml(text: str) -> str:
+def cell_xml(text: str, width_twips: int) -> str:
     paragraph = paragraph_xml(ParagraphBlock(text))
-    return f"<w:tc><w:tcPr><w:tcW w:w=\"0\" w:type=\"auto\"/></w:tcPr>{paragraph}</w:tc>"
+    return (
+        f"<w:tc><w:tcPr><w:tcW w:w=\"{width_twips}\" w:type=\"dxa\"/>"
+        f"</w:tcPr>{paragraph}</w:tc>"
+    )
 
 
 def table_xml(block: TableBlock) -> str:
+    column_count = max((len(row) for row in block.rows), default=1)
+    table_width_twips = 9000
+    column_width = max(1, table_width_twips // column_count)
+    grid = "<w:tblGrid>" + "".join(
+        f"<w:gridCol w:w=\"{column_width}\"/>" for _ in range(column_count)
+    ) + "</w:tblGrid>"
     rows: list[str] = []
     for row_index, row in enumerate(block.rows):
-        cells = "".join(cell_xml(cell) for cell in row)
-        tr_pr = "<w:trPr><w:tblHeader/></w:trPr>" if row_index == 0 else ""
+        normalized_row = list(row) + [""] * (column_count - len(row))
+        cells = "".join(cell_xml(cell, column_width) for cell in normalized_row)
+        tr_pr = (
+            "<w:trPr><w:tblHeader/><w:cantSplit/></w:trPr>"
+            if row_index == 0
+            else "<w:trPr><w:cantSplit/></w:trPr>"
+        )
         rows.append(f"<w:tr>{tr_pr}{cells}</w:tr>")
     return (
         "<w:tbl>"
@@ -488,6 +502,7 @@ def table_xml(block: TableBlock) -> str:
         "<w:insideH w:val=\"single\" w:sz=\"4\" w:color=\"808080\"/>"
         "<w:insideV w:val=\"single\" w:sz=\"4\" w:color=\"808080\"/>"
         "</w:tblBorders></w:tblPr>"
+        + grid
         + "".join(rows)
         + "</w:tbl>"
     )

@@ -1,0 +1,270 @@
+{
+  "config": {
+    "configFile": "/home/pec/dev/ai-parametric-prosthetic-hand-generator/test/thesis/playwright.thesis.config.js",
+    "rootDir": "/home/pec/dev/ai-parametric-prosthetic-hand-generator/test/thesis",
+    "forbidOnly": true,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "/home/pec/dev/ai-parametric-prosthetic-hand-generator/test-results/thesis-evaluation/2026-07-13_23-22-21_repetition/artifacts/pw-output",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "/home/pec/dev/ai-parametric-prosthetic-hand-generator/test/thesis",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.spec.js"
+        ],
+        "timeout": 360000
+      },
+      {
+        "outputDir": "/home/pec/dev/ai-parametric-prosthetic-hand-generator/test-results/thesis-evaluation/2026-07-13_23-22-21_repetition/artifacts/pw-output",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "firefox",
+        "name": "firefox",
+        "testDir": "/home/pec/dev/ai-parametric-prosthetic-hand-generator/test/thesis",
+        "testIgnore": [],
+        "testMatch": [
+          "**/rep-xbr.spec.js"
+        ],
+        "timeout": 360000
+      },
+      {
+        "outputDir": "/home/pec/dev/ai-parametric-prosthetic-hand-generator/test-results/thesis-evaluation/2026-07-13_23-22-21_repetition/artifacts/pw-output",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "webkit",
+        "name": "webkit",
+        "testDir": "/home/pec/dev/ai-parametric-prosthetic-hand-generator/test/thesis",
+        "testIgnore": [],
+        "testMatch": [
+          "**/rep-xbr.spec.js"
+        ],
+        "timeout": 360000
+      },
+      {
+        "outputDir": "/home/pec/dev/ai-parametric-prosthetic-hand-generator/test-results/thesis-evaluation/2026-07-13_23-22-21_repetition/artifacts/pw-output",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "public",
+        "name": "public",
+        "testDir": "/home/pec/dev/ai-parametric-prosthetic-hand-generator/test/thesis",
+        "testIgnore": [],
+        "testMatch": [
+          "**/a11y-public.spec.js"
+        ],
+        "timeout": 360000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "html",
+        {
+          "open": "never",
+          "outputFolder": "/home/pec/dev/ai-parametric-prosthetic-hand-generator/test-results/thesis-evaluation/2026-07-13_23-22-21_repetition/playwright-report"
+        }
+      ],
+      [
+        "json",
+        {
+          "outputFile": "/home/pec/dev/ai-parametric-prosthetic-hand-generator/test-results/thesis-evaluation/2026-07-13_23-22-21_repetition/results/playwright-results.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.59.1",
+    "workers": 1,
+    "webServer": {
+      "command": "node server/index.js",
+      "cwd": "/home/pec/dev/ai-parametric-prosthetic-hand-generator",
+      "url": "http://localhost:3100/api/setup/status",
+      "reuseExistingServer": false,
+      "timeout": 30000,
+      "env": {
+        "PORT": "3100",
+        "HANDFAB_DB_PATH": "/home/pec/dev/ai-parametric-prosthetic-hand-generator/data/thesis-test.db",
+        "JWT_SECRET": "d29b60b85b867dfd74e9cc168d142d42e2eb52af71c4a7a5d62a417668aa7ab7",
+        "NODE_ENV": "test",
+        "LOGIN_RATE_LIMIT_MAX": "100000",
+        "ANTHROPIC_API_KEY": "",
+        "OPENAI_API_KEY": ""
+      }
+    }
+  },
+  "suites": [
+    {
+      "title": "repetition/rep-xbr.spec.js",
+      "file": "repetition/rep-xbr.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "REP-XBR-001 · cross-browser render+export of a frozen config",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 240000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 24858,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-07-13T22:55:12.236Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "dc8d81945912af97d781-a0ed7a4ff235252e9344",
+          "file": "repetition/rep-xbr.spec.js",
+          "line": 25,
+          "column": 1
+        },
+        {
+          "title": "REP-XBR-001 · cross-browser render+export of a frozen config",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 240000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 59523,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-07-13T22:55:37.578Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "dc8d81945912af97d781-e63f196d4892712ae71e",
+          "file": "repetition/rep-xbr.spec.js",
+          "line": 25,
+          "column": 1
+        },
+        {
+          "title": "REP-XBR-001 · cross-browser render+export of a frozen config",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 1,
+                  "error": {
+                    "message": "Error: browserType.launch: Target page, context or browser has been closed\nBrowser logs:\n\n<launching> /home/pec/.cache/ms-playwright/webkit-2272/pw_run.sh --inspector-pipe --headless --no-startup-window --disable-dev-shm-usage\n<launched> pid=1789411\n[pid=1789411][err] Cannot parse arguments: Unknown option --disable-dev-shm-usage\nCall log:\n\u001b[2m  - <launching> /home/pec/.cache/ms-playwright/webkit-2272/pw_run.sh --inspector-pipe --headless --no-startup-window --disable-dev-shm-usage\u001b[22m\n\u001b[2m  - <launched> pid=1789411\u001b[22m\n\u001b[2m  - [pid=1789411][err] Cannot parse arguments: Unknown option --disable-dev-shm-usage\u001b[22m\n\u001b[2m  - [pid=1789411] <gracefully close start>\u001b[22m\n\u001b[2m  - [pid=1789411] <kill>\u001b[22m\n\u001b[2m  - [pid=1789411] <will force kill>\u001b[22m\n\u001b[2m  - [pid=1789411] <process did exit: exitCode=1, signal=null>\u001b[22m\n\u001b[2m  - [pid=1789411] starting temporary directories cleanup\u001b[22m\n\u001b[2m  - [pid=1789411] finished temporary directories cleanup\u001b[22m\n\u001b[2m  - [pid=1789411] <gracefully close end>\u001b[22m\n",
+                    "stack": "Error: browserType.launch: Target page, context or browser has been closed\nBrowser logs:\n\n<launching> /home/pec/.cache/ms-playwright/webkit-2272/pw_run.sh --inspector-pipe --headless --no-startup-window --disable-dev-shm-usage\n<launched> pid=1789411\n[pid=1789411][err] Cannot parse arguments: Unknown option --disable-dev-shm-usage\nCall log:\n\u001b[2m  - <launching> /home/pec/.cache/ms-playwright/webkit-2272/pw_run.sh --inspector-pipe --headless --no-startup-window --disable-dev-shm-usage\u001b[22m\n\u001b[2m  - <launched> pid=1789411\u001b[22m\n\u001b[2m  - [pid=1789411][err] Cannot parse arguments: Unknown option --disable-dev-shm-usage\u001b[22m\n\u001b[2m  - [pid=1789411] <gracefully close start>\u001b[22m\n\u001b[2m  - [pid=1789411] <kill>\u001b[22m\n\u001b[2m  - [pid=1789411] <will force kill>\u001b[22m\n\u001b[2m  - [pid=1789411] <process did exit: exitCode=1, signal=null>\u001b[22m\n\u001b[2m  - [pid=1789411] starting temporary directories cleanup\u001b[22m\n\u001b[2m  - [pid=1789411] finished temporary directories cleanup\u001b[22m\n\u001b[2m  - [pid=1789411] <gracefully close end>\u001b[22m\n"
+                  },
+                  "errors": [
+                    {
+                      "message": "Error: browserType.launch: Target page, context or browser has been closed\nBrowser logs:\n\n<launching> /home/pec/.cache/ms-playwright/webkit-2272/pw_run.sh --inspector-pipe --headless --no-startup-window --disable-dev-shm-usage\n<launched> pid=1789411\n[pid=1789411][err] Cannot parse arguments: Unknown option --disable-dev-shm-usage\nCall log:\n\u001b[2m  - <launching> /home/pec/.cache/ms-playwright/webkit-2272/pw_run.sh --inspector-pipe --headless --no-startup-window --disable-dev-shm-usage\u001b[22m\n\u001b[2m  - <launched> pid=1789411\u001b[22m\n\u001b[2m  - [pid=1789411][err] Cannot parse arguments: Unknown option --disable-dev-shm-usage\u001b[22m\n\u001b[2m  - [pid=1789411] <gracefully close start>\u001b[22m\n\u001b[2m  - [pid=1789411] <kill>\u001b[22m\n\u001b[2m  - [pid=1789411] <will force kill>\u001b[22m\n\u001b[2m  - [pid=1789411] <process did exit: exitCode=1, signal=null>\u001b[22m\n\u001b[2m  - [pid=1789411] starting temporary directories cleanup\u001b[22m\n\u001b[2m  - [pid=1789411] finished temporary directories cleanup\u001b[22m\n\u001b[2m  - [pid=1789411] <gracefully close end>\u001b[22m\n"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-07-13T22:56:38.465Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "/home/pec/dev/ai-parametric-prosthetic-hand-generator/test-results/thesis-evaluation/2026-07-13_23-22-21_repetition/artifacts/pw-output/repetition-rep-xbr-REP-XBR-3561b-r-export-of-a-frozen-config-webkit/error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "/home/pec/dev/ai-parametric-prosthetic-hand-generator/test-results/thesis-evaluation/2026-07-13_23-22-21_repetition/artifacts/pw-output/repetition-rep-xbr-REP-XBR-3561b-r-export-of-a-frozen-config-webkit/trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "dc8d81945912af97d781-4126dde64b7b360bd210",
+          "file": "repetition/rep-xbr.spec.js",
+          "line": 25,
+          "column": 1
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-07-13T22:55:11.478Z",
+    "duration": 87101.526,
+    "expected": 2,
+    "skipped": 0,
+    "unexpected": 1,
+    "flaky": 0
+  }
+}

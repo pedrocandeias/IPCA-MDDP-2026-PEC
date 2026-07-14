@@ -1,0 +1,18 @@
+{
+  "test_id": "REP-XBR-001",
+  "reference_browser": "chromium",
+  "tolerance_mm": 0.05,
+  "browsers": {
+    "chromium": {
+      "classification": "serialization_identical"
+    },
+    "firefox": {
+      "classification": "serialization_identical"
+    },
+    "webkit": {
+      "classification": "not_completed",
+      "phase": "login",
+      "error": "page.waitForSelector: Timeout 20000ms exceeded."
+    }
+  }
+}

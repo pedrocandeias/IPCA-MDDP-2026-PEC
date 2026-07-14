@@ -1,0 +1,8 @@
+{
+  "test_id": "REP-XBR-001",
+  "browser": "webkit",
+  "model_id": "unlimbed_phoenix_hand",
+  "status": "not_completed",
+  "phase": "login",
+  "error": "page.waitForSelector: Timeout 20000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#login-form') to be visible\u001b[22m\n\u001b[2m    44 × locator resolved to hidden <form id=\"login-form\" autocomplete=\"on\">…</form>\u001b[22m\n"
+}

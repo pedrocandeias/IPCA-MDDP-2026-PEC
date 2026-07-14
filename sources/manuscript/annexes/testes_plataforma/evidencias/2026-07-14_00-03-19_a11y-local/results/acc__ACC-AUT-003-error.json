@@ -1,0 +1,96 @@
+{
+  "test_id": "ACC-AUT-003",
+  "state": "error",
+  "tags": [
+    "wcag2a",
+    "wcag2aa",
+    "wcag21a",
+    "wcag21aa",
+    "wcag22aa"
+  ],
+  "violation_count": 2,
+  "passes": 27,
+  "incomplete": 2,
+  "violations": [
+    {
+      "id": "color-contrast",
+      "impact": "serious",
+      "help": "Elements must meet minimum color contrast ratio thresholds",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+      "tags": [
+        "wcag2aa",
+        "wcag143"
+      ],
+      "nodes": [
+        {
+          "target": [
+            "button[data-tab=\"security\"]"
+          ],
+          "html": "<button class=\"hf-tab-btn\" data-tab=\"security\" data-i18n=\"profile.security\">Security</button>",
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.06 (foreground color: #717182, background color: #ececf0, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "target": [
+            "p[data-i18n=\"profile.accountNote\"]"
+          ],
+          "html": "<p style=\"font-size:0.8125rem;color:var(--text-muted);margin-bottom:20px\" data-i18n=\"profile.accountNote\">Your account details. Contact an administrator to update username or email.</p>",
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.73 (foreground color: #9b9bab, background color: #ffffff, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "target": [
+            "#profile-username"
+          ],
+          "html": "<input type=\"text\" id=\"profile-username\" readonly=\"\" style=\"\">",
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.31 (foreground color: #717182, background color: #f3f3f5, font size: 11.3pt (15px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "target": [
+            "#profile-email"
+          ],
+          "html": "<input type=\"text\" id=\"profile-email\" readonly=\"\" style=\"\">",
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.31 (foreground color: #717182, background color: #f3f3f5, font size: 11.3pt (15px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "target": [
+            "#profile-role"
+          ],
+          "html": "<input type=\"text\" id=\"profile-role\" readonly=\"\" style=\"\">",
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.31 (foreground color: #717182, background color: #f3f3f5, font size: 11.3pt (15px), font weight: normal). Expected contrast ratio of 4.5:1"
+        }
+      ]
+    },
+    {
+      "id": "label",
+      "impact": "critical",
+      "help": "Form elements must have labels",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/label?application=playwright",
+      "tags": [
+        "wcag2a",
+        "wcag412"
+      ],
+      "nodes": [
+        {
+          "target": [
+            "#profile-username"
+          ],
+          "html": "<input type=\"text\" id=\"profile-username\" readonly=\"\" style=\"\">",
+          "failureSummary": "Fix any of the following:\n  Element does not have an implicit (wrapped) <label>\n  Element does not have an explicit <label>\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element has no placeholder attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+        },
+        {
+          "target": [
+            "#profile-email"
+          ],
+          "html": "<input type=\"text\" id=\"profile-email\" readonly=\"\" style=\"\">",
+          "failureSummary": "Fix any of the following:\n  Element does not have an implicit (wrapped) <label>\n  Element does not have an explicit <label>\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element has no placeholder attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+        },
+        {
+          "target": [
+            "#profile-role"
+          ],
+          "html": "<input type=\"text\" id=\"profile-role\" readonly=\"\" style=\"\">",
+          "failureSummary": "Fix any of the following:\n  Element does not have an implicit (wrapped) <label>\n  Element does not have an explicit <label>\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element has no placeholder attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+        }
+      ]
+    }
+  ]
+}

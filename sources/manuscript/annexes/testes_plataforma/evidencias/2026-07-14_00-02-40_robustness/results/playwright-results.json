@@ -1,0 +1,617 @@
+{
+  "config": {
+    "configFile": "/home/pec/dev/ai-parametric-prosthetic-hand-generator/test/thesis/playwright.thesis.config.js",
+    "rootDir": "/home/pec/dev/ai-parametric-prosthetic-hand-generator/test/thesis",
+    "forbidOnly": true,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "/home/pec/dev/ai-parametric-prosthetic-hand-generator/test-results/thesis-evaluation/2026-07-14_00-02-40_robustness/artifacts/pw-output",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "/home/pec/dev/ai-parametric-prosthetic-hand-generator/test/thesis",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.spec.js"
+        ],
+        "timeout": 360000
+      },
+      {
+        "outputDir": "/home/pec/dev/ai-parametric-prosthetic-hand-generator/test-results/thesis-evaluation/2026-07-14_00-02-40_robustness/artifacts/pw-output",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "firefox",
+        "name": "firefox",
+        "testDir": "/home/pec/dev/ai-parametric-prosthetic-hand-generator/test/thesis",
+        "testIgnore": [],
+        "testMatch": [
+          "**/rep-xbr.spec.js"
+        ],
+        "timeout": 360000
+      },
+      {
+        "outputDir": "/home/pec/dev/ai-parametric-prosthetic-hand-generator/test-results/thesis-evaluation/2026-07-14_00-02-40_robustness/artifacts/pw-output",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "webkit",
+        "name": "webkit",
+        "testDir": "/home/pec/dev/ai-parametric-prosthetic-hand-generator/test/thesis",
+        "testIgnore": [],
+        "testMatch": [
+          "**/rep-xbr.spec.js"
+        ],
+        "timeout": 360000
+      },
+      {
+        "outputDir": "/home/pec/dev/ai-parametric-prosthetic-hand-generator/test-results/thesis-evaluation/2026-07-14_00-02-40_robustness/artifacts/pw-output",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "public",
+        "name": "public",
+        "testDir": "/home/pec/dev/ai-parametric-prosthetic-hand-generator/test/thesis",
+        "testIgnore": [],
+        "testMatch": [
+          "**/a11y-public.spec.js"
+        ],
+        "timeout": 360000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "html",
+        {
+          "open": "never",
+          "outputFolder": "/home/pec/dev/ai-parametric-prosthetic-hand-generator/test-results/thesis-evaluation/2026-07-14_00-02-40_robustness/playwright-report"
+        }
+      ],
+      [
+        "json",
+        {
+          "outputFile": "/home/pec/dev/ai-parametric-prosthetic-hand-generator/test-results/thesis-evaluation/2026-07-14_00-02-40_robustness/results/playwright-results.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.59.1",
+    "workers": 1,
+    "webServer": {
+      "command": "node server/index.js",
+      "cwd": "/home/pec/dev/ai-parametric-prosthetic-hand-generator",
+      "url": "http://localhost:3100/api/setup/status",
+      "reuseExistingServer": false,
+      "timeout": 30000,
+      "env": {
+        "PORT": "3100",
+        "HANDFAB_DB_PATH": "/home/pec/dev/ai-parametric-prosthetic-hand-generator/data/thesis-test.db",
+        "JWT_SECRET": "d29b60b85b867dfd74e9cc168d142d42e2eb52af71c4a7a5d62a417668aa7ab7",
+        "NODE_ENV": "test",
+        "LOGIN_RATE_LIMIT_MAX": "100000",
+        "ANTHROPIC_API_KEY": "",
+        "OPENAI_API_KEY": ""
+      }
+    }
+  },
+  "suites": [
+    {
+      "title": "robustness/rob-api.spec.js",
+      "file": "robustness/rob-api.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "ROB · API validation & service robustness",
+          "file": "robustness/rob-api.spec.js",
+          "line": 40,
+          "column": 6,
+          "specs": [
+            {
+              "title": "ROB-INV-001/002 · out-of-range parameter is rejected by config API",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 360000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 19,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-13T23:02:42.398Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "1481d4b8923aad210a95-b10dc5425e631645b9f5",
+              "file": "robustness/rob-api.spec.js",
+              "line": 42,
+              "column": 5
+            },
+            {
+              "title": "ROB-INV-003 · missing required field is detected",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 360000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 9,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-13T23:02:42.735Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "1481d4b8923aad210a95-d904c4a49b6fc706892a",
+              "file": "robustness/rob-api.spec.js",
+              "line": 69,
+              "column": 5
+            },
+            {
+              "title": "ROB-INV-004 · wrong type in numeric parameter (observed behaviour)",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 360000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 79,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-13T23:02:42.750Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "1481d4b8923aad210a95-bdd0bdaed03f62eef42a",
+              "file": "robustness/rob-api.spec.js",
+              "line": 85,
+              "column": 5
+            },
+            {
+              "title": "ROB-SRV-001 · AI unavailable does not destroy a saved configuration",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 360000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 24,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-13T23:02:42.835Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "1481d4b8923aad210a95-8c31d98d37f6ff5d0dde",
+              "file": "robustness/rob-api.spec.js",
+              "line": 108,
+              "column": 5
+            },
+            {
+              "title": "ROB-MOD-001 · profile below the Phoenix floor triggers an explicit clamp",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 360000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-13T23:02:42.864Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "1481d4b8923aad210a95-a53d6c40ddf72f6aca4a",
+              "file": "robustness/rob-api.spec.js",
+              "line": 136,
+              "column": 5
+            },
+            {
+              "title": "ROB-COV-001 · country without coverage yields a traceable substitute, not a false direct match",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 360000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 4,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-13T23:02:42.869Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "1481d4b8923aad210a95-16c42e919f333492d8ba",
+              "file": "robustness/rob-api.spec.js",
+              "line": 163,
+              "column": 5
+            },
+            {
+              "title": "ROB-CON-001 · contradictory age/description resolved by a documented rule",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 360000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-13T23:02:42.879Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "1481d4b8923aad210a95-21f96b425e4b2a1729f2",
+              "file": "robustness/rob-api.spec.js",
+              "line": 183,
+              "column": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "robustness/rob-ui.spec.js",
+      "file": "robustness/rob-ui.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "ROB · UI flow robustness",
+          "file": "robustness/rob-ui.spec.js",
+          "line": 27,
+          "column": 6,
+          "specs": [
+            {
+              "title": "ROB-NOM-001 · nominal flow concludes (config→render→export)",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 240000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 10550,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-13T23:02:43.251Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "7fdcc96f19e35f4f429a-5e94ff31dc4e3e3bd46f",
+              "file": "robustness/rob-ui.spec.js",
+              "line": 29,
+              "column": 5
+            },
+            {
+              "title": "ROB-LIM-001/002 · exact min and max render per spec",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 240000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 7637,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-13T23:03:02.662Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "7fdcc96f19e35f4f429a-3347f489c25d90e6acbb",
+              "file": "robustness/rob-ui.spec.js",
+              "line": 44,
+              "column": 5
+            },
+            {
+              "title": "ROB-INV-004 · non-numeric text in a numeric control is not accepted",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 360000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 684,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-13T23:03:10.309Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "7fdcc96f19e35f4f429a-db182291b1e14b9a81e5",
+              "file": "robustness/rob-ui.spec.js",
+              "line": 65,
+              "column": 5
+            },
+            {
+              "title": "ROB-SRV-002 · invalid AI response is rejected without corrupting parameters",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 360000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2473,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-13T23:03:11.000Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "7fdcc96f19e35f4f429a-47acb74aa34edca74aa7",
+              "file": "robustness/rob-ui.spec.js",
+              "line": 83,
+              "column": 5
+            },
+            {
+              "title": "ROB-REN-001 · render failure is controlled and recoverable",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 240000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2941,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-13T23:03:13.480Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "7fdcc96f19e35f4f429a-12e5e56bd33690cbd0f0",
+              "file": "robustness/rob-ui.spec.js",
+              "line": 100,
+              "column": 5
+            },
+            {
+              "title": "ROB-EXP-001 · export is blocked when geometry is invalid",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 180000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2861,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-13T23:03:16.431Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "7fdcc96f19e35f4f429a-64b2c34774f2ed8a3eeb",
+              "file": "robustness/rob-ui.spec.js",
+              "line": 129,
+              "column": 5
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-07-13T23:02:41.641Z",
+    "duration": 37752.899,
+    "expected": 13,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "test_id": "ACC-AUT-001",
+  "state": "login",
+  "tags": [
+    "wcag2a",
+    "wcag2aa",
+    "wcag21a",
+    "wcag21aa",
+    "wcag22aa"
+  ],
+  "violation_count": 1,
+  "passes": 26,
+  "incomplete": 1,
+  "violations": [
+    {
+      "id": "color-contrast",
+      "impact": "serious",
+      "help": "Elements must meet minimum color contrast ratio thresholds",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+      "tags": [
+        "wcag2aa",
+        "wcag143"
+      ],
+      "nodes": [
+        {
+          "target": [
+            ".login-sub"
+          ],
+          "html": "<p class=\"login-sub\" data-i18n=\"login.subtitle\">Custom Hand Prosthetic Configuration System</p>",
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.73 (foreground color: #9b9bab, background color: #ffffff, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "target": [
+            "span[data-i18n=\"login.needAccount\"]"
+          ],
+          "html": "<span data-i18n=\"login.needAccount\">Don't have an account?</span>",
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.73 (foreground color: #9b9bab, background color: #ffffff, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+        }
+      ]
+    }
+  ]
+}

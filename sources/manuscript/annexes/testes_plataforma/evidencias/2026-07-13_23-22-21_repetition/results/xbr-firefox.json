@@ -1,0 +1,37 @@
+{
+  "test_id": "REP-XBR-001",
+  "browser": "firefox",
+  "model_id": "unlimbed_phoenix_hand",
+  "status": "ok",
+  "metrics": {
+    "format": "binary",
+    "bytes": 3408584,
+    "sha256": "c93631523e4b43f9a22669502f34b9d032723d1fb414e045fd67bc475ed20554",
+    "faces": 68170,
+    "unique_vertices": 32399,
+    "bbox": {
+      "min": [
+        -66.643776,
+        -172.621948,
+        0
+      ],
+      "max": [
+        322.367523,
+        170.304871,
+        35.396767
+      ],
+      "dims_mm": [
+        389.011299,
+        342.926819,
+        35.396767
+      ]
+    },
+    "volume_mm3": 32376.427543,
+    "surface_area_mm2": 99988.94544,
+    "degenerate_faces": 18,
+    "boundary_edges": 20,
+    "non_manifold_edges": 2353,
+    "watertight": false,
+    "manifold": false
+  }
+}

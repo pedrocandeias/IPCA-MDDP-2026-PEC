@@ -1,0 +1,65 @@
+digraph handfab_sequence {
+  graph [
+    rankdir=TB,
+    bgcolor="white",
+    pad="0.22",
+    nodesep="0.16",
+    ranksep="0.22",
+    splines=ortho,
+    fontname="DejaVu Sans",
+    labelloc="t",
+    label="Sequência perfil–IA–OpenSCAD–exportação",
+    fontsize=22
+  ];
+
+  node [
+    shape=box,
+    style="rounded,filled",
+    color="#475569",
+    penwidth=1.4,
+    fontname="DejaVu Sans",
+    fontsize=10.5,
+    width=6.7,
+    height=0.48,
+    margin="0.14,0.08"
+  ];
+
+  edge [
+    color="#475569",
+    penwidth=1.4,
+    arrowsize=0.68,
+    fontname="DejaVu Sans",
+    fontsize=8.5
+  ];
+
+  input [fillcolor="#dff3ef", label="1 · NAVEGADOR — Perfil ou descrição, modelo seleccionado e medidas disponíveis"];
+  mapping [fillcolor="#fae7dc", label="2 · SERVIDOR — Correspondência determinística com a referência antropométrica"];
+  request [fillcolor="#fae7dc", label="3 · SERVIDOR — Construção do pedido: descrição, esquema activo, referência e limites"];
+  infer [fillcolor="#eee7f5", label="4 · SERVIÇO EXTERNO DE IA — Inferência probabilística de valores iniciais"];
+  json [fillcolor="#eee7f5", label="5 · SERVIÇO EXTERNO DE IA — Resposta estruturada em pares parâmetro–valor"];
+  validate [fillcolor="#fae7dc", label="6 · SERVIDOR — Validação estrutural, filtragem de chaves e exclusão de campos protegidos"];
+  confirm [fillcolor="#dff3ef", label="7 · NAVEGADOR — Revisão e confirmação humana antes de aplicar a configuração"];
+  worker [fillcolor="#deebf7", label="8 · NAVEGADOR — Web Worker recebe o script e os parâmetros confirmados"];
+  openscad [fillcolor="#deebf7", label="9 · OPENSCAD/WASM — Aplicação determinística de regras, limites e relações geométricas"];
+  preview [fillcolor="#f7eedf", label="10 · NAVEGADOR — Pré-visualização e inspecção da geometria gerada"];
+  export [fillcolor="#f7e4d7", label="11 · NAVEGADOR — Exportação em STL ou 3MF para preparação do fabrico"];
+
+  input -> mapping;
+  mapping -> request;
+  request -> infer;
+  infer -> json;
+  json -> validate;
+  validate -> confirm [label=" apenas valores permitidos"];
+  confirm -> worker;
+  worker -> openscad;
+  openscad -> preview;
+  preview -> export;
+
+  invalid [shape=note, width=2.25, height=0.46, fillcolor="#fff1f0", color="#b42318", fontcolor="#7a271a", label="Resposta inválida:\nrejeitar e informar"];
+  render_error [shape=note, width=2.25, height=0.46, fillcolor="#fff1f0", color="#b42318", fontcolor="#7a271a", label="Erro geométrico:\nrever a configuração"];
+
+  {rank=same; validate; invalid;}
+  {rank=same; openscad; render_error;}
+  validate -> invalid [style=dashed, color="#b42318", constraint=false];
+  openscad -> render_error [style=dashed, color="#b42318", constraint=false];
+}

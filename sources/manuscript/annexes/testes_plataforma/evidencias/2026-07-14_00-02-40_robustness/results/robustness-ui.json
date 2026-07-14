@@ -1,0 +1,57 @@
+{
+  "cases": [
+    {
+      "test_id": "ROB-NOM-001",
+      "expected": "completes without unhandled error, produces an STL",
+      "stl_bytes": 1780384,
+      "classification": "passa"
+    },
+    {
+      "test_id": "ROB-LIM-001/002",
+      "expected": "boundary values accepted and rendered",
+      "cases": {
+        "min": {
+          "requested": 55,
+          "applied": 55,
+          "rendered": true,
+          "error": null
+        },
+        "max": {
+          "requested": 110,
+          "applied": 110,
+          "rendered": true,
+          "error": null
+        }
+      },
+      "classification": "passa"
+    },
+    {
+      "test_id": "ROB-INV-004",
+      "expected": "control rejects non-numeric text; last valid numeric preserved",
+      "before": 83,
+      "after": 83,
+      "classification": "passa"
+    },
+    {
+      "test_id": "ROB-SRV-002",
+      "expected": "invalid JSON rejected, parameters unchanged",
+      "preserved": true,
+      "classification": "passa"
+    },
+    {
+      "test_id": "ROB-REN-001",
+      "expected": "controlled error message, UI stays usable, retry succeeds",
+      "fail_observed": true,
+      "recovered": true,
+      "recover_error": null,
+      "classification": "passa"
+    },
+    {
+      "test_id": "ROB-EXP-001",
+      "expected": "export blocked with explicit error; no file downloaded",
+      "export_error_shown": true,
+      "downloaded": false,
+      "classification": "passa"
+    }
+  ]
+}

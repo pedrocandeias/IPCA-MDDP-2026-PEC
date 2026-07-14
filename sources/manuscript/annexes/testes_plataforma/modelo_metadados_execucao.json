@@ -1,0 +1,39 @@
+{
+  "campaign_id": null,
+  "started_at": null,
+  "finished_at": null,
+  "timezone": "Europe/Lisbon",
+  "executor": null,
+  "platform": {
+    "repository": "/home/pec/dev/ai-parametric-prosthetic-hand-generator",
+    "environment": null,
+    "local_url": "http://localhost:3000/dashboard",
+    "public_url": "https://handfab.pedrocandeias.net/",
+    "tested_url": null,
+    "transport": null,
+    "branch": null,
+    "commit": null,
+    "working_tree_status": null,
+    "version": null
+  },
+  "environment": {
+    "operating_system": null,
+    "architecture": null,
+    "node": null,
+    "package_manager": null,
+    "playwright": null,
+    "browsers": [],
+    "openscad_wasm": null
+  },
+  "ai": {
+    "provider": null,
+    "model_id": null,
+    "sampling_settings": {},
+    "prompt_sha256": null,
+    "schema_sha256": null
+  },
+  "commands": [],
+  "test_ids": [],
+  "deviations": [],
+  "notes": null
+}
