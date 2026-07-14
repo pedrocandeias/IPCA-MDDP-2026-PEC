@@ -10,36 +10,49 @@ Orientador: Demétrio Ferreira Matos
 
 Estado documentado: 14 de Julho de 2026
 
-Versão do manuscrito: 0.4.39
+Versão do manuscrito: 0.4.41
 
 ## Documentos principais
 
 | Ficheiro | Função |
 | --- | --- |
-| [`projecto-completo.md`](projecto-completo.md) | Fonte textual consolidada do manuscrito, incluindo os Anexos A, B e C. |
+| [`pedro-candeias-projeto-mestrado-mdddp-ipca-2026-revisto.md`](pedro-candeias-projeto-mestrado-mdddp-ipca-2026-revisto.md) | Fonte textual consolidada do manuscrito, incluindo os Anexos A, B, C e D. |
 | [`pedro-candeias-projeto-mestrado-mdddp-ipca-2026-revisto.docx`](pedro-candeias-projeto-mestrado-mdddp-ipca-2026-revisto.docx) | Documento revisto e formatado segundo o modelo institucional do IPCA. |
 | [`pedro-candeias-projeto-mestrado-mdddp-ipca-2026-revisto.pdf`](pedro-candeias-projeto-mestrado-mdddp-ipca-2026-revisto.pdf) | PDF de revisão e inspecção visual do documento IPCA. |
-| [`projecto-completo.docx`](projecto-completo.docx) | Cópia de conveniência sincronizada com o DOCX revisto. |
-| [`projecto-completo.pdf`](projecto-completo.pdf) | PDF sincronizado com a cópia DOCX principal. |
-| [`pedro-candeias-projeto-mestrado-mdddp-ipca-2026.docx`](pedro-candeias-projeto-mestrado-mdddp-ipca-2026.docx) | Versão institucional anterior à revisão académica integral; deve ser conservada como referência histórica. |
 | [`CHANGELOG.md`](CHANGELOG.md) | Registo cronológico das alterações realizadas. |
 | [`AGENTS.md`](AGENTS.md) | Regras obrigatórias de edição, cópias de segurança, bibliografia, exportação e organização. |
 
-Os ficheiros `projecto-completo-sem-repetições.docx`, `parametros-validacao-0.4.29.*` e outros documentos datados são derivados históricos ou documentos de verificação. Não substituem o manuscrito revisto.
+Os três primeiros ficheiros constituem o conjunto canónico do manuscrito. As cópias anteriores, exportações datadas e documentos de verificação foram retirados do *root* e organizados em `docs/versoes/`; não substituem o manuscrito revisto.
+
+## Organização das versões
+
+| Pasta | Conteúdo |
+| --- | --- |
+| [`docs/versoes/backups/`](docs/versoes/backups/) | Cópias criadas antes de alterações substantivas, incluindo os antigos conteúdos da pasta `versions/`. |
+| [`docs/versoes/exportacoes/`](docs/versoes/exportacoes/) | DOCX e PDF datados produzidos para revisão visual ou entrega intermédia. |
+| [`docs/versoes/documentos-historicos/`](docs/versoes/documentos-historicos/) | Versões anteriores, documentos de validação e antigas cópias de conveniência que estavam no *root*. |
+
+O ficheiro auxiliar `tabelas.docx` foi colocado em `sources/docx/`, junto dos restantes documentos DOCX de apoio.
 
 ## Anexos e suplementos
 
-Os três anexos integram o manuscrito consolidado e mantêm fontes editáveis próprias em `sources/manuscript/annexes/`.
+Os Anexos A–D integram o manuscrito consolidado e conservam fontes editáveis em
+`sources/manuscript/annexes/`. O Anexo D distingue os resultados digitais já
+obtidos dos protocolos dimensionais e de montagem que permanecem por executar e
+remete para o registo fotográfico dos protótipos integrado no Capítulo 8.
 
 | Anexo ou suplemento | Conteúdo | Fonte editável |
 | --- | --- | --- |
 | Anexo A | Extracção, normalização, cobertura e limitações dos dados antropométricos | [`data_extraction_explained.md`](sources/manuscript/annexes/data_extraction_explained.md) |
 | Anexo B | Avaliação complementar do processo paramétrico e da interface HandFab | [`anexo_b_avaliacao_processo_interface_handfab.md`](sources/manuscript/annexes/testes_plataforma/anexo_b_avaliacao_processo_interface_handfab.md) |
 | Anexo C | Adaptação paramétrica dos modelos Flexy Beast, Cyborg Beast, Paraglider Hand e UnLimbited Phoenix | [`anexo_c_adaptacao_parametrica_modelos.md`](sources/manuscript/annexes/adaptacao_parametrica_modelos/anexo_c_adaptacao_parametrica_modelos.md) |
+| Anexo D | Preparação para fabrico, comparação dimensional, compatibilidade com orientações de escala e protocolo de montagem/articulação | [`anexo_d_preparacao_impressao.md`](sources/manuscript/annexes/testes_preparacao_impressao/anexo_d_preparacao_impressao.md) |
 | Suplemento antropométrico 14.67.0 | Três CSV, dois geradores, verificações e somas SHA-256 | [`dados_antropometricos_v14.67.0/`](sources/manuscript/annexes/dados_antropometricos_v14.67.0/) |
 | Dicionário de parâmetros 14.67.0 | Parâmetros, exemplo numérico, malhas e regeneração do suplemento | [`dicionario_parametros_v14.67.0/`](sources/manuscript/annexes/dicionario_parametros_v14.67.0/) |
 
-Os DOCX e PDF autónomos dos Anexos B e C servem para revisão isolada. Quando estes anexos forem alterados, é necessário voltar a integrá-los no manuscrito principal e actualizar a paginação.
+Os DOCX e PDF autónomos dos Anexos B, C e D servem para revisão isolada. Quando
+um anexo integrado for alterado, é necessário voltar a inseri-lo no manuscrito
+principal e actualizar a paginação.
 
 ## Plataforma HandFab
 
@@ -57,7 +70,8 @@ A plataforma é apresentada na dissertação como protótipo funcional de invest
 
 - `chapters/text/`: rascunhos e materiais textuais por capítulo.
 - `chapters/html/`: exportações HTML históricas de capítulos.
-- `docs/`: relatórios de revisão, auditorias, exportações datadas e documentação de trabalho.
+- `docs/`: relatórios de revisão, auditorias e documentação de trabalho.
+- `docs/versoes/`: cópias de segurança, exportações datadas e documentos históricos.
 - `figuras/`: figuras integradas ou preparadas para o manuscrito.
 - `tabelas/`: fontes editáveis e notas relativas às tabelas.
 - `sources/docx/`: documentos DOCX de apoio.
@@ -66,7 +80,6 @@ A plataforma é apresentada na dissertação como protótipo funcional de invest
 - `material/`: biblioteca local de artigos, normas e materiais de referência; os originais não devem ser sobrescritos.
 - `projecto_completo_bibliografia/`: PDFs associados à bibliografia e lista de publicações ainda sem cópia local.
 - `projecto-completo_media/`: recursos gráficos usados pelo Markdown consolidado.
-- `versions/`: cópias cronológicas criadas antes de alterações substantivas.
 - `tools/`: conversores, verificadores e transformações documentais.
 - `archive/` e `recovered/`: materiais históricos ou recuperados; não são fontes activas.
 
@@ -79,11 +92,11 @@ git status --short
 ./tools/backup_docx.sh nome-da-alteracao
 ```
 
-`backup_docx.sh` cria uma cópia datada de `projecto-completo.docx` em `versions/` e regenera `projecto-completo.pdf`. Para uma intervenção no documento IPCA revisto, deve ser criada também uma cópia datada de `pedro-candeias-projeto-mestrado-mdddp-ipca-2026-revisto.docx`.
+`backup_docx.sh` cria uma cópia datada do DOCX canónico em `docs/versoes/backups/` e regenera o PDF canónico com o mesmo nome-base.
 
 Depois de uma alteração:
 
-1. actualizar a versão no início de `projecto-completo.md`;
+1. actualizar a versão no início de `pedro-candeias-projeto-mestrado-mdddp-ipca-2026-revisto.md`;
 2. sincronizar o conteúdo com o DOCX revisto;
 3. regenerar os PDF;
 4. verificar índice, listas de tabelas e figuras, paginação, imagens e quebras;
@@ -106,7 +119,7 @@ python3 tools/md_to_docx.py \
   --output sources/manuscript/annexes/adaptacao_parametrica_modelos/anexo_c_adaptacao_parametrica_modelos.docx
 
 python3 tools/integrate_annexes_bc.py \
-  --markdown projecto-completo.md \
+  --markdown pedro-candeias-projeto-mestrado-mdddp-ipca-2026-revisto.md \
   --docx pedro-candeias-projeto-mestrado-mdddp-ipca-2026-revisto.docx
 
 python3 tools/apply_annex_local_indexes.py \
@@ -121,7 +134,9 @@ O integrador impede uma segunda inclusão acidental. O segundo comando conserva 
 ### Markdown para DOCX simples
 
 ```bash
-python3 tools/md_to_docx.py projecto-completo.md --output docs/projecto-completo-revisao.docx
+python3 tools/md_to_docx.py \
+  pedro-candeias-projeto-mestrado-mdddp-ipca-2026-revisto.md \
+  --output docs/versoes/exportacoes/manuscrito-revisao.docx
 ```
 
 Este conversor cria um DOCX genérico. Não substitui, por si só, a formatação institucional do documento IPCA.
@@ -129,7 +144,9 @@ Este conversor cria um DOCX genérico. Não substitui, por si só, a formataçã
 ### DOCX para Markdown
 
 ```bash
-python3 tools/docx_to_md.py projecto-completo.docx -o docs/projecto-completo-convertido.md
+python3 tools/docx_to_md.py \
+  pedro-candeias-projeto-mestrado-mdddp-ipca-2026-revisto.docx \
+  -o docs/versoes/exportacoes/manuscrito-convertido.md
 ```
 
 ### DOCX para PDF
@@ -138,15 +155,15 @@ python3 tools/docx_to_md.py projecto-completo.docx -o docs/projecto-completo-con
 ./tools/docx_to_pdf.sh
 ```
 
-O comando converte `projecto-completo.docx` para `projecto-completo.pdf` através de LibreOffice em modo headless.
+O comando converte o DOCX canónico no PDF canónico através do LibreOffice em modo *headless*.
 
 ### Verificações rápidas
 
 ```bash
-unzip -t projecto-completo.docx
-pdfinfo projecto-completo.pdf
-pdftotext -layout projecto-completo.pdf /tmp/projecto-completo.txt
-rg -n "Anexo [ABC]|Tabela [BC]\.|Figura C\.1" /tmp/projecto-completo.txt
+unzip -t pedro-candeias-projeto-mestrado-mdddp-ipca-2026-revisto.docx
+pdfinfo pedro-candeias-projeto-mestrado-mdddp-ipca-2026-revisto.pdf
+pdftotext -layout pedro-candeias-projeto-mestrado-mdddp-ipca-2026-revisto.pdf /tmp/manuscrito-revisto.txt
+rg -n "Anexo [ABCD]|Tabela [BCD]\.|Figura [CD]\.1" /tmp/manuscrito-revisto.txt
 ```
 
 Os hooks versionados podem ser instalados com:
@@ -155,7 +172,7 @@ Os hooks versionados podem ser instalados com:
 ./tools/install_hooks.sh
 ```
 
-Quando `projecto-completo.docx` faz parte de um commit, o hook `pre-commit` regenera e adiciona `projecto-completo.pdf`. Não usar `git commit --no-verify` quando o DOCX foi alterado.
+Quando o DOCX canónico faz parte de um *commit*, o *hook* `pre-commit` regenera e adiciona o PDF com o mesmo nome-base. Não usar `git commit --no-verify` quando o DOCX foi alterado.
 
 ## Revisão académica
 

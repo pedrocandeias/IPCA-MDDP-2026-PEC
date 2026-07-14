@@ -12,10 +12,9 @@ from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 CHANGELOG = REPO_ROOT / "CHANGELOG.md"
-VERSIONS_DIR = REPO_ROOT / "versions"
+VERSIONS_DIR = REPO_ROOT / "docs" / "versoes" / "backups"
 HEADER = "# Changelog"
-MANUSCRIPT_PATTERNS = ("projecto-completo*.md", "Projecto completo.md")
-EXCLUDED_MANUSCRIPTS = {"Projecto completo_baseline.md"}
+CANONICAL_MANUSCRIPT = REPO_ROOT / "pedro-candeias-projeto-mestrado-mdddp-ipca-2026-revisto.md"
 
 
 def normalize_entries(values: list[str]) -> list[str]:
@@ -78,20 +77,9 @@ def resolve_repo_path(value: str | None) -> Path | None:
 
 
 def find_latest_manuscript() -> Path:
-    candidates: list[Path] = []
-
-    for pattern in MANUSCRIPT_PATTERNS:
-        for path in REPO_ROOT.glob(pattern):
-            if path.name in EXCLUDED_MANUSCRIPTS:
-                continue
-            if path.is_file():
-                candidates.append(path)
-
-    if not candidates:
-        patterns = ", ".join(MANUSCRIPT_PATTERNS)
-        raise FileNotFoundError(f"No manuscript found in repository root matching: {patterns}")
-
-    return max(candidates, key=lambda path: path.stat().st_mtime)
+    if not CANONICAL_MANUSCRIPT.is_file():
+        raise FileNotFoundError(f"Canonical manuscript not found: {CANONICAL_MANUSCRIPT}")
+    return CANONICAL_MANUSCRIPT
 
 
 def find_latest_snapshot() -> Path | None:
@@ -196,7 +184,7 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument(
         "--auto",
         action="store_true",
-        help="Generate a changelog entry by comparing the current manuscript with the latest versions/ snapshot.",
+        help="Generate a changelog entry by comparing the current manuscript with the latest archived snapshot.",
     )
     parser.add_argument(
         "--source",

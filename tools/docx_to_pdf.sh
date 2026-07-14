@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
 #
-# Regenerate projecto-completo.pdf from the current projecto-completo.docx.
+# Regenerate the canonical revised PDF from the canonical revised DOCX.
 #
 # Usage:
 #   ./tools/docx_to_pdf.sh
 #
-# Converts the root projecto-completo.docx to projecto-completo.pdf (root-level,
+# Converts the root canonical DOCX to the matching PDF (root-level,
 # overwritten in place) using headless LibreOffice. This is the single source of
 # truth for the DOCX->PDF conversion; both tools/backup_docx.sh and the
 # pre-commit hook call it so the PDF always tracks the latest DOCX.
@@ -15,8 +15,9 @@ set -euo pipefail
 REPO_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 cd "$REPO_ROOT"
 
-DOCX="projecto-completo.docx"
-PDF="projecto-completo.pdf"
+BASE="pedro-candeias-projeto-mestrado-mdddp-ipca-2026-revisto"
+DOCX="$BASE.docx"
+PDF="$BASE.pdf"
 
 if [ ! -f "$DOCX" ]; then
   echo "error: $DOCX not found in $REPO_ROOT" >&2
@@ -29,7 +30,7 @@ if [ -z "$soffice_bin" ]; then
   exit 1
 fi
 
-# --convert-to writes projecto-completo.pdf into --outdir (repo root),
+# --convert-to writes the matching PDF into --outdir (repo root),
 # overwriting the previous PDF.
 "$soffice_bin" --headless --convert-to pdf --outdir "$REPO_ROOT" "$DOCX" >/dev/null
 echo "PDF:      $PDF"

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Create a timestamped manuscript snapshot in versions/."""
+"""Create a timestamped manuscript snapshot under docs/versoes/backups/."""
 
 from __future__ import annotations
 
@@ -9,9 +9,8 @@ import shutil
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-VERSIONS_DIR = REPO_ROOT / "versions"
-DEFAULT_PATTERNS = ("projecto-completo*.md", "Projecto completo.md")
-EXCLUDED_NAMES = {"Projecto completo_baseline.md"}
+VERSIONS_DIR = REPO_ROOT / "docs" / "versoes" / "backups"
+CANONICAL_MANUSCRIPT = REPO_ROOT / "pedro-candeias-projeto-mestrado-mdddp-ipca-2026-revisto.md"
 
 
 def resolve_repo_path(value: str | None) -> Path | None:
@@ -25,20 +24,9 @@ def resolve_repo_path(value: str | None) -> Path | None:
 
 
 def find_latest_manuscript() -> Path:
-    candidates: list[Path] = []
-
-    for pattern in DEFAULT_PATTERNS:
-        for path in REPO_ROOT.glob(pattern):
-            if path.name in EXCLUDED_NAMES:
-                continue
-            if path.is_file():
-                candidates.append(path)
-
-    if not candidates:
-        patterns = ", ".join(DEFAULT_PATTERNS)
-        raise FileNotFoundError(f"No manuscript found in repository root matching: {patterns}")
-
-    return max(candidates, key=lambda path: path.stat().st_mtime)
+    if not CANONICAL_MANUSCRIPT.is_file():
+        raise FileNotFoundError(f"Canonical manuscript not found: {CANONICAL_MANUSCRIPT}")
+    return CANONICAL_MANUSCRIPT
 
 
 def validate_source(path: Path) -> Path:
@@ -53,7 +41,7 @@ def validate_source(path: Path) -> Path:
 
 def make_destination(now: dt.datetime | None = None) -> Path:
     timestamp = (now or dt.datetime.now()).strftime("%H%M%S-%d%m%Y")
-    return VERSIONS_DIR / f"projecto-completo-{timestamp}.md"
+    return VERSIONS_DIR / f"pedro-candeias-projeto-mestrado-mdddp-ipca-2026-revisto-{timestamp}.md"
 
 
 def create_snapshot(source: Path, dry_run: bool = False) -> Path:
@@ -71,13 +59,12 @@ def create_snapshot(source: Path, dry_run: bool = False) -> Path:
 
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
-        description="Copy the latest thesis manuscript to versions/ with a timestamped filename."
+        description="Copy the canonical thesis manuscript to docs/versoes/backups with a timestamp."
     )
     parser.add_argument(
         "--source",
         help=(
-            "Manuscript to version. If omitted, the newest root Markdown file matching "
-            "'projecto-completo*.md' or 'Projecto completo.md' is used."
+            "Manuscript to version. If omitted, the canonical revised Markdown file is used."
         ),
     )
     parser.add_argument(

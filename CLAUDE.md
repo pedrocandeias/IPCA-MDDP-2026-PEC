@@ -4,8 +4,9 @@
 
 ```
 /home/pec/dev/mestrado/
-├── Projecto completo.md      # master project document (versioned)
-├── versions/                 # timestamped snapshots of Projecto completo.md
+├── pedro-candeias-projeto-mestrado-mdddp-ipca-2026-revisto.{md,docx,pdf}
+│                              # canonical manuscript and matching exports
+├── docs/versoes/             # backups, dated exports and historical documents
 ├── material/                 # library management tooling & paper collection
 │   ├── CHANGELOG.md          # tooling changelog (semver)
 │   ├── elicit_missing_papers.csv
@@ -26,8 +27,8 @@ File: `/home/pec/dev/mestrado/material/CHANGELOG.md`
 - When releasing, replace `[Unreleased]` with `[X.Y.Z] — YYYY-MM-DD` and open a fresh `## [Unreleased]` section above it.
 - Bump **patch** (0.0.x) for fixes and small tweaks; **minor** (0.x.0) for new features or scripts; **major** (x.0.0) for breaking changes.
 
-### 2 — Bump version in Projecto completo.md
-File: `/home/pec/dev/mestrado/Projecto completo.md`
+### 2 — Bump version in the canonical manuscript
+File: `/home/pec/dev/mestrado/pedro-candeias-projeto-mestrado-mdddp-ipca-2026-revisto.md`
 
 - The first line is `**Versão do documento:** \`X.Y.Z\``. Increment it on every edit.
 - Bump **patch** for wording/typo fixes; **minor** for new sections or substantial rewrites; **major** for structural reorganisation.
@@ -46,13 +47,13 @@ Output: `material/figures_tables_index.md` (overwritten in place). Takes ~2 min 
 **Step 2 — Rebuild the suggestions** (re-matches index to thesis chapters):
 
 Ask Claude:
-> "Read `Projecto completo.md` and match figures and tables from `material/figures_tables_index.md`. Regenerate `material/figures_tables_suggestions.md` with the proposed figure and placement. Do it one chapter/subchapter at a time."
+> "Read `pedro-candeias-projeto-mestrado-mdddp-ipca-2026-revisto.md` and match figures and tables from `material/figures_tables_index.md`. Regenerate `material/figures_tables_suggestions.md` with the proposed figure and placement. Do it one chapter/subchapter at a time."
 
 Claude will spawn an agent that reads both files in chunks and writes the updated `figures_tables_suggestions.md`.
 
 **When to re-run:**
 - After adding a batch of new PDFs to any topic folder
-- After a major restructure or new chapter in `Projecto completo.md`
+- After a major restructure or new chapter in the canonical revised manuscript
 - After significant edits to existing sections change what figures are appropriate
 
 **Files produced:**

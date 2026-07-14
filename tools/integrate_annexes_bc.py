@@ -254,12 +254,14 @@ def import_annex(
                     source_target = PurePosixPath(relationship.get("Target", ""))
                     source_member = str(PurePosixPath("word") / source_target)
                     extension = source_target.suffix or ".bin"
-                    target_member = f"word/media/{media_prefix}{extension}"
+                    target_member = (
+                        f"word/media/{media_prefix}_{len(relationship_map) + 1}{extension}"
+                    )
                     target_files[target_member] = source.read(source_member)
                     new_rel = etree.SubElement(target_rels, qn(REL, "Relationship"))
                     new_rel.set("Id", target_id)
                     new_rel.set("Type", relationship.get("Type"))
-                    new_rel.set("Target", f"media/{media_prefix}{extension}")
+                    new_rel.set("Target", str(PurePosixPath(target_member).relative_to("word")))
                     relationship_map[source_id] = target_id
                 blip.set(qn(R, "embed"), relationship_map[source_id])
 

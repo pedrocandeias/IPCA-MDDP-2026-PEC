@@ -21,7 +21,7 @@ Sequence:
        the latest committed changelog section;
      - if they are equal, generate an automatic entry;
      - if they differ, keep the existing local entry and use it for the commit.
-  2. Create a timestamped manuscript snapshot in versions/.
+  2. Create a timestamped manuscript snapshot in docs/versoes/backups/.
   3. Stage and commit changes using the latest changelog section as the commit message.
 EOF
 }

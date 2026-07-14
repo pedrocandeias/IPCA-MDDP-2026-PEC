@@ -1,0 +1,5 @@
+modelo,perfil,material,impressora,camada_mm,enchimento,suportes,tempo_estimado,filamento_estimado_mm,massa_estimada_g
+Flexy Beast,teen_15,PLA (Bambu PLA Basic @BBL A1),Bambu Lab A1; bico 0.4 mm,0.24,15% grelha,"Sim - árvore orgânica (só na base, regiões críticas, limiar 35 graus)",2h 21m 50s,18645.87,56.51
+UnLimbited Phoenix,teen_15,PLA (Bambu PLA Basic @BBL A1),Bambu Lab A1; bico 0.4 mm,0.24,15% grelha,"Sim - árvore orgânica (só na base, regiões críticas, limiar 35 graus)",5h 12m 44s,40756.68,123.52
+UnLimbited Phoenix,teen_15,PETG (Bambu PETG Basic @BBL A1),Bambu Lab A1; bico 0.4 mm,0.24,15% grelha,"Sim - árvore orgânica (só na base, regiões críticas, limiar 35 graus)",5h 51m 52s,39094.09,117.54
+Paraglider Hand,teen_15,PLA (Prusament PLA @MINIIS),Prusa MINI (perfil MINIIS); bico 0.4 mm,0.2,15% grelha,Nao (support_material=0),2h 32m 11s,12727.61,37.96

@@ -1,6 +1,6 @@
 # Anexo B — Avaliação do processo paramétrico e da interface da plataforma HandFab
 
-**Data das campanhas:** 13 e 14 de Julho de 2026
+**Data das séries de ensaios:** 13 e 14 de Julho de 2026
 
 **Versão avaliada:** HandFab 14.69.0
 
@@ -82,7 +82,7 @@ Tabela B.3 — Comportamento observado perante limites, entradas inválidas e fa
 
 Os resultados mostram que a maioria das situações previstas preservou o estado válido ou permitiu recuperação. As duas últimas situações são, contudo, fragilidades relevantes: uma salvaguarda visual não basta se o mesmo valor puder entrar por outra etapa, e um limite apenas detectado não protege a geometria se a sugestão continuar a ser aplicada. A decisão projectual resultante é concentrar a verificação antes de qualquer valor ser guardado ou enviado ao modelo paramétrico.
 
-Os ensaios relativos à IA recorreram a respostas simuladas e controladas. Confirmam o comportamento da interface perante respostas previstas, mas não medem estabilidade, dispersão ou qualidade de um modelo de linguagem real. Não foi executada a campanha de repetição com chamadas reais ao fornecedor de IA.
+Os ensaios relativos à IA recorreram a respostas simuladas e controladas. Confirmam o comportamento da interface perante respostas previstas, mas não medem estabilidade, dispersão ou qualidade de um modelo de linguagem real. Não foi executada uma série extensa de repetições com chamadas reais ao fornecedor de IA.
 
 ## B.6 Resultados da verificação automática de acessibilidade digital
 
@@ -120,26 +120,26 @@ Permanecem por avaliar manualmente a navegação por teclado, a visibilidade e o
 
 ## B.8 Conclusão
 
-As campanhas fornecem evidência parcial de que o núcleo paramétrico produz resultados consistentes nas execuções concluídas e de que vários estados de erro preservam o trabalho anterior ou permitem recuperação. Também revelam fragilidades concretas na aplicação uniforme dos limites, na aceitação de tipos de dados e na acessibilidade da interface.
+As séries de ensaios fornecem evidência parcial de que o núcleo paramétrico produz resultados consistentes nas execuções concluídas e de que vários estados de erro preservam o trabalho anterior ou permitem recuperação. Também revelam fragilidades concretas na aplicação uniforme dos limites, na aceitação de tipos de dados e na acessibilidade da interface.
 
 O resultado não autoriza afirmar que a plataforma é robusta, acessível ou compatível com todos os navegadores em termos gerais. Autoriza uma formulação mais delimitada: **nos casos examinados, o processo apresentou consistência das geometrias concluídas, recuperou de várias falhas previstas e permitiu identificar prioridades objectivas de revisão da interface e das salvaguardas paramétricas**.
 
 ## B.9 Ficha técnica e localização das evidências
 
-Esta secção conserva apenas a informação necessária para identificar as campanhas. Os pormenores de implementação dos testes não integram o argumento principal da dissertação.
+Esta secção conserva apenas a informação necessária para identificar as séries de ensaios. Os pormenores de implementação dos testes não integram o argumento principal da dissertação.
 
-Tabela B.5 — Identificação das campanhas complementares de avaliação da plataforma
+Tabela B.5 — Identificação das séries complementares de avaliação da plataforma
 
-| Campanha | Ambiente | Instrumentos | Evidência principal |
+| Série de ensaios | Ambiente | Instrumentos | Evidência principal |
 |---|---|---|---|
 | `2026-07-13_23-22-21_repetition` | Instância local isolada, perfis sintéticos | Playwright 1.59.1; análise de STL | Resultados por modelo, ficheiros exportados e comparação entre navegadores |
 | `2026-07-14_00-02-40_robustness` | Instância local isolada, perfis sintéticos | Playwright 1.59.1 | Casos nominais, limites, entradas inválidas e recuperação |
 | `2026-07-14_00-03-19_a11y-local` | Percurso local autenticado | axe-core 4.12.1 integrado no Playwright | Resultados por estado e lista de verificação manual |
 | `2026-07-14_00-06-48_a11y-public` | Página pública não autenticada | axe-core 4.12.1 integrado no Playwright | Resultado automático da página de entrada |
 
-As campanhas registam a versão 14.69.0, a branch `staging` e o commit `7e604558b337d02fff979169f057d6cbd0c80c0a`. A árvore de trabalho continha alterações locais associadas à preparação dos testes. Esta condição limita a possibilidade de reconstruir o estado avaliado apenas a partir do commit; por isso, o código de ensaio, os resultados estruturados e os manifestos de integridade foram preservados em conjunto.
+As séries de ensaios registam a versão 14.69.0, a branch `staging` e o commit `7e604558b337d02fff979169f057d6cbd0c80c0a`. A árvore de trabalho continha alterações locais associadas à preparação dos testes. Esta condição limita a possibilidade de reconstruir o estado avaliado apenas a partir do commit; por isso, o código de ensaio, os resultados estruturados e os manifestos de integridade foram preservados em conjunto.
 
-Os resultados copiados para este anexo encontram-se em `sources/manuscript/annexes/testes_plataforma/evidencias/`. Os ficheiros brutos de maior dimensão permanecem no repositório da plataforma, sob `test-results/thesis-evaluation/`, organizados por campanha.
+Os resultados copiados para este anexo encontram-se em `sources/manuscript/annexes/testes_plataforma/evidencias/`. Os ficheiros brutos de maior dimensão permanecem no repositório da plataforma, sob `test-results/thesis-evaluation/`, organizados pelos identificadores técnicos originais de cada série.
 
 ## B.10 Referências normativas
 

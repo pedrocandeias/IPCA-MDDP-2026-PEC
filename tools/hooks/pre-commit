@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 #
-# pre-commit hook: keep projecto-completo.pdf in sync with projecto-completo.docx.
+# pre-commit hook: keep the canonical revised PDF in sync with its DOCX.
 #
-# Whenever projecto-completo.docx is part of the commit (staged as added,
-# copied, modified or renamed), regenerate projecto-completo.pdf from the
+# Whenever the canonical DOCX is part of the commit (staged as added,
+# copied, modified or renamed), regenerate the matching PDF from the
 # staged DOCX and add the refreshed PDF to the same commit. This guarantees the
 # committed PDF always matches the committed DOCX.
 #
@@ -13,14 +13,15 @@
 set -euo pipefail
 
 REPO_ROOT="$(git rev-parse --show-toplevel)"
-DOCX="projecto-completo.docx"
-PDF="projecto-completo.pdf"
+BASE="pedro-candeias-projeto-mestrado-mdddp-ipca-2026-revisto"
+DOCX="$BASE.docx"
+PDF="$BASE.pdf"
 
 # Is the DOCX part of this commit? (Added/Copied/Modified/Renamed staged change.)
 if ! git diff --cached --name-only --diff-filter=ACMR | grep -qx "$DOCX"; then
   exit 0
 fi
 
-echo "pre-commit: projecto-completo.docx changed -> regenerating $PDF"
+echo "pre-commit: $DOCX changed -> regenerating $PDF"
 "$REPO_ROOT/tools/docx_to_pdf.sh"
 git add "$REPO_ROOT/$PDF"
