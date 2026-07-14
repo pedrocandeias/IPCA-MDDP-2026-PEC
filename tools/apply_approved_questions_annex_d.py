@@ -359,7 +359,7 @@ def apply(path: Path) -> dict[str, int]:
 
     table_anchor = find_index_entry(document, "Tabela C.4")
     for title in (
-        "Tabela D.1 — Estimativas dos projectos de impressão arquivados",
+        "Tabela D.1 — Estimativas dos projectos de preparação digital para impressão 3D com configuração analisada",
         "Tabela D.2 — Estimativas de preparação para impressão na condição digital comum",
         "Tabela D.3 — Preparação da comparação dimensional da palma",
     ):

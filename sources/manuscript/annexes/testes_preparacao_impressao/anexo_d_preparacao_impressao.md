@@ -28,10 +28,11 @@ viabilidade de implementação ou capacidade de utilização por não especialis
 
 ## D.2 Distinção entre estimativa e medição real
 
-Todos os valores numéricos deste anexo — tempo, comprimento de filamento, massa,
-volume, custo — são **estimativas produzidas por software de fatiamento** (Bambu
-Studio e PrusaSlicer). São o resultado do planeamento de trajectórias que o
-fatiador faz antes de existir qualquer objecto físico.
+Os valores de tempo, comprimento de filamento, massa, volume e custo deste anexo
+são **estimativas produzidas por programas de preparação para impressão 3D** (Bambu Studio e
+PrusaSlicer). A Secção D.4.4 acrescenta uma **estimativa dimensional teórica**,
+calculada sobre a malha mediante uma hipótese explícita de contracção linear; esta
+estimativa é analítica, não resulta desses programas nem de uma medição física.
 
 Em consequência, e de forma explícita:
 
@@ -42,7 +43,7 @@ Em consequência, e de forma explícita:
 - **A verificação de malha é geométrica, não mecânica.** «Estanque/manifold» e
   «faces degeneradas» descrevem a integridade do ficheiro 3D; não são medida da
   robustez do objecto impresso.
-- **As estimativas dependem da versão e do perfil.** Trocar de versão de fatiador,
+- **As estimativas dependem da versão e do perfil.** Trocar de versão do programa,
   de perfil de processo ou de firmware altera os números.
 
 Estes valores devem, pois, ser lidos como **indicadores comparativos de exigência
@@ -50,21 +51,22 @@ de preparação**, e não como propriedades físicas do produto final.
 
 ## D.3 Variáveis, controlos e materiais
 
-Foram conduzidas duas séries de ensaios complementares. Os comandos exactos, versões e
-*checksums* estão no repositório do projecto (`docs/print-validation/slicer-evaluation/`).
+Foram conduzidas duas séries de ensaios complementares. A documentação técnica
+associada ao anexo reúne as versões, as condições de preparação e os resultados
+completos no material suplementar da dissertação.
 
 **Programas:** Bambu Studio `01.10.02.76`; PrusaSlicer `2.8.1`.
-Análise geométrica em Python 3.12 / NumPy 2.4 (sem fatiamento).
+Análise geométrica em Python 3.12 / NumPy 2.4 (sem preparação para impressão).
 
-### D.3.1 Série A — projectos arquivados (fatiados como preparados)
+### D.3.1 Série A — projectos de preparação digital para impressão 3D com configuração analisada
 
-Quatro projectos de impressão previamente preparados e preservados foram
-**re-fatiados com o seu próprio perfil embebido**, mantendo layout e orientação.
-(Observação metodológica: os ficheiros guardavam geometria, definições e
-disposição na placa, mas **não** os resultados de fatiamento; estes tiveram de ser
-recalculados.)
+Quatro projectos de preparação digital para impressão 3D foram **processados com
+a configuração própria de cada caso**, mantendo a disposição e a orientação.
+Os projectos conservavam a geometria, as definições e a disposição na placa, mas
+não os resultados do processamento; as trajectórias e as estimativas tiveram de
+ser recalculadas.
 
-| # | Modelo | Idade | Material | Fatiador / Impressora |
+| # | Modelo | Idade | Material | Programa / Impressora |
 |---|---|---|---|---|
 | 1 | Flexy Beast | 15 | PLA | Bambu Studio / Bambu Lab A1 |
 | 2 | UnLimbited Phoenix | 15 | PLA | Bambu Studio / Bambu Lab A1 |
@@ -80,7 +82,7 @@ projectos tal como foram preparados, não para os comparar entre si.
 ### D.3.2 Série B — comparação digital controlada
 
 Três modelos (Flexy Beast, Paraglider Hand, UnLimbited Phoenix) × quatro perfis
-simulados (`child_8`, `teen_15`, `adult_28`, `elderly_70`), fatiados sob **uma única
+de ensaio (`child_8`, `teen_15`, `adult_28`, `elderly_70`), processados sob **uma única
 condição virtual comum**, para isolar o efeito do **modelo** e da **dimensão**:
 
 | Variável | Estatuto | Valor |
@@ -94,7 +96,7 @@ condição virtual comum**, para isolar o efeito do **modelo** e da **dimensão*
 | Aba | controlada | automática |
 | Modelo e conjunto dimensional do perfil | variáveis de comparação | 3 × 4 |
 
-A orientação de cada peça exportada foi mantida; o fatiador apenas dispôs as peças
+A orientação de cada peça exportada foi mantida; o programa apenas dispôs as peças
 na placa, criando automaticamente uma segunda placa A1 quando não cabiam numa.
 Esta série de ensaios constitui uma **comparação digital controlada da exigência de preparação** —
 **não** representa uma impressão física nem uma recomendação de imprimibilidade.
@@ -105,17 +107,16 @@ face foi classificada como degenerada quando a sua área era inferior a 10⁻⁹
 A estanquidade foi examinada pela correspondência das arestas orientadas, sem
 fusão prévia de vértices coincidentes. Estes resultados descrevem, portanto, a
 codificação geométrica dos ficheiros e devem ser interpretados em conjunto com o
-resultado do fatiamento.
+resultado da preparação para impressão.
 
 ## D.4 Resultados
 
-Os dados completos estão nos ficheiros CSV que acompanham este anexo:
-`resultados_projectos_arquivados.csv`, `resultados_campanha_controlada.csv` e
-`resultados_geometria.csv`.
+Os resultados quantitativos completos e os registos geométricos encontram-se no
+material suplementar associado a este anexo.
 
 ### D.4.1 Série A
 
-Tabela D.1 — Estimativas dos projectos de impressão arquivados
+Tabela D.1 — Estimativas dos projectos de preparação digital para impressão 3D com configuração analisada
 
 | Modelo | Perfil | Material | Impressora | Camada | Enchimento | Suportes | Tempo estimado | Filamento estimado | Massa estimada | Custo (36,29 €/kg) |
 |---|---|---|---|---:|---|---|---:|---:|---:|---:|
@@ -125,11 +126,11 @@ Tabela D.1 — Estimativas dos projectos de impressão arquivados
 | Paraglider Hand | `teen_15` | PLA | Prusa MINI, bico 0,4 mm | 0,20 mm | 15%, grelha | Não | 2 h 32 min 11 s | 12 727,61 mm | 37,96 g | 1,38 € |
 
 O custo é calculado a **36,29 €/kg** (preço do perfil Prusament PLA emitido pelo
-PrusaSlicer), **assumido igual para ambos os fatiadores e todos os materiais**
+PrusaSlicer), **assumido igual para ambos os programas e todos os materiais**
 (`custo = massa / 1000 × 36,29 €`). No Paraglider, o valor calculado (1,38 €)
 coincide com o custo emitido pelo próprio PrusaSlicer, validando a taxa.
 
-Leitura descritiva: entre os projectos arquivados, o Phoenix apresentou valores
+Leitura descritiva: entre os projectos com configuração analisada, o Phoenix apresentou valores
 estimados de tempo e material superiores aos do Flexy Beast para o perfil de 15
 anos. Os dois projectos Phoenix (PLA e PETG) partilham modelo, impressora,
 geometria, altura de camada (0,24 mm), paredes, enchimento e política de suportes,
@@ -138,7 +139,7 @@ comparação é, por isso, um contraste de material legítimo, ainda que de um �
 caso: o PETG estimou mais tempo (5 h 51 min vs 5 h 12 min) e menos massa (117,5 g
 vs 123,5 g) que o PLA, coerente com as definições próprias de cada filamento e com
 a ligeira diferença de densidade. Já a comparação entre modelos diferentes
-(Phoenix vs Flexy) ou entre fatiadores/impressoras distintos (Paraglider vs os
+(Phoenix vs Flexy) ou entre programas/equipamentos distintos (Paraglider vs os
 casos Bambu) não é válida. O aviso de baixa aderência surgiu no Paraglider
 preparado sem suportes nem aba, indicando a necessidade de rever a estratégia de
 adesão antes da impressão.
@@ -163,14 +164,13 @@ Tabela D.2 — Estimativas de preparação para impressão na condição digital
 | UnLimbited Phoenix | `elderly_70` | Bambu PLA Basic | Bambu Lab A1, bico 0,4 mm | 0,20 mm | 15%, grelha | Não | 7 h 49 min 09 s | 32 412,0 mm | 98,23 g | 3,56 € | 2 |
 
 Os tempos estimados variaram entre 4 h 22 min (Paraglider, `child_8`) e 12 h
-34 min (Flexy Beast, `adult_28`). Nos 12 casos, o fatiador gerou trajectórias e
+34 min (Flexy Beast, `adult_28`). Nos 12 casos, o programa gerou trajectórias e
 estimativas. Contudo, assinalou regiões suspensas nos quatro casos Flexy Beast e
 no Paraglider `elderly_70`, uma consequência relevante da política comum sem
 suportes. Não foram emitidos avisos nos quatro casos Phoenix. A conclusão do
-fatiamento não demonstra, por si só, que a impressão física possa ser realizada
+processamento não demonstra, por si só, que a impressão física possa ser realizada
 sem rever a orientação ou activar suportes. Os dados completos — tempo, filamento,
-camadas, ocupação por placa e avisos — constam de
-`resultados_campanha_controlada.csv`.
+camadas, ocupação por placa e avisos — constam do registo suplementar da Série B.
 
 Duas leituras de projecto sobressaem:
 
@@ -179,7 +179,7 @@ Duas leituras de projecto sobressaem:
    infantil para o adulto. O perfil adulto do Flexy Beast apresentou a maior massa
    estimada (169,2 g). O perfil de 70 anos produziu valores inferiores aos do
    adulto porque as suas dimensões de entrada eram menores; a idade funciona aqui
-   apenas como identificador do perfil simulado.
+   apenas como identificador do perfil de ensaio.
 2. **O número de placas depende da geometria, da orientação e da disposição
    automática.** Nas condições usadas pelo Bambu Studio, o Paraglider foi disposto
    numa placa, o Flexy ocupou duas placas nos dois perfis de maiores dimensões e o
@@ -190,7 +190,7 @@ Duas leituras de projecto sobressaem:
 ### D.4.3 Geometria — tamanho do conjunto vs tamanho da peça
 
 A análise geométrica distingue **três noções de tamanho** que não devem ser
-confundidas (detalhe em `resultados_geometria.csv`):
+confundidas; os valores completos constam do registo geométrico suplementar:
 
 - **Montagem sólida (mão estendida):** a caixa envolvente do corpo único do modelo
   montado, com dedos e punho estendidos. É o *vão anatómico*.
@@ -210,10 +210,10 @@ Sobre integridade de malha: os corpos do Flexy são estanques e sem faces
 degeneradas; o Paraglider apresenta faces degeneradas residuais; a palma do
 Phoenix apresenta pequenas arestas de fronteira (não totalmente estanque). Estas
 são propriedades **geométricas** dos ficheiros — relevantes para robustez de
-fatiamento, **não** para desempenho estrutural.
+preparação para impressão, **não** para desempenho estrutural.
 
 **Sobre a leitura estrutural dos parâmetros.** Importa separar três coisas
-distintas. (i) As *estimativas do fatiador* (tempo, filamento, massa) não medem
+distintas. (i) As *estimativas do programa* (tempo, filamento, massa) não medem
 resistência. (ii) A *integridade de malha* é geométrica, não mecânica. (iii) Os
 *parâmetros de impressão* — número de paredes, densidade e padrão de enchimento e
 material — são, esses sim, determinantes reconhecidos do comportamento mecânico de
@@ -238,33 +238,50 @@ reais de carga, que só um ensaio mecânico mede.
 ### D.4.4 Comparação entre entrada, malha e peça física
 
 A comparação dimensional foi preparada a partir dos mesmos quatro perfis. Em
-cada caso, o valor `palm_breadth_mm` foi lido do ficheiro `params.json` aplicado
+cada caso, o valor `palm_breadth_mm` foi lido no registo de parâmetros aplicado
 pela plataforma e a extensão total no eixo X foi medida directamente na malha
 3MF isolada da palma. A futura medição da peça física deverá reproduzir essa
 extensão total, com a peça orientada segundo os eixos do ficheiro, usando os
 mesmos extremos geométricos.
 
-Tabela D.3 — Preparação da comparação dimensional da palma
+Como referência de planeamento, foi calculado um cenário teórico para PLA sob a
+condição virtual comum da Série B. Adoptou-se uma contracção linear uniforme de
+0,30%, aplicada independentemente aos três eixos:
 
-| Modelo | Perfil | Ponto medido | Entrada | Malha | Peça física | Desvio malha–peça |
-|---|---|---|---:|---:|---:|---:|
-| Flexy Beast | `child_8` | Largura metacarpal de entrada; extensão total X da palma | 64,0 mm | 97,385 mm | — | — |
-| Flexy Beast | `teen_15` | Largura metacarpal de entrada; extensão total X da palma | 78,0 mm | 117,144 mm | — | — |
-| Flexy Beast | `adult_28` | Largura metacarpal de entrada; extensão total X da palma | 90,0 mm | 134,081 mm | — | — |
-| Flexy Beast | `elderly_70` | Largura metacarpal de entrada; extensão total X da palma | 84,0 mm | 125,612 mm | — | — |
-| Paraglider Hand | `child_8` | Largura metacarpal de entrada; extensão total X da palma | 63,0 mm | 76,513 mm | — | — |
-| Paraglider Hand | `teen_15` | Largura metacarpal de entrada; extensão total X da palma | 78,0 mm | 94,730 mm | — | — |
-| Paraglider Hand | `adult_28` | Largura metacarpal de entrada; extensão total X da palma | 90,0 mm | 109,304 mm | — | — |
-| Paraglider Hand | `elderly_70` | Largura metacarpal de entrada; extensão total X da palma | 84,0 mm | 102,017 mm | — | — |
-| UnLimbited Phoenix | `child_8` | Largura metacarpal de entrada; extensão total X da palma | 82,0 mm | 82,165 mm | — | — |
-| UnLimbited Phoenix | `teen_15` | Largura metacarpal de entrada; extensão total X da palma | 88,0 mm | 88,177 mm | — | — |
-| UnLimbited Phoenix | `adult_28` | Largura metacarpal de entrada; extensão total X da palma | 90,0 mm | 90,181 mm | — | — |
-| UnLimbited Phoenix | `elderly_70` | Largura metacarpal de entrada; extensão total X da palma | 84,0 mm | 84,169 mm | — | — |
+```text
+estimativa dimensional teórica = medida da malha × (1 − 0,003)
+desvio teórico = estimativa dimensional teórica − medida da malha
+```
 
-A Tabela D.3 resume o eixo X, por ser o único eixo associado a um parâmetro
-activo nos três modelos. A folha completa
-`tabela_comparacao_dimensional.csv` contém 36 linhas de medição: extensões X, Y e
-Z para as doze combinações modelo–perfil. Nos casos Paraglider, os valores
+A hipótese não modela anisotropia, calibração da máquina, orientação das camadas,
+humidade, empeno ou variação local. Por isso, os valores calculados não constituem
+previsões metrológicas das peças fotografadas e não substituem as três leituras do
+protocolo físico.
+
+Tabela D.3 — Cenário de estimativa dimensional teórica da palma no eixo X
+
+| Modelo | Perfil etário | Entrada | Malha X | Estimativa | Desvio teórico | Medição física X |
+|---|---|---:|---:|---:|---:|---:|
+| Flexy Beast | 8 anos | 64,0 mm | 97,385 mm | 97,093 mm | −0,292 mm | — |
+| Flexy Beast | 15 anos | 78,0 mm | 117,144 mm | 116,793 mm | −0,351 mm | — |
+| Flexy Beast | 28 anos | 90,0 mm | 134,081 mm | 133,679 mm | −0,402 mm | — |
+| Flexy Beast | 70 anos | 84,0 mm | 125,612 mm | 125,235 mm | −0,377 mm | — |
+| Paraglider Hand | 8 anos | 63,0 mm | 76,513 mm | 76,283 mm | −0,230 mm | — |
+| Paraglider Hand | 15 anos | 78,0 mm | 94,730 mm | 94,446 mm | −0,284 mm | — |
+| Paraglider Hand | 28 anos | 90,0 mm | 109,304 mm | 108,976 mm | −0,328 mm | — |
+| Paraglider Hand | 70 anos | 84,0 mm | 102,017 mm | 101,711 mm | −0,306 mm | — |
+| UnLimbited Phoenix | 8 anos | 82,0 mm | 82,165 mm | 81,919 mm | −0,246 mm | — |
+| UnLimbited Phoenix | 15 anos | 88,0 mm | 88,177 mm | 87,912 mm | −0,265 mm | — |
+| UnLimbited Phoenix | 28 anos | 90,0 mm | 90,181 mm | 89,910 mm | −0,271 mm | — |
+| UnLimbited Phoenix | 70 anos | 84,0 mm | 84,169 mm | 83,916 mm | −0,253 mm | — |
+
+A Tabela D.3 resume a extensão total no eixo X, por ser o único eixo associado a
+um parâmetro activo nos três modelos. A medição física e o respectivo desvio
+observado permanecem por preencher. A folha suplementar de comparação dimensional
+conserva as 36 linhas de medição física ainda por executar. Uma segunda folha
+suplementar apresenta, em separado, as 36 estimativas teóricas para as extensões
+X, Y e Z das doze
+combinações modelo–perfil. Nos casos Paraglider, os valores
 `palm_length_mm` e `palm_thickness_mm` são conservados como contexto do perfil,
 mas não controlam isoladamente as extensões Y e Z; no Flexy Beast e no Phoenix
 não existe, nestas configurações, um parâmetro de entrada correspondente a esses
@@ -287,13 +304,13 @@ desvio percentual = 100 × (medida da peça física − medida da malha) / medid
 
 ### D.4.5 Registo fotográfico dos protótipos
 
-As Figuras 8.1 a 8.3 do manuscrito reúnem o registo fotográfico das peças produzidas: componentes separados e em montagem parcial, séries dimensionais de segmentos Paraglider Hand e Flexy Beast, e sete vistas de uma UnLimbited Phoenix montada para o perfil simulado de 15 anos. As fotografias originais são conservadas na pasta `figuras/` com o prefixo `teste-impressao-`; os painéis integrados no documento foram compostos a partir desses ficheiros, sem alteração do conteúdo visual. Três fotografias das séries dimensionais foram apenas rodadas 90° para permitir a leitura correcta da orientação e das identificações manuscritas.
+As Figuras 8.1 a 8.3 do manuscrito reúnem o registo fotográfico das peças produzidas: componentes separados e em montagem parcial, séries dimensionais de segmentos Paraglider Hand e Flexy Beast, e sete vistas de uma UnLimbited Phoenix montada para o perfil de ensaio de 15 anos. Os originais integram o material suplementar; os painéis apresentados foram compostos sem alteração do conteúdo visual. Três fotografias das séries dimensionais foram apenas rodadas 90° para permitir a leitura correcta da orientação e das identificações manuscritas.
 
 Este registo confirma a existência material dos componentes fotografados e permite observar diferenças de escala, estados de montagem e relações visuais entre peças. Como não inclui escala métrica comum, pontos de medição assinalados, repetições controladas ou aplicação de carga, não é usado para calcular desvios dimensionais nem para inferir resistência, conforto, adequação anatómica ou desempenho funcional. A medição física mantém-se dependente do protocolo definido na Secção D.4.4.
 
 ## D.5 Compatibilidade com orientações de dimensionamento
 
-Os ficheiros locais de dimensionamento permitem duas comparações delimitadas. No
+Os referenciais de dimensionamento disponíveis permitem duas comparações delimitadas. No
 Flexy Beast, a plataforma usa a fórmula de escala herdada da família Cyborg Beast,
 `(palm_breadth_mm + 5) / 55`. O gráfico etário do Cyborg Beast indica 126% aos 8
 anos e 133% aos 15 anos; as larguras introduzidas nos perfis Flexy originaram,
@@ -314,9 +331,9 @@ as seguintes escalas:
 Os quatro valores situam-se na gama de factores da folha Phoenix. A largura-base
 de 65 mm indicada nessa folha não foi comparada directamente com os 82 mm da
 plataforma, porque os documentos não demonstram que os pontos de medição sejam
-equivalentes. Não existe uma tabela local específica para o Paraglider. O detalhe
-e os limites destas comparações constam de
-`avaliacao_compatibilidade_dimensionamento.md`. Os resultados mostram
+equivalentes. Não existe uma tabela específica para o Paraglider. O detalhe e os
+limites destas comparações constam da nota técnica suplementar de compatibilidade
+dimensional. Os resultados mostram
 compatibilidade com orientações de escala; não demonstram adequação anatómica
 individual nem funcionamento.
 
@@ -324,7 +341,7 @@ individual nem funcionamento.
 
 - **Estimativa, não medição** (ver D.2): não citar como valores físicos.
 - **A Série A não permite comparação directa entre modelos/máquinas:** mistura
-  fatiadores (Bambu/Prusa), impressoras (A1/MINI), alturas de camada (0,24/0,20 mm)
+  programas (Bambu Studio/PrusaSlicer), impressoras (A1/MINI), alturas de camada (0,24/0,20 mm)
   e política de suportes. O Paraglider, em particular, não é comparável com os
   casos Bambu. **Excepção:** os dois projectos Phoenix (PLA e PETG) partilham tudo
   excepto o material, pelo que constituem um contraste de material válido.
@@ -342,7 +359,7 @@ individual nem funcionamento.
   condições usadas. O custo apresentado nas Tabelas D.1 e D.2 foi por isso
   **calculado** a partir da massa estimada e de uma taxa única de **36,29 €/kg**
   (preço do perfil Prusament PLA do PrusaSlicer), assumida igual para ambos os
-  fatiadores e todos os materiais; para o Paraglider coincide com o valor emitido
+  programas e todos os materiais; para o Paraglider coincide com o valor emitido
   pelo próprio PrusaSlicer (1,38 €). Não é, pois, um custo emitido pelo Bambu, mas
   uma estimativa derivada com pressuposto declarado.
 - **Contagem de camadas do caso PrusaSlicer:** não reportada no cabeçalho de
@@ -362,11 +379,11 @@ individual nem funcionamento.
 
 **Pode afirmar-se:**
 
-- Que os ficheiros foram aceites pelos fatiadores e permitiram gerar trajectórias
-  e estimativas em 4/4 projectos arquivados e 12/12 casos controlados.
+- Que os ficheiros foram aceites pelos programas de preparação e permitiram gerar trajectórias
+  e estimativas em 4/4 projectos com configuração analisada e 12/12 casos controlados.
 - Que a **exigência de preparação** (material, tempo, número de placas) foi
   **estimada** sob condições declaradas e variou com o modelo e com as dimensões
-  dos perfis simulados.
+  dos perfis de ensaio.
 - Que, na orientação analisada, uma dimensão da caixa envolvente de vários modelos
   montados excedeu a dimensão nominal da placa, apoiando a decisão de disponibilizar
   os componentes segmentados.
@@ -388,11 +405,11 @@ individual nem funcionamento.
   (A leitura estrutural admissível é apenas qualitativa e relativa — ver acima e
   o parágrafo «Sobre a leitura estrutural dos parâmetros» em D.4.3; valores
   absolutos exigem ensaio mecânico físico.)
-- Que os casos da **Série A** são comparáveis entre modelos, fatiadores ou
+- Que os casos da **Série A** são comparáveis entre modelos, programas ou
   impressoras diferentes (a única comparação válida na Série A é o par Phoenix
   PLA vs PETG, que só difere no material).
 - Que a **integridade de malha** implica qualidade mecânica da peça.
-- Que o fatiamento concluído demonstra sucesso de impressão, montagem, adequação
+- Que o processamento concluído demonstra sucesso de impressão, montagem, adequação
   funcional ou utilização segura.
 - Que os custos são preços de mercado reais: assentam numa taxa única assumida de
   36,29 €/kg (o PETG usa a mesma taxa do PLA); um preço real distinto por
@@ -479,5 +496,5 @@ cresce proporcionalmente com a dimensão de entrada.
 
 > **Nota sobre orientação das figuras.** As imagens foram integradas na orientação
 > em que os seus pixéis se apresentam (todas verticais/corretas na revisão feita).
-> Se alguma precisar de ser rodada na versão final, indique-se o ficheiro e o
-> sentido; a rotação é aplicada ao ficheiro em `figuras/` sem alterar a referência.
+> Qualquer correcção posterior de orientação deve ser aplicada ao original
+> conservado no material suplementar, sem alterar a referência da figura.

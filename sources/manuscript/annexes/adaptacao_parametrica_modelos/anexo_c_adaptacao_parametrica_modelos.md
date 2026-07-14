@@ -6,9 +6,9 @@ Este anexo documenta como quatro modelos de mão protésica de origem aberta for
 
 O anexo descreve o que está efectivamente implementado nos ficheiros de configuração e nos modelos OpenSCAD. Não apresenta as relações como regras anatómicas universais. Os intervalos declarados delimitam o espaço de configuração do protótipo e não constituem limites clínicos. Do mesmo modo, a geração de uma geometria coerente ou imprimível não demonstra ajuste individual, conforto, função, segurança ou eficácia protésica.
 
-O estado examinado corresponde ao pacote da plataforma identificado como versão 14.72.0 em 14 de Julho de 2026, assente na confirmação Git `3a7b2f1`. A versão 14.71.0 integrou a braçadeira revista do Flexy Beast e alterou o dicionário da versão 14.67.0: os antigos parâmetros de largura, comprimento e parede da braçadeira foram substituídos por circunferência do punho, inclinação, multiplicador de comprimento e furos de correia. A versão 14.72.0 uniformizou a organização dos grupos e os nomes dos controlos equivalentes, sem modificar as relações geométricas descritas neste anexo.
+O estado examinado corresponde à versão 14.72.0 da plataforma em 14 de Julho de 2026. A versão 14.71.0 integrou a braçadeira revista do Flexy Beast e alterou o dicionário da versão 14.67.0: os antigos parâmetros de largura, comprimento e parede da braçadeira foram substituídos por circunferência do punho, inclinação, multiplicador de comprimento e furos de correia. A versão 14.72.0 uniformizou a organização dos grupos e os nomes dos controlos equivalentes, sem modificar as relações geométricas descritas neste anexo.
 
-O modelo de desenvolvimento `pec Phoenix hand` não integra este anexo. Embora exista no repositório, não pertence ao conjunto de quatro modelos registados que sustenta a comparação principal da dissertação.
+O modelo de desenvolvimento `pec Phoenix hand` não integra este anexo. Embora tenha sido desenvolvido no âmbito do projecto, não pertence ao conjunto de quatro modelos registados que sustenta a comparação principal da dissertação.
 
 ## C.2 Princípio comum de adaptação
 
@@ -45,7 +45,7 @@ Tabela C.1 — Correspondência entre medidas normalizadas e parâmetros dos mod
 | `*_base_length_mm` | `digits.*.proximal_length_mm` | Comprimento do segmento proximal quando o modelo expõe esta divisão |
 | `wrist_circumference_mm` | `wrist.circumference_mm` | Dimensionamento da braçadeira nos modelos que aceitam esta medida |
 
-Uma medida em falta não é interpolada automaticamente: o campo é omitido e conserva o valor corrente ou fica disponível para introdução manual. Os valores válidos são arredondados a uma casa decimal. O mapeamento limita-os ao mínimo e máximo declarados em `models-config.json` e regista as limitações aplicadas. Os parâmetros mecânicos, as cores, a visibilidade e a lateralidade não são preenchidos a partir das medidas corporais.
+Uma medida em falta não é interpolada automaticamente: o campo é omitido e conserva o valor corrente ou fica disponível para introdução manual. Os valores válidos são arredondados a uma casa decimal. O mapeamento limita-os ao mínimo e máximo declarados no catálogo versionado dos modelos e regista as limitações aplicadas. Os parâmetros mecânicos, as cores, a visibilidade e a lateralidade não são preenchidos a partir das medidas corporais.
 
 Quando a entrada é uma descrição livre, a plataforma pode seleccionar uma referência populacional através de uma pontuação baseada em sexo, categoria etária, proximidade da idade, país e qualidade descritiva do grupo. O perfil só é seleccionado quando a pontuação atinge três. Esta regra escolhe um ponto de partida; não mede proximidade anatómica entre populações e não substitui uma medida individual.
 
@@ -95,7 +95,7 @@ Os conectores flexíveis são derivados das interfaces mecânicas: a parede em t
 
 ### C.3.3 Braçadeira e interfaces confirmáveis
 
-A versão actual reutiliza uma braçadeira reconstruída a partir de `Normal_Gauntlet_w_Tensioner.stl`. A forma orgânica principal está incorporada como malha poligonal reduzida; os furos mecânicos são novamente abertos de forma paramétrica. A largura nativa medida é 49,88 mm e os centros dos furos das abas situam-se em `X = ±22,6`, `Y = −58,3` e `Z = −9,8` mm no referencial da peça.
+A versão actual reutiliza uma braçadeira reconstruída a partir da geometria de referência da braçadeira normal com tensionador. A forma orgânica principal está incorporada como malha poligonal reduzida; os furos mecânicos são novamente abertos de forma paramétrica. A largura nativa medida é 49,88 mm e os centros dos furos das abas situam-se em `X = ±22,6`, `Y = −58,3` e `Z = −9,8` mm no referencial da peça.
 
 As relações principais são:
 
@@ -111,7 +111,7 @@ O código confirma espessuras locais de 3,2 mm na zona dos furos médios e 5 mm 
 
 ### C.3.4 Exemplo de propagação já preservado
 
-O percurso numérico do perfil simulado de oito anos — valores aplicados, factores derivados e métricas de três malhas — já se encontra preservado em `sources/manuscript/annexes/dicionario_parametros_v14.67.0/example_flexy_beast_child_8/`. Para evitar duplicação, este anexo não repete a Tabela 4.10 nem os 42 registos do dicionário histórico. Acrescenta apenas a alteração posterior da braçadeira e os casos que expõem dependências ainda não descritas no suplemento 14.67.0.
+O percurso numérico do perfil de ensaio de oito anos — valores aplicados, factores derivados e métricas de três malhas — já se encontra preservado no material suplementar associado ao Anexo C. Para evitar duplicação, este anexo não repete a Tabela 4.10 nem os 42 registos do dicionário histórico. Acrescenta apenas a alteração posterior da braçadeira e os casos que expõem dependências ainda não descritas no suplemento 14.67.0.
 
 O resultado central desse percurso continua a ser pertinente: `palm_breadth_mm` alimenta uma fórmula herdada e não define directamente a extensão transversal da malha. O caso documenta a propagação do valor; não demonstra correspondência anatómica.
 
@@ -364,7 +364,7 @@ O estado actual não aplica todas estas condições como bloqueios automáticos 
 
 ## C.9 Relação com o suplemento da versão 14.67.0
 
-O suplemento `sources/manuscript/annexes/dicionario_parametros_v14.67.0/` continua a preservar um estado histórico útil: contém 42 parâmetros numéricos dos três modelos comparados e um percurso do perfil simulado até a três malhas do Flexy Beast. Deve, contudo, ser identificado como fotografia da versão 14.67.0.
+O suplemento associado ao Anexo C continua a preservar um estado histórico útil: contém 42 parâmetros numéricos dos três modelos comparados e um percurso do perfil de ensaio até a três malhas do Flexy Beast. Deve, contudo, ser identificado como fotografia da versão 14.67.0.
 
 Depois dessa versão, a braçadeira do Flexy Beast mudou de contrato paramétrico. Por esse motivo, `gauntlet_width_mm`, `gauntlet_length_mm`, `gauntlet_wall_mm`, `gauntlet_pos_adjust` e `strap_splay_adjust` não descrevem o estado 14.72.0. Foram substituídos, no essencial, por `wrist_circumference_mm`, `gauntlet_tilt`, `gauntlet_length_scale`, `gauntlet_rim_hole_d` e uma colocação automática sobre o eixo do pino. O anexo presente deve acompanhar o suplemento histórico com esta nota de versão.
 
@@ -374,28 +374,21 @@ As adaptações mostram como modelos abertos e heterogéneos podem ser reorganiz
 
 Não se conclui que as geometrias sejam anatomicamente adequadas a uma pessoa, que os intervalos sejam clinicamente seguros ou que as folgas assegurem montagem e funcionamento. Essas conclusões exigem medidas individuais, calibração dimensional, ensaios de fabrico, avaliação funcional e participação de profissionais e utilizadores.
 
-## C.11 Ficheiros consultados
+## C.11 Fontes técnicas consultadas
 
-- `docs/relatorio-adaptacao-antropometrica.md`, no repositório da plataforma;
-- `models/models-config.json`;
-- `server/services/profileMapping.js`;
-- `server/services/anthropometricImporter.js`;
-- `models/active/flexy_beast/flexy_beast.scad`;
-- `models/active/flexy_beast/gauntlet.scad`;
-- `models/active/cyborg-beast/cyborg_beast.scad` e módulos de palma, segmentos e braçadeira incluídos;
-- `models/active/paraglider_hand/paraglider_hand.scad` e dependências activas;
-- `models/active/unlimbed_phoenix_hand/UnLimbitedPhoenix.scad`;
-- `models/active/unlimbed_phoenix_hand/phoenix_assembly.scad` e ficheiros de hardware incluídos;
-- `sources/manuscript/annexes/dicionario_parametros_v14.67.0/README.md`;
-- `sources/manuscript/annexes/dicionario_parametros_v14.67.0/parameter_dictionary.csv`;
-- `sources/manuscript/annexes/dicionario_parametros_v14.67.0/example_flexy_beast_child_8/params.json`;
-- `sources/manuscript/annexes/dicionario_parametros_v14.67.0/example_flexy_beast_child_8/trace.json`;
-- Capítulo 4 de `projecto-completo.md`;
-- `docs/relatorio-revisao-academica-integral-dissertacao-2026-07-13.md`.
+- relatório técnico de adaptação antropométrica da plataforma;
+- catálogo versionado de configuração dos modelos;
+- serviços de correspondência e importação de perfis antropométricos;
+- implementações OpenSCAD activas das famílias Flexy Beast, Cyborg Beast,
+  Paraglider Hand e UnLimbited Phoenix, incluindo as dependências de montagem;
+- dicionário integral de parâmetros e percurso numérico do perfil de ensaio,
+  conservados no material suplementar do Anexo C;
+- Capítulo 4 do manuscrito consolidado;
+- relatório integral de revisão académica.
 
 ## C.12 Verificações executadas
 
-- comparação dos quatro modelos registados com os parâmetros de `models-config.json`;
+- comparação dos quatro modelos registados com os parâmetros do catálogo versionado;
 - leitura das fórmulas e constantes nos ficheiros OpenSCAD activos;
 - confronto entre a versão 14.67.0 do suplemento e a versão 14.72.0;
 - confirmação do mapa entre medidas normalizadas e nomes dos parâmetros;

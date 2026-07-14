@@ -105,7 +105,7 @@ Tipo de alteração: reformulação da fase empírica para indicar que as config
 
 Texto alterado/introduzido no parágrafo:
 
-> Os modelos paramétricos são testados com diferentes perfis antropométricos provenientes de bases de dados públicas, e as configurações resultantes dos testes de perfil são exportadas para fabrico e produzidas por impressão 3D. Esta fase permite avaliar a passagem do perfil simulado para a geometria exportada e desta para o protótipo físico, observando a exequibilidade de impressão, a integridade estrutural preliminar, a montagem, a ajustabilidade e a coerência formal perante variações dimensionais.
+> Os modelos paramétricos são testados com diferentes perfis antropométricos provenientes de bases de dados públicas, e as configurações resultantes dos testes de perfil são exportadas para fabrico e produzidas por impressão 3D. Esta fase permite avaliar a passagem do perfil de ensaio para a geometria exportada e desta para o protótipo físico, observando a exequibilidade de impressão, a integridade estrutural preliminar, a montagem, a ajustabilidade e a coerência formal perante variações dimensionais.
 
 #### 3.4 Métodos de recolha e análise de dados
 

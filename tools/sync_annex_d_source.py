@@ -12,14 +12,18 @@ ANNEX = (
     / "anexo_d_preparacao_impressao.md"
 )
 
-TABLE_ROWS = """| Tabela D.1 | Estimativas dos projectos de impressão arquivados | — |
+TABLE_ROWS = """| Tabela D.1 | Estimativas dos projectos de preparação digital para impressão 3D com configuração analisada | — |
 | Tabela D.2 | Estimativas de preparação para impressão na condição digital comum | — |
-| Tabela D.3 | Preparação da comparação dimensional da palma | — |"""
+| Tabela D.3 | Cenário de estimativa dimensional teórica da palma no eixo X | — |"""
 
 
 def main() -> None:
     manuscript = MANUSCRIPT.read_text(encoding="utf-8")
     annex = ANNEX.read_text(encoding="utf-8").strip()
+    annex = annex.replace(
+        "](figuras/",
+        "](sources/manuscript/annexes/testes_preparacao_impressao/figuras/",
+    )
 
     marker = "\n# Anexo D —"
     if marker in manuscript:

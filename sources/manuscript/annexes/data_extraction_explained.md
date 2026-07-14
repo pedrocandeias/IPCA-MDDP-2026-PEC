@@ -4,11 +4,11 @@
 
 O desenvolvimento de um gerador paramétrico de próteses de mão requer dados antropométricos da mão humana que sejam suficientemente variados para cobrir diferentes populações, sexos e grupos etários. O objectivo deste processo foi construir uma base de dados estruturada em formato CSV que servisse de entrada directa ao modelo paramétrico, contendo medições reais retiradas de literatura científica publicada e de relatórios militares de referência.
 
-Foram produzidos três ficheiros CSV complementares:
+Foram produzidos três conjuntos de dados complementares em formato CSV:
 
-- `ansur_1988_complete.csv` — 2.726 linhas, 47 dimensões corporais do estudo ANSUR 1988 (Gordon et al., 1989), população militar norte-americana
-- `ansur_1988_hand_arm.csv` — 696 linhas, subconjunto do ANSUR restrito às medições da mão, antebraço e braço
-- `multi_population_hand.csv` — 1.790 linhas, dados de onze estudos populacionais independentes de nove países diferentes
+- conjunto ANSUR completo — 2.726 linhas, 47 dimensões corporais do estudo ANSUR 1988 (Gordon et al., 1989), população militar norte-americana
+- subconjunto ANSUR mão–braço — 696 linhas, restrito às medições da mão, antebraço e braço
+- conjunto multipopulacional da mão — 1.790 linhas, dados de onze estudos populacionais independentes de nove países diferentes
 
 ---
 
@@ -246,12 +246,12 @@ Cada linha do CSV contém a citação completa (`source_citation`) e o número d
 
 ## 8. Escrita do Código de Geração
 
-Os dados foram codificados em dois scripts Python independentes:
+Os dados foram codificados por dois procedimentos Python independentes:
 
-- `generate_ansur_csv.py` — gera `ansur_1988_complete.csv` e `ansur_1988_hand_arm.csv` a partir de dicionários Python embutidos no script, um por tabela do relatório ANSUR
-- `generate_multi_population_hand_csv.py` — gera `multi_population_hand.csv` a partir de dez secções numeradas, cada uma correspondente a um estudo ou conjunto de datasets
+- procedimento ANSUR — gera o conjunto completo e o subconjunto mão–braço a partir de dicionários Python incorporados, um por tabela do relatório ANSUR
+- procedimento multipopulacional — gera o conjunto de dados da mão a partir de dez secções numeradas, cada uma correspondente a um estudo ou conjunto de dados
 
-A escolha de embeber os dados directamente no código (em vez de, por exemplo, folhas de cálculo intermédias) serve três propósitos: (1) rastreabilidade — cada valor está imediatamente adjacente à sua citação e nota de método; (2) reprodutibilidade — executar o script regenera o CSV de forma determinista; (3) controlo de versão — alterações aos dados são visíveis em diff de git, com o contexto de que estudo foi modificado.
+A escolha de embeber os dados directamente no código (em vez de, por exemplo, folhas de cálculo intermédias) serve três propósitos: (1) rastreabilidade — cada valor está imediatamente adjacente à sua citação e nota de método; (2) reprodutibilidade — executar o procedimento regenera o conjunto de dados de forma determinista; (3) controlo de versão — as alterações permanecem documentadas juntamente com o contexto da fonte modificada.
 
 O script aplica automaticamente as conversões de unidade, calcula `value_in` a partir de `value_cm`, e valida que nenhuma linha é emitida sem pelo menos uma das colunas `value_mm` ou `value_cm` preenchida.
 
@@ -259,13 +259,13 @@ O script aplica automaticamente as conversões de unidade, calcula `value_in` a 
 
 ## 9. Resultado Final
 
-| Ficheiro | Linhas (dados) | Países | Estudos | Dimensões distintas |
+| Conjunto de dados | Linhas | Países | Estudos | Dimensões distintas |
 |---|---|---|---|---|
-| `ansur_1988_complete.csv` | 2.726 | 1 (EUA) | 1 | 47 |
-| `ansur_1988_hand_arm.csv` | 696 | 1 (EUA) | 1 | 17 |
-| `multi_population_hand.csv` | 1.790 | 9 | 11 | ~85 |
+| ANSUR completo | 2.726 | 1 (EUA) | 1 | 47 |
+| ANSUR mão–braço | 696 | 1 (EUA) | 1 | 17 |
+| Base multipopulacional da mão | 1.790 | 9 | 11 | ~85 |
 
-O ficheiro `multi_population_hand.csv` cobre nove países (EUA, Países Baixos, Turquia, México, Índia, Portugal, Nigéria, Jordânia, China), ambos os sexos e grupos combinados, grupos etários desde os 2 até aos 80+ anos, e populações tão diversas como crianças em idade escolar, idosos, atletas universitários, trabalhadores industriais, trabalhadoras informais e militares.
+A base multipopulacional da mão cobre nove países (EUA, Países Baixos, Turquia, México, Índia, Portugal, Nigéria, Jordânia, China), ambos os sexos e grupos combinados, grupos etários desde os 2 até aos 80+ anos, e populações tão diversas como crianças em idade escolar, idosos, atletas universitários, trabalhadores industriais, trabalhadoras informais e militares.
 
 ---
 
@@ -273,7 +273,7 @@ O ficheiro `multi_population_hand.csv` cobre nove países (EUA, Países Baixos, 
 
 ### 10.1 O que está coberto
 
-A base de dados `multi_population_hand.csv` foi construída com o objectivo de representar a variabilidade antropométrica da mão humana em múltiplas dimensões: geográfica, demográfica, etária e estatística. A tabela seguinte sintetiza a cobertura actual.
+A base multipopulacional da mão foi construída com o objectivo de representar a variabilidade antropométrica da mão humana em múltiplas dimensões: geográfica, demográfica, etária e estatística. A tabela seguinte sintetiza a cobertura actual.
 
 #### 10.1.1 Cobertura geográfica
 

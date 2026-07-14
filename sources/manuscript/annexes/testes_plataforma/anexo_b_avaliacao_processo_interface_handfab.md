@@ -20,7 +20,7 @@ A avaliação foi organizada em três dimensões:
 
 ## B.2 Âmbito e limites
 
-Os ensaios locais decorreram numa cópia isolada da plataforma e usaram exclusivamente perfis sintéticos. A plataforma pública foi examinada apenas na página de entrada, sem autenticação ou alteração de dados. Não participaram utilizadores, pessoas com diferença de membro, profissionais clínicos ou técnicos de prótese.
+Os ensaios locais decorreram numa cópia isolada da plataforma e usaram exclusivamente perfis de ensaio. A plataforma pública foi examinada apenas na página de entrada, sem autenticação ou alteração de dados. Não participaram utilizadores, pessoas com diferença de membro, profissionais clínicos ou técnicos de prótese.
 
 Por conseguinte, este anexo não avalia conforto, ajuste anatómico individual, eficácia protésica, segurança, durabilidade, aprendizagem, satisfação ou uso quotidiano. Também não constitui declaração de conformidade com as Web Content Accessibility Guidelines (WCAG) 2.2.
 
@@ -124,7 +124,7 @@ As séries de ensaios fornecem evidência parcial de que o núcleo paramétrico 
 
 O resultado não autoriza afirmar que a plataforma é robusta, acessível ou compatível com todos os navegadores em termos gerais. Autoriza uma formulação mais delimitada: **nos casos examinados, o processo apresentou consistência das geometrias concluídas, recuperou de várias falhas previstas e permitiu identificar prioridades objectivas de revisão da interface e das salvaguardas paramétricas**.
 
-## B.9 Ficha técnica e localização das evidências
+## B.9 Ficha técnica e proveniência das evidências
 
 Esta secção conserva apenas a informação necessária para identificar as séries de ensaios. Os pormenores de implementação dos testes não integram o argumento principal da dissertação.
 
@@ -132,14 +132,14 @@ Tabela B.5 — Identificação das séries complementares de avaliação da plat
 
 | Série de ensaios | Ambiente | Instrumentos | Evidência principal |
 |---|---|---|---|
-| `2026-07-13_23-22-21_repetition` | Instância local isolada, perfis sintéticos | Playwright 1.59.1; análise de STL | Resultados por modelo, ficheiros exportados e comparação entre navegadores |
-| `2026-07-14_00-02-40_robustness` | Instância local isolada, perfis sintéticos | Playwright 1.59.1 | Casos nominais, limites, entradas inválidas e recuperação |
+| `2026-07-13_23-22-21_repetition` | Instância local isolada, perfis de ensaio | Playwright 1.59.1; análise de STL | Resultados por modelo, ficheiros exportados e comparação entre navegadores |
+| `2026-07-14_00-02-40_robustness` | Instância local isolada, perfis de ensaio | Playwright 1.59.1 | Casos nominais, limites, entradas inválidas e recuperação |
 | `2026-07-14_00-03-19_a11y-local` | Percurso local autenticado | axe-core 4.12.1 integrado no Playwright | Resultados por estado e lista de verificação manual |
 | `2026-07-14_00-06-48_a11y-public` | Página pública não autenticada | axe-core 4.12.1 integrado no Playwright | Resultado automático da página de entrada |
 
-As séries de ensaios registam a versão 14.69.0, a branch `staging` e o commit `7e604558b337d02fff979169f057d6cbd0c80c0a`. A árvore de trabalho continha alterações locais associadas à preparação dos testes. Esta condição limita a possibilidade de reconstruir o estado avaliado apenas a partir do commit; por isso, o código de ensaio, os resultados estruturados e os manifestos de integridade foram preservados em conjunto.
+As séries de ensaios correspondem à versão 14.69.0 da plataforma. O código de ensaio, os resultados estruturados e os registos necessários à interpretação das execuções foram conservados em conjunto no material suplementar.
 
-Os resultados copiados para este anexo encontram-se em `sources/manuscript/annexes/testes_plataforma/evidencias/`. Os ficheiros brutos de maior dimensão permanecem no repositório da plataforma, sob `test-results/thesis-evaluation/`, organizados pelos identificadores técnicos originais de cada série.
+Os resultados estruturados e as saídas brutas de maior dimensão integram o material suplementar associado ao Anexo B, organizados pelos identificadores técnicos originais de cada série.
 
 ## B.10 Referências normativas
 

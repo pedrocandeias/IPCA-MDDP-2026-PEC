@@ -146,7 +146,7 @@ def apply(document_xml: bytes) -> bytes:
     root = etree.fromstring(document_xml, etree.XMLParser(remove_blank_text=False))
     if any(paragraph_text(p) == FLEXY_ORIGIN for p in body_paragraphs(root)):
         for caption_text in [
-            "Tabela 8.2 — Projectos de preparação para impressão arquivados",
+            "Tabela 8.2 — Projectos de preparação digital para impressão 3D com configuração analisada",
             "Tabela 8.3 — Inspecção computacional de malhas na configuração infantil",
         ]:
             prevent_table_row_splitting(root, caption_text)
@@ -186,7 +186,7 @@ def apply(document_xml: bytes) -> bytes:
     bibliography_anchor.addnext(bibliography_entry)
 
     for caption_text in [
-        "Tabela 8.2 — Projectos de preparação para impressão arquivados",
+        "Tabela 8.2 — Projectos de preparação digital para impressão 3D com configuração analisada",
         "Tabela 8.3 — Inspecção computacional de malhas na configuração infantil",
     ]:
         prevent_table_row_splitting(root, caption_text)

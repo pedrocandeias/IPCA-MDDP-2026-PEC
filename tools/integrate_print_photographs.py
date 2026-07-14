@@ -46,11 +46,11 @@ def update_figure_index(document: etree._Element) -> int:
             "segmentos digitais articulados, palma e elementos separados."
         ),
         "Figura 8.2": (
-            "Figura 8.2 — Séries físicas de segmentos identificados pelos perfis simulados "
+            "Figura 8.2 — Séries físicas de segmentos identificados pelos perfis de ensaio "
             "de 8, 15, 28 e 70 anos."
         ),
         "Figura 8.3": (
-            "Figura 8.3 — UnLimbited Phoenix configurada para o perfil simulado de 15 anos, "
+            "Figura 8.3 — UnLimbited Phoenix configurada para o perfil de ensaio de 15 anos, "
             "apresentada em sete vistas da montagem física."
         ),
     }

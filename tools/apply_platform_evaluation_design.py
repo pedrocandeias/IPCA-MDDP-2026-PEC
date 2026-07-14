@@ -95,7 +95,7 @@ METHOD_COMPLEMENT = (
     "Como complemento à avaliação inicial, foram executadas, em 13 e 14 de Julho de 2026, campanhas "
     "automatizadas orientadas para três qualidades relevantes do processo de design: previsibilidade da "
     "geração paramétrica, capacidade de recuperação perante valores ou falhas previsíveis e acessibilidade "
-    "técnica da interacção. Os ensaios locais decorreram numa instância isolada, com perfis sintéticos, para "
+    "técnica da interacção. Os ensaios locais decorreram numa instância isolada, com perfis de ensaio, para "
     "não alterar os dados de desenvolvimento ou da plataforma pública. A versão pública, disponível em "
     "https://handfab.pedrocandeias.net/, foi examinada apenas na superfície não autenticada. O protocolo, "
     "os casos, os resultados completos e os registos que permitem reconstruir as execuções são apresentados "
@@ -168,7 +168,7 @@ FABRICATION_EVIDENCE = (
 )
 
 MATERIAL = (
-    "Foram produzidos exemplares em PLA e PETG, e os projectos preservados identificam o material atribuído "
+    "Foram produzidos exemplares em PLA e PETG, e as configurações analisadas identificam o material atribuído "
     "às peças preparadas. No caso da UnLimbited Phoenix, o projecto PETG atribui os oito conjuntos de peças "
     "ao perfil Bambu PETG Basic. Esta evidência documenta duas condições de produção, mas não constitui uma "
     "comparação controlada entre materiais, porque não foram definidos corpos de prova equivalentes, "

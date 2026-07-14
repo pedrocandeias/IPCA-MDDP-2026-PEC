@@ -23,7 +23,7 @@ anos. Por se tratar de outro modelo e de uma regressão baseada apenas na idade,
 gráfico é usado como referência contextual, e não como valor esperado obrigatório
 para o Flexy Beast.
 
-| Perfil simulado | Regra dimensional da plataforma | Escala obtida | Referência etária Cyborg Beast | Interpretação |
+| Perfil de ensaio | Regra dimensional da plataforma | Escala obtida | Referência etária Cyborg Beast | Interpretação |
 |---|---:|---:|---:|---|
 | `child_8` | (64 + 5) / 55 | 125,5% | 126% aos 8 anos | Valores muito próximos, apesar de resultarem de entradas e modelos distintos. |
 | `teen_15` | (78 + 5) / 55 | 150,9% | 133% aos 15 anos | Diferença esperável entre uma regra baseada na largura introduzida e uma regressão baseada apenas na idade; não permite escolher um valor como mais adequado. |
@@ -51,7 +51,7 @@ o mesmo ponto de medição e a caixa exterior da palma inclui elementos
 construtivos. Sem essa equivalência geométrica, uma comparação numérica directa
 produziria uma falsa precisão.
 
-| Perfil simulado | Largura introduzida | Escala calculada | Intervalo da folha Phoenix | Resultado |
+| Perfil de ensaio | Largura introduzida | Escala calculada | Intervalo da folha Phoenix | Resultado |
 |---|---:|---:|---:|---|
 | `child_8` | 82 mm | 100,0% | 100%–165% | Dentro do intervalo; coincide com o piso aplicado pela plataforma. |
 | `teen_15` | 88 mm | 107,3% | 100%–165% | Dentro do intervalo. |
@@ -60,7 +60,7 @@ produziria uma falsa precisão.
 
 Os quatro casos respeitam o intervalo de escala indicado na folha. Este resultado
 mostra compatibilidade com a gama de factores disponível, mas não prova que o
-Phoenix seja anatomicamente adequado aos perfis simulados. A regra também explica
+Phoenix seja anatomicamente adequado aos perfis de ensaio. A regra também explica
 por que razão uma entrada inferior a 82 mm não reduz o modelo abaixo de 100%: o
 piso preserva o limite construtivo adoptado para esta geometria.
 

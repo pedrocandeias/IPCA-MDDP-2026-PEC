@@ -85,7 +85,7 @@ No Capítulo 5, a IA é integrada funcionalmente na plataforma. A partir de uma 
 
 O Capítulo 6 aprofunda a lógica de uso. A IA não gera autonomamente a prótese; sugere pontos de partida, interpreta informação incompleta, organiza alternativas e apoia a decisão dentro de uma estrutura paramétrica explícita. A validação antropométrica assistida por IA é definida como validação interna de plausibilidade, não como validação clínica. Os critérios incluem conformidade com o esquema, respeito por limites, proporcionalidade dos dedos, plausibilidade adulta, adequação etária e lateralidade.
 
-O Capítulo 8 confirma resultados preliminares: nos ensaios com perfis sintéticos, a IA produziu valores dentro dos intervalos definidos, manteve proporções anatómicas plausíveis, preservou medições fornecidas e estimou campos em falta. A rastreabilidade é reforçada porque cada sugestão pode ser comparada com um parâmetro existente, o seu intervalo e a consequência visual no modelo.
+O Capítulo 8 confirma resultados preliminares: nos ensaios com perfis de ensaio, a IA produziu valores dentro dos intervalos definidos, manteve proporções anatómicas plausíveis, preservou medições fornecidas e estimou campos em falta. A rastreabilidade é reforçada porque cada sugestão pode ser comparada com um parâmetro existente, o seu intervalo e a consequência visual no modelo.
 
 **Como responde:** responde tratando a IA como camada human-in-the-loop: entrada semântica -> sugestão paramétrica JSON -> filtragem por esquema -> aplicação aos controlos -> visualização -> revisão humana.
 

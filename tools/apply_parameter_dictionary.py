@@ -170,7 +170,7 @@ TRACE_ROWS = [
 INTRO_49 = (
     "Para tornar auditável a passagem entre dados, configuração e geometria, a Tabela 4.9 consolida os "
     "parâmetros numéricos com efeito antropométrico, geométrico ou mecânico nos três modelos comparados. "
-    "O dicionário corresponde à plataforma 14.67.0, confirmação Git bcef0db. A unidade é o milímetro, "
+    "O dicionário corresponde à versão 14.67.0 da plataforma. A unidade é o milímetro, "
     "excepto quando a tabela indica percentagem ou razão adimensional. Os valores iniciais constituem a "
     "configuração de referência do modelo; os intervalos são limites de implementação, não limites clínicos."
 )
@@ -194,7 +194,7 @@ AFTER_49 = (
 INTRO_410 = (
     "A Tabela 4.10 apresenta um percurso integral preservado na campanha de 8 de Julho de 2026. Para isolar "
     "a transformação geométrica, a entrada efectiva é o vector de medidas aplicado ao modelo, e não a "
-    "nacionalidade ou a escolha da referência populacional. O perfil simulado descrevia um rapaz de oito "
+    "nacionalidade ou a escolha da referência populacional. O perfil de ensaio descrevia um rapaz de oito "
     "anos, 26 kg, 128 cm de altura, do Brasil e com mãos pequenas. A base não contém uma população brasileira; "
     "embora o registo indique grounded: true, este caso não permite inferir adequação à população indicada. "
     "A sua função é demonstrar como valores aceites pelo esquema chegam a malhas mensuráveis."
@@ -213,7 +213,7 @@ AFTER_410 = [
     "Os ficheiros params.json, palm.3mf, middle_base.3mf, middle_tip.3mf e trace.json, os respectivos valores "
     "SHA-256 e o dicionário completo encontram-se em sources/manuscript/annexes/"
     "dicionario_parametros_v14.67.0/. O percurso é reproduzível ao nível do artefacto arquivado e do cálculo; "
-    "permanece uma verificação técnica com perfil simulado, sem avaliação de conforto, função, segurança ou "
+    "permanece uma verificação técnica com perfil de ensaio, sem avaliação de conforto, função, segurança ou "
     "validade clínica.",
 ]
 

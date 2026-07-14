@@ -11,6 +11,7 @@ from __future__ import annotations
 
 import argparse
 import os
+import re
 import tempfile
 import unicodedata
 from pathlib import Path
@@ -63,6 +64,46 @@ def update_table_49_widths(root: etree._Element) -> None:
             cell_width.set(qn("w"), str(width))
 
 
+def static_page_map(document_xml: bytes) -> dict[str, str]:
+    root = etree.fromstring(document_xml)
+    pages: dict[str, str] = {}
+    for paragraph in root.xpath("//w:body/w:p", namespaces=NS):
+        style = paragraph.xpath("./w:pPr/w:pStyle/@w:val", namespaces=NS)
+        text_nodes = paragraph.xpath(".//w:t", namespaces=NS)
+        if not style or not style[0].startswith("ndice") or len(text_nodes) != 2:
+            continue
+        title = text_nodes[0].text or ""
+        page = text_nodes[1].text or ""
+        match = re.match(r"((?:Tabela|Figura) [A-D0-9]+\.[0-9]+)\b", title)
+        if match and page.isdigit():
+            pages.setdefault(match.group(1), page)
+    return pages
+
+
+def synchronise_markdown(path: Path, document_xml: bytes) -> int:
+    pages = static_page_map(document_xml)
+    lines = path.read_text(encoding="utf-8").splitlines(keepends=True)
+    updated = 0
+    for index, line in enumerate(lines):
+        stripped = line.strip()
+        if not stripped.startswith(("| Tabela ", "| Figura ")):
+            continue
+        cells = line.rstrip("\r\n").split("|")
+        if len(cells) != 5:
+            continue
+        identifier = cells[1].strip()
+        page = pages.get(identifier)
+        if page is None or cells[3].strip() == page:
+            continue
+        cells[3] = f" {page} "
+        newline = "\n" if line.endswith("\n") else ""
+        lines[index] = "|".join(cells) + newline
+        updated += 1
+    if updated:
+        path.write_text("".join(lines), encoding="utf-8")
+    return updated
+
+
 def apply(document_xml: bytes, extracted_pdf: str, page_offset: int) -> tuple[bytes, int, list[str]]:
     parser = etree.XMLParser(remove_blank_text=False)
     root = etree.fromstring(document_xml, parser)
@@ -78,7 +119,10 @@ def apply(document_xml: bytes, extracted_pdf: str, page_offset: int) -> tuple[by
             continue
         title = text_nodes[0].text or ""
         old_page = text_nodes[1].text or ""
-        if not old_page.isdigit():
+        # Newly inserted static entries may use an em dash until the first
+        # provisional PDF is available. They must participate in that first
+        # synchronisation just like entries carrying an older page number.
+        if not old_page.isdigit() and old_page != "—":
             continue
         needle = normalise(title)
         hits = [
@@ -121,6 +165,11 @@ def main() -> None:
     parser.add_argument("docx", type=Path)
     parser.add_argument("pdf_text", type=Path, help="Output of pdftotext -layout")
     parser.add_argument("--page-offset", type=int, default=19)
+    parser.add_argument(
+        "--markdown",
+        type=Path,
+        help="Optional canonical Markdown whose table and figure lists should receive the same pages",
+    )
     args = parser.parse_args()
     path = args.docx.resolve()
     with ZipFile(path, "r") as archive:
@@ -147,6 +196,9 @@ def main() -> None:
     print("Unmatched entries retained:")
     for title in unmatched:
         print(f"- {title}")
+    if args.markdown is not None:
+        markdown_count = synchronise_markdown(args.markdown.resolve(), updated_xml)
+        print(f"Updated Markdown list entries: {markdown_count}")
 
 
 if __name__ == "__main__":

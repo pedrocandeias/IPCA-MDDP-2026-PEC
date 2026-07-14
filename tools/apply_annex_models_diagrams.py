@@ -218,7 +218,7 @@ def apply_changes(document_xml: bytes, rels_xml: bytes, image_bytes: bytes) -> t
     set_index_entry(new_figure_index, "Figura 5.3", "Sequência de dados e decisões desde o perfil ou descrição até à sugestão, confirmação, geração determinística e exportação.", "64")
     figure_52_index.addnext(new_figure_index)
 
-    # Keep the static table of contents aligned with the two new Annex A subsections.
+    # Keep the static table of contents aligned with the Annex A correspondence subsection.
     def set_tabbed_entry(paragraph: etree._Element, title: str, page: str) -> None:
         text_nodes = paragraph.xpath(".//w:t", namespaces=NS)
         if len(text_nodes) != 2:
@@ -226,14 +226,10 @@ def apply_changes(document_xml: bytes, rels_xml: bytes, image_bytes: bytes) -> t
         text_nodes[0].text = title
         text_nodes[1].text = page
 
-    toc_a1 = find_paragraph(root, "A.1 Contexto e Objectivo115")
     toc_a21 = find_paragraph(root, "A.2.1 Pesquisa bibliográfica orientada115")
     toc_a8 = find_paragraph(root, "A.8 Escrita do Código de Geração123")
     toc_a9 = find_paragraph(root, "A.9 Resultado Final123")
     toc_a10 = find_paragraph(root, "A.10 Cobertura Global da Base de Dados e Lacunas123")
-    toc_a11 = deepcopy(toc_a21)
-    set_tabbed_entry(toc_a11, "A.1.1 Localização, versão e integridade dos ficheiros", "115")
-    toc_a1.addnext(toc_a11)
     toc_a81 = deepcopy(toc_a21)
     set_tabbed_entry(toc_a81, "A.8.1 Correspondência entre os CSV e os parâmetros da plataforma", "124")
     toc_a8.addnext(toc_a81)
@@ -308,28 +304,10 @@ def apply_changes(document_xml: bytes, rels_xml: bytes, image_bytes: bytes) -> t
         )
     )
 
-    # Annex A: deposit/version/integrity record.
+    # Annex A: templates used for the correspondence subsection.
     a2_heading = find_paragraph(root, "A.2 Estratégia de Pesquisa Bibliográfica")
     normal_template = find_paragraph_prefix(root, "O desenvolvimento de um gerador paramétrico")
     heading_template = a2_heading
-    annex_intro = [
-        clone_paragraph(heading_template, "A.1.1 Localização, versão e integridade dos ficheiros"),
-        clone_paragraph(normal_template, "Os três CSV e os dois scripts de geração foram depositados com a dissertação em sources/manuscript/annexes/dados_antropometricos_v14.67.0/. O suplemento corresponde ao estado versionado da plataforma HandFab 14.67.0, confirmação Git bcef0db, anterior às alterações experimentais posteriores. A pasta inclui README.md, com a origem e o procedimento de regeneração, e SHA256SUMS, para verificar a integridade dos cinco artefactos."),
-    ]
-    checksum_lines = [
-        "• ansur_1988_complete.csv — 88575ef62771f8be1abefeba070426d4eab3d6a4005618b064df603024ccff4d",
-        "• ansur_1988_hand_arm.csv — 82a010b2b38579b11c0eaa3d9488895350807647220c30c78650331297f8c503",
-        "• multi_population_hand.csv — 65b7e8b88e7d1abb3460342179f7360f2b69df8b77c8f6a992881eb496999a8f",
-        "• generate_ansur_csv.py — 63eae7b39a9e47054be1ae2cec8a8035f419cb50a78c818eb296f640eb9639d3",
-        "• generate_multi_population_hand_csv.py — 5ab4fcba62a4c001ff8347c8858b28631537aadc0ad4bf8aa4cb75b96a949ae3",
-    ]
-    annex_intro.extend(clone_paragraph(normal_template, line) for line in checksum_lines)
-    annex_intro.append(
-        clone_paragraph(normal_template, "Em 13 de Julho de 2026, os dois scripts foram executados novamente dentro da pasta suplementar. A regeneração produziu 2.726 linhas de dados no ficheiro ANSUR completo, 696 no subconjunto mão–braço e 1.790 na base multipopulacional; a verificação com sha256sum -c SHA256SUMS confirmou correspondência integral dos cinco ficheiros. Estes resultados demonstram repetibilidade técnica no mesmo ambiente e estado de código, não reprodução independente por outra equipa.")
-    )
-    for element in annex_intro:
-        a2_heading.addprevious(element)
-
     anomaly = find_paragraph_prefix(root, "Notas: o código regista oito anomalias")
     set_paragraph_text(
         anomaly,
@@ -361,7 +339,7 @@ def apply_changes(document_xml: bytes, rels_xml: bytes, image_bytes: bytes) -> t
         raise RuntimeError("Unexpected Annex A result table layout")
     set_cell_text(multi_cells[3], "12")
     result_table.addnext(
-        clone_paragraph(normal_template, "Estes totais foram confirmados pela regeneração do suplemento dados_antropometricos_v14.67.0, associado à confirmação Git bcef0db. A contagem de 12 corresponde a documentos-fonte ou subconjuntos identificados pelo gerador e não implica 12 estudos primários independentes.")
+        clone_paragraph(normal_template, "Estes totais foram confirmados pela regeneração dos três conjuntos de dados. A contagem de 12 corresponde a documentos-fonte ou subconjuntos identificados pelo procedimento de geração e não implica 12 estudos primários independentes.")
     )
 
     return (

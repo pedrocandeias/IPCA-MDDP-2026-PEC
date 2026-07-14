@@ -200,8 +200,8 @@ INTRO = (
 )
 
 STATE = (
-    "O estado actual examinado corresponde à versão 14.72.0 da branch staging, confirmação Git "
-    "3a7b2f1, em 14 de Julho de 2026. Os ensaios principais incidiram na versão 14.67.0 e a campanha "
+    "O estado actual examinado corresponde à versão 14.72.0, em 14 de Julho de 2026. Os ensaios "
+    "principais incidiram na versão 14.67.0 e a campanha "
     "complementar de interface na versão 14.69.0. Esta separação temporal é mantida porque a plataforma "
     "continuou a evoluir depois dos ensaios, nomeadamente na organização e nomenclatura dos controlos, "
     "sem que essas alterações posteriores possam ser apresentadas como parte dos resultados anteriores."
@@ -234,7 +234,7 @@ INTERFACE_SCOPE = (
 
 TABLE_52 = [
     ["Elemento do percurso", "Implementação e estado examinado", "Função no processo de design", "Limite da evidência"],
-    ["Protótipo HandFab", "Versão actual 14.72.0, branch staging, confirmação 3a7b2f1; ensaios principais em 14.67.0 e complementares em 14.69.0", "Reunir configuração, pré-visualização, conservação de variantes e exportação", "A evolução entre versões impede atribuir retroactivamente funções novas aos ensaios anteriores"],
+    ["Protótipo HandFab", "Versão actual 14.72.0; ensaios principais em 14.67.0 e complementares em 14.69.0", "Reunir configuração, pré-visualização, conservação de variantes e exportação", "A evolução entre versões impede atribuir retroactivamente funções novas aos ensaios anteriores"],
     ["Interface no navegador", "Aplicação web com visualizador tridimensional; demonstração pública em handfab.pedrocandeias.net", "Tornar visível a relação entre parâmetros, forma e decisão de exportar", "Chromium e Firefox produziram o mesmo resultado no caso comparado; WebKit permaneceu inconclusivo; não foi demonstrada compatibilidade universal"],
     ["Geração geométrica", "OpenSCAD executado em WebAssembly num Web Worker", "Aplicar as relações paramétricas e produzir a geometria sem instalação local de CAD", "O tempo e a conclusão dependem do modelo e dos recursos do equipamento; não houve estudo comparativo de desempenho"],
     ["Servidor e acesso", "Node.js 22.14.0, Express 4.18.3 e autenticação por perfis", "Guardar contas e configurações e intermediar os pedidos externos", "O funcionamento foi examinado em casos delimitados; não foram avaliados carga, acessos simultâneos ou segurança integral"],
