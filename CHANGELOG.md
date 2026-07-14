@@ -2,6 +2,7 @@
 
 ## 2026-07-14
 
+- Actualizado o relatório de revisão académica integral para o estado do manuscrito 0.4.39: registada a integração dos Anexos A–C e assinalados os problemas e capítulos resolvidos, parcialmente resolvidos e ainda em aberto, sem transformar limitações de evidência em conclusões demonstradas.
 - Actualizada a versão do manuscrito para 0.4.39; simplificado o índice principal para apresentar apenas o título e a página inicial dos Anexos A, B e C, e acrescentados índices detalhados no início de cada anexo.
 - Adicionado `tools/apply_annex_local_indexes.py` e adaptado `tools/synchronise_docx_pagination.py` para distinguir as entradas do índice principal das entradas locais repetidas, actualizar as páginas das secções e iniciar o corpo de cada anexo numa nova página.
 - Sincronizadas 115 entradas de paginação e criada a exportação datada `2026-07-14_12-15-48-indices-locais-anexos`; o índice principal remete para os Anexos A, B e C nas páginas 110, 126 e 132, respectivamente, mantendo o documento final em 165 páginas A4.
