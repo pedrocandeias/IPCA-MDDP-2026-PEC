@@ -131,11 +131,11 @@ Fonte: elaboração própria, com base em Machado et al. (2019), Moreo (2016), L
 | Ensaio 1 — proxies populacionais | Mulher idosa com dados demográficos e regionais. | `woman, 65 years old, 68kg, 160cm height, Nigeria, arm length 62cm` | Avaliar plausibilidade adulta em perfil feminino e sénior. |
 | Ensaio 1 — proxies populacionais | Adulto masculino com mãos largas. | `man, 50 years old, 95kg, 175cm height, Germany, broad hands, arm length 66cm` | Verificar resposta a indicação qualitativa de mãos largas. |
 | Ensaio 1 — proxies populacionais | Adolescente masculino alto e magro. | `teenage boy, 15 years old, 60kg, 168cm height, India, slim build, arm length 67cm` | Testar fronteira entre perfil pediátrico e dimensões próximas de adulto. |
-| Ensaio 2 — amputação unilateral | Entrada rica com medições completas da mão intacta. | Medições completas da mão esquerda intacta: palma 84 mm; indicador 72 mm; médio 78 mm; anelar 75 mm; mínimo 58 mm; polegar 64 mm; prótese necessária para a mão direita. | Confirmar preservação literal das medições fornecidas e geração contralateral. |
-| Ensaio 2 — amputação unilateral | Entrada parcial com demografia e uma medição direta. | Homem, 40 anos; mão direita intacta; largura da palma 90 mm; prótese necessária para a mão esquerda. | Confirmar manutenção da medida fornecida e estimativa proporcional dos campos em falta. |
-| Ensaio 2 — amputação unilateral | Entrada apenas demográfica. | Mulher, 30 anos, asiática oriental, 158 cm; prótese necessária para a mão direita. | Verificar degradação graciosa quando não existem medições diretas da mão. |
+| Ensaio 2 — amputação unilateral | Perfil com medições completas da mão intacta. | Medições completas da mão esquerda intacta: palma 84 mm; indicador 72 mm; médio 78 mm; anelar 75 mm; mínimo 58 mm; polegar 64 mm; prótese necessária para a mão direita. | Confirmar preservação literal das medições fornecidas e geração contralateral. |
+| Ensaio 2 — amputação unilateral | Perfil com dados demográficos e uma medição directa. | Homem, 40 anos; mão direita intacta; largura da palma 90 mm; prótese necessária para a mão esquerda. | Confirmar manutenção da medida fornecida e estimativa proporcional dos campos em falta. |
+| Ensaio 2 — amputação unilateral | Perfil apenas demográfico. | Mulher, 30 anos, asiática oriental, 158 cm; prótese necessária para a mão direita. | Verificar o comportamento quando não existem medições directas da mão. |
 
-Fonte: elaboração própria a partir dos prompts registados no protocolo de validação antropométrica assistida por IA (`docs/ai_anthropometric_validation.md`) e nos metadados de execução dos ensaios (`docs/*-ai-sim/run-metadata.json`). A coluna apresenta a entrada de paciente usada no prompt; o prompt completo incluía ainda o schema vivo do modelo, os intervalos permitidos e a instrução de devolver apenas JSON válido.
+Fonte: elaboração própria a partir dos pedidos registados no protocolo de avaliação antropométrica apoiada por IA e nos metadados de execução dos ensaios. A coluna apresenta a descrição submetida; o pedido completo incluía ainda o esquema activo do modelo, os intervalos permitidos e a instrução de devolver apenas JSON válido.
 
 ## Tabela 8.2 — Síntese da validação antropométrica assistida por IA
 
@@ -143,9 +143,9 @@ Fonte: elaboração própria a partir dos prompts registados no protocolo de val
 | --- | --- | --- |
 | Conformidade com o esquema | Saídas parseáveis, chaves conhecidas e valores dentro dos limites. | O esquema vivo do modelo reduziu sugestões inválidas. |
 | Proporcionalidade digital | Dedo médio mais longo, mínimo mais curto e polegar abaixo do dedo médio. | As relações anatómicas principais foram preservadas. |
-| Entradas ricas | Medições fornecidas mantidas literalmente. | A IA não reestimou valores diretamente declarados. |
-| Entradas parciais | Campos em falta estimados em torno da medida fornecida. | O sistema combinou dados explícitos e priors populacionais. |
-| Entradas apenas demográficas | Conjunto completo e plausível de parâmetros. | O fluxo oferece um ponto de partida para utilizadores não especialistas. |
+| Descrições com medições completas | Medições fornecidas mantidas literalmente. | Na resposta arquivada, a IA não reestimou os valores directamente declarados. |
+| Descrições com uma medição directa | Campos em falta estimados em torno da medida fornecida. | Na resposta arquivada, o sistema combinou o dado explícito com referências populacionais. |
+| Descrições apenas demográficas | Conjunto completo de parâmetros dentro dos intervalos. | Nos casos examinados, o fluxo produziu um ponto de partida sujeito a confirmação. |
 | Lateralidade | Correta nos cenários iniciais, mas falhou em pedidos explícitos de mão esquerda na avaliação UCD. | Corrigida por controlo determinístico da interface e exclusão da lateralidade das sugestões da IA. |
 
 Fonte: resultados próprios da validação antropométrica assistida por IA realizada no projeto. A tabela sintetiza comportamento observado no sistema, não resultados clínicos.
@@ -156,7 +156,7 @@ Fonte: resultados próprios da validação antropométrica assistida por IA real
 | --- | --- | --- | --- |
 | Flexy Beast | Largura da palma e comprimentos dos cinco dedos. | Escalas independentes para palma e dedos. | Adequado a crianças e mãos pequenas. |
 | Paraglider Hand | Palma e dedos, com parâmetros adicionais de contexto. | Escala geral da palma e ajustes por dedo. | Adequado a adultos e a uma gama ampla de perfis. |
-| UnLimbited Phoenix | Largura da palma. | Escala uniforme limitada por piso mínimo. | Fiel ao modelo original, mas inadequado para mãos pequenas. |
+| UnLimbited Phoenix | Largura da palma. | Escala uniforme limitada por um valor mínimo. | Fiel ao modelo original, mas inadequado para mãos pequenas. |
 
 Fonte: resultados próprios da integração e validação geométrica dos modelos ativos na plataforma.
 
@@ -165,7 +165,7 @@ Fonte: resultados próprios da integração e validação geométrica dos modelo
 | Perfil | Flexy Beast | Paraglider Hand | UnLimbited Phoenix |
 | --- | ---: | ---: | ---: |
 | Baseline | 1,000 | 1,000 | 1,000 |
-| Criança | 0,761 | 0,747 | 0,760 antes da correção; 1,000 após impor o piso |
+| Criança | 0,761 | 0,747 | 0,760 antes da correcção; 1,000 após aplicar o limite mínimo |
 | Mulher adulta | 0,932 | 0,928 | 1,000 |
 | Homem adulto | 1,148 | 1,157 | 1,171 |
 

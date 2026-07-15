@@ -53,7 +53,7 @@ produziria uma falsa precisão.
 
 | Perfil de ensaio | Largura introduzida | Escala calculada | Intervalo da folha Phoenix | Resultado |
 |---|---:|---:|---:|---|
-| `child_8` | 82 mm | 100,0% | 100%–165% | Dentro do intervalo; coincide com o piso aplicado pela plataforma. |
+| `child_8` | 82 mm | 100,0% | 100%–165% | Dentro do intervalo; coincide com o limite mínimo aplicado pela plataforma. |
 | `teen_15` | 88 mm | 107,3% | 100%–165% | Dentro do intervalo. |
 | `adult_28` | 90 mm | 109,8% | 100%–165% | Dentro do intervalo. |
 | `elderly_70` | 84 mm | 102,4% | 100%–165% | Dentro do intervalo. |
@@ -62,7 +62,7 @@ Os quatro casos respeitam o intervalo de escala indicado na folha. Este resultad
 mostra compatibilidade com a gama de factores disponível, mas não prova que o
 Phoenix seja anatomicamente adequado aos perfis de ensaio. A regra também explica
 por que razão uma entrada inferior a 82 mm não reduz o modelo abaixo de 100%: o
-piso preserva o limite construtivo adoptado para esta geometria.
+limite mínimo preserva o limite construtivo adoptado para esta geometria.
 
 ## Paraglider Hand
 

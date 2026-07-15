@@ -146,7 +146,7 @@ DICTIONARY_ROWS = [
     ["Paraglider — ARM_HandLen; ARM_ForearmLen; ARM_BicepCircum; ARM_CuffLength", "Mão, antebraço, circunferência do braço e braçadeira", "135; 140; 160; 65", "135–230; 120–315; 110–350; 65–90; inc. 1", "Dimensionam a extensão opcional do braço; não entraram na comparação da mão"],
     ["Paraglider — ARM_PinHoleDia", "Diâmetro dos furos das articulações do braço", "3", "3–6; 1", "Interface mecânica da extensão opcional do braço"],
     ["UnLimbited Phoenix — palm_breadth_mm", "Largura metacarpal; palm.width_mm", "82", "82–131; 1", "HandPerc = valor / 82 × 100, limitado a 100%–160%"],
-    ["UnLimbited Phoenix — HandPerc_override", "Substituição manual da percentagem de escala", "0", "0–160; 1", "Zero deriva a escala; valores positivos continuam sujeitos ao piso de 100%"],
+    ["UnLimbited Phoenix — HandPerc_override", "Substituição manual da percentagem de escala", "0", "0–160; 1", "Zero deriva a escala; valores positivos continuam sujeitos ao limite mínimo de 100%"],
     ["UnLimbited Phoenix — index_; middle_; ring_; pinky_finger_length_mm", "Comprimentos totais dos quatro dedos", "72 cada", "55–115; 1", "Alongamento dos segmentos, preservando a circularidade dos furos"],
     ["UnLimbited Phoenix — index_; middle_; ring_; pinky_base_length_mm", "Comprimentos dos segmentos proximais", "31 cada", "18–55; 1", "Divide o comprimento total entre segmento proximal e ponta"],
     ["UnLimbited Phoenix — thumb_length_mm; thumb_base_length_mm", "Comprimento total e proximal do polegar", "72; 31", "45–80; 1; 18–50; 1", "Alongamento do polegar e divisão proximal–distal"],

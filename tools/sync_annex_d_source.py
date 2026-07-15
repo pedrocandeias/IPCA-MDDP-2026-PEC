@@ -14,7 +14,7 @@ ANNEX = (
 
 TABLE_ROWS = """| Tabela D.1 | Estimativas dos projectos de preparação digital para impressão 3D com configuração analisada | — |
 | Tabela D.2 | Estimativas de preparação para impressão na condição digital comum | — |
-| Tabela D.3 | Cenário de estimativa dimensional teórica da palma no eixo X | — |"""
+| Tabela D.3 | Comparação dimensional da palma no eixo X em PLA e PETG | — |"""
 
 
 def main() -> None:
@@ -30,11 +30,16 @@ def main() -> None:
         manuscript = manuscript.split(marker, 1)[0].rstrip()
 
     if "| Tabela D.1 |" not in manuscript:
-        anchor = (
-            "| Tabela C.4 | Comparação das adaptações e excepções de escala | 143 |"
-        )
-        if anchor not in manuscript:
+        anchors = [
+            line
+            for line in manuscript.splitlines()
+            if line.startswith(
+                "| Tabela C.4 | Comparação das adaptações e excepções de escala |"
+            )
+        ]
+        if len(anchors) != 1:
             raise RuntimeError("Não foi localizado o fim da lista de tabelas do Anexo C")
+        anchor = anchors[0]
         manuscript = manuscript.replace(anchor, f"{anchor}\n{TABLE_ROWS}", 1)
 
     MANUSCRIPT.write_text(f"{manuscript}\n\n{annex}\n", encoding="utf-8")

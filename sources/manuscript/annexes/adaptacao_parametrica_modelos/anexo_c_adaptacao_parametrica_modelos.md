@@ -264,7 +264,7 @@ O último valor mostra que os 50 mm declarados para o polegar não são propagad
 
 O UnLimbited Phoenix Hand local deriva da equipa UnLimbited/e-NABLE e indica licença CC BY-NC-SA 4.0 no ficheiro-fonte. A geometria herdada é composta sobretudo por malhas e poliedros de dimensão fixa. A adaptação preservou essas zonas e acrescentou duas formas de variação: uma escala uniforme para o conjunto e um alongamento localizado dos segmentos digitais em faixas sem furos.
 
-### C.6.2 Escala global e piso dimensional
+### C.6.2 Escala global e limite dimensional mínimo
 
 A largura de referência da palma é 82 mm. A percentagem de escala é:
 
@@ -275,7 +275,7 @@ caso contrário:
     HandPerc = limitar((palm_breadth_mm / 82) × 100, 100, 160)
 ```
 
-`palm_breadth_mm` é declarado entre 82 e 131 mm. O parâmetro manual `HandPerc_override` aceita zero como instrução para derivar a escala; valores positivos ficam sujeitos ao mesmo piso de 100% e tecto de 160%. Um perfil com palma inferior a 82 mm produz o tamanho mínimo do modelo, não a medida pedida. A configuração deve ser rejeitada ou acompanhada por um aviso de cobertura, em vez de ser descrita como adaptação individual.
+`palm_breadth_mm` é declarado entre 82 e 131 mm. O parâmetro manual `HandPerc_override` aceita zero como instrução para derivar a escala; valores positivos ficam sujeitos ao mesmo limite mínimo de 100% e ao limite máximo de 160%. Um perfil com palma inferior a 82 mm produz o tamanho mínimo do modelo, não a medida pedida. A configuração deve ser rejeitada ou acompanhada por um aviso de cobertura, em vez de ser descrita como adaptação individual.
 
 ### C.6.3 Comprimentos digitais e preservação dos furos
 
@@ -348,7 +348,7 @@ Esta solução produz níveis diferentes de adaptação. O Flexy Beast e o Cybor
 
 ## C.8 Critérios de aceitação, limitação e rejeição
 
-Uma configuração pode avançar para geração quando os campos necessários existem, os valores são numéricos positivos e permanecem dentro dos intervalos declarados. Deve ser marcada como limitada quando uma entrada é reduzida ao piso do modelo, quando um campo é apenas contextual ou quando a transformação não produz uma correspondência directa entre valor e dimensão final.
+Uma configuração pode avançar para geração quando os campos necessários existem, os valores são numéricos positivos e permanecem dentro dos intervalos declarados. Deve ser marcada como limitada quando uma entrada é fixada no limite mínimo do modelo, quando um campo é apenas contextual ou quando a transformação não produz uma correspondência directa entre valor e dimensão final.
 
 Devem impedir a passagem directa para fabrico, ou exigir revisão técnica, as seguintes situações:
 

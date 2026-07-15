@@ -1,5 +1,12 @@
 # Protocolo de medição dimensional das peças físicas
 
+**Estado dos dados integrados.** A comparação actual contém um valor registado
+por eixo e por palma em PLA e PETG, obtido à temperatura ambiente. Este resultado
+é apresentado de forma descritiva, sem cálculo de amplitude ou de incerteza. As
+três leituras independentes descritas neste protocolo constituem uma extensão
+metrológica opcional, necessária apenas se um estudo futuro pretender caracterizar
+a dispersão associada ao reposicionamento do paquímetro.
+
 ## Finalidade
 
 Este protocolo compara a geometria digital exportada com a peça produzida. O

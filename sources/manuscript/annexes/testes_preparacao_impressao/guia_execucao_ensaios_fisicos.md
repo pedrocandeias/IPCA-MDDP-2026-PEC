@@ -1,4 +1,10 @@
-# Guia de execução da componente física do Anexo D
+# Guia opcional de caracterização dimensional e verificação da montagem do Anexo D
+
+As palmas dos doze casos foram medidas em PLA e PETG nos eixos X, Y e Z, com um
+valor registado por eixo. Este guia descreve uma eventual extensão metrológica com
+três leituras independentes e uma possível verificação sistemática da montagem e
+articulação. Nenhuma destas extensões é necessária para a comparação dimensional
+descritiva apresentada na dissertação.
 
 ## 1. O que é necessário antes de medir
 
@@ -16,9 +22,11 @@ Uma peça sem correspondência segura com o modelo, o perfil e o ficheiro não d
 ser usada no cálculo do desvio dimensional. Pode ser fotografada como registo de
 prototipagem, mas fica fora da comparação malha–peça.
 
-## 2. Conjunto mínimo recomendado
+## 2. Conjunto recomendado para uma extensão metrológica
 
-Não é necessário medir os doze casos digitais. O conjunto mínimo defensável é:
+Para aprofundar os resultados já integrados, o conjunto recomendado abrange os
+doze casos digitais nos dois materiais. Se não for possível repetir o conjunto
+integral, o subconjunto deve ser delimitado e justificado. Em qualquer caso, deve incluir:
 
 1. uma palma identificada de cada modelo que tenha sido efectivamente produzida;
 2. os três eixos X, Y e Z de cada palma seleccionada;
@@ -54,7 +62,7 @@ Para cada palma:
 5. retirar e voltar a colocar o paquímetro;
 6. repetir até obter três leituras independentes;
 7. repetir o procedimento para Y e Z;
-8. preencher `leitura_1_mm`, `leitura_2_mm` e `leitura_3_mm` na linha correcta;
+8. conservar os valores já integrados e registar as três novas leituras numa folha própria, sem substituir o registo original;
 9. registar em notas qualquer dificuldade de contacto, deformação ou extremo
    instável;
 10. fotografar cada posição de medição.

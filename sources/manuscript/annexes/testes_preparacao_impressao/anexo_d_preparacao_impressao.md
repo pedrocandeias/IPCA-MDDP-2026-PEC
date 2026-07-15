@@ -9,10 +9,10 @@ demonstrar desempenho mecânico nem validar uma impressão física, mas sim
 caracterizar, sob condições documentadas, as **exigências de fabrico digital** que o
 sistema paramétrico coloca a jusante do projecto: quanto material, quanto tempo,
 quantas placas de impressão e que condições de preparação decorrem de cada modelo
-e de cada dimensão antropométrica. O anexo prepara também a comparação entre
-entrada, malha e peça física e a observação da montagem e articulação; estes dois
-ensaios só produzirão resultados depois de serem efectuadas as medições e
-observações nos protótipos correspondentes.
+e de cada dimensão antropométrica. O anexo apresenta também a comparação entre
+entrada, malha e peça física e prepara a observação da montagem e articulação. A
+comparação dimensional inclui as palmas em PLA e PETG; a montagem e a articulação
+permanecem dependentes de observações sistemáticas nos protótipos correspondentes.
 
 As duas séries aqui apresentadas constituem verificações técnicas complementares
 da fase empírica prevista na metodologia aprovada. Não introduzem novas perguntas,
@@ -30,13 +30,13 @@ viabilidade de implementação ou capacidade de utilização por não especialis
 
 Os valores de tempo, comprimento de filamento, massa, volume e custo deste anexo
 são **estimativas produzidas por programas de preparação para impressão 3D** (Bambu Studio e
-PrusaSlicer). A Secção D.4.4 acrescenta uma **estimativa dimensional teórica**,
-calculada sobre a malha mediante uma hipótese explícita de contracção linear; esta
-estimativa é analítica, não resulta desses programas nem de uma medição física.
+PrusaSlicer). A Secção D.4.4 apresenta, em separado, **medições físicas** das
+extensões X, Y e Z das palmas produzidas em PLA e PETG, realizadas à temperatura
+ambiente e comparadas com as dimensões das malhas correspondentes.
 
 Em consequência, e de forma explícita:
 
-- **Não são medições de impressões reais.** Uma impressão física difere por
+- **As estimativas de preparação não são medições de impressões reais.** Uma impressão física difere por
   factores de máquina, humidade do filamento, calibração e temperatura.
 - **Não são indicadores de desempenho estrutural.** O tempo ou a massa estimados
   nada dizem sobre a resistência da peça.
@@ -46,8 +46,10 @@ Em consequência, e de forma explícita:
 - **As estimativas dependem da versão e do perfil.** Trocar de versão do programa,
   de perfil de processo ou de firmware altera os números.
 
-Estes valores devem, pois, ser lidos como **indicadores comparativos de exigência
-de preparação**, e não como propriedades físicas do produto final.
+As estimativas de tempo, material, volume e custo devem, pois, ser lidas como
+**indicadores comparativos de exigência de preparação**, e não como propriedades
+físicas do produto final. Esta restrição não abrange os valores dimensionais da
+Secção D.4.4, que correspondem a medições das palmas impressas.
 
 ## D.3 Variáveis, controlos e materiais
 
@@ -215,78 +217,62 @@ preparação para impressão, **não** para desempenho estrutural.
 **Sobre a leitura estrutural dos parâmetros.** Importa separar três coisas
 distintas. (i) As *estimativas do programa* (tempo, filamento, massa) não medem
 resistência. (ii) A *integridade de malha* é geométrica, não mecânica. (iii) Os
-*parâmetros de impressão* — número de paredes, densidade e padrão de enchimento e
-material — são, esses sim, determinantes reconhecidos do comportamento mecânico de
-peças FFF: a literatura mostra que, a igual geometria, mais paredes e maior
-enchimento aumentam a rigidez e a resistência. Quanto ao material, e comparado com
-o PLA, o PETG é mais tenaz, mais dúctil e mais resistente ao impacto e à fadiga, e
-suporta temperaturas mais altas (maior temperatura de transição vítrea); o PLA, em
-contrapartida, é mais rígido e tem maior resistência à tracção pura. Para uma
-prótese de mão — sujeita a flexão repetida, a impactos e ao calor do corpo — são a
-tenacidade, a resistência à fadiga e a resistência térmica que mais relevam, pelo
-que, **nesse sentido funcional, o PETG é o material mais resistente e durável** (uma
-leitura qualitativa, não um valor medido). É, por isso, legítimo afirmar de forma
-**qualitativa e relativa** que a configuração da Série B (2 paredes, 15% de
-enchimento) é de *serviço ligeiro* e que aumentar paredes ou enchimento aumentaria
-a robustez esperada. O que **não** é legítimo, sem ensaio físico, é
-atribuir **valores absolutos** de resistência, rigidez ou vida em fadiga, nem
-certificar que uma peça concreta suporta uma carga ou um número de ciclos de
-preensão determinados: isso depende do material, da orientação das camadas
-(anisotropia), da adesão entre camadas, de eventuais defeitos e das condições
-reais de carga, que só um ensaio mecânico mede.
+*parâmetros de impressão* e o material influenciam o comportamento mecânico das
+peças FFF, mas os resultados da literatura não sustentam uma hierarquia geral
+entre PLA e PETG. Hsueh et al. (2021) observaram, nas condições ensaiadas, maior
+módulo de Young e resistência no PLA e maior resistência à deformação térmica no
+PETG. Martins et al. (2024) registaram maior deformação até à rotura no PETG,
+correspondente a um comportamento mais dúctil, mas maior resistência à fadiga no
+PLA nas condições específicas do respectivo ensaio. Por conseguinte, o PETG pode
+ser contextualizado como mais dúctil e, nas condições estudadas, mais resistente à
+deformação térmica, mas não como material universalmente «mais resistente e
+durável». Nesta dissertação, a observação física limita-se a que as peças em PETG
+foram impressas, manipuladas e medidas sem dificuldades impeditivas do procedimento.
+Não foi realizada uma comparação mecânica entre materiais. Também não podem ser
+atribuídos valores absolutos de resistência, rigidez ou vida em fadiga, nem pode
+certificar-se que uma peça concreta suporta uma carga ou um número de ciclos de
+preensão determinados: isso depende do grau do material, da orientação das camadas,
+da adesão entre camadas, de eventuais defeitos, dos restantes parâmetros de
+impressão e das condições reais de carga, que só um ensaio mecânico mede.
 
 ### D.4.4 Comparação entre entrada, malha e peça física
 
-A comparação dimensional foi preparada a partir dos mesmos quatro perfis. Em
-cada caso, o valor `palm_breadth_mm` foi lido no registo de parâmetros aplicado
-pela plataforma e a extensão total no eixo X foi medida directamente na malha
-3MF isolada da palma. A futura medição da peça física deverá reproduzir essa
-extensão total, com a peça orientada segundo os eixos do ficheiro, usando os
-mesmos extremos geométricos.
+A comparação dimensional incidiu nas doze combinações entre três modelos e quatro
+perfis de ensaio. Para cada combinação, as extensões X, Y e Z da malha isolada da
+palma foram comparadas com as dimensões das peças produzidas em PLA e PETG. As
+peças encontravam-se à temperatura ambiente. Cada valor físico corresponde a uma
+medição registada no eixo e material indicados, perfazendo 72 comparações: 36 em
+PLA e 36 em PETG.
 
-Como referência de planeamento, foi calculado um cenário teórico para PLA sob a
-condição virtual comum da Série B. Adoptou-se uma contracção linear uniforme de
-0,30%, aplicada independentemente aos três eixos:
+Tabela D.3 — Comparação dimensional da palma no eixo X em PLA e PETG
 
-```text
-estimativa dimensional teórica = medida da malha × (1 − 0,003)
-desvio teórico = estimativa dimensional teórica − medida da malha
-```
-
-A hipótese não modela anisotropia, calibração da máquina, orientação das camadas,
-humidade, empeno ou variação local. Por isso, os valores calculados não constituem
-previsões metrológicas das peças fotografadas e não substituem as três leituras do
-protocolo físico.
-
-Tabela D.3 — Cenário de estimativa dimensional teórica da palma no eixo X
-
-| Modelo | Perfil etário | Entrada | Malha X | Estimativa | Desvio teórico | Medição física X |
+| Modelo | Perfil etário | Malha X | PLA X | Desvio PLA | PETG X | Desvio PETG |
 |---|---|---:|---:|---:|---:|---:|
-| Flexy Beast | 8 anos | 64,0 mm | 97,385 mm | 97,093 mm | −0,292 mm | — |
-| Flexy Beast | 15 anos | 78,0 mm | 117,144 mm | 116,793 mm | −0,351 mm | — |
-| Flexy Beast | 28 anos | 90,0 mm | 134,081 mm | 133,679 mm | −0,402 mm | — |
-| Flexy Beast | 70 anos | 84,0 mm | 125,612 mm | 125,235 mm | −0,377 mm | — |
-| Paraglider Hand | 8 anos | 63,0 mm | 76,513 mm | 76,283 mm | −0,230 mm | — |
-| Paraglider Hand | 15 anos | 78,0 mm | 94,730 mm | 94,446 mm | −0,284 mm | — |
-| Paraglider Hand | 28 anos | 90,0 mm | 109,304 mm | 108,976 mm | −0,328 mm | — |
-| Paraglider Hand | 70 anos | 84,0 mm | 102,017 mm | 101,711 mm | −0,306 mm | — |
-| UnLimbited Phoenix | 8 anos | 82,0 mm | 82,165 mm | 81,919 mm | −0,246 mm | — |
-| UnLimbited Phoenix | 15 anos | 88,0 mm | 88,177 mm | 87,912 mm | −0,265 mm | — |
-| UnLimbited Phoenix | 28 anos | 90,0 mm | 90,181 mm | 89,910 mm | −0,271 mm | — |
-| UnLimbited Phoenix | 70 anos | 84,0 mm | 84,169 mm | 83,916 mm | −0,253 mm | — |
+| Flexy Beast | 8 anos | 97,385 mm | 97,101 mm | −0,284 mm | 97,024 mm | −0,361 mm |
+| Flexy Beast | 15 anos | 117,144 mm | 116,798 mm | −0,346 mm | 116,688 mm | −0,456 mm |
+| Flexy Beast | 28 anos | 134,081 mm | 133,690 mm | −0,391 mm | 133,554 mm | −0,527 mm |
+| Flexy Beast | 70 anos | 125,612 mm | 125,214 mm | −0,398 mm | 125,091 mm | −0,521 mm |
+| Paraglider Hand | 8 anos | 76,513 mm | 76,277 mm | −0,236 mm | 76,204 mm | −0,309 mm |
+| Paraglider Hand | 15 anos | 94,730 mm | 94,431 mm | −0,299 mm | 94,377 mm | −0,353 mm |
+| Paraglider Hand | 28 anos | 109,304 mm | 108,972 mm | −0,332 mm | 108,841 mm | −0,463 mm |
+| Paraglider Hand | 70 anos | 102,017 mm | 101,690 mm | −0,327 mm | 101,593 mm | −0,424 mm |
+| UnLimbited Phoenix | 8 anos | 82,165 mm | 81,940 mm | −0,225 mm | 81,839 mm | −0,326 mm |
+| UnLimbited Phoenix | 15 anos | 88,177 mm | 87,908 mm | −0,269 mm | 87,807 mm | −0,370 mm |
+| UnLimbited Phoenix | 28 anos | 90,181 mm | 89,914 mm | −0,267 mm | 89,832 mm | −0,349 mm |
+| UnLimbited Phoenix | 70 anos | 84,169 mm | 83,929 mm | −0,240 mm | 83,831 mm | −0,338 mm |
 
-A Tabela D.3 resume a extensão total no eixo X, por ser o único eixo associado a
-um parâmetro activo nos três modelos. A medição física e o respectivo desvio
-observado permanecem por preencher. A folha suplementar de comparação dimensional
-conserva as 36 linhas de medição física ainda por executar. Uma segunda folha
-suplementar apresenta, em separado, as 36 estimativas teóricas para as extensões
-X, Y e Z das doze
-combinações modelo–perfil. Nos casos Paraglider, os valores
-`palm_length_mm` e `palm_thickness_mm` são conservados como contexto do perfil,
-mas não controlam isoladamente as extensões Y e Z; no Flexy Beast e no Phoenix
-não existe, nestas configurações, um parâmetro de entrada correspondente a esses
-dois eixos. Esta diferença encontra-se identificada no campo
-`estado_parametro` da folha.
+A Tabela D.3 resume o eixo X; a folha suplementar de comparação dimensional
+conserva as 72 linhas correspondentes aos três eixos. Em todas as medições, a
+dimensão física ficou abaixo da extensão da malha. Em PLA, os desvios percentuais
+variaram entre −0,321% e −0,274%; em PETG, variaram entre −0,425% e −0,369%.
+Estes intervalos descrevem os exemplares medidos e não demonstram uma taxa geral
+de contracção dos materiais.
+
+Nos casos Paraglider, os valores `palm_length_mm` e `palm_thickness_mm` são
+conservados como contexto do perfil, mas não controlam isoladamente as extensões Y
+e Z; no Flexy Beast e no Phoenix não existe, nestas configurações, um parâmetro de
+entrada correspondente a esses dois eixos. Esta diferença encontra-se identificada
+no campo `estado_parametro` da folha suplementar.
 
 As colunas «Entrada» e «Malha» não representam, em todos os modelos, o mesmo
 limite geométrico. No Flexy Beast e no Paraglider, a medida antropométrica alimenta
@@ -294,19 +280,25 @@ uma regra de escala aplicada a uma geometria-base cuja extensão total inclui ab
 interfaces e margens para montagem. No Phoenix, a largura de referência coincide
 aproximadamente com a extensão X da palma-base, pelo que os valores são próximos.
 Assim, a diferença entre entrada e malha descreve a transformação projectual e não
-constitui erro. O desvio dimensional será calculado apenas entre a malha e a peça
-física, depois de ambas serem medidas no mesmo referencial:
+constitui erro. O desvio dimensional foi calculado entre a malha e a peça física,
+medidas no mesmo referencial:
 
 ```text
 desvio malha–peça = medida da peça física − medida da malha
 desvio percentual = 100 × (medida da peça física − medida da malha) / medida da malha
 ```
 
+Como existe apenas um valor registado por eixo e por peça, não são calculadas a
+média entre repetições, a amplitude ou a incerteza de medição. Esta limitação é
+assumida na interpretação descritiva. Uma eventual caracterização metrológica
+futura exigiria o reposicionamento do paquímetro e leituras independentes, mas não
+é necessária para a comparação apresentada nesta dissertação.
+
 ### D.4.5 Registo fotográfico dos protótipos
 
 As Figuras 8.1 a 8.3 do manuscrito reúnem o registo fotográfico das peças produzidas: componentes separados e em montagem parcial, séries dimensionais de segmentos Paraglider Hand e Flexy Beast, e sete vistas de uma UnLimbited Phoenix montada para o perfil de ensaio de 15 anos. Os originais integram o material suplementar; os painéis apresentados foram compostos sem alteração do conteúdo visual. Três fotografias das séries dimensionais foram apenas rodadas 90° para permitir a leitura correcta da orientação e das identificações manuscritas.
 
-Este registo confirma a existência material dos componentes fotografados e permite observar diferenças de escala, estados de montagem e relações visuais entre peças. Como não inclui escala métrica comum, pontos de medição assinalados, repetições controladas ou aplicação de carga, não é usado para calcular desvios dimensionais nem para inferir resistência, conforto, adequação anatómica ou desempenho funcional. A medição física mantém-se dependente do protocolo definido na Secção D.4.4.
+Este registo confirma a existência material dos componentes fotografados e permite observar diferenças de escala, estados de montagem e relações visuais entre peças. Como não inclui escala métrica comum, pontos de medição assinalados, repetições controladas ou aplicação de carga, as fotografias não são usadas para calcular os desvios dimensionais nem para inferir resistência, conforto, adequação anatómica ou desempenho funcional. Os desvios apresentados na Secção D.4.4 resultam dos valores medidos nas peças, e não da interpretação das imagens.
 
 ## D.5 Compatibilidade com orientações de dimensionamento
 
@@ -339,7 +331,7 @@ individual nem funcionamento.
 
 ## D.6 Limites de comparabilidade
 
-- **Estimativa, não medição** (ver D.2): não citar como valores físicos.
+- **Estimativas de preparação, não medições físicas** (ver D.2): os valores de tempo, filamento, massa, volume e custo não devem ser citados como propriedades medidas nas impressões.
 - **A Série A não permite comparação directa entre modelos/máquinas:** mistura
   programas (Bambu Studio/PrusaSlicer), impressoras (A1/MINI), alturas de camada (0,24/0,20 mm)
   e política de suportes. O Paraglider, em particular, não é comparável com os
@@ -366,9 +358,10 @@ individual nem funcionamento.
   G-code no mesmo formato do Bambu; deixada em branco.
 - **Montagem sólida do Phoenix por perfil:** inexistente na exportação da
   plataforma (só peças soltas), pelo que só está disponível para teen_15.
-- **Medições dimensionais físicas:** ainda não incorporadas nos resultados. O
-  protocolo e a folha de três leituras por ponto foram preparados, mas as colunas
-  permanecem vazias até as peças serem medidas com paquímetro.
+- **Repetições das medições dimensionais:** foi incorporado um valor por eixo e
+  por palma em PLA e PETG. Não foram registadas três leituras independentes por
+  ponto, pelo que não se calculam amplitude entre repetições nem incerteza de
+  reposicionamento do paquímetro.
 - **Verificação de montagem e articulação:** o protocolo e a folha de registo
   foram preparados, mas não existem ainda observações preenchidas que permitam
   apresentar resultados de movimento, fecho ou retorno.
@@ -391,20 +384,26 @@ individual nem funcionamento.
   condição digital comum.
 - Que o par Phoenix PLA vs PETG (Série A) constitui um contraste de material
   controlado, por partilhar modelo, impressora, geometria, camada e processo.
-- Que, de forma **qualitativa e relativa**, os parâmetros de impressão informam o
-  comportamento mecânico esperado: mais paredes ou mais enchimento aumentam a
-  robustez; o PETG é funcionalmente mais resistente e durável do que o PLA (mais
-  tenaz e mais resistente a impacto, fadiga e calor), sendo o PLA mais rígido; e a
-  configuração da Série B (2 paredes, 15%) é de serviço ligeiro — tudo sem
-  quantificar valores absolutos.
+- Que foram comparadas 72 dimensões físicas das palmas em PLA e PETG com as
+  extensões X/Y/Z das respectivas malhas e que, nos exemplares medidos, todos os
+  desvios foram negativos e inferiores a 0,5% em valor absoluto.
+- Que as peças em PETG foram impressas, manipuladas e medidas sem dificuldades
+  impeditivas do procedimento. Como enquadramento da literatura, o PETG apresentou
+  maior resistência à deformação térmica no estudo de Hsueh et al. (2021) e maior
+  ductilidade no estudo de Martins et al. (2024); estas propriedades não constituem
+  resultados experimentais desta dissertação.
 
 **Não pode afirmar-se:**
 
-- Que estes valores estimados são **medições reais** de impressões, ou que medem
-  **valores absolutos** de resistência, rigidez, durabilidade ou ajuste anatómico.
+- Que as estimativas de tempo, filamento, massa, volume e custo são **medições
+  reais** das impressões, ou que as medições dimensionais demonstram **valores
+  absolutos** de resistência, rigidez, durabilidade ou ajuste anatómico.
   (A leitura estrutural admissível é apenas qualitativa e relativa — ver acima e
   o parágrafo «Sobre a leitura estrutural dos parâmetros» em D.4.3; valores
   absolutos exigem ensaio mecânico físico.)
+- Que o PETG é, de forma geral, mais resistente, mais durável ou mais resistente à
+  fadiga do que o PLA; essas comparações dependem do tipo de solicitação e das
+  condições de fabrico e exigem ensaios mecânicos comparáveis.
 - Que os casos da **Série A** são comparáveis entre modelos, programas ou
   impressoras diferentes (a única comparação válida na Série A é o par Phoenix
   PLA vs PETG, que só difere no material).
@@ -421,9 +420,11 @@ As imagens seguintes documentam **impressões físicas reais** dos modelos, obti
 na impressora Bambu Lab A1. Complementam as estimativas digitais das secções
 anteriores como **evidência visual e qualitativa** da preparação e do fabrico:
 mostram que os ficheiros gerados pela plataforma foram impressos, montados e
-articulados. Não acrescentam medições quantitativas — as medições dimensionais e
-a verificação de montagem seguem os protocolos próprios (D.4.4 e anexos
-associados) e permanecem por preencher até serem executadas sobre estes exemplares.
+articulados. As imagens não acrescentam medições quantitativas. As dimensões X, Y
+e Z apresentadas em D.4.4 foram obtidas por medição directa das palmas. Uma
+caracterização metrológica com leituras independentes e a verificação sistemática
+da montagem constituem extensões possíveis, mas não integram o âmbito descritivo
+adoptado nesta dissertação.
 
 ### D.9.1 Peças no processo de impressão (placa Bambu Lab A1)
 

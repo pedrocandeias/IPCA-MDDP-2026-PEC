@@ -328,12 +328,12 @@ anatomicamente ordenados.
 | Perfil | Flexy `palm_breadth` / `middle` | Paraglider `palm_breadth` / `middle` | Phoenix `palm_breadth` |
 |---|---|---|---|
 | baseline | 83 / 72 | 83 / 72 | 82 |
-| criança | 62 / 56 | 62 / 56 | **82** *(no piso; +`HandPerc_override=76`)* |
-| mulher | 77 / 77 | 77 / 76 | **82** *(no piso)* |
+| criança | 62 / 56 | 62 / 56 | **82** *(no limite mínimo; +`HandPerc_override=76`)* |
+| mulher | 77 / 77 | 77 / 76 | **82** *(no limite mínimo)* |
 | homem | 96 / 86 | 96 / 86 | 96 |
 
 Os dois modelos multi-parâmetro dimensionam-se de forma **quase idêntica** (independentemente de
-qual modelo está carregado — a estimativa segue o paciente, não a malha). O Phoenix expõe o piso
+qual modelo está carregado — a estimativa segue o paciente, não a malha). O Phoenix expõe o limite mínimo
 da sua única entrada: perfis abaixo de 82 mm não podem ser expressos, pelo que a IA devolveu 82 —
 exceto para a criança, onde recorreu à saída de emergência `HandPerc_override` (ver §6.5, defeito
 3).
@@ -348,9 +348,9 @@ exceto para a criança, onde recorreu à saída de emergência `HandPerc_overrid
 | homem | 1.148 | 1.157 | 1.171 |
 
 † A criança do Phoenix só encolheu porque a IA usou `HandPerc_override = 76` (76 %), o que
-**contornou** o piso de 100 % do modelo — um defeito, agora corrigido (§6.5); após a correção é
+**contornou** o limite mínimo de 100 % do modelo — um defeito, agora corrigido (§6.5); após a correcção é
 1.000.
-‡ A mulher do Phoenix (estimada em ~77 mm < 82) é **limitada ao piso de 100 %** — o modelo não a
+‡ A mulher do Phoenix (estimada em ~77 mm < 82) é **fixada no limite mínimo de 100 %** — o modelo não a
 consegue imprimir mais pequena, por desenho. O Flexy e o Paraglider escalam-na para baixo
 suavemente (~0.93).
 
@@ -376,7 +376,7 @@ ponta a ponta.
 |---|---|---|---|
 | 1 | Grounding (todos os modelos) | `findBestProfileMatch` ancorava **todos** os pacientes em *ANSUR I Male 50th* — o token masculino `'m,'` correspondia às unidades `"mm,"`/`"cm,"`, e a análise era apenas em inglês (§2.4) | **v14.16.0** — tokens multilingues em fronteira de palavra Unicode, classificação por idade, extração opcional por LLM |
 | 2 | Palma do Paraglider | A palma Reborn estava **congelada** no tamanho de 83 mm — `scaled_palm()` é importada com `use` (com escopo léxico) e lia o `overall_scale=1.25` codificado da biblioteca, ignorando `palm_breadth_mm` | **v14.17.0** — reaplicar a escala no local de chamada |
-| 3 | Override do Phoenix | `HandPerc_override` (intervalo `[0:160]`) tinha uma zona morta `1–99` **sem piso**; a IA usou `76` para imprimir uma palma de criança a 62 mm, abaixo do mínimo suportado de 100 % | **v14.18.0** — limitar também o ramo do override a 100–160 % |
+| 3 | Override do Phoenix | `HandPerc_override` (intervalo `[0:160]`) tinha uma zona morta `1–99` **sem limite mínimo aplicado**; a IA usou `76` para imprimir uma palma de criança a 62 mm, abaixo do mínimo suportado de 100 % | **v14.18.0** — limitar também o ramo do *override* a 100–160 % |
 
 ### 6.6 Orientação para seleção de modelo
 
@@ -391,7 +391,7 @@ Os três modelos são **complementares**, não intermutáveis, por tamanho impri
   Flexy Beast).
 
 Para os perfis de criança e mulher aqui, o Flexy Beast ou o Paraglider são corretos; o Phoenix
-limita-os ao piso. Isto é agora consistente na geometria após a correção do defeito 3.
+fixa-os no limite mínimo. Isto é agora consistente na geometria após a correcção do defeito 3.
 
 ---
 

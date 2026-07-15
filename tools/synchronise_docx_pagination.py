@@ -37,6 +37,11 @@ def normalise(text: str) -> str:
     return "".join(character for character in text if character.isalnum())
 
 
+def is_index_style(style: str) -> bool:
+    """Aceita os estilos locais em português e os estilos TOC do modelo IPCA."""
+    return style.startswith("ndice") or style.startswith("TOC")
+
+
 def update_table_49_widths(root: etree._Element) -> None:
     captions = [
         p for p in root.xpath(".//w:p", namespaces=NS)
@@ -70,7 +75,7 @@ def static_page_map(document_xml: bytes) -> dict[str, str]:
     for paragraph in root.xpath("//w:body/w:p", namespaces=NS):
         style = paragraph.xpath("./w:pPr/w:pStyle/@w:val", namespaces=NS)
         text_nodes = paragraph.xpath(".//w:t", namespaces=NS)
-        if not style or not style[0].startswith("ndice") or len(text_nodes) != 2:
+        if not style or not is_index_style(style[0]) or len(text_nodes) != 2:
             continue
         title = text_nodes[0].text or ""
         page = text_nodes[1].text or ""
@@ -115,7 +120,7 @@ def apply(document_xml: bytes, extracted_pdf: str, page_offset: int) -> tuple[by
     for paragraph in root.xpath("//w:body/w:p", namespaces=NS):
         style = paragraph.xpath("./w:pPr/w:pStyle/@w:val", namespaces=NS)
         text_nodes = paragraph.xpath(".//w:t", namespaces=NS)
-        if not style or not style[0].startswith("ndice") or len(text_nodes) != 2:
+        if not style or not is_index_style(style[0]) or len(text_nodes) != 2:
             continue
         title = text_nodes[0].text or ""
         old_page = text_nodes[1].text or ""

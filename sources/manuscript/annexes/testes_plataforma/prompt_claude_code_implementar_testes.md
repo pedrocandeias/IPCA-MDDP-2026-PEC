@@ -89,7 +89,7 @@ Implementa os casos `ROB-*` da matriz, incluindo:
 - mínimo, máximo, abaixo do mínimo e acima do máximo;
 - campo omisso, tipo inválido e campos contraditórios;
 - país sem cobertura antropométrica directa;
-- perfil incompatível com o piso de um modelo;
+- perfil incompatível com o limite mínimo de um modelo;
 - resposta de IA inválida ou indisponível;
 - falha de renderização;
 - tentativa de exportação sem geometria válida;
