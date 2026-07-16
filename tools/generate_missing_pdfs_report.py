@@ -277,6 +277,13 @@ def destination(source: MissingSource) -> tuple[str, str]:
 
 
 def short_evidence(source: MissingSource) -> str:
+    if title_key(source.title) == title_key(
+        "Prosthesis options and management in upper extremity amputation"
+    ):
+        return (
+            "Foram localizados apenas o índice e a lista de colaboradores do volume 33(3), "
+            "que confirmam o artigo 101061; o texto integral do artigo não está presente."
+        )
     evidence = " ".join(source.evidence)
     evidence_folded = evidence.casefold()
     if (
@@ -342,6 +349,7 @@ def render(sources: list[MissingSource], ghali: MissingSource, audit: Path, manu
             "- A presença de um DOI nesta lista significa apenas que foi identificado na bibliografia, na auditoria ou nos metadados do editor, de um repositório ou de um índice bibliográfico; não significa que o PDF seja de acesso aberto.",
             "- Uma ligação «Pesquisar no Crossref» é uma pesquisa pelo título e não deve ser tratada como confirmação de DOI.",
             "- Walker et al. foi retirado da lista porque o texto integral foi posteriormente obtido e confrontado. Mistarihi (2020) foi acrescentado a partir do Anexo A.",
+            "- Para Fink e Diamond (2023), os ficheiros locais `Table-of-Contents--pick-up-from-previous-is_2023_Operative-Techniques-in-Ort.pdf` e `Contributors--pick-up-from-previous-issue-_2023_Operative-Techniques-in-Orth.pdf` apenas identificam o artigo 101061; nenhum deles contém o texto integral.",
             "- Fontes normativas, páginas *web*, repositórios de código e conjuntos DINED sem PDF autónomo não são contabilizados como PDFs científicos em falta.",
             "",
             f"- SHA-256 do relatório de auditoria usado: `{sha256(audit)}`.",

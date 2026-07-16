@@ -2,6 +2,7 @@
 
 ## 2026-07-16
 
+- Verificados os novos ficheiros do volume 33(3) de *Operative Techniques in Orthopaedics* adicionados a `material/amputacao/`: o índice e a lista de colaboradores confirmam o título, a autoria e o identificador 101061 de Fink e Diamond (2023), mas não contêm o texto integral; a referência permanece, por isso, no inventário de PDFs em falta com este estado explicitado.
 - Substituído o inventário desactualizado em `projecto_completo_bibliografia/pdfs_em_falta.md` por uma lista reconciliada com a auditoria bibliográfica: 81 *papers* citados sem texto integral local, dos quais 70 têm DOI confirmado, um tem ligação estável de repositório e dez conservam uma pesquisa exacta por título no Crossref por não existir DOI ou URL bibliográfico confirmado; registado separadamente o capítulo de Ghali (2008).
 - Adicionado `tools/generate_missing_pdfs_report.py` para reproduzir o inventário a partir do manuscrito e de `docs/revisoes/auditoria_referencias_texto_papers_061.md`, com desduplicação, ligações DOI canónicas, exclusão de agregadores bibliográficos e valores SHA-256 dos documentos de origem.
 - Renovada a autenticação da aplicação Mendeley MCP (`client_id` 22946) e repetidas, em modo de leitura, as pesquisas finais nos 514 registos remotos: confirmada uma entrada de Romero et al. com anexo, já coberta pelo PDF local, e nenhuma nova correspondência para Alili, Colombo, Silva ou para as fontes pendentes do Anexo A; os totais da auditoria mantêm-se inalterados.
