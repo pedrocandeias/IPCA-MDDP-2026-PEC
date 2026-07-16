@@ -2,6 +2,7 @@
 
 ## 2026-07-16
 
+- Renovada a autenticação da aplicação Mendeley MCP (`client_id` 22946) e repetidas, em modo de leitura, as pesquisas finais nos 514 registos remotos: confirmada uma entrada de Romero et al. com anexo, já coberta pelo PDF local, e nenhuma nova correspondência para Alili, Colombo, Silva ou para as fontes pendentes do Anexo A; os totais da auditoria mantêm-se inalterados.
 - Concluída `docs/revisoes/auditoria_referencias_texto_papers_061.md`, com auditoria sequencial das citações e atribuições do corpo dos Capítulos 1–9 e dos Anexos A–D: 256 conjuntos, 463 ocorrências e 156 referências únicas; dos 432 pares relativos a *papers*, 172 foram confrontados directamente com 57 textos integrais e 260 permanecem pendentes por falta de 81 artigos.
 - Para cada fonte confrontada, o relatório conserva a frase da dissertação, o título e o nome do ficheiro, o caminho local, a página ou secção e um excerto textual exacto; a pesquisa seguiu a ordem `projecto_completo_bibliografia/`, `material/` e Mendeley, distinguindo artigos científicos, documentos académicos, normas e fontes técnicas ou institucionais.
 - Identificadas incompatibilidades de autoria, ano, DOI, ficheiro, dados e atribuição visual, citações excessivamente abrangentes, transferências não demonstradas de literatura sobre membro inferior para membro superior e 88 melhorias prioritárias; as fontes normativas do Anexo B e as fontes técnicas do Anexo C foram separadas das fontes científicas e não foram aplicadas correcções bibliográficas automáticas ao manuscrito.
