@@ -220,6 +220,48 @@ def parse_missing_sources(audit_text: str) -> tuple[list[MissingSource], Missing
         if not source_key_match:
             raise RuntimeError(f"Could not locate the {label} entry")
         sources.pop(source_key_match)
+
+    # Thirty cited papers were added to the local bibliography on 2026-07-16
+    # and checked directly against all 116 passages that cite them.  Section 4
+    # remains a historical record of what was missing at the initial close, so
+    # the authoritative missing-PDF list must explicitly remove this later lot.
+    obtained_july_2026 = {
+        "developing innovative solutions for universal design in healthcare and other sectors": "White and Mosca",
+        "an additive manufacturing process model for product family design": "Lei et al.",
+        "design methodology for mass personalisation enabled by digital manufacturing": "Ozdemir et al.",
+        "mass customization a critical perspective on parametric design digital fabrication and design democratization": "Stralen",
+        "design for additive manufacturing review and framework proposal": "Chtioui et al.",
+        "design for additive manufacturing a review of available design methods and software": "Wiberg et al.",
+        "integrating parametric design and additive manufacturing knowledge in industrial design education": "Kandikjan et al.",
+        "accessible prosthetic arms victoria hand project and the impact of 3d printing": "Dechev et al.",
+        "three dimensional printed upper limb prostheses lack randomised controlled trials a systematic review": "Diment et al.",
+        "suitability of the openly accessible 3d printed prosthetic hands for war wounded children": "Cabibihan et al.",
+        "introduction to the special issue anthropometry in design": "Albin and Molenbroek",
+        "advances in the measurement of prosthetic socket interface mechanics": "Young et al.",
+        "a review on 3d scanners studies for producing customized orthoses": "Silva et al.",
+        "comparison of traditional mri and 3d scanning anthropometric measurements in hand prosthesis design": "Ciklacandir et al.",
+        "design for all design for disabled how important is anthropometry": "Paul et al.",
+        "artificial intelligence ai in the design process a review and analysis on generative ai perspectives": "Choudhury et al.",
+        "integrating artificial intelligence into design thinking": "Saeidnia and Ausloos",
+        "technology for monitoring everyday prosthesis use a systematic review": "Chadwell et al.",
+        "effects of lower limb prosthesis on activity participation and quality of life": "Samuelsson et al.",
+        "active lower limb prosthetics a systematic review of design issues and solutions": "Windrich et al.",
+        "issues affecting the level of prosthetics research evidence": "Hafner and Sawers",
+        "literature review on needs of upper limb prosthesis users": "Cordella et al.",
+        "a review of user needs to inform the development of lower limb prostheses": "Manz et al.",
+        "functionality and comfort design of lower limb prosthetics": "Alluhydan et al.",
+        "adjustable prosthetic sockets a systematic review": "Baldock et al.",
+        "user experience of transtibial prosthetic liners a systematic review": "Richardson and Dillon",
+        "low limb prostheses and complex human prosthetic interaction": "Dominguez-Ruiz et al.",
+        "a narrative review of prosthesis design decision making after lower limb amputation": "Anderson et al.",
+        "research in art and design": "Frayling",
+        "research through design as a method for interaction design research in hci": "Zimmerman et al.",
+    }
+    for key_prefix, label in obtained_july_2026.items():
+        source_key_match = next((key for key in sources if key.startswith(key_prefix)), "")
+        if not source_key_match:
+            raise RuntimeError(f"Could not locate the July 2026 entry for {label}")
+        sources.pop(source_key_match)
     ghali_key = next((key for key in sources if key.startswith("constructive solid geometry")), "")
     if not ghali_key:
         raise RuntimeError("Could not locate the Ghali book-chapter entry")
@@ -235,9 +277,9 @@ def parse_missing_sources(audit_text: str) -> tuple[list[MissingSource], Missing
     )
 
     result = sorted(sources.values(), key=lambda item: normalized(item.reference))
-    if len(result) != 75:
+    if len(result) != 45:
         labels = "\n".join(f"- {item.reference}: {item.title}" for item in result)
-        raise RuntimeError(f"Expected 75 missing papers, found {len(result)}:\n{labels}")
+        raise RuntimeError(f"Expected 45 missing papers, found {len(result)}:\n{labels}")
     return result, ghali
 
 
@@ -383,6 +425,8 @@ def render(sources: list[MissingSource], ghali: MissingSource, audit: Path, manu
             "- Segura et al. (2024) foi retirado da lista porque o PDF editorial foi acrescentado e as sete passagens que o citam foram confrontadas directamente; uma associação tem suporte directo, cinco têm suporte parcial e uma é incompatível.",
             "- Shah e Robinson (2006), Wilke et al. (2020) e Millet et al. (2018) foram retirados após a validação dos PDFs locais e o confronto de nove pares afirmação–fonte.",
             "- Chapman et al. (2025) foi retirado após a extracção textual integral do PDF editorial de acesso aberto e o confronto dos quatro pares associados; a captura Markdown conserva os marcadores da paginação publicada, mas não substitui o ficheiro PDF original.",
+            "- O lote local de 16 de Julho de 2026 retirou mais trinta fontes desta lista após validação dos PDFs e confronto de 116 pares afirmação–fonte; 52 têm suporte directo, 53 suporte parcial e onze são incompatíveis.",
+            "- Dois PDFs válidos acrescentados no mesmo lote — Kang et al. e Bitterman — não correspondem a referências citadas e, por isso, não alteram esta lista. `SHTI-297-SHTI220858.pdf` foi excluído por conter HTML, usando-se o PDF válido de White e Mosca.",
             "- Fontes normativas, páginas *web*, repositórios de código e conjuntos DINED sem PDF autónomo não são contabilizados como PDFs científicos em falta.",
             "",
             f"- SHA-256 do relatório de auditoria usado: `{sha256(audit)}`.",
