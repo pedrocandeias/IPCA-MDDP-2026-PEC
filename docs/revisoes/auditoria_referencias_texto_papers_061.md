@@ -4,13 +4,13 @@ Data da auditoria: 15–16 de Julho de 2026
 Manuscrito auditado: `pedro-candeias-projeto-mestrado-mdddp-ipca-2026-revisto.md`
 Versão indicada no manuscrito: 0.4.63
 Âmbito concluído: corpo dos Capítulos 1–9, linhas 223–1882, e Anexos A–D, linhas 2213–3734
-Estado: auditoria sequencial do corpo e dos Anexos A–D concluída; o Capítulo 9 e o Anexo C não contêm citações autor–ano a *papers*. Um lote posterior de catorze textos integrais aguarda confronto directo com 44 pares afirmação–fonte já identificados.
+Estado: auditoria sequencial do corpo e dos Anexos A–D concluída; o Capítulo 9 e o Anexo C não contêm citações autor–ano a *papers*. Dois lotes posteriores, com 26 textos integrais, aguardam confronto directo com 70 pares afirmação–fonte já identificados.
 
 ## Estado dos textos integrais e lote posterior
 
-A tabela seguinte conserva o levantamento das **45 fontes citadas cujo texto integral estava em falta no fecho da auditoria sequencial**, após a pesquisa em `projecto_completo_bibliografia/`, `material/` e nos 514 registos consultados na biblioteca Mendeley. Ainda em 16 de Julho de 2026, foram depois validados e acrescentados catorze textos integrais correspondentes a Alili et al., Ao, Li e Duan, Bai et al., Burnap, Hauser e Timoshenko, Cole, Costabile et al., Fischer et al., Frangos et al., Ghillebert et al., Herbst et al., Jones et al., Peixoto et al., Quintero et al. e Trautmann. A lista actual de ausências reduz-se, assim, a **31 *papers*** e encontra-se em `projecto_completo_bibliografia/pdfs_em_falta.md`.
+A tabela seguinte conserva o levantamento das **45 fontes citadas cujo texto integral estava em falta no fecho da auditoria sequencial**, após a pesquisa em `projecto_completo_bibliografia/`, `material/` e nos 514 registos consultados na biblioteca Mendeley. Ainda em 16 de Julho de 2026, foram depois validados e acrescentados catorze textos integrais correspondentes a Alili et al., Ao, Li e Duan, Bai et al., Burnap, Hauser e Timoshenko, Cole, Costabile et al., Fischer et al., Frangos et al., Ghillebert et al., Herbst et al., Jones et al., Peixoto et al., Quintero et al. e Trautmann. Um lote subsequente acrescentou Hussaini et al., Kerr et al., Khanolkar, Vrolijk e Olechowski, Krahe et al., Kuhl et al., Mikołajewski et al., Mistarihi, Sims et al., Soyer et al., Thorsen et al., Verganti, Vendraminelli e Iansiti e Walters et al. A lista actual de ausências reduz-se, assim, a **19 *papers*** e encontra-se em `projecto_completo_bibliografia/pdfs_em_falta.md`.
 
-Os catorze novos textos cobrem 44 pares afirmação–fonte que continuam pendentes de leitura comparativa; a disponibilidade do PDF não constitui, por si só, confirmação das afirmações do manuscrito. O volume *New Perspectives in End-User Development* contém o capítulo de Fischer et al. (2017). O PDF de Jones, Chadwell e Dyson (2023) confirma o DOI `10.3389/frhs.2023.1213752`, divergente de `10.3389/frhs.2023.1123682`, ainda registado na bibliografia e a corrigir numa revisão editorial autónoma. A tabela histórica abaixo é mantida para preservar a sequência da auditoria; as ligações para o Crossref que nela aparecem como pesquisas por título não correspondem a DOI confirmados.
+Os 26 novos textos cobrem 70 pares afirmação–fonte que continuam pendentes de leitura comparativa; a disponibilidade do PDF não constitui, por si só, confirmação das afirmações do manuscrito. O volume *New Perspectives in End-User Development* contém o capítulo de Fischer et al. (2017). O PDF de Jones, Chadwell e Dyson (2023) confirma o DOI `10.3389/frhs.2023.1213752`, divergente de `10.3389/frhs.2023.1123682`, ainda registado na bibliografia. O PDF de Krahe et al. (2020) confirma o DOI editorial `10.1016/j.procir.2020.01.135`, enquanto `10.5445/IR/1000127884` identifica o depósito do KIT. As duas divergências ficam assinaladas para revisão editorial autónoma. A tabela histórica abaixo é mantida para preservar a sequência da auditoria; as ligações para o Crossref que nela aparecem como pesquisas por título não correspondem a DOI confirmados.
 
 | N.º | Autor(es) e ano | Título identificado no fecho inicial | DOI ou localização provável |
 | ---: | --- | --- | --- |
@@ -60,7 +60,7 @@ Os catorze novos textos cobrem 44 pares afirmação–fonte que continuam penden
 | 44 | Yao, Moon e Bi (2016) | *A cost-driven design methodology for additive manufactured variable platforms in product families* | [https://doi.org/10.1115/1.4032504](https://doi.org/10.1115/1.4032504) |
 | 45 | Yüksel et al. (2023) | *Review of artificial intelligence applications in engineering design perspective* | [https://doi.org/10.1016/j.engappai.2022.105697](https://doi.org/10.1016/j.engappai.2022.105697) |
 
-O capítulo de livro de Ghali (2008), também ainda sem texto integral, é acompanhado separadamente por não integrar a contagem actual dos 31 *papers*. A lista autoritativa, incluindo o estado individual de pesquisa, encontra-se em `projecto_completo_bibliografia/pdfs_em_falta.md`.
+O capítulo de livro de Ghali (2008), também ainda sem texto integral, é acompanhado separadamente por não integrar a contagem actual dos 19 *papers*. A lista autoritativa, incluindo o estado individual de pesquisa, encontra-se em `projecto_completo_bibliografia/pdfs_em_falta.md`.
 
 ## 1. Critérios e método
 
@@ -85,10 +85,10 @@ No fecho inicial dos Capítulos 7–9, a credencial da API Mendeley tinha expira
 | Conjuntos de citações ou atribuições no texto | 256 | 211 no corpo, 37 no Anexo A, dois no B, quatro no C e dois no D; as atribuições abreviadas e a fonte anónima de A são rastreadas separadamente |
 | Ocorrências afirmação–fonte | 463 | 432 pares relativos a *papers*, treze ocorrências de documentos académicos não classificados como *papers*, seis normativas e doze técnicas/institucionais |
 | Referências únicas citadas | 156 | 138 *papers*, quatro documentos académicos não classificados como *papers*, quatro fontes normativas e dez técnicas/institucionais |
-| *Papers* com texto integral obtido | 107 de 138 | Noventa e três fontes foram confrontadas directamente; catorze textos acrescentados no lote posterior aguardam confronto; Zhou et al. continua identificado fora da contagem formal |
+| *Papers* com texto integral obtido | 119 de 138 | Noventa e três fontes foram confrontadas directamente; 26 textos acrescentados nos lotes posteriores aguardam confronto; Zhou et al. continua identificado fora da contagem formal |
 | Pares afirmação–fonte confrontados directamente com o texto integral | 314 | 278 no corpo, 32 no Anexo A e quatro no Anexo D; no novo lote, 52 pares têm suporte directo, 53 parcial e onze são incompatíveis |
-| Pares afirmação–fonte pendentes com texto integral já localizado | 44 | Correspondem às catorze fontes do lote posterior e requerem leitura comparativa antes de qualquer reclassificação |
-| Pares afirmação–fonte pendentes por ausência do *paper* | 74 | Trinta e uma referências únicas continuam sem texto integral; o Anexo A mantém cinco pares de Mistarihi |
+| Pares afirmação–fonte pendentes com texto integral já localizado | 70 | Correspondem às 26 fontes dos lotes posteriores e requerem leitura comparativa antes de qualquer reclassificação |
+| Pares afirmação–fonte pendentes por ausência do *paper* | 48 | Dezanove referências únicas continuam sem texto integral |
 | Ocorrências de outros documentos académicos | 13 | Moreo soma três ocorrências no anexo; Gordon (1989) soma três ocorrências com suporte local apenas parcial; Gordon (2015) soma uma ocorrência sem relatório local |
 | Ocorrências de fonte normativa, técnica ou institucional fora do âmbito texto–*paper* | 18 | Seis normativas e doze técnicas/institucionais; os Anexos B e C acrescentam, respectivamente, duas normativas e quatro atribuições técnicas |
 
@@ -122,9 +122,9 @@ Quando uma referência reaparece num capítulo posterior, o novo conjunto de lin
 | Brack e Amalu (2021) | 297 | Sim | Registo e ficheiro integral | Suporte parcial; hierarquia classificativa alterada no texto |
 | Engdahl et al. (2024) | 307, 311 | Não | Sem correspondência | Não localizado; dois pares pendentes |
 | Bates et al. (2020) | 311, 335 | Não | Sem correspondência | Não localizado; dois pares pendentes |
-| Walters et al. (2025) | 315 | Não | Sem correspondência | Não localizado; um par pendente |
+| Walters et al. (2025) | 315 | Sim | Não consultado, por existir PDF local | Texto integral localizado no lote posterior; um par pendente de confronto directo |
 | ten Kate et al. (2017) | 317–323 | Sim | Registo e ficheiro integral | Suporte directo; imagem correspondente localizada |
-| Soyer et al. (2016) | 327, 335, 339 | Não | Sem correspondência | Não localizado; três pares pendentes |
+| Soyer et al. (2016) | 327, 335, 339 | Sim | Não consultado, por existir PDF local | Texto integral localizado no lote posterior; três pares pendentes de confronto directo |
 | Smail et al. (2020 no manuscrito) | 341 | Sim | Registo e ficheiro integral, ano 2021 | Suporte parcial; citação demasiado ampla |
 | Biddiss et al. (2007) | 343–349 | Sim | Registo e ficheiro integral | Incompatível com a Figura 2.2 apresentada |
 | Parlamento Europeu e Conselho da União Europeia (2017) | 353, 357 | Fonte normativa | Não aplicável | Fora do âmbito texto–*paper* |
@@ -169,14 +169,14 @@ Quando uma referência reaparece num capítulo posterior, o novo conjunto de lin
 | Saeidnia e Ausloos (2024) | 587, 621 | Sim | Não consultado, por existir PDF local | Dois pares confrontados: um directo e um parcial |
 | Yüksel et al. (2023) | 587, 599, 609, 629 | Não | Sem correspondência | Não localizado; quatro pares pendentes |
 | Menaka et al. (2025) | 595, 605, 617 | Sim | Não consultado, por existir PDF local | Figura correspondente; suporte parcial para treino e optimização |
-| Khanolkar et al. (2023) | 601, 615, 621 | Não | Sem correspondência | Não localizado; três pares pendentes |
-| Krahe et al. (2020) | 601 | Não | Sem correspondência | Não localizado; um par pendente |
+| Khanolkar et al. (2023) | 601, 615, 621 | Sim | Não consultado, por existir PDF local | Texto integral localizado no lote posterior; três pares pendentes de confronto directo |
+| Krahe et al. (2020) | 601 | Sim | Não consultado, por existir PDF local | Texto integral localizado no lote posterior; um par pendente de confronto directo; DOI editorial `10.1016/j.procir.2020.01.135` |
 | Li et al. (2021) | 601, 611 | Sim | Não consultado, por existir PDF local | Suporte parcial/directo apenas para *generative design* |
 | Ao et al. (2025) | 605, 615, 617, 623, 631 | Sim | Não consultado, por existir PDF local | Texto integral localizado no lote posterior; cinco pares pendentes de confronto directo |
 | Panchal et al. (2019) | 605, 609, 629 | Não | Sem correspondência | Não localizado; três pares pendentes |
 | Burnap et al. (2019) | 611, 629 | Sim | Não consultado, por existir PDF local | Texto integral localizado no lote posterior; dois pares pendentes de confronto directo |
 | Wang e Hu (2024) | 615, 617 | Sim | Não consultado, por existir PDF local | Suporte parcial para optimização, previsão e recomendação |
-| Verganti et al. (2020) | 621, 631 | Não | Sem correspondência | Não localizado; dois pares pendentes |
+| Verganti et al. (2020) | 621, 631 | Sim | Não consultado, por existir PDF local | Texto integral localizado no lote posterior; dois pares pendentes de confronto directo |
 | Virós-i-Martin e Selva (2021) | 623, 627 | Ficheiro local incorrecto | Sem correspondência | Dois pares pendentes; o PDF local contém outro artigo |
 | Figoli et al. (2022) | 627 | Não | Sem correspondência | Não localizado; um par pendente |
 | Kadenhe et al. (2025) | 627, 631 | Sim | Não consultado, por existir PDF local | Suporte directo/parcial para agência, controlo e supervisão humana |
@@ -184,21 +184,21 @@ Quando uma referência reaparece num capítulo posterior, o novo conjunto de lin
 | Hippel e Katz (2002) | 635, 641, 685 | Sim | Não consultado, por existir PDF local | Suporte directo para *toolkits*; parcial para as sínteses mais abrangentes |
 | Howard et al. (2022) | 635, 699, 705 | Não | Sem correspondência | Não localizado; três pares pendentes |
 | Fischer et al. (2017) | 637, 653, 655, 683, 707 | Sim | Não consultado, por existir PDF local | O volume local contém o capítulo citado; cinco pares pendentes de confronto directo |
-| Kerr et al. (2024) | 637, 691, 697 | Não | Sem correspondência | Não localizado; três pares pendentes |
+| Kerr et al. (2024) | 637, 691, 697 | Sim | Não consultado, por existir PDF local | Texto integral localizado no lote posterior; três pares pendentes de confronto directo |
 | Zhu e Zhong (2022) | 637, 681, 685, 695 | Sim | Não consultado, por existir PDF local | Suporte directo para o fluxo parâmetro–CAD; parcial e metodologicamente frágil nas restantes afirmações |
 | Franke e Hippel (2002) | 641 | Não | Sem correspondência | Não localizado; um par pendente |
 | Costabile et al. (2007) | 643, 655, 709 | Sim | Não consultado, por existir PDF local | Texto integral localizado no lote posterior; três pares pendentes de confronto directo |
 | Akasaka et al. (2022) | 651, 673, 711 | Sim | Não consultado, por existir PDF local | Figura 2.7 corresponde à Figura 1, não ao *participation blueprint*; Tabela 2.2 omite a categoria «Phase»; linha 711 sem suporte |
 | Peters e Richter (2023) | 679, 685 | Não | Sem correspondência | Não localizado; dois pares pendentes |
-| Kuhl et al. (2020) | 681 | Não | Sem correspondência | Não localizado; um par pendente |
+| Kuhl et al. (2020) | 681 | Sim | Não consultado, por existir PDF local | Texto integral localizado no lote posterior; um par pendente de confronto directo |
 | Cole (2011) | 683, 697 | Sim | Não consultado, por existir PDF local | Texto integral localizado no lote posterior; dois pares pendentes de confronto directo |
 | Dexter et al. (2013) | 689 | Não | Sem correspondência | Não localizado; um par pendente |
-| Thorsen et al. (2023) | 689, 701, 705 | Não | Sem correspondência | Não localizado; três pares pendentes |
+| Thorsen et al. (2023) | 689, 701, 705 | Sim | Não consultado, por existir PDF local | Texto integral localizado no lote posterior; três pares pendentes de confronto directo |
 | Frangos et al. (2016) | 691, 705, 711 | Sim | Não consultado, por existir PDF local | Texto integral localizado no lote posterior; três pares pendentes de confronto directo |
-| Hussaini et al. (2023) | 691, 701 | Não | Sem correspondência | Não localizado; dois pares pendentes |
-| Mikołajewski et al. (2023) | 695 | Não | Sem correspondência | Não localizado; um par pendente |
+| Hussaini et al. (2023) | 691, 701 | Sim | Não consultado, por existir PDF local | Texto integral localizado no lote posterior; dois pares pendentes de confronto directo |
+| Mikołajewski et al. (2023) | 695 | Sim | Não consultado, por existir PDF local | Texto integral localizado no lote posterior; um par pendente de confronto directo |
 | Seregni et al. (2021) | 697 | Sim | Não consultado, por existir PDF local | Suporte parcial; autoria da bibliografia incompatível com o PDF |
-| Sims et al. (2017) | 699 | Não | Sem correspondência | Não localizado; um par pendente |
+| Sims et al. (2017) | 699 | Sim | Não consultado, por existir PDF local | Texto integral localizado no lote posterior; um par pendente de confronto directo |
 | Chadwell et al. (2020) | 723, 731, 743, 775, 783 | Sim | Não consultado, por existir PDF local | Cinco pares confrontados: dois directos e três parciais; seis acumulados |
 | Samuelsson et al. (2012) | 723, 725, 729, 731, 737, 783 | Sim | Não consultado, por existir PDF local | Seis pares confrontados: três directos e três parciais; sete acumulados |
 | Windrich et al. (2016) | 723, 729, 783 | Sim | Não consultado, por existir PDF local | Três pares confrontados; suporte directo; quatro acumulados |
@@ -306,7 +306,7 @@ Quando uma referência reaparece num capítulo posterior, o novo conjunto de lin
 | Chatzioglou et al. (2024) | 2317, 2551, 2565, 2599 e 2637 | Sim | Não consultado, por existir PDF local | Amostra, método e estatísticas confirmados; Izmir/Istanbul são afiliações, não locais de recrutamento demonstrados; a Tabela 1 contém ambas as mãos |
 | Nag et al. (2003) | 2329, 2547 e 2597 | Sim | Não consultado, por existir PDF local | Suporte directo para 95 mulheres, 51 medições da mão direita, cinco tabelas de medidas e P5/P50/P95 |
 | Ibiwari et al. (2025) | 2345, 2545, 2571, 2599 e 2637 | Sim | Sem correspondência exacta no índice local | Suporte para amostra, idades, medidas e Tabelas 3–4; o recrutamento abrange dois campos universitários, não apenas a Universidade de Port Harcourt |
-| Mistarihi (2020) | 2353, 2543, 2573, 2601 e 2627 | Não | Sem correspondência exacta no índice local | Cinco pares pendentes; o artigo consta de `pdfs_em_falta.md` |
+| Mistarihi (2020) | 2353, 2543, 2573, 2601 e 2627 | Sim | Não consultado, por existir PDF local | Texto integral localizado no lote posterior; cinco pares pendentes de confronto directo |
 | Lim et al. (2018) | 2359, 2539, 2565 e 2601 | Sim | Não consultado, por existir PDF local | Suporte directo para `n=50`, idade, duas medidas, médias e `R²=0,18`; trata-se de artigo de conferência ASME, não apenas «trabalho académico UC Berkeley» |
 | Gordon et al. (2015) | 2369; abreviaturas nas células 2539, 2567 e 2591 | Não | Sem correspondência exacta no índice local | Uma ocorrência formal e três abreviadas sem confronto; o relatório consta de `pdfs_em_falta.md` |
 | DINED/TU Delft | 2377; abreviaturas nas células 2537, 2561, 2575, 2577, 2593 | Captura HTML local | Sem correspondência exacta no índice local | A captura confirma grupos etários, sexos e células de média/SD; não preserva metadados suficientes para validar autonomamente os anos e a autoria dos três subconjuntos |
@@ -2037,7 +2037,7 @@ O ficheiro visual está correctamente atribuído no manuscrito, mas o PDF de sup
 
 ## 4. Afirmações inicialmente pendentes e estado actual das fontes
 
-Esta secção conserva as afirmações exactas que ficaram pendentes no fecho inicial da auditoria, mas apresenta o **estado actual** da pesquisa. As trinta fontes obtidas e confrontadas em 16 de Julho de 2026 estão identificadas como PDFs locais e remetem para o confronto detalhado da Secção 7.5. O lote posterior de catorze textos integrais é identificado como «PDF local validado; confronto directo ainda pendente». Apenas as 31 fontes mantidas em `projecto_completo_bibliografia/pdfs_em_falta.md` permanecem assinaladas como «PDF não localizado».
+Esta secção conserva as afirmações exactas que ficaram pendentes no fecho inicial da auditoria, mas apresenta o **estado actual** da pesquisa. As trinta fontes obtidas e confrontadas em 16 de Julho de 2026 estão identificadas como PDFs locais e remetem para o confronto detalhado da Secção 7.5. Os dois lotes posteriores, com 26 textos integrais, são identificados como «PDF local validado; confronto directo ainda pendente». Apenas as 19 fontes mantidas em `projecto_completo_bibliografia/pdfs_em_falta.md` permanecem assinaladas como «PDF não localizado».
 
 Em todas as entradas seguintes, a pesquisa abrangeu `projecto_completo_bibliografia/`, `material/` e 514 registos Mendeley. Quando a fonte continua ausente, não existe excerto do *paper* e a avaliação substantiva permanece pendente. Quando o PDF foi entretanto obtido, a tabela indica o resultado do confronto e a Secção 7.5 conserva a página, a zona exacta e o excerto primário. Os metadados bibliográficos e o estado de um anexo não consultado nunca foram tratados como prova do conteúdo.
 
@@ -2189,10 +2189,10 @@ Em todas as entradas seguintes, a pesquisa abrangeu `projecto_completo_bibliogra
 
 > Combinam mecanismos mecânicos e elétricos no mesmo dispositivo. São particularmente frequentes em amputações proximais, como amputações transumerais ou desarticulações do ombro, podendo associar, por exemplo, controlo mecânico do cotovelo e controlo mioelétrico do terminal. Esta configuração procura tirar partido das vantagens específicas de cada sistema, distribuindo o peso, as exigências funcionais e a complexidade de controlo. Em contrapartida, a aprendizagem, a adaptação e a manutenção podem tornar-se mais exigentes.
 
-**Pesquisa local:** PDF local não localizado.
-**Mendeley:** zero correspondências para o título completo e para `Walters Seminati 2025`; sem ID ou metadados Mendeley; disponibilidade de ficheiro integral não aplicável.
-**Página, secção e excerto do *paper*:** não disponíveis.
-**Avaliação:** **não localizado; um par afirmação–fonte por verificar**.
+**Pesquisa local:** PDF validado em `projecto_completo_bibliografia/walters_et_al_2025_upper_limb_hybrid_prostheses_scoping_review.pdf`.
+**Mendeley:** a pesquisa histórica não devolveu correspondências; não foi repetida após a obtenção do texto integral local.
+**Página, secção e excerto do *paper*:** confronto directo ainda pendente.
+**Avaliação:** **texto integral localizado; um par afirmação–fonte por verificar**.
 
 ### 4.6 Soyer et al. (2016)
 
@@ -2208,10 +2208,10 @@ Em todas as entradas seguintes, a pesquisa abrangeu `projecto_completo_bibliogra
 
 > A avaliação objetiva do sucesso protésico continua a ser um desafio. Persistem a escassez de instrumentos padronizados e a heterogeneidade de métricas, o que dificulta a comparação entre estudos, dispositivos e estratégias de reabilitação. São utilizadas ferramentas de avaliação registadas pelo utilizador, centradas na funcionalidade percebida, na satisfação e na qualidade de vida, bem como testes baseados em desempenho, orientados para a destreza, a velocidade de execução e o controlo funcional em tarefas estruturadas.
 
-**Pesquisa local:** PDF local não localizado.
-**Mendeley:** zero correspondências para o título completo e para `Soyer Unver 2016`; sem ID ou metadados Mendeley; disponibilidade de ficheiro integral não aplicável.
-**Página, secção e excerto do *paper*:** não disponíveis.
-**Avaliação:** **não localizado; três pares afirmação–fonte por verificar**.
+**Pesquisa local:** PDF validado em `projecto_completo_bibliografia/soyer_et_al_2016_rehabilitation_upper_extremity_amputees.pdf`.
+**Mendeley:** a pesquisa histórica não devolveu correspondências; não foi repetida após a obtenção do texto integral local.
+**Página, secção e excerto do *paper*:** confronto directo ainda pendente.
+**Avaliação:** **texto integral localizado; três pares afirmação–fonte por verificar**.
 
 ### 4.7 Resnik et al. (2010)
 
@@ -2579,16 +2579,16 @@ Os trechos seguintes reproduzem as afirmações da dissertação às quais as fo
 | Choudhury, Eisenbart e Kuys (2025) | *Artificial intelligence (AI) in the design process: A review and analysis on generative AI perspectives* | C2.6-01, 02, 06 e 10 | PDF local validado; confronto detalhado na Secção 7.5.3 | Quatro pares confrontados: três parciais e um incompatível |
 | Saeidnia e Ausloos (2024) | *Integrating artificial intelligence into design thinking: A comprehensive examination of the principles and potentialities of AI for design thinking framework* | C2.6-01 e 09 | PDF local validado; confronto detalhado na Secção 7.5.3 | Dois pares confrontados: um directo e um parcial |
 | Yüksel et al. (2023) | *Review of artificial intelligence applications in engineering design perspective* | C2.6-01, 02, 05 e 12 | PDF não localizado; zero correspondências por título e autor–ano nos 514 registos | Quatro pares pendentes |
-| Khanolkar, Vrolijk e Olechowski (2023) | *Mapping artificial intelligence-based methods to engineering design stages: A focused literature review* | C2.6-03, 07 e 09 | PDF não localizado; zero correspondências por título e autor–ano nos 514 registos | Três pares pendentes |
-| Krahe et al. (2020) | *Deep learning for automated product design* | C2.6-03 | PDF não localizado; zero correspondências por título e autor–ano nos 514 registos | Um par pendente |
+| Khanolkar, Vrolijk e Olechowski (2023) | *Mapping artificial intelligence-based methods to engineering design stages: A focused literature review* | C2.6-03, 07 e 09 | PDF local validado no lote posterior; confronto directo ainda pendente | Três pares pendentes de confronto directo |
+| Krahe et al. (2020) | *Deep learning for automated product design* | C2.6-03 | PDF local validado no lote posterior; confronto directo ainda pendente; DOI editorial `10.1016/j.procir.2020.01.135` | Um par pendente de confronto directo |
 | Ao, Li e Duan (2025) | *Artificial intelligence-aided design (AIAD) for structures and engineering: A state-of-the-art review and future perspectives* | C2.6-04, 07, 08, 10 e 13 | PDF local validado no lote posterior; confronto directo ainda pendente | Cinco pares pendentes de confronto directo |
 | Panchal et al. (2019) | *Special issue: Machine learning for engineering design* | C2.6-04, 05 e 12 | PDF não localizado; zero correspondências por título e autor–ano nos 514 registos | Três pares pendentes |
 | Burnap, Hauser e Timoshenko (2019) | *Design and evaluation of product aesthetics: A human-machine hybrid approach* | C2.6-06 e 12 | PDF local validado no lote posterior; confronto directo ainda pendente | Dois pares pendentes de confronto directo |
-| Verganti, Vendraminelli e Iansiti (2020) | *Innovation and design in the age of artificial intelligence* | C2.6-09 e 13 | PDF não localizado; zero correspondências por título e autor–ano nos 514 registos | Dois pares pendentes |
+| Verganti, Vendraminelli e Iansiti (2020) | *Innovation and design in the age of artificial intelligence* | C2.6-09 e 13 | PDF local validado no lote posterior; confronto directo ainda pendente | Dois pares pendentes de confronto directo |
 | Virós-i-Martin e Selva (2021) | *A framework to study human-AI collaborative design space exploration* | C2.6-10 e 11 | O ficheiro local `material/colaboracao/A Framework to Study Human-AI Collaborative Design Space Exploration (2021).pdf` contém *Explainable Artificial Intelligence (XAI): Concepts, Taxonomies, Opportunities and Challenges toward Responsible AI*, de Barredo Arrieta et al.; zero correspondências por título e autor–ano nos 514 registos | Dois pares pendentes; ficheiro local incorrecto |
 | Figoli, Mattioli e Rampino (2022) | *AI in design idea development: A workshop on creativity and human-AI collaboration* | C2.6-11 | PDF não localizado; zero correspondências por título e autor–ano nos 514 registos | Um par pendente |
 
-**Página, secção e excerto dos *papers*:** disponíveis na Secção 7.5.3 para Choudhury et al. e Saeidnia e Ausloos. Ao, Li e Duan e Burnap, Hauser e Timoshenko têm agora texto integral local, mas os sete pares associados aguardam confronto directo; as outras sete referências continuam sem texto integral. O conteúdo do ficheiro incorrectamente nomeado como Virós-i-Martin e Selva não foi usado como prova.
+**Página, secção e excerto dos *papers*:** disponíveis na Secção 7.5.3 para Choudhury et al. e Saeidnia e Ausloos. Ao, Li e Duan, Burnap, Hauser e Timoshenko, Khanolkar, Vrolijk e Olechowski, Krahe et al. e Verganti, Vendraminelli e Iansiti têm agora texto integral local, mas os treze pares associados aguardam confronto directo; as outras quatro referências continuam sem texto integral. O conteúdo do ficheiro incorrectamente nomeado como Virós-i-Martin e Selva não foi usado como prova.
 
 ### 4.41–4.55 Referências da Secção 2.7
 
@@ -2598,19 +2598,19 @@ Os trechos seguintes reproduzem as afirmações da dissertação às quais as fo
 | Costabile et al. (2007) | *Meta-design to Face Co-evolution and Communication Gaps Between Users and Designers* | 643 — «participação “em uso”»;<br>655 — «Software Shaping Workshop»;<br>709 — «normalização e personalização» | PDF local validado no lote posterior; confronto directo ainda pendente | Três pares pendentes de confronto directo |
 | Fischer et al. (2017) | *Revisiting and Broadening the Meta-design Framework for End-user Development* | 637 — «personalização [...] como uma necessidade funcional»;<br>653 — «risco de sobrecarga participativa»;<br>655 — «utilizadores finais participem ativamente»;<br>683 — «adaptação de exercícios e de objectivos»;<br>707 — «sobrecarga, fadiga e eventual desistência» | Capítulo identificado no volume integral local; confronto directo ainda pendente | Cinco pares pendentes de confronto directo |
 | Howard et al. (2022) | *Assessing the Use of Co-design to Produce Bespoke Assistive Technology Solutions Within a Current Healthcare Service* | 635 — «fluxos participativos que traduzem a experiência vivida»;<br>699 — «ecossistemas modulares e [...] aprendizagem distribuída»;<br>705 — «amostras reduzidas e [...] estudos de caso» | PDF não localizado; zero correspondências nos 514 registos | Três pares pendentes |
-| Kerr et al. (2024) | *A Participatory Model for Cocreating Accessible Rehabilitation Technology for Stroke Survivors: User-centered Design Approach* | 637 — «segurança, a usabilidade e a adopção sustentada»;<br>691 — «definição clara de quem decide»;<br>697 — «participação [...] integrada no ciclo de desenvolvimento» | PDF não localizado; zero correspondências nos 514 registos | Três pares pendentes |
+| Kerr et al. (2024) | *A Participatory Model for Cocreating Accessible Rehabilitation Technology for Stroke Survivors: User-centered Design Approach* | 637 — «segurança, a usabilidade e a adopção sustentada»;<br>691 — «definição clara de quem decide»;<br>697 — «participação [...] integrada no ciclo de desenvolvimento» | PDF local validado no lote posterior; confronto directo ainda pendente | Três pares pendentes de confronto directo |
 | Dechev et al. (2023) | *Accessible Prosthetic Arms: Victoria Hand Project and the Impact of 3D Printing* | 679 — «selecção modular de componentes»;<br>699 — «criação digital de encaixes» | PDF local validado; confronto detalhado na Secção 7.5.3 | Dois pares confrontados neste lote, ambos directos; três acumulados |
 | Peters e Richter (2023) | *Individualizing Patient Pathways Through Modularization: Design and Evaluation of Healthcare-specific Modularization Parameters* | 679 — «combinação de módulos interoperáveis»;<br>685 — «necessidades [...] expressas através da combinação de módulos» | PDF não localizado; zero correspondências nos 514 registos | Dois pares pendentes |
-| Kuhl et al. (2020) | *Design of Personalized Devices: The Tradeoff Between Individual Value and Personalization Workload* | 681 — «entradas num espaço de parâmetros» | PDF não localizado; zero correspondências nos 514 registos | Um par pendente |
+| Kuhl et al. (2020) | *Design of Personalized Devices: The Tradeoff Between Individual Value and Personalization Workload* | 681 — «entradas num espaço de parâmetros» | PDF local validado no lote posterior; confronto directo ainda pendente | Um par pendente de confronto directo |
 | Cole (2011) | *Patient-centered Design: Interface Personalization for Individuals With Brain Injury* | 683 — «personalização ocorre em tempo de uso»;<br>697 — «personalizar os tratamentos» | PDF local validado no lote posterior; confronto directo ainda pendente | Dois pares pendentes de confronto directo |
 | Dexter et al. (2013) | *Open Design and Cystic Fibrosis: Enabling Participation in the Design Process* | 689 — «participação remota e [...] processos mediados por meios digitais» | PDF não localizado; zero correspondências nos 514 registos | Um par pendente |
-| Thorsen et al. (2023) | *From Patient to Maker: A Workflow Including People With Cerebral Palsy in Co-creating Assistive Devices Using 3D Printing Technologies* | 689 — «co-fabrico à distância»;<br>701 — «impressão 3D [...] integrada a infraestruturas de apoio»;<br>705 — «amostras reduzidas e [...] estudos de caso» | PDF não localizado; zero correspondências nos 514 registos | Três pares pendentes |
+| Thorsen et al. (2023) | *From Patient to Maker: A Workflow Including People With Cerebral Palsy in Co-creating Assistive Devices Using 3D Printing Technologies* | 689 — «co-fabrico à distância»;<br>701 — «impressão 3D [...] integrada a infraestruturas de apoio»;<br>705 — «amostras reduzidas e [...] estudos de caso» | PDF local validado no lote posterior; confronto directo ainda pendente | Três pares pendentes de confronto directo |
 | Frangos et al. (2016) | *Democratising Design in Scientific Innovation: Application of an Open Value Network to Open Source Hardware Design* | 691 — «riscos de incumprimento de compromissos»;<br>705 — «amostras reduzidas e [...] estudos de caso»;<br>711 — «conversão e adopção de configuradores» | PDF local validado no lote posterior; confronto directo ainda pendente | Três pares pendentes de confronto directo |
-| Hussaini et al. (2023) | *3D Printing in LMICs: Functional Design for Upper Limb Prosthetics in Uganda* | 691 — «mediação exercida por clínicos, designers ou técnicos»;<br>701 — «confiança, manutenção e capacitação técnica» | PDF não localizado; zero correspondências nos 514 registos | Dois pares pendentes |
-| Mikołajewski et al. (2023) | *Personalization of the 3D-printed Upper Limb Exoskeleton Design: Mechanical and IT Aspects* | 695 — «plataformas baseadas em *digital twins*» | PDF não localizado; zero correspondências nos 514 registos | Um par pendente |
-| Sims et al. (2017) | *Participatory Design of Pediatric Upper Limb Prostheses: Qualitative Methods and Prototyping* | 699 — «prototipagem iterativa, módulos intercambiáveis» | PDF não localizado; zero correspondências nos 514 registos | Um par pendente |
+| Hussaini et al. (2023) | *3D Printing in LMICs: Functional Design for Upper Limb Prosthetics in Uganda* | 691 — «mediação exercida por clínicos, designers ou técnicos»;<br>701 — «confiança, manutenção e capacitação técnica» | PDF local validado no lote posterior; confronto directo ainda pendente | Dois pares pendentes de confronto directo |
+| Mikołajewski et al. (2023) | *Personalization of the 3D-printed Upper Limb Exoskeleton Design: Mechanical and IT Aspects* | 695 — «plataformas baseadas em *digital twins*» | PDF local validado no lote posterior; confronto directo ainda pendente | Um par pendente de confronto directo |
+| Sims et al. (2017) | *Participatory Design of Pediatric Upper Limb Prostheses: Qualitative Methods and Prototyping* | 699 — «prototipagem iterativa, módulos intercambiáveis» | PDF local validado no lote posterior; confronto directo ainda pendente | Um par pendente de confronto directo |
 
-**Página, secção e excerto dos *papers*:** disponíveis na Secção 7.5.3 para Dechev et al. Costabile et al., Fischer et al., Cole e Frangos et al. têm agora texto integral local, mas os treze pares associados aguardam confronto directo; as outras dez referências continuam sem texto integral.
+**Página, secção e excerto dos *papers*:** disponíveis na Secção 7.5.3 para Dechev et al. Costabile et al., Fischer et al., Cole, Frangos et al., Kerr et al., Kuhl et al., Thorsen et al., Hussaini et al., Mikołajewski et al. e Sims et al. têm agora texto integral local, mas os 24 pares associados aguardam confronto directo; as outras quatro referências continuam sem texto integral.
 
 ### 4.56–4.70 Referências da Secção 2.8
 
@@ -3255,9 +3255,9 @@ A Secção A.5.13 acrescenta uma fonte bibliográfica real, mas não identificad
 
 **Título indicado na bibliografia:** *A Data Set on Anthropometric Measurements and Degree of Discomfort of Physically Disabled Workers for Ergonomic Requirements in Work Space Design*.
 **DOI:** `10.1016/j.dib.2020.105420`.
-**Pesquisa:** nenhum PDF em `projecto_completo_bibliografia/` ou `material/`; sem correspondência exacta por título, autor ou DOI no índice local do Mendeley; referência registada em `projecto_completo_bibliografia/pdfs_em_falta.md`.
+**Pesquisa:** PDF validado em `projecto_completo_bibliografia/mistarihi_2020_anthropometric_dataset_disabled_workers.pdf`; a pesquisa histórica no índice local do Mendeley não tinha devolvido correspondência exacta.
 
-**Avaliação:** **cinco pares pendentes**. Sem texto integral não existe zona do *paper* que possa ser copiada, pelo que continuam por confirmar a amostra, a combinação de sexos, as estatísticas da Tabela 4, a leitura da Figura 2 e as afirmações de unicidade.
+**Avaliação:** **texto integral localizado; cinco pares pendentes de confronto directo**. Continuam por confirmar a amostra, a combinação de sexos, as estatísticas da Tabela 4, a leitura da Figura 2 e as afirmações de unicidade.
 
 ### 6.10 Lim et al. (2018)
 
@@ -3686,7 +3686,7 @@ As entradas e citações «Bradtmiller (2022)» devem ser corrigidas para Paul e
 77. **Reescrever o contraste de protocolos da linha 2305.** Rodríguez-Vega mede desde o ponto *stylion* e Anacleto Filho desde uma linha entre os processos estilóides; nenhuma das fontes sustenta «prega do pulso» como origem da primeira medição.
 78. **Corrigir o desvio-padrão de Rodríguez-Vega.** A Tabela 4 apresenta `SD = 0,25` para `HB` feminino 50–54, não `0,00`. Rever também a linha correspondente no CSV e a `dataqualitynote`.
 79. **Substituir o PDF ANSUR 1988 por relatório integral ou descrevê-lo como excertos.** O ficheiro local contém 49 tabelas e identifica-se como “Excerpts”; confirma os grupos 2.208/1.774, mas não o total 9.068 nem todos os metadados do relatório citado.
-80. **Obter Gordon et al. (2015) e Mistarihi (2020).** O primeiro deixa uma ocorrência formal e três abreviadas sem confronto; o segundo deixa cinco pares de *paper* pendentes no Anexo A.
+80. **Obter Gordon et al. (2015) e confrontar Mistarihi (2020).** O primeiro deixa uma ocorrência formal e três abreviadas sem texto integral; o PDF de Mistarihi foi localizado, mas os cinco pares do Anexo A permanecem pendentes de confronto directo.
 81. **Delimitar os locais de recrutamento de Chatzioglou e Ibiwari.** Izmir/Istanbul são afiliações, não locais de recrutamento demonstrados; Ibiwari refere dois campos em Port Harcourt, não apenas a University of Port Harcourt.
 82. **Formalizar Zhou et al. (2016).** A fonte anónima de A.5.13 foi identificada inequivocamente; acrescentar autor–ano no texto e a entrada APA 7 à bibliografia, mantendo a decisão de exclusão dos dados populacionais.
 83. **Criar proveniência estável para DINED.** Arquivar exportação datada, metadados de cada subconjunto, tamanho amostral e associação inequívoca entre `kima1993`, `geron1998`, `dined2004` e as entradas bibliográficas correspondentes.

@@ -334,24 +334,83 @@ def parse_missing_sources(audit_text: str) -> tuple[list[MissingSource], Missing
             raise RuntimeError(f"Missing expected post-audit PDF for {label}: {filename}")
         sources.pop(source_key_match)
 
+    # A third local lot supplied eleven further body-text sources.  Together
+    # with Mistarihi from Annex A, these PDFs cover 26 claim-source pairs that
+    # remain pending direct comparison.
+    obtained_followup_batch = {
+        "3d printing in lmics functional design for upper limb prosthetics in uganda": (
+            "Hussaini et al.",
+            "hussaini_et_al_2023_3d_printing_lmics_upper_limb_uganda.pdf",
+        ),
+        "a participatory model for cocreating accessible rehabilitation technology for stroke survivors": (
+            "Kerr et al.",
+            "kerr_et_al_2024_participatory_model_accessible_rehab_technology.pdf",
+        ),
+        "mapping artificial intelligence based methods to engineering design stages": (
+            "Khanolkar, Vrolijk and Olechowski",
+            "khanolkar_vrolijk_olechowski_2023_ai_methods_engineering_design_stages.pdf",
+        ),
+        "deep learning for automated product design": (
+            "Krahe et al.",
+            "krahe_et_al_2020_deep_learning_automated_product_design.pdf",
+        ),
+        "design of personalized devices the tradeoff between individual value and personalization workload": (
+            "Kuhl et al.",
+            "kuhl_et_al_2020_design_personalized_devices_tradeoff.pdf",
+        ),
+        "personalization of the 3d printed upper limb exoskeleton design": (
+            "Mikołajewski et al.",
+            "mikolajewski_et_al_2023_personalization_3d_printed_upper_limb_exoskeleton.pdf",
+        ),
+        "participatory design of pediatric upper limb prostheses": (
+            "Sims et al.",
+            "sims_et_al_2017_participatory_design_pediatric_upper_limb_prostheses.pdf",
+        ),
+        "the importance of rehabilitation concerning upper extremity amputees": (
+            "Soyer et al.",
+            "soyer_et_al_2016_rehabilitation_upper_extremity_amputees.pdf",
+        ),
+        "from patient to maker a workflow including people with cerebral palsy": (
+            "Thorsen et al.",
+            "thorsen_et_al_2023_patient_to_maker_cerebral_palsy_3d_printing.pdf",
+        ),
+        "innovation and design in the age of artificial intelligence": (
+            "Verganti, Vendraminelli and Iansiti",
+            "verganti_vendraminelli_iansiti_2020_innovation_design_age_ai.pdf",
+        ),
+        "demystifying upper limb hybrid prostheses": (
+            "Walters et al.",
+            "walters_et_al_2025_upper_limb_hybrid_prostheses_scoping_review.pdf",
+        ),
+    }
+    for key_prefix, (label, filename) in obtained_followup_batch.items():
+        source_key_match = next((key for key in sources if key.startswith(key_prefix)), "")
+        if not source_key_match:
+            raise RuntimeError(f"Could not locate the follow-up entry for {label}")
+        if not (bibliography_dir / filename).is_file():
+            raise RuntimeError(f"Missing expected follow-up PDF for {label}: {filename}")
+        sources.pop(source_key_match)
+
     ghali_key = next((key for key in sources if key.startswith("constructive solid geometry")), "")
     if not ghali_key:
         raise RuntimeError("Could not locate the Ghali book-chapter entry")
     ghali = sources.pop(ghali_key)
 
-    # Mistarihi is the only new paper missing from the annex audit and therefore
-    # does not appear in the body-only Section 4.
-    add_source(
-        sources,
-        "Mistarihi (2020)",
-        "A data set on anthropometric measurements and degree of discomfort of physically disabled workers for ergonomic requirements in work space design",
-        "Anexo A: cinco ocorrências; PDF não localizado; sem correspondência Mendeley.",
-    )
+    # Mistarihi is the only Annex A paper that does not appear in the body-only
+    # Section 4.  Add it only while its validated local full text is absent.
+    mistarihi_pdf = bibliography_dir / "mistarihi_2020_anthropometric_dataset_disabled_workers.pdf"
+    if not mistarihi_pdf.is_file():
+        add_source(
+            sources,
+            "Mistarihi (2020)",
+            "A data set on anthropometric measurements and degree of discomfort of physically disabled workers for ergonomic requirements in work space design",
+            "Anexo A: cinco ocorrências; PDF não localizado; sem correspondência Mendeley.",
+        )
 
     result = sorted(sources.values(), key=lambda item: normalized(item.reference))
-    if len(result) != 31:
+    if len(result) != 19:
         labels = "\n".join(f"- {item.reference}: {item.title}" for item in result)
-        raise RuntimeError(f"Expected 31 missing papers, found {len(result)}:\n{labels}")
+        raise RuntimeError(f"Expected 19 missing papers, found {len(result)}:\n{labels}")
     return result, ghali
 
 
@@ -492,13 +551,15 @@ def render(sources: list[MissingSource], ghali: MissingSource, audit: Path, manu
             "",
             "- A presença de um DOI nesta lista significa apenas que foi identificado na bibliografia, na auditoria ou nos metadados do editor, de um repositório ou de um índice bibliográfico; não significa que o PDF seja de acesso aberto.",
             "- Uma ligação «Pesquisar no Crossref» é uma pesquisa pelo título e não deve ser tratada como confirmação de DOI.",
-            "- Walker et al. foi retirado da lista porque o texto integral foi posteriormente obtido e confrontado. Mistarihi (2020) foi acrescentado a partir do Anexo A.",
+            "- Walker et al. foi retirado da lista porque o texto integral foi posteriormente obtido e confrontado. Mistarihi (2020) foi inicialmente acrescentado a partir do Anexo A e retirado após validação do PDF local; os cinco pares associados aguardam confronto directo.",
             "- Fink e Diamond (2023) foi retirado da lista porque o texto integral do artigo 101061 foi posteriormente obtido e as seis passagens que o citam foram confrontadas directamente; a auditoria concluiu que o suporte é parcial.",
             "- Segura et al. (2024) foi retirado da lista porque o PDF editorial foi acrescentado e as sete passagens que o citam foram confrontadas directamente; uma associação tem suporte directo, cinco têm suporte parcial e uma é incompatível.",
             "- Shah e Robinson (2006), Wilke et al. (2020) e Millet et al. (2018) foram retirados após a validação dos PDFs locais e o confronto de nove pares afirmação–fonte.",
             "- Chapman et al. (2025) foi retirado após a extracção textual integral do PDF editorial de acesso aberto e o confronto dos quatro pares associados; a captura Markdown conserva os marcadores da paginação publicada, mas não substitui o ficheiro PDF original.",
             "- O lote local de 16 de Julho de 2026 retirou mais trinta fontes desta lista após validação dos PDFs e confronto de 116 pares afirmação–fonte; 52 têm suporte directo, 53 suporte parcial e onze são incompatíveis.",
             "- Um segundo lote local do mesmo dia acrescentou catorze textos integrais e retirou essas fontes da lista de faltas; os 44 pares afirmação–fonte associados permanecem pendentes de confronto directo e não foram reclassificados automaticamente.",
+            "- Um terceiro lote local acrescentou doze textos integrais e retirou essas fontes da lista de faltas; os 26 pares afirmação–fonte associados permanecem pendentes de confronto directo. No conjunto dos dois lotes ainda não confrontados, existem 70 pares associados a 26 fontes disponíveis localmente.",
+            "- O PDF de Krahe et al. (2020) confirma o DOI editorial `10.1016/j.procir.2020.01.135`; `10.5445/IR/1000127884`, conservado no registo anterior, identifica o depósito do KIT.",
             "- O PDF de Jones, Chadwell e Dyson (2023) confirma o DOI `10.3389/frhs.2023.1213752`, diferente de `10.3389/frhs.2023.1123682`, ainda registado na bibliografia e assinalado para correcção editorial posterior.",
             "- Dois PDFs válidos acrescentados no mesmo lote — Kang et al. e Bitterman — não correspondem a referências citadas e, por isso, não alteram esta lista. `SHTI-297-SHTI220858.pdf` foi excluído por conter HTML, usando-se o PDF válido de White e Mosca.",
             "- Fontes normativas, páginas *web*, repositórios de código e conjuntos DINED sem PDF autónomo não são contabilizados como PDFs científicos em falta.",
