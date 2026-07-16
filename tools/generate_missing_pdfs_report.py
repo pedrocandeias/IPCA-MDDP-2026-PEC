@@ -141,7 +141,7 @@ def add_source(store: dict[str, MissingSource], reference: str, title: str, evid
 def parse_missing_sources(audit_text: str) -> tuple[list[MissingSource], MissingSource]:
     section = extract_section(
         audit_text,
-        "## 4. *Papers* citados sem texto integral consultado",
+        "## 4. Afirmações inicialmente pendentes e estado actual das fontes",
         "## 5. Fontes normativas, técnicas e institucionais",
     )
     sources: dict[str, MissingSource] = {}
@@ -262,6 +262,78 @@ def parse_missing_sources(audit_text: str) -> tuple[list[MissingSource], Missing
         if not source_key_match:
             raise RuntimeError(f"Could not locate the July 2026 entry for {label}")
         sources.pop(source_key_match)
+
+    # A second local lot added on 2026-07-16 supplied fourteen further cited
+    # sources.  Their 44 associated claim-source pairs still require direct
+    # comparison, but these items no longer belong in a missing-full-text list.
+    # Check the expected local file before removing each historical entry.
+    obtained_post_audit = {
+        "a novel framework to facilitate user preferred tuning for a robotic knee prosthesis": (
+            "Alili et al.",
+            "alili_et_al_2023_robotic_knee_prosthesis_tuning.pdf",
+        ),
+        "artificial intelligence aided design aiad for structures and engineering": (
+            "Ao, Li and Duan",
+            "ao_li_duan_2025_artificial_intelligence_aided_design.pdf",
+        ),
+        "human factors considerations of interaction between wearers and intelligent lower limb prostheses": (
+            "Bai et al.",
+            "bai_et_al_2024_human_factors_intelligent_lower_limb_prostheses.pdf",
+        ),
+        "design and evaluation of product aesthetics": (
+            "Burnap, Hauser and Timoshenko",
+            "burnap_hauser_timoshenko_2019_product_aesthetics.pdf",
+        ),
+        "patient centered design interface personalization for individuals with brain injury": (
+            "Cole",
+            "cole_2011_patient_centered_interface_personalization_brain_injury.pdf",
+        ),
+        "meta design to face co evolution and communication gaps between users and designers": (
+            "Costabile et al.",
+            "costabile_et_al_2007_meta_design_coevolution.pdf",
+        ),
+        "revisiting and broadening the meta design framework for end user development": (
+            "Fischer et al.",
+            "new_perspectives_end_user_development_2017.pdf",
+        ),
+        "democratising design in scientific innovation": (
+            "Frangos et al.",
+            "frangos_et_al_2016_democratising_open_source_hardware_design.pdf",
+        ),
+        "guidelines and recommendations to investigate the efficacy of a lower limb prosthetic device": (
+            "Ghillebert et al.",
+            "ghillebert_et_al_2019_lower_limb_prosthetic_efficacy.pdf",
+        ),
+        "scan driven fully automated pipeline for a personalized 3d printed low cost prosthetic hand": (
+            "Herbst et al.",
+            "herbst_et_al_2021_scan_driven_personalized_prosthetic_hand.pdf",
+        ),
+        "evidencing the effectiveness of upper limb prostheses": (
+            "Jones et al.",
+            "jones_chadwell_dyson_2023_upper_limb_prostheses_study_requirements.pdf",
+        ),
+        "the design process in the development of an online platform for personalizing wearable prostheses": (
+            "Peixoto et al.",
+            "peixoto_et_al_2025_online_platform_personalizing_wearable_prostheses.pdf",
+        ),
+        "intuitive clinician control interface for a powered knee ankle prosthesis": (
+            "Quintero et al.",
+            "quintero_et_al_2018_clinician_control_powered_knee_ankle_prosthesis.pdf",
+        ),
+        "product customization and generative design": (
+            "Trautmann",
+            "trautmann_2021_product_customization_generative_design.pdf",
+        ),
+    }
+    bibliography_dir = ROOT / "projecto_completo_bibliografia"
+    for key_prefix, (label, filename) in obtained_post_audit.items():
+        source_key_match = next((key for key in sources if key.startswith(key_prefix)), "")
+        if not source_key_match:
+            raise RuntimeError(f"Could not locate the post-audit entry for {label}")
+        if not (bibliography_dir / filename).is_file():
+            raise RuntimeError(f"Missing expected post-audit PDF for {label}: {filename}")
+        sources.pop(source_key_match)
+
     ghali_key = next((key for key in sources if key.startswith("constructive solid geometry")), "")
     if not ghali_key:
         raise RuntimeError("Could not locate the Ghali book-chapter entry")
@@ -277,9 +349,9 @@ def parse_missing_sources(audit_text: str) -> tuple[list[MissingSource], Missing
     )
 
     result = sorted(sources.values(), key=lambda item: normalized(item.reference))
-    if len(result) != 45:
+    if len(result) != 31:
         labels = "\n".join(f"- {item.reference}: {item.title}" for item in result)
-        raise RuntimeError(f"Expected 45 missing papers, found {len(result)}:\n{labels}")
+        raise RuntimeError(f"Expected 31 missing papers, found {len(result)}:\n{labels}")
     return result, ghali
 
 
@@ -426,6 +498,8 @@ def render(sources: list[MissingSource], ghali: MissingSource, audit: Path, manu
             "- Shah e Robinson (2006), Wilke et al. (2020) e Millet et al. (2018) foram retirados após a validação dos PDFs locais e o confronto de nove pares afirmação–fonte.",
             "- Chapman et al. (2025) foi retirado após a extracção textual integral do PDF editorial de acesso aberto e o confronto dos quatro pares associados; a captura Markdown conserva os marcadores da paginação publicada, mas não substitui o ficheiro PDF original.",
             "- O lote local de 16 de Julho de 2026 retirou mais trinta fontes desta lista após validação dos PDFs e confronto de 116 pares afirmação–fonte; 52 têm suporte directo, 53 suporte parcial e onze são incompatíveis.",
+            "- Um segundo lote local do mesmo dia acrescentou catorze textos integrais e retirou essas fontes da lista de faltas; os 44 pares afirmação–fonte associados permanecem pendentes de confronto directo e não foram reclassificados automaticamente.",
+            "- O PDF de Jones, Chadwell e Dyson (2023) confirma o DOI `10.3389/frhs.2023.1213752`, diferente de `10.3389/frhs.2023.1123682`, ainda registado na bibliografia e assinalado para correcção editorial posterior.",
             "- Dois PDFs válidos acrescentados no mesmo lote — Kang et al. e Bitterman — não correspondem a referências citadas e, por isso, não alteram esta lista. `SHTI-297-SHTI220858.pdf` foi excluído por conter HTML, usando-se o PDF válido de White e Mosca.",
             "- Fontes normativas, páginas *web*, repositórios de código e conjuntos DINED sem PDF autónomo não são contabilizados como PDFs científicos em falta.",
             "",
