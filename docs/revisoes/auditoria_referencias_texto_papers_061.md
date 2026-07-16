@@ -1,14 +1,14 @@
 # Auditoria das referências entre o texto e os *papers* — revisão sequencial
 
-Data da auditoria: 15–16 de Julho de 2026  
-Manuscrito auditado: `pedro-candeias-projeto-mestrado-mdddp-ipca-2026-revisto.md`  
-Versão indicada no manuscrito: 0.4.61  
-Âmbito concluído: corpo dos Capítulos 1–9, linhas 223–1882  
-Estado: auditoria sequencial do corpo concluída; o Capítulo 9 não contém citações bibliográficas.
+Data da auditoria: 15–16 de Julho de 2026
+Manuscrito auditado: `pedro-candeias-projeto-mestrado-mdddp-ipca-2026-revisto.md`
+Versão indicada no manuscrito: 0.4.61
+Âmbito concluído: corpo dos Capítulos 1–9, linhas 223–1882, e Anexos A–D, linhas 2213–3734
+Estado: auditoria sequencial do corpo e dos Anexos A–D concluída; o Capítulo 9 e o Anexo C não contêm citações autor–ano a *papers*.
 
 ## 1. Critérios e método
 
-Foram consideradas apenas as citações e atribuições que ocorrem no corpo do texto. As referências que aparecem exclusivamente na bibliografia foram excluídas. Nas citações agrupadas, cada fonte foi contada e avaliada separadamente.
+Foram consideradas as citações e atribuições que ocorrem no corpo do texto e nos Anexos A–D. As referências que aparecem exclusivamente na bibliografia geral foram excluídas; as duas referências normativas autónomas da lista própria do Anexo B foram incluídas. Nas citações agrupadas, cada fonte foi contada e avaliada separadamente. No Anexo A, as dez menções abreviadas a `ANSUR 1988`, `ANSUR II 2012` e `DINED` em células de tabela foram rastreadas num quadro próprio, mas não somadas como novas ocorrências formais, porque remetem para fontes já identificadas por autor–ano ou para a entrada institucional imediatamente anterior. A fonte sem autor nem ano da Secção A.5.13 foi igualmente identificada e verificada à parte, sem a converter retroactivamente numa citação formal. No Anexo C, quatro atribuições de autoria técnica foram contabilizadas; a enumeração genérica da Secção C.11 foi registada como lacuna de proveniência, mas não convertida em identidades bibliográficas inexistentes.
 
 Para cada fonte, a pesquisa seguiu esta ordem:
 
@@ -19,21 +19,21 @@ Para cada fonte, a pesquisa seguiu esta ordem:
 
 Os excertos dos *papers* são transcrições exactas e curtas; não são paráfrases. A avaliação não se baseia em resumos automáticos. A indicação «PDF local não localizado» significa que as duas pastas locais e a biblioteca Mendeley já foram verificadas segundo o procedimento acima.
 
-No fecho dos Capítulos 7–9, a credencial da API Mendeley tinha expirado. As novas pesquisas de Alili, Colombo, Silva e Romero foram, por isso, repetidas em modo exclusivamente de leitura no índice FTS da aplicação Mendeley Reference Manager. Esse índice revelou duplicados de Silva e Romero; os estados anteriores «zero correspondências nos 514 registos» conservam os resultados da consulta API realizada nos lotes precedentes.
+No fecho dos Capítulos 7–9, a credencial da API Mendeley tinha expirado. As novas pesquisas de Alili, Colombo, Silva e Romero foram, por isso, repetidas em modo exclusivamente de leitura no índice FTS da aplicação Mendeley Reference Manager. Esse índice revelou duplicados de Silva e Romero; os estados anteriores «zero correspondências nos 514 registos» conservam os resultados da consulta API realizada nos lotes precedentes. No Anexo A, a mesma pesquisa de leitura foi repetida para os títulos e autores novos; não foram encontrados registos exactos para Gordon (1989 e 2015), Anacleto Filho et al., Ibiwari et al., Mistarihi, Hu et al., Zhou et al. ou a família DINED. Sempre que existia PDF local, prevaleceu a leitura directa desse ficheiro.
 
 ## 2. Cobertura do lote
 
 | Indicador | Total | Observação |
 |---|---:|---|
-| Linhas do manuscrito abrangidas | 1660 | Linhas 223–1882 |
-| Conjuntos de citações ou atribuições no texto | 211 | Inclui dezanove atribuições de figuras e duas atribuições de tabelas |
-| Ocorrências afirmação–fonte | 408 | 391 pares relativos a *papers*, seis ocorrências de documentos académicos não classificados como *papers*, quatro normativas e sete técnicas/institucionais |
-| Referências únicas citadas | 143 | 132 *papers*, dois documentos académicos não classificados como *papers*, duas fontes normativas e sete técnicas/institucionais |
-| *Papers* com texto integral obtido | 52 de 132 | PDFs locais e anexos Mendeley consultados temporariamente; Colombo et al. é o novo texto integral dos Capítulos 7–9 |
-| Pares afirmação–fonte confrontados directamente com o PDF | 136 | Cento e vinte e cinco até ao Capítulo 6, quatro no Capítulo 7 e sete no Capítulo 8 |
-| Pares afirmação–fonte pendentes por ausência do *paper* | 255 | Oitenta referências únicas continuam sem texto integral; inclui pares anteriores ainda não reavaliados |
-| Ocorrências de outros documentos académicos | 6 | Cinco ocorrências de Moreo confrontadas com a dissertação; uma de Ghali pendente por ausência do capítulo de livro |
-| Ocorrências de fonte normativa, técnica ou institucional fora do âmbito texto–*paper* | 11 | Quatro normativas, uma institucional do Design Council, quatro fontes técnicas do OpenSCAD e duas fontes técnicas dos modelos protésicos |
+| Linhas do manuscrito abrangidas | 3182 | Linhas 223–1882 e 2213–3734 |
+| Conjuntos de citações ou atribuições no texto | 256 | 211 no corpo, 37 no Anexo A, dois no B, quatro no C e dois no D; as atribuições abreviadas e a fonte anónima de A são rastreadas separadamente |
+| Ocorrências afirmação–fonte | 463 | 432 pares relativos a *papers*, treze ocorrências de documentos académicos não classificados como *papers*, seis normativas e doze técnicas/institucionais |
+| Referências únicas citadas | 156 | 138 *papers*, quatro documentos académicos não classificados como *papers*, quatro fontes normativas e dez técnicas/institucionais |
+| *Papers* com texto integral obtido | 57 de 138 | O Anexo D acrescenta Hsueh et al. e Martins et al.; Zhou et al. foi identificado fora da contagem formal |
+| Pares afirmação–fonte confrontados directamente com o PDF | 172 | 136 no corpo, 32 no Anexo A e quatro no Anexo D |
+| Pares afirmação–fonte pendentes por ausência do *paper* | 260 | Oitenta e uma referências únicas continuam sem texto integral; o Anexo A acrescenta cinco pares de Mistarihi |
+| Ocorrências de outros documentos académicos | 13 | Moreo soma três ocorrências no anexo; Gordon (1989) soma três ocorrências com suporte local apenas parcial; Gordon (2015) soma uma ocorrência sem relatório local |
+| Ocorrências de fonte normativa, técnica ou institucional fora do âmbito texto–*paper* | 18 | Seis normativas e doze técnicas/institucionais; os Anexos B e C acrescentam, respectivamente, duas normativas e quatro atribuições técnicas |
 
 ### Fecho quantitativo por capítulo acrescentado
 
@@ -45,9 +45,13 @@ No fecho dos Capítulos 7–9, a credencial da API Mendeley tinha expirado. As n
 | Capítulo 7 | 6 | 12 | 12 | 4 | 8 |
 | Capítulo 8 | 9 | 21 | 21 | 7 | 14 |
 | Capítulo 9 | 0 | 0 | 0 | 0 | 0 |
-| **Acumulado** | **211** | **408** | **391** | **136** | **255** |
+| Anexo A | 37 | 45 | 37 | 32 | 5 |
+| Anexo B | 2 | 2 | 0 | 0 | 0 |
+| Anexo C | 4 | 4 | 0 | 0 | 0 |
+| Anexo D | 2 | 4 | 4 | 4 | 0 |
+| **Acumulado** | **256** | **463** | **432** | **172** | **260** |
 
-As duas ocorrências não-*paper* do Capítulo 5 são Mendenhall (2020) e `daprice` (n.d.), tratadas separadamente na Secção 5. Todos os pares dos Capítulos 6–8 correspondem a *papers*. A Tabela 8.4, de fonte própria, foi verificada documentalmente mas não foi contabilizada como par texto–*paper*.
+As duas ocorrências não-*paper* do Capítulo 5 são Mendenhall (2020) e `daprice` (n.d.), tratadas separadamente na Secção 5. Todos os pares dos Capítulos 6–8 correspondem a *papers*. A Tabela 8.4, de fonte própria, foi verificada documentalmente mas não foi contabilizada como par texto–*paper*. No Anexo A, as 45 ocorrências formais repartem-se por 37 pares de *papers*, sete ocorrências de dissertações ou relatórios e uma ocorrência institucional DINED. O Anexo B acrescenta duas normativas W3C, o Anexo C quatro atribuições técnicas e o Anexo D quatro pares de *papers*, todos confrontados directamente.
 
 ### Síntese por referência e localização auditada
 
@@ -238,6 +242,27 @@ Quando uma referência reaparece num capítulo posterior, o novo conjunto de lin
 | Segura et al. (2024) | 1824 | Não | Sem correspondência | Uma nova ocorrência pendente; sete acumuladas |
 | Hafner e Sawers (2016) | 1825 | Não | Sem correspondência | Uma nova ocorrência pendente; quatro acumuladas |
 | Walker et al. (2019 no manuscrito; edição de 2020) | 1825 | Sim | Registo e ficheiro integral | Suporte directo para insuficiência da participação e subexploração qualitativa; autoria e ano bibliográficos incompatíveis |
+| Gordon et al. (1989) | 2221, 2239 e 2309; abreviaturas nas células 2539 e 2591 | Excertos locais, não o relatório integral | Sem correspondência exacta no índice local | Sustenta `n=2.208` e `n=1.774`, indicadores e tabelas; não permite confirmar `n=9.068` nem que o ficheiro seja o relatório completo |
+| Moreo (2016) | 2261, 2365 e 2367 | Sim, dissertação | Não consultado, por existir PDF local | A fonte declara 279 crianças KIMA, não 965; a Tabela 6.1 usa valores DINED, mas o número amostral do anexo está errado |
+| Rodríguez-Vega e Rodríguez-Vega (2024) | 2305, 2323, 2541, 2563, 2569 e 2597 | Sim | Não consultado, por existir PDF local | Suporte directo para amostra e tabelas; incompatível com «prega do pulso» e com `SD = 0,00` no subgrupo feminino 50–54, pois a tabela apresenta `0,25` |
+| Anacleto Filho et al. (2023) | 2305, 2335, 2537 e 2597 | Sim | Sem correspondência exacta no índice local | Suporte directo para amostra, lado esquerdo, 27 dimensões, HandL/HandB e P5/P50/P95; não sustenta o contraste metodológico da linha 2305 |
+| Chatzioglou et al. (2024) | 2317, 2551, 2565, 2599 e 2637 | Sim | Não consultado, por existir PDF local | Amostra, método e estatísticas confirmados; Izmir/Istanbul são afiliações, não locais de recrutamento demonstrados; a Tabela 1 contém ambas as mãos |
+| Nag et al. (2003) | 2329, 2547 e 2597 | Sim | Não consultado, por existir PDF local | Suporte directo para 95 mulheres, 51 medições da mão direita, cinco tabelas de medidas e P5/P50/P95 |
+| Ibiwari et al. (2025) | 2345, 2545, 2571, 2599 e 2637 | Sim | Sem correspondência exacta no índice local | Suporte para amostra, idades, medidas e Tabelas 3–4; o recrutamento abrange dois campos universitários, não apenas a Universidade de Port Harcourt |
+| Mistarihi (2020) | 2353, 2543, 2573, 2601 e 2627 | Não | Sem correspondência exacta no índice local | Cinco pares pendentes; o artigo consta de `pdfs_em_falta.md` |
+| Lim et al. (2018) | 2359, 2539, 2565 e 2601 | Sim | Não consultado, por existir PDF local | Suporte directo para `n=50`, idade, duas medidas, médias e `R²=0,18`; trata-se de artigo de conferência ASME, não apenas «trabalho académico UC Berkeley» |
+| Gordon et al. (2015) | 2369; abreviaturas nas células 2539, 2567 e 2591 | Não | Sem correspondência exacta no índice local | Uma ocorrência formal e três abreviadas sem confronto; o relatório consta de `pdfs_em_falta.md` |
+| DINED/TU Delft | 2377; abreviaturas nas células 2537, 2561, 2575, 2577, 2593 | Captura HTML local | Sem correspondência exacta no índice local | A captura confirma grupos etários, sexos e células de média/SD; não preserva metadados suficientes para validar autonomamente os anos e a autoria dos três subconjuntos |
+| Hu et al. (2007) | 2391, 2549, 2579, 2595 e 2637 | Sim | Sem correspondência exacta no índice local | Suporte directo para amostra, idades, instrumentos, norma e Tabelas 1–2; a selecção por conveniência é reconhecida no artigo |
+| Zhou et al. (2016), fonte sem autor–ano no manuscrito | 2399–2403 | Sim | Sem correspondência exacta no índice local | Identificação inequívoca pelo título, revista, método FFD, sujeito único e 22 itens da Figura 12; falta citação no texto e entrada bibliográfica |
+| World Wide Web Consortium (2024), WCAG 2.2 | 2820 | Fonte normativa *web* | Não aplicável | Referência autónoma do Anexo B; norma técnica, não *paper* |
+| World Wide Web Consortium (2014), WCAG-EM 1.0 | 2821 | Fonte normativa *web* | Não aplicável | Referência autónoma do Anexo B; metodologia normativa, não *paper* |
+| `daprice`, Flexy Beast | 2907 | Fonte técnica local | Não aplicável | Cabeçalho local identifica autor, repositório e CC BY-SA 4.0; falta citação completa e versão/estado do código |
+| MakerBlock/e-NABLE, Cyborg Beast | 2964 | Fonte técnica não identificada | Não aplicável | Não foi localizado ficheiro activo Cyborg no estado actual; faltam URL, autor individual, licença, versão e caminho exacto |
+| Mendenhall, Paraglider/Flexible Flyer | 3033 | Fonte técnica local | Não aplicável | Cabeçalho num ficheiro inactivo indica Marcus Mendenhall, 2020, URL e CC BY-SA 4.0; o estado activo actual necessita de caminho e revisão exactos |
+| Team UnLimbited/e-NABLE, Phoenix | 3099 | Fonte técnica local | Não aplicável | Cabeçalho activo identifica Stephen Robert Davies, Drew Murray, Team UnLimbited e CC BY-NC-SA 4.0; faltam versão/commit e citação completa |
+| Hsueh et al. (2021) | 3455–3457 e 3624–3626 | Sim | Não consultado, por existir PDF local | Quatro associações agrupadas com Martins; suporte directo e prudentemente delimitado às condições ensaiadas |
+| Martins et al. (2024) | 3457–3459 e 3624–3626 | Sim | Não consultado, por existir PDF local | Suporte directo para maior ductilidade do PETG e maior resistência à fadiga do PLA nas condições do estudo |
 
 ## 3. Fontes confrontadas directamente com texto integral
 
@@ -2817,7 +2842,499 @@ A caracterização do *Double Diamond* deve ser verificada directamente na pági
 
 **Avaliação:** **suporte directo para autoria e data; suporte documental incompleto para a licença**. O ficheiro derivado declara CC BY-SA 4.0, mas o repositório original já não está acessível e o cabeçalho do `fingerator.scad` não contém a licença. Deve ser arquivada a distribuição original, o ficheiro de licença ou uma página histórica antes de tratar a licença como plenamente confirmada.
 
-## 6. Melhorias prioritárias resultantes do lote
+## 6. Auditoria do Anexo A — linhas 2213–2664
+
+### 6.1 Inventário, convenção de contagem e rastreabilidade das células
+
+O Anexo A contém 37 conjuntos formais e 45 ocorrências formais distribuídas por doze identidades: oito *papers*, três documentos académicos ou relatórios e uma família institucional DINED. As 45 ocorrências incluem as citações autor–ano em títulos de subsecção, porque esses títulos identificam a fonte desenvolvida no texto imediatamente seguinte.
+
+As dez menções abreviadas seguintes foram verificadas e ligadas às respectivas fichas, mas não foram somadas de novo aos totais formais:
+
+| Linha/célula | Texto exacto da célula | Fonte resolvida |
+| --- | --- | --- |
+| 2537 | `DINED kima1993, geron1998, dined2004` | Família institucional DINED/TU Delft |
+| 2539 | `ANSUR 1988, ANSUR II 2012, Lim et al. (2018)` | Gordon et al. (1989), Gordon et al. (2015) e Lim et al. (2018) |
+| 2561 | `DINED kima1993 (por ano de idade)` | Família institucional DINED/TU Delft |
+| 2567 | `ANSUR II 2012` | Gordon et al. (2015) |
+| 2575 | `DINED dined2004 (3 grupos)` | Família institucional DINED/TU Delft |
+| 2577 | `DINED geron1998 (7 grupos de 5 anos)` | Família institucional DINED/TU Delft |
+| 2591 | `ANSUR 1988, ANSUR II 2012` | Gordon et al. (1989) e Gordon et al. (2015) |
+| 2593 | `DINED (3 subconjuntos)` | Família institucional DINED/TU Delft |
+
+A Secção A.5.13 acrescenta uma fonte bibliográfica real, mas não identificada no manuscrito. A correspondência com Zhou et al. (2016) é tratada em 6.14 e não entra nos totais formais. Se for acrescentada a citação autor–ano, o anexo passará a ter 38 pares de *papers* e 13 identidades formais; se os três subconjuntos DINED forem ainda separados como fontes bibliográficas autónomas, o número de identidades aumentará em mais duas.
+
+### 6.2 Gordon et al. (1989) — ANSUR 1988
+
+**Localizações formais:** linhas 2221, 2239 e 2309.
+**Menções abreviadas rastreadas:** células das linhas 2539 e 2591.
+
+**Texto da dissertação:**
+
+> conjunto ANSUR completo — 2.726 linhas de dados, 47 dimensões corporais do estudo ANSUR 1988 (Gordon et al., 1989), população militar norte-americana
+
+> O relatório ANSUR 1988 (Gordon et al., 1989) apresenta 9.068 participantes no levantamento geral. Os ficheiros gerados neste projecto codificam as tabelas estatísticas detalhadas do anexo para os grupos nelas identificados: 2.208 mulheres e 1.774 homens [...] As tabelas fornecem, para cada dimensão e por sexo, média, desvio-padrão, percentis do P1 ao P99, mínimo e máximo.
+
+**Título bibliográfico:** *Anthropometric Survey of U.S. Army Personnel: Methods and Summary Statistics 1988*.
+**Ficheiro local:** `projecto_completo_bibliografia/Gordon_et_al_1989_Anthropometric_survey_of_US_Army_personnel_Methods_and_summary_statistics_1988.pdf`.
+**Zona confrontada:** páginas 1–3 do PDF; folha de rosto dos excertos, índice e primeira tabela; as restantes tabelas ocupam as páginas 4–52 do PDF.
+
+**Excertos exactos do documento local:**
+
+> “Excerpts from: Gordon, Claire C. et. al 1988 Anthropometric Survey of U.S. Personnel: Summary Statistics Interim Report. March 1989.”
+
+> “FEMALE N = 2208” / “MALE N = 1774”
+
+> “Mean”; “Std Dev”; “Maximum”; “Minimum”; “Percentiles”
+
+**Avaliação:** **suporte directo parcial**. O ficheiro confirma repetidamente os grupos `n=2.208` e `n=1.774`, a separação por sexo e os indicadores estatísticos. Contudo, não é o relatório integral: identifica-se expressamente como conjunto de “Excerpts”, possui um índice com 49 tabelas e não contém a descrição do levantamento geral de 9.068 participantes. O valor `9.068`, a caracterização do ficheiro como relatório completo e a relação exacta entre as 49 tabelas disponíveis e as 47 codificadas não ficam demonstrados por este PDF. As correcções de oito células descritas na Secção A.5.1 são decisões de auditoria ao código e aos excertos, não afirmações do relatório original.
+
+### 6.3 Moreo (2016) — origem dos dados DINED na Tabela 6.1
+
+**Localizações formais:** linhas 2261, 2365 e 2367.
+
+**Texto da dissertação:**
+
+> o trabalho de Moreo (2016) apresenta valores percentílicos de comprimento de dedo extraídos da base de dados DINED (TU Delft, n=965 crianças neerlandesas), sem recolha própria.
+
+> A Tabela 6.1 apresenta valores percentílicos de comprimento de dedo por grupo etário, mas estes valores são extraídos da base de dados DINED (TU Delft, n=965 crianças neerlandesas), sem recolha primária por parte da autora.
+
+**Título:** *Parametric Design of a 3D Printable Hand Prosthesis for Children in Developing Countries*.
+**Ficheiro:** `projecto_completo_bibliografia/parametric design of a 3D printable hand prosthesis for children in developing ountrieMaster Thesis Monica Moreo 4398661.pdf`.
+**Zona:** página 21 do PDF, Secção 4.1.1, «Parameters choice»; página 39 do PDF, página impressa 36, Tabela 6.1.
+
+**Excertos exactos:**
+
+> “The parameters used were taken from a database created at TU Delft from a research project known as KIMA, in which different anthropomorphic measures of 279 dutch children have been collected”
+
+> “Table 6.1: Measure and percentile of the hand device parameters after printing compared to real hand.”
+
+> “The hand device has been printed for girls of 4, 7 and 13 years. Table 6.1 shows the value of each parameter and the percentile for the population of the considered age.”
+
+**Avaliação:** **incompatível quanto à dimensão amostral**. A dissertação de Moreo confirma a origem KIMA/DINED e o uso de percentis na Tabela 6.1, mas declara `279` crianças, não `965`. O valor `n=965` deve ser retirado ou sustentado por outra fonte DINED claramente identificada. A decisão de exclusão por se tratar de dados secundários é coerente com o documento.
+
+### 6.4 Rodríguez-Vega e Rodríguez-Vega (2024)
+
+**Localizações formais:** linhas 2305, 2323, 2541, 2563, 2569 e 2597.
+
+**Texto e células da dissertação:**
+
+> “comprimento da mão” pode ser medido desde a prega do pulso até à ponta do dedo médio (Rodríguez-Vega et al., 2024) ou desde o processo estilóide até à mesma ponta (Anacleto Filho et al., 2023)
+
+> n=2.837 (2.275M, 562F), Noroeste do México, idade 15–59. Quatro dimensões: comprimento da mão (HL), comprimento da palma (PL), largura da mão (HB) e diâmetro de preensão (HGD). Tabela 3 (amostra geral) e Tabela 4 (oito grupos etários: 15–19, 20–24, …, 50–54).
+
+> o subgrupo feminino 50-54 tem n=3 (`SD = 0,00` reportado para `HB` [...]); o subgrupo feminino 45-49 tem n=10.
+
+> `México | Rodríguez-Vega et al. (2024)`; `15–19 anos | México | Rodríguez-Vega et al. (2024), subgrupo`; `15–59 anos | México | Rodríguez-Vega et al. (2024), 8 grupos etários`; `P5, P50, P95 [...] | [...] Rodríguez-Vega et al. (2024)`
+
+**Título:** *Normative Data for the Anthropometric Hand Dimensions of the Mexican Population*.
+**Ficheiro:** `projecto_completo_bibliografia/Normative data for the anthropometric_hand dimensions of the Mexican_population.pdf`.
+**Zona:** página 4 do PDF, Secção 2.1 e Tabela 1; página 5, Secção 2.2; páginas 6–7, Tabelas 3–4.
+
+**Excertos exactos:**
+
+> “A total of 2.275 male and 562 female participants residing in Northwest Mexico [...] The participant’s ages ranged from 15 to 59 years.”
+
+> “Hand Length (HL) — The length of the right hand between the stylion landmark on the wrist and the tip of the middle finger”
+
+> “50–54 Group [...] HB [...] Female [...] Mean 7.73 [...] SD 0.25”
+
+> “45–49 [...] Female [...] N 10”; “50–54 [...] Female [...] N 3”
+
+**Avaliação:** **suporte directo com duas incompatibilidades materiais**. Amostra, região, idade, dimensões, grupos etários e percentis são confirmados. Porém, a fonte mede o comprimento desde o ponto *stylion*, não desde a prega do pulso; a oposição metodológica da linha 2305 é falsa, pois Anacleto Filho et al. também usa os processos estilóides. Além disso, a Tabela 4 apresenta `SD = 0,25` para `HB` feminino 50–54, não `0,00`. A nota de qualidade deve ser corrigida também no CSV, se este tiver herdado o valor errado.
+
+### 6.5 Anacleto Filho et al. (2023)
+
+**Localizações formais:** linhas 2305, 2335, 2537 e 2597.
+
+**Texto e células da dissertação:**
+
+> n=343 (169M, 174F), trabalhadores industriais do Norte de Portugal, 2021. De um conjunto de 27 dimensões corporais, apenas duas são da mão: comprimento da mão e largura da mão (metacarpal II–V). Tabela 3, P5, P50, P95 por sexo.
+
+> O estudo mediu o lado esquerdo por limitação de instalações
+
+> `Portugal, Países Baixos | Anacleto Filho et al. (2023); DINED [...]`; `P5, P50, P95 [...] | [...] Anacleto Filho et al. (2023) [...]`
+
+**Título:** *Establishing an Anthropometric Database: A Case for the Portuguese Working Population*.
+**Ficheiro:** `projecto_completo_bibliografia/Establishing an anthropometric database A case for the Portuguese working population (2).pdf`.
+**Zona:** página 1 do PDF, resumo; página 2, Secções 2 e 2.1; página 4, Tabela 1; página 6 do PDF, página impressa 5, Tabela 3.
+
+**Excertos exactos:**
+
+> “this work collected data on 27 dimensions from 343 workers in an industry in Northern Portugal.”
+
+> “the established sample population consisted of 343 workers, 174 females and 169 males”
+
+> “physical space and stationary equipment restrictions only allowed the evaluator to take measures from the left side”
+
+> “Hand length [...] Perpendicular distance from a line drawn between the styloid processes to the tip of the middle finger”
+
+> “Table 3 [...] P5 [...] P50 [...] P95”; “19 HandL”; “20 HandB”
+
+**Avaliação:** **suporte directo** para os dados próprios desta ficha. A fonte, contudo, não sustenta o contraste da linha 2305: a sua definição estilóide é muito próxima da definição de Rodríguez-Vega, em vez de constituir o protocolo alternativo alegado.
+
+### 6.6 Chatzioglou et al. (2024)
+
+**Localizações formais:** linhas 2317, 2551, 2565, 2599 e 2637.
+
+**Texto e células da dissertação:**
+
+> n=51 (32F, 19M), idade 18–30, Izmir e Istanbul. Método foto-antropométrico com ImageJ (pixel → mm via factor de calibração 0,08618 ×). Comprimentos dos cinco dedos da mão direita, por sexo e amostra total, Tabela 1.
+
+> `Turquia | Chatzioglou et al. (2024)`; `18–30 anos | EUA, Turquia | [...] Chatzioglou et al. (2024)`; `Média, SD, min, max [...] | Chatzioglou et al. (2024) [...]`
+
+> Chatzioglou et al. (2024) recrutou estudantes universitários de Izmir e Istanbul
+
+**Título:** *Biometric Analysis Hand Parameters in Young Adults for Prosthetic Hand and Ergonomic Product Applications*.
+**Ficheiro:** `projecto_completo_bibliografia/Biometric analysis hand parameters in young adults for prosthetic hand and ergonomic product applications.pdf`.
+**Zona:** página 1 do PDF, resumo e afiliações; páginas 2–3, «Materials and Methods»; página 6, página impressa 177, Tabela 1.
+
+**Excertos exactos:**
+
+> “We examined 51 young adults (32 females, 19 males) aged between 18–30. Hand photographs were taken, and measurements were conducted using ImageJ software.”
+
+> “in each length measurement, a conversion from pixels to millimeters was made using the formula 0.08618× measured length in pixel value.”
+
+> “Table 1. Measurements values of the distances and angles of fingers by sex”; “Values are presented as mean±SD (range). L, left; R, right”
+
+**Avaliação:** **suporte directo parcial**. Os números, a idade, o ImageJ, a conversão e as estatísticas estão confirmados. A Tabela 1 contém as mãos esquerda e direita; seleccionar a direita para o CSV é uma decisão do projecto, não uma limitação da fonte. Izmir e Istanbul aparecem nas afiliações institucionais dos autores, mas o texto consultado não identifica os locais de recrutamento nem afirma que todos eram estudantes universitários dessas duas cidades. A frase da linha 2637 excede a zona demonstrável.
+
+### 6.7 Nag et al. (2003)
+
+**Localizações formais:** linhas 2329, 2547 e 2597.
+
+**Texto e células da dissertação:**
+
+> n=95 mulheres, trabalhadores informais (indústria de bidis, agarbattis e vestuário), Ahmedabad. 51 dimensões da mão direita em cinco tabelas (comprimentos, larguras, circunferências, profundidades, extensões e folgas), com P5, P50 e P95 reportados.
+
+> `Índia | Nag et al. (2003)`; `P5, P50, P95 [...] | Nag et al. (2003) [...]`
+
+**Título:** *Hand Anthropometry of Indian Women*.
+**Ficheiro:** `projecto_completo_bibliografia/Hand anthropometry of Indian women.pdf`.
+**Zona:** página 1 do PDF, resumo, página impressa 260; página 2, «Material & Methods»; páginas 3–7, Tabelas II–VI.
+
+**Excertos exactos:**
+
+> “anthropometric data of 95 women, working in informal industries (beedi, agarbatti and garment manufacturing units)”
+
+> “Fifty one hand measurements of the right hand (lengths, breadths, circumferences, depths, spreads and clearances of hand and fingers) were taken”
+
+> “A total of 95 women [...] at the outskirts of Ahmedabad city were selected”; “5th”; “50th”; “95th”
+
+**Avaliação:** **suporte directo**. A descrição da amostra, lateralidade, número e famílias de medidas e percentis corresponde ao artigo. A afirmação de que é a fonte «com maior detalhe» ou a «única» na base é uma comparação interna do conjunto compilado, não uma conclusão do *paper*.
+
+### 6.8 Ibiwari et al. (2025)
+
+**Localizações formais:** linhas 2345, 2545, 2571, 2599 e 2637.
+
+**Texto e células da dissertação:**
+
+> n=80: basquetebol (n=41: 21M, 20F) e voleibol (n=39: 20M, 19F), Universidade de Port Harcourt, idade 19–30. Quatro dimensões da mão direita por desporto e sexo [...] Tabelas 3 e 4.
+
+> comprimento da mão no voleibol masculino (`SD = 37,49 mm`)
+
+> `Nigéria | Ibiwari et al. (2025)`; `19–30 anos | Nigéria | Ibiwari et al. (2025)`; `Média, SD, min, max [...] | [...] Ibiwari et al. (2025)`
+
+> Ibiwari et al. (2025) recrutou atletas universitários
+
+**Título:** *Hand Anthropometric Measurement and Grip Strength for Basketball and Volleyball Players in Higher Institutions in Port Harcourt Metropolis*.
+**Ficheiro:** `material/antropometria/HAND ANTHROPOMETRIC MEASUREMENT AND GRIP STRENGTH FOR BASKETBALL AND.pdf`.
+**Zona:** páginas 1–2 do PDF, resumo e «Materials and Methods»; página 3, página impressa 10515, Tabelas 3–4.
+
+**Excertos exactos:**
+
+> “The study group was composed of 41 basketball players (21 males, 20 females) and 39 volleyball players (20 males, 19 females), aged between 19-30 years.”
+
+> “There are two major basketball and volleyball courts in the metropolis: the University of Port Harcourt Basketball court and Ignatius Ajuru Basketball court.”
+
+> “Hand length (mm) [...] Male right hand [...] Volleyball [...] 185.95 ± 37.49”
+
+**Avaliação:** **suporte directo com delimitação geográfica**. A amostra, idade, separação por modalidade e sexo, medidas e valor atípico são confirmados. A formulação «Universidade de Port Harcourt» é demasiado estreita: o método refere dois campos, University of Port Harcourt e Ignatius Ajuru. «Atletas universitários da área metropolitana de Port Harcourt» é a descrição mais segura. O PDF existente em `projecto_completo_bibliografia/` tem uma quebra de linha incorporada no nome do ficheiro e deve ser renomeado para assegurar rastreabilidade.
+
+### 6.9 Mistarihi (2020)
+
+**Localizações formais:** linhas 2353, 2543, 2573, 2601 e 2627.
+
+**Texto e células da dissertação:**
+
+> n=40 trabalhadores com deficiência física, governorate de Irbid, Jordânia, idade 20–40. Sexos combinados [...] Comprimento da mão [...] com P5 e P95 na Tabela 4; largura da mão [...] a partir da Figura 2.
+
+> `Jordânia | Mistarihi (2020)`; `20–40 anos | Jordânia | Mistarihi (2020)`; `Média apenas | Mistarihi (2020) — largura da mão`
+
+> apenas o estudo de Mistarihi (2020) cobre esta população (n=40, sexos combinados, Jordânia)
+
+**Título indicado na bibliografia:** *A Data Set on Anthropometric Measurements and Degree of Discomfort of Physically Disabled Workers for Ergonomic Requirements in Work Space Design*.
+**DOI:** `10.1016/j.dib.2020.105420`.
+**Pesquisa:** nenhum PDF em `projecto_completo_bibliografia/` ou `material/`; sem correspondência exacta por título, autor ou DOI no índice local do Mendeley; referência registada em `projecto_completo_bibliografia/pdfs_em_falta.md`.
+
+**Avaliação:** **cinco pares pendentes**. Sem texto integral não existe zona do *paper* que possa ser copiada, pelo que continuam por confirmar a amostra, a combinação de sexos, as estatísticas da Tabela 4, a leitura da Figura 2 e as afirmações de unicidade.
+
+### 6.10 Lim et al. (2018)
+
+**Localizações formais:** linhas 2359, 2539, 2565 e 2601.
+
+**Texto e células da dissertação:**
+
+> n=50 adultos, idade 18–30. Apenas duas dimensões do dedo indicador (D2): comprimento MCP-ponta (média=90,9 mm) e largura na articulação PIP (média=16,9 mm). Apenas médias reportadas [...] `R² = 0,18`
+
+> `EUA | ANSUR 1988, ANSUR II 2012, Lim et al. (2018)`; `18–30 anos | EUA, Turquia | Lim et al. (2018) [...]`; `Média apenas | [...] Lim et al. (2018)`
+
+**Título:** *Customization of a 3D Printed Prosthetic Finger Using Parametric Modeling*.
+**Ficheiro:** `projecto_completo_bibliografia/Daniel Lim - Customization of a 3D Printed Prosthetic Finger Using Parametric Modeling [2018].pdf`.
+**Zona:** página 3 do PDF, Secção 2.1; página 6, Secção 3.1 e Figura 6.
+
+**Excertos exactos:**
+
+> “We recruited 50 participants, male and female, between the ages of 18-30”
+
+> “the length and width of the index (2D) finger on the right hands of each individual were taken”
+
+> “The average length, width and ratio of length to width of the D2 was 90.9mm, 16.9mm, and 5.41 respectively across the 50 subjects.”
+
+> “Correlation coefficient (R2 = 0.18) [...] show that there is weak to no correlation between D2 length and width.”
+
+**Avaliação:** **suporte directo**. Os valores e a interpretação da correlação estão confirmados. A fonte é um artigo de conferência ASME com autores da UC Berkeley; «Trabalho académico UC Berkeley» é vago e deve ser substituído pela referência bibliográfica completa. O artigo apresenta `p=0,021` nos resultados e `p=0,0021` na conclusão; o anexo evita correctamente fixar esse valor inconsistente.
+
+### 6.11 Gordon et al. (2015) — ANSUR II
+
+**Localização formal:** linha 2369.
+**Menções abreviadas rastreadas:** células das linhas 2539, 2567 e 2591.
+
+**Texto da dissertação:**
+
+> n=6.068 militares activos (4.082M, 1.986F), idade 17–58, grande diversidade étnica. Os dados brutos individuais foram disponibilizados em acesso público em 2017 (licença CC BY 4.0).
+
+> conjunto completo de 11 indicadores por dimensão [...] Sete medições codificadas
+
+**Título indicado na bibliografia:** *2012 Anthropometric Survey of U.S. Army Personnel: Methods and Summary Statistics* (NATICK/TR-15/007).
+**Pesquisa:** relatório não localizado em `projecto_completo_bibliografia/` ou `material/`; sem correspondência exacta no índice local do Mendeley; referência registada em `projecto_completo_bibliografia/pdfs_em_falta.md`.
+
+**Avaliação:** **uma ocorrência formal e três atribuições abreviadas pendentes**. Os perfis `ansur2` existentes no projecto não substituem o relatório nem os dados brutos originais. Permanecem sem zona primária copiada a amostra, idades, licença, diversidade, sete medidas e cálculo dos onze indicadores.
+
+### 6.12 Família DINED/TU Delft
+
+**Localização formal:** linha 2377.
+**Menções abreviadas rastreadas:** células das linhas 2537, 2561, 2575, 2577 e 2593.
+
+**Texto da dissertação:**
+
+> Três sub-datasets distintos [...] kima1993: crianças neerlandesas, idades 2–12 [...] 8 medições [...] geron1998: idosos neerlandeses, idades 50–80+ [...] 5 medições [...] dined2004: adultos neerlandeses, grupos etários 20–30, 31–60, 60+ [...] 6–7 medições
+
+> Apenas média e desvio-padrão estão disponíveis; percentis não são fornecidos pela interface DINED.
+
+**Fonte local:** `material/dadosantropometricos-dined.txt`.
+**Zona:** captura HTML da tabela da interface DINED, linha 4 do ficheiro; cabeçalhos das populações e células `mean`/`sd`.
+
+**Excertos exactos da captura:**
+
+> `Dutch children 2, female` [...] `Dutch children 12, female` [...] `Dutch children 2, male` [...] `Dutch children 12, mixed`
+
+> `Dutch elderly 50–54, female` [...] `Dutch elderly 80+, mixed`
+
+> `Dutch adults 20–30, female` [...] `Dutch adults 31–60, female` [...] `Dutch adults 60+, mixed` [...] `Dutch adults 20–60, mixed`
+
+> `class="mean" id="mean0_10"` / `class="sd" id="sd0_10"`
+
+**Avaliação:** **suporte técnico parcial**. A captura demonstra os intervalos etários, a separação por sexo e a disponibilização de média e desvio-padrão para as células preenchidas. Não preserva, porém, um cabeçalho bibliográfico, data de consulta, versão, tamanho amostral ou associação explícita dos nomes `kima1993`, `geron1998` e `dined2004` aos blocos. A bibliografia contém Molenbroek (1998), Molenbroek et al. (2003) e Steenbekkers e van Beijsterveldt (1998), mas o anexo não estabelece qual entrada fundamenta cada subconjunto. É necessário arquivar uma exportação estável com metadados e dar uma citação própria a cada conjunto, ou declarar DINED como uma única fonte institucional com data de consulta.
+
+### 6.13 Hu et al. (2007)
+
+**Localizações formais:** linhas 2391, 2549, 2579, 2595 e 2637.
+
+**Texto e células da dissertação:**
+
+> n=108 (58F, 50M), idade 65–85, residentes na área de Pequim, recrutados por conveniência entre reformados. Medições com paquímetro deslizante e paquímetro de pontas, segundo a norma chinesa GB/T 5703-1999 (equivalente à ISO 7250:1996). Tabela 1 (média e desvio-padrão) e Tabela 2 (P1, P5, P50, P95, P99).
+
+> `China (Pequim) | Hu et al. (2007)`; `65–85 anos | China | Hu et al. (2007)`; `Média, SD, P5, P50, P95 [...] | Hu et al. (2007)`
+
+> Hu et al. (2007) recrutou reformados da área de Pequim
+
+**Título:** *Anthropometric Measurement of the Chinese Elderly Living in the Beijing Area*.
+**Ficheiro:** `projecto_completo_bibliografia/Anthropometric measurement of the Chinese elderly living in the Beijing area (Hu et al., 2007).pdf`.
+**Zona:** página 1 do PDF, resumo; páginas 2–3, Secções 2.1–2.2; páginas 4 e 6, Tabelas 1–2; página 8, discussão das limitações.
+
+**Excertos exactos:**
+
+> “58 females (age range 65.0–80.7 [...] ) and 50 males (age range 65.2–85.1 [...]) took part”
+
+> “Subjects aged over 65 were recruited from the relevant group of retired people living in Beijing”
+
+> “a sliding caliper, a spreading caliper”
+
+> “National Standard GB/T 5703 1999 (equivalent to ISO 7250:1996)”
+
+> “the subjects were chosen based on convenience and availability”
+
+**Avaliação:** **suporte directo** para amostra, idades, população, instrumentos, norma e conveniência. As Tabelas 1–2 confirmam média/SD e P1/P5/P50/P95/P99. A codificação de apenas cinco medidas e a suposição de que `Finger length` designa o dedo médio são decisões do projecto; o texto do artigo consultado não explicita o dígito nessa designação.
+
+### 6.14 Fonte anónima da Secção A.5.13 — Zhou et al. (2016)
+
+**Localização não formal:** linhas 2399–2403.
+
+**Texto da dissertação:**
+
+> Fonte: artigo metodológico sobre reconstrução de modelos corporais 3D a partir de fotografias ortogonais, publicado no International Journal of Industrial Ergonomics, usando deformação de forma livre (FFD).
+
+> valida-o sobre um único sujeito. A figura de validação do artigo compara valores do modelo com valores do participante real para 22 dimensões [...] Incluir o valor de comprimento de mão do sujeito de validação (17 cm, lido do gráfico) seria metodologicamente incorreto.
+
+**Fonte identificada:** Zhou, X., Chen, J., Chen, G., Zhao, Z., & Zhao, Y. (2016). *Anthropometric Body Modeling Based on Orthogonal-View Images*. *International Journal of Industrial Ergonomics, 53*, 27–36. `https://doi.org/10.1016/j.ergon.2015.10.007`.
+**Ficheiro:** `material/antropometria/Anthropometric body modeling based on orthogonal-view images (Zhou et al., 2016).pdf`.
+**Zona:** página 1 do PDF, resumo; página 2, final da introdução; página 8, Figura 12; página 9, página impressa 35, Secção 3.2.1.
+
+**Excertos exactos:**
+
+> “This paper presents an efficient and convenient method for creating an anthropometric model of a real person.”
+
+> “Free-form deformation (FFD)”
+
+> “Our modeling method aims to model a specific person and not a statistical crowd.”
+
+> “Fig. 12 compares the anthropometric dimensions computed in T3 and R3 with the actual values measured on the real person. There are a total of 22 items”
+
+**Avaliação:** **identificação e decisão de exclusão confirmadas**. Revista, método FFD, validação individual e 22 itens coincidem inequivocamente. O valor de aproximadamente 17 cm pertence ao gráfico da Figura 12 e não a uma estatística populacional. O problema documental é outro: o manuscrito omite o autor–ano e a bibliografia não contém Zhou et al. Esta fonte deve ser formalmente citada e acrescentada em APA 7, mesmo tendo sido excluída da base de dados.
+
+## 7. Auditoria dos Anexos B–D — linhas 2665–3734
+
+### 7.1 Anexo B — referências normativas W3C
+
+O Anexo B não contém pares texto–*paper*. A sua lista própria de referências apresenta duas fontes normativas autónomas:
+
+**Localização:** linhas 2820–2821, Secção B.10.
+
+**Texto exacto:**
+
+> World Wide Web Consortium. (2024). *Web Content Accessibility Guidelines (WCAG) 2.2*. https://www.w3.org/TR/WCAG22/
+
+> World Wide Web Consortium. (2014). *Website Accessibility Conformance Evaluation Methodology (WCAG-EM) 1.0*. https://www.w3.org/TR/WCAG-EM/
+
+**Classificação:** fontes normativas oficiais, não *papers*. A primeira é invocada ao delimitar a ausência de declaração de conformidade e a segunda enquadra uma metodologia de avaliação. Não foram localizados instantâneos locais versionados. Para tornar o anexo reprodutível, devem ser arquivadas as versões oficiais consultadas e indicada a data de consulta; a WCAG 2.2 deve ainda ser citada junto das afirmações relevantes, em vez de surgir apenas na lista final.
+
+### 7.2 Anexo C — atribuições técnicas e lacunas de proveniência
+
+O Anexo C não contém citações autor–ano a *papers*. Contém quatro atribuições técnicas que foram contadas separadamente das fontes científicas.
+
+#### 7.2.1 `daprice` — Flexy Beast
+
+**Localização:** linha 2907, Secção C.3.
+
+**Texto da dissertação:**
+
+> O Flexy Beast deriva do trabalho de `daprice`, que combina o Parametric Cyborg Beast com o Flexy Hand. O ficheiro-fonte local indica licença CC BY-SA 4.0.
+
+**Fonte local confrontada:** `projects/ai-parametric-prosthetic-hand-generator/models/active/flexy_beast/flexy_beast.scad`, cabeçalho, linhas 1–12.
+
+**Excertos exactos:**
+
+> “Adapted from the Flexy Beast by daprice”
+
+> “https://github.com/daprice/Flexy-Beast (CC BY-SA 4.0)”
+
+> “A mashup of the Parametric Cyborg Beast (MakerBlock) and the Flexy Hand (Steve Wood / Gyrobot).”
+
+**Avaliação:** **suporte técnico directo**, mas incompleto como referência. O anexo deve identificar URL, licença, ficheiro exacto e revisão/commit. `daprice` já aparece no corpo e não aumenta o número de fontes técnicas únicas.
+
+#### 7.2.2 MakerBlock/e-NABLE — Cyborg Beast
+
+**Localização:** linha 2964, Secção C.4.
+
+**Texto da dissertação:**
+
+> O Cyborg Beast local preserva a palma e os segmentos digitais da linhagem MakerBlock/e-NABLE [...] A licença não está explicitada no pacote local examinado
+
+**Pesquisa local:** não foi localizado qualquer ficheiro Cyborg Beast em `projects/ai-parametric-prosthetic-hand-generator/models/active/` ou `models/inactive/` no estado actual do repositório. O nome aparece apenas em descrições do Flexy Beast e no texto do anexo.
+
+**Avaliação:** **proveniência técnica não demonstrada no estado actual**. A cautela relativa à licença é adequada, mas a expressão «Cyborg Beast local» necessita do caminho do pacote histórico, do autor individual ou organização, da URL, da versão e de um identificador do estado examinado. Esta atribuição acrescenta uma fonte técnica única aos totais.
+
+#### 7.2.3 Marcus Mendenhall — Paraglider/Flexible Flyer
+
+**Localização:** linha 3033, Secção C.5.
+
+**Texto da dissertação:**
+
+> O Paraglider Hand, também identificado como Flexible Flyer, deriva do trabalho de Marcus Mendenhall e encontra-se localmente associado à licença CC BY-SA 4.0.
+
+**Fonte local confrontada:** `projects/ai-parametric-prosthetic-hand-generator/models/inactive/paraglider_hand/paraglider_hand.scad`, cabeçalho, linhas 1–6.
+
+**Excertos exactos:**
+
+> “Original design: Marcus Mendenhall, 2020 (CC BY-SA 4.0)”
+
+> “Source: https://github.com/mendenmh/flexible_flyer”
+
+**Avaliação:** **suporte técnico directo para autoria, ano, licença e URL**, mas o ficheiro confrontado encontra-se em `models/inactive/`. O catálogo `models-config.json` remete para caminhos `models/active/paraglider/` que não existem no estado actual. Por isso, o anexo deve identificar o commit ou arquivo de 14 de Julho de 2026 a que chama «estado final examinado». Mendenhall já estava contado no corpo e não aumenta as fontes técnicas únicas.
+
+#### 7.2.4 Team UnLimbited/e-NABLE — Phoenix
+
+**Localização:** linha 3099, Secção C.6.
+
+**Texto da dissertação:**
+
+> O UnLimbited Phoenix Hand local deriva da equipa UnLimbited/e-NABLE e indica licença CC BY-NC-SA 4.0 no ficheiro-fonte.
+
+**Fonte local confrontada:** `projects/ai-parametric-prosthetic-hand-generator/models/active/unlimbed_phoenix_hand/UnLimbitedPhoenix.scad`, cabeçalho, linhas 1–16.
+
+**Excertos exactos:**
+
+> “Team UnLimbited Phoenix Hand V1.0”
+
+> “By Stephen Robert Davies & Drew Murray / Team UnLimbited”
+
+> “licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.”
+
+**Avaliação:** **suporte técnico directo**. A forma «UnLimbited/e-NABLE» não aparece literalmente no cabeçalho confrontado, que identifica Davies, Murray e Team UnLimbited. A referência deve conservar esses autores, versão V1.0, licença, URL e revisão local. Esta atribuição acrescenta uma fonte técnica única.
+
+#### 7.2.5 Secção C.11 e divergência entre estados
+
+**Localização:** linhas 3211–3221.
+
+**Texto da dissertação:**
+
+> relatório técnico de adaptação antropométrica da plataforma; catálogo de configuração dos modelos; serviços de correspondência e importação de perfis antropométricos; implementações OpenSCAD activas [...] dicionário integral de parâmetros [...] Capítulo 4 [...] relatório integral de revisão académica.
+
+**Avaliação:** a lista não contém autores, títulos exactos, caminhos, versões, datas, *hashes* ou commits. Não permite a outro leitor determinar quais ficheiros sustentam cada afirmação. Existe ainda uma divergência verificável entre o estado histórico descrito e o *checkout* actual: não há ficheiro Cyborg Beast e não existe o directório `models/active/paraglider/`, embora o catálogo aponte para ele; o único invólucro principal Paraglider localizado está em `models/inactive/`. A Secção C.11 deve ser convertida numa tabela de proveniência com uma linha por artefacto, incluindo caminho relativo, versão/commit e função probatória. Esta lista genérica não foi contada como novas identidades.
+
+### 7.3 Anexo D — Hsueh et al. (2021)
+
+**Localizações:** linhas 3455–3457 e 3624–3626.
+
+**Texto da dissertação:**
+
+> Hsueh et al. (2021) observaram, nas condições ensaiadas, maior módulo de Young e resistência no PLA e maior resistência à deformação térmica no PETG.
+
+> Como enquadramento da literatura, o PETG apresentou maior resistência à deformação térmica no estudo de Hsueh et al. (2021) [...] estas propriedades não constituem resultados experimentais desta dissertação.
+
+**Título:** *Effect of Printing Parameters on the Thermal and Mechanical Properties of 3D-Printed PLA and PETG, Using Fused Deposition Modeling*.
+**Ficheiro:** `projecto_completo_bibliografia/Hsueh_et_al_2021_PLA_PETG_thermal_mechanical_properties.pdf`.
+**Zona:** Secção 5, «Conclusions», página 10 do artigo, página 11 do PDF.
+
+**Excerto exacto:**
+
+> “The mechanical properties of PLA are greater than those of PETG, regardless of the Young’s modulus and strength, but the opposite is the case for the thermal deformation.”
+
+**Avaliação:** **suporte directo para as duas ocorrências**. A formulação «nas condições ensaiadas» delimita correctamente o resultado e evita transformar o contraste em propriedade universal dos materiais.
+
+### 7.4 Anexo D — Martins et al. (2024)
+
+**Localizações:** linhas 3457–3459 e 3624–3626.
+
+**Texto da dissertação:**
+
+> Martins et al. (2024) registaram maior deformação até à rotura no PETG, correspondente a um comportamento mais dúctil, mas maior resistência à fadiga no PLA nas condições específicas do respectivo ensaio.
+
+> o PETG apresentou [...] maior ductilidade no estudo de Martins et al. (2024); estas propriedades não constituem resultados experimentais desta dissertação.
+
+**Título:** *Mechanical Properties of Additively Manufactured Polymeric Materials—PLA and PETG—For Biomechanical Applications*.
+**Ficheiro:** `projecto_completo_bibliografia/Martins_et_al_2024_PLA_PETG_biomechanical_applications.pdf`.
+**Zona:** Secção 3.1, página 5 do artigo; Secção 3.2, página 8 do artigo.
+
+**Excertos exactos:**
+
+> “PETG showed more ductile behaviour than PLA”
+
+> “PLA demonstrates a higher fatigue strength, withstanding higher stresses than PETG for the same fatigue life.”
+
+**Avaliação:** **suporte directo para as duas ocorrências**. O texto distingue ductilidade de resistência à fadiga, conserva a dependência das condições de ensaio e declara explicitamente que a dissertação não realizou comparação mecânica própria.
+
+## 8. Melhorias prioritárias resultantes do lote
 
 1. **Corrigir a fonte da Figura 2.2.** O *paper* citado é incompatível com o fluxograma e com a amostra `n=224`. Østlie et al. (2012) é um candidato forte, mas deve ser confrontado directamente antes da alteração.
 2. **Rever a proveniência da Figura 1.1.** A montagem não foi reproduzida do artigo de Manero et al.; cada painel necessita de fonte própria.
@@ -2894,13 +3411,26 @@ A caracterização do *Double Diamond* deve ser verificada directamente na pági
 73. **Rever as transferências de membro inferior na Tabela 8.8.** Sete associações pendentes do Capítulo 8 usam fontes explicitamente centradas no membro inferior; cada generalização para membro superior necessita de justificação conceptual ou de substituição por literatura específica.
 74. **Delimitar a enumeração da linha 1808.** Smail sustenta abandono, conforto, peso e função; Biddiss sustenta prioridades de conforto, peso, função e controlo, mas não causalidade de abandono. Ajuste, manutenção e estética exigem confirmação adicional, incluindo Fink e Diamond.
 75. **Deduplicar os registos Mendeley de Silva e Romero.** O índice local contém cinco entradas de cada artigo. Em Silva, apenas um duplicado tem texto integral indexado; em Romero, nenhum dos cinco tem anexo indexado, apesar de existir PDF no repositório.
+76. **Corrigir `n=965` nas três ocorrências relativas a Moreo.** A dissertação declara explicitamente que a base KIMA continha medições de 279 crianças. Se 965 provier de outra agregação DINED, essa fonte deve ser identificada e não atribuída a Moreo.
+77. **Reescrever o contraste de protocolos da linha 2305.** Rodríguez-Vega mede desde o ponto *stylion* e Anacleto Filho desde uma linha entre os processos estilóides; nenhuma das fontes sustenta «prega do pulso» como origem da primeira medição.
+78. **Corrigir o desvio-padrão de Rodríguez-Vega.** A Tabela 4 apresenta `SD = 0,25` para `HB` feminino 50–54, não `0,00`. Rever também a linha correspondente no CSV e a `dataqualitynote`.
+79. **Substituir o PDF ANSUR 1988 por relatório integral ou descrevê-lo como excertos.** O ficheiro local contém 49 tabelas e identifica-se como “Excerpts”; confirma os grupos 2.208/1.774, mas não o total 9.068 nem todos os metadados do relatório citado.
+80. **Obter Gordon et al. (2015) e Mistarihi (2020).** O primeiro deixa uma ocorrência formal e três abreviadas sem confronto; o segundo deixa cinco pares de *paper* pendentes no Anexo A.
+81. **Delimitar os locais de recrutamento de Chatzioglou e Ibiwari.** Izmir/Istanbul são afiliações, não locais de recrutamento demonstrados; Ibiwari refere dois campos em Port Harcourt, não apenas a University of Port Harcourt.
+82. **Formalizar Zhou et al. (2016).** A fonte anónima de A.5.13 foi identificada inequivocamente; acrescentar autor–ano no texto e a entrada APA 7 à bibliografia, mantendo a decisão de exclusão dos dados populacionais.
+83. **Criar proveniência estável para DINED.** Arquivar exportação datada, metadados de cada subconjunto, tamanho amostral e associação inequívoca entre `kima1993`, `geron1998`, `dined2004` e as entradas bibliográficas correspondentes.
+84. **Arquivar as versões W3C usadas no Anexo B.** As referências normativas devem ter data de consulta e instantâneo estável; a WCAG 2.2 deve ser ligada às afirmações relevantes no corpo do anexo.
+85. **Converter C.11 numa tabela de proveniência técnica.** Indicar por artefacto autor, título, caminho relativo, licença, versão/commit, data e afirmações sustentadas; a enumeração actual não é reprodutível.
+86. **Resolver a divergência entre o estado histórico do Anexo C e o *checkout* actual.** O pacote actual não contém Cyborg Beast nem `models/active/paraglider/`; o invólucro Paraglider localizado está em `models/inactive/`. O anexo deve apontar para um arquivo ou commit verificável de 14 de Julho de 2026.
+87. **Completar as quatro atribuições técnicas do Anexo C.** Conservar `daprice` com URL/licença, identificar MakerBlock/e-NABLE e a licença Cyborg, citar Mendenhall com o repositório/revisão exactos e atribuir Phoenix a Stephen Robert Davies, Drew Murray e Team UnLimbited conforme o cabeçalho.
+88. **Conservar Hsueh e Martins nas formulações actuais.** Os quatro pares do Anexo D são directamente sustentados e bem delimitados; não generalizar ductilidade, fadiga ou deformação térmica para todos os graus, orientações e parâmetros de PLA/PETG.
 
-## 7. Limites e continuação
+## 9. Limites e continuação
 
-Este relatório conclui a auditoria sequencial das citações e atribuições existentes no corpo dos Capítulos 1–9, entre as linhas 223 e 1882. O Capítulo 9 não contém citações bibliográficas. O fecho quantitativo abrange 211 conjuntos, 408 ocorrências e 143 referências únicas; 136 dos 391 pares relativos a *papers* foram confrontados directamente e 255 permanecem pendentes por falta de 80 textos integrais.
+Este relatório conclui a auditoria sequencial das citações e atribuições existentes no corpo dos Capítulos 1–9, entre as linhas 223 e 1882, e nos Anexos A–D, entre as linhas 2213 e 3734. O Capítulo 9 e o Anexo C não contêm citações autor–ano a *papers*. O fecho quantitativo abrange 256 conjuntos, 463 ocorrências e 156 referências únicas; 172 dos 432 pares relativos a *papers* foram confrontados directamente e 260 permanecem pendentes por falta de 81 textos integrais.
 
-«Corpo concluído» não significa que todas as referências estejam substantivamente validadas. Permanecem por obter os textos integrais indicados na Secção 4, por corrigir os metadados e ficheiros incompatíveis, e por verificar fontes normativas, institucionais e técnicas fora do âmbito texto–*paper*. Referências que aparecem apenas na bibliografia, sem ocorrência no corpo, não foram auditadas. A análise também não abrangeu anexos posteriores à linha 1882 como novo universo de citações; estes só foram usados como prova documental quando uma tabela de fonte própria o exigiu.
+«Cobertura concluída» não significa que todas as referências estejam substantivamente validadas. Permanecem por obter os textos integrais indicados na Secção 4 e nas fichas de Gordon (2015) e Mistarihi (2020), por corrigir metadados e ficheiros incompatíveis, e por completar fontes normativas, institucionais e técnicas fora do âmbito texto–*paper*. Referências que aparecem apenas na bibliografia geral, sem ocorrência no corpo ou nos anexos, não foram auditadas. As dez atribuições abreviadas e Zhou et al. no Anexo A foram rastreadas fora dos totais formais para não alterar retroactivamente a convenção de contagem; a Secção C.11 também não foi transformada em identidades que o manuscrito não fornece.
 
-A consulta final ao Mendeley usou o índice local da aplicação porque a credencial API expirou. O índice permite confirmar presença, duplicação e texto integral indexado, mas não substitui uma nova sincronização API para garantir que nenhum registo remoto posterior ficou ausente. Quando essa credencial for renovada, convém repetir apenas as quatro pesquisas finais — Alili, Colombo, Silva e Romero — sem refazer os confrontos locais já documentados.
+A consulta final ao Mendeley usou o índice local da aplicação porque a credencial API expirou. O índice permite confirmar presença, duplicação e texto integral indexado, mas não substitui uma nova sincronização API para garantir que nenhum registo remoto posterior ficou ausente. Quando essa credencial for renovada, convém repetir as pesquisas finais de Alili, Colombo, Silva, Romero e das fontes novas do Anexo A que não apresentaram correspondência exacta, sem refazer os confrontos locais já documentados.
 
 Não foram alterados o manuscrito Markdown, o DOCX, o PDF canónico ou o `CHANGELOG.md` durante esta auditoria.

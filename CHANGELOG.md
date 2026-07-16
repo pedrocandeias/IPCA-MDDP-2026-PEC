@@ -2,9 +2,9 @@
 
 ## 2026-07-16
 
-- Concluída `docs/revisoes/auditoria_referencias_texto_papers_061.md`, com auditoria sequencial das citações e atribuições do corpo dos Capítulos 1–9: 211 conjuntos, 408 ocorrências e 143 referências únicas; dos 391 pares relativos a *papers*, 136 foram confrontados directamente com 52 textos integrais e 255 permanecem pendentes por falta de 80 artigos.
+- Concluída `docs/revisoes/auditoria_referencias_texto_papers_061.md`, com auditoria sequencial das citações e atribuições do corpo dos Capítulos 1–9 e dos Anexos A–D: 256 conjuntos, 463 ocorrências e 156 referências únicas; dos 432 pares relativos a *papers*, 172 foram confrontados directamente com 57 textos integrais e 260 permanecem pendentes por falta de 81 artigos.
 - Para cada fonte confrontada, o relatório conserva a frase da dissertação, o título e o nome do ficheiro, o caminho local, a página ou secção e um excerto textual exacto; a pesquisa seguiu a ordem `projecto_completo_bibliografia/`, `material/` e Mendeley, distinguindo artigos científicos, documentos académicos, normas e fontes técnicas ou institucionais.
-- Identificadas incompatibilidades de autoria, ano, DOI, ficheiro e atribuição visual, citações excessivamente abrangentes, transferências não demonstradas de literatura sobre membro inferior para membro superior e 75 melhorias prioritárias; não foram aplicadas correcções bibliográficas automáticas ao manuscrito.
+- Identificadas incompatibilidades de autoria, ano, DOI, ficheiro, dados e atribuição visual, citações excessivamente abrangentes, transferências não demonstradas de literatura sobre membro inferior para membro superior e 88 melhorias prioritárias; as fontes normativas do Anexo B e as fontes técnicas do Anexo C foram separadas das fontes científicas e não foram aplicadas correcções bibliográficas automáticas ao manuscrito.
 
 ## 2026-07-15
 
