@@ -177,7 +177,7 @@ def parse_missing_sources(audit_text: str) -> tuple[list[MissingSource], Missing
         add_source(sources, reference, title, strip_markdown(" | ".join(cells[2:])))
 
     # Walker is present in the historical pending section but was later obtained
-    # and directly checked. Ghali is a book chapter, not one of the 79 papers.
+    # and directly checked. Ghali is a book chapter, not one of the 75 papers.
     walker_key = next(
         (key for key in sources if key.startswith("towards including end users in the design of prosthetic hands")),
         "",
@@ -205,6 +205,21 @@ def parse_missing_sources(audit_text: str) -> tuple[list[MissingSource], Missing
     if not segura_key:
         raise RuntimeError("Could not locate the Segura et al. entry")
     sources.pop(segura_key)
+
+    # These four Section 2.2 sources remain in the historical pending table, but
+    # their full texts were subsequently added or captured and all thirteen
+    # associated passages were checked directly.
+    obtained_section_22 = {
+        "user involvement in healthcare technology development and assessment structured literature review": "Shah and Robinson",
+        "the healthcare design dilemma perils of a technology driven design process for medical products": "Wilke et al.",
+        "human centred criteria for healthcare design": "Millet et al.",
+        "methods for co designing health communication initiatives with people with disability a scoping review": "Chapman et al.",
+    }
+    for key_prefix, label in obtained_section_22.items():
+        source_key_match = next((key for key in sources if key.startswith(key_prefix)), "")
+        if not source_key_match:
+            raise RuntimeError(f"Could not locate the {label} entry")
+        sources.pop(source_key_match)
     ghali_key = next((key for key in sources if key.startswith("constructive solid geometry")), "")
     if not ghali_key:
         raise RuntimeError("Could not locate the Ghali book-chapter entry")
@@ -220,9 +235,9 @@ def parse_missing_sources(audit_text: str) -> tuple[list[MissingSource], Missing
     )
 
     result = sorted(sources.values(), key=lambda item: normalized(item.reference))
-    if len(result) != 79:
+    if len(result) != 75:
         labels = "\n".join(f"- {item.reference}: {item.title}" for item in result)
-        raise RuntimeError(f"Expected 79 missing papers, found {len(result)}:\n{labels}")
+        raise RuntimeError(f"Expected 75 missing papers, found {len(result)}:\n{labels}")
     return result, ghali
 
 
@@ -337,7 +352,7 @@ def render(sources: list[MissingSource], ghali: MissingSource, audit: Path, manu
         "",
         "## Lista integral",
         "",
-        "| N.º | Referência | Título | DOI ou localização provável | Estado |",
+        "| N.º | Autor(es) e ano | Título do artigo em falta | DOI ou localização provável | Estado |",
         "| ---: | --- | --- | --- | --- |",
     ]
     for index, source in enumerate(sources, start=1):
@@ -366,6 +381,8 @@ def render(sources: list[MissingSource], ghali: MissingSource, audit: Path, manu
             "- Walker et al. foi retirado da lista porque o texto integral foi posteriormente obtido e confrontado. Mistarihi (2020) foi acrescentado a partir do Anexo A.",
             "- Fink e Diamond (2023) foi retirado da lista porque o texto integral do artigo 101061 foi posteriormente obtido e as seis passagens que o citam foram confrontadas directamente; a auditoria concluiu que o suporte é parcial.",
             "- Segura et al. (2024) foi retirado da lista porque o PDF editorial foi acrescentado e as sete passagens que o citam foram confrontadas directamente; uma associação tem suporte directo, cinco têm suporte parcial e uma é incompatível.",
+            "- Shah e Robinson (2006), Wilke et al. (2020) e Millet et al. (2018) foram retirados após a validação dos PDFs locais e o confronto de nove pares afirmação–fonte.",
+            "- Chapman et al. (2025) foi retirado após a extracção textual integral do PDF editorial de acesso aberto e o confronto dos quatro pares associados; a captura Markdown conserva os marcadores da paginação publicada, mas não substitui o ficheiro PDF original.",
             "- Fontes normativas, páginas *web*, repositórios de código e conjuntos DINED sem PDF autónomo não são contabilizados como PDFs científicos em falta.",
             "",
             f"- SHA-256 do relatório de auditoria usado: `{sha256(audit)}`.",

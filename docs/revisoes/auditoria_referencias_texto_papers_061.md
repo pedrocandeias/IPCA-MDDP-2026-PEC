@@ -29,9 +29,9 @@ No fecho inicial dos Capítulos 7–9, a credencial da API Mendeley tinha expira
 | Conjuntos de citações ou atribuições no texto | 256 | 211 no corpo, 37 no Anexo A, dois no B, quatro no C e dois no D; as atribuições abreviadas e a fonte anónima de A são rastreadas separadamente |
 | Ocorrências afirmação–fonte | 463 | 432 pares relativos a *papers*, treze ocorrências de documentos académicos não classificados como *papers*, seis normativas e doze técnicas/institucionais |
 | Referências únicas citadas | 156 | 138 *papers*, quatro documentos académicos não classificados como *papers*, quatro fontes normativas e dez técnicas/institucionais |
-| *Papers* com texto integral obtido | 59 de 138 | Fink e Diamond e Segura et al. foram obtidos após o fecho inicial; o Anexo D acrescenta Hsueh et al. e Martins et al.; Zhou et al. foi identificado fora da contagem formal |
-| Pares afirmação–fonte confrontados directamente com o PDF | 185 | 149 no corpo, 32 no Anexo A e quatro no Anexo D |
-| Pares afirmação–fonte pendentes por ausência do *paper* | 247 | Setenta e nove referências únicas continuam sem texto integral; o Anexo A acrescenta cinco pares de Mistarihi |
+| *Papers* com texto integral obtido | 63 de 138 | Fink e Diamond, Segura et al., Shah e Robinson, Wilke et al., Millet et al. e Chapman et al. foram obtidos após o fecho inicial; Chapman foi confrontado por extracção textual integral do PDF editorial; o Anexo D acrescenta Hsueh et al. e Martins et al.; Zhou et al. foi identificado fora da contagem formal |
+| Pares afirmação–fonte confrontados directamente com o texto integral | 198 | 162 no corpo, 32 no Anexo A e quatro no Anexo D |
+| Pares afirmação–fonte pendentes por ausência do *paper* | 234 | Setenta e cinco referências únicas continuam sem texto integral; o Anexo A acrescenta cinco pares de Mistarihi |
 | Ocorrências de outros documentos académicos | 13 | Moreo soma três ocorrências no anexo; Gordon (1989) soma três ocorrências com suporte local apenas parcial; Gordon (2015) soma uma ocorrência sem relatório local |
 | Ocorrências de fonte normativa, técnica ou institucional fora do âmbito texto–*paper* | 18 | Seis normativas e doze técnicas/institucionais; os Anexos B e C acrescentam, respectivamente, duas normativas e quatro atribuições técnicas |
 
@@ -39,7 +39,7 @@ No fecho inicial dos Capítulos 7–9, a credencial da API Mendeley tinha expira
 
 | Âmbito | Conjuntos | Ocorrências totais | Pares de *papers* | Pares confrontados | Pares pendentes |
 | --- | ---: | ---: | ---: | ---: | ---: |
-| Capítulos 1–4 | 172 | 333 | 318 | 118 | 200 |
+| Capítulos 1–4 | 172 | 333 | 318 | 131 | 187 |
 | Capítulo 5 | 17 | 28 | 26 | 8 | 18 |
 | Capítulo 6 | 7 | 14 | 14 | 10 | 4 |
 | Capítulo 7 | 6 | 12 | 12 | 4 | 8 |
@@ -49,7 +49,7 @@ No fecho inicial dos Capítulos 7–9, a credencial da API Mendeley tinha expira
 | Anexo B | 2 | 2 | 0 | 0 | 0 |
 | Anexo C | 4 | 4 | 0 | 0 | 0 |
 | Anexo D | 2 | 4 | 4 | 4 | 0 |
-| **Acumulado** | **256** | **463** | **432** | **185** | **247** |
+| **Acumulado** | **256** | **463** | **432** | **198** | **234** |
 
 As duas ocorrências não-*paper* do Capítulo 5 são Mendenhall (2020) e `daprice` (n.d.), tratadas separadamente na Secção 5. Todos os pares dos Capítulos 6–8 correspondem a *papers*. A Tabela 8.4, de fonte própria, foi verificada documentalmente mas não foi contabilizada como par texto–*paper*. No Anexo A, as 45 ocorrências formais repartem-se por 37 pares de *papers*, sete ocorrências de dissertações ou relatórios e uma ocorrência institucional DINED. O Anexo B acrescenta duas normativas W3C, o Anexo C quatro atribuições técnicas e o Anexo D quatro pares de *papers*, todos confrontados directamente.
 
@@ -73,14 +73,14 @@ Quando uma referência reaparece num capítulo posterior, o novo conjunto de lin
 | Parlamento Europeu e Conselho da União Europeia (2017) | 353, 357 | Fonte normativa | Não aplicável | Fora do âmbito texto–*paper* |
 | Resnik et al. (2010) | 355, 357 | Não | Sem correspondência | Não localizado; dois pares pendentes |
 | Clarkson e Coleman (2010) | 365, 367, 393, 395, 397 | Ficheiro local incorrecto | Registo e anexo consultado temporariamente | Suporte directo para o modelo relacional da deficiência; parcial para as restantes afirmações |
-| Shah e Robinson (2006) | 365, 373, 405, 419, 429 | Não | Sem correspondência | Não localizado; cinco pares pendentes |
+| Shah e Robinson (2006) | 365, 373, 405, 419, 429 | Sim | Sem correspondência | Cinco pares confrontados; um incompatível e quatro parciais; a linha 419 repete a mesma fonte duas vezes |
 | Fisher e Johansen (2020) | 371, 373, 405, 407, 419, 429 | Não | Sem correspondência | Não localizado; seis pares pendentes |
-| Wilke et al. (2020) | 371, 415 | Não | Sem correspondência | Não localizado; dois pares pendentes |
+| Wilke et al. (2020) | 371, 415 | Sim | Sem correspondência | Dois pares confrontados; suporte parcial e generalização indevida de um estudo de caso único |
 | Kaygan e Kaygan (2025) | 375–389 | Sim | Registo e ficheiro integral | Suporte directo, com adaptação selectiva |
 | Story (2006) | 399, 401 | Não | Sem correspondência | Não localizado; dois pares pendentes |
 | White e Mosca (2022) | 401, 421, 423 | Não | Sem correspondência | Não localizado; três pares pendentes |
-| Millet et al. (2018) | 407, 409 | Não | Sem correspondência | Não localizado; dois pares pendentes |
-| Chapman et al. (2025) | 413, 415, 425 | Não | Sem correspondência | Não localizado; quatro pares pendentes |
+| Millet et al. (2018) | 407, 409 | Sim | Sem correspondência | Dois pares confrontados; um directo e um parcial |
+| Chapman et al. (2025) | 413, 415, 425 | Captura textual integral do PDF editorial | Sem correspondência | Quatro pares confrontados; suporte parcial; o artigo usa um fluxograma adaptado de PRISMA, mas não instrumentos de avaliação crítica |
 | Oldfrey et al. (2024) | 429 | Sim | Registo e ficheiro integral | Suporte parcial; citação demasiado ampla |
 | Lei et al. (2016) | 435, 449, 477, 483, 485, 487, 491, 495 | Não | Sem correspondência | Não localizado; oito pares pendentes |
 | Ozdemir et al. (2022) | 435, 445, 449, 467, 479, 493 | Não | Sem correspondência | Não localizado; seis pares pendentes |
@@ -2170,7 +2170,7 @@ Em todas as entradas seguintes, a pesquisa abrangeu `projecto_completo_bibliogra
 **Página, secção e excerto do *paper*:** não disponíveis.
 **Avaliação:** **não localizado; dois pares afirmação–fonte por verificar**.
 
-### 4.8–4.14 Referências não localizadas da Secção 2.2
+### 4.8–4.14 Referências da Secção 2.2
 
 Os trechos seguintes são copiados do manuscrito e recebem identificadores para evitar a repetição integral do mesmo período em várias citações agrupadas.
 
@@ -2236,15 +2236,78 @@ Os trechos seguintes são copiados do manuscrito e recebem identificadores para 
 
 | Referência | Título indicado na bibliografia | Trechos associados | Pesquisa local e Mendeley | Avaliação |
 | --- | --- | --- | --- | --- |
-| Shah e Robinson (2006) | *User involvement in healthcare technology development and assessment: Structured literature review* | C2.2-01, 03, 06, 11 e 15 | PDF não localizado; zero correspondências por título, autor–ano e DOI nos 514 registos | Cinco pares pendentes |
+| Shah e Robinson (2006) | *User involvement in healthcare technology development and assessment: Structured literature review* | C2.2-01, 03, 06, 11 e 15 | PDF editorial local `projecto_completo_bibliografia/User involvement in healthcare technology development and assessment_ Structured literature review.pdf`; zero correspondências anteriores nos 514 registos | Cinco pares confrontados; C2.2-01 incompatível e os restantes quatro parciais |
 | Fisher e Johansen (2020) | *Human-centered design for medical devices and diagnostics in global health* | C2.2-02, 03, 06, 07, 11 e 15 | PDF não localizado; zero correspondências por título, autor–ano e DOI nos 514 registos | Seis pares pendentes |
-| Wilke, Badke-Schaub e Thoring (2020) | *The healthcare design dilemma: Perils of a technology-driven design process for medical products* | C2.2-02 e 10 | PDF não localizado; zero correspondências por título, autor–ano e DOI nos 514 registos | Dois pares pendentes |
+| Wilke, Badke-Schaub e Thoring (2020) | *The healthcare design dilemma: Perils of a technology-driven design process for medical products* | C2.2-02 e 10 | PDF local `projecto_completo_bibliografia/the-healthcare-design-dilemma-perils-of-a-technology-driven-design-process-for-medical-products.pdf`; zero correspondências anteriores nos 514 registos | Dois pares confrontados; suporte parcial |
 | Story (2006) | *Applying the principles of universal design to medical devices* | C2.2-04 e 05 | PDF não localizado; zero correspondências por título e autor–ano nos 514 registos | Dois pares pendentes |
 | White e Mosca (2022) | *Developing innovative solutions for universal design in healthcare and other sectors* | C2.2-05, 12 e 13 | PDF não localizado; zero correspondências por título e autor–ano nos 514 registos | Três pares pendentes |
-| Millet, Akle e Legardeur (2018) | *Human centred criteria for healthcare design* | C2.2-07 e 08 | PDF não localizado; zero correspondências por título e autor–ano nos 514 registos | Dois pares pendentes |
-| Chapman, Allen e Kendall (2025) | *Methods for co-designing health communication initiatives with people with disability: A scoping review* | C2.2-09, as duas afirmações de C2.2-10, e C2.2-14 | PDF não localizado; zero correspondências por título, autor–ano e DOI nos 514 registos | Quatro pares pendentes |
+| Millet, Abi Akle e Legardeur (2018) | *Human centred criteria for healthcare design* | C2.2-07 e 08 | PDF HAL local `projecto_completo_bibliografia/HUMAN CENTRED CRITERIA FOR HEALTHCARE DESIGN.pdf`; zero correspondências anteriores nos 514 registos | Dois pares confrontados; C2.2-08 directo e C2.2-07 parcial |
+| Chapman, Allen e Kendall (2025) | *Methods for co-designing health communication initiatives with people with disability: A scoping review* | C2.2-09, as duas afirmações de C2.2-10, e C2.2-14 | Extracção textual integral do PDF editorial em `projecto_completo_bibliografia/chapman_et_al_2025_fulltext_web_snapshot.md`, com proveniência adjacente; zero correspondências anteriores nos 514 registos | Quatro pares confrontados; suporte parcial |
 
-**Página, secção e excerto dos *papers*:** não disponíveis para estas sete referências. Os metadados bibliográficos não foram usados como prova do conteúdo.
+Fisher e Johansen, Story e White e Mosca continuam sem texto integral. Os quatro textos entretanto obtidos são documentados individualmente nas fichas seguintes; os metadados bibliográficos não foram usados como substituto da leitura do conteúdo.
+
+#### Shah e Robinson (2006) — obtido após o fecho inicial
+
+**Título e ficheiro:** *User involvement in healthcare technology development and assessment: Structured literature review*; `projecto_completo_bibliografia/User involvement in healthcare technology development and assessment_ Structured literature review.pdf`.
+**Metadados confirmados:** Syed Ghulam Sarwar Shah e Ian Robinson; *International Journal of Health Care Quality Assurance*, 19(6), 500–515; DOI `10.1108/09526860610687619`; 16 páginas. A entrada bibliográfica do manuscrito omite o periódico, o volume, o número, as páginas e o DOI.
+**Páginas e secções:** páginas 1–2 do PDF, páginas impressas 500–501, resumo e introdução; página 6/505, «Methods used for capturing users’ perspectives»; páginas 8–10/507–509, «Discussion» e «Conclusion».
+**Excertos exactos:**
+
+> “daily working environment, and their functional limitations”
+
+> “usability tests, interviews and questionnaire surveys”
+
+> “Highest user involvement at the design stage”
+
+**Avaliação:** **cinco pares confrontados; quatro parciais e um incompatível**. C2.2-01 é incompatível: a fonte recomenda considerar o ambiente quotidiano, as limitações, as necessidades e as competências, mas não conceptualiza o *design* como mediador nem demonstra redução de barreiras sociais, participação ou qualidade de vida. C2.2-03 é parcial, pois sustenta necessidades do utilizador, participação e condicionamento regulatório, sem tratar especificamente o papel do *design* industrial ou a tradução de necessidades clínicas. C2.2-06 é parcial: documenta envolvimento nas fases de conceito, *design*, teste e implantação, bem como entrevistas, testes de usabilidade, questionários, simulações, sessões de *design* e grupos focais; não inclui *personas*, *think-aloud* ou prototipagem iterativa. C2.2-11 é parcial pelo mesmo motivo e repete Shah e Robinson em forma narrativa e parentética na mesma frase. C2.2-15 é parcial: a heterogeneidade de necessidades, competências e ambientes e algumas barreiras institucionais são sustentadas, mas não a tensão normalização–personalização, a transição para implementação ou a integração cultural.
+
+#### Wilke, Badke-Schaub e Thoring (2020) — obtido após o fecho inicial
+
+**Título e ficheiro:** *The healthcare design dilemma: Perils of a technology-driven design process for medical products*; `projecto_completo_bibliografia/the-healthcare-design-dilemma-perils-of-a-technology-driven-design-process-for-medical-products.pdf`.
+**Metadados confirmados:** Hannah Wilke, Petra Badke-Schaub e Katja Thoring; *Proceedings of the Design Society: DESIGN Conference*, 1, 2217–2226; DOI `10.1017/dsd.2020.133`; dez páginas. A entrada bibliográfica do manuscrito omite a publicação, o volume, as páginas e o DOI.
+**Páginas e secções:** páginas 1–2/2217–2218, resumo, introdução e enquadramento; páginas 7–9/2223–2225, «Key findings» e «Discussion».
+**Excertos exactos:**
+
+> “technology-driven instead of user-centred”
+
+> “did not allow user access for the design team”
+
+> “a practical mismatch between user-centred design processes [...] and design practice”
+
+**Avaliação:** **dois pares confrontados; suporte parcial em ambos**. C2.2-02 é directamente sustentado quanto à assimetria entre um processo orientado pela tecnologia e a prática centrada no utilizador, à separação entre *design*, investigação UX e gestão do produto e à participação limitada dos *designers*. O manuscrito generaliza, porém, um estudo de caso de uma única empresa para «muitos dispositivos médicos» e acrescenta requisitos regulatórios e consequências de ergonomia e integração quotidiana que o estudo não demonstra. Em C2.2-10, a fonte sustenta a tensão entre UCD teórico e prática organizacional e a concentração de investigação e requisitos nas equipas de UX e gestão do produto; não atribui o problema a regulamentação altamente estruturada nem a concentração de poder em profissionais clínicos.
+
+#### Millet, Abi Akle e Legardeur (2018) — obtido após o fecho inicial
+
+**Título e ficheiro:** *Human centred criteria for healthcare design*; `projecto_completo_bibliografia/HUMAN CENTRED CRITERIA FOR HEALTHCARE DESIGN.pdf`.
+**Metadados confirmados:** Antoine Millet, Audrey Abi Akle e Jérémy Legardeur; 25.º Colóquio das Ciências da Concepção e da Inovação, CONFERE’18, Budapeste, 5–6 de Julho de 2018; HAL `hal-01938985`; dez páginas, incluindo a capa HAL. A entrada bibliográfica deve identificar a conferência e o registo HAL e normalizar o apelido composto «Abi Akle».
+**Páginas e secções:** página 2 do PDF, resumo e introdução; páginas 4–6, critérios HCD e métodos de avaliação; páginas 7–8, «Health criteria for design process» e conclusão.
+**Excertos exactos:**
+
+> “Directives and standards require to integrate human factors”
+
+> “reduce risks of misuses”
+
+> “interviews or think-aloud method”
+
+**Avaliação:** **dois pares confrontados; um directo e um parcial**. C2.2-07 é parcial: a fonte sustenta HCD, observação da experiência, testes com utilizadores, entrevistas, *think-aloud*, iteração e a aplicação da NF EN 62366-1, mas não etnografia, *journey maps*, mapeamento de *stakeholders*, a distinção entre avaliação formativa e final ou uma estrutura cultural, contextual e sistémica. C2.2-08 tem suporte directo: o artigo relaciona explicitamente directivas, normas, factores humanos, segurança, usabilidade e redução dos riscos de uso inadequado.
+
+#### Chapman, Allen e Kendall (2025) — texto integral obtido após o fecho inicial
+
+**Título e captura:** *Methods for Co-designing Health Communication Initiatives with People with Disability: A Scoping Review*; `projecto_completo_bibliografia/chapman_et_al_2025_fulltext_web_snapshot.md`, com método e proveniência em `projecto_completo_bibliografia/chapman_et_al_2025_fulltext_web_snapshot_README.md`.
+**Metadados confirmados:** Kelsey Chapman, Connie Allen e Elizabeth Kendall; *Journal of Health Communication*, 30(1–3), 120–132; DOI `10.1080/10810730.2025.2462679`; artigo de acesso aberto sob CC BY 4.0. A bibliografia do manuscrito indica incorrectamente *Health Communication* e omite volume, número e páginas.
+**Limitação do suporte local:** a descarga directa do PDF editorial foi bloqueada pelo mecanismo de protecção do editor. A extracção textual integral do PDF preserva o conteúdo e os marcadores da paginação impressa, mas não substitui o ficheiro PDF original.
+**Páginas e secções:** página impressa 120, resumo e introdução; páginas 125–127, resultados; páginas 128–129, «Improving Rigor and Consistency» e conclusão.
+**Excertos exactos:**
+
+> “a participatory process that involves collaboration”
+
+> “Improved transparency and consistency in reporting co-design processes”
+
+> “decision-making power and methodological detail”
+
+> “adapted from PRISMA”
+
+**Avaliação:** **quatro pares confrontados; suporte parcial em todos**. C2.2-09 é parcial: o artigo sustenta colaboração activa, inclusão em diferentes fases, oficinas e testes, mas mostra que a maioria dos estudos não integrou pessoas com deficiência no desenho da própria investigação; a sequência geral problema–solução–protótipo do manuscrito é demasiado uniforme. A primeira associação de C2.2-10 é fortemente sustentada quanto à transparência, consistência, rigor e centralidade da experiência, mas a fonte é uma revisão de âmbito, não uma revisão sistemática, e não demonstra uma evolução histórica geral de UCD para cocriação. A segunda associação sustenta estruturas decisórias pouco claras e a necessidade de explicitar o poder, mas não contextos regulatórios de dispositivos médicos nem concentração em profissionais clínicos e equipas técnicas. C2.2-14 é parcial: a fonte usa um fluxograma adaptado de PRISMA para documentar a selecção, mas adopta o quadro de Arksey e O’Malley para a revisão de âmbito e não aplica instrumentos de avaliação crítica.
 
 ### 4.15–4.21 Referências não localizadas da Secção 2.3
 
@@ -3416,7 +3479,7 @@ O Anexo C não contém citações autor–ano a *papers*. Contém quatro atribui
 9. **Corrigir a autoria da entrada de Chainando et al.** Os coautores indicados na bibliografia não correspondem aos autores apresentados no PDF local.
 10. **Retirar Lim et al. da afirmação sobre FEM e geração algorítmica.** O estudo sustenta a parametrização independente e a comparação com escala uniforme, mas não utiliza FEM nem algoritmos generativos.
 11. **Conservar a atribuição da Figura 2.4 a Manero et al.** A imagem corresponde directamente à Figura 5 do artigo.
-12. **Obter os setenta e nove *papers* ainda sem texto integral.** Sem esses textos não é possível validar 247 pares afirmação–fonte. Os artigos de Walker e Segura estão agora disponíveis; os dois pares anteriores de Walker no Capítulo 2 ainda não foram reavaliados. Em Segura, a linha 339 é incompatível com o conteúdo do artigo e as caracterizações das linhas 289, 301, 315, 755 e 787 devem ser delimitadas ao apoio efectivamente encontrado.
+12. **Obter os setenta e cinco *papers* ainda sem texto integral.** Sem esses textos não é possível validar 234 pares afirmação–fonte. Shah e Robinson, Wilke et al., Millet et al. e Chapman et al. estão agora disponíveis e permitiram confrontar treze pares adicionais: um tem suporte directo, onze têm suporte parcial e um é incompatível. Deve ainda eliminar-se a duplicação de Shah e Robinson na linha 419 e restringir-se a utilização de Chapman et al. na linha 425 à transparência do processo de selecção, uma vez que o artigo apresenta uma revisão de âmbito e não uma avaliação crítica da qualidade dos estudos.
 13. **Uniformizar o ano de Smail et al.** O PDF e o Mendeley indicam a edição de 2021; o manuscrito usa 2020, correspondente à disponibilização antecipada e ao ano incorporado no DOI.
 14. **Delimitar a caracterização do ecossistema aberto na linha 501.** Manero et al. e Wendo et al. sustentam partilha de ficheiros, instruções e produção comunitária, mas não demonstram conjuntamente a disponibilidade geral de listas de componentes nem a oposição sistemática aos canais da indústria médica.
 15. **Rever a descrição do catálogo e-NABLE.** Wendo et al. confirma as categorias de mãos e braços e distingue accionamento pelo punho e pelo cotovelo; não sustenta literalmente toda a enumeração anatómica, a exigência de palma preservada ou a afirmação superlativa «exemplo mais influente».
@@ -3496,10 +3559,10 @@ O Anexo C não contém citações autor–ano a *papers*. Contém quatro atribui
 
 ## 9. Limites e continuação
 
-Este relatório conclui a auditoria sequencial das citações e atribuições existentes no corpo dos Capítulos 1–9, entre as linhas 223 e 1882, e nos Anexos A–D, entre as linhas 2213 e 3734. O Capítulo 9 e o Anexo C não contêm citações autor–ano a *papers*. O fecho quantitativo abrange 256 conjuntos, 463 ocorrências e 156 referências únicas; 185 dos 432 pares relativos a *papers* foram confrontados directamente e 247 permanecem pendentes por falta de 79 textos integrais.
+Este relatório conclui a auditoria sequencial das citações e atribuições existentes no corpo dos Capítulos 1–9, entre as linhas 223 e 1882, e nos Anexos A–D, entre as linhas 2213 e 3734. O Capítulo 9 e o Anexo C não contêm citações autor–ano a *papers*. O fecho quantitativo abrange 256 conjuntos, 463 ocorrências e 156 referências únicas; 198 dos 432 pares relativos a *papers* foram confrontados directamente e 234 permanecem pendentes por falta de 75 textos integrais.
 
 «Cobertura concluída» não significa que todas as referências estejam substantivamente validadas. Permanecem por obter os textos integrais indicados na Secção 4 e nas fichas de Gordon (2015) e Mistarihi (2020), por corrigir metadados e ficheiros incompatíveis, e por completar fontes normativas, institucionais e técnicas fora do âmbito texto–*paper*. Referências que aparecem apenas na bibliografia geral, sem ocorrência no corpo ou nos anexos, não foram auditadas. As dez atribuições abreviadas e Zhou et al. no Anexo A foram rastreadas fora dos totais formais para não alterar retroactivamente a convenção de contagem; a Secção C.11 também não foi transformada em identidades que o manuscrito não fornece.
 
-A autenticação da aplicação Mendeley MCP foi renovada em 16 de Julho de 2026. As pesquisas finais de Alili, Colombo, Silva, Romero e das fontes novas do Anexo A foram repetidas nos 514 registos remotos devolvidos pela API. A repetição confirmou apenas o registo de Romero com anexo. Os textos integrais de Fink e Diamond e de Segura et al. foram obtidos posteriormente por via local, elevando os totais para 185 pares confrontados e reduzindo os pendentes para 247.
+A autenticação da aplicação Mendeley MCP foi renovada em 16 de Julho de 2026. As pesquisas finais de Alili, Colombo, Silva, Romero e das fontes novas do Anexo A foram repetidas nos 514 registos remotos devolvidos pela API. A repetição confirmou apenas o registo de Romero com anexo. Os textos integrais de Fink e Diamond, Segura et al., Shah e Robinson, Wilke et al. e Millet et al. foram obtidos posteriormente por via local; Chapman et al. foi confrontado através de uma extracção textual integral do PDF editorial de acesso aberto. Estes acréscimos elevaram o total para 198 pares confrontados e reduziram os pendentes para 234.
 
-Os metadados bibliográficos de Fink e Diamond foram posteriormente sincronizados no Markdown e no DOCX, e o PDF canónico foi regenerado. A entrada bibliográfica de Segura et al. já estava correcta e não exigiu alteração. O texto das treze passagens auditadas das duas fontes não foi alterado nestas actualizações da auditoria.
+Os metadados bibliográficos de Fink e Diamond foram posteriormente sincronizados no Markdown e no DOCX, e o PDF canónico foi regenerado. A entrada bibliográfica de Segura et al. já estava correcta e não exigiu alteração. As lacunas detectadas nas entradas de Shah e Robinson, Wilke et al., Millet et al. e Chapman et al. ficaram registadas neste relatório, sem alteração automática do manuscrito. O texto das 26 passagens auditadas das seis fontes obtidas após o fecho inicial não foi alterado nestas actualizações da auditoria.
