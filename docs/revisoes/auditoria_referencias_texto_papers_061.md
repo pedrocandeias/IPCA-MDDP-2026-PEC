@@ -29,9 +29,9 @@ No fecho inicial dos Capítulos 7–9, a credencial da API Mendeley tinha expira
 | Conjuntos de citações ou atribuições no texto | 256 | 211 no corpo, 37 no Anexo A, dois no B, quatro no C e dois no D; as atribuições abreviadas e a fonte anónima de A são rastreadas separadamente |
 | Ocorrências afirmação–fonte | 463 | 432 pares relativos a *papers*, treze ocorrências de documentos académicos não classificados como *papers*, seis normativas e doze técnicas/institucionais |
 | Referências únicas citadas | 156 | 138 *papers*, quatro documentos académicos não classificados como *papers*, quatro fontes normativas e dez técnicas/institucionais |
-| *Papers* com texto integral obtido | 57 de 138 | O Anexo D acrescenta Hsueh et al. e Martins et al.; Zhou et al. foi identificado fora da contagem formal |
-| Pares afirmação–fonte confrontados directamente com o PDF | 172 | 136 no corpo, 32 no Anexo A e quatro no Anexo D |
-| Pares afirmação–fonte pendentes por ausência do *paper* | 260 | Oitenta e uma referências únicas continuam sem texto integral; o Anexo A acrescenta cinco pares de Mistarihi |
+| *Papers* com texto integral obtido | 58 de 138 | Fink e Diamond foi obtido após o fecho inicial; o Anexo D acrescenta Hsueh et al. e Martins et al.; Zhou et al. foi identificado fora da contagem formal |
+| Pares afirmação–fonte confrontados directamente com o PDF | 178 | 142 no corpo, 32 no Anexo A e quatro no Anexo D |
+| Pares afirmação–fonte pendentes por ausência do *paper* | 254 | Oitenta referências únicas continuam sem texto integral; o Anexo A acrescenta cinco pares de Mistarihi |
 | Ocorrências de outros documentos académicos | 13 | Moreo soma três ocorrências no anexo; Gordon (1989) soma três ocorrências com suporte local apenas parcial; Gordon (2015) soma uma ocorrência sem relatório local |
 | Ocorrências de fonte normativa, técnica ou institucional fora do âmbito texto–*paper* | 18 | Seis normativas e doze técnicas/institucionais; os Anexos B e C acrescentam, respectivamente, duas normativas e quatro atribuições técnicas |
 
@@ -39,17 +39,17 @@ No fecho inicial dos Capítulos 7–9, a credencial da API Mendeley tinha expira
 
 | Âmbito | Conjuntos | Ocorrências totais | Pares de *papers* | Pares confrontados | Pares pendentes |
 | --- | ---: | ---: | ---: | ---: | ---: |
-| Capítulos 1–4 | 172 | 333 | 318 | 107 | 211 |
+| Capítulos 1–4 | 172 | 333 | 318 | 112 | 206 |
 | Capítulo 5 | 17 | 28 | 26 | 8 | 18 |
 | Capítulo 6 | 7 | 14 | 14 | 10 | 4 |
 | Capítulo 7 | 6 | 12 | 12 | 4 | 8 |
-| Capítulo 8 | 9 | 21 | 21 | 7 | 14 |
+| Capítulo 8 | 9 | 21 | 21 | 8 | 13 |
 | Capítulo 9 | 0 | 0 | 0 | 0 | 0 |
 | Anexo A | 37 | 45 | 37 | 32 | 5 |
 | Anexo B | 2 | 2 | 0 | 0 | 0 |
 | Anexo C | 4 | 4 | 0 | 0 | 0 |
 | Anexo D | 2 | 4 | 4 | 4 | 0 |
-| **Acumulado** | **256** | **463** | **432** | **172** | **260** |
+| **Acumulado** | **256** | **463** | **432** | **178** | **254** |
 
 As duas ocorrências não-*paper* do Capítulo 5 são Mendenhall (2020) e `daprice` (n.d.), tratadas separadamente na Secção 5. Todos os pares dos Capítulos 6–8 correspondem a *papers*. A Tabela 8.4, de fonte própria, foi verificada documentalmente mas não foi contabilizada como par texto–*paper*. No Anexo A, as 45 ocorrências formais repartem-se por 37 pares de *papers*, sete ocorrências de dissertações ou relatórios e uma ocorrência institucional DINED. O Anexo B acrescenta duas normativas W3C, o Anexo C quatro atribuições técnicas e o Anexo D quatro pares de *papers*, todos confrontados directamente.
 
@@ -60,7 +60,7 @@ Quando uma referência reaparece num capítulo posterior, o novo conjunto de lin
 | Referência | Linhas no manuscrito | PDF local | Mendeley | Avaliação neste lote |
 |---|---|---|---|---|
 | Manero et al. (2019) | 231–237, 469–475, 501 | Sim | Registo e ficheiro integral | Figura 1.1 não localizada; Figura 2.4 reproduzida correctamente; suporte parcial para a caracterização do ecossistema aberto |
-| Fink e Diamond (2023) | 289, 301, 307, 327, 341 | Não | Sem correspondência | Não localizado; cinco pares pendentes |
+| Fink e Diamond (2023) | 289, 301, 307, 327, 341 | Sim | Sem correspondência | Cinco pares confrontados; suporte parcial, com ampliações não demonstradas sobre definição clínica, próteses passivas, *feedback* proprioceptivo, equipa multidisciplinar e resultados comparativos |
 | Segura et al. (2024) | 289, 301, 315, 339, 755, 787 | Não | Sem correspondência | Não localizado; seis pares pendentes |
 | Brack e Amalu (2021) | 297 | Sim | Registo e ficheiro integral | Suporte parcial; hierarquia classificativa alterada no texto |
 | Engdahl et al. (2024) | 307, 311 | Não | Sem correspondência | Não localizado; dois pares pendentes |
@@ -225,7 +225,7 @@ Quando uma referência reaparece num capítulo posterior, o novo conjunto de lin
 | Silva et al. (2018) | 1577, 1583 | Sim | Cinco registos duplicados no índice local; sem correspondência remota exacta na API renovada | Suporte directo; Figura 7.1 corresponde à Figura 4, recortada |
 | Romero et al. (2025) | 1692, 1698 | Sim | API: registo `c6915703-37b3-3116-904a-c679c4fc98ca` com anexo; cinco duplicados no índice local | Suporte directo; Figura 8.4 corresponde à Figura 10, recortada |
 | Biddiss et al. (2007) | 1808 | Sim | Registo e ficheiro integral | Suporte parcial para factores de utilização e prioridades; não demonstra isoladamente causalidade de abandono |
-| Fink e Diamond (2023) | 1808 | Não | Sem correspondência | Uma nova ocorrência pendente; seis acumuladas |
+| Fink e Diamond (2023) | 1808 | Sim | Sem correspondência | Suporte parcial para não utilização, ajuste, controlo, peso, reparação e estética; não demonstra que toda a enumeração cause abandono |
 | Smail et al. (2020 no manuscrito) | 1808 | Sim | Registo e ficheiro integral, ano 2021 | Suporte directo para abandono associado a conforto, peso e função; manutenção e estética não constam do excerto principal |
 | Chadwell et al. (2020) | 1820 | Não | Sem correspondência | Uma nova ocorrência pendente; seis acumuladas |
 | Samuelsson et al. (2012) | 1820 | Não | Sem correspondência | Uma nova ocorrência pendente; sete acumuladas |
@@ -1886,7 +1886,15 @@ O ficheiro visual está correctamente atribuído no manuscrito, mas o PDF de sup
 
 > “Weight, temperature and perspiration were among the most common and persistent comfort-related reasons for abandonment.”
 
-**Avaliação:** **Smail oferece suporte directo para conforto, peso, função e abandono; Biddiss oferece suporte parcial para as prioridades de peso, conforto, função e controlo**. Biddiss mede prioridades e satisfação, não demonstra isoladamente uma relação causal com utilização descontínua. Os excertos localizados não sustentam toda a enumeração de manutenção, ajuste inadequado e insatisfação estética. Fink e Diamond permanece sem texto integral.
+**Fink e Diamond — título e ficheiro:** *Prosthesis Options and Management in Upper Extremity Amputation*; `projecto_completo_bibliografia/Prosthesis Options and Management in Upper.pdf`.
+**Fink e Diamond — página e secção:** páginas 1–2 do PDF, «Introduction» e descrição das opções protésicas; página 6, «The Importance of the Prosthetic Treatment Plan».
+**Excertos exactos:**
+
+> “Not using a prosthesis is always a consideration either because it is too difficult or painful to use”
+
+> “the most crucial factor continues to be socket fit.”
+
+**Avaliação:** **Smail oferece suporte directo para conforto, peso, função e abandono; Biddiss oferece suporte parcial para as prioridades de peso, conforto, função e controlo; Fink e Diamond oferece suporte parcial para não utilização, dor, ajuste do encaixe, controlo, peso, reparabilidade e estética**. Biddiss mede prioridades e satisfação, não demonstra isoladamente uma relação causal com utilização descontínua. Fink e Diamond apresenta esses elementos como factores de selecção, características técnicas ou condições do plano protésico, mas não demonstra que manutenção, ajuste e insatisfação estética constituam, em conjunto, causas de abandono. A enumeração da dissertação continua demasiado abrangente.
 
 ### 3.72 Marinelli et al. (2023) — nova localização na Tabela 8.8
 
@@ -1972,9 +1980,9 @@ O ficheiro visual está correctamente atribuído no manuscrito, mas o PDF de sup
 
 ## 4. *Papers* citados sem texto integral consultado
 
-Em todas as entradas seguintes, a pesquisa abrangeu `projecto_completo_bibliografia/`, `material/` e 514 registos Mendeley. Salvo indicação expressa, não foi encontrada correspondência pelo título completo nem pela combinação autor–ano. Por isso, não existe excerto de *paper* e a avaliação substantiva permanece pendente. Os metadados bibliográficos e o estado de um anexo não consultado não foram tratados como prova do conteúdo.
+Em todas as entradas seguintes, a pesquisa abrangeu `projecto_completo_bibliografia/`, `material/` e 514 registos Mendeley. Salvo indicação expressa, não foi encontrada correspondência pelo título completo nem pela combinação autor–ano. Por isso, não existe excerto de *paper* e a avaliação substantiva permanece pendente. Os metadados bibliográficos e o estado de um anexo não consultado não foram tratados como prova do conteúdo. A entrada 4.1 conserva o registo da pesquisa inicial, mas o artigo foi obtido e confrontado após esse fecho; as restantes entradas continuam sem texto integral.
 
-### 4.1 Fink e Diamond (2023)
+### 4.1 Fink e Diamond (2023) — obtido após o fecho inicial
 
 **Título indicado na bibliografia:** *Prosthesis options and management in upper extremity amputation*
 **Localizações:** linhas 289, 301, 307, 327 e 341.
@@ -1992,10 +2000,23 @@ Em todas as entradas seguintes, a pesquisa abrangeu `projecto_completo_bibliogra
 
 > Ainda assim, quando o dispositivo está adequadamente prescrito, ajustado e acompanhado, a utilização continuada de prótese tende a associar-se a maior independência funcional e a melhores indicadores de participação e de qualidade de vida do que a não utilização.
 
-**Pesquisa local:** PDF local não localizado.
-**Mendeley:** zero correspondências para o título completo e para `Fink Diamond 2023`; sem ID ou metadados Mendeley; disponibilidade de ficheiro integral não aplicável.
-**Página, secção e excerto do *paper*:** não disponíveis.
-**Avaliação:** **não localizado; cinco pares afirmação–fonte por verificar**.
+**Título completo do *paper*:** *Prosthesis Options and Management in Upper Extremity Amputation*.
+**Nome exacto do PDF:** `Prosthesis Options and Management in Upper.pdf`.
+**Caminho local:** `projecto_completo_bibliografia/Prosthesis Options and Management in Upper.pdf`.
+**Metadados confirmados no PDF:** Christopher Fink e Yoni Diamond; *Operative Techniques in Orthopaedics*, 33(3), artigo 101061; DOI `10.1016/j.oto.2023.101061`; seis páginas.
+**Página e secção:** página 1, resumo e «Introduction»; páginas 1–2, tipologias e opções protésicas; páginas 3–4, componentes e controlo por cabos; página 6, «The Importance of the Prosthetic Treatment Plan».
+
+**Excertos exactos do *paper*:**
+
+> “offering diverse solutions to restore functionality and enhance the quality of life for amputees.”
+
+> “Passive restorative prostheses are designed to replicate the missing part of the body.”
+
+> “Body-powered prostheses rely on the patient’s motion and energy to operate the device.”
+
+**Pesquisa local:** o PDF não estava presente no fecho inicial; foi posteriormente colocado em `projecto_completo_bibliografia/` e existe uma cópia binariamente idêntica em `material/amputacao/`.
+**Mendeley:** mantém-se o resultado de zero correspondências para o título completo e para `Fink Diamond 2023`; a verificação substantiva passou a basear-se no PDF editorial local.
+**Avaliação:** **cinco pares confrontados; suporte parcial em todos**. Na linha 289, o artigo sustenta a recuperação funcional, as actividades quotidianas, a qualidade de vida e benefícios psicossociais, mas não formula a definição completa de «dispositivo médico externo» nem menciona deficiência congénita. Na linha 301, sustenta aparência, imobilidade, oposição estável, preensão ligeira e variantes passivas mecânicas, mas não sustenta explicitamente leveza, silêncio, pouca manutenção ou preferência por discrição. Na linha 307, confirma arnês, cabos, movimento corporal, força aplicada, durabilidade, reparabilidade, custo e menor variedade de preensões, mas não menciona *feedback* proprioceptivo, desconforto do arnês, esforço contínuo ou aprendizagem motora específica. Na linha 327, enumera factores físicos, funcionais, ocupacionais, cognitivos, económicos e estéticos e destaca a colaboração do técnico de ortoprotesia, mas não descreve a equipa multidisciplinar completa indicada na dissertação. Na linha 341, admite a não utilização por dificuldade, dor ou ausência de necessidade e salienta ajuste, controlo e correspondência entre pessoa e tecnologia, mas não compara utilizadores com não utilizadores quanto a independência, participação ou qualidade de vida.
 
 ### 4.2 Segura et al. (2024)
 
@@ -2718,7 +2739,7 @@ Sem estes quatro textos integrais não existe uma zona de *paper* que possa ser 
 
 | Referência | Título indicado na bibliografia | Nova localização | Pesquisa local e Mendeley | Avaliação |
 | --- | --- | --- | --- | --- |
-| Fink e Diamond (2023) | *Prosthesis options and management in upper extremity amputation* | 1808 | PDF não localizado; zero correspondências nos 514 registos | Um par novo pendente; seis acumulados |
+| Fink e Diamond (2023) | *Prosthesis options and management in upper extremity amputation* | 1808 | PDF editorial local, seis páginas; zero correspondências nos 514 registos | Par confrontado; suporte parcial, sem demonstração causal de toda a enumeração de abandono |
 | Chadwell et al. (2020) | *Technology for monitoring everyday prosthesis use: A systematic review* | 1820 | PDF não localizado; zero correspondências nos 514 registos | Um par novo pendente; seis acumulados |
 | Samuelsson et al. (2012) | *Effects of lower limb prosthesis on activity, participation, and quality of life: A systematic review* | 1820 | PDF não localizado; zero correspondências nos 514 registos | Um par novo pendente; sete acumulados; trata membro inferior |
 | Windrich et al. (2016) | *Active lower limb prosthetics: A systematic review of design issues and solutions* | 1820 | PDF não localizado; zero correspondências nos 514 registos | Um par novo pendente; quatro acumulados; trata membro inferior |
@@ -2733,7 +2754,7 @@ Sem estes quatro textos integrais não existe uma zona de *paper* que possa ser 
 | Hafner e Sawers (2016) | *Issues affecting the level of prosthetics research evidence: Secondary analysis of a systematic review* | 1825 | PDF não localizado; zero correspondências nos 514 registos | Um par novo pendente; quatro acumulados |
 | Richardson e Dillon (2017), segunda associação | mesmo título | 1825 | mesmo estado | A associação à insuficiência de participação e métodos qualitativos exige confronto separado do par sobre encaixe e conforto |
 
-Os catorze pares permanecem sem excerto primário. Sete das catorze ocorrências novas usam explicitamente fontes sobre membro inferior — Samuelsson, Windrich, Manz, Alluhydan, as duas associações de Richardson e Dillon e Domínguez-Ruiz — numa dissertação de membro superior. A transferência pode ser justificável para conceitos gerais, mas deve ser demonstrada fonte a fonte e não presumida. A Tabela 8.8 contém formulações prudentes, embora a ausência dos textos impeça confirmar que cada referência trata exactamente prova de conceito, desalinhamento de métricas, ajuste, controlo, acesso ou participação.
+Treze pares permanecem sem excerto primário. Sete das treze ocorrências pendentes usam explicitamente fontes sobre membro inferior — Samuelsson, Windrich, Manz, Alluhydan, as duas associações de Richardson e Dillon e Domínguez-Ruiz — numa dissertação de membro superior. A transferência pode ser justificável para conceitos gerais, mas deve ser demonstrada fonte a fonte e não presumida. A Tabela 8.8 contém formulações prudentes, embora a ausência dos textos impeça confirmar que cada referência trata exactamente prova de conceito, desalinhamento de métricas, ajuste, controlo, acesso ou participação.
 
 ## 5. Fontes normativas, técnicas e institucionais fora do âmbito texto–*paper*
 
@@ -3407,9 +3428,9 @@ O Anexo C não contém citações autor–ano a *papers*. Contém quatro atribui
 69. **Conservar a atribuição da Figura 7.1 com a delimitação existente.** A imagem corresponde à Figura 4 de Silva et al. e sustenta ajuste, activação, conforto e tarefas; deve continuar explícito que se trata de um estudo de caso com uma criança e não de avaliação realizada nesta dissertação.
 70. **Conservar a atribuição da Figura 8.4.** A imagem corresponde directamente à Figura 10 de Romero et al. e apresenta cinco tarefas BAM-ULA; «Reproduzido de» está correcto.
 71. **Precisar a rastreabilidade da Tabela 8.4.** Os cinco primeiros textos são literais, com normalização de unidades; os últimos três são reconstruções fiéis de cenários e valores, mas não foram localizados como pedidos brutos integrais. Usar «Descrições dos cenários» ou arquivar e citar os pedidos exactos.
-72. **Obter os treze *papers* responsáveis pelos catorze pares pendentes do Capítulo 8.** Fink e Diamond, Chadwell, Samuelsson, Windrich, Cordella, Manz, Alluhydan, Baldock, Richardson e Dillon, Domínguez-Ruiz, Baumann e Maria, Segura e Hafner e Sawers permanecem sem confronto directo.
+72. **Obter os doze *papers* responsáveis pelos treze pares pendentes do Capítulo 8.** Chadwell, Samuelsson, Windrich, Cordella, Manz, Alluhydan, Baldock, Richardson e Dillon, Domínguez-Ruiz, Baumann e Maria, Segura e Hafner e Sawers permanecem sem confronto directo. Fink e Diamond foi entretanto obtido e confrontado.
 73. **Rever as transferências de membro inferior na Tabela 8.8.** Sete associações pendentes do Capítulo 8 usam fontes explicitamente centradas no membro inferior; cada generalização para membro superior necessita de justificação conceptual ou de substituição por literatura específica.
-74. **Delimitar a enumeração da linha 1808.** Smail sustenta abandono, conforto, peso e função; Biddiss sustenta prioridades de conforto, peso, função e controlo, mas não causalidade de abandono. Ajuste, manutenção e estética exigem confirmação adicional, incluindo Fink e Diamond.
+74. **Delimitar a enumeração da linha 1808.** Smail sustenta abandono, conforto, peso e função; Biddiss sustenta prioridades de conforto, peso, função e controlo, mas não causalidade de abandono. Fink e Diamond sustenta não utilização por dificuldade ou dor e trata ajuste, controlo, peso, reparabilidade e estética como características ou factores do plano protésico; não demonstra que manutenção, ajuste e insatisfação estética sejam causas de abandono.
 75. **Reconciliar e deduplicar os registos Mendeley de Silva e Romero.** O índice local contém cinco entradas de cada artigo. A API renovada não devolveu Silva por título, mas confirmou um registo remoto de Romero com anexo, em contraste com o estado dos cinco duplicados do índice local.
 76. **Corrigir `n=965` nas três ocorrências relativas a Moreo.** A dissertação declara explicitamente que a base KIMA continha medições de 279 crianças. Se 965 provier de outra agregação DINED, essa fonte deve ser identificada e não atribuída a Moreo.
 77. **Reescrever o contraste de protocolos da linha 2305.** Rodríguez-Vega mede desde o ponto *stylion* e Anacleto Filho desde uma linha entre os processos estilóides; nenhuma das fontes sustenta «prega do pulso» como origem da primeira medição.
@@ -3427,10 +3448,10 @@ O Anexo C não contém citações autor–ano a *papers*. Contém quatro atribui
 
 ## 9. Limites e continuação
 
-Este relatório conclui a auditoria sequencial das citações e atribuições existentes no corpo dos Capítulos 1–9, entre as linhas 223 e 1882, e nos Anexos A–D, entre as linhas 2213 e 3734. O Capítulo 9 e o Anexo C não contêm citações autor–ano a *papers*. O fecho quantitativo abrange 256 conjuntos, 463 ocorrências e 156 referências únicas; 172 dos 432 pares relativos a *papers* foram confrontados directamente e 260 permanecem pendentes por falta de 81 textos integrais.
+Este relatório conclui a auditoria sequencial das citações e atribuições existentes no corpo dos Capítulos 1–9, entre as linhas 223 e 1882, e nos Anexos A–D, entre as linhas 2213 e 3734. O Capítulo 9 e o Anexo C não contêm citações autor–ano a *papers*. O fecho quantitativo abrange 256 conjuntos, 463 ocorrências e 156 referências únicas; 178 dos 432 pares relativos a *papers* foram confrontados directamente e 254 permanecem pendentes por falta de 80 textos integrais.
 
 «Cobertura concluída» não significa que todas as referências estejam substantivamente validadas. Permanecem por obter os textos integrais indicados na Secção 4 e nas fichas de Gordon (2015) e Mistarihi (2020), por corrigir metadados e ficheiros incompatíveis, e por completar fontes normativas, institucionais e técnicas fora do âmbito texto–*paper*. Referências que aparecem apenas na bibliografia geral, sem ocorrência no corpo ou nos anexos, não foram auditadas. As dez atribuições abreviadas e Zhou et al. no Anexo A foram rastreadas fora dos totais formais para não alterar retroactivamente a convenção de contagem; a Secção C.11 também não foi transformada em identidades que o manuscrito não fornece.
 
-A autenticação da aplicação Mendeley MCP foi renovada em 16 de Julho de 2026. As pesquisas finais de Alili, Colombo, Silva, Romero e das fontes novas do Anexo A foram repetidas nos 514 registos remotos devolvidos pela API. A repetição confirmou apenas o registo de Romero com anexo e não acrescentou textos integrais às fontes pendentes; por esse motivo, mantêm-se os totais de 172 pares confrontados e 260 pendentes.
+A autenticação da aplicação Mendeley MCP foi renovada em 16 de Julho de 2026. As pesquisas finais de Alili, Colombo, Silva, Romero e das fontes novas do Anexo A foram repetidas nos 514 registos remotos devolvidos pela API. A repetição confirmou apenas o registo de Romero com anexo. O texto integral de Fink e Diamond foi obtido posteriormente por via local, elevando os totais para 178 pares confrontados e reduzindo os pendentes para 254.
 
-Não foram alterados o manuscrito Markdown, o DOCX, o PDF canónico ou o `CHANGELOG.md` durante esta auditoria.
+Os metadados bibliográficos de Fink e Diamond foram posteriormente sincronizados no Markdown e no DOCX, e o PDF canónico foi regenerado. O texto das seis passagens auditadas não foi alterado nesta actualização da auditoria.

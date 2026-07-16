@@ -1,6 +1,6 @@
 Projecto completo
 
-Versão do documento: 0.4.61
+Versão do documento: 0.4.62
 
 ## INTEGRAÇÃO DO *DESIGN* E DA INTELIGÊNCIA ARTIFICIAL EM PROCESSOS PARAMÉTRICOS PARA O DESENVOLVIMENTO DE PRÓTESES DE MEMBROS SUPERIORES EM IMPRESSÃO 3D.
 
@@ -1982,7 +1982,7 @@ Por fim, a integração de novas regiões corporais deve começar pela definiç�
 
 <a id="ref-figoli-2022"></a> Figoli, F. A., Mattioli, F., & Rampino, L. (2022). AI in design idea development: A workshop on creativity and human-AI collaboration. https://dl.designresearchsociety.org/cgi/viewcontent.cgi?article=2915&context=drs-conference-papers
 
-<a id="ref-fink-2023"></a> Fink, C., & Diamond, Y. (2023). Prosthesis options and management in upper extremity amputation. https://www.semanticscholar.org/paper/3532a770446eb6144ef25a6b0162d1f98b61e0ff
+<a id="ref-fink-2023"></a> Fink, C., & Diamond, Y. (2023). Prosthesis options and management in upper extremity amputation. Operative Techniques in Orthopaedics, 33(3), 101061. https://doi.org/10.1016/j.oto.2023.101061
 
 <a id="ref-fischer-2017"></a> Fischer, G., Fogli, D., & Piccinno, A. (2017). Revisiting and broadening the meta-design framework for end-user development.
 

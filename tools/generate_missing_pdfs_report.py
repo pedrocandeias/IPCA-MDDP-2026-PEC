@@ -177,12 +177,23 @@ def parse_missing_sources(audit_text: str) -> tuple[list[MissingSource], Missing
         add_source(sources, reference, title, strip_markdown(" | ".join(cells[2:])))
 
     # Walker is present in the historical pending section but was later obtained
-    # and directly checked. Ghali is a book chapter, not one of the 81 papers.
+    # and directly checked. Ghali is a book chapter, not one of the 80 papers.
     walker_key = next(
         (key for key in sources if key.startswith("towards including end users in the design of prosthetic hands")),
         "",
     )
     sources.pop(walker_key, None)
+
+    # Fink and Diamond appear in the historical pending section, but the full text
+    # of article 101061 was obtained and directly checked afterwards. This list
+    # tracks whether the full text is available, which it now is.
+    fink_key = next(
+        (key for key in sources if key.startswith("prosthesis options and management in upper extremity amputation")),
+        "",
+    )
+    if not fink_key:
+        raise RuntimeError("Could not locate the Fink and Diamond entry")
+    sources.pop(fink_key)
     ghali_key = next((key for key in sources if key.startswith("constructive solid geometry")), "")
     if not ghali_key:
         raise RuntimeError("Could not locate the Ghali book-chapter entry")
@@ -198,9 +209,9 @@ def parse_missing_sources(audit_text: str) -> tuple[list[MissingSource], Missing
     )
 
     result = sorted(sources.values(), key=lambda item: normalized(item.reference))
-    if len(result) != 81:
+    if len(result) != 80:
         labels = "\n".join(f"- {item.reference}: {item.title}" for item in result)
-        raise RuntimeError(f"Expected 81 missing papers, found {len(result)}:\n{labels}")
+        raise RuntimeError(f"Expected 80 missing papers, found {len(result)}:\n{labels}")
     return result, ghali
 
 
@@ -277,13 +288,6 @@ def destination(source: MissingSource) -> tuple[str, str]:
 
 
 def short_evidence(source: MissingSource) -> str:
-    if title_key(source.title) == title_key(
-        "Prosthesis options and management in upper extremity amputation"
-    ):
-        return (
-            "Foram localizados apenas o índice e a lista de colaboradores do volume 33(3), "
-            "que confirmam o artigo 101061; o texto integral do artigo não está presente."
-        )
     evidence = " ".join(source.evidence)
     evidence_folded = evidence.casefold()
     if (
@@ -338,7 +342,7 @@ def render(sources: list[MissingSource], ghali: MissingSource, audit: Path, manu
             "",
             "## Documento académico não classificado como *paper*",
             "",
-            "A auditoria identificou ainda um capítulo de livro sem texto integral. Não integra a contagem dos 81 *papers*, mas deve ser obtido para verificar a citação correspondente.",
+            f"A auditoria identificou ainda um capítulo de livro sem texto integral. Não integra a contagem dos {len(sources)} *papers*, mas deve ser obtido para verificar a citação correspondente.",
             "",
             "| Referência | Título | DOI ou localização provável | Estado |",
             "| --- | --- | --- | --- |",
@@ -349,7 +353,7 @@ def render(sources: list[MissingSource], ghali: MissingSource, audit: Path, manu
             "- A presença de um DOI nesta lista significa apenas que foi identificado na bibliografia, na auditoria ou nos metadados do editor, de um repositório ou de um índice bibliográfico; não significa que o PDF seja de acesso aberto.",
             "- Uma ligação «Pesquisar no Crossref» é uma pesquisa pelo título e não deve ser tratada como confirmação de DOI.",
             "- Walker et al. foi retirado da lista porque o texto integral foi posteriormente obtido e confrontado. Mistarihi (2020) foi acrescentado a partir do Anexo A.",
-            "- Para Fink e Diamond (2023), os ficheiros locais `Table-of-Contents--pick-up-from-previous-is_2023_Operative-Techniques-in-Ort.pdf` e `Contributors--pick-up-from-previous-issue-_2023_Operative-Techniques-in-Orth.pdf` apenas identificam o artigo 101061; nenhum deles contém o texto integral.",
+            "- Fink e Diamond (2023) foi retirado da lista porque o texto integral do artigo 101061 foi posteriormente obtido e as seis passagens que o citam foram confrontadas directamente; a auditoria concluiu que o suporte é parcial.",
             "- Fontes normativas, páginas *web*, repositórios de código e conjuntos DINED sem PDF autónomo não são contabilizados como PDFs científicos em falta.",
             "",
             f"- SHA-256 do relatório de auditoria usado: `{sha256(audit)}`.",
