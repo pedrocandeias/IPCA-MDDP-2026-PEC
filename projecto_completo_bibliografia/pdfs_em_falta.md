@@ -112,5 +112,5 @@ A auditoria identificou ainda um capítulo de livro sem texto integral. Não int
 - Fontes normativas, páginas *web*, repositórios de código e conjuntos DINED sem PDF autónomo não são contabilizados como PDFs científicos em falta.
 
 - SHA-256 do relatório de auditoria usado: `2abf3876a38a8f1b5a6867813239e4864978171d16b9935aa3cd275a39b2db30`.
-- SHA-256 do manuscrito usado: `aac0cd6c064df8992c23530f7309038d9fb6677309b53d50e8784f6e0365ea7f`.
+- SHA-256 do manuscrito usado: `3cf5e315c89c39c1c4ce61ab3756961c007e595fe7f45922fa1bbb54616e4f73`.
 - Método de geração: `python3 tools/generate_missing_pdfs_report.py`.

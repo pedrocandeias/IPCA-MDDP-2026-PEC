@@ -1,6 +1,6 @@
 Projecto completo
 
-Versão do documento: 0.4.62
+Versão do documento: 0.4.63
 
 ## INTEGRAÇÃO DO *DESIGN* E DA INTELIGÊNCIA ARTIFICIAL EM PROCESSOS PARAMÉTRICOS PARA O DESENVOLVIMENTO DE PRÓTESES DE MEMBROS SUPERIORES EM IMPRESSÃO 3D.
 
@@ -2144,7 +2144,7 @@ Por fim, a integração de novas regiões corporais deve começar pela definiç�
 
 <a id="ref-schofer-seibel-2025"></a> Schöfer, F., & Seibel, A. (2025). Augmented design automation: Leveraging parametric designs using large language models. Proceedings of the Design Society.
 
-<a id="ref-segura-2024"></a> Segura, D., Romero, E., Abarca, V. E., & Elías, D. A. (2024). Upper limb prostheses by the level of amputation: A systematic review. Prosthesis, 6(2), 22. https://www.mdpi.com/2673-1592/6/2/22/pdf?version=1710818539
+<a id="ref-segura-2024"></a> Segura, D., Romero, E., Abarca, V. E., & Elías, D. A. (2024). Upper limb prostheses by the level of amputation: A systematic review. Prosthesis, 6(2), 22. https://doi.org/10.3390/prosthesis6020022
 
 <a id="ref-seregni-2021"></a> Seregni, F., Arlati, S., Colombo, V., Spoladore, D., Greci, L., Pedroli, E., Serino, S., Cipresso, P., Goulene, K., Stroulia, E., Rizzo, A., & Sacco, M. (2021). Virtual coaching for rehabilitation: The participatory design experience of the vCare Project.
 
