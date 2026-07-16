@@ -6,6 +6,60 @@ Versão indicada no manuscrito: 0.4.63
 Âmbito concluído: corpo dos Capítulos 1–9, linhas 223–1882, e Anexos A–D, linhas 2213–3734
 Estado: auditoria sequencial do corpo e dos Anexos A–D concluída; o Capítulo 9 e o Anexo C não contêm citações autor–ano a *papers*.
 
+## Fontes ainda sem texto integral
+
+A tabela seguinte identifica as **45 fontes citadas cujo texto integral continua em falta** após a pesquisa em `projecto_completo_bibliografia/`, `material/` e nos 514 registos consultados na biblioteca Mendeley. Esta é a situação actual da auditoria em 16 de Julho de 2026; as ligações para o Crossref são pesquisas pelo título e não correspondem a DOI confirmados.
+
+| N.º | Autor(es) e ano | Título do artigo em falta | DOI ou localização provável |
+| ---: | --- | --- | --- |
+| 1 | Abbas Alili et al. (2023), tal como aparece no manuscrito | *A novel framework to facilitate user preferred tuning for a robotic knee prosthesis* | [https://doi.org/10.1109/TNSRE.2023.3236217](https://doi.org/10.1109/TNSRE.2023.3236217) |
+| 2 | Ao, Li e Duan (2025) | *Artificial intelligence-aided design (AIAD) for structures and engineering: A state-of-the-art review and future perspectives* | [https://doi.org/10.1007/s11831-025-10264-1](https://doi.org/10.1007/s11831-025-10264-1) |
+| 3 | Bai et al. (2024) | *Human factors considerations of interaction between wearers and intelligent lower-limb prostheses: A prospective discussion* | [https://doi.org/10.1186/s12984-024-01475-x](https://doi.org/10.1186/s12984-024-01475-x) |
+| 4 | Bates et al. (2020) | *Technological advances in prosthesis design and rehabilitation following upper extremity limb loss* | [https://doi.org/10.1007/s12178-020-09656-6](https://doi.org/10.1007/s12178-020-09656-6) |
+| 5 | Baumann e Maria (2023) | *Improving access to prosthetic limbs in Germany: An explorative review* | [https://doi.org/10.1097/PXR.0000000000000254](https://doi.org/10.1097/PXR.0000000000000254) |
+| 6 | Burnap, Hauser e Timoshenko (2019) | *Design and evaluation of product aesthetics: A human-machine hybrid approach* | [Pesquisar no Crossref](https://search.crossref.org/?q=%22Design%20and%20evaluation%20of%20product%20aesthetics%3A%20A%20human-machine%20hybrid%20approach%22) |
+| 7 | Cole (2011) | *Patient-centered Design: Interface Personalization for Individuals With Brain Injury* | [Pesquisar no Crossref](https://search.crossref.org/?q=%22Patient-centered%20Design%3A%20Interface%20Personalization%20for%20Individuals%20With%20Brain%20Injury%22) |
+| 8 | Costabile et al. (2007) | *Meta-design to Face Co-evolution and Communication Gaps Between Users and Designers* | [https://doi.org/10.1007/978-3-540-73279-2_6](https://doi.org/10.1007/978-3-540-73279-2_6) |
+| 9 | Dexter et al. (2013) | *Open Design and Cystic Fibrosis: Enabling Participation in the Design Process* | [Pesquisar no Crossref](https://search.crossref.org/?q=%22Open%20Design%20and%20Cystic%20Fibrosis%3A%20Enabling%20Participation%20in%20the%20Design%20Process%22) |
+| 10 | ELhadad et al. (2026) | *LLM-based 3D model generation of MHE for OpenSCAD* | [Pesquisar no Crossref](https://search.crossref.org/?q=%22LLM-based%203D%20model%20generation%20of%20MHE%20for%20OpenSCAD%22) |
+| 11 | Engdahl et al. (2024) | *Perspectives on the comparative benefits of body-powered and myoelectric upper limb prostheses* | [https://doi.org/10.1186/s12984-024-01436-4](https://doi.org/10.1186/s12984-024-01436-4) |
+| 12 | Figoli, Mattioli e Rampino (2022) | *AI in design idea development: A workshop on creativity and human-AI collaboration* | [https://doi.org/10.21606/drs.2022.414](https://doi.org/10.21606/drs.2022.414) |
+| 13 | Fischer et al. (2017) | *Revisiting and Broadening the Meta-design Framework for End-user Development* | [https://doi.org/10.1007/978-3-319-60291-2_4](https://doi.org/10.1007/978-3-319-60291-2_4) |
+| 14 | Fisher e Johansen (2020) | *Human-centered design for medical devices and diagnostics in global health* | [https://doi.org/10.15641/ghi.v3i1.762](https://doi.org/10.15641/ghi.v3i1.762) |
+| 15 | Frangos et al. (2016) | *Democratising Design in Scientific Innovation: Application of an Open Value Network to Open Source Hardware Design* | [Pesquisar no Crossref](https://search.crossref.org/?q=%22Democratising%20Design%20in%20Scientific%20Innovation%3A%20Application%20of%20an%20Open%20Value%20Network%20to%20Open%20Source%20Hardware%20Design%22) |
+| 16 | Franke e von Hippel (2002) | *Satisfying Heterogeneous User Needs via Innovation Toolkits: The Case of Apache Security Software* | [https://doi.org/10.1016/S0048-7333(03)00049-0](https://doi.org/10.1016/S0048-7333(03)00049-0) |
+| 17 | Ghillebert et al. (2019) | *Guidelines and recommendations to investigate the efficacy of a lower-limb prosthetic device: A systematic review* | [https://doi.org/10.1109/TMRB.2019.2949855](https://doi.org/10.1109/TMRB.2019.2949855) |
+| 18 | Guo (2025) | *Human-centered design strategies for prosthetics based on user needs* | [Pesquisar no Crossref](https://search.crossref.org/?q=%22Human-centered%20design%20strategies%20for%20prosthetics%20based%20on%20user%20needs%22) |
+| 19 | Herbst et al. (2021) | *Scan-driven fully-automated pipeline for a personalized, 3D printed low-cost prosthetic hand* | [https://doi.org/10.1109/CASE49439.2021.9551649](https://doi.org/10.1109/CASE49439.2021.9551649) |
+| 20 | Howard et al. (2022) | *Assessing the Use of Co-design to Produce Bespoke Assistive Technology Solutions Within a Current Healthcare Service* | [https://doi.org/10.1080/17483107.2022.2060355](https://doi.org/10.1080/17483107.2022.2060355) |
+| 21 | Hussaini et al. (2023) | *3D Printing in LMICs: Functional Design for Upper Limb Prosthetics in Uganda* | [https://doi.org/10.3390/prosthesis5010011](https://doi.org/10.3390/prosthesis5010011) |
+| 22 | Jones et al. (2023) | *Evidencing the effectiveness of upper limb prostheses: A multi-stakeholder perspective on study requirements* | [https://doi.org/10.3389/frhs.2023.1123682](https://doi.org/10.3389/frhs.2023.1123682) |
+| 23 | Kerr et al. (2024) | *A Participatory Model for Cocreating Accessible Rehabilitation Technology for Stroke Survivors: User-centered Design Approach* | [https://doi.org/10.2196/57227](https://doi.org/10.2196/57227) |
+| 24 | Khanolkar, Vrolijk e Olechowski (2023) | *Mapping artificial intelligence-based methods to engineering design stages: A focused literature review* | [https://doi.org/10.1017/s0890060423000203](https://doi.org/10.1017/s0890060423000203) |
+| 25 | Krahe et al. (2020) | *Deep learning for automated product design* | [https://doi.org/10.5445/IR/1000127884](https://doi.org/10.5445/IR/1000127884) |
+| 26 | Kuhl et al. (2020) | *Design of Personalized Devices: The Tradeoff Between Individual Value and Personalization Workload* | [https://doi.org/10.3390/app11010241](https://doi.org/10.3390/app11010241) |
+| 27 | Mikołajewski et al. (2023) | *Personalization of the 3D-printed Upper Limb Exoskeleton Design: Mechanical and IT Aspects* | [https://doi.org/10.3390/app13127236](https://doi.org/10.3390/app13127236) |
+| 28 | Mistarihi (2020) | *A data set on anthropometric measurements and degree of discomfort of physically disabled workers for ergonomic requirements in work space design* | [https://doi.org/10.1016/j.dib.2020.105420](https://doi.org/10.1016/j.dib.2020.105420) |
+| 29 | Panchal et al. (2019) | *Special issue: Machine learning for engineering design* | [https://doi.org/10.1115/1.4044690](https://doi.org/10.1115/1.4044690) |
+| 30 | Peerdeman et al. (2011) | *Myoelectric forearm prostheses: State of the art from a user-centered perspective* | [https://doi.org/10.1682/JRRD.2010.08.0161](https://doi.org/10.1682/JRRD.2010.08.0161) |
+| 31 | Peixoto et al. (2025) | *The design process in the development of an online platform for personalizing wearable prostheses: A preliminary approach* | [https://doi.org/10.3390/designs9020039](https://doi.org/10.3390/designs9020039) |
+| 32 | Peters e Richter (2023) | *Individualizing Patient Pathways Through Modularization: Design and Evaluation of Healthcare-specific Modularization Parameters* | [Pesquisar no Crossref](https://search.crossref.org/?q=%22Individualizing%20Patient%20Pathways%20Through%20Modularization%3A%20Design%20and%20Evaluation%20of%20Healthcare-specific%20Modularization%20Parameters%22) |
+| 33 | Quintero et al. (2018) | *Intuitive clinician control interface for a powered knee-ankle prosthesis: A case study* | [https://doi.org/10.1109/JTEHM.2018.2880199](https://doi.org/10.1109/JTEHM.2018.2880199) |
+| 34 | Resnik et al. (2010) | *U.S. Food and Drug Administration regulation of prosthetic research, development, and testing* | [https://doi.org/10.1097/JPO.0b013e3181d427b7](https://doi.org/10.1097/JPO.0b013e3181d427b7) |
+| 35 | Romani e Levi (2020) | *Parametric design for online user customization of 3D printed assistive technology for rheumatic diseases* | [https://doi.org/10.1007/978-3-030-58468-9_14](https://doi.org/10.1007/978-3-030-58468-9_14) |
+| 36 | Sims et al. (2017) | *Participatory Design of Pediatric Upper Limb Prostheses: Qualitative Methods and Prototyping* | [https://doi.org/10.1017/S0266462317000836](https://doi.org/10.1017/S0266462317000836) |
+| 37 | Soyer et al. (2016) | *The importance of rehabilitation concerning upper extremity amputees: A systematic review* | [https://doi.org/10.12669/pjms.325.9922](https://doi.org/10.12669/pjms.325.9922) |
+| 38 | Story (2006) | *Applying the principles of universal design to medical devices* | [https://doi.org/10.1201/9781420006223-6](https://doi.org/10.1201/9781420006223-6) |
+| 39 | Thorsen et al. (2023) | *From Patient to Maker: A Workflow Including People With Cerebral Palsy in Co-creating Assistive Devices Using 3D Printing Technologies* | [https://doi.org/10.1080/17483107.2023.2177754](https://doi.org/10.1080/17483107.2023.2177754) |
+| 40 | Trautmann (2021) | *Product customization and generative design* | [https://doi.org/10.35925/j.multi.2021.4.10](https://doi.org/10.35925/j.multi.2021.4.10) |
+| 41 | Verganti, Vendraminelli e Iansiti (2020) | *Innovation and design in the age of artificial intelligence* | [https://doi.org/10.1111/jpim.12523](https://doi.org/10.1111/jpim.12523) |
+| 42 | Virós-i-Martin e Selva (2021) | *A framework to study human-AI collaborative design space exploration* | [https://doi.org/10.1115/DETC2021-67619](https://doi.org/10.1115/DETC2021-67619) |
+| 43 | Walters et al. (2025) | *Demystifying upper limb hybrid prostheses: A scoping review* | [https://doi.org/10.3389/fresc.2025.1610336](https://doi.org/10.3389/fresc.2025.1610336) |
+| 44 | Yao, Moon e Bi (2016) | *A cost-driven design methodology for additive manufactured variable platforms in product families* | [https://doi.org/10.1115/1.4032504](https://doi.org/10.1115/1.4032504) |
+| 45 | Yüksel et al. (2023) | *Review of artificial intelligence applications in engineering design perspective* | [https://doi.org/10.1016/j.engappai.2022.105697](https://doi.org/10.1016/j.engappai.2022.105697) |
+
+O capítulo de livro de Ghali (2008), também ainda sem texto integral, é acompanhado separadamente por não integrar a contagem dos 45 *papers*. A lista autoritativa, incluindo o estado individual de pesquisa, encontra-se em `projecto_completo_bibliografia/pdfs_em_falta.md`.
+
 ## 1. Critérios e método
 
 Foram consideradas as citações e atribuições que ocorrem no corpo do texto e nos Anexos A–D. As referências que aparecem exclusivamente na bibliografia geral foram excluídas; as duas referências normativas autónomas da lista própria do Anexo B foram incluídas. Nas citações agrupadas, cada fonte foi contada e avaliada separadamente. No Anexo A, as dez menções abreviadas a `ANSUR 1988`, `ANSUR II 2012` e `DINED` em células de tabela foram rastreadas num quadro próprio, mas não somadas como novas ocorrências formais, porque remetem para fontes já identificadas por autor–ano ou para a entrada institucional imediatamente anterior. A fonte sem autor nem ano da Secção A.5.13 foi igualmente identificada e verificada à parte, sem a converter retroactivamente numa citação formal. No Anexo C, quatro atribuições de autoria técnica foram contabilizadas; a enumeração genérica da Secção C.11 foi registada como lacuna de proveniência, mas não convertida em identidades bibliográficas inexistentes.
@@ -1978,11 +2032,11 @@ O ficheiro visual está correctamente atribuído no manuscrito, mas o PDF de sup
 | Figura 7.1 | Silva et al. (2018), Figura 4, página 6 do PDF | Mesmos dois painéis da utilizadora com a prótese; legenda removida e margens alteradas | Correspondência directa; «Reproduzido de» correcto |
 | Figura 8.4 | Romero et al. (2025), Figura 10, página 11 do PDF | Mesmos cinco painéis BAM-ULA, na mesma ordem e com as etiquetas (a)–(e); legenda removida e margens alteradas | Correspondência directa; «Reproduzido de» correcto |
 
-## 4. *Papers* citados sem texto integral consultado
+## 4. Afirmações inicialmente pendentes e estado actual das fontes
 
-Esta secção conserva o registo histórico do estado de pesquisa no fecho inicial da auditoria, incluindo as afirmações exactas que então ficaram pendentes. O estado actual encontra-se na síntese da Secção 2 e no confronto superveniente da Secção 7.5. As trinta fontes obtidas em 16 de Julho de 2026 deixaram de integrar `projecto_completo_bibliografia/pdfs_em_falta.md`; as indicações «PDF não localizado» nas tabelas históricas abaixo não devem, por isso, ser interpretadas como o estado actual desses trinta casos.
+Esta secção conserva as afirmações exactas que ficaram pendentes no fecho inicial da auditoria, mas apresenta o **estado actual** da pesquisa. As trinta fontes obtidas em 16 de Julho de 2026 estão agora identificadas como PDFs locais e remetem para o confronto detalhado da Secção 7.5. Apenas as fontes incluídas na tabela das 45 fontes em falta, no topo deste documento, permanecem assinaladas como «PDF não localizado».
 
-Em todas as entradas seguintes, a pesquisa abrangeu `projecto_completo_bibliografia/`, `material/` e 514 registos Mendeley. Salvo indicação expressa, não foi encontrada correspondência pelo título completo nem pela combinação autor–ano. Por isso, não existe excerto de *paper* e a avaliação substantiva permanece pendente. Os metadados bibliográficos e o estado de um anexo não consultado não foram tratados como prova do conteúdo. As entradas 4.1 e 4.2 conservam o registo da pesquisa inicial, mas os artigos foram obtidos e confrontados após esse fecho; as restantes entradas continuam sem texto integral.
+Em todas as entradas seguintes, a pesquisa abrangeu `projecto_completo_bibliografia/`, `material/` e 514 registos Mendeley. Quando a fonte continua ausente, não existe excerto do *paper* e a avaliação substantiva permanece pendente. Quando o PDF foi entretanto obtido, a tabela indica o resultado do confronto e a Secção 7.5 conserva a página, a zona exacta e o excerto primário. Os metadados bibliográficos e o estado de um anexo não consultado nunca foram tratados como prova do conteúdo.
 
 ### 4.1 Fink e Diamond (2023) — obtido após o fecho inicial
 
@@ -2042,7 +2096,7 @@ Em todas as entradas seguintes, a pesquisa abrangeu `projecto_completo_bibliogra
 
 > A arquitectura reduz algumas dependências de *software* no percurso examinado, mas não demonstra redução de custos ou melhoria de acesso nos contextos descritos por Andrysek (2010), Baumann e Maria (2023) e Segura et al. (2024).
 
-**Pesquisa local inicial:** PDF não localizado durante o primeiro fecho da auditoria.
+**Pesquisa local inicial:** fonte ausente durante o primeiro fecho da auditoria.
 **Ficheiro posteriormente acrescentado e confrontado:** `projecto_completo_bibliografia/prosthesis-06-00022.pdf`.
 **Metadados confirmados no PDF:** Diego Segura, Enzo Romero, Victoria E. Abarca e Dante A. Elias; *Prosthesis*, 6, 277–300; DOI `10.3390/prosthesis6020022`; 24 páginas; artigo publicado em 19 de Março de 2024 sob licença CC BY 4.0.
 **Mendeley:** mantém-se o resultado de zero correspondências para o título completo e para `Segura Romero 2024`; a verificação substantiva passou a basear-se no PDF editorial local.
@@ -2242,11 +2296,11 @@ Os trechos seguintes são copiados do manuscrito e recebem identificadores para 
 | Fisher e Johansen (2020) | *Human-centered design for medical devices and diagnostics in global health* | C2.2-02, 03, 06, 07, 11 e 15 | PDF não localizado; zero correspondências por título, autor–ano e DOI nos 514 registos | Seis pares pendentes |
 | Wilke, Badke-Schaub e Thoring (2020) | *The healthcare design dilemma: Perils of a technology-driven design process for medical products* | C2.2-02 e 10 | PDF local `projecto_completo_bibliografia/the-healthcare-design-dilemma-perils-of-a-technology-driven-design-process-for-medical-products.pdf`; zero correspondências anteriores nos 514 registos | Dois pares confrontados; suporte parcial |
 | Story (2006) | *Applying the principles of universal design to medical devices* | C2.2-04 e 05 | PDF não localizado; zero correspondências por título e autor–ano nos 514 registos | Dois pares pendentes |
-| White e Mosca (2022) | *Developing innovative solutions for universal design in healthcare and other sectors* | C2.2-05, 12 e 13 | PDF não localizado; zero correspondências por título e autor–ano nos 514 registos | Três pares pendentes |
+| White e Mosca (2022) | *Developing innovative solutions for universal design in healthcare and other sectors* | C2.2-05, 12 e 13 | PDF local validado; confronto detalhado na Secção 7.5.2 | Três pares confrontados: dois directos e um incompatível |
 | Millet, Abi Akle e Legardeur (2018) | *Human centred criteria for healthcare design* | C2.2-07 e 08 | PDF HAL local `projecto_completo_bibliografia/HUMAN CENTRED CRITERIA FOR HEALTHCARE DESIGN.pdf`; zero correspondências anteriores nos 514 registos | Dois pares confrontados; C2.2-08 directo e C2.2-07 parcial |
 | Chapman, Allen e Kendall (2025) | *Methods for co-designing health communication initiatives with people with disability: A scoping review* | C2.2-09, as duas afirmações de C2.2-10, e C2.2-14 | Extracção textual integral do PDF editorial em `projecto_completo_bibliografia/chapman_et_al_2025_fulltext_web_snapshot.md`, com proveniência adjacente; zero correspondências anteriores nos 514 registos | Quatro pares confrontados; suporte parcial |
 
-Fisher e Johansen, Story e White e Mosca continuam sem texto integral. Os quatro textos entretanto obtidos são documentados individualmente nas fichas seguintes; os metadados bibliográficos não foram usados como substituto da leitura do conteúdo.
+Fisher e Johansen e Story continuam sem texto integral. White e Mosca e os quatro textos documentados nas fichas seguintes foram obtidos e confrontados; os metadados bibliográficos não foram usados como substituto da leitura do conteúdo.
 
 #### Shah e Robinson (2006) — obtido após o fecho inicial
 
@@ -2311,7 +2365,7 @@ Fisher e Johansen, Story e White e Mosca continuam sem texto integral. Os quatro
 
 **Avaliação:** **quatro pares confrontados; suporte parcial em todos**. C2.2-09 é parcial: o artigo sustenta colaboração activa, inclusão em diferentes fases, oficinas e testes, mas mostra que a maioria dos estudos não integrou pessoas com deficiência no desenho da própria investigação; a sequência geral problema–solução–protótipo do manuscrito é demasiado uniforme. A primeira associação de C2.2-10 é fortemente sustentada quanto à transparência, consistência, rigor e centralidade da experiência, mas a fonte é uma revisão de âmbito, não uma revisão sistemática, e não demonstra uma evolução histórica geral de UCD para cocriação. A segunda associação sustenta estruturas decisórias pouco claras e a necessidade de explicitar o poder, mas não contextos regulatórios de dispositivos médicos nem concentração em profissionais clínicos e equipas técnicas. C2.2-14 é parcial: a fonte usa um fluxograma adaptado de PRISMA para documentar a selecção, mas adopta o quadro de Arksey e O’Malley para a revisão de âmbito e não aplica instrumentos de avaliação crítica.
 
-### 4.15–4.21 Referências não localizadas da Secção 2.3
+### 4.15–4.21 Referências da Secção 2.3
 
 Os trechos são copiados uma única vez e recebem identificadores para separar as fontes das citações agrupadas.
 
@@ -2385,17 +2439,17 @@ Os trechos são copiados uma única vez e recebem identificadores para separar a
 
 | Referência | Título indicado na bibliografia | Trechos associados | Pesquisa local e Mendeley | Avaliação |
 | --- | --- | --- | --- | --- |
-| Lei et al. (2016) | *An additive manufacturing process model for product family design* | C2.3-01, 03, 09, 11, 12, 13, 14 e 16 | PDF não localizado; zero correspondências por título e autor–ano nos 514 registos; DOI não indicado na bibliografia | Oito pares pendentes |
-| Ozdemir, Verlinden e Cascini (2022) | *Design methodology for mass personalisation enabled by digital manufacturing* | C2.3-01, 02, 03, 08, 10 e 15 | PDF não localizado; zero correspondências por título e autor–ano nos 514 registos; DOI não indicado na bibliografia | Seis pares pendentes |
-| Stralen (2018) | *Mass customization: A critical perspective on parametric design, digital fabrication and design democratization* | C2.3-01, 02, 08 e 09 | PDF não localizado; zero correspondências por título e autor–ano nos 514 registos; DOI não indicado na bibliografia | Quatro pares pendentes |
-| Chtioui, Gaha e Benamara (2023) | *Design for additive manufacturing: Review and framework proposal* | C2.3-04, 06 e 07 | PDF não localizado; zero correspondências por título e autor–ano nos 514 registos; DOI não indicado na bibliografia | Três pares pendentes |
-| Wiberg, Persson e Ölvander (2019) | *Design for additive manufacturing: A review of available design methods and software* | C2.3-04, 05, 06, 07 e 14 | PDF não localizado; zero correspondências por título e autor–ano nos 514 registos; DOI não indicado na bibliografia | Cinco pares pendentes |
+| Lei et al. (2016) | *An additive manufacturing process model for product family design* | C2.3-01, 03, 09, 11, 12, 13, 14 e 16 | PDF local validado; confronto detalhado na Secção 7.5.2 | Oito pares confrontados: um directo, seis parciais e um incompatível |
+| Ozdemir, Verlinden e Cascini (2022) | *Design methodology for mass personalisation enabled by digital manufacturing* | C2.3-01, 02, 03, 08, 10 e 15 | PDF local validado; confronto detalhado na Secção 7.5.2 | Seis pares confrontados: quatro directos e dois parciais |
+| Stralen (2018) | *Mass customization: A critical perspective on parametric design, digital fabrication and design democratization* | C2.3-01, 02, 08 e 09 | PDF local validado; confronto detalhado na Secção 7.5.2 | Quatro pares confrontados: um directo e três parciais |
+| Chtioui, Gaha e Benamara (2023) | *Design for additive manufacturing: Review and framework proposal* | C2.3-04, 06 e 07 | PDF local validado; confronto detalhado na Secção 7.5.2 | Três pares confrontados: dois directos e um parcial |
+| Wiberg, Persson e Ölvander (2019) | *Design for additive manufacturing: A review of available design methods and software* | C2.3-04, 05, 06, 07 e 14 | PDF local validado; confronto detalhado na Secção 7.5.2 | Cinco pares confrontados: dois directos, dois parciais e um incompatível |
 | Yao, Moon e Bi (2016) | *A cost-driven design methodology for additive manufactured variable platforms in product families* | C2.3-11, 13 e 16 | PDF não localizado; zero correspondências por título e autor–ano nos 514 registos; DOI não indicado na bibliografia | Três pares pendentes |
-| Kandikjan et al. (2022) | *Integrating parametric design and additive manufacturing knowledge in industrial design education* | C2.3-17 | PDF não localizado; zero correspondências por título e autor–ano nos 514 registos; DOI não indicado na bibliografia | Um par pendente |
+| Kandikjan et al. (2022) | *Integrating parametric design and additive manufacturing knowledge in industrial design education* | C2.3-17 | PDF local validado; confronto detalhado na Secção 7.5.2 | Um par confrontado; suporte directo |
 
-**Página, secção e excerto dos *papers*:** não disponíveis para estas sete referências. Não foram encontrados registos Mendeley; consequentemente, não existem IDs ou estados `file_attached` a registar. Os metadados bibliográficos não foram usados como prova do conteúdo.
+**Página, secção e excerto dos *papers*:** disponíveis na Secção 7.5.2 para Lei, Ozdemir, Stralen, Chtioui, Wiberg e Kandikjan. Yao, Moon e Bi (2016) continua sem texto integral.
 
-### 4.22–4.24 Referências sem texto integral consultado da Secção 2.4
+### 4.22–4.24 Referências da Secção 2.4
 
 **C2.4-01 — linha 507:**
 
@@ -2411,13 +2465,13 @@ Os trechos são copiados uma única vez e recebem identificadores para separar a
 
 | Referência | Título indicado na bibliografia | Trecho associado | Pesquisa local e Mendeley | Avaliação |
 | --- | --- | --- | --- | --- |
-| Dechev et al. (2023) | *Accessible prosthetic arms: Victoria Hand Project and the impact of 3D printing* | C2.4-01 | PDF não localizado; zero correspondências por título e autor–ano nos 514 registos | Um par pendente |
-| Diment, Thompson e Bergmann (2018) | *Three-dimensional printed upper-limb prostheses lack randomised controlled trials: A systematic review* | C2.4-02 | PDF local não localizado; registo Mendeley `5754cdf0-6cfb-3cd9-85a0-230135d0e860`, DOI `10.1177/0309364617704803`, `file_attached: true`; anexo não consultado neste lote | Um par pendente |
-| Cabibihan, Abubasha e Thakor (2021) | *Suitability of the openly accessible 3D printed prosthetic hands for war-wounded children* | C2.4-03 | PDF não localizado; zero correspondências por título, autor–ano e DOI nos 514 registos | Um par pendente |
+| Dechev et al. (2023) | *Accessible prosthetic arms: Victoria Hand Project and the impact of 3D printing* | C2.4-01 | PDF local validado; confronto detalhado na Secção 7.5.3 | Um par confrontado; suporte directo |
+| Diment, Thompson e Bergmann (2018) | *Three-dimensional printed upper-limb prostheses lack randomised controlled trials: A systematic review* | C2.4-02 | PDF local validado; confronto detalhado na Secção 7.5.3 | Um par confrontado; suporte directo |
+| Cabibihan, Abubasha e Thakor (2021) | *Suitability of the openly accessible 3D printed prosthetic hands for war-wounded children* | C2.4-03 | PDF local validado; confronto detalhado na Secção 7.5.3 | Um par confrontado; suporte directo |
 
-**Página, secção e excerto dos *papers*:** não disponíveis para estas três referências. Diment et al. possui um anexo no Mendeley, mas o seu conteúdo não foi descarregado nem usado como prova. As três avaliações substantivas permanecem pendentes.
+**Página, secção e excerto dos *papers*:** os três PDFs foram obtidos e confrontados; as páginas, as zonas exactas e os excertos encontram-se na Secção 7.5.3.
 
-### 4.25–4.29 Referências não localizadas da Secção 2.5
+### 4.25–4.29 Referências da Secção 2.5
 
 **C2.5-01 — linha 521:**
 
@@ -2453,15 +2507,15 @@ Os trechos são copiados uma única vez e recebem identificadores para separar a
 
 | Referência | Título indicado na bibliografia | Trechos associados | Pesquisa local e Mendeley | Avaliação |
 | --- | --- | --- | --- | --- |
-| Albin e Molenbroek (2023) | *Introduction to the special issue, anthropometry in design* | C2.5-01 | PDF não localizado; zero correspondências nos 514 registos Mendeley | Um par pendente |
-| Young et al. (2023) | *Advances in the measurement of prosthetic socket interface mechanics: A review of technology, techniques, and a 20-year update* | C2.5-01, 03 e 04 | PDF não localizado; zero correspondências por título, autor–ano e DOI nos 514 registos | Três pares pendentes |
-| Silva et al. (2024) | *A review on 3D scanners studies for producing customized orthoses* | C2.5-02 e 05 | PDF não localizado; zero correspondências por título, autor–ano e DOI nos 514 registos | Dois pares pendentes |
-| Çıklaçandır et al. (2022) | *Comparison of traditional, MRI, and 3D scanning anthropometric measurements in hand prosthesis design* | C2.5-06 | PDF não localizado; zero correspondências nos 514 registos Mendeley | Um par pendente |
-| Bradtmiller (2022) | *Design for all, design for disabled: How important is anthropometry?* | C2.5-07 e 08 | PDF não localizado; zero correspondências nos 514 registos Mendeley | Dois pares pendentes |
+| Albin e Molenbroek (2023) | *Introduction to the special issue, anthropometry in design* | C2.5-01 | PDF local validado; confronto detalhado na Secção 7.5.3 | Um par confrontado; suporte parcial |
+| Young et al. (2023) | *Advances in the measurement of prosthetic socket interface mechanics: A review of technology, techniques, and a 20-year update* | C2.5-01, 03 e 04 | PDF local validado; confronto detalhado na Secção 7.5.3 | Três pares confrontados: dois directos e um parcial |
+| Silva et al. (2024) | *A review on 3D scanners studies for producing customized orthoses* | C2.5-02 e 05 | PDF local validado; confronto detalhado na Secção 7.5.3 | Dois pares confrontados: um directo e um parcial |
+| Çıklaçandır et al. (2022) | *Comparison of traditional, MRI, and 3D scanning anthropometric measurements in hand prosthesis design* | C2.5-06 | PDF local validado; confronto detalhado na Secção 7.5.3 | Um par confrontado; incompatível |
+| Bradtmiller (2022) | *Design for all, design for disabled: How important is anthropometry?* | C2.5-07 e 08 | PDF local validado, mas a autoria correcta é Paul et al. (2022); confronto detalhado na Secção 7.5.3 | Dois pares confrontados: um directo e um parcial |
 
-**Página, secção e excerto dos *papers*:** não disponíveis para estas cinco referências. Os metadados bibliográficos não foram usados como prova do conteúdo.
+**Página, secção e excerto dos *papers*:** os cinco PDFs foram obtidos e confrontados; as páginas, as zonas exactas e os excertos encontram-se na Secção 7.5.3. O ficheiro atribuído a Bradtmiller identifica Paul et al. (2022), divergência bibliográfica registada nessa secção.
 
-### 4.30–4.40 Referências sem texto integral consultado da Secção 2.6
+### 4.30–4.40 Referências da Secção 2.6
 
 Os trechos seguintes reproduzem as afirmações da dissertação às quais as fontes ausentes foram associadas. Nas citações agrupadas, cada referência é contabilizada separadamente na tabela subsequente.
 
@@ -2519,8 +2573,8 @@ Os trechos seguintes reproduzem as afirmações da dissertação às quais as fo
 
 | Referência | Título indicado na bibliografia | Trechos associados | Pesquisa local e Mendeley | Avaliação |
 | --- | --- | --- | --- | --- |
-| Choudhury, Eisenbart e Kuys (2025) | *Artificial intelligence (AI) in the design process: A review and analysis on generative AI perspectives* | C2.6-01, 02, 06 e 10 | PDF não localizado; zero correspondências por título e autor–ano nos 514 registos | Quatro pares pendentes |
-| Saeidnia e Ausloos (2024) | *Integrating artificial intelligence into design thinking: A comprehensive examination of the principles and potentialities of AI for design thinking framework* | C2.6-01 e 09 | PDF não localizado; zero correspondências por título e autor–ano nos 514 registos | Dois pares pendentes |
+| Choudhury, Eisenbart e Kuys (2025) | *Artificial intelligence (AI) in the design process: A review and analysis on generative AI perspectives* | C2.6-01, 02, 06 e 10 | PDF local validado; confronto detalhado na Secção 7.5.3 | Quatro pares confrontados: três parciais e um incompatível |
+| Saeidnia e Ausloos (2024) | *Integrating artificial intelligence into design thinking: A comprehensive examination of the principles and potentialities of AI for design thinking framework* | C2.6-01 e 09 | PDF local validado; confronto detalhado na Secção 7.5.3 | Dois pares confrontados: um directo e um parcial |
 | Yüksel et al. (2023) | *Review of artificial intelligence applications in engineering design perspective* | C2.6-01, 02, 05 e 12 | PDF não localizado; zero correspondências por título e autor–ano nos 514 registos | Quatro pares pendentes |
 | Khanolkar, Vrolijk e Olechowski (2023) | *Mapping artificial intelligence-based methods to engineering design stages: A focused literature review* | C2.6-03, 07 e 09 | PDF não localizado; zero correspondências por título e autor–ano nos 514 registos | Três pares pendentes |
 | Krahe et al. (2020) | *Deep learning for automated product design* | C2.6-03 | PDF não localizado; zero correspondências por título e autor–ano nos 514 registos | Um par pendente |
@@ -2531,9 +2585,9 @@ Os trechos seguintes reproduzem as afirmações da dissertação às quais as fo
 | Virós-i-Martin e Selva (2021) | *A framework to study human-AI collaborative design space exploration* | C2.6-10 e 11 | O ficheiro local `material/colaboracao/A Framework to Study Human-AI Collaborative Design Space Exploration (2021).pdf` contém *Explainable Artificial Intelligence (XAI): Concepts, Taxonomies, Opportunities and Challenges toward Responsible AI*, de Barredo Arrieta et al.; zero correspondências por título e autor–ano nos 514 registos | Dois pares pendentes; ficheiro local incorrecto |
 | Figoli, Mattioli e Rampino (2022) | *AI in design idea development: A workshop on creativity and human-AI collaboration* | C2.6-11 | PDF não localizado; zero correspondências por título e autor–ano nos 514 registos | Um par pendente |
 
-**Página, secção e excerto dos *papers*:** não disponíveis para estas onze referências. O conteúdo do ficheiro incorrectamente nomeado como Virós-i-Martin e Selva não foi usado como prova. Nenhum anexo Mendeley foi encontrado ou descarregado.
+**Página, secção e excerto dos *papers*:** disponíveis na Secção 7.5.3 para Choudhury et al. e Saeidnia e Ausloos. As outras nove referências continuam sem texto integral. O conteúdo do ficheiro incorrectamente nomeado como Virós-i-Martin e Selva não foi usado como prova.
 
-### 4.41–4.55 Referências não localizadas da Secção 2.7
+### 4.41–4.55 Referências da Secção 2.7
 
 | Referência | Título indicado na bibliografia | Linhas e texto exacto da dissertação associado | Pesquisa local e Mendeley | Avaliação |
 | --- | --- | --- | --- | --- |
@@ -2542,7 +2596,7 @@ Os trechos seguintes reproduzem as afirmações da dissertação às quais as fo
 | Fischer et al. (2017) | *Revisiting and Broadening the Meta-design Framework for End-user Development* | 637 — «personalização [...] como uma necessidade funcional»;<br>653 — «risco de sobrecarga participativa»;<br>655 — «utilizadores finais participem ativamente»;<br>683 — «adaptação de exercícios e de objectivos»;<br>707 — «sobrecarga, fadiga e eventual desistência» | PDF não localizado; zero correspondências nos 514 registos | Cinco pares pendentes |
 | Howard et al. (2022) | *Assessing the Use of Co-design to Produce Bespoke Assistive Technology Solutions Within a Current Healthcare Service* | 635 — «fluxos participativos que traduzem a experiência vivida»;<br>699 — «ecossistemas modulares e [...] aprendizagem distribuída»;<br>705 — «amostras reduzidas e [...] estudos de caso» | PDF não localizado; zero correspondências nos 514 registos | Três pares pendentes |
 | Kerr et al. (2024) | *A Participatory Model for Cocreating Accessible Rehabilitation Technology for Stroke Survivors: User-centered Design Approach* | 637 — «segurança, a usabilidade e a adopção sustentada»;<br>691 — «definição clara de quem decide»;<br>697 — «participação [...] integrada no ciclo de desenvolvimento» | PDF não localizado; zero correspondências nos 514 registos | Três pares pendentes |
-| Dechev et al. (2023) | *Accessible Prosthetic Arms: Victoria Hand Project and the Impact of 3D Printing* | 679 — «selecção modular de componentes»;<br>699 — «criação digital de encaixes» | PDF não localizado; zero correspondências nos 514 registos | Dois pares neste lote; três acumulados |
+| Dechev et al. (2023) | *Accessible Prosthetic Arms: Victoria Hand Project and the Impact of 3D Printing* | 679 — «selecção modular de componentes»;<br>699 — «criação digital de encaixes» | PDF local validado; confronto detalhado na Secção 7.5.3 | Dois pares confrontados neste lote, ambos directos; três acumulados |
 | Peters e Richter (2023) | *Individualizing Patient Pathways Through Modularization: Design and Evaluation of Healthcare-specific Modularization Parameters* | 679 — «combinação de módulos interoperáveis»;<br>685 — «necessidades [...] expressas através da combinação de módulos» | PDF não localizado; zero correspondências nos 514 registos | Dois pares pendentes |
 | Kuhl et al. (2020) | *Design of Personalized Devices: The Tradeoff Between Individual Value and Personalization Workload* | 681 — «entradas num espaço de parâmetros» | PDF não localizado; zero correspondências nos 514 registos | Um par pendente |
 | Cole (2011) | *Patient-centered Design: Interface Personalization for Individuals With Brain Injury* | 683 — «personalização ocorre em tempo de uso»;<br>697 — «personalizar os tratamentos» | PDF não localizado; zero correspondências nos 514 registos | Dois pares pendentes |
@@ -2553,9 +2607,9 @@ Os trechos seguintes reproduzem as afirmações da dissertação às quais as fo
 | Mikołajewski et al. (2023) | *Personalization of the 3D-printed Upper Limb Exoskeleton Design: Mechanical and IT Aspects* | 695 — «plataformas baseadas em *digital twins*» | PDF não localizado; zero correspondências nos 514 registos | Um par pendente |
 | Sims et al. (2017) | *Participatory Design of Pediatric Upper Limb Prostheses: Qualitative Methods and Prototyping* | 699 — «prototipagem iterativa, módulos intercambiáveis» | PDF não localizado; zero correspondências nos 514 registos | Um par pendente |
 
-**Página, secção e excerto dos *papers*:** não disponíveis para estas quinze referências. Não foram encontrados registos Mendeley, pelo que não existem IDs ou anexos a registar.
+**Página, secção e excerto dos *papers*:** disponíveis na Secção 7.5.3 para Dechev et al. As outras catorze referências continuam sem texto integral.
 
-### 4.56–4.70 Referências sem texto integral consultado da Secção 2.8
+### 4.56–4.70 Referências da Secção 2.8
 
 Os trechos seguintes reproduzem as afirmações exactas da dissertação. As citações repetidas na Tabela 2.3 são contabilizadas como novos pares afirmação–fonte porque sustentam uma delimitação metodológica distinta.
 
@@ -2645,25 +2699,25 @@ Os trechos seguintes reproduzem as afirmações exactas da dissertação. As cit
 
 | Referência | Título indicado na bibliografia | Trechos associados | Pesquisa local e Mendeley | Avaliação |
 | --- | --- | --- | --- | --- |
-| Chadwell et al. (2020) | *Technology for monitoring everyday prosthesis use: A systematic review* | C2.8-01, 04, 08, 15 e 16 | PDF não localizado; zero correspondências nos 514 registos | Cinco pares pendentes |
-| Samuelsson et al. (2012) | *Effects of lower limb prosthesis on activity, participation, and quality of life: A systematic review* | C2.8-01, 02, 03, 04, 06 e 16 | PDF não localizado; zero correspondências nos 514 registos | Seis pares pendentes |
-| Windrich et al. (2016) | *Active lower limb prosthetics: A systematic review of design issues and solutions* | C2.8-01, 03 e 16 | PDF não localizado; zero correspondências nos 514 registos | Três pares pendentes |
-| Hafner e Sawers (2016) | *Issues affecting the level of prosthetics research evidence: Secondary analysis of a systematic review* | C2.8-02, 14 e 21 | PDF não localizado; zero correspondências nos 514 registos | Três pares pendentes |
+| Chadwell et al. (2020) | *Technology for monitoring everyday prosthesis use: A systematic review* | C2.8-01, 04, 08, 15 e 16 | PDF local validado; confronto detalhado na Secção 7.5.4 | Cinco pares confrontados: dois directos e três parciais |
+| Samuelsson et al. (2012) | *Effects of lower limb prosthesis on activity, participation, and quality of life: A systematic review* | C2.8-01, 02, 03, 04, 06 e 16 | PDF local validado; confronto detalhado na Secção 7.5.4 | Seis pares confrontados: três directos e três parciais |
+| Windrich et al. (2016) | *Active lower limb prosthetics: A systematic review of design issues and solutions* | C2.8-01, 03 e 16 | PDF local validado; confronto detalhado na Secção 7.5.4 | Três pares confrontados; suporte directo |
+| Hafner e Sawers (2016) | *Issues affecting the level of prosthetics research evidence: Secondary analysis of a systematic review* | C2.8-02, 14 e 21 | PDF local validado; confronto detalhado na Secção 7.5.4 | Três pares confrontados: um directo e dois parciais |
 | Ghillebert et al. (2019) | *Guidelines and recommendations to investigate the efficacy of a lower-limb prosthetic device: A systematic review* | C2.8-03 | PDF não localizado; zero correspondências nos 514 registos | Um par pendente |
-| Cordella et al. (2016) | *Literature review on needs of upper limb prosthesis users* | Duas atribuições em C2.8-05; C2.8-09, 14 e 17 | PDF não localizado; zero correspondências nos 514 registos | Cinco pares pendentes |
-| Manz et al. (2022) | *A review of user needs to inform the development of lower-limb prostheses* | Duas atribuições em C2.8-05; C2.8-06 e 17 | PDF não localizado; zero correspondências nos 514 registos | Quatro pares pendentes |
-| Alluhydan et al. (2023) | *Functionality and comfort design of lower-limb prosthetics: A review* | C2.8-07, 11 e 18 | PDF não localizado; zero correspondências nos 514 registos | Três pares pendentes |
-| Baldock et al. (2023) | *Adjustable prosthetic sockets: A systematic review of industrial and research design characteristics and their justifications* | C2.8-07 e 18 | PDF não localizado; zero correspondências nos 514 registos | Dois pares pendentes |
-| Richardson e Dillon (2017) | *User experience of transtibial prosthetic liners: A systematic review* | C2.8-07, 08, 13, 14, 18 e 21 | PDF não localizado; zero correspondências nos 514 registos | Seis pares pendentes |
-| Domínguez-Ruiz et al. (2023) | *Low limb prostheses and complex human prosthetic interaction: A systematic literature review* | C2.8-10 e 19 | PDF não localizado; zero correspondências nos 514 registos | Dois pares pendentes |
+| Cordella et al. (2016) | *Literature review on needs of upper limb prosthesis users* | Duas atribuições em C2.8-05; C2.8-09, 14 e 17 | PDF local validado; confronto detalhado na Secção 7.5.4 | Cinco pares confrontados: dois directos e três parciais |
+| Manz et al. (2022) | *A review of user needs to inform the development of lower-limb prostheses* | Duas atribuições em C2.8-05; C2.8-06 e 17 | PDF local validado, com divergências no título e nos autores da entrada bibliográfica; confronto detalhado na Secção 7.5.4 | Quatro pares confrontados: dois directos e dois parciais |
+| Alluhydan et al. (2023) | *Functionality and comfort design of lower-limb prosthetics: A review* | C2.8-07, 11 e 18 | PDF local validado; confronto detalhado na Secção 7.5.4 | Três pares confrontados: dois directos e um parcial |
+| Baldock et al. (2023) | *Adjustable prosthetic sockets: A systematic review of industrial and research design characteristics and their justifications* | C2.8-07 e 18 | PDF local validado; confronto detalhado na Secção 7.5.4 | Dois pares confrontados: um directo e um parcial |
+| Richardson e Dillon (2017) | *User experience of transtibial prosthetic liners: A systematic review* | C2.8-07, 08, 13, 14, 18 e 21 | PDF local validado; confronto detalhado na Secção 7.5.4 | Seis pares confrontados: dois directos, três parciais e um incompatível |
+| Domínguez-Ruiz et al. (2023) | *Low limb prostheses and complex human prosthetic interaction: A systematic literature review* | C2.8-10 e 19 | PDF local validado; confronto detalhado na Secção 7.5.4 | Dois pares confrontados: um directo e um parcial |
 | Baumann e Maria (2023) | *Improving access to prosthetic limbs in Germany: An explorative review* | C2.8-11, 15 e 20 | O ficheiro local com Baumann no nome contém *Obstacles to Prosthetic Care—Legal and Ethical Aspects...*, de Baumann, Frank, Kulla e Stieglitz (2020); zero correspondências Mendeley | Três pares pendentes; ficheiro local incompatível |
 | Segura et al. (2024) | *Upper limb prostheses by the level of amputation: A systematic review* | C2.8-12 e 20 | PDF editorial local `projecto_completo_bibliografia/prosthesis-06-00022.pdf`; páginas 17/293; zero correspondências nos 514 registos | Dois pares confrontados; suporte parcial para acesso, custos, cobertura limitada e dependência de importações; não sustenta explicitamente infraestrutura, apoio técnico, cadeias de fornecimento, conectividade ou manutenção |
-| Walker et al. (2019 no manuscrito) | *Towards including end-users in the design of prosthetic hands: Ethical analysis of a survey of Australians with upper-limb difference* | C2.8-13 e 21 | PDF local não localizado; registo Mendeley `53464f3b-f3e8-3c75-b2fe-26a0efff9928`, DOI `10.1007/s11948-019-00168-2`, `file_attached: true`; anexo não descarregado | Dois pares pendentes; autoria e ano bibliográficos incompatíveis |
-| Anderson et al. (2024) | *A narrative review of prosthesis design decision making after lower-limb amputation for developing shared decision-making resources* | C2.8-15 | PDF não localizado; zero correspondências nos 514 registos | Um par pendente |
+| Walker et al. (2019 no manuscrito) | *Towards including end-users in the design of prosthetic hands: Ethical analysis of a survey of Australians with upper-limb difference* | C2.8-13 e 21 | PDF local validado; a autoria e o ano do ficheiro divergem da entrada bibliográfica | Dois pares confrontados; divergência bibliográfica documentada na Secção 7.5.4 |
+| Anderson et al. (2024) | *A narrative review of prosthesis design decision making after lower-limb amputation for developing shared decision-making resources* | C2.8-15 | PDF local validado; confronto detalhado na Secção 7.5.4 | Um par confrontado; suporte parcial |
 
-**Página, secção e excerto dos *papers*:** não disponíveis para as treze referências que continuam sem texto integral neste quadro. Segura et al. foi confrontado na Secção 4.2. Walker et al. foi posteriormente obtido e confrontado nas novas localizações dos Capítulos 4 e 8; os dois pares anteriores desta secção não foram reavaliados neste lote. O PDF identifica Mary Jean Walker, Eliza Goddard, Benjamin Stephens-Fripp e Gursel Alici, com edição de 2020, divergindo de Walker, Paras, Boonstra e Murrup-Stewart (2019) na bibliografia.
+**Página, secção e excerto dos *papers*:** Ghillebert et al. e Baumann e Maria continuam sem texto integral neste quadro. Os outros onze PDFs foram obtidos e confrontados na Secção 7.5.4; Segura et al. foi confrontado na Secção 4.2. Walker et al. foi igualmente obtido, mas o PDF identifica Mary Jean Walker, Eliza Goddard, Benjamin Stephens-Fripp e Gursel Alici, com edição de 2020, divergindo de Walker, Paras, Boonstra e Murrup-Stewart (2019) na bibliografia.
 
-### 4.71–4.72 Referências não localizadas do Capítulo 3
+### 4.71–4.72 Referências do Capítulo 3
 
 **Texto da dissertação — linha 796:**
 
@@ -2671,12 +2725,12 @@ Os trechos seguintes reproduzem as afirmações exactas da dissertação. As cit
 
 | Referência | Título indicado na bibliografia | Pesquisa local e Mendeley | Página, secção e excerto | Avaliação |
 | --- | --- | --- | --- | --- |
-| Frayling (1994) | *Research in art and design* | PDF não localizado; zero correspondências por título e autor–ano nos 514 registos | Não disponíveis | Um par pendente |
-| Zimmerman, Forlizzi e Evenson (2007) | *Research through design as a method for interaction design research in HCI* | PDF não localizado; zero correspondências por título, autor–ano e DOI nos 514 registos | Não disponíveis | Um par pendente |
+| Frayling (1994) | *Research in art and design* | PDF local validado; confronto detalhado na Secção 7.5.3 | Página e excerto disponíveis na Secção 7.5.3 | Um par confrontado; suporte parcial |
+| Zimmerman, Forlizzi e Evenson (2007) | *Research through design as a method for interaction design research in HCI* | PDF local validado; confronto detalhado na Secção 7.5.3 | Página e excerto disponíveis na Secção 7.5.3 | Um par confrontado; suporte parcial |
 
-Os metadados bibliográficos não foram usados como prova da caracterização de RTD. Nenhum anexo Mendeley foi encontrado ou descarregado.
+Os dois PDFs foram obtidos e confrontados. A página, a zona exacta e o excerto de cada fonte encontram-se na Secção 7.5.3; ambos os pares têm suporte parcial.
 
-### 4.73–4.82 Referências sem texto integral consultado do Capítulo 4
+### 4.73–4.82 Referências do Capítulo 4
 
 Os trechos seguintes reproduzem as afirmações exactas da dissertação. A repetição de Çıklaçandır e Herbst dentro do mesmo parágrafo — primeiro em forma narrativa e depois na citação parentética — é contabilizada como duas atribuições por fonte.
 
@@ -2718,20 +2772,20 @@ Os trechos seguintes reproduzem as afirmações exactas da dissertação. A repe
 
 | Referência | Título indicado na bibliografia | Trechos associados | Pesquisa local e Mendeley | Avaliação |
 | --- | --- | --- | --- | --- |
-| Cordella et al. (2016) | *Literature review on needs of upper limb prosthesis users* | C4-01 e C4-02 | PDF não localizado; zero correspondências por título e autor–ano nos 514 registos | Dois pares novos pendentes; sete acumulados |
+| Cordella et al. (2016) | *Literature review on needs of upper limb prosthesis users* | C4-01 e C4-02 | PDF local validado; confronto detalhado na Secção 7.5.4 | Duas novas ocorrências confrontadas: uma directa e uma parcial; sete acumuladas |
 | Guo (2025) | *Human-centered design strategies for prosthetics based on user needs* | C4-01 | PDF não localizado; zero correspondências por título e autor–ano nos 514 registos | Um par pendente |
 | Peerdeman et al. (2011) | *Myoelectric forearm prostheses: State of the art from a user-centered perspective* | C4-01 e C4-02 | PDF não localizado; zero correspondências por título, autor–ano e DOI `10.1682/JRRD.2010.08.0161` | Dois pares pendentes |
 | Jones et al. (2023) | *Evidencing the effectiveness of upper limb prostheses: A multi-stakeholder perspective on study requirements* | C4-03 | PDF não localizado; zero correspondências por título, autor–ano e DOI `10.3389/frhs.2023.1123682` | Um par pendente |
-| Çıklaçandır et al. (2022) | *Comparison of traditional, MRI, and 3D scanning anthropometric measurements in hand prosthesis design* | Duas atribuições em C4-04 | PDF não localizado; zero correspondências por título e autor–ano nos 514 registos | Dois pares novos pendentes; três acumulados |
+| Çıklaçandır et al. (2022) | *Comparison of traditional, MRI, and 3D scanning anthropometric measurements in hand prosthesis design* | Duas atribuições em C4-04 | PDF local validado; confronto detalhado na Secção 7.5.3 | Duas novas ocorrências confrontadas; suporte parcial; três acumuladas |
 | Herbst et al. (2021) | *Scan-driven fully-automated pipeline for a personalized, 3D printed low-cost prosthetic hand* | Duas atribuições em C4-04; C4-09 | PDF não localizado; zero correspondências por título, autor–ano e DOI `10.1109/CASE49439.2021.9551649` | Três pares pendentes |
 | Ghali (2008) | *Constructive solid geometry*, em *Introduction to Geometric Computing* | C4-05 | Capítulo de livro não localizado; zero correspondências por autor, título e ano nos 514 registos | Documento académico não-*paper*; uma ocorrência pendente |
 | Trautmann (2021) | *Product customization and generative design* | C4-06 | PDF não localizado; zero correspondências por título e autor–ano nos 514 registos | Um par pendente |
 | ELhadad et al. (2026) | *LLM-based 3D model generation of MHE for OpenSCAD* | C4-07 | PDF não localizado; zero correspondências por título e autor–ano nos 514 registos | Um par pendente |
 | Romani e Levi (2020) | *Parametric design for online user customization of 3D printed assistive technology for rheumatic diseases* | C4-08 | PDF não localizado; zero correspondências por título e autor–ano nos 514 registos | Um par pendente |
 
-**Página, secção e excerto dos documentos:** não disponíveis para estas dez referências. As fontes técnicas que corroboram parcialmente C4-05 foram verificadas separadamente e não substituem o confronto do capítulo de Ghali. Gonzalez Avila et al. foi consultado, mas não sustenta C4-07; a sua presença no grupo não reduz a necessidade de obter ELhadad et al.
+**Página, secção e excerto dos documentos:** disponíveis na Secção 7.5 para Cordella et al. e Çıklaçandır et al. Permanecem ausentes sete *papers* e o capítulo de Ghali. As fontes técnicas que corroboram parcialmente C4-05 foram verificadas separadamente e não substituem o confronto desse capítulo. Gonzalez Avila et al. foi consultado, mas não sustenta C4-07; a sua presença no grupo não reduz a necessidade de obter ELhadad et al.
 
-### 4.83–4.88 Referências sem texto integral consultado do Capítulo 5
+### 4.83–4.88 Referências do Capítulo 5
 
 **C5-01 — linha 1250:**
 
@@ -2765,16 +2819,16 @@ Os trechos seguintes reproduzem as afirmações exactas da dissertação. A repe
 
 | Referência | Título indicado na bibliografia | Novas localizações | Pesquisa local e Mendeley | Avaliação |
 | --- | --- | --- | --- | --- |
-| Ozdemir et al. (2022) | *Design methodology for mass personalisation enabled by digital manufacturing* | 1250, 1357, 1377, 1443 e 1451 | PDF não localizado; zero correspondências por título e autor–ano nos 514 registos | Cinco pares novos pendentes; onze acumulados |
-| Stralen (2018) | *Mass customization: A critical perspective on parametric design, digital fabrication and design democratization* | 1250 | PDF não localizado; zero correspondências por título e autor–ano nos 514 registos | Um par novo pendente; cinco acumulados |
+| Ozdemir et al. (2022) | *Design methodology for mass personalisation enabled by digital manufacturing* | 1250, 1357, 1377, 1443 e 1451 | PDF local validado; confronto detalhado na Secção 7.5.2 | Cinco novas ocorrências confrontadas: quatro directas e uma parcial; onze acumuladas |
+| Stralen (2018) | *Mass customization: A critical perspective on parametric design, digital fabrication and design democratization* | 1250 | PDF local validado; confronto detalhado na Secção 7.5.2 | Uma nova ocorrência confrontada; suporte parcial; cinco acumuladas |
 | Peixoto et al. (2025) | *The design process in the development of an online platform for personalizing wearable prostheses: A preliminary approach* | 1256, 1377 e 1403 | PDF não localizado; zero correspondências pelo título, autor–ano e DOI `10.3390/designs9020039` | Três pares pendentes |
 | Bai et al. (2024) | *Human factors considerations of interaction between wearers and intelligent lower-limb prostheses: A prospective discussion* | 1266, 1280 e 1349 | PDF não localizado; zero correspondências pelo título, autor–ano e DOI `10.1186/s12984-024-01475-x` | Três pares pendentes; o título indica prótese de membro inferior, pelo que a transferência para a plataforma necessita de verificação especial |
 | Quintero et al. (2018) | *Intuitive clinician control interface for a powered knee-ankle prosthesis: A case study* | 1266, 1280, 1349 e 1403 | PDF não localizado; zero correspondências pelo título, autor–ano e DOI `10.1109/JTEHM.2018.2880199` | Quatro pares pendentes; trata uma interface clínica de membro inferior, não controlo de acessos numa plataforma de mão protésica |
-| Lei et al. (2016) | *An additive manufacturing process model for product family design* | 1443 e 1451 | PDF não localizado; zero correspondências por título e autor–ano nos 514 registos | Dois pares novos pendentes; dez acumulados |
+| Lei et al. (2016) | *An additive manufacturing process model for product family design* | 1443 e 1451 | PDF local validado; confronto detalhado na Secção 7.5.2 | Duas novas ocorrências confrontadas: uma parcial e uma incompatível; dez acumuladas |
 
-Sem os seis textos integrais não foi possível copiar a zona dos artigos nem determinar se as transferências conceptuais — sobretudo Bai e Quintero, provenientes de próteses de membro inferior — são substantivamente adequadas ao sistema de mão protésica.
+Ozdemir et al., Stralen e Lei et al. foram obtidos e confrontados; as zonas exactas encontram-se na Secção 7.5.2. Peixoto et al., Bai et al. e Quintero et al. continuam sem texto integral, pelo que não foi possível verificar as transferências conceptuais provenientes de próteses de membro inferior.
 
-### 4.89–4.92 Referências sem texto integral consultado do Capítulo 6
+### 4.89–4.92 Referências do Capítulo 6
 
 **C6-01 — linha 1461:**
 
@@ -2786,14 +2840,14 @@ Sem os seis textos integrais não foi possível copiar a zona dos artigos nem de
 
 | Referência | Título indicado na bibliografia | Nova localização | Pesquisa local e Mendeley | Avaliação |
 | --- | --- | --- | --- | --- |
-| Cordella et al. (2016) | *Literature review on needs of upper limb prosthesis users* | 1461 | PDF não localizado; zero correspondências por título e autor–ano nos 514 registos | Um par novo pendente; oito acumulados |
+| Cordella et al. (2016) | *Literature review on needs of upper limb prosthesis users* | 1461 | PDF local validado; confronto detalhado na Secção 7.5.4 | Uma nova ocorrência confrontada; suporte parcial; oito acumuladas |
 | Peerdeman et al. (2011) | *Myoelectric forearm prostheses: State of the art from a user-centered perspective* | 1461 | PDF não localizado; zero correspondências por título, autor–ano e DOI `10.1682/JRRD.2010.08.0161` | Um par novo pendente; três acumulados |
 | Panchal et al. (2019) | *Special issue: Machine learning for engineering design* | 1537 | PDF não localizado; zero correspondências por título e autor–ano nos 514 registos | Um par novo pendente; quatro acumulados |
 | Yüksel et al. (2023) | *Review of artificial intelligence applications in engineering design perspective* | 1537 | PDF não localizado; zero correspondências por título e autor–ano nos 514 registos | Um par novo pendente; cinco acumulados |
 
-Marinelli et al. sustenta directamente C6-01, mas não substitui Cordella nem Peerdeman. Em C6-02, a formulação reúne riscos específicos observados no protótipo e salvaguardas de implementação; sem Panchal e Yüksel não é possível confirmar se as fontes tratam estes mecanismos concretos ou apenas riscos gerais de aprendizagem automática no projecto de engenharia.
+Cordella et al. foi obtido e confrontado, com suporte parcial para C6-01; a zona exacta encontra-se na Secção 7.5.4. Marinelli et al. sustenta directamente C6-01, mas não substitui Peerdeman. Em C6-02, a formulação reúne riscos específicos observados no protótipo e salvaguardas de implementação; sem Panchal e Yüksel não é possível confirmar se as fontes tratam estes mecanismos concretos ou apenas riscos gerais de aprendizagem automática no projecto de engenharia.
 
-### 4.93–4.96 Referências sem texto integral consultado do Capítulo 7
+### 4.93–4.96 Referências do Capítulo 7
 
 **C7-01 — linha 1557:**
 
@@ -2820,7 +2874,7 @@ Marinelli et al. sustenta directamente C6-01, mas não substitui Cordella nem Pe
 
 Sem estes quatro textos integrais não existe uma zona de *paper* que possa ser copiada. C7-02 apresenta o desajuste temático mais forte: as duas referências são de próteses de membro inferior, enquanto a afirmação factual sobre WebAssembly e *Web Worker* deve ser sustentada por documentação técnica da implementação, não por literatura clínica sem relação demonstrada com essa arquitectura.
 
-### 4.97–4.109 Referências sem texto integral consultado do Capítulo 8
+### 4.97–4.109 Referências do Capítulo 8
 
 **C8-01 — linha 1808:**
 
@@ -2853,21 +2907,21 @@ Sem estes quatro textos integrais não existe uma zona de *paper* que possa ser 
 | Referência | Título indicado na bibliografia | Nova localização | Pesquisa local e Mendeley | Avaliação |
 | --- | --- | --- | --- | --- |
 | Fink e Diamond (2023) | *Prosthesis options and management in upper extremity amputation* | 1808 | PDF editorial local, seis páginas; zero correspondências nos 514 registos | Par confrontado; suporte parcial, sem demonstração causal de toda a enumeração de abandono |
-| Chadwell et al. (2020) | *Technology for monitoring everyday prosthesis use: A systematic review* | 1820 | PDF não localizado; zero correspondências nos 514 registos | Um par novo pendente; seis acumulados |
-| Samuelsson et al. (2012) | *Effects of lower limb prosthesis on activity, participation, and quality of life: A systematic review* | 1820 | PDF não localizado; zero correspondências nos 514 registos | Um par novo pendente; sete acumulados; trata membro inferior |
-| Windrich et al. (2016) | *Active lower limb prosthetics: A systematic review of design issues and solutions* | 1820 | PDF não localizado; zero correspondências nos 514 registos | Um par novo pendente; quatro acumulados; trata membro inferior |
-| Cordella et al. (2016) | *Literature review on needs of upper limb prosthesis users* | 1821 | PDF não localizado; zero correspondências nos 514 registos | Um par novo pendente; nove acumulados |
-| Manz et al. (2022) | *A review of user needs to inform the development of lower-limb prostheses* | 1821 | PDF não localizado; zero correspondências nos 514 registos | Um par novo pendente; cinco acumulados; trata membro inferior |
-| Alluhydan et al. (2023) | *Functionality and comfort design of lower-limb prosthetics: A review* | 1822 | PDF não localizado; zero correspondências nos 514 registos | Um par novo pendente; quatro acumulados; trata membro inferior |
-| Baldock et al. (2023) | *Adjustable prosthetic sockets: A systematic review of industrial and research design characteristics and their justifications* | 1822 | PDF não localizado; zero correspondências nos 514 registos | Um par novo pendente; três acumulados |
-| Richardson e Dillon (2017) | *User experience of transtibial prosthetic liners: A systematic review* | 1822 e 1825 | PDF não localizado; zero correspondências nos 514 registos | Dois pares novos pendentes; oito acumulados; trata encaixes transtibiais de membro inferior |
-| Domínguez-Ruiz et al. (2023) | *Low limb prostheses and complex human prosthetic interaction: A systematic literature review* | 1823 | PDF não localizado; zero correspondências nos 514 registos | Um par novo pendente; três acumulados; trata membro inferior |
+| Chadwell et al. (2020) | *Technology for monitoring everyday prosthesis use: A systematic review* | 1820 | PDF local validado; confronto detalhado na Secção 7.5.4 | Uma nova ocorrência incompatível; seis acumuladas |
+| Samuelsson et al. (2012) | *Effects of lower limb prosthesis on activity, participation, and quality of life: A systematic review* | 1820 | PDF local validado; confronto detalhado na Secção 7.5.4 | Uma nova ocorrência incompatível; sete acumuladas; trata membro inferior |
+| Windrich et al. (2016) | *Active lower limb prosthetics: A systematic review of design issues and solutions* | 1820 | PDF local validado; confronto detalhado na Secção 7.5.4 | Uma nova ocorrência com suporte directo; quatro acumuladas; trata membro inferior |
+| Cordella et al. (2016) | *Literature review on needs of upper limb prosthesis users* | 1821 | PDF local validado; confronto detalhado na Secção 7.5.4 | Uma nova ocorrência com suporte parcial; nove acumuladas |
+| Manz et al. (2022) | *A review of user needs to inform the development of lower-limb prostheses* | 1821 | PDF local validado; confronto detalhado na Secção 7.5.4 | Uma nova ocorrência com suporte parcial; cinco acumuladas; trata membro inferior |
+| Alluhydan et al. (2023) | *Functionality and comfort design of lower-limb prosthetics: A review* | 1822 | PDF local validado; confronto detalhado na Secção 7.5.4 | Uma nova ocorrência com suporte directo; quatro acumuladas; trata membro inferior |
+| Baldock et al. (2023) | *Adjustable prosthetic sockets: A systematic review of industrial and research design characteristics and their justifications* | 1822 | PDF local validado; confronto detalhado na Secção 7.5.4 | Uma nova ocorrência com suporte directo; três acumuladas |
+| Richardson e Dillon (2017) | *User experience of transtibial prosthetic liners: A systematic review* | 1822 e 1825 | PDF local validado; confronto detalhado na Secção 7.5.4 | Duas novas ocorrências: uma directa e uma incompatível; oito acumuladas; trata encaixes transtibiais de membro inferior |
+| Domínguez-Ruiz et al. (2023) | *Low limb prostheses and complex human prosthetic interaction: A systematic literature review* | 1823 | PDF local validado; confronto detalhado na Secção 7.5.4 | Uma nova ocorrência com suporte directo; três acumuladas; trata membro inferior |
 | Baumann e Maria (2023) | *Improving access to prosthetic limbs in Germany: An explorative review* | 1824 | O ficheiro local associado é de Baumann et al. (2020), com título e autores diferentes; sem correspondência Mendeley adequada | Um par novo pendente; quatro acumulados |
 | Segura et al. (2024) | *Upper limb prostheses by the level of amputation: A systematic review* | 1824 | PDF editorial local `projecto_completo_bibliografia/prosthesis-06-00022.pdf`; página 17/293; zero correspondências nos 514 registos | Par confrontado; suporte directo para o limite sobre custo e acesso em países em desenvolvimento; sete pares acumulados e directamente verificados |
-| Hafner e Sawers (2016) | *Issues affecting the level of prosthetics research evidence: Secondary analysis of a systematic review* | 1825 | PDF não localizado; zero correspondências nos 514 registos | Um par novo pendente; quatro acumulados |
-| Richardson e Dillon (2017), segunda associação | mesmo título | 1825 | mesmo estado | A associação à insuficiência de participação e métodos qualitativos exige confronto separado do par sobre encaixe e conforto |
+| Hafner e Sawers (2016) | *Issues affecting the level of prosthetics research evidence: Secondary analysis of a systematic review* | 1825 | PDF local validado; confronto detalhado na Secção 7.5.4 | Uma nova ocorrência incompatível; quatro acumuladas |
+| Richardson e Dillon (2017), segunda associação | mesmo título | 1825 | PDF local validado; confronto detalhado na Secção 7.5.4 | Associação incompatível: a revisão não sustenta insuficiência de participação ou de *co-design* |
 
-Doze pares permanecem sem excerto primário. Sete das doze ocorrências pendentes usam explicitamente fontes sobre membro inferior — Samuelsson, Windrich, Manz, Alluhydan, as duas associações de Richardson e Dillon e Domínguez-Ruiz — numa dissertação de membro superior. A transferência pode ser justificável para conceitos gerais, mas deve ser demonstrada fonte a fonte e não presumida. A Tabela 8.8 contém formulações prudentes; Segura et al. sustenta directamente o limite sobre custo e acesso, embora a ausência dos restantes textos impeça confirmar que cada referência trata exactamente prova de conceito, desalinhamento de métricas, ajuste, controlo, acesso ou participação.
+Apenas o par associado a Baumann e Maria permanece sem excerto primário. Os outros onze pares foram confrontados directamente na Secção 7.5.4; cinco das associações são incompatíveis com as afirmações do manuscrito. As fontes sobre membro inferior exigem ainda uma transferência explicitamente delimitada para uma dissertação sobre membro superior. Segura et al. sustenta directamente o limite sobre custo e acesso.
 
 ## 5. Fontes normativas, técnicas e institucionais fora do âmbito texto–*paper*
 
