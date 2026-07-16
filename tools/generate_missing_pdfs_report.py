@@ -177,7 +177,7 @@ def parse_missing_sources(audit_text: str) -> tuple[list[MissingSource], Missing
         add_source(sources, reference, title, strip_markdown(" | ".join(cells[2:])))
 
     # Walker is present in the historical pending section but was later obtained
-    # and directly checked. Ghali is a book chapter, not one of the 80 papers.
+    # and directly checked. Ghali is a book chapter, not one of the 79 papers.
     walker_key = next(
         (key for key in sources if key.startswith("towards including end users in the design of prosthetic hands")),
         "",
@@ -194,6 +194,17 @@ def parse_missing_sources(audit_text: str) -> tuple[list[MissingSource], Missing
     if not fink_key:
         raise RuntimeError("Could not locate the Fink and Diamond entry")
     sources.pop(fink_key)
+
+    # Segura et al. likewise remain documented in the historical pending section,
+    # but the publisher PDF was subsequently added and all seven cited passages
+    # were checked against it.
+    segura_key = next(
+        (key for key in sources if key.startswith("upper limb prostheses by the level of amputation")),
+        "",
+    )
+    if not segura_key:
+        raise RuntimeError("Could not locate the Segura et al. entry")
+    sources.pop(segura_key)
     ghali_key = next((key for key in sources if key.startswith("constructive solid geometry")), "")
     if not ghali_key:
         raise RuntimeError("Could not locate the Ghali book-chapter entry")
@@ -209,9 +220,9 @@ def parse_missing_sources(audit_text: str) -> tuple[list[MissingSource], Missing
     )
 
     result = sorted(sources.values(), key=lambda item: normalized(item.reference))
-    if len(result) != 80:
+    if len(result) != 79:
         labels = "\n".join(f"- {item.reference}: {item.title}" for item in result)
-        raise RuntimeError(f"Expected 80 missing papers, found {len(result)}:\n{labels}")
+        raise RuntimeError(f"Expected 79 missing papers, found {len(result)}:\n{labels}")
     return result, ghali
 
 
@@ -354,6 +365,7 @@ def render(sources: list[MissingSource], ghali: MissingSource, audit: Path, manu
             "- Uma ligação «Pesquisar no Crossref» é uma pesquisa pelo título e não deve ser tratada como confirmação de DOI.",
             "- Walker et al. foi retirado da lista porque o texto integral foi posteriormente obtido e confrontado. Mistarihi (2020) foi acrescentado a partir do Anexo A.",
             "- Fink e Diamond (2023) foi retirado da lista porque o texto integral do artigo 101061 foi posteriormente obtido e as seis passagens que o citam foram confrontadas directamente; a auditoria concluiu que o suporte é parcial.",
+            "- Segura et al. (2024) foi retirado da lista porque o PDF editorial foi acrescentado e as sete passagens que o citam foram confrontadas directamente; uma associação tem suporte directo, cinco têm suporte parcial e uma é incompatível.",
             "- Fontes normativas, páginas *web*, repositórios de código e conjuntos DINED sem PDF autónomo não são contabilizados como PDFs científicos em falta.",
             "",
             f"- SHA-256 do relatório de auditoria usado: `{sha256(audit)}`.",

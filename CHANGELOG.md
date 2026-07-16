@@ -2,6 +2,8 @@
 
 ## 2026-07-16
 
+- Validado e integrado o texto integral de Segura et al. (2024), *Upper Limb Prostheses by the Level of Amputation: A Systematic Review*, em `projecto_completo_bibliografia/prosthesis-06-00022.pdf` (24 páginas, *Prosthesis* 6:277–300, DOI `10.3390/prosthesis6020022`, CC BY 4.0); retirado o artigo de `pdfs_em_falta.md`, que passa de 80 para 79 *papers* e de 69 para 68 DOI identificados.
+- Confrontadas as sete utilizações de Segura et al. nas linhas 289, 301, 315, 339, 755, 787 e 1824: uma tem suporte directo, cinco têm suporte parcial e a associação da linha 339 aos instrumentos e métricas de avaliação é incompatível. A auditoria passa a 59 textos integrais e 185 dos 432 pares directamente confrontados, restando 247 pares pendentes; actualizado o gerador reproduzível do inventário.
 - Obtido e validado o texto integral editorial de Fink e Diamond (2023), *Prosthesis options and management in upper extremity amputation* (seis páginas; DOI `10.1016/j.oto.2023.101061`), e acrescentado a `projecto_completo_bibliografia/`; a cópia existente em `material/amputacao/` é binariamente idêntica.
 - Confrontadas directamente as seis passagens que citam Fink e Diamond: o artigo oferece suporte parcial, mas não demonstra o *feedback* proprioceptivo, toda a composição da equipa multidisciplinar, a comparação de resultados entre utilizadores e não utilizadores ou uma relação causal entre todos os factores enumerados e o abandono. A auditoria passa a 58 textos integrais, 178 pares confrontados e 254 pendentes.
 - Retirado Fink e Diamond do inventário reproduzível de PDFs em falta, que passa de 81 para 80 artigos e de 70 para 69 entradas com DOI; actualizado `tools/generate_missing_pdfs_report.py` para conservar esta exclusão após regeneração.
