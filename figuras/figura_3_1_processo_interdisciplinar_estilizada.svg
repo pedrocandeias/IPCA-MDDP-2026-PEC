@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="647" viewBox="0 0 1800 647" role="img" aria-labelledby="title desc">
+  <title id="title">Processo interdisciplinar de desenvolvimento de uma prótese</title>
+  <desc id="desc">Seis fases ligam exploração a entrega, alimentadas por referências técnicas e pelo perfil do utilizador, com ciclos de correção, ajuste e novo teste.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="14" markerHeight="14" refX="12.5" refY="7.0" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L14,7.0 L0,14 z" fill="#59636d"/>
+    </marker>
+    <marker id="arrow-red" markerWidth="14" markerHeight="14" refX="12.5" refY="7.0" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L14,7.0 L0,14 z" fill="#b5453c"/>
+    </marker>
+    <style>
+      text { font-family: Arial, Helvetica, sans-serif; fill: #1f2933; }
+      .outline { stroke: #59636d; stroke-width: 3; }
+      .arrow { fill: none; stroke: #59636d; stroke-width: 3; marker-end: url(#arrow); }
+      .arrow-both { fill: none; stroke: #59636d; stroke-width: 3; marker-start: url(#arrow); marker-end: url(#arrow); }
+      .dashed { fill: none; stroke: #59636d; stroke-width: 2.5; stroke-dasharray: 12 9; marker-end: url(#arrow); }
+      .red-dashed { fill: none; stroke: #b5453c; stroke-width: 2.5; stroke-dasharray: 12 9; marker-end: url(#arrow-red); }
+    </style>
+  </defs>
+  <rect width="100%" height="100%" fill="#ffffff"/>
+
+<rect x="20" y="50" width="250" height="210" rx="16" fill="#ddefea" stroke="#59636d" stroke-width="3" />
+<text text-anchor="middle" font-size="21" font-weight="700" fill="#1f2933"><tspan x="145" y="97.14">Referências técnicas</tspan></text>
+<text text-anchor="middle" font-size="17" font-weight="400" fill="#1f2933"><tspan x="145" y="134.78">Designs semelhantes</tspan><tspan x="145" y="158.78">Tecnologias disponíveis</tspan><tspan x="145" y="182.78">Dados do</tspan><tspan x="145" y="206.78">membro residual</tspan></text>
+<rect x="20" y="385" width="250" height="210" rx="16" fill="#f8e7dd" stroke="#59636d" stroke-width="3" />
+<text text-anchor="middle" font-size="21" font-weight="700" fill="#1f2933"><tspan x="145" y="432.14">Perfil do utilizador</tspan></text>
+<text text-anchor="middle" font-size="17" font-weight="400" fill="#1f2933"><tspan x="145" y="480.78">Capacidades</tspan><tspan x="145" y="505.78">Necessidades funcionais</tspan><tspan x="145" y="530.78">Preferências</tspan></text>
+<rect x="280" y="255" width="220" height="110" rx="14" fill="#ddefea" stroke="#59636d" stroke-width="3" />
+<text text-anchor="middle" font-size="24" font-weight="600" fill="#1f2933"><tspan x="390.0" y="318.16">Exploração</tspan></text>
+<rect x="530" y="255" width="220" height="110" rx="14" fill="#dce9f6" stroke="#59636d" stroke-width="3" />
+<text text-anchor="middle" font-size="24" font-weight="600" fill="#1f2933"><tspan x="640.0" y="318.16">Enquadramento</tspan></text>
+<rect x="780" y="255" width="220" height="110" rx="14" fill="#e8e1f2" stroke="#59636d" stroke-width="3" />
+<text text-anchor="middle" font-size="24" font-weight="600" fill="#1f2933"><tspan x="890.0" y="318.16">Conceito</tspan></text>
+<rect x="1030" y="255" width="220" height="110" rx="14" fill="#f8e7dd" stroke="#59636d" stroke-width="3" />
+<text text-anchor="middle" font-size="24" font-weight="600" fill="#1f2933"><tspan x="1140.0" y="318.16">Prototipagem</tspan></text>
+<rect x="1280" y="255" width="220" height="110" rx="14" fill="#f3ebdd" stroke="#59636d" stroke-width="3" />
+<text text-anchor="middle" font-size="24" font-weight="600" fill="#1f2933"><tspan x="1390.0" y="318.16">Teste</tspan></text>
+<rect x="1530" y="255" width="220" height="110" rx="14" fill="#edf1df" stroke="#59636d" stroke-width="3" />
+<text text-anchor="middle" font-size="24" font-weight="600" fill="#1f2933"><tspan x="1640.0" y="318.16">Entrega</tspan></text>
+<path d="M500 310 H530" class="arrow"/>
+<path d="M750 310 H780" class="arrow"/>
+<path d="M1000 310 H1030" class="arrow"/>
+<path d="M1250 310 H1280" class="arrow"/>
+<path d="M1500 310 H1530" class="arrow"/>
+<path d="M270 155 H275 V290 H280" class="arrow"/>
+<path d="M270 490 H275 V330 H280" class="arrow"/>
+<path d="M1640 255 V55 H890 V255" class="dashed"/>
+<rect x="780" y="445" width="220" height="100" rx="14" fill="#e8e1f2" stroke="#59636d" stroke-width="3" />
+<text text-anchor="middle" font-size="21" font-weight="600" fill="#1f2933"><tspan x="890.0" y="490.14">Correções</tspan><tspan x="890.0" y="514.14">de design</tspan></text>
+<path d="M890 445 V365" class="dashed"/>
+<rect x="1030" y="445" width="220" height="100" rx="14" fill="#f8e7dd" stroke="#59636d" stroke-width="3" />
+<text text-anchor="middle" font-size="21" font-weight="600" fill="#1f2933"><tspan x="1140.0" y="502.14">Ajustes</tspan></text>
+<path d="M1140 445 V365" class="dashed"/>
+<rect x="1280" y="445" width="220" height="100" rx="14" fill="#f3ebdd" stroke="#59636d" stroke-width="3" />
+<text text-anchor="middle" font-size="21" font-weight="600" fill="#1f2933"><tspan x="1390.0" y="502.14">Novo teste</tspan></text>
+<path d="M1390 445 V365" class="dashed"/>
+</svg>

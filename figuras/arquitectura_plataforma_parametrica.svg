@@ -57,10 +57,10 @@
   <text class="edge-text" x="578" y="238" text-anchor="middle">script</text>
   <path class="edge" d="M775 250 H820"/>
   <path class="edge" d="M1035 250 H1080"/>
-  <path class="edge" d="M1280 230 C1300 230 1300 192 1325 192"/>
-  <path class="edge" d="M1280 270 C1300 270 1300 382 1325 382"/>
-  <path class="edge" d="M1325 166 C1190 115 300 110 185 190"/>
-  <text class="edge-text" x="820" y="112" text-anchor="middle">pré-visualização actualizada</text>
+  <path class="edge" d="M1280 225 H1300 V192 H1325"/>
+  <path class="edge" d="M1280 275 H1300 V382 H1325"/>
+  <path class="edge" d="M1325 166 H1295 V105 H185 V190"/>
+  <text class="edge-text" x="820" y="85" text-anchor="middle">pré-visualização actualizada</text>
 
   <rect x="45" y="595" width="820" height="400" rx="16" fill="#fffaf7" stroke="#a15c38" stroke-width="3"/>
   <text class="cluster-title" x="70" y="635">Servidor</text>
@@ -90,8 +90,9 @@
   <rect class="box" x="985" y="710" width="240" height="115" fill="#e8e1f2"/>
   <text class="node-title" x="1105" y="752" text-anchor="middle">Modelo de linguagem</text>
   <text class="node-text" x="1105" y="784" text-anchor="middle">sugestão em JSON</text>
-  <path class="edge" d="M830 762 H985"/>
-  <text class="edge-text" x="908" y="749" text-anchor="middle">pedido / resposta</text>
+  <path class="edge" d="M830 745 H985"/>
+  <path class="edge" d="M985 790 H830"/>
+  <text class="edge-text" x="1105" y="680" text-anchor="middle">pedido / resposta</text>
 
   <rect x="1345" y="595" width="410" height="400" rx="16" fill="#fbfcf6" stroke="#6c7a35" stroke-width="3"/>
   <text class="cluster-title" x="1370" y="635">Fabrico</text>
@@ -105,8 +106,8 @@
 
   <path class="edge" d="M185 310 V700"/>
   <text class="edge-text" x="198" y="555">sessão e configurações</text>
-  <path class="edge" d="M290 285 C525 420 720 520 743 700"/>
-  <text class="edge-text" x="520" y="470">descrição + esquema</text>
+  <path class="edge" d="M290 285 H315 V500 H743 V700"/>
+  <text class="edge-text" x="530" y="488" text-anchor="middle">descrição + esquema</text>
   <path class="edge" d="M1455 435 V690"/>
   <text class="edge-text" x="1468" y="565">ficheiro exportado</text>
 </svg>

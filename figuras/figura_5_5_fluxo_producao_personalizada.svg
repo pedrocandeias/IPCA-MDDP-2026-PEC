@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="920" viewBox="0 0 1800 920" role="img" aria-labelledby="title desc">
+  <title id="title">Fluxo de produção personalizada com fabrico aditivo</title>
+  <desc id="desc">Adaptação gráfica do fluxo entre consulta, digitalização, concepção, preparação para impressão, impressão tridimensional, pós-processamento e fornecimento.</desc>
+  <defs>
+    <style>
+      .title { font-family: Arial, sans-serif; font-size: 34px; font-weight: 700; fill: #20262b; }
+      .node-title { font-family: Arial, sans-serif; font-size: 25px; font-weight: 700; fill: #20262b; }
+      .node-text { font-family: Arial, sans-serif; font-size: 20px; font-weight: 400; fill: #3d474f; }
+      .box { stroke: #3f4a54; stroke-width: 3; rx: 18; }
+      .edge { fill: none; stroke: #59636d; stroke-width: 5; marker-end: url(#arrow); }
+    </style>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L12,6 L0,12 z" fill="#59636d"/>
+    </marker>
+  </defs>
+
+  <rect width="1800" height="920" fill="#ffffff"/>
+  <text class="title" x="900" y="58" text-anchor="middle">Fluxo de produção personalizada com fabrico aditivo</text>
+
+  <rect class="box" x="60" y="150" width="480" height="180" fill="#ddefea"/>
+  <text class="node-title" x="300" y="218" text-anchor="middle">1 · Consulta</text>
+  <text class="node-text" x="300" y="260" text-anchor="middle">avaliação e definição de necessidades</text>
+
+  <rect class="box" x="660" y="150" width="480" height="180" fill="#eaf5f2"/>
+  <text class="node-title" x="900" y="205" text-anchor="middle">2 · Digitalização do membro</text>
+  <text class="node-text" x="900" y="247" text-anchor="middle">aquisição de dados anatómicos</text>
+  <text class="node-text" x="900" y="281" text-anchor="middle">e processamento automático</text>
+
+  <rect class="box" x="1260" y="150" width="480" height="180" fill="#dce9f6"/>
+  <text class="node-title" x="1500" y="218" text-anchor="middle">3 · Concepção automática</text>
+  <text class="node-text" x="1500" y="260" text-anchor="middle">adaptação CAD da geometria</text>
+
+  <rect class="box" x="1260" y="590" width="480" height="180" fill="#f5e4d5"/>
+  <text class="node-title" x="1500" y="645" text-anchor="middle">4 · Preparação para impressão 3D</text>
+  <text class="node-text" x="1500" y="687" text-anchor="middle">orientação, suportes</text>
+  <text class="node-text" x="1500" y="721" text-anchor="middle">e fatiamento</text>
+
+  <rect class="box" x="660" y="590" width="480" height="180" fill="#edf1dd"/>
+  <text class="node-title" x="900" y="658" text-anchor="middle">5 · Impressão 3D</text>
+  <text class="node-text" x="900" y="700" text-anchor="middle">produção dos componentes</text>
+
+  <rect class="box" x="60" y="590" width="480" height="180" fill="#f3ebdd"/>
+  <text class="node-title" x="300" y="645" text-anchor="middle">6 · Pós-processamento e montagem</text>
+  <text class="node-text" x="300" y="687" text-anchor="middle">acabamento, montagem</text>
+  <text class="node-text" x="300" y="721" text-anchor="middle">e fornecimento</text>
+
+  <path class="edge" d="M540 240 H660"/>
+  <path class="edge" d="M1140 240 H1260"/>
+  <path class="edge" d="M1500 330 V590"/>
+  <path class="edge" d="M1260 680 H1140"/>
+  <path class="edge" d="M660 680 H540"/>
+</svg>

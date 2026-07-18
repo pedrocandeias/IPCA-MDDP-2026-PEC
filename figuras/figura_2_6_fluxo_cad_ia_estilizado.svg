@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2200" height="950" viewBox="0 0 2200 950" role="img" aria-labelledby="title desc">
+  <title id="title">Fluxo de CAD apoiado por inteligência artificial</title>
+  <desc id="desc">Três painéis de entrada, processamento por IA e saída; os oito ícones da figura adaptada original são preservados.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6.0" orient="auto-start-reverse" markerUnits="strokeWidth">
+      <path d="M0,0 L12,6.0 L0,12 z" fill="#59636d"/>
+    </marker>
+    <marker id="arrow-red" markerWidth="12" markerHeight="12" refX="10" refY="6.0" orient="auto-start-reverse" markerUnits="strokeWidth">
+      <path d="M0,0 L12,6.0 L0,12 z" fill="#b5453c"/>
+    </marker>
+    <style>
+      text { font-family: Arial, Helvetica, sans-serif; fill: #1f2933; }
+      .outline { stroke: #59636d; stroke-width: 3; }
+      .arrow { fill: none; stroke: #59636d; stroke-width: 4; marker-end: url(#arrow); }
+      .arrow-both { fill: none; stroke: #59636d; stroke-width: 4; marker-start: url(#arrow); marker-end: url(#arrow); }
+      .dashed { fill: none; stroke: #59636d; stroke-width: 3.5; stroke-dasharray: 12 9; marker-end: url(#arrow); }
+      .red-dashed { fill: none; stroke: #b5453c; stroke-width: 3.5; stroke-dasharray: 12 9; marker-end: url(#arrow-red); }
+    </style>
+  </defs>
+  <rect width="100%" height="100%" fill="#ffffff"/>
+
+<rect x="50" y="40" width="470" height="870" rx="20" fill="#f2f8f6" stroke="#59636d" stroke-width="3" />
+<path d="M70 40 H500 Q520 40 520 60 V145 H50 V60 Q50 40 70 40 Z" fill="#ddefea"/>
+<text text-anchor="middle" font-size="34" font-weight="700" fill="#1f2933"><tspan x="285.0" y="103.56">1 · Entrada</tspan></text>
+<rect x="620" y="40" width="800" height="870" rx="20" fill="#f7f4fa" stroke="#59636d" stroke-width="3" />
+<path d="M640 40 H1400 Q1420 40 1420 60 V145 H620 V60 Q620 40 640 40 Z" fill="#e8e1f2"/>
+<text text-anchor="middle" font-size="34" font-weight="700" fill="#1f2933"><tspan x="1020.0" y="103.56">2 · Processamento por IA</tspan></text>
+<rect x="1530" y="40" width="620" height="870" rx="20" fill="#fcf6f1" stroke="#59636d" stroke-width="3" />
+<path d="M1550 40 H2130 Q2150 40 2150 60 V145 H1530 V60 Q1530 40 1550 40 Z" fill="#f8e7dd"/>
+<text text-anchor="middle" font-size="34" font-weight="700" fill="#1f2933"><tspan x="1840.0" y="103.56">3 · Saída</tspan></text>
+<line x1="80" y1="390" x2="490" y2="390" stroke="#59636d" stroke-width="2" opacity="0.35"/>
+<line x1="80" y1="630" x2="490" y2="630" stroke="#59636d" stroke-width="2" opacity="0.35"/>
+
+<image x="95" y="205.0" width="96.92307692307693" height="100.0" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAD8AAABBCAYAAABmd3xuAAABMklEQVR42u2YwQ6DMAxDcZX/2Hnn/f+3eadJiIFUIC1J6xxBa/NitwnD6/1ZEgRv/BZHLyxAcr0K91eEMjj4Nk96wmcB383ZnMER5E5AjUjFMQEEURYVz3gHnoHAebUoZSDFT+dSGlY6YsBTeSQuhOuF9/R5PysEs8NPrfytsMZW7HmTU8oL/jnbZ2l/sIGEhGwv+PlanZQXvFqdlBe84NXq8irPmeFTKI8kay6WRSXd9oKPb/sU7a4kApftZ2x1TdZVq5PtBS94wQte8IIfGr52Hu89tzfdz1YbMFpymz2m/QMTs555tLR9lA8S9s5Dt32mz1Ap3wCeUl7wKYIjweMGGK7CI+G5ZyvbM0gRjvJwy81WtuHTE1dFHq7jr/W0WbS5fzvhZZry4GX7vUU5KvQvvoffMR3/zToLAAAAAElFTkSuQmCC"/>
+<text text-anchor="middle" font-size="30" font-weight="700" fill="#1f2933"><tspan x="300" y="247.2">Requisitos</tspan><tspan x="300" y="283.2">de projeto</tspan></text>
+<image x="95" y="475.4639175257732" width="99.99999999999999" height="69.0721649484536" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGEAAABDCAYAAACMYmueAAADAUlEQVR42u1cS3LlMAg0lO6Rdda5/9mY1VTlY1sINQhka5XUsy1E0/wkmz4+v46AIcdx0PGO09EClP/77xeMX4MdlS8KYN7hxAQZuKYqK3prpFUgiEIgKR4rxHBdd30cCMCVQLIZAEvckQzSkS4Ykdk9ja5xKCHhScFGhft+TWVW0OTvEBBkQLGjwkpyFpBxbYIEQWaRV4AnSVlBHtfzoPLRAGRnhQDWSb31tEXW3xP4UZU2L7b+yrEiBAQZUFAkECvAIM/72Tn7QSx+FStkJRNkofVXYIU7CBkB2KXA64IgF0VJxoxkOyA4ufU/AgguCEA1OVUgVGkZ9GSknZiQnd4r3Kd4PqvdtAv+/0+JAaBApVuAIM297eSmjBsukdYvAc/6oVMukI9XBUA9X+tQaTUrVgdfCgBV2sTDKdj6KwJOmrk4oaIyZGWhrfpmsAyvDZcnHBpT1wmWQkgcAKCjTtNOkCBoMhG0YqxzShLli7HTQGcgWA5xzbQ8LJ3bTC0W2IFnvvH/1vM1PeXM7ltncE+CfAaDUjOti0IeGsvknqZkYTDKd6xAV75ZgjPNroUd6E3g61a3MtxHc6oByFFZWwFw5o68WTFr/dsBcFUxoxt3XtV0FuXLhc6mArNHQba7+5nKMNlgxVEFUuZjOFAZMnZRqwdfQoMgwUBUev8ZZhTNYIleu207tLIJBUIvyHiczOjNWf39Z7U7Gt1HQARt7ZxVTmVPt7It1JpJZRGt84yxwuSOUF1UrcuYzXyuWizV3JPcMcFqWRqX4Zl6lj0g0DqluFUIUSpo9v1nqaj0s8Ds4Ws1nx1AN/PIw1VEZ0foDIQcrMezkxoZU+TOHaFrAG/r3OEUIPFgkF2VRUR/UWBZsZaxQFrxPnUkEHSXHXm2KDK6nqWM4AmhvFix5RYmAoQ7RQhQ+Y8DYBSE4/Dr32T5lkYJENDu6bHWjwABwYpHWz8KhBlWPN760SCMBO3X/ZwM5GeaRzuoj1c+mgkWxb4AOIKgCbAvAAEgXCmbXgD+jn+RLP0YH7AIxwAAAABJRU5ErkJggg=="/>
+<text text-anchor="middle" font-size="30" font-weight="700" fill="#1f2933"><tspan x="300" y="520.2">Restrições</tspan></text>
+<image x="95" y="715.0" width="74.6268656716418" height="100.0" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAABDCAYAAADeQVbVAAACKUlEQVR42tWbO24DMQxEQ0L3SJ069z8b0yRA4kgrfmb0cWMYNiy9HZIacm15//h8Iz/s+1mYiygZwDpAV4GYE+5oEAN9ZhvI6GrLID+gMI2oggxeG6MQ6CKI2Xu2E8QSEDSYtkiFJxhIqOkmCLg6bSOARx1BK8KEePpO9wGqB0GUQq0FIajGr1IINFBaV0Gk1NEDQgkC0w4GCIWaXgDhUkcvgnhy06aXQYTOEbtg39YDkctgeseCKLNHIA8z/uxbHRXBTgyl1/3qjv4aEUpei3KCOiGbpMHDZ5U64bNNgQuxVCh1iJEhmxBVcK8Xcb/MQlAe7LVEIyWdz2XVgQ32NNlIIdSBDvaq7leK+RVdUwYDim6yMwdtqJbhNbwNOY2fqUPte1qPrnilVgD8y+eZ+zWgOgiIYVFSxwJIGEGq8Pv7miM0fl4LWBlomT7Z/Ybya+Z+d/Ym5tyPy/3aBiufUl6LbtQWhJJrPxqUlel+PaFkXhCPeUTDzBLadfNHkycwoqpF7gpP19NMhQBUtUgj5VpPATEeUadyb/5xPdQQ26NORgU3DHqILSQVpnvUxc63CjG8KI1sFo2pwsz9oiYkyA4wPMQ+wSym8ksTibvbwsuoZ0dNSNjGETLEXqVO+qxpicRlqGPVYpGZa61yv6GLkx3QoWBgJ37l57KVUCuHEkqRijpI8wgFicDQ5r+oX2LPQo1pX6CKrHK/S0FmG6U4AuYfYcQ5gYE8vgAGy8cYLugV4gAAAABJRU5ErkJggg=="/>
+<text text-anchor="middle" font-size="30" font-weight="700" fill="#1f2933"><tspan x="300" y="757.2">Propriedades</tspan><tspan x="300" y="793.2">do material</tspan></text>
+<image x="675" y="214.0" width="68.63492063492063" height="92.0" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC8AAAA/CAYAAABw8ZE3AAAB20lEQVR42u1ZSY7DMAwrBf9jznOe/7+NvXfiRAuV2EAN9JCiVrRQFO3i5/fvdbL48YzXQsuCv+dKzo/EnqtqRAOEwnl+GGQgGBSqwmwQNsnWZyC4AU6M2hlNOEehh9yVsGLWcPCM4H5kk2bOl2HyIopo1GM/RJUzg91c7w7AkuV+rRCAiYw/EsAQU112YOHke3axjYpizzgeM5vWNHgo3ncYgDVgmcV+cQduwmwjMIRw8Lny41/2h1NUUcAcFBDAlOcVYonNPYKZMENRjzMovDxVOss+TQCHjsGEiDzIONTleFnPY6IYWYRYdW9IVZ5RH53lR0K7eGynhRmDuJ0xGBzsBtXVx1JriLmXzlsIKAaaMvPZYNNUORyOVCkRzmaEkm2yh2jlYSTsvDLrchnsbViZ+nM654UTPXoegUwywNFQVcwaoeDdi6x9K2IdQThIRZ/i6iOiUTzXI+4ATQwHL7OwsNdNlXf2Q1rPH03BjgpQGag56K9zRRzn1ZCCEDrtR0e76XyqVKzlk9QSawfnp0Nup8xjt8xzV9hcaqJvwz6R9W/mn5QPVu34J9dIYLBbSlABG6hftirmuSJssHI/rPaf1GNUyZ2d3zLz2Nl5fjOfsLcy5nGn87jb1hvLWnwtuAi1EgAAAABJRU5ErkJggg=="/>
+<text text-anchor="middle" font-size="29" font-weight="700" fill="#1f2933"><tspan x="1040" y="251.86">Otimização por redes neuronais</tspan></text>
+<text text-anchor="middle" font-size="22" font-weight="400" fill="#1f2933"><tspan x="1040" y="312.48">Multiobjetivo: peso, resistência e custo</tspan></text>
+<line x1="660" y1="385" x2="1380" y2="385" stroke="#59636d" stroke-width="2" opacity="0.35"/>
+<image x="675" y="464.0" width="67.02857142857142" height="92.0" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADMAAABGCAYAAABhTqxYAAACeUlEQVR42tVbS1LFMAyrPbkHa9bc/2xmAzNMX5vIthT6ugHmfVLZii25wT4+v44NV/z8NOUivhHI+fe3AhM3Nx/vBiaar5eusQGILShnT8xMLID8/m2qLLmQVrOIG7i/toMJIPp3gKhZcjGtDhAUJUu+iVZZQKUs+UZayWk3NmQjS0WrlnAXZmOmAEJBuyGIbBQCZBNA5yxZJTMhBJL5HFztBikbhxg4lCUnAakUBnpPGmIg7H50Ve1eMsPq5giNgrCGXQQtnEiBf7+cJMGDvJ+o5ixI3GYGYfnZbJ9ROVJjMMFJYs9I0W4FAS0AUVgwwNes+J2W0WaW0UU39T9IxQBqG55cDLk5IxaIVCN30F8wJLwUSMacpeW4QEGkzVmQaccYlMDUdcKmZfajlo3wYmemTFPYfmhMJPVqkFDZR1JT54XFmLSjutM7OWMbaNcF8nKvToy4gbImSEDaCgCZpMxAVWx0AEGGm+ad5kIaZjaT1KbZpRB6w3QgWQVgxY1uQiDLpqlsmDIgCgXQGc+2gCAzgENAu6P4vW0FEGLaZSz0Mnsu2uRsBQD1pyEwY8hZmQ4Qq9KMbZlDBQRtmizaVYDLFIARARkbCGsGkFUNMhpWzgFUaVc5L5CqcOPmTejcq2uZqWXam9aXMamJ5nsvnWa1k3cVAAXIFc1mjc+ItKOCWBUAVpYC3B8ZGVVSAIwHT+d9hBx7nJVougJgKelM5Ss1zV2Shg4Enc50lXTGr1QB0xQA4ykA5SlC9Ywm0y7Tjkl2Ts+i1U5KLRYYlHaxAwgLTIV2waBVp5pVq500G4rMsC3zY8Ag1JEc01L/m5YlQT4azF9A8tOF39hF/RcEEA9RAAAAAElFTkSuQmCC"/>
+<text text-anchor="middle" font-size="29" font-weight="700" fill="#1f2933"><tspan x="1040" y="519.86">Extração de características (CNN)</tspan></text>
+<line x1="660" y1="635" x2="1380" y2="635" stroke="#59636d" stroke-width="2" opacity="0.35"/>
+<image x="675" y="709.0" width="69.0" height="92.0" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAABACAYAAABcIPRGAAABs0lEQVR42u1ZQXbFIAjM8LxH1133/meb7lPTIDIS27j67xsjA8OABh+fX0dwsPMfhOu6w4KGc8A4zzxXAjhERoZAtEnjcDHP0xwda+QRoIO3ES5jBkxbnXS/gKAjWsMRyDYeiYJxC4DH2oGILU3swVkQPP2GNwJnHsLpoWypDOUAAzxVUg4zKoRkj84Kww8aWXHiSlsJVBvnscWSDMOhVShmA7iqlkjiuhuMFfA9NVJWlLSYBMMeAKq8FKy6rhwz54t5rJNYjtCvikJpQG0y1Fjo/e6eNlhs+LQwWNJRsExWLbiJ4kgZGs3T8Qn5jtn3mzAJVbVE1kqUnKFN5LE7ajDLSe3mwQqdH6KnreDpyvMAink9LLnt4gEGlAWdWwokXxZMN3PS821kDwtsoqQVR4G3YBf6mKOnBV9IgZdDVdySDfHcVvTWhh0SuZ1mRC0m16ZGQPmBA+oIXGn+HVWQ5IA0AOqWuew88AJ4Aew22kQRUSQwd44A/y2FRimh7kqH7HhVaGcALKZaSi9Ufi3/5sCTZLSqGrMqAlt9oXlzQBWNpwEYluW2uvBkJ7XtSp2/ksT4BsPtbhExXazRAAAAAElFTkSuQmCC"/>
+<text text-anchor="middle" font-size="29" font-weight="700" fill="#1f2933"><tspan x="1040" y="764.86">Arquitetura híbrida CNN–LSTM</tspan></text>
+<image x="1580" y="214.0" width="66.44444444444444" height="92.0" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADQAAABICAYAAAC5mNZRAAAB1UlEQVR42u2aPY4DMQiFAfkeqbfe+5+NrVaKohkPYH5shWnSJLG/ec8YjPH18wsJDwMAZgxESTD/n3wy0B0AnwjERtgtga4mijdryB2Mgi32CYJGRVOBeKIKKNUqB9LYSwK8bEEKgNE87mpRgsUgUy1KtJgFSq0WFaoSYkEyqhIB42JBKrRYiFpUbDF3tWgzVZbVGs77SgYY30Dhu0InwIjCOxVEsEgLAlUUYZE11xD8AE8A8dhYt4MBAKaLAgw3hGLhdoKaoMBFYKrUizJrlYwCUrKGKqDMqddQbmZcqIroGcrBMDi08+oGP5wnghWqeB2SeO1ZrnnkqkKP2W8WiKdClvAelt17Wk4KxcIXUmI5SXhnQ22zhULaiYZk8ZENr5mVwkqSjJZkajVMyQDhxWKFQg3UQA3UQA3UQA3UQA3UQN8BNJLGwSqF+EBR+MlyfCrMO9DVmTU7Dxz9f/ipEB6i1vSQkgSLlzcCezxxHZMvWM+ss0Au5/LUkoQNbKhqSz7tQzO1sNpeK5lC5tpautqmSX0yuuLLV9ssuVyUWi49I2su5xkJXe+0rmbbq5HQ/fZkZUsypC3pWT7MGsgh9sqoh7Q3TrolWVmCY0UFG12CY3Zi+wdjlYMlS1+42AAAAABJRU5ErkJggg=="/>
+<text text-anchor="middle" font-size="29" font-weight="700" fill="#1f2933"><tspan x="1885" y="252.36">33 modelos CAD</tspan><tspan x="1885" y="287.36">otimizados</tspan></text>
+<line x1="1570" y1="385" x2="2110" y2="385" stroke="#59636d" stroke-width="2" opacity="0.35"/>
+<image x="1580" y="464.0" width="53.76623376623377" height="92.0" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC0AAABNCAYAAAAy7u3AAAABbklEQVR42u2asQ7DMAhEc5b/o3Pn/v+3XadUVZVUJAYDCUxdEj9fMZxR8Hi+FoPg129ov7wbwpptoBkDm0QzfDc2lGUkaG4Am+V0M1LYNLpD7g4fzD4JFpqVpS0Jo59Uc085CJ/Zep7Ss9IH/n4MHlIcXJfrM+0EMBwzg6vSFEDN6naitZtQRU91fzsrL1E9QhkjSZ1GcIERsbmYdERkzekQ4CmrR0F7QLOULmg9aHqlVBsArvTQhmYQlXm0jXOnhWvfcqCdHlyMR7jSDV/25gLh5XeaE7x0c8FMJbVvLt6jhDJMU5vLLZVmtpymlxe5jcvzcnrig7iVAkdaupv3+KeuxQAeo+nhaoy0D6Kr/zhrTT029OFI6fJ6lpS4zSWgoAv6DtDppqYplXYd9XYhIE4AS+d+h+eDs6amHFxHzU8jY/VIZ01ramoFXX660qOgC7qgp8buAJLRgdc6/dumo38WhBatcUgaXKZvTT/xBrEBSD4Im6wKAAAAAElFTkSuQmCC"/>
+<text text-anchor="middle" font-size="29" font-weight="700" fill="#1f2933"><tspan x="1885" y="502.36">Parâmetros de projeto</tspan><tspan x="1885" y="537.36">otimizados</tspan></text>
+<line x1="1570" y1="635" x2="2110" y2="635" stroke="#59636d" stroke-width="2" opacity="0.35"/>
+<text text-anchor="middle" font-size="70" font-weight="400" fill="#59636d"><tspan x="1625" y="778.8">↘</tspan></text>
+<text text-anchor="middle" font-size="29" font-weight="700" fill="#1f2933"><tspan x="1885" y="747.36">Ciclos de projeto</tspan><tspan x="1885" y="782.36">reduzidos</tspan></text>
+<path d="M520 475 H620" class="arrow"/>
+<path d="M1420 440 H1530" class="arrow"/>
+<path d="M1530 555 H1420" class="dashed"/>
+<text text-anchor="middle" font-size="21" font-weight="600" fill="#1f2933"><tspan x="1475" y="614.64">refinamento</tspan><tspan x="1475" y="639.64">iterativo</tspan></text>
+</svg>

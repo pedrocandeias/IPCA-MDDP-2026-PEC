@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="928" viewBox="0 0 1800 928" role="img" aria-labelledby="title desc">
+  <title id="title">Processo para configurar participação em ecossistemas de inovação e cocriação</title>
+  <desc id="desc">Processo iterativo com cinco fases principais, prototipagem, teste em ambiente real e envolvimento continuado dos utilizadores.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="14" markerHeight="14" refX="12.5" refY="7.0" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L14,7.0 L0,14 z" fill="#59636d"/>
+    </marker>
+    <marker id="arrow-red" markerWidth="14" markerHeight="14" refX="12.5" refY="7.0" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L14,7.0 L0,14 z" fill="#b5453c"/>
+    </marker>
+    <style>
+      text { font-family: Arial, Helvetica, sans-serif; fill: #1f2933; }
+      .outline { stroke: #59636d; stroke-width: 3; }
+      .arrow { fill: none; stroke: #59636d; stroke-width: 3; marker-end: url(#arrow); }
+      .arrow-both { fill: none; stroke: #59636d; stroke-width: 3; marker-start: url(#arrow); marker-end: url(#arrow); }
+      .dashed { fill: none; stroke: #59636d; stroke-width: 2.5; stroke-dasharray: 12 9; marker-end: url(#arrow); }
+      .red-dashed { fill: none; stroke: #b5453c; stroke-width: 2.5; stroke-dasharray: 12 9; marker-end: url(#arrow-red); }
+    </style>
+  </defs>
+  <rect width="100%" height="100%" fill="#ffffff"/>
+
+<rect x="40" y="320" width="280" height="145" rx="14" fill="#ddefea" stroke="#59636d" stroke-width="3" />
+<text text-anchor="middle" font-size="26" font-weight="600" fill="#1f2933"><tspan x="180.0" y="371.34">Diálogo e</tspan><tspan x="180.0" y="401.34">construção</tspan><tspan x="180.0" y="431.34">de equipa</tspan></text>
+<rect x="400" y="320" width="280" height="145" rx="14" fill="#dce9f6" stroke="#59636d" stroke-width="3" />
+<text text-anchor="middle" font-size="28" font-weight="600" fill="#1f2933"><tspan x="540.0" y="386.02">Exploração</tspan><tspan x="540.0" y="418.02">do desafio</tspan></text>
+<rect x="760" y="320" width="280" height="145" rx="14" fill="#e8e1f2" stroke="#59636d" stroke-width="3" />
+<text text-anchor="middle" font-size="28" font-weight="600" fill="#1f2933"><tspan x="900.0" y="386.02">Criação</tspan><tspan x="900.0" y="418.02">de ideias</tspan></text>
+<rect x="1120" y="320" width="280" height="145" rx="14" fill="#f8e7dd" stroke="#59636d" stroke-width="3" />
+<text text-anchor="middle" font-size="28" font-weight="600" fill="#1f2933"><tspan x="1260.0" y="386.02">Teste com</tspan><tspan x="1260.0" y="418.02">utilizadores</tspan></text>
+<rect x="1480" y="320" width="280" height="145" rx="14" fill="#edf1df" stroke="#59636d" stroke-width="3" />
+<text text-anchor="middle" font-size="28" font-weight="600" fill="#1f2933"><tspan x="1620.0" y="402.02">Implementação</tspan></text>
+<path d="M320 378 H400" class="arrow"/>
+<path d="M400 410 H320" class="arrow"/>
+<path d="M680 378 H760" class="arrow"/>
+<path d="M760 410 H680" class="arrow"/>
+<path d="M1040 378 H1120" class="arrow"/>
+<path d="M1120 410 H1040" class="arrow"/>
+<path d="M1400 378 H1480" class="arrow"/>
+<path d="M1480 410 H1400" class="arrow"/>
+<rect x="895" y="65" width="280" height="130" rx="14" fill="#dce9f6" stroke="#59636d" stroke-width="3" />
+<text text-anchor="middle" font-size="29" font-weight="600" fill="#1f2933"><tspan x="1035.0" y="139.86">Prototipagem</tspan></text>
+<path d="M900 320 V245 H965 V195" class="arrow"/>
+<path d="M1105 195 V245 H1260 V320" class="arrow"/>
+<path d="M1260 465 V535 H900 V465" class="arrow"/>
+<path d="M1300 465 V590 H860 V465" class="arrow"/>
+<rect x="1240" y="45" width="420" height="185" rx="24" fill="#f3ebdd" stroke="#59636d" stroke-width="3" />
+<text text-anchor="middle" font-size="27" font-weight="600" fill="#1f2933"><tspan x="1450" y="118.18">Teste em ambiente real</tspan><tspan x="1450" y="152.18">ou em condições semelhantes</tspan></text>
+<path d="M1450 230 V275 H1260 V320" class="dashed"/>
+<path d="M80 670 H1660 L1720 720 L1660 770 H80 Z" fill="#f3ebdd" stroke="#59636d" stroke-width="3"/>
+<text text-anchor="middle" font-size="27" font-weight="600" fill="#1f2933"><tspan x="870" y="729.18">Envolver utilizadores desde as fases iniciais até às fases finais do processo</tspan></text>
+<path d="M80 790 H1660 L1720 840 L1660 890 H80 Z" fill="#f8e7dd" stroke="#59636d" stroke-width="3"/>
+<text text-anchor="middle" font-size="27" font-weight="600" fill="#1f2933"><tspan x="870" y="849.18">Processo de design de longa duração: vários meses ou anos</tspan></text>
+</svg>

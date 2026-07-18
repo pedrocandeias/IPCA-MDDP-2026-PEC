@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="844" viewBox="0 0 2400 844" role="img" aria-labelledby="title desc">
+  <title id="title">Relação entre desafios de compreensão e princípios de IA responsável</title>
+  <desc id="desc">Nove desafios de inteligência artificial explicável relacionam-se com seis princípios e convergem para IA responsável.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6.0" orient="auto-start-reverse" markerUnits="strokeWidth">
+      <path d="M0,0 L12,6.0 L0,12 z" fill="#59636d"/>
+    </marker>
+    <marker id="arrow-red" markerWidth="12" markerHeight="12" refX="10" refY="6.0" orient="auto-start-reverse" markerUnits="strokeWidth">
+      <path d="M0,0 L12,6.0 L0,12 z" fill="#b5453c"/>
+    </marker>
+    <style>
+      text { font-family: Arial, Helvetica, sans-serif; fill: #1f2933; }
+      .outline { stroke: #59636d; stroke-width: 3; }
+      .arrow { fill: none; stroke: #59636d; stroke-width: 4; marker-end: url(#arrow); }
+      .arrow-both { fill: none; stroke: #59636d; stroke-width: 4; marker-start: url(#arrow); marker-end: url(#arrow); }
+      .dashed { fill: none; stroke: #59636d; stroke-width: 3.5; stroke-dasharray: 12 9; marker-end: url(#arrow); }
+      .red-dashed { fill: none; stroke: #b5453c; stroke-width: 3.5; stroke-dasharray: 12 9; marker-end: url(#arrow-red); }
+    </style>
+  </defs>
+  <rect width="100%" height="100%" fill="#ffffff"/>
+
+<rect x="30" y="40" width="1060" height="764" rx="24" fill="#f7faf9" stroke="#59636d" stroke-width="3" />
+<text x="560" y="95" text-anchor="middle" font-size="34" font-weight="700" fill="#1f2933">Desafios associados à XAI</text>
+<rect x="70" y="135" width="300" height="140" rx="16" fill="#ddefea" stroke="#59636d" stroke-width="2.5" />
+<text text-anchor="middle" font-size="22" font-weight="600" fill="#1f2933"><tspan x="220" y="198.98">Interpretabilidade</tspan><tspan x="220" y="225.98">versus desempenho</tspan></text>
+<rect x="405" y="135" width="300" height="140" rx="16" fill="#dce9f6" stroke="#59636d" stroke-width="2.5" />
+<text text-anchor="middle" font-size="22" font-weight="600" fill="#1f2933"><tspan x="555" y="198.98">Conceitos e</tspan><tspan x="555" y="225.98">métricas de XAI</tspan></text>
+<rect x="740" y="135" width="300" height="140" rx="16" fill="#e8e1f2" stroke="#59636d" stroke-width="2.5" />
+<text text-anchor="middle" font-size="22" font-weight="600" fill="#1f2933"><tspan x="890" y="198.98">Explicabilidade em</tspan><tspan x="890" y="225.98">aprendizagem profunda</tspan></text>
+<rect x="70" y="315" width="300" height="140" rx="16" fill="#dce9f6" stroke="#59636d" stroke-width="2.5" />
+<text text-anchor="middle" font-size="22" font-weight="600" fill="#1f2933"><tspan x="220" y="378.98">XAI e segurança:</tspan><tspan x="220" y="405.98">aprendizagem adversarial</tspan></text>
+<rect x="405" y="315" width="300" height="140" rx="16" fill="#f3ebdd" stroke="#59636d" stroke-width="2.5" />
+<text text-anchor="middle" font-size="22" font-weight="600" fill="#1f2933"><tspan x="555" y="378.98">Justificação, explicação</tspan><tspan x="555" y="405.98">e estudos críticos de dados</tspan></text>
+<rect x="740" y="315" width="300" height="140" rx="16" fill="#ddefea" stroke="#59636d" stroke-width="2.5" />
+<text text-anchor="middle" font-size="22" font-weight="600" fill="#1f2933"><tspan x="890" y="378.98">Ciência de dados</tspan><tspan x="890" y="405.98">orientada por teoria</tspan></text>
+<rect x="70" y="495" width="300" height="140" rx="16" fill="#f8e7dd" stroke="#59636d" stroke-width="2.5" />
+<text text-anchor="middle" font-size="22" font-weight="600" fill="#1f2933"><tspan x="220" y="558.98">Implementação</tspan><tspan x="220" y="585.98">e orientações</tspan></text>
+<rect x="405" y="495" width="300" height="140" rx="16" fill="#edf1df" stroke="#59636d" stroke-width="2.5" />
+<text text-anchor="middle" font-size="22" font-weight="600" fill="#1f2933"><tspan x="555" y="558.98">XAI e confiança</tspan><tspan x="555" y="585.98">nos resultados</tspan></text>
+<rect x="740" y="495" width="300" height="140" rx="16" fill="#e8e1f2" stroke="#59636d" stroke-width="2.5" />
+<text text-anchor="middle" font-size="22" font-weight="600" fill="#1f2933"><tspan x="890" y="558.98">XAI e fusão</tspan><tspan x="890" y="585.98">de dados</tspan></text>
+<rect x="405" y="695" width="310" height="75" rx="37" fill="#ddefea" stroke="#59636d" stroke-width="3" />
+<text text-anchor="middle" font-size="34" font-weight="700" fill="#1f2933"><tspan x="560" y="743.56">XAI</tspan></text>
+<rect x="1220" y="90" width="790" height="664" rx="24" fill="#faf9fc" stroke="#59636d" stroke-width="3" />
+<text x="1615" y="145" text-anchor="middle" font-size="34" font-weight="700" fill="#1f2933">Princípios de IA responsável</text>
+<rect x="1260" y="210" width="215" height="165" rx="16" fill="#ddefea" stroke="#59636d" stroke-width="3" />
+<text text-anchor="middle" font-size="25" font-weight="600" fill="#1f2933"><tspan x="1367.5" y="301.0">Equidade</tspan></text>
+<rect x="1515" y="210" width="215" height="165" rx="16" fill="#dce9f6" stroke="#59636d" stroke-width="3" />
+<text text-anchor="middle" font-size="25" font-weight="600" fill="#1f2933"><tspan x="1622.5" y="301.0">Privacidade</tspan></text>
+<rect x="1770" y="210" width="215" height="165" rx="16" fill="#e8e1f2" stroke="#59636d" stroke-width="3" />
+<text text-anchor="middle" font-size="20" font-weight="600" fill="#1f2933"><tspan x="1877.5" y="299.3">Responsabilização</tspan></text>
+<rect x="1260" y="435" width="215" height="165" rx="16" fill="#f8e7dd" stroke="#59636d" stroke-width="3" />
+<text text-anchor="middle" font-size="25" font-weight="600" fill="#1f2933"><tspan x="1367.5" y="526.0">Ética</tspan></text>
+<rect x="1515" y="435" width="215" height="165" rx="16" fill="#f3ebdd" stroke="#59636d" stroke-width="3" />
+<text text-anchor="middle" font-size="25" font-weight="600" fill="#1f2933"><tspan x="1622.5" y="526.0">Transparência</tspan></text>
+<rect x="1770" y="435" width="215" height="165" rx="16" fill="#edf1df" stroke="#59636d" stroke-width="3" />
+<text text-anchor="middle" font-size="25" font-weight="600" fill="#1f2933"><tspan x="1877.5" y="510.5">Segurança</tspan><tspan x="1877.5" y="541.5">e proteção</tspan></text>
+<rect x="2130" y="270" width="240" height="300" rx="38" fill="#ddefea" stroke="#59636d" stroke-width="4" />
+<text text-anchor="middle" font-size="34" font-weight="700" fill="#1f2933"><tspan x="2250" y="410.56">IA</tspan><tspan x="2250" y="452.56">responsável</tspan></text>
+<path d="M1090 422 H1220" class="arrow"/>
+<path d="M2010 422 H2130" class="arrow"/>
+</svg>

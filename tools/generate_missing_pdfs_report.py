@@ -54,6 +54,9 @@ def title_key(value: str) -> str:
 # 2026-07-16.  Keeping this map in the generator makes the report reproducible
 # without turning a future network search result into an automatic assertion.
 VERIFIED_DOIS = {
+    # Confirmado nos metadados do Crossref: título, autores (ELhadad, Aboulhassan
+    # e Hassan) e publicação (Procedia Computer Science, 2026) coincidem.
+    title_key("LLM-based 3D model generation of MHE for OpenSCAD"): "10.1016/j.procs.2026.01.077",
     title_key("Functionality and comfort design of lower-limb prosthetics: A review"): "10.57197/jdr-2023-0031",
     title_key("A narrative review of prosthesis design decision making after lower-limb amputation for developing shared decision-making resources"): "10.1007/s40141-024-00432-y",
     title_key("Adjustable prosthetic sockets: A systematic review of industrial and research design characteristics and their justifications"): "10.1186/s12984-023-01270-0",
@@ -206,9 +209,9 @@ def parse_missing_sources(audit_text: str) -> tuple[list[MissingSource], Missing
         raise RuntimeError("Could not locate the Segura et al. entry")
     sources.pop(segura_key)
 
-    # These four Section 2.2 sources remain in the historical pending table, but
-    # their full texts were subsequently added or captured and all thirteen
-    # associated passages were checked directly.
+    # These four Section 2.2 sources occur in the current-state audit table, but
+    # their full texts were added or captured and all thirteen associated
+    # passages were checked directly.
     obtained_section_22 = {
         "user involvement in healthcare technology development and assessment structured literature review": "Shah and Robinson",
         "the healthcare design dilemma perils of a technology driven design process for medical products": "Wilke et al.",
@@ -222,9 +225,9 @@ def parse_missing_sources(audit_text: str) -> tuple[list[MissingSource], Missing
         sources.pop(source_key_match)
 
     # Thirty cited papers were added to the local bibliography on 2026-07-16
-    # and checked directly against all 116 passages that cite them.  Section 4
-    # remains a historical record of what was missing at the initial close, so
-    # the authoritative missing-PDF list must explicitly remove this later lot.
+    # and checked directly against all 116 passages that cite them. Section 4
+    # preserves the initially pending passages while labelling their current
+    # state, so the inventory must explicitly remove this later lot.
     obtained_july_2026 = {
         "developing innovative solutions for universal design in healthcare and other sectors": "White and Mosca",
         "an additive manufacturing process model for product family design": "Lei et al.",
@@ -391,6 +394,77 @@ def parse_missing_sources(audit_text: str) -> tuple[list[MissingSource], Missing
             raise RuntimeError(f"Missing expected follow-up PDF for {label}: {filename}")
         sources.pop(source_key_match)
 
+    # A fourth lot was retrieved from open-access sources on 2026-07-16 (Unpaywall
+    # and OpenAlex resolution followed by publisher or repository download).  The
+    # associated claim-source pairs still require direct comparison.
+    obtained_open_access_batch = {
+        "perspectives on the comparative benefits of body powered": (
+            "Engdahl et al.",
+            "engdahl_et_al_2024_body_powered_myoelectric_prostheses.pdf",
+        ),
+        "human centered design for medical devices and diagnostics": (
+            "Fisher e Johansen",
+            "fisher_johansen_2020_human_centered_design_medical_devices.pdf",
+        ),
+        "human centered design strategies for prosthetics": (
+            "Guo",
+            "guo_2025_human_centered_design_prosthetics_user_needs.pdf",
+        ),
+        "assessing the use of co design to produce bespoke assistive": (
+            "Howard et al.",
+            "howard_et_al_2022_co_design_bespoke_assistive_technology.pdf",
+        ),
+        "individualizing patient pathways through modularization": (
+            "Peters e Richter",
+            "peters_richter_2023_individualizing_patient_pathways_modularization.pdf",
+        ),
+    }
+    for key_prefix, (label, filename) in obtained_open_access_batch.items():
+        source_key_match = next((key for key in sources if key.startswith(key_prefix)), "")
+        if not source_key_match:
+            raise RuntimeError(f"Could not locate the open-access entry for {label}")
+        if not (bibliography_dir / filename).is_file():
+            raise RuntimeError(f"Missing expected open-access PDF for {label}: {filename}")
+        sources.pop(source_key_match)
+
+    # Um quinto lote foi descarregado manualmente em navegador, a partir das mesmas
+    # fontes de acesso aberto ou de leitura livre cujos servidores recusam
+    # transferências automatizadas.  Os pares afirmação–fonte associados continuam
+    # pendentes de confronto directo.
+    obtained_manual_batch = {
+        "technological advances in prosthesis design and rehabilitation": (
+            "Bates et al.",
+            "bates_et_al_2020_technological_advances_prosthesis_design.pdf",
+        ),
+        "improving access to prosthetic limbs in germany": (
+            "Baumann e Maria",
+            "baumann_maria_2023_prosthetic_limbs_germany.pdf",
+        ),
+        "llm based 3d model generation of mhe for openscad": (
+            "ELhadad et al.",
+            "elhadad_et_al_2026_llm_3d_model_openscad.pdf",
+        ),
+        "satisfying heterogeneous user needs via innovation toolkits": (
+            "Franke e von Hippel",
+            "franke_von_hippel_2002_innovation_toolkits_apache.pdf",
+        ),
+        "myoelectric forearm prostheses state of the art": (
+            "Peerdeman et al.",
+            "peerdeman_et_al_2011_myoelectric_forearm_prostheses.pdf",
+        ),
+        "parametric design for online user customization": (
+            "Romani e Levi",
+            "romani_levi_2020_parametric_design_assistive_technology.pdf",
+        ),
+    }
+    for key_prefix, (label, filename) in obtained_manual_batch.items():
+        source_key_match = next((key for key in sources if key.startswith(key_prefix)), "")
+        if not source_key_match:
+            raise RuntimeError(f"Could not locate the manual-download entry for {label}")
+        if not (bibliography_dir / filename).is_file():
+            raise RuntimeError(f"Missing expected manual-download PDF for {label}: {filename}")
+        sources.pop(source_key_match)
+
     ghali_key = next((key for key in sources if key.startswith("constructive solid geometry")), "")
     if not ghali_key:
         raise RuntimeError("Could not locate the Ghali book-chapter entry")
@@ -408,9 +482,9 @@ def parse_missing_sources(audit_text: str) -> tuple[list[MissingSource], Missing
         )
 
     result = sorted(sources.values(), key=lambda item: normalized(item.reference))
-    if len(result) != 19:
+    if len(result) != 8:
         labels = "\n".join(f"- {item.reference}: {item.title}" for item in result)
-        raise RuntimeError(f"Expected 19 missing papers, found {len(result)}:\n{labels}")
+        raise RuntimeError(f"Expected 8 missing papers, found {len(result)}:\n{labels}")
     return result, ghali
 
 
@@ -559,6 +633,12 @@ def render(sources: list[MissingSource], ghali: MissingSource, audit: Path, manu
             "- O lote local de 16 de Julho de 2026 retirou mais trinta fontes desta lista após validação dos PDFs e confronto de 116 pares afirmação–fonte; 52 têm suporte directo, 53 suporte parcial e onze são incompatíveis.",
             "- Um segundo lote local do mesmo dia acrescentou catorze textos integrais e retirou essas fontes da lista de faltas; os 44 pares afirmação–fonte associados permanecem pendentes de confronto directo e não foram reclassificados automaticamente.",
             "- Um terceiro lote local acrescentou doze textos integrais e retirou essas fontes da lista de faltas; os 26 pares afirmação–fonte associados permanecem pendentes de confronto directo. No conjunto dos dois lotes ainda não confrontados, existem 70 pares associados a 26 fontes disponíveis localmente.",
+            "- Um quarto lote, de 16 de Julho de 2026, obteve cinco textos integrais em fontes de acesso aberto, resolvidas por Unpaywall e OpenAlex a partir do DOI: Engdahl et al. (Springer), Fisher e Johansen (journals.uct.ac.za), Guo (Dean&Francis), Howard et al. (repositório Cronfa da Universidade de Swansea) e Peters e Richter (ScholarSpace). Os pares afirmação–fonte associados permanecem pendentes de confronto directo.",
+            "- O PDF de Guo (2025) não tem camada de texto pesquisável; o confronto das citações exige leitura directa ou reconhecimento óptico de caracteres.",
+            "- Peters e Richter (2023) foi identificado como comunicação da 56.ª Hawaii International Conference on System Sciences, o que resolve a ausência de DOI registada anteriormente.",
+            "- Um quinto lote, descarregado manualmente em navegador no mesmo dia, acrescentou seis textos integrais de fontes de acesso aberto ou de leitura livre cujos servidores recusam transferências automatizadas: Bates et al. e Baumann e Maria (PMC), ELhadad et al. (ScienceDirect), Franke e von Hippel (repositório da WU Viena), Peerdeman et al. (repositório da Universidade de Twente) e Romani e Levi (repositório do Politécnico de Milão). Todos conservam camada de texto pesquisável e os pares afirmação–fonte associados permanecem pendentes de confronto directo.",
+            "- O ficheiro de Franke e von Hippel é a versão de autor depositada na WU Viena, com 37 páginas; a paginação não corresponde à do artigo publicado na Research Policy, pelo que as citações por página devem remeter para a versão editorial.",
+            "- As restantes fontes sem texto integral dividem-se em dois grupos: as que não têm cópia de acesso aberto conhecida em Unpaywall nem em OpenAlex (Panchal et al., Resnik et al., Story, Virós-i-Martin e Selva, Yao, Moon e Bi e Yüksel et al.) e Figoli, Mattioli e Rampino, cuja comunicação está em acesso aberto na biblioteca digital da DRS mas cujo servidor recusa transferências automatizadas; obtém-se em `https://dl.designresearchsociety.org/drs-conference-papers/drs2022/researchpapers/117/`.",
             "- O PDF de Krahe et al. (2020) confirma o DOI editorial `10.1016/j.procir.2020.01.135`; `10.5445/IR/1000127884`, conservado no registo anterior, identifica o depósito do KIT.",
             "- O PDF de Jones, Chadwell e Dyson (2023) confirma o DOI `10.3389/frhs.2023.1213752`, diferente de `10.3389/frhs.2023.1123682`, ainda registado na bibliografia e assinalado para correcção editorial posterior.",
             "- Dois PDFs válidos acrescentados no mesmo lote — Kang et al. e Bitterman — não correspondem a referências citadas e, por isso, não alteram esta lista. `SHTI-297-SHTI220858.pdf` foi excluído por conter HTML, usando-se o PDF válido de White e Mosca.",

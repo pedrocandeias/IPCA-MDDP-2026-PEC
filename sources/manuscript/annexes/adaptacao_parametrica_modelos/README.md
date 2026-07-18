@@ -12,7 +12,7 @@
 
 O texto foi preparado por leitura comparada de `models/models-config.json`, do mapa antropométrico do servidor, dos modelos OpenSCAD activos, do relatório de adaptação antropométrica da plataforma, do Capítulo 4 e do suplemento `dicionario_parametros_v14.67.0`. A edição actual documenta o estado da plataforma 14.72.0, confirmado em `3a7b2f1`, e distingue-o do suplemento histórico da versão 14.67.0. As relações e valores foram transcritos apenas quando confirmados nos ficheiros examinados. Os exemplos complementares foram recalculados a partir das fórmulas do código; não foram usados para inferir ajuste anatómico ou desempenho funcional.
 
-A figura SVG foi desenhada especificamente para o anexo e representa o fluxo conceptual comum. O PNG é um derivado directo destinado à incorporação nos formatos finais. A figura não reproduz uma interface nem um resultado clínico.
+A figura SVG foi desenhada especificamente para o anexo e representa o fluxo conceptual comum. As ligações usam segmentos ortogonais para separar visualmente o percurso das caixas de texto. Na revisão 0.4.68, a paleta, a tipografia, os contornos e as setas foram uniformizados com as Figuras 5.3–5.5 através de `tools/generate_restyled_figures_068.py`; na revisão 0.4.69, as pontas das setas foram reduzidas e passaram a ter dimensões independentes da espessura das linhas, evitando a sobreposição com caixas e contornos. O PNG de 1800 × 1035 píxeis foi exportado do SVG com o Inkscape e constitui o derivado destinado à incorporação nos formatos finais. A figura não reproduz uma interface nem um resultado clínico.
 
 ## Relação com o suplemento anterior
 
