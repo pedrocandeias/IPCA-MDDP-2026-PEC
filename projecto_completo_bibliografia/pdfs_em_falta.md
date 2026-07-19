@@ -2,7 +2,7 @@
 
 Este é o registo autoritativo das fontes citadas na dissertação cujo texto integral não foi localizado em `material/` ou em `projecto_completo_bibliografia/` e não ficou disponível para confronto directo durante a auditoria bibliográfica.
 
-Última verificação: 2026-07-18. A lista foi reconciliada com `docs/revisoes/auditoria_referencias_texto_papers_061.md` após consulta de 514 registos da API Mendeley.
+Última verificação: 2026-07-19. A lista foi reconciliada com `docs/revisoes/auditoria_referencias_texto_papers_061.md` após consulta de 514 registos da API Mendeley.
 
 ## Síntese
 
@@ -57,5 +57,5 @@ A auditoria identificou ainda um capítulo de livro sem texto integral. Não int
 - Fontes normativas, páginas *web*, repositórios de código e conjuntos DINED sem PDF autónomo não são contabilizados como PDFs científicos em falta.
 
 - SHA-256 do relatório de auditoria usado: `fd92e80cb75467fc14e8147be5a7d3ee40a93d133874e734b50ba26f6a58933e`.
-- SHA-256 do manuscrito usado: `864af5cdd26d426a838653aadf99bf393f811bf0350249b7e25bba804c849058`.
+- SHA-256 do manuscrito usado: `fb3358b56033972064f82c6b6cf017acbab1c5add4ce7795a461d1243f870c7b`.
 - Método de geração: `python3 tools/generate_missing_pdfs_report.py`.

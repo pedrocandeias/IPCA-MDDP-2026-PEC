@@ -1,5 +1,10 @@
 # Changelog
 
+## 2026-07-19
+
+- Actualizada a versão do manuscrito para 0.4.70 e integradas, por comparação de três vias, as revisões gravadas no DOCX em 19 de Julho a partir de uma cópia anterior à versão 0.4.69. Foram reconciliados 55 parágrafos e células nas Secções 8.2–9.4 e no início do Anexo A, removido um parágrafo redundante e sincronizado o mesmo conteúdo no Markdown. Nos dois conflitos da Secção 8.2 conservaram-se a redacção revista e a ressalva metodológica já validada; foi excluído o lapso tipográfico `mODELOS` e clarificada a expressão «modelos de prótese de membro superior». A integração partiu da exportação completa 0.4.69, preservando as notas de rodapé e os 14 comentários. Adicionado `tools/merge_user_docx_edits_070.py`, criada a cópia de segurança `2026-07-19_12-14-26-before-merge-user-edits-070` e preparada a exportação `2026-07-19_12-19-52-integracao-revisoes-docx-070`.
+- Regenerado `projecto_completo_bibliografia/pdfs_em_falta.md` para actualizar o SHA-256 do manuscrito 0.4.70, mantendo o inventário em oito *papers* sem texto integral.
+
 ## 2026-07-18
 
 - Recuperado, antes da publicação, o DOCX canónico da versão 0.4.69 a partir da exportação validada `2026-07-18_18-09-20-reducao-setas-069`. Uma gravação posterior, efectuada a partir de uma cópia desactualizada aberta no LibreOffice, tinha reposto redacção anterior em várias secções e reduzido os comentários de 14 para 11. A gravação desactualizada foi preservada em `2026-07-18_22-22-10-before-recovery-stale-save-069`; a reposição conserva as 13 notas de rodapé, os 14 comentários e as imagens revistas, e o PDF canónico foi regenerado com 189 páginas A4.
