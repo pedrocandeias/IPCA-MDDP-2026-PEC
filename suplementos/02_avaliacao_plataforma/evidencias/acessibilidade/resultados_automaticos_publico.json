@@ -1,0 +1,17 @@
+{
+  "test_id": "ACC-PUB",
+  "tested_url": "https://handfab.pedrocandeias.net",
+  "mode": "non-destructive, unauthenticated",
+  "axe_tags": [
+    "wcag2a",
+    "wcag2aa",
+    "wcag21a",
+    "wcag21aa",
+    "wcag22aa"
+  ],
+  "violation_count": 0,
+  "passes": 8,
+  "incomplete": 1,
+  "violations": [],
+  "note": "Public campaign audits the unauthenticated surface only. Absence of violations does NOT authorise a global conformance claim; authenticated journeys were not run in production."
+}

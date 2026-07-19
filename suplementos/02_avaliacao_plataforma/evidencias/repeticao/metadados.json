@@ -1,0 +1,59 @@
+{
+  "campaign_id": "repetition",
+  "started_at": "2026-07-13T22:22:21.707Z",
+  "finished_at": "2026-07-13T22:56:38.640Z",
+  "timezone": "Europe/Lisbon",
+  "executor": "pec",
+  "platform": {
+    "repository": "/home/pec/dev/ai-parametric-prosthetic-hand-generator",
+    "environment": "local",
+    "tested_url": "http://localhost:3100",
+    "transport": "http",
+    "branch": "staging",
+    "commit": "7e604558b337d02fff979169f057d6cbd0c80c0a",
+    "working_tree_status": "dirty",
+    "working_tree_changes": 13,
+    "version": "14.69.0"
+  },
+  "environment": {
+    "operating_system": "linux 6.17.0-35-generic",
+    "architecture": "x64",
+    "node": "v22.14.0",
+    "package_manager": "npm 11.6.1",
+    "playwright": "1.59.1",
+    "axe_core": "4.12.1",
+    "browsers": [
+      "chromium",
+      "firefox",
+      "webkit"
+    ],
+    "openscad_wasm": "in-browser WebAssembly (openscad.wasm, served from repo root)"
+  },
+  "ai": {
+    "anthropic_key_present": true,
+    "openai_key_present": true,
+    "live_ai_enabled": false,
+    "provider": null,
+    "model_id": null,
+    "sampling_settings": {},
+    "prompt_sha256": null,
+    "schema_sha256": null
+  },
+  "commands": [
+    "npx playwright test test/thesis/repetition/rep-det.spec.js test/thesis/repetition/rep-ai-mock.spec.js --config test/thesis/playwright.thesis.config.js --project chromium\nnpx playwright test test/thesis/repetition/rep-xbr.spec.js --config test/thesis/playwright.thesis.config.js --project chromium --project firefox --project webkit"
+  ],
+  "test_ids": [
+    "REP-DET-001",
+    "REP-DET-002",
+    "REP-DET-003",
+    "REP-XBR-001",
+    "REP-AI-001",
+    "REP-AI-002",
+    "REP-AI-003"
+  ],
+  "deviations": [
+    "Local campaigns run against an isolated synthetic DB on port 3100 (HANDFAB_DB_PATH=data/thesis-test.db), not the developer :3000 instance, to satisfy the \"isolated DB + synthetic data\" requirement.",
+    "REP-XBR sub-run re-executed 2026-07-14 with corrected config: --disable-dev-shm-usage is a Chromium-only flag and was previously set globally, which prevented WebKit from launching (harness-config fault, not a platform incompatibility). After the fix WebKit launches and reaches the login phase; non-completion is recorded neutrally with the phase and raw error, no causal claim."
+  ],
+  "notes": null
+}

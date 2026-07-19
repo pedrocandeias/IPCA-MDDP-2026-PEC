@@ -1,6 +1,6 @@
-# Dicionário de parâmetros e percurso numérico — HandFab 14.67.0
+# Fonte de trabalho do Suplemento 3 — Parametrização e percurso numérico
 
-Este suplemento preserva o dicionário completo dos parâmetros numéricos dos três modelos avaliados na dissertação — Flexy Beast, Paraglider Hand e UnLimbited Phoenix — e um percurso verificável entre um perfil de ensaio, os parâmetros aplicados, as relações OpenSCAD e três malhas 3MF exportadas.
+Este directório preserva o dicionário completo dos parâmetros numéricos dos três modelos avaliados na dissertação — Flexy Beast, Paraglider Hand e UnLimbited Phoenix — e um percurso verificável entre um perfil de ensaio, os parâmetros aplicados, as relações OpenSCAD e três malhas 3MF exportadas. A selecção destinada à entrega encontra-se em `suplementos/03_parametrizacao_percurso/`.
 
 ## Versão e origem
 

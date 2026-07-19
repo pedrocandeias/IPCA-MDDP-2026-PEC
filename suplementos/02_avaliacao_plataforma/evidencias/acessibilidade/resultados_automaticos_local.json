@@ -1,0 +1,61 @@
+{
+  "note": "Automated axe-core coverage only. Absence of violations does NOT authorise a global conformance claim.",
+  "axe_tags": [
+    "wcag2a",
+    "wcag2aa",
+    "wcag21a",
+    "wcag21aa",
+    "wcag22aa"
+  ],
+  "states": [
+    {
+      "test_id": "ACC-AUT-001",
+      "state": "login",
+      "violations": 1,
+      "incomplete": 1
+    },
+    {
+      "test_id": "ACC-AUT-002",
+      "state": "dashboard",
+      "violations": 2,
+      "incomplete": 2
+    },
+    {
+      "test_id": "ACC-AUT-003",
+      "state": "initial",
+      "violations": 2,
+      "incomplete": 2
+    },
+    {
+      "test_id": "ACC-AUT-003",
+      "state": "error",
+      "violations": 2,
+      "incomplete": 2
+    },
+    {
+      "test_id": "ACC-AUT-004",
+      "state": "params",
+      "violations": 3,
+      "incomplete": 2
+    },
+    {
+      "test_id": "ACC-AUT-005",
+      "state": "before",
+      "violations": 1,
+      "incomplete": 2
+    },
+    {
+      "test_id": "ACC-AUT-005",
+      "state": "after",
+      "violations": 1,
+      "incomplete": 2
+    },
+    {
+      "test_id": "ACC-AUT-006",
+      "state": "rendered",
+      "violations": 1,
+      "incomplete": 2
+    }
+  ],
+  "total_violations": 13
+}

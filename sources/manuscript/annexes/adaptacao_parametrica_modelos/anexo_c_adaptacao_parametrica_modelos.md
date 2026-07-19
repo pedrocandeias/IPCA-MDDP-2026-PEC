@@ -22,7 +22,7 @@ O percurso comum compreende cinco etapas:
 4. o valor é limitado ao intervalo declarado na configuração quando provém do mapeamento de perfis;
 5. o ficheiro OpenSCAD transforma os valores aceites segundo as relações próprias do modelo e gera a geometria.
 
-![Fluxo de adaptação paramétrica dos modelos](figura_c1_fluxo_adaptacao_parametrica.png)
+![Fluxo de adaptação paramétrica dos modelos](../../../../figuras/figura_c1_fluxo_adaptacao_parametrica.png)
 
 Figura C.1 — Fluxo entre dados de entrada, mapa comum, regras específicas dos modelos e geometria exportável. Produção própria.
 
@@ -111,7 +111,7 @@ O código confirma espessuras locais de 3,2 mm na zona dos furos médios e 5 mm 
 
 ### C.3.4 Exemplo de propagação já preservado
 
-O percurso numérico do perfil de ensaio de oito anos — valores aplicados, factores derivados e métricas de três malhas — já se encontra preservado no material suplementar associado ao Anexo C. Para evitar duplicação, este anexo não repete a Tabela 4.10 nem os 42 registos do dicionário histórico. Acrescenta apenas a alteração posterior da braçadeira e os casos que expõem dependências ainda não descritas no suplemento 14.67.0.
+O percurso numérico do perfil de ensaio de oito anos — valores aplicados, factores derivados e métricas de três malhas — encontra-se preservado no Suplemento 3 — Parametrização e percurso numérico. Para evitar duplicação, este anexo não repete a Tabela 4.10 nem os 42 registos do dicionário histórico. Acrescenta apenas a alteração posterior da braçadeira e os casos que expõem dependências ainda não descritas nesse suplemento.
 
 O resultado central desse percurso continua a ser pertinente: `palm_breadth_mm` alimenta uma fórmula herdada e não define directamente a extensão transversal da malha. O caso documenta a propagação do valor; não demonstra correspondência anatómica.
 
@@ -362,11 +362,11 @@ Devem impedir a passagem directa para fabrico, ou exigir revisão técnica, as s
 
 O estado actual não aplica todas estas condições como bloqueios automáticos dentro de cada ficheiro OpenSCAD. Algumas estão representadas por limites da interface, outras por funções `min`/`max`, e outras permanecem como critérios de revisão. A distinção deve ser mantida no texto da dissertação.
 
-## C.9 Relação com o suplemento da versão 14.67.0
+## C.9 Relação com o Suplemento 3
 
-O suplemento associado ao Anexo C continua a preservar um estado histórico útil: contém 42 parâmetros numéricos dos três modelos comparados e um percurso do perfil de ensaio até a três malhas do Flexy Beast. Deve, contudo, ser identificado como fotografia da versão 14.67.0.
+O Suplemento 3 — Parametrização e percurso numérico preserva um estado histórico útil: contém 42 parâmetros numéricos dos três modelos comparados e um percurso do perfil de ensaio até a três malhas do Flexy Beast. Deve, contudo, ser identificado como fotografia do estado usado nesses ensaios.
 
-Depois dessa versão, a braçadeira do Flexy Beast mudou de contrato paramétrico. Por esse motivo, `gauntlet_width_mm`, `gauntlet_length_mm`, `gauntlet_wall_mm`, `gauntlet_pos_adjust` e `strap_splay_adjust` não descrevem o estado 14.72.0. Foram substituídos, no essencial, por `wrist_circumference_mm`, `gauntlet_tilt`, `gauntlet_length_scale`, `gauntlet_rim_hole_d` e uma colocação automática sobre o eixo do pino. O anexo presente deve acompanhar o suplemento histórico com esta nota de versão.
+Depois desse estado, a estrutura paramétrica da braçadeira do Flexy Beast foi alterada. Por esse motivo, `gauntlet_width_mm`, `gauntlet_length_mm`, `gauntlet_wall_mm`, `gauntlet_pos_adjust` e `strap_splay_adjust` não descrevem o estado final examinado. Foram substituídos, no essencial, por `wrist_circumference_mm`, `gauntlet_tilt`, `gauntlet_length_scale`, `gauntlet_rim_hole_d` e uma colocação automática sobre o eixo do pino. O presente anexo acompanha esse estado histórico com esta nota de evolução.
 
 ## C.10 Limite de interpretação
 
@@ -382,7 +382,7 @@ Não se conclui que as geometrias sejam anatomicamente adequadas a uma pessoa, q
 - implementações OpenSCAD activas das famílias Flexy Beast, Cyborg Beast,
   Paraglider Hand e UnLimbited Phoenix, incluindo as dependências de montagem;
 - dicionário integral de parâmetros e percurso numérico do perfil de ensaio,
-  conservados no material suplementar do Anexo C;
+  conservados no Suplemento 3 — Parametrização e percurso numérico;
 - Capítulo 4 do manuscrito consolidado;
 - relatório integral de revisão académica.
 
@@ -390,7 +390,7 @@ Não se conclui que as geometrias sejam anatomicamente adequadas a uma pessoa, q
 
 - comparação dos quatro modelos registados com os parâmetros do catálogo versionado;
 - leitura das fórmulas e constantes nos ficheiros OpenSCAD activos;
-- confronto entre a versão 14.67.0 do suplemento e a versão 14.72.0;
+- confronto entre o Suplemento 3 e o estado final examinado;
 - confirmação do mapa entre medidas normalizadas e nomes dos parâmetros;
 - recálculo independente dos exemplos numéricos apresentados nas secções C.3 a C.6;
 - verificação dos valores inicial, mínimo, máximo e incremento declarados;

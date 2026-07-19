@@ -1,0 +1,418 @@
+{
+  "test_id": "REP-DET-003",
+  "model_id": "unlimbed_phoenix_hand",
+  "requested_parameters": {
+    "LeftRight": "Left",
+    "palm_breadth_mm": 95,
+    "index_finger_length_mm": 72,
+    "index_base_length_mm": 31,
+    "middle_finger_length_mm": 72,
+    "middle_base_length_mm": 31,
+    "ring_finger_length_mm": 72,
+    "ring_base_length_mm": 31,
+    "pinky_finger_length_mm": 72,
+    "pinky_base_length_mm": 31,
+    "thumb_length_mm": 72,
+    "thumb_base_length_mm": 31
+  },
+  "applied_parameters": null,
+  "runs_requested": 10,
+  "runs_concluded": 5,
+  "tolerance_mm": 0.05,
+  "distinct_checksums": 1,
+  "binary_stable": true,
+  "geometry_classes": [
+    "identical",
+    "identical",
+    "identical",
+    "identical",
+    "identical"
+  ],
+  "all_geometrically_equivalent": true,
+  "reference_metrics": {
+    "format": "binary",
+    "bytes": 3408584,
+    "sha256": "c93631523e4b43f9a22669502f34b9d032723d1fb414e045fd67bc475ed20554",
+    "faces": 68170,
+    "unique_vertices": 32399,
+    "bbox": {
+      "min": [
+        -66.643776,
+        -172.621948,
+        0
+      ],
+      "max": [
+        322.367523,
+        170.304871,
+        35.396767
+      ],
+      "dims_mm": [
+        389.011299,
+        342.926819,
+        35.396767
+      ]
+    },
+    "volume_mm3": 32376.427543,
+    "surface_area_mm2": 99988.94544,
+    "degenerate_faces": 18,
+    "boundary_edges": 20,
+    "non_manifold_edges": 2353,
+    "watertight": false,
+    "manifold": false
+  },
+  "runs": [
+    {
+      "run": 0,
+      "conclusion": false,
+      "attempts": [
+        {
+          "attempt": 0,
+          "ms": 28108,
+          "error": "page.waitForSelector: Timeout 20000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#login-form') to be visible\u001b[22m\n"
+        },
+        {
+          "attempt": 1,
+          "ms": 28073,
+          "error": "page.waitForSelector: Timeout 20000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#login-form') to be visible\u001b[22m\n"
+        }
+      ],
+      "ms": 56181
+    },
+    {
+      "run": 1,
+      "conclusion": false,
+      "attempts": [
+        {
+          "attempt": 0,
+          "ms": 28072,
+          "error": "page.waitForSelector: Timeout 20000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#login-form') to be visible\u001b[22m\n"
+        },
+        {
+          "attempt": 1,
+          "ms": 28081,
+          "error": "page.waitForSelector: Timeout 20000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#login-form') to be visible\u001b[22m\n"
+        }
+      ],
+      "ms": 56153
+    },
+    {
+      "run": 2,
+      "conclusion": false,
+      "attempts": [
+        {
+          "attempt": 0,
+          "ms": 28073,
+          "error": "page.waitForSelector: Timeout 20000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#login-form') to be visible\u001b[22m\n"
+        },
+        {
+          "attempt": 1,
+          "ms": 28073,
+          "error": "page.waitForSelector: Timeout 20000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#login-form') to be visible\u001b[22m\n"
+        }
+      ],
+      "ms": 56146
+    },
+    {
+      "run": 3,
+      "conclusion": false,
+      "attempts": [
+        {
+          "attempt": 0,
+          "ms": 28070,
+          "error": "page.waitForSelector: Timeout 20000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#login-form') to be visible\u001b[22m\n"
+        },
+        {
+          "attempt": 1,
+          "ms": 28081,
+          "error": "page.waitForSelector: Timeout 20000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#login-form') to be visible\u001b[22m\n"
+        }
+      ],
+      "ms": 56151
+    },
+    {
+      "run": 4,
+      "conclusion": false,
+      "attempts": [
+        {
+          "attempt": 0,
+          "ms": 28074,
+          "error": "page.waitForSelector: Timeout 20000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#login-form') to be visible\u001b[22m\n"
+        },
+        {
+          "attempt": 1,
+          "ms": 28084,
+          "error": "page.waitForSelector: Timeout 20000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#login-form') to be visible\u001b[22m\n"
+        }
+      ],
+      "ms": 56158
+    },
+    {
+      "run": 5,
+      "conclusion": true,
+      "attempt": 0,
+      "ms": 26124,
+      "metrics": {
+        "format": "binary",
+        "bytes": 3408584,
+        "sha256": "c93631523e4b43f9a22669502f34b9d032723d1fb414e045fd67bc475ed20554",
+        "faces": 68170,
+        "unique_vertices": 32399,
+        "bbox": {
+          "min": [
+            -66.643776,
+            -172.621948,
+            0
+          ],
+          "max": [
+            322.367523,
+            170.304871,
+            35.396767
+          ],
+          "dims_mm": [
+            389.011299,
+            342.926819,
+            35.396767
+          ]
+        },
+        "volume_mm3": 32376.427543,
+        "surface_area_mm2": 99988.94544,
+        "degenerate_faces": 18,
+        "boundary_edges": 20,
+        "non_manifold_edges": 2353,
+        "watertight": false,
+        "manifold": false
+      }
+    },
+    {
+      "run": 6,
+      "conclusion": true,
+      "attempt": 0,
+      "ms": 24046,
+      "metrics": {
+        "format": "binary",
+        "bytes": 3408584,
+        "sha256": "c93631523e4b43f9a22669502f34b9d032723d1fb414e045fd67bc475ed20554",
+        "faces": 68170,
+        "unique_vertices": 32399,
+        "bbox": {
+          "min": [
+            -66.643776,
+            -172.621948,
+            0
+          ],
+          "max": [
+            322.367523,
+            170.304871,
+            35.396767
+          ],
+          "dims_mm": [
+            389.011299,
+            342.926819,
+            35.396767
+          ]
+        },
+        "volume_mm3": 32376.427543,
+        "surface_area_mm2": 99988.94544,
+        "degenerate_faces": 18,
+        "boundary_edges": 20,
+        "non_manifold_edges": 2353,
+        "watertight": false,
+        "manifold": false
+      }
+    },
+    {
+      "run": 7,
+      "conclusion": true,
+      "attempt": 0,
+      "ms": 25583,
+      "metrics": {
+        "format": "binary",
+        "bytes": 3408584,
+        "sha256": "c93631523e4b43f9a22669502f34b9d032723d1fb414e045fd67bc475ed20554",
+        "faces": 68170,
+        "unique_vertices": 32399,
+        "bbox": {
+          "min": [
+            -66.643776,
+            -172.621948,
+            0
+          ],
+          "max": [
+            322.367523,
+            170.304871,
+            35.396767
+          ],
+          "dims_mm": [
+            389.011299,
+            342.926819,
+            35.396767
+          ]
+        },
+        "volume_mm3": 32376.427543,
+        "surface_area_mm2": 99988.94544,
+        "degenerate_faces": 18,
+        "boundary_edges": 20,
+        "non_manifold_edges": 2353,
+        "watertight": false,
+        "manifold": false
+      }
+    },
+    {
+      "run": 8,
+      "conclusion": true,
+      "attempt": 0,
+      "ms": 23724,
+      "metrics": {
+        "format": "binary",
+        "bytes": 3408584,
+        "sha256": "c93631523e4b43f9a22669502f34b9d032723d1fb414e045fd67bc475ed20554",
+        "faces": 68170,
+        "unique_vertices": 32399,
+        "bbox": {
+          "min": [
+            -66.643776,
+            -172.621948,
+            0
+          ],
+          "max": [
+            322.367523,
+            170.304871,
+            35.396767
+          ],
+          "dims_mm": [
+            389.011299,
+            342.926819,
+            35.396767
+          ]
+        },
+        "volume_mm3": 32376.427543,
+        "surface_area_mm2": 99988.94544,
+        "degenerate_faces": 18,
+        "boundary_edges": 20,
+        "non_manifold_edges": 2353,
+        "watertight": false,
+        "manifold": false
+      }
+    },
+    {
+      "run": 9,
+      "conclusion": true,
+      "attempt": 0,
+      "ms": 23677,
+      "metrics": {
+        "format": "binary",
+        "bytes": 3408584,
+        "sha256": "c93631523e4b43f9a22669502f34b9d032723d1fb414e045fd67bc475ed20554",
+        "faces": 68170,
+        "unique_vertices": 32399,
+        "bbox": {
+          "min": [
+            -66.643776,
+            -172.621948,
+            0
+          ],
+          "max": [
+            322.367523,
+            170.304871,
+            35.396767
+          ],
+          "dims_mm": [
+            389.011299,
+            342.926819,
+            35.396767
+          ]
+        },
+        "volume_mm3": 32376.427543,
+        "surface_area_mm2": 99988.94544,
+        "degenerate_faces": 18,
+        "boundary_edges": 20,
+        "non_manifold_edges": 2353,
+        "watertight": false,
+        "manifold": false
+      }
+    }
+  ],
+  "comparisons": [
+    {
+      "run": 5,
+      "binary_identical": true,
+      "geometry_class": "identical",
+      "deltas": {
+        "max_bbox_dim_delta_mm": 0,
+        "bbox_dim_deltas_mm": [
+          0,
+          0,
+          0
+        ],
+        "volume_delta_mm3": 0,
+        "faces_equal": true,
+        "unique_vertices_equal": true
+      }
+    },
+    {
+      "run": 6,
+      "binary_identical": true,
+      "geometry_class": "identical",
+      "deltas": {
+        "max_bbox_dim_delta_mm": 0,
+        "bbox_dim_deltas_mm": [
+          0,
+          0,
+          0
+        ],
+        "volume_delta_mm3": 0,
+        "faces_equal": true,
+        "unique_vertices_equal": true
+      }
+    },
+    {
+      "run": 7,
+      "binary_identical": true,
+      "geometry_class": "identical",
+      "deltas": {
+        "max_bbox_dim_delta_mm": 0,
+        "bbox_dim_deltas_mm": [
+          0,
+          0,
+          0
+        ],
+        "volume_delta_mm3": 0,
+        "faces_equal": true,
+        "unique_vertices_equal": true
+      }
+    },
+    {
+      "run": 8,
+      "binary_identical": true,
+      "geometry_class": "identical",
+      "deltas": {
+        "max_bbox_dim_delta_mm": 0,
+        "bbox_dim_deltas_mm": [
+          0,
+          0,
+          0
+        ],
+        "volume_delta_mm3": 0,
+        "faces_equal": true,
+        "unique_vertices_equal": true
+      }
+    },
+    {
+      "run": 9,
+      "binary_identical": true,
+      "geometry_class": "identical",
+      "deltas": {
+        "max_bbox_dim_delta_mm": 0,
+        "bbox_dim_deltas_mm": [
+          0,
+          0,
+          0
+        ],
+        "volume_delta_mm3": 0,
+        "faces_equal": true,
+        "unique_vertices_equal": true
+      }
+    }
+  ],
+  "verdict": "inconclusivo"
+}

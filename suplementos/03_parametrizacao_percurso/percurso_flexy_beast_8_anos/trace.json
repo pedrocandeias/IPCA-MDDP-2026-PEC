@@ -1,0 +1,166 @@
+{
+  "platform_version": "14.67.0",
+  "git_commit": "bcef0db",
+  "archived_execution_date": "2026-07-08",
+  "model": "flexy_beast",
+  "profile": {
+    "key": "child_8",
+    "label": "Boy 8",
+    "text": "boy, 8 years old, 26kg, 128cm height, Brazil, small hands"
+  },
+  "grounded": true,
+  "parameter_limits_and_values": {
+    "palm_breadth_mm": {
+      "initial": 83,
+      "minimum": 55,
+      "maximum": 110,
+      "applied": 64,
+      "clamped": false
+    },
+    "middle_finger_length_mm": {
+      "initial": 72,
+      "minimum": 40,
+      "maximum": 120,
+      "applied": 60,
+      "clamped": false
+    },
+    "index_finger_length_mm": {
+      "initial": 68,
+      "minimum": 40,
+      "maximum": 120,
+      "applied": 57,
+      "clamped": false
+    },
+    "ring_finger_length_mm": {
+      "initial": 68,
+      "minimum": 40,
+      "maximum": 120,
+      "applied": 57,
+      "clamped": false
+    },
+    "pinky_finger_length_mm": {
+      "initial": 55,
+      "minimum": 30,
+      "maximum": 100,
+      "applied": 46,
+      "clamped": false
+    },
+    "thumb_length_mm": {
+      "initial": 65,
+      "minimum": 35,
+      "maximum": 100,
+      "applied": 50,
+      "clamped": false
+    },
+    "joint_dia": {
+      "initial": 7,
+      "minimum": 4,
+      "maximum": 10,
+      "applied": 5,
+      "clamped": false
+    },
+    "joint_thick": {
+      "initial": 4,
+      "minimum": 1,
+      "maximum": 6,
+      "applied": 2,
+      "clamped": false
+    },
+    "gauntlet_width_mm": {
+      "initial": 60,
+      "minimum": 40,
+      "maximum": 90,
+      "applied": 47,
+      "clamped": false
+    },
+    "gauntlet_length_mm": {
+      "initial": 108,
+      "minimum": 70,
+      "maximum": 150,
+      "applied": 80,
+      "clamped": false
+    },
+    "gauntlet_wall_mm": {
+      "initial": 3,
+      "minimum": 2,
+      "maximum": 5,
+      "applied": 2,
+      "clamped": false
+    },
+    "wrist_pin_dia": {
+      "initial": 7,
+      "minimum": 3,
+      "maximum": 8,
+      "applied": 5,
+      "clamped": false
+    }
+  },
+  "derived_openscad_values": {
+    "formula_xScaleFactor": "(palm_breadth_mm + 5) / 55",
+    "xScaleFactor": 1.254545,
+    "formula_fingerLength": "middle_finger_length_mm / (37 * xScaleFactor)",
+    "fingerLength": 1.292597,
+    "digit_proportions_relative_to_middle": {
+      "index": 0.95,
+      "middle": 1.0,
+      "ring": 0.95,
+      "pinky": 0.766667,
+      "thumb": 0.833333
+    }
+  },
+  "mesh_metrics": [
+    {
+      "file": "palm.3mf",
+      "sha256": "e5d31298f1d899bb4cd828af6194bc36129684a4d5efba61262e1bdbfe96a60a",
+      "bbox_xyz_mm": [
+        97.385,
+        80.103,
+        37.123
+      ],
+      "bbox_sorted_mm": [
+        97.385,
+        80.103,
+        37.123
+      ],
+      "watertight": true,
+      "volume_cm3": 51.381,
+      "faces": 11186
+    },
+    {
+      "file": "middle_base.3mf",
+      "sha256": "e4fde337389f6232edfe5a3b192d6015426e7b38d4a6ae6e935c10c5108a2546",
+      "bbox_xyz_mm": [
+        37.451,
+        14.913,
+        14.775
+      ],
+      "bbox_sorted_mm": [
+        37.451,
+        14.913,
+        14.775
+      ],
+      "watertight": true,
+      "volume_cm3": 5.225,
+      "faces": 888
+    },
+    {
+      "file": "middle_tip.3mf",
+      "sha256": "ef82b536056af5137f683a364ccc3a1cbfa994f8b1a577a9e60a3e13a982cc11",
+      "bbox_xyz_mm": [
+        52.183,
+        14.913,
+        22.697
+      ],
+      "bbox_sorted_mm": [
+        52.183,
+        22.697,
+        14.913
+      ],
+      "watertight": false,
+      "volume_cm3": null,
+      "faces": 1198
+    }
+  ],
+  "params_sha256": "d28371a4b36bbcf123065d680b433eac8d6378572df86127aa67e187c5a0cd84",
+  "interpretation_limit": "Technical trace of a simulated profile; not evidence of anatomical fit, comfort, function or clinical validity."
+}

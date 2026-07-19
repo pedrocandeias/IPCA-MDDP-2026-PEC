@@ -12,7 +12,7 @@ from lxml import etree
 
 
 ROOT = Path(__file__).resolve().parents[1]
-PNG = ROOT / "sources/manuscript/annexes/adaptacao_parametrica_modelos/figura_c1_fluxo_adaptacao_parametrica.png"
+PNG = ROOT / "figuras/figura_c1_fluxo_adaptacao_parametrica.png"
 
 TARGETS = {
     ROOT / "pedro-candeias-projeto-mestrado-mdddp-ipca-2026-revisto.docx": "word/media/image34.png",

@@ -1,6 +1,6 @@
 # Pacote de avaliação técnica da plataforma HandFab
 
-**Estado:** campanhas executadas; resultados consolidados no Anexo B, com verificações manuais de acessibilidade ainda pendentes.
+**Estado:** campanhas executadas; resultados consolidados no Anexo B, incluindo a verificação manual de acessibilidade com sete resultados conformes e cinco não conformes.
 
 **Data de criação:** 13 de julho de 2026.
 
@@ -9,6 +9,8 @@
 ## Finalidade
 
 Este directório reúne os protocolos, modelos de relatório, resultados e instrumentos de registo verificável destinados à avaliação técnica da plataforma HandFab. A síntese orientada ao Design Industrial encontra-se em `anexo_b_avaliacao_processo_interface_handfab.md`. Os modelos técnicos separados são conservados como instrumentos de trabalho e devem ser lidos em conjunto com o anexo consolidado e com os resultados estruturados.
+
+A selecção mínima destinada à entrega encontra-se em `suplementos/02_avaliacao_plataforma/`. Essa cópia exclui modelos por preencher, agregados redundantes e estados intermédios, conservando os metadados, comandos, identificadores e resultados necessários para sustentar o manuscrito.
 
 Não são registados resultados presumidos. Os casos não concluídos ou não executados permanecem explicitamente identificados como parciais, inconclusivos ou pendentes.
 

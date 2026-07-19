@@ -1,4 +1,4 @@
-modelo,perfil,versao_plataforma,material,impressora,identificador_especime,montagem_concluida,pinos_sem_dano_ou_correcao,polegar_movimento_livre,indicador_movimento_livre,medio_movimento_livre,anelar_movimento_livre,mindinho_movimento_livre,colisoes_ou_bloqueios,fecho_por_cabo,retorno_posicao_inicial,ciclos_concluidos,alteracao_apos_ciclos,envolve_cilindro_30_mm,envolve_cilindro_50_mm,envolve_cilindro_70_mm,observacoes
-Flexy Beast,,,,,,,,,,,,,,,,,,,,,
-UnLimbited Phoenix,,,,,,,,,,,,,,,,,,,,,
-Paraglider Hand,,,,,,,,,,,,,,,,,,,,,
+modelo,perfil,material,impressora,identificador_especime,montagem_concluida,pinos_sem_dano_ou_correcao,polegar_movimento_livre,indicador_movimento_livre,medio_movimento_livre,anelar_movimento_livre,mindinho_movimento_livre,colisoes_ou_bloqueios,fecho_por_cabo,retorno_posicao_inicial,ciclos_concluidos,alteracao_apos_ciclos,envolve_cilindro_30_mm,envolve_cilindro_50_mm,envolve_cilindro_70_mm,observacoes
+Flexy Beast,,,,,,,,,,,,,,,,,,,,
+UnLimbited Phoenix,teen_15,PLA,Bambu Lab A1,PHX-TEEN15-MONT-001,sim,sim,sim,sim,sim,sim,sim,não,sim,sim,"repetidos; número exacto não registado",sim,não avaliado,não avaliado,não avaliado,"A montagem foi concluída com o espécime em PLA do perfil de ensaio de 15 anos; os movimentos, o fecho por cabo e o retorno funcionaram. Após ensaios repetidos, os elásticos das articulações alargaram e tiveram de ser substituídos; depois da substituição, o funcionamento foi restabelecido. Não foram registados o número exacto de ciclos nem ensaios com cilindros."
+Paraglider Hand,,,,,,,,,,,,,,,,,,,,

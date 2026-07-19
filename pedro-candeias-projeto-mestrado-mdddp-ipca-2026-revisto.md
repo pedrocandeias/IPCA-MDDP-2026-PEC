@@ -1,6 +1,6 @@
 Projecto completo
 
-Versão do documento: 0.4.70
+Versão do documento: 0.4.74
 
 ## INTEGRAÇÃO DO *DESIGN* E DA INTELIGÊNCIA ARTIFICIAL EM PROCESSOS PARAMÉTRICOS PARA O DESENVOLVIMENTO DE PRÓTESES DE MEMBROS SUPERIORES EM IMPRESSÃO 3D.
 
@@ -154,37 +154,37 @@ The personalisation of upper-limb prostheses remains constrained by high costs, 
 
 | Identificação | Descrição | Página |
 | --- | --- | --- |
-| Tabela 2.1 | Papéis dos profissionais de saúde no desenvolvimento de dispositivos médicos | 9 |
-| Tabela 2.2 | Elementos centrais na configuração da participação em sistemas configuráveis | 27 |
-| Tabela 2.3 | Correspondência entre lacunas do estado da arte, resposta da investigação e limites de avaliação | 34 |
-| Tabela 3.1 | Ciclos de *Research Through Design* documentados no desenvolvimento | 36 |
+| Tabela 2.1 | Papéis dos profissionais de saúde no desenvolvimento de dispositivos médicos | 10 |
+| Tabela 2.2 | Elementos centrais na configuração da participação em sistemas configuráveis | 28 |
+| Tabela 2.3 | Correspondência entre lacunas do estado da arte, resposta da investigação e limites de avaliação | 35 |
+| Tabela 3.1 | Ciclos de *Research Through Design* documentados no desenvolvimento | 37 |
 | Tabela 3.2 | Correspondência entre perguntas, actividades, evidência e limites | 38 |
-| Tabela 3.3 | Métodos, unidades de análise, critérios e localização dos resultados | 39 |
-| Tabela 4.1 | Principais parâmetros antropométricos da mão e do membro superior relevantes para modelação paramétrica | 46 |
-| Tabela 4.2 | Conjuntos mínimos de parâmetros por nível de amputação | 46 |
-| Tabela 4.3 | Métodos de recolha de dados antropométricos e suas características | 48 |
-| Tabela 4.4 | Funções e limites da base antropométrica na configuração | 49 |
-| Tabela 4.5 | Estrutura hierárquica dos parâmetros no modelo paramétrico | 50 |
-| Tabela 4.6 | Mapeamento entre parâmetros antropométricos e elementos do modelo | 52 |
-| Tabela 4.7 | Estrutura técnica em camadas de um modelo paramétrico em OpenSCAD para próteses personalizadas | 54 |
+| Tabela 3.3 | Métodos, unidades de análise, critérios e localização dos resultados | 41 |
+| Tabela 4.1 | Principais parâmetros antropométricos da mão e do membro superior relevantes para modelação paramétrica | 47 |
+| Tabela 4.2 | Conjuntos mínimos de parâmetros por nível de amputação | 48 |
+| Tabela 4.3 | Métodos de recolha de dados antropométricos e suas características | 49 |
+| Tabela 4.4 | Funções e limites da base antropométrica na configuração | 50 |
+| Tabela 4.5 | Estrutura hierárquica dos parâmetros no modelo paramétrico | 51 |
+| Tabela 4.6 | Mapeamento entre parâmetros antropométricos e elementos do modelo | 53 |
+| Tabela 4.7 | Estrutura técnica em camadas de um modelo paramétrico em OpenSCAD para próteses personalizadas | 55 |
 | Tabela 4.8 | Síntese das relações implementadas e respectivas limitações | 56 |
-| Tabela 4.9 | Dicionário operacional dos parâmetros numéricos dos modelos avaliados | 57 |
-| Tabela 4.10 | Exemplo da transformação das medidas antropométricas em geometria digital no Flexy Beast | 58 |
-| Tabela 4.11 | Cronologia das principais iterações paramétricas | 59 |
-| Tabela 5.1 | Fluxo de dados e responsabilidades da plataforma | 63 |
+| Tabela 4.9 | Dicionário operacional dos parâmetros numéricos dos modelos avaliados | 58 |
+| Tabela 4.10 | Exemplo da transformação das medidas antropométricas em geometria digital no Flexy Beast | 60 |
+| Tabela 4.11 | Cronologia das principais iterações paramétricas | 61 |
+| Tabela 5.1 | Fluxo de dados e responsabilidades da plataforma | 66 |
 | Tabela 5.2 | Componentes, estados e limites do protótipo examinado | 62 |
 | Tabela 5.3 | Modelos integrados na plataforma e respectiva avaliação | 68 |
-| Tabela 6.1 | Especificação técnica dos modelos de IA e da estrutura da sugestão paramétrica | 80 |
-| Tabela 6.2 | Distribuição de tarefas entre regras, IA e supervisão humana | 83 |
-| Tabela 8.1 | Evidência do funcionamento da plataforma no processo de projecto | 89 |
+| Tabela 6.1 | Especificação técnica dos modelos de IA e da estrutura da sugestão paramétrica | 82 |
+| Tabela 6.2 | Distribuição de tarefas entre regras, IA e supervisão humana | 85 |
+| Tabela 8.1 | Evidência do funcionamento da plataforma no processo de projecto | 91 |
 | Tabela 8.2 | Projectos de preparação digital para impressão 3D com configuração analisada | 91 |
-| Tabela 8.3 | Inspecção computacional das malhas geradas para um perfil antropométrico de 8 anos | 93 |
-| Tabela 8.4 | Descrições submetidas nos cenários de avaliação da IA | 96 |
-| Tabela 8.5 | Síntese da avaliação das sugestões de IA | 98 |
-| Tabela 8.6 | Modelos e mecanismos de escala avaliados | 99 |
+| Tabela 8.3 | Inspecção computacional das malhas geradas para um perfil antropométrico de 8 anos | 95 |
+| Tabela 8.4 | Descrições submetidas nos cenários de avaliação da IA | 99 |
+| Tabela 8.5 | Síntese da avaliação das sugestões de IA | 100 |
+| Tabela 8.6 | Modelos e mecanismos de escala avaliados | 102 |
 | Tabela 8.7 | Factor de escala da maior dimensão da palma exportada relativamente à configuração de referência | 99 |
 | Tabela 8.8 | Discussão dos resultados face às lacunas seleccionadas do estado da arte | 101 |
-| Tabela 9.1 | Estado da resposta às perguntas de investigação aprovadas | 103 |
+| Tabela 9.1 | Estado da resposta às perguntas de investigação aprovadas | 106 |
 
 ## Lista de figuras
 
@@ -200,25 +200,25 @@ The personalisation of upper-limb prostheses remains constrained by high costs, 
 | Figura 2.7 | Modelo de processo para configurar participação em ecossistemas de inovação e cocriação. | 27 |
 | Figura 2.8 | Distribuição dos estudos por nível de prontidão tecnológica (TRL) e categoria de aplicação. O gráfico distingue estudos sobre próteses em geral, próteses de membro inferior produzidas por impressão 3D (LL 3DP), próteses de membro inferior desenvolvidas com recurso a CAD/CAM (LL CAD/CAM), outras abordagens aplicadas ao membro inferior (*LL other*), próteses de membro superior produzidas por impressão 3D (UL 3DP) e outros casos não enquadrados nas categorias anteriores. | 31 |
 | Figura 3.1 | Processo interdisciplinar de desenvolvimento de uma prótese de membro superior impressa em 3D. | 38 |
-| Figura 3.2 | Exemplo de recolha dimensional para ajuste de prótese impressa em 3D. | 42 |
-| Figura 4.1 | Parâmetros antropométricos utilizados na modelação paramétrica de dedos protésicos. | 45 |
-| Figura 4.2 | Comparação entre o escalonamento uniforme e a modelação paramétrica de dedo protésico. | 48 |
-| Figura 4.3 | Relação entre modelo paramétrico digital, prototipagem e verificação de um dedo protésico. | 53 |
-| Figura 5.1 | Fluxo geral de produção personalizada de próteses a partir de plataforma *web* – Hand Fab | 62 |
-| Figura 5.2 | Painel de configuração dos perfis de utilizador na plataforma HandFab. | 63 |
+| Figura 3.2 | Exemplo de recolha dimensional para ajuste de prótese impressa em 3D. | 43 |
+| Figura 4.1 | Parâmetros antropométricos utilizados na modelação paramétrica de dedos protésicos. | 46 |
+| Figura 4.2 | Comparação entre o escalonamento uniforme e a modelação paramétrica de dedo protésico. | 49 |
+| Figura 4.3 | Relação entre modelo paramétrico digital, prototipagem e verificação de um dedo protésico. | 54 |
+| Figura 5.1 | Fluxo geral de produção personalizada de próteses a partir de plataforma *web* – Hand Fab | 64 |
+| Figura 5.2 | Painel de configuração dos perfis de utilizador na plataforma HandFab. | 65 |
 | Figura 5.3 | Arquitectura da plataforma e fronteiras entre navegador, servidor, serviço externo de IA e preparação do fabrico. | 67 |
 | Figura 5.4 | Sequência de dados e decisões desde o perfil ou descrição até à sugestão, confirmação, geração determinística e exportação. | 68 |
 | Figura 5.5 | Fluxo geral de produção personalizada de próteses a partir de digitalização, CAD adaptativo e fabrico aditivo. | 70 |
-| Figura 5.6 | Visualização do código OpenSCAD e da geometria correspondente na plataforma HandFab. | 71 |
-| Figura 5.7 | Ferramenta paramétrica para configuração de ajudas técnicas com variação de dimensões, materiais e peso. | 72 |
+| Figura 5.6 | Visualização do código OpenSCAD e da geometria correspondente na plataforma HandFab. | 73 |
+| Figura 5.7 | Ferramenta paramétrica para configuração de ajudas técnicas com variação de dimensões, materiais e peso. | 74 |
 | Figura 5.8 | Interface de selecção, configuração paramétrica e materiais da plataforma HandFab. | 73 |
 | Figura 6.1 | Relação entre desafios de compreensão das decisões e princípios de IA responsável. | 86 |
 | Figura 7.1 | Exemplo publicado de teste de uma prótese impressa em 3D com um utilizador; esta actividade não integrou a avaliação da presente dissertação. | 87 |
-| Figura 8.1 | Componentes impressos e estados preliminares de montagem: segmentos digitais articulados, palma e elementos separados. | 94 |
-| Figura 8.2 | Séries físicas de segmentos identificados pelos perfis de ensaio de 8, 15, 28 e 70 anos. | 94 |
-| Figura 8.3 | UnLimbited Phoenix configurada para o perfil de ensaio de 15 anos, apresentada em sete vistas da montagem física. | 95 |
-| Figura 8.4 | Tarefas funcionais usadas em avaliação de prótese personalizada de membro superior. | 95 |
-| Figura C.1 | Fluxo entre dados de entrada, mapa comum, regras específicas dos modelos e geometria exportável. Produção própria. | 145 |
+| Figura 8.1 | Componentes impressos e estados preliminares de montagem: segmentos digitais articulados, palma e elementos separados. | 97 |
+| Figura 8.2 | Séries físicas de segmentos identificados pelos perfis de ensaio de 8, 15, 28 e 70 anos. | 97 |
+| Figura 8.3 | UnLimbited Phoenix configurada para o perfil de ensaio de 15 anos, apresentada em sete vistas da montagem física. | 97 |
+| Figura 8.4 | Tarefas funcionais usadas em avaliação de prótese personalizada de membro superior. | 98 |
+| Figura C.1 | Fluxo entre dados de entrada, mapa comum, regras específicas dos modelos e geometria exportável. Produção própria. | 147 |
 
 ## Capítulo 1 — Introdução
 
@@ -859,6 +859,14 @@ Tabela 3.3 — Métodos, unidades de análise, critérios e localização dos re
 | Observação dos protótipos existentes | Peça física identificada | Fotografias e registos de material | Existência da peça e observação visual da materialização | Secção 8.1.3; sem inferência dimensional ou mecânica |
 | Medição física e montagem | Palma impressa ou protótipo completo | Paquímetro; um valor registado em X/Y/Z por palma em PLA e PETG; folha de cinco ciclos de articulação | Desvio malha–peça; colisões, fecho e retorno quando aplicáveis | 72 comparações dimensionais no Anexo D; montagem e articulação ainda sem resultados sistemáticos |
 
+O material suplementar entregue com a dissertação encontra-se organizado na pasta
+`suplementos/` em quatro conjuntos: Suplemento 1 — Dados antropométricos;
+Suplemento 2 — Avaliação técnica da plataforma; Suplemento 3 — Parametrização e
+percurso numérico; e Suplemento 4 — Preparação para impressão e protótipos. O
+ficheiro `guia_dos_suplementos.md` apresenta o conteúdo de cada conjunto. O
+ficheiro `manifesto_ficheiros.csv` relaciona cada elemento com a sua origem e
+função.
+
 ### 3.4 Métodos de recolha e análise de dados
 
 A recolha combinou análise documental, comparação de precedentes, inspecção do código, construção paramétrica, cenários automatizados, medição de malhas, preparação para impressão, observação de peças físicas e reflexão sobre cada ciclo. Os dados usados na análise foram: parâmetros e limites declarados no catálogo de modelos; respostas JSON e metadados de execução; dimensões das malhas exportadas; relatórios técnicos por modelo; ficheiros 3MF; quatro projectos com parâmetros de preparação; resultados de doze casos sob uma condição digital comum; fotografias dos protótipos; e registos de alterações do código.
@@ -1141,7 +1149,7 @@ Em consequência, o valor do OpenSCAD nesta investigação não reside numa prom
 
 ### 4.3.3 Relações implementadas nos modelos avaliados
 
-As relações gerais das Tabelas 4.5 e 4.6 foram concretizadas de forma diferente em cada família. O estado usado nos ensaios principais corresponde ao dicionário suplementar arquivado. Uma revisão posterior acrescentou a braçadeira comum do Flexy Beast e relações mais completas do Cyborg Beast. O estado final examinado uniformizou a organização dos grupos e os nomes dos controlos de lateralidade e disposição, sem alterar as relações geométricas avaliadas. Estes desenvolvimentos posteriores não são retroactivamente apresentados como parte dos ensaios concluídos anteriormente. As fórmulas descrevem a implementação; não representam relações anatómicas universais.
+As relações gerais das Tabelas 4.5 e 4.6 foram concretizadas de forma diferente em cada família. O estado usado nos ensaios principais corresponde ao dicionário do Suplemento 3 — Parametrização e percurso numérico. Uma revisão posterior acrescentou a braçadeira comum do Flexy Beast e relações mais completas do Cyborg Beast. O estado final examinado uniformizou a organização dos grupos e os nomes dos controlos de lateralidade e disposição, sem alterar as relações geométricas avaliadas. Estes desenvolvimentos posteriores não são retroactivamente apresentados como parte dos ensaios concluídos anteriormente. As fórmulas descrevem a implementação; não representam relações anatómicas universais.
 
 Tabela 4.8 — Síntese das relações implementadas e respectivas limitações
 
@@ -1161,7 +1169,7 @@ Os parâmetros de lateralidade constituem uma classe separada. No estado final e
 
 Para tornar auditável a passagem entre dados, configuração e geometria, a Tabela 4.9 consolida os parâmetros numéricos com efeito antropométrico, geométrico ou mecânico nos três modelos comparados. O dicionário corresponde ao estado da plataforma usado nos ensaios principais. A unidade é o milímetro, excepto quando a tabela indica percentagem ou razão adimensional. Os valores iniciais não são médias universais: constituem a configuração de referência do modelo. Os intervalos são limites de implementação e não limites clínicos.
 
-O dicionário integral preservado no material suplementar do Anexo C contém as 42 declarações numéricas sem agrupamento, incluindo incremento, grupo funcional, designação e descrição em português, papel determinístico e exclusão da IA. A tabela no corpo agrupa apenas variáveis com a mesma origem, intervalo e transformação, para manter a leitura possível em página.
+O dicionário integral preservado no Suplemento 3 — Parametrização e percurso numérico contém as 42 declarações numéricas sem agrupamento, incluindo incremento, grupo funcional, designação e descrição em português, papel determinístico e exclusão da IA. A tabela no corpo agrupa apenas variáveis com a mesma origem, intervalo e transformação, para manter a leitura possível em página.
 
 Tabela 4.9 — Dicionário operacional dos parâmetros numéricos dos modelos avaliados
 
@@ -1214,7 +1222,7 @@ A ponta do dedo médio é uma casca aberta porque a configuração `finger_pads=
 
 O percurso evidencia ainda que `palm_breadth_mm = 64` não pretende produzir uma caixa envolvente com exactamente 64 mm. O valor alimenta a fórmula herdada do Cyborg Beast e gera uma escala global aplicada a uma geometria-base; a caixa envolvente transversal medida foi 80,103 mm. Esta diferença é uma propriedade explícita da transformação implementada e mostra por que razão a correspondência entre nome antropométrico e dimensão final deve ser calibrada antes de qualquer afirmação de ajuste anatómico.
 
-Os registos de parâmetros, as malhas, o percurso de transformação e o dicionário completo integram o material suplementar do Anexo C. O percurso é reproduzível ao nível do artefacto e do cálculo; permanece uma verificação técnica com perfil de ensaio, sem avaliação de conforto, função, segurança ou validade clínica.
+Os registos de parâmetros, as malhas, o percurso de transformação e o dicionário completo integram o Suplemento 3 — Parametrização e percurso numérico. O percurso é reproduzível ao nível do artefacto e do cálculo; permanece uma verificação técnica com perfil de ensaio, sem avaliação de conforto, função, segurança ou validade clínica.
 
 Os exemplos complementares do Anexo C mostram duas dependências que este percurso não cobre: o parâmetro de comprimento do polegar do Paraglider ainda não controla uma escala própria e, no Phoenix, a escala global volta a multiplicar os comprimentos definidos localmente.
 
@@ -1559,7 +1567,7 @@ O espaço de configuração apresentado não é ilimitado. A interface expõe ap
 
 A pré-visualização é calculada localmente por OpenSCAD em *WebAssembly*. O *Web Worker* separa essa execução da tarefa principal da interface, evitando o bloqueio directo durante o cálculo. Não foram medidos o tempo percebido, a compreensão dos estados nem a qualidade da interacção (Abbas Alili et al., 2023; Quintero et al., 2018).
 
-A avaliação automática de acessibilidade examinou oito estados do percurso autenticado e identificou quatro categorias de barreira: contraste insuficiente, ausência de associação programática entre alguns rótulos e controlos, elementos interactivos aninhados e falta de nome acessível num elemento de selecção. Estes resultados permitem localizar decisões de interface a rever, mas não demonstram a experiência de pessoas com diferentes capacidades. As verificações manuais por teclado, ampliação, leitor de ecrã e alternativa ao visualizador tridimensional permanecem por realizar.
+A avaliação de acessibilidade combinou uma verificação automática de oito estados do percurso autenticado com uma verificação manual complementar. A análise automática identificou contraste insuficiente, ausência de associação programática entre alguns rótulos e controlos, elementos interactivos aninhados e falta de nome acessível num elemento de selecção. Na grelha manual, sete das doze verificações foram classificadas como conformes e cinco como não conformes. O percurso com o Orca revelou limitações na ordem e na descrição dos campos; a interface permaneceu apenas parcialmente utilizável com ampliação a 400%; e o visualizador tridimensional não apresentou uma alternativa textual reconhecível. A classificação manual do contraste como conforme não elimina as ocorrências detectadas automaticamente. Estes resultados localizam decisões de interface a rever, mas não demonstram a experiência de pessoas com diferentes capacidades nem conformidade global com as WCAG 2.2.
 
 Assim, esta secção descreve uma especificação de projecto, as funções disponíveis e os limites já observados. Clareza, carga cognitiva, aprendizagem, acessibilidade percebida e adequação aos diferentes perfis permanecem questões para avaliação futura com participantes.
 
@@ -1603,7 +1611,7 @@ A avaliação foi organizada em quatro níveis: funcionamento dos componentes da
 
 ### 8.1.1 Verificação técnica da plataforma
 
-O funcionamento da plataforma foi examinado através das funções que sustentam o percurso entre dados antropométricos, configuração, visualização e preparação para fabrico. A Tabela 8.1 sintetiza a evidência observada e explicita a sua relevância para o processo de *design* e os respectivos limites. Os comandos, datas de execução e identificadores internos dos testes são conservados apenas no material técnico suplementar.
+O funcionamento da plataforma foi examinado através das funções que sustentam o percurso entre dados antropométricos, configuração, visualização e preparação para fabrico. A Tabela 8.1 sintetiza a evidência observada e explicita a sua relevância para o processo de *design* e os respectivos limites. Os comandos, datas de execução e identificadores internos dos testes são conservados no Suplemento 2 — Avaliação técnica da plataforma.
 
 Tabela 8.1 — Evidência do funcionamento da plataforma no processo de projecto
 
@@ -1626,13 +1634,13 @@ A mesma configuração da UnLimbited Phoenix produziu resultados idênticos no C
 
 Os cenários de recuperação abrangeram valores nos limites, dados inválidos, ausência de cobertura populacional directa, incompatibilidade entre perfil e modelo, indisponibilidade do serviço de IA, falha de renderização e tentativa de exportação sem geometria. A maioria dos percursos rejeitou os dados inválidos, preservou o último estado válido ou permitiu nova tentativa. Foram, contudo, identificadas duas fragilidades relevantes para o *design* do controlo: uma sugestão simulada de IA acima do limite foi detectável pelo esquema, mas chegou a ser aplicada ao valor interno; e a interface rejeitou texto num campo numérico enquanto o pedido directo à plataforma aceitou esse mesmo tipo de valor. Estes resultados mostram que a protecção não deve depender apenas do controlo visual e que as mesmas regras têm de actuar antes de qualquer valor ser guardado ou enviado para a geometria.
 
-A auditoria automática de acessibilidade examinou oito estados do percurso local autenticado. Foram identificadas quatro categorias de barreira: contraste de cor insuficiente, ausência de associação programática entre rótulos e controlos, elementos interactivos aninhados e falta de nome acessível num elemento de selecção. A página pública não autenticada não apresentou violações automáticas nos elementos examinados, mas incluiu uma verificação inconclusiva e não representa os percursos internos. As verificações manuais por teclado, foco, ampliação, leitor de ecrã e alternativa ao visualizador tridimensional não foram executadas. Assim, os resultados definem prioridades concretas de revisão da interface, mas não demonstram conformidade global com as WCAG 2.2 nem acessibilidade percebida por utilizadores.
+A auditoria automática de acessibilidade examinou oito estados do percurso local autenticado e identificou quatro categorias de barreira: contraste de cor insuficiente, ausência de associação programática entre rótulos e controlos, elementos interactivos aninhados e falta de nome acessível num elemento de selecção. A página pública não autenticada não apresentou violações automáticas nos elementos examinados, mas incluiu uma verificação inconclusiva e não representa os percursos internos. Na verificação manual complementar, sete das doze verificações foram classificadas como conformes e cinco como não conformes. O percurso com o Orca revelou problemas na ordenação e na descrição dos campos; a interface foi apenas parcialmente utilizável com ampliação a 400%; e o visualizador tridimensional não disponibilizou uma alternativa textual reconhecível. A classificação manual do contraste como conforme não invalida as ocorrências automáticas. Em conjunto, os resultados definem prioridades concretas de revisão, mas não demonstram conformidade global com as WCAG 2.2 nem acessibilidade percebida por utilizadores.
 
 Em termos de *Design* Industrial, estas séries de ensaios acrescentam três aprendizagens ao desenvolvimento do artefacto. A consistência dos resultados depende de regras geométricas explícitas e de condições de execução suficientemente estáveis; a robustez exige que limites e mensagens sejam coerentes em todas as etapas do fluxo; e a acessibilidade deve ser tratada como qualidade verificável da interface, e não apenas como intenção inclusiva. O Anexo B conserva a matriz de casos, os resultados por execução e a ficha técnica mínima necessária para permitir a sua revisão crítica.
 
 ### 8.1.3 Preparação para impressão e protótipos físicos
 
-A evidência de fabrico inclui 116 ficheiros 3MF gerados para três modelos e quatro perfis de ensaio, quatro projectos com parâmetros de preparação e fotografias de peças físicas. Os 116 ficheiros representam exportações digitais, distribuídas por placas combinadas e peças individuais; esse total não corresponde a 116 impressões físicas. Os quatro projectos de preparação digital para impressão 3D com configuração analisada integram o material suplementar da Série A. Cada projecto identifica um perfil de 15 anos, o material configurado e a impressora usada. A série documenta os projectos individualmente e não pressupõe condições comparáveis entre eles.
+A evidência de fabrico inclui 116 ficheiros 3MF gerados para três modelos e quatro perfis de ensaio, quatro projectos com parâmetros de preparação e fotografias de peças físicas. Os 116 ficheiros representam exportações digitais, distribuídas por placas combinadas e peças individuais; esse total não corresponde a 116 impressões físicas. Os quatro projectos de preparação digital para impressão 3D com configuração analisada são entregues na subpasta `projectos_preparacao/` do Suplemento 4 — Preparação para impressão e protótipos. Cada projecto identifica um perfil de 15 anos, o material configurado e a impressora usada. A série documenta os projectos individualmente e não pressupõe condições comparáveis entre eles.
 
 Tabela 8.2 — Projectos de preparação digital para impressão 3D com configuração analisada
 
@@ -1724,7 +1732,7 @@ Tabela 8.4 — Descrições submetidas nos cenários de avaliação da IA
 
 | Ensaio 2 — amputação unilateral | Perfil apenas demográfico | Mulher, 30 anos, asiática oriental, 158 cm; prótese necessária para a mão direita | Verificar a adaptação do sistema quando não existem medições diretas da mão |
 
-Fonte: elaboração própria a partir dos pedidos, metadados e cenários conservados no material suplementar da avaliação. A coluna apresenta a descrição do caso de ensaio enviada no pedido; o pedido completo incluía o esquema atual do modelo, os intervalos permitidos e a instrução de devolver apenas JSON válido.
+Fonte: elaboração própria a partir dos pedidos, metadados e cenários conservados na subpasta `avaliacao_ia_antropometrica/` do Suplemento 2 — Avaliação técnica da plataforma. A coluna apresenta a descrição do caso de ensaio enviada no pedido; o pedido completo incluía o esquema actual do modelo, os intervalos permitidos e a instrução de devolver apenas JSON válido.
 
 A leitura dos registos mostra respostas distintas consoante o detalhe da descrição submetida. Nos perfis adultos, os valores sugeridos permaneceram nos intervalos usados pelo sistema. No perfil infantil, os comprimentos e os parâmetros das articulações flexíveis foram reduzidos. Este comportamento corresponde às instruções presentes nas legendas do esquema; não constitui demonstração de ajuste anatómico. No perfil adolescente, uma regra preliminar assinalou a palma como excessiva. A comparação posterior com o intervalo de referência usado no ensaio mostrou que o limite do teste era demasiado rígido. A regra foi corrigida, mas a ausência de uma medição individual impede classificar a sugestão como exata.
 
@@ -1909,7 +1917,7 @@ Por fim, a integração de novas regiões corporais deve começar pela definiç�
 
 <a id="ref-arrieta-2020"></a> Barredo Arrieta, A., Díaz-Rodríguez, N., Del Ser, J., Bennetot, A., Tabik, S., Barbado, A., García, S., Gil-López, S., Molina, D., Benjamins, R., Chatila, R., & Herrera, F. (2020). Explainable Artificial Intelligence (XAI): Concepts, taxonomies, opportunities and challenges toward responsible AI. Information Fusion, 58, 82-115. https://doi.org/10.1016/j.inffus.2019.12.012
 
-<a id="ref-base-local-antropometrica-2026"></a> Base local consolidada de dados antropométricos da mão e do membro superior distal. (2026). [Conjunto de dados]. Material suplementar da investigação.
+<a id="ref-base-local-antropometrica-2026"></a> Base local consolidada de dados antropométricos da mão e do membro superior distal. (2026). [Conjunto de dados]. Suplemento 1 — Dados antropométricos.
 
 <a id="ref-bates-2020"></a> Bates, T., Fergason, J., & Pierrie, S. N. (2020). Technological advances in prosthesis design and rehabilitation following upper extremity limb loss. https://www.semanticscholar.org/paper/905056ffa9fa963e8df8b974d90b94c05a5f7e29
 
@@ -2665,19 +2673,19 @@ A lacuna de maior impacto continua a ser a ausência de dados de pessoas amputad
 
 | Identificação | Descrição | Página |
 | --- | --- | --- |
-| Tabela B.1 | Resultados da repetição da mesma configuração por modelo | 134 |
-| Tabela B.2 | Resultados do percurso examinado em três navegadores | 134 |
-| Tabela B.3 | Comportamento observado perante limites, entradas inválidas e falhas previstas | 134 |
-| Tabela B.4 | Categorias de problemas de acessibilidade digital detectadas automaticamente | 134 |
-| Tabela B.5 | Identificação das séries complementares de avaliação da plataforma | 134 |
+| Tabela B.1 | Resultados da repetição da mesma configuração por modelo | 138 |
+| Tabela B.2 | Resultados do percurso examinado em três navegadores | 139 |
+| Tabela B.3 | Comportamento observado perante limites, entradas inválidas e falhas previstas | 139 |
+| Tabela B.4 | Categorias de problemas de acessibilidade digital detectadas automaticamente | 141 |
+| Tabela B.5 | Resultados da verificação manual complementar de acessibilidade | 141 |
 
-**Data das séries de ensaios:** 13 e 14 de Julho de 2026
+**Data das séries de ensaios:** 2, 13 e 14 de julho de 2026
 
 **Estado avaliado:** HandFab durante a série complementar
 
 **Plataforma pública:** <https://handfab.pedrocandeias.net/>
 
-**Estado da avaliação:** executada, com resultados parciais e verificações manuais ainda por realizar
+**Estado da avaliação:** executada, com resultados parciais nas verificações automáticas e manuais
 
 ## B.1 Finalidade
 
@@ -2687,7 +2695,7 @@ A avaliação foi organizada em três dimensões:
 
 1. **consistência da geração**, entendida como a capacidade de uma configuração fixa produzir a mesma geometria nas execuções concluídas;
 2. **recuperação e controlo**, entendidos como a capacidade de limitar, rejeitar ou explicar valores problemáticos sem destruir a configuração válida;
-3. **verificação automática de regras seleccionadas de acessibilidade digital**, entendida como a identificação de barreiras detectáveis nos estados examinados, sem a confundir com usabilidade, acessibilidade percebida por participantes ou conformidade global com as WCAG.
+3. **verificação automática e manual de regras seleccionadas de acessibilidade digital**, entendida como a identificação de barreiras nos estados examinados, sem a confundir com usabilidade, acessibilidade percebida por participantes ou conformidade global com as WCAG.
 
 ## B.2 Âmbito e limites
 
@@ -2703,7 +2711,7 @@ Uma configuração da UnLimbited Phoenix foi ainda executada em três navegadore
 
 Os cenários de controlo abrangeram valores nos limites, abaixo deles e acima deles; campos obrigatórios ausentes; texto num campo numérico; contradição entre idade e descrição; país sem correspondência directa na base; e perfil inferior ao limite de um modelo. Abrangeram também indisponibilidade da sugestão de IA, resposta inválida, falha de geração e tentativa de exportação sem geometria.
 
-A acessibilidade foi examinada automaticamente em oito estados do percurso local: autenticação, painel principal, perfil inicial, perfil com erro, parâmetros, sugestão antes e depois da resposta e geometria apresentada. A página pública de entrada foi examinada separadamente. Foi preparada uma lista de verificações manuais, mas essa etapa não foi executada.
+A acessibilidade foi examinada automaticamente em oito estados do percurso local: autenticação, painel principal, perfil inicial, perfil com erro, parâmetros, sugestão antes e depois da resposta e geometria apresentada. A página pública de entrada foi examinada separadamente. A verificação manual complementar foi realizada em 2 de julho de 2026, às 16:02, em Linux e Firefox 152.0.6 (64-bit), na instância local em `localhost:3000` e na plataforma pública `handfab.pedrocandeias.net`. O percurso com leitor de ecrã usou o Orca; a reformulação do conteúdo foi examinada com ampliação a 400% e largura equivalente a 320 píxeis CSS.
 
 ## B.4 Resultados de consistência da geração
 
@@ -2755,7 +2763,7 @@ Os resultados mostram que a maioria das situações previstas preservou o estado
 
 Os ensaios relativos à IA recorreram a respostas simuladas e controladas. Confirmam o comportamento da interface perante respostas previstas, mas não medem estabilidade, dispersão ou qualidade de um modelo de linguagem real. Não foi executada uma série extensa de repetições com chamadas reais ao fornecedor de IA.
 
-## B.6 Resultados da verificação automática de acessibilidade digital
+## B.6 Resultados da verificação de acessibilidade digital
 
 ### B.6.1 Percurso local autenticado
 
@@ -2776,9 +2784,28 @@ As ocorrências envolveram 47 elementos para contraste, 21 para associação de 
 
 Na página pública não autenticada não foram detectadas violações automáticas entre os elementos examinados; oito verificações foram classificadas como aprovadas e uma ficou incompleta. Este resultado limita-se à página de entrada e não pode ser generalizado ao painel autenticado ou ao percurso de configuração.
 
-### B.6.3 Verificação manual pendente
+### B.6.3 Verificação manual complementar
 
-Permanecem por avaliar manualmente a navegação por teclado, a visibilidade e ordem do foco, a associação de nomes e erros, os anúncios de alterações, a ampliação e reformulação do conteúdo, o tamanho dos alvos, a autenticação, a alternativa ao visualizador tridimensional e o comportamento com leitor de ecrã. Sem estes ensaios não é emitida qualquer declaração de conformidade com as WCAG 2.2.
+A grelha manual compreendeu doze verificações. Sete foram classificadas como conformes e cinco como não conformes. O protocolo preenchido e a sua representação editável são conservados no Suplemento 2 — Avaliação técnica da plataforma, como evidências `ANNEX-B-014` e `ANNEX-B-015`.
+
+Tabela B.5 — Resultados da verificação manual complementar de acessibilidade
+
+| Verificação | Resultado | Observação |
+|---|---|---|
+| Navegação por teclado (2.1.1 e 2.1.2) | Conforme | O percurso essencial foi executado apenas com o teclado, sem bloqueio do foco. |
+| Visibilidade do foco (2.4.7 e 2.4.11) | Conforme | O indicador de foco permaneceu visível e não oculto nos estados examinados. |
+| Ordem do foco (2.4.3) | Não conforme | Com o Orca, a ordenação dos campos não foi sempre suficientemente clara para orientar a sequência de interacção. |
+| Nome, função e valor (4.1.2 e 1.3.1) | Não conforme | Com o Orca, algumas descrições de campos necessitavam de maior especificidade e clareza. |
+| Identificação e sugestão de correcção de erros (3.3.1 e 3.3.3) | Conforme | Os erros examinados foram apresentados por texto e acompanhados por indicação de correcção. |
+| Mensagens de estado (4.1.3) | Conforme | As mensagens dinâmicas examinadas foram anunciadas sem deslocação indevida do foco. |
+| Contraste e utilização da cor (1.4.3 e 1.4.1) | Conforme na observação manual | A classificação manual não elimina as 47 ocorrências de contraste insuficiente detectadas automaticamente em oito estados. |
+| Reformulação e ampliação (1.4.10 e 1.4.4) | Não conforme | A 400% e com largura equivalente a 320 píxeis CSS, a interface permaneceu apenas parcialmente utilizável. |
+| Dimensão mínima dos alvos (2.5.8) | Conforme | Os elementos interactivos examinados apresentaram dimensão ou espaçamento suficiente. |
+| Autenticação acessível (3.3.8) | Conforme | A autenticação permitiu colar a palavra-passe e usar um gestor de palavras-passe. |
+| Alternativa ao visualizador tridimensional (1.1.1 e 1.3.1) | Não conforme | Com o Orca, o visualizador não foi identificado como imagem nem foi anunciada uma alternativa textual. |
+| Percurso com leitor de ecrã | Não conforme | O percurso com o Orca revelou limitações na ordenação e na clareza das descrições dos campos. |
+
+A classificação manual do contraste como conforme descreve apenas a observação efectuada nessa sessão e não substitui a medição automática, que identificou 47 elementos com contraste insuficiente. Como a versão, o ramo e o identificador da revisão da sessão manual não foram registados, os dois resultados são apresentados lado a lado e o contraste permanece uma prioridade de correcção. A avaliação manual complementa a verificação automática, mas não permite emitir uma declaração global de conformidade com as WCAG 2.2 nem substitui avaliação com participantes.
 
 ## B.7 Aprendizagens para o *Design* Industrial
 
@@ -2791,28 +2818,11 @@ Permanecem por avaliar manualmente a navegação por teclado, a visibilidade e o
 
 ## B.8 Conclusão
 
-As séries de ensaios fornecem evidência parcial de que o núcleo paramétrico produz resultados consistentes nas execuções concluídas e de que vários estados de erro preservam o trabalho anterior ou permitem recuperação. Também revelam fragilidades concretas na aplicação uniforme dos limites, na aceitação de tipos de dados e na acessibilidade da interface.
+As séries de ensaios fornecem evidência parcial de que o núcleo paramétrico produz resultados consistentes nas execuções concluídas e de que vários estados de erro preservam o trabalho anterior ou permitem recuperação. Também revelam fragilidades concretas na aplicação uniforme dos limites, na aceitação de tipos de dados e na acessibilidade da interface. A verificação manual classificou sete de doze critérios como conformes e cinco como não conformes, acrescentando problemas de ordem e descrição dos campos, reformulação em ampliação elevada e ausência de alternativa textual ao visualizador tridimensional.
 
 O resultado não autoriza afirmar que a plataforma é robusta, acessível ou compatível com todos os navegadores em termos gerais. Autoriza uma formulação mais delimitada: **nos casos examinados, o processo apresentou consistência das geometrias concluídas, recuperou de várias falhas previstas e permitiu identificar prioridades objectivas de revisão da interface e das salvaguardas paramétricas**.
 
-## B.9 Ficha técnica e proveniência das evidências
-
-Esta secção conserva apenas a informação necessária para identificar as séries de ensaios. Os pormenores de implementação dos testes não integram o argumento principal da dissertação.
-
-Tabela B.5 — Identificação das séries complementares de avaliação da plataforma
-
-| Série de ensaios | Ambiente | Instrumentos | Evidência principal |
-|---|---|---|---|
-| `2026-07-13_23-22-21_repetition` | Instância local isolada, perfis de ensaio | Playwright 1.59.1; análise de STL | Resultados por modelo, ficheiros exportados e comparação entre navegadores |
-| `2026-07-14_00-02-40_robustness` | Instância local isolada, perfis de ensaio | Playwright 1.59.1 | Casos nominais, limites, entradas inválidas e recuperação |
-| `2026-07-14_00-03-19_a11y-local` | Percurso local autenticado | axe-core 4.12.1 integrado no Playwright | Resultados por estado e lista de verificação manual |
-| `2026-07-14_00-06-48_a11y-public` | Página pública não autenticada | axe-core 4.12.1 integrado no Playwright | Resultado automático da página de entrada |
-
-As séries de ensaios correspondem ao estado da plataforma usado na avaliação complementar. O código de ensaio, os resultados estruturados e os registos necessários à interpretação das execuções foram conservados em conjunto no material suplementar.
-
-Os resultados estruturados e as saídas brutas de maior dimensão integram o material suplementar associado ao Anexo B, organizados pelos identificadores técnicos originais de cada série.
-
-## B.10 Referências normativas
+## B.9 Referências normativas
 
 - World Wide Web Consortium. (2024). *Web Content Accessibility Guidelines (WCAG) 2.2*. https://www.w3.org/TR/WCAG22/
 - World Wide Web Consortium. (2014). *Website Accessibility Conformance Evaluation Methodology (WCAG-EM) 1.0*. https://www.w3.org/TR/WCAG-EM/
@@ -2823,14 +2833,10 @@ Os resultados estruturados e as saídas brutas de maior dimensão integram o mat
 
 | Identificação | Descrição | Página |
 | --- | --- | --- |
-| Tabela C.1 | Correspondência entre medidas normalizadas e parâmetros dos modelos | 140 |
-| Tabela C.2 | Parâmetros numéricos do Flexy Beast com efeito dimensional | 141 |
-| Tabela C.3 | Relações dimensionais do Paraglider Hand | 141 |
-| Tabela C.4 | Comparação das adaptações e excepções de escala | 141 |
-| Tabela D.1 | Estimativas dos projectos de preparação digital para impressão 3D com configuração analisada | 155 |
-| Tabela D.2 | Estimativas de preparação para impressão na condição digital comum | 155 |
-| Tabela D.3 | Comparação dimensional da palma no eixo X em PLA e PETG | 155 |
-
+| Tabela C.1 | Correspondência entre medidas normalizadas e parâmetros dos modelos | 147 |
+| Tabela C.2 | Parâmetros numéricos do Flexy Beast com efeito dimensional | 148 |
+| Tabela C.3 | Relações dimensionais do Paraglider Hand | 153 |
+| Tabela C.4 | Comparação das adaptações e excepções de escala | 159 |
 ## C.1 Objectivo e âmbito
 
 Este anexo documenta como quatro modelos de mão protésica de origem aberta foram adaptados à estrutura paramétrica da plataforma HandFab: Flexy Beast, Cyborg Beast, Paraglider Hand e UnLimbited Phoenix Hand. O objectivo é tornar explícita a passagem entre medidas antropométricas, parâmetros configuráveis, relações geométricas e malhas destinadas à preparação para fabrico.
@@ -2851,7 +2857,7 @@ O percurso comum compreende cinco etapas:
 4. o valor é limitado ao intervalo declarado na configuração quando provém do mapeamento de perfis;
 5. o ficheiro OpenSCAD transforma os valores aceites segundo as relações próprias do modelo e gera a geometria.
 
-![Fluxo de adaptação paramétrica dos modelos](sources/manuscript/annexes/adaptacao_parametrica_modelos/figura_c1_fluxo_adaptacao_parametrica.png)
+![Fluxo de adaptação paramétrica dos modelos](figuras/figura_c1_fluxo_adaptacao_parametrica.png)
 
 Figura C.1 — Fluxo entre dados de entrada, mapa comum, regras específicas dos modelos e geometria exportável. Produção própria.
 
@@ -2940,7 +2946,7 @@ O código confirma espessuras locais de 3,2 mm na zona dos furos médios e 5 mm 
 
 ### C.3.4 Exemplo de propagação já preservado
 
-O percurso numérico do perfil de ensaio de oito anos — valores aplicados, factores derivados e métricas de três malhas — já se encontra preservado no material suplementar associado ao Anexo C. Para evitar duplicação, este anexo não repete a Tabela 4.10 nem os 42 registos do dicionário histórico. Acrescenta apenas a alteração posterior da braçadeira e os casos que expõem dependências ainda não descritas no suplemento dos ensaios principais.
+O percurso numérico do perfil de ensaio de oito anos — valores aplicados, factores derivados e métricas de três malhas — encontra-se preservado no Suplemento 3 — Parametrização e percurso numérico. Para evitar duplicação, este anexo não repete a Tabela 4.10 nem os 42 registos do dicionário histórico. Acrescenta apenas a alteração posterior da braçadeira e os casos que expõem dependências ainda não descritas nesse suplemento.
 
 O resultado central desse percurso continua a ser pertinente: `palm_breadth_mm` alimenta uma fórmula herdada e não define directamente a extensão transversal da malha. O caso documenta a propagação do valor; não demonstra correspondência anatómica.
 
@@ -3191,11 +3197,11 @@ Devem impedir a passagem directa para fabrico, ou exigir revisão técnica, as s
 
 O estado actual não aplica todas estas condições como bloqueios automáticos dentro de cada ficheiro OpenSCAD. Algumas estão representadas por limites da interface, outras por funções `min`/`max`, e outras permanecem como critérios de revisão. A distinção deve ser mantida no texto da dissertação.
 
-## C.9 Relação com o suplemento dos ensaios principais
+## C.9 Relação com o Suplemento 3
 
-O suplemento associado ao Anexo C continua a preservar um estado histórico útil: contém 42 parâmetros numéricos dos três modelos comparados e um percurso do perfil de ensaio até a três malhas do Flexy Beast. Deve, contudo, ser identificado como fotografia do estado usado nesses ensaios.
+O Suplemento 3 — Parametrização e percurso numérico preserva um estado histórico útil: contém 42 parâmetros numéricos dos três modelos comparados e um percurso do perfil de ensaio até a três malhas do Flexy Beast. Deve, contudo, ser identificado como fotografia do estado usado nesses ensaios.
 
-Depois desse estado, a estrutura paramétrica da braçadeira do Flexy Beast foi alterada. Por esse motivo, `gauntlet_width_mm`, `gauntlet_length_mm`, `gauntlet_wall_mm`, `gauntlet_pos_adjust` e `strap_splay_adjust` não descrevem o estado final examinado. Foram substituídos, no essencial, por `wrist_circumference_mm`, `gauntlet_tilt`, `gauntlet_length_scale`, `gauntlet_rim_hole_d` e uma colocação automática sobre o eixo do pino. O anexo presente deve acompanhar o suplemento histórico com esta nota de evolução.
+Depois desse estado, a estrutura paramétrica da braçadeira do Flexy Beast foi alterada. Por esse motivo, `gauntlet_width_mm`, `gauntlet_length_mm`, `gauntlet_wall_mm`, `gauntlet_pos_adjust` e `strap_splay_adjust` não descrevem o estado final examinado. Foram substituídos, no essencial, por `wrist_circumference_mm`, `gauntlet_tilt`, `gauntlet_length_scale`, `gauntlet_rim_hole_d` e uma colocação automática sobre o eixo do pino. O presente anexo acompanha esse estado histórico com esta nota de evolução.
 
 ## C.10 Limite de interpretação
 
@@ -3211,7 +3217,7 @@ Não se conclui que as geometrias sejam anatomicamente adequadas a uma pessoa, q
 - implementações OpenSCAD activas das famílias Flexy Beast, Cyborg Beast,
   Paraglider Hand e UnLimbited Phoenix, incluindo as dependências de montagem;
 - dicionário integral de parâmetros e percurso numérico do perfil de ensaio,
-  conservados no material suplementar do Anexo C;
+  conservados no Suplemento 3 — Parametrização e percurso numérico;
 - Capítulo 4 do manuscrito consolidado;
 - relatório integral de revisão académica.
 
@@ -3219,7 +3225,7 @@ Não se conclui que as geometrias sejam anatomicamente adequadas a uma pessoa, q
 
 - comparação dos quatro modelos registados com os parâmetros do catálogo;
 - leitura das fórmulas e constantes nos ficheiros OpenSCAD activos;
-- confronto entre o suplemento dos ensaios principais e o estado final examinado;
+- confronto entre o Suplemento 3 e o estado final examinado;
 - confirmação do mapa entre medidas normalizadas e nomes dos parâmetros;
 - recálculo independente dos exemplos numéricos apresentados nas secções C.3 a C.6;
 - verificação dos valores inicial, mínimo, máximo e incremento declarados;
@@ -3227,6 +3233,14 @@ Não se conclui que as geometrias sejam anatomicamente adequadas a uma pessoa, q
 - identificação das relações que permanecem sem calibração dimensional ou ensaio físico.
 
 # Anexo D — Preparação para fabrico e verificação dos protótipos
+
+**Índice de tabelas do Anexo D**
+
+| Identificação | Descrição | Página |
+| --- | --- | --- |
+| Tabela D.1 | Estimativas dos projectos de preparação digital para impressão 3D com configuração analisada | 165 |
+| Tabela D.2 | Estimativas de preparação para impressão na condição digital comum | 165 |
+| Tabela D.3 | Comparação dimensional da palma no eixo X em PLA e PETG | 167 |
 
 ## D.1 Finalidade
 
@@ -3281,9 +3295,9 @@ Secção D.4.4, que correspondem a medições das palmas impressas.
 
 ## D.3 Variáveis, controlos e materiais
 
-Foram conduzidas duas séries de ensaios complementares. A documentação técnica
-associada ao anexo reúne as versões, as condições de preparação e os resultados
-completos no material suplementar da dissertação.
+Foram conduzidas duas séries de ensaios complementares. Os projectos, as condições
+de preparação e os resultados completos encontram-se no Suplemento 4 — Preparação
+para impressão e protótipos.
 
 **Programas:** Bambu Studio `01.10.02.76`; PrusaSlicer `2.8.1`.
 Análise geométrica em Python 3.12 / NumPy 2.4 (sem preparação para impressão).
@@ -3342,18 +3356,18 @@ resultado da preparação para impressão.
 ## D.4 Resultados
 
 Os resultados quantitativos completos e os registos geométricos encontram-se no
-material suplementar associado a este anexo.
+Suplemento 4 — Preparação para impressão e protótipos.
 
 ### D.4.1 Série A
 
 Tabela D.1 — Estimativas dos projectos de preparação digital para impressão 3D com configuração analisada
 
-| Modelo | Perfil | Material | Impressora | Camada | Enchimento | Suportes | Tempo estimado | Filamento estimado | Massa estimada | Custo (36,29 €/kg) |
-|---|---|---|---|---:|---|---|---:|---:|---:|---:|
-| Flexy Beast | `teen_15` | PLA | Bambu Lab A1, bico 0,4 mm | 0,24 mm | 15%, grelha | Árvore orgânica | 2 h 21 min 50 s | 18 645,87 mm | 56,51 g | 2,05 € |
-| UnLimbited Phoenix | `teen_15` | PLA | Bambu Lab A1, bico 0,4 mm | 0,24 mm | 15%, grelha | Árvore orgânica | 5 h 12 min 44 s | 40 756,68 mm | 123,52 g | 4,48 € |
-| UnLimbited Phoenix | `teen_15` | PETG | Bambu Lab A1, bico 0,4 mm | 0,24 mm | 15%, grelha | Árvore orgânica | 5 h 51 min 52 s | 39 094,09 mm | 117,54 g | 4,27 € |
-| Paraglider Hand | `teen_15` | PLA | Prusa MINI, bico 0,4 mm | 0,20 mm | 15%, grelha | Não | 2 h 32 min 11 s | 12 727,61 mm | 37,96 g | 1,38 € |
+| Modelo e perfil | Material | Equipamento | Configuração | Tempo estimado | Material e custo estimados |
+|---|---|---|---|---:|---:|
+| Flexy Beast — `teen_15` | PLA | Bambu Lab A1; bico 0,4 mm | Camada 0,24 mm; enchimento 15%, grelha; suportes em árvore orgânica | 2 h 21 min 50 s | 18 645,87 mm; 56,51 g; 2,05 € |
+| UnLimbited Phoenix — `teen_15` | PLA | Bambu Lab A1; bico 0,4 mm | Camada 0,24 mm; enchimento 15%, grelha; suportes em árvore orgânica | 5 h 12 min 44 s | 40 756,68 mm; 123,52 g; 4,48 € |
+| UnLimbited Phoenix — `teen_15` | PETG | Bambu Lab A1; bico 0,4 mm | Camada 0,24 mm; enchimento 15%, grelha; suportes em árvore orgânica | 5 h 51 min 52 s | 39 094,09 mm; 117,54 g; 4,27 € |
+| Paraglider Hand — `teen_15` | PLA | Prusa MINI; bico 0,4 mm | Camada 0,20 mm; enchimento 15%, grelha; sem suportes | 2 h 32 min 11 s | 12 727,61 mm; 37,96 g; 1,38 € |
 
 O custo é calculado a **36,29 €/kg** (preço do perfil Prusament PLA emitido pelo
 PrusaSlicer), **assumido igual para ambos os programas e todos os materiais**
@@ -3378,20 +3392,20 @@ adesão antes da impressão.
 
 Tabela D.2 — Estimativas de preparação para impressão na condição digital comum
 
-| Modelo | Perfil | Material | Impressora | Camada | Enchimento | Suportes | Tempo estimado | Filamento estimado | Massa estimada | Custo (36,29 €/kg) | Placas A1 |
-|---|---|---|---|---:|---|---|---:|---:|---:|---:|---:|
-| Flexy Beast | `child_8` | Bambu PLA Basic | Bambu Lab A1, bico 0,4 mm | 0,20 mm | 15%, grelha | Não | 6 h 39 min 34 s | 27 387,6 mm | 83,00 g | 3,01 € | 1 |
-| Flexy Beast | `teen_15` | Bambu PLA Basic | Bambu Lab A1, bico 0,4 mm | 0,20 mm | 15%, grelha | Não | 9 h 51 min 52 s | 43 180,9 mm | 130,87 g | 4,75 € | 1 |
-| Flexy Beast | `adult_28` | Bambu PLA Basic | Bambu Lab A1, bico 0,4 mm | 0,20 mm | 15%, grelha | Não | 12 h 34 min 14 s | 55 811,9 mm | 169,15 g | 6,14 € | 2 |
-| Flexy Beast | `elderly_70` | Bambu PLA Basic | Bambu Lab A1, bico 0,4 mm | 0,20 mm | 15%, grelha | Não | 10 h 52 min 57 s | 47 602,0 mm | 144,27 g | 5,24 € | 2 |
-| Paraglider Hand | `child_8` | Bambu PLA Basic | Bambu Lab A1, bico 0,4 mm | 0,20 mm | 15%, grelha | Não | 4 h 22 min 47 s | 16 522,2 mm | 50,07 g | 1,82 € | 1 |
-| Paraglider Hand | `teen_15` | Bambu PLA Basic | Bambu Lab A1, bico 0,4 mm | 0,20 mm | 15%, grelha | Não | 6 h 45 min 18 s | 27 695,5 mm | 83,94 g | 3,05 € | 1 |
-| Paraglider Hand | `adult_28` | Bambu PLA Basic | Bambu Lab A1, bico 0,4 mm | 0,20 mm | 15%, grelha | Não | 8 h 55 min 41 s | 38 449,4 mm | 116,53 g | 4,23 € | 1 |
-| Paraglider Hand | `elderly_70` | Bambu PLA Basic | Bambu Lab A1, bico 0,4 mm | 0,20 mm | 15%, grelha | Não | 7 h 09 min 05 s | 29 627,5 mm | 89,79 g | 3,26 € | 1 |
-| UnLimbited Phoenix | `child_8` | Bambu PLA Basic | Bambu Lab A1, bico 0,4 mm | 0,20 mm | 15%, grelha | Não | 7 h 29 min 44 s | 30 673,7 mm | 92,96 g | 3,37 € | 2 |
-| UnLimbited Phoenix | `teen_15` | Bambu PLA Basic | Bambu Lab A1, bico 0,4 mm | 0,20 mm | 15%, grelha | Não | 8 h 30 min 45 s | 36 335,2 mm | 110,12 g | 4,00 € | 2 |
-| UnLimbited Phoenix | `adult_28` | Bambu PLA Basic | Bambu Lab A1, bico 0,4 mm | 0,20 mm | 15%, grelha | Não | 8 h 56 min 20 s | 38 179,8 mm | 115,71 g | 4,20 € | 2 |
-| UnLimbited Phoenix | `elderly_70` | Bambu PLA Basic | Bambu Lab A1, bico 0,4 mm | 0,20 mm | 15%, grelha | Não | 7 h 49 min 09 s | 32 412,0 mm | 98,23 g | 3,56 € | 2 |
+| Modelo | Perfil | Tempo estimado | Filamento estimado | Massa estimada | Custo estimado | Placas A1 |
+|---|---|---:|---:|---:|---:|---:|
+| Flexy Beast | `child_8` | 6 h 39 min 34 s | 27 387,6 mm | 83,00 g | 3,01 € | 1 |
+| Flexy Beast | `teen_15` | 9 h 51 min 52 s | 43 180,9 mm | 130,87 g | 4,75 € | 1 |
+| Flexy Beast | `adult_28` | 12 h 34 min 14 s | 55 811,9 mm | 169,15 g | 6,14 € | 2 |
+| Flexy Beast | `elderly_70` | 10 h 52 min 57 s | 47 602,0 mm | 144,27 g | 5,24 € | 2 |
+| Paraglider Hand | `child_8` | 4 h 22 min 47 s | 16 522,2 mm | 50,07 g | 1,82 € | 1 |
+| Paraglider Hand | `teen_15` | 6 h 45 min 18 s | 27 695,5 mm | 83,94 g | 3,05 € | 1 |
+| Paraglider Hand | `adult_28` | 8 h 55 min 41 s | 38 449,4 mm | 116,53 g | 4,23 € | 1 |
+| Paraglider Hand | `elderly_70` | 7 h 09 min 05 s | 29 627,5 mm | 89,79 g | 3,26 € | 1 |
+| UnLimbited Phoenix | `child_8` | 7 h 29 min 44 s | 30 673,7 mm | 92,96 g | 3,37 € | 2 |
+| UnLimbited Phoenix | `teen_15` | 8 h 30 min 45 s | 36 335,2 mm | 110,12 g | 4,00 € | 2 |
+| UnLimbited Phoenix | `adult_28` | 8 h 56 min 20 s | 38 179,8 mm | 115,71 g | 4,20 € | 2 |
+| UnLimbited Phoenix | `elderly_70` | 7 h 49 min 09 s | 32 412,0 mm | 98,23 g | 3,56 € | 2 |
 
 Os tempos estimados variaram entre 4 h 22 min (Paraglider, `child_8`) e 12 h
 34 min (Flexy Beast, `adult_28`). Nos 12 casos, o programa gerou trajectórias e
@@ -3400,7 +3414,8 @@ no Paraglider `elderly_70`, uma consequência relevante da política comum sem
 suportes. Não foram emitidos avisos nos quatro casos Phoenix. A conclusão do
 processamento não demonstra, por si só, que a impressão física possa ser realizada
 sem rever a orientação ou activar suportes. Os dados completos — tempo, filamento,
-camadas, ocupação por placa e avisos — constam do registo suplementar da Série B.
+camadas, ocupação por placa e avisos — constam do ficheiro
+`resultados_serie_b.csv` do Suplemento 4.
 
 Duas leituras de projecto sobressaem:
 
@@ -3420,7 +3435,8 @@ Duas leituras de projecto sobressaem:
 ### D.4.3 Geometria — tamanho do conjunto vs tamanho da peça
 
 A análise geométrica distingue **três noções de tamanho** que não devem ser
-confundidas; os valores completos constam do registo geométrico suplementar:
+confundidas; os valores completos constam do ficheiro
+`resultados_geometria.csv` do Suplemento 4:
 
 - **Montagem sólida (mão estendida):** a caixa envolvente do corpo único do modelo
   montado, com dedos e punho estendidos. É o *vão anatómico*.
@@ -3489,8 +3505,9 @@ Tabela D.3 — Comparação dimensional da palma no eixo X em PLA e PETG
 | UnLimbited Phoenix | 28 anos | 90,181 mm | 89,914 mm | −0,267 mm | 89,832 mm | −0,349 mm |
 | UnLimbited Phoenix | 70 anos | 84,169 mm | 83,929 mm | −0,240 mm | 83,831 mm | −0,338 mm |
 
-A Tabela D.3 resume o eixo X; a folha suplementar de comparação dimensional
-conserva as 72 linhas correspondentes aos três eixos. Em todas as medições, a
+A Tabela D.3 resume o eixo X; o ficheiro
+`comparacao_dimensional_72_medicoes.csv` do Suplemento 4 conserva as 72 linhas
+correspondentes aos três eixos. Em todas as medições, a
 dimensão física ficou abaixo da extensão da malha. Em PLA, os desvios percentuais
 variaram entre −0,321% e −0,274%; em PETG, variaram entre −0,425% e −0,369%.
 Estes intervalos descrevem os exemplares medidos e não demonstram uma taxa geral
@@ -3500,7 +3517,7 @@ Nos casos Paraglider, os valores `palm_length_mm` e `palm_thickness_mm` são
 conservados como contexto do perfil, mas não controlam isoladamente as extensões Y
 e Z; no Flexy Beast e no Phoenix não existe, nestas configurações, um parâmetro de
 entrada correspondente a esses dois eixos. Esta diferença encontra-se identificada
-no campo `estado_parametro` da folha suplementar.
+no campo `estado_parametro` do mesmo ficheiro.
 
 As colunas «Entrada» e «Malha» não representam, em todos os modelos, o mesmo
 limite geométrico. No Flexy Beast e no Paraglider, a medida antropométrica alimenta
@@ -3524,7 +3541,7 @@ futura exigiria o reposicionamento do paquímetro e leituras independentes, mas 
 
 ### D.4.5 Registo fotográfico dos protótipos
 
-As Figuras 8.1 a 8.3 do manuscrito reúnem o registo fotográfico das peças produzidas: componentes separados e em montagem parcial, séries dimensionais de segmentos Paraglider Hand e Flexy Beast, e sete vistas de uma UnLimbited Phoenix montada para o perfil de ensaio de 15 anos. Os originais integram o material suplementar; os painéis apresentados foram compostos sem alteração do conteúdo visual. Três fotografias das séries dimensionais foram apenas rodadas 90° para permitir a leitura correcta da orientação e das identificações manuscritas.
+As Figuras 8.1 a 8.3 do manuscrito reúnem o registo fotográfico das peças produzidas: componentes separados e em montagem parcial, séries dimensionais de segmentos Paraglider Hand e Flexy Beast, e sete vistas de uma UnLimbited Phoenix montada para o perfil de ensaio de 15 anos. Os 19 originais encontram-se na subpasta `fotografias_originais/` do Suplemento 4; os painéis apresentados foram compostos sem alteração do conteúdo visual. Três fotografias das séries dimensionais foram apenas rodadas 90° para permitir a leitura correcta da orientação e das identificações manuscritas.
 
 Este registo confirma a existência material dos componentes fotografados e permite observar diferenças de escala, estados de montagem e relações visuais entre peças. Como não inclui escala métrica comum, pontos de medição assinalados, repetições controladas ou aplicação de carga, as fotografias não são usadas para calcular os desvios dimensionais nem para inferir resistência, conforto, adequação anatómica ou desempenho funcional. Os desvios apresentados na Secção D.4.4 resultam dos valores medidos nas peças, e não da interpretação das imagens.
 
@@ -3552,8 +3569,8 @@ Os quatro valores situam-se na gama de factores da folha Phoenix. A largura-base
 de 65 mm indicada nessa folha não foi comparada directamente com os 82 mm da
 plataforma, porque os documentos não demonstram que os pontos de medição sejam
 equivalentes. Não existe uma tabela específica para o Paraglider. O detalhe e os
-limites destas comparações constam da nota técnica suplementar de compatibilidade
-dimensional. Os resultados mostram
+limites destas comparações constam do ficheiro `compatibilidade_dimensionamento.md`
+do Suplemento 4. Os resultados mostram
 compatibilidade com orientações de escala; não demonstram adequação anatómica
 individual nem funcionamento.
 
@@ -3590,9 +3607,14 @@ individual nem funcionamento.
   por palma em PLA e PETG. Não foram registadas três leituras independentes por
   ponto, pelo que não se calculam amplitude entre repetições nem incerteza de
   reposicionamento do paquímetro.
-- **Verificação de montagem e articulação:** o protocolo e a folha de registo
-  foram preparados, mas não existem ainda observações preenchidas que permitam
-  apresentar resultados de movimento, fecho ou retorno.
+- **Verificação de montagem e articulação:** a folha contém uma observação da
+  UnLimbited Phoenix, correspondente ao perfil de ensaio de 15 anos e produzida
+  em PLA. A montagem foi concluída, os pinos foram colocados sem dano ou
+  correcção, os cinco dedos apresentaram movimento livre e foram observados o
+  fecho por cabo e o retorno. Depois de ensaios repetidos, os elásticos das
+  articulações alargaram e tiveram de ser substituídos. Não ficaram registados o
+  número exacto de ciclos nem os ensaios com cilindros; por isso, o resultado
+  permanece parcial.
 - **Medições mecânicas ou de ajuste ao utilizador:** não realizadas; exigiriam
   procedimentos e condições diferentes dos ensaios aqui descritos.
 
@@ -3620,6 +3642,10 @@ individual nem funcionamento.
   maior resistência à deformação térmica no estudo de Hsueh et al. (2021) e maior
   ductilidade no estudo de Martins et al. (2024); estas propriedades não constituem
   resultados experimentais desta dissertação.
+- Que, num espécime UnLimbited Phoenix correspondente ao perfil de ensaio de 15
+  anos e produzido em PLA, a montagem foi concluída e foram observados o movimento
+  livre dos cinco dedos, o fecho por cabo e o retorno; os elásticos das articulações
+  alargaram durante os ensaios repetidos e tiveram de ser substituídos.
 
 **Não pode afirmar-se:**
 
@@ -3726,4 +3752,5 @@ cresce proporcionalmente com a dimensão de entrada.
 > **Nota sobre orientação das figuras.** As imagens foram integradas na orientação
 > em que os seus pixéis se apresentam (todas verticais/corretas na revisão feita).
 > Qualquer correcção posterior de orientação deve ser aplicada ao original
-> conservado no material suplementar, sem alterar a referência da figura.
+> conservado na subpasta `fotografias_originais/` do Suplemento 4, sem alterar a
+> referência da figura.

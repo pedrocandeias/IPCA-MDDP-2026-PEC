@@ -24,7 +24,7 @@ CANONICAL_MEDIA = {
         (2070, 744),
     ),
     "word/media/image34.png": (
-        ROOT / "sources/manuscript/annexes/adaptacao_parametrica_modelos/figura_c1_fluxo_adaptacao_parametrica.png",
+        ROOT / "figuras/figura_c1_fluxo_adaptacao_parametrica.png",
         (1800, 1035),
     ),
 }

@@ -43,14 +43,14 @@ CANONICAL_MEDIA = {
         (2782, 978),
     ),
     "word/media/image34.png": (
-        ROOT / "sources/manuscript/annexes/adaptacao_parametrica_modelos/figura_c1_fluxo_adaptacao_parametrica.png",
+        ROOT / "figuras/figura_c1_fluxo_adaptacao_parametrica.png",
         (1800, 1035),
     ),
 }
 
 ANNEX_MEDIA = {
     "word/media/image1.png": (
-        ROOT / "sources/manuscript/annexes/adaptacao_parametrica_modelos/figura_c1_fluxo_adaptacao_parametrica.png",
+        ROOT / "figuras/figura_c1_fluxo_adaptacao_parametrica.png",
         (1800, 1035),
     ),
 }

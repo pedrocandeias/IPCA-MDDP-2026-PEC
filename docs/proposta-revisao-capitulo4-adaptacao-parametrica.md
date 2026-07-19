@@ -194,7 +194,7 @@ Evitar afirmar que limites declarados «garantem» robustez. O texto deve distin
 Ficheiros preparados:
 
 - `sources/manuscript/annexes/adaptacao_parametrica_modelos/anexo_c_adaptacao_parametrica_modelos.md`;
-- `sources/manuscript/annexes/adaptacao_parametrica_modelos/figura_c1_fluxo_adaptacao_parametrica.svg`.
+- `figuras/figura_c1_fluxo_adaptacao_parametrica.svg`.
 
 Título proposto na dissertação:
 

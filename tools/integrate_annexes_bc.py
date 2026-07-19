@@ -416,9 +416,8 @@ def integrate_markdown(main_path: Path, annex_b: Path, annex_c: Path) -> None:
     )
     b_text = annex_b.read_text(encoding="utf-8").strip()
     c_text = annex_c.read_text(encoding="utf-8").strip().replace(
-        "](figura_c1_fluxo_adaptacao_parametrica.png)",
-        "](sources/manuscript/annexes/adaptacao_parametrica_modelos/"
-        "figura_c1_fluxo_adaptacao_parametrica.png)",
+        "](../../../../figuras/figura_c1_fluxo_adaptacao_parametrica.png)",
+        "](figuras/figura_c1_fluxo_adaptacao_parametrica.png)",
     )
 
     table_captions = re.findall(r"^(Tabela [BC]\.\d+ — .+)$", b_text + "\n" + c_text, re.M)

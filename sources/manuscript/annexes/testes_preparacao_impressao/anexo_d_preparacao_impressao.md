@@ -10,9 +10,10 @@ caracterizar, sob condições documentadas, as **exigências de fabrico digital*
 sistema paramétrico coloca a jusante do projecto: quanto material, quanto tempo,
 quantas placas de impressão e que condições de preparação decorrem de cada modelo
 e de cada dimensão antropométrica. O anexo apresenta também a comparação entre
-entrada, malha e peça física e prepara a observação da montagem e articulação. A
-comparação dimensional inclui as palmas em PLA e PETG; a montagem e a articulação
-permanecem dependentes de observações sistemáticas nos protótipos correspondentes.
+entrada, malha e peça física e inclui uma observação parcial da montagem e da
+articulação da UnLimbited Phoenix. A comparação dimensional inclui as palmas em
+PLA e PETG; a observação de montagem limita-se a um espécime e não constitui uma
+comparação sistemática entre modelos ou materiais.
 
 As duas séries aqui apresentadas constituem verificações técnicas complementares
 da fase empírica prevista na metodologia aprovada. Não introduzem novas perguntas,
@@ -53,9 +54,9 @@ Secção D.4.4, que correspondem a medições das palmas impressas.
 
 ## D.3 Variáveis, controlos e materiais
 
-Foram conduzidas duas séries de ensaios complementares. A documentação técnica
-associada ao anexo reúne as versões, as condições de preparação e os resultados
-completos no material suplementar da dissertação.
+Foram conduzidas duas séries de ensaios complementares. Os projectos, as condições
+de preparação e os resultados completos encontram-se no Suplemento 4 — Preparação
+para impressão e protótipos.
 
 **Programas:** Bambu Studio `01.10.02.76`; PrusaSlicer `2.8.1`.
 Análise geométrica em Python 3.12 / NumPy 2.4 (sem preparação para impressão).
@@ -114,7 +115,7 @@ resultado da preparação para impressão.
 ## D.4 Resultados
 
 Os resultados quantitativos completos e os registos geométricos encontram-se no
-material suplementar associado a este anexo.
+Suplemento 4 — Preparação para impressão e protótipos.
 
 ### D.4.1 Série A
 
@@ -172,7 +173,8 @@ no Paraglider `elderly_70`, uma consequência relevante da política comum sem
 suportes. Não foram emitidos avisos nos quatro casos Phoenix. A conclusão do
 processamento não demonstra, por si só, que a impressão física possa ser realizada
 sem rever a orientação ou activar suportes. Os dados completos — tempo, filamento,
-camadas, ocupação por placa e avisos — constam do registo suplementar da Série B.
+camadas, ocupação por placa e avisos — constam do ficheiro
+`resultados_serie_b.csv` do Suplemento 4.
 
 Duas leituras de projecto sobressaem:
 
@@ -192,7 +194,8 @@ Duas leituras de projecto sobressaem:
 ### D.4.3 Geometria — tamanho do conjunto vs tamanho da peça
 
 A análise geométrica distingue **três noções de tamanho** que não devem ser
-confundidas; os valores completos constam do registo geométrico suplementar:
+confundidas; os valores completos constam do ficheiro
+`resultados_geometria.csv` do Suplemento 4:
 
 - **Montagem sólida (mão estendida):** a caixa envolvente do corpo único do modelo
   montado, com dedos e punho estendidos. É o *vão anatómico*.
@@ -261,8 +264,9 @@ Tabela D.3 — Comparação dimensional da palma no eixo X em PLA e PETG
 | UnLimbited Phoenix | 28 anos | 90,181 mm | 89,914 mm | −0,267 mm | 89,832 mm | −0,349 mm |
 | UnLimbited Phoenix | 70 anos | 84,169 mm | 83,929 mm | −0,240 mm | 83,831 mm | −0,338 mm |
 
-A Tabela D.3 resume o eixo X; a folha suplementar de comparação dimensional
-conserva as 72 linhas correspondentes aos três eixos. Em todas as medições, a
+A Tabela D.3 resume o eixo X; o ficheiro
+`comparacao_dimensional_72_medicoes.csv` do Suplemento 4 conserva as 72 linhas
+correspondentes aos três eixos. Em todas as medições, a
 dimensão física ficou abaixo da extensão da malha. Em PLA, os desvios percentuais
 variaram entre −0,321% e −0,274%; em PETG, variaram entre −0,425% e −0,369%.
 Estes intervalos descrevem os exemplares medidos e não demonstram uma taxa geral
@@ -272,7 +276,7 @@ Nos casos Paraglider, os valores `palm_length_mm` e `palm_thickness_mm` são
 conservados como contexto do perfil, mas não controlam isoladamente as extensões Y
 e Z; no Flexy Beast e no Phoenix não existe, nestas configurações, um parâmetro de
 entrada correspondente a esses dois eixos. Esta diferença encontra-se identificada
-no campo `estado_parametro` da folha suplementar.
+no campo `estado_parametro` do mesmo ficheiro.
 
 As colunas «Entrada» e «Malha» não representam, em todos os modelos, o mesmo
 limite geométrico. No Flexy Beast e no Paraglider, a medida antropométrica alimenta
@@ -296,7 +300,7 @@ futura exigiria o reposicionamento do paquímetro e leituras independentes, mas 
 
 ### D.4.5 Registo fotográfico dos protótipos
 
-As Figuras 8.1 a 8.3 do manuscrito reúnem o registo fotográfico das peças produzidas: componentes separados e em montagem parcial, séries dimensionais de segmentos Paraglider Hand e Flexy Beast, e sete vistas de uma UnLimbited Phoenix montada para o perfil de ensaio de 15 anos. Os originais integram o material suplementar; os painéis apresentados foram compostos sem alteração do conteúdo visual. Três fotografias das séries dimensionais foram apenas rodadas 90° para permitir a leitura correcta da orientação e das identificações manuscritas.
+As Figuras 8.1 a 8.3 do manuscrito reúnem o registo fotográfico das peças produzidas: componentes separados e em montagem parcial, séries dimensionais de segmentos Paraglider Hand e Flexy Beast, e sete vistas de uma UnLimbited Phoenix montada para o perfil de ensaio de 15 anos. Os 19 originais encontram-se na subpasta `fotografias_originais/` do Suplemento 4; os painéis apresentados foram compostos sem alteração do conteúdo visual. Três fotografias das séries dimensionais foram apenas rodadas 90° para permitir a leitura correcta da orientação e das identificações manuscritas.
 
 Este registo confirma a existência material dos componentes fotografados e permite observar diferenças de escala, estados de montagem e relações visuais entre peças. Como não inclui escala métrica comum, pontos de medição assinalados, repetições controladas ou aplicação de carga, as fotografias não são usadas para calcular os desvios dimensionais nem para inferir resistência, conforto, adequação anatómica ou desempenho funcional. Os desvios apresentados na Secção D.4.4 resultam dos valores medidos nas peças, e não da interpretação das imagens.
 
@@ -324,8 +328,8 @@ Os quatro valores situam-se na gama de factores da folha Phoenix. A largura-base
 de 65 mm indicada nessa folha não foi comparada directamente com os 82 mm da
 plataforma, porque os documentos não demonstram que os pontos de medição sejam
 equivalentes. Não existe uma tabela específica para o Paraglider. O detalhe e os
-limites destas comparações constam da nota técnica suplementar de compatibilidade
-dimensional. Os resultados mostram
+limites destas comparações constam do ficheiro `compatibilidade_dimensionamento.md`
+do Suplemento 4. Os resultados mostram
 compatibilidade com orientações de escala; não demonstram adequação anatómica
 individual nem funcionamento.
 
@@ -362,9 +366,14 @@ individual nem funcionamento.
   por palma em PLA e PETG. Não foram registadas três leituras independentes por
   ponto, pelo que não se calculam amplitude entre repetições nem incerteza de
   reposicionamento do paquímetro.
-- **Verificação de montagem e articulação:** o protocolo e a folha de registo
-  foram preparados, mas não existem ainda observações preenchidas que permitam
-  apresentar resultados de movimento, fecho ou retorno.
+- **Verificação de montagem e articulação:** a folha contém uma observação da
+  UnLimbited Phoenix, correspondente ao perfil de ensaio de 15 anos e produzida
+  em PLA. A montagem foi concluída, os pinos foram colocados sem dano ou
+  correcção, os cinco dedos apresentaram movimento livre e foram observados o
+  fecho por cabo e o retorno. Depois de ensaios repetidos, os elásticos das
+  articulações alargaram e tiveram de ser substituídos. Não ficaram registados o
+  número exacto de ciclos nem os ensaios com cilindros; por isso, o resultado
+  permanece parcial.
 - **Medições mecânicas ou de ajuste ao utilizador:** não realizadas; exigiriam
   procedimentos e condições diferentes dos ensaios aqui descritos.
 
@@ -392,6 +401,10 @@ individual nem funcionamento.
   maior resistência à deformação térmica no estudo de Hsueh et al. (2021) e maior
   ductilidade no estudo de Martins et al. (2024); estas propriedades não constituem
   resultados experimentais desta dissertação.
+- Que, num espécime UnLimbited Phoenix correspondente ao perfil de ensaio de 15
+  anos e produzido em PLA, a montagem foi concluída e foram observados o movimento
+  livre dos cinco dedos, o fecho por cabo e o retorno; os elásticos das articulações
+  alargaram durante os ensaios repetidos e tiveram de ser substituídos.
 
 **Não pode afirmar-se:**
 
@@ -408,8 +421,10 @@ individual nem funcionamento.
   impressoras diferentes (a única comparação válida na Série A é o par Phoenix
   PLA vs PETG, que só difere no material).
 - Que a **integridade de malha** implica qualidade mecânica da peça.
-- Que o processamento concluído demonstra sucesso de impressão, montagem, adequação
-  funcional ou utilização segura.
+- Que o processamento concluído demonstra, por si só, sucesso de impressão,
+  montagem, adequação funcional ou utilização segura. A observação de um único
+  espécime Phoenix não pode ser generalizada aos restantes modelos, perfis ou
+  materiais nem apresentada como ensaio de durabilidade ou preensão.
 - Que os custos são preços de mercado reais: assentam numa taxa única assumida de
   36,29 €/kg (o PETG usa a mesma taxa do PLA); um preço real distinto por
   fornecedor ou no tempo altera-os proporcionalmente.
@@ -422,9 +437,10 @@ anteriores como **evidência visual e qualitativa** da preparação e do fabrico
 mostram que os ficheiros gerados pela plataforma foram impressos, montados e
 articulados. As imagens não acrescentam medições quantitativas. As dimensões X, Y
 e Z apresentadas em D.4.4 foram obtidas por medição directa das palmas. Uma
-caracterização metrológica com leituras independentes e a verificação sistemática
-da montagem constituem extensões possíveis, mas não integram o âmbito descritivo
-adoptado nesta dissertação.
+caracterização metrológica com leituras independentes e uma verificação
+sistemática da montagem em vários espécimes constituem extensões possíveis. A
+observação registada para a Phoenix documenta a montagem e o movimento preliminar,
+mas não substitui essa avaliação comparativa.
 
 ### D.9.1 Peças no processo de impressão (placa Bambu Lab A1)
 
@@ -498,4 +514,5 @@ cresce proporcionalmente com a dimensão de entrada.
 > **Nota sobre orientação das figuras.** As imagens foram integradas na orientação
 > em que os seus pixéis se apresentam (todas verticais/corretas na revisão feita).
 > Qualquer correcção posterior de orientação deve ser aplicada ao original
-> conservado no material suplementar, sem alterar a referência da figura.
+> conservado na subpasta `fotografias_originais/` do Suplemento 4, sem alterar a
+> referência da figura.

@@ -137,9 +137,9 @@ Tabela B.5 — Identificação das séries complementares de avaliação da plat
 | `2026-07-14_00-03-19_a11y-local` | Percurso local autenticado | axe-core 4.12.1 integrado no Playwright | Resultados por estado e lista de verificação manual |
 | `2026-07-14_00-06-48_a11y-public` | Página pública não autenticada | axe-core 4.12.1 integrado no Playwright | Resultado automático da página de entrada |
 
-As séries de ensaios correspondem à versão 14.69.0 da plataforma. O código de ensaio, os resultados estruturados e os registos necessários à interpretação das execuções foram conservados em conjunto no material suplementar.
+As séries de ensaios correspondem ao estado técnico documentado nos respectivos metadados. O código de ensaio, os resultados estruturados e os registos necessários à interpretação das execuções foram conservados no Suplemento 2 — Avaliação técnica da plataforma.
 
-Os resultados estruturados e as saídas brutas de maior dimensão integram o material suplementar associado ao Anexo B, organizados pelos identificadores técnicos originais de cada série.
+Os resultados estruturados seleccionados integram o Suplemento 2, organizados pelos identificadores técnicos originais de cada série. Os agregados internos e os estados intermédios redundantes não integram o pacote de entrega.
 
 ## B.10 Referências normativas
 

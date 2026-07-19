@@ -139,7 +139,7 @@ def apply(document_xml: bytes, extracted_pdf: str, page_offset: int) -> tuple[by
             # not emitted as searchable PDF text; their existing page 1 is valid.
             unmatched.append(title)
             continue
-        if style[0].startswith("ndiceAnexo"):
+        if style[0].startswith(("ndiceAnexo", "ndicedoAnexo")):
             # A local annex index repeats the title before the body heading.
             # The first hit is therefore the local index itself and the second
             # hit is the section heading whose page must be reported.

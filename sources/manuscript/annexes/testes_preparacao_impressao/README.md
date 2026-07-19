@@ -6,9 +6,14 @@ para impressão 3D**. A comparação dimensional contém **medições físicas**
 palmas em PLA e PETG. Nenhum destes resultados constitui um indicador de
 desempenho estrutural.
 
+A selecção destinada à entrega encontra-se em
+`suplementos/04_preparacao_impressao_prototipos/`. Inclui os quatro projectos 3MF,
+os resultados completos, os protocolos necessários, a observação de montagem
+preenchida e as fotografias originais, sem folhas vazias ou tabelas substituídas.
+
 | Ficheiro | Descrição |
 |---|---|
-| `anexo_d_preparacao_impressao.md` | Texto do Anexo D (preparação para impressão, comparação dimensional em PLA e PETG, orientações de dimensionamento e protocolo de montagem ainda por preencher) |
+| `anexo_d_preparacao_impressao.md` | Texto do Anexo D (preparação para impressão, comparação dimensional em PLA e PETG, orientações de dimensionamento e observação parcial da montagem da UnLimbited Phoenix) |
 | `resultados_projectos_arquivados.csv` | Série A — 4 projectos de preparação digital para impressão 3D processados com a configuração própria de cada caso; o nome técnico do ficheiro conserva a designação histórica |
 | `resultados_campanha_controlada.csv` | Série B — 12 casos (3 modelos × 4 perfis) sob condição virtual comum; o nome do ficheiro conserva a designação técnica original |
 | `resultados_geometria.csv` | Geometria: montagem sólida vs palma vs placa disposta; volume, manifold, faces degeneradas |
@@ -18,7 +23,7 @@ desempenho estrutural.
 | `tabela_estimativa_dimensional_teorica.csv` | Cenário teórico de planeamento anterior, substituído nos resultados pelas medições físicas; conservado apenas como registo histórico da preparação do ensaio |
 | `protocolo_medicao_dimensional_fisica.md` | Instrumento, referencial e procedimento opcional para uma futura caracterização metrológica com três leituras por eixo |
 | `protocolo_montagem_articulacao.md` | Verificação em bancada limitada aos protótipos efectivamente completos |
-| `folha_montagem_articulacao.csv` | Folha ainda não preenchida para registar montagem, movimento, fecho e retorno |
+| `folha_montagem_articulacao.csv` | Registo parcial da UnLimbited Phoenix `teen_15` em PLA: montagem, movimento dos cinco dedos, fecho e retorno observados; substituição dos elásticos após alargamento em ensaios repetidos; Flexy Beast e Paraglider Hand por preencher |
 | `avaliacao_compatibilidade_dimensionamento.md` | Comparação delimitada com o gráfico Cyborg Beast e a folha Phoenix, sem inferir adequação anatómica |
 | `guia_execucao_ensaios_fisicos.md` | Sequência operacional opcional para aprofundar as medições, fotografar os pontos de contacto e observar a montagem dos protótipos |
 | `inventario_especimes_fisicos.csv` | Folha vazia para associar cada peça física ao modelo, perfil, material e ficheiro digital |
@@ -31,6 +36,16 @@ medições físicas das palmas em PLA e PETG e, por esse motivo, substitui a fol
 inicial que continha apenas os valores das malhas e campos de medição vazios.
 
 **Programas de preparação para impressão 3D:** Bambu Studio `01.10.02.76`; PrusaSlicer `2.8.1`.
+
+**Montagem e articulação.** A folha contém uma observação da UnLimbited
+Phoenix em PLA, no perfil `teen_15`. A montagem foi concluída sem correcção permanente
+das peças, os pinos foram colocados sem dano, os cinco dedos apresentaram
+movimento livre e foram observados o fecho por cabo e o retorno. Após ensaios
+repetidos, os elásticos das articulações alargaram e tiveram de ser substituídos;
+o funcionamento foi restabelecido depois da substituição. O número exacto de
+ciclos e o envolvimento dos cilindros
+não ficaram registados, pelo que esta observação não deve ser apresentada como
+ensaio sistemático de durabilidade ou preensão.
 
 **Registo fotográfico (secção D.9).** As fotografias dos protótipos impressos
 (peças na placa, série dimensional por perfil, componentes soltos e a mão Phoenix

@@ -13,7 +13,6 @@ from PIL import Image
 
 ROOT = Path(__file__).resolve().parents[1]
 FIGURES = ROOT / "figuras"
-ANNEX = ROOT / "sources/manuscript/annexes/adaptacao_parametrica_modelos"
 
 INK = "#1f2933"
 LINE = "#59636d"
@@ -529,7 +528,7 @@ def figure_c_1() -> None:
                            size=21, weight=400))
     parts.append(path("M1090 670 V715 H800 V760"))
     parts.append(footer())
-    write(ANNEX / "figura_c1_fluxo_adaptacao_parametrica.svg", "\n".join(parts))
+    write(FIGURES / "figura_c1_fluxo_adaptacao_parametrica.svg", "\n".join(parts))
 
 
 def main() -> None:

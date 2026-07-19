@@ -1,0 +1,458 @@
+{
+  "test_id": "REP-DET-002",
+  "model_id": "paraglider_hand",
+  "requested_parameters": {
+    "mirrored": false,
+    "palm_breadth_mm": 83,
+    "palm_length_mm": 95,
+    "palm_thickness_mm": 32,
+    "index_finger_length_mm": 68,
+    "middle_finger_length_mm": 72,
+    "ring_finger_length_mm": 68,
+    "pinky_finger_length_mm": 55,
+    "thumb_length_mm": 65
+  },
+  "applied_parameters": {
+    "mirrored": false,
+    "component": "Hand",
+    "palm_style": "Reborn",
+    "palm_breadth_mm": 83,
+    "palm_length_mm": 95,
+    "palm_thickness_mm": 32,
+    "index_finger_length_mm": 68,
+    "middle_finger_length_mm": 72,
+    "ring_finger_length_mm": 68,
+    "pinky_finger_length_mm": 55,
+    "thumb_length_mm": 65,
+    "pin_index": 1,
+    "string_channel_scale": 0.9,
+    "elastic_channel_scale": 0.9,
+    "old_style_wrist": false,
+    "show_palm": true,
+    "show_palm_mesh": true,
+    "show_knuckle_covers": true,
+    "show_index": true,
+    "show_middle": true,
+    "show_ring": true,
+    "show_pinky": true,
+    "show_thumb": true,
+    "show_pins": true,
+    "show_channels": false,
+    "show_assembled": true,
+    "color_palm": "#d4a574",
+    "color_index": "#4a9eff",
+    "color_middle": "#ff6b6b",
+    "color_ring": "#51cf66",
+    "color_pinky": "#ffd43b",
+    "color_thumb": "#cc5de8",
+    "color_pins": "#aaaaaa",
+    "GAU_bearing_only": false,
+    "GAU_slide_only": false,
+    "ARM_part": "Cuff",
+    "ARM_LeftRight": "Left",
+    "ARM_HandLen": 135,
+    "ARM_ForearmLen": 140,
+    "ARM_BicepCircum": 160,
+    "ARM_CuffLength": 65,
+    "ARM_PinHoleDia": 3
+  },
+  "runs_requested": 10,
+  "runs_concluded": 5,
+  "tolerance_mm": 0.05,
+  "distinct_checksums": 1,
+  "binary_stable": true,
+  "geometry_classes": [
+    "identical",
+    "identical",
+    "identical",
+    "identical",
+    "identical"
+  ],
+  "all_geometrically_equivalent": true,
+  "reference_metrics": {
+    "format": "binary",
+    "bytes": 1974584,
+    "sha256": "4becd145da8bdd49da1b5651657f5001497fca805c165c2282aceb19c07172aa",
+    "faces": 39490,
+    "unique_vertices": 19330,
+    "bbox": {
+      "min": [
+        -50.401249,
+        -56.852497,
+        0
+      ],
+      "max": [
+        311.25,
+        75.009178,
+        38.192501
+      ],
+      "dims_mm": [
+        361.651249,
+        131.861675,
+        38.192501
+      ]
+    },
+    "volume_mm3": 136091.0323,
+    "surface_area_mm2": 82566.753448,
+    "degenerate_faces": 428,
+    "boundary_edges": 28,
+    "non_manifold_edges": 0,
+    "watertight": false,
+    "manifold": true
+  },
+  "runs": [
+    {
+      "run": 0,
+      "conclusion": true,
+      "attempt": 0,
+      "ms": 16621,
+      "metrics": {
+        "format": "binary",
+        "bytes": 1974584,
+        "sha256": "4becd145da8bdd49da1b5651657f5001497fca805c165c2282aceb19c07172aa",
+        "faces": 39490,
+        "unique_vertices": 19330,
+        "bbox": {
+          "min": [
+            -50.401249,
+            -56.852497,
+            0
+          ],
+          "max": [
+            311.25,
+            75.009178,
+            38.192501
+          ],
+          "dims_mm": [
+            361.651249,
+            131.861675,
+            38.192501
+          ]
+        },
+        "volume_mm3": 136091.0323,
+        "surface_area_mm2": 82566.753448,
+        "degenerate_faces": 428,
+        "boundary_edges": 28,
+        "non_manifold_edges": 0,
+        "watertight": false,
+        "manifold": true
+      }
+    },
+    {
+      "run": 1,
+      "conclusion": true,
+      "attempt": 0,
+      "ms": 13819,
+      "metrics": {
+        "format": "binary",
+        "bytes": 1974584,
+        "sha256": "4becd145da8bdd49da1b5651657f5001497fca805c165c2282aceb19c07172aa",
+        "faces": 39490,
+        "unique_vertices": 19330,
+        "bbox": {
+          "min": [
+            -50.401249,
+            -56.852497,
+            0
+          ],
+          "max": [
+            311.25,
+            75.009178,
+            38.192501
+          ],
+          "dims_mm": [
+            361.651249,
+            131.861675,
+            38.192501
+          ]
+        },
+        "volume_mm3": 136091.0323,
+        "surface_area_mm2": 82566.753448,
+        "degenerate_faces": 428,
+        "boundary_edges": 28,
+        "non_manifold_edges": 0,
+        "watertight": false,
+        "manifold": true
+      }
+    },
+    {
+      "run": 2,
+      "conclusion": true,
+      "attempt": 0,
+      "ms": 14069,
+      "metrics": {
+        "format": "binary",
+        "bytes": 1974584,
+        "sha256": "4becd145da8bdd49da1b5651657f5001497fca805c165c2282aceb19c07172aa",
+        "faces": 39490,
+        "unique_vertices": 19330,
+        "bbox": {
+          "min": [
+            -50.401249,
+            -56.852497,
+            0
+          ],
+          "max": [
+            311.25,
+            75.009178,
+            38.192501
+          ],
+          "dims_mm": [
+            361.651249,
+            131.861675,
+            38.192501
+          ]
+        },
+        "volume_mm3": 136091.0323,
+        "surface_area_mm2": 82566.753448,
+        "degenerate_faces": 428,
+        "boundary_edges": 28,
+        "non_manifold_edges": 0,
+        "watertight": false,
+        "manifold": true
+      }
+    },
+    {
+      "run": 3,
+      "conclusion": true,
+      "attempt": 0,
+      "ms": 13731,
+      "metrics": {
+        "format": "binary",
+        "bytes": 1974584,
+        "sha256": "4becd145da8bdd49da1b5651657f5001497fca805c165c2282aceb19c07172aa",
+        "faces": 39490,
+        "unique_vertices": 19330,
+        "bbox": {
+          "min": [
+            -50.401249,
+            -56.852497,
+            0
+          ],
+          "max": [
+            311.25,
+            75.009178,
+            38.192501
+          ],
+          "dims_mm": [
+            361.651249,
+            131.861675,
+            38.192501
+          ]
+        },
+        "volume_mm3": 136091.0323,
+        "surface_area_mm2": 82566.753448,
+        "degenerate_faces": 428,
+        "boundary_edges": 28,
+        "non_manifold_edges": 0,
+        "watertight": false,
+        "manifold": true
+      }
+    },
+    {
+      "run": 4,
+      "conclusion": true,
+      "attempt": 0,
+      "ms": 14450,
+      "metrics": {
+        "format": "binary",
+        "bytes": 1974584,
+        "sha256": "4becd145da8bdd49da1b5651657f5001497fca805c165c2282aceb19c07172aa",
+        "faces": 39490,
+        "unique_vertices": 19330,
+        "bbox": {
+          "min": [
+            -50.401249,
+            -56.852497,
+            0
+          ],
+          "max": [
+            311.25,
+            75.009178,
+            38.192501
+          ],
+          "dims_mm": [
+            361.651249,
+            131.861675,
+            38.192501
+          ]
+        },
+        "volume_mm3": 136091.0323,
+        "surface_area_mm2": 82566.753448,
+        "degenerate_faces": 428,
+        "boundary_edges": 28,
+        "non_manifold_edges": 0,
+        "watertight": false,
+        "manifold": true
+      }
+    },
+    {
+      "run": 5,
+      "conclusion": false,
+      "attempts": [
+        {
+          "attempt": 0,
+          "ms": 249356,
+          "error": "page.waitForEvent: Timeout 240000ms exceeded while waiting for event \"download\"\n=========================== logs ===========================\nwaiting for event \"download\"\n============================================================"
+        },
+        {
+          "attempt": 1,
+          "ms": 28086,
+          "error": "page.waitForSelector: Timeout 20000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#login-form') to be visible\u001b[22m\n"
+        }
+      ],
+      "ms": 277442
+    },
+    {
+      "run": 6,
+      "conclusion": false,
+      "attempts": [
+        {
+          "attempt": 0,
+          "ms": 28074,
+          "error": "page.waitForSelector: Timeout 20000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#login-form') to be visible\u001b[22m\n"
+        },
+        {
+          "attempt": 1,
+          "ms": 28082,
+          "error": "page.waitForSelector: Timeout 20000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#login-form') to be visible\u001b[22m\n"
+        }
+      ],
+      "ms": 56156
+    },
+    {
+      "run": 7,
+      "conclusion": false,
+      "attempts": [
+        {
+          "attempt": 0,
+          "ms": 28073,
+          "error": "page.waitForSelector: Timeout 20000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#login-form') to be visible\u001b[22m\n"
+        },
+        {
+          "attempt": 1,
+          "ms": 28069,
+          "error": "page.waitForSelector: Timeout 20000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#login-form') to be visible\u001b[22m\n"
+        }
+      ],
+      "ms": 56142
+    },
+    {
+      "run": 8,
+      "conclusion": false,
+      "attempts": [
+        {
+          "attempt": 0,
+          "ms": 28070,
+          "error": "page.waitForSelector: Timeout 20000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#login-form') to be visible\u001b[22m\n"
+        },
+        {
+          "attempt": 1,
+          "ms": 28070,
+          "error": "page.waitForSelector: Timeout 20000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#login-form') to be visible\u001b[22m\n"
+        }
+      ],
+      "ms": 56140
+    },
+    {
+      "run": 9,
+      "conclusion": false,
+      "attempts": [
+        {
+          "attempt": 0,
+          "ms": 28067,
+          "error": "page.waitForSelector: Timeout 20000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#login-form') to be visible\u001b[22m\n"
+        },
+        {
+          "attempt": 1,
+          "ms": 28080,
+          "error": "page.waitForSelector: Timeout 20000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#login-form') to be visible\u001b[22m\n"
+        }
+      ],
+      "ms": 56147
+    }
+  ],
+  "comparisons": [
+    {
+      "run": 0,
+      "binary_identical": true,
+      "geometry_class": "identical",
+      "deltas": {
+        "max_bbox_dim_delta_mm": 0,
+        "bbox_dim_deltas_mm": [
+          0,
+          0,
+          0
+        ],
+        "volume_delta_mm3": 0,
+        "faces_equal": true,
+        "unique_vertices_equal": true
+      }
+    },
+    {
+      "run": 1,
+      "binary_identical": true,
+      "geometry_class": "identical",
+      "deltas": {
+        "max_bbox_dim_delta_mm": 0,
+        "bbox_dim_deltas_mm": [
+          0,
+          0,
+          0
+        ],
+        "volume_delta_mm3": 0,
+        "faces_equal": true,
+        "unique_vertices_equal": true
+      }
+    },
+    {
+      "run": 2,
+      "binary_identical": true,
+      "geometry_class": "identical",
+      "deltas": {
+        "max_bbox_dim_delta_mm": 0,
+        "bbox_dim_deltas_mm": [
+          0,
+          0,
+          0
+        ],
+        "volume_delta_mm3": 0,
+        "faces_equal": true,
+        "unique_vertices_equal": true
+      }
+    },
+    {
+      "run": 3,
+      "binary_identical": true,
+      "geometry_class": "identical",
+      "deltas": {
+        "max_bbox_dim_delta_mm": 0,
+        "bbox_dim_deltas_mm": [
+          0,
+          0,
+          0
+        ],
+        "volume_delta_mm3": 0,
+        "faces_equal": true,
+        "unique_vertices_equal": true
+      }
+    },
+    {
+      "run": 4,
+      "binary_identical": true,
+      "geometry_class": "identical",
+      "deltas": {
+        "max_bbox_dim_delta_mm": 0,
+        "bbox_dim_deltas_mm": [
+          0,
+          0,
+          0
+        ],
+        "volume_delta_mm3": 0,
+        "faces_equal": true,
+        "unique_vertices_equal": true
+      }
+    }
+  ],
+  "verdict": "inconclusivo"
+}

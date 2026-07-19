@@ -1,0 +1,87 @@
+{
+  "cases": [
+    {
+      "test_id": "ROB-INV-001/002",
+      "expected": "controlled rejection (HTTP 400) with a validation message; no silent apply",
+      "below_min": {
+        "status": 400,
+        "body": {
+          "error": "Parameter validation failed",
+          "details": [
+            "palm_breadth_mm: value 10 is below minimum 55"
+          ]
+        }
+      },
+      "above_max": {
+        "status": 400,
+        "body": {
+          "error": "Parameter validation failed",
+          "details": [
+            "palm_breadth_mm: value 999 exceeds maximum 110"
+          ]
+        }
+      },
+      "classification": "passa"
+    },
+    {
+      "test_id": "ROB-INV-003",
+      "expected": "HTTP 400 with explicit message; no silent creation",
+      "status": 400,
+      "body": {
+        "error": "Required"
+      },
+      "classification": "passa"
+    },
+    {
+      "test_id": "ROB-INV-004",
+      "expected": "ideally rejected or coerced; observe actual",
+      "status": 201,
+      "body_keys": [
+        "id",
+        "user_id",
+        "model_id",
+        "name",
+        "parameters",
+        "notes"
+      ],
+      "observation": "string value ACCEPTED by config API (numeric bounds check skips non-numbers) — recorded finding, not fixed here",
+      "classification": "falha controlada (aceite sem coerção — defeito registado)"
+    },
+    {
+      "test_id": "ROB-SRV-001",
+      "expected": "AI failure returns a controlled error; saved config preserved & recoverable",
+      "ai_status": 503,
+      "ai_error": "ANTHROPIC_API_KEY not configured",
+      "config_preserved": true,
+      "classification": "passa"
+    },
+    {
+      "test_id": "ROB-MOD-001",
+      "expected": "value below floor is clamped to the model minimum and reported (no silent change)",
+      "phoenix_floor_mm": 82,
+      "mapped_palm": 82,
+      "clamp_record": {
+        "name": "palm_breadth_mm",
+        "from": 58,
+        "to": 82
+      },
+      "classification": "passa"
+    },
+    {
+      "test_id": "ROB-COV-001",
+      "expected": "no direct-country match; a gender/age substitute group is returned and its country differs (traceable)",
+      "matched_group": "SYNTHETIC Adult Male 50th",
+      "matched_country": "Testland",
+      "is_direct_country_match": false,
+      "classification": "passa"
+    },
+    {
+      "test_id": "ROB-CON-001",
+      "expected": "explicit numeric age wins over qualitative term (documented priority)",
+      "parsed_age": 40,
+      "age_bucket": "adult",
+      "rule": "numeric age > qualitative descriptor for age bucketing",
+      "classification": "passa"
+    }
+  ]
+}
