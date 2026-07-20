@@ -42,6 +42,9 @@ def strip_markdown(value: str) -> str:
 
 
 def normalized(value: str) -> str:
+    # Convert Unicode dashes before ASCII folding so adjoining words do not
+    # collapse (for example, "all—Design" must become "all design").
+    value = re.sub(r"[\u2010-\u2015]", " ", value)
     value = unicodedata.normalize("NFKD", strip_markdown(value)).encode("ascii", "ignore").decode()
     return re.sub(r"[^a-z0-9]+", " ", value.casefold()).strip()
 
@@ -83,10 +86,10 @@ VERIFIED_DOIS = {
     title_key("Integrating parametric design and additive manufacturing knowledge in industrial design education"): "10.1016/j.matpr.2022.10.124",
     title_key("A Participatory Model for Cocreating Accessible Rehabilitation Technology for Stroke Survivors: User-centered Design Approach"): "10.2196/57227",
     title_key("Mapping artificial intelligence-based methods to engineering design stages: A focused literature review"): "10.1017/s0890060423000203",
-    title_key("Deep learning for automated product design"): "10.5445/IR/1000127884",
+    title_key("Deep learning for automated product design"): "10.1016/j.procir.2020.01.135",
     title_key("Design of Personalized Devices: The Tradeoff Between Individual Value and Personalization Workload"): "10.3390/app11010241",
     title_key("An additive manufacturing process model for product family design"): "10.1080/09544828.2016.1228101",
-    title_key("A review of user needs to inform the development of lower-limb prostheses"): "10.1186/s12984-022-01097-1",
+    title_key("A review of user needs to drive the development of lower limb prostheses"): "10.1186/s12984-022-01097-1",
     title_key("Personalization of the 3D-printed Upper Limb Exoskeleton Design: Mechanical and IT Aspects"): "10.3390/app13127236",
     title_key("Design methodology for mass personalisation enabled by digital manufacturing"): "10.1017/dsj.2022.3",
     title_key("Special issue: Machine learning for engineering design"): "10.1115/1.4044690",
@@ -96,6 +99,7 @@ VERIFIED_DOIS = {
     title_key("Integrating artificial intelligence into design thinking: A comprehensive examination of the principles and potentialities of AI for design thinking framework"): "10.61186/ist.202401.01.09",
     title_key("Effects of lower limb prosthesis on activity, participation, and quality of life: A systematic review"): "10.1177/0309364611432794",
     title_key("Upper limb prostheses by the level of amputation: A systematic review"): "10.3390/prosthesis6020022",
+    title_key("Prosthesis rejection in acquired major upper-limb amputees: A population-based survey"): "10.3109/17483107.2011.635405",
     title_key("User involvement in healthcare technology development and assessment: Structured literature review"): "10.1108/09526860610687619",
     title_key("A review on 3D scanners studies for producing customized orthoses"): "10.3390/s24051373",
     title_key("Participatory Design of Pediatric Upper Limb Prostheses: Qualitative Methods and Prototyping"): "10.1017/S0266462317000836",
@@ -251,7 +255,7 @@ def parse_missing_sources(audit_text: str) -> tuple[list[MissingSource], Missing
         "active lower limb prosthetics a systematic review of design issues and solutions": "Windrich et al.",
         "issues affecting the level of prosthetics research evidence": "Hafner and Sawers",
         "literature review on needs of upper limb prosthesis users": "Cordella et al.",
-        "a review of user needs to inform the development of lower limb prostheses": "Manz et al.",
+        "a review of user needs to drive the development of lower limb prostheses": "Manz et al.",
         "functionality and comfort design of lower limb prosthetics": "Alluhydan et al.",
         "adjustable prosthetic sockets a systematic review": "Baldock et al.",
         "user experience of transtibial prosthetic liners a systematic review": "Richardson and Dillon",
@@ -628,19 +632,20 @@ def render(sources: list[MissingSource], ghali: MissingSource, audit: Path, manu
             "- Walker et al. foi retirado da lista porque o texto integral foi posteriormente obtido e confrontado. Mistarihi (2020) foi inicialmente acrescentado a partir do Anexo A e retirado após validação do PDF local; os cinco pares associados aguardam confronto directo.",
             "- Fink e Diamond (2023) foi retirado da lista porque o texto integral do artigo 101061 foi posteriormente obtido e as seis passagens que o citam foram confrontadas directamente; a auditoria concluiu que o suporte é parcial.",
             "- Segura et al. (2024) foi retirado da lista porque o PDF editorial foi acrescentado e as sete passagens que o citam foram confrontadas directamente; uma associação tem suporte directo, cinco têm suporte parcial e uma é incompatível.",
+            "- Østlie et al. (2012) não integra a lista: o PDF integral já existia em três subpastas de `material/` que não foram devolvidas pela pesquisa inicial com `rg --files`, devido às regras de exclusão do repositório. A disponibilidade foi confirmada com `find`, a Figura 1 foi confrontada directamente com a Figura 2.2 e uma cópia canónica foi colocada em `projecto_completo_bibliografia/` na versão 0.4.88.",
             "- Shah e Robinson (2006), Wilke et al. (2020) e Millet et al. (2018) foram retirados após a validação dos PDFs locais e o confronto de nove pares afirmação–fonte.",
             "- Chapman et al. (2025) foi retirado após a extracção textual integral do PDF editorial de acesso aberto e o confronto dos quatro pares associados; a captura Markdown conserva os marcadores da paginação publicada, mas não substitui o ficheiro PDF original.",
             "- O lote local de 16 de Julho de 2026 retirou mais trinta fontes desta lista após validação dos PDFs e confronto de 116 pares afirmação–fonte; 52 têm suporte directo, 53 suporte parcial e onze são incompatíveis.",
             "- Um segundo lote local do mesmo dia acrescentou catorze textos integrais e retirou essas fontes da lista de faltas; os 44 pares afirmação–fonte associados permanecem pendentes de confronto directo e não foram reclassificados automaticamente.",
             "- Um terceiro lote local acrescentou doze textos integrais e retirou essas fontes da lista de faltas; os 26 pares afirmação–fonte associados permanecem pendentes de confronto directo. No conjunto dos dois lotes ainda não confrontados, existem 70 pares associados a 26 fontes disponíveis localmente.",
-            "- Um quarto lote, de 16 de Julho de 2026, obteve cinco textos integrais em fontes de acesso aberto, resolvidas por Unpaywall e OpenAlex a partir do DOI: Engdahl et al. (Springer), Fisher e Johansen (journals.uct.ac.za), Guo (Dean&Francis), Howard et al. (repositório Cronfa da Universidade de Swansea) e Peters e Richter (ScholarSpace). Os pares afirmação–fonte associados permanecem pendentes de confronto directo.",
-            "- O PDF de Guo (2025) não tem camada de texto pesquisável; o confronto das citações exige leitura directa ou reconhecimento óptico de caracteres.",
+            "- Um quarto lote, de 16 de Julho de 2026, obteve cinco textos integrais em fontes de acesso aberto, resolvidas por Unpaywall e OpenAlex a partir do DOI: Engdahl et al. (Springer), Fisher e Johansen (journals.uct.ac.za), Guo (Dean&Francis), Howard et al. (repositório Cronfa da Universidade de Swansea) e Peters e Richter (ScholarSpace). Guo foi posteriormente confrontado; os restantes pares continuam pendentes.",
+            "- O PDF de Guo (2025) não tem camada de texto pesquisável; o confronto foi concluído por reconhecimento óptico de caracteres e verificação visual.",
             "- Peters e Richter (2023) foi identificado como comunicação da 56.ª Hawaii International Conference on System Sciences, o que resolve a ausência de DOI registada anteriormente.",
-            "- Um quinto lote, descarregado manualmente em navegador no mesmo dia, acrescentou seis textos integrais de fontes de acesso aberto ou de leitura livre cujos servidores recusam transferências automatizadas: Bates et al. e Baumann e Maria (PMC), ELhadad et al. (ScienceDirect), Franke e von Hippel (repositório da WU Viena), Peerdeman et al. (repositório da Universidade de Twente) e Romani e Levi (repositório do Politécnico de Milão). Todos conservam camada de texto pesquisável e os pares afirmação–fonte associados permanecem pendentes de confronto directo.",
+            "- Um quinto lote, descarregado manualmente em navegador no mesmo dia, acrescentou seis textos integrais de fontes de acesso aberto ou de leitura livre cujos servidores recusam transferências automatizadas: Bates et al. e Baumann e Maria (PMC), ELhadad et al. (ScienceDirect), Franke e von Hippel (repositório da WU Viena), Peerdeman et al. (repositório da Universidade de Twente) e Romani e Levi (repositório do Politécnico de Milão). Todos conservam camada de texto pesquisável; Franke e von Hippel foi posteriormente confrontado e os restantes pares continuam pendentes.",
             "- O ficheiro de Franke e von Hippel é a versão de autor depositada na WU Viena, com 37 páginas; a paginação não corresponde à do artigo publicado na Research Policy, pelo que as citações por página devem remeter para a versão editorial.",
             "- As restantes fontes sem texto integral dividem-se em dois grupos: as que não têm cópia de acesso aberto conhecida em Unpaywall nem em OpenAlex (Panchal et al., Resnik et al., Story, Virós-i-Martin e Selva, Yao, Moon e Bi e Yüksel et al.) e Figoli, Mattioli e Rampino, cuja comunicação está em acesso aberto na biblioteca digital da DRS mas cujo servidor recusa transferências automatizadas; obtém-se em `https://dl.designresearchsociety.org/drs-conference-papers/drs2022/researchpapers/117/`.",
-            "- O PDF de Krahe et al. (2020) confirma o DOI editorial `10.1016/j.procir.2020.01.135`; `10.5445/IR/1000127884`, conservado no registo anterior, identifica o depósito do KIT.",
-            "- O PDF de Jones, Chadwell e Dyson (2023) confirma o DOI `10.3389/frhs.2023.1213752`, diferente de `10.3389/frhs.2023.1123682`, ainda registado na bibliografia e assinalado para correcção editorial posterior.",
+            "- O PDF de Krahe et al. (2020) confirma o DOI editorial `10.1016/j.procir.2020.01.135`; `10.5445/IR/1000127884` identifica o depósito do KIT. Na versão 0.4.81, a fonte foi confrontada e associada apenas à afirmação directamente sustentada sobre identificação de padrões em modelos tridimensionais e geração de variantes condicionadas por requisitos.",
+            "- A autoria, o número de artigo e o DOI de Jones, Chadwell e Dyson (2023) foram corrigidos na bibliografia na versão 0.4.80 para `10.3389/frhs.2023.1213752`; a fonte foi confrontada e deslocada para uma afirmação compatível da Secção 2.8.",
             "- Dois PDFs válidos acrescentados no mesmo lote — Kang et al. e Bitterman — não correspondem a referências citadas e, por isso, não alteram esta lista. `SHTI-297-SHTI220858.pdf` foi excluído por conter HTML, usando-se o PDF válido de White e Mosca.",
             "- Fontes normativas, páginas *web*, repositórios de código e conjuntos DINED sem PDF autónomo não são contabilizados como PDFs científicos em falta.",
             "",

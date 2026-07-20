@@ -4,13 +4,13 @@ Data da auditoria: 15–17 de Julho de 2026
 Manuscrito auditado: `pedro-candeias-projeto-mestrado-mdddp-ipca-2026-revisto.md`
 Versão indicada no manuscrito: 0.4.64
 Âmbito concluído: corpo dos Capítulos 1–9, linhas 223–1882, e Anexos A–D, linhas 2213–3734
-Estado: auditoria sequencial do corpo e dos Anexos A–D concluída; o Capítulo 9 e o Anexo C não contêm citações autor–ano a *papers*. Dos textos integrais acrescentados depois do fecho sequencial, 35 aguardam ainda confronto directo com 94 pares afirmação–fonte. Guo (2025) e Franke e von Hippel (versão de trabalho de 2002; publicação de 2003) foram confrontados em 17 de Julho de 2026.
+Estado: auditoria sequencial do corpo e dos Anexos A–D concluída; o Capítulo 9 e o Anexo C não contêm citações autor–ano a *papers*. Dos textos integrais acrescentados depois do fecho sequencial, 33 aguardam ainda confronto directo com 92 pares afirmação–fonte. Guo (2025), Franke e von Hippel (2003), Jones, Chadwell e Dyson (2023), Krahe et al. (2020) e Østlie et al. (2012) foram confrontados directamente.
 
 ## Estado dos textos integrais e lote posterior
 
-A tabela seguinte conserva o levantamento das **45 fontes citadas cujo texto integral estava em falta no fecho da auditoria sequencial**, após a pesquisa em `projecto_completo_bibliografia/`, `material/` e nos 514 registos consultados na biblioteca Mendeley. Os lotes acrescentados entre 16 e 17 de Julho elevaram a disponibilidade local para **130 dos 138 *papers***. A lista actual de ausências reduziu-se a **8 *papers*** e encontra-se em `projecto_completo_bibliografia/pdfs_em_falta.md`.
+A tabela seguinte conserva o levantamento das **45 fontes citadas cujo texto integral estava em falta no fecho da auditoria sequencial**, após a pesquisa em `projecto_completo_bibliografia/`, `material/` e nos 514 registos consultados na biblioteca Mendeley. Os lotes acrescentados entre 16 e 17 de Julho elevaram a disponibilidade local para **130 dos 138 *papers***. A introdução de Xu e Qin (2022), já disponível localmente, elevou a cobertura formal para **131 dos 139 *papers***. A correcção da fonte da Figura 2.2 acrescentou Østlie et al. (2012), cujo PDF integral já se encontrava em três subpastas ignoradas pelo inventário Git e foi copiado para `projecto_completo_bibliografia/`; a cobertura formal passa, assim, para **132 dos 140 *papers***. A lista actual de ausências mantém-se em **8 *papers*** e encontra-se em `projecto_completo_bibliografia/pdfs_em_falta.md`.
 
-A disponibilidade do PDF não constitui, por si só, confirmação das afirmações do manuscrito. Dos textos acrescentados depois do fecho sequencial, 35 fontes, associadas a 94 pares afirmação–fonte, continuam pendentes de leitura comparativa. Guo (2025) e Franke e von Hippel foram agora confrontados; os outros nove PDFs do lote mais recente permanecem pendentes. O volume *New Perspectives in End-User Development* contém o capítulo de Fischer et al. (2017). O PDF de Jones, Chadwell e Dyson (2023) confirma o DOI `10.3389/frhs.2023.1213752`, divergente de `10.3389/frhs.2023.1123682`, ainda registado na bibliografia. O PDF de Krahe et al. (2020) confirma o DOI editorial `10.1016/j.procir.2020.01.135`, enquanto `10.5445/IR/1000127884` identifica o depósito do KIT. As duas divergências ficam assinaladas para revisão editorial autónoma. A tabela histórica abaixo é mantida para preservar a sequência da auditoria; as ligações para o Crossref que nela aparecem como pesquisas por título não correspondem a DOI confirmados.
+A disponibilidade do PDF não constitui, por si só, confirmação das afirmações do manuscrito. Dos textos acrescentados depois do fecho sequencial, 33 fontes, associadas a 92 pares afirmação–fonte, continuam pendentes de leitura comparativa. Guo (2025), Franke e von Hippel (2003), Jones, Chadwell e Dyson (2023) e Krahe et al. (2020) foram confrontados; os outros oito PDFs do lote mais recente permanecem pendentes. O volume *New Perspectives in End-User Development* contém o capítulo de Fischer et al. (2017). A autoria, o número de artigo e o DOI de Jones et al. foram corrigidos na versão 0.4.80 para `10.3389/frhs.2023.1213752`. O PDF de Krahe et al. confirma o DOI editorial `10.1016/j.procir.2020.01.135`; `10.5445/IR/1000127884` identifica apenas o depósito do KIT. Na versão 0.4.81, a auditoria e o texto foram actualizados para associar Krahe et al. a uma afirmação directamente sustentada sobre identificação de padrões em modelos tridimensionais e geração de variantes condicionadas por requisitos. Na versão 0.4.82, as Figuras 2.3 e 2.8 foram correctamente atribuídas, respectivamente, às Figuras 1 e 10 de Oldfrey et al. (2024), e foram completados os metadados bibliográficos de Oldfrey et al. e Chainando et al. Na versão 0.4.83, a afirmação sobre parametrização, optimização topológica, FEM e geração algorítmica foi dividida por três fontes directamente correspondentes: Lim et al. (2018), Lei et al. (2016) e Xu e Qin (2022). Na versão 0.4.84, a caracterização do ecossistema aberto foi delimitada ao que Manero et al. (2019) e Wendo et al. (2022) demonstram directamente, preservando a editabilidade dos ficheiros, a reprodução distribuída e a documentação comunitária. Na versão 0.4.85, a descrição do catálogo e-NABLE foi limitada às categorias e aos mecanismos de accionamento efectivamente examinados por Wendo et al. (2022), mantendo explícita a relevância destas diferenças para o *design* de próteses de membro superior. Na versão 0.4.86, a síntese de Atallah et al. (2025) substituiu o conceito genérico de «adequação» pelos resultados distintos avaliados nos estudos de membro superior e separou as melhorias relatadas dos restantes aspectos observados. Na versão 0.4.87, as duas utilizações de Chainando et al. (2025) foram delimitadas aos métodos digitais de captura, personalização e impressão efectivamente descritos; a cadeia de trabalho passou a ser identificada como organização metodológica do projecto e a afirmação incompatível sobre adaptação automática de modelos CAD foi substituída pelos resultados comparativos de Çıklaçandır et al. (2022). Na versão 0.4.88, a Figura 2.2 foi confrontada com a Figura 1 de Østlie et al. (2012), tendo sido corrigida a atribuição anterior a Biddiss et al. (2007), reformulado o texto interpretativo e adicionado Østlie et al. à bibliografia. A tabela histórica abaixo é mantida para preservar a sequência da auditoria; as ligações para o Crossref que nela aparecem como pesquisas por título não correspondem a DOI confirmados.
 
 | N.º | Autor(es) e ano | Título identificado no fecho inicial | DOI ou localização provável |
 | ---: | --- | --- | --- |
@@ -29,16 +29,16 @@ A disponibilidade do PDF não constitui, por si só, confirmação das afirmaç�
 | 13 | Fischer et al. (2017) | *Revisiting and Broadening the Meta-design Framework for End-user Development* | [https://doi.org/10.1007/978-3-319-60291-2_4](https://doi.org/10.1007/978-3-319-60291-2_4) |
 | 14 | Fisher e Johansen (2020) | *Human-centered design for medical devices and diagnostics in global health* | [https://doi.org/10.15641/ghi.v3i1.762](https://doi.org/10.15641/ghi.v3i1.762) |
 | 15 | Frangos et al. (2016) | *Democratising Design in Scientific Innovation: Application of an Open Value Network to Open Source Hardware Design* | [Pesquisar no Crossref](https://search.crossref.org/?q=%22Democratising%20Design%20in%20Scientific%20Innovation%3A%20Application%20of%20an%20Open%20Value%20Network%20to%20Open%20Source%20Hardware%20Design%22) |
-| 16 | Franke e von Hippel (2002) | *Satisfying Heterogeneous User Needs via Innovation Toolkits: The Case of Apache Security Software* | [https://doi.org/10.1016/S0048-7333(03)00049-0](https://doi.org/10.1016/S0048-7333(03)00049-0) |
+| 16 | Franke e von Hippel (2003; anteriormente 2002) | *Satisfying Heterogeneous User Needs via Innovation Toolkits: The Case of Apache Security Software* | [https://doi.org/10.1016/S0048-7333(03)00049-0](https://doi.org/10.1016/S0048-7333(03)00049-0) |
 | 17 | Ghillebert et al. (2019) | *Guidelines and recommendations to investigate the efficacy of a lower-limb prosthetic device: A systematic review* | [https://doi.org/10.1109/TMRB.2019.2949855](https://doi.org/10.1109/TMRB.2019.2949855) |
 | 18 | Guo (2025) | *Human-centered design strategies for prosthetics based on user needs* | [Pesquisar no Crossref](https://search.crossref.org/?q=%22Human-centered%20design%20strategies%20for%20prosthetics%20based%20on%20user%20needs%22) |
 | 19 | Herbst et al. (2021) | *Scan-driven fully-automated pipeline for a personalized, 3D printed low-cost prosthetic hand* | [https://doi.org/10.1109/CASE49439.2021.9551649](https://doi.org/10.1109/CASE49439.2021.9551649) |
 | 20 | Howard et al. (2022) | *Assessing the Use of Co-design to Produce Bespoke Assistive Technology Solutions Within a Current Healthcare Service* | [https://doi.org/10.1080/17483107.2022.2060355](https://doi.org/10.1080/17483107.2022.2060355) |
 | 21 | Hussaini et al. (2023) | *3D Printing in LMICs: Functional Design for Upper Limb Prosthetics in Uganda* | [https://doi.org/10.3390/prosthesis5010011](https://doi.org/10.3390/prosthesis5010011) |
-| 22 | Jones et al. (2023) | *Evidencing the effectiveness of upper limb prostheses: A multi-stakeholder perspective on study requirements* | [https://doi.org/10.3389/frhs.2023.1123682](https://doi.org/10.3389/frhs.2023.1123682) |
+| 22 | Jones, Chadwell e Dyson (2023) | *Evidencing the effectiveness of upper limb prostheses: A multi-stakeholder perspective on study requirements* | [https://doi.org/10.3389/frhs.2023.1213752](https://doi.org/10.3389/frhs.2023.1213752) |
 | 23 | Kerr et al. (2024) | *A Participatory Model for Cocreating Accessible Rehabilitation Technology for Stroke Survivors: User-centered Design Approach* | [https://doi.org/10.2196/57227](https://doi.org/10.2196/57227) |
 | 24 | Khanolkar, Vrolijk e Olechowski (2023) | *Mapping artificial intelligence-based methods to engineering design stages: A focused literature review* | [https://doi.org/10.1017/s0890060423000203](https://doi.org/10.1017/s0890060423000203) |
-| 25 | Krahe et al. (2020) | *Deep learning for automated product design* | [https://doi.org/10.5445/IR/1000127884](https://doi.org/10.5445/IR/1000127884) |
+| 25 | Krahe et al. (2020) | *Deep learning for automated product design* | [https://doi.org/10.1016/j.procir.2020.01.135](https://doi.org/10.1016/j.procir.2020.01.135) |
 | 26 | Kuhl et al. (2020) | *Design of Personalized Devices: The Tradeoff Between Individual Value and Personalization Workload* | [https://doi.org/10.3390/app11010241](https://doi.org/10.3390/app11010241) |
 | 27 | Mikołajewski et al. (2023) | *Personalization of the 3D-printed Upper Limb Exoskeleton Design: Mechanical and IT Aspects* | [https://doi.org/10.3390/app13127236](https://doi.org/10.3390/app13127236) |
 | 28 | Mistarihi (2020) | *A data set on anthropometric measurements and degree of discomfort of physically disabled workers for ergonomic requirements in work space design* | [https://doi.org/10.1016/j.dib.2020.105420](https://doi.org/10.1016/j.dib.2020.105420) |
@@ -83,11 +83,11 @@ No fecho inicial dos Capítulos 7–9, a credencial da API Mendeley tinha expira
 |---|---:|---|
 | Linhas do manuscrito abrangidas | 3182 | Linhas 223–1882 e 2213–3734 |
 | Conjuntos de citações ou atribuições no texto | 256 | 211 no corpo, 37 no Anexo A, dois no B, quatro no C e dois no D; as atribuições abreviadas e a fonte anónima de A são rastreadas separadamente |
-| Ocorrências afirmação–fonte | 463 | 432 pares relativos a *papers*, treze ocorrências de documentos académicos não classificados como *papers*, seis normativas e doze técnicas/institucionais |
-| Referências únicas citadas | 156 | 138 *papers*, quatro documentos académicos não classificados como *papers*, quatro fontes normativas e dez técnicas/institucionais |
-| *Papers* com texto integral obtido | 130 de 138 | Noventa e cinco fontes foram confrontadas directamente; 35 textos acrescentados nos lotes posteriores aguardam confronto; Zhou et al. continua identificado fora da contagem formal |
-| Pares afirmação–fonte confrontados directamente com o texto integral | 316 | 280 no corpo, 32 no Anexo A e quatro no Anexo D; Guo acrescenta um confronto parcial e Franke e von Hippel um confronto directo no núcleo da afirmação, mas parcial na formulação completa |
-| Pares afirmação–fonte pendentes com texto integral já localizado | 94 | Correspondem às 35 fontes ainda não confrontadas dos lotes posteriores e requerem leitura comparativa antes de qualquer reclassificação |
+| Ocorrências afirmação–fonte | 464 | 433 pares relativos a *papers*, treze ocorrências de documentos académicos não classificados como *papers*, seis normativas e doze técnicas/institucionais |
+| Referências únicas citadas | 158 | 140 *papers*, quatro documentos académicos não classificados como *papers*, quatro fontes normativas e dez técnicas/institucionais |
+| *Papers* com texto integral obtido | 132 de 140 | Noventa e nove fontes foram confrontadas directamente; 33 textos acrescentados nos lotes posteriores aguardam confronto; Zhou et al. continua identificado fora da contagem formal |
+| Pares afirmação–fonte confrontados directamente com o texto integral | 319 | 283 no corpo, 32 no Anexo A e quatro no Anexo D; Xu e Qin acrescenta um confronto directo na Secção 2.3 |
+| Pares afirmação–fonte pendentes com texto integral já localizado | 92 | Correspondem às 33 fontes ainda não confrontadas dos lotes posteriores e requerem leitura comparativa antes de qualquer reclassificação |
 | Pares afirmação–fonte pendentes por ausência do *paper* | 22 | Oito referências únicas continuam sem texto integral |
 | Ocorrências de outros documentos académicos | 13 | Moreo soma três ocorrências no anexo; Gordon (1989) soma três ocorrências com suporte local apenas parcial; Gordon (2015) soma uma ocorrência sem relatório local |
 | Ocorrências de fonte normativa, técnica ou institucional fora do âmbito texto–*paper* | 18 | Seis normativas e doze técnicas/institucionais; os Anexos B e C acrescentam, respectivamente, duas normativas e quatro atribuições técnicas |
@@ -96,7 +96,7 @@ No fecho inicial dos Capítulos 7–9, a credencial da API Mendeley tinha expira
 
 | Âmbito | Conjuntos | Ocorrências totais | Pares de *papers* | Pares confrontados | Pares pendentes |
 | --- | ---: | ---: | ---: | ---: | ---: |
-| Capítulos 1–4 | 172 | 333 | 318 | 229 | 89 |
+| Capítulos 1–4 | 172 | 334 | 319 | 231 | 88 |
 | Capítulo 5 | 17 | 28 | 26 | 16 | 10 |
 | Capítulo 6 | 7 | 14 | 14 | 11 | 3 |
 | Capítulo 7 | 6 | 12 | 12 | 4 | 8 |
@@ -106,7 +106,7 @@ No fecho inicial dos Capítulos 7–9, a credencial da API Mendeley tinha expira
 | Anexo B | 2 | 2 | 0 | 0 | 0 |
 | Anexo C | 4 | 4 | 0 | 0 | 0 |
 | Anexo D | 2 | 4 | 4 | 4 | 0 |
-| **Acumulado** | **256** | **463** | **432** | **316** | **116** |
+| **Acumulado** | **256** | **464** | **433** | **319** | **114** |
 
 As duas ocorrências não-*paper* do Capítulo 5 são Mendenhall (2020) e `daprice` (n.d.), tratadas separadamente na Secção 5. Todos os pares dos Capítulos 6–8 correspondem a *papers*. A Tabela 8.4, de fonte própria, foi verificada documentalmente mas não foi contabilizada como par texto–*paper*. No Anexo A, as 45 ocorrências formais repartem-se por 37 pares de *papers*, sete ocorrências de dissertações ou relatórios e uma ocorrência institucional DINED. O Anexo B acrescenta duas normativas W3C, o Anexo C quatro atribuições técnicas e o Anexo D quatro pares de *papers*, todos confrontados directamente.
 
@@ -116,7 +116,7 @@ Quando uma referência reaparece num capítulo posterior, o novo conjunto de lin
 
 | Referência | Linhas no manuscrito | PDF local | Mendeley | Avaliação neste lote |
 |---|---|---|---|---|
-| Manero et al. (2019) | 231–237, 469–475, 501 | Sim | Registo e ficheiro integral | Figura 1.1 não localizada; Figura 2.4 reproduzida correctamente; suporte parcial para a caracterização do ecossistema aberto |
+| Manero et al. (2019) | 231–237, 469–475, 501 | Sim | Registo e ficheiro integral | Figura 1.1 não localizada; Figura 2.4 reproduzida correctamente; suporte directo para a caracterização delimitada do ecossistema aberto na versão 0.4.84 |
 | Fink e Diamond (2023) | 289, 301, 307, 327, 341 | Sim | Sem correspondência | Cinco pares confrontados; suporte parcial, com ampliações não demonstradas sobre definição clínica, próteses passivas, *feedback* proprioceptivo, equipa multidisciplinar e resultados comparativos |
 | Segura et al. (2024) | 289, 301, 315, 339, 755, 787 | Sim | Sem correspondência | Seis pares confrontados; suporte parcial em cinco e incompatível na afirmação sobre instrumentos de avaliação |
 | Brack e Amalu (2021) | 297 | Sim | Registo e ficheiro integral | Suporte parcial; hierarquia classificativa alterada no texto |
@@ -126,7 +126,7 @@ Quando uma referência reaparece num capítulo posterior, o novo conjunto de lin
 | ten Kate et al. (2017) | 317–323 | Sim | Registo e ficheiro integral | Suporte directo; imagem correspondente localizada |
 | Soyer et al. (2016) | 327, 335, 339 | Sim | Não consultado, por existir PDF local | Texto integral localizado no lote posterior; três pares pendentes de confronto directo |
 | Smail et al. (2020 no manuscrito) | 341 | Sim | Registo e ficheiro integral, ano 2021 | Suporte parcial; citação demasiado ampla |
-| Biddiss et al. (2007) | 343–349 | Sim | Registo e ficheiro integral | Incompatível com a Figura 2.2 apresentada |
+| Østlie et al. (2012) | 343–349 | Sim | Registo e ficheiro integral | Correspondência directa da Figura 2.2 com a Figura 1 do *paper*; atribuição corrigida na versão 0.4.88 |
 | Parlamento Europeu e Conselho da União Europeia (2017) | 353, 357 | Fonte normativa | Não aplicável | Fora do âmbito texto–*paper* |
 | Resnik et al. (2010) | 355, 357 | Não | Sem correspondência | Não localizado; dois pares pendentes |
 | Clarkson e Coleman (2010) | 365, 367, 393, 395, 397 | Ficheiro local incorrecto | Registo e anexo consultado temporariamente | Suporte directo para o modelo relacional da deficiência; parcial para as restantes afirmações |
@@ -138,21 +138,22 @@ Quando uma referência reaparece num capítulo posterior, o novo conjunto de lin
 | White e Mosca (2022) | 401, 421, 423 | Sim | Não consultado, por existir PDF local | Três pares confrontados: dois directos e um incompatível |
 | Millet et al. (2018) | 407, 409 | Sim | Sem correspondência | Dois pares confrontados; um directo e um parcial |
 | Chapman et al. (2025) | 413, 415, 425 | Captura textual integral do PDF editorial | Sem correspondência | Quatro pares confrontados; suporte parcial; o artigo usa um fluxograma adaptado de PRISMA, mas não instrumentos de avaliação crítica |
-| Oldfrey et al. (2024) | 429 | Sim | Registo e ficheiro integral | Suporte parcial; citação demasiado ampla |
-| Lei et al. (2016) | 435, 449, 477, 483, 485, 487, 491, 495 | Sim | Não consultado, por existir PDF local | Oito pares confrontados: um directo, seis parciais e um incompatível; dez acumulados |
+| Oldfrey et al. (2024) | 429, 437–443, 715–721 | Sim | Registo e ficheiro integral | Suporte parcial na linha 429; correspondência directa das Figuras 2.3 e 2.8 com as Figuras 1 e 10 do *paper* |
+| Lei et al. (2016) | 435, 449, 477, 483, 485, 487, 491, 495 | Sim | PDF local confrontado | Oito pares confrontados: dois directos, cinco parciais e um incompatível; dez acumulados; a linha 485 foi delimitada na versão 0.4.83 |
 | Ozdemir et al. (2022) | 435, 445, 449, 467, 479, 493 | Sim | Não consultado, por existir PDF local | Seis pares confrontados: quatro directos e dois parciais; onze acumulados |
 | Stralen (2018) | 435, 445, 467, 477 | Sim | Não consultado, por existir PDF local | Quatro pares confrontados: um directo e três parciais; cinco acumulados |
-| Chainando et al. (2025) | 437–443, 517, 565, 721 | Sim | Não consultado, por existir PDF local | Figuras 2.3 e 2.8 incompatíveis e coautoria divergente; suporte parcial para a síntese antropométrica |
-| Lim et al. (2018) | 453, 485 | Sim | Não consultado, por existir PDF local | Suporte directo na linha 453; incompatível na linha 485 |
+| Chainando et al. (2025) | 517, 565 | Sim | PDF local confrontado | Suporte directo após a delimitação das duas passagens na versão 0.4.87; coautoria bibliográfica corrigida na versão 0.4.82 |
+| Lim et al. (2018) | 453, 485 | Sim | PDF local confrontado | Suporte directo nas duas localizações após a delimitação da linha 485 na versão 0.4.83 |
+| Xu e Qin (2022) | 485 | Sim | PDF IEEE local confrontado | Suporte directo para *design* generativo, optimização topológica, redução de peso e validação por FEM em próteses impressas em 3D |
 | Chtioui et al. (2023) | 457, 461, 463 | Sim | Não consultado, por existir PDF local | Três pares confrontados: dois directos e um parcial |
 | Wiberg et al. (2019) | 457, 459, 461, 463, 491 | Sim | Não consultado, por existir PDF local | Cinco pares confrontados: dois directos, dois parciais e um incompatível |
 | Yao et al. (2016) | 483, 487, 495 | Não | Sem correspondência | Não localizado; três pares pendentes |
 | Kandikjan et al. (2022) | 497 | Sim | Não consultado, por existir PDF local | Um par confrontado; suporte directo |
-| Wendo et al. (2022) | 501, 503 | Sim | Registo e ficheiro integral | Suporte directo para ficheiros, instruções e accionamento; parcial para a taxonomia do catálogo |
+| Wendo et al. (2022) | 501, 503 | Sim | Registo e ficheiro integral | Suporte directo após a delimitação das categorias do catálogo e dos mecanismos de accionamento na versão 0.4.85 |
 | Zuniga et al. (2015) | 505 | Sim | Registo e ficheiro integral | Suporte directo para custo, accionamento pelo punho e ajuste remoto por medição e escala |
 | Dechev et al. (2023) | 507, 679, 699 | Sim | Não consultado, por existir PDF local | Três pares confrontados; suporte directo |
 | Diment et al. (2018) | 509 | Sim | Registo com anexo e PDF local | Um par confrontado; suporte directo |
-| Atallah et al. (2025) | 509 | Sim | Sem correspondência pelo DOI | Suporte directo, com cautela metodológica explicitamente indicada |
+| Atallah et al. (2025) | 509 | Sim | Sem correspondência pelo DOI | Suporte directo após a precisão dos resultados clínicos na versão 0.4.86, com cautela metodológica explicitamente indicada |
 | Cabibihan et al. (2021) | 511 | Sim | Não consultado, por existir PDF local | Um par confrontado; suporte directo |
 | Albin e Molenbroek (2023) | 521 | Sim | Não consultado, por existir PDF local | Um par confrontado; suporte parcial |
 | Young et al. (2023) | 521, 545, 557 | Sim | Não consultado, por existir PDF local | Três pares confrontados: dois directos e um parcial |
@@ -162,15 +163,15 @@ Quando uma referência reaparece num capítulo posterior, o novo conjunto de lin
 | Silva et al. (2024) | 541, 563 | Sim | Não consultado, por existir PDF local | Dois pares confrontados: um directo e um parcial |
 | Sunderland et al. (2024) | 555, 581 | Sim | Não consultado, por existir PDF local | Suporte directo; coautoria bibliográfica incompatível com o PDF |
 | Kannenberg et al. (2024) | 557, 563 | Sim | Não consultado, por existir PDF local | Fonte mal atribuída: o PDF é de Dickinson et al.; incompatível com comparação manual–digital |
-| Çıklaçandır et al. (2022) | 565 | Sim | Não consultado, por existir PDF local | Um par incompatível; três pares acumulados |
-| Bradtmiller (2022) | 573, 581 | Sim | Não consultado, por existir PDF local | Dois pares confrontados: um directo e um parcial; autoria incorrecta, devendo citar-se Paul et al. (2022) |
+| Çıklaçandır et al. (2022) | 565 | Sim | PDF local confrontado | Um par directo após a correcção da versão 0.4.87; três pares acumulados |
+| Paul et al. (2022; anteriormente «Bradtmiller, 2022») | 573, 581 | Sim | Não consultado, por existir PDF local | Dois pares confrontados: um directo e um parcial; autoria corrigida na versão 0.4.77 |
 | ASTM International (2024) | 575, 577 | Fonte normativa | Não aplicável | Fora do âmbito texto–*paper* |
 | Choudhury et al. (2025) | 587, 599, 611, 623 | Sim | Não consultado, por existir PDF local | Quatro pares confrontados: três parciais e um incompatível |
 | Saeidnia e Ausloos (2024) | 587, 621 | Sim | Não consultado, por existir PDF local | Dois pares confrontados: um directo e um parcial |
 | Yüksel et al. (2023) | 587, 599, 609, 629 | Não | Sem correspondência | Não localizado; quatro pares pendentes |
 | Menaka et al. (2025) | 595, 605, 617 | Sim | Não consultado, por existir PDF local | Figura correspondente; suporte parcial para treino e optimização |
 | Khanolkar et al. (2023) | 601, 615, 621 | Sim | Não consultado, por existir PDF local | Texto integral localizado no lote posterior; três pares pendentes de confronto directo |
-| Krahe et al. (2020) | 601 | Sim | Não consultado, por existir PDF local | Texto integral localizado no lote posterior; um par pendente de confronto directo; DOI editorial `10.1016/j.procir.2020.01.135` |
+| Krahe et al. (2020) | 601 | Sim | PDF local confrontado | Suporte directo após delimitação da afirmação na versão 0.4.81; DOI editorial `10.1016/j.procir.2020.01.135`; excertos na Secção 7.6.3 |
 | Li et al. (2021) | 601, 611 | Sim | Não consultado, por existir PDF local | Suporte parcial/directo apenas para *generative design* |
 | Ao et al. (2025) | 605, 615, 617, 623, 631 | Sim | Não consultado, por existir PDF local | Texto integral localizado no lote posterior; cinco pares pendentes de confronto directo |
 | Panchal et al. (2019) | 605, 609, 629 | Não | Sem correspondência | Não localizado; três pares pendentes |
@@ -181,12 +182,12 @@ Quando uma referência reaparece num capítulo posterior, o novo conjunto de lin
 | Figoli et al. (2022) | 627 | Não | Sem correspondência | Não localizado; um par pendente |
 | Kadenhe et al. (2025) | 627, 631 | Sim | Não consultado, por existir PDF local | Suporte directo/parcial para agência, controlo e supervisão humana |
 | Fischer et al. (2004) | 635, 643, 709 | Sim | Não consultado, por existir PDF local | Suporte directo para *meta-design* e SER; não sustenta a afirmação regulatória da linha 709 |
-| Hippel e Katz (2002) | 635, 641, 685 | Sim | Não consultado, por existir PDF local | Suporte directo para *toolkits*; parcial para as sínteses mais abrangentes |
+| von Hippel e Katz (2002; anteriormente «Hippel e Katz») | 635, 641, 685 | Sim | Não consultado, por existir PDF local | Suporte directo para *toolkits*; parcial para as sínteses mais abrangentes; apelido e metadados corrigidos na versão 0.4.79 |
 | Howard et al. (2022) | 635, 699, 705 | Sim | Não consultado, por existir PDF local | Texto integral localizado no lote mais recente; três pares pendentes de confronto directo |
 | Fischer et al. (2017) | 637, 653, 655, 683, 707 | Sim | Não consultado, por existir PDF local | O volume local contém o capítulo citado; cinco pares pendentes de confronto directo |
 | Kerr et al. (2024) | 637, 691, 697 | Sim | Não consultado, por existir PDF local | Texto integral localizado no lote posterior; três pares pendentes de confronto directo |
 | Zhu e Zhong (2022) | 637, 681, 685, 695 | Sim | Não consultado, por existir PDF local | Suporte directo para o fluxo parâmetro–CAD; parcial e metodologicamente frágil nas restantes afirmações |
-| Franke e von Hippel (versão de trabalho de 2002; publicação de 2003) | 641 | Sim | Não consultado, por existir PDF local | Um par confrontado; suporte directo para a distinção entre selecção de opções e *toolkits*, mas apenas parcial para «regras e resposta visual»; ver Secção 7.6.2 |
+| Franke e von Hippel (2003; anteriormente citado como 2002) | 641 | Sim | Não consultado, por existir PDF local | Um par confrontado; suporte directo para a distinção entre selecção de opções e *toolkits*; formulação sobre simulação e avaliação revista e complementada por von Hippel e Katz; ver Secção 7.6.2 |
 | Costabile et al. (2007) | 643, 655, 709 | Sim | Não consultado, por existir PDF local | Texto integral localizado no lote posterior; três pares pendentes de confronto directo |
 | Akasaka et al. (2022) | 651, 673, 711 | Sim | Não consultado, por existir PDF local | Figura 2.7 corresponde à Figura 1, não ao *participation blueprint*; Tabela 2.2 omite a categoria «Phase»; linha 711 sem suporte |
 | Peters e Richter (2023) | 679, 685 | Sim | Não consultado, por existir PDF local | Texto integral localizado no lote mais recente; dois pares pendentes de confronto directo |
@@ -205,7 +206,7 @@ Quando uma referência reaparece num capítulo posterior, o novo conjunto de lin
 | Hafner e Sawers (2016) | 725, 761, 788 | Sim | Não consultado, por existir PDF local | Três pares confrontados: um directo e dois parciais; quatro acumulados |
 | Ghillebert et al. (2019) | 729 | Sim | Não consultado, por existir PDF local | Texto integral localizado no lote posterior; um par pendente de confronto directo |
 | Cordella et al. (2016) | 735 (duas atribuições), 747, 761, 784 | Sim | Não consultado, por existir PDF local | Cinco pares confrontados: dois directos e três parciais; nove acumulados |
-| Manz et al. (2022) | 735 (duas atribuições), 737, 784 | Sim | Não consultado, por existir PDF local | Quatro pares confrontados: dois directos e dois parciais; cinco acumulados |
+| Manz et al. (2022) | 735 (duas atribuições), 737, 784 | Sim | Não consultado, por existir PDF local | Quatro pares confrontados: dois directos e dois parciais; âmbito de membro inferior explicitado na versão 0.4.78; cinco acumulados |
 | Alluhydan et al. (2023) | 741, 753, 785 | Sim | Não consultado, por existir PDF local | Três pares confrontados: dois directos e um parcial; quatro acumulados |
 | Baldock et al. (2023) | 741, 785 | Sim | Não consultado, por existir PDF local | Dois pares confrontados: um directo e um parcial; três acumulados |
 | Richardson e Dillon (2017) | 741, 743, 759, 761, 785, 788 | Sim | Não consultado, por existir PDF local | Seis pares confrontados: dois directos, três parciais e um incompatível; oito acumulados |
@@ -229,7 +230,7 @@ Quando uma referência reaparece num capítulo posterior, o novo conjunto de lin
 | Henao et al. (2025) | 912 | Sim | Não consultado, por existir PDF local | Suporte directo, mas autores e DOI da bibliografia são incompatíveis com o PDF |
 | Walker et al. (2019 no manuscrito; edição de 2020) | 912 | Sim | Registo e ficheiro integral | Suporte directo; autoria e ano bibliográficos incompatíveis |
 | Herneth et al. (2024) | 916 | Sim | Não consultado, por existir PDF local | Suporte apenas para requisitos cinemáticos e cinéticos; autoria bibliográfica incompatível |
-| Jones et al. (2023) | 916 | Sim | Não consultado, por existir PDF local | Texto integral localizado no lote posterior; um par pendente de confronto directo; o PDF confirma o DOI `10.3389/frhs.2023.1213752` |
+| Jones et al. (2023) | 725; anteriormente 916 | Sim | Não consultado, por existir PDF local | Um par confrontado com suporte parcial; a citação incompatível da Secção 4 foi retirada e a autoria, o número de artigo e o DOI foram corrigidos na versão 0.4.80 |
 | Chatzioglou et al. (2024) | 920, 930 | Sim | Não consultado, por existir PDF local | Suporte directo para medidas morfométricas; parcial para a organização paramétrica |
 | Moreo (2016) | 920, 956, 1033, 1090, 1106 | Sim, dissertação | Não consultado, por existir PDF local | Suporte para selecção e correlação de parâmetros; não sustenta os níveis de amputação nem a taxonomia em quatro camadas |
 | Rodríguez-Vega e Rodríguez-Vega (2024) | 920, 976 | Sim | Não consultado, por existir PDF local | Suporte directo para variação populacional; não trata modelação paramétrica de próteses |
@@ -288,7 +289,7 @@ Quando uma referência reaparece num capítulo posterior, o novo conjunto de lin
 | Samuelsson et al. (2012) | 1820 | Sim | Não consultado, por existir PDF local | Uma nova ocorrência incompatível; sete acumuladas |
 | Windrich et al. (2016) | 1820 | Sim | Não consultado, por existir PDF local | Uma nova ocorrência com suporte directo; quatro acumuladas |
 | Cordella et al. (2016) | 1821 | Sim | Não consultado, por existir PDF local | Uma nova ocorrência com suporte parcial; nove acumuladas |
-| Manz et al. (2022) | 1821 | Sim | Não consultado, por existir PDF local | Uma nova ocorrência com suporte parcial; cinco acumuladas |
+| Manz et al. (2022) | 1821 | Sim | Não consultado, por existir PDF local | Uma nova ocorrência com suporte parcial; âmbito de membro inferior explicitado na versão 0.4.78; cinco acumuladas |
 | Alluhydan et al. (2023) | 1822 | Sim | Não consultado, por existir PDF local | Uma nova ocorrência com suporte directo; quatro acumuladas |
 | Baldock et al. (2023) | 1822 | Sim | Não consultado, por existir PDF local | Uma nova ocorrência com suporte directo; três acumuladas |
 | Richardson e Dillon (2017) | 1822, 1825 | Sim | Não consultado, por existir PDF local | Duas novas ocorrências: uma directa e uma incompatível; oito acumuladas |
@@ -381,7 +382,7 @@ Quando uma referência reaparece num capítulo posterior, o novo conjunto de lin
 
 **Observação:** o texto da dissertação transforma uma classificação hierárquica do *paper* — três categorias, com a categoria activa subdividida — em quatro categorias situadas no mesmo nível. A enumeração final é defensável, mas não reproduz exactamente a estrutura da fonte. Uma formulação mais fiel seria: «Distinguem-se próteses passivas, activas e híbridas; as activas subdividem-se em mecânicas accionadas pelo corpo e mioeléctricas.»
 
-**Incompatibilidade bibliográfica adicional:** a entrada bibliográfica da dissertação indica *Journal of Orthopaedics*, volume 24, páginas 88–96 e DOI `10.1016/j.jor.2021.03.011`. A primeira página do PDF e o registo Mendeley identificam volume 23, páginas 88–96 e DOI `10.1016/j.jor.2020.12.009`. A entrada bibliográfica deve ser corrigida antes da versão final.
+**Incompatibilidade bibliográfica corrigida na versão 0.4.76:** a entrada anterior indicava *Journal of Orthopaedics*, volume 24, páginas 88–96 e DOI `10.1016/j.jor.2021.03.011`. A primeira página do PDF e o registo Mendeley identificam Robbie Brack, volume 23, páginas 88–96 e DOI `10.1016/j.jor.2020.12.009`; estes dados foram integrados no manuscrito.
 
 ### 3.3 ten Kate et al. (2017)
 
@@ -437,35 +438,39 @@ Quando uma referência reaparece num capítulo posterior, o novo conjunto de lin
 
 **Observação:** o *paper* sustenta directamente a persistência do abandono e os factores conforto, peso, funcionalidade e controlo. Não sustenta, no excerto localizado, a afirmação final de que a utilização continuada se associa a melhores indicadores de participação e qualidade de vida. Também não apresenta «manutenção exigente» como categoria principal com essa formulação. Essa última comparação deve ser atribuída a uma fonte que a demonstre directamente ou ser retirada deste período. A primeira página do PDF identifica a edição como 2021, volume 16, número 8, páginas 821–830; o ano 2020 do manuscrito corresponde ao DOI e à disponibilização antecipada. O critério bibliográfico deve ser uniformizado.
 
-### 3.5 Biddiss et al. (2007)
+### 3.5 Østlie et al. (2012) — Figura 2.2 e correcção da atribuição anterior
 
-**Referência autor–ano:** Biddiss et al. (2007)
+**Referência autor–ano:** Østlie et al. (2012)
 **Localização no manuscrito:** linhas 343–349; secção 2.1, «Medição de resultados e abandono protésico».
 
-**Texto da dissertação:**
+**Texto da dissertação na versão 0.4.88:**
 
-> A Figura 2.2 sintetiza claramente esta persistência do abandono ao relacionar o uso, a rejeição primária e a rejeição secundária.
+> A Figura 2.2 apresenta a distribuição observada por Østlie et al. (2012) numa amostra populacional de 224 adultos com amputação adquirida do membro superior. Nesse estudo, 4,5% dos participantes apresentavam rejeição primária da prótese e 13,4% dos 209 participantes que tinham iniciado a sua utilização interromperam-na posteriormente. Estes resultados permitem distinguir a rejeição anterior à primeira utilização da rejeição ocorrida após a adoção inicial do dispositivo.
 
-> Figura 2.2 — Utilização, rejeição primária e rejeição secundária de próteses do membro superior adquiridas.
+> Figura 2.2 — Utilização continuada, rejeição primária e rejeição secundária de próteses numa amostra de adultos com amputação adquirida do membro superior.
 
-> Reproduzido de Biddiss, E., Beaton, D., & Chau, T. (2007). Consumer design priorities for upper limb prosthetics.
+> Adaptado da Figura 1 de Østlie, K., Lesjø, I. M., Franklin, R. J., Garfelt, B., Skjeldal, O. H., & Magnus, P. (2012). Prosthesis rejection in acquired major upper-limb amputees: A population-based survey. Disability and Rehabilitation: Assistive Technology, 7(4), 294–303. https://doi.org/10.3109/17483107.2011.635405
 
-**Título completo do *paper* citado:** *Consumer design priorities for upper limb prosthetics*
-**Nome exacto do PDF:** `Consumer design priorities for upper limb prosthetics.pdf`
-**Caminho local:** `projecto_completo_bibliografia/Consumer design priorities for upper limb prosthetics.pdf`
-**Página e secção:** página 5 do PDF, página impressa 349, secção «Prosthesis history and use»; a figura do artigo encontra-se na página 6 do PDF, página impressa 350.
+**Título completo do *paper*:** *Prosthesis rejection in acquired major upper-limb amputees: A population-based survey*
+**Nome exacto do PDF canónico:** `ostlie_et_al_2012_prosthesis_rejection_upper_limb.pdf`
+**Caminho local:** `projecto_completo_bibliografia/ostlie_et_al_2012_prosthesis_rejection_upper_limb.pdf`
+**Página e secção:** página 4 do PDF, página impressa 296, secção «Data analyses» e Figura 1.
 
-**Excerto exacto do *paper* citado:**
+**Excertos exactos da Figura 1 do *paper*:**
 
-> “21% of adults and 19% of children rejected prosthesis use entirely”
+> “Questionnaire responders n = 224”
 
-**Mendeley:** registo `0cc97771-92fc-3da3-911f-8fe10ce87e67`; DOI `10.1080/17483100701714733`; `file_attached: true`.
+> “Genuine primary prosthesis rejection n = 10 (4.5% of 224)”
 
-**Avaliação:** **incompatível**.
+> “Secondary prosthesis rejection n = 28 (13.4% of 209, 12.5% of 224)”
 
-**Observação:** a Figura 2.2 da dissertação é um fluxograma com `n=224`, rejeição primária e rejeição secundária. O *paper* citado analisa 242 respostas — 145 adultos e 97 participantes pediátricos — e a sua Figura 1 contém dois gráficos circulares sobre frequência de uso. O fluxograma da dissertação não se encontra neste PDF.
+**Mendeley:** registo `145780d0-28ea-330c-8551-4c4e154fed6f`; DOI `10.3109/17483107.2011.635405`; `file_attached: true`.
 
-**Possível origem, ainda não confirmada no texto primário:** a revisão local de Smail et al. identifica um estudo de Østlie et al. com 224 participantes e objectivos centrados na rejeição primária e secundária. O Mendeley contém o registo *Prosthesis rejection in acquired major upper-limb amputees: A population-based survey*, de Østlie et al. (2012), ID `145780d0-28ea-330c-8551-4c4e154fed6f`, DOI `10.3109/17483107.2011.635405`, com `file_attached: true`. Esta coincidência de amostra e terminologia torna-o o candidato mais provável, mas o ficheiro integral não foi descarregado nem confrontado nesta auditoria. A fonte da Figura 2.2 deve ser confirmada nesse artigo; se a figura tiver sido traduzida ou redesenhada, a legenda deverá usar «Adaptado de», não «Reproduzido de».
+**Avaliação:** **suporte directo e correspondência visual directa**. A Figura 2.2 conserva a estrutura, a amostra, as categorias e os valores da Figura 1 de Østlie et al., mas traduz os rótulos e altera o tratamento gráfico; «Adaptado de» é, por isso, a formulação adequada. O resumo do artigo confirma a amostra populacional de 224 participantes, a rejeição primária de 4,5% e a interrupção posterior da utilização por 13,4% dos participantes que tinham iniciado o uso protésico.
+
+**Erro crítico corrigido na versão 0.4.88:** a fonte anterior era Biddiss, Beaton e Chau (2007), *Consumer design priorities for upper limb prosthetics*. Esse artigo analisa 242 respostas — 145 adultos e 97 participantes pediátricos — e apresenta dois gráficos circulares sobre frequência de utilização; não contém o fluxograma com `n = 224`. Biddiss et al. permanece na bibliografia porque continua citado noutras passagens sobre prioridades e requisitos dos utilizadores, mas deixou de ser apresentado como origem da Figura 2.2.
+
+**Rastreabilidade do ficheiro:** o PDF de Østlie et al. já se encontrava em `material/amputacao/`, `material/prosthetics-user/` e `material/bibliografia_proposta/`. Estas pastas não foram devolvidas pela pesquisa inicial com `rg --files` devido às regras de exclusão do repositório, o que originou a conclusão incorrecta de que o texto integral estava ausente. A verificação com `find` e SHA-256 localizou duas variantes de composição interna com texto integral idêntico; uma cópia foi colocada em `projecto_completo_bibliografia/` para acompanhar a nova entrada bibliográfica.
 
 ### 3.6 Kaygan e Kaygan (2025)
 
@@ -525,7 +530,7 @@ Quando uma referência reaparece num capítulo posterior, o novo conjunto de lin
 
 **Avaliação:** **suporte parcial; citação demasiado ampla**.
 
-**Observação:** a fonte sustenta lacunas de evidência, implementação e colaboração. Não sustenta directamente, no excerto localizado, a oposição entre normalização e personalização, a distância entre UCD e prática institucional, nem a integração de factores sociais e culturais.
+**Observação:** a fonte sustenta lacunas de evidência, implementação e colaboração. Não sustenta directamente, no excerto localizado, a oposição entre normalização e personalização, a distância entre UCD e prática institucional, nem a integração de factores sociais e culturais. Na versão 0.4.82, a entrada bibliográfica foi completada com os 15 autores, o volume 48, número 5 e as páginas 574–589. As utilizações desta fonte nas Figuras 2.3 e 2.8 são examinadas separadamente nas fichas 3.9 e 3.31.
 
 ### 3.8 Clarkson e Coleman (2010)
 
@@ -563,31 +568,33 @@ Quando uma referência reaparece num capítulo posterior, o novo conjunto de lin
 
 **Observação:** o texto sustenta directamente que a incapacidade pode resultar de projectos e ambientes que não consideram toda a diversidade de capacidades e confirma a existência de ferramentas de *design* inclusivo. Não demonstra directamente a melhoria da qualidade de vida, a responsabilidade específica dos sistemas de saúde ou todas as estratégias enumeradas no manuscrito. O ficheiro local `material/prosthetics-user/Inclusive design (2010).pdf` está incorrectamente nomeado: contém *Trans-inclusive Design*, de Erin White (2019), e não este artigo.
 
-### 3.9 Chainando et al. (2025)
+### 3.9 Oldfrey et al. (2024) — Figura 2.3
 
-**Referência autor–ano:** Chainando et al. (2025)
+**Referência autor–ano:** Oldfrey et al. (2024)
 **Localização no manuscrito:** linhas 437–443; Secção 2.3, Figura 2.3.
 
 **Texto da dissertação:**
 
 > Esta articulação é representada com clareza na Figura 2.3, que resume o encadeamento entre aquisição digital, modelação/rectificação e fabrico, evidenciando que a personalização depende da integração das várias etapas do fluxo de trabalho.
 
-> Figura 2.3 — Fluxo digital entre aquisição, CAD/CAM e fabrico aditivo em próteses e ortóteses.
+> Figura 2.3 — Comparação entre os fluxos tradicional, CAD/CAM e de fabrico aditivo na produção de dispositivos protésicos.
 
-**Título completo do *paper*:** *Applying 3D Scanning and Printing Techniques to Produce Upper Limb Prostheses: Bibliometric Analysis and Scoping Review*
-**Nome exacto do PDF:** `Applying 3D Scanning and Printing Techniques to Produce Upper Limb Prostheses Bibliometric Analysis and Scoping Review.pdf`
-**Caminho local:** `material/3dprinting-prosthetics/Applying 3D Scanning and Printing Techniques to Produce Upper Limb Prostheses Bibliometric Analysis and Scoping Review.pdf`
-**Página e secção:** página 2 do PDF, página «2 of 31»; «Introduction». A Figura 2.3 da dissertação não foi localizada nas 31 páginas deste PDF.
+> Adaptado da Figura 1 de Oldfrey et al. (2024, p. 575).
+
+**Título completo do *paper*:** *A scoping review of digital fabrication techniques applied to prosthetics and orthotics: Part 1 of 2—Prosthetics*
+**Nome exacto do PDF:** `A scoping review of digital fabrication techniques applied to prosthetics and orthotics.pdf`
+**Caminho local:** `material/3dprinting-prosthetics/A scoping review of digital fabrication techniques applied to prosthetics and orthotics.pdf`
+**Página e secção:** página 2 do PDF, página impressa 575; Figura 1.
 
 **Excerto exacto do *paper*:**
 
-> “Three-dimensional scanning technology enables precise measuring to create custom prostheses in significantly less time.”
+> “Figure 1. Traditional and core CADCAM and AM workflows for device fabrication.”
 
-**Avaliação:** **suporte geral para a digitalização; incompatível como fonte da Figura 2.3**.
+**Avaliação:** **correspondência directa da figura, com tradução e adaptação gráfica**.
 
-**Observação:** o fluxograma da dissertação corresponde visual e estruturalmente à Figura 1 de Oldfrey et al. (2024), página 2 do PDF e página impressa 575, cuja legenda é: “Figure 1. Traditional and core CADCAM and AM workflows for device fabrication.” A figura foi traduzida e recolorida, pelo que a indicação adequada será «Adaptado de Oldfrey et al. (2024)». Existe ainda uma incompatibilidade bibliográfica: o PDF de Chainando apresenta Nico Chainando seguido de Marcel Martawidjaja, Raphael Albert Darius e outros autores; a entrada da dissertação atribui o artigo a Faephu, Suwaphong, Bureerat e outros nomes que não constam do PDF.
+**Observação:** o fluxograma da dissertação conserva a estrutura e o conteúdo da Figura 1 do artigo, mas foi traduzido, redesenhado e recolorido. Na versão 0.4.82, a atribuição incorrecta a Chainando et al. foi substituída pela indicação precisa da figura e da página de Oldfrey et al. A legenda foi reformulada para distinguir os três fluxos comparados: tradicional, CAD/CAM e fabrico aditivo.
 
-### 3.10 Lim et al. (2018)
+### 3.10 Lim et al. (2018), Lei et al. (2016) e Xu e Qin (2022)
 
 **Referência autor–ano:** Lim et al. (2018)
 **Localização no manuscrito:** linhas 453 e 485; Secção 2.3, «Modelação Paramétrica e Espaços de Variação» e «Optimização, Geração e Avaliação de Desempenho».
@@ -596,14 +603,14 @@ Quando uma referência reaparece num capítulo posterior, o novo conjunto de lin
 
 > Em vez de recorrer a um escalonamento uniforme, que pode introduzir desvios significativos, a definição de parâmetros independentes, como comprimento e largura, permite ajustes mais precisos e maior controlo dimensional em intervalos reduzidos. Em aplicações protésicas, esta abordagem revelou maior proximidade às cinemáticas naturais e melhor adequação morfológica face a modelos ajustados apenas por escala global.
 
-**Texto da dissertação — linha 485:**
+**Texto da dissertação — linha 485, versão 0.4.83:**
 
-> Em contextos médicos e de tecnologias de apoio, estudos demonstram a integração de modelos paramétricos com análises de elementos finitos (FEM) para validar o desempenho estrutural, bem como a utilização de algoritmos generativos capazes de adaptar padrões e estruturas superficiais a geometrias individualizadas.
+> Em próteses impressas em 3D, a parametrização permite ajustar de modo independente dimensões como o comprimento e a largura dos componentes, evitando as limitações do escalonamento uniforme (Lim et al., 2018). Em famílias de produtos destinadas ao fabrico aditivo, a optimização topológica permite gerar geometrias a partir de requisitos e restrições, que podem depois ser avaliadas pelo método dos elementos finitos (FEM) e por critérios de custo (Lei et al., 2016). No domínio específico das próteses de membros, Xu e Qin (2022) identificam aplicações de *design* generativo que utilizam optimização topológica para reduzir o peso e FEM para validar o desempenho estrutural. Esta passagem de parâmetros explicitamente definidos para a geração e avaliação algorítmica de alternativas estabelece uma ligação conceptual com as abordagens de inteligência artificial discutidas nas secções seguintes.
 
 **Título completo do *paper*:** *Customization of a 3D Printed Prosthetic Finger Using Parametric Modeling*
 **Nome exacto do PDF:** `Daniel Lim - Customization of a 3D Printed Prosthetic Finger Using Parametric Modeling [2018].pdf`
 **Caminho local:** `projecto_completo_bibliografia/Daniel Lim - Customization of a 3D Printed Prosthetic Finger Using Parametric Modeling [2018].pdf`
-**Página e secção:** linha 453 — página 7 do PDF, página impressa 6, secção 3.2, «Comparison of uniformly scaled and parametric scaled models», e página 8 do PDF, página impressa 7, secção 3.4, «ROM comparison»; linha 485 — não foi localizada uma secção do estudo que use FEM ou algoritmos generativos.
+**Página e secção:** linhas 453 e 485 — página 7 do PDF, página impressa 6, secção 3.2, «Comparison of uniformly scaled and parametric scaled models», e página 8 do PDF, página impressa 7, secção 3.4, «ROM comparison».
 
 **Excertos exactos do *paper*:**
 
@@ -613,9 +620,21 @@ Quando uma referência reaparece num capítulo posterior, o novo conjunto de lin
 
 > “parametric modeling enables optimization of the ROM path by removing the dependencies between parameters.”
 
-**Avaliação:** **suporte directo para a linha 453; incompatível para a linha 485**.
+**Fonte complementar — Lei et al. (2016):** *An additive manufacturing process model for product family design*; `projecto_completo_bibliografia/an-additive-manufacturing-process-model-for-product-family-a7r4er2nxm.pdf`; resumo, página 2 do PDF/página 1 do artigo.
 
-**Observação:** o estudo compara escala uniforme com dois parâmetros independentes — comprimento e largura — e avalia o percurso de amplitude de movimento. Não realiza análise de elementos finitos nem apresenta adaptação generativa de padrões ou estruturas superficiais. A presença de referências bibliográficas a estudos com elementos finitos não transforma Lim et al. numa fonte primária para essa afirmação.
+> “The proposed model starts by identifying design requirements and constraints. In the second step, we use topology optimization to determine an optimal design for each product. Subsequently, Finite Element Analysis (FEA) and cost analysis are performed.”
+
+**Fonte complementar — Xu e Qin (2022):** *3D Printing, Limb Prosthetics and Generative Design: A Scoping Review*; `projecto_completo_bibliografia/Kai Xu - 3D Printing, Limb Prosthetics and Generative Design A Scoping Review [2022].pdf`; página 5 do PDF, secções «Results» e «Discussion».
+
+> “Topology Optimization to reduce the weight”
+
+> “FEM simulation to validate the design”
+
+> “Generative design uses algorithms to generate a set of design options”
+
+**Avaliação:** **suporte directo para as três atribuições após delimitação da redacção**.
+
+**Observação:** Lim et al. sustenta a parametrização independente de comprimento e largura; Lei et al. sustenta a sequência requisitos/restrições, optimização topológica, FEA e análise de custo; Xu e Qin sustenta a utilização de *design* generativo, optimização topológica e FEM em próteses impressas em 3D. A versão 0.4.83 retirou a afirmação não demonstrada sobre adaptação de padrões e estruturas superficiais. A frase final estabelece uma ligação conceptual do autor entre geração algorítmica de alternativas e a discussão posterior sobre IA; não apresenta *design* generativo e IA generativa como conceitos equivalentes.
 
 ### 3.11 Manero et al. (2019) — Figura 2.4
 
@@ -648,9 +667,9 @@ Quando uma referência reaparece num capítulo posterior, o novo conjunto de lin
 **Referência autor–ano:** Manero et al. (2019)
 **Localização no manuscrito:** linha 501; Secção 2.4.
 
-**Texto da dissertação:**
+**Texto da dissertação — versão 0.4.84:**
 
-> Ao contrário dos dispositivos comerciais desenvolvidos em cadeias industriais fechadas, estes modelos circulam frequentemente como ficheiros editáveis ou imprimíveis, acompanhados por instruções de montagem, listas de componentes e documentação comunitária. A partilha destes recursos reduz barreiras de acesso aos ficheiros e demonstra a capacidade de comunidades distribuídas para produzir e adaptar soluções fora dos canais tradicionais da indústria médica; a qualidade funcional de cada dispositivo continua dependente de avaliação própria.
+> As próteses *open source* de membro superior passíveis de impressão 3D constituem um caso particularmente relevante para esta investigação, porque articulam fabrico aditivo, partilha digital de ficheiros, reprodução distribuída e adaptação local. Estes modelos circulam frequentemente sob a forma de ficheiros digitais editáveis ou imprimíveis, acompanhados por documentação comunitária, como instruções de fabrico e montagem. A disponibilização de modelos tridimensionais através da Internet favoreceu a formação de comunidades de criadores capazes de reproduzir e avaliar estes dispositivos (Manero et al., 2019). Nas soluções abertas analisadas por Wendo et al. (2022), a disponibilidade dos ficheiros de desenho e impressão e de instruções claras de fabrico e montagem constitui um requisito essencial. Estes recursos facilitam a reprodução, o redimensionamento e a adaptação dos dispositivos, mas não garantem, por si só, a qualidade funcional de cada solução, que continua a exigir avaliação.
 
 **Título completo do *paper*:** *Implementation of 3D Printing Technology in the Field of Prosthetics: Past, Present, and Future*
 **Nome exacto do PDF:** `Albert Manero - Implementation of 3D Printing Technology in the Field of Prosthetics Past, Present, and Future [2019].pdf`
@@ -665,22 +684,22 @@ Quando uma referência reaparece num capítulo posterior, o novo conjunto de lin
 
 > “These design schematics and an image of an example printed and assembled part were made available”
 
-**Avaliação:** **suporte parcial**.
+**Avaliação:** **suporte directo após delimitação da redacção**.
 
-**Observação:** o artigo sustenta a partilha digital, a reprodução comunitária e a necessidade de avaliação. Não demonstra, por si só, que os modelos sejam geralmente acompanhados por listas de componentes, nem compara de forma sistemática estas redes com «canais tradicionais da indústria médica». Wendo et al. fornece suporte mais directo para ficheiros e instruções.
+**Observação:** o artigo sustenta a partilha digital, a formação de uma comunidade global de criadores, a reprodução comunitária e a necessidade de avaliação. Na versão 0.4.84, foram retiradas a oposição não demonstrada às cadeias industriais fechadas, a generalização sobre listas de componentes e a comparação com os canais tradicionais da indústria médica. Foram preservados os ficheiros editáveis ou imprimíveis, a reprodução distribuída e o conceito abrangente de documentação comunitária; Wendo et al. fornece suporte directo para os ficheiros e para as instruções de fabrico e montagem.
 
 ### 3.13 Wendo et al. (2022)
 
 **Referência autor–ano:** Wendo et al. (2022)
 **Localização no manuscrito:** linhas 501 e 503; Secção 2.4.
 
-**Texto da dissertação — linha 501:**
+**Texto da dissertação — linha 501, versão 0.4.85; redacção mantida da versão 0.4.84:**
 
-> Ao contrário dos dispositivos comerciais desenvolvidos em cadeias industriais fechadas, estes modelos circulam frequentemente como ficheiros editáveis ou imprimíveis, acompanhados por instruções de montagem, listas de componentes e documentação comunitária. A partilha destes recursos reduz barreiras de acesso aos ficheiros e demonstra a capacidade de comunidades distribuídas para produzir e adaptar soluções fora dos canais tradicionais da indústria médica; a qualidade funcional de cada dispositivo continua dependente de avaliação própria.
+> As próteses *open source* de membro superior passíveis de impressão 3D constituem um caso particularmente relevante para esta investigação, porque articulam fabrico aditivo, partilha digital de ficheiros, reprodução distribuída e adaptação local. Estes modelos circulam frequentemente sob a forma de ficheiros digitais editáveis ou imprimíveis, acompanhados por documentação comunitária, como instruções de fabrico e montagem. A disponibilização de modelos tridimensionais através da Internet favoreceu a formação de comunidades de criadores capazes de reproduzir e avaliar estes dispositivos (Manero et al., 2019). Nas soluções abertas analisadas por Wendo et al. (2022), a disponibilidade dos ficheiros de desenho e impressão e de instruções claras de fabrico e montagem constitui um requisito essencial. Estes recursos facilitam a reprodução, o redimensionamento e a adaptação dos dispositivos, mas não garantem, por si só, a qualidade funcional de cada solução, que continua a exigir avaliação.
 
-**Texto da dissertação — linha 503:**
+**Texto da dissertação — linha 503, versão 0.4.85:**
 
-> O projecto e-NABLE é o exemplo mais influente deste movimento. A comunidade consolidou-se em torno da criação e partilha de dispositivos de assistência para diferenças de membro superior, em especial mãos mecânicas accionadas pelo corpo e braços impressos em 3D para crianças. O seu catálogo reúne modelos de mão, braço, dedos, polegares e dispositivos terminais, organizados em função da anatomia disponível e o tipo de acionamento. Nos modelos de mão accionados pelo punho, a flexão dos dedos depende normalmente da flexão activa do punho e de uma palma parcialmente preservada; quando essa condição anatómica não existe, a solução tende a deslocar-se para braços ou mecanismos accionados pelo cotovelo.
+> O projecto e-NABLE constitui um exemplo relevante deste movimento e enquadra directamente vários dos modelos analisados nesta investigação. Na revisão do catálogo e-NABLE, Wendo et al. (2022) agruparam os dispositivos em duas categorias: modelos de mão e modelos de braço. Todos os modelos de mão incluídos na revisão eram accionados pelo corpo através do movimento de um punho funcional. Entre os modelos de braço analisados, o *Unlimbited Arm v2.1* e o *Kwawu Arm* eram accionados pelo movimento do cotovelo, enquanto o *El Medallo Bionic Arm* utilizava accionamento eléctrico controlado por sinais musculares. Para o *design* de próteses de membro superior, esta distinção é importante porque evidencia a necessidade de relacionar o tipo de dispositivo e o respectivo mecanismo de accionamento com o movimento que a pessoa conserva.
 
 **Título completo do *paper*:** *Open-Source 3D Printing in the Prosthetic Field—The Case of Upper Limb Prostheses: A Review*
 **Nome exacto do PDF:** `Open-Source 3D Printing in the Prosthetic Field—The Case of Upper Limb Prostheses A Review.pdf`
@@ -699,9 +718,9 @@ Quando uma referência reaparece num capítulo posterior, o novo conjunto de lin
 
 **Mendeley:** registo `c4e78aba-42b5-3b87-a963-7c450c99d289`; DOI `10.3390/machines10060413`; `file_attached: true`.
 
-**Avaliação:** **suporte directo para a disponibilidade de ficheiros, instruções e distinção entre accionamento pelo punho e pelo cotovelo; suporte parcial para a restante caracterização**.
+**Avaliação:** **suporte directo após delimitação da redacção**. A primeira ocorrência sustenta a disponibilidade de ficheiros e instruções; a segunda reproduz as duas categorias do catálogo e distingue os mecanismos de accionamento efectivamente descritos para os modelos de mão e de braço.
 
-**Observação:** o artigo examina no catálogo e-NABLE as categorias «Arms Designs» e «Hands Designs» e não confirma literalmente a enumeração «mão, braço, dedos, polegares e dispositivos terminais». Também não explicita, no trecho citado, a exigência de uma palma parcialmente preservada. A expressão superlativa «exemplo mais influente» necessita de uma fonte histórica ou de dados comparativos.
+**Observação:** na versão 0.4.85, «o exemplo mais influente» foi substituído por uma formulação de relevância circunscrita à investigação. Foram igualmente eliminadas a enumeração não demonstrada de dedos, polegares e dispositivos terminais, a restrição do projecto a crianças e a exigência não documentada de uma palma parcialmente preservada. A redacção passa a reflectir as categorias «Arms Designs» e «Hands Designs» e os mecanismos descritos no artigo: accionamento pelo punho nos modelos de mão incluídos, accionamento pelo cotovelo no *Unlimbited Arm v2.1* e no *Kwawu Arm* e accionamento eléctrico por sinais musculares no *El Medallo Bionic Arm*. A última frase explicita a interpretação desta distinção para o *design* de próteses de membro superior.
 
 ### 3.14 Zuniga et al. (2015)
 
@@ -734,9 +753,9 @@ Quando uma referência reaparece num capítulo posterior, o novo conjunto de lin
 **Referência autor–ano:** Atallah et al. (2025)
 **Localização no manuscrito:** linha 509; Secção 2.4.
 
-**Texto da dissertação:**
+**Texto da dissertação — versão 0.4.86:**
 
-> Uma revisão mais recente sobre resultados clínicos de próteses impressas em 3D reforça a mesma cautela: há sinais de melhoria em destreza, satisfação e adequação, mas a qualidade da evidência permanece limitada e pouco comparável entre estudos.
+> Uma revisão mais recente dos resultados clínicos de próteses impressas em 3D reforça a mesma cautela. Nos estudos sobre o membro superior, foram relatadas melhorias na preensão global, na destreza manual e na satisfação dos utilizadores, tendo sido também avaliados o conforto, a facilidade de utilização e o uso quotidiano. Contudo, os estudos são geralmente pequenos, metodologicamente heterogéneos e difíceis de comparar entre si (Atallah et al., 2025).
 
 **Título completo do *paper*:** *The Current State of 3D-Printed Prostheses Clinical Outcomes: A Systematic Review*
 **Nome exacto do PDF:** `The Current State of 3D-Printed Prostheses Clinical Outcomes: A Systematic Review.pdf`
@@ -755,16 +774,16 @@ Quando uma referência reaparece num capítulo posterior, o novo conjunto de lin
 
 **Avaliação:** **suporte directo**.
 
-**Observação:** «adequação» é menos preciso do que os termos efectivamente avaliados no artigo — ajuste, conforto, facilidade de utilização e desempenho funcional. A formulação pode ser afinada para evitar agregar resultados distintos num único conceito.
+**Observação:** na versão 0.4.86, «adequação» foi substituído por resultados concretos e a afirmação foi restringida aos estudos sobre o membro superior. A nova redacção distingue as melhorias relatadas na preensão global, destreza manual e satisfação dos utilizadores dos restantes aspectos avaliados — conforto, facilidade de utilização e uso quotidiano — e preserva a cautela decorrente das pequenas amostras e da heterogeneidade metodológica.
 
 ### 3.16 Chainando et al. (2025) — síntese antropométrica
 
 **Localização no manuscrito:** linhas 517 e 565; Secção 2.5.
-**Texto da dissertação:**
+**Texto da dissertação — versão 0.4.87:**
 
-> A literatura recente evidencia uma transição progressiva de medições manuais baseadas em marcos anatómicos para processos digitais de captura de superfície, integrados com fluxos CAD/CAM e com fabrico aditivo.
+> A antropometria constitui um fundamento técnico e metodológico central no *design* protésico, porque a adequação geométrica do dispositivo ao corpo do utilizador condiciona directamente o conforto, a segurança, o desempenho funcional e a aceitação. Em próteses de membro superior, observa-se uma utilização crescente de processos digitais de captura da geometria corporal, incluindo a digitalização 3D e a fotogrametria. Estes métodos permitem obter medições destinadas à personalização das próteses, ajustar o desenho em *software* e produzir componentes por impressão 3D (Chainando et al., 2025). Nesta investigação, estes passos são organizados numa cadeia de trabalho composta por aquisição anatómica, modelação ou rectificação em CAD, fabrico aditivo e pós-processamento. Esta cadeia corresponde à organização metodológica adoptada no projecto e não a um protocolo único estabelecido pela revisão.
 
-> Próteses de membro superior: coexistência de tomografia computorizada (CT), scanners comerciais e fotogrametria como métodos de captura.
+> – Próteses de membro superior: Chainando et al. (2025) identificam a tomografia computorizada (CT), os digitalizadores 3D comerciais e a fotogrametria como os três principais métodos digitais de captura. A revisão assinala que estas técnicas permitem obter medições destinadas à personalização, mas também apresentam diferenças de precisão, custo, acessibilidade e requisitos técnicos. Num estudo que comparou medições tradicionais, ressonância magnética e digitalização 3D, Çıklaçandır et al. (2022) não encontraram diferenças estatisticamente significativas entre os métodos. A digitalização 3D apresentou resultados próximos dos obtidos por ressonância magnética e vantagens potenciais relacionadas com o custo, o tempo, a fiabilidade e a repetibilidade.
 
 **Título completo do *paper*:** *Applying 3D Scanning and Printing Techniques to Produce Upper Limb Prostheses: Bibliometric Analysis and Scoping Review*
 **Nome exacto do PDF:** `Applying 3D Scanning and Printing Techniques to Produce Upper Limb Prostheses Bibliometric Analysis and Scoping Review.pdf`
@@ -777,9 +796,9 @@ Quando uma referência reaparece num capítulo posterior, o novo conjunto de lin
 
 > “there are three main methods for capturing these measurements [...] CT scanners, commercial 3D scanners, and photogrammetry.”
 
-**Avaliação:** **suporte parcial**.
+**Avaliação:** **suporte directo após delimitação da redacção**.
 
-**Observação:** o artigo sustenta a digitalização, o ajuste digital e a coexistência de CT, scanners comerciais e fotogrametria. Não demonstra integralmente a cadeia com pós-processamento, a caracterização geral como prova de conceito nem a necessidade de validação longitudinal. A autoria bibliográfica diverge dos autores apresentados no PDF, como registado na ficha 3.9.
+**Observação:** na versão 0.4.87, Chainando et al. ficou associado apenas à utilização crescente da captura digital, à personalização e impressão e aos três métodos examinados: tomografia computorizada, digitalizadores 3D comerciais e fotogrametria. A cadeia aquisição–CAD–fabrico–pós-processamento foi explicitamente assumida como organização metodológica desta investigação, não como protocolo estabelecido pelo artigo. Foi retirada a necessidade de validação longitudinal, já discutida com fontes adequadas no parágrafo anterior. Na segunda passagem, a adaptação automática de «modelos CAD inteligentes», que não era demonstrada por Chainando et al. nem por Çıklaçandır et al., foi substituída pelos resultados comparativos efectivamente apresentados por Çıklaçandır et al. Na versão 0.4.82, a bibliografia de Chainando et al. já tinha sido corrigida para os 13 autores do PDF e para o DOI `10.3390/prosthesis7020026`.
 
 ### 3.17 Squibb et al. (2024)
 
@@ -1034,7 +1053,7 @@ Quando uma referência reaparece num capítulo posterior, o novo conjunto de lin
 
 **Observação:** a fonte discute normalização e controlo rígido, mas não fundamenta o registo da origem das decisões, a segurança e a qualidade em dispositivos médicos regulamentados. A entrada bibliográfica usa apenas *Meta-design*, título menos preciso do que o PDF.
 
-### 3.27 Hippel e Katz (2002)
+### 3.27 von Hippel e Katz (2002)
 
 **Localização no manuscrito:** linhas 635, 641 e 685; Secção 2.7.
 **Texto da dissertação:**
@@ -1059,6 +1078,8 @@ Quando uma referência reaparece num capítulo posterior, o novo conjunto de lin
 **Avaliação:** **suporte directo para a linha 641; parcial para as linhas 635 e 685**.
 
 **Observação:** a fonte não estabelece toda a taxonomia sociotécnica nem compara explicitamente modularidade, parametrização e *toolkits* nos termos usados na dissertação.
+
+**Correcção bibliográfica aplicada na versão 0.4.79:** as três citações passaram de «Hippel & Katz» para «von Hippel & Katz», e a entrada passou a identificar correctamente o apelido de Eric von Hippel, *Management Science*, 48(7), 821–833, e o DOI `10.1287/mnsc.48.7.821.2817`.
 
 ### 3.28 Akasaka et al. (2022)
 
@@ -1136,33 +1157,33 @@ Quando uma referência reaparece num capítulo posterior, o novo conjunto de lin
 
 **Observação:** sustenta *virtual coaching*, percursos personalizados, participação e boa usabilidade. Não sustenta isoladamente toda a enumeração sobre *serious games*, selecção de exercícios, ritmo, objectivos e interface. Os coautores da entrada bibliográfica não coincidem com os apresentados no PDF.
 
-### 3.31 Chainando et al. (2025) — Figura 2.8
+### 3.31 Oldfrey et al. (2024) — Figura 2.8
 
-**Referência autor–ano:** Chainando et al. (2025)
+**Referência autor–ano:** Oldfrey et al. (2024)
 **Localização no manuscrito:** linhas 715–721; Secção 2.8, Figura 2.8.
 
 **Texto da dissertação:**
 
 > A distância entre o potencial técnico destas abordagens e a sua consolidação prática torna-se particularmente visível na análise dos níveis de prontidão tecnológica descritos na literatura. A Figura 2.8 apresenta a distribuição dos estudos por nível de prontidão tecnológica, ou *Technology Readiness Level* (TRL), evidenciando que muitos contributos permanecem concentrados em fases ainda afastadas de uma adopção ampla e sustentada.
 
-> Figura 2.8 — Distribuição dos estudos por nível de prontidão tecnológica (TRL) e categoria de aplicação.
+> Figura 2.8 — Número de artigos por nível de prontidão tecnológica (TRL) e categoria de aplicação. O gráfico distingue próteses de membro inferior produzidas por impressão 3D (MI 3DP), próteses de membro inferior desenvolvidas com recurso a CAD/CAM (MI CAD/CAM), outras aplicações de membro inferior (MI outras), próteses de membro superior produzidas por impressão 3D (MS 3DP) e outras aplicações de membro superior (MS outras).
 
-> Adaptado de Chainando [...] (2025). *Applying 3D scanning and printing techniques to produce upper limb prostheses: Bibliometric analysis and scoping review*.
+> Adaptado da Figura 10 de Oldfrey et al. (2024, p. 582).
 
-**Título completo do *paper*:** *Applying 3D Scanning and Printing Techniques to Produce Upper Limb Prostheses: Bibliometric Analysis and Scoping Review*
-**Nome exacto do PDF:** `Applying 3D Scanning and Printing Techniques to Produce Upper Limb Prostheses Bibliometric Analysis and Scoping Review.pdf`
-**Caminho local:** `material/3dprinting-prosthetics/Applying 3D Scanning and Printing Techniques to Produce Upper Limb Prostheses Bibliometric Analysis and Scoping Review.pdf`
-**Página e secção:** páginas 1–31 do PDF; resumo, método bibliométrico e Figuras 1–4.
+**Título completo do *paper*:** *A scoping review of digital fabrication techniques applied to prosthetics and orthotics: Part 1 of 2—Prosthetics*
+**Nome exacto do PDF:** `A scoping review of digital fabrication techniques applied to prosthetics and orthotics.pdf`
+**Caminho local:** `material/3dprinting-prosthetics/A scoping review of digital fabrication techniques applied to prosthetics and orthotics.pdf`
+**Página e secção:** página 9 do PDF, página impressa 582; Figura 10 e secção «TRL level».
 
 **Excertos exactos do *paper*:**
 
-> “a total of 274 papers included”
+> “Figure 10. Number of LLP and ULP articles per technology readiness level (TRL) for technologies.”
 
-> “Keyword co-occurrence analysis identified four key areas”
+> “From Figure 10, it can be seen that the literature centers around TRL 3 and TRL 4, which are proof of concept levels, conducted in laboratory environments and generally do not have long-term assessments or testing in the intended environment (i.e., TRL 5 and TRL 6).”
 
-**Avaliação:** **incompatível**.
+**Avaliação:** **correspondência directa da figura e suporte directo para a interpretação sobre a concentração nos TRL 3 e 4**.
 
-**Observação:** o artigo não apresenta uma classificação por TRL, nem as categorias `LL 3DP`, `LL CAD/CAM`, `LL other`, `UL 3DP` e `UL other`. As figuras do *paper* tratam o fluxo de selecção, o ano de publicação e mapas de palavras-chave. A Figura 2.8 não foi adaptada deste artigo. Mantém-se ainda a incompatibilidade de coautoria já registada nas fichas 3.9 e 3.16.
+**Observação:** os valores, as cinco categorias e a distribuição por TRL da imagem da dissertação coincidem com a Figura 10 de Oldfrey et al. A versão 0.4.82 substituiu a atribuição incorrecta a Chainando et al., identificou a figura e a página exactas e traduziu as abreviaturas `LL` e `UL` para `MI` e `MS` na legenda, sem alterar os dados representados.
 
 ### 3.32 Andrysek (2010)
 
@@ -1352,7 +1373,7 @@ Quando uma referência reaparece num capítulo posterior, o novo conjunto de lin
 
 **Avaliação:** **suporte directo para requisitos gerais; incompatível com a especificidade da linha 916**. O artigo não estabelece a regra de confrontar cada condição codificada com a geometria gerada nem a arquitectura de restrições descrita nesse período.
 
-**Problema bibliográfico:** o PDF identifica Robbie Brack, volume 23 e DOI `10.1016/j.jor.2020.12.009`; a bibliografia indica «Brack, T.», volume 24 e DOI diferente.
+**Problema bibliográfico resolvido na versão 0.4.76:** o PDF identifica Robbie Brack, volume 23 e DOI `10.1016/j.jor.2020.12.009`; a bibliografia foi actualizada em conformidade.
 
 ### 3.39 Henao et al. (2025) — requisitos de partes interessadas
 
@@ -2037,7 +2058,7 @@ O ficheiro visual está correctamente atribuído no manuscrito, mas o PDF de sup
 
 ## 4. Afirmações inicialmente pendentes e estado actual das fontes
 
-Esta secção conserva as afirmações exactas que ficaram pendentes no fecho inicial da auditoria, mas apresenta o **estado actual** da pesquisa. As trinta fontes obtidas e confrontadas em 16 de Julho de 2026 estão identificadas como PDFs locais e remetem para o confronto detalhado da Secção 7.5. Dos lotes seguintes, Guo e Franke e von Hippel foram confrontados na Secção 7.6 e 35 textos integrais permanecem identificados como «PDF local validado; confronto directo ainda pendente». Apenas as oito fontes mantidas em `projecto_completo_bibliografia/pdfs_em_falta.md` permanecem assinaladas como «PDF não localizado».
+Esta secção conserva as afirmações exactas que ficaram pendentes no fecho inicial da auditoria, mas apresenta o **estado actual** da pesquisa. As trinta fontes obtidas e confrontadas em 16 de Julho de 2026 estão identificadas como PDFs locais e remetem para o confronto detalhado da Secção 7.5. Dos lotes seguintes, Guo, Franke e von Hippel e Krahe et al. foram confrontados na Secção 7.6, Jones et al. foi confrontado na Secção 7.5.5 e 33 textos integrais permanecem identificados como «PDF local validado; confronto directo ainda pendente». Apenas as oito fontes mantidas em `projecto_completo_bibliografia/pdfs_em_falta.md` permanecem assinaladas como «PDF não localizado».
 
 Em todas as entradas seguintes, a pesquisa abrangeu `projecto_completo_bibliografia/`, `material/` e 514 registos Mendeley. Quando a fonte continua ausente, não existe excerto do *paper* e a avaliação substantiva permanece pendente. Quando o PDF foi entretanto obtido, a tabela indica o resultado do confronto e a Secção 7.5 conserva a página, a zona exacta e o excerto primário. Os metadados bibliográficos e o estado de um anexo não consultado nunca foram tratados como prova do conteúdo.
 
@@ -2513,10 +2534,10 @@ Os trechos são copiados uma única vez e recebem identificadores para separar a
 | Albin e Molenbroek (2023) | *Introduction to the special issue, anthropometry in design* | C2.5-01 | PDF local validado; confronto detalhado na Secção 7.5.3 | Um par confrontado; suporte parcial |
 | Young et al. (2023) | *Advances in the measurement of prosthetic socket interface mechanics: A review of technology, techniques, and a 20-year update* | C2.5-01, 03 e 04 | PDF local validado; confronto detalhado na Secção 7.5.3 | Três pares confrontados: dois directos e um parcial |
 | Silva et al. (2024) | *A review on 3D scanners studies for producing customized orthoses* | C2.5-02 e 05 | PDF local validado; confronto detalhado na Secção 7.5.3 | Dois pares confrontados: um directo e um parcial |
-| Çıklaçandır et al. (2022) | *Comparison of traditional, MRI, and 3D scanning anthropometric measurements in hand prosthesis design* | C2.5-06 | PDF local validado; confronto detalhado na Secção 7.5.3 | Um par confrontado; incompatível |
-| Bradtmiller (2022) | *Design for all, design for disabled: How important is anthropometry?* | C2.5-07 e 08 | PDF local validado, mas a autoria correcta é Paul et al. (2022); confronto detalhado na Secção 7.5.3 | Dois pares confrontados: um directo e um parcial |
+| Çıklaçandır et al. (2022) | *Comparison of traditional, MRI, and 3D scanning anthropometric measurements in hand prosthesis design* | C2.5-06 | PDF local validado; confronto detalhado na Secção 7.5.3 | Um par confrontado; suporte directo após substituição da adaptação automática de CAD pelos resultados comparativos do artigo na versão 0.4.87 |
+| Paul et al. (2022; anteriormente «Bradtmiller, 2022») | *Design for all—Design for disabled: How important is anthropometry?* | C2.5-07 e 08 | PDF local validado e metadados bibliográficos corrigidos na versão 0.4.77; confronto detalhado na Secção 7.5.3 | Dois pares confrontados: um directo e um parcial |
 
-**Página, secção e excerto dos *papers*:** os cinco PDFs foram obtidos e confrontados; as páginas, as zonas exactas e os excertos encontram-se na Secção 7.5.3. O ficheiro atribuído a Bradtmiller identifica Paul et al. (2022), divergência bibliográfica registada nessa secção.
+**Página, secção e excerto dos *papers*:** os cinco PDFs foram obtidos e confrontados; as páginas, as zonas exactas e os excertos encontram-se na Secção 7.5.3. A divergência de autoria da referência de Paul et al. (2022), anteriormente atribuída a Bradtmiller, foi corrigida no manuscrito na versão 0.4.77.
 
 ### 4.30–4.40 Referências da Secção 2.6
 
@@ -2532,7 +2553,7 @@ Os trechos seguintes reproduzem as afirmações da dissertação às quais as fo
 
 **C2.6-03 — linha 601:**
 
-> Dentro deste campo, a aprendizagem automática designa as abordagens em que o sistema aprende a partir de dados, em vez de depender exclusivamente de regras explicitamente escritas. A aprendizagem profunda corresponde a um subconjunto desta família e baseia-se em redes neuronais artificiais com múltiplas camadas.
+> Dentro deste campo, a aprendizagem automática designa as abordagens em que o sistema aprende a partir de dados, em vez de depender exclusivamente de regras explicitamente escritas. A aprendizagem profunda corresponde a um subconjunto desta família e baseia-se em redes neuronais artificiais com múltiplas camadas. [...] No desenvolvimento de produtos, por exemplo, estas técnicas podem identificar padrões em modelos tridimensionais e gerar novas variantes de forma a partir de requisitos previamente definidos.
 
 **C2.6-04 — linha 605:**
 
@@ -2580,7 +2601,7 @@ Os trechos seguintes reproduzem as afirmações da dissertação às quais as fo
 | Saeidnia e Ausloos (2024) | *Integrating artificial intelligence into design thinking: A comprehensive examination of the principles and potentialities of AI for design thinking framework* | C2.6-01 e 09 | PDF local validado; confronto detalhado na Secção 7.5.3 | Dois pares confrontados: um directo e um parcial |
 | Yüksel et al. (2023) | *Review of artificial intelligence applications in engineering design perspective* | C2.6-01, 02, 05 e 12 | PDF não localizado; zero correspondências por título e autor–ano nos 514 registos | Quatro pares pendentes |
 | Khanolkar, Vrolijk e Olechowski (2023) | *Mapping artificial intelligence-based methods to engineering design stages: A focused literature review* | C2.6-03, 07 e 09 | PDF local validado no lote posterior; confronto directo ainda pendente | Três pares pendentes de confronto directo |
-| Krahe et al. (2020) | *Deep learning for automated product design* | C2.6-03 | PDF local validado no lote posterior; confronto directo ainda pendente; DOI editorial `10.1016/j.procir.2020.01.135` | Um par pendente de confronto directo |
+| Krahe et al. (2020) | *Deep learning for automated product design* | C2.6-03 | PDF local validado e confrontado na Secção 7.6.3; DOI editorial `10.1016/j.procir.2020.01.135`; o identificador `10.5445/IR/1000127884` corresponde ao depósito do KIT | Um par confrontado; suporte directo após delimitação da afirmação na versão 0.4.81 |
 | Ao, Li e Duan (2025) | *Artificial intelligence-aided design (AIAD) for structures and engineering: A state-of-the-art review and future perspectives* | C2.6-04, 07, 08, 10 e 13 | PDF local validado no lote posterior; confronto directo ainda pendente | Cinco pares pendentes de confronto directo |
 | Panchal et al. (2019) | *Special issue: Machine learning for engineering design* | C2.6-04, 05 e 12 | PDF não localizado; zero correspondências por título e autor–ano nos 514 registos | Três pares pendentes |
 | Burnap, Hauser e Timoshenko (2019) | *Design and evaluation of product aesthetics: A human-machine hybrid approach* | C2.6-06 e 12 | PDF local validado no lote posterior; confronto directo ainda pendente | Dois pares pendentes de confronto directo |
@@ -2588,13 +2609,13 @@ Os trechos seguintes reproduzem as afirmações da dissertação às quais as fo
 | Virós-i-Martin e Selva (2021) | *A framework to study human-AI collaborative design space exploration* | C2.6-10 e 11 | O ficheiro local `material/colaboracao/A Framework to Study Human-AI Collaborative Design Space Exploration (2021).pdf` contém *Explainable Artificial Intelligence (XAI): Concepts, Taxonomies, Opportunities and Challenges toward Responsible AI*, de Barredo Arrieta et al.; zero correspondências por título e autor–ano nos 514 registos | Dois pares pendentes; ficheiro local incorrecto |
 | Figoli, Mattioli e Rampino (2022) | *AI in design idea development: A workshop on creativity and human-AI collaboration* | C2.6-11 | PDF não localizado; zero correspondências por título e autor–ano nos 514 registos | Um par pendente |
 
-**Página, secção e excerto dos *papers*:** disponíveis na Secção 7.5.3 para Choudhury et al. e Saeidnia e Ausloos. Ao, Li e Duan, Burnap, Hauser e Timoshenko, Khanolkar, Vrolijk e Olechowski, Krahe et al. e Verganti, Vendraminelli e Iansiti têm agora texto integral local, mas os treze pares associados aguardam confronto directo; as outras quatro referências continuam sem texto integral. O conteúdo do ficheiro incorrectamente nomeado como Virós-i-Martin e Selva não foi usado como prova.
+**Página, secção e excerto dos *papers*:** disponíveis na Secção 7.5.3 para Choudhury et al. e Saeidnia e Ausloos e na Secção 7.6.3 para Krahe et al. Ao, Li e Duan, Burnap, Hauser e Timoshenko, Khanolkar, Vrolijk e Olechowski e Verganti, Vendraminelli e Iansiti têm agora texto integral local, mas os doze pares associados aguardam confronto directo; as outras quatro referências continuam sem texto integral. O conteúdo do ficheiro incorrectamente nomeado como Virós-i-Martin e Selva não foi usado como prova.
 
 ### 4.41–4.55 Referências da Secção 2.7
 
 | Referência | Título indicado na bibliografia | Linhas e texto exacto da dissertação associado | Pesquisa local e Mendeley | Avaliação |
 | --- | --- | --- | --- | --- |
-| Franke e von Hippel (versão de trabalho de 2002; publicação de 2003) | *Satisfying Heterogeneous User Needs via Innovation Toolkits: The Case of Apache Security Software* | 641 — «sistemas configuráveis como ferramentas coordenadas e acessíveis» | Versão de autor local validada; confronto e excertos na Secção 7.6.2 | Um par confrontado; suporte directo para a oposição entre selecção de opções e desenho com *toolkits*, mas apenas parcial para «regras e resposta visual» |
+| Franke e von Hippel (2003; anteriormente citado como 2002) | *Satisfying Heterogeneous User Needs via Innovation Toolkits: The Case of Apache Security Software* | 641 — «sistemas configuráveis como ferramentas coordenadas e acessíveis» | Versão de autor local validada; publicação e DOI corrigidos na versão 0.4.79; confronto e excertos na Secção 7.6.2 | Um par confrontado; suporte directo para a oposição entre selecção de opções e desenho com *toolkits*; «resposta visual» substituída por simulação e avaliação iterativa, com apoio complementar de von Hippel e Katz (2002) |
 | Costabile et al. (2007) | *Meta-design to Face Co-evolution and Communication Gaps Between Users and Designers* | 643 — «participação “em uso”»;<br>655 — «Software Shaping Workshop»;<br>709 — «normalização e personalização» | PDF local validado no lote posterior; confronto directo ainda pendente | Três pares pendentes de confronto directo |
 | Fischer et al. (2017) | *Revisiting and Broadening the Meta-design Framework for End-user Development* | 637 — «personalização [...] como uma necessidade funcional»;<br>653 — «risco de sobrecarga participativa»;<br>655 — «utilizadores finais participem ativamente»;<br>683 — «adaptação de exercícios e de objectivos»;<br>707 — «sobrecarga, fadiga e eventual desistência» | Capítulo identificado no volume integral local; confronto directo ainda pendente | Cinco pares pendentes de confronto directo |
 | Howard et al. (2022) | *Assessing the Use of Co-design to Produce Bespoke Assistive Technology Solutions Within a Current Healthcare Service* | 635 — «fluxos participativos que traduzem a experiência vivida»;<br>699 — «ecossistemas modulares e [...] aprendizagem distribuída»;<br>705 — «amostras reduzidas e [...] estudos de caso» | PDF local validado no lote mais recente; confronto directo ainda pendente | Três pares pendentes de confronto directo |
@@ -2634,11 +2655,11 @@ Os trechos seguintes reproduzem as afirmações exactas da dissertação. As cit
 
 **C2.8-05 — linha 735:**
 
-> Cordella et al. (2016) e Manz et al. (2022) identificam uma articulação insuficiente entre as necessidades expressas pelos utilizadores [...] os indicadores objectivos habitualmente medidos [...] e os resultados desejáveis, como autonomia e qualidade de vida. As revisões salientam que estas necessidades são contextuais e interdependentes, e que as medições laboratoriais nem sempre reflectem tarefas relevantes do quotidiano, contribuindo para contradições entre resultados subjectivos e objectivos (Cordella et al., 2016; Manz et al., 2022).
+> Embora incidam em segmentos distintos — Cordella et al. (2016) no membro superior e Manz et al. (2022) no membro inferior — ambas as revisões identificam uma articulação insuficiente entre as necessidades expressas pelos utilizadores [...] os indicadores objectivos habitualmente medidos [...] e os resultados desejáveis, como autonomia e qualidade de vida. Salientam igualmente que estas necessidades são contextuais e interdependentes e que as medições laboratoriais nem sempre reflectem tarefas relevantes do quotidiano, contribuindo para contradições entre resultados subjectivos e objectivos (Cordella et al., 2016; Manz et al., 2022).
 
 **C2.8-06 — linha 737:**
 
-> A existência de métricas ecologicamente válidas e sensíveis às prioridades do utilizador é essencial para orientar decisões de projecto para benefícios significativos e sustentados. Como consequência, melhorias técnicas isoladas podem produzir ganhos limitados em termos de aceitação, integração funcional ou uso continuado da prótese.
+> A convergência entre os dois domínios tem implicações directas para o *design*. A existência de métricas ecologicamente válidas e sensíveis às prioridades do utilizador é essencial para orientar decisões de projecto para benefícios significativos e sustentados. Como consequência, melhorias técnicas isoladas podem produzir ganhos limitados em termos de aceitação, integração funcional ou uso continuado da prótese.
 
 **C2.8-07 — linha 741:**
 
@@ -2682,7 +2703,7 @@ Os trechos seguintes reproduzem as afirmações exactas da dissertação. As cit
 
 **C2.8-17 — linha 784, Tabela 2.3:**
 
-> Desalinhamento entre necessidades, métricas objectivas e qualidade de vida [...] Preferências, satisfação, participação, autonomia e qualidade de vida.
+> Desalinhamento entre necessidades, métricas objectivas e qualidade de vida, identificado em revisões dos membros superior e inferior [...] Preferências, satisfação, participação, autonomia e qualidade de vida.
 
 **C2.8-18 — linha 785, Tabela 2.3:**
 
@@ -2706,9 +2727,10 @@ Os trechos seguintes reproduzem as afirmações exactas da dissertação. As cit
 | Samuelsson et al. (2012) | *Effects of lower limb prosthesis on activity, participation, and quality of life: A systematic review* | C2.8-01, 02, 03, 04, 06 e 16 | PDF local validado; confronto detalhado na Secção 7.5.4 | Seis pares confrontados: três directos e três parciais |
 | Windrich et al. (2016) | *Active lower limb prosthetics: A systematic review of design issues and solutions* | C2.8-01, 03 e 16 | PDF local validado; confronto detalhado na Secção 7.5.4 | Três pares confrontados; suporte directo |
 | Hafner e Sawers (2016) | *Issues affecting the level of prosthetics research evidence: Secondary analysis of a systematic review* | C2.8-02, 14 e 21 | PDF local validado; confronto detalhado na Secção 7.5.4 | Três pares confrontados: um directo e dois parciais |
+| Jones et al. (2023) | *Evidencing the effectiveness of upper limb prostheses: A multi-stakeholder perspective on study requirements* | C2.8-02; anteriormente C4-03 | PDF local validado e confrontado; autoria, número de artigo e DOI corrigidos na versão 0.4.80 | Um par confrontado; suporte parcial para amostras reduzidas, heterogeneidade da avaliação e necessidade de estudos longitudinais; não sustenta a anterior regra de verificação geométrica |
 | Ghillebert et al. (2019) | *Guidelines and recommendations to investigate the efficacy of a lower-limb prosthetic device: A systematic review* | C2.8-03 | PDF local validado no lote posterior; confronto directo ainda pendente | Um par pendente de confronto directo |
 | Cordella et al. (2016) | *Literature review on needs of upper limb prosthesis users* | Duas atribuições em C2.8-05; C2.8-09, 14 e 17 | PDF local validado; confronto detalhado na Secção 7.5.4 | Cinco pares confrontados: dois directos e três parciais |
-| Manz et al. (2022) | *A review of user needs to inform the development of lower-limb prostheses* | Duas atribuições em C2.8-05; C2.8-06 e 17 | PDF local validado, com divergências no título e nos autores da entrada bibliográfica; confronto detalhado na Secção 7.5.4 | Quatro pares confrontados: dois directos e dois parciais |
+| Manz et al. (2022) | *A review of user needs to drive the development of lower limb prostheses* | Duas atribuições em C2.8-05; C2.8-06 e 17 | PDF local validado; título, autores e dados editoriais corrigidos na versão 0.4.78; confronto detalhado na Secção 7.5.4 | Quatro pares confrontados: dois directos e dois parciais; transferência do membro inferior explicitada |
 | Alluhydan et al. (2023) | *Functionality and comfort design of lower-limb prosthetics: A review* | C2.8-07, 11 e 18 | PDF local validado; confronto detalhado na Secção 7.5.4 | Três pares confrontados: dois directos e um parcial |
 | Baldock et al. (2023) | *Adjustable prosthetic sockets: A systematic review of industrial and research design characteristics and their justifications* | C2.8-07 e 18 | PDF local validado; confronto detalhado na Secção 7.5.4 | Dois pares confrontados: um directo e um parcial |
 | Richardson e Dillon (2017) | *User experience of transtibial prosthetic liners: A systematic review* | C2.8-07, 08, 13, 14, 18 e 21 | PDF local validado; confronto detalhado na Secção 7.5.4 | Seis pares confrontados: dois directos, três parciais e um incompatível |
@@ -2747,7 +2769,7 @@ Os trechos seguintes reproduzem as afirmações exactas da dissertação. A repe
 
 **C4-03 — linha 916:**
 
-> A definição destes limites transforma a adaptação numa configuração condicionada por relações explícitas entre medidas, componentes e restrições de fabrico. Cada condição necessita de um critério próprio e deve ser confrontada com a geometria efectivamente gerada, não apenas com o nome do parâmetro ou com o intervalo apresentado na interface (Brack & Amalu, 2021; Herneth et al., 2024; Jones et al., 2023).
+> No âmbito deste projecto, os limites de adaptação foram formalizados como relações explícitas entre medidas, componentes e restrições de fabrico. A verificação foi definida para incidir sobre a geometria efectivamente gerada, e não apenas sobre o nome do parâmetro ou o intervalo apresentado na interface.
 
 **C4-04 — linha 988:**
 
@@ -2778,7 +2800,7 @@ Os trechos seguintes reproduzem as afirmações exactas da dissertação. A repe
 | Cordella et al. (2016) | *Literature review on needs of upper limb prosthesis users* | C4-01 e C4-02 | PDF local validado; confronto detalhado na Secção 7.5.4 | Duas novas ocorrências confrontadas: uma directa e uma parcial; sete acumuladas |
 | Guo (2025) | *Human-centered design strategies for prosthetics based on user needs* | C4-01 | PDF local validado; cinco páginas processadas por OCR e verificadas visualmente; confronto na Secção 7.6.1 | Um par confrontado; suporte parcial; a fonte abrange utilizadores de próteses dos membros superior e inferior e não sustenta isoladamente toda a enumeração nem uma taxa geral de abandono no membro superior |
 | Peerdeman et al. (2011) | *Myoelectric forearm prostheses: State of the art from a user-centered perspective* | C4-01 e C4-02 | PDF local validado no lote mais recente; confronto directo ainda pendente | Dois pares pendentes de confronto directo |
-| Jones et al. (2023) | *Evidencing the effectiveness of upper limb prostheses: A multi-stakeholder perspective on study requirements* | C4-03 | PDF local validado no lote posterior; o ficheiro confirma o DOI `10.3389/frhs.2023.1213752`; confronto directo ainda pendente | Um par pendente de confronto directo; divergência bibliográfica de DOI assinalada |
+| Jones et al. (2023) | *Evidencing the effectiveness of upper limb prostheses: A multi-stakeholder perspective on study requirements* | C4-03 retirado; citação deslocada para C2.8-02 | PDF local validado e confrontado; autoria, artigo e DOI corrigidos na versão 0.4.80 | A fonte é incompatível com a regra geométrica da Secção 4; suporte parcial para a afirmação da Secção 2.8 sobre amostras, heterogeneidade das avaliações e validação longitudinal |
 | Çıklaçandır et al. (2022) | *Comparison of traditional, MRI, and 3D scanning anthropometric measurements in hand prosthesis design* | Duas atribuições em C4-04 | PDF local validado; confronto detalhado na Secção 7.5.3 | Duas novas ocorrências confrontadas; suporte parcial; três acumuladas |
 | Herbst et al. (2021) | *Scan-driven fully-automated pipeline for a personalized, 3D printed low-cost prosthetic hand* | Duas atribuições em C4-04; C4-09 | PDF local validado no lote posterior; confronto directo ainda pendente | Três pares pendentes de confronto directo |
 | Ghali (2008) | *Constructive solid geometry*, em *Introduction to Geometric Computing* | C4-05 | Capítulo de livro não localizado; zero correspondências por autor, título e ano nos 514 registos | Documento académico não-*paper*; uma ocorrência pendente |
@@ -2786,7 +2808,7 @@ Os trechos seguintes reproduzem as afirmações exactas da dissertação. A repe
 | ELhadad et al. (2026) | *LLM-based 3D model generation of MHE for OpenSCAD* | C4-07 | PDF local validado no lote mais recente; confronto directo ainda pendente | Um par pendente de confronto directo |
 | Romani e Levi (2020) | *Parametric design for online user customization of 3D printed assistive technology for rheumatic diseases* | C4-08 | PDF local validado no lote mais recente; confronto directo ainda pendente | Um par pendente de confronto directo |
 
-**Página, secção e excerto dos documentos:** disponíveis na Secção 7.5 para Cordella et al. e Çıklaçandır et al. e na Secção 7.6.1 para Guo. Jones et al., Herbst et al., Trautmann, Peerdeman et al., ELhadad et al. e Romani e Levi têm agora texto integral local, mas os pares associados aguardam confronto directo; o capítulo de Ghali continua ausente. As fontes técnicas que corroboram parcialmente C4-05 foram verificadas separadamente e não substituem o confronto desse capítulo. Gonzalez Avila et al. foi consultado, mas não sustenta C4-07; a sua presença no grupo não substitui o confronto de ELhadad et al.
+**Página, secção e excerto dos documentos:** disponíveis na Secção 7.5 para Cordella et al. e Çıklaçandır et al., na Secção 7.5.5 para Jones et al. e na Secção 7.6.1 para Guo. Herbst et al., Trautmann, Peerdeman et al., ELhadad et al. e Romani e Levi têm texto integral local, mas os pares associados aguardam confronto directo; o capítulo de Ghali continua ausente. As fontes técnicas que corroboram parcialmente C4-05 foram verificadas separadamente e não substituem o confronto desse capítulo. Gonzalez Avila et al. foi consultado, mas não sustenta C4-07; a sua presença no grupo não substitui o confronto de ELhadad et al.
 
 ### 4.83–4.88 Referências do Capítulo 5
 
@@ -2889,7 +2911,7 @@ Os quatro textos integrais encontram-se agora disponíveis localmente, mas ainda
 
 **C8-03 — linha 1821, Tabela 8.8:**
 
-> A separação evita usar indicadores internos como substitutos de conforto, satisfação ou qualidade de vida, respondendo ao desalinhamento discutido por Cordella et al. (2016) e Manz et al. (2022).
+> A separação evita usar indicadores internos como substitutos de conforto, satisfação ou qualidade de vida, respondendo ao desalinhamento discutido em revisões sobre próteses dos membros superior e inferior (Cordella et al., 2016; Manz et al., 2022).
 
 **C8-04 — linha 1822, Tabela 8.8:**
 
@@ -2914,7 +2936,7 @@ Os quatro textos integrais encontram-se agora disponíveis localmente, mas ainda
 | Samuelsson et al. (2012) | *Effects of lower limb prosthesis on activity, participation, and quality of life: A systematic review* | 1820 | PDF local validado; confronto detalhado na Secção 7.5.4 | Uma nova ocorrência incompatível; sete acumuladas; trata membro inferior |
 | Windrich et al. (2016) | *Active lower limb prosthetics: A systematic review of design issues and solutions* | 1820 | PDF local validado; confronto detalhado na Secção 7.5.4 | Uma nova ocorrência com suporte directo; quatro acumuladas; trata membro inferior |
 | Cordella et al. (2016) | *Literature review on needs of upper limb prosthesis users* | 1821 | PDF local validado; confronto detalhado na Secção 7.5.4 | Uma nova ocorrência com suporte parcial; nove acumuladas |
-| Manz et al. (2022) | *A review of user needs to inform the development of lower-limb prostheses* | 1821 | PDF local validado; confronto detalhado na Secção 7.5.4 | Uma nova ocorrência com suporte parcial; cinco acumuladas; trata membro inferior |
+| Manz et al. (2022) | *A review of user needs to drive the development of lower limb prostheses* | 1821 | PDF local validado; metadados corrigidos na versão 0.4.78; confronto detalhado na Secção 7.5.4 | Uma nova ocorrência com suporte parcial; cinco acumuladas; o manuscrito explicita que trata membro inferior |
 | Alluhydan et al. (2023) | *Functionality and comfort design of lower-limb prosthetics: A review* | 1822 | PDF local validado; confronto detalhado na Secção 7.5.4 | Uma nova ocorrência com suporte directo; quatro acumuladas; trata membro inferior |
 | Baldock et al. (2023) | *Adjustable prosthetic sockets: A systematic review of industrial and research design characteristics and their justifications* | 1822 | PDF local validado; confronto detalhado na Secção 7.5.4 | Uma nova ocorrência com suporte directo; três acumuladas |
 | Richardson e Dillon (2017) | *User experience of transtibial prosthetic liners: A systematic review* | 1822 e 1825 | PDF local validado; confronto detalhado na Secção 7.5.4 | Duas novas ocorrências: uma directa e uma incompatível; oito acumuladas; trata encaixes transtibiais de membro inferior |
@@ -3571,8 +3593,8 @@ Nas tabelas seguintes, «página» designa a página do ficheiro PDF. Quando exi
 | Albin e Molenbroek (2023), *Introduction to the special issue, anthropometry in design*<br>`albin_molenbroek_2023_introduction_to_the_special_issue_anthropometry_in_design.pdf` | Página 3/3, introdução: “Anthropometric data describe these variations in size, shape, and strength”. | **Um parcial**: C2.5-01; a fonte sustenta a relação geral entre ajuste antropométrico, desconforto e risco de lesão, mas não pressão em encaixes protésicos, lesões cutâneas ou abandono. |
 | Young et al. (2023), *Advances in the measurement of prosthetic socket interface mechanics: A review of technology, techniques, and a 20-year update*<br>`Advances in the measurement of prosthetic socket interface mechanics a review of technology techniques and a 20-year update.pdf` | Página 2, resumo: “a task dependent on the understanding of interface tissue-mechanics.” | **Dois directos**: C2.5-01 e C2.5-04. **Um parcial**: C2.5-03; confirma pressão, cisalhamento e variação geométrica/volumétrica, mas não sustenta integralmente a enumeração de aquecimento localizado. |
 | Silva et al. (2024), *A review on 3D scanners studies for producing customized orthoses*<br>`A Review on 3D Scanners Studies for Producing Customized Orthoses.pdf` | Página 1, resumo: “photogrammetry is the most used and most suitable 3D scanner for the acquisition of the human body in 3D.” | **Um directo**: C2.5-02. **Um parcial**: C2.5-05; compara produção manual e captura digital, mas não demonstra diferenças geométricas sistemáticas no ajuste final. |
-| Çıklaçandır et al. (2022), *Comparison of traditional, MRI, and 3D scanning anthropometric measurements in hand prosthesis design*<br>`Comparison_of_Traditional_MRI_and_3D_Scanning_Anthropometric_Measurements_in_Hand_Prosthesis_Design.pdf` | Página 1, resumo: “3D scanning is expected to be used more widely [...] in terms of cost-effectiveness, time-saving, measurement reliability, and repeatability.” | **Dois parciais**: as duas atribuições de C4-04; a fonte compara métodos, mas não conclui que nenhum seja universalmente superior. **Um incompatível**: C2.5-06; não existe adaptação automática de um modelo CAD inteligente. |
-| Paul et al. (2022), *Design for all—Design for disabled: How important is anthropometry?*<br>`paul-et-al-2022-design-for-all-design-for-disabled-how-important-is-anthropometry.pdf` | Página 1, conclusão: “a significant gap in knowledge of the anthropometry of people with disabilities”. | **Um directo**: C2.5-07. **Um parcial**: C2.5-08; confirma a lacuna e a necessidade de normalização, mas não toda a recomendação sobre amostras e proveniência. **Erro bibliográfico:** o manuscrito cita «Bradtmiller (2022)», embora o primeiro autor seja Gunther Paul e Bruce Bradtmiller seja o quinto autor. |
+| Çıklaçandır et al. (2022), *Comparison of traditional, MRI, and 3D scanning anthropometric measurements in hand prosthesis design*<br>`Comparison_of_Traditional_MRI_and_3D_Scanning_Anthropometric_Measurements_in_Hand_Prosthesis_Design.pdf` | Página 1, resumo: “3D scanning is expected to be used more widely [...] in terms of cost-effectiveness, time-saving, measurement reliability, and repeatability.” | **Dois parciais**: as duas atribuições de C4-04; a fonte compara métodos, mas não conclui que nenhum seja universalmente superior. **Um directo após correcção**: C2.5-06 passou na versão 0.4.87 a descrever a ausência de diferenças estatisticamente significativas, a proximidade entre digitalização 3D e ressonância magnética e as vantagens potenciais indicadas no artigo. |
+| Paul et al. (2022), *Design for all—Design for disabled: How important is anthropometry?*<br>`paul-et-al-2022-design-for-all-design-for-disabled-how-important-is-anthropometry.pdf` | Página 1, conclusão: “a significant gap in knowledge of the anthropometry of people with disabilities”. | **Um directo**: C2.5-07. **Um parcial**: C2.5-08; confirma a lacuna e a necessidade de normalização, mas não toda a recomendação sobre amostras e proveniência. **Erro bibliográfico corrigido na versão 0.4.77:** o manuscrito citava «Bradtmiller (2022)», embora o primeiro autor seja Gunther Paul e Bruce Bradtmiller seja o quinto autor. |
 
 #### 7.5.4 Inteligência artificial e *Research Through Design*
 
@@ -3591,8 +3613,9 @@ Nas tabelas seguintes, «página» designa a página do ficheiro PDF. Quando exi
 | Samuelsson et al. (2012), *Effects of lower limb prosthesis on activity, participation, and quality of life: A systematic review*<br>`Effects of lower limb prosthesis on activity participation  and quality of life A systematic review.pdf` | Página 1/145, resumo: “Effects [...] are often based on laboratory findings (i.e. efficacy).” | **Três directos**: C2.8-02, C2.8-03 e C2.8-16. **Três parciais**: C2.8-01, C2.8-04 e C2.8-06. **Um incompatível**: C8-02; a fonte avalia eficácia e efectividade de intervenções de membro inferior, não a frequência de provas de conceito técnicas. |
 | Windrich et al. (2016), *Active lower limb prosthetics: A systematic review of design issues and solutions*<br>`Active lower limb prosthetics: a systematic review of design issues and solutions .pdf` | Página 8, discussão: “all studies found in this review rely on prototypes and/or low numbers of subjects in testing”. | **Quatro directos**: C2.8-01, C2.8-03, C2.8-16 e C8-02. A transferência para membro superior deve continuar explicitamente delimitada. |
 | Hafner e Sawers (2016), *Issues affecting the level of prosthetics research evidence: Secondary analysis of a systematic review*<br>`hafner-sawers-2014-issues-affecting-the-level-of-prosthetics-research-evidence-secondary-analysis-of-a-systematic-review.pdf` | Página 1/31, resumo: “small sample sizes, limited evidence of measurement reliability, subject attrition, and limited descriptions of selection criteria.” | **Um directo**: C2.8-02. **Dois parciais**: C2.8-14 e C2.8-21. **Um incompatível**: C8-07; a fonte analisa qualidade metodológica, mas não demonstra insuficiência de participação ou de métodos qualitativos. |
+| Jones, Chadwell e Dyson (2023), *Evidencing the effectiveness of upper limb prostheses: A multi-stakeholder perspective on study requirements*<br>`jones_chadwell_dyson_2023_upper_limb_prostheses_study_requirements.pdf` | Página 2, introdução: “Studies often include small numbers of participants local to a research institution and vary widely in their approaches to evaluation.” | **Um parcial**: C2.8-02; sustenta directamente as amostras locais reduzidas, a heterogeneidade da avaliação e a necessidade de estudos longitudinais, mas não demonstra por si só toda a generalização sobre a tradução de melhorias laboratoriais em benefícios quotidianos. **Incompatibilidade corrigida na versão 0.4.80:** a fonte foi retirada da regra geométrica da Secção 4 e a bibliografia passou a usar Jones, Chadwell e Dyson, artigo 1213752 e DOI `10.3389/frhs.2023.1213752`. |
 | Cordella et al. (2016), *Literature review on needs of upper limb prosthesis users*<br>`Literature Review on Needs of Upper Limb Prosthesis Users.pdf` | Página 1, resumo: “the main critical aspects [...] in terms of users satisfaction and activities of daily living”. | **Três directos**: C2.8-09, C2.8-17 e C4-02. **Seis parciais**: as duas atribuições de C2.8-05, C2.8-14, C4-01, C6-01 e C8-03; são sustentadas necessidades, controlo e actividades quotidianas, mas não todas as generalizações sobre métricas laboratoriais, custos, manutenção ou predomínio da IA. |
-| Manz et al. (2022), *A review of user needs to drive the development of lower limb prostheses*<br>`A review of user needs to drive the development of lower limb prostheses.pdf` | Página 1, resumo: “focusing on user-specific needs can allow identifying critical improvements that can increase the quality of life.” | **Dois directos**: C2.8-06 e C2.8-17. **Três parciais**: as duas atribuições de C2.8-05 e C8-03; a revisão é de membro inferior e não demonstra integralmente o contraste entre métricas objectivas e resultados subjectivos. **Erro bibliográfico:** a entrada do manuscrito usa o título *A review of user needs to inform...* e autores diferentes; o PDF identifica Sabina Manz, Romain Valette, Federica Damonte, Lucas Avanci Gaudio, Jose Gonzalez-Vargas, Massimo Sartori, Strahinja Dosen e Johan Rietman. |
+| Manz et al. (2022), *A review of user needs to drive the development of lower limb prostheses*<br>`A review of user needs to drive the development of lower limb prostheses.pdf` | Página 1, resumo: “focusing on user-specific needs can allow identifying critical improvements that can increase the quality of life.” | **Dois directos**: C2.8-06 e C2.8-17. **Três parciais**: as duas atribuições de C2.8-05 e C8-03; a revisão é de membro inferior e não demonstra integralmente o contraste entre métricas objectivas e resultados subjectivos. **Erro bibliográfico corrigido na versão 0.4.78:** a entrada passou a identificar Sabina Manz, Romain Valette, Federica Damonte, Lucas Avanci Gaudio, Jose Gonzalez-Vargas, Massimo Sartori, Strahinja Dosen e Johan Rietman, bem como o título e os dados editoriais do PDF. O âmbito de membro inferior ficou explicitado nas passagens do manuscrito. |
 | Alluhydan et al. (2023), *Functionality and comfort design of lower-limb prosthetics: A review*<br>`Functionality and Comfort Design of Lower-Limb Prosthetics  A Review.pdf` | Página 1, resumo: “Socket design principles, focusing on comfort and proper load distribution, were found to be essential”. | **Três directos**: C2.8-11, C2.8-18 e C8-04. **Um parcial**: C2.8-07; a fonte confirma ajuste e conforto, mas não toda a síntese sobre abandono e fragilidade metodológica da personalização. |
 | Baldock et al. (2023), *Adjustable prosthetic sockets: A systematic review of industrial and research design characteristics and their justifications*<br>`Baldock et al - 2023  - Adjustable prosthetic sockets - A systematic review of industrial and research design characteristics and their justifications.pdf` | Página 1, resumo: “with a poorly fitting prosthetic socket linked to prosthesis abandonment and reduced community participation.” | **Dois directos**: C2.8-18 e C8-04. **Um parcial**: C2.8-07; o artigo sustenta ajuste, pressão, conforto e abandono, mas não a fragilidade geral da personalização descrita no período. |
 | Richardson e Dillon (2017), *User experience of transtibial prosthetic liners: A systematic review*<br>`richardson-dillon-2016-user-experience-of-transtibial-prosthetic-liners-a-systematic-review.pdf` | Página 1/6, resumo: “Literature is difficult to interpret and use given the variety of interventions, outcome measures and method designs.” | **Três directos**: C2.8-14, C2.8-18 e C8-04. **Três parciais**: C2.8-07, C2.8-13 e C2.8-21. **Dois incompatíveis**: C2.8-08 e C8-07; a revisão de revestimentos não sustenta um fluxo medição–decisão–validação nem insuficiência de participação e *co-design*. |
@@ -3601,9 +3624,9 @@ Nas tabelas seguintes, «página» designa a página do ficheiro PDF. Quando exi
 
 #### 7.5.6 Correcções prioritárias decorrentes deste confronto
 
-Os onze pares incompatíveis exigem retirar a fonte da afirmação, acrescentar uma fonte adequada ou reescrever o texto como interpretação do projecto: White e Mosca em C2.2-13; Lei et al. em C2.3-14 e na linha 1451; Wiberg et al. em C2.3-05; Çıklaçandır et al. em C2.5-06; Choudhury et al. em C2.6-02; Chadwell et al. e Samuelsson et al. na linha 1820; Hafner e Sawers e Richardson e Dillon na linha 1825; e Richardson e Dillon em C2.8-08.
+Dez pares incompatíveis continuam a exigir a retirada da fonte, a introdução de uma fonte adequada ou a reescrita do texto como interpretação do projecto: White e Mosca em C2.2-13; Lei et al. em C2.3-14 e na linha 1451; Wiberg et al. em C2.3-05; Choudhury et al. em C2.6-02; Chadwell et al. e Samuelsson et al. na linha 1820; Hafner e Sawers e Richardson e Dillon na linha 1825; e Richardson e Dillon em C2.8-08. A incompatibilidade anteriormente registada para Çıklaçandır et al. em C2.5-06 foi corrigida na versão 0.4.87.
 
-As entradas e citações «Bradtmiller (2022)» devem ser corrigidas para Paul et al. (2022). A entrada de Manz et al. deve ser substituída pelos autores e pelo título identificados no PDF. As fontes centradas no membro inferior não devem ser apresentadas como evidência específica de membro superior: Windrich, Samuelsson, Manz, Alluhydan, Richardson e Dillon, Domínguez-Ruiz e Anderson só são transferíveis quando a propriedade discutida é claramente comum aos dois domínios e essa transferência é explicitada.
+As entradas e citações «Bradtmiller (2022)» foram corrigidas para Paul et al. (2022) na versão 0.4.77. A entrada de Manz et al. foi substituída pelos autores, título e dados editoriais identificados no PDF na versão 0.4.78, que também passou a explicitar o âmbito de membro inferior nas cinco atribuições. As restantes fontes centradas no membro inferior não devem ser apresentadas como evidência específica de membro superior: Windrich, Samuelsson, Alluhydan, Richardson e Dillon, Domínguez-Ruiz e Anderson só são transferíveis quando a propriedade discutida é claramente comum aos dois domínios e essa transferência é explicitada.
 
 ### 7.6 OCR de Guo e confronto de Franke e von Hippel
 
@@ -3629,11 +3652,11 @@ Esta actualização abrange apenas os dois pares solicitados. O PDF de Guo foi c
 
 **Metadados:** o PDF confirma visualmente o autor, o título e o ISSN `2959-6149`, mas não apresenta de forma inequívoca, nas cinco páginas, o nome da revista, o ano, o volume, o número e o intervalo de páginas registados na bibliografia. Esses elementos bibliográficos devem ser confirmados numa fonte editorial independente antes da revisão final.
 
-#### 7.6.2 Franke e von Hippel (versão de trabalho de 2002; publicação de 2003)
+#### 7.6.2 Franke e von Hippel (publicação de 2003; versão de autor com folha de rosto de 2002)
 
 **Texto exacto da dissertação — linha 641:**
 
-> Uma linha teórica relevante é a dos “toolkits for user innovation”, que entende os sistemas configuráveis como ferramentas coordenadas e acessíveis que transferem parte do trabalho de design relacionado com as necessidades dos utilizadores, enquanto fabricantes e especialistas retêm tarefas de resolução e de produção. A distinção entre configuradores, centrados em seleccionar opções, e toolkits, centrados em desenhar num espaço de projecto delimitado, é central: a participação pode variar entre escolher alternativas predefinidas e criar configurações num ambiente com regras e resposta visual (Franke & Hippel, 2002; Hippel & Katz, 2002).
+> Uma linha teórica relevante é a dos “toolkits for user innovation”, que entende os sistemas configuráveis como ferramentas coordenadas e acessíveis que transferem parte do trabalho de design relacionado com as necessidades dos utilizadores, enquanto fabricantes e especialistas retêm tarefas de resolução e de produção. A distinção entre configuradores, centrados em seleccionar opções, e toolkits, centrados em desenhar num espaço de projecto delimitado, é central: a participação pode variar entre escolher alternativas predefinidas e criar configurações num espaço de projecto delimitado, com regras, simulação e avaliação iterativa dos resultados (Franke & von Hippel, 2003; von Hippel & Katz, 2002).
 
 **Título, autoria e ficheiro:** Nikolaus Franke e Eric von Hippel, *Satisfying Heterogeneous User Needs via Innovation Toolkits: The Case of Apache Security Software*; `projecto_completo_bibliografia/franke_von_hippel_2002_innovation_toolkits_apache.pdf`.
 
@@ -3642,29 +3665,46 @@ Esta actualização abrange apenas os dois pares solicitados. O PDF de Guo foi c
 - página impressa 6/página 8 do PDF, final da discussão sobre análise conjunta e configuradores: “the user only (passively) chooses from options the manufacturer provides”;
 - página impressa 8/página 10 do PDF, início da Secção 2.3: “toolkits for innovation” to assist them in designing their own new custom products.
 
-**Avaliação:** **um par confrontado; suporte directo no núcleo da afirmação e parcial na formulação completa**. A fonte distingue explicitamente a selecção passiva de opções predefinidas da utilização de *toolkits* que permitem aos utilizadores conceber produtos personalizados. Nas páginas impressas 9 e 11, desenvolve também a repartição de conhecimento e de trabalho entre fabricantes e utilizadores, a experimentação iterativa, a facilidade de utilização, as bibliotecas de módulos e as restrições do processo produtivo. Sustenta, assim, a distinção conceptual central e a transferência de parte do trabalho de concepção. Contudo, não formula explicitamente a «resposta visual» como requisito; esta componente deve permanecer apoiada por Hippel e Katz (2002) ou ser reformulada. O caso empírico é o *software* de segurança Apache, pelo que a transferência para configuradores de dispositivos médicos ou protésicos deve ser apresentada como enquadramento conceptual, não como validação nesse domínio.
+**Avaliação:** **um par confrontado; suporte directo no núcleo da afirmação e apoio complementar na formulação completa**. A fonte distingue explicitamente a selecção passiva de opções predefinidas da utilização de *toolkits* que permitem aos utilizadores conceber produtos personalizados. Nas páginas impressas 9 e 11, desenvolve também a repartição de conhecimento e de trabalho entre fabricantes e utilizadores, a experimentação iterativa, a facilidade de utilização, as bibliotecas de módulos e as restrições do processo produtivo. Sustenta, assim, a distinção conceptual central e a transferência de parte do trabalho de concepção. A expressão não demonstrada «resposta visual» foi substituída, na versão 0.4.79, por «simulação e avaliação iterativa dos resultados», formulação explicitamente sustentada por von Hippel e Katz (2002) e coerente com a experimentação iterativa descrita por Franke e von Hippel (2003). O caso empírico continua a ser o *software* de segurança Apache, pelo que a transferência para configuradores de dispositivos médicos ou protésicos é apresentada como enquadramento conceptual, não como validação nesse domínio.
 
-**Discrepância bibliográfica:** a folha de rosto da versão de autor identifica um *working paper* de Março de 2002 e informa que uma versão posterior foi publicada em 2003. A capa do repositório identifica a publicação em *Research Policy*, volume 32, páginas 1199–1215, DOI `10.1016/S0048-7333(03)00049-0`, em 2003. A citação corrente «Franke & Hippel, 2002» omite ainda a partícula do apelido de Eric von Hippel. Se a dissertação citar a publicação com DOI, deve usar «Franke & von Hippel, 2003» e completar a entrada bibliográfica; se pretender citar o texto de 2002, deve identificá-lo inequivocamente como versão de trabalho e não associar-lhe os dados da publicação de 2003.
+**Discrepância bibliográfica corrigida na versão 0.4.79:** a folha de rosto da versão de autor identifica um *working paper* de Março de 2002 e informa que uma versão posterior foi publicada em 2003. A capa do repositório e a página editorial identificam a publicação em *Research Policy*, 32(7), 1199–1215, DOI `10.1016/S0048-7333(03)00049-0`, em 2003. O manuscrito passou a citar inequivocamente essa publicação como «Franke & von Hippel, 2003», conservando a partícula do apelido e sem combinar o ano do *working paper* com os dados editoriais da publicação.
+
+#### 7.6.3 Krahe et al. (2020)
+
+**Texto exacto da dissertação — C2.6-03, linha 601, versão 0.4.81:**
+
+> Dentro deste campo, a aprendizagem automática designa as abordagens em que o sistema aprende a partir de dados, em vez de depender exclusivamente de regras explicitamente escritas. A aprendizagem profunda corresponde a um subconjunto desta família e baseia-se em redes neuronais artificiais com múltiplas camadas, particularmente adequadas para tratar dados complexos, como imagens e texto. Já a IA generativa refere-se a modelos capazes de produzir novos conteúdos — por exemplo, texto, imagens, composições formais ou variantes de projecto — com base nos padrões que aprenderam. Esta distinção é particularmente importante para o *design*, pois diferentes tipos de IA apoiam diferentes tarefas: algumas ajudam a analisar informação, outras a prever resultados, outras a optimizar soluções e outras ainda a gerar alternativas (Khanolkar et al., 2023; Li et al., 2021). No desenvolvimento de produtos, por exemplo, estas técnicas podem identificar padrões em modelos tridimensionais e gerar novas variantes de forma a partir de requisitos previamente definidos (Krahe et al., 2020).
+
+**Título, autoria e ficheiro:** Carmen Krahe, Antonio Bräunche, Alexander Jacob, Nicole Stricker e Gisela Lanza, *Deep Learning for Automated Product Design*; `projecto_completo_bibliografia/krahe_et_al_2020_deep_learning_automated_product_design.pdf`.
+
+**Zona do *paper* e excertos exactos:**
+
+- página impressa 3/página 1 do PDF, resumo: “identify patterns and extract knowledge out of complex data sets”;
+- página impressa 3/página 1 do PDF, resumo: “automatically generate new latent object representations fulfilling distinct product feature specifications”.
+
+**Avaliação:** **um par confrontado; suporte directo após delimitação da afirmação**. O artigo demonstra a utilização de aprendizagem profunda para identificar padrões em dados tridimensionais e descreve a geração de novas representações de objectos condicionadas por classe, características e dimensões. Não constitui, isoladamente, uma fonte geral para toda a taxonomia introdutória de aprendizagem automática, aprendizagem profunda e IA generativa nem para a enumeração de todos os tipos de conteúdo e tarefas de *design*. Na versão 0.4.81, a citação foi por isso retirada do final da explicação geral e associada especificamente ao exemplo de desenvolvimento de produtos que o artigo sustenta.
+
+**Discrepância bibliográfica resolvida:** o PDF editorial identifica *Procedia CIRP*, volume 91, páginas 3–8, e o DOI `10.1016/j.procir.2020.01.135`. O identificador `10.5445/IR/1000127884` remete para o depósito institucional do KIT e não substitui o DOI editorial. A bibliografia canónica usa o DOI editorial; a tabela histórica deste relatório foi actualizada para evitar que o identificador do depósito continue a ser apresentado como DOI do artigo.
 
 ## 8. Melhorias prioritárias resultantes do lote
 
-1. **Corrigir a fonte da Figura 2.2.** O *paper* citado é incompatível com o fluxograma e com a amostra `n=224`. Østlie et al. (2012) é um candidato forte, mas deve ser confrontado directamente antes da alteração.
+1. **Correcção aplicada na versão 0.4.88: fonte da Figura 2.2.** O fluxograma foi confrontado directamente com a Figura 1 de Østlie et al. (2012), tendo sido corrigida a atribuição incompatível a Biddiss et al. (2007). A legenda passou a indicar «Adaptado de», o texto explicativo foi limitado à amostra e aos resultados do estudo e o PDF integral foi colocado em `projecto_completo_bibliografia/`.
 2. **Rever a proveniência da Figura 1.1.** A montagem não foi reproduzida do artigo de Manero et al.; cada painel necessita de fonte própria.
-3. **Corrigir a entrada bibliográfica de Brack e Amalu.** O PDF identifica volume 23 e DOI `10.1016/j.jor.2020.12.009`, não os dados actualmente presentes na bibliografia.
+3. **Correcção aplicada na versão 0.4.76: entrada bibliográfica de Brack e Amalu.** A bibliografia identifica agora Robbie Brack, volume 23, páginas 88–96 e DOI `10.1016/j.jor.2020.12.009`, em conformidade com o PDF editorial.
 4. **Delimitar a citação de Smail et al.** A fonte sustenta abandono, conforto, peso, função e controlo, mas não a comparação final sobre participação e qualidade de vida.
 5. **Corrigir o ficheiro local de Clarkson e Coleman.** `material/prosthetics-user/Inclusive design (2010).pdf` contém um trabalho diferente, de Erin White (2019); o artigo correcto foi apenas consultado temporariamente através do Mendeley.
 6. **Rever a adaptação de Kaygan e Kaygan.** A Tabela 2.1 omite o papel *business partners* e usa «intervenientes do seu sector» sem correspondência clara numa linha da tabela.
 7. **Delimitar a citação de Oldfrey et al.** A fonte sustenta lacunas de evidência e colaboração, mas não todo o conjunto de desafios reunido no período da linha 429.
-8. **Corrigir a atribuição da Figura 2.3.** O fluxograma não aparece no artigo de Chainando et al.; corresponde à Figura 1 de Oldfrey et al. (2024) e foi traduzido e recolorido.
-9. **Corrigir a autoria da entrada de Chainando et al.** Os coautores indicados na bibliografia não correspondem aos autores apresentados no PDF local.
-10. **Retirar Lim et al. da afirmação sobre FEM e geração algorítmica.** O estudo sustenta a parametrização independente e a comparação com escala uniforme, mas não utiliza FEM nem algoritmos generativos.
+8. **Correcção aplicada na versão 0.4.82: atribuição da Figura 2.3.** O fluxograma está agora identificado como adaptação da Figura 1 de Oldfrey et al. (2024, p. 575); a legenda explicita os fluxos tradicional, CAD/CAM e de fabrico aditivo.
+9. **Correcção aplicada na versão 0.4.82: autoria da entrada de Chainando et al.** A bibliografia apresenta agora os 13 autores do PDF, o número de artigo e o DOI editorial.
+10. **Correcção aplicada na versão 0.4.83: delimitação de Lim et al. e integração de Lei et al. e Xu e Qin.** Lim sustenta agora apenas a parametrização independente; Lei sustenta optimização topológica, FEM e custo; Xu e Qin sustenta o *design* generativo aplicado a próteses impressas em 3D.
 11. **Conservar a atribuição da Figura 2.4 a Manero et al.** A imagem corresponde directamente à Figura 5 do artigo.
-12. **Obter os oito *papers* ainda sem texto integral e confrontar os PDFs já disponíveis.** Continuam por validar 116 pares afirmação–fonte: 94 já dispõem de texto integral local e 22 dependem das oito fontes em falta. Deve ainda eliminar-se a duplicação de Shah e Robinson na linha 419 e restringir-se Chapman et al. na linha 425 à transparência do processo de selecção.
-13. **Uniformizar o ano de Smail et al.** O PDF e o Mendeley indicam a edição de 2021; o manuscrito usa 2020, correspondente à disponibilização antecipada e ao ano incorporado no DOI.
-14. **Delimitar a caracterização do ecossistema aberto na linha 501.** Manero et al. e Wendo et al. sustentam partilha de ficheiros, instruções e produção comunitária, mas não demonstram conjuntamente a disponibilidade geral de listas de componentes nem a oposição sistemática aos canais da indústria médica.
-15. **Rever a descrição do catálogo e-NABLE.** Wendo et al. confirma as categorias de mãos e braços e distingue accionamento pelo punho e pelo cotovelo; não sustenta literalmente toda a enumeração anatómica, a exigência de palma preservada ou a afirmação superlativa «exemplo mais influente».
-16. **Precisar «adequação» na síntese de Atallah et al.** A revisão reporta ajuste, conforto, facilidade de utilização, satisfação e desempenho funcional como resultados distintos; a formulação genérica pode ocultar essa distinção.
-17. **Delimitar as citações de Chainando et al. na Secção 2.5.** A fonte sustenta os métodos de captura e a utilização de digitalização e impressão, mas não demonstra toda a cadeia metodológica nem a necessidade de validação longitudinal.
+12. **Obter os oito *papers* ainda sem texto integral e confrontar os PDFs já disponíveis.** Continuam por validar 114 pares afirmação–fonte: 92 já dispõem de texto integral local e 22 dependem das oito fontes em falta. Deve ainda eliminar-se a duplicação de Shah e Robinson na linha 419 e restringir-se Chapman et al. na linha 425 à transparência do processo de selecção.
+13. **Correcção aplicada na versão 0.4.75: ano de Smail et al. uniformizado.** O PDF e o Mendeley indicam a edição de 2021; as citações e a bibliografia do manuscrito foram actualizadas para esse ano. O ano de 2020 permanece apenas no próprio DOI, por corresponder à disponibilização antecipada.
+14. **Correcção aplicada na versão 0.4.84: delimitação do ecossistema aberto na linha 501.** Foram preservadas a partilha de ficheiros editáveis ou imprimíveis, a reprodução distribuída e a documentação comunitária, como instruções de fabrico e montagem; foram retiradas a generalização sobre listas de componentes e a oposição não demonstrada aos canais da indústria médica.
+15. **Correcção aplicada na versão 0.4.85: descrição do catálogo e-NABLE.** A redacção passou a reflectir as categorias de mão e braço e os mecanismos de accionamento examinados por Wendo et al.; foram retiradas a enumeração anatómica não demonstrada, a exigência de palma preservada, a restrição a crianças e a afirmação superlativa «exemplo mais influente».
+16. **Correcção aplicada na versão 0.4.86: precisão da síntese de Atallah et al.** «Adequação» foi substituído pelos resultados clínicos concretos dos estudos sobre o membro superior; a redacção distingue melhorias relatadas de aspectos avaliados e conserva as limitações metodológicas da revisão.
+17. **Correcção aplicada na versão 0.4.87: delimitação de Chainando et al. na Secção 2.5.** A fonte passou a sustentar apenas os métodos de captura e a utilização de digitalização, personalização e impressão; a cadeia metodológica foi assumida como organização do projecto e a afirmação incompatível sobre adaptação automática de modelos CAD foi substituída pelos resultados comparativos de Çıklaçandır et al.
 18. **Delimitar Squibb et al. ao sistema de digitalização avaliado.** O artigo demonstra captura de alta precisão e criação de malhas, não o fluxo integral até ao fabrico nem a correspondência anatómica automática.
 19. **Corrigir os metadados de Ibrahim et al. e Sunderland et al.** A autoria das entradas não coincide com os PDFs; Sunderland et al. deve ainda ser identificado como *preprint* não certificado por revisão por pares.
 20. **Substituir a citação «Kannenberg et al. (2024)» por Dickinson et al. (2024).** Kannenberg é o editor, não o autor; o estudo não compara directamente processos manuais e digitais nem realiza FEA.
@@ -3678,7 +3718,7 @@ Esta actualização abrange apenas os dois pares solicitados. O PDF de Guo foi c
 28. **Delimitar Zhu e Zhong ao cenário efectivamente testado.** A fonte sustenta a passagem de parâmetros para ficheiros CAD e os valores de correlação, mas não autoriza uma generalização ampla para movimento humano real; deve ainda distinguir-se a versão citada de 2022 do PDF actualizado em 2025.
 29. **Corrigir a autoria da entrada de Seregni et al.** O conjunto de coautores da bibliografia não corresponde ao PDF; a fonte sustenta *virtual coaching* e usabilidade, não toda a enumeração funcional da linha 697.
 30. **Retirar Akasaka et al. da afirmação sobre conversão de configuradores.** O artigo trata participação e motivação em *living labs*, não dificuldades comerciais de adopção de configuradores de personalização em massa.
-31. **Corrigir a proveniência da Figura 2.8.** O artigo de Chainando et al. não apresenta níveis TRL nem as cinco categorias do gráfico; a figura necessita da fonte do conjunto de dados e da explicação do método de classificação.
+31. **Correcção aplicada na versão 0.4.82: proveniência da Figura 2.8.** O gráfico está agora identificado como adaptação da Figura 10 de Oldfrey et al. (2024, p. 582); as categorias foram traduzidas para `MI` e `MS`, sem alteração dos dados.
 32. **Corrigir a entrada bibliográfica de Marinelli et al.** O PDF foi publicado em 2023 e apresenta um conjunto de coautores diferente; a fonte sustenta a estagnação do controlo e a perspectiva integrada utilizador–dispositivo, mas não toda a enumeração das linhas 747 e 759.
 33. **Confrontar Baumann e Maria (2023).** O PDF correcto foi entretanto localizado; o artigo de Baumann et al. (2020), anteriormente associado por engano, não deve ser usado para validar os quatro pares citados.
 34. **Corrigir Walker et al.** O PDF agora localizado confirma Walker, Goddard, Stephens-Fripp e Alici, edição de 2020 e DOI `10.1007/s11948-019-00168-2`; a bibliografia indica Walker, Paras, Boonstra e Murrup-Stewart (2019). A fonte sustenta directamente os requisitos citados na linha 912.
@@ -3689,7 +3729,7 @@ Esta actualização abrange apenas os dois pares solicitados. O PDF de Guo foi c
 39. **Arquivar a fonte oficial do *Double Diamond*.** A referência do Design Council é institucional e não foi localizada como documento estável nas pastas do projecto ou no Mendeley.
 40. **Corrigir integralmente Henao et al.** A entrada bibliográfica combina o título do artigo de Sofía C. Henao, Cuartas-Escobar, Salazar-Salgado e Posada-Borrero com autores e DOI de outro documento. O PDF correcto usa DOI `10.1016/j.jht.2025.04.006`.
 41. **Corrigir a autoria de Herneth et al.** O PDF identifica Christopher Herneth, Amartya Ganguly e Sami Haddadin, não Hiesl, Stief e Farago.
-42. **Retirar as três citações da afirmação metodológica da linha 916 ou reescrevê-la como decisão do projecto.** Brack sustenta requisitos gerais; Herneth quantifica cinemática e cinética; nenhum dos dois sustenta a regra de verificar cada condição contra a geometria gerada, e Jones permanece sem texto integral.
+42. **Correcção aplicada na versão 0.4.80: afirmação metodológica da antiga linha 916 assumida como decisão do projecto.** As citações de Brack, Herneth e Jones foram retiradas da regra de verificação geométrica; Jones foi confrontado e deslocado para a discussão compatível da Secção 2.8.
 43. **Reformular a Tabela 4.2 como proposta da investigação.** Moreo e Romero não estabelecem conjuntos mínimos por nível de amputação. A legenda actual — «proposto pela literatura» — não está demonstrada pelas fontes citadas.
 44. **Não atribuir a Moreo e Romero a taxonomia em quatro tipos ou camadas.** As fontes sustentam parâmetros medidos, intermédios e relações geométricas, mas não as categorias «primários, derivados, funcionais e construtivos» nem a arquitectura exacta das linhas 1033 e 1106.
 45. **Delimitar Chatzioglou e Rodríguez-Vega à antropometria.** Ambos sustentam medidas e variação morfológica; Rodríguez-Vega não trata próteses nem modelação paramétrica, e Chatzioglou não implementa um modelo digital alimentado directamente pelas medidas.
@@ -3699,7 +3739,7 @@ Esta actualização abrange apenas os dois pares solicitados. O PDF de Guo foi c
 49. **Distinguir as duas arquitecturas *web*.** Nilsiam e Pearce demonstram um configurador PHP com OpenSCAD executado no servidor; Brooks demonstra uma implementação recente do motor em WebAssembly no navegador. A formulação actual aproxima indevidamente os dois sistemas.
 50. **Precisar o alcance de Schöfer e Seibel.** O estudo usa CadQuery e GPT-4o, não OpenSCAD, e afirma explicitamente que a validação foi manual e que alterações não funcionais não eram detectadas automaticamente.
 51. **Arquivar as fontes técnicas do OpenSCAD.** A página oficial, o `README` do repositório, o manual comunitário e o repositório OpenSCAD Web são mutáveis; guardar versões datadas asseguraria rastreabilidade para as linhas 1051, 1055 e 1057.
-52. **Confrontar os seis *papers* ainda pendentes do Capítulo 4 e obter o capítulo de Ghali.** Guo foi confrontado com suporte parcial; permanecem nove pares de *papers* em Peerdeman, Jones, Herbst, Trautmann, ELhadad e Romani, todos com texto integral local, e uma ocorrência do capítulo de Ghali sem texto integral.
+52. **Confrontar os cinco *papers* ainda pendentes do Capítulo 4 e obter o capítulo de Ghali.** Guo e Jones foram confrontados; permanecem oito pares de *papers* em Peerdeman, Herbst, Trautmann, ELhadad e Romani, todos com texto integral local, e uma ocorrência do capítulo de Ghali sem texto integral.
 53. **Acrescentar notas de fonte às Tabelas 4.1–4.3 ou declará-las sínteses do autor.** As tabelas não possuem atribuição directa. A Tabela 4.2 contém a generalização mais problemática; a Tabela 4.3 depende de dois *papers* ainda não confrontados.
 54. **Confrontar os três *papers* pendentes usados no Capítulo 5.** Os PDFs de Peixoto, Bai e Quintero foram entretanto localizados; os dez pares associados continuam por verificar.
 55. **Verificar com especial cuidado Bai e Quintero antes de os manter.** Os títulos identificam próteses de membro inferior e, no caso de Quintero, uma interface clínica de joelho–tornozelo. Não está demonstrada a transferência para papéis, permissões e controlo de acesso numa plataforma de mão protésica.
@@ -3736,18 +3776,18 @@ Esta actualização abrange apenas os dois pares solicitados. O PDF de Guo foi c
 86. **Resolver a divergência entre o estado histórico do Anexo C e o *checkout* actual.** O pacote actual não contém Cyborg Beast nem `models/active/paraglider/`; o invólucro Paraglider localizado está em `models/inactive/`. O anexo deve apontar para um arquivo ou commit verificável de 14 de Julho de 2026.
 87. **Completar as quatro atribuições técnicas do Anexo C.** Conservar `daprice` com URL/licença, identificar MakerBlock/e-NABLE e a licença Cyborg, citar Mendenhall com o repositório/revisão exactos e atribuir Phoenix a Stephen Robert Davies, Drew Murray e Team UnLimbited conforme o cabeçalho.
 88. **Conservar Hsueh e Martins nas formulações actuais.** Os quatro pares do Anexo D são directamente sustentados e bem delimitados; não generalizar ductilidade, fadiga ou deformação térmica para todos os graus, orientações e parâmetros de PLA/PETG.
-89. **Corrigir «Bradtmiller (2022)» para Paul et al. (2022).** O PDF identifica Gunther Paul como primeiro autor e Bruce Bradtmiller como quinto; a forma actual viola a correspondência autor–ano.
-90. **Resolver os onze pares incompatíveis do lote de 16 de Julho.** A lista integral encontra-se na Secção 7.5.6; a presença local do PDF não valida essas afirmações e não deve ocultar a necessidade de substituir a fonte ou reformular o texto.
-91. **Corrigir integralmente a entrada de Manz et al. (2022).** O PDF usa *A review of user needs to drive the development of lower limb prostheses* e identifica Manz, Valette, Damonte, Avanci Gaudio, Gonzalez-Vargas, Sartori, Dosen e Rietman; a bibliografia apresenta outro título e outro conjunto de autores.
-92. **Corrigir Franke e von Hippel e explicitar a versão citada.** A citação deve conservar a partícula «von». A versão local é um *working paper* de 2002, mas a capa do repositório associa o DOI e os dados editoriais à publicação de 2003; não devem ser combinados o ano da versão de trabalho e os dados da versão publicada.
+89. **Correcção aplicada na versão 0.4.77: «Bradtmiller (2022)» passou a Paul et al. (2022).** O PDF identifica Gunther Paul como primeiro autor e Bruce Bradtmiller como quinto; foi reposta a correspondência autor–ano.
+90. **Resolver os dez pares incompatíveis remanescentes do lote de 16 de Julho.** A incompatibilidade de Çıklaçandır et al. em C2.5-06 foi corrigida na versão 0.4.87; a lista actualizada encontra-se na Secção 7.5.6. A presença local do PDF não valida as restantes afirmações e não deve ocultar a necessidade de substituir a fonte ou reformular o texto.
+91. **Correcção aplicada na versão 0.4.78: entrada de Manz et al. (2022) integralmente revista.** A bibliografia passou a usar *A review of user needs to drive the development of lower limb prostheses*, os oito autores identificados no PDF, o periódico, o volume, o artigo e o DOI; as passagens passaram também a delimitar a transferência entre membro inferior e membro superior.
+92. **Correcção aplicada na versão 0.4.79: Franke e von Hippel e versão citada.** A citação passou a conservar a partícula «von» e a identificar a publicação de 2003 em *Research Policy*; as três citações e a entrada de von Hippel e Katz foram igualmente normalizadas e completadas.
 93. **Usar Guo apenas como apoio complementar.** A fonte sustenta parcialmente necessidades multidimensionais, ajuste, desconforto, acesso e descontinuação temporária, mas combina membros superiores e inferiores, não cobre toda a enumeração da linha 908 e apresenta números amostrais internos sem reconciliação.
 
 ## 9. Limites e continuação
 
-Este relatório conclui a auditoria sequencial das citações e atribuições existentes no corpo dos Capítulos 1–9, entre as linhas 223 e 1882, e nos Anexos A–D, entre as linhas 2213 e 3734. O Capítulo 9 e o Anexo C não contêm citações autor–ano a *papers*. O fecho quantitativo actualizado abrange 256 conjuntos, 463 ocorrências e 156 referências únicas; 316 dos 432 pares relativos a *papers* foram confrontados directamente e 116 permanecem pendentes. Destes, 94 já têm texto integral local e 22 dependem dos oito *papers* ainda ausentes.
+Este relatório conclui a auditoria sequencial das citações e atribuições existentes no corpo dos Capítulos 1–9, entre as linhas 223 e 1882, e nos Anexos A–D, entre as linhas 2213 e 3734. O Capítulo 9 e o Anexo C não contêm citações autor–ano a *papers*. O fecho quantitativo actualizado abrange 256 conjuntos, 464 ocorrências e 158 referências únicas; 319 dos 433 pares relativos a *papers* foram confrontados directamente e 114 permanecem pendentes. Destes, 92 já têm texto integral local e 22 dependem dos oito *papers* ainda ausentes. A substituição de Biddiss et al. por Østlie et al. na atribuição da Figura 2.2 não altera o número de pares, mas aumenta para 140 o número de *papers* únicos citados e para 132 o número de textos integrais disponíveis.
 
-«Cobertura concluída» não significa que todas as referências estejam substantivamente validadas. Permanecem por obter os oito textos integrais registados em `projecto_completo_bibliografia/pdfs_em_falta.md`, por confrontar 94 pares que já têm PDF local e por resolver os onze pares incompatíveis identificados na Secção 7.5.6, além das fichas de Gordon (2015), dos metadados e ficheiros incorrectos e das fontes normativas, institucionais e técnicas fora do âmbito texto–*paper*. Referências que aparecem apenas na bibliografia geral, sem ocorrência no corpo ou nos anexos, não foram auditadas. As dez atribuições abreviadas e Zhou et al. no Anexo A foram rastreadas fora dos totais formais para não alterar retroactivamente a convenção de contagem; a Secção C.11 também não foi transformada em identidades que o manuscrito não fornece.
+«Cobertura concluída» não significa que todas as referências estejam substantivamente validadas. Permanecem por obter os oito textos integrais registados em `projecto_completo_bibliografia/pdfs_em_falta.md`, por confrontar 92 pares que já têm PDF local e por resolver os dez pares incompatíveis identificados na Secção 7.5.6, além das fichas de Gordon (2015), dos metadados e ficheiros incorrectos e das fontes normativas, institucionais e técnicas fora do âmbito texto–*paper*. Referências que aparecem apenas na bibliografia geral, sem ocorrência no corpo ou nos anexos, não foram auditadas. As dez atribuições abreviadas e Zhou et al. no Anexo A foram rastreadas fora dos totais formais para não alterar retroactivamente a convenção de contagem; a Secção C.11 também não foi transformada em identidades que o manuscrito não fornece.
 
-A autenticação da aplicação Mendeley MCP foi renovada em 16 de Julho de 2026. As pesquisas finais de Alili, Colombo, Silva, Romero e das fontes novas do Anexo A foram repetidas nos 514 registos remotos devolvidos pela API. A repetição confirmou apenas o registo de Romero com anexo. Os textos integrais de Fink e Diamond, Segura et al., Shah e Robinson, Wilke et al. e Millet et al. foram obtidos posteriormente por via local; Chapman et al. foi confrontado através de uma extracção textual integral do PDF editorial de acesso aberto. O lote local de 16 de Julho acrescentou mais trinta fontes citadas e 116 confrontos. Em 17 de Julho, o OCR de Guo e a leitura de Franke e von Hippel acrescentaram dois confrontos, elevaram o total para 316 e reduziram os pendentes para 116.
+A autenticação da aplicação Mendeley MCP foi renovada em 16 de Julho de 2026. As pesquisas finais de Alili, Colombo, Silva, Romero e das fontes novas do Anexo A foram repetidas nos 514 registos remotos devolvidos pela API. A repetição confirmou apenas o registo de Romero com anexo. Os textos integrais de Fink e Diamond, Segura et al., Shah e Robinson, Wilke et al. e Millet et al. foram obtidos posteriormente por via local; Chapman et al. foi confrontado através de uma extracção textual integral do PDF editorial de acesso aberto. O lote local de 16 de Julho acrescentou mais trinta fontes citadas e 116 confrontos. Em 17 de Julho, o OCR de Guo e a leitura de Franke e von Hippel elevaram o total para 316; o confronto de Jones, Chadwell e Dyson elevou-o depois para 317. Em 19 de Julho, o confronto de Krahe et al. elevou o total para 318 e reduziu os pendentes para 114. Em 20 de Julho, a introdução e o confronto directo de Xu e Qin (2022) elevaram o total para 319 dos 433 pares, sem alterar os 114 pares pendentes.
 
-Os metadados bibliográficos de Fink e Diamond foram posteriormente sincronizados no Markdown e no DOCX, e o PDF canónico foi regenerado. A entrada bibliográfica de Segura et al. já estava correcta e não exigiu alteração. As lacunas detectadas nas entradas de Shah e Robinson, Wilke et al., Millet et al. e Chapman et al., bem como a autoria incorrecta «Bradtmiller (2022)», ficaram registadas neste relatório. A Secção 7.6 acrescenta a inconsistência amostral de Guo e a divergência entre a versão de trabalho de 2002 e a publicação de 2003 de Franke e von Hippel. O texto das passagens auditadas não foi alterado nesta actualização.
+Os metadados bibliográficos de Fink e Diamond foram posteriormente sincronizados no Markdown e no DOCX, e o PDF canónico foi regenerado. A entrada bibliográfica de Segura et al. já estava correcta e não exigiu alteração. As lacunas detectadas nas entradas de Shah e Robinson, Wilke et al., Millet et al. e Chapman et al. ficaram registadas neste relatório; a autoria incorrecta «Bradtmiller (2022)» foi corrigida para Paul et al. (2022) na versão 0.4.77, a entrada de Manz et al. e a delimitação do seu âmbito foram corrigidas na versão 0.4.78, as referências de Franke e von Hippel e de von Hippel e Katz foram corrigidas na versão 0.4.79, e a entrada e a localização argumentativa de Jones et al. foram corrigidas na versão 0.4.80. A Secção 7.6 conserva o registo da inconsistência amostral de Guo e da distinção entre a versão de trabalho de 2002 e a publicação de 2003 de Franke e von Hippel. Na versão 0.4.88, a fonte da Figura 2.2 foi corrigida após confronto directo com o PDF integral de Østlie et al. (2012); a verificação adicional do Lixo confirmou que os 167 PDFs da pasta eliminada `material/amputacao/bibliografia` conservam cópias binariamente idênticas no acervo actual e que nenhum DOI citado existe apenas no Lixo. O texto das restantes passagens auditadas não foi alterado nessa actualização histórica.

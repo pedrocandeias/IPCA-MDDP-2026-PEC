@@ -23,6 +23,26 @@ from lxml import etree
 W = "http://schemas.openxmlformats.org/wordprocessingml/2006/main"
 NS = {"w": W}
 
+TITLE_ALIASES = {
+    "A.4.4 Registo fiel do contexto da medição": (
+        "A.4.4 REGISTO DO CONTEXTO DA MEDIÇÃO",
+        "first",
+    ),
+    "B.1 Finalidade": ("B.1 FINALIDADE", "first"),
+    "C.4.3 Divisão proximal–distal": (
+        "A divisão entre segmentos proximais e distais é calculada",
+        "first",
+    ),
+    "C.4.4 Braçadeira, folgas e parâmetros fixos": (
+        "C.4.4 COMPONENTE DE FIXAÇÃO AO PUNHO, FOLGAS E PARÂMETROS FIXOS",
+        "first",
+    ),
+    "C.6.4 Dependência entre comprimento digital e escala global": (
+        "C.6.4 DEPENDÊNCIA ENTRE COMPRIMENTO DOS DEDOS E ESCALA GLOBAL",
+        "first",
+    ),
+}
+
 
 def qn(name: str) -> str:
     return f"{{{W}}}{name}"
@@ -34,12 +54,45 @@ def text_of(element: etree._Element) -> str:
 
 def normalise(text: str) -> str:
     text = unicodedata.normalize("NFKD", text).casefold()
-    return "".join(character for character in text if character.isalnum())
+    value = "".join(character for character in text if character.isalnum())
+    # O índice recebido usa pontualmente o Acordo Ortográfico de 1990,
+    # enquanto o corpo da dissertação conserva a grafia europeia anterior.
+    # Estas equivalências impedem que a diferença meramente ortográfica torne
+    # uma entrada impossível de localizar no PDF.
+    for modern, manuscript in (
+        ("projeto", "projecto"),
+        ("atividade", "actividade"),
+        ("respetiv", "respectiv"),
+        ("selecao", "seleccao"),
+        ("arquitet", "architect"),
+        ("otimiz", "optimiz"),
+        ("adocao", "adopcao"),
+        ("interacao", "interaccao"),
+        ("extracao", "extraccao"),
+        ("direta", "directa"),
+    ):
+        value = value.replace(modern, manuscript)
+    return value
 
 
 def is_index_style(style: str) -> bool:
     """Aceita os estilos locais em português e os estilos TOC do modelo IPCA."""
     return style.startswith("ndice") or style.startswith("TOC")
+
+
+def stable_identifier(title: str) -> str | None:
+    """Obtém o identificador estável de uma legenda ou título numerado."""
+    for pattern in (
+        r"((?:Tabela|Figura) [A-D0-9]+\.[0-9]+)\b",
+        r"(Capítulo [0-9]+)\b",
+        r"([A-D]\.[0-9]+(?:\.[0-9]+)*)\b",
+        r"([0-9]+(?:\.[0-9]+)+)\b",
+        r"(Lacuna [0-9]+)\b",
+    ):
+        match = re.search(pattern, title)
+        if match:
+            return normalise(match.group(1))
+    return None
 
 
 def update_table_49_widths(root: etree._Element) -> None:
@@ -114,6 +167,16 @@ def apply(document_xml: bytes, extracted_pdf: str, page_offset: int) -> tuple[by
     root = etree.fromstring(document_xml, parser)
     pages = extracted_pdf.split("\f")
     normalised_pages = [normalise(page) for page in pages]
+    body_titles: dict[str, list[str]] = {}
+    for paragraph in root.xpath("//w:body/w:p", namespaces=NS):
+        styles = paragraph.xpath("./w:pPr/w:pStyle/@w:val", namespaces=NS)
+        text_nodes = paragraph.xpath(".//w:t", namespaces=NS)
+        if styles and is_index_style(styles[0]) and len(text_nodes) == 2:
+            continue
+        title = text_of(paragraph)
+        identifier = stable_identifier(title)
+        if identifier:
+            body_titles.setdefault(identifier, []).append(title)
 
     updated = 0
     unmatched: list[str] = []
@@ -130,16 +193,51 @@ def apply(document_xml: bytes, extracted_pdf: str, page_offset: int) -> tuple[by
         if not old_page.isdigit() and old_page != "—":
             continue
         needle = normalise(title)
-        hits = [
-            physical_page for physical_page, page in enumerate(normalised_pages, start=1)
-            if physical_page > page_offset and needle and needle in page
-        ]
+        used_body_fallback = False
+        forced_selection: str | None = None
+        if title in TITLE_ALIASES:
+            alias, forced_selection = TITLE_ALIASES[title]
+            alias_needle = normalise(alias)
+            hits = [
+                physical_page
+                for physical_page, page in enumerate(normalised_pages, start=1)
+                if physical_page > page_offset and alias_needle in page
+            ]
+        else:
+            hits = [
+                physical_page
+                for physical_page, page in enumerate(normalised_pages, start=1)
+                if physical_page > page_offset and needle and needle in page
+            ]
+        if not hits:
+            identifier = stable_identifier(title)
+            candidates = body_titles.get(identifier or "", [])
+            for candidate in candidates:
+                candidate_needle = normalise(candidate)
+                candidate_hits = [
+                    physical_page
+                    for physical_page, page in enumerate(normalised_pages, start=1)
+                    if physical_page > page_offset
+                    and candidate_needle
+                    and candidate_needle in page
+                ]
+                if candidate_hits:
+                    hits = candidate_hits
+                    used_body_fallback = True
+                    break
         if not hits:
             # The title page and Chapter 1 heading are visually present but are
             # not emitted as searchable PDF text; their existing page 1 is valid.
             unmatched.append(title)
             continue
-        if style[0].startswith(("ndiceAnexo", "ndicedoAnexo")):
+        if forced_selection == "second":
+            if len(hits) < 2:
+                unmatched.append(title)
+                continue
+            physical_page = hits[1]
+        elif forced_selection == "first":
+            physical_page = min(hits)
+        elif style[0].startswith(("ndiceAnexo", "ndicedoAnexo")) and not used_body_fallback:
             # A local annex index repeats the title before the body heading.
             # The first hit is therefore the local index itself and the second
             # hit is the section heading whose page must be reported.

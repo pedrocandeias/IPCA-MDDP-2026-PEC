@@ -1,6 +1,6 @@
 Projecto completo
 
-Versão do documento: 0.4.74
+Versão do documento: 0.4.88
 
 ## INTEGRAÇÃO DO *DESIGN* E DA INTELIGÊNCIA ARTIFICIAL EM PROCESSOS PARAMÉTRICOS PARA O DESENVOLVIMENTO DE PRÓTESES DE MEMBROS SUPERIORES EM IMPRESSÃO 3D.
 
@@ -157,34 +157,34 @@ The personalisation of upper-limb prostheses remains constrained by high costs, 
 | Tabela 2.1 | Papéis dos profissionais de saúde no desenvolvimento de dispositivos médicos | 10 |
 | Tabela 2.2 | Elementos centrais na configuração da participação em sistemas configuráveis | 28 |
 | Tabela 2.3 | Correspondência entre lacunas do estado da arte, resposta da investigação e limites de avaliação | 35 |
-| Tabela 3.1 | Ciclos de *Research Through Design* documentados no desenvolvimento | 37 |
-| Tabela 3.2 | Correspondência entre perguntas, actividades, evidência e limites | 38 |
-| Tabela 3.3 | Métodos, unidades de análise, critérios e localização dos resultados | 41 |
-| Tabela 4.1 | Principais parâmetros antropométricos da mão e do membro superior relevantes para modelação paramétrica | 47 |
+| Tabela 3.1 | Ciclos de *Research Through Design* documentados no desenvolvimento | 38 |
+| Tabela 3.2 | Correspondência entre perguntas, actividades, evidência e limites | 40 |
+| Tabela 3.3 | Métodos, unidades de análise, critérios e localização dos resultados | 42 |
+| Tabela 4.1 | Principais parâmetros antropométricos da mão e do membro superior relevantes para modelação paramétrica | 48 |
 | Tabela 4.2 | Conjuntos mínimos de parâmetros por nível de amputação | 48 |
-| Tabela 4.3 | Métodos de recolha de dados antropométricos e suas características | 49 |
-| Tabela 4.4 | Funções e limites da base antropométrica na configuração | 50 |
-| Tabela 4.5 | Estrutura hierárquica dos parâmetros no modelo paramétrico | 51 |
-| Tabela 4.6 | Mapeamento entre parâmetros antropométricos e elementos do modelo | 53 |
-| Tabela 4.7 | Estrutura técnica em camadas de um modelo paramétrico em OpenSCAD para próteses personalizadas | 55 |
-| Tabela 4.8 | Síntese das relações implementadas e respectivas limitações | 56 |
-| Tabela 4.9 | Dicionário operacional dos parâmetros numéricos dos modelos avaliados | 58 |
-| Tabela 4.10 | Exemplo da transformação das medidas antropométricas em geometria digital no Flexy Beast | 60 |
-| Tabela 4.11 | Cronologia das principais iterações paramétricas | 61 |
-| Tabela 5.1 | Fluxo de dados e responsabilidades da plataforma | 66 |
+| Tabela 4.3 | Métodos de recolha de dados antropométricos e suas características | 50 |
+| Tabela 4.4 | Funções e limites da base antropométrica na configuração | 51 |
+| Tabela 4.5 | Estrutura hierárquica dos parâmetros no modelo paramétrico | 52 |
+| Tabela 4.6 | Mapeamento entre parâmetros antropométricos e elementos do modelo | 54 |
+| Tabela 4.7 | Estrutura técnica em camadas de um modelo paramétrico em OpenSCAD para próteses personalizadas | 56 |
+| Tabela 4.8 | Síntese das relações implementadas e respectivas limitações | 58 |
+| Tabela 4.9 | Dicionário operacional dos parâmetros numéricos dos modelos avaliados | 59 |
+| Tabela 4.10 | Exemplo da transformação das medidas antropométricas em geometria digital no Flexy Beast | 61 |
+| Tabela 4.11 | Cronologia das principais iterações paramétricas | 62 |
+| Tabela 5.1 | Fluxo de dados e responsabilidades da plataforma | 67 |
 | Tabela 5.2 | Componentes, estados e limites do protótipo examinado | 62 |
 | Tabela 5.3 | Modelos integrados na plataforma e respectiva avaliação | 68 |
-| Tabela 6.1 | Especificação técnica dos modelos de IA e da estrutura da sugestão paramétrica | 82 |
-| Tabela 6.2 | Distribuição de tarefas entre regras, IA e supervisão humana | 85 |
-| Tabela 8.1 | Evidência do funcionamento da plataforma no processo de projecto | 91 |
-| Tabela 8.2 | Projectos de preparação digital para impressão 3D com configuração analisada | 91 |
-| Tabela 8.3 | Inspecção computacional das malhas geradas para um perfil antropométrico de 8 anos | 95 |
-| Tabela 8.4 | Descrições submetidas nos cenários de avaliação da IA | 99 |
-| Tabela 8.5 | Síntese da avaliação das sugestões de IA | 100 |
-| Tabela 8.6 | Modelos e mecanismos de escala avaliados | 102 |
-| Tabela 8.7 | Factor de escala da maior dimensão da palma exportada relativamente à configuração de referência | 99 |
-| Tabela 8.8 | Discussão dos resultados face às lacunas seleccionadas do estado da arte | 101 |
-| Tabela 9.1 | Estado da resposta às perguntas de investigação aprovadas | 106 |
+| Tabela 6.1 | Especificação técnica dos modelos de IA e da estrutura da sugestão paramétrica | 83 |
+| Tabela 6.2 | Distribuição de tarefas entre regras, IA e supervisão humana | 86 |
+| Tabela 8.1 | Evidência do funcionamento da plataforma no processo de projecto | 92 |
+| Tabela 8.2 | Projectos de preparação digital para impressão 3D com configuração analisada | 94 |
+| Tabela 8.3 | Inspecção computacional das malhas geradas para um perfil antropométrico de 8 anos | 96 |
+| Tabela 8.4 | Descrições submetidas nos cenários de avaliação da IA | 100 |
+| Tabela 8.5 | Síntese da avaliação das sugestões de IA | 101 |
+| Tabela 8.6 | Modelos e mecanismos de escala avaliados | 103 |
+| Tabela 8.7 | Factor de escala da maior dimensão da palma exportada relativamente à configuração de referência | 103 |
+| Tabela 8.8 | Discussão dos resultados face às lacunas seleccionadas do estado da arte | 105 |
+| Tabela 9.1 | Estado da resposta às perguntas de investigação aprovadas | 107 |
 
 ## Lista de figuras
 
@@ -192,33 +192,33 @@ The personalisation of upper-limb prostheses remains constrained by high costs, 
 | --- | --- | --- |
 | Figura 1.1 | Exemplos de próteses e dispositivos associados ao fabrico aditivo em contexto protésico. | 1 |
 | Figura 2.1 | Exemplos de próteses de membro superior impressas em 3D, ilustrando diversidade tipológica e construtiva. | 6 |
-| Figura 2.2 | Utilização, rejeição primária e rejeição secundária de próteses do membro superior adquiridas. | 8 |
-| Figura 2.3 | Fluxo digital entre aquisição, CAD/CAM e fabrico aditivo em próteses e ortóteses. | 13 |
+| Figura 2.2 | Utilização continuada, rejeição primária e rejeição secundária de próteses numa amostra de adultos com amputação adquirida do membro superior. | 8 |
+| Figura 2.3 | Comparação entre os fluxos tradicional, CAD/CAM e de fabrico aditivo na produção de dispositivos protésicos. | 13 |
 | Figura 2.4 | Exemplo de configurador digital para personalização de uma prótese impressa em 3D. | 15 |
 | Figura 2.5 | Marcos anatómicos e medidas de referência da mão para fins de personalização. | 19 |
 | Figura 2.6 | Enquadramento de um fluxo de CAD apoiado por IA para desenvolvimento de produto. | 23 |
-| Figura 2.7 | Modelo de processo para configurar participação em ecossistemas de inovação e cocriação. | 27 |
-| Figura 2.8 | Distribuição dos estudos por nível de prontidão tecnológica (TRL) e categoria de aplicação. O gráfico distingue estudos sobre próteses em geral, próteses de membro inferior produzidas por impressão 3D (LL 3DP), próteses de membro inferior desenvolvidas com recurso a CAD/CAM (LL CAD/CAM), outras abordagens aplicadas ao membro inferior (*LL other*), próteses de membro superior produzidas por impressão 3D (UL 3DP) e outros casos não enquadrados nas categorias anteriores. | 31 |
-| Figura 3.1 | Processo interdisciplinar de desenvolvimento de uma prótese de membro superior impressa em 3D. | 38 |
-| Figura 3.2 | Exemplo de recolha dimensional para ajuste de prótese impressa em 3D. | 43 |
-| Figura 4.1 | Parâmetros antropométricos utilizados na modelação paramétrica de dedos protésicos. | 46 |
-| Figura 4.2 | Comparação entre o escalonamento uniforme e a modelação paramétrica de dedo protésico. | 49 |
-| Figura 4.3 | Relação entre modelo paramétrico digital, prototipagem e verificação de um dedo protésico. | 54 |
-| Figura 5.1 | Fluxo geral de produção personalizada de próteses a partir de plataforma *web* – Hand Fab | 64 |
-| Figura 5.2 | Painel de configuração dos perfis de utilizador na plataforma HandFab. | 65 |
+| Figura 2.7 | Modelo de processo para configurar participação em ecossistemas de inovação e cocriação. | 28 |
+| Figura 2.8 | Número de artigos por nível de prontidão tecnológica (TRL) e categoria de aplicação. O gráfico distingue próteses de membro inferior produzidas por impressão 3D (MI 3DP), próteses de membro inferior desenvolvidas com recurso a CAD/CAM (MI CAD/CAM), outras aplicações de membro inferior (MI outras), próteses de membro superior produzidas por impressão 3D (MS 3DP) e outras aplicações de membro superior (MS outras). | 32 |
+| Figura 3.1 | Processo interdisciplinar de desenvolvimento de uma prótese de membro superior impressa em 3D. | 39 |
+| Figura 3.2 | Exemplo de recolha dimensional para ajuste de prótese impressa em 3D. | 44 |
+| Figura 4.1 | Parâmetros antropométricos utilizados na modelação paramétrica de dedos protésicos. | 47 |
+| Figura 4.2 | Comparação entre o escalonamento uniforme e a modelação paramétrica de dedo protésico. | 50 |
+| Figura 4.3 | Relação entre modelo paramétrico digital, prototipagem e verificação de um dedo protésico. | 55 |
+| Figura 5.1 | Fluxo geral de produção personalizada de próteses a partir de plataforma *web* – Hand Fab | 65 |
+| Figura 5.2 | Painel de configuração dos perfis de utilizador na plataforma HandFab. | 66 |
 | Figura 5.3 | Arquitectura da plataforma e fronteiras entre navegador, servidor, serviço externo de IA e preparação do fabrico. | 67 |
-| Figura 5.4 | Sequência de dados e decisões desde o perfil ou descrição até à sugestão, confirmação, geração determinística e exportação. | 68 |
-| Figura 5.5 | Fluxo geral de produção personalizada de próteses a partir de digitalização, CAD adaptativo e fabrico aditivo. | 70 |
-| Figura 5.6 | Visualização do código OpenSCAD e da geometria correspondente na plataforma HandFab. | 73 |
-| Figura 5.7 | Ferramenta paramétrica para configuração de ajudas técnicas com variação de dimensões, materiais e peso. | 74 |
-| Figura 5.8 | Interface de selecção, configuração paramétrica e materiais da plataforma HandFab. | 73 |
-| Figura 6.1 | Relação entre desafios de compreensão das decisões e princípios de IA responsável. | 86 |
-| Figura 7.1 | Exemplo publicado de teste de uma prótese impressa em 3D com um utilizador; esta actividade não integrou a avaliação da presente dissertação. | 87 |
-| Figura 8.1 | Componentes impressos e estados preliminares de montagem: segmentos digitais articulados, palma e elementos separados. | 97 |
-| Figura 8.2 | Séries físicas de segmentos identificados pelos perfis de ensaio de 8, 15, 28 e 70 anos. | 97 |
-| Figura 8.3 | UnLimbited Phoenix configurada para o perfil de ensaio de 15 anos, apresentada em sete vistas da montagem física. | 97 |
-| Figura 8.4 | Tarefas funcionais usadas em avaliação de prótese personalizada de membro superior. | 98 |
-| Figura C.1 | Fluxo entre dados de entrada, mapa comum, regras específicas dos modelos e geometria exportável. Produção própria. | 147 |
+| Figura 5.4 | Sequência de dados e decisões desde o perfil ou descrição até à sugestão, confirmação, geração determinística e exportação. | 69 |
+| Figura 5.5 | Fluxo geral de produção personalizada de próteses a partir de digitalização, CAD adaptativo e fabrico aditivo. | 71 |
+| Figura 5.6 | Visualização do código OpenSCAD e da geometria correspondente na plataforma HandFab. | 74 |
+| Figura 5.7 | Ferramenta paramétrica para configuração de ajudas técnicas com variação de dimensões, materiais e peso. | 75 |
+| Figura 5.8 | Interface de selecção, configuração paramétrica e materiais da plataforma HandFab. | 76 |
+| Figura 6.1 | Relação entre desafios de compreensão das decisões e princípios de IA responsável. | 87 |
+| Figura 7.1 | Exemplo publicado de teste de uma prótese impressa em 3D com um utilizador; esta actividade não integrou a avaliação da presente dissertação. | 90 |
+| Figura 8.1 | Componentes impressos e estados preliminares de montagem: segmentos digitais articulados, palma e elementos separados. | 98 |
+| Figura 8.2 | Séries físicas de segmentos identificados pelos perfis de ensaio de 8, 15, 28 e 70 anos. | 98 |
+| Figura 8.3 | UnLimbited Phoenix configurada para o perfil de ensaio de 15 anos, apresentada em sete vistas da montagem física. | 98 |
+| Figura 8.4 | Tarefas funcionais usadas em avaliação de prótese personalizada de membro superior. | 99 |
+| Figura C.1 | Fluxo entre dados de entrada, mapa comum, regras específicas dos modelos e geometria exportável. Produção própria. | 149 |
 
 ## Capítulo 1 — Introdução
 
@@ -338,15 +338,15 @@ A reabilitação protésica desenvolve-se em fases — cuidados perioperatórios
 
 A avaliação objetiva do sucesso protésico continua a ser um desafio. Persistem a escassez de instrumentos padronizados e a heterogeneidade de métricas, o que dificulta a comparação entre estudos, dispositivos e estratégias de reabilitação. São utilizadas ferramentas de avaliação registadas pelo utilizador, centradas na funcionalidade percebida, na satisfação e na qualidade de vida, bem como testes baseados em desempenho, orientados para a destreza, a velocidade de execução e o controlo funcional em tarefas estruturadas (Segura et al., 2024; Soyer et al., 2016).
 
-Apesar da evolução tecnológica, as taxas de abandono permanecem elevadas. A literatura associa recorrentemente a rejeição protésica a problemas de conforto, peso, funcionalidade insuficiente, manutenção exigente e controlo pouco intuitivo. Esta persistência indica que a melhoria tecnológica isolada não garante adopção sustentada. Ainda assim, quando o dispositivo está adequadamente prescrito, ajustado e acompanhado, a utilização continuada de prótese tende a associar-se a maior independência funcional e a melhores indicadores de participação e de qualidade de vida do que a não utilização (Fink & Diamond, 2023; Smail et al., 2020).
+Apesar da evolução tecnológica, as taxas de abandono permanecem elevadas. A literatura associa recorrentemente a rejeição protésica a problemas de conforto, peso, funcionalidade insuficiente, manutenção exigente e controlo pouco intuitivo. Esta persistência indica que a melhoria tecnológica isolada não garante adopção sustentada. Ainda assim, quando o dispositivo está adequadamente prescrito, ajustado e acompanhado, a utilização continuada de prótese tende a associar-se a maior independência funcional e a melhores indicadores de participação e de qualidade de vida do que a não utilização (Fink & Diamond, 2023; Smail et al., 2021).
 
-A Figura 2.2 sintetiza claramente esta persistência do abandono ao relacionar o uso, a rejeição primária e a rejeição secundária. Esta relação mostra que o problema não é marginal, mas estrutural no campo das próteses de membro superior.
+A Figura 2.2 apresenta a distribuição observada por Østlie et al. (2012) numa amostra populacional de 224 adultos com amputação adquirida do membro superior. Nesse estudo, 4,5% dos participantes apresentavam rejeição primária da prótese e 13,4% dos 209 participantes que tinham iniciado a sua utilização interromperam-na posteriormente. Estes resultados permitem distinguir a rejeição anterior à primeira utilização da rejeição ocorrida após a adoção inicial do dispositivo.
 
 ![](figuras/figura_2_2_utilizacao_rejeicao_proteses_estilizada.jpeg)
 
-Figura 2.2 — Utilização, rejeição primária e rejeição secundária de próteses do membro superior adquiridas.
+Figura 2.2 — Utilização continuada, rejeição primária e rejeição secundária de próteses numa amostra de adultos com amputação adquirida do membro superior.
 
-Reproduzido de Biddiss, E., Beaton, D., & Chau, T. (2007). Consumer design priorities for upper limb prosthetics. Disability and Rehabilitation: Assistive Technology, 2(6), 346-357. [https://doi.org/10.1080/17483100701714733](https://doi.org/10.1080/17483100701714733)
+Adaptado da Figura 1 de Østlie, K., Lesjø, I. M., Franklin, R. J., Garfelt, B., Skjeldal, O. H., & Magnus, P. (2012). Prosthesis rejection in acquired major upper-limb amputees: A population-based survey. *Disability and Rehabilitation: Assistive Technology, 7*(4), 294–303. https://doi.org/10.3109/17483107.2011.635405
 
 ### Enquadramento regulatório enquanto dispositivo médico
 
@@ -432,17 +432,17 @@ Estas lacunas evidenciam que o *design* industrial em dispositivos médicos não
 
 ### 2.3 Fabrico Aditivo e parametrização no *design* de produto
 
-A convergência entre modelação paramétrica e fabrico aditivo (FdA) tem sido amplamente reconhecida como um dos principais vetores de transformação no *design* contemporâneo, particularmente em contextos que exigem personalização, adaptação morfológica e produção de variantes em pequena escala. A literatura posiciona estas duas abordagens como complementares: a modelação paramétrica permite gerar múltiplas variações controladas a partir de um modelo-base, enquanto a fabrico aditivo viabiliza a materialização de geometrias complexas sem necessidade de moldes ou ferramentas dedicadas (Lei et al., 2016; Ozdemir et al., 2022; Stralen, 2018).
+A convergência entre modelação paramétrica e fabrico aditivo (FdA) tem sido amplamente reconhecida como um dos principais vetores de transformação no *design* contemporâneo, particularmente em contextos que exigem personalização, adaptação morfológica e produção de variantes em pequena escala. A literatura posiciona estas duas abordagens como complementares: a modelação paramétrica permite gerar múltiplas variações controladas a partir de um modelo-base, enquanto a fabrico aditivo viabiliza a materialização de geometrias complexas sem necessidade de moldes ou ferramentas dedicadas (Lei et al., 2016; Ozdemir et al., 2022; van Stralen, 2018).
 
 Esta articulação é representada com clareza na Figura 2.3, que resume o encadeamento entre aquisição digital, modelação/rectificação e fabrico, evidenciando que a personalização depende da integração das várias etapas do fluxo de trabalho.
 
 ![](figuras/figura_2_3_fluxo_digital_proteses_estilizada.png)
 
-Figura 2.3 — Fluxo digital entre aquisição, CAD/CAM e fabrico aditivo em próteses e ortóteses.
+Figura 2.3 — Comparação entre os fluxos tradicional, CAD/CAM e de fabrico aditivo na produção de dispositivos protésicos.
 
-Adaptado de Chainando, N., Faephu, C., Suwaphong, N., Bureerat, S., Limphirat, W., Thammajaruk, P., & Syafrudin, M. (2025). Applying 3D scanning and printing techniques to produce upper limb prostheses: Bibliometric analysis and scoping review. Prosthesis, 7(2), 26. [https://www.mdpi.com/2673-1592/7/2/26/pdf?version=1740996517](https://www.mdpi.com/2673-1592/7/2/26/pdf?version=1740996517)
+Adaptado da Figura 1 de Oldfrey et al. (2024, p. 575).
 
-Neste enquadramento, a personalização deixa de ser entendida como excepção e passa a constituir uma estratégia estruturada, operacionalizada por meio de modelos-base parametrizados. Estes modelos preservam uma arquitectura estável, expondo simultaneamente um conjunto limitado de variáveis ajustáveis, frequentemente acessíveis por meio de interfaces digitais ou de configuradores destinados a utilizadores não especialistas (Ozdemir et al., 2022; Stralen, 2018).
+Neste enquadramento, a personalização deixa de ser entendida como excepção e passa a constituir uma estratégia estruturada, operacionalizada por meio de modelos-base parametrizados. Estes modelos preservam uma arquitectura estável, expondo simultaneamente um conjunto limitado de variáveis ajustáveis, frequentemente acessíveis por meio de interfaces digitais ou de configuradores destinados a utilizadores não especialistas (Ozdemir et al., 2022; van Stralen, 2018).
 
 ### Modelação Paramétrica e Espaços de Variação
 
@@ -464,7 +464,7 @@ As tecnologias de fabrico aditivo (FA) utilizadas incluem modelação por deposi
 
 ### Configuradores e Cocriação Digital
 
-A articulação entre modelação paramétrica e interfaces digitais possibilita novos modelos de cocriação e de produção distribuída. Configuradores *web* ou interfaces baseadas em CAD expõem um conjunto delimitado de parâmetros, permitindo ao utilizador ajustar dimensões ou características nos intervalos válidos, frequentemente com *feedback* em tempo real sobre viabilidade (Ozdemir et al., 2022; Stralen, 2018).
+A articulação entre modelação paramétrica e interfaces digitais possibilita novos modelos de cocriação e de produção distribuída. Configuradores *web* ou interfaces baseadas em CAD expõem um conjunto delimitado de parâmetros, permitindo ao utilizador ajustar dimensões ou características nos intervalos válidos, frequentemente com *feedback* em tempo real sobre viabilidade (Ozdemir et al., 2022; van Stralen, 2018).
 
 A Figura 2.4 mostra um exemplo especialmente relevante desta lógica: a personalização mediada por interface, em que o utilizador atua sobre atributos visuais e formais num espaço de variação previamente estruturado. Este tipo de configurador ajuda a compreender como a cocriação digital pode ser operacionalizada sem exigir domínio directo de ferramentas CAD complexas.
 
@@ -474,7 +474,7 @@ Figura 2.4 — Exemplo de configurador digital para personalização de uma pró
 
 Reproduzido de Manero, A., Smith, P., Sparkman, J., Dombrowski, M., Courbin, D., Kester, A., Womack, I., & Chi, A. (2019). Implementation of 3D printing technology in the field of prosthetics: Past, present, and future. International Journal of Environmental Research and Public Health, 16, 1641. https://doi.org/10.3390/ijerph16091641
 
-Este modelo “*file-to-factory*” viabiliza fluxos digitais em que o ficheiro parametrizado é convertido directamente em instruções de fabrico, seja localmente (impressão 3D descentralizada) ou por meio de uma encomenda *online*[^11]. A literatura associa esta lógica à democratização do *design* e à expansão de estratégias de customização em massa (*mass customization*) e personalização em massa (*mass personalization*), reduzindo custos marginais ao dispensar moldes e dispositivos específicos de fabrico.[^12] (Lei et al., 2016; Stralen, 2018).
+Este modelo “*file-to-factory*” viabiliza fluxos digitais em que o ficheiro parametrizado é convertido directamente em instruções de fabrico, seja localmente (impressão 3D descentralizada) ou por meio de uma encomenda *online*[^11]. A literatura associa esta lógica à democratização do *design* e à expansão de estratégias de customização em massa (*mass customization*) e personalização em massa (*mass personalization*), reduzindo custos marginais ao dispensar moldes e dispositivos específicos de fabrico.[^12] (Lei et al., 2016; van Stralen, 2018).
 
 Contudo, enfatiza-se que configuradores eficazes devem limitar o número de parâmetros expostos e fornecer orientação clara sobre os limites válidos, evitando complexidade excessiva ou escolhas superficiais (Ozdemir et al., 2022).
 
@@ -482,7 +482,7 @@ Contudo, enfatiza-se que configuradores eficazes devem limitar o número de par�
 
 A parametrização é frequentemente combinada com métodos de optimização topológica, de geração de estruturas reticuladas e de abordagens multiobjectivo. Estas estratégias permitem gerir compromissos entre peso, resistência, custo e tempo de fabrico, explorando fronteiras de Pareto para selecionar soluções alinhadas com objectivos específicos (Lei et al., 2016; Yao et al., 2016).
 
-Em contextos médicos e de tecnologias de apoio, estudos demonstram a integração de modelos paramétricos com análises de elementos finitos (FEM) para validar o desempenho estrutural, bem como a utilização de algoritmos generativos capazes de adaptar padrões e estruturas superficiais a geometrias individualizadas. (Lei et al., 2016; Lim et al., 2018).
+Em próteses impressas em 3D, a parametrização permite ajustar de modo independente dimensões como o comprimento e a largura dos componentes, evitando as limitações do escalonamento uniforme (Lim et al., 2018). Em famílias de produtos destinadas ao fabrico aditivo, a optimização topológica permite gerar geometrias a partir de requisitos e restrições, que podem depois ser avaliadas pelo método dos elementos finitos (FEM) e por critérios de custo (Lei et al., 2016). No domínio específico das próteses de membros, Xu e Qin (2022) identificam aplicações de *design* generativo que utilizam optimização topológica para reduzir o peso e FEM para validar o desempenho estrutural. Esta passagem de parâmetros explicitamente definidos para a geração e avaliação algorítmica de alternativas estabelece uma ligação conceptual com as abordagens de inteligência artificial discutidas nas secções seguintes.
 
 Este cruzamento entre parametrização, simulação e FA evidencia um ecossistema digital integrado que sustenta personalização técnica com base quantitativa (Lei et al., 2016; Yao et al., 2016).
 
@@ -498,15 +498,15 @@ No plano educativo e profissional, recomenda-se a integração de DfAM nos curr�
 
 ### 2.4 Próteses *open source* de membro superior passíveis de impressão 3D
 
-As próteses *open source* de membro superior passíveis de impressão 3D constituem um caso particularmente relevante para esta investigação, porque tornam visível a articulação entre fabrico aditivo, partilha digital de ficheiros, produção distribuída e adaptação local. Ao contrário dos dispositivos comerciais desenvolvidos em cadeias industriais fechadas, estes modelos circulam frequentemente como ficheiros editáveis ou imprimíveis, acompanhados por instruções de montagem, listas de componentes e documentação comunitária. A partilha destes recursos reduz barreiras de acesso aos ficheiros e demonstra a capacidade de comunidades distribuídas para produzir e adaptar soluções fora dos canais tradicionais da indústria médica; a qualidade funcional de cada dispositivo continua dependente de avaliação própria (Manero et al., 2019; Wendo et al., 2022).
+As próteses *open source* de membro superior passíveis de impressão 3D constituem um caso particularmente relevante para esta investigação, porque articulam fabrico aditivo, partilha digital de ficheiros, reprodução distribuída e adaptação local. Estes modelos circulam frequentemente sob a forma de ficheiros digitais editáveis ou imprimíveis, acompanhados por documentação comunitária, como instruções de fabrico e montagem. A disponibilização de modelos tridimensionais através da Internet favoreceu a formação de comunidades de criadores capazes de reproduzir e avaliar estes dispositivos (Manero et al., 2019). Nas soluções abertas analisadas por Wendo et al. (2022), a disponibilidade dos ficheiros de desenho e impressão e de instruções claras de fabrico e montagem constitui um requisito essencial. Estes recursos facilitam a reprodução, o redimensionamento e a adaptação dos dispositivos, mas não garantem, por si só, a qualidade funcional de cada solução, que continua a exigir avaliação.
 
-O projecto e-NABLE é o exemplo mais influente deste movimento. A comunidade consolidou-se em torno da criação e partilha de dispositivos de assistência para diferenças de membro superior, em especial mãos mecânicas accionadas pelo corpo e braços impressos em 3D para crianças. O seu catálogo reúne modelos de mão, braço, dedos, polegares e dispositivos terminais, organizados em função da anatomia disponível e o tipo de acionamento. Nos modelos de mão accionados pelo punho, a flexão dos dedos depende normalmente da flexão activa do punho e de uma palma parcialmente preservada; quando essa condição anatómica não existe, a solução tende a deslocar-se para braços ou mecanismos accionados pelo cotovelo (Wendo et al., 2022).
+O projecto e-NABLE constitui um exemplo relevante deste movimento e enquadra directamente vários dos modelos analisados nesta investigação. Na revisão do catálogo e-NABLE, Wendo et al. (2022) agruparam os dispositivos em duas categorias: modelos de mão e modelos de braço. Todos os modelos de mão incluídos na revisão eram accionados pelo corpo através do movimento de um punho funcional. Entre os modelos de braço analisados, o *Unlimbited Arm v2.1* e o *Kwawu Arm* eram accionados pelo movimento do cotovelo, enquanto o *El Medallo Bionic Arm* utilizava accionamento eléctrico controlado por sinais musculares. Para o *design* de próteses de membro superior, esta distinção é importante porque evidencia a necessidade de relacionar o tipo de dispositivo e o respectivo mecanismo de accionamento com o movimento que a pessoa conserva.
 
 Este enquadramento é importante porque vários modelos usados ou analisados nesta investigação pertencem directamente a esta linhagem. Este conjunto inclui Cyborg Beast, Raptor Reloaded, Flexy Hand, Flexy Beast, Paraglider Hand/Flexible Flyer, Phoenix Hand e Unlimbited Phoenix Hand. Estes modelos não devem ser entendidos como objectos isolados, mas como variações de um ecossistema e-NABLE em que cada modelo traduz compromissos diferentes entre simplicidade de impressão, facilidade de montagem, robustez, custo, aparência e adequação anatómica. O Cyborg Beast, por exemplo, foi descrito como uma mão protésica infantil de baixo custo, accionada pelo punho e ajustável por procedimentos remotos de medição e escala (Zuniga et al., 2015). Já modelos posteriores, como a Phoenix/Unlimbited Phoenix e derivados como o Paraglider, procuram simplificar a montagem, melhorar a manutenção e estabilizar geometrias recorrentes. Para o presente projecto, isto tem uma consequência directa: a integração de modelos e-NABLE numa plataforma paramétrica não é apenas uma operação técnica de importação de ficheiros, mas uma tentativa de explicitar e controlar regras geométricas que, nos modelos originais, aparecem muitas vezes como escalas globais, limites empíricos ou decisões embebidas no próprio ficheiro.
 
 O Victoria Hand Project representa uma alternativa complementar ao modelo comunitário e *maker* do e-NABLE. Em vez de depender sobretudo de voluntários dispersos, organiza-se como uma estrutura de prestação de cuidados baseada em parcerias locais, formação técnica, fabrico descentralizado e acompanhamento por profissionais ou clínicas parceiras. A sua relevância está em mostrar que a impressão 3D pode ser integrada num modelo de serviço mais estruturado, no qual a criação digital de componentes, a selecção modular, a adaptação de encaixes e a circulação de *feedback* entre parceiros locais e equipa central funcionam como infraestrutura de aprendizagem contínua (Dechev et al., 2023). Assim, enquanto o e-NABLE evidencia o potencial da comunidade aberta e da documentação partilhada, o Victoria Hand Project evidencia a importância da mediação clínica, da formação e da qualidade controlada em contextos de baixo acesso a cuidados protésicos.
 
-A evidência disponível, contudo, obriga a uma leitura cautelosa. As revisões sistemáticas sobre próteses de membro superior impressas em 3D indicam que os resultados são promissores, mas continuam limitados por amostras pequenas, ausência de ensaios controlados, períodos curtos de acompanhamento e heterogeneidade nos instrumentos de avaliação. A literatura existente não demonstra superioridade robusta face a próteses convencionais nem permite concluir sobre efeitos de longo prazo em conforto, durabilidade ou qualidade de vida (Diment et al., 2018). Uma revisão mais recente sobre resultados clínicos de próteses impressas em 3D reforça a mesma cautela: há sinais de melhoria em destreza, satisfação e adequação, mas a qualidade da evidência permanece limitada e pouco comparável entre estudos (Atallah et al., 2025).
+A evidência disponível, contudo, obriga a uma leitura cautelosa. As revisões sistemáticas sobre próteses de membro superior impressas em 3D indicam que os resultados são promissores, mas continuam limitados por amostras pequenas, ausência de ensaios controlados, períodos curtos de acompanhamento e heterogeneidade nos instrumentos de avaliação. A literatura existente não demonstra superioridade robusta face a próteses convencionais nem permite concluir sobre efeitos de longo prazo em conforto, durabilidade ou qualidade de vida (Diment et al., 2018). Uma revisão mais recente dos resultados clínicos de próteses impressas em 3D reforça a mesma cautela. Nos estudos sobre o membro superior, foram relatadas melhorias na preensão global, na destreza manual e na satisfação dos utilizadores, tendo sido também avaliados o conforto, a facilidade de utilização e o uso quotidiano. Contudo, os estudos são geralmente pequenos, metodologicamente heterogéneos e difíceis de comparar entre si (Atallah et al., 2025).
 
 As limitações técnicas também são relevantes para o *design*. Estudos mecânicos sobre mãos *open source* mostram que a acessibilidade e o baixo custo coexistem com restrições claras de desempenho, repertório de preensões, resistência, durabilidade e segurança funcional. No caso do Raptor Reloaded, por exemplo, uma mão corporalmente accionada pode ser útil para tarefas simples, mas permanece distante da diversidade de movimentos e preensões de uma mão humana (Cabibihan et al., 2021). Esta constatação não diminui o valor social destes modelos, mas impede que sejam apresentados como substitutos clínicos universais. Pelo contrário, reforça a necessidade de os tratar como plataformas de desenvolvimento, aprendizagem e personalização progressiva.
 
@@ -514,7 +514,7 @@ Para esta investigação, o interesse das próteses *open source* impressas em 3
 
 ### 2.5 Antropometria aplicada ao *design* protésico
 
-A antropometria constitui um fundamento técnico e metodológico central no *design* protésico, porque a adequação geométrica do dispositivo ao corpo do utilizador condiciona directamente o conforto, a segurança, o desempenho funcional e a aceitação. Em próteses e tecnologias de apoio, a literatura recente evidencia uma transição progressiva de medições manuais baseadas em marcos anatómicos para processos digitais de captura de superfície (digitalização 3D e fotogrametria), integrados com fluxos CAD/CAM e com fabrico aditivo. Esta evolução é frequentemente descrita como uma cadeia “aquisição anatómica → modelação/retificação em CAD → fabrico aditivo → pós-processamento”, embora também se reconheça que muitos estudos permanecem em fases de prova de conceito e carecem de validação longitudinal e em larga escala (Chainando et al., 2025).
+A antropometria constitui um fundamento técnico e metodológico central no *design* protésico, porque a adequação geométrica do dispositivo ao corpo do utilizador condiciona directamente o conforto, a segurança, o desempenho funcional e a aceitação. Em próteses de membro superior, observa-se uma utilização crescente de processos digitais de captura da geometria corporal, incluindo a digitalização 3D e a fotogrametria. Estes métodos permitem obter medições destinadas à personalização das próteses, ajustar o desenho em *software* e produzir componentes por impressão 3D (Chainando et al., 2025). Nesta investigação, estes passos são organizados numa cadeia de trabalho composta por aquisição anatómica, modelação ou rectificação em CAD, fabrico aditivo e pós-processamento. Esta cadeia corresponde à organização metodológica adoptada no projecto e não a um protocolo único estabelecido pela revisão.
 
 ### Da dimensão linear à “forma” como dado de projecto
 
@@ -562,7 +562,7 @@ Embora os princípios sejam transversais, os estudos analisados distinguem requi
 
 – Encaixes protésicos e ortóteses: forte ênfase na digitalização 3D, na análise quantitativa de malhas e na validação com métricas de interface e/ou de simulação por elementos finitos (FEA). Em fluxos digitais de fabrico, verificam-se diferenças geométricas relevantes entre soluções manuais e digitais, reforçando que a digitalização implica uma transformação do próprio processo de ajuste e pode alterar o resultado (Kannenberg et al., 2024; Silva et al., 2024).
 
-– Próteses de membro superior: coexistência de tomografia computorizada (CT), scanners comerciais e fotogrametria como métodos de captura; estudos comparativos indicam que medições obtidas por digitalização 3D podem ser fiáveis e consistentes face a métodos tradicionais quando bem implementadas. Destacam-se também fluxos automatizados que adaptam modelos CAD inteligentes a dados de digitalização, reduzindo o intervalo entre a captura anatómica e a obtenção de um modelo pronto para fabrico (Chainando et al., 2025; Çıklaçandır et al., 2022).
+– Próteses de membro superior: Chainando et al. (2025) identificam a tomografia computorizada (CT), os digitalizadores 3D comerciais e a fotogrametria como os três principais métodos digitais de captura. A revisão assinala que estas técnicas permitem obter medições destinadas à personalização, mas também apresentam diferenças de precisão, custo, acessibilidade e requisitos técnicos. Num estudo que comparou medições tradicionais, ressonância magnética e digitalização 3D, Çıklaçandır et al. (2022) não encontraram diferenças estatisticamente significativas entre os métodos. A digitalização 3D apresentou resultados próximos dos obtidos por ressonância magnética e vantagens potenciais relacionadas com o custo, o tempo, a fiabilidade e a repetibilidade.
 
 – Produtos de assistência definidos por zonas de alcance funcional (ex.: cadeiras de rodas e acessórios): a antropometria é frequentemente operacionalizada como critério de posicionamento e de acessibilidade, com mapeamentos de alcance e critérios percentílicos.
 
@@ -570,7 +570,7 @@ Embora os princípios sejam transversais, os estudos analisados distinguem requi
 
 Apesar do avanço metodológico, a literatura identifica limitações consistentes: amostras pequenas em estudos aplicados, inconsistência no registo das etapas de retificação e de pós-processamento e falta de validação em contexto real e de longo prazo.
 
-Um problema estrutural particularmente relevante para o *design* inclusivo é a escassez de bases de dados antropométricas normalizadas para pessoas com deficiência, o que dificulta estimativas de acomodação e pode perpetuar desajustes de *design* em populações sub-representadas (Bradtmiller, 2022).
+Um problema estrutural particularmente relevante para o *design* inclusivo é a escassez de bases de dados antropométricas normalizadas para pessoas com deficiência, o que dificulta estimativas de acomodação e pode perpetuar desajustes de *design* em populações sub-representadas (Paul et al., 2022).
 
 Como orientação prática, emergem recomendações claras: selecionar o método de medição em função da questão de *design* — captura de forma, monitorização de volume ou validação de interface —, garantir a consistência da medição mediante posturas padronizadas e da marcação coerente dos pontos de referência anatómicos, e utilizar bases de dados antropométricas alinhadas com a população-alvo quando se pretende definir critérios de acomodação e ajuste (ASTM International, 2024; Ibrahim et al., 2024).
 
@@ -578,7 +578,7 @@ Acresce a recomendação de distinguir o ajuste estático (em posturas padroniza
 
 ### Estruturação de dados
 
-A antropometria aplicada ao *design* protésico evoluiu para um paradigma digital centrado na captura e na interpretação tridimensionais, complementado por métricas de interface que aproximam a medição do desempenho real de uso. Esta abordagem favorece a integração entre dados dimensionais, CAD, parametrização e fabrico aditivo, abrindo caminho para fluxos de adaptação parcialmente automatizados. Contudo, a consolidação destas práticas exige procedimentos mais padronizados, amostras mais amplas, bases de dados antropométricas representativas e identificação clara da origem dos valores utilizados (Bradtmiller, 2022; Sunderland et al., 2024).
+A antropometria aplicada ao *design* protésico evoluiu para um paradigma digital centrado na captura e na interpretação tridimensionais, complementado por métricas de interface que aproximam a medição do desempenho real de uso. Esta abordagem favorece a integração entre dados dimensionais, CAD, parametrização e fabrico aditivo, abrindo caminho para fluxos de adaptação parcialmente automatizados. Contudo, a consolidação destas práticas exige procedimentos mais padronizados, amostras mais amplas, bases de dados antropométricas representativas e identificação clara da origem dos valores utilizados (Paul et al., 2022; Sunderland et al., 2024).
 
 No contexto desta investigação, esta necessidade foi operacionalizada através da construção de uma base local consolidada de medidas da mão e do membro superior distal. A descrição detalhada da selecção das fontes, da extracção dos valores, da normalização dos dados e da sua tradução para parâmetros de projecto é retomada no Capítulo 4, onde esses dados deixam de funcionar apenas como enquadramento teórico e passam a integrar a metodologia de desenvolvimento do modelo paramétrico.
 
@@ -598,7 +598,7 @@ Adaptado de Menaka, S., Raja, A. W., Ramakrishnan, S., Karthikeswaran, D., Srida
 
 Em termos gerais, a IA pode ser entendida como um conjunto de métodos computacionais orientados para executar tarefas que requerem aprendizagem, reconhecimento de padrões, inferência ou geração de respostas com base em dados. Neste contexto, inferência designa o processo pelo qual um sistema aplica padrões aprendidos durante o treino a novos dados de entrada, produzindo uma classificação, previsão, recomendação ou resposta compatível com esses padrões. Esta definição evita tratar a IA como uma entidade única ou como sinónimo de inteligência humana generalizada. A maioria dos sistemas actuais opera sobre tipos específicos de problemas a partir de exemplos, regularidades e relações estatísticas aprendidas durante o treino, sem possuir uma capacidade geral de pensamento (Choudhury et al., 2025; Yüksel et al., 2023).
 
-Dentro deste campo, a aprendizagem automática designa as abordagens em que o sistema aprende a partir de dados, em vez de depender exclusivamente de regras explicitamente escritas. A aprendizagem profunda corresponde a um subconjunto desta família e baseia-se em redes neuronais artificiais com múltiplas camadas, particularmente adequadas para tratar dados complexos, como imagens, texto ou som. Já a IA generativa refere-se a modelos capazes de produzir novos conteúdos — por exemplo, texto, imagens, composições formais ou variantes de projecto — com base nos padrões que aprenderam. Esta distinção é particularmente importante para o *design*, pois diferentes tipos de IA apoiam diferentes tipos de tarefas: algumas ajudam a analisar, outras a prever, outras a optimizar e outras ainda a gerar alternativas (Khanolkar et al., 2023; Krahe et al., 2020; Li et al., 2021).
+Dentro deste campo, a aprendizagem automática designa as abordagens em que o sistema aprende a partir de dados, em vez de depender exclusivamente de regras explicitamente escritas. A aprendizagem profunda corresponde a um subconjunto desta família e baseia-se em redes neuronais artificiais com múltiplas camadas, particularmente adequadas para tratar dados complexos, como imagens e texto. Já a IA generativa refere-se a modelos capazes de produzir novos conteúdos — por exemplo, texto, imagens, composições formais ou variantes de projecto — com base nos padrões que aprenderam. Esta distinção é particularmente importante para o *design*, pois diferentes tipos de IA apoiam diferentes tarefas: algumas ajudam a analisar informação, outras a prever resultados, outras a optimizar soluções e outras ainda a gerar alternativas (Khanolkar et al., 2023; Li et al., 2021). No desenvolvimento de produtos, por exemplo, estas técnicas podem identificar padrões em modelos tridimensionais e gerar novas variantes de forma a partir de requisitos previamente definidos (Krahe et al., 2020).
 
 ### Como funciona: dados, treino, inferência e geração
 
@@ -632,13 +632,13 @@ Por estas razões, a literatura converge para a defesa de modelos com supervisã
 
 ### 2.7 Plataformas digitais e sistemas configuráveis
 
-A evolução recente do desenvolvimento de produto, particularmente em contextos de saúde e de tecnologias de apoio, tem sido acompanhada pelo crescimento de plataformas digitais configuráveis e de sistemas participativos orientados para a personalização. A literatura caracteriza estes sistemas como infraestruturas sociotécnicas que articulam três dimensões principais: enquadramentos conceptuais que legitimam e estruturam a participação dos utilizadores; recursos técnicos de personalização, como parametrização, modularidade e interfaces de configuração;  e fluxos participativos que traduzem a experiência vivida em requisitos, protótipos e iterações de projecto. (Fischer et al., 2004; Hippel & Katz, 2002; Howard et al., 2022).
+A evolução recente do desenvolvimento de produto, particularmente em contextos de saúde e de tecnologias de apoio, tem sido acompanhada pelo crescimento de plataformas digitais configuráveis e de sistemas participativos orientados para a personalização. A literatura caracteriza estes sistemas como infraestruturas sociotécnicas que articulam três dimensões principais: enquadramentos conceptuais que legitimam e estruturam a participação dos utilizadores; recursos técnicos de personalização, como parametrização, modularidade e interfaces de configuração;  e fluxos participativos que traduzem a experiência vivida em requisitos, protótipos e iterações de projecto. (Fischer et al., 2004; von Hippel & Katz, 2002; Howard et al., 2022).
 
 Em domínios como a reabilitação e as tecnologias de apoio, a personalização é frequentemente descrita como uma necessidade funcional, distinta da diferenciação de mercado. A adequação do produto ao utilizador pode ser determinante para a segurança, a usabilidade e a adopção sustentada, deslocando o foco do *design* de uma solução «média» para sistemas capazes de acomodar diferenças individuais segundo regras definidas (Fischer et al., 2017; Kerr et al., 2024; Zhu & Zhong, 2022).
 
 ### Fundamentos conceptuais: *toolkits*, *meta-design* e *end-user development*.
 
-Uma linha teórica relevante é a dos “*toolkits for user innovation*”, que entende os sistemas configuráveis como ferramentas coordenadas e acessíveis que transferem parte do trabalho de *design* relacionado com as necessidades dos utilizadores, enquanto fabricantes e especialistas retêm tarefas de resolução e de produção. A distinção entre configuradores, centrados em seleccionar opções, e *toolkits*, centrados em desenhar num espaço de projecto delimitado, é central: a participação pode variar entre escolher alternativas predefinidas e criar configurações num ambiente com regras e resposta visual (Franke & Hippel, 2002; Hippel & Katz, 2002).
+Uma linha teórica relevante é a dos “*toolkits for user innovation*”, que entende os sistemas configuráveis como ferramentas coordenadas e acessíveis que transferem parte do trabalho de *design* relacionado com as necessidades dos utilizadores, enquanto fabricantes e especialistas retêm tarefas de resolução e de produção. A distinção entre configuradores, centrados em seleccionar opções, e *toolkits*, centrados em desenhar num espaço de projecto delimitado, é central: a participação pode variar entre escolher alternativas predefinidas e criar configurações num espaço de projecto delimitado, com regras, simulação e avaliação iterativa dos resultados (Franke & von Hippel, 2003; von Hippel & Katz, 2002).
 
 O *meta-design* aprofunda esta lógica ao defender a participação “em uso”, estabelecendo condições técnicas e sociais para que os utilizadores se tornem *co-designers* e o sistema evolua ao longo do tempo. O modelo *Seeding, Evolutionary Growth, and Reseeding* formaliza este processo como alternância entre “sementes” iniciais, criadas por especialistas, evolução por meio do desenvolvimento do utilizador e reestruturações periódicas que consolidam as aprendizagens e reorganizam o sistema (Costabile et al., 2007; Fischer et al., 2004).
 
@@ -682,7 +682,7 @@ A literatura sintetiza a personalização por meio de mecanismos recorrentes que
 
 3. *Tailoring* por *toolkit*/editor: a personalização ocorre em tempo de uso, permitindo editar conteúdos, instruções, rotinas de treino ou componentes informacionais associados ao produto ou serviço. Em saúde, este mecanismo é particularmente relevante em plataformas de reabilitação e de telereabilitação, nas quais a adaptação de exercícios e de objectivos faz parte do cuidado contínuo (Cole, 2011; Fischer et al., 2017).
 
-A selecção do mecanismo mais adequado depende da forma como o conhecimento relevante se distribui entre utilizadores, designers, profissionais técnicos ou clínicos e sistemas digitais. A modularidade é adequada quando as necessidades podem ser expressas através da combinação de módulos previamente definidos; a parametrização torna-se mais eficaz quando existem dados mensuráveis que podem ser traduzidos em variáveis de projecto; e os kits de ferramentas são particularmente relevantes quando a adaptação contínua em contexto é crítica e quando o utilizador ou um intermediário dispõe de conhecimento situado para ajustar o sistema. (Hippel & Katz, 2002; Peters & Richter, 2023; Zhu & Zhong, 2022).
+A selecção do mecanismo mais adequado depende da forma como o conhecimento relevante se distribui entre utilizadores, designers, profissionais técnicos ou clínicos e sistemas digitais. A modularidade é adequada quando as necessidades podem ser expressas através da combinação de módulos previamente definidos; a parametrização torna-se mais eficaz quando existem dados mensuráveis que podem ser traduzidos em variáveis de projecto; e os kits de ferramentas são particularmente relevantes quando a adaptação contínua em contexto é crítica e quando o utilizador ou um intermediário dispõe de conhecimento situado para ajustar o sistema. (von Hippel & Katz, 2002; Peters & Richter, 2023; Zhu & Zhong, 2022).
 
 ### Fluxos participativos e infra-estruturas remotas
 
@@ -716,13 +716,13 @@ A distância entre o potencial técnico destas abordagens e a sua consolidação
 
 ![](figuras/figura_2_8_distribuicao_trl.png)
 
-Figura 2.8 — Distribuição dos estudos por nível de prontidão tecnológica (TRL) e categoria de aplicação. O gráfico distingue estudos sobre próteses em geral, próteses de membro inferior produzidas por impressão 3D (LL 3DP), próteses de membro inferior desenvolvidas com recurso a CAD/CAM (LL CAD/CAM), outras abordagens aplicadas ao membro inferior (*LL other*), próteses de membro superior produzidas por impressão 3D (UL 3DP) e outros casos não enquadrados nas categorias anteriores.
+Figura 2.8 — Número de artigos por nível de prontidão tecnológica (TRL) e categoria de aplicação. O gráfico distingue próteses de membro inferior produzidas por impressão 3D (MI 3DP), próteses de membro inferior desenvolvidas com recurso a CAD/CAM (MI CAD/CAM), outras aplicações de membro inferior (MI outras), próteses de membro superior produzidas por impressão 3D (MS 3DP) e outras aplicações de membro superior (MS outras).
 
-Adaptado de Chainando, N., Faephu, C., Suwaphong, N., Bureerat, S., Limphirat, W., Thammajaruk, P., & Syafrudin, M. (2025). Applying 3D scanning and printing techniques to produce upper limb prostheses: Bibliometric analysis and scoping review. Prosthesis, 7(2), 26. https://www.mdpi.com/2673-1592/7/2/26/pdf?version=1740996517
+Adaptado da Figura 10 de Oldfrey et al. (2024, p. 582).
 
 A síntese das secções anteriores evidencia avanços técnicos significativos e limitações estruturais persistentes na investigação e no desenvolvimento de próteses e de tecnologias de apoio. Um tema transversal é o desfasamento entre o desenvolvimento tecnológico e a sua validação empírica. Muitos contributos permanecem em fase de protótipo, com testes realizados em amostras reduzidas e por períodos curtos, o que limita a demonstração da sua eficácia, segurança e adequação em contextos reais de utilização (Chadwell et al., 2020; Samuelsson et al., 2012; Windrich et al., 2016).
 
-A predominância de estudos com amostras reduzidas, curta duração e validação limitada dificulta a comparação entre soluções, a generalização de conclusões e a tradução de melhorias laboratoriais em benefícios consistentes na vida quotidiana. (Hafner & Sawers, 2016; Samuelsson et al., 2012).
+A predominância de estudos com amostras reduzidas, curta duração e validação limitada dificulta a comparação entre soluções, a generalização de conclusões e a tradução de melhorias laboratoriais em benefícios consistentes na vida quotidiana (Hafner & Sawers, 2016; Jones et al., 2023; Samuelsson et al., 2012).
 
 ### Lacuna 1 — Validação empírica limitada e fraca transposição para contextos reais de utilização
 
@@ -732,9 +732,9 @@ Esta lacuna é particularmente relevante porque a adaptação, a aprendizagem e 
 
 ### Lacuna 2 — Desalinhamento entre necessidades identificadas, métricas objetivas, e qualidade de vida
 
-Cordella et al. (2016) e Manz et al. (2022) identificam uma articulação insuficiente entre as necessidades expressas pelos utilizadores, como conforto, controlo intuitivo, aparência e participação social; os indicadores objectivos habitualmente medidos, como desempenho em testes funcionais, parâmetros biomecânicos e métricas instrumentadas de uso da prótese; e os resultados desejáveis, como autonomia e qualidade de vida. As revisões salientam que estas necessidades são contextuais e interdependentes, e que as medições laboratoriais nem sempre reflectem tarefas relevantes do quotidiano, contribuindo para contradições entre resultados subjectivos e objectivos (Cordella et al., 2016; Manz et al., 2022).
+Embora incidam em segmentos distintos — Cordella et al. (2016) no membro superior e Manz et al. (2022) no membro inferior — ambas as revisões identificam uma articulação insuficiente entre as necessidades expressas pelos utilizadores, como conforto, controlo intuitivo, aparência e participação social; os indicadores objectivos habitualmente medidos, como desempenho em testes funcionais, parâmetros biomecânicos e métricas instrumentadas de uso da prótese; e os resultados desejáveis, como autonomia e qualidade de vida. Salientam igualmente que estas necessidades são contextuais e interdependentes e que as medições laboratoriais nem sempre reflectem tarefas relevantes do quotidiano, contribuindo para contradições entre resultados subjectivos e objectivos (Cordella et al., 2016; Manz et al., 2022).
 
-Esta desarticulação tem implicações directas para o *design*. A existência de métricas ecologicamente válidas e sensíveis às prioridades do utilizador é essencial para orientar decisões de projecto para benefícios significativos e sustentados. Como consequência, melhorias técnicas isoladas podem produzir ganhos limitados em termos de aceitação, integração funcional ou uso continuado da prótese (Manz et al., 2022; Samuelsson et al., 2012).
+A convergência entre os dois domínios tem implicações directas para o *design*. A existência de métricas ecologicamente válidas e sensíveis às prioridades do utilizador é essencial para orientar decisões de projecto para benefícios significativos e sustentados. Como consequência, melhorias técnicas isoladas podem produzir ganhos limitados em termos de aceitação, integração funcional ou uso continuado da prótese (Manz et al., 2022; Samuelsson et al., 2012).
 
 ### Lacuna 3 — Persistência de problemas na interface corpo–prótese e no ajuste individualizado
 
@@ -781,7 +781,7 @@ Tabela 2.3 — Correspondência entre lacunas do estado da arte, resposta da inv
 | Lacuna do estado da arte | Requisito seleccionado para o estudo | Resposta incorporada no protótipo ou no método | Evidência prevista | Dimensão excluída da avaliação |
 | --- | --- | --- | --- | --- |
 | Validação empírica limitada e fraca transposição para contextos reais (Chadwell et al., 2020; Samuelsson et al., 2012; Windrich et al., 2016) | Tornar verificável a cadeia técnica desde a entrada até à geometria e à preparação para fabrico | Registo de iterações, casos, parâmetros, exportações, preparação e protótipos físicos | Ensaios da plataforma, cenários simulados, medição digital e observação material preliminar | Eficácia, segurança, utilização quotidiana e avaliação longitudinal |
-| Desalinhamento entre necessidades, métricas objectivas e qualidade de vida (Cordella et al., 2016; Manz et al., 2022) | Distinguir mecanismos de projecto observáveis de efeitos humanos esperados | Matriz entre perguntas, métodos, evidência e limites; separação entre configuração técnica e resultados humanos | Correspondência metodológica e discussão explícita do grau de resposta | Preferências, satisfação, participação, autonomia e qualidade de vida |
+| Desalinhamento entre necessidades, métricas objectivas e qualidade de vida, identificado em revisões dos membros superior e inferior (Cordella et al., 2016; Manz et al., 2022) | Distinguir mecanismos de projecto observáveis de efeitos humanos esperados | Matriz entre perguntas, métodos, evidência e limites; separação entre configuração técnica e resultados humanos | Correspondência metodológica e discussão explícita do grau de resposta | Preferências, satisfação, participação, autonomia e qualidade de vida |
 | Problemas persistentes na interface corpo–prótese e no ajuste individualizado (Alluhydan et al., 2023; Baldock et al., 2023; Richardson & Dillon, 2017) | Relacionar referências antropométricas, parâmetros editáveis e geometria gerada | Regras dimensionais, limites específicos dos modelos e verificação da propagação geométrica | Comparação de perfis de ensaio, extensões de malha e materialização de variantes | Ajuste ao membro residual, pressão de contacto, conforto e adequação anatómica individual |
 | Evolução limitada do controlo e da interacção utilizador–prótese (Domínguez-Ruiz et al., 2023; Marinelli et al., 2022) | Delimitar o controlo humano sobre a configuração digital | Separação entre sugestão probabilística, regras determinísticas e decisão humana antes da exportação | Casos de aplicação, rejeição e recuperação de sugestões paramétricas | Controlo da prótese em utilização, aprendizagem motora e desempenho funcional |
 | Barreiras de acesso, custo, manutenção e contexto de serviço (Andrysek, 2010; Baumann & Maria, 2023; Segura et al., 2024) | Explorar uma arquitectura configurável baseada em tecnologias *web*, modelos abertos e execução local da geometria | Plataforma no navegador, modelos parametrizados e exportação para ferramentas de fabrico aditivo | Funcionamento técnico dos módulos e preparação de ficheiros em dois ambientes registados | Custos totais, conectividade, competências, manutenção, implantação e escalabilidade socioeconómica |
@@ -921,7 +921,7 @@ A literatura descreve requisitos funcionais, ergonómicos, técnicos, produtivos
 
 Os requisitos implementados foram, assim, formulados como condições de projecto: aceitar um conjunto explícito de entradas; aplicar relações determinísticas; preservar furos, eixos e zonas de montagem quando a geometria varia; manter os valores na gama declarada; permitir isolar e exportar componentes; e tornar visíveis as situações em que um perfil ultrapassa a cobertura do modelo. Estas condições permitem examinar coerência e comportamento geométrico, mas não substituem requisitos clínicos ou funcionais.
 
-A definição destes limites transforma a adaptação numa configuração condicionada por relações explícitas entre medidas, componentes e restrições de fabrico. Cada condição necessita de um critério próprio e deve ser confrontada com a geometria efectivamente gerada, não apenas com o nome do parâmetro ou com o intervalo apresentado na interface (Brack & Amalu, 2021; Herneth et al., 2024; Jones et al., 2023).
+No âmbito deste projecto, os limites de adaptação foram formalizados como relações explícitas entre medidas, componentes e restrições de fabrico. A verificação foi definida para incidir sobre a geometria efectivamente gerada, e não apenas sobre o nome do parâmetro ou o intervalo apresentado na interface.
 
 ### 4.2 Parâmetros antropométricos e estrutura do modelo
 
@@ -1255,7 +1255,7 @@ A plataforma *web* desenvolvida no âmbito deste projecto constitui a camada de 
 
 O estado final examinado corresponde a 14 de Julho de 2026. Os ensaios principais e a série complementar de interface incidiram em estados anteriores da plataforma. Esta separação temporal é mantida porque a plataforma continuou a evoluir depois dos ensaios, nomeadamente na organização e nomenclatura dos controlos, sem que essas alterações posteriores possam ser apresentadas como parte dos resultados anteriores.
 
-Do ponto de vista do *Design* e Desenvolvimento de Produto, a plataforma não constitui um fim autónomo: organiza a passagem entre intenção, dados, parâmetros, forma visualizada e ficheiro destinado ao fabrico. A interface expõe uma parte controlada do espaço de variação e evita que a configuração dependa da edição directa do código OpenSCAD. Esta leitura é coerente com os estudos sobre personalização digital e personalização em massa, que descrevem os configuradores como sistemas capazes de disponibilizar variação sem comprometer as relações do modelo-base (Ozdemir, Verlinden, & Cascini, 2022; Stralen, 2018).
+Do ponto de vista do *Design* e Desenvolvimento de Produto, a plataforma não constitui um fim autónomo: organiza a passagem entre intenção, dados, parâmetros, forma visualizada e ficheiro destinado ao fabrico. A interface expõe uma parte controlada do espaço de variação e evita que a configuração dependa da edição directa do código OpenSCAD. Esta leitura é coerente com os estudos sobre personalização digital e personalização em massa, que descrevem os configuradores como sistemas capazes de disponibilizar variação sem comprometer as relações do modelo-base (Ozdemir, Verlinden, & Cascini, 2022; van Stralen, 2018).
 
 Do ponto de vista funcional, a plataforma foi concebida para suportar um processo progressivo de configuração, no qual a definição geométrica resulta da articulação entre a recolha de dados, a selecção do modelo, o ajustamento de parâmetros, a visualização do resultado e a eventual exportação para prototipagem. Esta organização aproxima etapas anteriormente dispersas num único percurso de projecto; não permite concluir que pessoas sem formação técnica o executam com menor esforço.
 
@@ -1812,7 +1812,7 @@ Face aos objetivos, os resultados sustentam a integração técnica do *design* 
 
 A avaliação delimita o papel da IA. Uma resposta isolada não constitui prescrição; não existe uma medição clínica individual que permita calcular erro anatómico; e a lateralidade mostrou que parâmetros críticos devem permanecer sob regras determinísticas. A verificação geométrica identificou limites próprios de cada modelo. As peças físicas confirmaram que as configurações selecionadas podiam ser preparadas e produzidas nas condições registadas, e a medição das palmas quantificou a diferença dimensional face às malhas. Estes resultados não sustentam conclusões sobre ajuste, montagem completa, resistência, conforto ou uso continuado.
 
-A literatura identifica desconforto, ajuste inadequado, limitações funcionais, peso, dificuldade de controlo, manutenção e insatisfação estética como factores associados à utilização descontínua ou ao abandono de próteses (Biddiss et al., 2007; Fink & Diamond, 2023; Smail et al., 2020). Estes factores foram tratados como requisitos do processo de *design*. A configuração dimensional, a visualização, a escolha formal e cromática, a edição dos parâmetros e a possibilidade de aceitar, alterar ou rejeitar sugestões de IA constituem respostas concretas ao problema de projecto. Os ensaios verificaram a presença e o funcionamento técnico destes mecanismos, mas não mediram o seu efeito no conforto percebido, na aceitação ou na utilização continuada.
+A literatura identifica desconforto, ajuste inadequado, limitações funcionais, peso, dificuldade de controlo, manutenção e insatisfação estética como factores associados à utilização descontínua ou ao abandono de próteses (Biddiss et al., 2007; Fink & Diamond, 2023; Smail et al., 2021). Estes factores foram tratados como requisitos do processo de *design*. A configuração dimensional, a visualização, a escolha formal e cromática, a edição dos parâmetros e a possibilidade de aceitar, alterar ou rejeitar sugestões de IA constituem respostas concretas ao problema de projecto. Os ensaios verificaram a presença e o funcionamento técnico destes mecanismos, mas não mediram o seu efeito no conforto percebido, na aceitação ou na utilização continuada.
 
 Esta distinção permite interpretar os resultados em três níveis. Foi demonstrada tecnicamente a capacidade de configurar dimensões, controlar parâmetros, gerar e exportar geometrias e preparar variantes para fabrico. A materialização das peças foi observada e as dimensões X, Y e Z das palmas foram comparadas com as malhas. Como existe uma leitura por eixo e peça, a interpretação dimensional permanece descritiva e não inclui estimativa da incerteza; montagem e articulação também ficaram fora do âmbito avaliado. Conforto, usabilidade com participantes, adequação funcional em utilização, aceitação, dignidade e autonomia constituem efeitos potencialmente decorrentes das decisões de projeto, sustentados como relevantes pela literatura, mas ainda não confirmados junto de utilizadores.
 
@@ -1825,7 +1825,7 @@ Tabela 8.8 — Discussão dos resultados face às lacunas seleccionadas do estad
 | Lacuna e requisito selecionado | Evidência obtida | Interpretação face ao estado da arte | Aspetos não avaliados |
 | --- | --- | --- | --- |
 | Validação empírica: tornar verificável a cadeia técnica | Casos funcionais da plataforma, cenários simulados, exportações, medições digitais e físicas, preparação para impressão e registo fotográfico | O estudo acrescenta uma relação documentada entre entrada, decisão e artefacto, mas permanece no nível de prova de conceito técnica identificado como frequente na literatura (Chadwell et al., 2020; Samuelsson et al., 2012; Windrich et al., 2016) | Não demonstra eficácia, segurança, utilização quotidiana ou evolução longitudinal |
-| Necessidades e métricas: separar mecanismos de efeitos humanos | As matrizes metodológicas e a discussão distinguem funcionamento técnico, comparação dimensional das palmas e efeitos humanos não medidos | A separação evita usar indicadores internos como substitutos de conforto, satisfação ou qualidade de vida, respondendo ao desalinhamento discutido por Cordella et al. (2016) e Manz et al. (2022) | Não estabelece relações empíricas entre medidas objetivas, experiência e qualidade de vida |
+| Necessidades e métricas: separar mecanismos de efeitos humanos | As matrizes metodológicas e a discussão distinguem funcionamento técnico, comparação dimensional das palmas e efeitos humanos não medidos | A separação evita usar indicadores internos como substitutos de conforto, satisfação ou qualidade de vida, respondendo ao desalinhamento discutido em revisões sobre próteses dos membros superior e inferior (Cordella et al., 2016; Manz et al., 2022) | Não estabelece relações empíricas entre medidas objetivas, experiência e qualidade de vida |
 | Interface corpo–prótese: relacionar dados, parâmetros e geometria | As configurações propagaram dimensões de modo específico por modelo e revelaram limites no Paraglider e no Phoenix | O protótipo explicita parte da tradução dimensional que antecede o ajuste, mas não resolve os problemas de encaixe e conforto salientados por Alluhydan et al. (2023), Baldock et al. (2023) e Richardson e Dillon (2017) | Sem medição do membro residual, contacto, pressão, conforto ou adequação anatómica individual. |
 | Controlo e interação: preservar decisão humana na configuração | A lateralidade passou para controlo determinístico; sugestões inválidas puderam ser rejeitadas ou recuperadas; a exportação permaneceu uma decisão humana | O resultado delimita a interacção com o configurador, sem constituir avanço nas estratégias de controlo da prótese discutidas por Domínguez-Ruiz et al. (2023) e Marinelli et al. (2022) | Não avalia aprendizagem, esforço cognitivo, controlo em uso ou desempenho funcional |
 | Acesso e manutenção: explorar uma arquitetura *web* e aberta | A plataforma executou a geração no navegador, conservou configurações e preparou ficheiros em ambientes de fabrico registados | A arquitetura reduz algumas dependências de *software* no percurso examinado, mas não demonstra redução de custos ou melhoria de acesso nos contextos descritos por Andrysek (2010), Baumann e Maria (2023) e Segura et al. (2024) | Não foram avaliados custos totais, conectividade, competências, reparação, manutenção ou implantação |
@@ -1889,7 +1889,7 @@ Por fim, a integração de novas regiões corporais deve começar pela definiç�
 
 <a id="ref-akasaka-2022"></a> Akasaka, F., Mitake, Y., Watanabe, K., & Shimomura, Y. (2022). A framework for ‘configuring participation’ in living labs. Design Science, 8, e28. https://doi.org/10.1017/dsj.2022.22
 
-<a id="ref-akyol-2021"></a> Akyol, P., Barker, T., Hall, R., Morrissey, K., McCarthy, J., & Mackley, K. L. (2021). DiaFit: Designing customizable wearables for Type 1 diabetes monitoring. https://www.semanticscholar.org/paper/ea18361f7564fb19db367899adb6295a07bfa05c
+<a id="ref-akyol-2021"></a> Akyol, E., Cabral Ramos Mota, R. C., & Somanath, S. (2021). DiaFit: Designing customizable wearables for Type 1 diabetes monitoring. In Extended Abstracts of the 2021 CHI Conference on Human Factors in Computing Systems (Article 437, pp. 1-6). ACM. https://doi.org/10.1145/3411763.3451716
 
 <a id="ref-albin-2023"></a> Albin, T., & Molenbroek, J. F. M. (2023). Introduction to the special issue, anthropometry in design. https://repository.tudelft.nl/file/Fileda5bfdc9-98bc-41d3-a402-553d5f0d0a63
 
@@ -1919,19 +1919,19 @@ Por fim, a integração de novas regiões corporais deve começar pela definiç�
 
 <a id="ref-base-local-antropometrica-2026"></a> Base local consolidada de dados antropométricos da mão e do membro superior distal. (2026). [Conjunto de dados]. Suplemento 1 — Dados antropométricos.
 
-<a id="ref-bates-2020"></a> Bates, T., Fergason, J., & Pierrie, S. N. (2020). Technological advances in prosthesis design and rehabilitation following upper extremity limb loss. https://www.semanticscholar.org/paper/905056ffa9fa963e8df8b974d90b94c05a5f7e29
+<a id="ref-bates-2020"></a> Bates, T. J., Fergason, J. R., & Pierrie, S. N. (2020). Technological advances in prosthesis design and rehabilitation following upper extremity limb loss. Current Reviews in Musculoskeletal Medicine, 13(4), 485-493. https://doi.org/10.1007/s12178-020-09656-6
 
 <a id="ref-baumann-2023"></a> Baumann, C., & Maria, P. (2023). Improving access to prosthetic limbs in Germany: An explorative review.
 
 <a id="ref-biddiss-2007"></a> Biddiss, E., Beaton, D., & Chau, T. (2007). Consumer design priorities for upper limb prosthetics. Disability and Rehabilitation: Assistive Technology, 2(6), 346-357. https://doi.org/10.1080/17483100701714733
 
-<a id="ref-brack-2021"></a> Brack, T., & Amalu, E. H. (2021). A review of technology, materials and R&D challenges of upper limb prosthesis for improved user suitability. Journal of Orthopaedics, 24, 88-96. https://doi.org/10.1016/j.jor.2021.03.011
+<a id="ref-brack-2021"></a> Brack, R., & Amalu, E. H. (2021). A review of technology, materials and R&D challenges of upper limb prosthesis for improved user suitability. Journal of Orthopaedics, 23, 88-96. https://doi.org/10.1016/j.jor.2020.12.009
 
-<a id="ref-bradtmiller-2022"></a> Bradtmiller, B. (2022). Design for all, design for disabled: How important is anthropometry? https://researchonline.jcu.edu.au/76898/
+<a id="ref-paul-2022"></a> Paul, G., Steffan, I. T., Itoh, N., Bowman, R., & Bradtmiller, B. (2022). Design for all—Design for disabled: How important is anthropometry? Work, 73, S57-S65. https://doi.org/10.3233/WOR-211106
 
 <a id="ref-brooks-2026"></a> Brooks, C. (2026). OpenSCAD Web [Computer software]. GitHub. https://github.com/CameronBrooks11/openscad-web
 
-<a id="ref-burnap-2019"></a> Burnap, A., Hauser, J., & Timoshenko, A. (2019). Design and evaluation of product aesthetics: A human-machine hybrid approach. https://www.semanticscholar.org/paper/7a7994f2de74a61cbdeb3c230d1ee343a0d5e783
+<a id="ref-burnap-2019"></a> Burnap, A., Hauser, J. R., & Timoshenko, A. (2019). Design and evaluation of product aesthetics: A human-machine hybrid approach. SSRN Electronic Journal. https://doi.org/10.2139/ssrn.3421771
 
 <a id="ref-bustamante-2018"></a> Bustamante, M., Vega-Centeno, R., Sanchez, M., & Mio, R. (2018). A parametric 3D-printed body-powered hand prosthesis based on the four-bar linkage mechanism. In International Conferences on Biological Information and Biomedical Engineering.
 
@@ -1941,7 +1941,7 @@ Por fim, a integração de novas regiões corporais deve começar pela definiç�
 
 <a id="ref-chadwell-2020"></a> Chadwell, A., Kenney, L., Thies, S., Galpin, A., & Head, J. (2020). Technology for monitoring everyday prosthesis use: A systematic review.
 
-<a id="ref-chainando-2025"></a> Chainando, N., Faephu, C., Suwaphong, N., Bureerat, S., Limphirat, W., Thammajaruk, P., & Syafrudin, M. (2025). Applying 3D scanning and printing techniques to produce upper limb prostheses: Bibliometric analysis and scoping review. Prosthesis, 7(2), 26. https://www.mdpi.com/2673-1592/7/2/26/pdf?version=1740996517
+<a id="ref-chainando-2025"></a> Chainando, N., Martawidjaja, M., Darius, R. A., Yahya, L. C., Yemima, S., Tan, W. S., Harito, C., Chandra, R. C., Andhini, G. K., Putra, K. B., Lumban Tobing, C. C., Syafi’i, M., & Syafrudin, M. (2025). Applying 3D scanning and printing techniques to produce upper limb prostheses: Bibliometric analysis and scoping review. *Prosthesis, 7*(2), Article 26. https://doi.org/10.3390/prosthesis7020026
 
 <a id="ref-chapman-2025"></a> Chapman, K., Allen, C., & Kendall, E. (2025). Methods for co-designing health communication initiatives with people with disability: A scoping review. Health Communication. https://doi.org/10.1080/10810730.2025.2462679
 
@@ -1963,7 +1963,7 @@ Por fim, a integração de novas regiões corporais deve começar pela definiç�
 
 <a id="ref-cross-1982"></a> Cross, N. (1982). Designerly ways of knowing. Design Studies, 3(4), 221-227. https://doi.org/10.1016/0142-694X(82)90040-0
 
-<a id="ref-cklacandr-2022"></a> Çıklaçandır, S., Yilmaz, M., Ozmert, O. S., Şahin, A. M., & Mihçin, S. (2022). Comparison of traditional, MRI, and 3D scanning anthropometric measurements in hand prosthesis design. https://www.semanticscholar.org/paper/a24aab5d4434a01eeeda73c8a62f921580ceba54
+<a id="ref-cklacandr-2022"></a> Çıklaçandır, S., Yılmaz, M., Özmert, O. S., Şahin, A. M., & Mihçin, S. (2022). Comparison of traditional, MRI, and 3D scanning anthropometric measurements in hand prosthesis design. In 2022 Medical Technologies Congress (TIPTEKNO) (pp. 1-4). IEEE. https://doi.org/10.1109/TIPTEKNO56568.2022.9960218
 
 <a id="ref-da-silveira-romero-2025"></a> da Silveira Romero, R. C., Costa, K. A., Reis, P. H. R. G., & Vimieiro, C. B. S. (2025). Development of parametric prostheses for different levels of human hand amputations manufactured through additive manufacturing. Applied Sciences, 15, 4467. https://doi.org/10.3390/app15084467
 
@@ -1993,11 +1993,11 @@ Por fim, a integração de novas regiões corporais deve começar pela definiç�
 
 <a id="ref-fischer-2004"></a> Fischer, G., Giaccardi, E., Ye, Y., Sutcliffe, A. G., & Mehandjiev, N. (2004). Meta-design.
 
-<a id="ref-fisher-2020"></a> Fisher, M., & Johansen, E. (2020). Human-centered design for medical devices and diagnostics in global health. https://www.semanticscholar.org/paper/89c3c6bd56f4d0b54f5da3e3c96f18e815d9f5d4
+<a id="ref-fisher-2020"></a> Fisher, M., & Johansen, E. (2020). Human-centered design for medical devices and diagnostics in global health. Global Health Innovation, 3(1), 1-15. https://doi.org/10.15641/ghi.v3i1.762
 
 <a id="ref-frangos-2016"></a> Frangos, P., Mierdel, S., & Koirala, S. (2016). Democratising design in scientific innovation: Application of an open value network to open source hardware design.
 
-<a id="ref-franke-2002"></a> Franke, N., & von Hippel, E. (2002). Satisfying heterogeneous user needs via innovation toolkits: The case of Apache security software.
+<a id="ref-franke-2003"></a> Franke, N., & von Hippel, E. (2003). Satisfying heterogeneous user needs via innovation toolkits: The case of Apache security software. *Research Policy, 32*(7), 1199–1215. https://doi.org/10.1016/S0048-7333(03)00049-0
 
 <a id="ref-frayling-1994"></a> Frayling, C. (1994). Research in art and design (Royal College of Art Research Papers, Vol. 1, No. 1, 1993/4). Royal College of Art.
 
@@ -2027,7 +2027,7 @@ Por fim, a integração de novas regiões corporais deve começar pela definiç�
 
 <a id="ref-herneth-2024"></a> Herneth, T., Hiesl, A., Stief, F., & Farago, D. (2024). Functional kinematic and kinetic requirements of the upper limb during activities of daily living: A recommendation on necessary joint capabilities for prosthetic arms. In 2024 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) (pp. 1-8). IEEE. https://doi.org/10.1109/IROS58592.2024.10801868
 
-<a id="ref-hippel-2002"></a> Hippel, E. von, & Katz, R. (2002). Shifting innovation to users via toolkits. Management Science, 48(7).
+<a id="ref-hippel-2002"></a> von Hippel, E., & Katz, R. (2002). Shifting innovation to users via toolkits. *Management Science, 48*(7), 821–833. https://doi.org/10.1287/mnsc.48.7.821.2817
 
 <a id="ref-hofmann-2016"></a> Hofmann, M. H., Griffiths, D., & Margetts, E. (2016). Helping hands: Requirements for a prototyping methodology for upper-limb prosthetics users. In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems (pp. 1769-1780). ACM. https://doi.org/10.1145/2858036.2858346
 
@@ -2045,11 +2045,11 @@ Por fim, a integração de novas regiões corporais deve começar pela definiç�
 
 <a id="ref-idris-2024"></a> Idris, M. Z., Hashim, M. E. A. H. B., Albakry, N., & Septian, N. (2024). Exploring the integration of artificial intelligence in co-design framework for designer. https://ebpj.e-iph.co.uk/index.php/EBProceedings/article/download/6348/3640
 
-<a id="ref-jones-2023"></a> Jones, M. L. H., Vrieling, A. H., Steadman, J., & Kyberd, P. J. (2023). Evidencing the effectiveness of upper limb prostheses: A multi-stakeholder perspective on study requirements. Frontiers in Health Services, 3, 1123682. https://doi.org/10.3389/frhs.2023.1123682
+<a id="ref-jones-2023"></a> Jones, H., Chadwell, A., & Dyson, M. (2023). Evidencing the effectiveness of upper limb prostheses: A multi-stakeholder perspective on study requirements. *Frontiers in Health Services, 3*, Article 1213752. https://doi.org/10.3389/frhs.2023.1213752
 
-<a id="ref-kadenhe-2025"></a> Kadenhe, N., Al Musleh, M., & Lompot, A. (2025). Human-AI co-design and co-creation: A review of emerging approaches, challenges, and future directions. https://www.semanticscholar.org/paper/61c04706b7af0be5be4b0d15f595d4ab41874d12
+<a id="ref-kadenhe-2025"></a> Kadenhe, N., Al Musleh, M., & Lompot, A. (2025). Human-AI co-design and co-creation: A review of emerging approaches, challenges, and future directions. Proceedings of the AAAI Symposium Series, 6(1), 265-270. https://doi.org/10.1609/aaaiss.v6i1.36061
 
-<a id="ref-kandikjan-2022"></a> Kandikjan, T., Djokikj, J., Mircheski, I., & Angeleska, E. (2022). Integrating parametric design and additive manufacturing knowledge in industrial design education. https://www.semanticscholar.org/paper/7d28a8c124ef0a3599dd937791a3f3e093775ac0
+<a id="ref-kandikjan-2022"></a> Kandikjan, T., Djokikj, J., Mircheski, I., & Angeleska, E. (2022). Integrating parametric design and additive manufacturing knowledge in industrial design education. Materials Today: Proceedings, 70, 687-693. https://doi.org/10.1016/j.matpr.2022.10.124
 
 <a id="ref-kannenberg-2024"></a> Kannenberg, A., Buis, A. W. P., Sengeh, D. M., & Worsley, P. R. (2024). Insights into the spectrum of transtibial prosthetic socket design from expert clinicians and their digital records. Frontiers in Rehabilitation Sciences, 5. https://doi.org/10.3389/fresc.2024.1354069
 
@@ -2059,9 +2059,9 @@ Por fim, a integração de novas regiões corporais deve começar pela definiç�
 
 <a id="ref-kerr-2024"></a> Kerr, A., Del Din, S., Clarkson, P. J., & Rochester, L. (2024). A participatory model for cocreating accessible rehabilitation technology for stroke survivors: User-centered design approach.
 
-<a id="ref-khanolkar-2023"></a> Khanolkar, P., Vrolijk, A., & Olechowski, A. (2023). Mapping artificial intelligence-based methods to engineering design stages: A focused literature review. https://www.semanticscholar.org/paper/4d63443d45e1a7156c5972ef009ed07bb0650117
+<a id="ref-khanolkar-2023"></a> Khanolkar, P. M., Vrolijk, A., & Olechowski, A. (2023). Mapping artificial intelligence-based methods to engineering design stages: A focused literature review. Artificial Intelligence for Engineering Design, Analysis and Manufacturing, 37, e25. https://doi.org/10.1017/S0890060423000203
 
-<a id="ref-krahe-2020"></a> Krahe, C., Bräunche, A., Jacob, A., Stricker, N., & Lanza, G. (2020). Deep learning for automated product design. https://www.semanticscholar.org/paper/a5b9b4f63805f2b1773bc8214b29e38dbac27975
+<a id="ref-krahe-2020"></a> Krahe, C., Bräunche, A., Jacob, A., Stricker, N., & Lanza, G. (2020). Deep learning for automated product design. Procedia CIRP, 91, 3-8. https://doi.org/10.1016/j.procir.2020.01.135
 
 <a id="ref-kuhl-2020"></a> Kuhl, M., Lutz, J., Krause, D., & Vielhaber, M. (2020). Design of personalized devices: The tradeoff between individual value and personalization workload. Applied Sciences.
 
@@ -2079,7 +2079,7 @@ Por fim, a integração de novas regiões corporais deve começar pela definiç�
 
 <a id="ref-manero-2019"></a> Manero, A., Smith, P., Sparkman, J., Dombrowski, M., Courbin, D., Kester, A., Womack, I., & Chi, A. (2019). Implementation of 3D printing technology in the field of prosthetics: Past, present, and future. International Journal of Environmental Research and Public Health, 16, 1641. https://doi.org/10.3390/ijerph16091641
 
-<a id="ref-manz-2022"></a> Manz, S. M., Menges, M. M., Schaffernicht, E., Mattes, K., & Kannenberg, A. (2022). A review of user needs to inform the development of lower-limb prostheses.
+<a id="ref-manz-2022"></a> Manz, S., Valette, R., Damonte, F., Avanci Gaudio, L., Gonzalez-Vargas, J., Sartori, M., Dosen, S., & Rietman, J. (2022). A review of user needs to drive the development of lower limb prostheses. *Journal of NeuroEngineering and Rehabilitation, 19*, Article 119. https://doi.org/10.1186/s12984-022-01097-1
 
 <a id="ref-marinelli-2022"></a> Marinelli, M., Putrino, D., Stella, F., & Guglielmelli, E. (2022). Active upper limb prostheses: A review on current state and upcoming breakthroughs.
 
@@ -2089,7 +2089,7 @@ Por fim, a integração de novas regiões corporais deve começar pela definiç�
 
 <a id="ref-mikoajewski-2023"></a> Mikołajewski, D., Rojek, I., Kotlarz, P., Dorożyński, J., & Kopowski, J. (2023). Personalization of the 3D-printed upper limb exoskeleton design: Mechanical and IT aspects. Applied Sciences.
 
-<a id="ref-millet-2018"></a> Millet, A., Akle, A. A., & Legardeur, J. (2018). Human centred criteria for healthcare design. https://www.semanticscholar.org/paper/267b655f123f4f167f1f9e7e6c8a1f17f73a73d0
+<a id="ref-millet-2018"></a> Millet, A., Abi Akle, A., & Legardeur, J. (2018, July 5-6). Human centred criteria for healthcare design [Conference paper]. 25e colloque des Sciences de la conception et de l’innovation (CONFERE 2018), Budapest, Hungary. https://hal.science/hal-01938985
 
 <a id="ref-mistarihi-2020"></a> Mistarihi, M. Z. (2020). A data set on anthropometric measurements and degree of discomfort of physically disabled workers for ergonomic requirements in work space design. Data in Brief, 30, 105420. https://doi.org/10.1016/j.dib.2020.105420
 
@@ -2105,7 +2105,9 @@ Por fim, a integração de novas regiões corporais deve começar pela definiç�
 
 <a id="ref-nini-2024"></a> Nini, L., Ceccarelli, A., Tagliamonte, N., Zollo, L., & Taffoni, F. (2024). Parametric 3D modeling of a customized prosthetic hand finger for additive manufacturing. In 2024 10th IEEE RAS/EMBS International Conference for Biomedical Robotics and Biomechatronics (BioRob). IEEE. https://doi.org/10.1109/BioRob60516.2024.10719909
 
-<a id="ref-oldfrey-2024"></a> Oldfrey, B., Ramirez, D. Z. M., Miodownik, M., et al. (2024). A scoping review of digital fabrication techniques applied to prosthetics and orthotics: Part 1 of 2—Prosthetics. Prosthetics and Orthotics International. https://doi.org/10.1097/PXR.0000000000000351
+<a id="ref-oldfrey-2024"></a> Oldfrey, B. M., Morgado Ramirez, D. Z., Miodownik, M., Wassall, M., Ramstrand, N., Wong, M. S., Danemayer, J., Dickinson, A., Kenney, L., Nester, C., Lemaire, E., Gholizadeth, H., Diment, L. E., Donovan-Hall, M. K., & Holloway, C. (2024). A scoping review of digital fabrication techniques applied to prosthetics and orthotics: Part 1 of 2—Prosthetics. *Prosthetics and Orthotics International, 48*(5), 574–589. https://doi.org/10.1097/PXR.0000000000000351
+
+<a id="ref-ostlie-2012"></a> Østlie, K., Lesjø, I. M., Franklin, R. J., Garfelt, B., Skjeldal, O. H., & Magnus, P. (2012). Prosthesis rejection in acquired major upper-limb amputees: A population-based survey. *Disability and Rehabilitation: Assistive Technology, 7*(4), 294–303. https://doi.org/10.3109/17483107.2011.635405
 
 <a id="ref-openscad-community-nd"></a> OpenSCAD Community. (n.d.). OpenSCAD User Manual/Using OpenSCAD in a command line environment. Wikibooks. Retrieved July 7, 2026, from https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Using_OpenSCAD_in_a_command_line_environment
 
@@ -2115,7 +2117,7 @@ Por fim, a integração de novas regiões corporais deve começar pela definiç�
 
 <a id="ref-ozdemir-2022"></a> Ozdemir, M., Verlinden, J., & Cascini, G. (2022). Design methodology for mass personalisation enabled by digital manufacturing. https://www.cambridge.org/core/services/aop-cambridge-core/content/view/0F2B66A61E2CE6410F9D1F335244EB9C/S2053470122000038a.pdf/div-class-title-design-methodology-for-mass-personalisation-enabled-by-digital-manufacturing-div.pdf
 
-<a id="ref-panchal-2019"></a> Panchal, J. H., Fuge, M., Liu, Y., Missoum, S., & Tucker, C. S. (2019). Special issue: Machine learning for engineering design. Journal of Mechanical Design. https://www.semanticscholar.org/paper/2c4f7ca9381db7debefe61d04da51f9e8e63d09d
+<a id="ref-panchal-2019"></a> Panchal, J. H., Fuge, M., Liu, Y., Missoum, S., & Tucker, C. S. (2019). Special issue: Machine learning for engineering design. Journal of Mechanical Design, 141(11), 110301. https://doi.org/10.1115/1.4044690
 
 <a id="ref-parlamento-europeu-2017"></a> Parlamento Europeu, & Conselho da União Europeia. (2017). Regulation (EU) 2017/745 of the European Parliament and of the Council of 5 April 2017 on medical devices. https://eur-lex.europa.eu/eli/reg/2017/745/oj
 
@@ -2127,9 +2129,9 @@ Por fim, a integração de novas regiões corporais deve começar pela definiç�
 
 <a id="ref-quintero-2018"></a> Quintero, D., Reznick, E., Lambert, D. J., Rezazadeh, S., Gray, L., & Gregg, R. D. (2018). Intuitive clinician control interface for a powered knee-ankle prosthesis: A case study. IEEE Journal of Translational Engineering in Health and Medicine, 6, 2600209. https://doi.org/10.1109/JTEHM.2018.2880199
 
-<a id="ref-ramnath-2019"></a> Ramnath, S., Haghighi, P., Kim, J. H., Detwiler, D., Berry, M., Shah, J., Aulig, N., Wollstadt, P., & Menzel, S. (2019). Automatically generating 60,000 CAD variants for big data applications. https://www.semanticscholar.org/paper/40a0b51e5b01234cec3e807158b26a284ea77e0f
+<a id="ref-ramnath-2019"></a> Ramnath, S., Haghighi, P., Kim, J. H., Detwiler, D., Berry, M., Shah, J. J., Aulig, N., Wollstadt, P., & Menzel, S. (2019). Automatically generating 60,000 CAD variants for big data applications. In Volume 1: 39th Computers and Information in Engineering Conference (Article V001T02A006). ASME. https://doi.org/10.1115/DETC2019-97378
 
-<a id="ref-resnik-2010"></a> Resnik, L., Klinger, S. L., Krauthamer, V., & Barnabe, K. (2010). U.S. Food and Drug Administration regulation of prosthetic research, development, and testing. https://www.semanticscholar.org/paper/71e1fef52dde69cbcea4f62c709f7c6689f9463d
+<a id="ref-resnik-2010"></a> Resnik, L., Klinger, S. L., Krauthamer, V., & Barnabe, K. (2010). U.S. Food and Drug Administration regulation of prosthetic research, development, and testing. JPO: Journal of Prosthetics and Orthotics, 22(2), 121-126. https://doi.org/10.1097/JPO.0b013e3181d427b7
 
 <a id="ref-rezwana-2022"></a> Rezwana, J., & Maher, M. (2022). Understanding user perceptions, collaborative experience, and user engagement in different human-AI interaction designs for co-creative systems. https://arxiv.org/pdf/2204.13217
 
@@ -2141,7 +2143,7 @@ Por fim, a integração de novas regiões corporais deve começar pela definiç�
 
 <a id="ref-romero-2025"></a> Romero, E., Garcia, J. G., Parra, M., Caballa, S., Saldarriaga, A. M., Luque, E. F., Rodriguez, D. J., Abarca, V. E., & Elias, D. A. (2025). An affordable AI-driven and 3D-printed personalized myoelectric prosthesis: Design, development, and assessment. IEEE Access, 13. https://doi.org/10.1109/ACCESS.2025.3596475
 
-<a id="ref-saeidnia-2024"></a> Saeidnia, H. R., & Ausloos, M. (2024). Integrating artificial intelligence into design thinking: A comprehensive examination of the principles and potentialities of AI for design thinking framework. https://www.semanticscholar.org/paper/e2b8a10036428046443e24dc33ec5306876afdbb
+<a id="ref-saeidnia-2024"></a> Saeidnia, H. R., & Ausloos, M. (2024). Integrating artificial intelligence into design thinking: A comprehensive examination of the principles and potentialities of AI for design thinking framework. InfoScience Trends, 1(2), 1-9. https://doi.org/10.61186/ist.202401.01.09
 
 <a id="ref-saldarriaga-2024"></a> Saldarriaga, A. M., Romero, E., Abarca, V. E., & Elias, D. A. (2024). A parametric design approach for affordable customized 3D socket for transradial upper limb prostheses. In 2024 10th International Conference on Control, Decision and Information Technologies (CoDIT). https://doi.org/10.1109/CoDIT62066.2024.10708382
 
@@ -2153,7 +2155,7 @@ Por fim, a integração de novas regiões corporais deve começar pela definiç�
 
 <a id="ref-seregni-2021"></a> Seregni, F., Arlati, S., Colombo, V., Spoladore, D., Greci, L., Pedroli, E., Serino, S., Cipresso, P., Goulene, K., Stroulia, E., Rizzo, A., & Sacco, M. (2021). Virtual coaching for rehabilitation: The participatory design experience of the vCare Project.
 
-<a id="ref-shah-2006"></a> Shah, S., & Robinson, I. (2006). User involvement in healthcare technology development and assessment: Structured literature review. https://www.semanticscholar.org/paper/299d5b2c1d65791cc4c9f2db76edf20f479adcbc
+<a id="ref-shah-2006"></a> Shah, S. G. S., & Robinson, I. (2006). User involvement in healthcare technology development and assessment: Structured literature review. International Journal of Health Care Quality Assurance, 19(6), 500-515. https://doi.org/10.1108/09526860610687619
 
 <a id="ref-silva-alcara-2018"></a> Silva, L. A. da, Medola, F. O., Rodrigues, O. V., Rodrigues, A. C. T., & Sandnes, F. E. (2018). Interdisciplinary-based development of user-friendly customized 3D printed upper limb prosthesis. Comunicação em conferência.
 
@@ -2161,7 +2163,7 @@ Por fim, a integração de novas regiões corporais deve começar pela definiç�
 
 <a id="ref-sims-2017"></a> Sims, T., Cranny, A., Metcalf, C., Chappell, P., & Donovan-Hall, M. (2017). Participatory design of pediatric upper limb prostheses: Qualitative methods and prototyping.
 
-<a id="ref-smail-2020"></a> Smail, L. C., Neal, C., Wilkins, C., & Packham, T. (2020). Comfort and function remain key factors in upper limb prosthetic abandonment: Findings of a scoping review. https://www.semanticscholar.org/paper/b5eb3fd2414ebedaa5d2283451268fafa2db0a81
+<a id="ref-smail-2021"></a> Smail, L. C., Neal, C., Wilkins, C., & Packham, T. L. (2021). Comfort and function remain key factors in upper limb prosthetic abandonment: Findings of a scoping review. Disability and Rehabilitation: Assistive Technology, 16(8), 821-830. https://doi.org/10.1080/17483107.2020.1738567
 
 <a id="ref-soyer-2016"></a> Soyer, K., Unver, B., Tamer, S., & Ulger, O. (2016). The importance of rehabilitation concerning upper extremity amputees: A systematic review. https://pjms.com.pk/index.php/pjms/article/view/9922/4660
 
@@ -2169,9 +2171,9 @@ Por fim, a integração de novas regiões corporais deve começar pela definiç�
 
 <a id="ref-steenbekkers-1998"></a> Steenbekkers, L. P. A., & van Beijsterveldt, C. E. M. (Eds.). (1998). Design-relevant characteristics of ageing users. Delft University Press.
 
-<a id="ref-story-2006"></a> Story, M. (2006). Applying the principles of universal design to medical devices. https://www.semanticscholar.org/paper/d0d84425d517331607c9120290ed26d1bf2e1862
+<a id="ref-story-2006"></a> Story, M. F. (2006). Applying the principles of universal design to medical devices. In J. M. Winters & M. F. Story (Eds.), Medical instrumentation: Accessibility and usability considerations (pp. 83-92). CRC Press. https://doi.org/10.1201/9781420006223-6
 
-<a id="ref-stralen-2018"></a> Stralen, M. V. (2018). Mass customization: A critical perspective on parametric design, digital fabrication and design democratization. https://www.semanticscholar.org/paper/a18f2c4d248e791d2a9b84f3cab268d5a377cc10
+<a id="ref-stralen-2018"></a> van Stralen, M. (2018). Mass customization: A critical perspective on parametric design, digital fabrication and design democratization. In Proceedings of the 22nd Congress of the Iberoamerican Society of Digital Graphics (pp. 142-149). Blucher. https://doi.org/10.5151/sigradi2018-1770
 
 <a id="ref-sunderland-2024"></a> Sunderland, F., Willerth, S., Silver-Thorn, B., & Dickinson, A. (2024). OpenLimbTT, a transtibial residual limb shape model for prosthetics simulation and design: Creating a statistical anatomic model using sparse data. medRxiv. https://www.medrxiv.org/content/medrxiv/early/2024/11/30/2024.11.27.24317622.full.pdf
 
@@ -2183,31 +2185,33 @@ Por fim, a integração de novas regiões corporais deve começar pela definiç�
 
 <a id="ref-verganti-2020"></a> Verganti, R., Vendraminelli, L., & Iansiti, M. (2020). Innovation and design in the age of artificial intelligence. https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/jpim.12523
 
-<a id="ref-viros-i-martin-2021"></a> Virós-i-Martin, A., & Selva, D. (2021). A framework to study human-AI collaborative design space exploration. https://www.semanticscholar.org/paper/716be148371af443169531b0856ae07dfe400869
+<a id="ref-viros-i-martin-2021"></a> Virós-i-Martin, A., & Selva, D. (2021). A framework to study human-AI collaborative design space exploration. In Volume 6: 33rd International Conference on Design Theory and Methodology (Article V006T06A052). ASME. https://doi.org/10.1115/DETC2021-67619
 
 <a id="ref-walker-2019"></a> Walker, M., Paras, A., Boonstra, N., & Murrup-Stewart, C. (2019). Towards including end-users in the design of prosthetic hands: Ethical analysis of a survey of Australians with upper-limb difference.
 
-<a id="ref-walters-2025"></a> Walters, S., Seminati, E., Metcalfe, B., Bailey, N. Y., & Pegg, E. C. (2025). Demystifying upper limb hybrid prostheses: A scoping review. https://www.semanticscholar.org/paper/d659aff9bb182a3c92377571973e6e077a3b1838
+<a id="ref-walters-2025"></a> Walters, S., Seminati, E., Metcalfe, B., Bailey, N. Y., & Pegg, E. C. (2025). Demystifying upper limb hybrid prostheses: A scoping review. Frontiers in Rehabilitation Sciences, 6, 1610336. https://doi.org/10.3389/fresc.2025.1610336
 
-<a id="ref-wang-2024"></a> Wang, X., & Hu, B. (2024). Machine learning algorithms for improved product design user experience. https://www.semanticscholar.org/paper/717e7ad25dcafec12f01b6732773bdf9c5a49661
+<a id="ref-wang-2024"></a> Wang, X., & Hu, B. (2024). Machine learning algorithms for improved product design user experience. IEEE Access, 12, 112810-112821. https://doi.org/10.1109/ACCESS.2024.3442085
 
 <a id="ref-wendo-2022"></a> Wendo, K., Barbier, O., Bollen, X., Schubert, T., Lejeune, T., Raucent, B., & Olszewski, R. (2022). Open-source 3D printing in the prosthetic field: The case of upper limb prostheses: A review. Machines, 10(6), 413. https://doi.org/10.3390/machines10060413
 
-<a id="ref-white-2022"></a> White, J., & Mosca, E. I. (2022). Developing innovative solutions for universal design in healthcare and other sectors. https://www.semanticscholar.org/paper/df2bb0d53af547bd89b2c716933c2a544bf422b1
+<a id="ref-white-2022"></a> White, J., & Mosca, E. I. (2022). Developing innovative solutions for universal design in healthcare and other sectors. Studies in Health Technology and Informatics, 297, 340-347. https://doi.org/10.3233/SHTI220858
 
-<a id="ref-wiberg-2019"></a> Wiberg, A., Persson, J., & Ölvander, J. (2019). Design for additive manufacturing: A review of available design methods and software. https://www.semanticscholar.org/paper/e03bf769f344512519f1005baa1d6b83fe4fc8ed
+<a id="ref-wiberg-2019"></a> Wiberg, A., Persson, J., & Ölvander, J. (2019). Design for additive manufacturing: A review of available design methods and software. Rapid Prototyping Journal, 25(6), 1080-1094. https://doi.org/10.1108/RPJ-10-2018-0262
 
-<a id="ref-wilke-2020"></a> Wilke, H., Badke-Schaub, P., & Thoring, K. (2020). The healthcare design dilemma: Perils of a technology-driven design process for medical products. https://www.semanticscholar.org/paper/078781d9389d4618fc1b5db9347ab68ca7ef46d9
+<a id="ref-wilke-2020"></a> Wilke, H., Badke-Schaub, P., & Thoring, K. (2020). The healthcare design dilemma: Perils of a technology-driven design process for medical products. Proceedings of the Design Society: DESIGN Conference, 1, 2217-2226. https://doi.org/10.1017/dsd.2020.133
 
 <a id="ref-windrich-2016"></a> Windrich, M., Grimmer, M., Christ, O., Rinderknecht, S., & Beckerle, P. (2016). Active lower limb prosthetics: A systematic review of design issues and solutions.
 
-<a id="ref-yao-2016"></a> Yao, X., Moon, S. K., & Bi, G. (2016). A cost-driven design methodology for additive manufactured variable platforms in product families. https://www.semanticscholar.org/paper/f7bc9dc2a80714c18ac068f45b99408b0f4fe65e
+<a id="ref-xu-qin-2022"></a> Xu, K., & Qin, S.-F. (2022). 3D printing, limb prosthetics and generative design: A scoping review. In *2022 27th International Conference on Automation and Computing (ICAC)* (pp. 1–6). IEEE. https://doi.org/10.1109/ICAC55051.2022.9911138
+
+<a id="ref-yao-2016"></a> Yao, X., Moon, S. K., & Bi, G. (2016). A cost-driven design methodology for additive manufactured variable platforms in product families. Journal of Mechanical Design, 138(4), 041701. https://doi.org/10.1115/1.4032504
 
 <a id="ref-young-2023"></a> Young, P. R., Hebert, J. S., Marasco, P., Carey, J., & Schofield, J. S. (2023). Advances in the measurement of prosthetic socket interface mechanics: A review of technology, techniques, and a 20-year update. https://www.tandfonline.com/doi/pdf/10.1080/17434440.2023.2244418?needAccess=true&role=button
 
 <a id="ref-yu-2013"></a> Yu, A., Yick, K. L., Ng, S. P., & Yip, J. (2013). 2D and 3D anatomical analyses of hand dimensions for custom-made gloves. Applied Ergonomics, 44, 381-392.
 
-<a id="ref-yuksel-2023"></a> Yüksel, N., Börklü, H. R., Sezer, H. K., & Canyurt, O. (2023). Review of artificial intelligence applications in engineering design perspective. https://www.semanticscholar.org/paper/cd38b58edf6690459767097aca745a3806824236
+<a id="ref-yuksel-2023"></a> Yüksel, N., Börklü, H. R., Sezer, H. K., & Canyurt, O. (2023). Review of artificial intelligence applications in engineering design perspective. Engineering Applications of Artificial Intelligence, 118, 105697. https://doi.org/10.1016/j.engappai.2022.105697
 
 <a id="ref-zhu-2022"></a> Zhu, Z., & Zhong, R. Y. (2022). A digital twin enabled wearable device for customized healthcare.
 
@@ -2673,11 +2677,11 @@ A lacuna de maior impacto continua a ser a ausência de dados de pessoas amputad
 
 | Identificação | Descrição | Página |
 | --- | --- | --- |
-| Tabela B.1 | Resultados da repetição da mesma configuração por modelo | 138 |
-| Tabela B.2 | Resultados do percurso examinado em três navegadores | 139 |
-| Tabela B.3 | Comportamento observado perante limites, entradas inválidas e falhas previstas | 139 |
-| Tabela B.4 | Categorias de problemas de acessibilidade digital detectadas automaticamente | 141 |
-| Tabela B.5 | Resultados da verificação manual complementar de acessibilidade | 141 |
+| Tabela B.1 | Resultados da repetição da mesma configuração por modelo | 140 |
+| Tabela B.2 | Resultados do percurso examinado em três navegadores | 141 |
+| Tabela B.3 | Comportamento observado perante limites, entradas inválidas e falhas previstas | 141 |
+| Tabela B.4 | Categorias de problemas de acessibilidade digital detectadas automaticamente | 143 |
+| Tabela B.5 | Resultados da verificação manual complementar de acessibilidade | 143 |
 
 **Data das séries de ensaios:** 2, 13 e 14 de julho de 2026
 
@@ -2833,10 +2837,10 @@ O resultado não autoriza afirmar que a plataforma é robusta, acessível ou com
 
 | Identificação | Descrição | Página |
 | --- | --- | --- |
-| Tabela C.1 | Correspondência entre medidas normalizadas e parâmetros dos modelos | 147 |
-| Tabela C.2 | Parâmetros numéricos do Flexy Beast com efeito dimensional | 148 |
-| Tabela C.3 | Relações dimensionais do Paraglider Hand | 153 |
-| Tabela C.4 | Comparação das adaptações e excepções de escala | 159 |
+| Tabela C.1 | Correspondência entre medidas normalizadas e parâmetros dos modelos | 149 |
+| Tabela C.2 | Parâmetros numéricos do Flexy Beast com efeito dimensional | 150 |
+| Tabela C.3 | Relações dimensionais do Paraglider Hand | 155 |
+| Tabela C.4 | Comparação das adaptações e excepções de escala | 161 |
 ## C.1 Objectivo e âmbito
 
 Este anexo documenta como quatro modelos de mão protésica de origem aberta foram adaptados à estrutura paramétrica da plataforma HandFab: Flexy Beast, Cyborg Beast, Paraglider Hand e UnLimbited Phoenix Hand. O objectivo é tornar explícita a passagem entre medidas antropométricas, parâmetros configuráveis, relações geométricas e malhas destinadas à preparação para fabrico.
@@ -3238,9 +3242,9 @@ Não se conclui que as geometrias sejam anatomicamente adequadas a uma pessoa, q
 
 | Identificação | Descrição | Página |
 | --- | --- | --- |
-| Tabela D.1 | Estimativas dos projectos de preparação digital para impressão 3D com configuração analisada | 165 |
-| Tabela D.2 | Estimativas de preparação para impressão na condição digital comum | 165 |
-| Tabela D.3 | Comparação dimensional da palma no eixo X em PLA e PETG | 167 |
+| Tabela D.1 | Estimativas dos projectos de preparação digital para impressão 3D com configuração analisada | 167 |
+| Tabela D.2 | Estimativas de preparação para impressão na condição digital comum | 167 |
+| Tabela D.3 | Comparação dimensional da palma no eixo X em PLA e PETG | 169 |
 
 ## D.1 Finalidade
 
