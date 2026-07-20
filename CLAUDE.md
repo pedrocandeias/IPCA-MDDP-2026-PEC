@@ -19,21 +19,27 @@
 
 ## After every change
 
-### 1 — Update CHANGELOG.md
-File: `/home/pec/dev/mestrado/material/CHANGELOG.md`
+### 1 — Update README.md
+File: `/home/pec/dev/mestrado/README.md`
 
-- Add an entry under `## [Unreleased]` describing what changed.
-- Use Keep-a-Changelog conventions: `### Added`, `### Changed`, `### Fixed`, `### Removed`.
-- When releasing, replace `[Unreleased]` with `[X.Y.Z] — YYYY-MM-DD` and open a fresh `## [Unreleased]` section above it.
-- Bump **patch** (0.0.x) for fixes and small tweaks; **minor** (0.x.0) for new features or scripts; **major** (x.0.0) for breaking changes.
+- Review and update the README after every repository change.
+- Keep the documented manuscript version, date, project status, bibliography status, directory structure and working commands consistent with the repository's current state.
+- When a change does not require a new section, confirm that the existing description and links remain accurate and update any affected status line or workflow note.
+- Do not use the README as a detailed change log; keep the explanation concise and place the chronological detail in the root `CHANGELOG.md`.
 
-### 2 — Bump version in the canonical manuscript
+### 2 — Update CHANGELOG.md
+File: `/home/pec/dev/mestrado/CHANGELOG.md`
+
+- Add a short dated entry at the top describing what changed.
+- Keep manuscript-version details in the same entry when the canonical manuscript changes.
+
+### 3 — Bump version in the canonical manuscript
 File: `/home/pec/dev/mestrado/pedro-candeias-projeto-mestrado-mdddp-ipca-2026-revisto.md`
 
-- The first line is `**Versão do documento:** \`X.Y.Z\``. Increment it on every edit.
+- The version line is `Versão do documento: X.Y.Z`. Increment it on every manuscript edit.
 - Bump **patch** for wording/typo fixes; **minor** for new sections or substantial rewrites; **major** for structural reorganisation.
 
-### 3 — Regenerate figures/tables index and suggestions (when PDFs change)
+### 4 — Regenerate figures/tables index and suggestions (when PDFs change)
 
 Run these two steps whenever new PDFs are added to `material/` or when the thesis structure changes significantly:
 
@@ -63,7 +69,7 @@ Claude will spawn an agent that reads both files in chunks and writes the update
 | `material/figures_tables_suggestions.md` | Curated placement suggestions per thesis section (review before use) |
 | `tools/extract_figures_tables.py` | The extraction script (edit to improve caption detection if needed) |
 
-### 4 — Copy anthropometric CSVs to dados antropométricos
+### 5 — Copy anthropometric CSVs to dados antropométricos
 After generating or updating any anthropometric CSV in `/home/pec/dev/ai-parametric-prosthetic-hand-generator/data/`, copy it to:
 
 ```

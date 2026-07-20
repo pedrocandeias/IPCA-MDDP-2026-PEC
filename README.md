@@ -8,9 +8,9 @@ Autor: Pedro Miguel Candeias da Silva
 
 Orientador: Demétrio Ferreira Matos
 
-Estado documentado: 14 de Julho de 2026
+Estado documentado: 20 de Julho de 2026
 
-Versão do manuscrito: 0.4.41
+Versão do manuscrito: 0.4.106
 
 ## Documentos principais
 
@@ -23,6 +23,16 @@ Versão do manuscrito: 0.4.41
 | [`AGENTS.md`](AGENTS.md) | Regras obrigatórias de edição, cópias de segurança, bibliografia, exportação e organização. |
 
 Os três primeiros ficheiros constituem o conjunto canónico do manuscrito. As cópias anteriores, exportações datadas e documentos de verificação foram retirados do *root* e organizados em `docs/versoes/`; não substituem o manuscrito revisto.
+
+## Estado actual
+
+- O PDF canónico tem 209 páginas A4 e corresponde à versão 0.4.106 do manuscrito.
+- O DOCX conserva 11 notas de rodapé, 37 imagens e 53 tabelas e não contém comentários nativos por resolver.
+- A auditoria bibliográfica confrontou directamente 320 dos 434 pares afirmação–fonte relativos a *papers*; 114 pares permanecem pendentes.
+- Os dez casos incompatíveis prioritários já confrontados foram corrigidos. Este resultado não constitui validação automática dos pares ainda pendentes.
+- Existem localmente 139 dos 141 *papers* citados. Continuam em falta Dexter et al. (2013) e Yao, Moon e Bi (2016), além de um capítulo de livro de Ghali (2008), contabilizado separadamente.
+
+O detalhe encontra-se na [`auditoria_referencias_texto_papers_061.md`](docs/revisoes/auditoria_referencias_texto_papers_061.md) e na lista autoritativa [`pdfs_em_falta.md`](projecto_completo_bibliografia/pdfs_em_falta.md).
 
 ## Organização das versões
 
@@ -37,22 +47,22 @@ O ficheiro auxiliar `tabelas.docx` foi colocado em `sources/docx/`, junto dos re
 ## Anexos e suplementos
 
 Os Anexos A–D integram o manuscrito consolidado e conservam fontes editáveis em
-`sources/manuscript/annexes/`. O Anexo D distingue os resultados digitais já
-obtidos dos protocolos dimensionais e de montagem que permanecem por executar e
-remete para o registo fotográfico dos protótipos integrado no Capítulo 8.
+`sources/manuscript/annexes/`. O Anexo D reúne a preparação para impressão, os
+resultados dimensionais, a montagem e articulação da UnLimbited Phoenix e o
+registo fotográfico dos protótipos integrado no Capítulo 8.
 
 | Anexo ou suplemento | Conteúdo | Fonte editável |
 | --- | --- | --- |
 | Anexo A | Extracção, normalização, cobertura e limitações dos dados antropométricos | [`data_extraction_explained.md`](sources/manuscript/annexes/data_extraction_explained.md) |
 | Anexo B | Avaliação complementar do processo paramétrico e da interface HandFab | [`anexo_b_avaliacao_processo_interface_handfab.md`](sources/manuscript/annexes/testes_plataforma/anexo_b_avaliacao_processo_interface_handfab.md) |
 | Anexo C | Adaptação paramétrica dos modelos Flexy Beast, Cyborg Beast, Paraglider Hand e UnLimbited Phoenix | [`anexo_c_adaptacao_parametrica_modelos.md`](sources/manuscript/annexes/adaptacao_parametrica_modelos/anexo_c_adaptacao_parametrica_modelos.md) |
-| Anexo D | Preparação para fabrico, comparação dimensional, compatibilidade com orientações de escala e protocolo de montagem/articulação | [`anexo_d_preparacao_impressao.md`](sources/manuscript/annexes/testes_preparacao_impressao/anexo_d_preparacao_impressao.md) |
-| Suplemento antropométrico 14.67.0 | Três CSV, dois geradores, verificações e somas SHA-256 | [`dados_antropometricos_v14.67.0/`](sources/manuscript/annexes/dados_antropometricos_v14.67.0/) |
-| Dicionário de parâmetros 14.67.0 | Parâmetros, exemplo numérico, malhas e regeneração do suplemento | [`dicionario_parametros_v14.67.0/`](sources/manuscript/annexes/dicionario_parametros_v14.67.0/) |
+| Anexo D | Preparação para fabrico, comparação dimensional, compatibilidade com orientações de escala, montagem e articulação | [`anexo_d_preparacao_impressao.md`](sources/manuscript/annexes/testes_preparacao_impressao/anexo_d_preparacao_impressao.md) |
+| Suplemento 1 | Dados antropométricos usados para estruturar a base local | [`01_dados_antropometricos/`](suplementos/01_dados_antropometricos/) |
+| Suplemento 2 | Protocolos, metadados e resultados seleccionados da avaliação técnica da plataforma | [`02_avaliacao_plataforma/`](suplementos/02_avaliacao_plataforma/) |
+| Suplemento 3 | Dicionário de parâmetros e percurso rastreável entre perfil, cálculos e malhas | [`03_parametrizacao_percurso/`](suplementos/03_parametrizacao_percurso/) |
+| Suplemento 4 | Projectos de preparação, resultados, medições, montagem e fotografias dos protótipos | [`04_preparacao_impressao_prototipos/`](suplementos/04_preparacao_impressao_prototipos/) |
 
-Os DOCX e PDF autónomos dos Anexos B, C e D servem para revisão isolada. Quando
-um anexo integrado for alterado, é necessário voltar a inseri-lo no manuscrito
-principal e actualizar a paginação.
+O pacote agregado é descrito em [`guia_dos_suplementos.md`](suplementos/guia_dos_suplementos.md), e [`manifesto_ficheiros.csv`](suplementos/manifesto_ficheiros.csv) identifica a origem e a função de cada ficheiro entregue. Os DOCX e PDF autónomos dos Anexos B, C e D servem para revisão isolada. Quando um anexo integrado for alterado, é necessário voltar a inseri-lo no manuscrito principal e actualizar a paginação.
 
 ## Plataforma HandFab
 
@@ -77,6 +87,7 @@ A plataforma é apresentada na dissertação como protótipo funcional de invest
 - `sources/docx/`: documentos DOCX de apoio.
 - `sources/manuscript/`: anexos, suplementos, auditorias, versões de referência e notas de revisão do manuscrito.
 - `sources/elicit/`: pesquisas, relatórios, sessões e notas de investigação organizadas por capítulo e secção.
+- `suplementos/`: pacote agregado de entrega com os quatro conjuntos suplementares e o respectivo manifesto.
 - `material/`: biblioteca local de artigos, normas e materiais de referência; os originais não devem ser sobrescritos.
 - `projecto_completo_bibliografia/`: PDFs associados à bibliografia e lista de publicações ainda sem cópia local.
 - `projecto-completo_media/`: recursos gráficos usados pelo Markdown consolidado.
@@ -98,12 +109,12 @@ Depois de uma alteração:
 
 1. actualizar a versão no início de `pedro-candeias-projeto-mestrado-mdddp-ipca-2026-revisto.md`;
 2. sincronizar o conteúdo com o DOCX revisto;
-3. regenerar os PDF;
+3. regenerar o PDF;
 4. verificar índice, listas de tabelas e figuras, paginação, imagens e quebras;
 5. acrescentar uma entrada no topo de `CHANGELOG.md`;
 6. executar uma verificação final do pacote DOCX e do PDF.
 
-O repositório contém transformações específicas em `tools/apply_*.py`. Estes scripts registam revisões já aplicadas; não devem ser executados indiscriminadamente sobre uma versão posterior sem confirmar que os seus pontos de inserção ainda correspondem ao documento actual.
+O repositório contém transformações específicas em `tools/`. Estes scripts registam revisões já aplicadas; não devem ser executados indiscriminadamente sobre uma versão posterior sem confirmar que os seus pontos de inserção ainda correspondem ao documento actual.
 
 ### Integração dos Anexos B e C
 

@@ -190,7 +190,7 @@ def apply(document_xml: bytes, extracted_pdf: str, page_offset: int) -> tuple[by
         # Newly inserted static entries may use an em dash until the first
         # provisional PDF is available. They must participate in that first
         # synchronisation just like entries carrying an older page number.
-        if not old_page.isdigit() and old_page != "—":
+        if not old_page.isdigit() and old_page not in {"—", "A DEFINIR"}:
             continue
         needle = normalise(title)
         used_body_fallback = False

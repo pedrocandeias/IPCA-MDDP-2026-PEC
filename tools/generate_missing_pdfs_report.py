@@ -228,6 +228,27 @@ def parse_missing_sources(audit_text: str) -> tuple[list[MissingSource], Missing
             raise RuntimeError(f"Could not locate the {label} entry")
         sources.pop(source_key_match)
 
+    # A versão 0.4.106 acrescentou duas fontes directamente confrontadas para
+    # substituir a associação incompatível de White e Mosca ao MPT e à ICF.
+    obtained_mpt_icf_106 = {
+        "factors perceived by rehabilitation professionals to influence the provision of assistive technology to children": (
+            "van Niekerk et al.",
+            "Factors Perceived by Rehabilitation Professionals to Influence the Provision of Assistive Technology to Children A Systematic Review.pdf",
+        ),
+        "exploring the barriers to using assistive technology for individuals with chronic conditions": (
+            "Howard, Fisher, et al.",
+            "Exploring the barriers to using assistive technology for individuals with chronic conditions.pdf",
+        ),
+    }
+    bibliography_dir = ROOT / "projecto_completo_bibliografia"
+    for key_prefix, (label, filename) in obtained_mpt_icf_106.items():
+        source_key_match = next((key for key in sources if key.startswith(key_prefix)), "")
+        if not source_key_match:
+            raise RuntimeError(f"Could not locate the version 0.4.106 entry for {label}")
+        if not (bibliography_dir / filename).is_file():
+            raise RuntimeError(f"Missing expected version 0.4.106 PDF for {label}: {filename}")
+        sources.pop(source_key_match)
+
     # Thirty cited papers were added to the local bibliography on 2026-07-16
     # and checked directly against all 116 passages that cite them. Section 4
     # preserves the initially pending passages while labelling their current
@@ -275,6 +296,10 @@ def parse_missing_sources(audit_text: str) -> tuple[list[MissingSource], Missing
     # comparison, but these items no longer belong in a missing-full-text list.
     # Check the expected local file before removing each historical entry.
     obtained_post_audit = {
+        "the principles of universal design": (
+            "Center for Universal Design",
+            "Center_for_Universal_Design_1997_Principles_of_Universal_Design.pdf",
+        ),
         "a novel framework to facilitate user preferred tuning for a robotic knee prosthesis": (
             "Alili et al.",
             "alili_et_al_2023_robotic_knee_prosthesis_tuning.pdf",
@@ -332,7 +357,6 @@ def parse_missing_sources(audit_text: str) -> tuple[list[MissingSource], Missing
             "trautmann_2021_product_customization_generative_design.pdf",
         ),
     }
-    bibliography_dir = ROOT / "projecto_completo_bibliografia"
     for key_prefix, (label, filename) in obtained_post_audit.items():
         source_key_match = next((key for key in sources if key.startswith(key_prefix)), "")
         if not source_key_match:
@@ -340,6 +364,21 @@ def parse_missing_sources(audit_text: str) -> tuple[list[MissingSource], Missing
         if not (bibliography_dir / filename).is_file():
             raise RuntimeError(f"Missing expected post-audit PDF for {label}: {filename}")
         sources.pop(source_key_match)
+
+    # Story (2006) deixou de ser citado na versão 0.4.98. A autoria dos Sete
+    # Princípios passou para a fonte primária do Center for Universal Design e
+    # a aplicação em saúde foi delimitada a White e Mosca (2022), ambos locais.
+    story_key = next(
+        (
+            key
+            for key in sources
+            if key.startswith("applying the principles of universal design to medical devices")
+        ),
+        "",
+    )
+    if not story_key:
+        raise RuntimeError("Could not locate the historical Story (2006) entry")
+    sources.pop(story_key)
 
     # A third local lot supplied eleven further body-text sources.  Together
     # with Mistarihi from Annex A, these PDFs cover 26 claim-source pairs that
@@ -469,6 +508,39 @@ def parse_missing_sources(audit_text: str) -> tuple[list[MissingSource], Missing
             raise RuntimeError(f"Missing expected manual-download PDF for {label}: {filename}")
         sources.pop(source_key_match)
 
+    # Cinco textos integrais acrescentados manualmente em 20 de Julho de 2026.
+    # A identidade foi confirmada pelo título, autoria, ano e DOI apresentados
+    # nos próprios ficheiros; os pares afirmação–fonte permanecem por confrontar.
+    obtained_july_20_batch = {
+        "ai in design idea development a workshop on creativity and human ai collaboration": (
+            "Figoli, Mattioli e Rampino",
+            "AI_in_design_idea_development_A_workshop_on_creati.pdf",
+        ),
+        "special issue machine learning for engineering design": (
+            "Panchal et al.",
+            "Special Issue Machine Learning for Engineering.pdf",
+        ),
+        "u s food and drug administration regulation of prosthetic research development and testing": (
+            "Resnik et al.",
+            "us-food-and-drug-administration-regulation-of-prosthetic.pdf",
+        ),
+        "a framework to study human ai collaborative design space exploration": (
+            "Virós-i-Martin e Selva",
+            "A FRAMEWORK TO STUDY HUMAN-AI COLLABORATIVE DESIGN SPACE.pdf",
+        ),
+        "review of artificial intelligence applications in engineering design perspective": (
+            "Yüksel et al.",
+            "Review of artificial intelligence applications in engineering design.pdf",
+        ),
+    }
+    for key_prefix, (label, filename) in obtained_july_20_batch.items():
+        source_key_match = next((key for key in sources if key.startswith(key_prefix)), "")
+        if not source_key_match:
+            raise RuntimeError(f"Could not locate the 20 July entry for {label}")
+        if not (bibliography_dir / filename).is_file():
+            raise RuntimeError(f"Missing expected 20 July PDF for {label}: {filename}")
+        sources.pop(source_key_match)
+
     ghali_key = next((key for key in sources if key.startswith("constructive solid geometry")), "")
     if not ghali_key:
         raise RuntimeError("Could not locate the Ghali book-chapter entry")
@@ -486,9 +558,9 @@ def parse_missing_sources(audit_text: str) -> tuple[list[MissingSource], Missing
         )
 
     result = sorted(sources.values(), key=lambda item: normalized(item.reference))
-    if len(result) != 8:
+    if len(result) != 2:
         labels = "\n".join(f"- {item.reference}: {item.title}" for item in result)
-        raise RuntimeError(f"Expected 8 missing papers, found {len(result)}:\n{labels}")
+        raise RuntimeError(f"Expected 2 missing papers, found {len(result)}:\n{labels}")
     return result, ghali
 
 
@@ -643,7 +715,8 @@ def render(sources: list[MissingSource], ghali: MissingSource, audit: Path, manu
             "- Peters e Richter (2023) foi identificado como comunicação da 56.ª Hawaii International Conference on System Sciences, o que resolve a ausência de DOI registada anteriormente.",
             "- Um quinto lote, descarregado manualmente em navegador no mesmo dia, acrescentou seis textos integrais de fontes de acesso aberto ou de leitura livre cujos servidores recusam transferências automatizadas: Bates et al. e Baumann e Maria (PMC), ELhadad et al. (ScienceDirect), Franke e von Hippel (repositório da WU Viena), Peerdeman et al. (repositório da Universidade de Twente) e Romani e Levi (repositório do Politécnico de Milão). Todos conservam camada de texto pesquisável; Franke e von Hippel foi posteriormente confrontado e os restantes pares continuam pendentes.",
             "- O ficheiro de Franke e von Hippel é a versão de autor depositada na WU Viena, com 37 páginas; a paginação não corresponde à do artigo publicado na Research Policy, pelo que as citações por página devem remeter para a versão editorial.",
-            "- As restantes fontes sem texto integral dividem-se em dois grupos: as que não têm cópia de acesso aberto conhecida em Unpaywall nem em OpenAlex (Panchal et al., Resnik et al., Story, Virós-i-Martin e Selva, Yao, Moon e Bi e Yüksel et al.) e Figoli, Mattioli e Rampino, cuja comunicação está em acesso aberto na biblioteca digital da DRS mas cujo servidor recusa transferências automatizadas; obtém-se em `https://dl.designresearchsociety.org/drs-conference-papers/drs2022/researchpapers/117/`.",
+            "- Em 20 de Julho de 2026 foram validados cinco novos textos integrais: Figoli, Mattioli e Rampino (2022), Panchal et al. (2019), Resnik et al. (2010), Virós-i-Martin e Selva (2021) e Yüksel et al. (2023). A validação confirmou título, autoria, ano e DOI, mas não substitui o confronto posterior das afirmações do manuscrito com o conteúdo integral.",
+            "- Permanecem sem texto integral Dexter et al. (2013), sem DOI confirmado, e Yao, Moon e Bi (2016), com DOI `10.1115/1.4032504`.",
             "- O PDF de Krahe et al. (2020) confirma o DOI editorial `10.1016/j.procir.2020.01.135`; `10.5445/IR/1000127884` identifica o depósito do KIT. Na versão 0.4.81, a fonte foi confrontada e associada apenas à afirmação directamente sustentada sobre identificação de padrões em modelos tridimensionais e geração de variantes condicionadas por requisitos.",
             "- A autoria, o número de artigo e o DOI de Jones, Chadwell e Dyson (2023) foram corrigidos na bibliografia na versão 0.4.80 para `10.3389/frhs.2023.1213752`; a fonte foi confrontada e deslocada para uma afirmação compatível da Secção 2.8.",
             "- Dois PDFs válidos acrescentados no mesmo lote — Kang et al. e Bitterman — não correspondem a referências citadas e, por isso, não alteram esta lista. `SHTI-297-SHTI220858.pdf` foi excluído por conter HTML, usando-se o PDF válido de White e Mosca.",
