@@ -1,5 +1,9 @@
 # Changelog
 
+## 2026-07-22
+
+- Criada em `projecto_completo_bibliografia/auditoria_citacoes/` a matriz pedida de citações e evidência, trabalhando exclusivamente sobre uma cópia congelada do DOCX canónico e o respectivo PDF de 268 páginas. `referencias_evidencia_docx_2026-07-22.xlsx` contém 417 linhas, uma por fonte em cada ocorrência, com as seis colunas na ordem definida: página física do DOCX paginado, frase citante com até duas frases anteriores, título, autores, ano e excerto original do paper com página do PDF. Foram reconhecidas 169 entradas bibliográficas, associados 158 PDFs e obtidos 411 excertos paginados; sete excertos de Chapman et al. (2025), Frayling (1994) e Guo (2025) foram transcritos após revisão visual por os PDFs não terem camada textual utilizável. Permanecem assinaladas a vermelho três ocorrências relativas a fontes sem PDF local e três citações sem correspondência bibliográfica inequívoca (`Dickinson et al., 2024`, `Flexible Flyer (2020)` e `TU Delft, 1993–2004`). Adicionado o gerador reproduzível `tools/generate_citation_evidence_sheet.py` e documentados a proveniência, o método e os limites no README da pasta. O DOCX canónico não foi alterado e conservava no fecho o mesmo SHA-256 da cópia de trabalho.
+
 ## 2026-07-20
 
 - Actualizados `README.md` e `CLAUDE.md`. O README passa a identificar a versão 0.4.106, o PDF canónico com 209 páginas, o estado quantitativo da auditoria bibliográfica, os dois *papers* ainda em falta e a organização final dos quatro suplementos agregados. O `CLAUDE.md` passa a exigir a revisão e actualização do README depois de cada alteração ao repositório e foi alinhado com o `CHANGELOG.md` da raiz e com o formato actual da linha de versão do manuscrito.
