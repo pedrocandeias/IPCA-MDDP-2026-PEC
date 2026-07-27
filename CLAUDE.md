@@ -1,11 +1,34 @@
 # CLAUDE.md — Mestrado project
 
+## Fontes de verdade do manuscrito (desde 2026-07-22)
+
+O manuscrito existe em três ficheiros com papéis distintos — usar sempre
+"DOCX" ou "MD" quando a distinção importar, nunca apenas "manuscrito":
+
+- **DOCX** (`…revisto.docx`) — **documento de trabalho e de entrega; fonte de
+  verdade do conteúdo.** É editado no Word e gerido pelo Mendeley Cite
+  (citações vivas, bibliografia num content control `MENDELEY_BIBLIOGRAPHY`
+  regenerada a partir da biblioteca Mendeley na nuvem). Não editar o DOCX por
+  script enquanto o autor o tiver aberto no Word; correcções bibliográficas
+  fazem-se preferencialmente nos registos Mendeley + Refresh no Word.
+- **MD** (`…revisto.md`) — **espelho versionado para auditoria, diffs e
+  histórico.** Sincronizado a partir do DOCX por scripts dedicados em
+  `tools/`. É aqui que vive a linha `Versão do documento: X.Y.Z` (bump a cada
+  sincronização/edição, ver regras abaixo). As âncoras `<a id="ref-…">` da
+  bibliografia devem ser preservadas.
+- **PDF** (`…revisto.pdf`) — export para entrega, regenerado a partir do DOCX.
+
+A numeração de figuras e tabelas é sequencial contínua (Figura 1…, Tabela 1…),
+como no DOCX; os anexos usam numeração por letra (B.1, C.1, D.1…). Os números
+nas legendas do DOCX são texto literal (sem campos SEQ) — o Word não renumera
+automaticamente.
+
 ## Repository layout
 
 ```
 /home/pec/dev/mestrado/
 ├── pedro-candeias-projeto-mestrado-mdddp-ipca-2026-revisto.{md,docx,pdf}
-│                              # canonical manuscript and matching exports
+│                              # DOCX = fonte de verdade; MD = espelho; PDF = export
 ├── docs/versoes/             # backups, dated exports and historical documents
 ├── material/                 # library management tooling & paper collection
 │   ├── CHANGELOG.md          # tooling changelog (semver)

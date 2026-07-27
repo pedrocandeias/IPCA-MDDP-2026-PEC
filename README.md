@@ -8,9 +8,9 @@ Autor: Pedro Miguel Candeias da Silva
 
 Orientador: Demétrio Ferreira Matos
 
-Estado documentado: 20 de Julho de 2026
+Estado documentado: 21 de Julho de 2026
 
-Versão do manuscrito: 0.4.106
+Versão do manuscrito: 0.4.109
 
 ## Documentos principais
 
@@ -26,11 +26,12 @@ Os três primeiros ficheiros constituem o conjunto canónico do manuscrito. As c
 
 ## Estado actual
 
-- O PDF canónico tem 209 páginas A4 e corresponde à versão 0.4.106 do manuscrito.
-- O DOCX conserva 11 notas de rodapé, 37 imagens e 53 tabelas e não contém comentários nativos por resolver.
+- O PDF canónico tem 209 páginas A4 e corresponde à versão 0.4.106 do manuscrito; a versão 0.4.109 do MD aguarda o próximo *Refresh* do Mendeley Cite no DOCX para regeneração dos exports.
+- O DOCX conserva 12 notas de rodapé e 34 imagens, sem comentários nativos por resolver; figuras e tabelas usam numeração sequencial por campos SEQ (29 figuras, 31 tabelas), pendente de Ctrl+A → F9 no Word para actualizar campos e índices.
 - A auditoria bibliográfica confrontou directamente 320 dos 434 pares afirmação–fonte relativos a *papers*; 114 pares permanecem pendentes.
 - Os dez casos incompatíveis prioritários já confrontados foram corrigidos. Este resultado não constitui validação automática dos pares ainda pendentes.
-- Existem localmente 139 dos 141 *papers* citados. Continuam em falta Dexter et al. (2013) e Yao, Moon e Bi (2016), além de um capítulo de livro de Ghali (2008), contabilizado separadamente.
+- Existem localmente 140 dos 141 *papers* citados. Continua em falta Yao, Moon e Bi (2016), além de um capítulo de livro de Ghali (2008), contabilizado separadamente. O PDF de Dexter, Atkinson e Dearden (2013) foi obtido no arquivo Design4Health; o confronto revelou que a entrada bibliográfica actual conserva coautores incorrectos e ainda necessita de correcção no manuscrito.
+- A bibliografia do DOCX contém 169 entradas, das quais 158 têm correspondência PDF validada na pasta consolidada. O inventário e os critérios de correspondência encontram-se em [`consolidacao_referencias_docx.md`](projecto_completo_bibliografia/consolidacao_referencias_docx.md).
 
 O detalhe encontra-se na [`auditoria_referencias_texto_papers_061.md`](docs/revisoes/auditoria_referencias_texto_papers_061.md) e na lista autoritativa [`pdfs_em_falta.md`](projecto_completo_bibliografia/pdfs_em_falta.md).
 
@@ -167,6 +168,18 @@ python3 tools/docx_to_md.py \
 ```
 
 O comando converte o DOCX canónico no PDF canónico através do LibreOffice em modo *headless*.
+
+### Editar o DOCX no LibreOffice sem perder o Mendeley Cite
+
+O DOCX canónico é gerido pelo Mendeley Cite do Word. O LibreOffice preserva as citações vivas ao gravar, mas descarta o estado do add-in (`word/webextensions/`), o que impediria o Word de voltar a reconhecê-las. A ponte repõe essas peças automaticamente:
+
+```bash
+tools/editar_docx_libreoffice.sh
+```
+
+O comando guarda uma cópia de referência, abre o Writer e, quando este fecha, restaura o estado do Mendeley Cite com verificação byte a byte. Em alternativa, os passos podem ser corridos à mão com `python3 tools/word_lo_bridge.py backup <docx>` antes da edição e `… restore <docx>` depois de gravar.
+
+Cuidados: fechar as restantes janelas do LibreOffice antes de usar o invólucro; editar prosa à vontade mas evitar alterar texto dentro de uma citação (o Word passa a tratá-la como *manual override*); inserir citações novas continua a fazer-se no Word.
 
 ### Verificações rápidas
 
