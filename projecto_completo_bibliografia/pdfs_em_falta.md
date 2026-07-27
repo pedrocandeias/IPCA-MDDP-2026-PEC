@@ -2,26 +2,25 @@
 
 Este é o registo autoritativo das fontes citadas na dissertação cujo texto integral não foi localizado em `material/` ou em `projecto_completo_bibliografia/` e não ficou disponível para confronto directo durante a auditoria bibliográfica.
 
-Última verificação: 2026-07-20. A lista foi reconciliada com `docs/revisoes/auditoria_referencias_texto_papers_061.md` após consulta de 514 registos da API Mendeley.
+Última verificação: 2026-07-21. A lista foi reconciliada com `docs/revisoes/auditoria_referencias_texto_papers_061.md` após consulta de 514 registos da API Mendeley.
 
 ## Síntese
 
-- *Papers* sem texto integral: **2**.
+- *Papers* sem texto integral: **1**.
 - Com DOI identificado: **1**.
 - Com URL bibliográfico, mas sem DOI identificado: **0**.
-- Sem DOI ou URL bibliográfico confirmado: **1**; é fornecida uma pesquisa por título no Crossref, não um DOI presumido.
+- Sem DOI ou URL bibliográfico confirmado: **0**; é fornecida uma pesquisa por título no Crossref, não um DOI presumido.
 - Os links DOI usam sempre a forma canónica `https://doi.org/...`.
 
 ## Lista integral
 
 | N.º | Autor(es) e ano | Título do artigo em falta | DOI ou localização provável | Estado |
 | ---: | --- | --- | --- | --- |
-| 1 | Dexter et al. (2013) | *Open Design and Cystic Fibrosis: Enabling Participation in the Design Process* | [Pesquisar no Crossref](https://search.crossref.org/?q=%22Open%20Design%20and%20Cystic%20Fibrosis%3A%20Enabling%20Participation%20in%20the%20Design%20Process%22) | DOI não identificado. PDF não localizado localmente nem obtido na auditoria. |
-| 2 | Yao, Moon e Bi (2016) | *A cost-driven design methodology for additive manufactured variable platforms in product families* | [https://doi.org/10.1115/1.4032504](https://doi.org/10.1115/1.4032504) | DOI identificado. PDF não localizado localmente nem obtido na auditoria. |
+| 1 | Yao, Moon e Bi (2016) | *A cost-driven design methodology for additive manufactured variable platforms in product families* | [https://doi.org/10.1115/1.4032504](https://doi.org/10.1115/1.4032504) | DOI identificado. PDF não localizado localmente nem obtido na auditoria. |
 
 ## Documento académico não classificado como *paper*
 
-A auditoria identificou ainda um capítulo de livro sem texto integral. Não integra a contagem dos 2 *papers*, mas deve ser obtido para verificar a citação correspondente.
+A auditoria identificou ainda um capítulo de livro sem texto integral. Não integra a contagem dos 1 *papers*, mas deve ser obtido para verificar a citação correspondente.
 
 | Referência | Título | DOI ou localização provável | Estado |
 | --- | --- | --- | --- |
@@ -46,7 +45,8 @@ A auditoria identificou ainda um capítulo de livro sem texto integral. Não int
 - Um quinto lote, descarregado manualmente em navegador no mesmo dia, acrescentou seis textos integrais de fontes de acesso aberto ou de leitura livre cujos servidores recusam transferências automatizadas: Bates et al. e Baumann e Maria (PMC), ELhadad et al. (ScienceDirect), Franke e von Hippel (repositório da WU Viena), Peerdeman et al. (repositório da Universidade de Twente) e Romani e Levi (repositório do Politécnico de Milão). Todos conservam camada de texto pesquisável; Franke e von Hippel foi posteriormente confrontado e os restantes pares continuam pendentes.
 - O ficheiro de Franke e von Hippel é a versão de autor depositada na WU Viena, com 37 páginas; a paginação não corresponde à do artigo publicado na Research Policy, pelo que as citações por página devem remeter para a versão editorial.
 - Em 20 de Julho de 2026 foram validados cinco novos textos integrais: Figoli, Mattioli e Rampino (2022), Panchal et al. (2019), Resnik et al. (2010), Virós-i-Martin e Selva (2021) e Yüksel et al. (2023). A validação confirmou título, autoria, ano e DOI, mas não substitui o confronto posterior das afirmações do manuscrito com o conteúdo integral.
-- Permanecem sem texto integral Dexter et al. (2013), sem DOI confirmado, e Yao, Moon e Bi (2016), com DOI `10.1115/1.4032504`.
+- Dexter, Atkinson e Dearden (2013) foi retirado da lista em 21 de Julho de 2026 após obtenção do PDF no arquivo Design4Health da Sheffield Hallam University. O ficheiro revelou que a entrada bibliográfica actual indica coautores incorrectos; essa correcção permanece separada da disponibilidade do texto integral.
+- Permanece sem texto integral Yao, Moon e Bi (2016), com DOI `10.1115/1.4032504`.
 - O PDF de Krahe et al. (2020) confirma o DOI editorial `10.1016/j.procir.2020.01.135`; `10.5445/IR/1000127884` identifica o depósito do KIT. Na versão 0.4.81, a fonte foi confrontada e associada apenas à afirmação directamente sustentada sobre identificação de padrões em modelos tridimensionais e geração de variantes condicionadas por requisitos.
 - A autoria, o número de artigo e o DOI de Jones, Chadwell e Dyson (2023) foram corrigidos na bibliografia na versão 0.4.80 para `10.3389/frhs.2023.1213752`; a fonte foi confrontada e deslocada para uma afirmação compatível da Secção 2.8.
 - Dois PDFs válidos acrescentados no mesmo lote — Kang et al. e Bitterman — não correspondem a referências citadas e, por isso, não alteram esta lista. `SHTI-297-SHTI220858.pdf` foi excluído por conter HTML, usando-se o PDF válido de White e Mosca.
