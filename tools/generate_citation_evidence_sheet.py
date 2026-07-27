@@ -22,11 +22,12 @@ from pathlib import Path
 import fitz
 import numpy as np
 from lxml import etree
-from openpyxl import Workbook
+from openpyxl import Workbook, load_workbook
 from openpyxl.cell.cell import ILLEGAL_CHARACTERS_RE
 from openpyxl.comments import Comment
 from openpyxl.styles import Alignment, Font, PatternFill
 from openpyxl.utils import get_column_letter
+from openpyxl.worksheet.datavalidation import DataValidation
 from sklearn.feature_extraction.text import TfidfVectorizer
 
 
@@ -136,6 +137,12 @@ PORTUGUESE_TO_ENGLISH = {
     "volume residual": "residual limb volume",
 }
 
+REVIEW_TO_RESPONSE = {
+    "lido suporta": "Responde totalmente",
+    "lido suporta parcialmente": "Responde parcialmente",
+    "lido nao suporta": "Não responde",
+}
+
 
 @dataclass
 class BibliographyEntry:
@@ -162,6 +169,9 @@ class CitationOccurrence:
     evidence_page: int | None = None
     evidence_score: float = 0.0
     evidence_method: str = "recuperação lexical bilingue"
+    response_level: str = ""
+    response_source: str = ""
+    response_match_score: float = 0.0
 
 
 def normalise(value: str) -> str:
@@ -774,12 +784,133 @@ def source_text(occurrence: CitationOccurrence) -> str:
     return "[Referência citada não localizada de forma inequívoca na bibliografia do DOCX.]"
 
 
+def attach_reviewed_responses(
+    occurrences: list[CitationOccurrence], reviewed_workbook: Path | None
+) -> dict[str, int]:
+    stats = {
+        "reviewed_rows": 0,
+        "legible_reviewed_rows": 0,
+        "matched_reviewed_rows": 0,
+        "classified_occurrences": 0,
+        "unmatched_reviewed_rows": 0,
+        "illegible_reviewed_rows": 0,
+    }
+    if reviewed_workbook is None:
+        return stats
+
+    workbook = load_workbook(reviewed_workbook, read_only=True, data_only=True)
+    sheet = workbook[workbook.sheetnames[0]]
+    headers = {
+        normalise(sheet.cell(1, column).value or ""): column
+        for column in range(1, sheet.max_column + 1)
+    }
+
+    def header_column(*labels: str) -> int:
+        for label in labels:
+            if normalise(label) in headers:
+                return headers[normalise(label)]
+        raise ValueError(
+            f"Coluna de revisão em falta em {reviewed_workbook.name}: {labels[0]}"
+        )
+
+    statement_column = header_column(
+        "Texto do DOCX (afirmação citante)",
+        "Texto do nosso DOCX referenciado",
+    )
+    title_column = header_column("Título do paper")
+    year_column = header_column("Ano", "Ano de publicação do paper")
+    verdict_column = header_column("Confiança", "Veredicto")
+
+    candidates = [
+        (
+            occurrence,
+            normalise(occurrence.statement),
+            normalise(occurrence.entry.title),
+            normalise(occurrence.entry.year),
+        )
+        for occurrence in occurrences
+        if occurrence.entry
+    ]
+
+    for row_number in range(2, sheet.max_row + 1):
+        verdict_raw = str(sheet.cell(row_number, verdict_column).value or "").strip()
+        verdict = normalise(verdict_raw)
+        if not verdict.startswith("lido"):
+            continue
+        stats["reviewed_rows"] += 1
+        if verdict == "lido ilegivel":
+            stats["illegible_reviewed_rows"] += 1
+            continue
+        response_level = REVIEW_TO_RESPONSE.get(verdict)
+        if response_level is None:
+            continue
+        stats["legible_reviewed_rows"] += 1
+
+        reviewed_statement = normalise(
+            sheet.cell(row_number, statement_column).value or ""
+        )
+        reviewed_title = normalise(sheet.cell(row_number, title_column).value or "")
+        reviewed_year = normalise(sheet.cell(row_number, year_column).value or "")
+        reviewed_tokens = set(reviewed_statement.split())
+        best: tuple[float, CitationOccurrence] | None = None
+
+        for occurrence, statement, title, year in candidates:
+            title_score = SequenceMatcher(None, reviewed_title, title).ratio()
+            if title_score < 0.72:
+                continue
+            if reviewed_year and year and reviewed_year != year:
+                continue
+            statement_tokens = set(statement.split())
+            overlap_score = len(reviewed_tokens & statement_tokens) / max(
+                1, min(len(reviewed_tokens), len(statement_tokens))
+            )
+            statement_score = max(
+                SequenceMatcher(None, reviewed_statement, statement).ratio(),
+                overlap_score,
+            )
+            score = 0.35 * title_score + 0.65 * statement_score
+            if best is None or score > best[0]:
+                best = (score, occurrence)
+
+        if best is None or best[0] < 0.60:
+            stats["unmatched_reviewed_rows"] += 1
+            continue
+
+        score, occurrence = best
+        source = f"{reviewed_workbook.name}, linha {row_number}"
+        if occurrence.response_level and occurrence.response_level != response_level:
+            occurrence.response_level = ""
+            occurrence.response_source = (
+                f"Conflito entre {occurrence.response_source} e {source}"
+            )
+            occurrence.response_match_score = 0.0
+            stats["unmatched_reviewed_rows"] += 1
+            continue
+        occurrence.response_level = response_level
+        occurrence.response_source = (
+            f"{occurrence.response_source}; {source}"
+            if occurrence.response_source
+            else source
+        )
+        occurrence.response_match_score = max(
+            occurrence.response_match_score, score
+        )
+        stats["matched_reviewed_rows"] += 1
+
+    stats["classified_occurrences"] = sum(
+        bool(item.response_level) for item in occurrences
+    )
+    return stats
+
+
 def write_workbook(
     path: Path,
     occurrences: list[CitationOccurrence],
     docx: Path,
     pdf: Path,
     bibliography_count: int,
+    reviewed_workbook: Path | None,
+    review_stats: dict[str, int],
 ) -> None:
     workbook = Workbook()
     sheet = workbook.active
@@ -791,11 +922,15 @@ def write_workbook(
         "Autor do paper",
         "Ano de publicação do paper",
         "Texto extraído do paper para fundamentar a referência no nosso DOCX",
+        "Grau de resposta da citação ao texto do nosso DOCX",
     ]
     sheet.append(headers)
     header_fill = PatternFill("solid", fgColor="1F4E78")
     warning_fill = PatternFill("solid", fgColor="FFF2CC")
     missing_fill = PatternFill("solid", fgColor="F4CCCC")
+    total_fill = PatternFill("solid", fgColor="C6EFCE")
+    partial_fill = PatternFill("solid", fgColor="FFE699")
+    no_response_fill = PatternFill("solid", fgColor="F4CCCC")
     for cell in sheet[1]:
         cell.fill = header_fill
         cell.font = Font(color="FFFFFF", bold=True)
@@ -811,6 +946,7 @@ def write_workbook(
             entry.authors if entry else occurrence.label,
             entry.year if entry else occurrence.cited_year,
             source_text(occurrence),
+            occurrence.response_level,
         ]
         sheet.append(row)
         row_number = sheet.max_row
@@ -830,10 +966,42 @@ def write_workbook(
                 sheet.cell(row_number, 6).fill = warning_fill
         else:
             sheet.cell(row_number, 6).fill = missing_fill
+        response_cell = sheet.cell(row_number, 7)
+        if occurrence.response_level:
+            response_cell.comment = Comment(
+                "Classificação importada de revisão humana.\n"
+                f"Origem: {occurrence.response_source}\n"
+                "Pontuação da correspondência entre ocorrências: "
+                f"{occurrence.response_match_score:.3f}",
+                "Codex",
+            )
+            if occurrence.response_level == "Responde totalmente":
+                response_cell.fill = total_fill
+            elif occurrence.response_level == "Responde parcialmente":
+                response_cell.fill = partial_fill
+            else:
+                response_cell.fill = no_response_fill
         for cell in sheet[row_number]:
             cell.alignment = Alignment(wrap_text=True, vertical="top")
 
-    widths = [20, 74, 54, 48, 22, 92]
+    response_validation = DataValidation(
+        type="list",
+        formula1='"Responde totalmente,Responde parcialmente,Não responde"',
+        allow_blank=True,
+    )
+    response_validation.promptTitle = "Grau de resposta"
+    response_validation.prompt = (
+        "Selecione uma das três classificações após verificar o paper."
+    )
+    response_validation.errorTitle = "Valor não permitido"
+    response_validation.error = "Use uma das três opções da lista."
+    response_validation.errorStyle = "stop"
+    response_validation.showErrorMessage = True
+    response_validation.showInputMessage = True
+    sheet.add_data_validation(response_validation)
+    response_validation.add(f"G2:G{sheet.max_row}")
+
+    widths = [20, 74, 54, 48, 22, 92, 32]
     for index, width in enumerate(widths, 1):
         sheet.column_dimensions[get_column_letter(index)].width = width
     sheet.freeze_panes = "A2"
@@ -852,6 +1020,17 @@ def write_workbook(
         ("Âmbito", "Corpo do manuscrito e anexos; índice, bibliografia final e listas de referências normativas foram excluídos."),
         ("Identificação", "Autoria, ano e título provêm da bibliografia do DOCX; o PDF é associado pelo manifesto local validado."),
         ("Recuperação", "Seleção lexical bilingue de um excerto do PDF relacionado com a frase citante; células amarelas indicam baixa pontuação e requerem revisão humana."),
+        (
+            "Grau de resposta",
+            "Classificação crítica da relação entre o paper e o texto do DOCX: «Responde totalmente», «Responde parcialmente» ou «Não responde». As células vazias aguardam verificação humana; a lista suspensa limita os valores permitidos.",
+        ),
+        (
+            "Classificações importadas",
+            (
+                f"{review_stats['classified_occurrences']} ocorrências receberam "
+                f"veredictos de {reviewed_workbook.name if reviewed_workbook else 'uma folha de revisão'}."
+            ),
+        ),
         ("Ausências", "Células vermelhas assinalam texto integral local inexistente ou referência não resolvida; não foi criada evidência substituta."),
         ("Entradas bibliográficas", bibliography_count),
         ("Ocorrências registadas", len(occurrences)),
@@ -884,6 +1063,9 @@ def write_workbook(
             "Página do PDF do paper",
             "Pontuação do excerto",
             "Método do excerto",
+            "Grau de resposta",
+            "Origem da classificação",
+            "Pontuação da correspondência da revisão",
         ]
     )
     for occurrence in occurrences:
@@ -900,6 +1082,9 @@ def write_workbook(
                 occurrence.evidence_page,
                 occurrence.evidence_score,
                 occurrence.evidence_method,
+                occurrence.response_level,
+                occurrence.response_source,
+                occurrence.response_match_score,
             ]
         )
     path.parent.mkdir(parents=True, exist_ok=True)
@@ -912,6 +1097,11 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--pdf", type=Path, required=True)
     parser.add_argument("--manifest", type=Path, required=True)
     parser.add_argument("--output", type=Path, required=True)
+    parser.add_argument(
+        "--reviewed-workbook",
+        type=Path,
+        help="Folha de rastreabilidade com veredictos de revisão humana a importar.",
+    )
     return parser.parse_args()
 
 
@@ -921,6 +1111,9 @@ def main() -> int:
     pdf = args.pdf.resolve()
     manifest_path = args.manifest.resolve()
     output = args.output.resolve()
+    reviewed_workbook = (
+        args.reviewed_workbook.resolve() if args.reviewed_workbook else None
+    )
     root = manifest_path.parent.parent
     entries = parse_bibliography(docx)
     if not entries:
@@ -933,12 +1126,32 @@ def main() -> int:
     occurrences = extract_occurrences(pages)
     resolve_occurrences(occurrences, entries)
     attach_evidence(occurrences)
-    write_workbook(output, occurrences, docx, pdf, bibliography_count)
+    review_stats = attach_reviewed_responses(occurrences, reviewed_workbook)
+    write_workbook(
+        output,
+        occurrences,
+        docx,
+        pdf,
+        bibliography_count,
+        reviewed_workbook,
+        review_stats,
+    )
     print(f"Bibliografia: {bibliography_count}")
     print(f"PDFs associados: {sum(bool(entry.pdf) for entry in entries)}")
     print(f"Ocorrências: {len(occurrences)}")
     print(f"Ocorrências resolvidas: {sum(bool(item.entry) for item in occurrences)}")
     print(f"Ocorrências com excerto: {sum(bool(item.evidence) for item in occurrences)}")
+    print(
+        "Ocorrências com grau de resposta: "
+        f"{sum(bool(item.response_level) for item in occurrences)}"
+    )
+    if reviewed_workbook:
+        print(
+            "Linhas revistas importadas / sem correspondência / ilegíveis: "
+            f"{review_stats['matched_reviewed_rows']} / "
+            f"{review_stats['unmatched_reviewed_rows']} / "
+            f"{review_stats['illegible_reviewed_rows']}"
+        )
     print(output)
     return 0
 

@@ -191,6 +191,21 @@ def parse_missing_sources(audit_text: str) -> tuple[list[MissingSource], Missing
     )
     sources.pop(walker_key, None)
 
+    # Dexter was obtained from the Sheffield Hallam University Design4Health
+    # archive on 2026-07-21.  The PDF itself also revealed that the current
+    # manuscript entry has the wrong coauthors; that bibliographic correction
+    # is tracked separately from full-text availability.
+    dexter_key = next(
+        (key for key in sources if key.startswith("open design and cystic fibrosis")),
+        "",
+    )
+    dexter_pdf = ROOT / "projecto_completo_bibliografia/dexter_atkinson_dearden_2013_open_design_cystic_fibrosis.pdf"
+    if not dexter_key:
+        raise RuntimeError("Could not locate the Dexter entry")
+    if not dexter_pdf.is_file():
+        raise RuntimeError(f"Missing expected Dexter PDF: {dexter_pdf.name}")
+    sources.pop(dexter_key)
+
     # Fink and Diamond appear in the historical pending section, but the full text
     # of article 101061 was obtained and directly checked afterwards. This list
     # tracks whether the full text is available, which it now is.
@@ -558,9 +573,9 @@ def parse_missing_sources(audit_text: str) -> tuple[list[MissingSource], Missing
         )
 
     result = sorted(sources.values(), key=lambda item: normalized(item.reference))
-    if len(result) != 2:
+    if len(result) != 1:
         labels = "\n".join(f"- {item.reference}: {item.title}" for item in result)
-        raise RuntimeError(f"Expected 2 missing papers, found {len(result)}:\n{labels}")
+        raise RuntimeError(f"Expected 1 missing paper, found {len(result)}:\n{labels}")
     return result, ghali
 
 
@@ -716,7 +731,8 @@ def render(sources: list[MissingSource], ghali: MissingSource, audit: Path, manu
             "- Um quinto lote, descarregado manualmente em navegador no mesmo dia, acrescentou seis textos integrais de fontes de acesso aberto ou de leitura livre cujos servidores recusam transferências automatizadas: Bates et al. e Baumann e Maria (PMC), ELhadad et al. (ScienceDirect), Franke e von Hippel (repositório da WU Viena), Peerdeman et al. (repositório da Universidade de Twente) e Romani e Levi (repositório do Politécnico de Milão). Todos conservam camada de texto pesquisável; Franke e von Hippel foi posteriormente confrontado e os restantes pares continuam pendentes.",
             "- O ficheiro de Franke e von Hippel é a versão de autor depositada na WU Viena, com 37 páginas; a paginação não corresponde à do artigo publicado na Research Policy, pelo que as citações por página devem remeter para a versão editorial.",
             "- Em 20 de Julho de 2026 foram validados cinco novos textos integrais: Figoli, Mattioli e Rampino (2022), Panchal et al. (2019), Resnik et al. (2010), Virós-i-Martin e Selva (2021) e Yüksel et al. (2023). A validação confirmou título, autoria, ano e DOI, mas não substitui o confronto posterior das afirmações do manuscrito com o conteúdo integral.",
-            "- Permanecem sem texto integral Dexter et al. (2013), sem DOI confirmado, e Yao, Moon e Bi (2016), com DOI `10.1115/1.4032504`.",
+            "- Dexter, Atkinson e Dearden (2013) foi retirado da lista em 21 de Julho de 2026 após obtenção do PDF no arquivo Design4Health da Sheffield Hallam University. O ficheiro revelou que a entrada bibliográfica actual indica coautores incorrectos; essa correcção permanece separada da disponibilidade do texto integral.",
+            "- Permanece sem texto integral Yao, Moon e Bi (2016), com DOI `10.1115/1.4032504`.",
             "- O PDF de Krahe et al. (2020) confirma o DOI editorial `10.1016/j.procir.2020.01.135`; `10.5445/IR/1000127884` identifica o depósito do KIT. Na versão 0.4.81, a fonte foi confrontada e associada apenas à afirmação directamente sustentada sobre identificação de padrões em modelos tridimensionais e geração de variantes condicionadas por requisitos.",
             "- A autoria, o número de artigo e o DOI de Jones, Chadwell e Dyson (2023) foram corrigidos na bibliografia na versão 0.4.80 para `10.3389/frhs.2023.1213752`; a fonte foi confrontada e deslocada para uma afirmação compatível da Secção 2.8.",
             "- Dois PDFs válidos acrescentados no mesmo lote — Kang et al. e Bitterman — não correspondem a referências citadas e, por isso, não alteram esta lista. `SHTI-297-SHTI220858.pdf` foi excluído por conter HTML, usando-se o PDF válido de White e Mosca.",

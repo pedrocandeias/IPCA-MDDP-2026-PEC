@@ -338,7 +338,7 @@ def fields_to_update(mendeley_doc: dict, crossref: dict) -> dict:
 
 # ── Main ──────────────────────────────────────────────────────────────────────
 
-async def main(dry_run: bool = True) -> None:
+async def main(dry_run: bool = True, extra_dirs: list[Path] | None = None) -> None:
     print("=" * 60)
     print("Mendeley Metadata Enricher")
     print("=" * 60)
@@ -358,16 +358,24 @@ async def main(dry_run: bool = True) -> None:
         print(f"  {len(docs)} documents loaded.")
 
         print("\n[2/3] Building PDF → document pairs...")
+        if extra_dirs:
+            scan_dirs = extra_dirs
+        else:
+            scan_dirs = [MATERIAL_DIR / f for f in FOLDER_MAP]
         pairs: list[tuple[Path, dict]] = []
-        for local_folder in FOLDER_MAP:
-            folder_path = MATERIAL_DIR / local_folder
+        unmatched: list[Path] = []
+        for folder_path in scan_dirs:
             if not folder_path.is_dir():
                 continue
             for pdf_path in sorted(folder_path.glob("*.pdf")):
                 doc = match_pdf_to_doc(pdf_path.name, docs)
                 if doc:
                     pairs.append((pdf_path, doc))
-        print(f"  {len(pairs)} matched pairs.")
+                else:
+                    unmatched.append(pdf_path)
+        print(f"  {len(pairs)} matched pairs, {len(unmatched)} unmatched PDFs.")
+        for p in unmatched:
+            print(f"    unmatched: {p.name}")
 
         print("\n[3/3] Enriching metadata...")
         for i, (pdf_path, mendeley_doc) in enumerate(pairs, 1):
@@ -448,8 +456,18 @@ async def main(dry_run: bool = True) -> None:
 
 if __name__ == "__main__":
     dry_run = "--apply" not in sys.argv
+    extra_dirs = None
+    if "--dir" in sys.argv:
+        idx = sys.argv.index("--dir")
+        if idx + 1 >= len(sys.argv):
+            print("ERROR: --dir requires a path argument.")
+            sys.exit(1)
+        extra_dirs = [Path(sys.argv[idx + 1]).resolve()]
+        if not extra_dirs[0].is_dir():
+            print(f"ERROR: not a directory: {extra_dirs[0]}")
+            sys.exit(1)
     if not dry_run:
         print("Running in APPLY mode — Mendeley and PDFs will be modified.")
     else:
         print("Running in DRY RUN mode. Use --apply to make changes.")
-    asyncio.run(main(dry_run=dry_run))
+    asyncio.run(main(dry_run=dry_run, extra_dirs=extra_dirs))

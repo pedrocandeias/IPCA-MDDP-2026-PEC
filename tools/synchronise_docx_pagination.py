@@ -70,6 +70,8 @@ def normalise(text: str) -> str:
         ("interacao", "interaccao"),
         ("extracao", "extraccao"),
         ("direta", "directa"),
+        ("detet", "detect"),
+        ("excec", "excepc"),
     ):
         value = value.replace(modern, manuscript)
     return value
@@ -95,16 +97,32 @@ def stable_identifier(title: str) -> str | None:
     return None
 
 
-def update_table_49_widths(root: etree._Element) -> None:
+def update_parameter_dictionary_widths(root: etree._Element) -> None:
+    """Keep the parameter-dictionary table widths after page synchronisation.
+
+    The caption was originally numbered by chapter (Table 4.9) and is now
+    numbered sequentially (Table 15 after the RTD table was restored). Accept
+    the transitional cached number 14 as well so older exports remain
+    reproducible.
+    """
+
+    accepted_captions = {
+        "Tabela 4.9 — Dicionário operacional dos parâmetros numéricos dos modelos avaliados",
+        "Tabela 14 — Dicionário operacional dos parâmetros numéricos dos modelos avaliados",
+        "Tabela 15 — Dicionário operacional dos parâmetros numéricos dos modelos avaliados",
+    }
     captions = [
         p for p in root.xpath(".//w:p", namespaces=NS)
-        if text_of(p) == "Tabela 4.9 — Dicionário operacional dos parâmetros numéricos dos modelos avaliados"
+        if text_of(p) in accepted_captions
     ]
     if len(captions) != 1:
-        raise RuntimeError(f"Expected one Table 4.9 caption; found {len(captions)}")
+        raise RuntimeError(
+            "Expected one parameter-dictionary table caption; "
+            f"found {len(captions)}"
+        )
     table = captions[0].getnext()
     if table is None or table.tag != qn("tbl"):
-        raise RuntimeError("Table 4.9 does not follow its caption")
+        raise RuntimeError("Parameter-dictionary table does not follow its caption")
     widths = [1650, 1950, 900, 1500, 3100]
     grid_columns = table.xpath("./w:tblGrid/w:gridCol", namespaces=NS)
     if len(grid_columns) != len(widths):
@@ -255,7 +273,7 @@ def apply(document_xml: bytes, extracted_pdf: str, page_offset: int) -> tuple[by
             text_nodes[1].text = value
             updated += 1
 
-    update_table_49_widths(root)
+    update_parameter_dictionary_widths(root)
     return (
         etree.tostring(root, xml_declaration=True, encoding="UTF-8", standalone="yes"),
         updated,
