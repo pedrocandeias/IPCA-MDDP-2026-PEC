@@ -2,6 +2,14 @@
 
 ## [Unreleased]
 
+## [0.5.0] — 2026-07-29
+
+### Added
+- `README.md` — documented the three Mendeley scripts that were missing: the deduplicator (`mendeley_dedupe.py`), the DOI sync (`mendeley_sync_dois.py`) and the new title normaliser (`mendeley_normalise_titles.py`), each with its preview/`--apply` pair. The title normaliser section explains why all-caps titles cannot be fixed automatically when the publisher stores them that way in CrossRef, and how to record the correct spelling in `mendeley_title_overrides.json` (including `null` to exclude a record).
+
+### Fixed
+- `README.md` — the "Running the Scripts" instructions pointed at a folder of unzipped scripts; the `mendeley_*.py` scripts now live in `tools/`. Added the `ModuleNotFoundError: keyring` workaround (use the interpreter at `~/.local/share/uv/tools/mendeley-mcp/bin/python`) and a reminder that no correction reaches the Word document before a Mendeley Cite *Refresh*.
+
 ## [0.4.3] — 2026-05-03
 
 ### Fixed
