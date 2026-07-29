@@ -14,7 +14,8 @@ tools/
 ├── <pontos de entrada>      # os comandos do dia-a-dia, ver abaixo
 ├── conversao/               # formatos derivados (ODT, ligação de citações)
 ├── bibliografia/            # PDFs referenciados e ponte para o Mendeley
-├── mendeley-tools/          # SUBMÓDULO — ferramentas Mendeley independentes
+├── mendeley-tools/          # SUBMÓDULO — organizar e enriquecer a biblioteca
+├── mendeley-downloader/     # SUBMÓDULO — descarregar a biblioteca (fork)
 ├── extraccao/               # extrair figuras, tabelas, comentários, dados
 ├── revisao/                 # revisão linguística e auditoria de citações
 ├── manutencao/              # versão, changelog, paginação, commits
@@ -74,6 +75,31 @@ opção (`--material`, `--md`) ou por variável de ambiente:
 export MENDELEY_MATERIAL=/home/pec/dev/mestrado/material
 export MENDELEY_MANUSCRIPT=/home/pec/dev/mestrado/pedro-candeias-projeto-mestrado-mdddp-ipca-2026-revisto.md
 ```
+
+## `mendeley-downloader/` — descarregar a biblioteca (submódulo)
+
+Aplicação web que autentica na conta Mendeley e descarrega os PDFs da
+biblioteca. É um *fork* de
+[`Davo00/mendeley-downloader`](https://github.com/Davo00/mendeley-downloader)
+(Apache 2.0) em
+[`pedrocandeias/mendeley-downloader`](https://github.com/pedrocandeias/mendeley-downloader),
+com alterações próprias ao *script* principal, ao `Dockerfile` e ao *template*
+da listagem.
+
+```bash
+git submodule update --init tools/mendeley-downloader
+cd tools/mendeley-downloader
+cp config.yml.example config.yml       # preencher clientId e clientSecret
+python3 -m venv venv && ./venv/bin/pip install -r requirements-modern.txt
+./venv/bin/python mendeley-downloader.py
+```
+
+As credenciais são obtidas em <https://dev.mendeley.com/myapps.html>.
+`config.yml` **contém segredos e está no `.gitignore`** do submódulo — nunca o
+versionar. O `venv/` também não é versionado; recria-se com o comando acima.
+
+Complementa as `mendeley-tools`: o *downloader* traz os ficheiros, as
+`mendeley-tools` tratam dos metadados.
 
 ## `extraccao/` — extrair conteúdo dos documentos
 

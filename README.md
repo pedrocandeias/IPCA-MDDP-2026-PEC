@@ -111,6 +111,7 @@ mudar de directório.
 | `tools/conversao/` | Formatos derivados | `md_to_odt.py`, `odt_to_md.py`, `link_citations_to_bibliography.py` |
 | `tools/bibliografia/` | PDFs citados | `consolidate_docx_referenced_pdfs.py`, `fetch_mendeley_referenced_pdfs.py` |
 | `tools/mendeley-tools/` | Biblioteca Mendeley (submódulo) | organizador, enriquecedor, deduplicador, sincronização de DOIs, normalizador de títulos |
+| `tools/mendeley-downloader/` | Descarregar a biblioteca Mendeley (submódulo) | `mendeley-downloader.py` — aplicação web; *fork* de `Davo00/mendeley-downloader` |
 | `tools/extraccao/` | Extrair do documento | `extract_figures_tables.py`, `extract_suggested_assets.py`, `extract_docx_comments.py`, `recover_docx_comments.py`, `extract_print_and_dimensional_tables.py`, `read_xlsx_cells.py`, `generate_missing_pdfs_report.py` |
 | `tools/revisao/` | Revisão e citações | `audit_docx_languagetool.py`, `generate_languagetool_filtered_reports.py`, `harper_lint.mjs`, `grammarly_api.py`, `generate_citation_evidence_sheet.py`, `generate_citation_traceability_sheet.py` |
 | `tools/manutencao/` | Versão e changelog | `version_manuscript.py`, `update_changelog.py`, `commit_from_changelog.py`, `synchronise_docx_pagination.py`, `sync_annex_d_source.py` |
@@ -125,11 +126,15 @@ normalização da biblioteca Mendeley, revisão académica e verificações.
 `./deploy.sh` encadeia os três *scripts* de `tools/manutencao/`: acrescenta a
 entrada ao changelog, incrementa a versão do manuscrito e faz o *commit*.
 
-Num clone novo, o submódulo das ferramentas Mendeley obtém-se com:
+Num clone novo, os submódulos das ferramentas Mendeley obtêm-se com:
 
 ```bash
-git submodule update --init tools/mendeley-tools
+git submodule update --init tools/mendeley-tools tools/mendeley-downloader
 ```
+
+O *downloader* precisa de um `config.yml` com as credenciais da API
+(`cp config.yml.example config.yml`); esse ficheiro contém segredos e não é
+versionado. Ver [`tools/README.md`](tools/README.md) para o arranque completo.
 
 ### Os scripts de `tools/revisoes/`
 

@@ -4,3 +4,6 @@
 [submodule "tools/mendeley-tools"]
 	path = tools/mendeley-tools
 	url = git@github.com:pedrocandeias/mendeley-tools.git
+[submodule "tools/mendeley-downloader"]
+	path = tools/mendeley-downloader
+	url = git@github.com:pedrocandeias/mendeley-downloader.git

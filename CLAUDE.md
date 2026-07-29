@@ -44,7 +44,8 @@ automaticamente.
 │   ├── elicit/               # elicit_*.py
 │   ├── revisoes/             # 95 revisões pontuais já aplicadas — NÃO recorrer
 │   ├── hooks/                # pre-commit versionado
-│   └── mendeley-tools/       # SUBMÓDULO — ver abaixo
+│   ├── mendeley-tools/       # SUBMÓDULO — ver abaixo
+│   └── mendeley-downloader/  # SUBMÓDULO — fork de Davo00/mendeley-downloader
 ├── material/                 # colecção de papers e dados (sem scripts, sem docs)
 │   ├── elicit_missing_papers.csv
 │   ├── figures_tables_index.md        # auto-generated caption index (overwrite freely)
@@ -85,6 +86,22 @@ Ao alterar um script `mendeley_*`:
 `tools/bibliografia/fetch_mendeley_referenced_pdfs.py` pertence ao mestrado mas importa
 `mendeley_enrich` do submódulo, acrescentando-o ao `sys.path` (o hífen do nome
 da pasta impede o *import* directo).
+
+### Submódulo mendeley-downloader
+
+`tools/mendeley-downloader/` é um *fork* de `Davo00/mendeley-downloader`
+(Apache 2.0) em `pedrocandeias/mendeley-downloader`, com alterações próprias.
+Ao alterar algo, fazer *commit* e *push* no *fork* e só depois registar o
+ponteiro aqui. Duas regras:
+
+- `config.yml` contém `clientId`/`clientSecret` e está no `.gitignore` do
+  submódulo — **nunca** versionar nem imprimir o seu conteúdo.
+- `venv/` não é versionado; recria-se a partir de `requirements-modern.txt`.
+
+Se aparecer outra pasta de projecto na raiz, verificar antes de mover se é um
+*gitlink* órfão: `git ls-tree HEAD <pasta>` a devolver modo `160000` sem
+entrada correspondente em `.gitmodules` significa que um clone novo recebe uma
+pasta vazia e que os *commits* locais existem apenas nesse disco.
 
 ## After every change
 
