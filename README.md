@@ -181,6 +181,19 @@ O comando guarda uma cópia de referência, abre o Writer e, quando este fecha, 
 
 Cuidados: fechar as restantes janelas do LibreOffice antes de usar o invólucro; editar prosa à vontade mas evitar alterar texto dentro de uma citação (o Word passa a tratá-la como *manual override*); inserir citações novas continua a fazer-se no Word.
 
+### Normalizar a biblioteca Mendeley
+
+A bibliografia do DOCX é regenerada a partir da biblioteca Mendeley na nuvem, pelo que erros de inserção nos registos — títulos em MAIÚSCULAS, apelidos em maiúsculas, entidades HTML, quebras de linha da extracção de PDF, ponto final, nomes de ficheiro usados como título — passam tal e qual para o manuscrito. A auditoria corre sem escrever nada:
+
+```bash
+python3 tools/mendeley_normalise_titles.py --report /tmp/auditoria.md
+python3 tools/mendeley_normalise_titles.py --overrides tools/mendeley_title_overrides.json --apply
+```
+
+As credenciais vêm do `keyring` usado pelo `mendeley-auth`, que só está instalado no interpretador da ferramenta; se o `python3` do sistema falhar com `ModuleNotFoundError: keyring`, usar `~/.local/share/uv/tools/mendeley-mcp/bin/python` no lugar de `python3`.
+
+O script prefere o título do CrossRef quando o registo tem DOI. Nos casos em que o próprio CrossRef guarda o título em maiúsculas, a grafia correcta é fixada à mão em `tools/mendeley_title_overrides.json` (um valor `null` exclui o registo). A ferramenta é idempotente: uma segunda execução não regrava o que já está correcto. As correções só aparecem no manuscrito depois do *Refresh* do Mendeley Cite no Word.
+
 ### Verificações rápidas
 
 ```bash
