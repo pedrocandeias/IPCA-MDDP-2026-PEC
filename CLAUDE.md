@@ -30,10 +30,20 @@ automaticamente.
 ├── pedro-candeias-projeto-mestrado-mdddp-ipca-2026-revisto.{md,docx,pdf}
 │                              # DOCX = fonte de verdade; MD = espelho; PDF = export
 ├── docs/versoes/             # backups, dated exports and historical documents
-├── tools/                    # todos os scripts (.py/.sh) — nada executável em material/
-│   ├── extract_figures_tables.py      # extracts figure/table captions from all PDFs
-│   ├── organize_toorganize.py, flag_titles.py, rename_pdfs.py
-│   ├── elicit_*.py
+├── deploy.sh                 # único executável fora de tools/ (ponto de entrada)
+├── tools/                    # TODOS os scripts — ver tools/README.md (índice)
+│   ├── backup_docx.sh, docx_to_pdf.sh, editar_docx_libreoffice.sh,
+│   │   word_lo_bridge.py, install_hooks.sh, md_to_docx.py, docx_to_md.py
+│   │                         # pontos de entrada — ficam na raiz de tools/
+│   ├── conversao/            # md_to_odt, odt_to_md, link_citations
+│   ├── bibliografia/         # PDFs citados; ponte para o Mendeley
+│   ├── extraccao/            # extract_figures_tables.py, comentários, tabelas
+│   ├── revisao/              # LanguageTool, Harper, Grammarly, citações
+│   ├── manutencao/           # version_manuscript, update_changelog, paginação
+│   ├── pdfs/                 # organize_toorganize, flag_titles, rename_pdfs
+│   ├── elicit/               # elicit_*.py
+│   ├── revisoes/             # 95 revisões pontuais já aplicadas — NÃO recorrer
+│   ├── hooks/                # pre-commit versionado
 │   └── mendeley-tools/       # SUBMÓDULO — ver abaixo
 ├── material/                 # colecção de papers e dados (sem scripts, sem docs)
 │   ├── elicit_missing_papers.csv
@@ -41,6 +51,18 @@ automaticamente.
 │   ├── figures_tables_suggestions.md  # curated placement suggestions per thesis section
 │   └── <topic folders>/      # organised PDFs
 ```
+
+### Onde colocar um script novo
+
+- Nada de executáveis fora de `tools/` (excepção: `deploy.sh`).
+- Uma correcção pontual ao manuscrito é um **script novo** em `tools/revisoes/`,
+  com o número seguinte — nunca editar um antigo, que é registo histórico.
+- Uma ferramenta reutilizável vai para a subpasta da sua finalidade; só entra na
+  raiz de `tools/` se for para escrever à mão com frequência.
+- Dentro de uma subpasta, a raiz do repositório é
+  `Path(__file__).resolve().parents[2]`. Nunca escrever caminhos absolutos.
+- Ao mover um script, verificar `deploy.sh`, `tools/hooks/pre-commit`,
+  `.claude/settings.local.json` (permissões por caminho) e o README.
 
 ### Submódulo mendeley-tools
 
@@ -60,7 +82,7 @@ Ao alterar um script `mendeley_*`:
 3. Nada de caminhos escritos no código: nenhum script pode assumir que existe um
    manuscrito ou uma pasta `material` ao lado.
 
-`tools/fetch_mendeley_referenced_pdfs.py` pertence ao mestrado mas importa
+`tools/bibliografia/fetch_mendeley_referenced_pdfs.py` pertence ao mestrado mas importa
 `mendeley_enrich` do submódulo, acrescentando-o ao `sys.path` (o hífen do nome
 da pasta impede o *import* directo).
 
@@ -93,7 +115,7 @@ Run these two steps whenever new PDFs are added to `material/` or when the thesi
 **Step 1 — Rebuild the index** (re-extracts captions from all PDFs):
 ```bash
 cd /home/pec/dev/mestrado
-python3 tools/extract_figures_tables.py
+python3 tools/extraccao/extract_figures_tables.py
 ```
 Output: `material/figures_tables_index.md` (overwritten in place). Takes ~2 min for ~370 PDFs.
 
@@ -114,7 +136,7 @@ Claude will spawn an agent that reads both files in chunks and writes the update
 |------|---------|
 | `material/figures_tables_index.md` | Raw index of all captions (auto-generated, overwrite freely) |
 | `material/figures_tables_suggestions.md` | Curated placement suggestions per thesis section (review before use) |
-| `tools/extract_figures_tables.py` | The extraction script (edit to improve caption detection if needed) |
+| `tools/extraccao/extract_figures_tables.py` | The extraction script (edit to improve caption detection if needed) |
 
 ### 5 — Copy anthropometric CSVs to dados antropométricos
 After generating or updating any anthropometric CSV in `/home/pec/dev/ai-parametric-prosthetic-hand-generator/data/`, copy it to:

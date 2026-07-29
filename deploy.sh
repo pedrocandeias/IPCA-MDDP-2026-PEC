@@ -93,16 +93,16 @@ fi
 
 echo "[1/3] Preparing CHANGELOG.md..."
 if [[ "${#changelog_entries[@]}" -gt 0 ]]; then
-  python3 tools/update_changelog.py "${changelog_entries[@]}"
+  python3 tools/manutencao/update_changelog.py "${changelog_entries[@]}"
 elif latest_changelog_differs_from_head; then
   echo "Latest local changelog entry differs from HEAD; using it as the commit message."
 else
   echo "Latest changelog entry already exists in HEAD; generating an automatic entry."
-  python3 tools/update_changelog.py --auto
+  python3 tools/manutencao/update_changelog.py --auto
 fi
 
 echo "[2/3] Creating manuscript snapshot..."
-python3 tools/version_manuscript.py
+python3 tools/manutencao/version_manuscript.py
 
 echo "[3/3] Staging and committing changes..."
-python3 tools/commit_from_changelog.py "${commit_paths[@]}"
+python3 tools/manutencao/commit_from_changelog.py "${commit_paths[@]}"

@@ -92,8 +92,57 @@ A plataforma é apresentada na dissertação como protótipo funcional de invest
 - `material/`: biblioteca local de artigos, normas e materiais de referência; os originais não devem ser sobrescritos.
 - `projecto_completo_bibliografia/`: PDFs associados à bibliografia e lista de publicações ainda sem cópia local.
 - `projecto-completo_media/`: recursos gráficos usados pelo Markdown consolidado.
-- `tools/`: conversores, verificadores e transformações documentais.
+- `tools/`: **todos os scripts do repositório**, organizados por finalidade — ver `tools/README.md` para o índice completo e a secção «Ferramentas» abaixo para os comandos correntes.
 - `archive/` e `recovered/`: materiais históricos ou recuperados; não são fontes activas.
+
+## Ferramentas
+
+Todos os *scripts* do repositório estão em `tools/`, agrupados por finalidade;
+a única excepção é `deploy.sh`, o ponto de entrada de topo. O índice completo,
+com uma linha por ferramenta, está em [`tools/README.md`](tools/README.md).
+
+Os comandos correm-se **a partir da raiz do repositório** — cada *script*
+Python descobre a raiz pela sua própria localização, pelo que não é preciso
+mudar de directório.
+
+| Pasta | Para que serve | Ferramentas |
+| --- | --- | --- |
+| `tools/` (raiz) | Comandos do dia-a-dia | `backup_docx.sh`, `docx_to_pdf.sh`, `editar_docx_libreoffice.sh`, `word_lo_bridge.py`, `install_hooks.sh`, `md_to_docx.py`, `docx_to_md.py` |
+| `tools/conversao/` | Formatos derivados | `md_to_odt.py`, `odt_to_md.py`, `link_citations_to_bibliography.py` |
+| `tools/bibliografia/` | PDFs citados | `consolidate_docx_referenced_pdfs.py`, `fetch_mendeley_referenced_pdfs.py` |
+| `tools/mendeley-tools/` | Biblioteca Mendeley (submódulo) | organizador, enriquecedor, deduplicador, sincronização de DOIs, normalizador de títulos |
+| `tools/extraccao/` | Extrair do documento | `extract_figures_tables.py`, `extract_suggested_assets.py`, `extract_docx_comments.py`, `recover_docx_comments.py`, `extract_print_and_dimensional_tables.py`, `read_xlsx_cells.py`, `generate_missing_pdfs_report.py` |
+| `tools/revisao/` | Revisão e citações | `audit_docx_languagetool.py`, `generate_languagetool_filtered_reports.py`, `harper_lint.mjs`, `grammarly_api.py`, `generate_citation_evidence_sheet.py`, `generate_citation_traceability_sheet.py` |
+| `tools/manutencao/` | Versão e changelog | `version_manuscript.py`, `update_changelog.py`, `commit_from_changelog.py`, `synchronise_docx_pagination.py`, `sync_annex_d_source.py` |
+| `tools/pdfs/` | Colecção de PDFs | `organize_toorganize.py`, `flag_titles.py`, `rename_pdfs.py`, `build_supplements_package.py`, `calcular_resultados_dimensionais_fisicos.py` |
+| `tools/elicit/` | Pesquisa bibliográfica | `elicit_sync.py`, `elicit_download.py`, `elicit_fetch_missing.py`, `elicit_api.py`, `elicit_agent_session_ingest.py` |
+| `tools/revisoes/` | 95 revisões pontuais já aplicadas | histórico — **não voltar a correr** (ver abaixo) |
+| `tools/hooks/` | Git hooks versionados | `pre-commit` (regenera o PDF) |
+
+As secções seguintes descrevem os percursos completos: conversão documental,
+normalização da biblioteca Mendeley, revisão académica e verificações.
+
+`./deploy.sh` encadeia os três *scripts* de `tools/manutencao/`: acrescenta a
+entrada ao changelog, incrementa a versão do manuscrito e faz o *commit*.
+
+Num clone novo, o submódulo das ferramentas Mendeley obtém-se com:
+
+```bash
+git submodule update --init tools/mendeley-tools
+```
+
+### Os scripts de `tools/revisoes/`
+
+Cada um destes 95 *scripts* foi escrito para **uma** alteração concreta ao
+manuscrito e já foi corrido; o sufixo numérico (`_045` … `_113`) dá a ordem de
+aplicação e o `CHANGELOG.md` descreve o resultado de cada um. Foram escritos
+contra uma versão específica do DOCX, pelo que aplicá-los hoje duplicaria
+texto ou corromperia a numeração. Ficam versionados como registo de como cada
+alteração foi feita, e como ponto de partida para escrever a seguinte.
+
+As duas excepções — `integrate_annexes_bc.py` e
+`apply_annex_local_indexes.py` — continuam a ser fluxo de trabalho vivo e
+estão documentadas em «Integração dos Anexos B e C», abaixo.
 
 ## Fluxo de edição do manuscrito
 
@@ -115,7 +164,7 @@ Depois de uma alteração:
 5. acrescentar uma entrada no topo de `CHANGELOG.md`;
 6. executar uma verificação final do pacote DOCX e do PDF.
 
-O repositório contém transformações específicas em `tools/`. Estes scripts registam revisões já aplicadas; não devem ser executados indiscriminadamente sobre uma versão posterior sem confirmar que os seus pontos de inserção ainda correspondem ao documento actual.
+O repositório contém transformações específicas em `tools/revisoes/`. Estes scripts registam revisões já aplicadas; não devem ser executados indiscriminadamente sobre uma versão posterior sem confirmar que os seus pontos de inserção ainda correspondem ao documento actual.
 
 ### Integração dos Anexos B e C
 
@@ -130,16 +179,16 @@ python3 tools/md_to_docx.py \
   sources/manuscript/annexes/adaptacao_parametrica_modelos/anexo_c_adaptacao_parametrica_modelos.md \
   --output sources/manuscript/annexes/adaptacao_parametrica_modelos/anexo_c_adaptacao_parametrica_modelos.docx
 
-python3 tools/integrate_annexes_bc.py \
+python3 tools/revisoes/integrate_annexes_bc.py \
   --markdown pedro-candeias-projeto-mestrado-mdddp-ipca-2026-revisto.md \
   --docx pedro-candeias-projeto-mestrado-mdddp-ipca-2026-revisto.docx
 
-python3 tools/apply_annex_local_indexes.py \
+python3 tools/revisoes/apply_annex_local_indexes.py \
   pedro-candeias-projeto-mestrado-mdddp-ipca-2026-revisto.docx \
   --version 0.4.39
 ```
 
-O integrador impede uma segunda inclusão acidental. O segundo comando conserva no índice principal apenas o título e a página inicial de cada anexo, deslocando as entradas detalhadas para índices próprios no início dos Anexos A, B e C. Depois destas operações, a paginação estática deve ser actualizada a partir de um PDF provisório com `tools/synchronise_docx_pagination.py`.
+O integrador impede uma segunda inclusão acidental. O segundo comando conserva no índice principal apenas o título e a página inicial de cada anexo, deslocando as entradas detalhadas para índices próprios no início dos Anexos A, B e C. Depois destas operações, a paginação estática deve ser actualizada a partir de um PDF provisório com `tools/manutencao/synchronise_docx_pagination.py`.
 
 ## Conversão e verificação documental
 
