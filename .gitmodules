@@ -1,3 +1,6 @@
 [submodule "projects/ai-parametric-prosthetic-hand-generator"]
 	path = projects/ai-parametric-prosthetic-hand-generator
 	url = https://github.com/pedrocandeias/ai-parametric-prosthetic-hand-generator
+[submodule "tools/mendeley-tools"]
+	path = tools/mendeley-tools
+	url = git@github.com:pedrocandeias/mendeley-tools.git

@@ -30,15 +30,39 @@ automaticamente.
 ├── pedro-candeias-projeto-mestrado-mdddp-ipca-2026-revisto.{md,docx,pdf}
 │                              # DOCX = fonte de verdade; MD = espelho; PDF = export
 ├── docs/versoes/             # backups, dated exports and historical documents
-├── material/                 # library management tooling & paper collection
-│   ├── CHANGELOG.md          # tooling changelog (semver)
-│   ├── elicit_missing_papers.csv
-│   ├── organize_toorganize.py
+├── tools/                    # todos os scripts (.py/.sh) — nada executável em material/
 │   ├── extract_figures_tables.py      # extracts figure/table captions from all PDFs
+│   ├── organize_toorganize.py, flag_titles.py, rename_pdfs.py
+│   ├── elicit_*.py
+│   └── mendeley-tools/       # SUBMÓDULO — ver abaixo
+├── material/                 # colecção de papers e dados (sem scripts, sem docs)
+│   ├── elicit_missing_papers.csv
 │   ├── figures_tables_index.md        # auto-generated caption index (overwrite freely)
 │   ├── figures_tables_suggestions.md  # curated placement suggestions per thesis section
 │   └── <topic folders>/      # organised PDFs
 ```
+
+### Submódulo mendeley-tools
+
+Os scripts Mendeley são ferramentas independentes, com repositório próprio
+(`github.com/pedrocandeias/mendeley-tools`), consumidas aqui como submódulo em
+`tools/mendeley-tools/`. Não são específicas deste manuscrito e não devem
+passar a ser: os caminhos do projecto entram por `--material` e `--md`, ou
+pelas variáveis `MENDELEY_MATERIAL` e `MENDELEY_MANUSCRIPT`.
+
+Ao alterar um script `mendeley_*`:
+
+1. Editar dentro de `tools/mendeley-tools/` e actualizar aí o `README.md` (guia
+   de utilizador, em inglês e para leitores não técnicos) e o `CHANGELOG.md`
+   (semver) — **não** o README da raiz nem `material/`.
+2. Fazer *commit* e *push* no submódulo primeiro, depois registar o novo ponteiro
+   no repositório do mestrado (`git add tools/mendeley-tools`).
+3. Nada de caminhos escritos no código: nenhum script pode assumir que existe um
+   manuscrito ou uma pasta `material` ao lado.
+
+`tools/fetch_mendeley_referenced_pdfs.py` pertence ao mestrado mas importa
+`mendeley_enrich` do submódulo, acrescentando-o ao `sys.path` (o hífen do nome
+da pasta impede o *import* directo).
 
 ## After every change
 
@@ -68,8 +92,8 @@ Run these two steps whenever new PDFs are added to `material/` or when the thesi
 
 **Step 1 — Rebuild the index** (re-extracts captions from all PDFs):
 ```bash
-cd /home/pec/dev/mestrado/material
-python3 extract_figures_tables.py
+cd /home/pec/dev/mestrado
+python3 tools/extract_figures_tables.py
 ```
 Output: `material/figures_tables_index.md` (overwritten in place). Takes ~2 min for ~370 PDFs.
 

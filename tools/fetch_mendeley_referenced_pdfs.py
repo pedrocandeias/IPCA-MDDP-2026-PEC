@@ -14,7 +14,12 @@ from pathlib import Path
 import fitz
 
 from consolidate_docx_referenced_pdfs import DOI_RE, clean_doi, norm, tokens
-from mendeley_enrich import MendeleyAPI, load_credentials
+
+# Os scripts Mendeley vivem no submódulo tools/mendeley-tools (repositório
+# github.com/pedrocandeias/mendeley-tools), cujo nome com hífen não é
+# importável directamente.
+sys.path.insert(0, str(Path(__file__).resolve().parent / "mendeley-tools"))
+from mendeley_enrich import MendeleyAPI, load_credentials  # noqa: E402
 
 
 ROOT = Path(__file__).resolve().parents[1]

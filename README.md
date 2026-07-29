@@ -185,14 +185,29 @@ Cuidados: fechar as restantes janelas do LibreOffice antes de usar o invólucro;
 
 A bibliografia do DOCX é regenerada a partir da biblioteca Mendeley na nuvem, pelo que erros de inserção nos registos — títulos em MAIÚSCULAS, apelidos em maiúsculas, entidades HTML, quebras de linha da extracção de PDF, ponto final, nomes de ficheiro usados como título — passam tal e qual para o manuscrito. A auditoria corre sem escrever nada:
 
+Os scripts Mendeley são ferramentas independentes, mantidas no repositório
+[`mendeley-tools`](https://github.com/pedrocandeias/mendeley-tools) e usadas aqui como submódulo em `tools/mendeley-tools/`. Num clone novo, obtêm-se com:
+
 ```bash
-python3 tools/mendeley_normalise_titles.py --report /tmp/auditoria.md
-python3 tools/mendeley_normalise_titles.py --overrides tools/mendeley_title_overrides.json --apply
+git submodule update --init tools/mendeley-tools
+```
+
+```bash
+cd tools/mendeley-tools
+python3 mendeley_normalise_titles.py --report /tmp/auditoria.md
+python3 mendeley_normalise_titles.py --overrides mendeley_title_overrides.json --apply
 ```
 
 As credenciais vêm do `keyring` usado pelo `mendeley-auth`, que só está instalado no interpretador da ferramenta; se o `python3` do sistema falhar com `ModuleNotFoundError: keyring`, usar `~/.local/share/uv/tools/mendeley-mcp/bin/python` no lugar de `python3`.
 
-O script prefere o título do CrossRef quando o registo tem DOI. Nos casos em que o próprio CrossRef guarda o título em maiúsculas, a grafia correcta é fixada à mão em `tools/mendeley_title_overrides.json` (um valor `null` exclui o registo). A ferramenta é idempotente: uma segunda execução não regrava o que já está correcto. As correções só aparecem no manuscrito depois do *Refresh* do Mendeley Cite no Word.
+Como as ferramentas não pressupõem este repositório, os caminhos deste projecto indicam-se por opção — `--material` para a pasta dos PDFs e `--md` para a bibliografia do manuscrito — ou uma vez por sessão:
+
+```bash
+export MENDELEY_MATERIAL=/home/pec/dev/mestrado/material
+export MENDELEY_MANUSCRIPT=/home/pec/dev/mestrado/pedro-candeias-projeto-mestrado-mdddp-ipca-2026-revisto.md
+```
+
+O script prefere o título do CrossRef quando o registo tem DOI. Nos casos em que o próprio CrossRef guarda o título em maiúsculas, a grafia correcta é fixada à mão em `mendeley_title_overrides.json` (um valor `null` exclui o registo). A ferramenta é idempotente: uma segunda execução não regrava o que já está correcto. As correções só aparecem no manuscrito depois do *Refresh* do Mendeley Cite no Word. O guia completo das cinco ferramentas está em `tools/mendeley-tools/README.md`.
 
 ### Verificações rápidas
 
