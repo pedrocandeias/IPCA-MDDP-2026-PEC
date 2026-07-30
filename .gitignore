@@ -7,3 +7,4 @@ recovered/
 .lo-*/
 __pycache__/
 *.pyc
+tools/.local/
