@@ -1,4 +1,4 @@
-# projecto_completo_bibliografia
+# material/bibliografia
 
 - Documento de origem: `pedro-candeias-projeto-mestrado-mdddp-ipca-2026-revisto.docx`
 - Entradas bibliográficas identificadas: 169

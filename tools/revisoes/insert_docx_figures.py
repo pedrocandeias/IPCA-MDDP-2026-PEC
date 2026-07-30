@@ -33,17 +33,17 @@ EMU_PER_INCH = 914400
 
 
 FIGURES = [
-    ("Figura 2.1", "figuras/ch2_3d_printed_upper_limb_prostheses_a_figure2_p5.png"),
-    ("Figura 2.2", "figuras/ch2_prosthesis_rejection_in_acquired_ma_figure1_p4.png"),
-    ("Figura 2.3", "figuras/ch2_a_scoping_review_of_digital_fabrica_figure1_p2.png"),
-    ("Figura 2.4", "figuras/ch2_implementation_of_3d_printing_techn_figure5_p8.png"),
-    ("Figura 2.5", "figuras/ch2_2d_and_3d_anatomical_analyses_of_ha_figure1_p3.png"),
-    ("Figura 2.6", "figuras/ch2_ai_driven_computer_aided_design_cad_figure1_p6.png"),
-    ("Figura 2.7", "figuras/ch2_a_framework_for_configuring_partici_figure1_p4.png"),
-    ("Figura 2.8", "figuras/ch2_a_scoping_review_of_digital_fabrica_figure10_p9.png"),
-    ("Figura 3.1", "figuras/ch3_an_undergraduate_engineering_servic_figure1_p4.png"),
-    ("Figura 4.1", "figuras/ch4_parametric_3d_modeling_of_a_customi_figure3_p2.png"),
-    ("Figura 4.2", "figuras/ch4_customization_of_a_3d_printed_prost_figure8_p7.png"),
+    ("Figura 2.1", "componentes/figuras/ch2_3d_printed_upper_limb_prostheses_a_figure2_p5.png"),
+    ("Figura 2.2", "componentes/figuras/ch2_prosthesis_rejection_in_acquired_ma_figure1_p4.png"),
+    ("Figura 2.3", "componentes/figuras/ch2_a_scoping_review_of_digital_fabrica_figure1_p2.png"),
+    ("Figura 2.4", "componentes/figuras/ch2_implementation_of_3d_printing_techn_figure5_p8.png"),
+    ("Figura 2.5", "componentes/figuras/ch2_2d_and_3d_anatomical_analyses_of_ha_figure1_p3.png"),
+    ("Figura 2.6", "componentes/figuras/ch2_ai_driven_computer_aided_design_cad_figure1_p6.png"),
+    ("Figura 2.7", "componentes/figuras/ch2_a_framework_for_configuring_partici_figure1_p4.png"),
+    ("Figura 2.8", "componentes/figuras/ch2_a_scoping_review_of_digital_fabrica_figure10_p9.png"),
+    ("Figura 3.1", "componentes/figuras/ch3_an_undergraduate_engineering_servic_figure1_p4.png"),
+    ("Figura 4.1", "componentes/figuras/ch4_parametric_3d_modeling_of_a_customi_figure3_p2.png"),
+    ("Figura 4.2", "componentes/figuras/ch4_customization_of_a_3d_printed_prost_figure8_p7.png"),
 ]
 
 

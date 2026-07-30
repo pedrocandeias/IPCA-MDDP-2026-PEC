@@ -8,7 +8,7 @@ ROOT = Path(__file__).resolve().parents[2]
 MANUSCRIPT = ROOT / "pedro-candeias-projeto-mestrado-mdddp-ipca-2026-revisto.md"
 ANNEX = (
     ROOT
-    / "anexos/testes_preparacao_impressao"
+    / "componentes/anexos/testes_preparacao_impressao"
     / "anexo_d_preparacao_impressao.md"
 )
 
@@ -21,8 +21,8 @@ def main() -> None:
     manuscript = MANUSCRIPT.read_text(encoding="utf-8")
     annex = ANNEX.read_text(encoding="utf-8").strip()
     annex = annex.replace(
-        "](figuras/",
-        "](anexos/testes_preparacao_impressao/figuras/",
+        "](componentes/figuras/",
+        "](componentes/anexos/testes_preparacao_impressao/figuras/",
     )
 
     marker = "\n# Anexo D —"

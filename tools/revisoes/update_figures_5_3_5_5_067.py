@@ -17,15 +17,15 @@ DOCX = ROOT / "pedro-candeias-projeto-mestrado-mdddp-ipca-2026-revisto.docx"
 
 MEDIA = {
     "word/media/image19.png": (
-        ROOT / "figuras/arquitectura_plataforma_parametrica.png",
+        ROOT / "componentes/figuras/arquitectura_plataforma_parametrica.png",
         (3375, 2025),
     ),
     "word/media/image20.png": (
-        ROOT / "figuras/sequencia_perfil_ia_openscad_exportacao.png",
+        ROOT / "componentes/figuras/sequencia_perfil_ia_openscad_exportacao.png",
         (1809, 1572),
     ),
     "word/media/image21.png": (
-        ROOT / "figuras/figura_5_5_fluxo_producao_personalizada.png",
+        ROOT / "componentes/figuras/figura_5_5_fluxo_producao_personalizada.png",
         (2337, 1194),
     ),
 }

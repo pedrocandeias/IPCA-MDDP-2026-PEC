@@ -24,7 +24,7 @@ from mendeley_enrich import MendeleyAPI, load_credentials  # noqa: E402
 
 ROOT = Path(__file__).resolve().parents[2]
 DEFAULT_RESULTS = Path("/tmp/consolidation_verify2.json")
-DEFAULT_TARGET = ROOT / "projecto_completo_bibliografia"
+DEFAULT_TARGET = ROOT / "material/bibliografia"
 
 
 def document_dois(document: dict) -> set[str]:

@@ -176,7 +176,7 @@ INTRO_49 = (
 )
 
 SUPPLEMENT_49 = (
-    "O suplemento anexos/dicionario_parametros_v14.67.0/parameter_dictionary.csv "
+    "O suplemento componentes/anexos/dicionario_parametros_v14.67.0/parameter_dictionary.csv "
     "preserva as 42 declarações numéricas sem agrupamento, incluindo incremento, grupo funcional, designação "
     "e descrição em português, papel determinístico e exclusão da IA. A tabela no corpo agrupa apenas "
     "variáveis com a mesma origem, intervalo e transformação para manter a legibilidade."
@@ -211,7 +211,7 @@ AFTER_410 = [
     "propriedade explícita da transformação implementada e mostra por que razão a correspondência entre nome "
     "antropométrico e dimensão final deve ser calibrada antes de qualquer afirmação de ajuste anatómico.",
     "Os ficheiros params.json, palm.3mf, middle_base.3mf, middle_tip.3mf e trace.json, os respectivos valores "
-    "SHA-256 e o dicionário completo encontram-se em anexos/"
+    "SHA-256 e o dicionário completo encontram-se em componentes/anexos/"
     "dicionario_parametros_v14.67.0/. O percurso é reproduzível ao nível do artefacto arquivado e do cálculo; "
     "permanece uma verificação técnica com perfil de ensaio, sem avaliação de conforto, função, segurança ou "
     "validade clínica.",

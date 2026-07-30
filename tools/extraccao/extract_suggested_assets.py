@@ -1,7 +1,7 @@
 """
 Extract figures (as PNG images) and tables (as Markdown) referenced in
-figures_tables_suggestions.md into the repository-root ./figuras/ and
-./tabelas/ folders.
+figures_tables_suggestions.md into ./figuras/ (images) and
+material/tabelas-extraidas/ (tables extracted from the papers).
 
 Usage:
     python3 tools/extraccao/extract_suggested_assets.py
@@ -16,12 +16,11 @@ from difflib import SequenceMatcher
 from pathlib import Path
 
 # ── Config ───────────────────────────────────────────────────────────────────
-TOOLS_DIR = Path(__file__).resolve().parent
-ROOT      = TOOLS_DIR.parent
+ROOT      = Path(__file__).resolve().parents[2]
 MATERIAL_DIR = ROOT / "material"
 SUGG_FILE = MATERIAL_DIR / "figures_tables_suggestions.md"
-FIG_DIR   = ROOT / "figuras"
-TAB_DIR   = ROOT / "tabelas"
+FIG_DIR   = ROOT / "componentes" / "figuras"
+TAB_DIR   = MATERIAL_DIR / "tabelas-extraidas"
 MIN_IMG_W = 80    # pixels — skip tiny decorative images
 MIN_IMG_H = 80
 FUZZY_THR = 0.40  # minimum match ratio for title → filename

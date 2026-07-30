@@ -147,7 +147,7 @@ def main() -> None:
     canonical = root / "pedro-candeias-projeto-mestrado-mdddp-ipca-2026-revisto.docx"
     annex = (
         root
-        / "anexos/testes_preparacao_impressao"
+        / "componentes/anexos/testes_preparacao_impressao"
         / "anexo_d_preparacao_impressao.docx"
     )
     print(f"DOCX canónico: {rewrite(canonical, ROOT_REPLACEMENTS, update_version=True)} alterações")

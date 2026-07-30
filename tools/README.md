@@ -21,7 +21,7 @@ tools/
 ├── manutencao/              # versão, changelog, paginação, commits
 ├── pdfs/                    # organizar a colecção de PDFs e suplementos
 ├── elicit/                  # pesquisa bibliográfica via Elicit
-├── revisoes/                # 95 scripts de revisão pontual (histórico)
+├── revisoes/                # 96 scripts de revisão pontual (histórico)
 └── hooks/                   # git hooks versionados
 ```
 
@@ -106,7 +106,7 @@ Complementa as `mendeley-tools`: o *downloader* traz os ficheiros, as
 | Script | O que faz |
 |---|---|
 | `extract_figures_tables.py` | Percorre os PDFs de `material/` e escreve `material/figures_tables_index.md` (~2 min para ~370 PDFs) |
-| `extract_suggested_assets.py` | Lê `figures_tables_suggestions.md` e extrai as imagens e tabelas propostas para `figuras/` e `tabelas/` |
+| `extract_suggested_assets.py` | Lê `figures_tables_suggestions.md` e extrai as imagens e tabelas propostas para `componentes/figuras/` e `tabelas/` |
 | `extract_docx_comments.py` | Exporta os comentários do DOCX |
 | `recover_docx_comments.py` | Recupera comentários de um DOCX danificado |
 | `extract_print_and_dimensional_tables.py` | Extrai as tabelas de impressão e as dimensionais |
@@ -156,10 +156,10 @@ Os três primeiros são orquestrados por `./deploy.sh` — ver a raiz do reposit
 | `elicit_api.py` | Camada de acesso à API (não se corre directamente) |
 | `elicit_agent_session_ingest.py` | Importa uma sessão de agente do Elicit |
 
-## `revisoes/` — 95 revisões pontuais (histórico)
+## `revisoes/` — 96 revisões pontuais (histórico)
 
 Cada um destes *scripts* foi escrito para **uma** alteração concreta ao
-manuscrito e já foi corrido. O sufixo numérico (`_045` … `_113`) corresponde à
+manuscrito e já foi corrido. O sufixo numérico (`_045` … `_114`) corresponde à
 ordem em que foram aplicados e as entradas do `CHANGELOG.md` descrevem o
 resultado de cada um.
 

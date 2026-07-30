@@ -15,42 +15,42 @@ from PIL import Image
 
 ROOT = Path(__file__).resolve().parents[2]
 CANONICAL = ROOT / "pedro-candeias-projeto-mestrado-mdddp-ipca-2026-revisto.docx"
-ANNEX = ROOT / "anexos/adaptacao_parametrica_modelos/anexo_c_adaptacao_parametrica_modelos.docx"
+ANNEX = ROOT / "componentes/anexos/adaptacao_parametrica_modelos/anexo_c_adaptacao_parametrica_modelos.docx"
 
 CANONICAL_MEDIA = {
     "word/media/image5.jpeg": (
-        ROOT / "figuras/figura_2_2_utilizacao_rejeicao_proteses_estilizada.jpeg",
+        ROOT / "componentes/figuras/figura_2_2_utilizacao_rejeicao_proteses_estilizada.jpeg",
         (2160, 1458),
     ),
     "word/media/image6.png": (
-        ROOT / "figuras/figura_2_3_fluxo_digital_proteses_estilizada.png",
+        ROOT / "componentes/figuras/figura_2_3_fluxo_digital_proteses_estilizada.png",
         (2394, 1623),
     ),
     "word/media/image9.png": (
-        ROOT / "figuras/figura_2_6_fluxo_cad_ia_estilizado.png",
+        ROOT / "componentes/figuras/figura_2_6_fluxo_cad_ia_estilizado.png",
         (2608, 1124),
     ),
     "word/media/image10.png": (
-        ROOT / "figuras/figura_2_7_participacao_cocriacao_estilizada.png",
+        ROOT / "componentes/figuras/figura_2_7_participacao_cocriacao_estilizada.png",
         (2032, 1048),
     ),
     "word/media/image12.png": (
-        ROOT / "figuras/figura_3_1_processo_interdisciplinar_estilizada.png",
+        ROOT / "componentes/figuras/figura_3_1_processo_interdisciplinar_estilizada.png",
         (2070, 744),
     ),
     "word/media/image28.png": (
-        ROOT / "figuras/figura_6_1_ia_responsavel_estilizada.png",
+        ROOT / "componentes/figuras/figura_6_1_ia_responsavel_estilizada.png",
         (2782, 978),
     ),
     "word/media/image34.png": (
-        ROOT / "figuras/figura_c1_fluxo_adaptacao_parametrica.png",
+        ROOT / "componentes/figuras/figura_c1_fluxo_adaptacao_parametrica.png",
         (1800, 1035),
     ),
 }
 
 ANNEX_MEDIA = {
     "word/media/image1.png": (
-        ROOT / "figuras/figura_c1_fluxo_adaptacao_parametrica.png",
+        ROOT / "componentes/figuras/figura_c1_fluxo_adaptacao_parametrica.png",
         (1800, 1035),
     ),
 }

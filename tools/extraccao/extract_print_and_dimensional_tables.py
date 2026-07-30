@@ -36,7 +36,7 @@ def parse_args() -> argparse.Namespace:
         "--annex-dir",
         type=Path,
         default=Path(
-            "anexos/testes_preparacao_impressao"
+            "componentes/anexos/testes_preparacao_impressao"
         ),
     )
     return parser.parse_args()

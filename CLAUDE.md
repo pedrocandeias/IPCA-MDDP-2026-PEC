@@ -18,10 +18,10 @@ O manuscrito existe em três ficheiros com papéis distintos — usar sempre
   bibliografia devem ser preservadas.
 - **PDF** (`…revisto.pdf`) — export para entrega, regenerado a partir do DOCX.
 
-As imagens do manuscrito vivem em `figuras/`; as 19 do Anexo D ficam dentro de
-`anexos/testes_preparacao_impressao/figuras/` porque esse anexo é autónomo (tem
+As imagens do manuscrito vivem em `componentes/figuras/`; as 19 do Anexo D ficam dentro de
+`componentes/anexos/testes_preparacao_impressao/figuras/` porque esse anexo é autónomo (tem
 DOCX e PDF próprios e links relativos). `tools/docx_to_md.py` extrai para
-`figuras/` por omissão — não criar pastas `*_media/` paralelas.
+`componentes/figuras/` por omissão — não criar pastas `*_media/` paralelas.
 
 A numeração de figuras e tabelas é sequencial contínua (Figura 1…, Tabela 1…),
 como no DOCX; os anexos usam numeração por letra (B.1, C.1, D.1…). Os números
@@ -35,9 +35,15 @@ automaticamente.
 ├── pedro-candeias-projeto-mestrado-mdddp-ipca-2026-revisto.{md,docx,pdf}
 │                              # DOCX = fonte de verdade; MD = espelho; PDF = export
 ├── docs/versoes/             # backups, dated exports and historical documents
-├── figuras/                  # TODAS as imagens que entram no DOCX (+ fontes)
-├── anexos/                   # fontes editáveis dos Anexos A–D (entram no DOCX)
-├── suplementos/              # pacotes suplementares de entrega
+├── componentes/              # TUDO o que é embebido no DOCX
+│   ├── figuras/             # as 52 imagens do manuscrito
+│   ├── tabelas/             # fontes editáveis das tabelas
+│   └── anexos/              # Anexos A–D, integrados no corpo do DOCX
+├── material/                # tudo o que foi usado para produzir a tese
+│   ├── bibliografia/        # PDFs das obras citadas
+│   ├── tabelas-extraidas/   # tabelas retiradas dos artigos (investigação)
+│   └── <pastas temáticas>/  # papers organizados
+├── suplementos/             # entrega autónoma que acompanha a dissertação
 ├── deploy.sh                 # único executável fora de tools/ (ponto de entrada)
 ├── tools/                    # TODOS os scripts — ver tools/README.md (índice)
 │   ├── backup_docx.sh, docx_to_pdf.sh, editar_docx_libreoffice.sh,

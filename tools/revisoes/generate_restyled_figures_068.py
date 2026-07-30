@@ -12,7 +12,7 @@ from PIL import Image
 
 
 ROOT = Path(__file__).resolve().parents[2]
-FIGURES = ROOT / "figuras"
+FIGURES = ROOT / "componentes" / "figuras"
 
 INK = "#1f2933"
 LINE = "#59636d"

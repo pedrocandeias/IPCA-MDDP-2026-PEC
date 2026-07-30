@@ -20,8 +20,8 @@ from update_oldfrey_scope_099 import NS, qn, sensitive_state, set_space, text_of
 ROOT = Path(__file__).resolve().parents[2]
 MD = ROOT / "pedro-candeias-projeto-mestrado-mdddp-ipca-2026-revisto.md"
 DOCX = ROOT / "pedro-candeias-projeto-mestrado-mdddp-ipca-2026-revisto.docx"
-IMAGE_59 = ROOT / "figuras/perfis-antropometricos-handfab.png"
-IMAGE_510 = ROOT / "figuras/editor-adicao-perfis-antropometricos-handfab.png"
+IMAGE_59 = ROOT / "componentes/figuras/perfis-antropometricos-handfab.png"
+IMAGE_510 = ROOT / "componentes/figuras/editor-adicao-perfis-antropometricos-handfab.png"
 
 W = "http://schemas.openxmlformats.org/wordprocessingml/2006/main"
 R = "http://schemas.openxmlformats.org/officeDocument/2006/relationships"
@@ -74,9 +74,9 @@ LIST_510_MD = (
 )
 INSERT_MD = (
     f"{EXPLANATION}\n\n"
-    "![](figuras/perfis-antropometricos-handfab.png)\n\n"
+    "![](componentes/figuras/perfis-antropometricos-handfab.png)\n\n"
     f"{CAPTION_59}\n\n{SOURCE}\n\n"
-    "![](figuras/editor-adicao-perfis-antropometricos-handfab.png)\n\n"
+    "![](componentes/figuras/editor-adicao-perfis-antropometricos-handfab.png)\n\n"
     f"{CAPTION_510}\n\n{SOURCE}"
 )
 

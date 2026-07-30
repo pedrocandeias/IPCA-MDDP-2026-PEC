@@ -46,7 +46,7 @@ Os marcadores internos com a forma `(#ref-...)` foram retirados do texto e do DO
 
 ## 4. Fontes sem ficheiro local confirmado
 
-As referências seguintes constam da bibliografia, mas não foi localizado um PDF correspondente em `material/` ou `projecto_completo_bibliografia/`:
+As referências seguintes constam da bibliografia, mas não foi localizado um PDF correspondente em `material/` ou `material/bibliografia/`:
 
 1. Atallah et al. (2025), *The current state of 3D-printed prostheses clinical outcomes: A systematic review*.
 2. Bustamante et al. (2018), *A parametric 3D-printed body-powered hand prosthesis based on the four-bar linkage mechanism*.
@@ -72,7 +72,7 @@ Os elementos seguintes são recursos digitais ou software, pelo que pode não ex
 4. OpenSCAD Project (s.d.-a), sítio oficial do OpenSCAD.
 5. OpenSCAD Project (s.d.-b), repositório oficial do código do OpenSCAD.
 
-O PDF de Wendo et al. (2022) foi localizado em `projecto_completo_bibliografia/` e retirado da lista de faltas.
+O PDF de Wendo et al. (2022) foi localizado em `material/bibliografia/` e retirado da lista de faltas.
 
 ## 5. Elementos adicionais que reforçariam a dissertação
 

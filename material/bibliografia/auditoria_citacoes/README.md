@@ -64,17 +64,17 @@ O índice, a bibliografia final e a lista de referências normativas foram exclu
 
 ```bash
 python3 tools/generate_citation_evidence_sheet.py \
-  --docx projecto_completo_bibliografia/auditoria_citacoes/pedro-candeias-projeto-mestrado-mdddp-ipca-2026-revisto_fonte_2026-07-22_20-36-42.docx \
-  --pdf projecto_completo_bibliografia/auditoria_citacoes/pedro-candeias-projeto-mestrado-mdddp-ipca-2026-revisto_fonte_2026-07-22_20-36-42.pdf \
-  --manifest projecto_completo_bibliografia/copied_matches.json \
-  --reviewed-workbook projecto_completo_bibliografia/auditoria_citacoes/rastreabilidade_citacoes.xlsx \
-  --output projecto_completo_bibliografia/auditoria_citacoes/referencias_evidencia_docx_2026-07-22.xlsx
+  --docx material/bibliografia/auditoria_citacoes/pedro-candeias-projeto-mestrado-mdddp-ipca-2026-revisto_fonte_2026-07-22_20-36-42.docx \
+  --pdf material/bibliografia/auditoria_citacoes/pedro-candeias-projeto-mestrado-mdddp-ipca-2026-revisto_fonte_2026-07-22_20-36-42.pdf \
+  --manifest material/bibliografia/copied_matches.json \
+  --reviewed-workbook material/bibliografia/auditoria_citacoes/rastreabilidade_citacoes.xlsx \
+  --output material/bibliografia/auditoria_citacoes/referencias_evidencia_docx_2026-07-22.xlsx
 ```
 
 O comando anterior documenta a criação da matriz de base e a proveniência histórica das 77 classificações preexistentes; não fez parte da revisão independente Codex das restantes 340 linhas. Essa passagem é reproduzida separadamente, sem aceitar o ficheiro de rastreabilidade como entrada:
 
 ```bash
 python3 tools/apply_independent_citation_classifications.py \
-  --workbook projecto_completo_bibliografia/auditoria_citacoes/referencias_evidencia_docx_2026-07-22.xlsx \
-  --decisions projecto_completo_bibliografia/auditoria_citacoes/classificacoes_codex_340_independentes_2026-07-23.json
+  --workbook material/bibliografia/auditoria_citacoes/referencias_evidencia_docx_2026-07-22.xlsx \
+  --decisions material/bibliografia/auditoria_citacoes/classificacoes_codex_340_independentes_2026-07-23.json
 ```

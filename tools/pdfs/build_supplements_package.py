@@ -176,7 +176,7 @@ def prepare_output() -> None:
 
 
 def add_s1(records: list[dict[str, str]]) -> None:
-    base = ROOT / "anexos/dados_antropometricos_v14.67.0"
+    base = ROOT / "componentes/anexos/dados_antropometricos_v14.67.0"
     write_generated(
         "01_dados_antropometricos/descricao_do_suplemento_1.md",
         S1_GUIDE,
@@ -199,7 +199,7 @@ def add_s1(records: list[dict[str, str]]) -> None:
 
 
 def add_s2(records: list[dict[str, str]]) -> None:
-    base = ROOT / "anexos/testes_plataforma"
+    base = ROOT / "componentes/anexos/testes_plataforma"
     write_generated(
         "02_avaliacao_plataforma/descricao_do_suplemento_2.md",
         S2_GUIDE,
@@ -325,7 +325,7 @@ def add_s2(records: list[dict[str, str]]) -> None:
 
 
 def add_s3(records: list[dict[str, str]]) -> None:
-    base = ROOT / "anexos/dicionario_parametros_v14.67.0"
+    base = ROOT / "componentes/anexos/dicionario_parametros_v14.67.0"
     write_generated(
         "03_parametrizacao_percurso/descricao_do_suplemento_3.md",
         S3_GUIDE,
@@ -359,7 +359,7 @@ def add_s3(records: list[dict[str, str]]) -> None:
 
 
 def add_s4(records: list[dict[str, str]]) -> None:
-    base = ROOT / "anexos/testes_preparacao_impressao"
+    base = ROOT / "componentes/anexos/testes_preparacao_impressao"
     write_generated(
         "04_preparacao_impressao_prototipos/descricao_do_suplemento_4.md",
         S4_GUIDE,
@@ -491,7 +491,7 @@ def add_s4(records: list[dict[str, str]]) -> None:
     )
     for name in photo_names:
         copy_file(
-            ROOT / "figuras" / name,
+            ROOT / "componentes" / "figuras" / name,
             f"04_preparacao_impressao_prototipos/fotografias_originais/{name}",
             "S4",
             "Fotografia original dos protótipos e componentes produzidos",

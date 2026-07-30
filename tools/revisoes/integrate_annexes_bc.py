@@ -30,12 +30,12 @@ REL = "http://schemas.openxmlformats.org/package/2006/relationships"
 NS = {"w": W, "r": R, "a": A, "wp": WP, "pic": PIC, "rel": REL}
 
 ANNEX_B_MD = Path(
-    "anexos/testes_plataforma/"
+    "componentes/anexos/testes_plataforma/"
     "anexo_b_avaliacao_processo_interface_handfab.md"
 )
 ANNEX_B_DOCX = ANNEX_B_MD.with_suffix(".docx")
 ANNEX_C_MD = Path(
-    "anexos/adaptacao_parametrica_modelos/"
+    "componentes/anexos/adaptacao_parametrica_modelos/"
     "anexo_c_adaptacao_parametrica_modelos.md"
 )
 ANNEX_C_DOCX = ANNEX_C_MD.with_suffix(".docx")
@@ -417,7 +417,7 @@ def integrate_markdown(main_path: Path, annex_b: Path, annex_c: Path) -> None:
     b_text = annex_b.read_text(encoding="utf-8").strip()
     c_text = annex_c.read_text(encoding="utf-8").strip().replace(
         "](../../../../figuras/figura_c1_fluxo_adaptacao_parametrica.png)",
-        "](figuras/figura_c1_fluxo_adaptacao_parametrica.png)",
+        "](componentes/figuras/figura_c1_fluxo_adaptacao_parametrica.png)",
     )
 
     table_captions = re.findall(r"^(Tabela [BC]\.\d+ — .+)$", b_text + "\n" + c_text, re.M)

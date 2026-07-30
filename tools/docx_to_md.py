@@ -23,10 +23,10 @@ R_EMBED = f"{{{WORD_NS['r']}}}embed"
 R_LINK = f"{{{WORD_NS['r']}}}link"
 REPO_ROOT = Path(__file__).resolve().parent.parent
 DEFAULT_OUTPUT_DIR = REPO_ROOT / "docs"
-# As imagens do manuscrito vivem todas em figuras/. Extrair para
+# As imagens do manuscrito vivem todas em componentes/figuras/. Extrair para
 # `<nome>_media/` ao lado do Markdown espalharia-as por uma pasta nova a cada
 # conversão — foi assim que nasceu `projecto-completo_media/`.
-DEFAULT_MEDIA_DIR = REPO_ROOT / "figuras"
+DEFAULT_MEDIA_DIR = REPO_ROOT / "componentes" / "figuras"
 
 
 class DocxConversionError(RuntimeError):
@@ -160,12 +160,12 @@ def write_embedded_image(
 
     media_dir.mkdir(parents=True, exist_ok=True)
     suffix = Path(target).suffix or ".bin"
-    # Prefixar com o nome do DOCX: `figuras/` guarda imagens curadas e um
+    # Prefixar com o nome do DOCX: `componentes/figuras/` guarda imagens curadas e um
     # `image01.png` genérico apagaria uma delas.
     filename = f"{name_prefix}image{image_index:02d}{suffix.lower()}"
     output_path = media_dir / filename
     output_path.write_bytes(data)
-    # media_dir pode estar fora de output_dir (figuras/ vs docs/), pelo que a
+    # media_dir pode estar fora de output_dir (componentes/figuras/ vs docs/), pelo que a
     # ligação tem de ser relativa nos dois sentidos.
     relative = Path(os.path.relpath(output_path, output_dir)).as_posix()
     return relative
@@ -286,7 +286,7 @@ def parse_args() -> argparse.Namespace:
         "--media-dir",
         type=Path,
         help="Directory for images extracted from the DOCX. Defaults to the "
-             "repository figuras/ directory, where the manuscript images live.",
+             "repository componentes/figuras/ directory, where the manuscript images live.",
     )
     parser.add_argument(
         "--output-dir",

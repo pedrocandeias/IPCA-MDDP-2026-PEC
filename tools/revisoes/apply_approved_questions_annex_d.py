@@ -39,7 +39,7 @@ ROOT = Path(__file__).resolve().parents[2]
 MARKDOWN = ROOT / "pedro-candeias-projeto-mestrado-mdddp-ipca-2026-revisto.md"
 ANNEX_D = (
     ROOT
-    / "anexos/testes_preparacao_impressao"
+    / "componentes/anexos/testes_preparacao_impressao"
     / "anexo_d_preparacao_impressao.docx"
 )
 

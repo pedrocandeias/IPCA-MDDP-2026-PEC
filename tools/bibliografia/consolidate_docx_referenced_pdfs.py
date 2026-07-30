@@ -2,7 +2,7 @@
 """Consolidate locally available PDFs cited in the canonical DOCX.
 
 The script reads the bibliography directly from the Word document, compares
-each entry with PDFs already held in ``projecto_completo_bibliografia`` and
+each entry with PDFs already held in ``material/bibliografia`` and
 then searches ``material`` for missing files.  Matching favours DOI equality
 and high title similarity.  ``--apply`` copies only validated matches and
 writes a traceability report alongside the consolidated PDF collection.
@@ -29,7 +29,7 @@ import fitz
 
 ROOT = Path(__file__).resolve().parents[2]
 DEFAULT_DOCX = ROOT / "pedro-candeias-projeto-mestrado-mdddp-ipca-2026-revisto.docx"
-DEFAULT_TARGET = ROOT / "projecto_completo_bibliografia"
+DEFAULT_TARGET = ROOT / "material/bibliografia"
 DEFAULT_LIBRARY = ROOT / "material"
 DEFAULT_REPORT = DEFAULT_TARGET / "consolidacao_referencias_docx.md"
 
@@ -37,20 +37,20 @@ DEFAULT_REPORT = DEFAULT_TARGET / "consolidacao_referencias_docx.md"
 # containing volume rather than the cited chapter.  Every association below
 # was already checked against the source in the reference-audit report.
 KNOWN_PDFS = {
-    ("barredo arrieta", "2020"): "projecto_completo_bibliografia/A Framework to Study Human-AI Collaborative Design Space Exploration (2021).pdf",
-    ("center for universal design", "1997"): "projecto_completo_bibliografia/Center_for_Universal_Design_1997_Principles_of_Universal_Design.pdf",
-    ("dexter", "2013"): "projecto_completo_bibliografia/dexter_atkinson_dearden_2013_open_design_cystic_fibrosis.pdf",
-    ("fischer", "2004"): "projecto_completo_bibliografia/Meta-Design_A_manifesto_for_End-User_Development.pdf",
-    ("fischer", "2017"): "projecto_completo_bibliografia/new_perspectives_end_user_development_2017.pdf",
-    ("frangos", "2016"): "projecto_completo_bibliografia/frangos_et_al_2016_democratising_open_source_hardware_design.pdf",
-    ("frayling", "1994"): "projecto_completo_bibliografia/Frayling-1994-Research in art and design.pdf",
-    ("gordon", "2015"): "projecto_completo_bibliografia/Gordon_et_al_2015_ANSUR_II_methods_summary_statistics.pdf",
-    ("herbst", "2021"): "projecto_completo_bibliografia/herbst_et_al_2021_scan_driven_personalized_prosthetic_hand.pdf",
-    ("international electrotechnical commission", "2015"): "projecto_completo_bibliografia/IEC-62366-1_2015.pdf",
-    ("international organization for standardization", "2017"): "projecto_completo_bibliografia/ISO_7250-1_2017_Basic_human_body_measurements.pdf",
-    ("international organization for standardization", "2020"): "projecto_completo_bibliografia/ISO_8549-1_2020_Prosthetics_and_orthotics_vocabulary.pdf",
-    ("resnik", "2010"): "projecto_completo_bibliografia/us-food-and-drug-administration-regulation-of-prosthetic.pdf",
-    ("sims", "2017"): "projecto_completo_bibliografia/sims_et_al_2017_participatory_design_pediatric_upper_limb_prostheses.pdf",
+    ("barredo arrieta", "2020"): "material/bibliografia/A Framework to Study Human-AI Collaborative Design Space Exploration (2021).pdf",
+    ("center for universal design", "1997"): "material/bibliografia/Center_for_Universal_Design_1997_Principles_of_Universal_Design.pdf",
+    ("dexter", "2013"): "material/bibliografia/dexter_atkinson_dearden_2013_open_design_cystic_fibrosis.pdf",
+    ("fischer", "2004"): "material/bibliografia/Meta-Design_A_manifesto_for_End-User_Development.pdf",
+    ("fischer", "2017"): "material/bibliografia/new_perspectives_end_user_development_2017.pdf",
+    ("frangos", "2016"): "material/bibliografia/frangos_et_al_2016_democratising_open_source_hardware_design.pdf",
+    ("frayling", "1994"): "material/bibliografia/Frayling-1994-Research in art and design.pdf",
+    ("gordon", "2015"): "material/bibliografia/Gordon_et_al_2015_ANSUR_II_methods_summary_statistics.pdf",
+    ("herbst", "2021"): "material/bibliografia/herbst_et_al_2021_scan_driven_personalized_prosthetic_hand.pdf",
+    ("international electrotechnical commission", "2015"): "material/bibliografia/IEC-62366-1_2015.pdf",
+    ("international organization for standardization", "2017"): "material/bibliografia/ISO_7250-1_2017_Basic_human_body_measurements.pdf",
+    ("international organization for standardization", "2020"): "material/bibliografia/ISO_8549-1_2020_Prosthetics_and_orthotics_vocabulary.pdf",
+    ("resnik", "2010"): "material/bibliografia/us-food-and-drug-administration-regulation-of-prosthetic.pdf",
+    ("sims", "2017"): "material/bibliografia/sims_et_al_2017_participatory_design_pediatric_upper_limb_prostheses.pdf",
 }
 
 NON_PDF_RESOURCES = {

@@ -8,7 +8,7 @@ confiança do excerto (automático — carece de verificação humana).
 
 Entradas: o DOCX canónico, o PDF regenerado para paginação, a região da
 bibliografia do próprio DOCX e o mapa entrada→PDF de
-`projecto_completo_bibliografia/copied_matches.json`.
+`material/bibliografia/copied_matches.json`.
 
 Saída: docs/revisoes/rastreabilidade_citacoes.xlsx
 """
@@ -31,8 +31,8 @@ from openpyxl.utils import get_column_letter
 ROOT = Path(__file__).resolve().parents[2]
 DOCX = ROOT / "pedro-candeias-projeto-mestrado-mdddp-ipca-2026-revisto.docx"
 PDF = ROOT / "docs/revisoes/.tmp-pdf/pedro-candeias-projeto-mestrado-mdddp-ipca-2026-revisto.pdf"
-MATCHES = ROOT / "projecto_completo_bibliografia/copied_matches.json"
-OUT = ROOT / "projecto_completo_bibliografia/auditoria_citacoes/rastreabilidade_citacoes.xlsx"
+MATCHES = ROOT / "material/bibliografia/copied_matches.json"
+OUT = ROOT / "material/bibliografia/auditoria_citacoes/rastreabilidade_citacoes.xlsx"
 
 PRELIM_OFFSET = 18   # páginas preliminares antes da página impressa 1
 
