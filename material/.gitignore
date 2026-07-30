@@ -5,6 +5,11 @@ __pycache__/
 
 # PDFs and research files (not versioned)
 *.pdf
+# Excepção: bibliografia/ guarda os PDFs das obras citadas e é versionada.
+# Sem isto, um PDF novo aí colocado seria silenciosamente ignorado — os 182
+# já versionados sobrevivem por terem entrado antes desta pasta ser movida
+# para dentro de material/.
+!bibliografia/**/*.pdf
 *.zip
 *.f3d
 *.webp
