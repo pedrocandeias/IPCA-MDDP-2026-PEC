@@ -1,6 +1,6 @@
 Projecto completo
 
-Versão do documento: 0.4.111
+Versão do documento: 0.4.112
 
 ## INTEGRAÇÃO DO *DESIGN* E DA INTELIGÊNCIA ARTIFICIAL EM PROCESSOS PARAMÉTRICOS PARA O DESENVOLVIMENTO DE PRÓTESES DE MEMBROS SUPERIORES EM IMPRESSÃO 3D.
 
@@ -483,11 +483,11 @@ Contudo, enfatiza-se que configuradores eficazes devem limitar o número de par�
 
 ### Optimização, Geração e Avaliação de Desempenho
 
-A parametrização é frequentemente combinada com métodos de optimização topológica, de geração de estruturas reticuladas e de abordagens multiobjectivo. Estas estratégias permitem gerir compromissos entre peso, resistência, custo e tempo de fabrico, explorando fronteiras de Pareto para selecionar soluções alinhadas com objectivos específicos (Lei et al., 2016; Yao et al., 2016).
+Em famílias de produtos destinadas ao fabrico aditivo, a parametrização pode definir o espaço de personalização através de variáveis dimensionais e dos respectivos intervalos. Lei et al. (2015) aplicaram esta lógica a uma família de bombas de deslocamento positivo destinada a equipamentos portáteis de hemodiálise domiciliária. Nestas bombas, duas filas de elementos mecânicos, designados *fingers* no artigo, impulsionam separadamente o sangue e o dialisante; o seu deslocamento é comandado por uma árvore de cames accionada por um motor eléctrico. O modelo variou cinco parâmetros para produzir caudais entre 100 e 600 ml/min e optimizou conjuntamente a eficiência, o volume da bomba e o custo de fabrico por sinterização selectiva a laser (SLS). Outro modelo para famílias de produtos partiu de requisitos e restrições, recorreu à optimização topológica e comparou as alternativas através de análise por elementos finitos e análise de custos (Lei et al., 2016).
 
 Em próteses impressas em 3D, a parametrização permite ajustar de modo independente dimensões como o comprimento e a largura dos componentes, evitando as limitações do escalonamento uniforme (Lim et al., 2018). Em famílias de produtos destinadas ao fabrico aditivo, a optimização topológica permite gerar geometrias a partir de requisitos e restrições, que podem depois ser avaliadas pelo método dos elementos finitos (FEM) e por critérios de custo (Lei et al., 2016). No domínio específico das próteses de membros, Xu e Qin (2022) identificam aplicações de *design* generativo que utilizam optimização topológica para reduzir o peso e FEM para validar o desempenho estrutural. Esta passagem de parâmetros explicitamente definidos para a geração e avaliação algorítmica de alternativas estabelece uma ligação conceptual com as abordagens de inteligência artificial discutidas nas secções seguintes.
 
-Este cruzamento entre parametrização, simulação e FA evidencia um ecossistema digital integrado que sustenta personalização técnica com base quantitativa (Lei et al., 2016; Yao et al., 2016).
+O modelo de Lei et al. (2015) torna explícito um fluxo de decisão no qual os parâmetros delimitam variantes admissíveis e a optimização procura configurações de melhor desempenho segundo objectivos de eficiência, volume e custo. O trabalho complementar acrescenta a este fluxo a optimização topológica e a análise por elementos finitos (Lei et al., 2016). Em conjunto, estas abordagens articulam parametrização, simulação e FA numa base quantitativa para a personalização, embora os resultados dependam das funções-objectivo, dos pressupostos de custo e do processo de fabrico adoptado.
 
 ### Implicações para o *design* industrial
 
@@ -495,7 +495,7 @@ A personalização em escala depende de uma definição controlada do espaço de
 
 Assim, a qualidade da definição paramétrica desempenha um papel estratégico para a viabilidade de sistemas adaptáveis (Ozdemir et al., 2022).
 
-Em termos económicos, o fabrico aditivo pode reduzir os sobrecustos tradicionalmente associados à produção de variantes. Estudos orientados para famílias de produto indicam que a integração de modelos paramétricos com análises de custo e desempenho pode manter os custos relativamente estáveis mesmo com elevada diversidade geométrica (Lei et al., 2016; Yao et al., 2016).
+Em termos económicos, o estudo de Lei et al. (2015) não demonstra que qualquer variação geométrica seja economicamente neutra. No caso analisado, porém, o custo por unidade manteve-se baixo mesmo para pequenos volumes de produção e tendeu a estabilizar nas três ou quatro bombas de maior dimensão. Comparativamente ao método convencional usado como referência, a optimização de onze variantes para diferentes caudais produziu um aumento médio de 25,02% na eficiência e uma redução média de 26,12% no volume da bomba. Estes resultados mostram, apenas para as condições e o modelo de custos estudados, que o fabrico aditivo pode ampliar a variedade de uma família de produtos sem impor automaticamente um aumento proporcional do custo.
 
 No plano educativo e profissional, recomenda-se a integração de DfAM nos currículos de *design* industrial, promovendo competências que articulem a concepção, a simulação e a fabrico digital em fluxo contínuo (Kandikjan et al., 2022).
 
@@ -2086,6 +2086,8 @@ Por fim, a integração de novas regiões corporais deve começar pela definiç�
 
 <a id="ref-kuhl-2020"></a> Kuhl, M., Lutz, J., Krause, D., & Vielhaber, M. (2020). Design of personalized devices: The tradeoff between individual value and personalization workload. Applied Sciences.
 
+<a id="ref-lei-moon-rosen-2015"></a> Lei, N., Moon, S. K., & Rosen, D. W. (2015). Redefining product family design for additive manufacturing. In *DS 80-4: Proceedings of the 20th International Conference on Engineering Design (ICED 15), Vol. 4: Design for X, Design to X* (pp. 267–278). The Design Society. https://iced.designsociety.org/publication/37778/redefining_product_family_design_for_additive_manufacturing
+
 <a id="ref-lei-2016"></a> Lei, N., Yao, X., Moon, S. K., & Bi, G. (2016). An additive manufacturing process model for product family design. *Journal of Engineering Design, 27*(11), 751–767. https://doi.org/10.1080/09544828.2016.1228101
 
 <a id="ref-li-aflatoony-2025"></a> Li, M., & Aflatoony, L. (2025). Parametric design and three-dimensional printing: Enabling occupational therapists to develop custom hand grips. Disability and Rehabilitation: Assistive Technology, 20(6), 1829-1837. https://doi.org/10.1080/17483107.2025.2483953
@@ -2225,8 +2227,6 @@ Por fim, a integração de novas regiões corporais deve começar pela definiç�
 <a id="ref-windrich-2016"></a> Windrich, M., Grimmer, M., Christ, O., Rinderknecht, S., & Beckerle, P. (2016). Active lower limb prosthetics: A systematic review of design issues and solutions.
 
 <a id="ref-xu-qin-2022"></a> Xu, K., & Qin, S.-F. (2022). 3D printing, limb prosthetics and generative design: A scoping review. In *2022 27th International Conference on Automation and Computing (ICAC)* (pp. 1–6). IEEE. https://doi.org/10.1109/ICAC55051.2022.9911138
-
-<a id="ref-yao-2016"></a> Yao, X., Moon, S. K., & Bi, G. (2016). A cost-driven design methodology for additive manufactured variable platforms in product families. Journal of Mechanical Design, 138(4), 041701. https://doi.org/10.1115/1.4032504
 
 <a id="ref-young-2023"></a> Young, P. R., Hebert, J. S., Marasco, P., Carey, J., & Schofield, J. S. (2023). Advances in the measurement of prosthetic socket interface mechanics: A review of technology, techniques, and a 20-year update. https://www.tandfonline.com/doi/pdf/10.1080/17434440.2023.2244418?needAccess=true&role=button
 

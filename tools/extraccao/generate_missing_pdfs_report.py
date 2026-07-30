@@ -22,7 +22,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[2]
 DEFAULT_MANUSCRIPT = ROOT / "pedro-candeias-projeto-mestrado-mdddp-ipca-2026-revisto.md"
 DEFAULT_AUDIT = ROOT / "docs/revisoes/auditoria_referencias_texto_papers_061.md"
-DEFAULT_OUTPUT = ROOT / "projecto_completo_bibliografia/pdfs_em_falta.md"
+DEFAULT_OUTPUT = ROOT / "material/bibliografia/pdfs_em_falta.md"
 
 
 @dataclass
@@ -145,7 +145,7 @@ def add_source(store: dict[str, MissingSource], reference: str, title: str, evid
         item.evidence.append(evidence)
 
 
-def parse_missing_sources(audit_text: str) -> tuple[list[MissingSource], MissingSource]:
+def parse_missing_sources(audit_text: str) -> list[MissingSource]:
     section = extract_section(
         audit_text,
         "## 4. Afirmações inicialmente pendentes e estado actual das fontes",
@@ -199,7 +199,7 @@ def parse_missing_sources(audit_text: str) -> tuple[list[MissingSource], Missing
         (key for key in sources if key.startswith("open design and cystic fibrosis")),
         "",
     )
-    dexter_pdf = ROOT / "projecto_completo_bibliografia/dexter_atkinson_dearden_2013_open_design_cystic_fibrosis.pdf"
+    dexter_pdf = ROOT / "material/bibliografia/dexter_atkinson_dearden_2013_open_design_cystic_fibrosis.pdf"
     if not dexter_key:
         raise RuntimeError("Could not locate the Dexter entry")
     if not dexter_pdf.is_file():
@@ -255,7 +255,7 @@ def parse_missing_sources(audit_text: str) -> tuple[list[MissingSource], Missing
             "Exploring the barriers to using assistive technology for individuals with chronic conditions.pdf",
         ),
     }
-    bibliography_dir = ROOT / "projecto_completo_bibliografia"
+    bibliography_dir = ROOT / "material/bibliografia"
     for key_prefix, (label, filename) in obtained_mpt_icf_106.items():
         source_key_match = next((key for key in sources if key.startswith(key_prefix)), "")
         if not source_key_match:
@@ -559,7 +559,34 @@ def parse_missing_sources(audit_text: str) -> tuple[list[MissingSource], Missing
     ghali_key = next((key for key in sources if key.startswith("constructive solid geometry")), "")
     if not ghali_key:
         raise RuntimeError("Could not locate the Ghali book-chapter entry")
-    ghali = sources.pop(ghali_key)
+    ghali_pdf = bibliography_dir / "Ghali_2008_Introduction_to_Geometric_Computing.pdf"
+    if not ghali_pdf.is_file():
+        raise RuntimeError(f"Missing expected Ghali book PDF: {ghali_pdf.name}")
+    sources.pop(ghali_key)
+
+    # A versão 0.4.112 substituiu as três utilizações de Yao, Moon e Bi (2016)
+    # por Lei, Moon e Rosen (2015), cuja comunicação integral está disponível
+    # na Design Society e foi validada localmente. O inventário histórico da
+    # auditoria continua a conter Yao, pelo que a remoção é explícita.
+    yao_key = next(
+        (
+            key
+            for key in sources
+            if key.startswith(
+                "a cost driven design methodology for additive manufactured variable platforms"
+            )
+        ),
+        "",
+    )
+    if not yao_key:
+        raise RuntimeError("Could not locate the Yao, Moon and Bi entry")
+    lei_2015_pdf = (
+        bibliography_dir
+        / "lei_moon_rosen_2015_redefining_product_family_design_additive_manufacturing.pdf"
+    )
+    if not lei_2015_pdf.is_file():
+        raise RuntimeError(f"Missing expected Lei, Moon and Rosen PDF: {lei_2015_pdf.name}")
+    sources.pop(yao_key)
 
     # Mistarihi is the only Annex A paper that does not appear in the body-only
     # Section 4.  Add it only while its validated local full text is absent.
@@ -573,10 +600,10 @@ def parse_missing_sources(audit_text: str) -> tuple[list[MissingSource], Missing
         )
 
     result = sorted(sources.values(), key=lambda item: normalized(item.reference))
-    if len(result) != 1:
+    if result:
         labels = "\n".join(f"- {item.reference}: {item.title}" for item in result)
-        raise RuntimeError(f"Expected 1 missing paper, found {len(result)}:\n{labels}")
-    return result, ghali
+        raise RuntimeError(f"Expected no missing papers, found {len(result)}:\n{labels}")
+    return result
 
 
 def parse_bibliography(manuscript_text: str) -> list[tuple[str, str, str]]:
@@ -669,14 +696,14 @@ def sha256(path: Path) -> str:
     return hashlib.sha256(path.read_bytes()).hexdigest()
 
 
-def render(sources: list[MissingSource], ghali: MissingSource, audit: Path, manuscript: Path) -> str:
+def render(sources: list[MissingSource], audit: Path, manuscript: Path) -> str:
     doi_count = sum(bool(source.doi) for source in sources)
     url_count = sum(bool(source.source_url and not source.doi) for source in sources)
     search_count = len(sources) - doi_count - url_count
     lines = [
         "# PDFs em falta — referências citadas",
         "",
-        "Este é o registo autoritativo das fontes citadas na dissertação cujo texto integral não foi localizado em `material/` ou em `projecto_completo_bibliografia/` e não ficou disponível para confronto directo durante a auditoria bibliográfica.",
+        "Este é o registo autoritativo das fontes citadas na dissertação cujo texto integral não foi localizado em `material/` ou em `material/bibliografia/` e não ficou disponível para confronto directo durante a auditoria bibliográfica.",
         "",
         f"Última verificação: {date.today().isoformat()}. A lista foi reconciliada com `docs/revisoes/auditoria_referencias_texto_papers_061.md` após consulta de 514 registos da API Mendeley.",
         "",
@@ -690,27 +717,30 @@ def render(sources: list[MissingSource], ghali: MissingSource, audit: Path, manu
         "",
         "## Lista integral",
         "",
-        "| N.º | Autor(es) e ano | Título do artigo em falta | DOI ou localização provável | Estado |",
-        "| ---: | --- | --- | --- | --- |",
     ]
-    for index, source in enumerate(sources, start=1):
-        link, link_status = destination(source)
-        title = source.title.replace("|", "\\|")
-        reference = source.reference.replace("|", "\\|")
-        state = f"{link_status}. {short_evidence(source)}"
-        lines.append(f"| {index} | {reference} | *{title}* | {link} | {state} |")
+    if sources:
+        lines.extend(
+            [
+                "| N.º | Autor(es) e ano | Título do artigo em falta | DOI ou localização provável | Estado |",
+                "| ---: | --- | --- | --- | --- |",
+            ]
+        )
+        for index, source in enumerate(sources, start=1):
+            link, link_status = destination(source)
+            title = source.title.replace("|", "\\|")
+            reference = source.reference.replace("|", "\\|")
+            state = f"{link_status}. {short_evidence(source)}"
+            lines.append(
+                f"| {index} | {reference} | *{title}* | {link} | {state} |"
+            )
+    else:
+        lines.append(
+            "Não existem, na versão actual do manuscrito, referências científicas citadas "
+            "cujo texto integral continue por localizar."
+        )
 
-    ghali_link, ghali_status = destination(ghali)
     lines.extend(
         [
-            "",
-            "## Documento académico não classificado como *paper*",
-            "",
-            f"A auditoria identificou ainda um capítulo de livro sem texto integral. Não integra a contagem dos {len(sources)} *papers*, mas deve ser obtido para verificar a citação correspondente.",
-            "",
-            "| Referência | Título | DOI ou localização provável | Estado |",
-            "| --- | --- | --- | --- |",
-            f"| {ghali.reference} | *{ghali.title}* | {ghali_link} | {ghali_status}; capítulo de livro não localizado. |",
             "",
             "## Critério e rastreabilidade",
             "",
@@ -719,9 +749,10 @@ def render(sources: list[MissingSource], ghali: MissingSource, audit: Path, manu
             "- Walker et al. foi retirado da lista porque o texto integral foi posteriormente obtido e confrontado. Mistarihi (2020) foi inicialmente acrescentado a partir do Anexo A e retirado após validação do PDF local; os cinco pares associados aguardam confronto directo.",
             "- Fink e Diamond (2023) foi retirado da lista porque o texto integral do artigo 101061 foi posteriormente obtido e as seis passagens que o citam foram confrontadas directamente; a auditoria concluiu que o suporte é parcial.",
             "- Segura et al. (2024) foi retirado da lista porque o PDF editorial foi acrescentado e as sete passagens que o citam foram confrontadas directamente; uma associação tem suporte directo, cinco têm suporte parcial e uma é incompatível.",
-            "- Østlie et al. (2012) não integra a lista: o PDF integral já existia em três subpastas de `material/` que não foram devolvidas pela pesquisa inicial com `rg --files`, devido às regras de exclusão do repositório. A disponibilidade foi confirmada com `find`, a Figura 1 foi confrontada directamente com a Figura 2.2 e uma cópia canónica foi colocada em `projecto_completo_bibliografia/` na versão 0.4.88.",
+            "- Østlie et al. (2012) não integra a lista: o PDF integral já existia em três subpastas de `material/` que não foram devolvidas pela pesquisa inicial com `rg --files`, devido às regras de exclusão do repositório. A disponibilidade foi confirmada com `find`, a Figura 1 foi confrontada directamente com a Figura 2.2 e uma cópia canónica foi colocada em `material/bibliografia/` na versão 0.4.88.",
             "- Shah e Robinson (2006), Wilke et al. (2020) e Millet et al. (2018) foram retirados após a validação dos PDFs locais e o confronto de nove pares afirmação–fonte.",
             "- Chapman et al. (2025) foi retirado após a extracção textual integral do PDF editorial de acesso aberto e o confronto dos quatro pares associados; a captura Markdown conserva os marcadores da paginação publicada, mas não substitui o ficheiro PDF original.",
+            "- Ghali (2008) foi retirado da lista após confirmação do livro integral `Ghali_2008_Introduction_to_Geometric_Computing.pdf`; o capítulo 30, *Constructive Solid Geometry*, começa na página 280 do PDF e foi confrontado directamente.",
             "- O lote local de 16 de Julho de 2026 retirou mais trinta fontes desta lista após validação dos PDFs e confronto de 116 pares afirmação–fonte; 52 têm suporte directo, 53 suporte parcial e onze são incompatíveis.",
             "- Um segundo lote local do mesmo dia acrescentou catorze textos integrais e retirou essas fontes da lista de faltas; os 44 pares afirmação–fonte associados permanecem pendentes de confronto directo e não foram reclassificados automaticamente.",
             "- Um terceiro lote local acrescentou doze textos integrais e retirou essas fontes da lista de faltas; os 26 pares afirmação–fonte associados permanecem pendentes de confronto directo. No conjunto dos dois lotes ainda não confrontados, existem 70 pares associados a 26 fontes disponíveis localmente.",
@@ -732,7 +763,7 @@ def render(sources: list[MissingSource], ghali: MissingSource, audit: Path, manu
             "- O ficheiro de Franke e von Hippel é a versão de autor depositada na WU Viena, com 37 páginas; a paginação não corresponde à do artigo publicado na Research Policy, pelo que as citações por página devem remeter para a versão editorial.",
             "- Em 20 de Julho de 2026 foram validados cinco novos textos integrais: Figoli, Mattioli e Rampino (2022), Panchal et al. (2019), Resnik et al. (2010), Virós-i-Martin e Selva (2021) e Yüksel et al. (2023). A validação confirmou título, autoria, ano e DOI, mas não substitui o confronto posterior das afirmações do manuscrito com o conteúdo integral.",
             "- Dexter, Atkinson e Dearden (2013) foi retirado da lista em 21 de Julho de 2026 após obtenção do PDF no arquivo Design4Health da Sheffield Hallam University. O ficheiro revelou que a entrada bibliográfica actual indica coautores incorrectos; essa correcção permanece separada da disponibilidade do texto integral.",
-            "- Permanece sem texto integral Yao, Moon e Bi (2016), com DOI `10.1115/1.4032504`.",
+            "- Yao, Moon e Bi (2016) foi retirado na versão 0.4.112 porque as três passagens que o citavam foram reformuladas e passaram a apoiar-se em Lei, Moon e Rosen (2015), *Redefining Product Family Design for Additive Manufacturing*. O texto integral desta comunicação está disponível na Design Society e foi guardado como `lei_moon_rosen_2015_redefining_product_family_design_additive_manufacturing.pdf`.",
             "- O PDF de Krahe et al. (2020) confirma o DOI editorial `10.1016/j.procir.2020.01.135`; `10.5445/IR/1000127884` identifica o depósito do KIT. Na versão 0.4.81, a fonte foi confrontada e associada apenas à afirmação directamente sustentada sobre identificação de padrões em modelos tridimensionais e geração de variantes condicionadas por requisitos.",
             "- A autoria, o número de artigo e o DOI de Jones, Chadwell e Dyson (2023) foram corrigidos na bibliografia na versão 0.4.80 para `10.3389/frhs.2023.1213752`; a fonte foi confrontada e deslocada para uma afirmação compatível da Secção 2.8.",
             "- Dois PDFs válidos acrescentados no mesmo lote — Kang et al. e Bitterman — não correspondem a referências citadas e, por isso, não alteram esta lista. `SHTI-297-SHTI220858.pdf` foi excluído por conter HTML, usando-se o PDF válido de White e Mosca.",
@@ -759,10 +790,10 @@ def main() -> int:
     args = parse_args()
     audit_text = args.audit.read_text(encoding="utf-8")
     manuscript_text = args.manuscript.read_text(encoding="utf-8")
-    sources, ghali = parse_missing_sources(audit_text)
+    sources = parse_missing_sources(audit_text)
     entries = parse_bibliography(manuscript_text)
-    enrich_sources([*sources, ghali], entries)
-    args.output.write_text(render(sources, ghali, args.audit, args.manuscript), encoding="utf-8")
+    enrich_sources(sources, entries)
+    args.output.write_text(render(sources, args.audit, args.manuscript), encoding="utf-8")
     print(f"Wrote {args.output} with {len(sources)} missing papers.")
     return 0
 
