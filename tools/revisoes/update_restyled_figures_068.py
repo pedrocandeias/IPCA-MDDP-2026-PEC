@@ -15,7 +15,7 @@ from PIL import Image
 
 ROOT = Path(__file__).resolve().parents[2]
 CANONICAL = ROOT / "pedro-candeias-projeto-mestrado-mdddp-ipca-2026-revisto.docx"
-ANNEX = ROOT / "sources/manuscript/annexes/adaptacao_parametrica_modelos/anexo_c_adaptacao_parametrica_modelos.docx"
+ANNEX = ROOT / "anexos/adaptacao_parametrica_modelos/anexo_c_adaptacao_parametrica_modelos.docx"
 
 CANONICAL_MEDIA = {
     "word/media/image5.jpeg": (

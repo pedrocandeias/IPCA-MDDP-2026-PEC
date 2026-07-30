@@ -12,7 +12,7 @@ ROOT = Path(__file__).resolve().parents[2]
 SOURCE = ROOT / "docs/palm-body-dimensions.md"
 TARGET = (
     ROOT
-    / "sources/manuscript/annexes/testes_preparacao_impressao"
+    / "anexos/testes_preparacao_impressao"
     / "tabela_comparacao_dimensional.csv"
 )
 

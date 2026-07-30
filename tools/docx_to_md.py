@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import argparse
 import datetime as dt
+import os
 import posixpath
 import re
 import zipfile
@@ -22,6 +23,10 @@ R_EMBED = f"{{{WORD_NS['r']}}}embed"
 R_LINK = f"{{{WORD_NS['r']}}}link"
 REPO_ROOT = Path(__file__).resolve().parent.parent
 DEFAULT_OUTPUT_DIR = REPO_ROOT / "docs"
+# As imagens do manuscrito vivem todas em figuras/. Extrair para
+# `<nome>_media/` ao lado do Markdown espalharia-as por uma pasta nova a cada
+# conversão — foi assim que nasceu `projecto-completo_media/`.
+DEFAULT_MEDIA_DIR = REPO_ROOT / "figuras"
 
 
 class DocxConversionError(RuntimeError):
@@ -140,6 +145,7 @@ def write_embedded_image(
     media_dir: Path,
     output_dir: Path,
     image_index: int,
+    name_prefix: str = "",
 ) -> str | None:
     rel = relationships.get(rel_id)
     if not rel or rel.get("mode") == "External":
@@ -154,10 +160,14 @@ def write_embedded_image(
 
     media_dir.mkdir(parents=True, exist_ok=True)
     suffix = Path(target).suffix or ".bin"
-    filename = f"image{image_index:02d}{suffix.lower()}"
+    # Prefixar com o nome do DOCX: `figuras/` guarda imagens curadas e um
+    # `image01.png` genérico apagaria uma delas.
+    filename = f"{name_prefix}image{image_index:02d}{suffix.lower()}"
     output_path = media_dir / filename
     output_path.write_bytes(data)
-    relative = output_path.relative_to(output_dir).as_posix()
+    # media_dir pode estar fora de output_dir (figuras/ vs docs/), pelo que a
+    # ligação tem de ser relativa nos dois sentidos.
+    relative = Path(os.path.relpath(output_path, output_dir)).as_posix()
     return relative
 
 
@@ -172,7 +182,8 @@ def paragraph_prefix(element: ET.Element, style: str) -> str:
     return ""
 
 
-def docx_to_markdown(path: Path, output_path: Path | None = None) -> str:
+def docx_to_markdown(path: Path, output_path: Path | None = None,
+                     media_dir: Path | None = None) -> str:
     with zipfile.ZipFile(path) as archive:
         try:
             xml_bytes = archive.read("word/document.xml")
@@ -186,25 +197,26 @@ def docx_to_markdown(path: Path, output_path: Path | None = None) -> str:
             raise DocxConversionError(f"Missing document body in {path}")
 
         output_dir = output_path.parent if output_path else DEFAULT_OUTPUT_DIR
-        media_dir = output_path.with_suffix("").parent / f"{output_path.stem}_media" if output_path else None
+        media_dir = (media_dir or DEFAULT_MEDIA_DIR).expanduser().resolve()
+        name_prefix = f"{slugify_filename(path.stem)}_"
         image_index = 0
         lines: list[str] = []
         for element in body:
             tag = element.tag.rsplit("}", 1)[-1]
             if tag == "p":
-                if media_dir is not None:
-                    for rel_id in iter_drawing_rel_ids(element):
-                        image_index += 1
-                        image_ref = write_embedded_image(
-                            archive,
-                            relationships,
-                            rel_id,
-                            media_dir,
-                            output_dir,
-                            image_index,
-                        )
-                        if image_ref:
-                            lines.append(f"![]({image_ref})")
+                for rel_id in iter_drawing_rel_ids(element):
+                    image_index += 1
+                    image_ref = write_embedded_image(
+                        archive,
+                        relationships,
+                        rel_id,
+                        media_dir,
+                        output_dir,
+                        image_index,
+                        name_prefix,
+                    )
+                    if image_ref:
+                        lines.append(f"![]({image_ref})")
 
                 style_elem = element.find("w:pPr/w:pStyle", WORD_NS)
                 style = style_elem.get(f"{{{WORD_NS['w']}}}val", "") if style_elem is not None else ""
@@ -254,8 +266,9 @@ def docx_to_markdown(path: Path, output_path: Path | None = None) -> str:
     return "\n\n".join(lines).strip() + "\n"
 
 
-def write_markdown(input_path: Path, output_path: Path) -> None:
-    markdown = docx_to_markdown(input_path, output_path)
+def write_markdown(input_path: Path, output_path: Path,
+                   media_dir: Path | None = None) -> None:
+    markdown = docx_to_markdown(input_path, output_path, media_dir)
     output_path.parent.mkdir(parents=True, exist_ok=True)
     output_path.write_text(markdown, encoding="utf-8")
 
@@ -268,6 +281,12 @@ def parse_args() -> argparse.Namespace:
         "--output",
         type=Path,
         help="Explicit output file path, including filename.",
+    )
+    parser.add_argument(
+        "--media-dir",
+        type=Path,
+        help="Directory for images extracted from the DOCX. Defaults to the "
+             "repository figuras/ directory, where the manuscript images live.",
     )
     parser.add_argument(
         "--output-dir",
@@ -287,7 +306,7 @@ def main() -> int:
     if input_path.suffix.lower() != ".docx":
         raise SystemExit(f"Input file must be a .docx document: {input_path}")
 
-    write_markdown(input_path, output_path)
+    write_markdown(input_path, output_path, args.media_dir)
     print(output_path)
     return 0
 

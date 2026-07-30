@@ -17,7 +17,7 @@ PNG = ROOT / "figuras/figura_c1_fluxo_adaptacao_parametrica.png"
 TARGETS = {
     ROOT / "pedro-candeias-projeto-mestrado-mdddp-ipca-2026-revisto.docx":
         "word/media/image34.png",
-    ROOT / "sources/manuscript/annexes/adaptacao_parametrica_modelos/anexo_c_adaptacao_parametrica_modelos.docx":
+    ROOT / "anexos/adaptacao_parametrica_modelos/anexo_c_adaptacao_parametrica_modelos.docx":
         "word/media/image1.png",
 }
 

@@ -193,7 +193,7 @@ Evitar afirmar que limites declarados «garantem» robustez. O texto deve distin
 
 Ficheiros preparados:
 
-- `sources/manuscript/annexes/adaptacao_parametrica_modelos/anexo_c_adaptacao_parametrica_modelos.md`;
+- `anexos/adaptacao_parametrica_modelos/anexo_c_adaptacao_parametrica_modelos.md`;
 - `figuras/figura_c1_fluxo_adaptacao_parametrica.svg`.
 
 Título proposto na dissertação:
@@ -215,7 +215,7 @@ Remissões mínimas:
 - `server/services/profileMapping.js` e `server/services/anthropometricImporter.js`;
 - `projecto-completo.md`, secções 4.1–4.4 e inventário 5.2;
 - `docs/relatorio-revisao-academica-integral-dissertacao-2026-07-13.md`;
-- `sources/manuscript/annexes/dicionario_parametros_v14.67.0/`.
+- `anexos/dicionario_parametros_v14.67.0/`.
 
 ## 11. Verificações executadas
 

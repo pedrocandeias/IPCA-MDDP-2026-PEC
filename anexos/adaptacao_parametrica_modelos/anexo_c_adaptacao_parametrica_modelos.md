@@ -22,7 +22,7 @@ O percurso comum compreende cinco etapas:
 4. o valor é limitado ao intervalo declarado na configuração quando provém do mapeamento de perfis;
 5. o ficheiro OpenSCAD transforma os valores aceites segundo as relações próprias do modelo e gera a geometria.
 
-![Fluxo de adaptação paramétrica dos modelos](../../../../figuras/figura_c1_fluxo_adaptacao_parametrica.png)
+![Fluxo de adaptação paramétrica dos modelos](../../figuras/figura_c1_fluxo_adaptacao_parametrica.png)
 
 Figura C.1 — Fluxo entre dados de entrada, mapa comum, regras específicas dos modelos e geometria exportável. Produção própria.
 

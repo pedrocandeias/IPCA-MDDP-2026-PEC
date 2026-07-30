@@ -1,6 +1,6 @@
 Projecto completo
 
-Versão do documento: 0.4.110
+Versão do documento: 0.4.111
 
 ## INTEGRAÇÃO DO *DESIGN* E DA INTELIGÊNCIA ARTIFICIAL EM PROCESSOS PARAMÉTRICOS PARA O DESENVOLVIMENTO DE PRÓTESES DE MEMBROS SUPERIORES EM IMPRESSÃO 3D.
 
@@ -317,7 +317,7 @@ Combinam mecanismos mecânicos e elétricos no mesmo dispositivo. São particula
 
 Uma representação visual útil desta diversidade tipológica é apresentada na Figura 2, que reúne exemplos de próteses impressas em 3D com soluções morfológicas e mecânicas distintas, ajudando a perceber como diferentes opções de configuração materializam compromissos distintos entre simplicidade, função e custo.
 
-![](projecto-completo_media/image02.png)
+![](figuras/figura_02_proteses_impressas_diversidade_tipologica.png)
 
 Figura 2 — Exemplos de próteses de membro superior impressas em 3D, ilustrando diversidade tipológica e construtiva.
 
@@ -471,7 +471,7 @@ A articulação entre modelação paramétrica e interfaces digitais possibilita
 
 A Figura 5 mostra um exemplo especialmente relevante desta lógica: a personalização mediada por interface, em que o utilizador atua sobre atributos visuais e formais num espaço de variação previamente estruturado. Este tipo de configurador ajuda a compreender como a cocriação digital pode ser operacionalizada sem exigir domínio directo de ferramentas CAD complexas.
 
-![](projecto-completo_media/image05.png)
+![](figuras/figura_05_configurador_digital_personalizacao.png)
 
 Figura 5 — Exemplo de configurador digital para personalização de uma prótese impressa em 3D.
 
@@ -527,7 +527,7 @@ Assim, observa-se uma valorização crescente de métodos capazes de capturar ge
 
 Mesmo assim, a medição linear continua a ser indispensável para estruturar o modelo paramétrico, sobretudo quando se pretende definir um conjunto mínimo de entradas robustas e replicáveis. A Figura 6 ilustra precisamente este nível basal: os marcos anatómicos e os comprimentos de referência que sustentam medições comparáveis da mão.
 
-![](projecto-completo_media/image06.png)
+![](figuras/figura_06_marcos_anatomicos_medidas_mao.png)
 
 Figura 6 — Marcos anatómicos e medidas de referência da mão para fins de personalização.
 
@@ -888,7 +888,7 @@ Não são recolhidos dados pessoais ou biométricos de utilizadores reais; utili
 
 Embora o presente estudo não utilize participantes, a literatura metodológica ajuda a esclarecer como medições lineares e procedimentos de ajuste são operacionalizados em contextos aplicados. A Figura 11 constitui um precedente para a tradução de medidas em parâmetros de projecto; não representa um procedimento realizado nesta investigação.
 
-![](projecto-completo_media/image11.png)
+![](figuras/figura_11_recolha_dimensional_ajuste.png)
 
 Figura 11 — Exemplo de recolha dimensional para ajuste de prótese impressa em 3D.
 
@@ -988,7 +988,7 @@ Uma limitação recorrente em abordagens simplificadas de modelação é o uso d
 
 Esta limitação torna-se visualmente evidente na Figura 13, que compara um modelo uniformemente escalado com outro parametrizado a partir de variáveis independentes. A diferença mostra que a configuração exige o controlo das relações geométricas internas, ultrapassando o simples aumento ou redução do modelo-base.
 
-![](projecto-completo_media/image13.png)
+![](figuras/figura_13_escalonamento_uniforme_vs_parametrico.png)
 
 Figura 13 — Comparação entre o escalonamento uniforme e a modelação paramétrica de dedo protésico.
 
@@ -1104,7 +1104,7 @@ Ao contrário de ambientes centrados na manipulação gráfica directa, o OpenSC
 
 A Figura 14 reforça esta passagem entre definição paramétrica, modelo virtual e protótipo físico. O seu valor para esta investigação não reside em replicar a solução apresentada, mas em tornar visível a cadeia que liga a decomposição dimensional do dedo, a modelação computacional e a verificação material, isto é, o mesmo tipo de continuidade que o modelo em OpenSCAD procura preservar (Nini et al., 2024).
 
-![](projecto-completo_media/image14.png)
+![](figuras/figura_14_modelo_parametrico_prototipagem_verificacao.png)
 
 Figura 14 — Relação entre modelo paramétrico digital, prototipagem e verificação de um dedo protésico.
 
@@ -1266,7 +1266,7 @@ Em vez de exigir contacto directo com a estrutura interna do ficheiro OpenSCAD, 
 
 Tal opção aproxima-se de abordagens recentes em plataformas de personalização de próteses, nas quais a interface funciona como meio de tornar observável, configurável e progressivamente verificável um processo que, de outro modo, permaneceria dependente de *software* especializado ou de mediação exclusivamente técnica (Peixoto et al., 2025).
 
-![](projecto-completo_media/image15.png)
+![](figuras/figura_15_fluxo_producao_personalizada_handfab.png)
 
 Figura 15 — Fluxo geral de produção personalizada de próteses a partir de plataforma *web* – Hand Fab
 
@@ -1389,7 +1389,7 @@ Em vez de expor o utilizador a um ambiente indiferenciado de opções, a platafo
 
 A Figura 21 ilustra um precedente particularmente próximo desta lógica: uma ferramenta paramétrica orientada a terapeutas ocupacionais, na qual múltiplas variantes de produto podem ser configuradas a partir de dimensões, materiais e pesos ajustáveis. A sua pertinência para esta dissertação reside em demonstrar que a parametrização ganha valor quando é mediada por uma interface dirigida a profissionais que não são necessariamente especialistas em modelação CAD.
 
-![](projecto-completo_media/image17.png)
+![](figuras/figura_21_ferramenta_parametrica_ajudas_tecnicas.png)
 
 Figura 21 — Ferramenta paramétrica para configuração de ajudas técnicas com variação de dimensões, materiais e peso.
 
@@ -1600,7 +1600,7 @@ Esta separação materializa uma colaboração assimétrica: o perfil técnico p
 
 A Figura 26 evidencia a importância de analisar a utilização concreta do dispositivo, para além da sua configuração digital. A avaliação com utilizadores permite identificar problemas relacionados com o ajuste ao corpo, o modo de activação, o conforto e a adequação funcional, aspectos que dificilmente podem ser avaliados adequadamente apenas com o modelo digital. Para esta investigação, a imagem constitui um ponto de referência metodológico: embora a plataforma possa tornar o processo mais claro e configurável, a validação futura continua a depender da observação do uso em contexto real (Silva et al., 2018).
 
-![](projecto-completo_media/image19.png)
+![](figuras/figura_26_teste_protese_utilizador.png)
 
 Figura 26 — Exemplo publicado de teste de uma prótese impressa em 3D com um utilizador; esta actividade não integrou a avaliação da presente dissertação.
 
@@ -3707,16 +3707,16 @@ adoptado nesta dissertação.
 
 ### D.9.1 Peças no processo de impressão (placa Bambu Lab A1)
 
-![Segmentos de dedos do Flexy Beast na placa da Bambu Lab A1](sources/manuscript/annexes/testes_preparacao_impressao/figuras/teste-impressao-3d-dedos-flexy-beast.jpg)
+![Segmentos de dedos do Flexy Beast na placa da Bambu Lab A1](anexos/testes_preparacao_impressao/figuras/teste-impressao-3d-dedos-flexy-beast.jpg)
 *Figura D.1 — Segmentos de dedos (falanges) do Flexy Beast dispostos na placa da Bambu Lab A1, no fim da impressão.*
 
-![Falanges sobre a placa texturada da A1](sources/manuscript/annexes/testes_preparacao_impressao/figuras/teste-impressao-09201343.jpg)
+![Falanges sobre a placa texturada da A1](anexos/testes_preparacao_impressao/figuras/teste-impressao-09201343.jpg)
 *Figura D.2 — Falanges (base e ponta) sobre a placa texturada da A1, antes da remoção.*
 
-![Conjunto de dedos na placa da A1](sources/manuscript/annexes/testes_preparacao_impressao/figuras/teste-impressao-09201338.jpg)
+![Conjunto de dedos na placa da A1](anexos/testes_preparacao_impressao/figuras/teste-impressao-09201338.jpg)
 *Figura D.3 — Conjunto de dedos ainda na placa da A1.*
 
-![Conjunto de dedos na placa da A1, tomada alternativa](sources/manuscript/annexes/testes_preparacao_impressao/figuras/teste-impressao-09201340.jpg)
+![Conjunto de dedos na placa da A1, tomada alternativa](anexos/testes_preparacao_impressao/figuras/teste-impressao-09201340.jpg)
 *Figura D.4 — O mesmo conjunto, tomada alternativa.*
 
 ### D.9.2 Série dimensional física — o mesmo componente aos quatro perfis
@@ -3725,53 +3725,53 @@ Estas imagens são a contraparte física do escalonamento antropométrico discut
 em D.4.2: o mesmo dedo, impresso aos quatro perfis (8, 15, 28 e 70 anos),
 cresce proporcionalmente com a dimensão de entrada.
 
-![Dedos articulados do Flexy Beast aos quatro perfis](sources/manuscript/annexes/testes_preparacao_impressao/figuras/teste-impressao-dedos-flexy-beast-v1.jpg)
+![Dedos articulados do Flexy Beast aos quatro perfis](anexos/testes_preparacao_impressao/figuras/teste-impressao-dedos-flexy-beast-v1.jpg)
 *Figura D.5 — Dedos articulados do Flexy Beast impressos aos quatro perfis (8, 15, 28 e 70 anos).*
 
-![Dedos do Flexy Beast aos quatro perfis, tomada alternativa](sources/manuscript/annexes/testes_preparacao_impressao/figuras/teste-impressao-dedos-flexy-beast-v2.jpg)
+![Dedos do Flexy Beast aos quatro perfis, tomada alternativa](anexos/testes_preparacao_impressao/figuras/teste-impressao-dedos-flexy-beast-v2.jpg)
 *Figura D.6 — O mesmo conjunto, tomada alternativa.*
 
-![Dedos do Paraglider Hand aos quatro perfis](sources/manuscript/annexes/testes_preparacao_impressao/figuras/teste-impressao-dedos-paraglider-hand-v1.jpg)
+![Dedos do Paraglider Hand aos quatro perfis](anexos/testes_preparacao_impressao/figuras/teste-impressao-dedos-paraglider-hand-v1.jpg)
 *Figura D.7 — Dedos do Paraglider Hand impressos aos quatro perfis.*
 
-![Falanges distais aos quatro perfis, rotuladas por idade](sources/manuscript/annexes/testes_preparacao_impressao/figuras/teste-impressao-12185320.jpg)
+![Falanges distais aos quatro perfis, rotuladas por idade](anexos/testes_preparacao_impressao/figuras/teste-impressao-12185320.jpg)
 *Figura D.8 — Falanges distais aos quatro perfis, rotuladas por idade.*
 
-![Dedos articulados base+ponta aos quatro perfis](sources/manuscript/annexes/testes_preparacao_impressao/figuras/teste-impressao-12185529.jpg)
+![Dedos articulados base+ponta aos quatro perfis](anexos/testes_preparacao_impressao/figuras/teste-impressao-12185529.jpg)
 *Figura D.9 — Dedos articulados (base + ponta) aos quatro perfis, mostrando o crescimento proporcional.*
 
-![Dedos articulados aos quatro perfis, tomada alternativa](sources/manuscript/annexes/testes_preparacao_impressao/figuras/teste-impressao-12185532.jpg)
+![Dedos articulados aos quatro perfis, tomada alternativa](anexos/testes_preparacao_impressao/figuras/teste-impressao-12185532.jpg)
 *Figura D.10 — O mesmo conjunto, tomada alternativa.*
 
 ### D.9.3 Componentes soltos
 
-![Palma impressa, vista dorsal, com padrão de enchimento visível](sources/manuscript/annexes/testes_preparacao_impressao/figuras/teste-impressao-08214912.jpg)
+![Palma impressa, vista dorsal, com padrão de enchimento visível](anexos/testes_preparacao_impressao/figuras/teste-impressao-08214912.jpg)
 *Figura D.11 — Palma impressa (vista dorsal): visíveis os canais dos dedos e o padrão de enchimento — o mesmo tipo de parâmetro (paredes/enchimento) cuja leitura estrutural qualitativa se discute em D.4.3.*
 
-![Componentes do antebraço/punho impressos](sources/manuscript/annexes/testes_preparacao_impressao/figuras/teste-impressao-08214702.jpg)
+![Componentes do antebraço/punho impressos](anexos/testes_preparacao_impressao/figuras/teste-impressao-08214702.jpg)
 *Figura D.12 — Componentes do antebraço/punho (gauntlet), em três exemplares.*
 
 ### D.9.4 Mão UnLimbited Phoenix montada (perfil de 15 anos)
 
-![Mão Phoenix montada](sources/manuscript/annexes/testes_preparacao_impressao/figuras/teste-impressao-phoenix-15-anos-13221108.jpg)
+![Mão Phoenix montada](anexos/testes_preparacao_impressao/figuras/teste-impressao-phoenix-15-anos-13221108.jpg)
 *Figura D.13 — Mão UnLimbited Phoenix montada (perfil de 15 anos): palma, dedos, polegar e punho articulados.*
 
-![Mão Phoenix montada, segunda vista](sources/manuscript/annexes/testes_preparacao_impressao/figuras/teste-impressao-phoenix-15-anos-13221111.jpg)
+![Mão Phoenix montada, segunda vista](anexos/testes_preparacao_impressao/figuras/teste-impressao-phoenix-15-anos-13221111.jpg)
 *Figura D.14 — A mesma mão, segunda vista.*
 
-![Mão Phoenix montada com polegar em oposição](sources/manuscript/annexes/testes_preparacao_impressao/figuras/teste-impressao-phoenix-15-anos-13221117.jpg)
+![Mão Phoenix montada com polegar em oposição](anexos/testes_preparacao_impressao/figuras/teste-impressao-phoenix-15-anos-13221117.jpg)
 *Figura D.15 — A mesma mão, com o polegar em oposição.*
 
-![Mão Phoenix, vista do punho/antebraço](sources/manuscript/annexes/testes_preparacao_impressao/figuras/teste-impressao-phoenix-15-anos-13221145.jpg)
+![Mão Phoenix, vista do punho/antebraço](anexos/testes_preparacao_impressao/figuras/teste-impressao-phoenix-15-anos-13221145.jpg)
 *Figura D.16 — A mesma mão, vista do lado do punho/antebraço.*
 
-![Mão Phoenix montada, vista dorsal segura na mão](sources/manuscript/annexes/testes_preparacao_impressao/figuras/teste-impressao-phoenix-15anos-0008.jpg)
+![Mão Phoenix montada, vista dorsal segura na mão](anexos/testes_preparacao_impressao/figuras/teste-impressao-phoenix-15anos-0008.jpg)
 *Figura D.17 — Mão Phoenix montada, vista dorsal.*
 
-![Pormenor da articulação do polegar e charneira dos dedos](sources/manuscript/annexes/testes_preparacao_impressao/figuras/teste-impressao-phoenix-15anos-0010.jpg)
+![Pormenor da articulação do polegar e charneira dos dedos](anexos/testes_preparacao_impressao/figuras/teste-impressao-phoenix-15anos-0010.jpg)
 *Figura D.18 — Pormenor da articulação do polegar e da charneira dos dedos.*
 
-![Vista palmar da mão Phoenix com enchimento visível através da palma](sources/manuscript/annexes/testes_preparacao_impressao/figuras/teste-impressao-phoenix-15anos-0012.jpg)
+![Vista palmar da mão Phoenix com enchimento visível através da palma](anexos/testes_preparacao_impressao/figuras/teste-impressao-phoenix-15anos-0012.jpg)
 *Figura D.19 — Vista palmar: o padrão de enchimento é visível através da palma, ilustrando o parâmetro de enchimento usado.*
 
 > **Nota sobre orientação das figuras.** As imagens foram integradas na orientação

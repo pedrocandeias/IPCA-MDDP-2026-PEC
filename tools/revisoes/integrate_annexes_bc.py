@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Integrate Annexes B and C into the canonical Markdown and IPCA DOCX.
 
-The annexes remain editable in ``sources/manuscript/annexes``.  This tool
+The annexes remain editable in ``anexos``.  This tool
 mechanically appends their content to the consolidated Markdown, imports their
 DOCX bodies into the formatted IPCA document, copies the Annex C figure, and
 adds provisional static index entries.  Printed page numbers are synchronised
@@ -30,12 +30,12 @@ REL = "http://schemas.openxmlformats.org/package/2006/relationships"
 NS = {"w": W, "r": R, "a": A, "wp": WP, "pic": PIC, "rel": REL}
 
 ANNEX_B_MD = Path(
-    "sources/manuscript/annexes/testes_plataforma/"
+    "anexos/testes_plataforma/"
     "anexo_b_avaliacao_processo_interface_handfab.md"
 )
 ANNEX_B_DOCX = ANNEX_B_MD.with_suffix(".docx")
 ANNEX_C_MD = Path(
-    "sources/manuscript/annexes/adaptacao_parametrica_modelos/"
+    "anexos/adaptacao_parametrica_modelos/"
     "anexo_c_adaptacao_parametrica_modelos.md"
 )
 ANNEX_C_DOCX = ANNEX_C_MD.with_suffix(".docx")

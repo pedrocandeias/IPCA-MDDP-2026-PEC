@@ -18,6 +18,11 @@ O manuscrito existe em três ficheiros com papéis distintos — usar sempre
   bibliografia devem ser preservadas.
 - **PDF** (`…revisto.pdf`) — export para entrega, regenerado a partir do DOCX.
 
+As imagens do manuscrito vivem em `figuras/`; as 19 do Anexo D ficam dentro de
+`anexos/testes_preparacao_impressao/figuras/` porque esse anexo é autónomo (tem
+DOCX e PDF próprios e links relativos). `tools/docx_to_md.py` extrai para
+`figuras/` por omissão — não criar pastas `*_media/` paralelas.
+
 A numeração de figuras e tabelas é sequencial contínua (Figura 1…, Tabela 1…),
 como no DOCX; os anexos usam numeração por letra (B.1, C.1, D.1…). Os números
 nas legendas do DOCX são texto literal (sem campos SEQ) — o Word não renumera
@@ -30,6 +35,9 @@ automaticamente.
 ├── pedro-candeias-projeto-mestrado-mdddp-ipca-2026-revisto.{md,docx,pdf}
 │                              # DOCX = fonte de verdade; MD = espelho; PDF = export
 ├── docs/versoes/             # backups, dated exports and historical documents
+├── figuras/                  # TODAS as imagens que entram no DOCX (+ fontes)
+├── anexos/                   # fontes editáveis dos Anexos A–D (entram no DOCX)
+├── suplementos/              # pacotes suplementares de entrega
 ├── deploy.sh                 # único executável fora de tools/ (ponto de entrada)
 ├── tools/                    # TODOS os scripts — ver tools/README.md (índice)
 │   ├── backup_docx.sh, docx_to_pdf.sh, editar_docx_libreoffice.sh,

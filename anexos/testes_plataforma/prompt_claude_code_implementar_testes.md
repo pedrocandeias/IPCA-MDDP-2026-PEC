@@ -16,10 +16,10 @@ Lê integralmente `CLAUDE.md` antes de alterar qualquer ficheiro e cumpre todas 
 
 Os documentos metodológicos autoritativos estão em:
 
-- `/home/pec/dev/mestrado/sources/manuscript/annexes/testes_plataforma/protocolo_geral_avaliacao_plataforma.md`
-- `/home/pec/dev/mestrado/sources/manuscript/annexes/testes_plataforma/matriz_casos_teste.csv`
-- `/home/pec/dev/mestrado/sources/manuscript/annexes/testes_plataforma/modelo_metadados_execucao.json`
-- `/home/pec/dev/mestrado/sources/manuscript/annexes/testes_plataforma/manifesto_evidencias.csv`
+- `/home/pec/dev/mestrado/anexos/testes_plataforma/protocolo_geral_avaliacao_plataforma.md`
+- `/home/pec/dev/mestrado/anexos/testes_plataforma/matriz_casos_teste.csv`
+- `/home/pec/dev/mestrado/anexos/testes_plataforma/modelo_metadados_execucao.json`
+- `/home/pec/dev/mestrado/anexos/testes_plataforma/manifesto_evidencias.csv`
 
 Ambientes:
 

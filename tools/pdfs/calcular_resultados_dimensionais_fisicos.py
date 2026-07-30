@@ -8,7 +8,7 @@ import csv
 from pathlib import Path
 
 
-DEFAULT_DIR = Path("sources/manuscript/annexes/testes_preparacao_impressao")
+DEFAULT_DIR = Path("anexos/testes_preparacao_impressao")
 
 
 def number(value: str) -> float:

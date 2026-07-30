@@ -48,16 +48,16 @@ O ficheiro auxiliar `tabelas.docx` foi colocado em `sources/docx/`, junto dos re
 ## Anexos e suplementos
 
 Os Anexos A–D integram o manuscrito consolidado e conservam fontes editáveis em
-`sources/manuscript/annexes/`. O Anexo D reúne a preparação para impressão, os
+`anexos/`. O Anexo D reúne a preparação para impressão, os
 resultados dimensionais, a montagem e articulação da UnLimbited Phoenix e o
 registo fotográfico dos protótipos integrado no Capítulo 8.
 
 | Anexo ou suplemento | Conteúdo | Fonte editável |
 | --- | --- | --- |
-| Anexo A | Extracção, normalização, cobertura e limitações dos dados antropométricos | [`data_extraction_explained.md`](sources/manuscript/annexes/data_extraction_explained.md) |
-| Anexo B | Avaliação complementar do processo paramétrico e da interface HandFab | [`anexo_b_avaliacao_processo_interface_handfab.md`](sources/manuscript/annexes/testes_plataforma/anexo_b_avaliacao_processo_interface_handfab.md) |
-| Anexo C | Adaptação paramétrica dos modelos Flexy Beast, Cyborg Beast, Paraglider Hand e UnLimbited Phoenix | [`anexo_c_adaptacao_parametrica_modelos.md`](sources/manuscript/annexes/adaptacao_parametrica_modelos/anexo_c_adaptacao_parametrica_modelos.md) |
-| Anexo D | Preparação para fabrico, comparação dimensional, compatibilidade com orientações de escala, montagem e articulação | [`anexo_d_preparacao_impressao.md`](sources/manuscript/annexes/testes_preparacao_impressao/anexo_d_preparacao_impressao.md) |
+| Anexo A | Extracção, normalização, cobertura e limitações dos dados antropométricos | [`data_extraction_explained.md`](anexos/data_extraction_explained.md) |
+| Anexo B | Avaliação complementar do processo paramétrico e da interface HandFab | [`anexo_b_avaliacao_processo_interface_handfab.md`](anexos/testes_plataforma/anexo_b_avaliacao_processo_interface_handfab.md) |
+| Anexo C | Adaptação paramétrica dos modelos Flexy Beast, Cyborg Beast, Paraglider Hand e UnLimbited Phoenix | [`anexo_c_adaptacao_parametrica_modelos.md`](anexos/adaptacao_parametrica_modelos/anexo_c_adaptacao_parametrica_modelos.md) |
+| Anexo D | Preparação para fabrico, comparação dimensional, compatibilidade com orientações de escala, montagem e articulação | [`anexo_d_preparacao_impressao.md`](anexos/testes_preparacao_impressao/anexo_d_preparacao_impressao.md) |
 | Suplemento 1 | Dados antropométricos usados para estruturar a base local | [`01_dados_antropometricos/`](suplementos/01_dados_antropometricos/) |
 | Suplemento 2 | Protocolos, metadados e resultados seleccionados da avaliação técnica da plataforma | [`02_avaliacao_plataforma/`](suplementos/02_avaliacao_plataforma/) |
 | Suplemento 3 | Dicionário de parâmetros e percurso rastreável entre perfil, cálculos e malhas | [`03_parametrizacao_percurso/`](suplementos/03_parametrizacao_percurso/) |
@@ -83,10 +83,11 @@ A plataforma é apresentada na dissertação como protótipo funcional de invest
 - `chapters/html/`: exportações HTML históricas de capítulos.
 - `docs/`: relatórios de revisão, auditorias e documentação de trabalho.
 - `docs/versoes/`: cópias de segurança, exportações datadas e documentos históricos.
-- `figuras/`: figuras integradas ou preparadas para o manuscrito.
+- `figuras/`: **todas as imagens que entram no DOCX**, mais as suas fontes editáveis. Ver a nota abaixo.
 - `tabelas/`: fontes editáveis e notas relativas às tabelas.
+- `anexos/`: fontes editáveis dos Anexos A–D, que são integrados no DOCX — a par de `suplementos/`.
 - `sources/docx/`: documentos DOCX de apoio.
-- `sources/manuscript/`: anexos, suplementos, auditorias, versões de referência e notas de revisão do manuscrito.
+- `sources/manuscript/`: auditorias, versões de referência e notas de revisão do manuscrito.
 - `sources/elicit/`: pesquisas, relatórios, sessões e notas de investigação organizadas por capítulo e secção.
 - `suplementos/`: pacote agregado de entrega com os quatro conjuntos suplementares e o respectivo manifesto.
 - `material/`: biblioteca local de artigos, normas e materiais de referência; os originais não devem ser sobrescritos.
@@ -94,6 +95,14 @@ A plataforma é apresentada na dissertação como protótipo funcional de invest
 - `projecto-completo_media/`: recursos gráficos usados pelo Markdown consolidado.
 - `tools/`: **todos os scripts do repositório**, organizados por finalidade — ver `tools/README.md` para o índice completo e a secção «Ferramentas» abaixo para os comandos correntes.
 - `archive/` e `recovered/`: materiais históricos ou recuperados; não são fontes activas.
+
+As pastas da raiz que alimentam directamente o DOCX são `figuras/`, `anexos/`,
+`suplementos/` e `projecto_completo_bibliografia/`. As 52 imagens do manuscrito
+vivem em `figuras/` (33) e, por serem parte de um anexo autónomo com DOCX e PDF
+próprios, em `anexos/testes_preparacao_impressao/figuras/` (19).
+`tools/docx_to_md.py` extrai para `figuras/` por omissão (`--media-dir` para
+outra pasta), para que uma conversão não volte a criar uma pasta `_media`
+paralela — foi assim que surgiu a antiga `projecto-completo_media/`.
 
 ## Ferramentas
 
@@ -177,12 +186,12 @@ As fontes editáveis dos anexos são convertidas para DOCX e integradas no docum
 
 ```bash
 python3 tools/md_to_docx.py \
-  sources/manuscript/annexes/testes_plataforma/anexo_b_avaliacao_processo_interface_handfab.md \
-  --output sources/manuscript/annexes/testes_plataforma/anexo_b_avaliacao_processo_interface_handfab.docx
+  anexos/testes_plataforma/anexo_b_avaliacao_processo_interface_handfab.md \
+  --output anexos/testes_plataforma/anexo_b_avaliacao_processo_interface_handfab.docx
 
 python3 tools/md_to_docx.py \
-  sources/manuscript/annexes/adaptacao_parametrica_modelos/anexo_c_adaptacao_parametrica_modelos.md \
-  --output sources/manuscript/annexes/adaptacao_parametrica_modelos/anexo_c_adaptacao_parametrica_modelos.docx
+  anexos/adaptacao_parametrica_modelos/anexo_c_adaptacao_parametrica_modelos.md \
+  --output anexos/adaptacao_parametrica_modelos/anexo_c_adaptacao_parametrica_modelos.docx
 
 python3 tools/revisoes/integrate_annexes_bc.py \
   --markdown pedro-candeias-projeto-mestrado-mdddp-ipca-2026-revisto.md \
