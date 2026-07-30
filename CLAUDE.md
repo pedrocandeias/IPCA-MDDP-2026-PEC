@@ -36,11 +36,12 @@ automaticamente.
 │                              # DOCX = fonte de verdade; MD = espelho; PDF = export
 ├── docs/versoes/             # backups, dated exports and historical documents
 ├── componentes/              # TUDO o que é embebido no DOCX
-│   ├── figuras/             # as 52 imagens do manuscrito
+│   ├── figuras/             # só as imagens do manuscrito (nada de extracções)
 │   ├── tabelas/             # fontes editáveis das tabelas
 │   └── anexos/              # Anexos A–D, integrados no corpo do DOCX
 ├── material/                # tudo o que foi usado para produzir a tese
 │   ├── bibliografia/        # PDFs das obras citadas
+│   ├── figuras-extraidas/   # figuras retiradas dos artigos (investigação)
 │   ├── tabelas-extraidas/   # tabelas retiradas dos artigos (investigação)
 │   └── <pastas temáticas>/  # papers organizados
 ├── suplementos/             # entrega autónoma que acompanha a dissertação

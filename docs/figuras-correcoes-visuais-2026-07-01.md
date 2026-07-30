@@ -15,17 +15,17 @@ As folhas de contacto em `docs/figuras-contact-sheets-2026-06-30/` foram regener
 
 | Ficheiro | Problema corrigido |
 | --- | --- |
-| `componentes/figuras/ch2_a_framework_for_configuring_partici_figure1_p4.png` | Fragmento inferior da figura; passou a conter o diagrama completo do processo de living lab. |
-| `componentes/figuras/ch2_a_scoping_review_of_digital_fabrica_figure1_p2.png` | Recorte parcial do fluxo AM; passou a conter os três fluxos completos sem texto lateral. |
-| `componentes/figuras/ch2_ai_in_co_creation_the_usability_and_figure7_p7.png` | Fragmento inferior do diagrama; passou a conter o enquadramento conceptual completo. |
-| `componentes/figuras/ch2_biometric_analysis_hand_parameters_figure1_p2.png` | Cabeçalho de página; passou a conter a imagem anatómica das posições da mão. |
-| `componentes/figuras/ch2_estimation_of_anthropometric_hand_m_figure1_p3.png` | Fragmento inferior de desenho; passou a conter a figura de comprimentos relevantes da mão. |
-| `componentes/figuras/ch4_customization_of_a_3d_printed_prost_figure1_p3.png` | Fragmento do desenho; passou a conter a medição completa dos dedos D2 e D3. |
-| `componentes/figuras/ch4_a_data_driven_design_framework_for_figure1_p2.png` | Página com texto corrido e figura; passou a conter apenas o framework D3Frame. |
-| `componentes/figuras/ch6_a_data_driven_design_framework_for_figure1_p2.png` | Duplicado corrigido da figura D3Frame. |
-| `componentes/figuras/ch6_a_data_driven_design_framework_for_figure9_p7.png` | Texto corrido em vez de gráfico; passou a conter o gráfico de similaridade de movimento. |
-| `componentes/figuras/ch2_a_framework_to_study_human_ai_colla_figure14_p46.png` | Texto corrido em vez da figura; passou a conter o diagrama XAI/responsible AI. |
-| `componentes/figuras/ch6_a_framework_to_study_human_ai_colla_figure14_p46.png` | Duplicado corrigido do diagrama XAI/responsible AI. |
+| `material/figuras-extraidas/ch2_a_framework_for_configuring_partici_figure1_p4.png` | Fragmento inferior da figura; passou a conter o diagrama completo do processo de living lab. |
+| `material/figuras-extraidas/ch2_a_scoping_review_of_digital_fabrica_figure1_p2.png` | Recorte parcial do fluxo AM; passou a conter os três fluxos completos sem texto lateral. |
+| `material/figuras-extraidas/ch2_ai_in_co_creation_the_usability_and_figure7_p7.png` | Fragmento inferior do diagrama; passou a conter o enquadramento conceptual completo. |
+| `material/figuras-extraidas/ch2_biometric_analysis_hand_parameters_figure1_p2.png` | Cabeçalho de página; passou a conter a imagem anatómica das posições da mão. |
+| `material/figuras-extraidas/ch2_estimation_of_anthropometric_hand_m_figure1_p3.png` | Fragmento inferior de desenho; passou a conter a figura de comprimentos relevantes da mão. |
+| `material/figuras-extraidas/ch4_customization_of_a_3d_printed_prost_figure1_p3.png` | Fragmento do desenho; passou a conter a medição completa dos dedos D2 e D3. |
+| `material/figuras-extraidas/ch4_a_data_driven_design_framework_for_figure1_p2.png` | Página com texto corrido e figura; passou a conter apenas o framework D3Frame. |
+| `material/figuras-extraidas/ch6_a_data_driven_design_framework_for_figure1_p2.png` | Duplicado corrigido da figura D3Frame. |
+| `material/figuras-extraidas/ch6_a_data_driven_design_framework_for_figure9_p7.png` | Texto corrido em vez de gráfico; passou a conter o gráfico de similaridade de movimento. |
+| `material/figuras-extraidas/ch2_a_framework_to_study_human_ai_colla_figure14_p46.png` | Texto corrido em vez da figura; passou a conter o diagrama XAI/responsible AI. |
+| `material/figuras-extraidas/ch6_a_framework_to_study_human_ai_colla_figure14_p46.png` | Duplicado corrigido do diagrama XAI/responsible AI. |
 
 ## Validação
 

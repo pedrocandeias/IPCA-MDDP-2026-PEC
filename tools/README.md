@@ -106,7 +106,7 @@ Complementa as `mendeley-tools`: o *downloader* traz os ficheiros, as
 | Script | O que faz |
 |---|---|
 | `extract_figures_tables.py` | Percorre os PDFs de `material/` e escreve `material/figures_tables_index.md` (~2 min para ~370 PDFs) |
-| `extract_suggested_assets.py` | Lê `figures_tables_suggestions.md` e extrai as imagens e tabelas propostas para `componentes/figuras/` e `tabelas/` |
+| `extract_suggested_assets.py` | Lê `figures_tables_suggestions.md` e extrai as figuras e tabelas dos artigos para `material/figuras-extraidas/` e `material/tabelas-extraidas/` |
 | `extract_docx_comments.py` | Exporta os comentários do DOCX |
 | `recover_docx_comments.py` | Recupera comentários de um DOCX danificado |
 | `extract_print_and_dimensional_tables.py` | Extrai as tabelas de impressão e as dimensionais |

@@ -192,7 +192,7 @@ Nos últimos anos, a impressão 3D e as plataformas open source ampliaram o aces
 
 A Figura 1.1 introduz visualmente este contexto, mostrando como a fabricação aditiva tem sido associada a soluções protésicas abertas, acessíveis e adaptáveis. Esta leitura ajuda a enquadrar a motivação inicial do projeto: a impressão 3D amplia o campo de possibilidades, mas a personalização robusta continua a exigir modelos configuráveis, critérios de ajuste e mediação projetual.
 
-![](../projecto-completo_media/image01.png)
+![](../archive/projecto-completo_media/image01.png)
 
 Figura 1.1 — Exemplos de próteses e dispositivos associados à fabricação aditiva em contexto protésico.
 
@@ -262,7 +262,7 @@ Combinam mecanismos mecânicos e elétricos no mesmo dispositivo. São particula
 
 Uma representação visual útil desta diversidade tipológica é apresentada na Figura 2.1, que reúne exemplos de próteses impressas em 3D com soluções morfológicas e mecânicas distintas, ajudando a perceber como diferentes opções de configuração materializam compromissos distintos entre simplicidade, função e custo.
 
-![](../projecto-completo_media/image02.png)
+![](../componentes/figuras/figura_02_proteses_impressas_diversidade_tipologica.png)
 
 Figura 2.1 — Exemplos de próteses de membro superior impressas em 3D, ilustrando diversidade tipológica e construtiva.
 
@@ -288,7 +288,7 @@ Apesar da evolução tecnológica, as taxas de abandono permanecem elevadas. A l
 
 Esta persistência do abandono é sintetizada de forma clara na Figura 2.2, que relaciona uso, rejeição primária e rejeição secundária, reforçando que o problema não é marginal, mas estrutural no campo das próteses de membro superior.
 
-![](../projecto-completo_media/image03.png)
+![](../archive/projecto-completo_media/image03.png)
 
 Figura 2.2 — Utilização, rejeição primária e rejeição secundária de próteses do membro superior adquiridas.
 
@@ -382,7 +382,7 @@ A convergência entre modelação paramétrica e fabricação aditiva (FdA) tem 
 
 Esta articulação é representada com clareza na Figura 2.3, que resume o encadeamento entre aquisição digital, modelação/retificação e fabrico, evidenciando que a personalização depende menos de um único software ou de uma etapa isolada e mais de um workflow integrado.
 
-![](../projecto-completo_media/image04.png)
+![](../archive/projecto-completo_media/image04.png)
 
 Figura 2.3 — Fluxo digital entre aquisição, CAD/CAM e fabricação aditiva em próteses e ortóteses.
 
@@ -414,7 +414,7 @@ A articulação entre modelação paramétrica e interfaces digitais possibilita
 
 A Figura 2.4 mostra um exemplo especialmente relevante desta lógica: a personalização mediada por interface, em que o utilizador atua sobre atributos visuais e formais dentro de um espaço de variação previamente estruturado. Este tipo de configurador ajuda a compreender como a cocriação digital pode ser operacionalizada sem exigir domínio direto de ferramentas CAD complexas.
 
-![](../projecto-completo_media/image05.png)
+![](../componentes/figuras/figura_05_configurador_digital_personalizacao.png)
 
 Figura 2.4 — Exemplo de configurador digital para personalização de uma prótese impressa em 3D.
 
@@ -470,7 +470,7 @@ Assim, observa-se uma valorização crescente de métodos capazes de capturar ge
 
 Mesmo assim, a medição linear continua a ser indispensável para estruturar o modelo paramétrico, sobretudo quando se pretende definir um conjunto mínimo de entradas robustas e replicáveis. A Figura 2.5 ilustra precisamente este nível basal: os marcos anatómicos e os comprimentos de referência que sustentam medições comparáveis da mão.
 
-![](../projecto-completo_media/image06.png)
+![](../componentes/figuras/figura_06_marcos_anatomicos_medidas_mao.png)
 
 Figura 2.5 — Marcos anatómicos e medidas de referência da mão para fins de personalização.
 
@@ -534,7 +534,7 @@ A integração de Inteligência Artificial (IA) no design tornou-se um tema cent
 
 Para efeitos de enquadramento, a Figura 2.6 é útil porque mostra a IA não como um bloco monolítico, mas como uma camada integrada num fluxo CAD mais amplo, em que a recolha de dados, a modelação, a otimização e a avaliação permanecem articuladas com a decisão projetual.
 
-![](../projecto-completo_media/image07.png)
+![](../archive/projecto-completo_media/image07.png)
 
 Figura 2.6 — Enquadramento de um fluxo de CAD assistido por IA para desenvolvimento de produto.
 
@@ -588,7 +588,7 @@ O meta-design aprofunda esta lógica ao defender a participação “em uso”, 
 
 Para enquadrar estes fundamentos de forma mais operacional, a Figura 2.7 mostra um modelo de configuração da participação em living labs, útil porque desloca a discussão da participação como princípio abstrato para a participação como estrutura desenhável.
 
-![](../projecto-completo_media/image08.png)
+![](../archive/projecto-completo_media/image08.png)
 
 Figura 2.7 — Modelo de processo para configurar participação em ecossistemas de inovação e cocriação.
 
@@ -658,7 +658,7 @@ A terceira tensão relaciona-se com a adoção e o valor efetivamente realizado.
 
 A distância entre o potencial técnico destas abordagens e a sua consolidação prática torna-se particularmente visível quando se analisam os níveis de prontidão tecnológica descritos na literatura. A Figura 2.8 apresenta a distribuição dos estudos por nível de prontidão tecnológica, ou Technology Readiness Level (TRL), evidenciando que muitos contributos permanecem concentrados em fases ainda afastadas de uma adoção ampla e sustentada.
 
-![](../projecto-completo_media/image09.png)
+![](../archive/projecto-completo_media/image09.png)
 
 Figura 2.8 — Distribuição dos estudos por nível de prontidão tecnológica (TRL) e categoria de aplicação. O gráfico distingue estudos sobre próteses em geral, próteses de membro inferior produzidas por impressão 3D (LL 3DP), próteses de membro inferior desenvolvidas com recurso a CAD/CAM (LL CAD/CAM), outras abordagens aplicadas ao membro inferior (LL other), próteses de membro superior produzidas por impressão 3D (UL 3DP) e outros casos não enquadrados nas categorias anteriores.
 
@@ -732,7 +732,7 @@ A investigação é igualmente estruturada segundo a lógica processual do model
 
 Esta articulação entre investigação, prototipagem e participação encontra um precedente relevante em processos interdisciplinares de desenvolvimento de próteses impressas em 3D. A Figura 3.1 sintetiza um fluxo de desenvolvimento em que avaliação clínica, definição de requisitos, prototipagem e teste com utilizador são tratados como etapas interdependentes, aproximando a metodologia do presente projeto de uma lógica iterativa e situada de Research Through Design (Silva et al., 2018 (#ref-silva-alcara-2018)).
 
-![](../projecto-completo_media/image10.png)
+![](../archive/projecto-completo_media/image10.png)
 
 Figura 3.1 — Processo interdisciplinar de desenvolvimento de uma prótese de membro superior impressa em 3D.
 
@@ -768,7 +768,7 @@ Na fase de prototipagem, a análise incide sobre os critérios de exequibilidade
 
 Embora o presente estudo não utilize participantes reais, a literatura metodológica da área ajuda a esclarecer como medições lineares e procedimentos de ajuste são normalmente operacionalizados em contextos aplicados. A Figura 3.2 ilustra esse tipo de recolha dimensional orientada para fabrico, servindo aqui como precedente metodológico para a tradução de medidas em parâmetros de projeto.
 
-![](../projecto-completo_media/image11.png)
+![](../componentes/figuras/figura_11_recolha_dimensional_ajuste.png)
 
 Figura 3.2 — Exemplo de recolha dimensional para ajuste de prótese impressa em 3D.
 
@@ -812,7 +812,7 @@ No desenvolvimento de sistemas protésicos personalizados, as medições corpora
 
 Esta exigência de organizar as medições em parâmetros operáveis é particularmente evidente nos modelos digitais do dedo e da mão. A Figura 4.1 mostra um exemplo de decomposição paramétrica em comprimentos, larguras e secções articulares, o que clarifica o tipo de estrutura dimensional que sustenta a transição da antropometria para a geometria configurável.
 
-![](../projecto-completo_media/image12.png)
+![](../archive/projecto-completo_media/image12.png)
 
 Figura 4.1 — Parâmetros antropométricos utilizados na modelação paramétrica de dedos protésicos.
 
@@ -868,7 +868,7 @@ Uma limitação recorrente em abordagens simplificadas de modelação é o uso d
 
 Esta limitação torna-se visualmente evidente na Figura 4.2, que compara um modelo uniformemente escalado com outro parametrizado a partir de variáveis independentes. A diferença é relevante porque mostra que a personalização não depende apenas de “aumentar ou reduzir” um modelo-base, mas também de reorganizar as relações geométricas internas.
 
-![](../projecto-completo_media/image13.png)
+![](../componentes/figuras/figura_13_escalonamento_uniforme_vs_parametrico.png)
 
 Figura 4.2 — Comparação entre o escalonamento uniforme e a modelação paramétrica de dedo protésico.
 
@@ -1017,7 +1017,7 @@ Ao contrário de ambientes centrados na manipulação gráfica direta, o OpenSCA
 
 A Figura 4.3 reforça esta passagem entre definição paramétrica, modelo virtual e protótipo físico. O seu valor para esta investigação não reside em replicar a solução apresentada, mas em tornar visível a cadeia que liga a decomposição dimensional do dedo, a modelação computacional e a verificação material, isto é, o mesmo tipo de continuidade que o modelo em OpenSCAD procura preservar (Nini et al., 2024 (#ref-nini-2024)).
 
-![](../projecto-completo_media/image14.png)
+![](../componentes/figuras/figura_14_modelo_parametrico_prototipagem_verificacao.png)
 
 Figura 4.3 — Relação entre modelo paramétrico digital, prototipagem e verificação de um dedo protésico.
 
@@ -1097,7 +1097,7 @@ Em vez de exigir que cada interveniente compreenda a estrutura interna do fichei
 
 Tal opção aproxima-se de abordagens recentes em plataformas de personalização de próteses, nas quais a interface funciona como meio de tornar observável, configurável e progressivamente verificável um processo que, de outro modo, permaneceria dependente de software especializado ou de mediação exclusivamente técnica (Peixoto et al., 2025 (#ref-peixoto-2025)).
 
-![](../projecto-completo_media/image15.png)
+![](../componentes/figuras/figura_15_fluxo_producao_personalizada_handfab.png)
 
 Figura 5.1 — Fluxo geral de produção personalizada de próteses a partir de plataforma web – Hand Fab
 
@@ -1123,7 +1123,7 @@ O sistema organiza-se numa estrutura em camadas, concebida para distinguir a int
 
 A Figura 5.2 apresenta um precedente de arquitetura de produção personalizada em que a digitalização, o processamento de dados, a adaptação CAD e o fabrico aditivo são articulados num fluxo de ponta a ponta. A comparação é útil porque mostra que a personalização digital depende da continuidade entre captura, parametrização e produção, ainda que, no presente projeto, essa continuidade seja deslocada para uma plataforma web e para modelos OpenSCAD executados localmente (Górski et al., 2022 (#ref-gorski-2022)).
 
-![](../projecto-completo_media/image16.png)
+![](../archive/projecto-completo_media/image16.png)
 
 Figura 5.2 — Fluxo geral de produção personalizada de próteses a partir de digitalização, CAD adaptativo e fabrico aditivo.
 
@@ -1163,7 +1163,7 @@ A Figura 5.3 ilustra um precedente particularmente próximo desta lógica: uma f
 
 (Li & Aflatoony, 2025 (#ref-li-aflatoony-2025)).
 
-![](../projecto-completo_media/image17.png)
+![](../componentes/figuras/figura_21_ferramenta_parametrica_ajudas_tecnicas.png)
 
 Figura 5.3 — Ferramenta paramétrica para configuração de ajudas técnicas com variação de dimensões, materiais e peso.
 
@@ -1273,7 +1273,7 @@ Do ponto de vista técnico, subsistem limitações significativas. A IA pode pro
 
 A Figura 6.1 sintetiza esta tensão entre desafios de explicabilidade e princípios de IA responsável. No contexto desta investigação, a figura é útil porque torna explícito que a responsabilidade não depende apenas de desempenho preditivo, mas de condições como transparência, auditabilidade, privacidade, justiça e prestação de contas. Estes princípios reforçam a opção do sistema por uma IA assistiva, limitada por regras e sujeita a revisão humana (Barredo Arrieta et al., 2020 (#ref-arrieta-2020)).
 
-![](../projecto-completo_media/image18.png)
+![](../archive/projecto-completo_media/image18.png)
 
 Figura 6.1 — Relação entre desafios de explicabilidade e princípios de IA responsável.
 
@@ -1333,7 +1333,7 @@ A coexistência destes perfis e domínios justifica a adoção de permissões di
 
 A Figura 7.1 evidencia a importância de analisar a utilização concreta do dispositivo, para além da sua configuração digital. A avaliação com utilizadores permite identificar problemas relacionados com o ajuste ao corpo, o modo de ativação, o conforto e a adequação funcional, aspetos que dificilmente são detetados de forma suficiente apenas através do modelo digital. Para esta investigação, a imagem constitui um ponto de referência metodológico: embora a plataforma possa tornar o processo mais claro e configurável, a validação futura continua a depender da observação do uso em contexto real (Silva et al., 2018 (#ref-silva-alcara-2018)).
 
-![](../projecto-completo_media/image19.png)
+![](../componentes/figuras/figura_26_teste_protese_utilizador.png)
 
 Figura 7.1 — Teste de uma prótese impressa em 3D com utilizador em contexto aplicado.
 
@@ -1403,7 +1403,7 @@ Tabela 8.1 — Síntese dos resultados da validação por impressão 3D
 
 A Figura 8.1 apresenta um precedente de avaliação funcional baseado em tarefas quotidianas de membro superior. Embora o presente trabalho não realize validação clínica nem testes com utilizadores reais, este tipo de protocolo ajuda a enquadrar o horizonte de avaliação futura: depois da coerência paramétrica e geométrica, será necessário observar desempenho em tarefas, facilidade de uso e adequação funcional em contexto real (Romero et al., 2025 (#ref-romero-2025)).
 
-![](../projecto-completo_media/image20.png)
+![](../archive/projecto-completo_media/image20.png)
 
 Figura 8.1 — Tarefas funcionais usadas em avaliação de prótese personalizada de membro superior.
 

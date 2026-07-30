@@ -83,12 +83,12 @@ A plataforma é apresentada na dissertação como protótipo funcional de invest
 - `chapters/html/`: exportações HTML históricas de capítulos.
 - `docs/`: relatórios de revisão, auditorias e documentação de trabalho.
 - `docs/versoes/`: cópias de segurança, exportações datadas e documentos históricos.
-- `componentes/`: **tudo o que é embebido no DOCX** — `figuras/` (imagens), `tabelas/` (fontes editáveis das tabelas) e `anexos/` (Anexos A–D, integrados no corpo do documento).
+- `componentes/`: **tudo o que é embebido no DOCX** — `figuras/` (só as imagens do documento), `tabelas/` (fontes editáveis das tabelas) e `anexos/` (Anexos A–D, integrados no corpo do documento).
 - `sources/docx/`: documentos DOCX de apoio.
 - `sources/manuscript/`: auditorias, versões de referência e notas de revisão do manuscrito.
 - `sources/elicit/`: pesquisas, relatórios, sessões e notas de investigação organizadas por capítulo e secção.
 - `suplementos/`: pacote agregado de entrega com os quatro conjuntos suplementares e o respectivo manifesto.
-- `material/`: **tudo o que foi usado para produzir a tese** — artigos, normas, dados de referência, `bibliografia/` (PDFs das obras citadas) e `tabelas-extraidas/` (tabelas retiradas dos artigos); os originais não devem ser sobrescritos.
+- `material/`: **tudo o que foi usado para produzir a tese** — artigos, normas, dados de referência, `bibliografia/` (PDFs das obras citadas), `figuras-extraidas/` e `tabelas-extraidas/` (figuras e tabelas retiradas dos artigos); os originais não devem ser sobrescritos.
 - `tools/`: **todos os scripts do repositório**, organizados por finalidade — ver `tools/README.md` para o índice completo e a secção «Ferramentas» abaixo para os comandos correntes.
 - `archive/` e `recovered/`: materiais históricos ou recuperados; não são fontes activas.
 

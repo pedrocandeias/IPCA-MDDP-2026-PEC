@@ -1,6 +1,6 @@
 """
 Extract figures (as PNG images) and tables (as Markdown) referenced in
-figures_tables_suggestions.md into ./figuras/ (images) and
+figures_tables_suggestions.md into material/figuras-extraidas/ (images) and
 material/tabelas-extraidas/ (tables extracted from the papers).
 
 Usage:
@@ -19,7 +19,7 @@ from pathlib import Path
 ROOT      = Path(__file__).resolve().parents[2]
 MATERIAL_DIR = ROOT / "material"
 SUGG_FILE = MATERIAL_DIR / "figures_tables_suggestions.md"
-FIG_DIR   = ROOT / "componentes" / "figuras"
+FIG_DIR   = MATERIAL_DIR / "figuras-extraidas"
 TAB_DIR   = MATERIAL_DIR / "tabelas-extraidas"
 MIN_IMG_W = 80    # pixels — skip tiny decorative images
 MIN_IMG_H = 80
