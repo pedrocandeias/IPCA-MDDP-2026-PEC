@@ -16,7 +16,7 @@ from pathlib import Path
 from typing import Any
 
 BASE_URL = "https://elicit.com"
-DEFAULT_REPORT_DIR = Path("sources/elicit/reports")
+DEFAULT_REPORT_DIR = Path("material/investigacao/elicit/reports")
 ENV_FILES = (Path(".env.local"), Path(".env"))
 
 
@@ -390,7 +390,7 @@ def build_parser() -> argparse.ArgumentParser:
     download_report.add_argument("report_id")
     download_report.add_argument(
         "--output-dir",
-        help="Override output directory. Default: sources/elicit/reports/<report_id>",
+        help="Override output directory. Default: material/investigacao/elicit/reports/<report_id>",
     )
     download_report.set_defaults(func=command_download_report)
 

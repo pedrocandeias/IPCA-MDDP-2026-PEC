@@ -1,14 +1,14 @@
 # Repository Guidelines
 
 ## Project Structure & Module Organization
-This repository is organized as a thesis workspace rather than an application codebase. Keep the consolidated manuscript in the root as `pedro-candeias-projeto-mestrado-mdddp-ipca-2026-revisto.md`, with matching `.docx` and `.pdf` files. Chapter drafts live in `chapters/text/`, HTML exports in `chapters/html/`, general supporting `.docx` files in `sources/docx/`, Elicit research workflows in `sources/elicit/`, archived versions in `docs/versoes/`, and the local library of papers and reference material in `material/`. Keep new material close to the chapter or topic it supports and avoid mixing raw library content with polished manuscript files.
+This repository is organized as a thesis workspace rather than an application codebase. Keep the consolidated manuscript in the root as `pedro-candeias-projeto-mestrado-mdddp-ipca-2026-revisto.md`, with matching `.docx` and `.pdf` files. Chapter drafts live in `docs/capitulos/text/`, HTML exports in `docs/capitulos/html/`, technical development records in `docs/desenvolvimento/`, review reports in the topical folders under `docs/revisoes/`, general supporting `.docx` files in `material/documentos_apoio/`, Elicit research workflows in `material/investigacao/elicit/`, Elicit usage guides in `docs/elicit/`, archived versions in `docs/versoes/`, and the local library of papers and reference material in the remaining topical folders under `material/`. Keep new material close to the chapter or topic it supports and avoid mixing raw library content with polished manuscript files.
 
 ## Build, Test, and Development Commands
 No build system, package manager, or automated test runner was detected in this workspace. Use lightweight validation commands when editing:
 
 ```bash
 rg --files .
-find chapters sources material -maxdepth 2 -type f
+find docs material -maxdepth 3 -type f
 ```
 
 Use these to confirm file placement and naming. For Markdown or HTML edits, preview locally in your editor before committing. When exporting revised chapter assets, keep the editable source alongside the exported format. When adding or reorganizing papers, verify they land under `material/` in the appropriate topical folder rather than under manuscript or export directories.
@@ -49,8 +49,8 @@ Whenever citations or bibliography entries are added or changed in the canonical
 ## Research Workflow
 When using Elicit or similar literature tools, work sequentially and keep continuity between related sections instead of researching isolated fragments with no shared framing. For each substantial section, use both targeted searches and broader reports when useful, and treat the suggested bibliography as a primary research output rather than relying only on summaries. If the intended scope of a research task is ambiguous, confirm it before proceeding instead of assuming the focus.
 Download completed Elicit reports and organize them into project folders instead of leaving them only in the web interface. Keep report outputs grouped in a predictable directory structure so that the report file, exported assets, and related notes remain traceable and reusable during writing.
-Use the folder structure `sources/elicit/<chapter>/<subsection>/`. Inside each subsection folder, keep `queries.md`, `searches/`, `reports/`, and section-specific working notes together. Inside each individual report folder, store the report metadata, downloaded assets, working notes, and the exact query together.
-For Elicit agent sessions, use `sources/elicit/agent-sessions/<chapter>/<subsection>/<session-slug>/` and map each session to a specific manuscript section before saving anything locally. Treat the local session folder as the authoritative record of that session rather than leaving reusable material only in the Elicit web interface.
+Use the folder structure `material/investigacao/elicit/<chapter>/<subsection>/`. Inside each subsection folder, keep `queries.md`, `searches/`, `reports/`, and section-specific working notes together. Inside each individual report folder, store the report metadata, downloaded assets, working notes, and the exact query together.
+For Elicit agent sessions, use `material/investigacao/elicit/agent-sessions/<chapter>/<subsection>/<session-slug>/` and map each session to a specific manuscript section before saving anything locally. Treat the local session folder as the authoritative record of that session rather than leaving reusable material only in the Elicit web interface.
 Inside each agent-session folder, keep the session identity explicit with section-numbered filenames such as `<section>_<session-slug>_session_title.md` and `<section>_<session-slug>_prose.md`.
 When possible, paste the generated Elicit prose into the local prose file rather than relying only on exported artifacts, because the pasted prose often preserves the synthesis text and footnote markers more reliably.
 Add the source list for the prose in structured form, preferably as `<section>_<session-slug>_sources.csv`, and also keep `APA Sources.txt` when Elicit provides it.

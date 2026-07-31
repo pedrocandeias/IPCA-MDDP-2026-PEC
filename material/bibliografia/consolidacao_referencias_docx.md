@@ -1,15 +1,15 @@
 # Consolidação dos PDFs referenciados no DOCX
 
-Última verificação: 2026-07-21.
+Última verificação: 2026-07-30.
 
 - Documento analisado: `pedro-candeias-projeto-mestrado-mdddp-ipca-2026-revisto.docx`
-- Entradas bibliográficas identificadas: **169**
-- Entradas com PDF já presente na pasta consolidada: **158**
+- SHA-256 do DOCX analisado: `cd38830d659707c2df46a549458010b8bdd52f3caeff33b1fc4e174988b76ad2`
+- Entradas bibliográficas identificadas: **171**
+- Entradas com PDF já presente na pasta consolidada: **159**
 - Entradas com PDF validado noutra pasta local: **0**
-- PDFs existentes na pasta consolidada: **182**
-- PDFs acrescentados desde o inventário inicial (155): **27**
-- Documentos citados sem texto integral local: **5**
-- Recursos digitais ou conjuntos de dados sem PDF autónomo esperado: **6**
+- PDFs existentes na pasta consolidada: **186**
+- Entradas bibliográficas sem texto integral local: **2**
+- Recursos digitais ou conjuntos de dados sem PDF autónomo esperado: **10**
 
 A ausência de correspondência nesta lista não significa necessariamente que falte um *paper*: a bibliografia inclui igualmente páginas institucionais, normas apenas referenciadas por catálogo, conjuntos de dados e outros recursos sem PDF local.
 
@@ -43,7 +43,7 @@ A ausência de correspondência nesta lista não significa necessariamente que f
 | Center for Universal Design. (1997) | `Center_for_Universal_Design_1997_Principles_of_Universal_Design.pdf` | associação documental previamente auditada |
 | Chadwell (2020) | `Technology for monitoring everyday prosthesis use_ a systematic review .pdf` | DOI idêntico, título no nome/metadados, título e autor na primeira página, primeiro autor confirmado, ano confirmado |
 | Chainando (2025) | `Applying 3D Scanning and Printing Techniques to Produce Upper Limb Prostheses Bibliometric Analysis and Scoping Review (2).pdf` | DOI idêntico, título no nome/metadados, título e autor na primeira página, primeiro autor confirmado, ano confirmado |
-| Chapman (2025) | `Methods for Co-designing Health Communication Initiatives with People with Disability_ A Scoping Review.pdf` | título no nome/metadados |
+| Chapman (2025) | `Methods for Co-designing Health Communication Initiatives with People with Disability_ A Scoping Review.pdf` | título no nome/metadados, primeiro autor confirmado |
 | Chatzioglou (2024) | `Biometric analysis hand parameters in young adults for prosthetic hand and ergonomic product applications.pdf` | DOI idêntico, título no nome/metadados, título e autor na primeira página, primeiro autor confirmado, ano confirmado |
 | Choudhury (2025) | `Artificial intelligence (AI) in the design process  a review and analysis on generative AI perspectives.pdf` | título no nome/metadados, título e autor na primeira página, primeiro autor confirmado, ano confirmado |
 | Chtioui (2023) | `Design_for_additive_manufacturing_Review_and_frame.pdf` | título no nome/metadados, título e autor na primeira página, primeiro autor confirmado, ano confirmado |
@@ -70,10 +70,11 @@ A ausência de correspondência nesta lista não significa necessariamente que f
 | Frangos (2016) | `frangos_et_al_2016_democratising_open_source_hardware_design.pdf` | associação documental previamente auditada |
 | Franke (2003) | `franke_von_hippel_2002_innovation_toolkits_apache.pdf` | DOI idêntico, título e autor na primeira página, primeiro autor confirmado, ano confirmado |
 | Frayling (1994) | `Frayling-1994-Research in art and design.pdf` | associação documental previamente auditada |
+| Ghali (2008) | `Ghali_2008_Introduction_to_Geometric_Computing.pdf` | associação documental previamente auditada |
 | Ghillebert (2019) | `ghillebert_et_al_2019_lower_limb_prosthetic_efficacy.pdf` | título no nome/metadados, título e autor na primeira página, primeiro autor confirmado, ano confirmado |
 | Gonzalez Avila (2024) | `gonzalez_avila_et_al_2024_openscad_users.pdf` | título no nome/metadados, primeiro autor confirmado, ano confirmado |
 | Gordon (2015) | `Gordon_et_al_2015_ANSUR_II_methods_summary_statistics.pdf` | associação documental previamente auditada |
-| Gordon (1989) | `Gordon_et_al_1989_Anthropometric_survey_of_US_Army_personnel_Methods_and_summary_statistics_1988.pdf` | título no nome/metadados, primeiro autor confirmado, ano confirmado |
+| Gordon (1989) | `Gordon_et_al_1989_ANSUR_Methods_Summary_Statistics_1988.pdf` | título no nome/metadados, primeiro autor confirmado, ano confirmado |
 | Górski (2022) | `Filip Gགྷrski - Automated Design and Rapid Manufacturing of Low-Cost Customized Upper Limb Prostheses [2022].pdf` | DOI idêntico, título no nome/metadados, título e autor na primeira página, primeiro autor confirmado, ano confirmado |
 | Govender (2020) | `pharmaceutics-12-00771.pdf` | título e autor na primeira página, primeiro autor confirmado, ano confirmado |
 | Gu (2024) | `A Data-Driven Design Framework for Structural Optimization to Enhance Wearing Adaptability of Prosthetic Hands.pdf` | DOI idêntico, título no nome/metadados, título e autor na primeira página, primeiro autor confirmado, ano confirmado |
@@ -106,6 +107,7 @@ VOLLEYBALL PLAYERS IN HIGHER INSTITUTIONS IN PORT HARCOURT METROPOLIS.pdf` | tí
 | Khanolkar (2023) | `khanolkar_vrolijk_olechowski_2023_ai_methods_engineering_design_stages.pdf` | DOI idêntico, título e autor na primeira página, primeiro autor confirmado, ano confirmado |
 | Krahe (2020) | `krahe_et_al_2020_deep_learning_automated_product_design.pdf` | DOI idêntico, título no nome/metadados, título e autor na primeira página, primeiro autor confirmado, ano confirmado |
 | Kuhl (2020) | `kuhl_et_al_2020_design_personalized_devices_tradeoff.pdf` | título no nome/metadados, primeiro autor confirmado, ano confirmado |
+| Lei (2015) | `lei_moon_rosen_2015_redefining_product_family_design_additive_manufacturing.pdf` | título no nome/metadados, título e autor na primeira página, primeiro autor confirmado, ano confirmado |
 | Lei (2016) | `an-additive-manufacturing-process-model-for-product-family-a7r4er2nxm.pdf` | DOI idêntico, título no nome/metadados, título e autor na primeira página, primeiro autor confirmado, ano confirmado |
 | Li (2025) | `Mixuan Li - Parametric design and three-dimensional printing enabling Occupational therapists to develop custom hand grips [2025].pdf` | DOI idêntico, título no nome/metadados, título e autor na primeira página, primeiro autor confirmado, ano confirmado |
 | Li (2021) | `Exploring Generative Design Thinking for Engineering Design and Design Education.pdf` | título no nome/metadados, título e autor na primeira página, primeiro autor confirmado, ano confirmado |
@@ -118,7 +120,7 @@ VOLLEYBALL PLAYERS IN HIGHER INSTITUTIONS IN PORT HARCOURT METROPOLIS.pdf` | tí
 | Martins (2024) | `Martins_et_al_2024_PLA_PETG_biomechanical_applications.pdf` | DOI idêntico, título no nome/metadados, título e autor na primeira página, primeiro autor confirmado, ano confirmado |
 | Menaka (2025) | `AI-DRIVEN COMPUTER-AIDED DESIGN CAD SYSTEMS LEVERAGING NEURAL NETWORKS FOR OPTIMIZED ENGINEERING PRODUCT DEVELOPMENT (2025).pdf` | título no nome/metadados, título e autor na primeira página, primeiro autor confirmado, ano confirmado |
 | Mikołajewski (2023) | `mikolajewski_et_al_2023_personalization_3d_printed_upper_limb_exoskeleton.pdf` | título no nome/metadados, primeiro autor confirmado, ano confirmado |
-| Millet (2018) | `HUMAN CENTRED CRITERIA FOR HEALTHCARE DESIGN.pdf` | título no nome/metadados, primeiro autor confirmado, ano confirmado |
+| Millet (2018) | `Millet_Abi_Akle_Legardeur_2018_Human_centred_criteria_for_healthcare_design.pdf` | título no nome/metadados, primeiro autor confirmado, ano confirmado |
 | Mistarihi (2020) | `mistarihi_2020_anthropometric_dataset_disabled_workers.pdf` | DOI idêntico, título no nome/metadados, título e autor na primeira página, primeiro autor confirmado, ano confirmado |
 | Moreo (2016) | `parametric design of a 3D printable hand prosthesis for children in developing ountrieMaster Thesis Monica Moreo 4398661.pdf` | título no nome/metadados, primeiro autor confirmado, ano confirmado |
 | Nag (2003) | `Hand anthropometry of Indian women.pdf` | título no nome/metadados, título e autor na primeira página, primeiro autor confirmado, ano confirmado |
@@ -129,7 +131,6 @@ VOLLEYBALL PLAYERS IN HIGHER INSTITUTIONS IN PORT HARCOURT METROPOLIS.pdf` | tí
 | Østlie (2012) | `ostlie_et_al_2012_prosthesis_rejection_upper_limb.pdf` | DOI idêntico, título no nome/metadados, título e autor na primeira página, primeiro autor confirmado, ano confirmado |
 | Ozdemir (2022) | `design-methodology-for-mass-personalisation-enabled-by-digital-manufacturing.pdf` | DOI idêntico, título no nome/metadados, título e autor na primeira página, primeiro autor confirmado, ano confirmado |
 | Panchal (2019) | `Special Issue Machine Learning for Engineering.pdf` | DOI idêntico, título no nome/metadados, título e autor na primeira página, primeiro autor confirmado, ano confirmado |
-| Parlamento Europeu (2017) | `Regulamento_UE_2017_745_dispositivos_medicos_PT.pdf` | título no nome/metadados, título e autor na primeira página, primeiro autor confirmado, ano confirmado |
 | Peerdeman (2011) | `peerdeman_et_al_2011_myoelectric_forearm_prostheses.pdf` | DOI idêntico, título no nome/metadados, título e autor na primeira página, primeiro autor confirmado, ano confirmado |
 | Peixoto (2025) | `peixoto_et_al_2025_online_platform_personalizing_wearable_prostheses.pdf` | DOI idêntico, título no nome/metadados, título e autor na primeira página, primeiro autor confirmado, ano confirmado |
 | Peters (2023) | `peters_richter_2023_individualizing_patient_pathways_modularization.pdf` | título e autor na primeira página, primeiro autor confirmado, ano confirmado |
@@ -179,23 +180,24 @@ democratization.pdf` | título no nome/metadados, título e autor na primeira p�
 | Zimmerman (2007) | `Research through design as a method for interaction design research in HCI - Zimmerman.pdf` | título no nome/metadados, título e autor na primeira página, primeiro autor confirmado, ano confirmado |
 | Zuniga (2015) | `Cyborg beast a low-cost 3d-printed prosthetic hand for children with upper-limb differences.pdf` | DOI idêntico, título no nome/metadados, título e autor na primeira página, primeiro autor confirmado, ano confirmado |
 
-## Documentos citados sem texto integral local
+## Entradas bibliográficas sem texto integral local
 
 | Referência | Título |
 | --- | --- |
-| ASTM International. (2024) | *Standard guide for assessing fit accommodation of exoskeletons for manufacturers and designers* |
-| Ghali (2008) | *Constructive solid geometry* |
 | Molenbroek (2003) | *Revision of the Dutch standard for furniture in schools* |
 | Steenbekkers (1998) | *Design-relevant characteristics of ageing users* |
-| Yao (2016) | *A cost-driven design methodology for additive manufactured variable platforms in product families* |
 
 ## Recursos sem PDF autónomo esperado
 
 | Referência | Recurso |
 | --- | --- |
+| ASTM International. (2024) | *Standard guide for assessing fit accommodation of exoskeletons for manufacturers and designers* |
 | Base local consolidada de dados antropométricos da mão e do membro superior distal. (2026) | *[Conjunto de dados]* |
 | Brooks (2026) | *OpenSCAD Web [Computer software]* |
+| daprice. (n.d.) | *Flexy Beast [README file]* |
 | Design Council. (2020) | *Framework for innovation* |
+| International Organization for Standardization. (n.d.) | *ISO/TC 168: Prosthetics and orthotics* |
 | Molenbroek (1998) | *Geron study on Dutch elderly anthropometry* |
-| - World Wide Web Consortium. (2024) | *Web Content Accessibility Guidelines (WCAG) 2.2* |
-| - World Wide Web Consortium. (2014) | *Website Accessibility Conformance Evaluation Methodology (WCAG-EM) 1.0* |
+| OpenSCAD Community. (n.d.) | *OpenSCAD User Manual/Using OpenSCAD in a command line environment* |
+| OpenSCAD Project. (n.d.-a) | *OpenSCAD: The programmers solid 3D CAD modeller* |
+| OpenSCAD Project. (n.d.-b) | *OpenSCAD source repository [Computer software]* |

@@ -33,7 +33,7 @@ Os três primeiros ficheiros constituem o conjunto canónico do manuscrito. As c
 - Existem localmente 140 dos 141 *papers* citados. Continua em falta Yao, Moon e Bi (2016), além de um capítulo de livro de Ghali (2008), contabilizado separadamente. O PDF de Dexter, Atkinson e Dearden (2013) foi obtido no arquivo Design4Health; o confronto revelou que a entrada bibliográfica actual conserva coautores incorrectos e ainda necessita de correcção no manuscrito.
 - A bibliografia do DOCX contém 169 entradas, das quais 158 têm correspondência PDF validada na pasta consolidada. O inventário e os critérios de correspondência encontram-se em [`consolidacao_referencias_docx.md`](material/bibliografia/consolidacao_referencias_docx.md).
 
-O detalhe encontra-se na [`auditoria_referencias_texto_papers_061.md`](docs/revisoes/auditoria_referencias_texto_papers_061.md) e na lista autoritativa [`pdfs_em_falta.md`](material/bibliografia/pdfs_em_falta.md).
+O detalhe encontra-se na [`auditoria_referencias_texto_papers_061.md`](docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md) e na lista autoritativa [`pdfs_em_falta.md`](material/bibliografia/pdfs_em_falta.md).
 
 ## Organização das versões
 
@@ -43,7 +43,7 @@ O detalhe encontra-se na [`auditoria_referencias_texto_papers_061.md`](docs/revi
 | [`docs/versoes/exportacoes/`](docs/versoes/exportacoes/) | DOCX e PDF datados produzidos para revisão visual ou entrega intermédia. |
 | [`docs/versoes/documentos-historicos/`](docs/versoes/documentos-historicos/) | Versões anteriores, documentos de validação e antigas cópias de conveniência que estavam no *root*. |
 
-O ficheiro auxiliar `tabelas.docx` foi colocado em `sources/docx/`, junto dos restantes documentos DOCX de apoio.
+O ficheiro auxiliar `tabelas.docx` encontra-se em `material/documentos_apoio/`. Os DOCX produzidos no âmbito da investigação Elicit ficam junto dos respectivos registos em `material/investigacao/elicit/`.
 
 ## Anexos e suplementos
 
@@ -79,16 +79,19 @@ A plataforma é apresentada na dissertação como protótipo funcional de invest
 
 ## Estrutura do repositório
 
-- `chapters/text/`: rascunhos e materiais textuais por capítulo.
-- `chapters/html/`: exportações HTML históricas de capítulos.
-- `docs/`: relatórios de revisão, auditorias e documentação de trabalho.
+- `docs/`: documentação de trabalho organizada por função; ver [`docs/README.md`](docs/README.md).
+- `docs/capitulos/`: rascunhos textuais e exportações HTML históricas organizados por capítulo.
+- `docs/desenvolvimento/`: documentação técnica dos modelos, avaliações de IA e dimensionamento.
+- `docs/elicit/`: guias operacionais do Elicit; os resultados de investigação ficam em `material/investigacao/elicit/`.
+- `docs/ferramentas/`: documentação de ferramentas auxiliares.
+- `docs/revisoes/`: auditorias e relatórios organizados em `manuscrito/`, `bibliografia/`, `linguagem/`, `figuras/`, `anexos/` e `fabrico/`.
+- `docs/notas/`: notas de trabalho que ainda não pertencem a uma secção específica.
 - `docs/versoes/`: cópias de segurança, exportações datadas e documentos históricos.
 - `componentes/`: **tudo o que é embebido no DOCX** — `figuras/` (só as imagens do documento), `tabelas/` (fontes editáveis das tabelas) e `anexos/` (Anexos A–D, integrados no corpo do documento).
-- `sources/docx/`: documentos DOCX de apoio.
-- `sources/manuscript/`: auditorias, versões de referência e notas de revisão do manuscrito.
-- `sources/elicit/`: pesquisas, relatórios, sessões e notas de investigação organizadas por capítulo e secção.
 - `suplementos/`: pacote agregado de entrega com os quatro conjuntos suplementares e o respectivo manifesto.
 - `material/`: **tudo o que foi usado para produzir a tese** — artigos, normas, dados de referência, `bibliografia/` (PDFs das obras citadas), `figuras-extraidas/` e `tabelas-extraidas/` (figuras e tabelas retiradas dos artigos); os originais não devem ser sobrescritos.
+- `material/investigacao/elicit/`: pesquisas, relatórios, sessões, protocolos e exportações Elicit organizados por capítulo e secção.
+- `material/documentos_apoio/`: documentos editáveis auxiliares que não pertencem ao manuscrito canónico.
 - `tools/`: **todos os scripts do repositório**, organizados por finalidade — ver `tools/README.md` para o índice completo e a secção «Ferramentas» abaixo para os comandos correntes.
 - `archive/` e `recovered/`: materiais históricos ou recuperados; não são fontes activas.
 
@@ -290,7 +293,7 @@ Quando o DOCX canónico faz parte de um *commit*, o *hook* `pre-commit` regenera
 
 O relatório principal de revisão encontra-se em:
 
-- [`docs/relatorio-revisao-academica-integral-dissertacao-2026-07-13.md`](docs/relatorio-revisao-academica-integral-dissertacao-2026-07-13.md)
+- [`docs/revisoes/manuscrito/relatorio-revisao-academica-integral-dissertacao-2026-07-13.md`](docs/revisoes/manuscrito/relatorio-revisao-academica-integral-dissertacao-2026-07-13.md)
 
 Os pontos resolvidos são identificados por `[X]`. Uma marca só deve ser acrescentada quando a correcção estiver presente no manuscrito, no documento revisto e, quando aplicável, na evidência ou no anexo correspondente.
 
@@ -303,7 +306,7 @@ Sempre que uma citação ou referência for acrescentada ou corrigida:
 3. localizar e copiar o PDF para `material/bibliografia/`, quando disponível;
 4. actualizar [`material/bibliografia/pdfs_em_falta.md`](material/bibliografia/pdfs_em_falta.md).
 
-As pesquisas e relatórios de apoio são guardados em `sources/elicit/`. O manuscrito não deve mencionar o Elicit como fonte académica; as afirmações devem apoiar-se nos artigos e documentos originais.
+As pesquisas e relatórios de apoio são guardados em `material/investigacao/elicit/`. O manuscrito não deve mencionar o Elicit como fonte académica; as afirmações devem apoiar-se nos artigos e documentos originais.
 
 ## Convenções
 

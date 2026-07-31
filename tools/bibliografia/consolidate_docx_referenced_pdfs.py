@@ -44,6 +44,7 @@ KNOWN_PDFS = {
     ("fischer", "2017"): "material/bibliografia/new_perspectives_end_user_development_2017.pdf",
     ("frangos", "2016"): "material/bibliografia/frangos_et_al_2016_democratising_open_source_hardware_design.pdf",
     ("frayling", "1994"): "material/bibliografia/Frayling-1994-Research in art and design.pdf",
+    ("ghali", "2008"): "material/bibliografia/Ghali_2008_Introduction_to_Geometric_Computing.pdf",
     ("gordon", "2015"): "material/bibliografia/Gordon_et_al_2015_ANSUR_II_methods_summary_statistics.pdf",
     ("herbst", "2021"): "material/bibliografia/herbst_et_al_2021_scan_driven_personalized_prosthetic_hand.pdf",
     ("international electrotechnical commission", "2015"): "material/bibliografia/IEC-62366-1_2015.pdf",
@@ -54,16 +55,25 @@ KNOWN_PDFS = {
 }
 
 NON_PDF_RESOURCES = {
+    ("astm international", "2024"),
     ("base local consolidada de dados antropometricos da mao e do membro superior distal", "2026"),
     ("brooks", "2026"),
+    ("daprice", "n.d."),
     ("design council", "2020"),
+    ("international organization for standardization", "n.d."),
     ("molenbroek", "1998"),
+    ("openscad community", "n.d."),
+    ("openscad project", "n.d.-a"),
+    ("openscad project", "n.d.-b"),
     ("world wide web consortium", "2024"),
     ("world wide web consortium", "2014"),
 }
 
 W_NS = "http://schemas.openxmlformats.org/wordprocessingml/2006/main"
-YEAR_RE = re.compile(r"\(((?:19|20)\d{2})[a-z]?(?:,\s*[^)]*)?\)\.\s+")
+YEAR_RE = re.compile(
+    r"\(((?:(?:19|20)\d{2}|n\.d\.)(?:-[a-z])?)(?:,\s*[^)]*)?\)\.\s+",
+    re.I,
+)
 DOI_RE = re.compile(r"10\.\d{4,9}/[-._;()/:A-Z0-9]+", re.I)
 
 STOPWORDS = {
@@ -150,10 +160,21 @@ def parse_references(docx: Path) -> list[Reference]:
         raise RuntimeError("Não foi encontrada a secção 'Referências Bibliográficas'.") from exc
 
     end = next(
-        (idx for idx in range(start, len(paragraphs)) if paragraphs[idx].startswith("ANEXO A")),
+        (
+            idx
+            for idx in range(start, len(paragraphs))
+            if paragraphs[idx].casefold().startswith("anexo a")
+        ),
         len(paragraphs),
     )
-    entries = paragraphs[start:end]
+    entries: list[str] = []
+    for paragraph in paragraphs[start:end]:
+        # Três entradas do DOCX actual têm o DOI/URL num parágrafo autónomo.
+        # Esse parágrafo é continuação do registo anterior, não uma referência.
+        if re.match(r"^https?://", paragraph, flags=re.I) and entries:
+            entries[-1] = f"{entries[-1]} {paragraph}"
+        else:
+            entries.append(paragraph)
     references: list[Reference] = []
     for entry in entries:
         year_match = YEAR_RE.search(entry)
@@ -333,11 +354,12 @@ def report_text(
         f"Última verificação: {date.today().isoformat()}.",
         "",
         f"- Documento analisado: `{docx.relative_to(ROOT)}`",
+        f"- SHA-256 do DOCX analisado: `{hashlib.sha256(docx.read_bytes()).hexdigest()}`",
         f"- Entradas bibliográficas identificadas: **{len(matches)}**",
         f"- Entradas com PDF já presente na pasta consolidada: **{len(existing)}**",
         f"- Entradas com PDF validado noutra pasta local: **{len(available)}**",
         f"- PDFs existentes na pasta consolidada: **{current_pdf_count}**",
-        f"- Documentos citados sem texto integral local: **{len(unavailable_documents)}**",
+        f"- Entradas bibliográficas sem texto integral local: **{len(unavailable_documents)}**",
         f"- Recursos digitais ou conjuntos de dados sem PDF autónomo esperado: **{len(non_pdf)}**",
         "",
         "A ausência de correspondência nesta lista não significa necessariamente que falte um *paper*: a bibliografia inclui igualmente páginas institucionais, normas apenas referenciadas por catálogo, conjuntos de dados e outros recursos sem PDF local.",
@@ -370,7 +392,7 @@ def report_text(
 
     lines.extend((
         "",
-        "## Documentos citados sem texto integral local",
+        "## Entradas bibliográficas sem texto integral local",
         "",
         "| Referência | Título |",
         "| --- | --- |",

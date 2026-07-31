@@ -9,7 +9,7 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[2]
-SOURCE = ROOT / "docs/palm-body-dimensions.md"
+SOURCE = ROOT / "docs/desenvolvimento/dimensionamento/palm-body-dimensions.md"
 TARGET = (
     ROOT
     / "componentes/anexos/testes_preparacao_impressao"

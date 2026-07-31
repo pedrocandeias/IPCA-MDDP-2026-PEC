@@ -46,7 +46,7 @@ FOLDER_MAP = {
 
 ELICIT_CSV_PATHS: list[Path] = [
     MATERIAL_DIR / "Elicit - Papers Upper Limb Anthropometry for Prosthetic Design.csv",
-    REPO_ROOT / "sources/capitulo2",
+    MATERIAL_DIR / "investigacao/elicit/capitulo-2/legacy-exports",
 ]
 
 # (folder, [(keyword, weight), ...])

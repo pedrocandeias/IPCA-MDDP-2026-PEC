@@ -31,3 +31,10 @@ normas/
 Modelos\ de\ proteses/
 Diagramas/
 capitulos/
+
+# Registos operacionais de investigação e documentos auxiliares do projecto.
+# Permanecem versionados, incluindo os respectivos CSV e PDF.
+!investigacao/
+!investigacao/**
+!documentos_apoio/
+!documentos_apoio/**

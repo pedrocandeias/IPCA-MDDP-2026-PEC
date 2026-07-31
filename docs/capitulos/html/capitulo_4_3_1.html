@@ -1,0 +1,106 @@
+<div class="text-primary px-3"><div class="flex flex-col gap-4"><div class="[&amp;_p:last-child]:pb-2"><div class="text-primary"><p>These three questions address complementary layers of the same design problem. I'll synthesise the evidence into a unified framework, moving from overall model architecture, through parameter hierarchy, to constraint embedding</p>
+<hr>
+<h2>Q1: How can code-based parametric models be structured for anthropometric personalisation, modular geometry, and AM constraints?</h2>
+<p>The literature converges on a layered architecture where anthropometric inputs drive geometry generation through modular components, with manufacturing constraints acting as validation guards.</p>
+<h3>Anthropometric personalisation as the entry layer</h3>
+<p>Saldarriaga et al. (2024) present one of the most explicit architectures for a parametric prosthetic socket: "an approach to parametric and transradial prosthesis design" that details "the step-by-step process of how this paradigm is used in conjunction with other design techniques, thus obtaining a prosthetic stump-forearm interface."<span> <citation>(Saldarriaga 2024)</citation></span> The model takes anthropometric measurements (stump circumference, length, cross-section profile) and generates a socket geometry that adapts automatically.</p>
+<p>Górski et al. (2022, 12 citations) demonstrate the full scan-to-model pipeline: "automated design and rapid manufacturing (3D printing), on the basis of 3D scanning of upper limb of a given patient. Two different products are presented<br>
+a simple mechanical prosthesis and a cosmetic prosthesis. In both cases, intelligent CAD models, with adaptive geometry<br>
+changing automatically to the data from 3D scanning<br>
+were prepared."<span> <citation>(Gགྷrski 2022)</citation></span> Their approach processes 3D scan data through a "special algorithm of 3D scanning data processing" to extract parameters that drive the CAD model.</p>
+<p>Górski et al. (2019, 12 citations) show how this works for orthoses: "A patient is first 3D scanned using a cheap structured light scanner. Then, the gathered anthropometric data is used as a base for automated adjustment of geometry of an intelligent model of a wrist orthosis. Finally, the orthosis can be 3D printed using low-cost machines. Automation of design eliminates a need of manual processing of 3D scans and 3D models."<span> <citation>(Górski 2019)</citation></span></p>
+<h3>Modular geometry generation</h3>
+<p>Davis, Burry &amp; Burry (2011, 33 citations) provide the theoretical foundation for modular structuring of parametric scripts: "Modularisation is a well-known method of reducing code complexity, yet architects are unlikely to modularise their visual scripts." Their study found that modules improve "legibility, collaboration, reuse"<br>
+all critical for prosthetics where multiple stakeholders (prosthetist, designer, patient) interact with the model.<span> <citation>(Davis 2011)</citation></span></p>
+<p>Demoly &amp; Roth (2017, 11 citations) present a directly applicable framework: "knowledge-based parametric CAD models related to configurable biomechanical structures by using an emerging modelling approach, skeleton-based modelling." Their approach uses geometric skeletons as the structural backbone, with parametric modules attached to skeleton segments.<span> <citation>(Demoly 2017)</citation></span> For a prosthetic hand, this maps naturally: the skeletal structure defines finger kinematic chains, and each finger module attaches parametrically.</p>
+<p>Raffaeli et al. (2010, 9 citations) formalise the connection between modularity and configuration: "Modular products can easily support customization in a short time. Design process, in this case, can be regarded as a configuration task where solution is achieved through the combination of modules in overall product architecture."<span> <citation>(Raffaeli 2010)</citation></span></p>
+<p>For OpenSCAD, modular structuring translates directly to the <code>module</code> construct:</p>
+<pre class="whitespace-pre-wrap py-2 px-4 bg-medium rounded mb-2"><code class="language-openscad">// Module interface: each prosthetic component 
+// is a self-contained parametric unit
+module finger(length, width, joint_type, min_wall) { ... }
+module palm(breadth, thickness, finger_count) { ... }
+module socket(stump_profile, stump_length) { ... }
+</code></pre>
+<h3>AM constraints as a validation/bounding layer</h3>
+<p>Jaiswal &amp; Rai (2019, 14 citations) present the most comprehensive computational approach to printability checking: "designers and novice users of additive technologies often lack the awareness of manufacturing considerations leading to lower quality parts and print failures. Therefore, it is crucial to develop computational tools to evaluate the manufacturability of a design." Their geometric reasoning approach analyses STL meshes for thin walls, overhangs, and small features.<span> <citation>(Jaiswal 2019)</citation></span></p>
+<p>Grgić et al. (2023, 28 citations) provide empirical FDM accuracy data essential for parametric constraint definition: their study "aims to determine the accuracy limits of FDM 3D printers when producing elements" and maps dimensional deviations to tolerance fields.<span> <citation>(Grgić 2023)</citation></span> These tolerance values become parametric constants in the model.</p>
+<p>Borgue et al. (2020) demonstrate how AM constraints should be modelled at the conceptual design stage: "Function and constraints modelling are implemented to design two gridded ion thrusters for additive manufacturing. One concept takes advantage of AM design freedom, disregarding AM limitations and is not feasible. The other concept considers AM limitations and is manufacturable and feasible."<span> <citation>(Borgue 2020)</citation></span></p>
+<hr>
+<h2>Q2: How are anthropometric, functional, and manufacturing parameters hierarchised?</h2>
+<p>The evidence supports a four-tier parameter hierarchy with unidirectional dependency flow:</p>
+<h3>Tier 1: Anthropometric driver parameters (user-specific inputs)</h3>
+<p>Moreo (2016, 5 citations) demonstrates statistical reduction of hand measurements to a minimal driver set: the model uses "palm breadth" as the master anthropometric parameter from which other hand dimensions are derived through regression relationships.<span> <citation>(Moreo 2016)</citation></span></p>
+<p>Lim et al. (2018, 8 citations) show that anthropometric parameters must drive not just shell geometry but mechanism geometry: "parametric modeling can be utilized to produce medical devices that are specific to the patient's needs. However, current 3D printed upper limb prosthetics use uniform scaling to fit." Their parametric finger model demonstrates that recalculating dimensions from anthropometric inputs produces better kinematic results than uniform scaling.<span> <citation>(Lim 2018)</citation></span></p>
+<p>Castañeda &amp; Bernardo-Vasquez (2017) extract dimensions directly from radiography: "the design of an anthropomorphic and anthropometric prosthesis based on dimensions and shape extracted from a digitized radiograph of the healthy hand of the patient."<span> <citation>(Castañeda 2017)</citation></span></p>
+<p>Zuhri et al. (2025) use population-level anthropometric databases: "a myoelectric prosthetic arm tailored to Indonesian anthropometric data, incorporating static and dynamic measurements obtained from the Indonesian anthropometric database."<span> <citation>(Zuhri 2025)</citation></span></p>
+<h3>Tier 2: Derived geometric parameters</h3>
+<p>These are computed from anthropometric inputs via formulas or lookup tables:</p>
+<ul class="my-1 mb-4 ml-4">
+<li class="pb-1 ">Finger segment lengths (from total finger length ratios)</li>
+<li class="pb-1 ">Palm shell curvature (from palm breadth and hand thickness)</li>
+<li class="pb-1 ">Joint locations (from phalangeal proportions)</li>
+<li class="pb-1 ">Socket internal profile (from stump scan data)</li>
+</ul>
+<p>Williams, Torrens &amp; Hodgson (2004, 6 citations) formalise this linkage: "The incorporation of anthropometric data (measurements of proportions and sizes of the human body) into a new product design provides a more precise starting point for evidence-based design decision-making."<span> <citation type="button" aria-label="View citations" class="inline-flex justify-center items-center font-medium select-none rounded-full px-1.5 py-1 text-[11px] leading-none whitespace-nowrap bg-accent hover:bg-accent-strong text-white mx-0.5" data-citation-anchor="true">Williams 2004)</citation></span></p>
+<h3>Tier 3: Functional parameters (mechanism behaviour)</h3>
+<p>Bettig &amp; Hoffmann (2011, 57 citations) provide the theoretical framework for how functional constraints interact with geometric ones in parametric CAD: "numeric and non-numeric parameters control the geometry in two ways: parametric operations, and geometric constraint solving."<span> <citation>(Bettig 2011)</citation></span> In prosthetic design, functional parameters include joint range of motion, tendon routing paths, grip force ratios, and linkage dimensions.</p>
+<p>Cirello et al. (2024, 5 citations) demonstrate a generative algorithm for orthoses: "a novel design method for creating customized wrist orthoses has been implemented, notably featuring a generative algorithm for the parametric modelling."<span> <citation>(Cirello 2024)</citation></span> The algorithm couples scan-derived geometry with functional requirements (immobilisation angle, ventilation pattern).</p>
+<h3>Tier 4: Manufacturing parameters (constraints and bounds)</h3>
+<p>These constrain rather than drive geometry:</p>
+<ul class="my-1 mb-4 ml-4">
+<li class="pb-1 ">Minimum wall thickness ≥ nozzle diameter × number of perimeters</li>
+<li class="pb-1 ">Minimum clearance for joints (empirically determined per printer)</li>
+<li class="pb-1 ">Maximum overhang angle (typically 45° for FDM without supports)</li>
+<li class="pb-1 ">Minimum fillet radius at stress concentrations</li>
+</ul>
+<p>Schiele, Nguyen &amp; Lueth (2021) demonstrate this for printed joints: "an automated design approach for additive manufactured non-assembly joints" where "functions for creating different joint types, with an adapted design for powder based 3D printing processes" incorporate empirically calibrated clearance values.<span> <citation>(Schiele 2021)</citation></span></p>
+<p>The hierarchy in OpenSCAD code:</p>
+<pre class="whitespace-pre-wrap py-2 px-4 bg-medium rounded mb-2"><code class="language-openscad">// Tier 1: Anthropometric (user input)
+palm_breadth = 85;  // mm, from measurement
+finger_length = 95; // mm
+
+// Tier 2: Derived geometric
+palm_thickness = palm_breadth * 0.45;
+proximal_length = finger_length * 0.42;
+
+// Tier 3: Functional
+joint_rom = 90;  // degrees
+tendon_channel_d = 2.0;
+
+// Tier 4: Manufacturing bounds
+min_wall = max(1.2, nozzle_d * 3);
+joint_clearance = 0.3; // mm, empirical
+overhang_max = 45; // degrees
+
+// Validation
+assert(palm_thickness &gt; min_wall * 2);
+assert(tendon_channel_d &gt; nozzle_d);
+</code></pre>
+<hr>
+<h2>Q3: What strategies embed printability and structural constraints into script-based systems?</h2>
+<p>Five strategies emerge from the literature, ranging from simple guard clauses to external validation loops.</p>
+<h3>Strategy 1: In-model parametric guards</h3>
+<p>The simplest approach encodes constraints as <code>min</code>/<code>max</code> clamping and conditional assertions directly in the script. Every derived dimension passes through a manufacturing floor:</p>
+<pre class="whitespace-pre-wrap py-2 px-4 bg-medium rounded mb-2"><code class="language-openscad">wall_t = max(min_wall, calculated_wall);
+fillet_r = max(min_fillet, load_based_fillet);
+</code></pre>
+<p>Véliz Vega et al. (2020) describe a "modeling strategy" where parametric models are structured specifically for "automatic product configuration" with constraints built into the variable relationships to prevent invalid geometry.<span> <citation>(Vega 2020)</citation></span></p>
+<h3>Strategy 2: Geometric mesh analysis (post-generation)</h3>
+<p>Jaiswal &amp; Rai (2019) developed a "geometric reasoning approach for additive manufacturing print quality assessment and automated model correction" that analyses exported meshes for manufacturability violations.<span> <citation>(Jaiswal 2019)</citation></span> For OpenSCAD, this operates on the exported STL: the script generates geometry, exports it, and a separate tool (e.g., a Python script using trimesh/numpy-stl) checks for thin walls, unsupported overhangs, and small features.</p>
+<p>Rupal et al. (2019, 33 citations) propose "a Reverse CAD Approach for Estimating Geometric and Mechanical Behavior of FDM Printed Parts" that reconstructs the as-printed geometry from slicer output and compares it against the nominal CAD model.  This reverse-CAD approach captures slicer-specific deviations that parametric guards alone cannot predict.</p>
+<h3>Strategy 3: Slicer-level feedback</h3>
+<p>The slicer reveals printability issues invisible at the CAD level<br>
+notably infill patterns, support placement, and layer adhesion geometry. A parametric workflow can be extended to invoke the slicer programmatically (e.g., PrusaSlicer CLI), parse the output for warnings, and feed violations back into the parametric model.</p>
+<h3>Strategy 4: FEA-coupled structural validation</h3>
+<p>As discussed in my previous response on structural integrity, FEA validation remains external to OpenSCAD. The parametric model generates STL → FEA solver evaluates stress/displacement → results inform parameter adjustments (wall thickness, fillet radii, reinforcement zones). This loop is manual in current practice.</p>
+<h3>Strategy 5: Knowledge-based rule embedding</h3>
+<p>Demoly &amp; Roth (2017) demonstrate "knowledge-based parametric CAD models" where domain rules are encoded into the parametric structure itself.<span> <citation>(Demoly 2017)</citation></span> For prosthetics, this means embedding prosthetist knowledge as coded rules:</p>
+<pre class="whitespace-pre-wrap py-2 px-4 bg-medium rounded mb-2"><code class="language-openscad">// Knowledge rule: socket wall thicker at bony prominences
+socket_wall = (is_bony_prominence(angle)) 
+    ? base_wall * 1.5 
+    : base_wall;
+</code></pre>
+<hr>
+<h2>Integrated architecture summary</h2>
+<div><table><thead><tr><th scope="col">Layer</th><th>Content</th><th>OpenSCAD implementation</th><th>Dependency direction</th></tr></thead><tbody ><tr><td>Input</td><td>Anthropometric measurements or 3D scan data</td><td>Global variables / external CSV/JSON</td><td>→</td></tr><tr><td>Derivation</td><td>Geometric dimensions from anthropometric formulas</td><td>Computed variables with regression equations</td><td>→</td></tr><tr><td>Functional</td><td>Mechanism parameters (linkage, ROM, tendon paths)</td><td>Module parameters, kinematic calculations</td><td>→</td></tr><tr><td>Generation</td><td>Modular geometry (palm, fingers, socket, mechanism)</td><td><code>module</code> constructs with parameterised interfaces</td><td>→</td></tr><tr><td>Validation</td><td>AM + structural constraints (walls, clearances, fillets, stress)</td><td><code>assert()</code>, <code>min()</code>/<code>max()</code> clamping, conditional logic</td><td>← (feedback)</td></tr><tr><td>External check</td><td>Mesh analysis, slicer validation, FEA</td><td>Post-export Python scripts, PrusaSlicer CLI, ANSYS/CalculiX</td><td>← (feedback)</td></tr></tbody></table></div>
+<p>The central research gap across all three questions: no published work demonstrates a complete, end-to-end parametric framework for upper-limb prosthetics in a script-based environment that integrates all six layers. Individual studies address one or two layers (scan-to-socket, or FEA validation, or mechanism parametrics), but the unified architecture remains unimplemented. Your dissertation can contribute by building this integrated pipeline in OpenSCAD and documenting the design decisions at each layer.</p></div></div></div></div>

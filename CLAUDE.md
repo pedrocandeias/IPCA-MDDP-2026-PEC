@@ -34,7 +34,16 @@ automaticamente.
 /home/pec/dev/mestrado/
 ├── pedro-candeias-projeto-mestrado-mdddp-ipca-2026-revisto.{md,docx,pdf}
 │                              # DOCX = fonte de verdade; MD = espelho; PDF = export
-├── docs/versoes/             # backups, dated exports and historical documents
+├── docs/
+│   ├── capitulos/
+│   │   ├── text/             # rascunhos textuais por capítulo
+│   │   └── html/             # exportações HTML históricas
+│   ├── desenvolvimento/      # modelos, avaliações de IA e dimensionamento
+│   ├── elicit/               # guias operacionais; resultados ficam em material/
+│   ├── ferramentas/          # documentação de ferramentas auxiliares
+│   ├── revisoes/             # manuscrito, bibliografia, linguagem, figuras, anexos e fabrico
+│   ├── notas/                # notas de trabalho ainda não integradas
+│   └── versoes/              # backups, dated exports and historical documents
 ├── componentes/              # TUDO o que é embebido no DOCX
 │   ├── figuras/             # só as imagens do manuscrito (nada de extracções)
 │   ├── tabelas/             # fontes editáveis das tabelas
@@ -43,6 +52,8 @@ automaticamente.
 │   ├── bibliografia/        # PDFs das obras citadas
 │   ├── figuras-extraidas/   # figuras retiradas dos artigos (investigação)
 │   ├── tabelas-extraidas/   # tabelas retiradas dos artigos (investigação)
+│   ├── investigacao/elicit/ # pesquisas, sessões, relatórios e protocolos Elicit
+│   ├── documentos_apoio/    # DOCX e outros documentos auxiliares editáveis
 │   └── <pastas temáticas>/  # papers organizados
 ├── suplementos/             # entrega autónoma que acompanha a dissertação
 ├── deploy.sh                 # único executável fora de tools/ (ponto de entrada)
@@ -61,11 +72,6 @@ automaticamente.
 │   ├── hooks/                # pre-commit versionado
 │   ├── mendeley-tools/       # SUBMÓDULO — ver abaixo
 │   └── mendeley-downloader/  # SUBMÓDULO — fork de Davo00/mendeley-downloader
-├── material/                 # colecção de papers e dados (sem scripts, sem docs)
-│   ├── elicit_missing_papers.csv
-│   ├── figures_tables_index.md        # auto-generated caption index (overwrite freely)
-│   ├── figures_tables_suggestions.md  # curated placement suggestions per thesis section
-│   └── <topic folders>/      # organised PDFs
 ```
 
 ### Onde colocar um script novo

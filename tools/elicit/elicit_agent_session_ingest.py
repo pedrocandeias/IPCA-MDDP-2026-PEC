@@ -617,7 +617,7 @@ def build_parser() -> argparse.ArgumentParser:
     ingest.add_argument("--slug", help="Override session slug")
     ingest.add_argument(
         "--output-root",
-        default="sources/elicit/agent-sessions",
+        default="material/investigacao/elicit/agent-sessions",
         help="Destination root folder",
     )
     ingest.set_defaults(func=command_ingest)
@@ -635,7 +635,7 @@ def build_parser() -> argparse.ArgumentParser:
     )
     extract_tree.add_argument(
         "--root",
-        default="sources/elicit/agent-sessions",
+        default="material/investigacao/elicit/agent-sessions",
         help="Agent-session root directory",
     )
     extract_tree.set_defaults(func=command_extract_tree)

@@ -52,8 +52,8 @@ FOLDER_MAP = {
 # Add more paths here as you export additional notebooks from Elicit
 ELICIT_CSV_PATHS: list[Path] = [
     MATERIAL_DIR / "Elicit - Papers Upper Limb Anthropometry for Prosthetic Design.csv",
-    # Also look in the dev/mestrado sources directory
-    REPO_ROOT / "sources/capitulo2",
+    # Also scan the consolidated legacy exports for Chapter 2.
+    MATERIAL_DIR / "investigacao/elicit/capitulo-2/legacy-exports",
 ]
 
 # ── Credentials ───────────────────────────────────────────────────────────────

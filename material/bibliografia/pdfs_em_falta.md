@@ -1,48 +1,48 @@
-# PDFs em falta — referências citadas
+# PDFs em falta — bibliografia do DOCX
 
-Este é o registo autoritativo das fontes citadas na dissertação cujo texto integral não foi localizado em `material/` ou em `projecto_completo_bibliografia/` e não ficou disponível para confronto directo durante a auditoria bibliográfica.
+Este relatório verifica a disponibilidade local do texto integral para as entradas materializadas na bibliografia do DOCX canónico. O Markdown que replica o manuscrito não é lido.
 
-Última verificação: 2026-07-30. A lista foi reconciliada com `docs/revisoes/auditoria_referencias_texto_papers_061.md` após consulta de 514 registos da API Mendeley.
+Última verificação: 2026-07-30.
 
 ## Síntese
 
-- *Papers* sem texto integral: **0**.
-- Com DOI identificado: **0**.
-- Com URL bibliográfico, mas sem DOI identificado: **0**.
-- Sem DOI ou URL bibliográfico confirmado: **0**; é fornecida uma pesquisa por título no Crossref, não um DOI presumido.
-- Os links DOI usam sempre a forma canónica `https://doi.org/...`.
+- Documento: `pedro-candeias-projeto-mestrado-mdddp-ipca-2026-revisto.docx`.
+- SHA-256 do DOCX: `cd38830d659707c2df46a549458010b8bdd52f3caeff33b1fc4e174988b76ad2`.
+- Entradas bibliográficas: **171**.
+- Entradas com PDF local validado: **159**.
+- Recursos sem PDF autónomo esperado: **10**.
+- Entradas sem texto integral local: **2**.
 
-## Lista integral
+## Entradas sem texto integral local
 
-Não existem, na versão actual do manuscrito, referências científicas citadas cujo texto integral continue por localizar.
+| N.º | Referência | Título | Localização bibliográfica | Estado |
+| ---: | --- | --- | --- | --- |
+| 1 | Molenbroek (2003) | *Revision of the Dutch standard for furniture in schools* | [https://doi.org/10.1080/0014013031000085635](https://doi.org/10.1080/0014013031000085635) | DOI confirmado na entrada; PDF local não localizado. |
+| 2 | Steenbekkers (1998) | *Design-relevant characteristics of ageing users* | [Pesquisar no Crossref](https://search.crossref.org/?q=%22Design-relevant%20characteristics%20of%20ageing%20users%22) | DOI não identificado; PDF local não localizado. |
 
-## Critério e rastreabilidade
+## Recursos sem PDF autónomo esperado
 
-- A presença de um DOI nesta lista significa apenas que foi identificado na bibliografia, na auditoria ou nos metadados do editor, de um repositório ou de um índice bibliográfico; não significa que o PDF seja de acesso aberto.
-- Uma ligação «Pesquisar no Crossref» é uma pesquisa pelo título e não deve ser tratada como confirmação de DOI.
-- Walker et al. foi retirado da lista porque o texto integral foi posteriormente obtido e confrontado. Mistarihi (2020) foi inicialmente acrescentado a partir do Anexo A e retirado após validação do PDF local; os cinco pares associados aguardam confronto directo.
-- Fink e Diamond (2023) foi retirado da lista porque o texto integral do artigo 101061 foi posteriormente obtido e as seis passagens que o citam foram confrontadas directamente; a auditoria concluiu que o suporte é parcial.
-- Segura et al. (2024) foi retirado da lista porque o PDF editorial foi acrescentado e as sete passagens que o citam foram confrontadas directamente; uma associação tem suporte directo, cinco têm suporte parcial e uma é incompatível.
-- Østlie et al. (2012) não integra a lista: o PDF integral já existia em três subpastas de `material/` que não foram devolvidas pela pesquisa inicial com `rg --files`, devido às regras de exclusão do repositório. A disponibilidade foi confirmada com `find`, a Figura 1 foi confrontada directamente com a Figura 2.2 e uma cópia canónica foi colocada em `projecto_completo_bibliografia/` na versão 0.4.88.
-- Shah e Robinson (2006), Wilke et al. (2020) e Millet et al. (2018) foram retirados após a validação dos PDFs locais e o confronto de nove pares afirmação–fonte.
-- Chapman et al. (2025) foi retirado após a extracção textual integral do PDF editorial de acesso aberto e o confronto dos quatro pares associados; a captura Markdown conserva os marcadores da paginação publicada, mas não substitui o ficheiro PDF original.
-- Ghali (2008) foi retirado da lista após confirmação do livro integral `Ghali_2008_Introduction_to_Geometric_Computing.pdf`; o capítulo 30, *Constructive Solid Geometry*, começa na página 280 do PDF e foi confrontado directamente.
-- O lote local de 16 de Julho de 2026 retirou mais trinta fontes desta lista após validação dos PDFs e confronto de 116 pares afirmação–fonte; 52 têm suporte directo, 53 suporte parcial e onze são incompatíveis.
-- Um segundo lote local do mesmo dia acrescentou catorze textos integrais e retirou essas fontes da lista de faltas; os 44 pares afirmação–fonte associados permanecem pendentes de confronto directo e não foram reclassificados automaticamente.
-- Um terceiro lote local acrescentou doze textos integrais e retirou essas fontes da lista de faltas; os 26 pares afirmação–fonte associados permanecem pendentes de confronto directo. No conjunto dos dois lotes ainda não confrontados, existem 70 pares associados a 26 fontes disponíveis localmente.
-- Um quarto lote, de 16 de Julho de 2026, obteve cinco textos integrais em fontes de acesso aberto, resolvidas por Unpaywall e OpenAlex a partir do DOI: Engdahl et al. (Springer), Fisher e Johansen (journals.uct.ac.za), Guo (Dean&Francis), Howard et al. (repositório Cronfa da Universidade de Swansea) e Peters e Richter (ScholarSpace). Guo foi posteriormente confrontado; os restantes pares continuam pendentes.
-- O PDF de Guo (2025) não tem camada de texto pesquisável; o confronto foi concluído por reconhecimento óptico de caracteres e verificação visual.
-- Peters e Richter (2023) foi identificado como comunicação da 56.ª Hawaii International Conference on System Sciences, o que resolve a ausência de DOI registada anteriormente.
-- Um quinto lote, descarregado manualmente em navegador no mesmo dia, acrescentou seis textos integrais de fontes de acesso aberto ou de leitura livre cujos servidores recusam transferências automatizadas: Bates et al. e Baumann e Maria (PMC), ELhadad et al. (ScienceDirect), Franke e von Hippel (repositório da WU Viena), Peerdeman et al. (repositório da Universidade de Twente) e Romani e Levi (repositório do Politécnico de Milão). Todos conservam camada de texto pesquisável; Franke e von Hippel foi posteriormente confrontado e os restantes pares continuam pendentes.
-- O ficheiro de Franke e von Hippel é a versão de autor depositada na WU Viena, com 37 páginas; a paginação não corresponde à do artigo publicado na Research Policy, pelo que as citações por página devem remeter para a versão editorial.
-- Em 20 de Julho de 2026 foram validados cinco novos textos integrais: Figoli, Mattioli e Rampino (2022), Panchal et al. (2019), Resnik et al. (2010), Virós-i-Martin e Selva (2021) e Yüksel et al. (2023). A validação confirmou título, autoria, ano e DOI, mas não substitui o confronto posterior das afirmações do manuscrito com o conteúdo integral.
-- Dexter, Atkinson e Dearden (2013) foi retirado da lista em 21 de Julho de 2026 após obtenção do PDF no arquivo Design4Health da Sheffield Hallam University. O ficheiro revelou que a entrada bibliográfica actual indica coautores incorrectos; essa correcção permanece separada da disponibilidade do texto integral.
-- Yao, Moon e Bi (2016) foi retirado na versão 0.4.112 porque as três passagens que o citavam foram reformuladas e passaram a apoiar-se em Lei, Moon e Rosen (2015), *Redefining Product Family Design for Additive Manufacturing*. O texto integral desta comunicação está disponível na Design Society e foi guardado como `lei_moon_rosen_2015_redefining_product_family_design_additive_manufacturing.pdf`.
-- O PDF de Krahe et al. (2020) confirma o DOI editorial `10.1016/j.procir.2020.01.135`; `10.5445/IR/1000127884` identifica o depósito do KIT. Na versão 0.4.81, a fonte foi confrontada e associada apenas à afirmação directamente sustentada sobre identificação de padrões em modelos tridimensionais e geração de variantes condicionadas por requisitos.
-- A autoria, o número de artigo e o DOI de Jones, Chadwell e Dyson (2023) foram corrigidos na bibliografia na versão 0.4.80 para `10.3389/frhs.2023.1213752`; a fonte foi confrontada e deslocada para uma afirmação compatível da Secção 2.8.
-- Dois PDFs válidos acrescentados no mesmo lote — Kang et al. e Bitterman — não correspondem a referências citadas e, por isso, não alteram esta lista. `SHTI-297-SHTI220858.pdf` foi excluído por conter HTML, usando-se o PDF válido de White e Mosca.
-- Fontes normativas, páginas *web*, repositórios de código e conjuntos DINED sem PDF autónomo não são contabilizados como PDFs científicos em falta.
+| Referência | Recurso |
+| --- | --- |
+| ASTM International. (2024) | *Standard guide for assessing fit accommodation of exoskeletons for manufacturers and designers* |
+| Base local consolidada de dados antropométricos da mão e do membro superior distal. (2026) | *[Conjunto de dados]* |
+| Brooks (2026) | *OpenSCAD Web [Computer software]* |
+| daprice. (n.d.) | *Flexy Beast [README file]* |
+| Design Council. (2020) | *Framework for innovation* |
+| International Organization for Standardization. (n.d.) | *ISO/TC 168: Prosthetics and orthotics* |
+| Molenbroek (1998) | *Geron study on Dutch elderly anthropometry* |
+| OpenSCAD Community. (n.d.) | *OpenSCAD User Manual/Using OpenSCAD in a command line environment* |
+| OpenSCAD Project. (n.d.-a) | *OpenSCAD: The programmers solid 3D CAD modeller* |
+| OpenSCAD Project. (n.d.-b) | *OpenSCAD source repository [Computer software]* |
 
-- SHA-256 do relatório de auditoria usado: `e7da8de15dc21a6ae71e674efe47f9c49df3858f319c024e7fd71b53ceb6e6ee`.
-- SHA-256 do manuscrito usado: `832b660f557d600111fc2823a2977bd72fcebb4a66165104d6ffbda0fbdb35e4`.
-- Método de geração: `python3 tools/extraccao/generate_missing_pdfs_report.py`.
+## Limite desta verificação
+
+Este inventário responde apenas à pergunta «existe texto integral local para cada entrada bibliográfica?». Não demonstra que todas as citações do DOCX tenham uma entrada correcta. As citações ausentes, os controlos ligados à obra errada, as divergências de ano e as entradas potencialmente órfãs são registados em `docs/revisoes/bibliografia/auditoria_completude_bibliografica_docx_0_4_112.md`.
+
+As duas entradas actualmente sem texto integral também figuram como potencialmente órfãs nessa auditoria. A decisão editorial sobre a sua manutenção deve preceder uma nova tentativa de obtenção.
+
+## Método reproduzível
+
+```bash
+python3 tools/extraccao/generate_missing_pdfs_report.py
+```

@@ -10,7 +10,8 @@ Entradas: o DOCX canónico, o PDF regenerado para paginação, a região da
 bibliografia do próprio DOCX e o mapa entrada→PDF de
 `material/bibliografia/copied_matches.json`.
 
-Saída: docs/revisoes/rastreabilidade_citacoes.xlsx
+Saída:
+`material/bibliografia/auditoria_citacoes/rastreabilidade_citacoes.xlsx`
 """
 
 from __future__ import annotations

@@ -24,7 +24,7 @@ from audit_docx_languagetool import (
 
 
 ROOT = Path(__file__).resolve().parents[2]
-OUTPUT_DIR = ROOT / "docs/revisoes/languagetool"
+OUTPUT_DIR = ROOT / "docs/revisoes/linguagem/languagetool"
 W = "http://schemas.openxmlformats.org/wordprocessingml/2006/main"
 
 AGREEMENT_RULES = {

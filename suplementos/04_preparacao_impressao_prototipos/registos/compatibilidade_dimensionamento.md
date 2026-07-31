@@ -3,7 +3,7 @@
 ## Finalidade e alcance
 
 Esta nota compara as regras de escala aplicadas pela plataforma com os dois
-documentos de dimensionamento existentes em `docs/sizing_values/`. A comparação
+documentos de dimensionamento existentes em `docs/desenvolvimento/dimensionamento/sizing_values/`. A comparação
 serve para examinar a compatibilidade das decisões de projecto com orientações
 publicadas para os modelos de origem. Não demonstra adequação anatómica a uma
 pessoa, ajuste ao membro residual, conforto ou adequação funcional.

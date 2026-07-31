@@ -452,7 +452,7 @@ schema injetado, e não apenas os seus nomes.
   injetado no prompt como facto fixo, e qualquer chave de lateralidade vinda da IA é descartada.
   Verificado (a IA omite `mirrored` 9/9). Implementada de forma genérica (laterality, não
   "handedness") — ver a subsecção **Universalização** abaixo e
-  [`docs/ucd-ai-sim/`](ucd-ai-sim/ucd-ai-sizing-evaluation_2026-06-29.md) §2c.
+  [`docs/desenvolvimento/avaliacao_ia/ucd-ai-sim/`](../../../docs/desenvolvimento/avaliacao_ia/ucd-ai-sim/ucd-ai-sizing-evaluation_2026-06-29.md) §2c.
 - **Validação estatística:** amostragem de N extrações por perfil com média/σ reportadas por
   parâmetro e taxas de aprovação dos invariantes.
 - **Saída validada por schema:** impor um JSON schema do lado do servidor e fazer auto-re-prompt
@@ -469,8 +469,8 @@ schema injetado, e não apenas os seus nomes.
     Percentile*, expondo o bug de unidades-como-masculino / apenas-inglês. Corrigido na v14.16.0
     (§2.4); após a correção as mesmas entradas correspondem a *Dutch children age 7*, *ANSUR I
     Female* e *ANSUR I Male* respetivamente. Execuções completas, prompts e dimensões por peça em
-    [`docs/flexy-beast-ai-sim/`](flexy-beast-ai-sim/flexy-beast_ai-sizing-dimensional-report_2026-06-28.md)
-    e [`docs/paraglider-ai-sim/`](paraglider-ai-sim/paraglider-hand_ai-sizing-dimensional-report_2026-06-28.md).
+    [`docs/desenvolvimento/avaliacao_ia/flexy-beast-ai-sim/`](../../../docs/desenvolvimento/avaliacao_ia/flexy-beast-ai-sim/flexy-beast_ai-sizing-dimensional-report_2026-06-28.md)
+    e [`docs/desenvolvimento/avaliacao_ia/paraglider-ai-sim/`](../../../docs/desenvolvimento/avaliacao_ia/paraglider-ai-sim/paraglider-hand_ai-sizing-dimensional-report_2026-06-28.md).
 - **Conjunto permanente de regressão:** reter os perfis de apenas-demográficos como teste
   permanente, dado que esse caminho serve o utilizador de menor conhecimento.
 

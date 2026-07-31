@@ -111,13 +111,14 @@ Complementa as `mendeley-tools`: o *downloader* traz os ficheiros, as
 | `recover_docx_comments.py` | Recupera comentários de um DOCX danificado |
 | `extract_print_and_dimensional_tables.py` | Extrai as tabelas de impressão e as dimensionais |
 | `read_xlsx_cells.py` | Lê células de um XLSX (apoio à verificação de dados) |
-| `generate_missing_pdfs_report.py` | Relatório dos PDFs da bibliografia que faltam |
+| `generate_missing_pdfs_report.py` | Relatório dos textos integrais em falta, extraído directamente da bibliografia do DOCX |
 
 ## `revisao/` — revisão linguística e citações
 
 | Script | O que faz |
 |---|---|
 | `audit_docx_languagetool.py` | Passa o DOCX pelo LanguageTool e produz o relatório de ocorrências |
+| `audit_docx_bibliographic_completeness.py` | Audita controlos Mendeley, citações directas e bibliografia materializada no DOCX |
 | `generate_languagetool_filtered_reports.py` | Filtra o relatório anterior por tipo de erro |
 | `harper_lint.mjs` | Revisão com o Harper (Node) |
 | `grammarly_api.py` | Revisão via API do Grammarly |
