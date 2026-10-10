@@ -1,5 +1,9 @@
 # Changelog
 
+## 2026-10-10
+
+- Publicado o manuscrito HTML no GitHub Pages, a partir da branch `gh-pages`, com 265 controlos de citação, referências múltiplas e excertos históricos. Acrescentada ligação no README e no website do repositório.
+
 ## 2026-07-30
 
 - Reorganizada integralmente a pasta `docs/`, que tinha 48 ficheiros e nove pastas auxiliares misturados no primeiro nível. A raiz de `docs/` fica agora reduzida ao índice `README.md` e às áreas funcionais `capitulos/`, `desenvolvimento/`, `elicit/`, `ferramentas/`, `notas/`, `revisoes/` e `versoes/`. As notas de integração dos modelos, avaliações de IA, simulações e documentos de dimensionamento passaram para `docs/desenvolvimento/`; os guias Elicit para `docs/elicit/`; a documentação Grammarly para `docs/ferramentas/`; e as conversões antigas do manuscrito e os testes Markdown–ODT para `docs/versoes/documentos-historicos/`. `docs/revisoes/` foi subdividida em `manuscrito/`, `bibliografia/`, `linguagem/`, `figuras/`, `anexos/` e `fabrico/`, incluindo as folhas de contacto e os relatórios anteriormente soltos. Três relatórios produzidos pelo Elicit deixaram `docs/` e foram associados às secções que apoiam: `2.3`, `2.4` e `4.3`, sob `material/investigacao/elicit/`; os *prompts* históricos do Capítulo 6 passaram para o registo de investigação da Secção 6.1. Foram actualizados os caminhos no README, no CLAUDE.md, no AGENTS.md, nos relatórios, suplementos e ferramentas geradoras, acrescentados índices locais e corrigidas as ligações relativas afectadas. Validados 67 Markdown operacionais com 95 ligações locais, as 58 imagens das três conversões DOCX, os JSON de avaliação, os ODT/XLSX e o PDF de dimensionamento, sem erros ou ficheiros em falta. O manuscrito canónico não foi alterado.
