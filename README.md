@@ -1,8 +1,8 @@
 # Dissertação — espaço de trabalho
 
-**[Abrir o manuscrito com citações interativas](https://pedrocandeias.github.io/IPCA-MDDP-2026-PEC/)**
+**[Página do projeto — Português](https://pedrocandeias.github.io/IPCA-MDDP-2026-PEC/)** · **[English](https://pedrocandeias.github.io/IPCA-MDDP-2026-PEC/en.html)**
 
-Página HTML com referências múltiplas e excertos da auditoria bibliográfica, acessíveis através dos asteriscos junto das citações.
+Apresentação da investigação, acesso ao HandFab e ao respetivo código, ferramentas de apoio e **[manuscrito com citações interativas](https://pedrocandeias.github.io/IPCA-MDDP-2026-PEC/manuscrito.html)**.
 
 Este repositório reúne o manuscrito, os documentos finais no modelo do IPCA, os anexos, a bibliografia, as figuras, os dados de apoio e as ferramentas usadas na dissertação de Mestrado em Design e Desenvolvimento de Produto:
 

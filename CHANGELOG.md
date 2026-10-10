@@ -2,6 +2,8 @@
 
 ## 2026-10-10
 
+- Criada página inicial em português e inglês para apresentar o projeto, o repositório e as ferramentas. Incluídas ligações para a plataforma e o código do HandFab, Mendeley Tools e Downloader. Manuscrito interativo transferido para `manuscrito.html`, com regresso à página inicial. Acrescentada lightbox às imagens da apresentação e às 34 figuras do manuscrito, com tamanho original, teclado e adaptação a telemóvel; atualizados gerador e documentação de publicação.
+
 - Publicado o manuscrito HTML no GitHub Pages, a partir da branch `gh-pages`, com 265 controlos de citação, referências múltiplas e excertos históricos. Acrescentada ligação no README e no website do repositório.
 
 ## 2026-07-30
