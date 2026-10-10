@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="pt-PT">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>Pedro Candeias · Manuscrito com citações</title>
+  <style>{{CSS}}</style>
+</head>
+<body>
+  <a class="skip" href="#manuscrito">Saltar para o manuscrito</a>
+  <header class="topbar">
+    <a class="brand" href="#inicio"><span class="brand-symbol">PC</span><span>Pedro Candeias<small>Dissertação · MDDDP / IPCA</small></span></a>
+    <button class="print-button" type="button" id="print">Imprimir</button>
+  </header>
+  <div class="layout" id="inicio">
+    <aside class="sidebar" aria-label="Navegação do documento">
+      <p class="eyebrow">LEITURA ANOTADA</p>
+      <h2>O manuscrito</h2>
+      <p class="sidebar-note">Clique em <span class="star-example">*</span> para consultar as fontes e os excertos associados.</p>
+      <nav aria-label="Capítulos e anexos">{{NAVIGATION}}</nav>
+      <p class="edition">Fonte: ODT de 6 de outubro de 2026<br>{{COUNT}} citações interativas</p>
+    </aside>
+    <main>
+      <div class="reading-header"><span>MANUSCRITO INTEGRAL</span><span>Referências e excertos</span></div>
+      {{CONTENT}}
+    </main>
+  </div>
+  <section id="citation-panel" class="citation-panel" role="dialog" aria-modal="false" aria-labelledby="panel-title" hidden>
+    <div class="panel-header"><div><p class="eyebrow">FONTES DA PASSAGEM</p><h2 id="panel-title"></h2></div><button type="button" id="close-panel" aria-label="Fechar referências">×</button></div>
+    <div class="panel-scroll"><p id="panel-citation"></p><div id="panel-sources"></div><p class="audit-note">Os excertos provêm da auditoria bibliográfica anterior. Consulte o texto auditado e a avaliação registada para verificar a sua aplicação à passagem atual.</p></div>
+  </section>
+  <noscript><p class="noscript">Ative o JavaScript para abrir os painéis das citações. O manuscrito continua disponível para leitura.</p></noscript>
+  <script id="citation-data" type="application/json">{{CITATIONS}}</script>
+  <script>{{JS}}</script>
+</body>
+</html>

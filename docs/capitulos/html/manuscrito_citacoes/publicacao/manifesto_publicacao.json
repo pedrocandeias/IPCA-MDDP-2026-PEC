@@ -1,0 +1,19 @@
+{
+  "source": "docs/capitulos/html/manuscrito_citacoes/pedro_candeias_manuscrito_citacoes.html",
+  "sha256_source": "107d7d81fc18f04984d5ff23ef3f3b57f64545a3906193a2c8b7fa66729a16f6",
+  "entrypoint": "dist/index.html",
+  "manuscript": "dist/manuscrito.html",
+  "sha256_index": "7f1f4e4127116f3c7fdecd9d25a55821a3947e6a3b27d36fa5aa12b918103e0c",
+  "sha256_manuscript": "fd6080aa6b12d2ae5415fa1d25898262e86bb22b266b24863063b0359e51d1e1",
+  "homepage_sources": "tools/conversao/homepage",
+  "image_source": "docs/defesa/apresentacao/assets/phoenix_montagem.jpg",
+  "languages": [
+    "pt-PT",
+    "en"
+  ],
+  "citations": 265,
+  "local_pdf_links_removed": 403,
+  "includes_library_pdfs": false,
+  "external_links": "DOI/URL existentes nas referências",
+  "method": "tools/conversao/preparar_html_publicacao.py"
+}

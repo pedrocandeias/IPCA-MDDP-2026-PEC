@@ -1,0 +1,16 @@
+{
+  "source": "pedro-candeias-projeto-mestrado-mdddp-ipca-2026-revisto_v1_06102026-0210.odt",
+  "sha256_odt": "c516b48143538d40c09190fe27e6b23e9417bf95d0a550204d5622f1badc710f",
+  "audit": "docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md",
+  "sha256_audit": "d9ca3355866a1460275d4e4a77bc027ae3b8efebeccd947d557d040f203c9b66",
+  "citations": 265,
+  "source_occurrences": 412,
+  "unique_sources": 157,
+  "multiple_source_citations": 108,
+  "maximum_sources_per_citation": 4,
+  "mendeley_citations": 239,
+  "manual_citations_matched_by_author_year": 26,
+  "source_occurrences_with_historical_excerpt": 174,
+  "source_occurrences_with_similar_historical_passage": 51,
+  "note": "Os excertos e avaliações são históricos; a semelhança textual não é uma nova validação da afirmação atual."
+}

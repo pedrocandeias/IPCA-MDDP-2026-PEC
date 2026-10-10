@@ -12,25 +12,30 @@ Autor: Pedro Miguel Candeias da Silva
 
 Orientador: Demétrio Ferreira Matos
 
-Estado documentado: 21 de Julho de 2026
+Organização da raiz atualizada: 10 de outubro de 2026
 
-Versão do manuscrito: 0.4.109
+Versão de trabalho: ODT de 6 de outubro de 2026, às 02h10. O Markdown está sincronizado com esta fonte e tem a versão **0.4.114**, atribuída em 10 de outubro de 2026.
 
 ## Documentos principais
 
 | Ficheiro | Função |
 | --- | --- |
-| [`pedro-candeias-projeto-mestrado-mdddp-ipca-2026-revisto.md`](pedro-candeias-projeto-mestrado-mdddp-ipca-2026-revisto.md) | Fonte textual consolidada do manuscrito, incluindo os Anexos A, B, C e D. |
-| [`pedro-candeias-projeto-mestrado-mdddp-ipca-2026-revisto.docx`](pedro-candeias-projeto-mestrado-mdddp-ipca-2026-revisto.docx) | Documento revisto e formatado segundo o modelo institucional do IPCA. |
-| [`pedro-candeias-projeto-mestrado-mdddp-ipca-2026-revisto.pdf`](pedro-candeias-projeto-mestrado-mdddp-ipca-2026-revisto.pdf) | PDF de revisão e inspecção visual do documento IPCA. |
+| [`pedro-candeias-projeto-mestrado-mdddp-ipca-2026-revisto_v1_06102026-0210.odt`](pedro-candeias-projeto-mestrado-mdddp-ipca-2026-revisto_v1_06102026-0210.odt) | Fonte editável atual do manuscrito. |
+| [`pedro-candeias-projeto-mestrado-mdddp-ipca-2026-revisto.md`](pedro-candeias-projeto-mestrado-mdddp-ipca-2026-revisto.md) | Manuscrito textual atualizado (0.4.114), sincronizado com o ODT atual, incluindo capítulos, anexos, bibliografia, tabelas, figuras e notas de rodapé. |
+| [`a30759_pedro-candeias-projeto-mestrado-mdddp-ipca-v10060211.pdf`](a30759_pedro-candeias-projeto-mestrado-mdddp-ipca-v10060211.pdf) | PDF de referência da versão de 6 de outubro de 2026. |
+| [Manuscrito HTML com citações](docs/capitulos/html/manuscrito_citacoes/pedro_candeias_manuscrito_citacoes.html) | Leitura interativa do ODT, com asteriscos para abrir referências múltiplas e os excertos disponíveis da auditoria bibliográfica. |
 | [`CHANGELOG.md`](CHANGELOG.md) | Registo cronológico das alterações realizadas. |
 | [`AGENTS.md`](AGENTS.md) | Regras obrigatórias de edição, cópias de segurança, bibliografia, exportação e organização. |
 
-Os três primeiros ficheiros constituem o conjunto canónico do manuscrito. As cópias anteriores, exportações datadas e documentos de verificação foram retirados do *root* e organizados em `docs/versoes/`; não substituem o manuscrito revisto.
+O ODT e o PDF de 6 de outubro constituem os documentos atuais; o Markdown é a representação textual sincronizada do ODT. A sincronização e os limites de conversão estão documentados no [relatório de 10 de outubro](docs/revisoes/manuscrito/sincronizacao_markdown_2026_10_10/README.md). As versões anteriores foram arquivadas em [`docs/versoes/documentos-historicos/limpeza_raiz_2026_10_10/`](docs/versoes/documentos-historicos/limpeza_raiz_2026_10_10/), com um [`manifesto.csv`](docs/versoes/documentos-historicos/limpeza_raiz_2026_10_10/manifesto.csv) que regista os caminhos originais e os valores SHA-256. O DOCX experimental com prefixo `pangram_` foi apagado por indicação do autor.
 
-## Estado actual
+Os comandos abaixo que usam o antigo par `…2026-revisto.docx`/`…2026-revisto.pdf` dizem respeito ao fluxo anterior; esses ficheiros encontram-se agora no arquivo e não devem ser usados como fonte atual.
 
-- O PDF canónico tem 209 páginas A4 e corresponde à versão 0.4.106 do manuscrito; a versão 0.4.109 do MD aguarda o próximo *Refresh* do Mendeley Cite no DOCX para regeneração dos exports.
+## Estado documentado em 1 de agosto de 2026
+
+Os dados desta secção descrevem a versão anterior 0.4.113; não constituem uma verificação do ODT atual.
+
+- O PDF canónico tem 221 páginas A4 e foi regenerado a partir do DOCX 0.4.113; o Markdown tinha então a mesma versão explícita. A revisão contextual está documentada em [`relatorio_revisao_contextual_docx_0_4_113.md`](docs/revisoes/linguagem/relatorio_revisao_contextual_docx_0_4_113.md).
 - O DOCX conserva 12 notas de rodapé e 34 imagens, sem comentários nativos por resolver; figuras e tabelas usam numeração sequencial por campos SEQ (29 figuras, 31 tabelas), pendente de Ctrl+A → F9 no Word para actualizar campos e índices.
 - A auditoria bibliográfica confrontou directamente 320 dos 434 pares afirmação–fonte relativos a *papers*; 114 pares permanecem pendentes.
 - Os dez casos incompatíveis prioritários já confrontados foram corrigidos. Este resultado não constitui validação automática dos pares ainda pendentes.
@@ -275,6 +280,13 @@ export MENDELEY_MANUSCRIPT=/home/pec/dev/mestrado/pedro-candeias-projeto-mestrad
 ```
 
 O script prefere o título do CrossRef quando o registo tem DOI. Nos casos em que o próprio CrossRef guarda o título em maiúsculas, a grafia correcta é fixada à mão em `mendeley_title_overrides.json` (um valor `null` exclui o registo). A ferramenta é idempotente: uma segunda execução não regrava o que já está correcto. As correções só aparecem no manuscrito depois do *Refresh* do Mendeley Cite no Word. O guia completo das cinco ferramentas está em `tools/mendeley-tools/README.md`.
+
+O que o normalizador não alcança — tipos de documento errados, campos de publicação em falta, autores partidos pelo apelido, DOIs que resolvem para outra obra — corrige-se com uma revisão pontual verificada à mão, como `tools/revisoes/fix_mendeley_no_doi_records_115.py`, que aplicou 29 dessas correcções e imprime, no fim, os casos que exigem decisão humana (duplicados e divergências entre a biblioteca e o manuscrito):
+
+```bash
+~/.local/share/uv/tools/mendeley-mcp/bin/python tools/revisoes/fix_mendeley_no_doi_records_115.py          # pré-visualização
+~/.local/share/uv/tools/mendeley-mcp/bin/python tools/revisoes/fix_mendeley_no_doi_records_115.py --apply
+```
 
 ### Verificações rápidas
 

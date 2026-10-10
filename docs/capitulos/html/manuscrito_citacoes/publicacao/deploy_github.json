@@ -1,0 +1,54 @@
+{
+  "checked_at": "2026-10-10T19:28:30.741744+00:00",
+  "url": "https://pedrocandeias.github.io/IPCA-MDDP-2026-PEC/",
+  "english_url": "https://pedrocandeias.github.io/IPCA-MDDP-2026-PEC/en.html",
+  "manuscript_url": "https://pedrocandeias.github.io/IPCA-MDDP-2026-PEC/manuscrito.html",
+  "repository": "pedrocandeias/IPCA-MDDP-2026-PEC",
+  "source": {
+    "branch": "gh-pages",
+    "path": "/"
+  },
+  "status": "built",
+  "site_commit": "6f0a097f6a4468be747a41cd870831515dff68a0",
+  "readme_commit": "a0546f7a56d10ecc403afa6b363a73ec78fe5ef4",
+  "previous_site_commit": "33ca16016d15238e1ad4b08ea7abaf16e60444d4",
+  "files": {
+    "assets/homepage.css": "83c1127cc2a9a5abbe4d368d12f4d4ce908fbe29428bb5bb4ec8b452f761bf83",
+    "assets/lightbox.css": "ec9a71179a024e0cc49d093432c57df2b5b10514274639476be30848bb55cdf9",
+    "assets/lightbox.js": "560c9256b1e365def0b0b8cab2e2b9c37ecda2527dce55abfc17023d46ff41ff",
+    "assets/phoenix_montagem.jpg": "df6780cb00777affa07ef05c0815e9a4bb916fdddda3b0f0e9d64222c710fc01",
+    "en.html": "af6a388a95cab99f518eb52657f3d86b2720ecec808b9f02d3af8391a87ab7fc",
+    "index.html": "7f1f4e4127116f3c7fdecd9d25a55821a3947e6a3b27d36fa5aa12b918103e0c",
+    "manuscrito.html": "fd6080aa6b12d2ae5415fa1d25898262e86bb22b266b24863063b0359e51d1e1"
+  },
+  "online_browser_validation": {
+    "homepage_languages": [
+      "pt-PT",
+      "en"
+    ],
+    "viewports": [
+      [
+        1440,
+        1000
+      ],
+      [
+        390,
+        844
+      ]
+    ],
+    "local_links_valid": true,
+    "handfab_app_and_repository_links": true,
+    "homepage_lightbox": {
+      "keyboard": true,
+      "original_size": true,
+      "escape": true,
+      "focus_restored": true,
+      "mobile": true
+    },
+    "manuscript_images_with_lightbox": 34,
+    "citation_controls": 265,
+    "four_reference_panel": true,
+    "javascript_errors": []
+  },
+  "scope": "Homepage bilingue, manuscrito e assets publicados em gh-pages; ligações e changelog atualizados em main. Restantes alterações locais não incluídas nestes commits."
+}

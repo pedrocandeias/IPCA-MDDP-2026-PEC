@@ -1,0 +1,21 @@
+{
+  "texto_integral_preservado": true,
+  "odt_preservado": true,
+  "auditoria_preservada": true,
+  "botoes": 265,
+  "fontes_associadas": 412,
+  "tabelas": 53,
+  "imagens_incorporadas": 34,
+  "entradas_navegacao": 14,
+  "pdfs_locais_existentes": true,
+  "browser": "Chromium 131 / Playwright 1.52",
+  "testes_navegador": [
+    "Abertura de citação com duas referências",
+    "Quatro referências separadas na mesma janela",
+    "Escape fecha e devolve o foco ao asterisco",
+    "Botão de fechar",
+    "Painel dentro do ecrã a 390 × 844",
+    "Sem erros JavaScript"
+  ],
+  "sha256_html": "107d7d81fc18f04984d5ff23ef3f3b57f64545a3906193a2c8b7fa66729a16f6"
+}

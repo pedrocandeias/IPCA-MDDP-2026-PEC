@@ -1,0 +1,29 @@
+{
+  "homepage_languages": [
+    "pt-PT",
+    "en"
+  ],
+  "viewports": [
+    [
+      1440,
+      1000
+    ],
+    [
+      390,
+      844
+    ]
+  ],
+  "local_links_valid": true,
+  "handfab_app_and_repository_links": true,
+  "homepage_lightbox": {
+    "keyboard": true,
+    "original_size": true,
+    "escape": true,
+    "focus_restored": true,
+    "mobile": true
+  },
+  "manuscript_images_with_lightbox": 34,
+  "citation_controls": 265,
+  "four_reference_panel": true,
+  "javascript_errors": []
+}
