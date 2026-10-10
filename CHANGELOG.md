@@ -2,6 +2,8 @@
 
 ## 2026-10-10
 
+- Publicadas 416 explicações revistas em «Relação com o texto», em substituição da avaliação histórica nos tooltips. Retirados os caminhos internos; preservados os excertos, páginas, citações múltiplas e lightbox.
+
 - Recuperados excertos Markdown/Excel e conferidos seis PDFs: 408 associações preenchidas, oito pendências específicas, 269 controlos. Proveniência e páginas identificadas; discrepância Østlie 2011/2012 assinalada.
 
 - Adicionada a extensão Mendeley Cite for LibreOffice às ferramentas nas versões PT/EN, com ligação ao código e instalação.
