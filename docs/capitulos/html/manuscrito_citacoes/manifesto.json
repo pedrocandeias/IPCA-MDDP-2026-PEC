@@ -3,14 +3,24 @@
   "sha256_odt": "c516b48143538d40c09190fe27e6b23e9417bf95d0a550204d5622f1badc710f",
   "audit": "docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md",
   "sha256_audit": "d9ca3355866a1460275d4e4a77bc027ae3b8efebeccd947d557d040f203c9b66",
-  "citations": 265,
-  "source_occurrences": 412,
+  "citations": 269,
+  "matrix": "material/bibliografia/auditoria_citacoes/referencias_evidencia_docx_2026-07-22.xlsx",
+  "sha256_matrix": "c6cf8492e012ce4374ad40333f9e8d0167e1ad1c0a8dddd012686042b087a563",
+  "supplement": "docs/capitulos/html/manuscrito_citacoes/excertos_complementares.json",
+  "sha256_supplement": "c6906051187af45317075d437347ee007ad0e74e96b0e353a3b1814134cddc67",
+  "source_occurrences": 416,
   "unique_sources": 157,
   "multiple_source_citations": 108,
   "maximum_sources_per_citation": 4,
   "mendeley_citations": 239,
-  "manual_citations_matched_by_author_year": 26,
-  "source_occurrences_with_historical_excerpt": 174,
-  "source_occurrences_with_similar_historical_passage": 51,
-  "note": "Os excertos e avaliações são históricos; a semelhança textual não é uma nova validação da afirmação atual."
+  "manual_citations_matched_by_author_year": 30,
+  "source_occurrences_with_excerpt": 408,
+  "source_occurrences_with_historical_excerpt": 399,
+  "source_occurrences_with_similar_historical_passage": 121,
+  "selected_excerpt_origins": {
+    "markdown": 290,
+    "xlsx": 109,
+    "pdf": 9
+  },
+  "note": "Distinguem-se auditorias históricas e consultas diretas de PDF. A semelhança textual não é uma validação da afirmação atual."
 }

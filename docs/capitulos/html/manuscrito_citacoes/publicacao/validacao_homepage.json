@@ -23,7 +23,9 @@
     "mobile": true
   },
   "manuscript_images_with_lightbox": 34,
-  "citation_controls": 265,
+  "citation_controls": 269,
   "four_reference_panel": true,
-  "javascript_errors": []
+  "javascript_errors": [],
+  "source_excerpts": 408,
+  "pending_source_occurrences": 8
 }

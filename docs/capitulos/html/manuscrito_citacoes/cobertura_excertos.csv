@@ -1,413 +1,417 @@
-marcador_odt,citacao,obra,doi,excerto_disponivel,similaridade_contexto,secao_auditoria
-abb8584c,"(Fink & Diamond, 2023; Segura et al., 2024)",Fink & Diamond (2023),10.1016/j.oto.2023.101061,True,0.877,4.1 Fink e Diamond (2023) — obtido após o fecho inicial
-abb8584c,"(Fink & Diamond, 2023; Segura et al., 2024)",Segura et al. (2024),10.3390/prosthesis6020022,True,0.877,4.2 Segura et al. (2024) — obtido após o fecho inicial
-00e8d950,"(Brack & Amalu, 2021)",Brack & Amalu (2021),10.1016/j.jor.2020.12.009,True,0.917,3.2 Brack e Amalu (2021)
-44377287,"(Fink & Diamond, 2023; Segura et al., 2024)",Fink & Diamond (2023),10.1016/j.oto.2023.101061,True,0.751,4.1 Fink e Diamond (2023) — obtido após o fecho inicial
-44377287,"(Fink & Diamond, 2023; Segura et al., 2024)",Segura et al. (2024),10.3390/prosthesis6020022,True,0.751,4.2 Segura et al. (2024) — obtido após o fecho inicial
-ef24f664,"(Engdahl et al., 2024; Fink & Diamond, 2023)",Engdahl et al. (2024),10.1186/s12984-024-01436-4,False,,
-ef24f664,"(Engdahl et al., 2024; Fink & Diamond, 2023)",Fink & Diamond (2023),10.1016/j.oto.2023.101061,True,0.602,4.1 Fink e Diamond (2023) — obtido após o fecho inicial
-f8b5bb47,"(Bates et al., 2020; Engdahl et al., 2024)",Bates et al. (2020),10.1007/s12178-020-09656-6,False,,
-f8b5bb47,"(Bates et al., 2020; Engdahl et al., 2024)",Engdahl et al. (2024),10.1186/s12984-024-01436-4,False,,
-cfcc9bba,"(Segura et al., 2024; Walters et al., 2025)",Segura et al. (2024),10.3390/prosthesis6020022,True,0.913,4.2 Segura et al. (2024) — obtido após o fecho inicial
-cfcc9bba,"(Segura et al., 2024; Walters et al., 2025)",Walters et al. (2025),10.3389/fresc.2025.1610336,False,,
-6651b55e,"(ten Kate et al., 2017)",ten Kate et al. (2017),10.1080/17483107.2016.1253117,True,0.262,3.3 ten Kate et al. (2017)
-c963c1bb,"(Fink & Diamond, 2023; Soyer et al., 2016)",Fink & Diamond (2023),10.1016/j.oto.2023.101061,True,0.851,4.1 Fink e Diamond (2023) — obtido após o fecho inicial
-c963c1bb,"(Fink & Diamond, 2023; Soyer et al., 2016)",Soyer et al. (2016),10.12669/pjms.325.9922,False,,
-c1902c3c,"(Bates et al., 2020; Soyer et al., 2016)",Bates et al. (2020),10.1007/s12178-020-09656-6,False,,
-c1902c3c,"(Bates et al., 2020; Soyer et al., 2016)",Soyer et al. (2016),10.12669/pjms.325.9922,False,,
-82803bce,"(Segura et al., 2024; Soyer et al., 2016)",Segura et al. (2024),10.3390/prosthesis6020022,True,0.891,4.2 Segura et al. (2024) — obtido após o fecho inicial
-82803bce,"(Segura et al., 2024; Soyer et al., 2016)",Soyer et al. (2016),10.12669/pjms.325.9922,False,,
-ce216838,"(Smail et al., 2021)",Smail et al. (2021),10.1080/17483107.2020.1738567,True,0.917,3.4 Smail et al. (2021)
-820414b1,"(Biddiss et al., 2007)",Biddiss et al. (2007),10.1080/17483100701714733,True,0.168,3.37 Biddiss et al. (2007) — requisitos de utilização
-f7692ade,"(Fink & Diamond, 2023)",Fink & Diamond (2023),10.1016/j.oto.2023.101061,True,0.256,4.1 Fink e Diamond (2023) — obtido após o fecho inicial
-2ff938a7,"(Østlie et al., 2011)",Østlie et al. (2011),10.3109/09638288.2010.541973,False,,
-3336b2a7,"(Østlie et al., 2012)",Østlie et al. (2012),10.3109/17483107.2011.635405,True,0.899,3.5 Østlie et al. (2012) — Figura 2.2 e correcção da atribuição anterior
-a4cd0a70,"(Parlamento Europeu e do Conselho Europeu, 2017)",Parlamento Europeu e do Conselho Europeu (2017),,False,,
-9e85e39a,"(Parlamento Europeu e do Conselho Europeu, 2017)",Parlamento Europeu e do Conselho Europeu (2017),,False,,
-90bd0dd9,"(Resnik et al., 2010)",Resnik et al. (2010),10.1097/JPO.0b013e3181d427b7,False,,
-ca33529e,"(International Organization for Standardization, n.d.)",International Organization for Standardization (s.d.),,False,,
-2718258b,"(International Organization for Standardization, 2020)",International Organization for Standardization (2020),,False,,
-2177557e,"(Clarkson & Coleman, 2010; Shah & Robinson, 2006)",Clarkson & Coleman (2010),10.1080/09544821003693689,True,0.803,3.8 Clarkson e Coleman (2010)
-2177557e,"(Clarkson & Coleman, 2010; Shah & Robinson, 2006)",Shah & Robinson (2006),10.1108/09526860610687619,False,,
-12edca6a,"(Adel et al., 2020)",Adel et al. (2020),,False,,
-6dd0145b,"(Clarkson & Coleman, 2010)",Clarkson & Coleman (2010),10.1080/09544821003693689,True,0.622,3.8 Clarkson e Coleman (2010)
-2b8edd12,"(Fisher & Johansen, 2020; Wilke et al., 2020)",Fisher & Johansen (2020),10.15641/ghi.v3i1.762,False,,
-2b8edd12,"(Fisher & Johansen, 2020; Wilke et al., 2020)",Wilke et al. (2020),10.1017/dsd.2020.133,False,,
-77c32ed7,"(Fisher & Johansen, 2020; Shah & Robinson, 2006)",Fisher & Johansen (2020),10.15641/ghi.v3i1.762,False,,
-77c32ed7,"(Fisher & Johansen, 2020; Shah & Robinson, 2006)",Shah & Robinson (2006),10.1108/09526860610687619,False,,
-f9dec3ba,"(Kaygan & Kaygan, 2025)",Kaygan & Kaygan (2025),10.1080/14606925.2024.2420152,True,0.3,3.6 Kaygan e Kaygan (2025)
-eba89276,"(Clarkson & Coleman, 2010)",Clarkson & Coleman (2010),10.1080/09544821003693689,True,0.732,3.8 Clarkson e Coleman (2010)
-45964ee8,"(Clarkson & Coleman, 2010)",Clarkson & Coleman (2010),10.1080/09544821003693689,True,0.849,3.8 Clarkson e Coleman (2010)
-a07d4157,"(Clarkson & Coleman, 2010)",Clarkson & Coleman (2010),10.1080/09544821003693689,True,0.628,3.8 Clarkson e Coleman (2010)
-c6e37007,"(Center for Universal Design, 1997)",Center for Universal Design (1997),,False,,
-dda18463,"(White & Mosca, 2022)",White & Mosca (2022),10.3233/SHTI220858,False,,
-142cf534,"(Fisher & Johansen, 2020; Shah & Robinson, 2006)",Fisher & Johansen (2020),10.15641/ghi.v3i1.762,False,,
-142cf534,"(Fisher & Johansen, 2020; Shah & Robinson, 2006)",Shah & Robinson (2006),10.1108/09526860610687619,False,,
-9ad0f36f,"(International Electrotechnical Commission, 2015)",International Electrotechnical Commission (2015),,False,,
-a95e0486,"(Fisher & Johansen, 2020; Millet et al., 2018)",Fisher & Johansen (2020),10.15641/ghi.v3i1.762,False,,
-a95e0486,"(Fisher & Johansen, 2020; Millet et al., 2018)",Millet et al. (2018),,False,,
-063f737c,"(Millet et al., 2018)",Millet et al. (2018),,False,,
-8180577b,"(Chapman et al., 2025)",Chapman et al. (2025),10.1080/10810730.2025.2462679,False,,
-f08bcd63,"(Chapman et al., 2025)",Chapman et al. (2025),10.1080/10810730.2025.2462679,False,,
-48b178f6,"(Chapman et al., 2025; Wilke et al., 2020)",Chapman et al. (2025),10.1080/10810730.2025.2462679,False,,
-48b178f6,"(Chapman et al., 2025; Wilke et al., 2020)",Wilke et al. (2020),10.1017/dsd.2020.133,False,,
-8f1da92c,"(Shah & Robinson, 2006)",Shah & Robinson (2006),10.1108/09526860610687619,False,,
-65c575e9,"(White & Mosca, 2022)",White & Mosca (2022),10.3233/SHTI220858,False,,
-e50802f3,"(van Niekerk et al., 2018)",van Niekerk et al. (2018),10.1080/01942638.2017.1337661,False,,
-efed2f6a,"(Howard et al., 2022b)",Howard et al. (2022),10.1080/17483107.2020.1788181,False,,
-69d223e3,"(Chapman et al., 2025)",Chapman et al. (2025),10.1080/10810730.2025.2462679,False,,
-6b550df2,"(Fisher & Johansen, 2020; Shah & Robinson, 2006)",Fisher & Johansen (2020),10.15641/ghi.v3i1.762,False,,
-6b550df2,"(Fisher & Johansen, 2020; Shah & Robinson, 2006)",Shah & Robinson (2006),10.1108/09526860610687619,False,,
-7b717ddd,"(Oldfrey et al., 2024)",Oldfrey et al. (2024),10.1097/PXR.0000000000000351,True,0.377,3.7 Oldfrey et al. (2024)
-eb40db0c,"(Lei et al., 2016; Ozdemir et al., 2022; van Stralen, 2018)",Lei et al. (2016),10.1080/09544828.2016.1228101,False,,
-eb40db0c,"(Lei et al., 2016; Ozdemir et al., 2022; van Stralen, 2018)",Ozdemir et al. (2022),10.1017/dsj.2022.3,False,,
-eb40db0c,"(Lei et al., 2016; Ozdemir et al., 2022; van Stralen, 2018)",van Stralen (2018),10.5151/sigradi2018-1770,False,,
-b25f2245,"(Oldfrey et al., 2024)",Oldfrey et al. (2024),10.1097/PXR.0000000000000351,True,1.0,3.9 Oldfrey et al. (2024) — Figura 2.3
-71ce559e,"(Ozdemir et al., 2022; van Stralen, 2018)",Ozdemir et al. (2022),10.1017/dsj.2022.3,False,,
-71ce559e,"(Ozdemir et al., 2022; van Stralen, 2018)",van Stralen (2018),10.5151/sigradi2018-1770,False,,
-8c333a06,"(Lei et al., 2016; Ozdemir et al., 2022)",Lei et al. (2016),10.1080/09544828.2016.1228101,False,,
-8c333a06,"(Lei et al., 2016; Ozdemir et al., 2022)",Ozdemir et al. (2022),10.1017/dsj.2022.3,False,,
-6225642e,"(Lim et al., 2018)",Lim et al. (2018),10.1115/DETC2018-85645,True,0.259,6.10 Lim et al. (2018)
-afc72421,"(Chtioui et al., 2023; Wiberg et al., 2019)",Chtioui et al. (2023),10.37868/sei.v5i1.id185,False,,
-afc72421,"(Chtioui et al., 2023; Wiberg et al., 2019)",Wiberg et al. (2019),10.1108/RPJ-10-2018-0262,False,,
-b845bba4,"(Wiberg et al., 2019)",Wiberg et al. (2019),10.1108/RPJ-10-2018-0262,False,,
-bd9a3c30,"(Chtioui et al., 2023; Wiberg et al., 2019)",Chtioui et al. (2023),10.37868/sei.v5i1.id185,False,,
-bd9a3c30,"(Chtioui et al., 2023; Wiberg et al., 2019)",Wiberg et al. (2019),10.1108/RPJ-10-2018-0262,False,,
-cbc25802,"(Chtioui et al., 2023; Wiberg et al., 2019)",Wiberg et al. (2019),10.1108/RPJ-10-2018-0262,False,,
-cbc25802,"(Chtioui et al., 2023; Wiberg et al., 2019)",Chtioui et al. (2023),10.37868/sei.v5i1.id185,False,,
-a109ac74,"(Ozdemir et al., 2022; van Stralen, 2018)",Ozdemir et al. (2022),10.1017/dsj.2022.3,False,,
-a109ac74,"(Ozdemir et al., 2022; van Stralen, 2018)",van Stralen (2018),10.5151/sigradi2018-1770,False,,
-16924968,"(Manero et al., 2019)",Manero et al. (2019),10.3390/ijerph16091641,True,0.263,3.11 Manero et al. (2019) — Figura 2.4
-55806b56,"(Ozdemir et al., 2022)",Ozdemir et al. (2022),10.1017/dsj.2022.3,False,,
-60960f7c,"(Lei et al., 2015)",Lei et al. (2015),,False,,
-19f85f3a,"(Lim et al., 2018)",Lim et al. (2018),10.1115/DETC2018-85645,True,0.129,6.10 Lim et al. (2018)
-da827129,"(Lei et al., 2016)",Lei et al. (2016),10.1080/09544828.2016.1228101,False,,
-2188e6bb,"(Xu & Qin, 2022)",Xu & Qin (2022),10.1109/ICAC55051.2022.9911138,False,,
-5ec6a3e8,"(Lei et al., 2015)",Lei et al. (2015),,False,,
-2a426f78,"(Lei et al., 2016)",Lei et al. (2016),10.1080/09544828.2016.1228101,False,,
-68387ccf,"(Ozdemir et al., 2022)",Ozdemir et al. (2022),10.1017/dsj.2022.3,False,,
-8dfcc1ee,"(Ozdemir et al., 2022)",Ozdemir et al. (2022),10.1017/dsj.2022.3,False,,
-8c2f5965,"(Lei et al., 2015)",Lei et al. (2015),,False,,
-21c66de7,"(Kandikjan et al., 2022)",Kandikjan et al. (2022),10.1016/j.matpr.2022.10.124,False,,
-6466b8ef,"(Manero et al., 2019)",Manero et al. (2019),10.3390/ijerph16091641,True,0.987,3.12 Manero et al. (2019) — ecossistema aberto
-a4576807,"(Wendo et al., 2022)",Wendo et al. (2022),10.3390/machines10060413,True,0.987,3.13 Wendo et al. (2022)
-3fb706de,"(Wendo et al., 2022)",Wendo et al. (2022),10.3390/machines10060413,True,0.948,3.13 Wendo et al. (2022)
-f956c3d0,"(Zuniga et al., 2015)",Zuniga et al. (2015),10.1186/s13104-015-0971-9,True,0.231,3.14 Zuniga et al. (2015)
-b98b8981,"(Dechev et al., 2023)",Dechev et al. (2023),10.33137/cpoj.v6i2.42142,False,,
-26d1e01c,"(Diment et al., 2018)",Diment et al. (2018),10.1177/0309364617704803,False,,
-2705ee9f,"(Atallah et al., 2025)",Atallah et al. (2025),10.3390/jfb16100370,True,0.608,3.15 Atallah et al. (2025)
-8119b755,"(Cabibihan et al., 2021)",Cabibihan et al. (2021),10.3389/frobt.2020.594196,False,,
-19fb2f4b,"(Chainando et al., 2025)",Chainando et al. (2025),10.3390/prosthesis7020026,True,0.951,3.16 Chainando et al. (2025) — síntese antropométrica
-cb201e27,"(International Organization for Standardization, 2017)",International Organization for Standardization (2017),,False,,
-db57ef87,"(Albin & Molenbroek, 2023; Young et al., 2023)",Albin & Molenbroek (2023),https://doi.org/10.1177/10648046231168448,False,,
-db57ef87,"(Albin & Molenbroek, 2023; Young et al., 2023)",Young et al. (2023),10.1080/17434440.2023.2244418,False,,
-24873c4e,"(Squibb et al., 2024)",Squibb et al. (2024),10.1371/journal.pone.0301619,True,0.913,3.17 Squibb et al. (2024)
-c1a6137c,"(Yu et al., 2013)",Yu et al. (2013),10.1016/j.apergo.2012.10.001,True,0.212,3.18 Yu et al. (2013) — Figura 2.5
-68309b85,"(Ibrahim et al., 2024)",Ibrahim et al. (2024),10.3390/app14062594,True,0.426,3.19 Ibrahim et al. (2024)
-df542f87,"(Squibb et al., 2024)",Squibb et al. (2024),10.1371/journal.pone.0301619,True,0.371,3.17 Squibb et al. (2024)
-93c74ed7,"(Silva et al., 2024)",Silva et al. (2024),10.3390/s24051373,False,,
-7fb1b1c4,"(Ibrahim et al., 2024; Young et al., 2023)",Ibrahim et al. (2024),10.3390/app14062594,True,0.418,3.19 Ibrahim et al. (2024)
-7fb1b1c4,"(Ibrahim et al., 2024; Young et al., 2023)",Young et al. (2023),10.1080/17434440.2023.2244418,False,,
-b0d093da,"(Sunderland et al., 2024)",Sunderland et al. (2024),10.1101/2024.11.27.24317622,True,0.552,3.20 Sunderland et al. (2024)
-069ec473,"(Dickinson et al., 2024; Young et al., 2023)",Young et al. (2023),10.1080/17434440.2023.2244418,False,,
-069ec473,"(Dickinson et al., 2024; Young et al., 2023)",Dickinson et al. (2024),10.3389/fresc.2024.1354069,True,0.404,3.21 Kannenberg et al. (2024) — fonte mal atribuída
-b7ef24dd,"(Silva et al., 2024)",Silva et al. (2024),10.3390/s24051373,False,,
-afbfffa7,"(Chainando et al., 2025)",Chainando et al. (2025),10.3390/prosthesis7020026,True,0.933,3.16 Chainando et al. (2025) — síntese antropométrica
-5ab3493a,"(Ciklacandir et al., 2022)",Ciklacandir et al. (2022),10.1109/TIPTEKNO56568.2022.9960218,False,,
-caedef02,"(Paul et al., 2022)",Paul et al. (2022),10.3233/WOR-211106,False,,
-af21730f,"(Ibrahim et al., 2024)",Ibrahim et al. (2024),10.3390/app14062594,True,0.252,3.19 Ibrahim et al. (2024)
-3e7953c1,"(ASTM International, 2024)",ASTM International (2024),10.1520/F3661-24,False,,
-365642d8,"(Paul et al., 2022; Sunderland et al., 2024)",Paul et al. (2022),10.3233/WOR-211106,False,,
-365642d8,"(Paul et al., 2022; Sunderland et al., 2024)",Sunderland et al. (2024),10.1101/2024.11.27.24317622,True,0.161,3.20 Sunderland et al. (2024)
-ab4735bd,"(Choudhury et al., 2025; Saeidnia & Ausloos, 2024; Yüksel et al., 2023)",Choudhury et al. (2025),10.1017/pds.2025.10077,False,,
-ab4735bd,"(Choudhury et al., 2025; Saeidnia & Ausloos, 2024; Yüksel et al., 2023)",Yüksel et al. (2023),10.1016/j.engappai.2022.105697,False,,
-ab4735bd,"(Choudhury et al., 2025; Saeidnia & Ausloos, 2024; Yüksel et al., 2023)",Saeidnia & Ausloos (2024),10.61186/ist.202401.01.09,False,,
-a0d31c03,"(Wang & Hu, 2024)",Wang & Hu (2024),10.1109/ACCESS.2024.3442085,True,0.178,3.24 Wang e Hu (2024)
-291bd000,"(Yüksel et al., 2023)",Yüksel et al. (2023),10.1016/j.engappai.2022.105697,False,,
-4bf1a238,"(Khanolkar et al., 2023; Li et al., 2020)",Khanolkar et al. (2023),10.1017/S0890060423000203,False,,
-4bf1a238,"(Khanolkar et al., 2023; Li et al., 2020)",Li et al. (2020),10.1017/dsd.2020.273,False,,
-f07dc5c7,"(Krahe et al., 2020)",Krahe et al. (2020),10.1016/j.procir.2020.01.135,False,,
-0cd30116,"(Ao et al., 2025; Menaka et al., 2025; Panchal et al., 2019)",Menaka et al. (2025),10.12732/ijam.v38i5s.341,True,0.329,3.22 Menaka et al. (2025) — Figura 2.6 e fluxo IA–CAD
-0cd30116,"(Ao et al., 2025; Menaka et al., 2025; Panchal et al., 2019)",Ao et al. (2025),10.1007/s11831-025-10264-1,False,,
-0cd30116,"(Ao et al., 2025; Menaka et al., 2025; Panchal et al., 2019)",Panchal et al. (2019),10.1115/1.4044690,False,,
-3b545dd3,"(Panchal et al., 2019; Yüksel et al., 2023)",Panchal et al. (2019),10.1115/1.4044690,False,,
-3b545dd3,"(Panchal et al., 2019; Yüksel et al., 2023)",Yüksel et al. (2023),10.1016/j.engappai.2022.105697,False,,
-2476a599,"(Burnap et al., 2019; Choudhury et al., 2025; Li et al., 2021)",Burnap et al. (2019),10.2139/ssrn.3421771,False,,
-2476a599,"(Burnap et al., 2019; Choudhury et al., 2025; Li et al., 2021)",Choudhury et al. (2025),10.1017/pds.2025.10077,False,,
-2476a599,"(Burnap et al., 2019; Choudhury et al., 2025; Li et al., 2021)",Li et al. (2021),10.18260/1-2-1125.1153-38349,True,0.539,3.23 Li et al. (2021)
-eca33478,"(Ao et al., 2025; Khanolkar et al., 2023; Wang & Hu, 2024)",Ao et al. (2025),10.1007/s11831-025-10264-1,False,,
-eca33478,"(Ao et al., 2025; Khanolkar et al., 2023; Wang & Hu, 2024)",Khanolkar et al. (2023),10.1017/S0890060423000203,False,,
-eca33478,"(Ao et al., 2025; Khanolkar et al., 2023; Wang & Hu, 2024)",Wang & Hu (2024),10.1109/ACCESS.2024.3442085,True,0.418,3.24 Wang e Hu (2024)
-c9dc1d08,"(Ao et al., 2025; Menaka et al., 2025; Wang & Hu, 2024)",Wang & Hu (2024),10.1109/ACCESS.2024.3442085,True,0.348,3.24 Wang e Hu (2024)
-c9dc1d08,"(Ao et al., 2025; Menaka et al., 2025; Wang & Hu, 2024)",Ao et al. (2025),10.1007/s11831-025-10264-1,False,,
-c9dc1d08,"(Ao et al., 2025; Menaka et al., 2025; Wang & Hu, 2024)",Menaka et al. (2025),10.12732/ijam.v38i5s.341,True,0.348,3.22 Menaka et al. (2025) — Figura 2.6 e fluxo IA–CAD
-420916af,"(Khanolkar et al., 2023; Saeidnia & Ausloos, 2024; Verganti et al., 2020)",Khanolkar et al. (2023),10.1017/S0890060423000203,False,,
-420916af,"(Khanolkar et al., 2023; Saeidnia & Ausloos, 2024; Verganti et al., 2020)",Saeidnia & Ausloos (2024),10.61186/ist.202401.01.09,False,,
-420916af,"(Khanolkar et al., 2023; Saeidnia & Ausloos, 2024; Verganti et al., 2020)",Verganti et al. (2020),10.1111/jpim.12523,False,,
-91aca777,"(Ao et al., 2025; Choudhury et al., 2025; Virós-i-Martín & Selva, 2021)",Ao et al. (2025),10.1007/s11831-025-10264-1,False,,
-91aca777,"(Ao et al., 2025; Choudhury et al., 2025; Virós-i-Martín & Selva, 2021)",Choudhury et al. (2025),10.1017/pds.2025.10077,False,,
-91aca777,"(Ao et al., 2025; Choudhury et al., 2025; Virós-i-Martín & Selva, 2021)",Virós-i-Martín & Selva (2021),10.1115/DETC2021-67619,False,,
-c4f6f82a,"(Figoli et al., 2022; Kadenhe et al., 2025; Virós-i-Martín & Selva, 2021)",Figoli et al. (2022),10.21606/drs.2022.414,False,,
-c4f6f82a,"(Figoli et al., 2022; Kadenhe et al., 2025; Virós-i-Martín & Selva, 2021)",Virós-i-Martín & Selva (2021),10.1115/DETC2021-67619,False,,
-c4f6f82a,"(Figoli et al., 2022; Kadenhe et al., 2025; Virós-i-Martín & Selva, 2021)",Kadenhe et al. (2025),10.1609/aaaiss.v6i1.36061,True,0.298,3.25 Kadenhe et al. (2025)
-4cf57aa0,"(Burnap et al., 2019; Panchal et al., 2019; Yüksel et al., 2023)",Burnap et al. (2019),10.2139/ssrn.3421771,False,,
-4cf57aa0,"(Burnap et al., 2019; Panchal et al., 2019; Yüksel et al., 2023)",Panchal et al. (2019),10.1115/1.4044690,False,,
-4cf57aa0,"(Burnap et al., 2019; Panchal et al., 2019; Yüksel et al., 2023)",Yüksel et al. (2023),10.1016/j.engappai.2022.105697,False,,
-1f60d63b,"(Ao et al., 2025; Kadenhe et al., 2025; Verganti et al., 2020)",Kadenhe et al. (2025),10.1609/aaaiss.v6i1.36061,True,0.424,3.25 Kadenhe et al. (2025)
-1f60d63b,"(Ao et al., 2025; Kadenhe et al., 2025; Verganti et al., 2020)",Verganti et al. (2020),10.1111/jpim.12523,False,,
-1f60d63b,"(Ao et al., 2025; Kadenhe et al., 2025; Verganti et al., 2020)",Ao et al. (2025),10.1007/s11831-025-10264-1,False,,
-d5d1b2b4,"(Fischer et al., 2004; Howard et al., 2022a; von Hippel & Katz, 2002)",von Hippel & Katz (2002),10.1287/mnsc.48.7.821.2817,True,0.168,3.27 von Hippel e Katz (2002)
-d5d1b2b4,"(Fischer et al., 2004; Howard et al., 2022a; von Hippel & Katz, 2002)",Fischer et al. (2004),10.1145/1015864.1015884,True,0.169,3.26 Fischer et al. (2004)
-d5d1b2b4,"(Fischer et al., 2004; Howard et al., 2022a; von Hippel & Katz, 2002)",Howard et al. (2022),10.1080/17483107.2022.2060355,False,,
-6bb03bce,"(Fischer et al., 2004; Kerr et al., 2024; Zhu & Zhong, 2025)",Fischer et al. (2004),10.1145/1015864.1015884,True,0.274,3.26 Fischer et al. (2004)
-6bb03bce,"(Fischer et al., 2004; Kerr et al., 2024; Zhu & Zhong, 2025)",Kerr et al. (2024),10.2196/57227,False,,
-6bb03bce,"(Fischer et al., 2004; Kerr et al., 2024; Zhu & Zhong, 2025)",Zhu & Zhong (2025),10.12688/digitaltwin.17717.3,True,0.248,3.29 Zhu e Zhong (2022; PDF actualizado em 2025)
-2e5014c1,"(Franke & Von Hippel, 2003; von Hippel & Katz, 2002)",Franke & Von Hippel (2003),10.1016/S0048-7333(03)00049-0,False,,
-2e5014c1,"(Franke & Von Hippel, 2003; von Hippel & Katz, 2002)",von Hippel & Katz (2002),10.1287/mnsc.48.7.821.2817,True,0.353,3.27 von Hippel e Katz (2002)
-27920479,"(Costabile et al., 2007; Fischer et al., 2004)",Costabile et al. (2007),10.1007/978-3-540-73279-2_6,False,,
-27920479,"(Costabile et al., 2007; Fischer et al., 2004)",Fischer et al. (2004),10.1145/1015864.1015884,True,0.542,3.26 Fischer et al. (2004)
-2ab00c47,"(Akasaka et al., 2022)",Akasaka et al. (2022),10.1017/dsj.2022.22,True,0.341,3.28 Akasaka et al. (2022)
-ee43920a,"(Fischer et al., 2017)",Fischer et al. (2017),10.1007/978-3-319-60291-2_4,False,,
-d068d886,"(Costabile et al., 2007; Fischer et al., 2017)",Costabile et al. (2007),10.1007/978-3-540-73279-2_6,False,,
-d068d886,"(Costabile et al., 2007; Fischer et al., 2017)",Fischer et al. (2017),10.1007/978-3-319-60291-2_4,False,,
-1901938d,"(Akasaka et al., 2022)",Akasaka et al. (2022),10.1017/dsj.2022.22,True,0.341,3.28 Akasaka et al. (2022)
-d8af2792,"(Dechev et al., 2023; Peters & Richter, 2023)",Dechev et al. (2023),10.33137/cpoj.v6i2.42142,False,,
-d8af2792,"(Dechev et al., 2023; Peters & Richter, 2023)",Peters & Richter (2023),10.24251/hicss.2023.130,False,,
-5584ac46,"(Kuhl et al., 2021; Zhu & Zhong, 2025)",Kuhl et al. (2021),10.3390/app11010241,False,,
-5584ac46,"(Kuhl et al., 2021; Zhu & Zhong, 2025)",Zhu & Zhong (2025),10.12688/digitaltwin.17717.3,True,1.0,3.29 Zhu e Zhong (2022; PDF actualizado em 2025)
-1861b548,"(Clarkson & Coleman, 2010; Fischer et al., 2017)",Clarkson & Coleman (2010),10.1080/09544821003693689,True,0.241,3.8 Clarkson e Coleman (2010)
-1861b548,"(Clarkson & Coleman, 2010; Fischer et al., 2017)",Fischer et al. (2017),10.1007/978-3-319-60291-2_4,False,,
-12611d81,"(Peters & Richter, 2023; von Hippel & Katz, 2002; Zhu & Zhong, 2025)",von Hippel & Katz (2002),10.1287/mnsc.48.7.821.2817,True,0.158,3.27 von Hippel e Katz (2002)
-12611d81,"(Peters & Richter, 2023; von Hippel & Katz, 2002; Zhu & Zhong, 2025)",Peters & Richter (2023),10.24251/hicss.2023.130,False,,
-12611d81,"(Peters & Richter, 2023; von Hippel & Katz, 2002; Zhu & Zhong, 2025)",Zhu & Zhong (2025),10.12688/digitaltwin.17717.3,True,0.2,3.29 Zhu e Zhong (2022; PDF actualizado em 2025)
-a651c401,"(Thorsen et al., 2024)",Thorsen et al. (2024),10.1080/17483107.2023.2177754,False,,
-8df3dd63,"(Frangos et al., 2016; Hussaini et al., 2023; Kerr et al., 2024)",Frangos et al. (2016),10.2139/ssrn.3331281,False,,
-8df3dd63,"(Frangos et al., 2016; Hussaini et al., 2023; Kerr et al., 2024)",Hussaini et al. (2023),10.3390/prosthesis5010011,False,,
-8df3dd63,"(Frangos et al., 2016; Hussaini et al., 2023; Kerr et al., 2024)",Kerr et al. (2024),10.2196/57227,False,,
-869da9fb,"(Mikołajewski et al., 2023; Zhu & Zhong, 2025)",Mikołajewski et al. (2023),10.3390/app13127236,False,,
-869da9fb,"(Mikołajewski et al., 2023; Zhu & Zhong, 2025)",Zhu & Zhong (2025),10.12688/digitaltwin.17717.3,True,0.166,3.29 Zhu e Zhong (2022; PDF actualizado em 2025)
-dc3ba93d,"(Cole, 2011; Kerr et al., 2024; Seregni et al., 2021)",Cole (2011),10.1007/978-3-642-21663-3_31,False,,
-dc3ba93d,"(Cole, 2011; Kerr et al., 2024; Seregni et al., 2021)",Kerr et al. (2024),10.2196/57227,False,,
-dc3ba93d,"(Cole, 2011; Kerr et al., 2024; Seregni et al., 2021)",Seregni et al. (2021),10.3389/fpubh.2021.748307,True,0.355,3.30 Seregni et al. (2021)
-ded6717d,"(Dechev et al., 2023; Howard et al., 2022a; Sims et al., 2017)",Dechev et al. (2023),10.33137/cpoj.v6i2.42142,False,,
-ded6717d,"(Dechev et al., 2023; Howard et al., 2022a; Sims et al., 2017)",Howard et al. (2022),10.1080/17483107.2022.2060355,False,,
-ded6717d,"(Dechev et al., 2023; Howard et al., 2022a; Sims et al., 2017)",Sims et al. (2017),10.1017/S0266462317000836,False,,
-4bc6e6dd,"(Hussaini et al., 2023; Thorsen et al., 2024)",Hussaini et al. (2023),10.3390/prosthesis5010011,False,,
-4bc6e6dd,"(Hussaini et al., 2023; Thorsen et al., 2024)",Thorsen et al. (2024),10.1080/17483107.2023.2177754,False,,
-3817c33c,"(Frangos et al., 2016; Howard et al., 2022a; Thorsen et al., 2024)",Frangos et al. (2016),10.2139/ssrn.3331281,False,,
-3817c33c,"(Frangos et al., 2016; Howard et al., 2022a; Thorsen et al., 2024)",Howard et al. (2022),10.1080/17483107.2022.2060355,False,,
-3817c33c,"(Frangos et al., 2016; Howard et al., 2022a; Thorsen et al., 2024)",Thorsen et al. (2024),10.1080/17483107.2023.2177754,False,,
-5dec3875,"(Fischer et al., 2017)",Fischer et al. (2017),10.1007/978-3-319-60291-2_4,False,,
-6c475faf,"(Costabile et al., 2007; Fischer et al., 2004)",Costabile et al. (2007),10.1007/978-3-540-73279-2_6,False,,
-6c475faf,"(Costabile et al., 2007; Fischer et al., 2004)",Fischer et al. (2004),10.1145/1015864.1015884,True,1.0,3.26 Fischer et al. (2004)
-332bec56,"(Akasaka et al., 2022; Frangos et al., 2016)",Akasaka et al. (2022),10.1017/dsj.2022.22,True,0.21,3.28 Akasaka et al. (2022)
-332bec56,"(Akasaka et al., 2022; Frangos et al., 2016)",Frangos et al. (2016),10.2139/ssrn.3331281,False,,
-f0fc96dc,"(Oldfrey et al., 2024)",Oldfrey et al. (2024),10.1097/PXR.0000000000000351,True,1.0,3.31 Oldfrey et al. (2024) — Figura 2.8
-eb70a53e,"(Chadwell et al., 2020; Samuelsson et al., 2012; Windrich et al., 2016)",Samuelsson et al. (2012),10.1177/0309364611432794,False,,
-eb70a53e,"(Chadwell et al., 2020; Samuelsson et al., 2012; Windrich et al., 2016)",Windrich et al. (2016),10.1186/s12938-016-0284-9,False,,
-eb70a53e,"(Chadwell et al., 2020; Samuelsson et al., 2012; Windrich et al., 2016)",Chadwell et al. (2020),10.1186/s12984-020-00711-4,False,,
-233e7e00,"(Hafner & Sawers, 2016; Jones et al., 2023; Samuelsson et al., 2012)",Hafner & Sawers (2016),10.1177/0309364614550264,False,,
-233e7e00,"(Hafner & Sawers, 2016; Jones et al., 2023; Samuelsson et al., 2012)",Jones et al. (2023),10.3389/frhs.2023.1213752,False,,
-233e7e00,"(Hafner & Sawers, 2016; Jones et al., 2023; Samuelsson et al., 2012)",Samuelsson et al. (2012),10.1177/0309364611432794,False,,
-3801f1be,"(Ghillebert et al., 2019; Samuelsson et al., 2012; Windrich et al., 2016)",Ghillebert et al. (2019),10.1109/TMRB.2019.2949855,False,,
-3801f1be,"(Ghillebert et al., 2019; Samuelsson et al., 2012; Windrich et al., 2016)",Samuelsson et al. (2012),10.1177/0309364611432794,False,,
-3801f1be,"(Ghillebert et al., 2019; Samuelsson et al., 2012; Windrich et al., 2016)",Windrich et al. (2016),10.1186/s12938-016-0284-9,False,,
-34594449,"(Chadwell et al., 2020; Samuelsson et al., 2012)",Chadwell et al. (2020),10.1186/s12984-020-00711-4,False,,
-34594449,"(Chadwell et al., 2020; Samuelsson et al., 2012)",Samuelsson et al. (2012),10.1177/0309364611432794,False,,
-07d51f59,"(Cordella et al., 2016)",Cordella et al. (2016),10.3389/fnins.2016.00209,False,,
-3c561532,"(Manz et al., 2022)",Manz et al. (2022),10.1186/s12984-022-01097-1,False,,
-bdf837c6,"(Cordella et al., 2016; Manz et al., 2022)",Cordella et al. (2016),10.3389/fnins.2016.00209,False,,
-bdf837c6,"(Cordella et al., 2016; Manz et al., 2022)",Manz et al. (2022),10.1186/s12984-022-01097-1,False,,
-e35bb5e9,"(Manz et al., 2022; Samuelsson et al., 2012)",Manz et al. (2022),10.1186/s12984-022-01097-1,False,,
-e35bb5e9,"(Manz et al., 2022; Samuelsson et al., 2012)",Samuelsson et al. (2012),10.1177/0309364611432794,False,,
-3c60d2dc,"(Alluhydan et al., 2023; Baldock et al., 2023; Richardson & Dillon, 2017)",Alluhydan et al. (2023),https://doi.org/10.57197/JDR-2023-0031,False,,
-3c60d2dc,"(Alluhydan et al., 2023; Baldock et al., 2023; Richardson & Dillon, 2017)",Baldock et al. (2023),10.1186/s12984-023-01270-0,False,,
-3c60d2dc,"(Alluhydan et al., 2023; Baldock et al., 2023; Richardson & Dillon, 2017)",Richardson & Dillon (2017),10.1177/0309364616631343,False,,
-2be06abe,"(Cordella et al., 2016; Jones et al., 2023)",Cordella et al. (2016),10.3389/fnins.2016.00209,False,,
-2be06abe,"(Cordella et al., 2016; Jones et al., 2023)",Jones et al. (2023),10.3389/frhs.2023.1213752,False,,
-01d8fd26,"(Chadwell et al., 2020)",Chadwell et al. (2020),10.1186/s12984-020-00711-4,False,,
-a5ce51ee,"(Cordella et al., 2016; Marinelli et al., 2023)",Cordella et al. (2016),10.3389/fnins.2016.00209,False,,
-a5ce51ee,"(Cordella et al., 2016; Marinelli et al., 2023)",Marinelli et al. (2023),10.1088/2516-1091/acac57,True,0.926,3.33 Marinelli et al. (2022 no manuscrito; publicação do PDF de 2023)
-6bcb8507,"(Domínguez-Ruiz et al., 2023; Marinelli et al., 2023)",Domínguez-Ruiz et al. (2023),10.3389/frobt.2023.1032748,False,,
-6bcb8507,"(Domínguez-Ruiz et al., 2023; Marinelli et al., 2023)",Marinelli et al. (2023),10.1088/2516-1091/acac57,True,0.844,3.33 Marinelli et al. (2022 no manuscrito; publicação do PDF de 2023)
-a37e7f31,"(Alluhydan et al., 2023; Andrysek, 2010; Baumann & Maria, 2023)",Alluhydan et al. (2023),https://doi.org/10.57197/JDR-2023-0031,False,,
-a37e7f31,"(Alluhydan et al., 2023; Andrysek, 2010; Baumann & Maria, 2023)",Baumann & Maria (2023),10.1097/PXR.0000000000000254,False,,
-a37e7f31,"(Alluhydan et al., 2023; Andrysek, 2010; Baumann & Maria, 2023)",Andrysek (2010),10.3109/03093646.2010.520060,True,0.487,3.32 Andrysek (2010)
-5311cf79,"(Andrysek, 2010; Segura et al., 2024)",Andrysek (2010),10.3109/03093646.2010.520060,True,0.801,3.32 Andrysek (2010)
-5311cf79,"(Andrysek, 2010; Segura et al., 2024)",Segura et al. (2024),10.3390/prosthesis6020022,True,0.801,4.2 Segura et al. (2024) — obtido após o fecho inicial
-e3865a33,"(Cordella et al., 2016; Hafner & Sawers, 2016; Richardson & Dillon, 2017)",Cordella et al. (2016),10.3389/fnins.2016.00209,False,,
-e3865a33,"(Cordella et al., 2016; Hafner & Sawers, 2016; Richardson & Dillon, 2017)",Hafner & Sawers (2016),10.1177/0309364614550264,False,,
-e3865a33,"(Cordella et al., 2016; Hafner & Sawers, 2016; Richardson & Dillon, 2017)",Richardson & Dillon (2017),10.1177/0309364616631343,False,,
-20d7eeb1,"(Anderson et al., 2024; Baumann & Maria, 2023; Chadwell et al., 2020)",Anderson et al. (2024),10.1007/s40141-024-00432-y,False,,
-20d7eeb1,"(Anderson et al., 2024; Baumann & Maria, 2023; Chadwell et al., 2020)",Baumann & Maria (2023),10.1097/PXR.0000000000000254,False,,
-20d7eeb1,"(Anderson et al., 2024; Baumann & Maria, 2023; Chadwell et al., 2020)",Chadwell et al. (2020),10.1186/s12984-020-00711-4,False,,
-d2a3d3ab,"(Frayling, 1994; Zimmerman et al., 2007)",Frayling (1994),,False,,
-d2a3d3ab,"(Frayling, 1994; Zimmerman et al., 2007)",Zimmerman et al. (2007),10.1145/1240624.1240704,False,,
-300ab791,"(Design Council, 2007)",Design Council (2007),,False,,
-b4d5fe00,"(da Silva et al., 2018)",da Silva et al. (2018),10.1007/978-3-319-94947-5_88,True,0.87,3.35 Silva et al. (2018) — Figura 3.1
-6ebad52c,"(da Silva et al., 2018)",da Silva et al. (2018),10.1007/978-3-319-94947-5_88,True,0.743,3.35 Silva et al. (2018) — Figura 3.1
-06656746,"(Cross, 1982)",Cross (1982),10.1016/0142-694X(82)90040-0,True,0.976,3.34 Cross (1982)
-b4a02d3f,"(Shannon et al., 2019)",Shannon et al. (2019),https://doi.org/10.18260/1-2--32085,True,0.618,3.36 Kellam et al. (2019) — Figura 3.2
-68fdd84b,"(Cordella et al., 2016; Guo, 2025)",Cordella et al. (2016),10.3389/fnins.2016.00209,False,,
-68fdd84b,"(Cordella et al., 2016; Guo, 2025)",Guo (2025),10.61173/qb2xnn62,False,,
-5d5a67a2,"(Biddiss & Chau, 2007; Cordella et al., 2016)",Biddiss & Chau (2007),10.1080/03093640600994581,False,,
-5d5a67a2,"(Biddiss & Chau, 2007; Cordella et al., 2016)",Cordella et al. (2016),10.3389/fnins.2016.00209,False,,
-6e10ff5e,"(Biddiss & Chau, 2007; Brack & Amalu, 2021; Henao et al., 2025; Walker et al., 2020)",Biddiss & Chau (2007),10.1080/03093640600994581,False,,
-6e10ff5e,"(Biddiss & Chau, 2007; Brack & Amalu, 2021; Henao et al., 2025; Walker et al., 2020)",Brack & Amalu (2021),10.1016/j.jor.2020.12.009,True,0.362,3.38 Brack e Amalu (2021) — requisitos gerais e limites da linha 916
-6e10ff5e,"(Biddiss & Chau, 2007; Brack & Amalu, 2021; Henao et al., 2025; Walker et al., 2020)",Henao et al. (2025),10.1016/j.jht.2025.04.006,True,0.362,3.39 Henao et al. (2025) — requisitos de partes interessadas
-6e10ff5e,"(Biddiss & Chau, 2007; Brack & Amalu, 2021; Henao et al., 2025; Walker et al., 2020)",Walker et al. (2020),10.1007/s11948-019-00168-2,True,0.362,3.40 Walker et al. (publicação de 2020)
-c34cf2ab,"(Chatzıoglou et al., 2024; Moreo, 2016; Rodríguez-Vega & Rodríguez-Vega, 2024)",Chatzıoglou et al. (2024),10.5115/acb.23.310,True,0.362,3.42 Chatzioglou et al. (2024)
-c34cf2ab,"(Chatzıoglou et al., 2024; Moreo, 2016; Rodríguez-Vega & Rodríguez-Vega, 2024)",Moreo (2016),,True,0.158,6.3 Moreo (2016) — origem dos dados DINED na Tabela 6.1
-c34cf2ab,"(Chatzıoglou et al., 2024; Moreo, 2016; Rodríguez-Vega & Rodríguez-Vega, 2024)",Rodríguez-Vega & Rodríguez-Vega (2024),10.31637/epsir-2024-932,True,0.314,3.44 Rodríguez-Vega e Rodríguez-Vega (2024)
-6773353d,"(Nini et al., 2024)",Nini et al. (2024),10.1109/BioRob60516.2024.10719909,True,0,"3.45 Nini et al. (2024) — parâmetros, restrições e Figuras 4.1 e 4.3"
-0d45f9b1,"(Chatzıoglou et al., 2024; Nag et al., 2003)",Chatzıoglou et al. (2024),10.5115/acb.23.310,True,0.319,3.42 Chatzioglou et al. (2024)
-0d45f9b1,"(Chatzıoglou et al., 2024; Nag et al., 2003)",Nag et al. (2003),,True,0.284,6.7 Nag et al. (2003)
-a630f2a6,"(Moreo, 2016; Romero et al., 2025b)",Moreo (2016),,True,0.234,6.3 Moreo (2016) — origem dos dados DINED na Tabela 6.1
-a630f2a6,"(Moreo, 2016; Romero et al., 2025b)",Romero et al. (2025),10.3390/app15084467,True,0.145,3.63 da Silveira Romero et al. (2025)
-2c05094c,"(Lim et al., 2018; Nag et al., 2003; Rodríguez-Vega & Rodríguez-Vega, 2024)",Nag et al. (2003),,True,0.157,6.7 Nag et al. (2003)
-2c05094c,"(Lim et al., 2018; Nag et al., 2003; Rodríguez-Vega & Rodríguez-Vega, 2024)",Rodríguez-Vega & Rodríguez-Vega (2024),10.31637/epsir-2024-932,True,0.239,3.44 Rodríguez-Vega e Rodríguez-Vega (2024)
-2c05094c,"(Lim et al., 2018; Nag et al., 2003; Rodríguez-Vega & Rodríguez-Vega, 2024)",Lim et al. (2018),10.1115/DETC2018-85645,True,0.165,6.10 Lim et al. (2018)
-b6d3a5ba,"(Lim et al., 2018)",Lim et al. (2018),10.1115/DETC2018-85645,True,0.247,6.10 Lim et al. (2018)
-efe29713,"(Ciklacandir et al., 2022)",Ciklacandir et al. (2022),10.1109/TIPTEKNO56568.2022.9960218,False,,
-50ab3b0d,"(Herbst et al., 2021)",Herbst et al. (2021),10.1109/CASE49439.2021.9551456,False,,
-576ff77c,"(Ciklacandir et al., 2022; Herbst et al., 2021)",Herbst et al. (2021),10.1109/CASE49439.2021.9551456,False,,
-576ff77c,"(Ciklacandir et al., 2022; Herbst et al., 2021)",Ciklacandir et al. (2022),10.1109/TIPTEKNO56568.2022.9960218,False,,
-b8b4af3c,"(Moreo, 2016; Romero et al., 2025b)",Moreo (2016),,True,0.157,6.3 Moreo (2016) — origem dos dados DINED na Tabela 6.1
-b8b4af3c,"(Moreo, 2016; Romero et al., 2025b)",Romero et al. (2025),10.3390/app15084467,True,0.167,3.63 da Silveira Romero et al. (2025)
-56b98ba7,"(Avila et al., 2024; Ghali, 2008)",Ghali (2008),10.1007/978-1-84800-115-2,False,,
-56b98ba7,"(Avila et al., 2024; Ghali, 2008)",Avila et al. (2024),10.1145/3613904.3642566,True,0,3.52 Gonzalez Avila et al. (2024) — anexo Mendeley
-199d7ce0,"(Gonzalez Avila, 2024; Trautmann, 2021)",Trautmann (2021),10.35925/j.multi.2021.4.10,False,,
-199d7ce0,"(Gonzalez Avila, 2024; Trautmann, 2021)",Gonzalez Avila (2024),,False,,
-1bba9ea7,"(Machado et al., 2019)",Machado et al. (2019),10.1371/journal.pone.0225795,True,0,"3.49 Machado et al. (2019) — OpenSCAD, documentação e interoperabilidade"
-467845a3,"(Brooks, 2026; Nilsiam & Pearce, 2017)",Nilsiam & Pearce (2017),10.3390/designs1010005,True,0,3.51 Nilsiam e Pearce (2017) — anexo Mendeley
-467845a3,"(Brooks, 2026; Nilsiam & Pearce, 2017)",Brooks (2026),,False,,
-24b074f4,"(ELhadad et al., 2025; Gonzalez Avila, 2024; Schöfer & Seibel, 2025)",Schöfer & Seibel (2025),10.1017/pds.2025.10081,True,0,3.53 Schöfer e Seibel (2025) — anexo Mendeley
-24b074f4,"(ELhadad et al., 2025; Gonzalez Avila, 2024; Schöfer & Seibel, 2025)",Gonzalez Avila (2024),,False,,
-24b074f4,"(ELhadad et al., 2025; Gonzalez Avila, 2024; Schöfer & Seibel, 2025)",ELhadad et al. (2025),https://doi.org/10.1016/j.procs.2026.01.077,False,,
-acb43e5b,"(Bustamante et al., 2018; Lim et al., 2018; Romani & Levi, 2020)",Lim et al. (2018),10.1115/DETC2018-85645,True,0.145,6.10 Lim et al. (2018)
-acb43e5b,"(Bustamante et al., 2018; Lim et al., 2018; Romani & Levi, 2020)",Bustamante et al. (2018),10.1109/BIBE.2018.00022,True,0.232,3.50 Bustamante et al. (2018) — anexo Mendeley
-acb43e5b,"(Bustamante et al., 2018; Lim et al., 2018; Romani & Levi, 2020)",Romani & Levi (2020),10.1007/978-3-030-58468-9_14,False,,
-29c2ec0f,"(Machado et al., 2019; Moreo, 2016; Romero et al., 2025b)",Machado et al. (2019),10.1371/journal.pone.0225795,True,0,"3.49 Machado et al. (2019) — OpenSCAD, documentação e interoperabilidade"
-29c2ec0f,"(Machado et al., 2019; Moreo, 2016; Romero et al., 2025b)",Moreo (2016),,True,0.216,6.3 Moreo (2016) — origem dos dados DINED na Tabela 6.1
-29c2ec0f,"(Machado et al., 2019; Moreo, 2016; Romero et al., 2025b)",Romero et al. (2025),10.3390/app15084467,True,0.178,3.63 da Silveira Romero et al. (2025)
-72bbf9cf,"(Moreo, 2016; Nini et al., 2024; Saldarriaga et al., 2024)",Moreo (2016),,True,0.154,6.3 Moreo (2016) — origem dos dados DINED na Tabela 6.1
-72bbf9cf,"(Moreo, 2016; Nini et al., 2024; Saldarriaga et al., 2024)",Nini et al. (2024),10.1109/BioRob60516.2024.10719909,True,0,"3.45 Nini et al. (2024) — parâmetros, restrições e Figuras 4.1 e 4.3"
-72bbf9cf,"(Moreo, 2016; Nini et al., 2024; Saldarriaga et al., 2024)",Saldarriaga et al. (2024),10.1109/CoDIT62066.2024.10708382,True,0,3.54 Saldarriaga et al. (2024) — anexo Mendeley
-439f9a41,"(Machado et al., 2019; Romero et al., 2025a)",Machado et al. (2019),10.1371/journal.pone.0225795,True,0,"3.49 Machado et al. (2019) — OpenSCAD, documentação e interoperabilidade"
-439f9a41,"(Machado et al., 2019; Romero et al., 2025a)",Romero et al. (2025),10.1109/ACCESS.2025.3596475,True,0.206,3.70 Romero et al. (2025) — precedente funcional e Figura 8.4
-e24afb74,"(Nini et al., 2024; Saldarriaga et al., 2024)",Nini et al. (2024),10.1109/BioRob60516.2024.10719909,True,0,"3.45 Nini et al. (2024) — parâmetros, restrições e Figuras 4.1 e 4.3"
-e24afb74,"(Nini et al., 2024; Saldarriaga et al., 2024)",Saldarriaga et al. (2024),10.1109/CoDIT62066.2024.10708382,True,0,3.54 Saldarriaga et al. (2024) — anexo Mendeley
-8944077a,"(Herbst et al., 2021)",Herbst et al. (2021),10.1109/CASE49439.2021.9551456,False,,
-b588d2ab,"(Saldarriaga et al., 2024)",Saldarriaga et al. (2024),10.1109/CoDIT62066.2024.10708382,True,0,3.54 Saldarriaga et al. (2024) — anexo Mendeley
-cfb255ea,"(Nilsiam & Pearce, 2017)",Nilsiam & Pearce (2017),10.3390/designs1010005,True,0,3.51 Nilsiam e Pearce (2017) — anexo Mendeley
-ea5e695f,"(Machado et al., 2019)",Machado et al. (2019),10.1371/journal.pone.0225795,True,0,"3.49 Machado et al. (2019) — OpenSCAD, documentação e interoperabilidade"
-abb4c18f,"(Ozdemir et al., 2022; van Stralen, 2018)",Ozdemir et al. (2022),10.1017/dsj.2022.3,False,,
-abb4c18f,"(Ozdemir et al., 2022; van Stralen, 2018)",van Stralen (2018),10.5151/sigradi2018-1770,False,,
-137efc90,"(Peixoto et al., 2025)",Peixoto et al. (2025),10.3390/designs9020039,False,,
-6d2a1ba7,"(Bai et al., 2024; Quintero et al., 2018)",Bai et al. (2024),10.1186/s12984-024-01475-x,False,,
-6d2a1ba7,"(Bai et al., 2024; Quintero et al., 2018)",Quintero et al. (2018),10.1109/JTEHM.2018.2880199,False,,
-28c9da1e,"(Bai et al., 2024; Quintero et al., 2018)",Quintero et al. (2018),10.1109/JTEHM.2018.2880199,False,,
-28c9da1e,"(Bai et al., 2024; Quintero et al., 2018)",Bai et al. (2024),10.1186/s12984-024-01475-x,False,,
-738cb67b,"(Górski et al., 2022)",Górski et al. (2022),10.1088/1742-6596/2198/1/012040,True,0.632,3.56 Górski et al. (2022) — fluxo e Figura 5.5
-b34d91b1,"(Górski et al., 2022)",Górski et al. (2022),10.1088/1742-6596/2198/1/012040,True,0.102,3.56 Górski et al. (2022) — fluxo e Figura 5.5
-77d94f8d,"(Bai et al., 2024; Quintero et al., 2018)",Bai et al. (2024),10.1186/s12984-024-01475-x,False,,
-77d94f8d,"(Bai et al., 2024; Quintero et al., 2018)",Quintero et al. (2018),10.1109/JTEHM.2018.2880199,False,,
-7ab8803f,"(Machado et al., 2019; Nilsiam & Pearce, 2017)",Machado et al. (2019),10.1371/journal.pone.0225795,True,0,"3.49 Machado et al. (2019) — OpenSCAD, documentação e interoperabilidade"
-7ab8803f,"(Machado et al., 2019; Nilsiam & Pearce, 2017)",Nilsiam & Pearce (2017),10.3390/designs1010005,True,0,3.51 Nilsiam e Pearce (2017) — anexo Mendeley
-96c0e867,"(Nilsiam & Pearce, 2017; Ozdemir et al., 2022)",Nilsiam & Pearce (2017),10.3390/designs1010005,True,0,3.51 Nilsiam e Pearce (2017) — anexo Mendeley
-96c0e867,"(Nilsiam & Pearce, 2017; Ozdemir et al., 2022)",Ozdemir et al. (2022),10.1017/dsj.2022.3,False,,
-b6bb24d0,"(Machado et al., 2019; Nilsiam & Pearce, 2017)",Machado et al. (2019),10.1371/journal.pone.0225795,True,0,"3.49 Machado et al. (2019) — OpenSCAD, documentação e interoperabilidade"
-b6bb24d0,"(Machado et al., 2019; Nilsiam & Pearce, 2017)",Nilsiam & Pearce (2017),10.3390/designs1010005,True,0,3.51 Nilsiam e Pearce (2017) — anexo Mendeley
-1051c264,"(Ozdemir et al., 2022; Peixoto et al., 2025)",Ozdemir et al. (2022),10.1017/dsj.2022.3,False,,
-1051c264,"(Ozdemir et al., 2022; Peixoto et al., 2025)",Peixoto et al. (2025),10.3390/designs9020039,False,,
-420eded5,"(Li & Aflatoony, 2025)",Li & Aflatoony (2025),10.1080/17483107.2025.2483953,True,0,3.59 Li e Aflatoony (2025) — Figura 5.7
-96cc56f1,"(Peixoto et al., 2025; Quintero et al., 2018)",Peixoto et al. (2025),10.3390/designs9020039,False,,
-96cc56f1,"(Peixoto et al., 2025; Quintero et al., 2018)",Quintero et al. (2018),10.1109/JTEHM.2018.2880199,False,,
-64183ae2,"(Ozdemir et al., 2022)",Ozdemir et al. (2022),10.1017/dsj.2022.3,False,,
-ae7963f3,"(Ozdemir et al., 2022)",Ozdemir et al. (2022),10.1017/dsj.2022.3,False,,
-d568fee7,"(Cordella et al., 2016; Marinelli et al., 2023; Peerdeman et al., 2011)",Cordella et al. (2016),10.3389/fnins.2016.00209,False,,
-d568fee7,"(Cordella et al., 2016; Marinelli et al., 2023; Peerdeman et al., 2011)",Marinelli et al. (2023),10.1088/2516-1091/acac57,True,1.0,3.61 Marinelli et al. (2022 no manuscrito; publicação do PDF de 2023) — nova localização
-d568fee7,"(Cordella et al., 2016; Marinelli et al., 2023; Peerdeman et al., 2011)",Peerdeman et al. (2011),10.1682/JRRD.2010.08.0161,False,,
-a199afce,"(Gu et al., 2024; Romero et al., 2025b; Saldarriaga et al., 2024)",Gu et al. (2024),10.1109/TNSRE.2024.3430070,True,0.491,3.62 Gu et al. (2024)
-a199afce,"(Gu et al., 2024; Romero et al., 2025b; Saldarriaga et al., 2024)",Romero et al. (2025),10.3390/app15084467,True,0.234,3.63 da Silveira Romero et al. (2025)
-a199afce,"(Gu et al., 2024; Romero et al., 2025b; Saldarriaga et al., 2024)",Saldarriaga et al. (2024),10.1109/CoDIT62066.2024.10708382,True,0,3.54 Saldarriaga et al. (2024) — anexo Mendeley
-cdc3e633,"(Lim et al., 2018; Romero et al., 2025b; Saldarriaga et al., 2024)",Lim et al. (2018),10.1115/DETC2018-85645,True,0.207,6.10 Lim et al. (2018)
-cdc3e633,"(Lim et al., 2018; Romero et al., 2025b; Saldarriaga et al., 2024)",Saldarriaga et al. (2024),10.1109/CoDIT62066.2024.10708382,True,0,3.54 Saldarriaga et al. (2024) — anexo Mendeley
-cdc3e633,"(Lim et al., 2018; Romero et al., 2025b; Saldarriaga et al., 2024)",Romero et al. (2025),10.3390/app15084467,True,0.384,3.63 da Silveira Romero et al. (2025)
-0e45ec0b,"(Panchal et al., 2019; Yüksel et al., 2023)",Panchal et al. (2019),10.1115/1.4044690,False,,
-0e45ec0b,"(Panchal et al., 2019; Yüksel et al., 2023)",Yüksel et al. (2023),10.1016/j.engappai.2022.105697,False,,
-31aed188,"(Barredo Arrieta et al., 2020)",Barredo Arrieta et al. (2020),10.1016/j.inffus.2019.12.012,True,0,3.66 Barredo Arrieta et al. (2020) — princípios de IA responsável e Figura 6.1
-9af3bbb2,"(Barredo Arrieta et al., 2020)",Barredo Arrieta et al. (2020),10.1016/j.inffus.2019.12.012,True,0,3.66 Barredo Arrieta et al. (2020) — princípios de IA responsável e Figura 6.1
-6303d3fc,"(Colombo et al., 2015; Peixoto et al., 2025)",Colombo et al. (2015),10.1007/978-3-319-21067-436,True,0.968,3.68 Colombo et al. (2015) — novas localizações no Capítulo 7
-6303d3fc,"(Colombo et al., 2015; Peixoto et al., 2025)",Peixoto et al. (2025),10.3390/designs9020039,False,,
-4d64bed5,"(Alili et al., 2023; Quintero et al., 2018)",Alili et al. (2023),10.1109/TNSRE.2023.3236217,False,,
-4d64bed5,"(Alili et al., 2023; Quintero et al., 2018)",Quintero et al. (2018),10.1109/JTEHM.2018.2880199,False,,
-31e894dc,"(Bai et al., 2024; Colombo et al., 2015; Quintero et al., 2018)",Bai et al. (2024),10.1186/s12984-024-01475-x,False,,
-31e894dc,"(Bai et al., 2024; Colombo et al., 2015; Quintero et al., 2018)",Colombo et al. (2015),10.1007/978-3-319-21067-436,True,0.946,3.68 Colombo et al. (2015) — novas localizações no Capítulo 7
-31e894dc,"(Bai et al., 2024; Colombo et al., 2015; Quintero et al., 2018)",Quintero et al. (2018),10.1109/JTEHM.2018.2880199,False,,
-28f69bd1,"(da Silva et al., 2018)",da Silva et al. (2018),10.1007/978-3-319-94947-5_88,True,0.916,3.69 Silva et al. (2018) — uso concreto e Figura 7.1
-fb65172e,"(da Silva et al., 2018)",da Silva et al. (2018),10.1007/978-3-319-94947-5_88,True,0.706,3.35 Silva et al. (2018) — Figura 3.1
-19591796,"(Bai et al., 2024; Peixoto et al., 2025)",Bai et al. (2024),10.1186/s12984-024-01475-x,False,,
-19591796,"(Bai et al., 2024; Peixoto et al., 2025)",Peixoto et al. (2025),10.3390/designs9020039,False,,
-6e179c27,"(Romero et al., 2025a)",Romero et al. (2025),10.1109/ACCESS.2025.3596475,True,0.245,3.70 Romero et al. (2025) — precedente funcional e Figura 8.4
-5b9043bb,"(Smail et al., 2021)",Smail et al. (2021),10.1080/17483107.2020.1738567,True,0.397,3.4 Smail et al. (2021)
-90f3780c,"(Biddiss et al., 2007)",Biddiss et al. (2007),10.1080/17483100701714733,True,0.145,3.37 Biddiss et al. (2007) — requisitos de utilização
-b953a80c,"(Fink & Diamond, 2023)",Fink & Diamond (2023),10.1016/j.oto.2023.101061,True,0.3,4.1 Fink e Diamond (2023) — obtido após o fecho inicial
-bbe457bf,"(Chadwell et al., 2020; Diment et al., 2018; Jones et al., 2023)",Diment et al. (2018),10.1177/0309364617704803,False,,
-bbe457bf,"(Chadwell et al., 2020; Diment et al., 2018; Jones et al., 2023)",Chadwell et al. (2020),10.1186/s12984-020-00711-4,False,,
-bbe457bf,"(Chadwell et al., 2020; Diment et al., 2018; Jones et al., 2023)",Jones et al. (2023),10.3389/frhs.2023.1213752,False,,
-80320384,"(Cordella et al., 2016; Manz et al., 2022)",Cordella et al. (2016),10.3389/fnins.2016.00209,False,,
-80320384,"(Cordella et al., 2016; Manz et al., 2022)",Manz et al. (2022),10.1186/s12984-022-01097-1,False,,
-2fda63cc,"(Alluhydan et al., 2023)",Alluhydan et al. (2023),https://doi.org/10.57197/JDR-2023-0031,False,,
-c1452b24,"(Baldock et al., 2023)",Baldock et al. (2023),10.1186/s12984-023-01270-0,False,,
-2f5b8d47,"(Richardson & Dillon, 2017)",Richardson & Dillon (2017),10.1177/0309364616631343,False,,
-5d4436bd,"(Domínguez-Ruiz et al., 2023)",Domínguez-Ruiz et al. (2023),10.3389/frobt.2023.1032748,False,,
-c1f0e7aa,"(Marinelli et al., 2023)",Marinelli et al. (2023),10.1088/2516-1091/acac57,True,0.992,3.72 Marinelli et al. (2023) — nova localização na Tabela 8.8
-e87e3c6b,"(Andrysek, 2010)",Andrysek (2010),10.3109/03093646.2010.520060,True,0.993,3.73 Andrysek (2010) — nova localização na Tabela 8.8
-d18916b2,"(Baumann & Maria, 2023)",Baumann & Maria (2023),10.1097/PXR.0000000000000254,False,,
-186e0e08,"(Segura et al., 2024)",Segura et al. (2024),10.3390/prosthesis6020022,True,0.993,4.2 Segura et al. (2024) — obtido após o fecho inicial
-1b09df73,"(Walker et al., 2020)",Walker et al. (2020),10.1007/s11948-019-00168-2,True,0.965,3.74 Walker et al. (2020) — nova localização na Tabela 8.8
-976ce0d5,"(Gordon et al., 1989)",Gordon et al. (1989),,True,1.0,6.2 Gordon et al. (1989) — ANSUR 1988
-b0f09eec,"(Gordon et al., 1989)",Gordon et al. (1989),,True,0.409,6.2 Gordon et al. (1989) — ANSUR 1988
-feeef24c,"(Rodríguez-Vega & Rodríguez-Vega, 2024)",Rodríguez-Vega & Rodríguez-Vega (2024),10.31637/epsir-2024-932,True,0.547,6.4 Rodríguez-Vega e Rodríguez-Vega (2024)
-8be298a9,"(Anacleto Filho et al., 2023)",Anacleto Filho et al. (2023),10.1016/j.ergon.2023.103473,True,0.193,6.5 Anacleto Filho et al. (2023)
-74019a84,"(Gordon et al., 1989)",Gordon et al. (1989),,True,0.277,6.2 Gordon et al. (1989) — ANSUR 1988
-62651207,"(Chatzıoglou et al., 2024)",Chatzıoglou et al. (2024),10.5115/acb.23.310,True,0.352,6.6 Chatzioglou et al. (2024)
-a7db44fd,"(Rodríguez-Vega & Rodríguez-Vega, 2024)",Rodríguez-Vega & Rodríguez-Vega (2024),10.31637/epsir-2024-932,True,0.336,6.4 Rodríguez-Vega e Rodríguez-Vega (2024)
-1a0e7276,"(Nag et al., 2003)",Nag et al. (2003),,True,0.421,6.7 Nag et al. (2003)
-f07e79ce,"(Anacleto Filho et al., 2023)",Anacleto Filho et al. (2023),10.1016/j.ergon.2023.103473,True,0.535,6.5 Anacleto Filho et al. (2023)
-54c6ff54,"(Ibiwari et al., 2025)",Ibiwari et al. (2025),,True,0.552,6.8 Ibiwari et al. (2025)
-01dc4294,"(Mistarihi, 2020)",Mistarihi (2020),10.1016/j.dib.2020.105420,False,,
-91372b66,"(Moreo, 2016)",Moreo (2016),,True,0.161,6.3 Moreo (2016) — origem dos dados DINED na Tabela 6.1
-75ffeef9,"(Gordon et al., 2014)",Gordon et al. (2014),,False,,
-de6e7a1e,"(Delft University of Technology, n.d.)",Delft University of Technology (s.d.),,False,,
-ebf44d96,"(Hu et al., 2007)",Hu et al. (2007),10.1016/j.ergon.2006.11.006,True,0.9,6.13 Hu et al. (2007)
-7144ab45,"(daprice, n.d.)",daprice (s.d.),,False,,
-manual-1,"(Marinelli et al., 2023; Richardson & Dillon, 2017; Walters et al., 2025)",Marinelli et al. (2023),10.1088/2516-1091/acac57,True,0.539,3.33 Marinelli et al. (2022 no manuscrito; publicação do PDF de 2023)
-manual-1,"(Marinelli et al., 2023; Richardson & Dillon, 2017; Walters et al., 2025)",Richardson & Dillon (2017),10.1177/0309364616631343,False,,
-manual-1,"(Marinelli et al., 2023; Richardson & Dillon, 2017; Walters et al., 2025)",Walters et al. (2025),10.3389/fresc.2025.1610336,False,,
-manual-2,"(Nini et al., 2024)",Nini et al. (2024),10.1109/BioRob60516.2024.10719909,True,0,"3.45 Nini et al. (2024) — parâmetros, restrições e Figuras 4.1 e 4.3"
-manual-3,Nini et al. (2024),Nini et al. (2024),10.1109/BioRob60516.2024.10719909,True,0,"3.45 Nini et al. (2024) — parâmetros, restrições e Figuras 4.1 e 4.3"
-manual-4,"(Machado et al., 2019)",Machado et al. (2019),10.1371/journal.pone.0225795,True,0,"3.49 Machado et al. (2019) — OpenSCAD, documentação e interoperabilidade"
-manual-5,"(Barredo Arrieta et al., 2020)",Barredo Arrieta et al. (2020),10.1016/j.inffus.2019.12.012,True,0,3.66 Barredo Arrieta et al. (2020) — princípios de IA responsável e Figura 6.1
-manual-6,Moreo (2016),Moreo (2016),,True,1.0,6.3 Moreo (2016) — origem dos dados DINED na Tabela 6.1
-manual-7,Moreo (2016),Moreo (2016),,True,0.572,6.3 Moreo (2016) — origem dos dados DINED na Tabela 6.1
-manual-8,Anacleto Filho et al. (2023),Anacleto Filho et al. (2023),10.1016/j.ergon.2023.103473,True,0.49,6.5 Anacleto Filho et al. (2023)
-manual-9,Lim et al. (2018),Lim et al. (2018),10.1115/DETC2018-85645,True,1.0,6.10 Lim et al. (2018)
-manual-10,Mistarihi (2020),Mistarihi (2020),10.1016/j.dib.2020.105420,False,,
-manual-11,Ibiwari et al. (2025),Ibiwari et al. (2025),,True,1.0,6.8 Ibiwari et al. (2025)
-manual-12,Nag et al. (2003),Nag et al. (2003),,True,1.0,6.7 Nag et al. (2003)
-manual-13,Hu et al. (2007),Hu et al. (2007),10.1016/j.ergon.2006.11.006,True,1.0,6.13 Hu et al. (2007)
-manual-14,Lim et al. (2018),Lim et al. (2018),10.1115/DETC2018-85645,True,0.4,6.10 Lim et al. (2018)
-manual-15,Ibiwari et al. (2025),Ibiwari et al. (2025),,True,1.0,6.8 Ibiwari et al. (2025)
-manual-16,Mistarihi (2020),Mistarihi (2020),10.1016/j.dib.2020.105420,False,,
-manual-17,Hu et al. (2007),Hu et al. (2007),10.1016/j.ergon.2006.11.006,True,1.0,6.13 Hu et al. (2007)
-manual-18,Hu et al. (2007),Hu et al. (2007),10.1016/j.ergon.2006.11.006,True,1.0,6.13 Hu et al. (2007)
-manual-19,Anacleto Filho et al. (2023),Anacleto Filho et al. (2023),10.1016/j.ergon.2023.103473,True,0.548,6.5 Anacleto Filho et al. (2023)
-manual-20,Nag et al. (2003),Nag et al. (2003),,True,0.482,6.7 Nag et al. (2003)
-manual-21,Ibiwari et al. (2025),Ibiwari et al. (2025),,True,0.396,6.8 Ibiwari et al. (2025)
-manual-22,Lim et al. (2018),Lim et al. (2018),10.1115/DETC2018-85645,True,0.279,6.10 Lim et al. (2018)
-manual-23,Mistarihi (2020),Mistarihi (2020),10.1016/j.dib.2020.105420,False,,
-manual-24,Mistarihi (2020),Mistarihi (2020),10.1016/j.dib.2020.105420,False,,
-manual-25,Hu et al. (2007),Hu et al. (2007),10.1016/j.ergon.2006.11.006,True,1.0,6.13 Hu et al. (2007)
-manual-26,Ibiwari et al. (2025),Ibiwari et al. (2025),,True,1.0,6.8 Ibiwari et al. (2025)
+marcador_odt,citacao,obra,doi,excerto_disponivel,similaridade_contexto,secao_auditoria,origem,tipo_origem
+abb8584c,"(Fink & Diamond, 2023; Segura et al., 2024)",Fink & Diamond (2023),10.1016/j.oto.2023.101061,True,0.877,4.1 Fink e Diamond (2023) — obtido após o fecho inicial,docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+abb8584c,"(Fink & Diamond, 2023; Segura et al., 2024)",Segura et al. (2024),10.3390/prosthesis6020022,True,0.877,4.2 Segura et al. (2024) — obtido após o fecho inicial,docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+00e8d950,"(Brack & Amalu, 2021)",Brack & Amalu (2021),10.1016/j.jor.2020.12.009,True,0.917,3.2 Brack e Amalu (2021),docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+44377287,"(Fink & Diamond, 2023; Segura et al., 2024)",Fink & Diamond (2023),10.1016/j.oto.2023.101061,True,0.751,4.1 Fink e Diamond (2023) — obtido após o fecho inicial,docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+44377287,"(Fink & Diamond, 2023; Segura et al., 2024)",Segura et al. (2024),10.3390/prosthesis6020022,True,0.751,4.2 Segura et al. (2024) — obtido após o fecho inicial,docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+ef24f664,"(Engdahl et al., 2024; Fink & Diamond, 2023)",Engdahl et al. (2024),10.1186/s12984-024-01436-4,True,0.575,"Evidência por citação, linha 7",material/bibliografia/auditoria_citacoes/referencias_evidencia_docx_2026-07-22.xlsx,xlsx
+ef24f664,"(Engdahl et al., 2024; Fink & Diamond, 2023)",Fink & Diamond (2023),10.1016/j.oto.2023.101061,True,0.602,4.1 Fink e Diamond (2023) — obtido após o fecho inicial,docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+f8b5bb47,"(Bates et al., 2020; Engdahl et al., 2024)",Bates et al. (2020),10.1007/s12178-020-09656-6,True,0.719,"Evidência por citação, linha 9",material/bibliografia/auditoria_citacoes/referencias_evidencia_docx_2026-07-22.xlsx,xlsx
+f8b5bb47,"(Bates et al., 2020; Engdahl et al., 2024)",Engdahl et al. (2024),10.1186/s12984-024-01436-4,True,0.719,"Evidência por citação, linha 10",material/bibliografia/auditoria_citacoes/referencias_evidencia_docx_2026-07-22.xlsx,xlsx
+cfcc9bba,"(Segura et al., 2024; Walters et al., 2025)",Segura et al. (2024),10.3390/prosthesis6020022,True,0.913,4.2 Segura et al. (2024) — obtido após o fecho inicial,docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+cfcc9bba,"(Segura et al., 2024; Walters et al., 2025)",Walters et al. (2025),10.3389/fresc.2025.1610336,True,0.885,"Evidência por citação, linha 12",material/bibliografia/auditoria_citacoes/referencias_evidencia_docx_2026-07-22.xlsx,xlsx
+6651b55e,"(ten Kate et al., 2017)",ten Kate et al. (2017),10.1080/17483107.2016.1253117,True,0.262,3.3 ten Kate et al. (2017),docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+c963c1bb,"(Fink & Diamond, 2023; Soyer et al., 2016)",Fink & Diamond (2023),10.1016/j.oto.2023.101061,True,0.851,4.1 Fink e Diamond (2023) — obtido após o fecho inicial,docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+c963c1bb,"(Fink & Diamond, 2023; Soyer et al., 2016)",Soyer et al. (2016),10.12669/pjms.325.9922,True,0.48,"Evidência por citação, linha 15",material/bibliografia/auditoria_citacoes/referencias_evidencia_docx_2026-07-22.xlsx,xlsx
+c1902c3c,"(Bates et al., 2020; Soyer et al., 2016)",Bates et al. (2020),10.1007/s12178-020-09656-6,True,0.902,"Evidência por citação, linha 16",material/bibliografia/auditoria_citacoes/referencias_evidencia_docx_2026-07-22.xlsx,xlsx
+c1902c3c,"(Bates et al., 2020; Soyer et al., 2016)",Soyer et al. (2016),10.12669/pjms.325.9922,True,0.902,"Evidência por citação, linha 17",material/bibliografia/auditoria_citacoes/referencias_evidencia_docx_2026-07-22.xlsx,xlsx
+82803bce,"(Segura et al., 2024; Soyer et al., 2016)",Segura et al. (2024),10.3390/prosthesis6020022,True,0.891,4.2 Segura et al. (2024) — obtido após o fecho inicial,docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+82803bce,"(Segura et al., 2024; Soyer et al., 2016)",Soyer et al. (2016),10.12669/pjms.325.9922,True,1.0,"Evidência por citação, linha 19",material/bibliografia/auditoria_citacoes/referencias_evidencia_docx_2026-07-22.xlsx,xlsx
+ce216838,"(Smail et al., 2021)",Smail et al. (2021),10.1080/17483107.2020.1738567,True,0.917,3.4 Smail et al. (2021),docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+820414b1,"(Biddiss et al., 2007)",Biddiss et al. (2007),10.1080/17483100701714733,True,0.168,3.37 Biddiss et al. (2007) — requisitos de utilização,docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+f7692ade,"(Fink & Diamond, 2023)",Fink & Diamond (2023),10.1016/j.oto.2023.101061,True,0.256,4.1 Fink e Diamond (2023) — obtido após o fecho inicial,docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+2ff938a7,"(Østlie et al., 2011)",Østlie et al. (2011),10.3109/09638288.2010.541973,True,1.0,"Consulta direta do PDF, página 2",material/bibliografia/Adult acquired major upper limb amputation in Norway prevalence demographic features and amputation specific features. A population-based survey (2).pdf,pdf
+3336b2a7,"(Østlie et al., 2012)",Østlie et al. (2012),10.3109/17483107.2011.635405,True,0.901,3.5 Østlie et al. (2012) — Figura 2.2 e correcção da atribuição anterior,docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+a4cd0a70,"(Parlamento Europeu e do Conselho Europeu, 2017)",Parlamento Europeu e do Conselho Europeu (2017),,True,1.0,"Evidência por citação, linha 24",material/bibliografia/auditoria_citacoes/referencias_evidencia_docx_2026-07-22.xlsx,xlsx
+9e85e39a,"(Parlamento Europeu e do Conselho Europeu, 2017)",Parlamento Europeu e do Conselho Europeu (2017),,True,1.0,"Evidência por citação, linha 24",material/bibliografia/auditoria_citacoes/referencias_evidencia_docx_2026-07-22.xlsx,xlsx
+90bd0dd9,"(Resnik et al., 2010)",Resnik et al. (2010),10.1097/JPO.0b013e3181d427b7,True,0.381,"Evidência por citação, linha 25",material/bibliografia/auditoria_citacoes/referencias_evidencia_docx_2026-07-22.xlsx,xlsx
+ca33529e,"(International Organization for Standardization, n.d.)",International Organization for Standardization (s.d.),,False,,,,
+2718258b,"(International Organization for Standardization, 2020)",International Organization for Standardization (2020),,True,0.707,"Evidência por citação, linha 26",material/bibliografia/auditoria_citacoes/referencias_evidencia_docx_2026-07-22.xlsx,xlsx
+2177557e,"(Clarkson & Coleman, 2010; Shah & Robinson, 2006)",Clarkson & Coleman (2010),10.1080/09544821003693689,True,0.803,3.8 Clarkson e Coleman (2010),docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+2177557e,"(Clarkson & Coleman, 2010; Shah & Robinson, 2006)",Shah & Robinson (2006),10.1108/09526860610687619,True,0,Shah e Robinson (2006) — obtido após o fecho inicial,docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+12edca6a,"(Adel et al., 2020)",Adel et al. (2020),,False,,,,
+6dd0145b,"(Clarkson & Coleman, 2010)",Clarkson & Coleman (2010),10.1080/09544821003693689,True,0.622,3.8 Clarkson e Coleman (2010),docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+2b8edd12,"(Fisher & Johansen, 2020; Wilke et al., 2020)",Fisher & Johansen (2020),10.15641/ghi.v3i1.762,True,0.869,"Evidência por citação, linha 31",material/bibliografia/auditoria_citacoes/referencias_evidencia_docx_2026-07-22.xlsx,xlsx
+2b8edd12,"(Fisher & Johansen, 2020; Wilke et al., 2020)",Wilke et al. (2020),10.1017/dsd.2020.133,True,0,"Wilke, Badke-Schaub e Thoring (2020) — obtido após o fecho inicial",docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+77c32ed7,"(Fisher & Johansen, 2020; Shah & Robinson, 2006)",Fisher & Johansen (2020),10.15641/ghi.v3i1.762,True,0.504,"Evidência por citação, linha 33",material/bibliografia/auditoria_citacoes/referencias_evidencia_docx_2026-07-22.xlsx,xlsx
+77c32ed7,"(Fisher & Johansen, 2020; Shah & Robinson, 2006)",Shah & Robinson (2006),10.1108/09526860610687619,True,0,Shah e Robinson (2006) — obtido após o fecho inicial,docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+f9dec3ba,"(Kaygan & Kaygan, 2025)",Kaygan & Kaygan (2025),10.1080/14606925.2024.2420152,True,0.3,3.6 Kaygan e Kaygan (2025),docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+eba89276,"(Clarkson & Coleman, 2010)",Clarkson & Coleman (2010),10.1080/09544821003693689,True,0.732,3.8 Clarkson e Coleman (2010),docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+45964ee8,"(Clarkson & Coleman, 2010)",Clarkson & Coleman (2010),10.1080/09544821003693689,True,0.849,3.8 Clarkson e Coleman (2010),docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+a07d4157,"(Clarkson & Coleman, 2010)",Clarkson & Coleman (2010),10.1080/09544821003693689,True,0.628,3.8 Clarkson e Coleman (2010),docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+c6e37007,"(Center for Universal Design, 1997)",Center for Universal Design (1997),,True,0.947,"Evidência por citação, linha 39",material/bibliografia/auditoria_citacoes/referencias_evidencia_docx_2026-07-22.xlsx,xlsx
+dda18463,"(White & Mosca, 2022)",White & Mosca (2022),10.3233/SHTI220858,True,0,"Tabela de confronto, linha 3619",docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+142cf534,"(Fisher & Johansen, 2020; Shah & Robinson, 2006)",Fisher & Johansen (2020),10.15641/ghi.v3i1.762,True,0.551,"Evidência por citação, linha 41",material/bibliografia/auditoria_citacoes/referencias_evidencia_docx_2026-07-22.xlsx,xlsx
+142cf534,"(Fisher & Johansen, 2020; Shah & Robinson, 2006)",Shah & Robinson (2006),10.1108/09526860610687619,True,0,Shah e Robinson (2006) — obtido após o fecho inicial,docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+9ad0f36f,"(International Electrotechnical Commission, 2015)",International Electrotechnical Commission (2015),,True,1.0,"Consulta direta do PDF, página 9",material/bibliografia/IEC-62366-1_2015.pdf,pdf
+a95e0486,"(Fisher & Johansen, 2020; Millet et al., 2018)",Fisher & Johansen (2020),10.15641/ghi.v3i1.762,True,0.353,"Evidência por citação, linha 44",material/bibliografia/auditoria_citacoes/referencias_evidencia_docx_2026-07-22.xlsx,xlsx
+a95e0486,"(Fisher & Johansen, 2020; Millet et al., 2018)",Millet et al. (2018),,True,0,"Millet, Abi Akle e Legardeur (2018) — obtido após o fecho inicial",docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+063f737c,"(Millet et al., 2018)",Millet et al. (2018),,True,0,"Millet, Abi Akle e Legardeur (2018) — obtido após o fecho inicial",docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+8180577b,"(Chapman et al., 2025)",Chapman et al. (2025),10.1080/10810730.2025.2462679,True,0,"Chapman, Allen e Kendall (2025) — texto integral obtido após o fecho inicial",docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+f08bcd63,"(Chapman et al., 2025)",Chapman et al. (2025),10.1080/10810730.2025.2462679,True,0,"Chapman, Allen e Kendall (2025) — texto integral obtido após o fecho inicial",docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+48b178f6,"(Chapman et al., 2025; Wilke et al., 2020)",Chapman et al. (2025),10.1080/10810730.2025.2462679,True,0,"Chapman, Allen e Kendall (2025) — texto integral obtido após o fecho inicial",docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+48b178f6,"(Chapman et al., 2025; Wilke et al., 2020)",Wilke et al. (2020),10.1017/dsd.2020.133,True,0,"Wilke, Badke-Schaub e Thoring (2020) — obtido após o fecho inicial",docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+8f1da92c,"(Shah & Robinson, 2006)",Shah & Robinson (2006),10.1108/09526860610687619,True,0,Shah e Robinson (2006) — obtido após o fecho inicial,docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+65c575e9,"(White & Mosca, 2022)",White & Mosca (2022),10.3233/SHTI220858,True,0,"Tabela de confronto, linha 3619",docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+e50802f3,"(van Niekerk et al., 2018)",van Niekerk et al. (2018),10.1080/01942638.2017.1337661,True,0,"Tabela de confronto, linha 3620",docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+efed2f6a,"(Howard et al., 2022b)",Howard et al. (2022),10.1080/17483107.2020.1788181,True,0,"Tabela de confronto, linha 3621",docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+69d223e3,"(Chapman et al., 2025)",Chapman et al. (2025),10.1080/10810730.2025.2462679,True,0,"Chapman, Allen e Kendall (2025) — texto integral obtido após o fecho inicial",docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+6b550df2,"(Fisher & Johansen, 2020; Shah & Robinson, 2006)",Fisher & Johansen (2020),10.15641/ghi.v3i1.762,True,0.501,"Evidência por citação, linha 56",material/bibliografia/auditoria_citacoes/referencias_evidencia_docx_2026-07-22.xlsx,xlsx
+6b550df2,"(Fisher & Johansen, 2020; Shah & Robinson, 2006)",Shah & Robinson (2006),10.1108/09526860610687619,True,0,Shah e Robinson (2006) — obtido após o fecho inicial,docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+7b717ddd,"(Oldfrey et al., 2024)",Oldfrey et al. (2024),10.1097/PXR.0000000000000351,True,0.377,3.7 Oldfrey et al. (2024),docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+eb40db0c,"(Lei et al., 2016; Ozdemir et al., 2022; van Stralen, 2018)",Lei et al. (2016),10.1080/09544828.2016.1228101,True,0,"Tabela de confronto, linha 3622",docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+eb40db0c,"(Lei et al., 2016; Ozdemir et al., 2022; van Stralen, 2018)",Ozdemir et al. (2022),10.1017/dsj.2022.3,True,0,"Tabela de confronto, linha 3623",docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+eb40db0c,"(Lei et al., 2016; Ozdemir et al., 2022; van Stralen, 2018)",van Stralen (2018),10.5151/sigradi2018-1770,True,0,"Tabela de confronto, linha 3624",docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+b25f2245,"(Oldfrey et al., 2024)",Oldfrey et al. (2024),10.1097/PXR.0000000000000351,True,1.0,3.9 Oldfrey et al. (2024) — Figura 2.3,docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+71ce559e,"(Ozdemir et al., 2022; van Stralen, 2018)",Ozdemir et al. (2022),10.1017/dsj.2022.3,True,0,"Tabela de confronto, linha 3623",docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+71ce559e,"(Ozdemir et al., 2022; van Stralen, 2018)",van Stralen (2018),10.5151/sigradi2018-1770,True,0,"Tabela de confronto, linha 3624",docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+8c333a06,"(Lei et al., 2016; Ozdemir et al., 2022)",Lei et al. (2016),10.1080/09544828.2016.1228101,True,0,"Tabela de confronto, linha 3622",docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+8c333a06,"(Lei et al., 2016; Ozdemir et al., 2022)",Ozdemir et al. (2022),10.1017/dsj.2022.3,True,0,"Tabela de confronto, linha 3623",docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+6225642e,"(Lim et al., 2018)",Lim et al. (2018),10.1115/DETC2018-85645,True,0.259,6.10 Lim et al. (2018),docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+afc72421,"(Chtioui et al., 2023; Wiberg et al., 2019)",Chtioui et al. (2023),10.37868/sei.v5i1.id185,True,0,"Tabela de confronto, linha 3625",docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+afc72421,"(Chtioui et al., 2023; Wiberg et al., 2019)",Wiberg et al. (2019),10.1108/RPJ-10-2018-0262,True,0,"Tabela de confronto, linha 3626",docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+b845bba4,"(Wiberg et al., 2019)",Wiberg et al. (2019),10.1108/RPJ-10-2018-0262,True,0,"Tabela de confronto, linha 3626",docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+bd9a3c30,"(Chtioui et al., 2023; Wiberg et al., 2019)",Chtioui et al. (2023),10.37868/sei.v5i1.id185,True,0,"Tabela de confronto, linha 3625",docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+bd9a3c30,"(Chtioui et al., 2023; Wiberg et al., 2019)",Wiberg et al. (2019),10.1108/RPJ-10-2018-0262,True,0,"Tabela de confronto, linha 3626",docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+cbc25802,"(Chtioui et al., 2023; Wiberg et al., 2019)",Wiberg et al. (2019),10.1108/RPJ-10-2018-0262,True,0,"Tabela de confronto, linha 3626",docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+cbc25802,"(Chtioui et al., 2023; Wiberg et al., 2019)",Chtioui et al. (2023),10.37868/sei.v5i1.id185,True,0,"Tabela de confronto, linha 3625",docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+a109ac74,"(Ozdemir et al., 2022; van Stralen, 2018)",Ozdemir et al. (2022),10.1017/dsj.2022.3,True,0,"Tabela de confronto, linha 3623",docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+a109ac74,"(Ozdemir et al., 2022; van Stralen, 2018)",van Stralen (2018),10.5151/sigradi2018-1770,True,0,"Tabela de confronto, linha 3624",docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+16924968,"(Manero et al., 2019)",Manero et al. (2019),10.3390/ijerph16091641,True,0.263,3.11 Manero et al. (2019) — Figura 2.4,docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+55806b56,"(Ozdemir et al., 2022)",Ozdemir et al. (2022),10.1017/dsj.2022.3,True,0,"Tabela de confronto, linha 3623",docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+60960f7c,"(Lei et al., 2015)",Lei et al. (2015),,True,0.251,"Consulta direta do PDF, página 1",material/bibliografia/lei_moon_rosen_2015_redefining_product_family_design_additive_manufacturing.pdf,pdf
+19f85f3a,"(Lim et al., 2018)",Lim et al. (2018),10.1115/DETC2018-85645,True,0.129,6.10 Lim et al. (2018),docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+da827129,"(Lei et al., 2016)",Lei et al. (2016),10.1080/09544828.2016.1228101,True,0,"Tabela de confronto, linha 3622",docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+2188e6bb,"(Xu & Qin, 2022)",Xu & Qin (2022),10.1109/ICAC55051.2022.9911138,True,0.818,"Evidência por citação, linha 82",material/bibliografia/auditoria_citacoes/referencias_evidencia_docx_2026-07-22.xlsx,xlsx
+5ec6a3e8,"(Lei et al., 2015)",Lei et al. (2015),,True,1.0,"Consulta direta do PDF, página 1",material/bibliografia/lei_moon_rosen_2015_redefining_product_family_design_additive_manufacturing.pdf,pdf
+2a426f78,"(Lei et al., 2016)",Lei et al. (2016),10.1080/09544828.2016.1228101,True,0,"Tabela de confronto, linha 3622",docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+68387ccf,"(Ozdemir et al., 2022)",Ozdemir et al. (2022),10.1017/dsj.2022.3,True,0,"Tabela de confronto, linha 3623",docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+8dfcc1ee,"(Ozdemir et al., 2022)",Ozdemir et al. (2022),10.1017/dsj.2022.3,True,0,"Tabela de confronto, linha 3623",docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+8c2f5965,"(Lei et al., 2015)",Lei et al. (2015),,True,0.399,"Consulta direta do PDF, página 1",material/bibliografia/lei_moon_rosen_2015_redefining_product_family_design_additive_manufacturing.pdf,pdf
+21c66de7,"(Kandikjan et al., 2022)",Kandikjan et al. (2022),10.1016/j.matpr.2022.10.124,True,0,"Tabela de confronto, linha 3627",docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+6466b8ef,"(Manero et al., 2019)",Manero et al. (2019),10.3390/ijerph16091641,True,0.987,3.12 Manero et al. (2019) — ecossistema aberto,docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+a4576807,"(Wendo et al., 2022)",Wendo et al. (2022),10.3390/machines10060413,True,0.987,3.13 Wendo et al. (2022),docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+3fb706de,"(Wendo et al., 2022)",Wendo et al. (2022),10.3390/machines10060413,True,0.948,3.13 Wendo et al. (2022),docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+f956c3d0,"(Zuniga et al., 2015)",Zuniga et al. (2015),10.1186/s13104-015-0971-9,True,0.231,3.14 Zuniga et al. (2015),docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+b98b8981,"(Dechev et al., 2023)",Dechev et al. (2023),10.33137/cpoj.v6i2.42142,True,0,"Tabela de confronto, linha 3633",docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+26d1e01c,"(Diment et al., 2018)",Diment et al. (2018),10.1177/0309364617704803,True,0,"Tabela de confronto, linha 3634",docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+2705ee9f,"(Atallah et al., 2025)",Atallah et al. (2025),10.3390/jfb16100370,True,0.608,3.15 Atallah et al. (2025),docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+8119b755,"(Cabibihan et al., 2021)",Cabibihan et al. (2021),10.3389/frobt.2020.594196,True,0,"Tabela de confronto, linha 3635",docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+19fb2f4b,"(Chainando et al., 2025)",Chainando et al. (2025),10.3390/prosthesis7020026,True,0.951,3.16 Chainando et al. (2025) — síntese antropométrica,docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+cb201e27,"(International Organization for Standardization, 2017)",International Organization for Standardization (2017),,True,0.521,"Evidência por citação, linha 96",material/bibliografia/auditoria_citacoes/referencias_evidencia_docx_2026-07-22.xlsx,xlsx
+db57ef87,"(Albin & Molenbroek, 2023; Young et al., 2023)",Albin & Molenbroek (2023),https://doi.org/10.1177/10648046231168448,True,0,"Tabela de confronto, linha 3636",docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+db57ef87,"(Albin & Molenbroek, 2023; Young et al., 2023)",Young et al. (2023),10.1080/17434440.2023.2244418,True,0,"Tabela de confronto, linha 3637",docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+24873c4e,"(Squibb et al., 2024)",Squibb et al. (2024),10.1371/journal.pone.0301619,True,0.913,3.17 Squibb et al. (2024),docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+c1a6137c,"(Yu et al., 2013)",Yu et al. (2013),10.1016/j.apergo.2012.10.001,True,0.212,3.18 Yu et al. (2013) — Figura 2.5,docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+68309b85,"(Ibrahim et al., 2024)",Ibrahim et al. (2024),10.3390/app14062594,True,0.426,3.19 Ibrahim et al. (2024),docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+df542f87,"(Squibb et al., 2024)",Squibb et al. (2024),10.1371/journal.pone.0301619,True,0.371,3.17 Squibb et al. (2024),docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+93c74ed7,"(Silva et al., 2024)",Silva et al. (2024),10.3390/s24051373,True,0,"Tabela de confronto, linha 3638",docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+7fb1b1c4,"(Ibrahim et al., 2024; Young et al., 2023)",Ibrahim et al. (2024),10.3390/app14062594,True,0.418,3.19 Ibrahim et al. (2024),docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+7fb1b1c4,"(Ibrahim et al., 2024; Young et al., 2023)",Young et al. (2023),10.1080/17434440.2023.2244418,True,0,"Tabela de confronto, linha 3637",docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+b0d093da,"(Sunderland et al., 2024)",Sunderland et al. (2024),10.1101/2024.11.27.24317622,True,0.552,3.20 Sunderland et al. (2024),docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+069ec473,"(Dickinson et al., 2024; Young et al., 2023)",Young et al. (2023),10.1080/17434440.2023.2244418,True,0,"Tabela de confronto, linha 3637",docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+069ec473,"(Dickinson et al., 2024; Young et al., 2023)",Dickinson et al. (2024),10.3389/fresc.2024.1354069,True,0.404,3.21 Kannenberg et al. (2024) — fonte mal atribuída,docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+b7ef24dd,"(Silva et al., 2024)",Silva et al. (2024),10.3390/s24051373,True,0,"Tabela de confronto, linha 3638",docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+afbfffa7,"(Chainando et al., 2025)",Chainando et al. (2025),10.3390/prosthesis7020026,True,0.934,3.16 Chainando et al. (2025) — síntese antropométrica,docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+5ab3493a,"(Ciklacandir et al., 2022)",Ciklacandir et al. (2022),10.1109/TIPTEKNO56568.2022.9960218,True,0,"Tabela de confronto, linha 3639",docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+caedef02,"(Paul et al., 2022)",Paul et al. (2022),10.3233/WOR-211106,True,0,"Tabela de confronto, linha 3640",docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+af21730f,"(Ibrahim et al., 2024)",Ibrahim et al. (2024),10.3390/app14062594,True,0.252,3.19 Ibrahim et al. (2024),docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+3e7953c1,"(ASTM International, 2024)",ASTM International (2024),10.1520/F3661-24,False,,,,
+365642d8,"(Paul et al., 2022; Sunderland et al., 2024)",Paul et al. (2022),10.3233/WOR-211106,True,0,"Tabela de confronto, linha 3640",docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+365642d8,"(Paul et al., 2022; Sunderland et al., 2024)",Sunderland et al. (2024),10.1101/2024.11.27.24317622,True,0.161,3.20 Sunderland et al. (2024),docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+ab4735bd,"(Choudhury et al., 2025; Saeidnia & Ausloos, 2024; Yüksel et al., 2023)",Choudhury et al. (2025),10.1017/pds.2025.10077,True,0,"Tabela de confronto, linha 3646",docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+ab4735bd,"(Choudhury et al., 2025; Saeidnia & Ausloos, 2024; Yüksel et al., 2023)",Yüksel et al. (2023),10.1016/j.engappai.2022.105697,True,0.793,"Evidência por citação, linha 118",material/bibliografia/auditoria_citacoes/referencias_evidencia_docx_2026-07-22.xlsx,xlsx
+ab4735bd,"(Choudhury et al., 2025; Saeidnia & Ausloos, 2024; Yüksel et al., 2023)",Saeidnia & Ausloos (2024),10.61186/ist.202401.01.09,True,0,"Tabela de confronto, linha 3647",docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+a0d31c03,"(Wang & Hu, 2024)",Wang & Hu (2024),10.1109/ACCESS.2024.3442085,True,0.178,3.24 Wang e Hu (2024),docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+291bd000,"(Yüksel et al., 2023)",Yüksel et al. (2023),10.1016/j.engappai.2022.105697,True,0.74,"Evidência por citação, linha 121",material/bibliografia/auditoria_citacoes/referencias_evidencia_docx_2026-07-22.xlsx,xlsx
+4bf1a238,"(Khanolkar et al., 2023; Li et al., 2020)",Khanolkar et al. (2023),10.1017/S0890060423000203,True,0.614,"Evidência por citação, linha 123",material/bibliografia/auditoria_citacoes/referencias_evidencia_docx_2026-07-22.xlsx,xlsx
+4bf1a238,"(Khanolkar et al., 2023; Li et al., 2020)",Li et al. (2020),10.1017/dsd.2020.273,False,,,,
+f07dc5c7,"(Krahe et al., 2020)",Krahe et al. (2020),10.1016/j.procir.2020.01.135,True,0.528,"Evidência por citação, linha 124",material/bibliografia/auditoria_citacoes/referencias_evidencia_docx_2026-07-22.xlsx,xlsx
+0cd30116,"(Ao et al., 2025; Menaka et al., 2025; Panchal et al., 2019)",Menaka et al. (2025),10.12732/ijam.v38i5s.341,True,0.329,3.22 Menaka et al. (2025) — Figura 2.6 e fluxo IA–CAD,docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+0cd30116,"(Ao et al., 2025; Menaka et al., 2025; Panchal et al., 2019)",Ao et al. (2025),10.1007/s11831-025-10264-1,True,0.672,"Evidência por citação, linha 125",material/bibliografia/auditoria_citacoes/referencias_evidencia_docx_2026-07-22.xlsx,xlsx
+0cd30116,"(Ao et al., 2025; Menaka et al., 2025; Panchal et al., 2019)",Panchal et al. (2019),10.1115/1.4044690,True,0.672,"Evidência por citação, linha 127",material/bibliografia/auditoria_citacoes/referencias_evidencia_docx_2026-07-22.xlsx,xlsx
+3b545dd3,"(Panchal et al., 2019; Yüksel et al., 2023)",Panchal et al. (2019),10.1115/1.4044690,True,0.595,"Evidência por citação, linha 128",material/bibliografia/auditoria_citacoes/referencias_evidencia_docx_2026-07-22.xlsx,xlsx
+3b545dd3,"(Panchal et al., 2019; Yüksel et al., 2023)",Yüksel et al. (2023),10.1016/j.engappai.2022.105697,True,0.595,"Evidência por citação, linha 129",material/bibliografia/auditoria_citacoes/referencias_evidencia_docx_2026-07-22.xlsx,xlsx
+2476a599,"(Burnap et al., 2019; Choudhury et al., 2025; Li et al., 2021)",Burnap et al. (2019),10.2139/ssrn.3421771,True,0.58,"Evidência por citação, linha 130",material/bibliografia/auditoria_citacoes/referencias_evidencia_docx_2026-07-22.xlsx,xlsx
+2476a599,"(Burnap et al., 2019; Choudhury et al., 2025; Li et al., 2021)",Choudhury et al. (2025),10.1017/pds.2025.10077,True,0,"Tabela de confronto, linha 3646",docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+2476a599,"(Burnap et al., 2019; Choudhury et al., 2025; Li et al., 2021)",Li et al. (2021),10.18260/1-2-1125.1153-38349,True,0.539,3.23 Li et al. (2021),docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+eca33478,"(Ao et al., 2025; Khanolkar et al., 2023; Wang & Hu, 2024)",Ao et al. (2025),10.1007/s11831-025-10264-1,True,0.515,"Evidência por citação, linha 133",material/bibliografia/auditoria_citacoes/referencias_evidencia_docx_2026-07-22.xlsx,xlsx
+eca33478,"(Ao et al., 2025; Khanolkar et al., 2023; Wang & Hu, 2024)",Khanolkar et al. (2023),10.1017/S0890060423000203,True,0.515,"Evidência por citação, linha 134",material/bibliografia/auditoria_citacoes/referencias_evidencia_docx_2026-07-22.xlsx,xlsx
+eca33478,"(Ao et al., 2025; Khanolkar et al., 2023; Wang & Hu, 2024)",Wang & Hu (2024),10.1109/ACCESS.2024.3442085,True,0.418,3.24 Wang e Hu (2024),docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+c9dc1d08,"(Ao et al., 2025; Menaka et al., 2025; Wang & Hu, 2024)",Wang & Hu (2024),10.1109/ACCESS.2024.3442085,True,0.348,3.24 Wang e Hu (2024),docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+c9dc1d08,"(Ao et al., 2025; Menaka et al., 2025; Wang & Hu, 2024)",Ao et al. (2025),10.1007/s11831-025-10264-1,True,0.86,"Evidência por citação, linha 136",material/bibliografia/auditoria_citacoes/referencias_evidencia_docx_2026-07-22.xlsx,xlsx
+c9dc1d08,"(Ao et al., 2025; Menaka et al., 2025; Wang & Hu, 2024)",Menaka et al. (2025),10.12732/ijam.v38i5s.341,True,0.348,3.22 Menaka et al. (2025) — Figura 2.6 e fluxo IA–CAD,docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+420916af,"(Khanolkar et al., 2023; Saeidnia & Ausloos, 2024; Verganti et al., 2020)",Khanolkar et al. (2023),10.1017/S0890060423000203,True,0.581,"Evidência por citação, linha 139",material/bibliografia/auditoria_citacoes/referencias_evidencia_docx_2026-07-22.xlsx,xlsx
+420916af,"(Khanolkar et al., 2023; Saeidnia & Ausloos, 2024; Verganti et al., 2020)",Saeidnia & Ausloos (2024),10.61186/ist.202401.01.09,True,0,"Tabela de confronto, linha 3647",docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+420916af,"(Khanolkar et al., 2023; Saeidnia & Ausloos, 2024; Verganti et al., 2020)",Verganti et al. (2020),10.1111/jpim.12523,True,0.581,"Evidência por citação, linha 141",material/bibliografia/auditoria_citacoes/referencias_evidencia_docx_2026-07-22.xlsx,xlsx
+91aca777,"(Ao et al., 2025; Choudhury et al., 2025; Virós-i-Martín & Selva, 2021)",Ao et al. (2025),10.1007/s11831-025-10264-1,True,0.503,"Evidência por citação, linha 142",material/bibliografia/auditoria_citacoes/referencias_evidencia_docx_2026-07-22.xlsx,xlsx
+91aca777,"(Ao et al., 2025; Choudhury et al., 2025; Virós-i-Martín & Selva, 2021)",Choudhury et al. (2025),10.1017/pds.2025.10077,True,0,"Tabela de confronto, linha 3646",docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+91aca777,"(Ao et al., 2025; Choudhury et al., 2025; Virós-i-Martín & Selva, 2021)",Virós-i-Martín & Selva (2021),10.1115/DETC2021-67619,True,0.503,"Evidência por citação, linha 144",material/bibliografia/auditoria_citacoes/referencias_evidencia_docx_2026-07-22.xlsx,xlsx
+c4f6f82a,"(Figoli et al., 2022; Kadenhe et al., 2025; Virós-i-Martín & Selva, 2021)",Figoli et al. (2022),10.21606/drs.2022.414,True,0.699,"Evidência por citação, linha 145",material/bibliografia/auditoria_citacoes/referencias_evidencia_docx_2026-07-22.xlsx,xlsx
+c4f6f82a,"(Figoli et al., 2022; Kadenhe et al., 2025; Virós-i-Martín & Selva, 2021)",Virós-i-Martín & Selva (2021),10.1115/DETC2021-67619,True,0.699,"Evidência por citação, linha 147",material/bibliografia/auditoria_citacoes/referencias_evidencia_docx_2026-07-22.xlsx,xlsx
+c4f6f82a,"(Figoli et al., 2022; Kadenhe et al., 2025; Virós-i-Martín & Selva, 2021)",Kadenhe et al. (2025),10.1609/aaaiss.v6i1.36061,True,0.298,3.25 Kadenhe et al. (2025),docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+4cf57aa0,"(Burnap et al., 2019; Panchal et al., 2019; Yüksel et al., 2023)",Burnap et al. (2019),10.2139/ssrn.3421771,True,1.0,"Evidência por citação, linha 148",material/bibliografia/auditoria_citacoes/referencias_evidencia_docx_2026-07-22.xlsx,xlsx
+4cf57aa0,"(Burnap et al., 2019; Panchal et al., 2019; Yüksel et al., 2023)",Panchal et al. (2019),10.1115/1.4044690,True,1.0,"Evidência por citação, linha 149",material/bibliografia/auditoria_citacoes/referencias_evidencia_docx_2026-07-22.xlsx,xlsx
+4cf57aa0,"(Burnap et al., 2019; Panchal et al., 2019; Yüksel et al., 2023)",Yüksel et al. (2023),10.1016/j.engappai.2022.105697,True,1.0,"Evidência por citação, linha 150",material/bibliografia/auditoria_citacoes/referencias_evidencia_docx_2026-07-22.xlsx,xlsx
+1f60d63b,"(Ao et al., 2025; Kadenhe et al., 2025; Verganti et al., 2020)",Kadenhe et al. (2025),10.1609/aaaiss.v6i1.36061,True,0.424,3.25 Kadenhe et al. (2025),docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+1f60d63b,"(Ao et al., 2025; Kadenhe et al., 2025; Verganti et al., 2020)",Verganti et al. (2020),10.1111/jpim.12523,True,0.698,"Evidência por citação, linha 153",material/bibliografia/auditoria_citacoes/referencias_evidencia_docx_2026-07-22.xlsx,xlsx
+1f60d63b,"(Ao et al., 2025; Kadenhe et al., 2025; Verganti et al., 2020)",Ao et al. (2025),10.1007/s11831-025-10264-1,True,0.698,"Evidência por citação, linha 151",material/bibliografia/auditoria_citacoes/referencias_evidencia_docx_2026-07-22.xlsx,xlsx
+d5d1b2b4,"(Fischer et al., 2004; Howard et al., 2022a; von Hippel & Katz, 2002)",von Hippel & Katz (2002),10.1287/mnsc.48.7.821.2817,True,0.168,3.27 von Hippel e Katz (2002),docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+d5d1b2b4,"(Fischer et al., 2004; Howard et al., 2022a; von Hippel & Katz, 2002)",Fischer et al. (2004),10.1145/1015864.1015884,True,0.169,3.26 Fischer et al. (2004),docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+d5d1b2b4,"(Fischer et al., 2004; Howard et al., 2022a; von Hippel & Katz, 2002)",Howard et al. (2022),10.1080/17483107.2022.2060355,True,0.77,"Evidência por citação, linha 155",material/bibliografia/auditoria_citacoes/referencias_evidencia_docx_2026-07-22.xlsx,xlsx
+6bb03bce,"(Fischer et al., 2004; Kerr et al., 2024; Zhu & Zhong, 2025)",Fischer et al. (2004),10.1145/1015864.1015884,True,0.274,3.26 Fischer et al. (2004),docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+6bb03bce,"(Fischer et al., 2004; Kerr et al., 2024; Zhu & Zhong, 2025)",Kerr et al. (2024),10.2196/57227,True,0.892,"Evidência por citação, linha 158",material/bibliografia/auditoria_citacoes/referencias_evidencia_docx_2026-07-22.xlsx,xlsx
+6bb03bce,"(Fischer et al., 2004; Kerr et al., 2024; Zhu & Zhong, 2025)",Zhu & Zhong (2025),10.12688/digitaltwin.17717.3,True,0.248,3.29 Zhu e Zhong (2022; PDF actualizado em 2025),docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+2e5014c1,"(Franke & Von Hippel, 2003; von Hippel & Katz, 2002)",Franke & Von Hippel (2003),10.1016/S0048-7333(03)00049-0,True,0.855,"Evidência por citação, linha 160",material/bibliografia/auditoria_citacoes/referencias_evidencia_docx_2026-07-22.xlsx,xlsx
+2e5014c1,"(Franke & Von Hippel, 2003; von Hippel & Katz, 2002)",von Hippel & Katz (2002),10.1287/mnsc.48.7.821.2817,True,0.353,3.27 von Hippel e Katz (2002),docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+27920479,"(Costabile et al., 2007; Fischer et al., 2004)",Costabile et al. (2007),10.1007/978-3-540-73279-2_6,True,0.681,"Evidência por citação, linha 163",material/bibliografia/auditoria_citacoes/referencias_evidencia_docx_2026-07-22.xlsx,xlsx
+27920479,"(Costabile et al., 2007; Fischer et al., 2004)",Fischer et al. (2004),10.1145/1015864.1015884,True,0.542,3.26 Fischer et al. (2004),docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+2ab00c47,"(Akasaka et al., 2022)",Akasaka et al. (2022),10.1017/dsj.2022.22,True,0.341,3.28 Akasaka et al. (2022),docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+ee43920a,"(Fischer et al., 2017)",Fischer et al. (2017),10.1007/978-3-319-60291-2_4,True,0.741,"Evidência por citação, linha 165",material/bibliografia/auditoria_citacoes/referencias_evidencia_docx_2026-07-22.xlsx,xlsx
+d068d886,"(Costabile et al., 2007; Fischer et al., 2017)",Costabile et al. (2007),10.1007/978-3-540-73279-2_6,True,0.861,"Evidência por citação, linha 167",material/bibliografia/auditoria_citacoes/referencias_evidencia_docx_2026-07-22.xlsx,xlsx
+d068d886,"(Costabile et al., 2007; Fischer et al., 2017)",Fischer et al. (2017),10.1007/978-3-319-60291-2_4,True,0.861,"Evidência por citação, linha 166",material/bibliografia/auditoria_citacoes/referencias_evidencia_docx_2026-07-22.xlsx,xlsx
+1901938d,"(Akasaka et al., 2022)",Akasaka et al. (2022),10.1017/dsj.2022.22,True,0.341,3.28 Akasaka et al. (2022),docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+d8af2792,"(Dechev et al., 2023; Peters & Richter, 2023)",Dechev et al. (2023),10.33137/cpoj.v6i2.42142,True,0,"Tabela de confronto, linha 3633",docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+d8af2792,"(Dechev et al., 2023; Peters & Richter, 2023)",Peters & Richter (2023),10.24251/hicss.2023.130,True,1.0,"Evidência por citação, linha 170",material/bibliografia/auditoria_citacoes/referencias_evidencia_docx_2026-07-22.xlsx,xlsx
+5584ac46,"(Kuhl et al., 2021; Zhu & Zhong, 2025)",Kuhl et al. (2021),10.3390/app11010241,True,0.998,"Evidência por citação, linha 171",material/bibliografia/auditoria_citacoes/referencias_evidencia_docx_2026-07-22.xlsx,xlsx
+5584ac46,"(Kuhl et al., 2021; Zhu & Zhong, 2025)",Zhu & Zhong (2025),10.12688/digitaltwin.17717.3,True,1.0,3.29 Zhu e Zhong (2022; PDF actualizado em 2025),docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+1861b548,"(Clarkson & Coleman, 2010; Fischer et al., 2017)",Clarkson & Coleman (2010),10.1080/09544821003693689,True,0.241,3.8 Clarkson e Coleman (2010),docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+1861b548,"(Clarkson & Coleman, 2010; Fischer et al., 2017)",Fischer et al. (2017),10.1007/978-3-319-60291-2_4,True,0.982,"Evidência por citação, linha 174",material/bibliografia/auditoria_citacoes/referencias_evidencia_docx_2026-07-22.xlsx,xlsx
+12611d81,"(Peters & Richter, 2023; von Hippel & Katz, 2002; Zhu & Zhong, 2025)",von Hippel & Katz (2002),10.1287/mnsc.48.7.821.2817,True,0.158,3.27 von Hippel e Katz (2002),docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+12611d81,"(Peters & Richter, 2023; von Hippel & Katz, 2002; Zhu & Zhong, 2025)",Peters & Richter (2023),10.24251/hicss.2023.130,True,0.786,"Evidência por citação, linha 175",material/bibliografia/auditoria_citacoes/referencias_evidencia_docx_2026-07-22.xlsx,xlsx
+12611d81,"(Peters & Richter, 2023; von Hippel & Katz, 2002; Zhu & Zhong, 2025)",Zhu & Zhong (2025),10.12688/digitaltwin.17717.3,True,0.2,3.29 Zhu e Zhong (2022; PDF actualizado em 2025),docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+a651c401,"(Thorsen et al., 2024)",Thorsen et al. (2024),10.1080/17483107.2023.2177754,True,0.794,"Evidência por citação, linha 178",material/bibliografia/auditoria_citacoes/referencias_evidencia_docx_2026-07-22.xlsx,xlsx
+8df3dd63,"(Frangos et al., 2016; Hussaini et al., 2023; Kerr et al., 2024)",Frangos et al. (2016),10.2139/ssrn.3331281,True,0.219,"Evidência por citação, linha 192",material/bibliografia/auditoria_citacoes/referencias_evidencia_docx_2026-07-22.xlsx,xlsx
+8df3dd63,"(Frangos et al., 2016; Hussaini et al., 2023; Kerr et al., 2024)",Hussaini et al. (2023),10.3390/prosthesis5010011,True,0.294,"Evidência por citação, linha 190",material/bibliografia/auditoria_citacoes/referencias_evidencia_docx_2026-07-22.xlsx,xlsx
+8df3dd63,"(Frangos et al., 2016; Hussaini et al., 2023; Kerr et al., 2024)",Kerr et al. (2024),10.2196/57227,True,0.229,"Evidência por citação, linha 158",material/bibliografia/auditoria_citacoes/referencias_evidencia_docx_2026-07-22.xlsx,xlsx
+869da9fb,"(Mikołajewski et al., 2023; Zhu & Zhong, 2025)",Mikołajewski et al. (2023),10.3390/app13127236,True,0.409,"Evidência por citação, linha 182",material/bibliografia/auditoria_citacoes/referencias_evidencia_docx_2026-07-22.xlsx,xlsx
+869da9fb,"(Mikołajewski et al., 2023; Zhu & Zhong, 2025)",Zhu & Zhong (2025),10.12688/digitaltwin.17717.3,True,0.165,3.29 Zhu e Zhong (2022; PDF actualizado em 2025),docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+dc3ba93d,"(Cole, 2011; Kerr et al., 2024; Seregni et al., 2021)",Cole (2011),10.1007/978-3-642-21663-3_31,True,0.565,"Evidência por citação, linha 184",material/bibliografia/auditoria_citacoes/referencias_evidencia_docx_2026-07-22.xlsx,xlsx
+dc3ba93d,"(Cole, 2011; Kerr et al., 2024; Seregni et al., 2021)",Kerr et al. (2024),10.2196/57227,True,0.565,"Evidência por citação, linha 185",material/bibliografia/auditoria_citacoes/referencias_evidencia_docx_2026-07-22.xlsx,xlsx
+dc3ba93d,"(Cole, 2011; Kerr et al., 2024; Seregni et al., 2021)",Seregni et al. (2021),10.3389/fpubh.2021.748307,True,0.355,3.30 Seregni et al. (2021),docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+ded6717d,"(Dechev et al., 2023; Howard et al., 2022a; Sims et al., 2017)",Dechev et al. (2023),10.33137/cpoj.v6i2.42142,True,0,"Tabela de confronto, linha 3633",docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+ded6717d,"(Dechev et al., 2023; Howard et al., 2022a; Sims et al., 2017)",Howard et al. (2022),10.1080/17483107.2022.2060355,True,0.268,"Evidência por citação, linha 188",material/bibliografia/auditoria_citacoes/referencias_evidencia_docx_2026-07-22.xlsx,xlsx
+ded6717d,"(Dechev et al., 2023; Howard et al., 2022a; Sims et al., 2017)",Sims et al. (2017),10.1017/S0266462317000836,True,0.268,"Evidência por citação, linha 189",material/bibliografia/auditoria_citacoes/referencias_evidencia_docx_2026-07-22.xlsx,xlsx
+4bc6e6dd,"(Hussaini et al., 2023; Thorsen et al., 2024)",Hussaini et al. (2023),10.3390/prosthesis5010011,True,0.838,"Evidência por citação, linha 190",material/bibliografia/auditoria_citacoes/referencias_evidencia_docx_2026-07-22.xlsx,xlsx
+4bc6e6dd,"(Hussaini et al., 2023; Thorsen et al., 2024)",Thorsen et al. (2024),10.1080/17483107.2023.2177754,True,0.838,"Evidência por citação, linha 191",material/bibliografia/auditoria_citacoes/referencias_evidencia_docx_2026-07-22.xlsx,xlsx
+3817c33c,"(Frangos et al., 2016; Howard et al., 2022a; Thorsen et al., 2024)",Frangos et al. (2016),10.2139/ssrn.3331281,True,0.458,"Evidência por citação, linha 192",material/bibliografia/auditoria_citacoes/referencias_evidencia_docx_2026-07-22.xlsx,xlsx
+3817c33c,"(Frangos et al., 2016; Howard et al., 2022a; Thorsen et al., 2024)",Howard et al. (2022),10.1080/17483107.2022.2060355,True,0.458,"Evidência por citação, linha 193",material/bibliografia/auditoria_citacoes/referencias_evidencia_docx_2026-07-22.xlsx,xlsx
+3817c33c,"(Frangos et al., 2016; Howard et al., 2022a; Thorsen et al., 2024)",Thorsen et al. (2024),10.1080/17483107.2023.2177754,True,0.458,"Evidência por citação, linha 194",material/bibliografia/auditoria_citacoes/referencias_evidencia_docx_2026-07-22.xlsx,xlsx
+5dec3875,"(Fischer et al., 2017)",Fischer et al. (2017),10.1007/978-3-319-60291-2_4,True,0.528,"Evidência por citação, linha 195",material/bibliografia/auditoria_citacoes/referencias_evidencia_docx_2026-07-22.xlsx,xlsx
+6c475faf,"(Costabile et al., 2007; Fischer et al., 2004)",Costabile et al. (2007),10.1007/978-3-540-73279-2_6,True,0.609,"Evidência por citação, linha 197",material/bibliografia/auditoria_citacoes/referencias_evidencia_docx_2026-07-22.xlsx,xlsx
+6c475faf,"(Costabile et al., 2007; Fischer et al., 2004)",Fischer et al. (2004),10.1145/1015864.1015884,True,1.0,3.26 Fischer et al. (2004),docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+332bec56,"(Akasaka et al., 2022; Frangos et al., 2016)",Akasaka et al. (2022),10.1017/dsj.2022.22,True,0.21,3.28 Akasaka et al. (2022),docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+332bec56,"(Akasaka et al., 2022; Frangos et al., 2016)",Frangos et al. (2016),10.2139/ssrn.3331281,True,0.357,"Evidência por citação, linha 199",material/bibliografia/auditoria_citacoes/referencias_evidencia_docx_2026-07-22.xlsx,xlsx
+f0fc96dc,"(Oldfrey et al., 2024)",Oldfrey et al. (2024),10.1097/PXR.0000000000000351,True,1.0,3.31 Oldfrey et al. (2024) — Figura 2.8,docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+eb70a53e,"(Chadwell et al., 2020; Samuelsson et al., 2012; Windrich et al., 2016)",Samuelsson et al. (2012),10.1177/0309364611432794,True,0,"Tabela de confronto, linha 3656",docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+eb70a53e,"(Chadwell et al., 2020; Samuelsson et al., 2012; Windrich et al., 2016)",Windrich et al. (2016),10.1186/s12938-016-0284-9,True,0,"Tabela de confronto, linha 3657",docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+eb70a53e,"(Chadwell et al., 2020; Samuelsson et al., 2012; Windrich et al., 2016)",Chadwell et al. (2020),10.1186/s12984-020-00711-4,True,0,"Tabela de confronto, linha 3655",docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+233e7e00,"(Hafner & Sawers, 2016; Jones et al., 2023; Samuelsson et al., 2012)",Hafner & Sawers (2016),10.1177/0309364614550264,True,0,"Tabela de confronto, linha 3658",docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+233e7e00,"(Hafner & Sawers, 2016; Jones et al., 2023; Samuelsson et al., 2012)",Jones et al. (2023),10.3389/frhs.2023.1213752,True,0,"Tabela de confronto, linha 3660",docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+233e7e00,"(Hafner & Sawers, 2016; Jones et al., 2023; Samuelsson et al., 2012)",Samuelsson et al. (2012),10.1177/0309364611432794,True,0,"Tabela de confronto, linha 3656",docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+3801f1be,"(Ghillebert et al., 2019; Samuelsson et al., 2012; Windrich et al., 2016)",Ghillebert et al. (2019),10.1109/TMRB.2019.2949855,True,0.749,"Evidência por citação, linha 207",material/bibliografia/auditoria_citacoes/referencias_evidencia_docx_2026-07-22.xlsx,xlsx
+3801f1be,"(Ghillebert et al., 2019; Samuelsson et al., 2012; Windrich et al., 2016)",Samuelsson et al. (2012),10.1177/0309364611432794,True,0,"Tabela de confronto, linha 3656",docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+3801f1be,"(Ghillebert et al., 2019; Samuelsson et al., 2012; Windrich et al., 2016)",Windrich et al. (2016),10.1186/s12938-016-0284-9,True,0,"Tabela de confronto, linha 3657",docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+34594449,"(Chadwell et al., 2020; Samuelsson et al., 2012)",Chadwell et al. (2020),10.1186/s12984-020-00711-4,True,0,"Tabela de confronto, linha 3655",docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+34594449,"(Chadwell et al., 2020; Samuelsson et al., 2012)",Samuelsson et al. (2012),10.1177/0309364611432794,True,0,"Tabela de confronto, linha 3656",docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+07d51f59,"(Cordella et al., 2016)",Cordella et al. (2016),10.3389/fnins.2016.00209,True,0,"Tabela de confronto, linha 3661",docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+3c561532,"(Manz et al., 2022)",Manz et al. (2022),10.1186/s12984-022-01097-1,True,0,"Tabela de confronto, linha 3662",docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+bdf837c6,"(Cordella et al., 2016; Manz et al., 2022)",Cordella et al. (2016),10.3389/fnins.2016.00209,True,0,"Tabela de confronto, linha 3661",docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+bdf837c6,"(Cordella et al., 2016; Manz et al., 2022)",Manz et al. (2022),10.1186/s12984-022-01097-1,True,0,"Tabela de confronto, linha 3662",docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+e35bb5e9,"(Manz et al., 2022; Samuelsson et al., 2012)",Manz et al. (2022),10.1186/s12984-022-01097-1,True,0,"Tabela de confronto, linha 3662",docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+e35bb5e9,"(Manz et al., 2022; Samuelsson et al., 2012)",Samuelsson et al. (2012),10.1177/0309364611432794,True,0,"Tabela de confronto, linha 3656",docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+3c60d2dc,"(Alluhydan et al., 2023; Baldock et al., 2023; Richardson & Dillon, 2017)",Alluhydan et al. (2023),https://doi.org/10.57197/JDR-2023-0031,True,0,"Tabela de confronto, linha 3663",docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+3c60d2dc,"(Alluhydan et al., 2023; Baldock et al., 2023; Richardson & Dillon, 2017)",Baldock et al. (2023),10.1186/s12984-023-01270-0,True,0,"Tabela de confronto, linha 3664",docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+3c60d2dc,"(Alluhydan et al., 2023; Baldock et al., 2023; Richardson & Dillon, 2017)",Richardson & Dillon (2017),10.1177/0309364616631343,True,0,"Tabela de confronto, linha 3665",docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+2be06abe,"(Cordella et al., 2016; Jones et al., 2023)",Cordella et al. (2016),10.3389/fnins.2016.00209,True,0,"Tabela de confronto, linha 3661",docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+2be06abe,"(Cordella et al., 2016; Jones et al., 2023)",Jones et al. (2023),10.3389/frhs.2023.1213752,True,0,"Tabela de confronto, linha 3660",docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+01d8fd26,"(Chadwell et al., 2020)",Chadwell et al. (2020),10.1186/s12984-020-00711-4,True,0,"Tabela de confronto, linha 3655",docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+a5ce51ee,"(Cordella et al., 2016; Marinelli et al., 2023)",Cordella et al. (2016),10.3389/fnins.2016.00209,True,0,"Tabela de confronto, linha 3661",docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+a5ce51ee,"(Cordella et al., 2016; Marinelli et al., 2023)",Marinelli et al. (2023),10.1088/2516-1091/acac57,True,0.926,3.33 Marinelli et al. (2022 no manuscrito; publicação do PDF de 2023),docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+6bcb8507,"(Domínguez-Ruiz et al., 2023; Marinelli et al., 2023)",Domínguez-Ruiz et al. (2023),10.3389/frobt.2023.1032748,True,0,"Tabela de confronto, linha 3666",docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+6bcb8507,"(Domínguez-Ruiz et al., 2023; Marinelli et al., 2023)",Marinelli et al. (2023),10.1088/2516-1091/acac57,True,0.846,3.33 Marinelli et al. (2022 no manuscrito; publicação do PDF de 2023),docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+a37e7f31,"(Alluhydan et al., 2023; Andrysek, 2010; Baumann & Maria, 2023)",Alluhydan et al. (2023),https://doi.org/10.57197/JDR-2023-0031,True,0,"Tabela de confronto, linha 3663",docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+a37e7f31,"(Alluhydan et al., 2023; Andrysek, 2010; Baumann & Maria, 2023)",Baumann & Maria (2023),10.1097/PXR.0000000000000254,True,0.888,"Evidência por citação, linha 231",material/bibliografia/auditoria_citacoes/referencias_evidencia_docx_2026-07-22.xlsx,xlsx
+a37e7f31,"(Alluhydan et al., 2023; Andrysek, 2010; Baumann & Maria, 2023)",Andrysek (2010),10.3109/03093646.2010.520060,True,0.487,3.32 Andrysek (2010),docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+5311cf79,"(Andrysek, 2010; Segura et al., 2024)",Andrysek (2010),10.3109/03093646.2010.520060,True,0.801,3.32 Andrysek (2010),docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+5311cf79,"(Andrysek, 2010; Segura et al., 2024)",Segura et al. (2024),10.3390/prosthesis6020022,True,0.801,4.2 Segura et al. (2024) — obtido após o fecho inicial,docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+e3865a33,"(Cordella et al., 2016; Hafner & Sawers, 2016; Richardson & Dillon, 2017)",Cordella et al. (2016),10.3389/fnins.2016.00209,True,0,"Tabela de confronto, linha 3661",docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+e3865a33,"(Cordella et al., 2016; Hafner & Sawers, 2016; Richardson & Dillon, 2017)",Hafner & Sawers (2016),10.1177/0309364614550264,True,0,"Tabela de confronto, linha 3658",docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+e3865a33,"(Cordella et al., 2016; Hafner & Sawers, 2016; Richardson & Dillon, 2017)",Richardson & Dillon (2017),10.1177/0309364616631343,True,0,"Tabela de confronto, linha 3665",docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+20d7eeb1,"(Anderson et al., 2024; Baumann & Maria, 2023; Chadwell et al., 2020)",Anderson et al. (2024),10.1007/s40141-024-00432-y,True,0,"Tabela de confronto, linha 3667",docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+20d7eeb1,"(Anderson et al., 2024; Baumann & Maria, 2023; Chadwell et al., 2020)",Baumann & Maria (2023),10.1097/PXR.0000000000000254,True,1.0,"Evidência por citação, linha 241",material/bibliografia/auditoria_citacoes/referencias_evidencia_docx_2026-07-22.xlsx,xlsx
+20d7eeb1,"(Anderson et al., 2024; Baumann & Maria, 2023; Chadwell et al., 2020)",Chadwell et al. (2020),10.1186/s12984-020-00711-4,True,0,"Tabela de confronto, linha 3655",docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+d2a3d3ab,"(Frayling, 1994; Zimmerman et al., 2007)",Frayling (1994),,True,0,"Tabela de confronto, linha 3648",docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+d2a3d3ab,"(Frayling, 1994; Zimmerman et al., 2007)",Zimmerman et al. (2007),10.1145/1240624.1240704,True,0,"Tabela de confronto, linha 3649",docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+300ab791,"(Design Council, 2007)",Design Council (2007),,True,1.0,"Consulta direta do PDF, página 6",material/bibliografia/Design_Council_2007_Eleven_lessons_A_study_of_the_design_process.pdf,pdf
+b4d5fe00,"(da Silva et al., 2018)",da Silva et al. (2018),10.1007/978-3-319-94947-5_88,True,0.87,3.35 Silva et al. (2018) — Figura 3.1,docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+6ebad52c,"(da Silva et al., 2018)",da Silva et al. (2018),10.1007/978-3-319-94947-5_88,True,0.743,3.35 Silva et al. (2018) — Figura 3.1,docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+06656746,"(Cross, 1982)",Cross (1982),10.1016/0142-694X(82)90040-0,True,0.976,3.34 Cross (1982),docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+b4a02d3f,"(Shannon et al., 2019)",Shannon et al. (2019),https://doi.org/10.18260/1-2--32085,True,0.618,3.36 Kellam et al. (2019) — Figura 3.2,docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+68fdd84b,"(Cordella et al., 2016; Guo, 2025)",Cordella et al. (2016),10.3389/fnins.2016.00209,True,0,"Tabela de confronto, linha 3661",docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+68fdd84b,"(Cordella et al., 2016; Guo, 2025)",Guo (2025),10.61173/qb2xnn62,True,0.435,"Evidência por citação, linha 251",material/bibliografia/auditoria_citacoes/referencias_evidencia_docx_2026-07-22.xlsx,xlsx
+5d5a67a2,"(Biddiss & Chau, 2007; Cordella et al., 2016)",Biddiss & Chau (2007),10.1080/03093640600994581,True,1.0,"Consulta direta do PDF, página 10",material/bibliografia/biddiss-chau-2007-upper-limb-prosthesis-use-and-abandonment-a-survey-of-the-last-25-years.pdf,pdf
+5d5a67a2,"(Biddiss & Chau, 2007; Cordella et al., 2016)",Cordella et al. (2016),10.3389/fnins.2016.00209,True,0,"Tabela de confronto, linha 3661",docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+6e10ff5e,"(Biddiss & Chau, 2007; Brack & Amalu, 2021; Henao et al., 2025; Walker et al., 2020)",Biddiss & Chau (2007),10.1080/03093640600994581,True,0.208,"Consulta direta do PDF, página 10",material/bibliografia/biddiss-chau-2007-upper-limb-prosthesis-use-and-abandonment-a-survey-of-the-last-25-years.pdf,pdf
+6e10ff5e,"(Biddiss & Chau, 2007; Brack & Amalu, 2021; Henao et al., 2025; Walker et al., 2020)",Brack & Amalu (2021),10.1016/j.jor.2020.12.009,True,0.362,3.38 Brack e Amalu (2021) — requisitos gerais e limites da linha 916,docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+6e10ff5e,"(Biddiss & Chau, 2007; Brack & Amalu, 2021; Henao et al., 2025; Walker et al., 2020)",Henao et al. (2025),10.1016/j.jht.2025.04.006,True,0.362,3.39 Henao et al. (2025) — requisitos de partes interessadas,docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+6e10ff5e,"(Biddiss & Chau, 2007; Brack & Amalu, 2021; Henao et al., 2025; Walker et al., 2020)",Walker et al. (2020),10.1007/s11948-019-00168-2,True,0.362,3.40 Walker et al. (publicação de 2020),docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+c34cf2ab,"(Chatzıoglou et al., 2024; Moreo, 2016; Rodríguez-Vega & Rodríguez-Vega, 2024)",Chatzıoglou et al. (2024),10.5115/acb.23.310,True,0.361,3.42 Chatzioglou et al. (2024),docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+c34cf2ab,"(Chatzıoglou et al., 2024; Moreo, 2016; Rodríguez-Vega & Rodríguez-Vega, 2024)",Moreo (2016),,True,0.158,6.3 Moreo (2016) — origem dos dados DINED na Tabela 6.1,docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+c34cf2ab,"(Chatzıoglou et al., 2024; Moreo, 2016; Rodríguez-Vega & Rodríguez-Vega, 2024)",Rodríguez-Vega & Rodríguez-Vega (2024),10.31637/epsir-2024-932,True,0.313,3.44 Rodríguez-Vega e Rodríguez-Vega (2024),docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+6773353d,"(Nini et al., 2024)",Nini et al. (2024),10.1109/BioRob60516.2024.10719909,True,0,"3.45 Nini et al. (2024) — parâmetros, restrições e Figuras 4.1 e 4.3",docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+0d45f9b1,"(Chatzıoglou et al., 2024; Nag et al., 2003)",Chatzıoglou et al. (2024),10.5115/acb.23.310,True,0.319,3.42 Chatzioglou et al. (2024),docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+0d45f9b1,"(Chatzıoglou et al., 2024; Nag et al., 2003)",Nag et al. (2003),,True,0.284,6.7 Nag et al. (2003),docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+a630f2a6,"(Moreo, 2016; Romero et al., 2025b)",Moreo (2016),,True,0.234,6.3 Moreo (2016) — origem dos dados DINED na Tabela 6.1,docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+a630f2a6,"(Moreo, 2016; Romero et al., 2025b)",Romero et al. (2025),10.3390/app15084467,True,0.145,3.63 da Silveira Romero et al. (2025),docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+2c05094c,"(Lim et al., 2018; Nag et al., 2003; Rodríguez-Vega & Rodríguez-Vega, 2024)",Nag et al. (2003),,True,0.157,6.7 Nag et al. (2003),docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+2c05094c,"(Lim et al., 2018; Nag et al., 2003; Rodríguez-Vega & Rodríguez-Vega, 2024)",Rodríguez-Vega & Rodríguez-Vega (2024),10.31637/epsir-2024-932,True,0.239,3.44 Rodríguez-Vega e Rodríguez-Vega (2024),docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+2c05094c,"(Lim et al., 2018; Nag et al., 2003; Rodríguez-Vega & Rodríguez-Vega, 2024)",Lim et al. (2018),10.1115/DETC2018-85645,True,0.165,6.10 Lim et al. (2018),docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+b6d3a5ba,"(Lim et al., 2018)",Lim et al. (2018),10.1115/DETC2018-85645,True,0.252,6.10 Lim et al. (2018),docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+efe29713,"(Ciklacandir et al., 2022)",Ciklacandir et al. (2022),10.1109/TIPTEKNO56568.2022.9960218,True,0,"Tabela de confronto, linha 3639",docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+50ab3b0d,"(Herbst et al., 2021)",Herbst et al. (2021),10.1109/CASE49439.2021.9551456,True,0.743,"Evidência por citação, linha 271",material/bibliografia/auditoria_citacoes/referencias_evidencia_docx_2026-07-22.xlsx,xlsx
+576ff77c,"(Ciklacandir et al., 2022; Herbst et al., 2021)",Herbst et al. (2021),10.1109/CASE49439.2021.9551456,True,0.743,"Evidência por citação, linha 271",material/bibliografia/auditoria_citacoes/referencias_evidencia_docx_2026-07-22.xlsx,xlsx
+576ff77c,"(Ciklacandir et al., 2022; Herbst et al., 2021)",Ciklacandir et al. (2022),10.1109/TIPTEKNO56568.2022.9960218,True,0,"Tabela de confronto, linha 3639",docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+b8b4af3c,"(Moreo, 2016; Romero et al., 2025b)",Moreo (2016),,True,0.157,6.3 Moreo (2016) — origem dos dados DINED na Tabela 6.1,docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+b8b4af3c,"(Moreo, 2016; Romero et al., 2025b)",Romero et al. (2025),10.3390/app15084467,True,0.167,3.63 da Silveira Romero et al. (2025),docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+56b98ba7,"(Avila et al., 2024; Ghali, 2008)",Ghali (2008),10.1007/978-1-84800-115-2,True,1.0,"Consulta direta do PDF, página 280",material/bibliografia/Ghali_2008_Introduction_to_Geometric_Computing.pdf,pdf
+56b98ba7,"(Avila et al., 2024; Ghali, 2008)",Avila et al. (2024),10.1145/3613904.3642566,True,0,3.52 Gonzalez Avila et al. (2024) — anexo Mendeley,docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+199d7ce0,"(Gonzalez Avila, 2024; Trautmann, 2021)",Trautmann (2021),10.35925/j.multi.2021.4.10,True,0.303,"Evidência por citação, linha 279",material/bibliografia/auditoria_citacoes/referencias_evidencia_docx_2026-07-22.xlsx,xlsx
+199d7ce0,"(Gonzalez Avila, 2024; Trautmann, 2021)",Gonzalez Avila (2024),,False,,,,
+1bba9ea7,"(Machado et al., 2019)",Machado et al. (2019),10.1371/journal.pone.0225795,True,0,"3.49 Machado et al. (2019) — OpenSCAD, documentação e interoperabilidade",docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+467845a3,"(Brooks, 2026; Nilsiam & Pearce, 2017)",Nilsiam & Pearce (2017),10.3390/designs1010005,True,0,3.51 Nilsiam e Pearce (2017) — anexo Mendeley,docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+467845a3,"(Brooks, 2026; Nilsiam & Pearce, 2017)",Brooks (2026),,True,0,Brooks (2026),docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+24b074f4,"(ELhadad et al., 2025; Gonzalez Avila, 2024; Schöfer & Seibel, 2025)",Schöfer & Seibel (2025),10.1017/pds.2025.10081,True,0,3.53 Schöfer e Seibel (2025) — anexo Mendeley,docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+24b074f4,"(ELhadad et al., 2025; Gonzalez Avila, 2024; Schöfer & Seibel, 2025)",Gonzalez Avila (2024),,False,,,,
+24b074f4,"(ELhadad et al., 2025; Gonzalez Avila, 2024; Schöfer & Seibel, 2025)",ELhadad et al. (2025),https://doi.org/10.1016/j.procs.2026.01.077,True,0.779,"Evidência por citação, linha 283",material/bibliografia/auditoria_citacoes/referencias_evidencia_docx_2026-07-22.xlsx,xlsx
+acb43e5b,"(Bustamante et al., 2018; Lim et al., 2018; Romani & Levi, 2020)",Lim et al. (2018),10.1115/DETC2018-85645,True,0.145,6.10 Lim et al. (2018),docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+acb43e5b,"(Bustamante et al., 2018; Lim et al., 2018; Romani & Levi, 2020)",Bustamante et al. (2018),10.1109/BIBE.2018.00022,True,0.232,3.50 Bustamante et al. (2018) — anexo Mendeley,docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+acb43e5b,"(Bustamante et al., 2018; Lim et al., 2018; Romani & Levi, 2020)",Romani & Levi (2020),10.1007/978-3-030-58468-9_14,True,0.954,"Evidência por citação, linha 288",material/bibliografia/auditoria_citacoes/referencias_evidencia_docx_2026-07-22.xlsx,xlsx
+29c2ec0f,"(Machado et al., 2019; Moreo, 2016; Romero et al., 2025b)",Machado et al. (2019),10.1371/journal.pone.0225795,True,0,"3.49 Machado et al. (2019) — OpenSCAD, documentação e interoperabilidade",docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+29c2ec0f,"(Machado et al., 2019; Moreo, 2016; Romero et al., 2025b)",Moreo (2016),,True,0.216,6.3 Moreo (2016) — origem dos dados DINED na Tabela 6.1,docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+29c2ec0f,"(Machado et al., 2019; Moreo, 2016; Romero et al., 2025b)",Romero et al. (2025),10.3390/app15084467,True,0.178,3.63 da Silveira Romero et al. (2025),docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+72bbf9cf,"(Moreo, 2016; Nini et al., 2024; Saldarriaga et al., 2024)",Moreo (2016),,True,0.154,6.3 Moreo (2016) — origem dos dados DINED na Tabela 6.1,docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+72bbf9cf,"(Moreo, 2016; Nini et al., 2024; Saldarriaga et al., 2024)",Nini et al. (2024),10.1109/BioRob60516.2024.10719909,True,0,"3.45 Nini et al. (2024) — parâmetros, restrições e Figuras 4.1 e 4.3",docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+72bbf9cf,"(Moreo, 2016; Nini et al., 2024; Saldarriaga et al., 2024)",Saldarriaga et al. (2024),10.1109/CoDIT62066.2024.10708382,True,0,3.54 Saldarriaga et al. (2024) — anexo Mendeley,docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+439f9a41,"(Machado et al., 2019; Romero et al., 2025a)",Machado et al. (2019),10.1371/journal.pone.0225795,True,0,"3.49 Machado et al. (2019) — OpenSCAD, documentação e interoperabilidade",docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+439f9a41,"(Machado et al., 2019; Romero et al., 2025a)",Romero et al. (2025),10.1109/ACCESS.2025.3596475,True,0.206,3.70 Romero et al. (2025) — precedente funcional e Figura 8.4,docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+e24afb74,"(Nini et al., 2024; Saldarriaga et al., 2024)",Nini et al. (2024),10.1109/BioRob60516.2024.10719909,True,0,"3.45 Nini et al. (2024) — parâmetros, restrições e Figuras 4.1 e 4.3",docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+e24afb74,"(Nini et al., 2024; Saldarriaga et al., 2024)",Saldarriaga et al. (2024),10.1109/CoDIT62066.2024.10708382,True,0,3.54 Saldarriaga et al. (2024) — anexo Mendeley,docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+8944077a,"(Herbst et al., 2021)",Herbst et al. (2021),10.1109/CASE49439.2021.9551456,True,0.567,"Evidência por citação, linha 301",material/bibliografia/auditoria_citacoes/referencias_evidencia_docx_2026-07-22.xlsx,xlsx
+b588d2ab,"(Saldarriaga et al., 2024)",Saldarriaga et al. (2024),10.1109/CoDIT62066.2024.10708382,True,0,3.54 Saldarriaga et al. (2024) — anexo Mendeley,docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+cfb255ea,"(Nilsiam & Pearce, 2017)",Nilsiam & Pearce (2017),10.3390/designs1010005,True,0,3.51 Nilsiam e Pearce (2017) — anexo Mendeley,docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+ea5e695f,"(Machado et al., 2019)",Machado et al. (2019),10.1371/journal.pone.0225795,True,0,"3.49 Machado et al. (2019) — OpenSCAD, documentação e interoperabilidade",docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+abb4c18f,"(Ozdemir et al., 2022; van Stralen, 2018)",Ozdemir et al. (2022),10.1017/dsj.2022.3,True,0,"Tabela de confronto, linha 3623",docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+abb4c18f,"(Ozdemir et al., 2022; van Stralen, 2018)",van Stralen (2018),10.5151/sigradi2018-1770,True,0,"Tabela de confronto, linha 3624",docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+137efc90,"(Peixoto et al., 2025)",Peixoto et al. (2025),10.3390/designs9020039,True,0.96,"Evidência por citação, linha 309",material/bibliografia/auditoria_citacoes/referencias_evidencia_docx_2026-07-22.xlsx,xlsx
+6d2a1ba7,"(Bai et al., 2024; Quintero et al., 2018)",Bai et al. (2024),10.1186/s12984-024-01475-x,True,0.825,"Evidência por citação, linha 310",material/bibliografia/auditoria_citacoes/referencias_evidencia_docx_2026-07-22.xlsx,xlsx
+6d2a1ba7,"(Bai et al., 2024; Quintero et al., 2018)",Quintero et al. (2018),10.1109/JTEHM.2018.2880199,True,0.825,"Evidência por citação, linha 311",material/bibliografia/auditoria_citacoes/referencias_evidencia_docx_2026-07-22.xlsx,xlsx
+28c9da1e,"(Bai et al., 2024; Quintero et al., 2018)",Quintero et al. (2018),10.1109/JTEHM.2018.2880199,True,0.808,"Evidência por citação, linha 313",material/bibliografia/auditoria_citacoes/referencias_evidencia_docx_2026-07-22.xlsx,xlsx
+28c9da1e,"(Bai et al., 2024; Quintero et al., 2018)",Bai et al. (2024),10.1186/s12984-024-01475-x,True,0.808,"Evidência por citação, linha 312",material/bibliografia/auditoria_citacoes/referencias_evidencia_docx_2026-07-22.xlsx,xlsx
+738cb67b,"(Górski et al., 2022)",Górski et al. (2022),10.1088/1742-6596/2198/1/012040,True,0.632,3.56 Górski et al. (2022) — fluxo e Figura 5.5,docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+b34d91b1,"(Górski et al., 2022)",Górski et al. (2022),10.1088/1742-6596/2198/1/012040,True,0.102,3.56 Górski et al. (2022) — fluxo e Figura 5.5,docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+77d94f8d,"(Bai et al., 2024; Quintero et al., 2018)",Bai et al. (2024),10.1186/s12984-024-01475-x,True,0.84,"Evidência por citação, linha 316",material/bibliografia/auditoria_citacoes/referencias_evidencia_docx_2026-07-22.xlsx,xlsx
+77d94f8d,"(Bai et al., 2024; Quintero et al., 2018)",Quintero et al. (2018),10.1109/JTEHM.2018.2880199,True,0.84,"Evidência por citação, linha 317",material/bibliografia/auditoria_citacoes/referencias_evidencia_docx_2026-07-22.xlsx,xlsx
+7ab8803f,"(Machado et al., 2019; Nilsiam & Pearce, 2017)",Machado et al. (2019),10.1371/journal.pone.0225795,True,0,"3.49 Machado et al. (2019) — OpenSCAD, documentação e interoperabilidade",docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+7ab8803f,"(Machado et al., 2019; Nilsiam & Pearce, 2017)",Nilsiam & Pearce (2017),10.3390/designs1010005,True,0,3.51 Nilsiam e Pearce (2017) — anexo Mendeley,docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+96c0e867,"(Nilsiam & Pearce, 2017; Ozdemir et al., 2022)",Nilsiam & Pearce (2017),10.3390/designs1010005,True,0,3.51 Nilsiam e Pearce (2017) — anexo Mendeley,docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+96c0e867,"(Nilsiam & Pearce, 2017; Ozdemir et al., 2022)",Ozdemir et al. (2022),10.1017/dsj.2022.3,True,0,"Tabela de confronto, linha 3623",docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+b6bb24d0,"(Machado et al., 2019; Nilsiam & Pearce, 2017)",Machado et al. (2019),10.1371/journal.pone.0225795,True,0,"3.49 Machado et al. (2019) — OpenSCAD, documentação e interoperabilidade",docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+b6bb24d0,"(Machado et al., 2019; Nilsiam & Pearce, 2017)",Nilsiam & Pearce (2017),10.3390/designs1010005,True,0,3.51 Nilsiam e Pearce (2017) — anexo Mendeley,docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+1051c264,"(Ozdemir et al., 2022; Peixoto et al., 2025)",Ozdemir et al. (2022),10.1017/dsj.2022.3,True,0,"Tabela de confronto, linha 3623",docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+1051c264,"(Ozdemir et al., 2022; Peixoto et al., 2025)",Peixoto et al. (2025),10.3390/designs9020039,True,0.728,"Evidência por citação, linha 325",material/bibliografia/auditoria_citacoes/referencias_evidencia_docx_2026-07-22.xlsx,xlsx
+420eded5,"(Li & Aflatoony, 2025)",Li & Aflatoony (2025),10.1080/17483107.2025.2483953,True,0,3.59 Li e Aflatoony (2025) — Figura 5.7,docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+96cc56f1,"(Peixoto et al., 2025; Quintero et al., 2018)",Peixoto et al. (2025),10.3390/designs9020039,True,0.735,"Evidência por citação, linha 327",material/bibliografia/auditoria_citacoes/referencias_evidencia_docx_2026-07-22.xlsx,xlsx
+96cc56f1,"(Peixoto et al., 2025; Quintero et al., 2018)",Quintero et al. (2018),10.1109/JTEHM.2018.2880199,True,0.735,"Evidência por citação, linha 328",material/bibliografia/auditoria_citacoes/referencias_evidencia_docx_2026-07-22.xlsx,xlsx
+64183ae2,"(Ozdemir et al., 2022)",Ozdemir et al. (2022),10.1017/dsj.2022.3,True,0,"Tabela de confronto, linha 3623",docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+ae7963f3,"(Ozdemir et al., 2022)",Ozdemir et al. (2022),10.1017/dsj.2022.3,True,0,"Tabela de confronto, linha 3623",docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+d568fee7,"(Cordella et al., 2016; Marinelli et al., 2023; Peerdeman et al., 2011)",Cordella et al. (2016),10.3389/fnins.2016.00209,True,0,"Tabela de confronto, linha 3661",docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+d568fee7,"(Cordella et al., 2016; Marinelli et al., 2023; Peerdeman et al., 2011)",Marinelli et al. (2023),10.1088/2516-1091/acac57,True,1.0,3.61 Marinelli et al. (2022 no manuscrito; publicação do PDF de 2023) — nova localização,docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+d568fee7,"(Cordella et al., 2016; Marinelli et al., 2023; Peerdeman et al., 2011)",Peerdeman et al. (2011),10.1682/JRRD.2010.08.0161,True,0.873,"Evidência por citação, linha 334",material/bibliografia/auditoria_citacoes/referencias_evidencia_docx_2026-07-22.xlsx,xlsx
+a199afce,"(Gu et al., 2024; Romero et al., 2025b; Saldarriaga et al., 2024)",Gu et al. (2024),10.1109/TNSRE.2024.3430070,True,0.491,3.62 Gu et al. (2024),docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+a199afce,"(Gu et al., 2024; Romero et al., 2025b; Saldarriaga et al., 2024)",Romero et al. (2025),10.3390/app15084467,True,0.234,3.63 da Silveira Romero et al. (2025),docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+a199afce,"(Gu et al., 2024; Romero et al., 2025b; Saldarriaga et al., 2024)",Saldarriaga et al. (2024),10.1109/CoDIT62066.2024.10708382,True,0,3.54 Saldarriaga et al. (2024) — anexo Mendeley,docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+cdc3e633,"(Lim et al., 2018; Romero et al., 2025b; Saldarriaga et al., 2024)",Lim et al. (2018),10.1115/DETC2018-85645,True,0.207,6.10 Lim et al. (2018),docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+cdc3e633,"(Lim et al., 2018; Romero et al., 2025b; Saldarriaga et al., 2024)",Saldarriaga et al. (2024),10.1109/CoDIT62066.2024.10708382,True,0,3.54 Saldarriaga et al. (2024) — anexo Mendeley,docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+cdc3e633,"(Lim et al., 2018; Romero et al., 2025b; Saldarriaga et al., 2024)",Romero et al. (2025),10.3390/app15084467,True,0.384,3.63 da Silveira Romero et al. (2025),docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+0e45ec0b,"(Panchal et al., 2019; Yüksel et al., 2023)",Panchal et al. (2019),10.1115/1.4044690,True,0.776,"Evidência por citação, linha 341",material/bibliografia/auditoria_citacoes/referencias_evidencia_docx_2026-07-22.xlsx,xlsx
+0e45ec0b,"(Panchal et al., 2019; Yüksel et al., 2023)",Yüksel et al. (2023),10.1016/j.engappai.2022.105697,True,0.776,"Evidência por citação, linha 342",material/bibliografia/auditoria_citacoes/referencias_evidencia_docx_2026-07-22.xlsx,xlsx
+31aed188,"(Barredo Arrieta et al., 2020)",Barredo Arrieta et al. (2020),10.1016/j.inffus.2019.12.012,True,0,3.66 Barredo Arrieta et al. (2020) — princípios de IA responsável e Figura 6.1,docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+9af3bbb2,"(Barredo Arrieta et al., 2020)",Barredo Arrieta et al. (2020),10.1016/j.inffus.2019.12.012,True,0,3.66 Barredo Arrieta et al. (2020) — princípios de IA responsável e Figura 6.1,docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+6303d3fc,"(Colombo et al., 2015; Peixoto et al., 2025)",Colombo et al. (2015),10.1007/978-3-319-21067-436,True,0.968,3.68 Colombo et al. (2015) — novas localizações no Capítulo 7,docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+6303d3fc,"(Colombo et al., 2015; Peixoto et al., 2025)",Peixoto et al. (2025),10.3390/designs9020039,True,0.973,"Evidência por citação, linha 347",material/bibliografia/auditoria_citacoes/referencias_evidencia_docx_2026-07-22.xlsx,xlsx
+4d64bed5,"(Alili et al., 2023; Quintero et al., 2018)",Alili et al. (2023),10.1109/TNSRE.2023.3236217,True,0.986,"Evidência por citação, linha 348",material/bibliografia/auditoria_citacoes/referencias_evidencia_docx_2026-07-22.xlsx,xlsx
+4d64bed5,"(Alili et al., 2023; Quintero et al., 2018)",Quintero et al. (2018),10.1109/JTEHM.2018.2880199,True,0.986,"Evidência por citação, linha 349",material/bibliografia/auditoria_citacoes/referencias_evidencia_docx_2026-07-22.xlsx,xlsx
+31e894dc,"(Bai et al., 2024; Colombo et al., 2015; Quintero et al., 2018)",Bai et al. (2024),10.1186/s12984-024-01475-x,True,0.582,"Evidência por citação, linha 350",material/bibliografia/auditoria_citacoes/referencias_evidencia_docx_2026-07-22.xlsx,xlsx
+31e894dc,"(Bai et al., 2024; Colombo et al., 2015; Quintero et al., 2018)",Colombo et al. (2015),10.1007/978-3-319-21067-436,True,0.946,3.68 Colombo et al. (2015) — novas localizações no Capítulo 7,docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+31e894dc,"(Bai et al., 2024; Colombo et al., 2015; Quintero et al., 2018)",Quintero et al. (2018),10.1109/JTEHM.2018.2880199,True,0.582,"Evidência por citação, linha 352",material/bibliografia/auditoria_citacoes/referencias_evidencia_docx_2026-07-22.xlsx,xlsx
+28f69bd1,"(da Silva et al., 2018)",da Silva et al. (2018),10.1007/978-3-319-94947-5_88,True,0.916,3.69 Silva et al. (2018) — uso concreto e Figura 7.1,docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+fb65172e,"(da Silva et al., 2018)",da Silva et al. (2018),10.1007/978-3-319-94947-5_88,True,0.706,3.35 Silva et al. (2018) — Figura 3.1,docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+19591796,"(Bai et al., 2024; Peixoto et al., 2025)",Bai et al. (2024),10.1186/s12984-024-01475-x,True,0.823,"Evidência por citação, linha 355",material/bibliografia/auditoria_citacoes/referencias_evidencia_docx_2026-07-22.xlsx,xlsx
+19591796,"(Bai et al., 2024; Peixoto et al., 2025)",Peixoto et al. (2025),10.3390/designs9020039,True,0.823,"Evidência por citação, linha 356",material/bibliografia/auditoria_citacoes/referencias_evidencia_docx_2026-07-22.xlsx,xlsx
+6e179c27,"(Romero et al., 2025a)",Romero et al. (2025),10.1109/ACCESS.2025.3596475,True,0.245,3.70 Romero et al. (2025) — precedente funcional e Figura 8.4,docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+5b9043bb,"(Smail et al., 2021)",Smail et al. (2021),10.1080/17483107.2020.1738567,True,0.397,3.4 Smail et al. (2021),docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+90f3780c,"(Biddiss et al., 2007)",Biddiss et al. (2007),10.1080/17483100701714733,True,0.145,3.37 Biddiss et al. (2007) — requisitos de utilização,docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+b953a80c,"(Fink & Diamond, 2023)",Fink & Diamond (2023),10.1016/j.oto.2023.101061,True,0.3,4.1 Fink e Diamond (2023) — obtido após o fecho inicial,docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+bbe457bf,"(Chadwell et al., 2020; Diment et al., 2018; Jones et al., 2023)",Diment et al. (2018),10.1177/0309364617704803,True,0,"Tabela de confronto, linha 3634",docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+bbe457bf,"(Chadwell et al., 2020; Diment et al., 2018; Jones et al., 2023)",Chadwell et al. (2020),10.1186/s12984-020-00711-4,True,0,"Tabela de confronto, linha 3655",docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+bbe457bf,"(Chadwell et al., 2020; Diment et al., 2018; Jones et al., 2023)",Jones et al. (2023),10.3389/frhs.2023.1213752,True,0,"Tabela de confronto, linha 3660",docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+80320384,"(Cordella et al., 2016; Manz et al., 2022)",Cordella et al. (2016),10.3389/fnins.2016.00209,True,0,"Tabela de confronto, linha 3661",docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+80320384,"(Cordella et al., 2016; Manz et al., 2022)",Manz et al. (2022),10.1186/s12984-022-01097-1,True,0,"Tabela de confronto, linha 3662",docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+2fda63cc,"(Alluhydan et al., 2023)",Alluhydan et al. (2023),https://doi.org/10.57197/JDR-2023-0031,True,0,"Tabela de confronto, linha 3663",docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+c1452b24,"(Baldock et al., 2023)",Baldock et al. (2023),10.1186/s12984-023-01270-0,True,0,"Tabela de confronto, linha 3664",docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+2f5b8d47,"(Richardson & Dillon, 2017)",Richardson & Dillon (2017),10.1177/0309364616631343,True,0,"Tabela de confronto, linha 3665",docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+5d4436bd,"(Domínguez-Ruiz et al., 2023)",Domínguez-Ruiz et al. (2023),10.3389/frobt.2023.1032748,True,0,"Tabela de confronto, linha 3666",docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+c1f0e7aa,"(Marinelli et al., 2023)",Marinelli et al. (2023),10.1088/2516-1091/acac57,True,0.992,3.72 Marinelli et al. (2023) — nova localização na Tabela 8.8,docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+e87e3c6b,"(Andrysek, 2010)",Andrysek (2010),10.3109/03093646.2010.520060,True,0.993,3.73 Andrysek (2010) — nova localização na Tabela 8.8,docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+d18916b2,"(Baumann & Maria, 2023)",Baumann & Maria (2023),10.1097/PXR.0000000000000254,True,0.363,"Evidência por citação, linha 368",material/bibliografia/auditoria_citacoes/referencias_evidencia_docx_2026-07-22.xlsx,xlsx
+186e0e08,"(Segura et al., 2024)",Segura et al. (2024),10.3390/prosthesis6020022,True,0.993,4.2 Segura et al. (2024) — obtido após o fecho inicial,docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+1b09df73,"(Walker et al., 2020)",Walker et al. (2020),10.1007/s11948-019-00168-2,True,0.965,3.74 Walker et al. (2020) — nova localização na Tabela 8.8,docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+976ce0d5,"(Gordon et al., 1989)",Gordon et al. (1989),,True,1.0,6.2 Gordon et al. (1989) — ANSUR 1988,docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+b0f09eec,"(Gordon et al., 1989)",Gordon et al. (1989),,True,0.409,6.2 Gordon et al. (1989) — ANSUR 1988,docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+feeef24c,"(Rodríguez-Vega & Rodríguez-Vega, 2024)",Rodríguez-Vega & Rodríguez-Vega (2024),10.31637/epsir-2024-932,True,0.547,6.4 Rodríguez-Vega e Rodríguez-Vega (2024),docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+8be298a9,"(Anacleto Filho et al., 2023)",Anacleto Filho et al. (2023),10.1016/j.ergon.2023.103473,True,0.193,6.5 Anacleto Filho et al. (2023),docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+74019a84,"(Gordon et al., 1989)",Gordon et al. (1989),,True,0.277,6.2 Gordon et al. (1989) — ANSUR 1988,docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+62651207,"(Chatzıoglou et al., 2024)",Chatzıoglou et al. (2024),10.5115/acb.23.310,True,0.359,6.6 Chatzioglou et al. (2024),docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+a7db44fd,"(Rodríguez-Vega & Rodríguez-Vega, 2024)",Rodríguez-Vega & Rodríguez-Vega (2024),10.31637/epsir-2024-932,True,0.333,6.4 Rodríguez-Vega e Rodríguez-Vega (2024),docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+1a0e7276,"(Nag et al., 2003)",Nag et al. (2003),,True,0.421,6.7 Nag et al. (2003),docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+f07e79ce,"(Anacleto Filho et al., 2023)",Anacleto Filho et al. (2023),10.1016/j.ergon.2023.103473,True,0.535,6.5 Anacleto Filho et al. (2023),docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+54c6ff54,"(Ibiwari et al., 2025)",Ibiwari et al. (2025),,True,0.552,6.8 Ibiwari et al. (2025),docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+01dc4294,"(Mistarihi, 2020)",Mistarihi (2020),10.1016/j.dib.2020.105420,True,1.0,"Evidência por citação, linha 382",material/bibliografia/auditoria_citacoes/referencias_evidencia_docx_2026-07-22.xlsx,xlsx
+91372b66,"(Moreo, 2016)",Moreo (2016),,True,0.161,6.3 Moreo (2016) — origem dos dados DINED na Tabela 6.1,docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+75ffeef9,"(Gordon et al., 2014)",Gordon et al. (2014),,True,0.135,"Evidência por citação, linha 386",material/bibliografia/auditoria_citacoes/referencias_evidencia_docx_2026-07-22.xlsx,xlsx
+de6e7a1e,"(Delft University of Technology, n.d.)",Delft University of Technology (s.d.),,False,,,,
+ebf44d96,"(Hu et al., 2007)",Hu et al. (2007),10.1016/j.ergon.2006.11.006,True,1.0,6.13 Hu et al. (2007),docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+7144ab45,"(daprice, n.d.)",daprice (s.d.),,False,,,,
+manual-1,"(Marinelli et al., 2023; Richardson & Dillon, 2017; Walters et al., 2025)",Marinelli et al. (2023),10.1088/2516-1091/acac57,True,0.539,3.33 Marinelli et al. (2022 no manuscrito; publicação do PDF de 2023),docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+manual-1,"(Marinelli et al., 2023; Richardson & Dillon, 2017; Walters et al., 2025)",Richardson & Dillon (2017),10.1177/0309364616631343,True,0,"Tabela de confronto, linha 3665",docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+manual-1,"(Marinelli et al., 2023; Richardson & Dillon, 2017; Walters et al., 2025)",Walters et al. (2025),10.3389/fresc.2025.1610336,True,0.824,"Evidência por citação, linha 236",material/bibliografia/auditoria_citacoes/referencias_evidencia_docx_2026-07-22.xlsx,xlsx
+manual-2,"(Nini et al., 2024)",Nini et al. (2024),10.1109/BioRob60516.2024.10719909,True,0,"3.45 Nini et al. (2024) — parâmetros, restrições e Figuras 4.1 e 4.3",docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+manual-3,Nini et al. (2024),Nini et al. (2024),10.1109/BioRob60516.2024.10719909,True,0,"3.45 Nini et al. (2024) — parâmetros, restrições e Figuras 4.1 e 4.3",docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+manual-4,"(Machado et al., 2019)",Machado et al. (2019),10.1371/journal.pone.0225795,True,0,"3.49 Machado et al. (2019) — OpenSCAD, documentação e interoperabilidade",docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+manual-5,"(Barredo Arrieta et al., 2020)",Barredo Arrieta et al. (2020),10.1016/j.inffus.2019.12.012,True,0,3.66 Barredo Arrieta et al. (2020) — princípios de IA responsável e Figura 6.1,docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+manual-6,Moreo (2016),Moreo (2016),,True,1.0,6.3 Moreo (2016) — origem dos dados DINED na Tabela 6.1,docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+manual-7,Moreo (2016),Moreo (2016),,True,0.572,6.3 Moreo (2016) — origem dos dados DINED na Tabela 6.1,docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+manual-8,Anacleto Filho et al. (2023),Anacleto Filho et al. (2023),10.1016/j.ergon.2023.103473,True,0.49,6.5 Anacleto Filho et al. (2023),docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+manual-9,Lim et al. (2018),Lim et al. (2018),10.1115/DETC2018-85645,True,1.0,6.10 Lim et al. (2018),docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+manual-10,Mistarihi (2020),Mistarihi (2020),10.1016/j.dib.2020.105420,True,1.0,"Evidência por citação, linha 382",material/bibliografia/auditoria_citacoes/referencias_evidencia_docx_2026-07-22.xlsx,xlsx
+manual-11,Ibiwari et al. (2025),Ibiwari et al. (2025),,True,1.0,6.8 Ibiwari et al. (2025),docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+manual-12,Nag et al. (2003),Nag et al. (2003),,True,1.0,6.7 Nag et al. (2003),docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+manual-13,Hu et al. (2007),Hu et al. (2007),10.1016/j.ergon.2006.11.006,True,1.0,6.13 Hu et al. (2007),docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+manual-14,Chatzioglou et al. (2024),Chatzıoglou et al. (2024),10.5115/acb.23.310,True,1.0,6.6 Chatzioglou et al. (2024),docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+manual-15,Chatzioglou et al. (2024),Chatzıoglou et al. (2024),10.5115/acb.23.310,True,0.386,6.6 Chatzioglou et al. (2024),docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+manual-16,Lim et al. (2018),Lim et al. (2018),10.1115/DETC2018-85645,True,0.397,6.10 Lim et al. (2018),docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+manual-17,Ibiwari et al. (2025),Ibiwari et al. (2025),,True,1.0,6.8 Ibiwari et al. (2025),docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+manual-18,Mistarihi (2020),Mistarihi (2020),10.1016/j.dib.2020.105420,True,1.0,"Evidência por citação, linha 382",material/bibliografia/auditoria_citacoes/referencias_evidencia_docx_2026-07-22.xlsx,xlsx
+manual-19,Hu et al. (2007),Hu et al. (2007),10.1016/j.ergon.2006.11.006,True,1.0,6.13 Hu et al. (2007),docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+manual-20,Hu et al. (2007),Hu et al. (2007),10.1016/j.ergon.2006.11.006,True,1.0,6.13 Hu et al. (2007),docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+manual-21,Anacleto Filho et al. (2023),Anacleto Filho et al. (2023),10.1016/j.ergon.2023.103473,True,0.548,6.5 Anacleto Filho et al. (2023),docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+manual-22,Nag et al. (2003),Nag et al. (2003),,True,0.482,6.7 Nag et al. (2003),docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+manual-23,Ibiwari et al. (2025),Ibiwari et al. (2025),,True,0.396,6.8 Ibiwari et al. (2025),docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+manual-24,Chatzioglou et al. (2024),Chatzıoglou et al. (2024),10.5115/acb.23.310,True,0.559,6.6 Chatzioglou et al. (2024),docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+manual-25,Lim et al. (2018),Lim et al. (2018),10.1115/DETC2018-85645,True,0.278,6.10 Lim et al. (2018),docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+manual-26,Mistarihi (2020),Mistarihi (2020),10.1016/j.dib.2020.105420,True,1.0,"Evidência por citação, linha 409",material/bibliografia/auditoria_citacoes/referencias_evidencia_docx_2026-07-22.xlsx,xlsx
+manual-27,Mistarihi (2020),Mistarihi (2020),10.1016/j.dib.2020.105420,True,0.403,"Evidência por citação, linha 411",material/bibliografia/auditoria_citacoes/referencias_evidencia_docx_2026-07-22.xlsx,xlsx
+manual-28,Hu et al. (2007),Hu et al. (2007),10.1016/j.ergon.2006.11.006,True,1.0,6.13 Hu et al. (2007),docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+manual-29,Ibiwari et al. (2025),Ibiwari et al. (2025),,True,1.0,6.8 Ibiwari et al. (2025),docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown
+manual-30,Chatzioglou et al. (2024),Chatzıoglou et al. (2024),10.5115/acb.23.310,True,1.0,6.6 Chatzioglou et al. (2024),docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md,markdown

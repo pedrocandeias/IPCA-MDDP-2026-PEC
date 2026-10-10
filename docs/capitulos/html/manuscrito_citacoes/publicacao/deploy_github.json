@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-10T20:14:36.965030+00:00",
+  "checked_at": "2026-10-10T20:27:05.765324+00:00",
   "url": "https://pedrocandeias.github.io/IPCA-MDDP-2026-PEC/",
   "english_url": "https://pedrocandeias.github.io/IPCA-MDDP-2026-PEC/en.html",
   "manuscript_url": "https://pedrocandeias.github.io/IPCA-MDDP-2026-PEC/manuscrito.html",
@@ -9,9 +9,9 @@
     "path": "/"
   },
   "status": "built",
-  "site_commit": "1aab99567fce4943fb3c67fcef10a3865afbdddd",
+  "site_commit": "c625be4132feba2980bc05bcbb66aac416ee9671",
   "readme_commit": "a0546f7a56d10ecc403afa6b363a73ec78fe5ef4",
-  "previous_site_commit": "6f0a097f6a4468be747a41cd870831515dff68a0",
+  "previous_site_commit": "1aab99567fce4943fb3c67fcef10a3865afbdddd",
   "files": {
     "assets/homepage.css": "83c1127cc2a9a5abbe4d368d12f4d4ce908fbe29428bb5bb4ec8b452f761bf83",
     "assets/lightbox.css": "ec9a71179a024e0cc49d093432c57df2b5b10514274639476be30848bb55cdf9",
@@ -19,7 +19,7 @@
     "assets/phoenix_montagem.jpg": "df6780cb00777affa07ef05c0815e9a4bb916fdddda3b0f0e9d64222c710fc01",
     "en.html": "56062f20dbb0ff7cd8184e39b0c3b790e390be0816568ec766ecab39a81c92ad",
     "index.html": "fc06b6c9b27b217b331c780016c2c2289f52d0f9ee0ce01b5051555b2817a56b",
-    "manuscrito.html": "fd6080aa6b12d2ae5415fa1d25898262e86bb22b266b24863063b0359e51d1e1"
+    "manuscrito.html": "261eb1c5d4e1534c3528bcc7c0ed8fe9cb0a7a9761cecf766f77918a3070ecab"
   },
   "online_browser_validation": {
     "homepage_languages": [
@@ -46,16 +46,24 @@
       "mobile": true
     },
     "manuscript_images_with_lightbox": 34,
-    "citation_controls": 265,
+    "citation_controls": 269,
     "four_reference_panel": true,
     "javascript_errors": []
   },
-  "scope": "Acrescentada ferramenta LibreOffice–Mendeley às homepages PT/EN; outros conteúdos e interações preservados.",
+  "scope": "Publicação dos excertos recuperados nos painéis; texto do ODT, Markdown canónico e fontes de auditoria preservados.",
   "latest_update_validation": {
-    "description": "Added Mendeley Cite for LibreOffice to PT/EN tools",
-    "tools_per_language": 4,
-    "link_checked": true,
-    "desktop_and_mobile_layout": true,
-    "served_homepages_match_package": true
+    "controls": 269,
+    "source_occurrences": 416,
+    "with_excerpt": 408,
+    "pending": 8,
+    "origins": {
+      "markdown": 290,
+      "xlsx": 109,
+      "pdf": 9
+    },
+    "all_local_panels_checked": true,
+    "served_manuscript_matches_package": true,
+    "manuscript_text_unchanged": true,
+    "odt_and_audit_sources_unchanged": true
   }
 }

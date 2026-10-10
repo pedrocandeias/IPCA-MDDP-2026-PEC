@@ -25,16 +25,20 @@ from difflib import SequenceMatcher
 from pathlib import Path
 
 from lxml import etree as ET, html
+import fitz
+from evidencia_matriz import read_matrix
 
 ROOT = Path(__file__).resolve().parents[2]
 SOURCE = ROOT / 'pedro-candeias-projeto-mestrado-mdddp-ipca-2026-revisto_v1_06102026-0210.odt'
 AUDIT = ROOT / 'docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md'
+MATRIX = ROOT / 'material/bibliografia/auditoria_citacoes/referencias_evidencia_docx_2026-07-22.xlsx'
 OUT = ROOT / 'docs/capitulos/html/manuscrito_citacoes'
 ASSETS = Path(__file__).with_name('html_citacoes')
 
 
 def norm(value):
-    value = html_std.unescape(value).replace('Ø', 'O').replace('ø', 'o')
+    value = html_std.unescape(value).translate(str.maketrans({'Ø': 'O', 'ø': 'o', 'ı': 'i', 'ł': 'l', 'Ł': 'L'}))
+    value = re.sub(r'[\u2010-\u2015\u2212]', ' ', value)
     value = unicodedata.normalize('NFKD', value).encode('ascii', 'ignore').decode().lower()
     return re.sub(r'[^a-z0-9]+', ' ', value).strip()
 
@@ -139,15 +143,13 @@ def read_audit(records):
     Multi-source sections are deliberately not attributed as a single paper.
     The source text and historical assessment remain visible to the reader.
     """
-    sections = re.split(r'(?m)^(?=#{3,4} )', AUDIT.read_text())
+    sections = re.split(r'(?m)^(?=#{2,4} )', AUDIT.read_text())
     results = collections.defaultdict(list)
     for section in sections:
         heading = section.split('\n', 1)[0].lstrip('# ').strip()
-        if not re.match(r'\d+\.', heading):
-            continue
         fields = re.split(r'(?m)^\*\*([^\n]+?):\*\*', section)
         pairs = list(zip(fields[1::2], fields[2::2]))
-        source_titles = [plain(value.split('\n', 1)[0]) for label, value in pairs if norm(label).startswith('titulo')]
+        source_titles = [plain(value.strip().split('\n', 1)[0]).split(';', 1)[0].rstrip('.') for label, value in pairs if norm(label).startswith('titulo')]
         ids = {rid for rid in records if rid in section}
         if not ids and len(source_titles) == 1:
             ids = {rid for rid, rec in records.items() if similarity(source_titles[0], rec['title']) >= .96}
@@ -174,9 +176,9 @@ def read_audit(records):
             if label.startswith(('excerto', 'excertos')):
                 quotes.extend(q for q in quoted if q)
             if label.startswith(('pagina', 'zona')):
-                pages.append(plain(value.split('\n', 1)[0]))
+                pages.append(plain(value.strip().split('\n', 1)[0]))
             if label == 'avaliacao':
-                assessment = plain(value.split('\n', 1)[0])
+                assessment = plain(value.strip().split('\n', 1)[0])
             if label in ('caminho local', 'ficheiro'):
                 candidates = re.findall(r'`([^`]+\.pdf)`', value)
                 if candidates:
@@ -184,7 +186,28 @@ def read_audit(records):
         if quotes:
             results[rid].append({'section': heading, 'claims': claims, 'excerpts': list(dict.fromkeys(quotes)),
                                  'pages': ' '.join(pages), 'assessment': assessment, 'pdf': pdf,
-                                 'origin': str(AUDIT.relative_to(ROOT))})
+                                 'origin': str(AUDIT.relative_to(ROOT)), 'origin_kind': 'markdown'})
+    # Later audit tables store source-specific quotations in their second cell.
+    for number, line in enumerate(AUDIT.read_text().splitlines(), 1):
+        if not line.startswith('|'):
+            continue
+        cells = re.split(r'(?<!\\)\|', line)[1:-1]
+        if len(cells) < 3:
+            continue
+        quotes = re.findall(r'“([^”]+)”', cells[1])
+        titles = re.findall(r'(?<!\*)\*([^*]+)\*(?!\*)', cells[0])
+        ids = {rid for rid, rec in records.items() for title in titles
+               if norm(title) == norm(re.sub(r'\s+Authors$', '', rec['title']))}
+        if len(ids) != 1 or not quotes:
+            continue
+        paths = re.findall(r'`([^`]+\.pdf)`', cells[0])
+        pdf = paths[0] if paths else ''
+        if pdf and '/' not in pdf:
+            pdf = 'material/bibliografia/' + pdf
+        results[next(iter(ids))].append({'section': f'Tabela de confronto, linha {number}',
+            'claims': [], 'excerpts': quotes, 'pages': plain(re.sub(r'“[^”]+”', '', cells[1])),
+            'assessment': plain(cells[2]), 'pdf': pdf,
+            'origin': str(AUDIT.relative_to(ROOT)), 'origin_kind': 'markdown'})
     return results
 
 
@@ -279,6 +302,7 @@ def annotate_manual(document, records, data, evidence):
 def attach_evidence(data, records, evidence):
     matches_path = ROOT / 'docs/revisoes/manuscrito/sincronizacao_markdown_2026_10_10/bibliografia_local.json'
     matches = json.loads(matches_path.read_text())['correspondencias']
+    pending_notes = json.loads((OUT/'excertos_complementares.json').read_text()).get('pending_notes', {})
     for cite in data.values():
         sources = []
         for item in cite['items']:
@@ -300,7 +324,8 @@ def attach_evidence(data, records, evidence):
                         break
             sources.append({'record_id': rec['id'], 'label': author_label(rec), 'title': rec['title'],
                             'reference': reference_text(rec), 'doi': rec.get('doi', ''), 'url': rec.get('url', ''),
-                            'locator': item.get('locator', ''), 'pdf': pdf, 'evidence': selected})
+                            'locator': item.get('locator', ''), 'pdf': pdf, 'evidence': selected,
+                            'pending_note': pending_notes.get(rec['id'], '') if not selected else ''})
         cite['sources'] = sources
         del cite['items']
 
@@ -311,6 +336,20 @@ def build():
     root, data, order = get_citations()
     records = {item['rec']['id']: item['rec'] for cite in data.values() for item in cite['items']}
     evidence = read_audit(records)
+    matrix_evidence, matrix_report = read_matrix(MATRIX, ROOT, records, norm)
+    for rid, entries in matrix_evidence.items():
+        if not evidence.get(rid):
+            evidence[rid].extend(entries)
+    supplement = OUT/'excertos_complementares.json'
+    for entry in json.loads(supplement.read_text())['entries']:
+        path = ROOT/entry['pdf']
+        assert entry['record_id'] in records
+        assert hashlib.sha256(path.read_bytes()).hexdigest() == entry['sha256_pdf'], path
+        with fitz.open(path) as pdf:
+            text = norm(pdf[entry['pdf_page']-1].get_text()).replace(' ', '')
+        assert all(norm(q).replace(' ', '') in text for q in entry['excerpts']), path
+        evidence[entry['record_id']] = [entry]
+    (OUT/'recuperacao_matriz.json').write_text(json.dumps(matrix_report, ensure_ascii=False, indent=2)+'\n')
     attach_evidence(data, records, evidence)
     ns = root.nsmap
     for node in root.findall('.//text:bookmark-end', ns):
@@ -370,21 +409,32 @@ def build():
     (OUT/'citacoes.json').write_text(json.dumps(data, ensure_ascii=False, indent=2)+'\n')
     with (OUT/'cobertura_excertos.csv').open('w', encoding='utf-8', newline='') as f:
         writer = csv.writer(f)
-        writer.writerow(['marcador_odt', 'citacao', 'obra', 'doi', 'excerto_disponivel', 'similaridade_contexto', 'secao_auditoria'])
+        writer.writerow(['marcador_odt', 'citacao', 'obra', 'doi', 'excerto_disponivel', 'similaridade_contexto', 'secao_auditoria', 'origem', 'tipo_origem'])
         for key in order:
             for s in data[key]['sources']:
                 e = s['evidence'] or {}
-                writer.writerow([key, data[key]['visible'], s['label'], s['doi'], bool(e), e.get('context_similarity', ''), e.get('section', '')])
+                writer.writerow([key, data[key]['visible'], s['label'], s['doi'], bool(e), e.get('context_similarity', ''), e.get('section', ''), e.get('origin', ''), e.get('origin_kind', '')])
+    with (OUT/'excertos_pendentes.csv').open('w', encoding='utf-8', newline='') as f:
+        writer = csv.writer(f)
+        writer.writerow(['marcador', 'obra', 'titulo', 'contexto', 'nota'])
+        for key, cite in data.items():
+            for source in cite['sources']:
+                if not source['evidence']:
+                    writer.writerow([key, source['label'], source['title'], cite['context'], source['pending_note']])
     items = [s for c in data.values() for s in c['sources']]
     report = {'source': SOURCE.name, 'sha256_odt': original_hash, 'audit': str(AUDIT.relative_to(ROOT)),
               'sha256_audit': hashlib.sha256(AUDIT.read_bytes()).hexdigest(), 'citations': len(data),
+              'matrix': str(MATRIX.relative_to(ROOT)), 'sha256_matrix': hashlib.sha256(MATRIX.read_bytes()).hexdigest(),
+              'supplement': str(supplement.relative_to(ROOT)), 'sha256_supplement': hashlib.sha256(supplement.read_bytes()).hexdigest(),
               'source_occurrences': len(items), 'unique_sources': len(records),
               'multiple_source_citations': sum(len(c['sources']) > 1 for c in data.values()),
               'maximum_sources_per_citation': max(len(c['sources']) for c in data.values()),
               'mendeley_citations': len(data) - len(manual), 'manual_citations_matched_by_author_year': len(manual),
-              'source_occurrences_with_historical_excerpt': sum(bool(s['evidence']) for s in items),
-              'source_occurrences_with_similar_historical_passage': sum(bool(s['evidence'] and s['evidence']['same_passage']) for s in items),
-              'note': 'Os excertos e avaliações são históricos; a semelhança textual não é uma nova validação da afirmação atual.'}
+              'source_occurrences_with_excerpt': sum(bool(s['evidence']) for s in items),
+              'source_occurrences_with_historical_excerpt': sum(bool(s['evidence'] and s['evidence']['origin_kind'] != 'pdf') for s in items),
+              'source_occurrences_with_similar_historical_passage': sum(bool(s['evidence'] and s['evidence']['origin_kind'] != 'pdf' and s['evidence']['same_passage']) for s in items),
+              'selected_excerpt_origins': dict(collections.Counter(s['evidence']['origin_kind'] for s in items if s['evidence'])),
+              'note': 'Distinguem-se auditorias históricas e consultas diretas de PDF. A semelhança textual não é uma validação da afirmação atual.'}
     (OUT/'manifesto.json').write_text(json.dumps(report, ensure_ascii=False, indent=2)+'\n')
     assert hashlib.sha256(SOURCE.read_bytes()).hexdigest() == original_hash
     print(json.dumps(report, ensure_ascii=False, indent=2))

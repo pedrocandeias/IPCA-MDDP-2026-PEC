@@ -2,8 +2,8 @@
   "texto_integral_preservado": true,
   "odt_preservado": true,
   "auditoria_preservada": true,
-  "botoes": 265,
-  "fontes_associadas": 412,
+  "botoes": 269,
+  "fontes_associadas": 416,
   "tabelas": 53,
   "imagens_incorporadas": 34,
   "entradas_navegacao": 14,
@@ -15,7 +15,22 @@
     "Escape fecha e devolve o foco ao asterisco",
     "Botão de fechar",
     "Painel dentro do ecrã a 390 × 844",
-    "Sem erros JavaScript"
+    "Sem erros JavaScript",
+    "269 painéis: número de fontes, excertos e proveniência conferidos",
+    "Nota Østlie 2011/2012 visível",
+    "Lightbox preservada"
   ],
-  "sha256_html": "107d7d81fc18f04984d5ff23ef3f3b57f64545a3906193a2c8b7fa66729a16f6"
+  "sha256_html": "3a45abe62fb3960021ae8d4f5c104ced0354536a244e16c6da594e6dc1b9bb96",
+  "associacoes_com_excerto": 408,
+  "associacoes_sem_excerto": 8,
+  "origens_excertos": {
+    "markdown": 290,
+    "xlsx": 109,
+    "pdf": 9
+  },
+  "matriz_preservada": true,
+  "grupos_mendeley_preservados": true,
+  "todos_os_paineis_verificados": true,
+  "notas_especificas_nas_pendencias": true,
+  "consultas_pdf_com_hash_e_pagina": 6
 }

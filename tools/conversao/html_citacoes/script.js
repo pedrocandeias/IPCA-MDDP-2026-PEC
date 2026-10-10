@@ -51,18 +51,25 @@ function sourceCard(source, index, total) {
   if (source.locator) card.append(element('p', 'source-pages', 'Localizador da citação: ' + source.locator));
   const evidence = source.evidence;
   if (evidence) {
-    card.append(element('p', 'excerpt-label', evidence.same_passage ? 'Excertos da auditoria · passagem semelhante' : 'Excertos guardados para esta obra'));
-    if (!evidence.same_passage) card.append(element('p', 'source-pages', 'A auditoria não identifica com segurança esta passagem atual. Os excertos abaixo pertencem à mesma obra.'));
+    const matrix = evidence.origin_kind === 'xlsx';
+    const direct = evidence.origin_kind === 'pdf';
+    const originLabel = direct ? 'Excerto conferido no PDF' : (matrix ? 'Matriz de evidência' : 'Auditoria Markdown');
+    card.append(element('p', 'excerpt-label', originLabel + (direct ? '' : (evidence.same_passage ? ' · passagem semelhante' : ' · excertos desta obra'))));
+    if (!evidence.same_passage) card.append(element('p', 'source-pages', 'Não foi confirmada a correspondência com esta passagem atual. Os excertos abaixo pertencem à mesma obra.'));
     for (const quote of evidence.excerpts) card.append(element('blockquote', '', quote));
     if (evidence.pages) card.append(element('p', 'source-pages', evidence.pages));
+    if (evidence.review_note) card.append(element('p', 'missing-excerpt', evidence.review_note));
+    if (matrix && !evidence.pdf_text_verified) card.append(element('p', 'source-pages', 'Transcrição preservada da matriz histórica; a extração automática do PDF não confirmou integralmente este texto.'));
     const details = element('details');
-    details.append(element('summary', '', 'Texto auditado e avaliação histórica'));
+    details.append(element('summary', '', direct ? 'Passagem associada e nota de leitura' : 'Texto auditado e avaliação histórica'));
     for (const claim of evidence.claims) details.append(element('p', '', claim));
-    if (evidence.assessment) details.append(element('p', '', 'Avaliação registada: ' + evidence.assessment));
-    details.append(element('p', 'source-pages', 'Auditoria: secção ' + evidence.section));
+    if (evidence.assessment) details.append(element('p', '', (direct ? 'Nota de leitura: ' : 'Avaliação registada: ') + evidence.assessment));
+    if (evidence.assessment_origin) details.append(element('p', 'source-pages', 'Proveniência da avaliação: ' + evidence.assessment_origin));
+    if (evidence.excerpt_method) details.append(element('p', 'source-pages', 'Método registado para o excerto: ' + evidence.excerpt_method));
+    details.append(element('p', 'source-pages', 'Origem: ' + evidence.origin + ' · ' + evidence.section));
     card.append(details);
   } else {
-    card.append(element('p', 'missing-excerpt', 'Não foi encontrado um excerto inequivocamente associado a esta obra no Markdown da auditoria. A referência foi recuperada dos dados da citação no ODT.'));
+    card.append(element('p', 'missing-excerpt', source.pending_note || 'Sem excerto atribuível a esta obra nos registos de auditoria consultados (Markdown e matriz de evidência). Esta fonte requer consulta e seleção de uma passagem; os metadados da referência provêm do ODT.'));
   }
   return card;
 }

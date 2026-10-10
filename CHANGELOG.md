@@ -2,6 +2,8 @@
 
 ## 2026-10-10
 
+- Preenchidos os painéis de citações a partir da auditoria Markdown, da matriz Excel e de seis PDFs locais conferidos: 408 associações com excerto, face às 174 anteriores. Corrigida a recuperação de títulos, tabelas e caracteres; recuperadas quatro citações textuais adicionais (269 controlos). Identificadas origem, página e avaliação de cada excerto, com oito pendências específicas e discrepância Østlie 2011/2012 assinalada. Texto do manuscrito e fontes de auditoria preservados; acrescentados relatórios reproduzíveis e atualizada a publicação HTML.
+
 - Acrescentado Mendeley Cite for LibreOffice às ferramentas da homepage em português e inglês, com descrição da integração no Writer por API/BibTeX e ligação ao repositório e instruções de instalação.
 
 - Integradas na branch principal as alterações desta sessão: arquivo de versões, sincronização do manuscrito 0.4.114, bibliografia de apoio, exportador de citações e fontes da homepage bilingue com lightbox. Conferida a correspondência entre o pacote local e a versão publicada no GitHub Pages.
