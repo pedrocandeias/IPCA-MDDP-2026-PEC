@@ -1,7 +1,7 @@
-# Manuscrito com citações interativas
+# Projeto de investigação · Pedro Candeias
 
-Publicação estática do manuscrito de Pedro Candeias.
+[Português](https://pedrocandeias.github.io/IPCA-MDDP-2026-PEC/) · [English](https://pedrocandeias.github.io/IPCA-MDDP-2026-PEC/en.html) · [Manuscrito](https://pedrocandeias.github.io/IPCA-MDDP-2026-PEC/manuscrito.html)
 
-Origem: ODT de 6 de outubro de 2026, convertido por `tools/conversao/exportar_html_citacoes.py` e preparado por `tools/conversao/preparar_html_publicacao.py`. As imagens, os estilos e as citações estão incorporados no HTML.
+Página inicial bilingue, acesso ao HandFab e ferramentas, e leitura anotada da dissertação. As imagens abrem em lightbox com opção de tamanho original.
 
-https://pedrocandeias.github.io/IPCA-MDDP-2026-PEC/
+Gerado no espaço de trabalho por `tools/conversao/preparar_html_publicacao.py`, a partir das fontes em `tools/conversao/homepage/` e do HTML anotado do ODT.
