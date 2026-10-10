@@ -10,6 +10,8 @@
   "sha256_supplement": "c6906051187af45317075d437347ee007ad0e74e96b0e353a3b1814134cddc67",
   "source_occurrences": 416,
   "unique_sources": 157,
+  "source_occurrences_with_explanation": 416,
+  "sha256_explanations": "2cd42a5e77ca2e5434bccdde18f17e51037fae9c0895d88f8166bef9c9ffc8f2",
   "multiple_source_citations": 108,
   "maximum_sources_per_citation": 4,
   "mendeley_citations": 239,

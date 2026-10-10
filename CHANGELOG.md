@@ -2,6 +2,14 @@
 
 ## 2026-10-10
 
+- Publicadas no GitHub Pages as 416 explicações revistas das citações; build concluído e HTML servido conferido por igualdade integral com o pacote local.
+
+- Integradas as 416 explicações fornecidas pelo autor nos dois TXT, com correspondência verificada por citação e fonte. Substituído o bloco «Texto auditado e avaliação histórica» por «Relação com o texto» nos painéis, preservando os excertos e páginas. Guardados os originais e acrescentado importador com verificação de contexto e referências; regenerados os HTML local e de publicação.
+
+- Criado `docs/revisoes/bibliografia/explicacoes_citacoes.txt` para reescrita pelo autor: 416 entradas em 269 citações, ordenadas pelo manuscrito, com contexto atual, referências, excertos, observações existentes e campos de explicação. Incluído exportador que preserva ficheiros já editados; a substituição do bloco de avaliação no HTML fica a aguardar os textos revistos.
+
+- Retiradas dos painéis de citações as indicações «Origem» com caminhos internos e secções dos documentos de auditoria. Preservados os excertos, páginas, referências e dados de proveniência nos ficheiros de apoio; regenerados o HTML local e o pacote de publicação.
+
 - Preenchidos os painéis de citações a partir da auditoria Markdown, da matriz Excel e de seis PDFs locais conferidos: 408 associações com excerto, face às 174 anteriores. Corrigida a recuperação de títulos, tabelas e caracteres; recuperadas quatro citações textuais adicionais (269 controlos). Identificadas origem, página e avaliação de cada excerto, com oito pendências específicas e discrepância Østlie 2011/2012 assinalada. Texto do manuscrito e fontes de auditoria preservados; acrescentados relatórios reproduzíveis e atualizada a publicação HTML.
 
 - Acrescentado Mendeley Cite for LibreOffice às ferramentas da homepage em português e inglês, com descrição da integração no Writer por API/BibTeX e ligação ao repositório e instruções de instalação.

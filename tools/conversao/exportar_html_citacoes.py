@@ -27,6 +27,7 @@ from pathlib import Path
 from lxml import etree as ET, html
 import fitz
 from evidencia_matriz import read_matrix
+from importar_explicacoes_citacoes import attach_explanations
 
 ROOT = Path(__file__).resolve().parents[2]
 SOURCE = ROOT / 'pedro-candeias-projeto-mestrado-mdddp-ipca-2026-revisto_v1_06102026-0210.odt'
@@ -390,6 +391,7 @@ def build():
         document = html.fromstring(marked)
         manual = annotate_manual(document, records, data, evidence)
         order.extend(manual)
+        attach_explanations(data)
         # Citation controls must not inherit italics/bold styles from the source.
         navigation = []
         for i, heading in enumerate(document.xpath('.//h1'), 1):
@@ -427,6 +429,8 @@ def build():
               'matrix': str(MATRIX.relative_to(ROOT)), 'sha256_matrix': hashlib.sha256(MATRIX.read_bytes()).hexdigest(),
               'supplement': str(supplement.relative_to(ROOT)), 'sha256_supplement': hashlib.sha256(supplement.read_bytes()).hexdigest(),
               'source_occurrences': len(items), 'unique_sources': len(records),
+              'source_occurrences_with_explanation': sum(bool(s.get('explanation')) for s in items),
+              'sha256_explanations': hashlib.sha256((OUT/'explicacoes_citacoes.json').read_bytes()).hexdigest(),
               'multiple_source_citations': sum(len(c['sources']) > 1 for c in data.values()),
               'maximum_sources_per_citation': max(len(c['sources']) for c in data.values()),
               'mendeley_citations': len(data) - len(manual), 'manual_citations_matched_by_author_year': len(manual),

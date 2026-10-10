@@ -28,4 +28,4 @@ As alterações pendentes do manuscrito na branch `main` são independentes dest
 
 ## Excertos das citações
 
-A publicação inclui 408 associações com excerto (auditoria Markdown, matriz histórica Excel e seis PDFs consultados diretamente). Oito associações permanecem sem transcrição, com notas específicas. Os painéis identificam origem, página, avaliação histórica ou nota de leitura. A comparação com a fonte não equivale à validação integral da afirmação. Ver os relatórios em `../`.
+A publicação inclui 416 explicações fornecidas pelo autor, apresentadas em «Relação com o texto», e 408 associações com excerto (auditoria Markdown, matriz histórica Excel e seis PDFs consultados diretamente). Oito associações permanecem sem transcrição, com notas específicas. Os painéis mostram a explicação correspondente a cada fonte, os excertos e as páginas, sem os caminhos internos nem o antigo bloco de avaliação histórica. Os registos de auditoria mantêm-se nos dados de apoio. Ver os relatórios em `../`.

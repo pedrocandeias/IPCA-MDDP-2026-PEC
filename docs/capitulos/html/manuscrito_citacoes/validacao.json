@@ -16,11 +16,12 @@
     "Botão de fechar",
     "Painel dentro do ecrã a 390 × 844",
     "Sem erros JavaScript",
-    "269 painéis: número de fontes, excertos e proveniência conferidos",
     "Nota Østlie 2011/2012 visível",
-    "Lightbox preservada"
+    "Lightbox preservada",
+    "269 painéis: 416 explicações idênticas aos TXT recebidos",
+    "Bloco histórico e caminhos internos ausentes dos painéis"
   ],
-  "sha256_html": "3a45abe62fb3960021ae8d4f5c104ced0354536a244e16c6da594e6dc1b9bb96",
+  "sha256_html": "8d70637119d76988415ecac653d9ee687661d3334511d166062db99e8bc6ef48",
   "associacoes_com_excerto": 408,
   "associacoes_sem_excerto": 8,
   "origens_excertos": {
@@ -32,5 +33,8 @@
   "grupos_mendeley_preservados": true,
   "todos_os_paineis_verificados": true,
   "notas_especificas_nas_pendencias": true,
-  "consultas_pdf_com_hash_e_pagina": 6
+  "consultas_pdf_com_hash_e_pagina": 6,
+  "explicacoes_importadas": 416,
+  "txt_recebidos_preservados": true,
+  "importacao_rejeita_contexto_ou_referencia_alterados": true
 }

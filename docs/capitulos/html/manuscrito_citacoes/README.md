@@ -6,6 +6,10 @@ O asterisco junto de cada citação abre um painel com uma secção por obra, in
 
 ## Fontes e reprodução
 
+As 416 explicações fornecidas pelo autor estão guardadas em `docs/revisoes/bibliografia/explicacoes_citacoes_reescritas.txt` e `explicacoes_citacoes_versao_simples.txt`. Os dois ficheiros contêm explicações idênticas. O painel apresenta «Relação com o texto» para cada fonte, seguida dos excertos e páginas; o bloco de avaliação histórica foi retirado da apresentação. Os registos históricos continuam nos dados de apoio.
+
+Para importar futuras revisões dos TXT, executar `python3 tools/conversao/importar_explicacoes_citacoes.py` antes de regenerar o HTML. O importador verifica os identificadores, as referências, o contexto e a concordância das duas versões; guarda o resultado em `explicacoes_citacoes.json`. O exportador de HTML recusa reutilizar uma explicação se a passagem ou a referência tiver mudado. A importação preserva o texto recebido e não constitui uma nova verificação das fontes.
+
 - Documento: `pedro-candeias-projeto-mestrado-mdddp-ipca-2026-revisto_v1_06102026-0210.odt`.
 - Auditoria Markdown: `docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md`.
 - Matriz histórica: `material/bibliografia/auditoria_citacoes/referencias_evidencia_docx_2026-07-22.xlsx`.
@@ -40,6 +44,7 @@ Requer Python com `lxml`, `openpyxl`, `PyMuPDF` e Pandoc. O gerador reutiliza o 
 - `excertos_complementares.json`: transcrições de PDFs e notas específicas das pendências.
 - `excertos_pendentes.csv`: ocorrências ainda sem excerto e contexto correspondente.
 - `citacoes.json`: dados de cada ocorrência, referência e excerto, incluindo proveniência histórica.
+- `explicacoes_citacoes.json`: explicações revistas por ocorrência e fonte, hashes dos TXT recebidos e do contexto ao qual se aplicam.
 - `cobertura_excertos.csv`: cobertura por ocorrência e obra, com secção da auditoria e pontuação de semelhança textual.
 - `manifesto.json`: contagens, fontes e SHA-256 dos documentos lidos.
 - `validacao.json`: verificação do texto integral, das 53 tabelas, das 34 imagens incorporadas, dos 269 controlos e das ligações a PDFs locais; testes de interação em Chromium, em computador e telemóvel.
