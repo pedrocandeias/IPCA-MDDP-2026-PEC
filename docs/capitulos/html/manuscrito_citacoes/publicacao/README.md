@@ -4,7 +4,7 @@
 - English: <https://pedrocandeias.github.io/IPCA-MDDP-2026-PEC/en.html>
 - Manuscrito em português: <https://pedrocandeias.github.io/IPCA-MDDP-2026-PEC/manuscrito.html>
 
-A página inicial apresenta a investigação e o repositório, com acesso ao manuscrito, à plataforma HandFab, ao respetivo código no GitHub e às ferramentas bibliográficas e documentais. As duas versões da apresentação são páginas HTML completas, ligadas por um seletor de língua; não dependem de JavaScript para leitura ou navegação.
+A página inicial apresenta a investigação e o repositório, com acesso ao manuscrito, à plataforma HandFab, ao respetivo código no GitHub e às ferramentas bibliográficas e documentais, incluindo a extensão independente [Mendeley Cite for LibreOffice](https://github.com/pedrocandeias/mendeley-libreoffice). As duas versões da apresentação são páginas HTML completas, ligadas por um seletor de língua; não dependem de JavaScript para leitura ou navegação.
 
 ## Fontes e geração
 

@@ -2,6 +2,8 @@
 
 ## 2026-10-10
 
+- Acrescentado Mendeley Cite for LibreOffice às ferramentas da homepage em português e inglês, com descrição da integração no Writer por API/BibTeX e ligação ao repositório e instruções de instalação.
+
 - Integradas na branch principal as alterações desta sessão: arquivo de versões, sincronização do manuscrito 0.4.114, bibliografia de apoio, exportador de citações e fontes da homepage bilingue com lightbox. Conferida a correspondência entre o pacote local e a versão publicada no GitHub Pages.
 
 - Criada página inicial em português e inglês para apresentar o projeto, o repositório e as ferramentas. Incluídas ligações para a plataforma e o código do HandFab, Mendeley Tools e Downloader. Manuscrito interativo transferido para `manuscrito.html`, com regresso à página inicial. Acrescentada lightbox às imagens da apresentação e às 34 figuras do manuscrito, com tamanho original, teclado e adaptação a telemóvel; atualizados gerador e documentação de publicação.
