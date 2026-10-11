@@ -1,5 +1,9 @@
 # Changelog
 
+## 2026-10-11
+
+- Tornadas clicáveis 426 entradas dos índices do manuscrito: capítulos e secções, figuras, tabelas e anexos. Verificados os destinos e a navegação por teclado em computador e telemóvel, com e sem JavaScript.
+
 ## 2026-10-10
 
 - Publicadas 416 explicações revistas em «Relação com o texto», em substituição da avaliação histórica nos tooltips. Retirados os caminhos internos; preservados os excertos, páginas, citações múltiplas e lightbox.
