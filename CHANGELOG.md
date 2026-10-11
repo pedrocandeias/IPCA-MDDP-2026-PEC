@@ -2,6 +2,8 @@
 
 ## 2026-10-11
 
+- Simplificadas 267 explicações para apresentar o contributo das fontes. Retirado o bloco administrativo de reprodução. Paginadas as siglas e os índices, com hierarquia, números de página alinhados e quebras de impressão; preservadas as 426 ligações.
+
 - Tornadas clicáveis 426 entradas dos índices do manuscrito: capítulos e secções, figuras, tabelas e anexos. Verificados os destinos e a navegação por teclado em computador e telemóvel, com e sem JavaScript.
 
 ## 2026-10-10
