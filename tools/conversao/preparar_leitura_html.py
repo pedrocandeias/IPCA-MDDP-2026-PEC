@@ -20,6 +20,12 @@ def prepare_reading(document):
     for node in removed:
         document.remove(node)
 
+    # The ODT has a cover and title page with identical content. Show it once.
+    assert start == 16 and [text(n) for n in nodes[:8]] == [text(n) for n in nodes[8:16]], 'Rever capa e folha de rosto'
+    report['duplicate_cover_paragraphs_removed'] = [text(n) for n in nodes[8:16]]
+    for node in nodes[8:16]:
+        document.remove(node)
+
     # Collect ranges before restructuring the direct children of the article.
     nodes = list(document)
     abbreviations = next(n for n in nodes if n.get('id') == 'lista-de-abreviaturas-e-siglas')

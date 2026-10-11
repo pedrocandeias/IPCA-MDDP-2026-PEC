@@ -6,7 +6,7 @@ O asterisco junto de cada citação abre um painel com uma secção por obra, in
 
 As entradas do índice principal ligam aos títulos correspondentes. Os índices de figuras e tabelas ligam às legendas, e os índices dos anexos têm a entrada completa clicável. As siglas e os índices são organizados em folhas de leitura, com definições alinhadas, níveis hierárquicos e números de página numa coluna própria. As páginas indicadas nas entradas continuam a corresponder ao ODT; os rodapés numeram apenas as folhas de cada lista. A impressão inicia cada folha numa página nova. O número isolado «xx», artefacto da paginação original, é omitido. O módulo `tools/conversao/ligar_indices_html.py`, chamado pelo exportador, verifica destinos únicos e regista as correspondências em `ligacoes_indices.json`.
 
-O bloco administrativo de declaração de reprodução, incluindo a assinatura e o título repetido antes do resumo, é omitido desta edição HTML. A transformação é feita por `tools/conversao/preparar_leitura_html.py` e registada em `adaptacoes_leitura.json`; os documentos canónicos permanecem intactos.
+O bloco administrativo de declaração de reprodução, incluindo a assinatura e o título repetido antes do resumo, é omitido desta edição HTML. A capa e a folha de rosto idênticas do ODT são apresentadas uma única vez, com título, autor, orientador, instituição e data. A transformação é feita por `tools/conversao/preparar_leitura_html.py` e registada em `adaptacoes_leitura.json`; os documentos canónicos permanecem intactos.
 
 ## Fontes e reprodução
 

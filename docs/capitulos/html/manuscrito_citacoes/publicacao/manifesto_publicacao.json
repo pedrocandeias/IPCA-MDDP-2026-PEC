@@ -1,10 +1,10 @@
 {
   "source": "docs/capitulos/html/manuscrito_citacoes/pedro_candeias_manuscrito_citacoes.html",
-  "sha256_source": "7fc1bda0f1e58611fa2ad09da5c5d2e685f6c8fe816f0e065a334cd0b5d635b5",
+  "sha256_source": "acbd25be0dd5dc6bf46cb7386485ab832742cdd1bef4aec94ebe4a8255b8d4cf",
   "entrypoint": "dist/index.html",
   "manuscript": "dist/manuscrito.html",
-  "sha256_index": "fc06b6c9b27b217b331c780016c2c2289f52d0f9ee0ce01b5051555b2817a56b",
-  "sha256_manuscript": "db3da850b385cb00490b36e50b69463ae41bfa25a1492ea36361975c02c428f2",
+  "sha256_index": "c95977f2b44922a765c2a443ea79472d706146c6d8bb0f4fdec3dd50842d377c",
+  "sha256_manuscript": "c4ff2c0aee9fa7ea3e5f5de46878eb600221f55a5e44fbe5a4e794a51c3c8d9d",
   "homepage_sources": "tools/conversao/homepage",
   "image_source": "docs/defesa/apresentacao/assets/phoenix_montagem.jpg",
   "languages": [

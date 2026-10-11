@@ -2,6 +2,12 @@
 
 ## 2026-10-11
 
+- Publicadas no GitHub Pages a autoria das ferramentas na homepage PT/EN e a remoção da capa repetida; conferidos os três HTML públicos com o pacote local.
+
+- Removida da edição HTML a segunda ocorrência do bloco de capa (título, autor, orientador, instituição e data), mantendo uma única apresentação; atualizado o gerador para evitar a repetição em futuras exportações.
+
+- Explicitada na secção «Ferramentas de apoio» da homepage a autoria de Pedro Candeias, nas versões portuguesa e inglesa; regenerado o pacote HTML de publicação.
+
 - Simplificadas 267 explicações de citações para apresentar o contributo das fontes, com os TXT originais preservados e revisões rastreáveis. Omitido do HTML o bloco administrativo de reprodução e o título repetido anterior ao resumo. Organizadas as siglas e os índices em folhas separadas, com hierarquia, alinhamento das páginas, ligações e quebras de impressão.
 
 - Publicada no GitHub Pages a edição de leitura com 426 ligações, siglas e índices paginados, comentários simplificados e bloco administrativo omitido; versão online conferida por igualdade integral com o pacote local.

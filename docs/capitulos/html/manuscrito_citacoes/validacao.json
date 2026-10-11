@@ -24,7 +24,7 @@
     "Sem transbordo das folhas a 1440 e 390 px",
     "Impressão A4: 25 folhas dos índices iniciais e siglas, sem folhas vazias ou cortes adicionais"
   ],
-  "sha256_html": "7fc1bda0f1e58611fa2ad09da5c5d2e685f6c8fe816f0e065a334cd0b5d635b5",
+  "sha256_html": "acbd25be0dd5dc6bf46cb7386485ab832742cdd1bef4aec94ebe4a8255b8d4cf",
   "associacoes_com_excerto": 408,
   "associacoes_sem_excerto": 8,
   "origens_excertos": {
@@ -118,7 +118,19 @@
         "entries": 21,
         "pages": 2
       }
+    ],
+    "duplicate_cover_paragraphs_removed": [
+      "INTEGRAÇÃO DO DESIGN E DA INTELIGÊNCIA ARTIFICIAL EM PROCESSOS PARAMÉTRICOS PARA O DESENVOLVIMENTO DE PRÓTESES DE MEMBROS SUPERIORES EM IMPRESSÃO 3D.",
+      "Pedro Miguel Candeias da Silva",
+      "Orientador",
+      "Doutor Demétrio Ferreira Matos",
+      "Projeto apresentado\nao Instituto Politécnico do Cávado e do Ave",
+      "para obtenção do Grau de Mestre em Design e Desenvolvimento de Produto",
+      "Este trabalho não inclui as críticas e sugestões feitas pelo Júri.",
+      "julho, 2026"
     ]
   },
-  "paginas_impressas_verificadas": 25
+  "paginas_impressas_verificadas": 25,
+  "capa_unica_verificada": true,
+  "restante_conteudo_identico_apos_remocao_capa": true
 }
