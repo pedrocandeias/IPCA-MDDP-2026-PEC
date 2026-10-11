@@ -1,12 +1,11 @@
 {
-  "texto_integral_preservado": true,
   "odt_preservado": true,
   "auditoria_preservada": true,
   "botoes": 269,
   "fontes_associadas": 416,
   "tabelas": 53,
   "imagens_incorporadas": 34,
-  "entradas_navegacao": 14,
+  "entradas_navegacao": 18,
   "pdfs_locais_existentes": true,
   "browser": "Chromium 131 / Playwright 1.52",
   "testes_navegador": [
@@ -18,10 +17,14 @@
     "Sem erros JavaScript",
     "Nota Østlie 2011/2012 visível",
     "Lightbox preservada",
-    "269 painéis: 416 explicações idênticas aos TXT recebidos",
-    "Bloco histórico e caminhos internos ausentes dos painéis"
+    "269 painéis: 416 explicações conferidas com os TXT e as 267 revisões editoriais",
+    "Bloco histórico e caminhos internos ausentes dos painéis",
+    "64 siglas em folhas de leitura, com duas colunas",
+    "426 entradas com destino único, níveis hierárquicos e página alinhada",
+    "Sem transbordo das folhas a 1440 e 390 px",
+    "Impressão A4: 25 folhas dos índices iniciais e siglas, sem folhas vazias ou cortes adicionais"
   ],
-  "sha256_html": "8d70637119d76988415ecac653d9ee687661d3334511d166062db99e8bc6ef48",
+  "sha256_html": "7fc1bda0f1e58611fa2ad09da5c5d2e685f6c8fe816f0e065a334cd0b5d635b5",
   "associacoes_com_excerto": 408,
   "associacoes_sem_excerto": 8,
   "origens_excertos": {
@@ -36,5 +39,86 @@
   "consultas_pdf_com_hash_e_pagina": 6,
   "explicacoes_importadas": 416,
   "txt_recebidos_preservados": true,
-  "importacao_rejeita_contexto_ou_referencia_alterados": true
+  "importacao_rejeita_contexto_ou_referencia_alterados": true,
+  "indices": {
+    "principal": 229,
+    "figuras": 30,
+    "tabelas": 31,
+    "anexos": 136,
+    "total": 426,
+    "sem_titulo": {
+      "xx": "Artefacto da paginação original omitido na edição de leitura"
+    },
+    "destinos_unicos_verificados": true,
+    "verificacao_navegador": "28 navegações por teclado, a 1280 e 390 px, com e sem JavaScript; destinos visíveis abaixo da barra superior",
+    "data": "2026-10-11",
+    "restante_texto_e_excertos_preservados": true
+  },
+  "texto_academico_preservado": true,
+  "explicacoes_revistas": 267,
+  "explicacoes_verificadas_contra_revisoes": true,
+  "adaptacoes_leitura": {
+    "administrative_paragraphs_removed": [
+      "Declaração",
+      "Nome: Pedro Miguel Candeias da Silva",
+      "Endereço eletrónico: pedrocandeias+ipca@gmail.com",
+      "Título do Projeto: INTEGRAÇÃO DO DESIGN E DA INTELIGÊNCIA ARTIFICIAL EM PROCESSOS PARAMÉTRICOS PARA O DESENVOLVIMENTO DE PRÓTESES DE MEMBROS SUPERIORES EM IMPRESSÃO 3D",
+      "Orientador: Doutor Demétrio Matos",
+      "Ano de conclusão: 2026",
+      "Designação do Curso de Mestrado: Mestrado em Design e Desenvolvimento de Produto",
+      "Nos exemplares das Dissertações /Projetos/ Relatórios de Estágio de mestrado ou de outros trabalhos entregues para prestação de Provas Públicas, e dos quais é obrigatoriamente enviado exemplares para depósito legal, deve constar uma das seguintes declarações:",
+      "☐ É AUTORIZADA A REPRODUÇÃO INTEGRAL DESTA DISSERTAÇÃO/TRABALHO APENAS PARA EFEITOS DE INVESTIGAÇÃO, MEDIANTE DECLARAÇÃO ESCRITA DO INTERESSADO, QUE A TAL SE COMPROMETE;",
+      "☒ É AUTORIZADA A REPRODUÇÃO PARCIAL DESTA DISSERTAÇÃO/TRABALHO (indicar, caso tal seja necessário, nº máximo de páginas, ilustrações, gráficos, etc.), APENAS PARA EFEITOS DE INVESTIGAÇÃO, MEDIANTE DECLARAÇÃO ESCRITA DO INTERESSADO, QUE A TAL SE COMPROMETE;",
+      "☐ DE ACORDO COM A LEGISLAÇÃO EM VIGOR, NÃO É PERMITIDA A REPRODUÇÃO DE QUALQUER PARTE DESTA DISSERTAÇÃO/TRABALHO",
+      "Instituto Politécnico do Cávado e do Ave,21/07/2026",
+      "Assinatura: ________________________________________________",
+      "INTEGRAÇÃO DO DESIGN E DA INTELIGÊNCIA ARTIFICIAL EM PROCESSOS PARAMÉTRICOS PARA O DESENVOLVIMENTO DE PRÓTESES DE MEMBROS SUPERIORES EM IMPRESSÃO 3D."
+    ],
+    "print_artifacts_removed": [
+      "xx"
+    ],
+    "sections": [
+      {
+        "title": "LISTA DE ABREVIATURAS E SIGLAS",
+        "entries": 64,
+        "pages": 5
+      },
+      {
+        "title": "ÍNDICE",
+        "entries": 229,
+        "pages": 14
+      },
+      {
+        "title": "ÍNDICE DE FIGURAS",
+        "entries": 30,
+        "pages": 3
+      },
+      {
+        "title": "ÍNDICE DE TABELAS",
+        "entries": 31,
+        "pages": 3
+      },
+      {
+        "title": "Índice do Anexo A",
+        "entries": 54,
+        "pages": 3
+      },
+      {
+        "title": "Índice do Anexo B",
+        "entries": 19,
+        "pages": 2
+      },
+      {
+        "title": "Índice do Anexo C",
+        "entries": 42,
+        "pages": 3
+      },
+      {
+        "title": "Índice do Anexo D",
+        "entries": 21,
+        "pages": 2
+      }
+    ]
+  },
+  "paginas_impressas_verificadas": 25
 }

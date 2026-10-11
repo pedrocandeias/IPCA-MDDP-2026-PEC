@@ -30,7 +30,7 @@
           "same_passage": true
         },
         "pending_note": "",
-        "explanation": "Os autores distinguem próteses passivas, ativas e híbridas e subdividem as ativas em mecânicas e mioelétricas. Isto permite apresentar quatro tipos, embora essa não seja a classificação principal utilizada no artigo. As diferenças de conforto, custo e durabilidade não ficam todas demonstradas pelo excerto."
+        "explanation": "Os autores distinguem próteses passivas, ativas e híbridas e subdividem as ativas em mecânicas e mioelétricas. Esta distinção enquadra a apresentação das tipologias de próteses."
       }
     ]
   },
@@ -62,7 +62,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "A fonte destaca a necessidade de medir como as próteses são utilizadas fora do laboratório. Sustenta a preocupação com a validade da avaliação quotidiana, mas não toda a enumeração de escalas e métodos em falta."
+        "explanation": "A fonte destaca a necessidade de medir como as próteses são utilizadas fora do laboratório. Sustenta a preocupação com a validade da avaliação quotidiana."
       }
     ]
   },
@@ -171,7 +171,7 @@
           "same_passage": true
         },
         "pending_note": "",
-        "explanation": "O trabalho de Cross fundamenta a ideia de formas de conhecimento próprias do design e da investigação através do projeto. Não descreve a sequência específica entre dados antropométricos, código, interface e peças fabricadas nesta investigação."
+        "explanation": "O trabalho de Cross fundamenta a ideia de formas de conhecimento próprias do design e da investigação através do projeto."
       }
     ]
   },
@@ -234,7 +234,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "O estudo analisa digitalizações de membros residuais e os correspondentes encaixes concebidos em CAD, apoiando a descrição da retificação digital. Não compara diretamente métodos manuais e digitais nem valida os resultados por elementos finitos."
+        "explanation": "O estudo analisa digitalizações de membros residuais e os correspondentes encaixes concebidos em CAD, apoiando a descrição da retificação digital."
       }
     ]
   },
@@ -266,7 +266,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "A revisão identifica preocupações dos utilizadores de próteses do membro superior quanto ao controlo, à satisfação e às tarefas quotidianas. Sustenta a necessidade de considerar a experiência real, mas não todo o contraste com métricas laboratoriais."
+        "explanation": "A revisão identifica preocupações dos utilizadores de próteses do membro superior quanto ao controlo, à satisfação e às tarefas quotidianas. Sustenta a necessidade de considerar a experiência real."
       }
     ]
   },
@@ -304,7 +304,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "O artigo descreve um sistema de CAD apoiado por IA com dados de entrada, processamento e resultados. Apoia parcialmente a explicação das etapas de treino, inferência e geração, mas não apresenta exatamente a sequência de quatro etapas usada no manuscrito."
+        "explanation": "O artigo descreve um sistema de CAD apoiado por IA com dados de entrada, processamento e resultados. Apoia parcialmente a explicação das etapas de treino, inferência e geração."
       },
       {
         "record_id": "719b09f9-b116-35fb-b59c-d5036d6d90a5",
@@ -337,7 +337,7 @@
           "same_passage": true
         },
         "pending_note": "",
-        "explanation": "A revisão trata de aplicações de IA no projeto de estruturas. O excerto disponível não descreve integralmente a sequência de dados, treino, inferência e geração apresentada como explicação geral."
+        "explanation": "A revisão trata de aplicações de IA no projeto de estruturas."
       },
       {
         "record_id": "c6fc23b4-534e-3069-87f4-8d3efa62863a",
@@ -370,7 +370,7 @@
           "same_passage": true
         },
         "pending_note": "",
-        "explanation": "O editorial apresenta diferentes técnicas de aprendizagem automática usadas em problemas de engenharia. Não fundamenta, por si só, toda a sequência de funcionamento dos modelos generativos descrita no texto."
+        "explanation": "O editorial apresenta diferentes técnicas de aprendizagem automática usadas em problemas de engenharia."
       }
     ]
   },
@@ -406,7 +406,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "O estudo confirma a importância das medidas da mão para definir dimensões de referência. Não demonstra a hierarquia de parâmetros nem a organização de um sistema de modelação protésica."
+        "explanation": "O estudo confirma a importância das medidas da mão para definir dimensões de referência."
       },
       {
         "record_id": "fb38ffce-ea74-3c7f-a914-414df2dc7a53",
@@ -476,7 +476,7 @@
           "same_passage": true
         },
         "pending_note": "",
-        "explanation": "O editorial apresenta exemplos de aprendizagem automática aplicada ao design, mas não documenta os erros concretos nem os mecanismos de validação da plataforma. Esses riscos e controlos devem ser apresentados como observações do projeto."
+        "explanation": "O editorial apresenta exemplos de aprendizagem automática aplicada ao design."
       },
       {
         "record_id": "aa037602-f858-3e9e-8ec3-e978ac7d20b4",
@@ -509,7 +509,7 @@
           "same_passage": true
         },
         "pending_note": "",
-        "explanation": "A revisão identifica limitações de aplicação da IA em problemas de design. Apoia a preocupação geral com a fiabilidade, mas não valida as regras técnicas específicas nem os resultados dos testes realizados nesta plataforma."
+        "explanation": "A revisão identifica limitações de aplicação da IA em problemas de design. Apoia a preocupação geral com a fiabilidade."
       }
     ]
   },
@@ -541,7 +541,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "A fonte recomenda expor apenas parâmetros relevantes e os respetivos limites ao utilizador. Sustenta a organização guiada da configuração, mas não define os módulos e perfis de acesso criados nesta plataforma."
+        "explanation": "A fonte recomenda expor apenas parâmetros relevantes e os respetivos limites ao utilizador. Sustenta a organização guiada da configuração."
       },
       {
         "record_id": "a8244c86-e53c-3bbc-bff1-21337f1f78c7",
@@ -644,7 +644,7 @@
           "same_passage": true
         },
         "pending_note": "",
-        "explanation": "A fonte discute como organizar módulos em serviços de saúde. Apoia a relevância da modularidade, mas não estabelece todos os critérios gerais de escolha de ferramentas de personalização expostos."
+        "explanation": "A fonte discute como organizar módulos em serviços de saúde. Apoia a relevância da modularidade."
       },
       {
         "record_id": "0b37f630-c345-3729-ae3d-a849652d0105",
@@ -675,7 +675,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "O artigo mostra um exemplo de personalização a partir de dados fornecidos pelo utilizador. Não define um modelo geral de distribuição de responsabilidades entre utilizadores, designers e profissionais clínicos."
+        "explanation": "O artigo mostra um exemplo de personalização a partir de dados fornecidos pelo utilizador."
       }
     ]
   },
@@ -694,7 +694,7 @@
         "pdf": null,
         "evidence": null,
         "pending_note": "A obra identificada trata a reciclagem de PET. A sua pertinência para esta afirmação sobre tecnologias de apoio precisa de revisão; não há excerto atribuível nem PDF local identificado.",
-        "explanation": "Esta referência trata da reciclagem de PET, não de tecnologias de apoio ou design inclusivo. A citação parece estar deslocada e deve ser retirada ou substituída por uma fonte pertinente."
+        "explanation": "A referência corresponde a um estudo sobre reciclagem de PET. A associação a esta passagem sobre design inclusivo requer correção."
       }
     ]
   },
@@ -875,7 +875,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "O artigo defende que sistemas e ambientes devem considerar capacidades humanas diferentes. Não é uma fonte direta sobre ferramentas de edição usadas para personalização durante a utilização."
+        "explanation": "O artigo defende que sistemas e ambientes devem considerar capacidades humanas diferentes."
       },
       {
         "record_id": "1cb4c4dd-c471-35ad-a5f2-5e2383832828",
@@ -908,7 +908,7 @@
           "same_passage": true
         },
         "pending_note": "",
-        "explanation": "A revisão aborda formas de os utilizadores modificarem sistemas durante o seu uso. Não demonstra todos os exemplos e mecanismos específicos de edição referidos nesta passagem."
+        "explanation": "A revisão aborda formas de os utilizadores modificarem sistemas durante o seu uso."
       }
     ]
   },
@@ -958,7 +958,7 @@
           "same_passage": true
         },
         "pending_note": "",
-        "explanation": "A revisão confirma dificuldades de acesso, custos elevados e dependência de importações em certos contextos. Não demonstra que a plataforma desenvolvida reduza esses custos ou melhore o acesso efetivo."
+        "explanation": "A revisão confirma dificuldades de acesso, custos elevados e dependência de importações em certos contextos."
       }
     ]
   },
@@ -995,7 +995,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "A fonte apresenta categorias e etapas para planear a participação em processos de cocriação. A descrição da figura adaptada deve ser confrontada com o modelo específico do artigo."
+        "explanation": "A fonte apresenta categorias e etapas para planear a participação em processos de cocriação."
       }
     ]
   },
@@ -1034,7 +1034,7 @@
           "same_passage": true
         },
         "pending_note": "",
-        "explanation": "O artigo aborda formas de ajustar sistemas protésicos tendo em conta os conhecimentos e as necessidades dos utilizadores. Sustenta a importância de apresentar controlos compreensíveis, embora os quatro mecanismos concretos sejam da plataforma."
+        "explanation": "O artigo aborda formas de ajustar sistemas protésicos tendo em conta os conhecimentos e as necessidades dos utilizadores. Sustenta a importância de apresentar controlos compreensíveis."
       },
       {
         "record_id": "a8244c86-e53c-3bbc-bff1-21337f1f78c7",
@@ -1067,7 +1067,7 @@
           "same_passage": true
         },
         "pending_note": "",
-        "explanation": "A fonte descreve recursos de interface orientados para autonomia, orientação e personalização. Apoia a apresentação seletiva de opções, sem ser a origem das permissões e da organização técnica da HandFab."
+        "explanation": "A fonte descreve recursos de interface orientados para autonomia, orientação e personalização. Apoia a apresentação seletiva de opções."
       }
     ]
   },
@@ -1106,7 +1106,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "A fonte discute personalização de produtos e design generativo, mas não estuda as dificuldades concretas de utilização do OpenSCAD enumeradas. Esta referência deve ser retirada ou substituída nesta passagem."
+        "explanation": "A fonte discute personalização de produtos e design generativo. A associação à passagem sobre dificuldades específicas do OpenSCAD requer revisão."
       },
       {
         "record_id": "35f97957-bba4-3b0d-b0d3-557adbe94641",
@@ -1119,7 +1119,7 @@
         "pdf": null,
         "evidence": null,
         "pending_note": "A tese está identificada na bibliografia, mas não foi localizado um PDF nem um excerto nos documentos de auditoria consultados.",
-        "explanation": "A tese está identificada na bibliografia, mas não foi localizado um exemplar nem um excerto que permita verificar esta afirmação. É necessário consultar a obra antes de manter a citação."
+        "explanation": "A tese está identificada na bibliografia; a verificação do seu conteúdo está pendente."
       }
     ]
   },
@@ -1193,7 +1193,7 @@
           "same_passage": true
         },
         "pending_note": "",
-        "explanation": "A revisão identifica digitalização 3D, fotogrametria e outros métodos digitais para obter medidas usadas na personalização de próteses. A sequência específica de etapas apresentada como método do projeto não é atribuída aos autores."
+        "explanation": "A revisão identifica digitalização 3D, fotogrametria e outros métodos digitais para obter medidas usadas na personalização de próteses."
       }
     ]
   },
@@ -1230,7 +1230,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "O artigo apresenta 51 medidas da mão direita de 95 mulheres trabalhadoras na Índia, com estatísticas e percentis. A escolha desta fonte como uma das mais detalhadas do conjunto compilado é uma avaliação do projeto, não uma conclusão dos autores."
+        "explanation": "O artigo apresenta 51 medidas da mão direita de 95 mulheres trabalhadoras na Índia, com estatísticas e percentis. Estes dados sustentam a sua inclusão na compilação antropométrica."
       }
     ]
   },
@@ -1301,7 +1301,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "O artigo defende documentação, disponibilização do código e organização reproduzível de projetos técnicos. Não trata especificamente da divisão de próteses em módulos anatómicos autónomos."
+        "explanation": "O artigo defende documentação, disponibilização do código e organização reproduzível de projetos técnicos."
       }
     ]
   },
@@ -1405,7 +1405,7 @@
           "same_passage": true
         },
         "pending_note": "",
-        "explanation": "A revisão descreve a utilização de IA para apoiar a análise e a otimização em engenharia. Não confirma, por si só, todos os procedimentos de supervisão humana propostos na passagem."
+        "explanation": "A revisão descreve a utilização de IA para apoiar a análise e a otimização em engenharia."
       }
     ]
   },
@@ -1437,7 +1437,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "O artigo destaca o papel dos recursos, do ambiente, da equipa e do processo de decisão na prestação de cuidados protésicos. Não aborda de forma completa a acessibilidade e a manutenção enquanto requisitos de design."
+        "explanation": "O artigo destaca o papel dos recursos, do ambiente, da equipa e do processo de decisão na prestação de cuidados protésicos."
       },
       {
         "record_id": "67ce5a96-3f2a-3b7d-ab94-7f4c94b33c61",
@@ -1496,7 +1496,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "A fonte centra-se em como as próteses são utilizadas no quotidiano e na necessidade de recolher dados dessa utilização. Apoia parcialmente a atenção ao contexto real, mas não trata especificamente de custos e manutenção."
+        "explanation": "A fonte centra-se em como as próteses são utilizadas no quotidiano e na necessidade de recolher dados dessa utilização. Apoia parcialmente a atenção ao contexto real."
       }
     ]
   },
@@ -1536,7 +1536,7 @@
           "same_passage": true
         },
         "pending_note": "",
-        "explanation": "Os autores defendem que produtos e ambientes podem criar barreiras quando ignoram diferentes capacidades humanas. A fonte não demonstra diretamente melhorias de participação social ou qualidade de vida decorrentes do design."
+        "explanation": "Os autores defendem que produtos e ambientes podem criar barreiras quando ignoram diferentes capacidades humanas."
       },
       {
         "record_id": "9258d802-a00a-3800-b556-006b2f7c9df1",
@@ -1564,7 +1564,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "A revisão recomenda considerar as necessidades, capacidades e condições quotidianas dos utilizadores durante o desenvolvimento. Não descreve o design como mediador do ambiente nem demonstra os efeitos sociais e de qualidade de vida referidos."
+        "explanation": "A revisão recomenda considerar as necessidades, capacidades e condições quotidianas dos utilizadores durante o desenvolvimento."
       }
     ]
   },
@@ -1667,7 +1667,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "O artigo identifica amostras reduzidas, perdas de participantes e problemas na fiabilidade das medições. Sustenta as reservas metodológicas, mas não todas as conclusões sobre adoção e uso real."
+        "explanation": "O artigo identifica amostras reduzidas, perdas de participantes e problemas na fiabilidade das medições. Sustenta as reservas metodológicas."
       },
       {
         "record_id": "c7cfe4b7-c63d-3d64-94d2-8139ec63c8f6",
@@ -1719,7 +1719,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "A revisão mostra que efeitos observados em laboratório podem não representar a utilização no quotidiano. A fonte incide no membro inferior, pelo que a aplicação ao membro superior exige ressalva."
+        "explanation": "A revisão, centrada em próteses do membro inferior, mostra que os efeitos observados em laboratório podem diferir dos resultados da utilização quotidiana."
       }
     ]
   },
@@ -1758,7 +1758,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "O estudo trata da utilização de métodos computacionais na criação e avaliação de soluções estéticas de produto. Apoia a necessidade de avaliar resultados, mas não confirma toda a explicação técnica sobre geração de textos e imagens."
+        "explanation": "O estudo trata da utilização de métodos computacionais na criação e avaliação de soluções estéticas de produto. Apoia a necessidade de avaliar resultados."
       },
       {
         "record_id": "8bd95494-26d9-3a7e-9c6f-a1e9b3bb0f49",
@@ -1784,7 +1784,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "A revisão apresenta a IA como apoio à criação de alternativas e à inspiração inicial. Destaca que a decisão e o aperfeiçoamento continuam a depender do designer, mas não confirma todos os pormenores sobre geração de conteúdos."
+        "explanation": "A revisão apresenta a IA como apoio à criação de alternativas e à inspiração inicial. Destaca que a decisão e o aperfeiçoamento continuam a depender do designer."
       },
       {
         "record_id": "62417e50-1e15-3502-a771-f9bdff972f11",
@@ -1851,7 +1851,7 @@
           "same_passage": true
         },
         "pending_note": "",
-        "explanation": "O estudo desenvolve e testa um sistema de digitalização laser para medir com precisão forma e volume. É um exemplo de captura 3D, mas não demonstra, por si só, uma tendência geral nem todas as etapas de parametrização e fabrico mencionadas."
+        "explanation": "O estudo desenvolve e testa um sistema de digitalização laser para medir com precisão forma e volume. É um exemplo de captura 3D."
       }
     ]
   },
@@ -1884,7 +1884,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "O artigo mostra que modelos CAD descritos em código podem ser modificados com apoio de modelos de linguagem, mantendo necessidade de verificação humana. O exemplo utiliza CadQuery, não OpenSCAD."
+        "explanation": "O artigo mostra que modelos CAD descritos em código podem ser modificados com apoio de modelos de linguagem, mantendo a verificação humana. O exemplo utiliza CadQuery."
       },
       {
         "record_id": "35f97957-bba4-3b0d-b0d3-557adbe94641",
@@ -1897,7 +1897,7 @@
         "pdf": null,
         "evidence": null,
         "pending_note": "A tese está identificada na bibliografia, mas não foi localizado um PDF nem um excerto nos documentos de auditoria consultados.",
-        "explanation": "Não existe no material consultado um excerto verificável desta tese. A ligação à geração de modelos OpenSCAD com IA precisa de ser confirmada na obra original."
+        "explanation": "A tese é citada no enquadramento da geração de modelos OpenSCAD com IA; a verificação do seu conteúdo está pendente."
       },
       {
         "record_id": "40d870bf-ed0a-35ee-bed5-1e3c9c937214",
@@ -1962,7 +1962,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "A revisão mostra que muitos estudos sobre próteses impressas em 3D demonstram sobretudo a viabilidade técnica, sem avaliar suficientemente a eficácia. Justifica a prudência quanto a conforto, durabilidade, função e efeitos de longo prazo."
+        "explanation": "A revisão mostra que muitos estudos sobre próteses impressas em 3D demonstram sobretudo a viabilidade técnica. Justifica a prudência quanto a conforto, durabilidade, função e efeitos de longo prazo."
       }
     ]
   },
@@ -2219,7 +2219,7 @@
           "same_passage": true
         },
         "pending_note": "",
-        "explanation": "O estudo de caso mostra que a avaliação com uma criança permitiu identificar problemas de ajuste, esforço de ativação, conforto e execução de tarefas. Sustenta a necessidade de testes reais, sem permitir generalizações a todos os utilizadores."
+        "explanation": "O estudo de caso mostra que a avaliação com uma criança permitiu identificar problemas de ajuste, esforço de ativação, conforto e execução de tarefas. Sustenta a necessidade de testes reais."
       }
     ]
   },
@@ -2324,7 +2324,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "A dissertação de Moreo documenta o uso de parâmetros e dados antropométricos para personalização. Não sustenta todos os detalhes da arquitetura OpenSCAD apresentada; os dados KIMA que utiliza correspondem a 279 crianças."
+        "explanation": "A dissertação de Moreo documenta o uso de parâmetros e dados antropométricos para personalização. Os dados KIMA utilizados correspondem a 279 crianças."
       },
       {
         "record_id": "43457551-f305-3dc0-972e-f4111eac446a",
@@ -2353,7 +2353,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "O artigo descreve a alteração de dimensões e componentes segundo diferentes configurações de amputação. Sustenta a parametrização adaptativa, mas não demonstra toda a estrutura técnica proposta para OpenSCAD."
+        "explanation": "O artigo descreve a alteração de dimensões e componentes segundo diferentes configurações de amputação. Sustenta a parametrização adaptativa."
       }
     ]
   },
@@ -2385,7 +2385,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "O artigo aborda a personalização e a produção de variantes por fabrico aditivo. A associação específica à otimização topológica e à análise por elementos finitos precisa de confirmação na fonte integral."
+        "explanation": "O artigo aborda a personalização e a produção de variantes por fabrico aditivo."
       }
     ]
   },
@@ -2422,7 +2422,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "O estudo apresenta um quadro para organizar a participação e identifica categorias e elementos associados. A correspondência exata da figura adaptada e da sua legenda com o esquema original deve ser revista."
+        "explanation": "O estudo apresenta um quadro para organizar a participação e identifica categorias e elementos associados."
       }
     ]
   },
@@ -2461,7 +2461,7 @@
           "same_passage": true
         },
         "pending_note": "",
-        "explanation": "O artigo defende o design centrado no humano e a colaboração entre diferentes especialistas no desenvolvimento de dispositivos médicos. Não demonstra que a maioria dos projetos exclua designers nem todas as consequências funcionais apontadas."
+        "explanation": "O artigo defende o design centrado no humano e a colaboração entre diferentes especialistas no desenvolvimento de dispositivos médicos."
       },
       {
         "record_id": "df02b32f-99e2-34b3-9b19-d00ee833f8ec",
@@ -2489,7 +2489,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "O estudo mostra, numa empresa, dificuldades em aplicar o design centrado no utilizador e uma predominância de decisões orientadas pela tecnologia. Não permite generalizar estes problemas a muitos dispositivos médicos nem comprova as consequências ergonómicas e regulamentares enunciadas."
+        "explanation": "O estudo mostra, numa empresa, dificuldades em aplicar o design centrado no utilizador e uma predominância de decisões orientadas pela tecnologia."
       }
     ]
   },
@@ -2521,7 +2521,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "O artigo identifica a satisfação e o desempenho nas atividades quotidianas como aspetos importantes para avaliar próteses do membro superior. Não demonstra toda a afirmação sobre ausência de escalas comuns."
+        "explanation": "O artigo identifica a satisfação e o desempenho nas atividades quotidianas como aspetos importantes para avaliar próteses do membro superior."
       },
       {
         "record_id": "c7cfe4b7-c63d-3d64-94d2-8139ec63c8f6",
@@ -2584,7 +2584,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "O estudo apresenta várias medidas da mão, evidenciando que as proporções anatómicas não podem ser reduzidas a uma única dimensão. Não avalia diretamente o redimensionamento uniforme de um modelo protésico."
+        "explanation": "O estudo apresenta várias medidas da mão, evidenciando que as proporções anatómicas não podem ser reduzidas a uma única dimensão."
       },
       {
         "record_id": "9d3db36d-9573-38b2-94be-16670cd9d961",
@@ -2614,7 +2614,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "O artigo identifica diferenças antropométricas entre grupos populacionais. Apoia a necessidade de considerar proporções diversas, mas não compara métodos de redimensionamento de próteses."
+        "explanation": "O artigo identifica diferenças antropométricas entre grupos populacionais. Apoia a necessidade de considerar proporções diversas."
       },
       {
         "record_id": "c56a2099-659a-3622-a8e9-c575e56915db",
@@ -2748,7 +2748,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "A revisão descreve dificuldades metodológicas na avaliação do conforto e do uso de encaixes protésicos. Apoia a prudência na interpretação dos resultados, sem validar o protótipo deste projeto."
+        "explanation": "A revisão descreve dificuldades metodológicas na avaliação do conforto e do uso de encaixes protésicos. Apoia a prudência na interpretação dos resultados."
       }
     ]
   },
@@ -2819,7 +2819,7 @@
           "same_passage": true
         },
         "pending_note": "",
-        "explanation": "A referência de 2011 descreve a população estudada, mas não é a fonte das percentagens de rejeição apresentadas. Esses valores e a figura pertencem ao estudo de Østlie et al. (2012). É necessário corrigir o ano e a referência nesta passagem."
+        "explanation": "A referência de 2011 descreve a população estudada. Os valores de rejeição e a figura apresentados na passagem pertencem ao estudo de Østlie et al. (2012)."
       }
     ]
   },
@@ -2928,7 +2928,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "A revisão trata da relação entre utilizadores, parâmetros e profissionais na configuração de próteses inteligentes. Apoia a distinção entre intervenções técnicas e participação do utilizador, sem avaliar os efeitos concretos na HandFab."
+        "explanation": "A revisão trata da relação entre utilizadores, parâmetros e profissionais na configuração de próteses inteligentes. Apoia a distinção entre intervenções técnicas e participação do utilizador."
       },
       {
         "record_id": "f4e2289f-d799-3610-a578-c8caf0d7d7eb",
@@ -2959,7 +2959,7 @@
           "same_passage": true
         },
         "pending_note": "",
-        "explanation": "O artigo descreve uma interface de CAD para técnicos de ortoprotesia e a importância de apresentar feedback compreensível. Não define permissões de acesso nem uma divisão formal de autoridade entre técnico e utilizador final."
+        "explanation": "O artigo descreve uma interface de CAD para técnicos de ortoprotesia e a importância de apresentar feedback compreensível."
       },
       {
         "record_id": "aa748afa-66db-3d4e-9f0d-530230a1dda5",
@@ -2992,7 +2992,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "O estudo descreve a afinação de uma prótese por um profissional clínico através de uma interface. Sustenta parcialmente a diferenciação de responsabilidades, mas não avalia o sistema de perfis da plataforma."
+        "explanation": "O estudo descreve a afinação de uma prótese por um profissional clínico através de uma interface. Sustenta parcialmente a diferenciação de responsabilidades."
       }
     ]
   },
@@ -3029,7 +3029,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "O estudo propõe formas de organizar quem participa, quando e com que meios em processos de cocriação. Não demonstra, por si só, que a adoção da tecnologia conduza aos resultados práticos descritos no texto."
+        "explanation": "O estudo propõe formas de organizar quem participa, quando e com que meios em processos de cocriação."
       },
       {
         "record_id": "1a2295d2-4d2f-3af4-9026-0c52b605b186",
@@ -3062,7 +3062,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "O estudo de caso aborda as condições de funcionamento de uma iniciativa de fabrico aberto. Apoia parcialmente a reflexão sobre implementação, mas não mede a adoção e os benefícios de plataformas protésicas."
+        "explanation": "O estudo de caso aborda as condições de funcionamento de uma iniciativa de fabrico aberto. Apoia parcialmente a reflexão sobre implementação."
       }
     ]
   },
@@ -3132,7 +3132,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "A fonte destaca a importância de observar como as próteses são usadas no quotidiano. Sustenta que estudos curtos ou centrados no laboratório não permitem compreender completamente a adaptação e o uso continuado."
+        "explanation": "A fonte destaca a importância de observar como as próteses são usadas no quotidiano."
       },
       {
         "record_id": "2f83a583-f296-3081-bc2c-4d8ab3c0ef3a",
@@ -3158,7 +3158,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "O estudo mostra que a eficácia observada em laboratório não substitui a avaliação em condições reais. Essa conclusão provém de pesquisas sobre o membro inferior e deve ser aplicada com prudência."
+        "explanation": "O estudo sobre próteses do membro inferior distingue a eficácia observada em laboratório da avaliação em condições reais."
       }
     ]
   },
@@ -3220,7 +3220,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "O estudo demonstra como construir um modelo anatómico a partir de poucos dados, assinalando também os limites dessa amostra. Não sustenta, isoladamente, todas as recomendações gerais sobre bases de dados e normalização apresentadas."
+        "explanation": "O estudo demonstra como construir um modelo anatómico a partir de poucos dados, assinalando também os limites dessa amostra."
       }
     ]
   },
@@ -3285,7 +3285,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "O artigo chama a atenção para a dependência de avaliações laboratoriais no estudo de próteses do membro inferior. Apoia a necessidade de verificar resultados em condições reais, sem constituir prova específica para o membro superior."
+        "explanation": "O artigo chama a atenção para a dependência de avaliações laboratoriais no estudo de próteses do membro inferior. Apoia a necessidade de verificar resultados em condições reais."
       },
       {
         "record_id": "d69f262c-de64-3884-a1ea-badcee578fbf",
@@ -3455,7 +3455,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "O editorial compara o comportamento de vários métodos de aprendizagem automática em problemas de design. Não demonstra todos os efeitos de enviesamento, erro e dependência dos dados de treino indicados."
+        "explanation": "O editorial compara o comportamento de vários métodos de aprendizagem automática em problemas de design."
       },
       {
         "record_id": "aa037602-f858-3e9e-8ec3-e978ac7d20b4",
@@ -3488,7 +3488,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "A revisão distingue métodos baseados em regras de métodos que dependem de dados e aprendizagem. Não sustenta integralmente as afirmações sobre complexidade, enviesamentos e reprodução de erros."
+        "explanation": "A revisão distingue métodos baseados em regras de métodos que dependem de dados e aprendizagem."
       }
     ]
   },
@@ -3520,7 +3520,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "A revisão defende que as necessidades individuais devem orientar melhorias das próteses. Analisa o membro inferior e não demonstra integralmente o contraste entre desempenho medido e experiência subjetiva apresentado."
+        "explanation": "A revisão sobre próteses do membro inferior defende que as necessidades individuais devem orientar melhorias dos dispositivos."
       }
     ]
   },
@@ -3552,7 +3552,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "O artigo confirma que o desenho e o ajuste do encaixe influenciam o conforto e a distribuição das cargas. Não demonstra, por si só, todas as conclusões sobre abandono ou dificuldades gerais de personalização."
+        "explanation": "O artigo confirma que o desenho e o ajuste do encaixe influenciam o conforto e a distribuição das cargas."
       },
       {
         "record_id": "ea0b8723-17b6-33bb-8a79-959841f41bdf",
@@ -3578,7 +3578,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "O estudo relaciona encaixes mal ajustados com desconforto, pressão e possibilidade de abandono. Sustenta a importância da interface corpo-prótese, mas não todas as afirmações sobre a evolução das técnicas de personalização."
+        "explanation": "O estudo relaciona encaixes mal ajustados com desconforto, pressão e possibilidade de abandono. Sustenta a importância da interface corpo-prótese."
       },
       {
         "record_id": "3214fcb1-bcd3-3044-a42a-840f9b2be56b",
@@ -3623,7 +3623,7 @@
         "pdf": null,
         "evidence": null,
         "pending_note": "O registo de revisão remete para a secção 4.4 da página oficial da ASTM F3661-24, relativa ao ajuste de exosqueletos. Não contém uma transcrição literal nem o PDF integral. A aplicação às próteses é uma interpretação do projeto.",
-        "explanation": "A referência remete para a norma ASTM F3661-24 sobre ajuste de exosqueletos, mas não foi guardado um excerto do texto normativo. A aplicação da distinção entre tipos de ajuste às próteses é uma proposta conceptual desta dissertação."
+        "explanation": "A referência remete para a norma ASTM F3661-24 sobre ajuste de exosqueletos. A aplicação da distinção entre tipos de ajuste às próteses é uma proposta conceptual desta dissertação."
       }
     ]
   },
@@ -3726,7 +3726,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "O artigo descreve aplicações de IA na geração de ideias, na prototipagem e em etapas centradas no utilizador. Confirma o papel transversal da IA, mas não demonstra todas as tarefas específicas listadas."
+        "explanation": "O artigo descreve aplicações de IA na geração de ideias, na prototipagem e em etapas centradas no utilizador. Confirma o papel transversal da IA."
       },
       {
         "record_id": "24f94c7d-64bc-3e8a-bb45-0c748852b063",
@@ -3759,7 +3759,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "O estudo discute a relação entre IA e processos de inovação e design. Apoia o enquadramento geral, mas o excerto disponível não confirma todas as atividades práticas enumeradas."
+        "explanation": "O estudo discute a relação entre IA e processos de inovação e design. Apoia o enquadramento geral."
       }
     ]
   },
@@ -3791,7 +3791,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "A imagem mostra uma interface paramétrica concebida para terapeutas ocupacionais personalizarem pegas de apoio. É um precedente de configuração digital, mas não representa uma plataforma de próteses."
+        "explanation": "A imagem mostra uma interface paramétrica concebida para terapeutas ocupacionais personalizarem pegas de apoio. É um precedente de configuração digital."
       }
     ]
   },
@@ -3826,7 +3826,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "A fonte apoia a organização, documentação e reutilização de código para modelos técnicos. Não demonstra a estrutura específica de módulos anatómicos descrita para a prótese do projeto."
+        "explanation": "A fonte apoia a organização, documentação e reutilização de código para modelos técnicos."
       },
       {
         "record_id": "61dd472b-ecb1-3651-8478-e0534036186d",
@@ -3856,7 +3856,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "O artigo apresenta tarefas padronizadas usadas para avaliar o desempenho de uma prótese mioelétrica. Não fundamenta diretamente a divisão do código OpenSCAD em módulos anatómicos autónomos."
+        "explanation": "O artigo apresenta tarefas padronizadas usadas para avaliar o desempenho de uma prótese mioelétrica."
       }
     ]
   },
@@ -3896,7 +3896,7 @@
           "same_passage": true
         },
         "pending_note": "",
-        "explanation": "O artigo confirma a função estética e algumas possibilidades de apoio ou preensão das próteses passivas. Não confirma expressamente que sejam sempre leves, silenciosas, de manutenção reduzida ou escolhidas pela discrição."
+        "explanation": "O artigo confirma a função estética e algumas possibilidades de apoio ou preensão das próteses passivas."
       },
       {
         "record_id": "e998f4c2-41fa-3948-b45b-3a61c05c610d",
@@ -3940,7 +3940,7 @@
           "same_passage": true
         },
         "pending_note": "",
-        "explanation": "A revisão associa as próteses passivas à aparência, ao equilíbrio postural e a mecanismos ajustáveis. Não documenta todos os pormenores indicados no texto, como o movimento manual dos dedos, o silêncio e a baixa necessidade de manutenção."
+        "explanation": "A revisão associa as próteses passivas à aparência, ao equilíbrio postural e a mecanismos ajustáveis."
       }
     ]
   },
@@ -4013,7 +4013,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "O estudo descreve uma interface web que permite aos utilizadores ajustar parâmetros de modelos OpenSCAD sem alterar o código. Não demonstra execução do OpenSCAD no próprio navegador através de WebAssembly."
+        "explanation": "O estudo descreve uma interface web que permite aos utilizadores ajustar parâmetros de modelos OpenSCAD sem alterar o código."
       },
       {
         "record_id": "059eb607-af35-3d39-b673-99f86afd8715",
@@ -4039,7 +4039,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "O repositório apresenta uma implementação de OpenSCAD em navegador com WebAssembly, editor e visualização. Demonstra viabilidade técnica, mas não valida o uso em próteses nem a maturidade da solução."
+        "explanation": "O repositório apresenta uma implementação de OpenSCAD em navegador com WebAssembly, editor e visualização. Demonstra viabilidade técnica."
       }
     ]
   },
@@ -4074,7 +4074,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "A revisão identifica problemas na clareza dos papéis e no poder de decisão dos participantes. Não demonstra que esses problemas resultem especificamente da regulamentação de dispositivos médicos ou do predomínio de profissionais clínicos."
+        "explanation": "A revisão identifica problemas na clareza dos papéis e no poder de decisão dos participantes."
       },
       {
         "record_id": "df02b32f-99e2-34b3-9b19-d00ee833f8ec",
@@ -4102,7 +4102,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "O estudo mostra uma diferença entre os princípios do design centrado no utilizador e a prática de uma organização. Não atribui essa diferença à regulamentação nem à concentração das decisões em profissionais clínicos."
+        "explanation": "O estudo mostra uma diferença entre os princípios do design centrado no utilizador e a prática de uma organização."
       }
     ]
   },
@@ -4141,7 +4141,7 @@
           "same_passage": true
         },
         "pending_note": "",
-        "explanation": "A revisão destaca que, em contextos com poucos recursos, as próteses exigem condições de produção, manutenção e apoio adequadas. Sustenta que a impressão 3D não é suficiente por si só."
+        "explanation": "A revisão destaca que, em contextos com poucos recursos, as próteses exigem condições de produção, manutenção e apoio adequadas."
       },
       {
         "record_id": "3b9a5ee8-2230-3973-8a71-d3f98417ec7c",
@@ -4213,7 +4213,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "A revisão aborda métodos de IA aplicados a diferentes fases do design. Apoia a distinção geral entre aplicações, embora o excerto guardado não desenvolva todas as definições técnicas apresentadas."
+        "explanation": "A revisão aborda métodos de IA aplicados a diferentes fases do design. Apoia a distinção geral entre aplicações."
       },
       {
         "record_id": "f01624c1-21db-3080-95a2-ba9cfa4f2463",
@@ -4226,7 +4226,7 @@
         "pdf": null,
         "evidence": null,
         "pending_note": "Não há excerto guardado nem PDF local identificado para este artigo. A associação à afirmação sobre aprendizagem profunda e IA generativa requer confronto com o texto integral.",
-        "explanation": "Não foi guardado nenhum excerto nem localizado um PDF desta publicação. É necessário consultar o artigo antes de o utilizar para fundamentar as definições de aprendizagem profunda e IA generativa."
+        "explanation": "Referência bibliográfica associada às definições de aprendizagem profunda e IA generativa; a verificação do conteúdo desta publicação está pendente."
       }
     ]
   },
@@ -4265,7 +4265,7 @@
           "same_passage": true
         },
         "pending_note": "",
-        "explanation": "O artigo aborda a colaboração entre métodos computacionais e avaliação humana no design de produtos. Não sustenta toda a lista de riscos éticos, técnicos e criativos apresentada."
+        "explanation": "O artigo aborda a colaboração entre métodos computacionais e avaliação humana no design de produtos."
       },
       {
         "record_id": "c6fc23b4-534e-3069-87f4-8d3efa62863a",
@@ -4298,7 +4298,7 @@
           "same_passage": true
         },
         "pending_note": "",
-        "explanation": "O editorial discute dados e métodos de aprendizagem automática no design de engenharia. O excerto não confirma a enumeração completa dos riscos de enviesamento, opacidade e perda de competências."
+        "explanation": "O editorial discute dados e métodos de aprendizagem automática no design de engenharia."
       },
       {
         "record_id": "aa037602-f858-3e9e-8ec3-e978ac7d20b4",
@@ -4331,7 +4331,7 @@
           "same_passage": true
         },
         "pending_note": "",
-        "explanation": "A revisão aborda vantagens e limites de diferentes técnicas de IA em design. Não documenta todos os riscos sociais, autorais e éticos enumerados no parágrafo."
+        "explanation": "A revisão aborda vantagens e limites de diferentes técnicas de IA em design."
       }
     ]
   },
@@ -4370,7 +4370,7 @@
           "same_passage": true
         },
         "pending_note": "",
-        "explanation": "O estudo apresenta uma interface controlada pelo utilizador para afinar parâmetros de uma prótese robótica. Não documenta a utilização de OpenSCAD, WebAssembly ou Web Worker na pré-visualização."
+        "explanation": "O estudo apresenta uma interface controlada pelo utilizador para afinar parâmetros de uma prótese robótica."
       },
       {
         "record_id": "aa748afa-66db-3d4e-9f0d-530230a1dda5",
@@ -4403,7 +4403,7 @@
           "same_passage": true
         },
         "pending_note": "",
-        "explanation": "A fonte mostra uma interface clínica com indicação visual de parâmetros e estados de uma prótese. Não trata de OpenSCAD, WebAssembly nem Web Worker, pelo que não sustenta a explicação desta implementação."
+        "explanation": "A fonte mostra uma interface clínica com indicação visual de parâmetros e estados de uma prótese."
       }
     ]
   },
@@ -4480,7 +4480,7 @@
           "same_passage": true
         },
         "pending_note": "",
-        "explanation": "O artigo destaca que uma prótese sofisticada pode ter pouca utilidade se for difícil de reparar ou manter. Apoia a preocupação com dependências técnicas, mas não demonstra todas as barreiras de infraestrutura e abastecimento descritas."
+        "explanation": "O artigo destaca que uma prótese sofisticada pode ter pouca utilidade se for difícil de reparar ou manter. Apoia a preocupação com dependências técnicas."
       },
       {
         "record_id": "e998f4c2-41fa-3948-b45b-3a61c05c610d",
@@ -4524,7 +4524,7 @@
           "same_passage": true
         },
         "pending_note": "",
-        "explanation": "A revisão identifica desigualdades de acesso, custos elevados, limitações de cobertura e aumento de preços devido à importação. Não confirma expressamente todas as dependências de infraestrutura, conectividade e cadeias de fornecimento referidas."
+        "explanation": "A revisão identifica desigualdades de acesso, custos elevados, limitações de cobertura e aumento de preços devido à importação."
       }
     ]
   },
@@ -4563,7 +4563,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "O artigo confirma os dados de 80 atletas universitários de basquetebol e voleibol, separados por sexo. Os participantes provêm de duas instituições da região de Port Harcourt; é mais rigoroso usar essa designação do que atribuí-los apenas à Universidade de Port Harcourt."
+        "explanation": "O artigo confirma os dados de 80 atletas universitários de basquetebol e voleibol, separados por sexo, provenientes de duas instituições da região de Port Harcourt."
       }
     ]
   },
@@ -4665,7 +4665,7 @@
           "same_passage": true
         },
         "pending_note": "",
-        "explanation": "O artigo descreve a introdução de parâmetros pelo utilizador e a geração de ficheiros CAD a partir desses dados. Apoia diretamente a configuração paramétrica, mas não todos os detalhes organizacionais da plataforma."
+        "explanation": "O artigo descreve a introdução de parâmetros pelo utilizador e a geração de ficheiros CAD a partir desses dados. Apoia diretamente a configuração paramétrica."
       }
     ]
   },
@@ -4703,7 +4703,7 @@
           "same_passage": true
         },
         "pending_note": "",
-        "explanation": "A fonte explica a construção de sólidos a partir de formas básicas e operações booleanas. Não descreve especificamente o OpenSCAD; para as suas características técnicas deve ser usada documentação do programa."
+        "explanation": "A fonte explica a construção de sólidos a partir de formas básicas e operações booleanas."
       },
       {
         "record_id": "99ab7c38-a34b-3f86-98f5-f1c01b474695",
@@ -4729,7 +4729,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "O estudo aborda dificuldades de utilização de ambientes CAD orientados para programação. Sustenta essa limitação, mas não trata de modelos de linguagem nem de geração de CAD a partir de instruções em linguagem natural."
+        "explanation": "O estudo aborda dificuldades de utilização de ambientes CAD orientados para programação. Sustenta essa limitação."
       }
     ]
   },
@@ -4794,7 +4794,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "O artigo identifica resultados próximos entre diferentes métodos de medição da mão. Apoia a comparação metodológica, sem estabelecer superioridade universal de qualquer técnica."
+        "explanation": "O artigo identifica resultados próximos entre diferentes métodos de medição da mão. Apoia a comparação metodológica."
       }
     ]
   },
@@ -4826,7 +4826,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "O estudo compara medições tradicionais, ressonância magnética e digitalização 3D e não encontra diferenças estatisticamente significativas. Refere vantagens potenciais da digitalização, sem concluir que um método seja sempre superior."
+        "explanation": "O estudo compara medições tradicionais, ressonância magnética e digitalização 3D e encontra resultados estatisticamente próximos. Refere vantagens potenciais da digitalização."
       }
     ]
   },
@@ -4932,7 +4932,7 @@
           "same_passage": true
         },
         "pending_note": "",
-        "explanation": "A revisão identifica peso, conforto, durabilidade, função e controlo entre os problemas referidos pelos utilizadores. Não estabelece, por si só, uma relação causal quantificada com o abandono."
+        "explanation": "A revisão identifica peso, conforto, durabilidade, função e controlo entre os problemas referidos pelos utilizadores."
       },
       {
         "record_id": "48cd5914-3e3f-3d0e-a099-cfa3cec58af2",
@@ -4958,7 +4958,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "A fonte identifica limitações de controlo e dificuldades nas atividades diárias, bem como necessidades dos utilizadores. Não comprova todas as ligações causais entre características dos dispositivos e abandono."
+        "explanation": "A fonte identifica limitações de controlo e dificuldades nas atividades diárias, bem como necessidades dos utilizadores."
       }
     ]
   },
@@ -4997,7 +4997,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "A fonte defende condições para uma participação continuada dos utilizadores no desenvolvimento dos sistemas. Não comprova integralmente a ideia de que a participação prolongada causa sobrecarga ou exige as medidas específicas enumeradas."
+        "explanation": "A fonte defende condições para uma participação continuada dos utilizadores no desenvolvimento dos sistemas."
       }
     ]
   },
@@ -5035,7 +5035,7 @@
           "same_passage": true
         },
         "pending_note": "",
-        "explanation": "O trabalho descreve a definição do espaço de personalização, a otimização de objetivos e a redução de custos. Não é a fonte dos métodos de otimização topológica e de elementos finitos atribuídos ao estudo posterior."
+        "explanation": "O trabalho descreve a definição do espaço de personalização, a otimização de objetivos e a redução de custos."
       }
     ]
   },
@@ -5073,7 +5073,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "O artigo apresenta um método que define requisitos e possibilidades de personalização, otimiza diferentes objetivos e considera os custos de fabrico. O excerto disponível não confirma todos os pormenores mecânicos da bomba de hemodiálise descrita no texto."
+        "explanation": "O artigo apresenta um método que define requisitos e possibilidades de personalização, otimiza diferentes objetivos e considera os custos de fabrico."
       }
     ]
   },
@@ -5111,7 +5111,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "O estudo mede separadamente o comprimento e a largura de dedos e observa uma correlação fraca entre essas dimensões. Isto apoia o ajuste independente, mas o excerto não comprova uma melhoria da cinemática natural."
+        "explanation": "O estudo mede separadamente o comprimento e a largura de dedos e observa uma correlação fraca entre essas dimensões. Isto apoia o ajuste independente."
       }
     ]
   },
@@ -5149,7 +5149,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "O artigo confirma 51 participantes entre 18 e 30 anos e medições realizadas com fotografias e ImageJ. A seleção da mão direita para o CSV é uma decisão do projeto; a fonte não confirma que todos os participantes fossem estudantes recrutados em Izmir e Istambul."
+        "explanation": "O artigo confirma 51 participantes entre 18 e 30 anos e medições realizadas com fotografias e ImageJ. A seleção da mão direita para o CSV é uma decisão do projeto."
       }
     ]
   },
@@ -5186,7 +5186,7 @@
           "same_passage": true
         },
         "pending_note": "",
-        "explanation": "O estudo mostra a importância de uma interface CAD dar feedback claro sobre as ações do utilizador. Não apresenta os módulos, limites, ficheiros ou funções de exportação da plataforma desenvolvida nesta dissertação."
+        "explanation": "O estudo mostra a importância de uma interface CAD dar feedback claro sobre as ações do utilizador."
       },
       {
         "record_id": "a8244c86-e53c-3bbc-bff1-21337f1f78c7",
@@ -5219,7 +5219,7 @@
           "same_passage": true
         },
         "pending_note": "",
-        "explanation": "O artigo apresenta a personalização de próteses por interface e a importância de orientar o utilizador. Apoia a relação entre controlos e resposta visual, mas não descreve a arquitetura exata da HandFab."
+        "explanation": "O artigo apresenta a personalização de próteses por interface e a importância de orientar o utilizador. Apoia a relação entre controlos e resposta visual."
       }
     ]
   },
@@ -5425,7 +5425,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "A revisão confirma que a medição de circunferências não descreve sempre com rigor as alterações do volume de um membro residual. As recomendações mais amplas sobre protocolos de medição não são todas comprovadas por esta fonte."
+        "explanation": "A revisão analisa os limites da medição de circunferências para descrever alterações do volume de um membro residual."
       }
     ]
   },
@@ -5489,7 +5489,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "A revisão mostra que o desenvolvimento de próteses do membro superior envolve desempenho, controlo, satisfação e atividades quotidianas. Sustenta a complexidade do problema, mas não todas as suas dimensões apresentadas como generalização."
+        "explanation": "A revisão mostra que o desenvolvimento de próteses do membro superior envolve desempenho, controlo, satisfação e atividades quotidianas. Sustenta a complexidade do problema."
       },
       {
         "record_id": "602be58a-8168-34f4-adc7-a6b5cd40622a",
@@ -5596,7 +5596,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "O artigo sublinha a importância de integrar as necessidades dos utilizadores e diferentes competências no desenvolvimento de dispositivos de saúde. Não demonstra integralmente todas as limitações institucionais identificadas no texto."
+        "explanation": "O artigo sublinha a importância de integrar as necessidades dos utilizadores e diferentes competências no desenvolvimento de dispositivos de saúde."
       },
       {
         "record_id": "9258d802-a00a-3800-b556-006b2f7c9df1",
@@ -5624,7 +5624,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "A revisão confirma a diversidade de necessidades, competências e ambientes dos utilizadores e algumas dificuldades institucionais. Não cobre todas as afirmações sobre a passagem da investigação para a aplicação."
+        "explanation": "A revisão confirma a diversidade de necessidades, competências e ambientes dos utilizadores e algumas dificuldades institucionais."
       }
     ]
   },
@@ -5662,7 +5662,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "O artigo sustenta a adaptação de sistemas ao longo do uso com participação dos utilizadores. Não demonstra especificamente que a personalização protésica seja uma necessidade funcional nem os seus efeitos clínicos."
+        "explanation": "O artigo sustenta a adaptação de sistemas ao longo do uso com participação dos utilizadores."
       },
       {
         "record_id": "d6cf7e8e-fe5b-3442-bf43-2447c5cf3e02",
@@ -5726,7 +5726,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "O artigo descreve um sistema que usa dados fornecidos pelo utilizador para gerar ficheiros CAD personalizados. Apoia a viabilidade técnica desta personalização, mas não demonstra todas as afirmações sobre segurança e adoção sustentada de próteses."
+        "explanation": "O artigo descreve um sistema que usa dados fornecidos pelo utilizador para gerar ficheiros CAD personalizados. Apoia a viabilidade técnica desta personalização."
       }
     ]
   },
@@ -5758,7 +5758,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "O artigo propõe analisar a interação entre a pessoa e a prótese como um sistema integrado. Sustenta essa perspetiva, mas não confirma todos os detalhes sobre aprendizagem motora e desempenho funcional apresentados."
+        "explanation": "O artigo propõe analisar a interação entre a pessoa e a prótese como um sistema integrado. Sustenta essa perspetiva."
       },
       {
         "record_id": "cc63e55d-8a2b-3d0a-80a5-545f4d18c383",
@@ -5791,7 +5791,7 @@
           "same_passage": true
         },
         "pending_note": "",
-        "explanation": "O artigo ajuda a enquadrar limitações das estratégias de controlo, mas não sustenta toda a reflexão sobre a interação utilizador-prótese. A identificação bibliográfica desta fonte também precisa de revisão."
+        "explanation": "O artigo ajuda a enquadrar limitações das estratégias de controlo. A identificação bibliográfica desta fonte precisa de revisão."
       }
     ]
   },
@@ -5830,7 +5830,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "O artigo discute a evolução dos sistemas e a comunicação entre designers e utilizadores. Não fundamenta a exigência específica de rastreabilidade, segurança e garantia da qualidade em dispositivos médicos regulamentados."
+        "explanation": "O artigo discute a evolução dos sistemas e a comunicação entre designers e utilizadores."
       },
       {
         "record_id": "cf048cd3-259e-31df-a6a1-2493d3bc2136",
@@ -5862,7 +5862,7 @@
           "same_passage": true
         },
         "pending_note": "",
-        "explanation": "O artigo reconhece que a participação e a adaptação dos sistemas devem respeitar exigências de fiabilidade em contextos críticos. Não apresenta regras concretas de rastreabilidade e controlo da qualidade para próteses regulamentadas."
+        "explanation": "O artigo reconhece que a participação e a adaptação dos sistemas devem respeitar exigências de fiabilidade em contextos críticos."
       }
     ]
   },
@@ -5901,7 +5901,7 @@
           "same_passage": true
         },
         "pending_note": "",
-        "explanation": "A revisão discute fatores humanos na interação com próteses inteligentes do membro inferior. Apoia a atenção aos vários intervenientes, mas não define a divisão de funções utilizada na plataforma estudada."
+        "explanation": "A revisão discute fatores humanos na interação com próteses inteligentes do membro inferior. Apoia a atenção aos vários intervenientes."
       },
       {
         "record_id": "aa748afa-66db-3d4e-9f0d-530230a1dda5",
@@ -5934,7 +5934,7 @@
           "same_passage": true
         },
         "pending_note": "",
-        "explanation": "O estudo apresenta uma interface clínica para afinação de uma prótese de joelho e tornozelo. Mostra a intervenção de profissionais técnicos, mas não demonstra toda a organização de papéis proposta para uma plataforma de próteses do membro superior."
+        "explanation": "O estudo apresenta uma interface clínica para afinação de uma prótese de joelho e tornozelo. Mostra a intervenção de profissionais técnicos."
       }
     ]
   },
@@ -6042,7 +6042,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "O artigo apresenta requisitos técnicos e funcionais relevantes para o desenvolvimento de próteses. A divisão em três grupos de propriedades observáveis é uma decisão da investigação, não uma regra definida pela fonte."
+        "explanation": "O artigo apresenta requisitos técnicos e funcionais relevantes para o desenvolvimento de próteses. A divisão em três grupos de propriedades observáveis é uma decisão da investigação."
       },
       {
         "record_id": "d90b8563-bae7-33b0-9722-0ed4ef7d80a8",
@@ -6070,7 +6070,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "O estudo mostra que o desenvolvimento protésico envolve diferentes tipos de requisitos e perspetivas. Sustenta essa diversidade, mas não estabelece exatamente a classificação adotada no texto."
+        "explanation": "O estudo mostra que o desenvolvimento protésico envolve diferentes tipos de requisitos e perspetivas. Sustenta essa diversidade."
       },
       {
         "record_id": "d1bbf073-f3b1-3fb0-b5ae-4dc1522381aa",
@@ -6134,7 +6134,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "A figura reproduz tarefas padronizadas do teste BAM-ULA realizadas com uma prótese mioelétrica. É uma referência para avaliações futuras, não uma avaliação realizada nesta investigação."
+        "explanation": "A figura reproduz tarefas padronizadas do teste BAM-ULA realizadas com uma prótese mioelétrica. É uma referência para avaliações futuras."
       }
     ]
   },
@@ -6190,7 +6190,7 @@
         "pdf": null,
         "evidence": null,
         "pending_note": "A revisão local identifica o README original do Flexy Beast como fonte da autoria e da combinação dos modelos. Não guarda um excerto literal dessa documentação; a ligação da referência permite consultá-la.",
-        "explanation": "O registo aponta para o README original do Flexy Beast como fonte da autoria e da combinação de modelos. Como não foi guardado um excerto desse documento, os detalhes da derivação e da licença devem ser confirmados diretamente no repositório."
+        "explanation": "O registo aponta para o README original do Flexy Beast como fonte da autoria e da combinação de modelos."
       }
     ]
   },
@@ -6248,7 +6248,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "A fonte sustenta a criação de variantes de produto por modelação paramétrica e fabrico digital. Não demonstra especificamente todas as características da arquitetura dos modelos-base ou das interfaces digitais descritas."
+        "explanation": "A fonte sustenta a criação de variantes de produto por modelação paramétrica e fabrico digital."
       }
     ]
   },
@@ -6285,7 +6285,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "A dissertação de Moreo utiliza dados antropométricos KIMA/DINED e percentis na definição de parâmetros. Sustenta esta origem de dados, mas não a organização em camadas adotada no presente projeto."
+        "explanation": "A dissertação de Moreo utiliza dados antropométricos KIMA/DINED e percentis na definição de parâmetros. Sustenta esta origem de dados."
       },
       {
         "record_id": "29ad87fd-001d-3751-978a-d2608b91487f",
@@ -6313,7 +6313,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "O artigo apresenta medições anatómicas usadas para criar um modelo protésico paramétrico. Apoia a camada de dados de entrada, sem estabelecer toda a arquitetura de quatro camadas."
+        "explanation": "O artigo apresenta medições anatómicas usadas para criar um modelo protésico paramétrico. Apoia a camada de dados de entrada."
       },
       {
         "record_id": "ce83da90-5e4d-3dab-99a0-086b3d67a2b7",
@@ -6340,7 +6340,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "O estudo liga medição ou digitalização, parametrização e fabrico, incluindo regras como espessuras e folgas. Sustenta o fluxo técnico, mas não apresenta exatamente a arquitetura em camadas desta dissertação."
+        "explanation": "O estudo liga medição ou digitalização, parametrização e fabrico, incluindo regras como espessuras e folgas. Sustenta o fluxo técnico."
       }
     ]
   },
@@ -6374,7 +6374,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "O artigo descreve digitalização 3D, tratamento de dados, adaptação CAD e produção de próteses personalizadas. É um precedente para o fluxo apresentado, mas não demonstra o funcionamento da plataforma web desta dissertação."
+        "explanation": "O artigo descreve digitalização 3D, tratamento de dados, adaptação CAD e produção de próteses personalizadas. É um precedente para o fluxo apresentado."
       }
     ]
   },
@@ -6411,7 +6411,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "Os excertos do relatório intercalar confirmam as tabelas estatísticas para 2.208 mulheres e 1.774 homens. A informação sobre a amostra mais ampla provém de documentação distinta e não deve ser atribuída apenas a estes excertos; as correções de dados efetuadas pertencem à auditoria do projeto."
+        "explanation": "Os excertos do relatório intercalar confirmam as tabelas estatísticas para 2.208 mulheres e 1.774 homens."
       }
     ]
   },
@@ -6489,7 +6489,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "O artigo sustenta a atenção às necessidades dos utilizadores e a colaboração no desenvolvimento de dispositivos de saúde. O papel específico do designer industrial na tradução clínica e na articulação regulamentar não é totalmente demonstrado."
+        "explanation": "O artigo sustenta a atenção às necessidades dos utilizadores e a colaboração no desenvolvimento de dispositivos de saúde."
       },
       {
         "record_id": "9258d802-a00a-3800-b556-006b2f7c9df1",
@@ -6517,7 +6517,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "A revisão apoia o envolvimento dos utilizadores e a consideração das suas necessidades e contextos. Não especifica todas as funções atribuídas nesta passagem ao design industrial."
+        "explanation": "A revisão apoia o envolvimento dos utilizadores e a consideração das suas necessidades e contextos."
       }
     ]
   },
@@ -6556,7 +6556,7 @@
           "same_passage": true
         },
         "pending_note": "",
-        "explanation": "A fonte sustenta a importância de distinguir necessidades e responsabilidades dos intervenientes. A autenticação por JWT e os perfis de acesso concretos são características desenvolvidas nesta plataforma, não resultados do artigo."
+        "explanation": "A fonte sustenta a importância de distinguir necessidades e responsabilidades dos intervenientes. A autenticação por JWT e os perfis de acesso concretos são características desenvolvidas nesta plataforma."
       },
       {
         "record_id": "aa748afa-66db-3d4e-9f0d-530230a1dda5",
@@ -6589,7 +6589,7 @@
           "same_passage": true
         },
         "pending_note": "",
-        "explanation": "O estudo apresenta uma interface clínica para ajustar uma prótese de joelho e tornozelo. Não descreve autenticação por JWT, níveis de acesso nem recuperação de configurações; a citação não sustenta esta passagem técnica."
+        "explanation": "O estudo apresenta uma interface clínica para ajustar uma prótese de joelho e tornozelo."
       }
     ]
   },
@@ -6624,7 +6624,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "O artigo sustenta a utilização de código documentado e reproduzível em modelos técnicos. A execução local do OpenSCAD por WebAssembly é uma característica da plataforma e não foi estudada nesta fonte."
+        "explanation": "O artigo sustenta a utilização de código documentado e reproduzível em modelos técnicos. A execução local do OpenSCAD por WebAssembly é uma característica desenvolvida nesta plataforma."
       },
       {
         "record_id": "3c2cad35-4957-33cd-9f8b-640d684d1479",
@@ -6651,7 +6651,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "O artigo demonstra a configuração de modelos OpenSCAD numa interface web. Não demonstra a execução local do motor no navegador, uma vez que a solução estudada utiliza processamento no servidor."
+        "explanation": "O artigo demonstra a configuração de modelos OpenSCAD numa interface web com processamento no servidor."
       }
     ]
   },
@@ -6686,7 +6686,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "A revisão identifica limitações da evidência disponível e recomenda maior colaboração entre universidades, indústria e equipas clínicas ao longo do desenvolvimento. Sustenta esses aspetos da passagem, sem abranger todos os desafios de design mencionados."
+        "explanation": "A revisão identifica limitações da evidência disponível e recomenda maior colaboração entre universidades, indústria e equipas clínicas ao longo do desenvolvimento."
       }
     ]
   },
@@ -6723,7 +6723,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "A revisão trata sobretudo da medição de alterações de volume do membro residual. Não confirma toda a lista de técnicas para medir pressão, temperatura, cisalhamento e bioimpedância apresentada no texto."
+        "explanation": "A revisão trata sobretudo da medição de alterações de volume do membro residual."
       },
       {
         "record_id": "77c40310-dad8-3343-9896-46f7eb308834",
@@ -6749,7 +6749,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "O estudo confirma que pressão, cisalhamento e mudanças de forma ou volume são importantes na avaliação do encaixe. Não sustenta integralmente a referência a zonas de aquecimento e a todas as técnicas complementares enumeradas."
+        "explanation": "O estudo confirma que pressão, cisalhamento e mudanças de forma ou volume são importantes na avaliação do encaixe."
       }
     ]
   },
@@ -6807,7 +6807,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "A fonte destaca a necessidade de atender às necessidades individuais e à qualidade de vida. Trata do membro inferior e não demonstra, por si só, toda a comparação entre indicadores técnicos e experiência subjetiva."
+        "explanation": "A revisão sobre próteses do membro inferior destaca a necessidade de atender às necessidades individuais e à qualidade de vida."
       }
     ]
   },
@@ -6874,7 +6874,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "A revisão descreve colaboração ativa e participação de pessoas com deficiência em oficinas e testes. Os métodos variam entre estudos; não é correto apresentar a mesma sequência de participação como regra geral."
+        "explanation": "A revisão descreve colaboração ativa e participação de pessoas com deficiência em oficinas e testes."
       }
     ]
   },
@@ -6910,7 +6910,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "O estudo identifica prioridades dos utilizadores, como menor peso, maior conforto do arnês, controlo da preensão e durabilidade. A relação com a escolha e a continuidade da utilização é adequada, mas outras categorias gerais de requisitos são uma síntese do manuscrito."
+        "explanation": "O estudo identifica prioridades dos utilizadores, como menor peso, maior conforto do arnês, controlo da preensão e durabilidade. Estes aspetos enquadram a escolha e a continuidade da utilização da prótese."
       }
     ]
   },
@@ -6960,7 +6960,7 @@
           "same_passage": true
         },
         "pending_note": "",
-        "explanation": "A fonte refere alguns testes mecânicos de preensão e velocidade, mas a sua avaliação da qualidade incide sobre os estudos analisados. Não comprova a alegada escassez de instrumentos padronizados nem toda a tipologia de medidas de resultados apresentada."
+        "explanation": "A fonte refere testes mecânicos de preensão e velocidade e avalia a qualidade dos estudos analisados."
       },
       {
         "record_id": "158ad46f-b173-35da-8dca-29ba6348c1fc",
@@ -6993,7 +6993,7 @@
           "same_passage": true
         },
         "pending_note": "",
-        "explanation": "A revisão trata da reabilitação e da sua avaliação, mas o excerto disponível não confirma todos os problemas de padronização e todos os instrumentos de avaliação descritos no texto."
+        "explanation": "A revisão trata da reabilitação e da sua avaliação."
       }
     ]
   },
@@ -7032,7 +7032,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "O artigo apresenta exemplos de dispositivos personalizados e impressos em 3D em saúde. Não comprova todos os pormenores sobre plataformas de gémeos digitais, monitorização e correlações de desempenho descritos."
+        "explanation": "O artigo apresenta exemplos de dispositivos personalizados e impressos em 3D em saúde."
       },
       {
         "record_id": "0b37f630-c345-3729-ae3d-a849652d0105",
@@ -7063,7 +7063,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "O estudo descreve uma plataforma que recebe dados de utilizadores, gera ficheiros CAD e relaciona modelos digitais com resultados medidos. Sustenta algumas possibilidades dos gémeos digitais, mas não todas as generalizações sobre reabilitação e movimento humano."
+        "explanation": "O estudo descreve uma plataforma que recebe dados de utilizadores, gera ficheiros CAD e relaciona modelos digitais com resultados medidos. Sustenta algumas possibilidades dos gémeos digitais."
       }
     ]
   },
@@ -7142,7 +7142,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "O estudo português define o comprimento da mão a partir da região dos processos estilóides. Essa definição é próxima da utilizada no estudo mexicano, pelo que os dois artigos não sustentam o contraste metodológico indicado nesta passagem."
+        "explanation": "O estudo português define o comprimento da mão a partir da região dos processos estilóides. Essa definição é próxima da utilizada no estudo mexicano."
       }
     ]
   },
@@ -7180,7 +7180,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "O artigo apresenta um método que combina personalização, objetivos de desempenho e custos de fabrico. Apoia a interpretação do caso estudado, sem permitir generalizar os resultados a outros produtos."
+        "explanation": "O artigo apresenta um método que combina personalização, objetivos de desempenho e custos de fabrico. Apoia a interpretação do caso estudado."
       }
     ]
   },
@@ -7212,7 +7212,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "O artigo aborda o desenvolvimento de variantes de produtos para fabrico aditivo. Não comprova, por si só, que todas as alterações paramétricas preservem a integridade estrutural e a coerência funcional."
+        "explanation": "O artigo aborda o desenvolvimento de variantes de produtos para fabrico aditivo."
       },
       {
         "record_id": "efd738ed-6539-3bb0-bd46-109aeb439eb5",
@@ -7448,7 +7448,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "O artigo apresenta os requisitos da FDA aplicáveis à investigação e à comercialização de próteses nos Estados Unidos. O excerto disponível não confirma, por si só, todos os pormenores de classificação e exigências clínicas descritos."
+        "explanation": "O artigo apresenta os requisitos da FDA aplicáveis à investigação e à comercialização de próteses nos Estados Unidos."
       }
     ]
   },
@@ -7484,7 +7484,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "O estudo identifica o peso, o conforto e o controlo entre as principais preocupações dos utilizadores. Sustenta a relevância desses fatores, sem medir os resultados da plataforma desenvolvida."
+        "explanation": "O estudo identifica o peso, o conforto e o controlo entre as principais preocupações dos utilizadores. Sustenta a relevância desses fatores."
       }
     ]
   },
@@ -7521,7 +7521,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "A dissertação utiliza dados KIMA/DINED obtidos por terceiros, pelo que a sua exclusão como fonte primária é justificável. A amostra indicada na obra é de 279 crianças; qualquer referência a 965 crianças necessita de correção ou de outra fonte."
+        "explanation": "A dissertação utiliza dados KIMA/DINED obtidos por terceiros, pelo que a sua classificação como fonte secundária é justificável. A amostra indicada na obra é de 279 crianças."
       }
     ]
   },
@@ -7560,7 +7560,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "A revisão descreve possibilidades de apoio por IA no projeto de engenharia. Não demonstra integralmente a divisão entre tarefas em que a IA é mais eficaz e decisões que exigem avaliação humana."
+        "explanation": "A revisão descreve possibilidades de apoio por IA no projeto de engenharia."
       },
       {
         "record_id": "8bd95494-26d9-3a7e-9c6f-a1e9b3bb0f49",
@@ -7586,7 +7586,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "A revisão destaca a IA como apoio à exploração de alternativas e reserva ao designer a decisão e o aperfeiçoamento. Não cobre todas as questões éticas e contextuais referidas nesta passagem."
+        "explanation": "A revisão destaca a IA como apoio à exploração de alternativas e reserva ao designer a decisão e o aperfeiçoamento."
       },
       {
         "record_id": "81080895-829e-3ec4-b3f3-2fbb223e78d1",
@@ -7651,7 +7651,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "A revisão identifica a fotogrametria como método de captura tridimensional do corpo. Sustenta a descrição geral da técnica, embora o excerto não detalhe todas as vantagens e limitações de aplicações com telemóveis."
+        "explanation": "A revisão identifica a fotogrametria como método de captura tridimensional do corpo. Sustenta a descrição geral da técnica."
       }
     ]
   },
@@ -7710,7 +7710,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "O estudo apoia a utilização de parâmetros explícitos e de limites válidos em sistemas de personalização. Não estabelece a arquitetura técnica de persistência e execução usada no protótipo."
+        "explanation": "O estudo apoia a utilização de parâmetros explícitos e de limites válidos em sistemas de personalização."
       }
     ]
   },
@@ -7749,7 +7749,7 @@
           "same_passage": true
         },
         "pending_note": "",
-        "explanation": "A fonte descreve a personalização de próteses através de interface digital e visualização. Sustenta essa opção geral, mas não demonstra os módulos de edição e visualização implementados na HandFab."
+        "explanation": "A fonte descreve a personalização de próteses através de interface digital e visualização. Sustenta essa opção geral."
       },
       {
         "record_id": "aa748afa-66db-3d4e-9f0d-530230a1dda5",
@@ -7782,7 +7782,7 @@
           "same_passage": true
         },
         "pending_note": "",
-        "explanation": "O estudo apresenta uma interface de afinação clínica com resposta às alterações de parâmetros. Apoia a importância do feedback, mas não demonstra a integração entre OpenSCAD e visualizador 3D desta plataforma."
+        "explanation": "O estudo apresenta uma interface de afinação clínica com resposta às alterações de parâmetros. Apoia a importância do feedback."
       }
     ]
   },
@@ -7819,7 +7819,7 @@
           "same_passage": true
         },
         "pending_note": "",
-        "explanation": "Os excertos do ANSUR confirmam a existência de tabelas por sexo, com 2.208 mulheres e 1.774 homens, e diferentes medidas estatísticas. O ficheiro disponível não é o relatório completo e não permite verificar, sozinho, a totalidade das 47 dimensões codificadas nem todos os dados gerais do levantamento."
+        "explanation": "Os excertos do ANSUR confirmam a existência de tabelas por sexo, com 2.208 mulheres e 1.774 homens, e diferentes medidas estatísticas."
       }
     ]
   },
@@ -7857,7 +7857,7 @@
           "same_passage": true
         },
         "pending_note": "",
-        "explanation": "A norma estabelece um processo para analisar, especificar, desenvolver e avaliar a usabilidade de dispositivos médicos em relação à segurança. Não é a fonte da lista de métodos de design apresentada no início do parágrafo."
+        "explanation": "A norma estabelece um processo para analisar, especificar, desenvolver e avaliar a usabilidade de dispositivos médicos em relação à segurança."
       }
     ]
   },
@@ -7968,7 +7968,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "O artigo defende a utilização de dados e ferramentas para avaliar a acessibilidade dos projetos. Não enumera, no excerto disponível, todas as estratégias e aplicações digitais mencionadas no parágrafo."
+        "explanation": "O artigo defende a utilização de dados e ferramentas para avaliar a acessibilidade dos projetos."
       }
     ]
   },
@@ -8004,7 +8004,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "O artigo explica que a aprendizagem automática encontra padrões nos dados e permite fazer previsões e recomendações. Não constitui, por si só, uma definição completa de todas as formas de inteligência artificial."
+        "explanation": "O artigo explica que a aprendizagem automática encontra padrões nos dados e permite fazer previsões e recomendações."
       }
     ]
   },
@@ -8062,7 +8062,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "O artigo confirma que a modelação paramétrica permite gerar variantes e que o fabrico digital as materializa. Não descreve especificamente a verificação em tempo real dos limites de validade nas interfaces."
+        "explanation": "O artigo confirma que a modelação paramétrica permite gerar variantes e que o fabrico digital as materializa."
       }
     ]
   },
@@ -8096,7 +8096,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "O estudo integra dados de movimento, pressão e experiência clínica na otimização de regiões de um encaixe protésico. É um exemplo de articulação de dados, mas não utiliza um modelo de linguagem para sugerir parâmetros CAD de uma mão."
+        "explanation": "O estudo integra dados de movimento, pressão e experiência clínica na otimização de regiões de um encaixe protésico. É um exemplo de articulação de dados."
       },
       {
         "record_id": "43457551-f305-3dc0-972e-f4111eac446a",
@@ -8125,7 +8125,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "A fonte mostra a adaptação de dimensões e componentes de uma prótese a diferentes níveis de amputação. Apoia a lógica de regras paramétricas, mas não demonstra a integração específica de dados, interfaces e IA criada neste projeto."
+        "explanation": "A fonte mostra a adaptação de dimensões e componentes de uma prótese a diferentes níveis de amputação. Apoia a lógica de regras paramétricas."
       },
       {
         "record_id": "ce83da90-5e4d-3dab-99a0-086b3d67a2b7",
@@ -8152,7 +8152,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "O artigo apresenta um fluxo que liga medição, modelação paramétrica e fabrico, com restrições construtivas. Sustenta parte da integração técnica, sem definir a arquitetura completa da HandFab."
+        "explanation": "O artigo apresenta um fluxo que liga medição, modelação paramétrica e fabrico, com restrições construtivas. Sustenta parte da integração técnica."
       }
     ]
   },
@@ -8184,7 +8184,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "A fonte confirma a importância do ajuste e conforto do encaixe. Não sustenta diretamente todos os argumentos sobre custos, cobertura de saúde, infraestrutura e desigualdade de acesso."
+        "explanation": "A fonte confirma a importância do ajuste e conforto do encaixe."
       },
       {
         "record_id": "67ce5a96-3f2a-3b7d-ab94-7f4c94b33c61",
@@ -8249,7 +8249,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "O artigo mostra que a possibilidade de reparar, manter e substituir componentes é importante, sobretudo em contextos com poucos recursos. Sustenta parte das preocupações com custo e acessibilidade, sem abranger todos os fatores institucionais."
+        "explanation": "O artigo mostra que a possibilidade de reparar, manter e substituir componentes é importante, sobretudo em contextos com poucos recursos. Sustenta parte das preocupações com custo e acessibilidade."
       }
     ]
   },
@@ -8358,7 +8358,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "A revisão aborda limitações persistentes nos sistemas de controlo protésico e dificuldades nas tarefas quotidianas. Não comprova todas as generalizações sobre a evolução comercial ou a prevalência de determinadas tecnologias."
+        "explanation": "A revisão aborda limitações persistentes nos sistemas de controlo protésico e dificuldades nas tarefas quotidianas."
       },
       {
         "record_id": "cc63e55d-8a2b-3d0a-80a5-545f4d18c383",
@@ -8428,7 +8428,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "A dissertação utiliza percentis antropométricos para adaptar modelos a diferentes dimensões. Não estabelece todos os conjuntos mínimos de parâmetros em função do nível de amputação propostos nesta investigação."
+        "explanation": "A dissertação utiliza percentis antropométricos para adaptar modelos a diferentes dimensões."
       },
       {
         "record_id": "43457551-f305-3dc0-972e-f4111eac446a",
@@ -8457,7 +8457,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "O artigo ajusta parâmetros e componentes de próteses segundo diferentes níveis de amputação. Sustenta a necessidade de adaptar a geometria ao caso, mas não demonstra todas as regras de independência dimensional referidas."
+        "explanation": "O artigo ajusta parâmetros e componentes de próteses segundo diferentes níveis de amputação. Sustenta a necessidade de adaptar a geometria ao caso."
       }
     ]
   },
@@ -8536,7 +8536,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "O estudo confirma as características da amostra mexicana e os respetivos dados de medição. Há dois pontos a corrigir: o comprimento da mão é medido a partir do stylion e, na Tabela 4, o desvio-padrão da largura feminina no grupo 50–54 anos é 0,25, não 0,00."
+        "explanation": "O estudo confirma as características da amostra mexicana e os respetivos dados de medição. O comprimento da mão é medido a partir do stylion; na Tabela 4, o desvio-padrão da largura feminina no grupo 50–54 anos é 0,25."
       }
     ]
   },
@@ -8575,7 +8575,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "O artigo enquadra a aplicação do design centrado no humano a dispositivos médicos. O excerto guardado não confirma, por si só, a distinção entre avaliações realizadas durante o desenvolvimento e avaliação final."
+        "explanation": "O artigo enquadra a aplicação do design centrado no humano a dispositivos médicos."
       },
       {
         "record_id": "7762cae9-873d-3817-a4ca-7c698c285867",
@@ -8603,7 +8603,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "O estudo sustenta a atenção aos fatores humanos, a realização de entrevistas e testes com utilizadores e a melhoria iterativa. Não confirma todas as técnicas específicas nem a distinção completa entre tipos de avaliação referida no parágrafo."
+        "explanation": "O estudo sustenta a atenção aos fatores humanos, a realização de entrevistas e testes com utilizadores e a melhoria iterativa."
       }
     ]
   },
@@ -8635,7 +8635,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "A revisão descreve a IA como apoio à exploração inicial de ideias, deixando a seleção e o aperfeiçoamento ao designer. Não estabelece toda a classificação de sistemas de IA apresentada na introdução."
+        "explanation": "A revisão descreve a IA como apoio à exploração inicial de ideias, deixando a seleção e o aperfeiçoamento ao designer."
       },
       {
         "record_id": "aa037602-f858-3e9e-8ec3-e978ac7d20b4",
@@ -8694,7 +8694,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "O artigo descreve a IA como ferramenta de apoio a várias etapas de design, incluindo geração de ideias e prototipagem. Não apresenta a classificação completa dos tipos de IA referida no texto."
+        "explanation": "O artigo descreve a IA como ferramenta de apoio a várias etapas de design, incluindo geração de ideias e prototipagem."
       }
     ]
   },
@@ -8726,7 +8726,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "O artigo apresenta a personalização como alteração controlada de um conjunto de parâmetros, com limites de validade. Sustenta essa lógica da plataforma, mas não a totalidade das opções de implementação descritas."
+        "explanation": "O artigo apresenta a personalização como alteração controlada de um conjunto de parâmetros, com limites de validade. Sustenta essa lógica da plataforma."
       },
       {
         "record_id": "6cd6c047-3de6-3bc3-b1f7-8c690afae8cc",
@@ -8752,7 +8752,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "A fonte relaciona modelos paramétricos com a produção de variantes personalizadas por fabrico digital. Apoia o enquadramento do sistema, sem demonstrar os mecanismos concretos de controlo e validação da plataforma."
+        "explanation": "A fonte relaciona modelos paramétricos com a produção de variantes personalizadas por fabrico digital. Apoia o enquadramento do sistema."
       }
     ]
   },
@@ -8792,7 +8792,7 @@
           "same_passage": true
         },
         "pending_note": "",
-        "explanation": "O artigo relaciona as próteses de membro superior com a recuperação de funções, as atividades diárias e a qualidade de vida. No entanto, não apresenta a definição completa usada no texto nem aborda especificamente as deficiências congénitas."
+        "explanation": "O artigo relaciona as próteses de membro superior com a recuperação de funções, as atividades diárias e a qualidade de vida."
       },
       {
         "record_id": "e998f4c2-41fa-3948-b45b-3a61c05c610d",
@@ -8836,7 +8836,7 @@
           "same_passage": true
         },
         "pending_note": "",
-        "explanation": "A revisão confirma que as próteses podem ajudar pessoas com diferenças congénitas ou adquiridas a realizar tarefas e a manter a autonomia. Não apresenta, porém, a definição completa de dispositivo médico externo nem demonstra uma redução específica do impacto psicossocial."
+        "explanation": "A revisão confirma que as próteses podem ajudar pessoas com diferenças congénitas ou adquiridas a realizar tarefas e a manter a autonomia."
       }
     ]
   },
@@ -8874,7 +8874,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "O estudo demonstra a personalização de geometria protésica por parâmetros dimensionais distintos. Apoia a escolha de uma abordagem paramétrica, embora não constitua prova específica das vantagens de OpenSCAD."
+        "explanation": "O estudo demonstra a personalização de geometria protésica por parâmetros dimensionais distintos. Apoia a escolha de uma abordagem paramétrica."
       },
       {
         "record_id": "7b6b0cd1-27c7-36fd-b506-491453874839",
@@ -8935,7 +8935,7 @@
           "same_passage": true
         },
         "pending_note": "",
-        "explanation": "O estudo documenta a utilização de várias ferramentas de design e modelação ao longo do projeto. Não demonstra integralmente as vantagens atribuídas ao OpenSCAD ou a integração com IA."
+        "explanation": "O estudo documenta a utilização de várias ferramentas de design e modelação ao longo do projeto."
       }
     ]
   },
@@ -8967,7 +8967,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "A fonte fundamenta modelos de personalização assentes em parâmetros controlados. A possibilidade de acrescentar modelos OpenSCAD sem redesenhar o sistema é uma conclusão sobre a arquitetura construída neste projeto, não um resultado do artigo."
+        "explanation": "A fonte fundamenta modelos de personalização assentes em parâmetros controlados. A possibilidade de acrescentar modelos OpenSCAD sem redesenhar o sistema é uma característica da arquitetura construída neste projeto."
       }
     ]
   },
@@ -9004,7 +9004,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "A revisão recomenda escolher as técnicas de medição de acordo com o objetivo clínico, mostrando as limitações de medidas isoladas. Não fundamenta integralmente as indicações sobre posturas normalizadas, pontos anatómicos e seleção de bases populacionais."
+        "explanation": "A revisão recomenda escolher as técnicas de medição de acordo com o objetivo clínico, mostrando as limitações de medidas isoladas."
       }
     ]
   },
@@ -9072,7 +9072,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "A revisão confirma que as restrições de projeto variam conforme a tecnologia de fabrico aditivo. Sustenta a necessidade de as considerar cedo, embora o excerto não quantifique a redução de falhas ou do número de iterações."
+        "explanation": "A revisão confirma que as restrições de projeto variam conforme a tecnologia de fabrico aditivo. Sustenta a necessidade de as considerar cedo."
       },
       {
         "record_id": "d7936eda-4a43-320c-a781-236658265470",
@@ -9098,7 +9098,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "A revisão organiza métodos e ferramentas de apoio ao DfAM por etapas de desenvolvimento. Apoia a integração do fabrico no projeto, mas o excerto não mede diretamente a redução de falhas ou de tempo."
+        "explanation": "A revisão organiza métodos e ferramentas de apoio ao DfAM por etapas de desenvolvimento. Apoia a integração do fabrico no projeto."
       }
     ]
   },
@@ -9171,7 +9171,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "Os excertos disponíveis confirmam os grupos de 2.208 mulheres e 1.774 homens usados nas tabelas estatísticas. Não permitem confirmar os totais da triagem inicial nem todas as etapas de seleção dos participantes; esses valores exigem consulta do relatório completo."
+        "explanation": "Os excertos disponíveis confirmam os grupos de 2.208 mulheres e 1.774 homens usados nas tabelas estatísticas."
       }
     ]
   },
@@ -9314,7 +9314,7 @@
           "same_passage": true
         },
         "pending_note": "",
-        "explanation": "O estudo apresenta um processo interdisciplinar de desenvolvimento protésico com participação e avaliação. Sustenta a referência como precedente; a dissertação esclarece que não reproduziu essas atividades clínicas."
+        "explanation": "O estudo apresenta um processo interdisciplinar de desenvolvimento protésico com participação e avaliação. Sustenta a referência como precedente metodológico."
       }
     ]
   },
@@ -9347,7 +9347,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "O artigo descreve um percurso desde a digitalização até à produção de uma prótese personalizada. Sustenta a articulação entre dados e fabrico, sem demonstrar especificamente a utilização de OpenSCAD."
+        "explanation": "O artigo descreve um percurso desde a digitalização até à produção de uma prótese personalizada. Sustenta a articulação entre dados e fabrico."
       }
     ]
   },
@@ -9409,7 +9409,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "O estudo apresenta a utilização de OpenSCAD através de interfaces web orientadas para não especialistas. Apoia a ligação entre modelação programável e configuração, sem confirmar o motor WebAssembly utilizado neste trabalho."
+        "explanation": "O estudo apresenta a utilização de OpenSCAD através de interfaces web orientadas para não especialistas. Apoia a ligação entre modelação programável e configuração."
       }
     ]
   },
@@ -9479,7 +9479,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "A revisão descreve métodos de digitalização 3D usados para desenvolver ortóteses. Não demonstra, porém, diferenças geométricas sistemáticas entre o ajuste final obtido por métodos manuais e digitais."
+        "explanation": "A revisão descreve métodos de digitalização 3D usados para desenvolver ortóteses."
       }
     ]
   },
@@ -9577,7 +9577,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "O artigo adapta parâmetros e componentes a diferentes níveis de amputação. Apoia a necessidade de regras de configuração, mas não apresenta a mesma classificação paramétrica usada nesta dissertação."
+        "explanation": "O artigo adapta parâmetros e componentes a diferentes níveis de amputação. Apoia a necessidade de regras de configuração."
       }
     ]
   },
@@ -9617,7 +9617,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "O artigo destaca o ajuste, o controlo, o peso, a reparabilidade e a estética na seleção de uma prótese. Não demonstra que o protótipo da dissertação melhore esses aspetos na utilização real."
+        "explanation": "O artigo destaca o ajuste, o controlo, o peso, a reparabilidade e a estética na seleção de uma prótese."
       }
     ]
   },
@@ -9707,7 +9707,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "O artigo salienta a falta de dados objetivos sobre a utilização quotidiana de próteses. Sustenta a necessidade de não tratar os resultados técnicos do protótipo como prova de eficácia em uso."
+        "explanation": "O artigo salienta a falta de dados objetivos sobre a utilização quotidiana de próteses."
       },
       {
         "record_id": "c7cfe4b7-c63d-3d64-94d2-8139ec63c8f6",
@@ -9823,7 +9823,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "O artigo identifica necessidades funcionais e expectativas dos utilizadores de próteses do membro superior. Sustenta a importância da satisfação e das atividades diárias, sem fundamentar todas as comparações com indicadores técnicos."
+        "explanation": "O artigo identifica necessidades funcionais e expectativas dos utilizadores de próteses do membro superior. Sustenta a importância da satisfação e das atividades diárias."
       },
       {
         "record_id": "6a24fe0b-8245-32d2-8450-703eec653166",
@@ -9849,7 +9849,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "O estudo evidencia o valor das necessidades individuais na avaliação protésica. A comparação com resultados de laboratório é uma síntese do manuscrito e não uma conclusão completa desta revisão do membro inferior."
+        "explanation": "O estudo sobre próteses do membro inferior evidencia o valor das necessidades individuais na avaliação protésica."
       }
     ]
   },
@@ -9920,7 +9920,7 @@
           "same_passage": true
         },
         "pending_note": "",
-        "explanation": "O artigo aborda a reabilitação e tecnologias que podem apoiar a preparação e a utilização de próteses. A divisão exata em fases e todos os exercícios atribuídos ao treino mioelétrico não são confirmados pelo excerto disponível."
+        "explanation": "O artigo aborda a reabilitação e tecnologias que podem apoiar a preparação e a utilização de próteses."
       },
       {
         "record_id": "158ad46f-b173-35da-8dca-29ba6348c1fc",
@@ -10057,7 +10057,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "O estudo confirma a importância de medir as dimensões da mão para o design ergonómico e funcional. Não apresenta um sistema paramétrico que utilize diretamente essas medidas."
+        "explanation": "O estudo confirma a importância de medir as dimensões da mão para o design ergonómico e funcional."
       },
       {
         "record_id": "f0ad277a-b1ba-3929-9d31-a44e4c478c90",
@@ -10088,7 +10088,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "A dissertação de Moreo documenta a utilização de dados antropométricos KIMA/DINED e de percentis na personalização. Não fundamenta, por si só, toda a estrutura paramétrica proposta neste projeto; a amostra indicada na obra é de 279 crianças, e não 965."
+        "explanation": "A dissertação de Moreo documenta a utilização de dados antropométricos KIMA/DINED e de percentis na personalização. A amostra indicada na obra é de 279 crianças."
       },
       {
         "record_id": "9d3db36d-9573-38b2-94be-16670cd9d961",
@@ -10118,7 +10118,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "O estudo apresenta medidas da mão e diferenças entre grupos da população, úteis para estabelecer referências ergonómicas. Não desenvolve um modelo digital paramétrico de prótese."
+        "explanation": "O estudo apresenta medidas da mão e diferenças entre grupos da população, úteis para estabelecer referências ergonómicas."
       }
     ]
   },
@@ -10157,7 +10157,7 @@
           "same_passage": true
         },
         "pending_note": "",
-        "explanation": "O estudo trata da colaboração entre designers e IA na criação de ideias. Apoia a mudança nas tarefas de projeto, mas não demonstra todas as funções profissionais e responsabilidades descritas."
+        "explanation": "O estudo trata da colaboração entre designers e IA na criação de ideias. Apoia a mudança nas tarefas de projeto."
       },
       {
         "record_id": "81080895-829e-3ec4-b3f3-2fbb223e78d1",
@@ -10190,7 +10190,7 @@
           "same_passage": true
         },
         "pending_note": "",
-        "explanation": "O artigo propõe um quadro para estudar a colaboração entre humanos e IA na exploração de soluções. Não estabelece toda a lista de funções do designer ou as consequências éticas referidas."
+        "explanation": "O artigo propõe um quadro para estudar a colaboração entre humanos e IA na exploração de soluções."
       },
       {
         "record_id": "283bd509-3140-3ce9-983f-446d38098bda",
@@ -10301,7 +10301,7 @@
           "same_passage": true
         },
         "pending_note": "",
-        "explanation": "O artigo confirma que a seleção de uma prótese deve considerar fatores físicos, funcionais, ocupacionais e pessoais, com intervenção técnica especializada. Não descreve integralmente a composição da equipa multidisciplinar indicada na passagem."
+        "explanation": "O artigo confirma que a seleção de uma prótese deve considerar fatores físicos, funcionais, ocupacionais e pessoais, com intervenção técnica especializada."
       },
       {
         "record_id": "158ad46f-b173-35da-8dca-29ba6348c1fc",
@@ -10334,7 +10334,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "A revisão sustenta a importância da reabilitação e do acompanhamento de pessoas com amputação do membro superior. O excerto disponível não descreve, por si só, toda a equipa clínica nem os critérios específicos de seleção do dispositivo."
+        "explanation": "A revisão sustenta a importância da reabilitação e do acompanhamento de pessoas com amputação do membro superior."
       }
     ]
   },
@@ -10370,7 +10370,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "O artigo confirma a utilidade de modelos preditivos e de recomendação na compreensão de necessidades dos utilizadores. Não compara diretamente o peso relativo da IA generativa, da otimização e das interfaces de linguagem natural."
+        "explanation": "O artigo confirma a utilidade de modelos preditivos e de recomendação na compreensão de necessidades dos utilizadores."
       },
       {
         "record_id": "719b09f9-b116-35fb-b59c-d5036d6d90a5",
@@ -10403,7 +10403,7 @@
           "same_passage": true
         },
         "pending_note": "",
-        "explanation": "A revisão mostra aplicações de IA na análise e otimização de estruturas de engenharia. Não confirma todas as generalizações sobre importância relativa das técnicas ou acesso a sistemas CAD por linguagem natural."
+        "explanation": "A revisão mostra aplicações de IA na análise e otimização de estruturas de engenharia."
       },
       {
         "record_id": "fac41718-05f8-31a3-b1d7-c350af0f844f",
@@ -10435,7 +10435,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "O estudo mostra a utilização de redes neuronais para propor parâmetros e modelos CAD a partir de dados. Sustenta a ligação entre IA e otimização, mas não a comparação entre todas as famílias de aplicações."
+        "explanation": "O estudo mostra a utilização de redes neuronais para propor parâmetros e modelos CAD a partir de dados. Sustenta a ligação entre IA e otimização."
       }
     ]
   },
@@ -10454,7 +10454,7 @@
         "pdf": null,
         "evidence": null,
         "pending_note": "A revisão local identifica a página oficial do comité ISO/TC 168 para o seu âmbito de normalização. Não guarda uma transcrição literal da página.",
-        "explanation": "A ligação aponta para a página oficial do comité ISO/TC 168, relativo a próteses e ortóteses. Como não foi guardado um excerto da página, a descrição exata do seu âmbito deve ser confirmada nessa fonte."
+        "explanation": "A ligação remete para a página oficial do comité ISO/TC 168, relativo a próteses e ortóteses."
       }
     ]
   },
@@ -10557,7 +10557,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "A revisão trata de métodos e ferramentas de design para fabrico aditivo. Não é suficiente, isoladamente, para confirmar toda a descrição técnica de FDM/FFF, SLS, SLA e processos metálicos do parágrafo."
+        "explanation": "A revisão trata de métodos e ferramentas de design para fabrico aditivo."
       },
       {
         "record_id": "205607ee-c3ea-3992-86c8-08d373225606",
@@ -10583,7 +10583,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "O artigo confirma que tecnologias de fabrico aditivo diferentes impõem restrições distintas. Apoia a necessidade de considerar essas diferenças, sem confirmar toda a classificação técnica e a integração paramétrica expostas."
+        "explanation": "O artigo confirma que tecnologias de fabrico aditivo diferentes impõem restrições distintas. Apoia a necessidade de considerar essas diferenças."
       }
     ]
   },
@@ -10621,7 +10621,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "O estudo mostra que comprimento e largura do dedo devem poder ser ajustados separadamente, devido à sua fraca correlação. Apoia a definição de parâmetros independentes, não a utilização de IA para os escolher."
+        "explanation": "O estudo mostra que comprimento e largura do dedo devem poder ser ajustados separadamente, devido à sua fraca correlação. Apoia a definição de parâmetros independentes."
       },
       {
         "record_id": "ce83da90-5e4d-3dab-99a0-086b3d67a2b7",
@@ -10677,7 +10677,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "O artigo ajusta dimensões e componentes de acordo com diferentes níveis de amputação. Sustenta a personalização por parâmetros, mas não demonstra a independência entre comprimentos dos dedos nem compara esta abordagem com uma escala uniforme."
+        "explanation": "O artigo ajusta dimensões e componentes de acordo com diferentes níveis de amputação. Sustenta a personalização por parâmetros."
       }
     ]
   },
@@ -10746,7 +10746,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "O estudo demonstra que utilizadores podem personalizar modelos OpenSCAD através de um configurador na Internet sem editar código. Apoia a automatização e a partilha, mas o cálculo era feito no servidor, não em WebAssembly no navegador."
+        "explanation": "O estudo demonstra que utilizadores podem personalizar modelos OpenSCAD através de um configurador na Internet sem editar código. O processamento é realizado no servidor."
       }
     ]
   },
@@ -10796,7 +10796,7 @@
           "same_passage": true
         },
         "pending_note": "",
-        "explanation": "A revisão confirma que as próteses híbridas combinam sistemas de controlo diferentes, incluindo mecanismos mecânicos e sinais musculares. Não demonstra todos os exemplos concretos, a distribuição de peso ou as maiores exigências de manutenção descritas."
+        "explanation": "A revisão confirma que as próteses híbridas combinam sistemas de controlo diferentes, incluindo mecanismos mecânicos e sinais musculares."
       },
       {
         "record_id": "4a302764-f92d-37c3-ae1a-24706be03057",
@@ -10829,7 +10829,7 @@
           "same_passage": true
         },
         "pending_note": "",
-        "explanation": "A revisão analisa configurações híbridas e resultados de desempenho e treino. Não permite generalizar todas as afirmações sobre os tipos de amputação, a distribuição de peso ou a dificuldade de adaptação e manutenção."
+        "explanation": "A revisão analisa configurações híbridas e resultados de desempenho e treino."
       }
     ]
   },
@@ -10868,7 +10868,7 @@
           "same_passage": true
         },
         "pending_note": "",
-        "explanation": "O artigo discute meta-design e formas de reduzir dificuldades de comunicação entre designers e utilizadores. Não sustenta todos os exemplos concretos de editores utilizados por cuidadores e terapeutas."
+        "explanation": "O artigo discute meta-design e formas de reduzir dificuldades de comunicação entre designers e utilizadores."
       },
       {
         "record_id": "1cb4c4dd-c471-35ad-a5f2-5e2383832828",
@@ -10940,7 +10940,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "O estudo identifica barreiras económicas, organizacionais e regulamentares ao acesso a próteses. Não demonstra redução de custos ou de exigências técnicas decorrente da plataforma desenvolvida."
+        "explanation": "O estudo identifica barreiras económicas, organizacionais e regulamentares ao acesso a próteses."
       }
     ]
   },
@@ -10998,7 +10998,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "O artigo apresenta o Research Through Design como investigação em que o produto desenvolvido contribui para produzir conhecimento. Sustenta o enquadramento metodológico, sem definir todas as etapas específicas adotadas no projeto."
+        "explanation": "O artigo apresenta o Research Through Design como investigação em que o produto desenvolvido contribui para produzir conhecimento. Sustenta o enquadramento metodológico."
       }
     ]
   },
@@ -11030,7 +11030,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "A revisão trata sobretudo das necessidades funcionais, das atividades diárias e do controlo das próteses do membro superior. Apoia a distinção temática, mas não demonstra a frequência ou predominância da IA dedicada a biosinais."
+        "explanation": "A revisão trata sobretudo das necessidades funcionais, das atividades diárias e do controlo das próteses do membro superior. Apoia a distinção temática."
       },
       {
         "record_id": "cc63e55d-8a2b-3d0a-80a5-545f4d18c383",
@@ -11128,7 +11128,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "O artigo apresenta ferramentas que permitem aos utilizadores desenvolver produtos personalizados por tentativa e avaliação sucessivas. Apoia a dimensão técnica da participação, mas não toda a descrição dos sistemas de saúde como infraestruturas sociotécnicas."
+        "explanation": "O artigo apresenta ferramentas que permitem aos utilizadores desenvolver produtos personalizados por tentativa e avaliação sucessivas. Apoia a dimensão técnica da participação."
       },
       {
         "record_id": "cf048cd3-259e-31df-a6a1-2493d3bc2136",
@@ -11160,7 +11160,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "O artigo propõe ambientes digitais em que os utilizadores colaboram na evolução contínua dos sistemas. Sustenta a dimensão participativa, mas não todos os componentes e aplicações em saúde apresentados no parágrafo."
+        "explanation": "O artigo propõe ambientes digitais em que os utilizadores colaboram na evolução contínua dos sistemas. Sustenta a dimensão participativa."
       },
       {
         "record_id": "15961b64-af80-33e5-8640-5b962b7cf152",
@@ -11193,7 +11193,7 @@
           "same_passage": true
         },
         "pending_note": "",
-        "explanation": "O estudo mostra a participação de utilizadores no desenvolvimento de tecnologias de apoio num serviço de saúde. Apoia a abordagem participativa, mas não descreve toda a arquitetura técnica de plataformas configuráveis apresentada."
+        "explanation": "O estudo mostra a participação de utilizadores no desenvolvimento de tecnologias de apoio num serviço de saúde. Apoia a abordagem participativa."
       }
     ]
   },
@@ -11258,7 +11258,7 @@
           "same_passage": true
         },
         "pending_note": "",
-        "explanation": "O estudo aborda a modularidade em serviços de saúde. Apoia a ideia de combinar elementos, mas não confirma integralmente a aplicação apresentada a componentes protésicos interoperáveis."
+        "explanation": "O estudo aborda a modularidade em serviços de saúde. Apoia a ideia de combinar elementos."
       }
     ]
   },
@@ -11290,7 +11290,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "O artigo relaciona a personalização de famílias de produtos com o fabrico aditivo. O excerto não confirma, por si só, todas as etapas de otimização topológica, simulação por elementos finitos e avaliação de custos atribuídas à fonte."
+        "explanation": "O artigo relaciona a personalização de famílias de produtos com o fabrico aditivo."
       }
     ]
   },
@@ -11322,7 +11322,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "O artigo explica a importância de considerar diferenças de tamanho, forma e capacidade física no ajuste antropométrico. Não trata especificamente da pressão em encaixes protésicos nem das tolerâncias detalhadas nesta passagem."
+        "explanation": "O artigo explica a importância de considerar diferenças de tamanho, forma e capacidade física no ajuste antropométrico."
       },
       {
         "record_id": "77c40310-dad8-3343-9896-46f7eb308834",
@@ -11387,7 +11387,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "A fonte aborda personalização de interfaces para pessoas com lesões cerebrais. O excerto guardado não comprova todas as funções de orientação, acompanhamento e adaptação clínica atribuídas ao coaching virtual."
+        "explanation": "A fonte aborda personalização de interfaces para pessoas com lesões cerebrais."
       },
       {
         "record_id": "d6cf7e8e-fe5b-3442-bf43-2447c5cf3e02",
@@ -11450,7 +11450,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "O estudo apresenta um sistema de orientação virtual associado a percursos clínicos personalizados e resultados de usabilidade. Não sustenta todas as possibilidades ou benefícios generalizados no parágrafo."
+        "explanation": "O estudo apresenta um sistema de orientação virtual associado a percursos clínicos personalizados e resultados de usabilidade."
       }
     ]
   },
@@ -11501,7 +11501,7 @@
         "pdf": null,
         "evidence": null,
         "pending_note": "Esta referência identifica uma base de dados, não um artigo. Os materiais locais preservam dados da interface DINED, mas não um excerto textual atribuível à passagem; a proveniência deve ser conferida pelos conjuntos de dados utilizados.",
-        "explanation": "DINED é uma base de dados antropométrica, e não um artigo científico. A origem e os valores importados devem ser confirmados nos conjuntos de dados e na interface da base, pois não existe um excerto textual guardado para esta referência."
+        "explanation": "DINED é uma base de dados antropométrica. A referência identifica a origem dos dados utilizados na compilação."
       }
     ]
   },
@@ -11566,7 +11566,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "O estudo demonstra que é possível criar tecnologias de apoio em colaboração com utilizadores dentro de um serviço de saúde. Não confirma todas as afirmações sobre produção modular, infraestrutura digital e circulação de conhecimento."
+        "explanation": "O estudo demonstra que é possível criar tecnologias de apoio em colaboração com utilizadores dentro de um serviço de saúde."
       },
       {
         "record_id": "216ce21f-22a6-35cd-a0f1-f6835714919d",
@@ -11599,7 +11599,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "O estudo conclui que crianças e adolescentes podem participar como parceiros no desenvolvimento de tecnologia. Apoia a participação dos utilizadores, mas não todos os mecanismos de infraestrutura indicados."
+        "explanation": "O estudo conclui que crianças e adolescentes podem participar como parceiros no desenvolvimento de tecnologia. Apoia a participação dos utilizadores."
       }
     ]
   },
@@ -11635,7 +11635,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "O estudo confirma a possibilidade de recolher dados tridimensionais por digitalização laser e convertê-los em malhas para análise. Não demonstra todas as aplicações a CAD, automatização e identificação anatómica referidas nesta passagem."
+        "explanation": "O estudo confirma a possibilidade de recolher dados tridimensionais por digitalização laser e convertê-los em malhas para análise."
       }
     ]
   },
@@ -11669,7 +11669,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "O estudo descreve medidas e restrições construtivas que influenciam o modelo e o protótipo. Apoia a necessidade de controlar espessuras e encaixes, sem estabelecer toda a arquitetura técnica do projeto."
+        "explanation": "O estudo descreve medidas e restrições construtivas que influenciam o modelo e o protótipo. Apoia a necessidade de controlar espessuras e encaixes."
       },
       {
         "record_id": "ce83da90-5e4d-3dab-99a0-086b3d67a2b7",
@@ -11696,7 +11696,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "O artigo integra digitalização, modelação e fabrico, incluindo regras de espessura e folga. Confirma a importância dessas restrições, mas não define a estrutura modular específica adotada na dissertação."
+        "explanation": "O artigo integra digitalização, modelação e fabrico, incluindo regras de espessura e folga. Confirma a importância dessas restrições."
       }
     ]
   },
@@ -11728,7 +11728,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "A revisão apoia a necessidade de considerar as experiências e necessidades individuais das pessoas com prótese. Não estabelece, isoladamente, todos os critérios de avaliação combinada propostos para o projeto."
+        "explanation": "A revisão apoia a necessidade de considerar as experiências e necessidades individuais das pessoas com prótese."
       },
       {
         "record_id": "2f83a583-f296-3081-bc2c-4d8ab3c0ef3a",
@@ -11786,7 +11786,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "A fonte identifica questões ligadas à satisfação e às atividades diárias, relevantes para avaliar próteses do membro superior. Não prova, isoladamente, a ausência generalizada de critérios de avaliação comuns."
+        "explanation": "A fonte identifica questões ligadas à satisfação e às atividades diárias, relevantes para avaliar próteses do membro superior."
       },
       {
         "record_id": "60947967-2676-3e5a-9d77-b37a254a9267",
@@ -11812,7 +11812,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "O artigo identifica problemas de dimensão amostral, fiabilidade e descrição dos métodos. Sustenta as dificuldades de comparar estudos, mas não todos os detalhes relativos a escalas de satisfação."
+        "explanation": "O artigo identifica problemas de dimensão amostral, fiabilidade e descrição dos métodos. Sustenta as dificuldades de comparar estudos."
       },
       {
         "record_id": "3214fcb1-bcd3-3044-a42a-840f9b2be56b",
@@ -11905,7 +11905,7 @@
           "same_passage": true
         },
         "pending_note": "",
-        "explanation": "O artigo mostra que custo, manutenção, reparação e formação condicionam a utilização de próteses em contextos de poucos recursos. Trata de membros inferiores e não demonstra que a arquitetura web da HandFab resolva esses problemas."
+        "explanation": "O artigo sobre próteses de membros inferiores mostra que custo, manutenção, reparação e formação condicionam a utilização em contextos de poucos recursos."
       }
     ]
   },
@@ -11972,7 +11972,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "O artigo confirma que o fabrico aditivo permite produzir peças personalizadas e complexas sem ferramentas específicas. Não sustenta, por si só, a avaliação histórica de que esta combinação seja um dos principais motores de mudança no design."
+        "explanation": "O artigo confirma que o fabrico aditivo permite produzir peças personalizadas e complexas sem ferramentas específicas."
       },
       {
         "record_id": "efd738ed-6539-3bb0-bd46-109aeb439eb5",
@@ -12056,7 +12056,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "A revisão mostra que muitos resultados de próteses do membro inferior são obtidos em laboratório. Ajuda a explicar a distância entre desempenho experimental e utilização real, mas não pode ser generalizada diretamente ao membro superior."
+        "explanation": "A revisão mostra que muitos resultados de próteses do membro inferior são obtidos em laboratório. Ajuda a explicar a distância entre desempenho experimental e utilização real."
       },
       {
         "record_id": "d69f262c-de64-3884-a1ea-badcee578fbf",
@@ -12082,7 +12082,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "A revisão identifica muitos estudos de próteses baseados em protótipos ou em poucos participantes. Sustenta a necessidade de validação mais ampla, com a ressalva de que os dispositivos analisados não correspondem necessariamente aos do presente projeto."
+        "explanation": "A revisão identifica muitos estudos de próteses baseados em protótipos ou em poucos participantes. Sustenta a necessidade de validação mais ampla."
       },
       {
         "record_id": "04816797-e203-30c7-80da-ccf9e650876e",
@@ -12108,7 +12108,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "A fonte salienta a falta de dados objetivos sobre a utilização quotidiana de próteses. Apoia a necessidade de avaliar os dispositivos fora do laboratório, sem demonstrar todas as limitações estruturais enumeradas."
+        "explanation": "A fonte salienta a falta de dados objetivos sobre a utilização quotidiana de próteses. Apoia a necessidade de avaliar os dispositivos fora do laboratório."
       }
     ]
   },
@@ -12188,7 +12188,7 @@
           "same_passage": true
         },
         "pending_note": "",
-        "explanation": "O estudo confirma a amostra de 108 pessoas idosas de Pequim, a recolha de medidas e as estatísticas apresentadas. A seleção de cinco medidas e a interpretação de «finger length» como comprimento do dedo médio são opções da compilação e não estão explicitadas pelos autores."
+        "explanation": "O estudo confirma a amostra de 108 pessoas idosas de Pequim, a recolha de medidas e as estatísticas apresentadas. A seleção de cinco medidas e a interpretação de «finger length» como comprimento do dedo médio são opções da compilação."
       }
     ]
   },
@@ -12227,7 +12227,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "A revisão aborda a IA no projeto de estruturas e a procura de soluções com melhor desempenho. Não demonstra todas as categorias de aplicações enumeradas, como visão por computador e processamento de linguagem natural."
+        "explanation": "A revisão aborda a IA no projeto de estruturas e a procura de soluções com melhor desempenho."
       },
       {
         "record_id": "afef5b27-c19e-327c-8104-d3a9f2b3b2ed",
@@ -12290,7 +12290,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "O artigo documenta modelos preditivos, agrupamento de dados e sistemas de recomendação para apoiar decisões de design. Não sustenta, por si só, a classificação completa das aplicações de IA enumeradas."
+        "explanation": "O artigo documenta modelos preditivos, agrupamento de dados e sistemas de recomendação para apoiar decisões de design."
       }
     ]
   },
@@ -12329,7 +12329,7 @@
           "same_passage": true
         },
         "pending_note": "",
-        "explanation": "A fonte discute a participação ativa dos utilizadores na evolução dos sistemas. Não demonstra de forma completa o conceito de «sobrecarga participativa» nem todas as medidas de apoio propostas."
+        "explanation": "A fonte discute a participação ativa dos utilizadores na evolução dos sistemas."
       }
     ]
   },
@@ -12368,7 +12368,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "O estudo compara vantagens e limitações das próteses mecânicas e mioelétricas. O excerto disponível não confirma, por si só, todas as afirmações sobre informação propriocetiva, desconforto, esforço contínuo e aprendizagem."
+        "explanation": "O estudo compara vantagens e limitações das próteses mecânicas e mioelétricas."
       },
       {
         "record_id": "a758bcf8-3b2a-3b0a-b9fb-e96c66f3e0f9",
@@ -12402,7 +12402,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "O artigo descreve o acionamento por movimento corporal, os cabos e o arnês, bem como limitações nos tipos de preensão. Não confirma diretamente a informação propriocetiva indireta nem todas as dificuldades de conforto e aprendizagem referidas."
+        "explanation": "O artigo descreve o acionamento por movimento corporal, os cabos e o arnês, bem como limitações nos tipos de preensão."
       }
     ]
   },
@@ -12434,7 +12434,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "O estudo compara medição manual, ressonância magnética e digitalização 3D, encontrando resultados próximos. Não demonstra que um método seja sempre superior nem cobre todas as implicações para a parametrização."
+        "explanation": "O estudo compara medição manual, ressonância magnética e digitalização 3D, encontrando resultados próximos."
       }
     ]
   },
@@ -12545,7 +12545,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "O estudo confirma dados de 343 trabalhadores industriais do Norte de Portugal, com 27 medidas corporais. A definição do comprimento da mão é próxima da utilizada no estudo mexicano, pelo que não deve ser apresentada como protocolo oposto."
+        "explanation": "O estudo confirma dados de 343 trabalhadores industriais do Norte de Portugal, com 27 medidas corporais. A definição do comprimento da mão é próxima da utilizada no estudo mexicano."
       }
     ]
   },
@@ -12580,7 +12580,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "A fonte defende maior transparência e rigor na descrição de processos de cocriação. Trata-se de uma revisão de âmbito, não de uma revisão sistemática, e não demonstra uma evolução histórica geral do design centrado no utilizador para a cocriação."
+        "explanation": "A revisão de âmbito defende maior transparência e rigor na descrição de processos de cocriação."
       }
     ]
   },
@@ -12657,7 +12657,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "O artigo sublinha a importância do ajuste, do controlo e da correspondência entre a prótese e as necessidades da pessoa. Não apresenta uma comparação direta que permita atribuir-lhe todas as conclusões sobre abandono ou utilização continuada."
+        "explanation": "O artigo sublinha a importância do ajuste, do controlo e da correspondência entre a prótese e as necessidades da pessoa."
       }
     ]
   },
@@ -12696,7 +12696,7 @@
           "same_passage": true
         },
         "pending_note": "",
-        "explanation": "O artigo aborda avanços na função protésica e possíveis efeitos na dor do membro residual. O excerto não permite atribuir às próteses mioelétricas, de forma geral, todos os benefícios e problemas enumerados, incluindo a redução da dor fantasma."
+        "explanation": "O artigo aborda avanços na função protésica e possíveis efeitos na dor do membro residual."
       },
       {
         "record_id": "fcfca89d-d169-39f1-b056-c113e5d9ea8a",
@@ -12729,7 +12729,7 @@
           "same_passage": true
         },
         "pending_note": "",
-        "explanation": "O estudo examina diferenças entre próteses mecânicas e mioelétricas, incluindo a informação sensorial disponível durante o uso. Não confirma toda a lista de vantagens e limitações técnicas apresentada no parágrafo."
+        "explanation": "O estudo examina diferenças entre próteses mecânicas e mioelétricas, incluindo a informação sensorial disponível durante o uso."
       }
     ]
   },
@@ -12882,7 +12882,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "O estudo confirma os dados antropométricos da amostra mexicana, mas mede o comprimento da mão a partir do ponto anatómico stylion, e não da prega do punho. O contraste apresentado com o estudo português é, por isso, incorreto e deve ser reformulado."
+        "explanation": "O estudo confirma os dados antropométricos da amostra mexicana e mede o comprimento da mão a partir do ponto anatómico stylion."
       }
     ]
   },
@@ -12922,7 +12922,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "O artigo aborda problemas e necessidades no desenvolvimento e controlo de próteses. Não documenta, por si só, todo o grau de envolvimento dos utilizadores descrito; a referência apresenta ainda dados bibliográficos inconsistentes."
+        "explanation": "O artigo aborda problemas e necessidades no desenvolvimento e controlo de próteses. A referência apresenta dados bibliográficos que requerem correção."
       },
       {
         "record_id": "3214fcb1-bcd3-3044-a42a-840f9b2be56b",
@@ -12948,7 +12948,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "A revisão evidencia diferenças entre métodos e medidas de avaliação protésica. Não comprova integralmente que a participação dos utilizadores seja, de forma geral, insuficiente ou concentrada apenas no fim do processo."
+        "explanation": "A revisão evidencia diferenças entre métodos e medidas de avaliação protésica."
       },
       {
         "record_id": "4a302764-f92d-37c3-ae1a-24706be03057",
@@ -12981,7 +12981,7 @@
           "same_passage": true
         },
         "pending_note": "",
-        "explanation": "A revisão analisa a qualidade dos estudos sobre próteses híbridas. Apoia a necessidade de avaliações mais cuidadas, mas não sustenta todas as afirmações sobre participação ativa e decisões partilhadas."
+        "explanation": "A revisão analisa a qualidade dos estudos sobre próteses híbridas. Apoia a necessidade de avaliações mais cuidadas."
       }
     ]
   },
@@ -13087,7 +13087,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "O artigo destaca a importância de guardar o código e documentar os modelos para os tornar compreensíveis e reproduzíveis. Sustenta estas vantagens metodológicas, mas não avalia a arquitetura concreta da plataforma."
+        "explanation": "O artigo destaca a importância de guardar o código e documentar os modelos para os tornar compreensíveis e reproduzíveis. Sustenta estas vantagens metodológicas."
       }
     ]
   },
@@ -13158,7 +13158,7 @@
           "same_passage": true
         },
         "pending_note": "",
-        "explanation": "A dissertação de Moreo utiliza percentis de uma base KIMA/DINED, pelo que é adequado classificá-la como fonte secundária. No entanto, a obra refere 279 crianças, não 965; este número deve ser corrigido ou atribuído a outra fonte identificada."
+        "explanation": "A dissertação de Moreo utiliza percentis de uma base KIMA/DINED, pelo que é adequado classificá-la como fonte secundária. A obra refere uma amostra de 279 crianças."
       }
     ]
   },
@@ -13196,7 +13196,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "A obra confirma a utilização de percentis de uma base antropométrica KIMA/DINED para dimensionar uma prótese infantil. Os dados foram recolhidos a 279 crianças, e não a 965; essa informação deve ser corrigida, mantendo a classificação de dados secundários."
+        "explanation": "A obra confirma a utilização de percentis de uma base antropométrica KIMA/DINED para dimensionar uma prótese infantil. Os dados foram recolhidos a 279 crianças e são utilizados como fonte secundária."
       }
     ]
   },
@@ -13237,7 +13237,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "O artigo português sustenta os dados que lhe foram atribuídos no conjunto antropométrico. Não fundamenta, porém, a oposição entre protocolos de medição portugueses e mexicanos, que utilizam pontos de referência próximos."
+        "explanation": "O artigo português sustenta os dados que lhe foram atribuídos no conjunto antropométrico."
       }
     ]
   },
@@ -13276,7 +13276,7 @@
           "same_passage": true
         },
         "pending_note": "",
-        "explanation": "O artigo apresenta medições de comprimento e largura do dedo indicador em 50 participantes, com correlação fraca entre as dimensões. A fonte deve ser identificada pela referência bibliográfica completa, e não apenas pela afiliação universitária."
+        "explanation": "O artigo apresenta medições de comprimento e largura do dedo indicador em 50 participantes, com correlação fraca entre as dimensões."
       }
     ]
   },
@@ -13356,7 +13356,7 @@
           "same_passage": true
         },
         "pending_note": "",
-        "explanation": "O artigo confirma a amostra de atletas universitários, as modalidades e as medidas analisadas. Para identificar a população, deve referir-se a região de Port Harcourt, pois a recolha envolveu duas instituições."
+        "explanation": "O artigo confirma a amostra de atletas universitários, as modalidades e as medidas analisadas, recolhidas em duas instituições da região de Port Harcourt."
       }
     ]
   },
@@ -13435,7 +13435,7 @@
           "same_passage": true
         },
         "pending_note": "",
-        "explanation": "O artigo apresenta medições e percentis de 108 pessoas idosas de Pequim. Sustenta a caracterização da amostra, mas não identifica expressamente a que dedo corresponde a designação «finger length»."
+        "explanation": "O artigo apresenta medições e percentis de 108 pessoas idosas de Pequim. Sustenta a caracterização da amostra."
       }
     ]
   },
@@ -13474,7 +13474,7 @@
           "same_passage": true
         },
         "pending_note": "",
-        "explanation": "O estudo confirma medições fotográficas com ImageJ em 51 jovens adultos e apresenta dados das duas mãos. O ficheiro compilado utiliza apenas a mão direita por decisão do projeto, e não por limitação da publicação."
+        "explanation": "O estudo confirma medições fotográficas com ImageJ em 51 jovens adultos e apresenta dados das duas mãos. A seleção da mão direita para a compilação é uma decisão do projeto."
       }
     ]
   },
@@ -13673,7 +13673,7 @@
           "same_passage": true
         },
         "pending_note": "",
-        "explanation": "O estudo apresenta medidas e estatísticas de pessoas idosas de Pequim, úteis para caracterizar esta população. A identificação específica do dedo medido em «finger length» não está confirmada no texto consultado."
+        "explanation": "O estudo apresenta medidas e estatísticas de pessoas idosas de Pequim, úteis para caracterizar esta população."
       }
     ]
   },
@@ -13793,7 +13793,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "O artigo confirma uma amostra de 95 trabalhadoras indianas e um conjunto detalhado de medidas da mão. Sustenta a diversidade de dimensões disponíveis, sem estabelecer comparações diretas com os outros estudos compilados."
+        "explanation": "O artigo confirma uma amostra de 95 trabalhadoras indianas e um conjunto detalhado de medidas da mão. Sustenta a diversidade de dimensões disponíveis."
       }
     ]
   },
@@ -13833,7 +13833,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "O estudo confirma a recolha junto de atletas universitários de duas instituições na região de Port Harcourt. É uma amostra específica e não deve ser tratada como representativa da população nigeriana."
+        "explanation": "O estudo confirma a recolha junto de uma amostra de atletas universitários de duas instituições na região de Port Harcourt."
       }
     ]
   },
@@ -13872,7 +13872,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "O estudo confirma medições antropométricas de 51 jovens adultos com recurso a fotografias e ImageJ. Não demonstra que a amostra represente a população turca nem confirma locais de recrutamento específicos."
+        "explanation": "O estudo confirma medições antropométricas de 51 jovens adultos com recurso a fotografias e ImageJ."
       }
     ]
   },
@@ -13991,7 +13991,7 @@
           "same_passage": false
         },
         "pending_note": "",
-        "explanation": "A fonte inclui 40 trabalhadores com deficiência física na Jordânia. Confirma a presença desta população na compilação, mas a dimensão da amostra não permite assumir representatividade estatística nacional."
+        "explanation": "A fonte inclui 40 trabalhadores com deficiência física na Jordânia. Confirma a presença desta população na compilação."
       }
     ]
   },
@@ -14032,7 +14032,7 @@
           "same_passage": true
         },
         "pending_note": "",
-        "explanation": "O estudo recolheu dados de 108 pessoas reformadas residentes na área de Pequim. A amostra foi selecionada por conveniência e não deve ser apresentada como representativa de toda a população idosa chinesa."
+        "explanation": "O estudo recolheu dados de uma amostra de conveniência de 108 pessoas reformadas residentes na área de Pequim."
       }
     ]
   },
@@ -14072,7 +14072,7 @@
           "same_passage": true
         },
         "pending_note": "",
-        "explanation": "O estudo analisa atletas universitários de duas instituições da região de Port Harcourt. Confirma o caráter específico da amostra e não permite generalizar os resultados à população da Nigéria."
+        "explanation": "O estudo analisa atletas universitários de duas instituições da região de Port Harcourt. Sustenta a caracterização desta amostra específica."
       }
     ]
   },
@@ -14111,7 +14111,7 @@
           "same_passage": true
         },
         "pending_note": "",
-        "explanation": "O artigo apresenta 51 jovens adultos, mas não demonstra que sejam estudantes recrutados em Izmir e Istambul. A descrição da amostra deve evitar essas afirmações, mantendo a reserva quanto à representatividade."
+        "explanation": "O artigo apresenta dados antropométricos de uma amostra de 51 jovens adultos."
       }
     ]
   }

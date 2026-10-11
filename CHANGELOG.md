@@ -1,5 +1,13 @@
 # Changelog
 
+## 2026-10-11
+
+- Simplificadas 267 explicações de citações para apresentar o contributo das fontes, com os TXT originais preservados e revisões rastreáveis. Omitido do HTML o bloco administrativo de reprodução e o título repetido anterior ao resumo. Organizadas as siglas e os índices em folhas separadas, com hierarquia, alinhamento das páginas, ligações e quebras de impressão.
+
+- Publicada no GitHub Pages a edição de leitura com 426 ligações, siglas e índices paginados, comentários simplificados e bloco administrativo omitido; versão online conferida por igualdade integral com o pacote local.
+
+- Ligadas as entradas do índice principal aos títulos do manuscrito HTML, os índices de figuras e tabelas às respetivas legendas e os títulos dos índices dos anexos aos destinos já existentes. Preservados o texto e a paginação original; atualizado o gerador e acrescentado relatório de destinos.
+
 ## 2026-10-10
 
 - Publicadas no GitHub Pages as 416 explicações revistas das citações; build concluído e HTML servido conferido por igualdade integral com o pacote local.

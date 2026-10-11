@@ -1,0 +1,2142 @@
+{
+  "principal": 229,
+  "figuras": 30,
+  "tabelas": 31,
+  "anexos": 136,
+  "sem_titulo": [
+    "xx"
+  ],
+  "ligacoes": [
+    {
+      "indice": "principal",
+      "entrada": "RESUMOvi",
+      "destino": "resumo"
+    },
+    {
+      "indice": "principal",
+      "entrada": "ABSTRACTvii",
+      "destino": "abstract"
+    },
+    {
+      "indice": "principal",
+      "entrada": "Declaração de utilização de ferramentas de inteligência artificialviii",
+      "destino": "declaração-de-utilização-de-ferramentas-de-inteligência-artificial"
+    },
+    {
+      "indice": "principal",
+      "entrada": "LISTA DE ABREVIATURAS E SIGLASx",
+      "destino": "lista-de-abreviaturas-e-siglas"
+    },
+    {
+      "indice": "principal",
+      "entrada": "ÍNDICE DE FIGURASxix",
+      "destino": "índice-de-figuras"
+    },
+    {
+      "indice": "principal",
+      "entrada": "ÍNDICE DE TABELASxxi",
+      "destino": "índice-de-tabelas"
+    },
+    {
+      "indice": "principal",
+      "entrada": "Capítulo 1 - Introdução1",
+      "destino": "seccao-7"
+    },
+    {
+      "indice": "principal",
+      "entrada": "1.1 Enquadramento geral, contexto e motivação1",
+      "destino": "11-enquadramento-geral-contexto-e-motivação"
+    },
+    {
+      "indice": "principal",
+      "entrada": "1.2 Problema de investigação2",
+      "destino": "12-problema-de-investigação"
+    },
+    {
+      "indice": "principal",
+      "entrada": "1.3 Objetivos da investigação2",
+      "destino": "13-objetivos-da-investigação"
+    },
+    {
+      "indice": "principal",
+      "entrada": "1.3.1 Objetivo geral2",
+      "destino": "131-objetivo-geral"
+    },
+    {
+      "indice": "principal",
+      "entrada": "1.3.2 Objetivos específicos2",
+      "destino": "132-objetivos-específicos"
+    },
+    {
+      "indice": "principal",
+      "entrada": "1.4 Abordagem metodológica geral3",
+      "destino": "14-abordagem-metodológica-geral"
+    },
+    {
+      "indice": "principal",
+      "entrada": "1.5 Estrutura da investigação3",
+      "destino": "15-estrutura-da-investigação"
+    },
+    {
+      "indice": "principal",
+      "entrada": "Capítulo 2 - Enquadramento Teórico e Estado da Arte5",
+      "destino": "seccao-8"
+    },
+    {
+      "indice": "principal",
+      "entrada": "2.1 Prótese de membro superior e dispositivos médicos5",
+      "destino": "21-prótese-de-membro-superior-e-dispositivos-médicos"
+    },
+    {
+      "indice": "principal",
+      "entrada": "Tipologias de próteses de membro superior5",
+      "destino": "tipologias-de-próteses-de-membro-superior"
+    },
+    {
+      "indice": "principal",
+      "entrada": "Próteses mecânicas acionadas pelo corpo (body-powered)6",
+      "destino": "próteses-mecânicas-acionadas-pelo-corpo-body-powered"
+    },
+    {
+      "indice": "principal",
+      "entrada": "Próteses mioelétricas6",
+      "destino": "próteses-mioelétricas"
+    },
+    {
+      "indice": "principal",
+      "entrada": "Sistemas híbridos6",
+      "destino": "sistemas-híbridos"
+    },
+    {
+      "indice": "principal",
+      "entrada": "Considerações clínicas e funcionais7",
+      "destino": "considerações-clínicas-e-funcionais"
+    },
+    {
+      "indice": "principal",
+      "entrada": "Medição de resultados e abandono protésico8",
+      "destino": "medição-de-resultados-e-abandono-protésico"
+    },
+    {
+      "indice": "principal",
+      "entrada": "Enquadramento regulatório enquanto dispositivo médico9",
+      "destino": "enquadramento-regulatório-enquanto-dispositivo-médico"
+    },
+    {
+      "indice": "principal",
+      "entrada": "2.2 Design industrial, design inclusivo e design centrado no utilizador10",
+      "destino": "22-design-industrial-design-inclusivo-e-design-centrado-no-utilizador"
+    },
+    {
+      "indice": "principal",
+      "entrada": "Design industrial em dispositivos médicos11",
+      "destino": "design-industrial-em-dispositivos-médicos"
+    },
+    {
+      "indice": "principal",
+      "entrada": "Design inclusivo e design universal12",
+      "destino": "design-inclusivo-e-design-universal"
+    },
+    {
+      "indice": "principal",
+      "entrada": "Design centrado no utilizador e design centrado no humano12",
+      "destino": "design-centrado-no-utilizador-e-design-centrado-no-humano"
+    },
+    {
+      "indice": "principal",
+      "entrada": "Design Participativo e Co-design13",
+      "destino": "design-participativo-e-co-design"
+    },
+    {
+      "indice": "principal",
+      "entrada": "Metodologias, instrumentos e avaliação13",
+      "destino": "metodologias-instrumentos-e-avaliação"
+    },
+    {
+      "indice": "principal",
+      "entrada": "Desafios e lacunas14",
+      "destino": "desafios-e-lacunas"
+    },
+    {
+      "indice": "principal",
+      "entrada": "2.3 Fabrico Aditivo e parametrização no design de produto14",
+      "destino": "23-fabrico-aditivo-e-parametrização-no-design-de-produto"
+    },
+    {
+      "indice": "principal",
+      "entrada": "Modelação Paramétrica e Espaços de Variação15",
+      "destino": "modelação-paramétrica-e-espaços-de-variação"
+    },
+    {
+      "indice": "principal",
+      "entrada": "Integração com Fabrico Aditivo e Design for Additive Manufacturing16",
+      "destino": "integração-com-fabrico-aditivo-e-design-for-additive-manufacturing"
+    },
+    {
+      "indice": "principal",
+      "entrada": "Configuradores e Cocriação Digital16",
+      "destino": "configuradores-e-cocriação-digital"
+    },
+    {
+      "indice": "principal",
+      "entrada": "Otimização, Geração e Avaliação de Desempenho18",
+      "destino": "otimização-geração-e-avaliação-de-desempenho"
+    },
+    {
+      "indice": "principal",
+      "entrada": "Implicações para o design industrial19",
+      "destino": "implicações-para-o-design-industrial"
+    },
+    {
+      "indice": "principal",
+      "entrada": "2.4 Próteses open source de membro superior passíveis de impressão 3D19",
+      "destino": "24-próteses-open-source-de-membro-superior-passíveis-de-impressão-3d"
+    },
+    {
+      "indice": "principal",
+      "entrada": "2.5 Antropometria aplicada ao design protésico21",
+      "destino": "25-antropometria-aplicada-ao-design-protésico"
+    },
+    {
+      "indice": "principal",
+      "entrada": "Da dimensão linear à “forma” como dado de projeto22",
+      "destino": "da-dimensão-linear-à-forma-como-dado-de-projeto"
+    },
+    {
+      "indice": "principal",
+      "entrada": "Métodos de recolha antropométrica em próteses e tecnologias de apoio23",
+      "destino": "métodos-de-recolha-antropométrica-em-próteses-e-tecnologias-de-apoio"
+    },
+    {
+      "indice": "principal",
+      "entrada": "Interpretação e aplicação de dados antropométricos no projeto24",
+      "destino": "interpretação-e-aplicação-de-dados-antropométricos-no-projeto"
+    },
+    {
+      "indice": "principal",
+      "entrada": "Evidência por tipo de dispositivo25",
+      "destino": "evidência-por-tipo-de-dispositivo"
+    },
+    {
+      "indice": "principal",
+      "entrada": "Limitações, lacunas e recomendações25",
+      "destino": "limitações-lacunas-e-recomendações"
+    },
+    {
+      "indice": "principal",
+      "entrada": "Estruturação de dados26",
+      "destino": "estruturação-de-dados"
+    },
+    {
+      "indice": "principal",
+      "entrada": "2.6 Inteligência Artificial no processo de design26",
+      "destino": "26-inteligência-artificial-no-processo-de-design"
+    },
+    {
+      "indice": "principal",
+      "entrada": "O que é a Inteligência Artificial27",
+      "destino": "o-que-é-a-inteligência-artificial"
+    },
+    {
+      "indice": "principal",
+      "entrada": "Como funciona: dados, treino, inferência e geração28",
+      "destino": "como-funciona-dados-treino-inferência-e-geração"
+    },
+    {
+      "indice": "principal",
+      "entrada": "Formas de IA mais relevantes para o design29",
+      "destino": "formas-de-ia-mais-relevantes-para-o-design"
+    },
+    {
+      "indice": "principal",
+      "entrada": "IA ao longo do processo de design29",
+      "destino": "ia-ao-longo-do-processo-de-design"
+    },
+    {
+      "indice": "principal",
+      "entrada": "Papel do designer, riscos e necessidade de supervisão humana30",
+      "destino": "papel-do-designer-riscos-e-necessidade-de-supervisão-humana"
+    },
+    {
+      "indice": "principal",
+      "entrada": "2.7 Plataformas digitais e sistemas configuráveis31",
+      "destino": "27-plataformas-digitais-e-sistemas-configuráveis"
+    },
+    {
+      "indice": "principal",
+      "entrada": "Fundamentos conceptuais: toolkits, meta-design e end-user development.31",
+      "destino": "fundamentos-conceptuais-toolkits-meta-design-e-end-user-development"
+    },
+    {
+      "indice": "principal",
+      "entrada": "Mecanismos de personalização: modularidade, parametrização e adaptação individualizada33",
+      "destino": "mecanismos-de-personalização-modularidade-parametrização-e-adaptação-individualizada"
+    },
+    {
+      "indice": "principal",
+      "entrada": "Fluxos participativos e infraestruturas remotas34",
+      "destino": "fluxos-participativos-e-infraestruturas-remotas"
+    },
+    {
+      "indice": "principal",
+      "entrada": "Aplicações em saúde, reabilitação e próteses34",
+      "destino": "aplicações-em-saúde-reabilitação-e-próteses"
+    },
+    {
+      "indice": "principal",
+      "entrada": "Limitações e lacunas: sustentabilidade, adoção e equilíbrio entre normalização e improviso35",
+      "destino": "limitações-e-lacunas-sustentabilidade-adoção-e-equilíbrio-entre-normalização-e-improviso"
+    },
+    {
+      "indice": "principal",
+      "entrada": "2.8 Análise crítica do estado da arte e lacunas identificadas36",
+      "destino": "28-análise-crítica-do-estado-da-arte-e-lacunas-identificadas"
+    },
+    {
+      "indice": "principal",
+      "entrada": "Lacuna 1 - Validação empírica limitada e fraca transposição para contextos reais de utilização37",
+      "destino": "lacuna-1---validação-empírica-limitada-e-fraca-transposição-para-contextos-reais-de-utilização"
+    },
+    {
+      "indice": "principal",
+      "entrada": "Lacuna 2 - Desalinhamento entre necessidades identificadas, métricas objetivas e qualidade de vida37",
+      "destino": "lacuna-2---desalinhamento-entre-necessidades-identificadas-métricas-objetivas-e-qualidade-de-vida"
+    },
+    {
+      "indice": "principal",
+      "entrada": "Lacuna 3 - Persistência de problemas na interface corpo-prótese e no ajuste individualizado38",
+      "destino": "lacuna-3---persistência-de-problemas-na-interface-corpo-prótese-e-no-ajuste-individualizado"
+    },
+    {
+      "indice": "principal",
+      "entrada": "Lacuna 4 - Evolução limitada das estratégias de controlo e da interação utilizador-prótese38",
+      "destino": "lacuna-4---evolução-limitada-das-estratégias-de-controlo-e-da-interação-utilizador-prótese"
+    },
+    {
+      "indice": "principal",
+      "entrada": "Lacuna 5 - Acesso, custo, manutenção e ASSIMETRIAS sistémicas39",
+      "destino": "lacuna-5---acesso-custo-manutenção-e-assimetrias-sistémicas"
+    },
+    {
+      "indice": "principal",
+      "entrada": "Lacuna 6 - Envolvimento do utilizador e registo metodológico insuficiente39",
+      "destino": "lacuna-6---envolvimento-do-utilizador-e-registo-metodológico-insuficiente"
+    },
+    {
+      "indice": "principal",
+      "entrada": "Implicações para esta investigação39",
+      "destino": "implicações-para-esta-investigação"
+    },
+    {
+      "indice": "principal",
+      "entrada": "Capítulo 3 - Metodologia de Investigação42",
+      "destino": "seccao-9"
+    },
+    {
+      "indice": "principal",
+      "entrada": "3.1 Enquadramento metodológico e abordagem Research Through Design42",
+      "destino": "31-enquadramento-metodológico-e-abordagem-research-through-design"
+    },
+    {
+      "indice": "principal",
+      "entrada": "3.2 O design industrial como prática de investigação43",
+      "destino": "32-o-design-industrial-como-prática-de-investigação"
+    },
+    {
+      "indice": "principal",
+      "entrada": "3.3 Estrutura metodológica do projeto44",
+      "destino": "33-estrutura-metodológica-do-projeto"
+    },
+    {
+      "indice": "principal",
+      "entrada": "3.4 Métodos de recolha e análise de dados48",
+      "destino": "34-métodos-de-recolha-e-análise-de-dados"
+    },
+    {
+      "indice": "principal",
+      "entrada": "3.5 Critérios de avaliação e limitações metodológicas50",
+      "destino": "35-critérios-de-avaliação-e-limitações-metodológicas"
+    },
+    {
+      "indice": "principal",
+      "entrada": "Capítulo 4 - Desenvolvimento do Modelo Paramétrico51",
+      "destino": "seccao-10"
+    },
+    {
+      "indice": "principal",
+      "entrada": "4.1 Definição do problema de design e requisitos51",
+      "destino": "41-definição-do-problema-de-design-e-requisitos"
+    },
+    {
+      "indice": "principal",
+      "entrada": "4.2 Parâmetros antropométricos e estrutura do modelo52",
+      "destino": "42-parâmetros-antropométricos-e-estrutura-do-modelo"
+    },
+    {
+      "indice": "principal",
+      "entrada": "Conjuntos mínimos de parâmetros por nível de amputação54",
+      "destino": "conjuntos-mínimos-de-parâmetros-por-nível-de-amputação"
+    },
+    {
+      "indice": "principal",
+      "entrada": "Limitações do redimensionamento proporcional55",
+      "destino": "limitações-do-redimensionamento-proporcional"
+    },
+    {
+      "indice": "principal",
+      "entrada": "Métodos de recolha de dados antropométricos55",
+      "destino": "métodos-de-recolha-de-dados-antropométricos"
+    },
+    {
+      "indice": "principal",
+      "entrada": "Bases de dados antropométricas, extração e normalização56",
+      "destino": "bases-de-dados-antropométricas-extração-e-normalização"
+    },
+    {
+      "indice": "principal",
+      "entrada": "Correspondência entre perfil populacional e parâmetros do modelo57",
+      "destino": "correspondência-entre-perfil-populacional-e-parâmetros-do-modelo"
+    },
+    {
+      "indice": "principal",
+      "entrada": "Estrutura paramétrica e mapeamento de parâmetros58",
+      "destino": "estrutura-paramétrica-e-mapeamento-de-parâmetros"
+    },
+    {
+      "indice": "principal",
+      "entrada": "OpenSCAD: enquadramento e justificação da escolha58",
+      "destino": "openscad-enquadramento-e-justificação-da-escolha"
+    },
+    {
+      "indice": "principal",
+      "entrada": "4.3 Modelação paramétrica em OpenSCAD60",
+      "destino": "43-modelação-paramétrica-em-openscad"
+    },
+    {
+      "indice": "principal",
+      "entrada": "4.3.1 Estrutura técnica, parâmetros e restrições61",
+      "destino": "431-estrutura-técnica-parâmetros-e-restrições"
+    },
+    {
+      "indice": "principal",
+      "entrada": "4.3.2 Análise crítica da abordagem63",
+      "destino": "432-análise-crítica-da-abordagem"
+    },
+    {
+      "indice": "principal",
+      "entrada": "4.3.3 Relações implementadas nos modelos avaliados64",
+      "destino": "433-relações-implementadas-nos-modelos-avaliados"
+    },
+    {
+      "indice": "principal",
+      "entrada": "4.3.4 Dicionário operacional de parâmetros65",
+      "destino": "434-dicionário-operacional-de-parâmetros"
+    },
+    {
+      "indice": "principal",
+      "entrada": "4.3.5 Exemplo numérico completo: perfil infantil no Flexy Beast69",
+      "destino": "435-exemplo-numérico-completo-perfil-infantil-no-flexy-beast"
+    },
+    {
+      "indice": "principal",
+      "entrada": "4.4 Iterações e decisões de projeto70",
+      "destino": "44-iterações-e-decisões-de-projeto"
+    },
+    {
+      "indice": "principal",
+      "entrada": "Capítulo 5 - Plataforma Web e Integração Digital73",
+      "destino": "seccao-11"
+    },
+    {
+      "indice": "principal",
+      "entrada": "5.1 Enquadramento conceptual e perfis de utilizador73",
+      "destino": "51-enquadramento-conceptual-e-perfis-de-utilizador"
+    },
+    {
+      "indice": "principal",
+      "entrada": "5.2 Arquitetura geral do sistema76",
+      "destino": "52-arquitetura-geral-do-sistema"
+    },
+    {
+      "indice": "principal",
+      "entrada": "5.3 Integração OpenSCAD via WebAssembly (WASM)81",
+      "destino": "53-integração-openscad-via-webassembly-wasm"
+    },
+    {
+      "indice": "principal",
+      "entrada": "5.4 Estrutura funcional da plataforma83",
+      "destino": "54-estrutura-funcional-da-plataforma"
+    },
+    {
+      "indice": "principal",
+      "entrada": "5.5 Gestão de parâmetros, versões e expansão90",
+      "destino": "55-gestão-de-parâmetros-versões-e-expansão"
+    },
+    {
+      "indice": "principal",
+      "entrada": "Capítulo 6 - Integração da Inteligência Artificial92",
+      "destino": "seccao-12"
+    },
+    {
+      "indice": "principal",
+      "entrada": "6.1 Papel da IA no sistema proposto92",
+      "destino": "61-papel-da-ia-no-sistema-proposto"
+    },
+    {
+      "indice": "principal",
+      "entrada": "6.2 IA na parametrização, personalização e apoio à decisão92",
+      "destino": "62-ia-na-parametrização-personalização-e-apoio-à-decisão"
+    },
+    {
+      "indice": "principal",
+      "entrada": "6.3 Avaliação das sugestões paramétricas apoiadas por IA95",
+      "destino": "63-avaliação-das-sugestões-paramétricas-apoiadas-por-ia"
+    },
+    {
+      "indice": "principal",
+      "entrada": "6.4 Ajuste, verificação e limitações éticas e técnicas97",
+      "destino": "64-ajuste-verificação-e-limitações-éticas-e-técnicas"
+    },
+    {
+      "indice": "principal",
+      "entrada": "Capítulo 7 - Princípios de Interface e Decisões de Interação99",
+      "destino": "seccao-13"
+    },
+    {
+      "indice": "principal",
+      "entrada": "7.1 Estratégia de interação e decisões de UI/UX99",
+      "destino": "71-estratégia-de-interação-e-decisões-de-uiux"
+    },
+    {
+      "indice": "principal",
+      "entrada": "7.2 Papéis previstos e distribuição de decisões100",
+      "destino": "72-papéis-previstos-e-distribuição-de-decisões"
+    },
+    {
+      "indice": "principal",
+      "entrada": "7.3 Mediação do processo de design e reflexão crítica101",
+      "destino": "73-mediação-do-processo-de-design-e-reflexão-crítica"
+    },
+    {
+      "indice": "principal",
+      "entrada": "Capítulo 8 - Avaliação e Discussão103",
+      "destino": "seccao-14"
+    },
+    {
+      "indice": "principal",
+      "entrada": "8.1 Estratégia e critérios de avaliação103",
+      "destino": "81-estratégia-e-critérios-de-avaliação"
+    },
+    {
+      "indice": "principal",
+      "entrada": "8.1.1 Verificação técnica da plataforma103",
+      "destino": "811-verificação-técnica-da-plataforma"
+    },
+    {
+      "indice": "principal",
+      "entrada": "8.1.2 Avaliação complementar da consistência da criação, recuperação e acessibilidade104",
+      "destino": "812-avaliação-complementar-da-consistência-da-criação-recuperação-e-acessibilidade"
+    },
+    {
+      "indice": "principal",
+      "entrada": "8.1.3 Preparação para impressão e protótipos físicos105",
+      "destino": "813-preparação-para-impressão-e-protótipos-físicos"
+    },
+    {
+      "indice": "principal",
+      "entrada": "8.2 Avaliação da coerência das sugestões de IA111",
+      "destino": "82-avaliação-da-coerência-das-sugestões-de-ia"
+    },
+    {
+      "indice": "principal",
+      "entrada": "8.3 Verificação geométrica entre modelos114",
+      "destino": "83-verificação-geométrica-entre-modelos"
+    },
+    {
+      "indice": "principal",
+      "entrada": "8.4 Discussão dos resultados face aos objetivos116",
+      "destino": "84-discussão-dos-resultados-face-aos-objetivos"
+    },
+    {
+      "indice": "principal",
+      "entrada": "Capítulo 9 - Conclusões e Trabalhos Futuros121",
+      "destino": "seccao-15"
+    },
+    {
+      "indice": "principal",
+      "entrada": "9.1 Resposta ao problema e às perguntas de investigação121",
+      "destino": "91-resposta-ao-problema-e-às-perguntas-de-investigação"
+    },
+    {
+      "indice": "principal",
+      "entrada": "9.2 Contributos da investigação122",
+      "destino": "92-contributos-da-investigação"
+    },
+    {
+      "indice": "principal",
+      "entrada": "9.3 Limitações123",
+      "destino": "93-limitações"
+    },
+    {
+      "indice": "principal",
+      "entrada": "9.4 Trabalho futuro124",
+      "destino": "94-trabalho-futuro"
+    },
+    {
+      "indice": "principal",
+      "entrada": "Anexo A - Metodologia de extração e codificação de dados antropométricos149",
+      "destino": "seccao-17"
+    },
+    {
+      "indice": "principal",
+      "entrada": "Índice do Anexo A149",
+      "destino": "índice-do-anexo-a"
+    },
+    {
+      "indice": "principal",
+      "entrada": "A.1 Contexto e Objetivo150",
+      "destino": "a1-contexto-e-objetivo"
+    },
+    {
+      "indice": "principal",
+      "entrada": "A.2 Estratégia de Pesquisa Bibliográfica150",
+      "destino": "a2-estratégia-de-pesquisa-bibliográfica"
+    },
+    {
+      "indice": "principal",
+      "entrada": "A.2.1 Pesquisa bibliográfica orientada150",
+      "destino": "a21-pesquisa-bibliográfica-orientada"
+    },
+    {
+      "indice": "principal",
+      "entrada": "A.2.2 Base ANSUR 1988151",
+      "destino": "a22-base-ansur-1988"
+    },
+    {
+      "indice": "principal",
+      "entrada": "A.3 Critérios de Inclusão e Exclusão de Estudos151",
+      "destino": "a3-critérios-de-inclusão-e-exclusão-de-estudos"
+    },
+    {
+      "indice": "principal",
+      "entrada": "A.3.1 Critérios de inclusão151",
+      "destino": "a31-critérios-de-inclusão"
+    },
+    {
+      "indice": "principal",
+      "entrada": "A.3.2 Critérios de exclusão151",
+      "destino": "a32-critérios-de-exclusão"
+    },
+    {
+      "indice": "principal",
+      "entrada": "A.4 Processo de Extração de Dados152",
+      "destino": "a4-processo-de-extração-de-dados"
+    },
+    {
+      "indice": "principal",
+      "entrada": "A.4.1 Leitura dos PDFs e localização das tabelas152",
+      "destino": "a41-leitura-dos-pdfs-e-localização-das-tabelas"
+    },
+    {
+      "indice": "principal",
+      "entrada": "A.4.2 Identificação das unidades e conversão152",
+      "destino": "a42-identificação-das-unidades-e-conversão"
+    },
+    {
+      "indice": "principal",
+      "entrada": "A.4.3 Decomposição em linhas atómicas152",
+      "destino": "a43-decomposição-em-linhas-atómicas"
+    },
+    {
+      "indice": "principal",
+      "entrada": "A.4.4 Registo do contexto da medição153",
+      "destino": "a44-registo-do-contexto-da-medição"
+    },
+    {
+      "indice": "principal",
+      "entrada": "A.5 Decisões por Estudo153",
+      "destino": "a5-decisões-por-estudo"
+    },
+    {
+      "indice": "principal",
+      "entrada": "A.5.1 ANSUR 1988 - EUA, militares (Gordon et al., 1989)153",
+      "destino": "a51-ansur-1988---eua-militares-gordon-et-al-1989"
+    },
+    {
+      "indice": "principal",
+      "entrada": "A.5.2 Turquia - jovens adultos (Chatzıoglou et al., 2024)154",
+      "destino": "a52-turquia---jovens-adultos-chatzıoglou-et-al-2024citpop62651207end"
+    },
+    {
+      "indice": "principal",
+      "entrada": "A.5.3 México - população geral (Rodríguez-Vega & Rodríguez-Vega, 2024)154",
+      "destino": "a53-méxico---população-geral-rodríguez-vega--rodríguez-vega-2024citpopa7db44fdend"
+    },
+    {
+      "indice": "principal",
+      "entrada": "A.5.4 Índia - mulheres trabalhadoras (Nag et al., 2003)154",
+      "destino": "a54-índia---mulheres-trabalhadoras-nag-et-al-2003citpop1a0e7276end"
+    },
+    {
+      "indice": "principal",
+      "entrada": "A.5.5 Portugal - trabalhadores industriais (Anacleto Filho et al., 2023)154",
+      "destino": "a55-portugal---trabalhadores-industriais-anacleto-filho-et-al-2023citpopf07e79ceend"
+    },
+    {
+      "indice": "principal",
+      "entrada": "A.5.6 Nigéria - atletas universitários (Ibiwari et al., 2025)155",
+      "destino": "a56-nigéria---atletas-universitários-ibiwari-et-al-2025citpop54c6ff54end"
+    },
+    {
+      "indice": "principal",
+      "entrada": "A.5.7 Jordânia - trabalhadores com deficiência (Mistarihi, 2020)155",
+      "destino": "a57-jordânia---trabalhadores-com-deficiência-mistarihi-2020citpop01dc4294end"
+    },
+    {
+      "indice": "principal",
+      "entrada": "A.5.8 EUA - dedo indicador (Lim et al., 2018)156",
+      "destino": "a58-eua---dedo-indicador-lim-et-al-2018"
+    },
+    {
+      "indice": "principal",
+      "entrada": "A.5.9 Estudo excluído: (Moreo, 2016)156",
+      "destino": "a59-estudo-excluído-moreo-2016citpop91372b66end"
+    },
+    {
+      "indice": "principal",
+      "entrada": "A.5.10 EUA - militares ANSUR II (Gordon et al., 2014)156",
+      "destino": "a510-eua---militares-ansur-ii-gordon-et-al-2014"
+    },
+    {
+      "indice": "principal",
+      "entrada": "A.5.11 Países Baixos - DINED (TU Delft)157",
+      "destino": "a511-países-baixos---dined-tu-delft"
+    },
+    {
+      "indice": "principal",
+      "entrada": "A.5.12 China - idosos de Pequim157",
+      "destino": "a512-china---idosos-de-pequim"
+    },
+    {
+      "indice": "principal",
+      "entrada": "A.5.13 Estudo excluído: reconstrução corporal 3D a partir de fotografias ortogonais158",
+      "destino": "a513-estudo-excluído-reconstrução-corporal-3d-a-partir-de-fotografias-ortogonais"
+    },
+    {
+      "indice": "principal",
+      "entrada": "A.6 Estrutura do CSV e esquema de dados158",
+      "destino": "a6-estrutura-do-csv-e-esquema-de-dados"
+    },
+    {
+      "indice": "principal",
+      "entrada": "A.6.1 Campos158",
+      "destino": "a61-campos"
+    },
+    {
+      "indice": "principal",
+      "entrada": "A.6.2 Formato longo (long format)159",
+      "destino": "a62-formato-longo-long-format"
+    },
+    {
+      "indice": "principal",
+      "entrada": "A.7 Controlo de Qualidade dos Dados159",
+      "destino": "a7-controlo-de-qualidade-dos-dados"
+    },
+    {
+      "indice": "principal",
+      "entrada": "A.7.1 Marcação inline de limitações159",
+      "destino": "a71-marcação-inline-de-limitações"
+    },
+    {
+      "indice": "principal",
+      "entrada": "A.7.2 Verificação de unidades160",
+      "destino": "a72-verificação-de-unidades"
+    },
+    {
+      "indice": "principal",
+      "entrada": "A.7.3 Ligação à fonte160",
+      "destino": "a73-ligação-à-fonte"
+    },
+    {
+      "indice": "principal",
+      "entrada": "A.8 Escrita do Código de Geração160",
+      "destino": "a8-escrita-do-código-de-geração"
+    },
+    {
+      "indice": "principal",
+      "entrada": "A.8.1 Correspondência entre os CSV e os parâmetros da plataforma160",
+      "destino": "a81-correspondência-entre-os-csv-e-os-parâmetros-da-plataforma"
+    },
+    {
+      "indice": "principal",
+      "entrada": "A.9 Resultado Final161",
+      "destino": "a9-resultado-final"
+    },
+    {
+      "indice": "principal",
+      "entrada": "A.10 Cobertura Global da Base de Dados e Lacunas162",
+      "destino": "a10-cobertura-global-da-base-de-dados-e-lacunas"
+    },
+    {
+      "indice": "principal",
+      "entrada": "A.10.1 O que está coberto162",
+      "destino": "a101-o-que-está-coberto"
+    },
+    {
+      "indice": "principal",
+      "entrada": "A.10.2 Onde a cobertura falha164",
+      "destino": "a102-onde-a-cobertura-falha"
+    },
+    {
+      "indice": "principal",
+      "entrada": "A.10.3 PRIORIDADES identificadas para expansão futura166",
+      "destino": "a103-prioridades-identificadas-para-expansão-futura"
+    },
+    {
+      "indice": "principal",
+      "entrada": "Anexo B - Avaliação do processo paramétrico e da interface da plataforma HandFab167",
+      "destino": "seccao-19"
+    },
+    {
+      "indice": "principal",
+      "entrada": "Índice do Anexo B167",
+      "destino": "índice-do-anexo-b"
+    },
+    {
+      "indice": "principal",
+      "entrada": "B.1 Finalidade167",
+      "destino": "b1-finalidade"
+    },
+    {
+      "indice": "principal",
+      "entrada": "B.2 Âmbito e limites168",
+      "destino": "b2-âmbito-e-limites"
+    },
+    {
+      "indice": "principal",
+      "entrada": "B.3 Procedimento168",
+      "destino": "b3-procedimento"
+    },
+    {
+      "indice": "principal",
+      "entrada": "B.4 Resultados de consistência da geração169",
+      "destino": "b4-resultados-de-consistência-da-geração"
+    },
+    {
+      "indice": "principal",
+      "entrada": "B.4.1 Repetição da mesma configuração169",
+      "destino": "b41-repetição-da-mesma-configuração"
+    },
+    {
+      "indice": "principal",
+      "entrada": "B.4.2 Comparação entre navegadores169",
+      "destino": "b42-comparação-entre-navegadores"
+    },
+    {
+      "indice": "principal",
+      "entrada": "B.5 Resultados de recuperação e controlo170",
+      "destino": "b5-resultados-de-recuperação-e-controlo"
+    },
+    {
+      "indice": "principal",
+      "entrada": "B.6 Resultados da verificação de acessibilidade digital171",
+      "destino": "b6-resultados-da-verificação-de-acessibilidade-digital"
+    },
+    {
+      "indice": "principal",
+      "entrada": "B.6.1 Percurso local autenticado171",
+      "destino": "b61-percurso-local-autenticado"
+    },
+    {
+      "indice": "principal",
+      "entrada": "B.6.2 Superfície pública172",
+      "destino": "b62-superfície-pública"
+    },
+    {
+      "indice": "principal",
+      "entrada": "B.6.3 Verificação manual complementar172",
+      "destino": "b63-verificação-manual-complementar"
+    },
+    {
+      "indice": "principal",
+      "entrada": "B.7 Aprendizagens para o Design Industrial173",
+      "destino": "b7-aprendizagens-para-o-design-industrial"
+    },
+    {
+      "indice": "principal",
+      "entrada": "B.8 Conclusão174",
+      "destino": "b8-conclusão"
+    },
+    {
+      "indice": "principal",
+      "entrada": "B.9 Referências normativas174",
+      "destino": "b9-referências-normativas"
+    },
+    {
+      "indice": "principal",
+      "entrada": "Anexo C - Adaptação paramétrica dos modelos de mão protésica176",
+      "destino": "seccao-21"
+    },
+    {
+      "indice": "principal",
+      "entrada": "Índice do Anexo C176",
+      "destino": "índice-do-anexo-c"
+    },
+    {
+      "indice": "principal",
+      "entrada": "C.1 Objectivo e âmbito178",
+      "destino": "c1-objectivo-e-âmbito"
+    },
+    {
+      "indice": "principal",
+      "entrada": "C.2 Princípio comum de adaptação178",
+      "destino": "c2-princípio-comum-de-adaptação"
+    },
+    {
+      "indice": "principal",
+      "entrada": "C.2.1 Campos antropométricos comuns179",
+      "destino": "c21-campos-antropométricos-comuns"
+    },
+    {
+      "indice": "principal",
+      "entrada": "C.2.2 Tipos de parâmetros180",
+      "destino": "c22-tipos-de-parâmetros"
+    },
+    {
+      "indice": "principal",
+      "entrada": "C.2.3 Coerência dos controlos no estado final examinado181",
+      "destino": "c23-coerência-dos-controlos-no-estado-final-examinado"
+    },
+    {
+      "indice": "principal",
+      "entrada": "C.3 Flexy Beast181",
+      "destino": "c3-flexy-beast"
+    },
+    {
+      "indice": "principal",
+      "entrada": "C.3.1 Origem e estratégia de adaptação181",
+      "destino": "c31-origem-e-estratégia-de-adaptação"
+    },
+    {
+      "indice": "principal",
+      "entrada": "C.3.2 Entradas, limites e relações181",
+      "destino": "c32-entradas-limites-e-relações"
+    },
+    {
+      "indice": "principal",
+      "entrada": "C.3.3 Braçadeira e interfaces confirmáveis183",
+      "destino": "c33-braçadeira-e-interfaces-confirmáveis"
+    },
+    {
+      "indice": "principal",
+      "entrada": "C.3.4 PROpagação paramétrica documentada no perfil de ensaio183",
+      "destino": "c34-propagação-paramétrica-documentada-no-perfil-de-ensaio"
+    },
+    {
+      "indice": "principal",
+      "entrada": "C.3.5 Limitações específicas184",
+      "destino": "c35-limitações-específicas"
+    },
+    {
+      "indice": "principal",
+      "entrada": "C.4 Cyborg Beast184",
+      "destino": "c4-cyborg-beast"
+    },
+    {
+      "indice": "principal",
+      "entrada": "C.4.1 Origem e estratégia de adaptação184",
+      "destino": "c41-origem-e-estratégia-de-adaptação"
+    },
+    {
+      "indice": "principal",
+      "entrada": "C.4.2 Entradas e escala da mão184",
+      "destino": "c42-entradas-e-escala-da-mão"
+    },
+    {
+      "indice": "principal",
+      "entrada": "C.4.3 Divisão proximal-distal185",
+      "destino": "c43-divisão-proximal-distal"
+    },
+    {
+      "indice": "principal",
+      "entrada": "C.4.4 Componente de fixação ao punho, folgas e parâmetros fixos185",
+      "destino": "c44-componente-de-fixação-ao-punho-folgas-e-parâmetros-fixos"
+    },
+    {
+      "indice": "principal",
+      "entrada": "C.4.5 Exemplo de propagação paramétrica186",
+      "destino": "c45-exemplo-de-propagação-paramétrica"
+    },
+    {
+      "indice": "principal",
+      "entrada": "C.4.6 Limitações específicas186",
+      "destino": "c46-limitações-específicas"
+    },
+    {
+      "indice": "principal",
+      "entrada": "C.5 Paraglider Hand187",
+      "destino": "c5-paraglider-hand"
+    },
+    {
+      "indice": "principal",
+      "entrada": "C.5.1 Origem e estratégia de adaptação187",
+      "destino": "c51-origem-e-estratégia-de-adaptação"
+    },
+    {
+      "indice": "principal",
+      "entrada": "C.5.2 Relações implementadas187",
+      "destino": "c52-relações-implementadas"
+    },
+    {
+      "indice": "principal",
+      "entrada": "C.5.3 Hardware e limites confirmáveis188",
+      "destino": "c53-hardware-e-limites-confirmáveis"
+    },
+    {
+      "indice": "principal",
+      "entrada": "C.5.5 Limitações específicas189",
+      "destino": "c55-limitações-específicas"
+    },
+    {
+      "indice": "principal",
+      "entrada": "C.6 UnLimbited Phoenix Hand189",
+      "destino": "c6-unlimbited-phoenix-hand"
+    },
+    {
+      "indice": "principal",
+      "entrada": "C.6.1 Origem e estratégia de adaptação189",
+      "destino": "c61-origem-e-estratégia-de-adaptação"
+    },
+    {
+      "indice": "principal",
+      "entrada": "C.6.2 Escala global e limite dimensional mínimo189",
+      "destino": "c62-escala-global-e-limite-dimensional-mínimo"
+    },
+    {
+      "indice": "principal",
+      "entrada": "C.6.3 Comprimentos digitais e preservação dos furos190",
+      "destino": "c63-comprimentos-digitais-e-preservação-dos-furos"
+    },
+    {
+      "indice": "principal",
+      "entrada": "C.6.4 Dependência entre comprimento dos dedos e escala global190",
+      "destino": "c64-dependência-entre-comprimento-dos-dedos-e-escala-global"
+    },
+    {
+      "indice": "principal",
+      "entrada": "C.6.5 Exemplo de propagação paramétrica191",
+      "destino": "c65-exemplo-de-propagação-paramétrica"
+    },
+    {
+      "indice": "principal",
+      "entrada": "C.6.6 Componentes fixos e tolerâncias confirmáveis191",
+      "destino": "c66-componentes-fixos-e-tolerâncias-confirmáveis"
+    },
+    {
+      "indice": "principal",
+      "entrada": "C.6.7 Limitações específicas192",
+      "destino": "c67-limitações-específicas"
+    },
+    {
+      "indice": "principal",
+      "entrada": "C.7 Síntese comparativa das estratégias192",
+      "destino": "c7-síntese-comparativa-das-estratégias"
+    },
+    {
+      "indice": "principal",
+      "entrada": "C.8 Critérios de aceitação, limitação e rejeição193",
+      "destino": "c8-critérios-de-aceitação-limitação-e-rejeição"
+    },
+    {
+      "indice": "principal",
+      "entrada": "C.9 Relação com o Suplemento 3194",
+      "destino": "c9-relação-com-o-suplemento-3"
+    },
+    {
+      "indice": "principal",
+      "entrada": "C.10 Limite de interpretação194",
+      "destino": "c10-limite-de-interpretação"
+    },
+    {
+      "indice": "principal",
+      "entrada": "C.11 Fontes técnicas consultadas194",
+      "destino": "c11-fontes-técnicas-consultadas"
+    },
+    {
+      "indice": "principal",
+      "entrada": "C.12 Verificações executadas195",
+      "destino": "c12-verificações-executadas"
+    },
+    {
+      "indice": "principal",
+      "entrada": "Anexo D - Preparação para fabrico e verificação dos protótipos196",
+      "destino": "seccao-23"
+    },
+    {
+      "indice": "principal",
+      "entrada": "Índice do Anexo D196",
+      "destino": "índice-do-anexo-d"
+    },
+    {
+      "indice": "principal",
+      "entrada": "D.1 Finalidade197",
+      "destino": "d1-finalidade"
+    },
+    {
+      "indice": "principal",
+      "entrada": "D.2 Distinção entre estimativa e medição real197",
+      "destino": "d2-distinção-entre-estimativa-e-medição-real"
+    },
+    {
+      "indice": "principal",
+      "entrada": "D.3 Variáveis, controlos e materiais198",
+      "destino": "d3-variáveis-controlos-e-materiais"
+    },
+    {
+      "indice": "principal",
+      "entrada": "D.3.1 Série A - projetos de preparação digital para impressão 3D com configuração analisada198",
+      "destino": "-d31-série-a---projetos-de-preparação-digital-para-impressão-3d-com-configuração-analisada"
+    },
+    {
+      "indice": "principal",
+      "entrada": "D.3.2 Série B - comparação digital controlada198",
+      "destino": "d32-série-b---comparação-digital-controlada"
+    },
+    {
+      "indice": "principal",
+      "entrada": "D.4 Resultados199",
+      "destino": "d4-resultados"
+    },
+    {
+      "indice": "principal",
+      "entrada": "D.4.1 Série A199",
+      "destino": "d41-série-a"
+    },
+    {
+      "indice": "principal",
+      "entrada": "D.4.2 Série B (condição comum)200",
+      "destino": "d42-série-b-condição-comum"
+    },
+    {
+      "indice": "principal",
+      "entrada": "D.4.3 Geometria - tamanho do conjunto vs tamanho da peça201",
+      "destino": "d43-geometria---tamanho-do-conjunto-vs-tamanho-da-peça"
+    },
+    {
+      "indice": "principal",
+      "entrada": "D.4.4 Comparação entre entrada, malha e peça física202",
+      "destino": "d44-comparação-entre-entrada-malha-e-peça-física"
+    },
+    {
+      "indice": "principal",
+      "entrada": "D.4.5 Registo fotográfico dos protótipos203",
+      "destino": "d45-registo-fotográfico-dos-protótipos"
+    },
+    {
+      "indice": "principal",
+      "entrada": "D.5 Compatibilidade com orientações de dimensionamento204",
+      "destino": "d5-compatibilidade-com-orientações-de-dimensionamento"
+    },
+    {
+      "indice": "principal",
+      "entrada": "D.6 Limites de comparabilidade204",
+      "destino": "d6-limites-de-comparabilidade"
+    },
+    {
+      "indice": "principal",
+      "entrada": "D.7 Campos que não puderam ser obtidos205",
+      "destino": "d7-campos-que-não-puderam-ser-obtidos"
+    },
+    {
+      "indice": "principal",
+      "entrada": "D.8 O que pode e não pode ser afirmado na investigação205",
+      "destino": "d8-o-que-pode-e-não-pode-ser-afirmado-na-investigação"
+    },
+    {
+      "indice": "figuras",
+      "entrada": "Figura 1 - Exemplos de próteses e dispositivos associados ao fabrico aditivo em contexto protésico.1",
+      "destino": "figura-1"
+    },
+    {
+      "indice": "figuras",
+      "entrada": "Figura 2 - Exemplos de próteses de membro superior impressas em 3D, ilustrando diversidade tipológica e construtiva.7",
+      "destino": "figura-2"
+    },
+    {
+      "indice": "figuras",
+      "entrada": "Figura 3 - Utilização continuada, rejeição primária e rejeição secundária de próteses numa amostra de adultos com amputação adquirida do membro superior.9",
+      "destino": "figura-3"
+    },
+    {
+      "indice": "figuras",
+      "entrada": "Figura 4 - Comparação entre os fluxos tradicional, CAD/CAM e de fabrico aditivo na produção de dispositivos protésicos.15",
+      "destino": "figura-4"
+    },
+    {
+      "indice": "figuras",
+      "entrada": "Figura 5 - Exemplo de configurador digital para personalização de uma prótese impressa em 3D.17",
+      "destino": "figura-5"
+    },
+    {
+      "indice": "figuras",
+      "entrada": "Figura 6 - Marcos anatómicos e medidas de referência da mão para fins de personalização.23",
+      "destino": "figura-6"
+    },
+    {
+      "indice": "figuras",
+      "entrada": "Figura 7 - Enquadramento de um fluxo de CAD apoiado por IA para desenvolvimento de produto.27",
+      "destino": "figura-7"
+    },
+    {
+      "indice": "figuras",
+      "entrada": "Figura 8 - Modelo de processo para configurar participação em ecossistemas de inovação e cocriação.32",
+      "destino": "figura-8"
+    },
+    {
+      "indice": "figuras",
+      "entrada": "Figura 9 - Número de artigos por nível de prontidão tecnológica (TRL) e categoria de aplicação.36",
+      "destino": "figura-9"
+    },
+    {
+      "indice": "figuras",
+      "entrada": "Figura 10 - Processo interdisciplinar de desenvolvimento de uma prótese de membro superior impressa em 3D.43",
+      "destino": "figura-10"
+    },
+    {
+      "indice": "figuras",
+      "entrada": "Figura 11 - Exemplo de recolha dimensional para ajuste de prótese impressa em 3D.49",
+      "destino": "figura-11"
+    },
+    {
+      "indice": "figuras",
+      "entrada": "Figura 12 - Parâmetros antropométricos utilizados na modelação paramétrica de dedos protésicos.53",
+      "destino": "figura-12"
+    },
+    {
+      "indice": "figuras",
+      "entrada": "Figura 13 - Comparação entre o escalonamento uniforme e a modelação paramétrica de dedo protésico.55",
+      "destino": "figura-13"
+    },
+    {
+      "indice": "figuras",
+      "entrada": "Figura 14 - Relação entre modelo paramétrico digital, prototipagem e verificação de um dedo protésico.61",
+      "destino": "figura-14"
+    },
+    {
+      "indice": "figuras",
+      "entrada": "Figura 15 - Fluxo geral de produção personalizada de próteses a partir de plataforma web - HandFab.74",
+      "destino": "figura-15"
+    },
+    {
+      "indice": "figuras",
+      "entrada": "Figura 16 - Painel de configuração dos perfis de utilizador na plataforma HandFab.75",
+      "destino": "figura-16"
+    },
+    {
+      "indice": "figuras",
+      "entrada": "Figura 17 - Arquitetura da plataforma e fronteiras entre navegador, servidor, serviço externo de IA e preparação do fabrico.77",
+      "destino": "figura-17"
+    },
+    {
+      "indice": "figuras",
+      "entrada": "Figura 18 - Sequência de dados e decisões, desde o perfil ou descrição, até à sugestão, confirmação, geração determinística e exportação.78",
+      "destino": "figura-18"
+    },
+    {
+      "indice": "figuras",
+      "entrada": "Figura 19 - Fluxo geral de produção personalizada de próteses a partir de digitalização, CAD adaptativo e fabrico aditivo.80",
+      "destino": "figura-19"
+    },
+    {
+      "indice": "figuras",
+      "entrada": "Figura 20 - Visualização do código OpenSCAD e da geometria correspondente na plataforma HandFab.83",
+      "destino": "figura-20"
+    },
+    {
+      "indice": "figuras",
+      "entrada": "Figura 21 - Ferramenta paramétrica para configuração de ajudas técnicas com variação de dimensões, materiais e peso.84",
+      "destino": "figura-21"
+    },
+    {
+      "indice": "figuras",
+      "entrada": "Figura 22 - Interface de seleção, configuração paramétrica e materiais da plataforma HandFab.85",
+      "destino": "figura-22"
+    },
+    {
+      "indice": "figuras",
+      "entrada": "Figura 23 - Perfis antropométricos populacionais disponíveis na plataforma HandFab.87",
+      "destino": "figura-23"
+    },
+    {
+      "indice": "figuras",
+      "entrada": "Figura 24 - Campos de identificação, contexto e medição para adição ou edição de perfis antropométricos na plataforma HandFab.87",
+      "destino": "figura-24"
+    },
+    {
+      "indice": "figuras",
+      "entrada": "Figura 25 - Relação entre desafios de compreensão das decisões e princípios de IA responsável.97",
+      "destino": "figura-25"
+    },
+    {
+      "indice": "figuras",
+      "entrada": "Figura 26 - Exemplo publicado de teste de uma prótese impressa em 3D com um utilizador.101",
+      "destino": "figura-26"
+    },
+    {
+      "indice": "figuras",
+      "entrada": "Figura 27 - Componentes impressos e estados preliminares de montagem: segmentos digitais articulados, palma e elementos separados. O painel documenta a materialização das geometrias e a compatibilidade visual entre componentes.109",
+      "destino": "figura-27"
+    },
+    {
+      "indice": "figuras",
+      "entrada": "Figura 28 - Séries físicas de segmentos identificados pelos perfis de ensaio de 8, 15, 28 e 70 anos. À esquerda apresenta-se a série Paraglider Hand; ao centro e à direita, duas vistas da série Flexy Beast. As diferenças visíveis documentam a variação dimensional.109",
+      "destino": "figura-28"
+    },
+    {
+      "indice": "figuras",
+      "entrada": "Figura 29 - UnLimbited Phoenix configurada para o perfil de ensaio de 15 anos, apresentada em sete vistas da montagem física. As imagens documentam a reunião dos componentes e a mobilidade manual observável das articulações, sem equivaler a um protocolo de funcionamento, preensão ou utilização protésica.110",
+      "destino": "figura-29"
+    },
+    {
+      "indice": "figuras",
+      "entrada": "Figura 30 - Tarefas funcionais usadas em avaliação de prótese personalizada de membro superior.110",
+      "destino": "figura-30"
+    },
+    {
+      "indice": "tabelas",
+      "entrada": "Tabela 1 - Função dos profissionais de saúde no desenvolvimento de dispositivos médicos.11",
+      "destino": "tabela-1"
+    },
+    {
+      "indice": "tabelas",
+      "entrada": "Tabela 2 - Elementos centrais na configuração da participação em sistemas configuráveis.32",
+      "destino": "tabela-2"
+    },
+    {
+      "indice": "tabelas",
+      "entrada": "Tabela 3 - Correspondência entre lacunas do estado da arte, resposta da investigação e limites de avaliação.40",
+      "destino": "tabela-3"
+    },
+    {
+      "indice": "tabelas",
+      "entrada": "Tabela 4 - Ciclos de Research Through Design documentados no desenvolvimento.42",
+      "destino": "tabela-4"
+    },
+    {
+      "indice": "tabelas",
+      "entrada": "Tabela 5 - Correspondência entre perguntas, atividades, evidência e limites.45",
+      "destino": "tabela-5"
+    },
+    {
+      "indice": "tabelas",
+      "entrada": "Tabela 6 - Métodos, unidades de análise, critérios e localização dos resultados.46",
+      "destino": "tabela-6"
+    },
+    {
+      "indice": "tabelas",
+      "entrada": "Tabela 7 - Principais parâmetros antropométricos da mão e do membro superior relevantes para modelação paramétrica.53",
+      "destino": "tabela-7"
+    },
+    {
+      "indice": "tabelas",
+      "entrada": "Tabela 8 - Conjuntos mínimos de parâmetros por nível de amputação.54",
+      "destino": "tabela-8"
+    },
+    {
+      "indice": "tabelas",
+      "entrada": "Tabela 9 - Métodos de recolha de dados antropométricos e suas características.56",
+      "destino": "tabela-9"
+    },
+    {
+      "indice": "tabelas",
+      "entrada": "Tabela 10 - Funções e limites da base antropométrica na configuração.57",
+      "destino": "tabela-10"
+    },
+    {
+      "indice": "tabelas",
+      "entrada": "Tabela 11 - Estrutura hierárquica dos parâmetros no modelo paramétrico.58",
+      "destino": "tabela-11"
+    },
+    {
+      "indice": "tabelas",
+      "entrada": "Tabela 12 - Mapeamento entre parâmetros antropométricos e elementos do modelo.60",
+      "destino": "tabela-12"
+    },
+    {
+      "indice": "tabelas",
+      "entrada": "Tabela 13 - Estrutura técnica em camadas de um modelo paramétrico em OpenSCAD para próteses personalizadas.62",
+      "destino": "tabela-13"
+    },
+    {
+      "indice": "tabelas",
+      "entrada": "Tabela 14 - Síntese das relações implementadas e respetivas limitações.64",
+      "destino": "tabela-14"
+    },
+    {
+      "indice": "tabelas",
+      "entrada": "Tabela 15 - Dicionário operacional dos parâmetros numéricos dos modelos avaliados.66",
+      "destino": "tabela-15"
+    },
+    {
+      "indice": "tabelas",
+      "entrada": "Tabela 16 - Exemplo da transformação das medidas antropométricas em geometria digital no Flexy Beast.69",
+      "destino": "tabela-16"
+    },
+    {
+      "indice": "tabelas",
+      "entrada": "Tabela 17 - Cronologia das principais iterações paramétricas.71",
+      "destino": "tabela-17"
+    },
+    {
+      "indice": "tabelas",
+      "entrada": "Tabela 18 - Fluxo de dados e responsabilidades da plataforma.76",
+      "destino": "tabela-18"
+    },
+    {
+      "indice": "tabelas",
+      "entrada": "Tabela 19 - Componentes, estados e limites do protótipo examinado.78",
+      "destino": "tabela-19"
+    },
+    {
+      "indice": "tabelas",
+      "entrada": "Tabela 20 - Modelos integrados na plataforma e respetiva avaliação.88",
+      "destino": "tabela-20"
+    },
+    {
+      "indice": "tabelas",
+      "entrada": "Tabela 21 - Especificação técnica dos modelos de IA e da estrutura da sugestão paramétrica.94",
+      "destino": "tabela-21"
+    },
+    {
+      "indice": "tabelas",
+      "entrada": "Tabela 22 - Distribuição de tarefas entre regras, IA e supervisão humana.96",
+      "destino": "tabela-22"
+    },
+    {
+      "indice": "tabelas",
+      "entrada": "Tabela 23 - Evidência do funcionamento da plataforma no processo de projeto.103",
+      "destino": "tabela-23"
+    },
+    {
+      "indice": "tabelas",
+      "entrada": "Tabela 24 - Projetos de preparação digital para impressão 3D com configuração analisada.106",
+      "destino": "tabela-24"
+    },
+    {
+      "indice": "tabelas",
+      "entrada": "Tabela 25 - Inspeção computacional das malhas geradas para um perfil antropométrico de 8 anos.108",
+      "destino": "tabela-25"
+    },
+    {
+      "indice": "tabelas",
+      "entrada": "Tabela 26 - Descrições submetidas nos cenários de avaliação da IA.111",
+      "destino": "tabela-26"
+    },
+    {
+      "indice": "tabelas",
+      "entrada": "Tabela 27 - Síntese da avaliação das sugestões de IA.113",
+      "destino": "tabela-27"
+    },
+    {
+      "indice": "tabelas",
+      "entrada": "Tabela 28 - Modelos e mecanismos de escala avaliados.114",
+      "destino": "tabela-28"
+    },
+    {
+      "indice": "tabelas",
+      "entrada": "Tabela 29 - Fator de escala da maior dimensão da palma exportada relativamente à configuração de referência.116",
+      "destino": "tabela-29"
+    },
+    {
+      "indice": "tabelas",
+      "entrada": "Tabela 30 - Discussão dos resultados face às lacunas selecionadas do estado da arte.118",
+      "destino": "tabela-30"
+    },
+    {
+      "indice": "tabelas",
+      "entrada": "Tabela 31 - Síntese dos resultados e das limitações face às perguntas de investigação.122",
+      "destino": "tabela-31"
+    },
+    {
+      "indice": "anexos",
+      "entrada": "A.1 Contexto e Objectivo 150",
+      "destino": "anchor-544"
+    },
+    {
+      "indice": "anexos",
+      "entrada": "A.2 Estratégia de Pesquisa Bibliográfica 150",
+      "destino": "anchor-545"
+    },
+    {
+      "indice": "anexos",
+      "entrada": "A.2.1 Pesquisa bibliográfica orientada 150",
+      "destino": "anchor-546"
+    },
+    {
+      "indice": "anexos",
+      "entrada": "A.2.2 Base ANSUR 1988 151",
+      "destino": "anchor-547"
+    },
+    {
+      "indice": "anexos",
+      "entrada": "A.3 Critérios de Inclusão e Exclusão de Estudos151",
+      "destino": "anchor-548"
+    },
+    {
+      "indice": "anexos",
+      "entrada": "A.3.1 Critérios de inclusão 151",
+      "destino": "anchor-549"
+    },
+    {
+      "indice": "anexos",
+      "entrada": "A.3.2 Critérios de exclusão 151",
+      "destino": "anchor-550"
+    },
+    {
+      "indice": "anexos",
+      "entrada": "A.4 Processo de Extração de Dados 152",
+      "destino": "anchor-551"
+    },
+    {
+      "indice": "anexos",
+      "entrada": "A.4.1 Leitura dos PDFs e localização das tabelas 152",
+      "destino": "anchor-552"
+    },
+    {
+      "indice": "anexos",
+      "entrada": "A.4.2 Identificação das unidades e conversão 152",
+      "destino": "anchor-553"
+    },
+    {
+      "indice": "anexos",
+      "entrada": "A.4.3 Decomposição em linhas atómicas 152",
+      "destino": "anchor-554"
+    },
+    {
+      "indice": "anexos",
+      "entrada": "A.4.4 Registo fiel do contexto da medição 153",
+      "destino": "anchor-555"
+    },
+    {
+      "indice": "anexos",
+      "entrada": "A.5 Decisões por Estudo 153",
+      "destino": "anchor-556"
+    },
+    {
+      "indice": "anexos",
+      "entrada": "A.5.1 ANSUR 1988 - EUA, militares (Gordon et al., 1989) 153",
+      "destino": "anchor-557"
+    },
+    {
+      "indice": "anexos",
+      "entrada": "A.5.2 Turquia - jovens adultos (Chatzioglou et al., 2024) 154",
+      "destino": "anchor-558"
+    },
+    {
+      "indice": "anexos",
+      "entrada": "A.5.3 México - população geral (Rodríguez-Vega & Rodríguez-Vega, 2024) 154",
+      "destino": "anchor-559"
+    },
+    {
+      "indice": "anexos",
+      "entrada": "A.5.4 Índia - mulheres trabalhadoras (Nag et al., 2003) 154",
+      "destino": "anchor-560"
+    },
+    {
+      "indice": "anexos",
+      "entrada": "A.5.5 Portugal - trabalhadores industriais (Anacleto Filho et al., 2023) 154",
+      "destino": "anchor-561"
+    },
+    {
+      "indice": "anexos",
+      "entrada": "A.5.6 Nigéria - atletas universitários (Ibiwari et al., 2025) 155",
+      "destino": "anchor-562"
+    },
+    {
+      "indice": "anexos",
+      "entrada": "A.5.7 Jordânia - trabalhadores com deficiência (Mistarihi, 2020) 155",
+      "destino": "anchor-563"
+    },
+    {
+      "indice": "anexos",
+      "entrada": "A.5.8 EUA - dedo indicador (Lim et al., 2018) 156",
+      "destino": "anchor-564"
+    },
+    {
+      "indice": "anexos",
+      "entrada": "A.5.9 Estudo excluído: Moreo (2016) 156",
+      "destino": "anchor-565"
+    },
+    {
+      "indice": "anexos",
+      "entrada": "A.5.10 EUA - militares ANSUR II (Gordon et al., 2014) 156",
+      "destino": "anchor-566"
+    },
+    {
+      "indice": "anexos",
+      "entrada": "A.5.11 Países Baixos - DINED (TU Delft) 157",
+      "destino": "anchor-567"
+    },
+    {
+      "indice": "anexos",
+      "entrada": "A.5.12 China - idosos de Pequim 157",
+      "destino": "anchor-568"
+    },
+    {
+      "indice": "anexos",
+      "entrada": "A.5.13 Estudo excluído: reconstrução corporal 3D a partir de fotografias ortogonais 158",
+      "destino": "anchor-569"
+    },
+    {
+      "indice": "anexos",
+      "entrada": "A.6 Estrutura do CSV e esquema de dados 158",
+      "destino": "anchor-570"
+    },
+    {
+      "indice": "anexos",
+      "entrada": "A.6.1 Campos 158",
+      "destino": "anchor-571"
+    },
+    {
+      "indice": "anexos",
+      "entrada": "A.6.2 Formato longo (long format) 159",
+      "destino": "anchor-572"
+    },
+    {
+      "indice": "anexos",
+      "entrada": "A.7 Controlo de Qualidade dos Dados 159",
+      "destino": "anchor-573"
+    },
+    {
+      "indice": "anexos",
+      "entrada": "A.7.1 Marcação inline de limitações 159",
+      "destino": "anchor-574"
+    },
+    {
+      "indice": "anexos",
+      "entrada": "A.7.2 Verificação de unidades 160",
+      "destino": "anchor-575"
+    },
+    {
+      "indice": "anexos",
+      "entrada": "A.7.3 Ligação à fonte 160",
+      "destino": "anchor-576"
+    },
+    {
+      "indice": "anexos",
+      "entrada": "A.8 Escrita do Código de Geração 160",
+      "destino": "anchor-577"
+    },
+    {
+      "indice": "anexos",
+      "entrada": "A.8.1 Correspondência entre os CSV e os parâmetros da plataforma 160",
+      "destino": "anchor-578"
+    },
+    {
+      "indice": "anexos",
+      "entrada": "A.9 Resultado Final 161",
+      "destino": "anchor-579"
+    },
+    {
+      "indice": "anexos",
+      "entrada": "A.10 Cobertura Global da Base de Dados e Lacunas 162",
+      "destino": "anchor-580"
+    },
+    {
+      "indice": "anexos",
+      "entrada": "A.10.1 O que está coberto 162",
+      "destino": "anchor-581"
+    },
+    {
+      "indice": "anexos",
+      "entrada": "A.10.1.1. Cobertura geográfica 162",
+      "destino": "anchor-582"
+    },
+    {
+      "indice": "anexos",
+      "entrada": "A.10.1.2. Cobertura etária 162",
+      "destino": "anchor-583"
+    },
+    {
+      "indice": "anexos",
+      "entrada": "A.10.1.3. Cobertura estatística 163",
+      "destino": "anchor-584"
+    },
+    {
+      "indice": "anexos",
+      "entrada": "A.10.2 Onde a cobertura falha 164",
+      "destino": "anchor-585"
+    },
+    {
+      "indice": "anexos",
+      "entrada": "A.10.2.1. Lacunas geográficas 164",
+      "destino": "anchor-586"
+    },
+    {
+      "indice": "anexos",
+      "entrada": "A.10.2.2. Lacunas demográficas 164",
+      "destino": "anchor-587"
+    },
+    {
+      "indice": "anexos",
+      "entrada": "A.10.2.3. Limitações qualitativas dos dados existentes 165",
+      "destino": "anchor-588"
+    },
+    {
+      "indice": "anexos",
+      "entrada": "A.10.3 PRIORIDADES identificadas para expansão futura 166",
+      "destino": "anchor-589"
+    },
+    {
+      "indice": "anexos",
+      "entrada": "A.10.3.1. Prioridade alta 166",
+      "destino": "anchor-590"
+    },
+    {
+      "indice": "anexos",
+      "entrada": "A.10.3.2. Prioridade média 166",
+      "destino": "anchor-591"
+    },
+    {
+      "indice": "anexos",
+      "entrada": "A.10.3.3. Pertinência direta para o tema da tese 166",
+      "destino": "anchor-592"
+    },
+    {
+      "indice": "anexos",
+      "entrada": "Tabela A.1 - Campos, tipos e descrição do esquema de dados antropométricos. 158",
+      "destino": "anchor-593"
+    },
+    {
+      "indice": "anexos",
+      "entrada": "Tabela A.2 - Síntese dos conjuntos de dados antropométricos consolidados. 161",
+      "destino": "anchor-594"
+    },
+    {
+      "indice": "anexos",
+      "entrada": "Tabela A.3 - Cobertura geográfica da base de dados da mão. 162",
+      "destino": "anchor-595"
+    },
+    {
+      "indice": "anexos",
+      "entrada": "Tabela A.4 - Cobertura etária da base de dados da mão. 162",
+      "destino": "anchor-596"
+    },
+    {
+      "indice": "anexos",
+      "entrada": "Tabela A.5 - Indicadores estatísticos disponíveis por fonte. 163",
+      "destino": "anchor-597"
+    },
+    {
+      "indice": "anexos",
+      "entrada": "B.1 Finalidade 167",
+      "destino": "anchor-663"
+    },
+    {
+      "indice": "anexos",
+      "entrada": "B.2 Âmbito e limites 168",
+      "destino": "anchor-664"
+    },
+    {
+      "indice": "anexos",
+      "entrada": "B.3 Procedimento 168",
+      "destino": "anchor-665"
+    },
+    {
+      "indice": "anexos",
+      "entrada": "B.4 Resultados de consistência da geração 169",
+      "destino": "anchor-666"
+    },
+    {
+      "indice": "anexos",
+      "entrada": "B.4.1 Repetição da mesma configuração 169",
+      "destino": "anchor-667"
+    },
+    {
+      "indice": "anexos",
+      "entrada": "B.4.2 Comparação entre navegadores 169",
+      "destino": "anchor-668"
+    },
+    {
+      "indice": "anexos",
+      "entrada": "B.5 Resultados de recuperação e controlo 170",
+      "destino": "anchor-669"
+    },
+    {
+      "indice": "anexos",
+      "entrada": "B.6 Resultados da verificação de acessibilidade digital 171",
+      "destino": "anchor-670"
+    },
+    {
+      "indice": "anexos",
+      "entrada": "B.6.1 Percurso local autenticado 171",
+      "destino": "anchor-671"
+    },
+    {
+      "indice": "anexos",
+      "entrada": "B.6.2 Superfície pública 172",
+      "destino": "anchor-672"
+    },
+    {
+      "indice": "anexos",
+      "entrada": "B.6.3 Verificação manual complementar 172",
+      "destino": "anchor-673"
+    },
+    {
+      "indice": "anexos",
+      "entrada": "B.7 Aprendizagens para o Design Industrial 173",
+      "destino": "anchor-674"
+    },
+    {
+      "indice": "anexos",
+      "entrada": "B.8 Conclusão 174",
+      "destino": "anchor-675"
+    },
+    {
+      "indice": "anexos",
+      "entrada": "B.9 Referências normativas 174",
+      "destino": "anchor-676"
+    },
+    {
+      "indice": "anexos",
+      "entrada": "Tabela B.1 - Resultados da repetição da mesma configuração por modelo. 169",
+      "destino": "anchor-677"
+    },
+    {
+      "indice": "anexos",
+      "entrada": "Tabela B.2 - Resultados do percurso examinado em três navegadores. 169",
+      "destino": "anchor-678"
+    },
+    {
+      "indice": "anexos",
+      "entrada": "Tabela B.3 - Comportamento observado perante limites, entradas inválidas e falhas previstas. 170",
+      "destino": "anchor-679"
+    },
+    {
+      "indice": "anexos",
+      "entrada": "Tabela B.4 - Categorias de problemas de acessibilidade digital detetadas automaticamente. 172",
+      "destino": "anchor-680"
+    },
+    {
+      "indice": "anexos",
+      "entrada": "Tabela B.5 - Resultados da verificação manual complementar de acessibilidade. 172",
+      "destino": "anchor-681"
+    },
+    {
+      "indice": "anexos",
+      "entrada": "C.1 Objectivo e âmbito 178",
+      "destino": "anchor-700"
+    },
+    {
+      "indice": "anexos",
+      "entrada": "C.2 Princípio comum de adaptação 178",
+      "destino": "anchor-701"
+    },
+    {
+      "indice": "anexos",
+      "entrada": "C.2.1 Campos antropométricos comuns 179",
+      "destino": "anchor-702"
+    },
+    {
+      "indice": "anexos",
+      "entrada": "C.2.2 Tipos de parâmetros 180",
+      "destino": "anchor-703"
+    },
+    {
+      "indice": "anexos",
+      "entrada": "C.2.3 Coerência dos controlos no estado final examinado 181",
+      "destino": "anchor-704"
+    },
+    {
+      "indice": "anexos",
+      "entrada": "C.3 Flexy Beast 181",
+      "destino": "anchor-705"
+    },
+    {
+      "indice": "anexos",
+      "entrada": "C.3.1 Origem e estratégia de adaptação 181",
+      "destino": "anchor-706"
+    },
+    {
+      "indice": "anexos",
+      "entrada": "C.3.2 Entradas, limites e relações 181",
+      "destino": "anchor-707"
+    },
+    {
+      "indice": "anexos",
+      "entrada": "C.3.3 Braçadeira e interfaces confirmáveis 183",
+      "destino": "anchor-708"
+    },
+    {
+      "indice": "anexos",
+      "entrada": "C.3.4 PROpagação paramétrica documentada no perfil de ensaio 183",
+      "destino": "anchor-709"
+    },
+    {
+      "indice": "anexos",
+      "entrada": "C.3.5 Limitações específicas 184",
+      "destino": "anchor-710"
+    },
+    {
+      "indice": "anexos",
+      "entrada": "C.4 Cyborg Beast 184",
+      "destino": "anchor-711"
+    },
+    {
+      "indice": "anexos",
+      "entrada": "C.4.1 Origem e estratégia de adaptação 184",
+      "destino": "anchor-712"
+    },
+    {
+      "indice": "anexos",
+      "entrada": "C.4.2 Entradas e escala da mão 184",
+      "destino": "anchor-713"
+    },
+    {
+      "indice": "anexos",
+      "entrada": "C.4.3 Divisão proximal-distal 185",
+      "destino": "anchor-714"
+    },
+    {
+      "indice": "anexos",
+      "entrada": "C.4.4 Braçadeira, folgas e parâmetros fixos 185",
+      "destino": "anchor-715"
+    },
+    {
+      "indice": "anexos",
+      "entrada": "C.4.5 Exemplo de propagação 186",
+      "destino": "anchor-716"
+    },
+    {
+      "indice": "anexos",
+      "entrada": "C.4.6 Limitações específicas 186",
+      "destino": "anchor-717"
+    },
+    {
+      "indice": "anexos",
+      "entrada": "C.5 Paraglider Hand 187",
+      "destino": "anchor-718"
+    },
+    {
+      "indice": "anexos",
+      "entrada": "C.5.1 Origem e estratégia de adaptação 187",
+      "destino": "anchor-719"
+    },
+    {
+      "indice": "anexos",
+      "entrada": "C.5.2 Relações implementadas 187",
+      "destino": "anchor-720"
+    },
+    {
+      "indice": "anexos",
+      "entrada": "C.5.3 Hardware e limites confirmáveis 188",
+      "destino": "anchor-721"
+    },
+    {
+      "indice": "anexos",
+      "entrada": "C.5.4 Exemplo de propagação 188",
+      "destino": "anchor-722"
+    },
+    {
+      "indice": "anexos",
+      "entrada": "C.5.5 Limitações específicas 189",
+      "destino": "anchor-723"
+    },
+    {
+      "indice": "anexos",
+      "entrada": "C.6 UnLimbited Phoenix Hand 189",
+      "destino": "anchor-724"
+    },
+    {
+      "indice": "anexos",
+      "entrada": "C.6.1 Origem e estratégia de adaptação 189",
+      "destino": "anchor-725"
+    },
+    {
+      "indice": "anexos",
+      "entrada": "C.6.2 Escala global e limite dimensional mínimo 189",
+      "destino": "anchor-726"
+    },
+    {
+      "indice": "anexos",
+      "entrada": "C.6.3 Comprimentos digitais e preservação dos furos 190",
+      "destino": "anchor-727"
+    },
+    {
+      "indice": "anexos",
+      "entrada": "C.6.4 Dependência entre comprimento digital e escala global 190",
+      "destino": "anchor-728"
+    },
+    {
+      "indice": "anexos",
+      "entrada": "C.6.5 Exemplo de propagação 191",
+      "destino": "anchor-729"
+    },
+    {
+      "indice": "anexos",
+      "entrada": "C.6.6 Componentes fixos e tolerâncias confirmáveis 191",
+      "destino": "anchor-730"
+    },
+    {
+      "indice": "anexos",
+      "entrada": "C.6.7 Limitações específicas 192",
+      "destino": "anchor-731"
+    },
+    {
+      "indice": "anexos",
+      "entrada": "C.7 Síntese comparativa das estratégias 192",
+      "destino": "anchor-732"
+    },
+    {
+      "indice": "anexos",
+      "entrada": "C.8 Critérios de aceitação, limitação e rejeição 193",
+      "destino": "anchor-733"
+    },
+    {
+      "indice": "anexos",
+      "entrada": "C.9 Relação com o Suplemento 3 194",
+      "destino": "anchor-734"
+    },
+    {
+      "indice": "anexos",
+      "entrada": "C.10 Limite de interpretação 194",
+      "destino": "anchor-735"
+    },
+    {
+      "indice": "anexos",
+      "entrada": "C.11 Fontes técnicas consultadas 194",
+      "destino": "anchor-736"
+    },
+    {
+      "indice": "anexos",
+      "entrada": "C.12 Verificações executadas 195",
+      "destino": "anchor-737"
+    },
+    {
+      "indice": "anexos",
+      "entrada": "Tabela C.1 - Correspondência entre medidas normalizadas e parâmetros dos modelos. 179",
+      "destino": "anchor-738"
+    },
+    {
+      "indice": "anexos",
+      "entrada": "Tabela C.2 - Parâmetros numéricos do Flexy Beast com efeito dimensional. 181",
+      "destino": "anchor-739"
+    },
+    {
+      "indice": "anexos",
+      "entrada": "Tabela C.3 - Relações dimensionais do Paraglider Hand. 187",
+      "destino": "anchor-740"
+    },
+    {
+      "indice": "anexos",
+      "entrada": "Tabela C.4 - Comparação das adaptações e exceções de escala. 192",
+      "destino": "anchor-741"
+    },
+    {
+      "indice": "anexos",
+      "entrada": "D.1 Finalidade 197",
+      "destino": "anchor-784"
+    },
+    {
+      "indice": "anexos",
+      "entrada": "D.2 Distinção entre estimativa e medição real 197",
+      "destino": "anchor-785"
+    },
+    {
+      "indice": "anexos",
+      "entrada": "D.3 Variáveis, controlos e materiais 198",
+      "destino": "anchor-786"
+    },
+    {
+      "indice": "anexos",
+      "entrada": "D.3.1 Série A - projetos de preparação digital para impressão 3D com configuração analisada 198",
+      "destino": "anchor-787"
+    },
+    {
+      "indice": "anexos",
+      "entrada": "D.3.2 Série B - comparação digital controlada 198",
+      "destino": "anchor-788"
+    },
+    {
+      "indice": "anexos",
+      "entrada": "D.4 Resultados 199",
+      "destino": "anchor-789"
+    },
+    {
+      "indice": "anexos",
+      "entrada": "D.4.1 Série A 199",
+      "destino": "anchor-790"
+    },
+    {
+      "indice": "anexos",
+      "entrada": "D.4.2 Série B (condição comum) 200",
+      "destino": "anchor-791"
+    },
+    {
+      "indice": "anexos",
+      "entrada": "D.4.3 Geometria - tamanho do conjunto vs tamanho da peça 201",
+      "destino": "anchor-792"
+    },
+    {
+      "indice": "anexos",
+      "entrada": "D.4.4 Comparação entre entrada, malha e peça física 202",
+      "destino": "anchor-793"
+    },
+    {
+      "indice": "anexos",
+      "entrada": "D.4.5 Registo fotográfico dos protótipos 203",
+      "destino": "anchor-794"
+    },
+    {
+      "indice": "anexos",
+      "entrada": "D.5 Compatibilidade com orientações de dimensionamento 204",
+      "destino": "anchor-795"
+    },
+    {
+      "indice": "anexos",
+      "entrada": "D.6 Limites de comparabilidade 204",
+      "destino": "anchor-796"
+    },
+    {
+      "indice": "anexos",
+      "entrada": "D.7 Campos que não puderam ser obtidos 205",
+      "destino": "anchor-797"
+    },
+    {
+      "indice": "anexos",
+      "entrada": "D.8 O que pode e não pode ser afirmado na INVESTIGAÇÃO 205",
+      "destino": "anchor-798"
+    },
+    {
+      "indice": "anexos",
+      "entrada": "Tabela D.1 - Projetos e configurações analisados na série A. 198",
+      "destino": "anchor-799"
+    },
+    {
+      "indice": "anexos",
+      "entrada": "Tabela D.2 - Variáveis e condições da série B. 198",
+      "destino": "anchor-800"
+    },
+    {
+      "indice": "anexos",
+      "entrada": "Tabela D.3 - Estimativas dos projetos de preparação digital para impressão 3D com configuração analisada. 199",
+      "destino": "anchor-801"
+    },
+    {
+      "indice": "anexos",
+      "entrada": "Tabela D.4 - Estimativas de preparação para impressão na condição digital comum. 200",
+      "destino": "anchor-802"
+    },
+    {
+      "indice": "anexos",
+      "entrada": "Tabela D.5 - Comparação dimensional da palma no eixo X em PLA e PETG. 202",
+      "destino": "anchor-803"
+    },
+    {
+      "indice": "anexos",
+      "entrada": "Tabela D.6 - Escalas calculadas para o Phoenix e intervalo de dimensionamento de referência. 204",
+      "destino": "anchor-804"
+    }
+  ],
+  "total": 426
+}

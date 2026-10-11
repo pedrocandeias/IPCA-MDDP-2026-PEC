@@ -56,11 +56,25 @@ def import_notes():
             sources[rid] = {'reference': reference, 'explanation': note}
         explanations[key] = {'context_sha256': digest(context), 'sources': sources}
     assert count == len(simplified) == sum(len(c['sources']) for c in data.values())
+    revisions_path = NOTES / 'explicacoes_citacoes_revistas.json'
+    revisions = json.loads(revisions_path.read_text(encoding='utf-8'))['entries']
+    revised = set()
+    for revision in revisions:
+        key, rid = revision['citation_id'], revision['record_id']
+        assert (key, rid) not in revised, (key, rid)
+        source = explanations[key]['sources'][rid]
+        assert source['explanation'] == revision['original'], ('Rever edição', key, rid)
+        assert revision['explanation'].strip(), (key, rid)
+        source['explanation'] = revision['explanation']
+        revised.add((key, rid))
     payload = {
         'method': 'tools/conversao/importar_explicacoes_citacoes.py',
-        'note': 'Textos fornecidos pelo autor, preservados literalmente; não constituem uma nova verificação integral das fontes.',
+        'note': 'TXT do autor preservados; revisões editoriais aplicadas por ocorrência e fonte, sem nova verificação integral das fontes.',
         'inputs': [{'path': str(p.relative_to(ROOT)), 'sha256': hashlib.sha256(p.read_bytes()).hexdigest()} for p in (full_path, simple_path)],
         'citations_count': len(explanations), 'explanations_count': count,
+        'editorial_revisions': {'path': str(revisions_path.relative_to(ROOT)),
+                               'sha256': hashlib.sha256(revisions_path.read_bytes()).hexdigest(),
+                               'count': len(revised)},
         'citations': explanations,
     }
     (OUT / 'explicacoes_citacoes.json').write_text(json.dumps(payload, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')

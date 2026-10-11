@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-10T21:48:17.988203+00:00",
+  "checked_at": "2026-10-11T15:56:52.192793+00:00",
   "url": "https://pedrocandeias.github.io/IPCA-MDDP-2026-PEC/",
   "english_url": "https://pedrocandeias.github.io/IPCA-MDDP-2026-PEC/en.html",
   "manuscript_url": "https://pedrocandeias.github.io/IPCA-MDDP-2026-PEC/manuscrito.html",
@@ -9,9 +9,9 @@
     "path": "/"
   },
   "status": "built",
-  "site_commit": "420a18c197b8cd8e712ac03e497e2972ca43896b",
+  "site_commit": "74598c021410d6be33a425edf1d297d1d97c707d",
   "readme_commit": "a0546f7a56d10ecc403afa6b363a73ec78fe5ef4",
-  "previous_site_commit": "c625be4132feba2980bc05bcbb66aac416ee9671",
+  "previous_site_commit": "420a18c197b8cd8e712ac03e497e2972ca43896b",
   "files": {
     "assets/homepage.css": "83c1127cc2a9a5abbe4d368d12f4d4ce908fbe29428bb5bb4ec8b452f761bf83",
     "assets/lightbox.css": "ec9a71179a024e0cc49d093432c57df2b5b10514274639476be30848bb55cdf9",
@@ -19,7 +19,7 @@
     "assets/phoenix_montagem.jpg": "df6780cb00777affa07ef05c0815e9a4bb916fdddda3b0f0e9d64222c710fc01",
     "en.html": "56062f20dbb0ff7cd8184e39b0c3b790e390be0816568ec766ecab39a81c92ad",
     "index.html": "fc06b6c9b27b217b331c780016c2c2289f52d0f9ee0ce01b5051555b2817a56b",
-    "manuscrito.html": "21164f454a160e81f6d773909b89cd5a8aa1c20f9e5e99df64f3c5a64c7f7e38"
+    "manuscrito.html": "db3da850b385cb00490b36e50b69463ae41bfa25a1492ea36361975c02c428f2"
   },
   "online_browser_validation": {
     "homepage_languages": [
@@ -50,7 +50,7 @@
     "four_reference_panel": true,
     "javascript_errors": []
   },
-  "scope": "Publicadas 416 explicações revistas em Relação com o texto; retirados o bloco histórico e caminhos internos dos painéis.",
+  "scope": "Edição de leitura: 426 ligações nos índices, siglas e índices paginados, 267 explicações simplificadas e bloco administrativo omitido.",
   "latest_update_validation": {
     "controls": 269,
     "source_occurrences": 416,
@@ -63,10 +63,17 @@
     },
     "all_local_panels_checked": true,
     "served_manuscript_matches_package": true,
-    "manuscript_text_unchanged": true,
     "odt_and_audit_sources_unchanged": true,
     "explanations": 416,
-    "explanations_match_both_author_txt_files": true,
-    "historical_block_removed": true
-  }
+    "historical_block_removed": true,
+    "academic_body_preserved": true,
+    "administrative_paragraphs_omitted": 14,
+    "index_links": 426,
+    "abbreviations": 64,
+    "editorial_revisions": 267,
+    "explanations_match_original_txt_and_editorial_revisions": true,
+    "index_pages_desktop_mobile_checked": true,
+    "front_matter_print_pages_checked": 25
+  },
+  "intermediate_index_commit": "0776497fcefe62a85b72a1cde7f9e29ebaafcce3"
 }

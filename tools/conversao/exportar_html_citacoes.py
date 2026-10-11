@@ -28,6 +28,8 @@ from lxml import etree as ET, html
 import fitz
 from evidencia_matriz import read_matrix
 from importar_explicacoes_citacoes import attach_explanations
+from ligar_indices_html import link_indexes
+from preparar_leitura_html import prepare_reading
 
 ROOT = Path(__file__).resolve().parents[2]
 SOURCE = ROOT / 'pedro-candeias-projeto-mestrado-mdddp-ipca-2026-revisto_v1_06102026-0210.odt'
@@ -400,6 +402,14 @@ def build():
                 heading.set('id', f'seccao-{i}')
                 short = re.sub(r'^Capítulo (\d+) - ', r'\1. ', title)
                 navigation.append(f'<a href="#seccao-{i}">{html_std.escape(short)}</a>')
+        index_report = link_indexes(document, norm)
+        (OUT/'ligacoes_indices.json').write_text(json.dumps(index_report, ensure_ascii=False, indent=2)+'\n')
+        reading_report = prepare_reading(document)
+        (OUT/'adaptacoes_leitura.json').write_text(json.dumps(reading_report, ensure_ascii=False, indent=2)+'\n')
+        navigation[0:0] = ['<a href="#lista-de-abreviaturas-e-siglas">Lista de siglas</a>',
+                           '<a href="#indice-geral">Índice</a>',
+                           '<a href="#índice-de-figuras">Índice de figuras</a>',
+                           '<a href="#índice-de-tabelas">Índice de tabelas</a>']
         citation_json = json.dumps(data, ensure_ascii=False).replace('<', '\\u003c').replace('>', '\\u003e').replace('&', '\\u0026')
         payload = (ASSETS/'template.html').read_text()
         replacements = {'{{CSS}}': (ASSETS/'style.css').read_text(), '{{JS}}': (ASSETS/'script.js').read_text(),
@@ -429,6 +439,8 @@ def build():
               'matrix': str(MATRIX.relative_to(ROOT)), 'sha256_matrix': hashlib.sha256(MATRIX.read_bytes()).hexdigest(),
               'supplement': str(supplement.relative_to(ROOT)), 'sha256_supplement': hashlib.sha256(supplement.read_bytes()).hexdigest(),
               'source_occurrences': len(items), 'unique_sources': len(records),
+              'index_links': index_report['total'],
+              'reading_adaptations': reading_report,
               'source_occurrences_with_explanation': sum(bool(s.get('explanation')) for s in items),
               'sha256_explanations': hashlib.sha256((OUT/'explicacoes_citacoes.json').read_bytes()).hexdigest(),
               'multiple_source_citations': sum(len(c['sources']) > 1 for c in data.values()),
