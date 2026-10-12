@@ -1,5 +1,9 @@
 # Changelog
 
+## 2026-10-12
+
+- Publicada a defesa do projeto: apresentação PDF/PPTX com 25 diapositivos, guião de leitura e caderno de preparação. Acrescentado acesso na homepage PT/EN; documentos em português. O guia explicativo pessoal permanece local.
+
 ## 2026-10-11
 
 - Identificada a autoria de Pedro Candeias nas ferramentas de apoio, em português e inglês. Removida a segunda ocorrência da capa do manuscrito HTML.
