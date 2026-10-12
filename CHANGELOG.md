@@ -2,6 +2,8 @@
 
 ## 2026-10-12
 
+- Retirada a secção da defesa da homepage PT/EN e da navegação, por indicação do autor. Os documentos continuam no repositório.
+
 - Publicada a defesa do projeto: apresentação PDF/PPTX com 25 diapositivos, guião de leitura e caderno de preparação. Acrescentado acesso na homepage PT/EN; documentos em português. O guia explicativo pessoal permanece local.
 
 ## 2026-10-11
