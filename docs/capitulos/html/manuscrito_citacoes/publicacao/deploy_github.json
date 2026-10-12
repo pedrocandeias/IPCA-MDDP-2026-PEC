@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-12T08:33:56.554247+00:00",
+  "checked_at": "2026-10-12T08:43:38.318965+00:00",
   "url": "https://pedrocandeias.github.io/IPCA-MDDP-2026-PEC/",
   "english_url": "https://pedrocandeias.github.io/IPCA-MDDP-2026-PEC/en.html",
   "manuscript_url": "https://pedrocandeias.github.io/IPCA-MDDP-2026-PEC/manuscrito.html",
@@ -9,15 +9,15 @@
     "path": "/"
   },
   "status": "built",
-  "site_commit": "8d81054b5325a41abd8b0aeed69cb32629e389cc",
-  "previous_site_commit": "5478e468c0c650e02aa6e3d545cec80b650e0ccf",
+  "site_commit": "d08642a808f19143405fcbf1f74e59b46ba1615b",
+  "previous_site_commit": "8d81054b5325a41abd8b0aeed69cb32629e389cc",
   "files": {
-    "assets/homepage.css": "23ad9ba019e57466586ffed7d13b589ce070b09afbf32687e901290b9bb58fc9",
+    "assets/homepage.css": "83c1127cc2a9a5abbe4d368d12f4d4ce908fbe29428bb5bb4ec8b452f761bf83",
     "assets/lightbox.css": "ec9a71179a024e0cc49d093432c57df2b5b10514274639476be30848bb55cdf9",
     "assets/lightbox.js": "560c9256b1e365def0b0b8cab2e2b9c37ecda2527dce55abfc17023d46ff41ff",
     "assets/phoenix_montagem.jpg": "df6780cb00777affa07ef05c0815e9a4bb916fdddda3b0f0e9d64222c710fc01",
-    "en.html": "89944e027fe11c4ccc31251cad1e962efa4511021a64d25e6ab43ccd31271a38",
-    "index.html": "90cbc6660200fea2fc680fb3527cf86e08105e391ac0a60a7ebf22ae69628918",
+    "en.html": "3973e2c5ca5eee2c37f7704836fe3fbb4e1c55f92a4c1a3c1dbd9b200fcb6944",
+    "index.html": "c95977f2b44922a765c2a443ea79472d706146c6d8bb0f4fdec3dd50842d377c",
     "manuscrito.html": "c4ff2c0aee9fa7ea3e5f5de46878eb600221f55a5e44fbe5a4e794a51c3c8d9d",
     "defesa/apresentacao_defesa.pdf": "8de2524416ed233a9a2c2b9da60eaca6720e7b8f4277e026b2439d4fd56a8b59",
     "defesa/apresentacao_defesa.pptx": "89bec3648fc05553eed843cb522825907d0c58a90b7184fd9151447c7a5f7162",
@@ -55,7 +55,7 @@
     "four_reference_panel": true,
     "javascript_errors": []
   },
-  "scope": "Apresentação e preparação da defesa publicadas, com acesso na homepage PT/EN; guia explicativo pessoal excluído.",
+  "scope": "Secção e navegação da defesa retiradas da homepage PT/EN, mantendo os documentos no repositório.",
   "latest_update_validation": {
     "controls": 269,
     "source_occurrences": 416,
@@ -88,18 +88,17 @@
   "intermediate_index_commit": "0776497fcefe62a85b72a1cde7f9e29ebaafcce3",
   "previous_readme_commit": "a0546f7a56d10ecc403afa6b363a73ec78fe5ef4",
   "source_branch": "main",
-  "defense_url": "https://pedrocandeias.github.io/IPCA-MDDP-2026-PEC/#defesa",
   "presentation_url": "https://pedrocandeias.github.io/IPCA-MDDP-2026-PEC/defesa/apresentacao_defesa.pdf",
   "defense_publication_validation": {
     "online_files": {
       "index.html": {
-        "sha256": "90cbc6660200fea2fc680fb3527cf86e08105e391ac0a60a7ebf22ae69628918",
+        "sha256": "c95977f2b44922a765c2a443ea79472d706146c6d8bb0f4fdec3dd50842d377c",
         "status": 200,
         "content_type": "text/html; charset=utf-8",
         "matches_local": true
       },
       "en.html": {
-        "sha256": "89944e027fe11c4ccc31251cad1e962efa4511021a64d25e6ab43ccd31271a38",
+        "sha256": "3973e2c5ca5eee2c37f7704836fe3fbb4e1c55f92a4c1a3c1dbd9b200fcb6944",
         "status": 200,
         "content_type": "text/html; charset=utf-8",
         "matches_local": true
@@ -147,7 +146,7 @@
         "matches_local": true
       },
       "assets/homepage.css": {
-        "sha256": "23ad9ba019e57466586ffed7d13b589ce070b09afbf32687e901290b9bb58fc9",
+        "sha256": "83c1127cc2a9a5abbe4d368d12f4d4ce908fbe29428bb5bb4ec8b452f761bf83",
         "status": 200,
         "content_type": "text/css; charset=utf-8",
         "matches_local": true
@@ -159,11 +158,18 @@
     "notes_synchronised": true,
     "speaker_notes_pdf_pages": 26,
     "preparation_pdf_pages": 43,
-    "homepage_pt_en": true,
     "desktop_mobile_preview": true,
     "private_guide_in_git": false,
     "private_guide_published": false,
     "public_documents": 6,
-    "presentation_version": "1.4.2"
+    "presentation_version": "1.4.2",
+    "homepage_defense_section": false
+  },
+  "defense_repository_url": "https://github.com/pedrocandeias/IPCA-MDDP-2026-PEC/tree/main/docs/defesa",
+  "homepage_defense_removal_validation": {
+    "pt_en_served_match_local": true,
+    "navigation_and_section_removed": true,
+    "matches_homepage_before_defense": true,
+    "defense_documents_preserved": true
   }
 }

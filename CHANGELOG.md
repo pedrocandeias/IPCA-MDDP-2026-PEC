@@ -2,6 +2,8 @@
 
 ## 2026-10-12
 
+- Retirada da homepage PT/EN a secção da defesa e a respetiva entrada de navegação, conforme solicitado. Mantidos os documentos e as ligações no repositório.
+
 - Sincronizadas as notas pessoais da apresentação com a edição direta do autor nos diapositivos 1 e 2; recuperada a clarificação aprovada no diapositivo 3. Regenerados o PDF da apresentação e o guião na versão 1.4.2.
 
 - Publicadas a apresentação e a preparação da defesa no repositório. Acrescentado à homepage PT/EN o acesso ao PDF, PPTX, notas de leitura e caderno de preparação. O guia explicativo pessoal permanece excluído do Git e da publicação.

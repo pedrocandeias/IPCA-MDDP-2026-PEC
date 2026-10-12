@@ -2,7 +2,7 @@
 
 **[Página do projeto — Português](https://pedrocandeias.github.io/IPCA-MDDP-2026-PEC/)** · **[English](https://pedrocandeias.github.io/IPCA-MDDP-2026-PEC/en.html)**
 
-Apresentação da investigação, acesso ao HandFab e ao respetivo código, ferramentas de apoio, **[manuscrito com citações interativas](https://pedrocandeias.github.io/IPCA-MDDP-2026-PEC/manuscrito.html)** e **[apresentação da defesa](https://pedrocandeias.github.io/IPCA-MDDP-2026-PEC/#defesa)**.
+Apresentação da investigação, acesso ao HandFab e ao respetivo código, ferramentas de apoio e **[manuscrito com citações interativas](https://pedrocandeias.github.io/IPCA-MDDP-2026-PEC/manuscrito.html)**.
 
 Este repositório reúne o manuscrito, os documentos finais no modelo do IPCA, os anexos, a bibliografia, as figuras, os dados de apoio e as ferramentas usadas na dissertação de Mestrado em Design e Desenvolvimento de Produto:
 
