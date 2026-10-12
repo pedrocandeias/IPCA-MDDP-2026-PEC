@@ -2,7 +2,7 @@
 
 **[Página do projeto — Português](https://pedrocandeias.github.io/IPCA-MDDP-2026-PEC/)** · **[English](https://pedrocandeias.github.io/IPCA-MDDP-2026-PEC/en.html)**
 
-Apresentação da investigação, acesso ao HandFab e ao respetivo código, ferramentas de apoio e **[manuscrito com citações interativas](https://pedrocandeias.github.io/IPCA-MDDP-2026-PEC/manuscrito.html)**.
+Apresentação da investigação, acesso ao HandFab e ao respetivo código, ferramentas de apoio, **[manuscrito com citações interativas](https://pedrocandeias.github.io/IPCA-MDDP-2026-PEC/manuscrito.html)** e **[apresentação da defesa](https://pedrocandeias.github.io/IPCA-MDDP-2026-PEC/#defesa)**.
 
 Este repositório reúne o manuscrito, os documentos finais no modelo do IPCA, os anexos, a bibliografia, as figuras, os dados de apoio e as ferramentas usadas na dissertação de Mestrado em Design e Desenvolvimento de Produto:
 
@@ -24,6 +24,8 @@ Versão de trabalho: ODT de 6 de outubro de 2026, às 02h10. O Markdown está si
 | [`pedro-candeias-projeto-mestrado-mdddp-ipca-2026-revisto.md`](pedro-candeias-projeto-mestrado-mdddp-ipca-2026-revisto.md) | Manuscrito textual atualizado (0.4.114), sincronizado com o ODT atual, incluindo capítulos, anexos, bibliografia, tabelas, figuras e notas de rodapé. |
 | [`a30759_pedro-candeias-projeto-mestrado-mdddp-ipca-v10060211.pdf`](a30759_pedro-candeias-projeto-mestrado-mdddp-ipca-v10060211.pdf) | PDF de referência da versão de 6 de outubro de 2026. |
 | [Manuscrito HTML com citações](docs/capitulos/html/manuscrito_citacoes/pedro_candeias_manuscrito_citacoes.html) | Leitura interativa do ODT, com asteriscos para abrir referências múltiplas e os excertos disponíveis da auditoria bibliográfica. |
+| [Apresentação da defesa](docs/defesa/apresentacao/README.md) | 25 diapositivos em PPTX e PDF, com notas pessoais de leitura no PPTX e guião autónomo. |
+| [Preparação da defesa](docs/defesa/README.md) | Caderno de preparação, perguntas para treino e documentação de apoio. |
 | [`CHANGELOG.md`](CHANGELOG.md) | Registo cronológico das alterações realizadas. |
 | [`AGENTS.md`](AGENTS.md) | Regras obrigatórias de edição, cópias de segurança, bibliografia, exportação e organização. |
 

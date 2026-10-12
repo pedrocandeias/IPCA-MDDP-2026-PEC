@@ -2,6 +2,7 @@
 
 - Português: <https://pedrocandeias.github.io/IPCA-MDDP-2026-PEC/>
 - English: <https://pedrocandeias.github.io/IPCA-MDDP-2026-PEC/en.html>
+- Defesa e documentos de preparação: <https://pedrocandeias.github.io/IPCA-MDDP-2026-PEC/#defesa>
 - Manuscrito em português: <https://pedrocandeias.github.io/IPCA-MDDP-2026-PEC/manuscrito.html>
 
 A página inicial apresenta a investigação e o repositório, com acesso ao manuscrito, à plataforma HandFab, ao respetivo código no GitHub e às ferramentas bibliográficas e documentais, incluindo a extensão independente [Mendeley Cite for LibreOffice](https://github.com/pedrocandeias/mendeley-libreoffice). As duas versões da apresentação são páginas HTML completas, ligadas por um seletor de língua; não dependem de JavaScript para leitura ou navegação.
@@ -13,6 +14,8 @@ python3 tools/conversao/preparar_html_publicacao.py
 ```
 
 As fontes editáveis da apresentação encontram-se em `tools/conversao/homepage/`: `conteudo.json` contém os textos PT/EN, `template.html` a estrutura, `style.css` a apresentação e `lightbox.js`/`lightbox.css` o visualizador de imagens. O texto baseia-se no README deste repositório e nos guias das ferramentas. A fotografia é copiada, sem alterações, de `docs/defesa/apresentacao/assets/phoenix_montagem.jpg`, um registo da montagem experimental Phoenix do projeto.
+
+A secção «Defesa do projeto» disponibiliza a apresentação em PDF/PPTX, o guião de leitura e o caderno de preparação. Os ficheiros estão em português. A publicação copia apenas os seis ficheiros declarados em `DEFENSE_FILES`, de `docs/defesa/` para `dist/defesa/`. A pasta pessoal `guia_leitura_local/` está excluída desta lista e do Git.
 
 O gerador escreve `dist/index.html`, `dist/en.html`, `dist/manuscrito.html` e os recursos partilhados em `dist/assets/`. O manuscrito deriva do HTML local validado e mantém os dados, as imagens e os painéis de citações. A versão de alojamento retira 407 ligações a PDFs locais, preservando referências, excertos e ligações DOI/URL. Os PDFs da biblioteca não integram o pacote.
 

@@ -3,7 +3,7 @@
   "sha256_source": "acbd25be0dd5dc6bf46cb7386485ab832742cdd1bef4aec94ebe4a8255b8d4cf",
   "entrypoint": "dist/index.html",
   "manuscript": "dist/manuscrito.html",
-  "sha256_index": "c95977f2b44922a765c2a443ea79472d706146c6d8bb0f4fdec3dd50842d377c",
+  "sha256_index": "90cbc6660200fea2fc680fb3527cf86e08105e391ac0a60a7ebf22ae69628918",
   "sha256_manuscript": "c4ff2c0aee9fa7ea3e5f5de46878eb600221f55a5e44fbe5a4e794a51c3c8d9d",
   "homepage_sources": "tools/conversao/homepage",
   "image_source": "docs/defesa/apresentacao/assets/phoenix_montagem.jpg",
@@ -11,6 +11,39 @@
     "pt-PT",
     "en"
   ],
+  "defense_files": [
+    {
+      "source": "docs/defesa/apresentacao/apresentacao_defesa.pdf",
+      "published": "defesa/apresentacao_defesa.pdf",
+      "sha256": "8de2524416ed233a9a2c2b9da60eaca6720e7b8f4277e026b2439d4fd56a8b59"
+    },
+    {
+      "source": "docs/defesa/apresentacao/apresentacao_defesa.pptx",
+      "published": "defesa/apresentacao_defesa.pptx",
+      "sha256": "89bec3648fc05553eed843cb522825907d0c58a90b7184fd9151447c7a5f7162"
+    },
+    {
+      "source": "docs/defesa/apresentacao/guiao_falado.pdf",
+      "published": "defesa/guiao_falado.pdf",
+      "sha256": "61db54c8c97d72d44083bc9d683568736a22e72633e5ae8c3e0b0b5c3c21ac67"
+    },
+    {
+      "source": "docs/defesa/apresentacao/guiao_falado.odt",
+      "published": "defesa/guiao_falado.odt",
+      "sha256": "cd149b1b40022ec9c7a984ff11ed8ff7e43a4544c2b163720734781062c0071a"
+    },
+    {
+      "source": "docs/defesa/preparacao_defesa_bernardo_providencia.pdf",
+      "published": "defesa/preparacao_defesa.pdf",
+      "sha256": "a2e37c7081f1a8e4262a88e5fabcc8910add6c3f4c9f724099af87bdba71271d"
+    },
+    {
+      "source": "docs/defesa/preparacao_defesa_bernardo_providencia.odt",
+      "published": "defesa/preparacao_defesa.odt",
+      "sha256": "fc462f7562f6671ceedf65f0991e9fa4087384ed6862ba0919390da743e67660"
+    }
+  ],
+  "private_guide_published": false,
   "citations": 269,
   "local_pdf_links_removed": 407,
   "includes_library_pdfs": false,

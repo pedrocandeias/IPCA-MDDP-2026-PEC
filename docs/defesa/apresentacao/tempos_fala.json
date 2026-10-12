@@ -1,0 +1,137 @@
+{
+  "criterio_contagem": "Tokens separados por espaço; inclui apenas texto para dizer.",
+  "palavras_percurso_principal": 2109,
+  "palavras_aprofundamento": 849,
+  "estimativa_leitura_sem_pausas_minutos": {
+    "a_115_palavras_por_minuto": 18.3,
+    "a_135_palavras_por_minuto": 15.6
+  },
+  "pressuposto": "Ritmos usados apenas para estimativa; não medidos no autor. As metas de 20/30 minutos incluem pausas e observação das imagens.",
+  "diapositivos": [
+    {
+      "diapositivo": 1,
+      "palavras_fala": 72,
+      "palavras_aprofundamento": 27
+    },
+    {
+      "diapositivo": 2,
+      "palavras_fala": 125,
+      "palavras_aprofundamento": 42
+    },
+    {
+      "diapositivo": 3,
+      "palavras_fala": 133,
+      "palavras_aprofundamento": 81
+    },
+    {
+      "diapositivo": 4,
+      "palavras_fala": 173,
+      "palavras_aprofundamento": 51
+    },
+    {
+      "diapositivo": 5,
+      "palavras_fala": 112,
+      "palavras_aprofundamento": 53
+    },
+    {
+      "diapositivo": 6,
+      "palavras_fala": 105,
+      "palavras_aprofundamento": 55
+    },
+    {
+      "diapositivo": 7,
+      "palavras_fala": 128,
+      "palavras_aprofundamento": 48
+    },
+    {
+      "diapositivo": 8,
+      "palavras_fala": 121,
+      "palavras_aprofundamento": 66
+    },
+    {
+      "diapositivo": 9,
+      "palavras_fala": 141,
+      "palavras_aprofundamento": 49
+    },
+    {
+      "diapositivo": 10,
+      "palavras_fala": 154,
+      "palavras_aprofundamento": 59
+    },
+    {
+      "diapositivo": 11,
+      "palavras_fala": 122,
+      "palavras_aprofundamento": 40
+    },
+    {
+      "diapositivo": 12,
+      "palavras_fala": 102,
+      "palavras_aprofundamento": 55
+    },
+    {
+      "diapositivo": 13,
+      "palavras_fala": 131,
+      "palavras_aprofundamento": 33
+    },
+    {
+      "diapositivo": 14,
+      "palavras_fala": 157,
+      "palavras_aprofundamento": 53
+    },
+    {
+      "diapositivo": 15,
+      "palavras_fala": 92,
+      "palavras_aprofundamento": 51
+    },
+    {
+      "diapositivo": 16,
+      "palavras_fala": 182,
+      "palavras_aprofundamento": 45
+    },
+    {
+      "diapositivo": 17,
+      "palavras_fala": 59,
+      "palavras_aprofundamento": 41
+    },
+    {
+      "diapositivo": 18,
+      "palavras_fala": 122,
+      "palavras_aprofundamento": 0
+    },
+    {
+      "diapositivo": 19,
+      "palavras_fala": 98,
+      "palavras_aprofundamento": 0
+    },
+    {
+      "diapositivo": 20,
+      "palavras_fala": 102,
+      "palavras_aprofundamento": 0
+    },
+    {
+      "diapositivo": 21,
+      "palavras_fala": 100,
+      "palavras_aprofundamento": 0
+    },
+    {
+      "diapositivo": 22,
+      "palavras_fala": 89,
+      "palavras_aprofundamento": 0
+    },
+    {
+      "diapositivo": 23,
+      "palavras_fala": 91,
+      "palavras_aprofundamento": 0
+    },
+    {
+      "diapositivo": 24,
+      "palavras_fala": 75,
+      "palavras_aprofundamento": 0
+    },
+    {
+      "diapositivo": 25,
+      "palavras_fala": 81,
+      "palavras_aprofundamento": 0
+    }
+  ]
+}

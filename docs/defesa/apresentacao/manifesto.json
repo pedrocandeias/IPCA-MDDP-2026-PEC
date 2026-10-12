@@ -1,0 +1,68 @@
+{
+  "data": "2026-10-12",
+  "estado": "Versão 1.4.2: notas pessoais sincronizadas com a edição do autor e clarificação da avaliação; sujeita a ensaio",
+  "formato": "16:9",
+  "diapositivos_principais": 17,
+  "apoio": 8,
+  "tempo_principal_segundos": 1200,
+  "tempo_treino_segundos": 1800,
+  "fontes": [
+    {
+      "caminho": "docs/defesa/apresentacao/assets/upca_logo_oficial.svg",
+      "sha256": "2f7f3c00c27e1c5f42b7629bb9de3b5d210ea881765e56a0fe214e23c671a366"
+    },
+    {
+      "caminho": "docs/defesa/apresentacao/assets/upca_logo_oficial.png",
+      "sha256": "4bfa444964ded1a6cfab0cd621d2d8bb8ec48a4ddfa16c73614cc0555748380c"
+    },
+    {
+      "caminho": "pedro-candeias-projeto-mestrado-mdddp-ipca-2026-revisto_v1_06102026-0210.odt",
+      "sha256": "c516b48143538d40c09190fe27e6b23e9417bf95d0a550204d5622f1badc710f"
+    },
+    {
+      "caminho": "a30759_pedro-candeias-projeto-mestrado-mdddp-ipca-v10060211.pdf",
+      "sha256": "bedb42e8a64cb17ceda97ffd81b08185f1c77d1b474c5bfe1fdea5bddf291d9e"
+    },
+    {
+      "caminho": "docs/defesa/guiao_apresentacao.md",
+      "sha256": "ba28f80f8e6e43c63e2cb4af36a79e893ba3553682337c7b8847eeb92d73d091"
+    },
+    {
+      "caminho": "docs/defesa/apresentacao/guiao_falado.md",
+      "sha256": "fbcf8da3c6a43952212858fcb2b40d1e60a16420bbb35e54b41e2bfe02b02d51"
+    },
+    {
+      "caminho": "suplementos/01_dados_antropometricos/descricao_do_suplemento_1.md",
+      "sha256": "7a7742bb6b95ad4cfc926c0ca7971bcc6480d0ca7347623d382edf6b44f1c585"
+    },
+    {
+      "caminho": "suplementos/01_dados_antropometricos/multi_population_hand.csv",
+      "sha256": "06e1822e31ce28980af16ea936ca125e827a7ea23e30defff8192e3d725f2cdc"
+    },
+    {
+      "caminho": "suplementos/04_preparacao_impressao_prototipos/registos/comparacao_dimensional_72_medicoes.csv",
+      "sha256": "1d13c078e9919a5068cef074f2021818fe4ae5d485c24dbd944f3733863afb33"
+    },
+    {
+      "caminho": "suplementos/04_preparacao_impressao_prototipos/fotografias_reduzidas/teste-impressao-phoenix-15-anos-13221117.jpg",
+      "sha256": "df6780cb00777affa07ef05c0815e9a4bb916fdddda3b0f0e9d64222c710fc01"
+    },
+    {
+      "caminho": "suplementos/04_preparacao_impressao_prototipos/registos/resultados_serie_b.csv",
+      "sha256": "2d686d784ad32b84605af72f71fe76c9f8092ed84118d2e1b1d667d618247426"
+    },
+    {
+      "caminho": "suplementos/04_preparacao_impressao_prototipos/registos/montagem_phoenix_15_anos.csv",
+      "sha256": "9ac7e6dbe9eceab5e1912f51327e880ceec9cfb6311f6db16041e3bcceddf8ad"
+    }
+  ],
+  "fotografias": "Imagens extraídas do ODT e cópia de fotografia do Suplemento 4, sem alteração do conteúdo. Redimensionamento proporcional na apresentação.",
+  "grafico": "Amplitude min/max de desvio_malha_peca_mm por modelo/material; 12 valores por grupo; sem inferência estatística.",
+  "pendencias": [
+    "Confirmar condições e data da defesa.",
+    "Confirmar operador principal previsto e razões para ausência de participantes.",
+    "Alinhar as conclusões do manuscrito com o registo de montagem Phoenix.",
+    "Conferir a entrada bibliográfica incompleta de Frayling, preservada conforme o manuscrito.",
+    "Ensaiar e ajustar o tempo; não houve ensaio cronometrado nem gravação de demonstração."
+  ]
+}

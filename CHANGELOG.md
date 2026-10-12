@@ -1,6 +1,20 @@
 # Changelog
 
+## 2026-10-12
+
+- Sincronizadas as notas pessoais da apresentação com a edição direta do autor nos diapositivos 1 e 2; recuperada a clarificação aprovada no diapositivo 3. Regenerados o PDF da apresentação e o guião na versão 1.4.2.
+
+- Publicadas a apresentação e a preparação da defesa no repositório. Acrescentado à homepage PT/EN o acesso ao PDF, PPTX, notas de leitura e caderno de preparação. O guia explicativo pessoal permanece excluído do Git e da publicação.
+
 ## 2026-10-11
+
+- Clarificada a nota opcional do diapositivo 3: a diferença entre verificação técnica e avaliação da experiência de utilização passa a ser explícita, com exemplos de medição, conforto e compreensão dos controlos. Sincronizados o guião e as notas do PPTX na versão 1.4.1.
+
+- Criado um guia explicativo local da tese, capítulo a capítulo, com exemplos do manuscrito e excertos conferidos nos artigos. O guia e as exportações estão excluídos do Git por regra local, conforme solicitado.
+
+- Reescritas as notas dos 25 diapositivos num tom pessoal, com proposta de fala natural e lembretes para o próprio autor. Sincronizados PPTX e guião de leitura na versão 1.4; preservados o texto projetado, os dados e as perguntas aprovadas.
+
+- Revista a redação da apresentação para evitar tríades retóricas, travessões e construções de contraste enfático. Atualizados títulos, texto projetado e guiões, com fala centralizada numa única fonte; mantidos os 25 diapositivos, os sete objetivos e as perguntas aprovadas. Regeneradas as exportações PPTX, ODT e PDF da versão 1.3.
 
 - Publicadas no GitHub Pages a autoria das ferramentas na homepage PT/EN e a remoção da capa repetida; conferidos os três HTML públicos com o pacote local.
 
@@ -13,6 +27,8 @@
 - Publicada no GitHub Pages a edição de leitura com 426 ligações, siglas e índices paginados, comentários simplificados e bloco administrativo omitido; versão online conferida por igualdade integral com o pacote local.
 
 - Ligadas as entradas do índice principal aos títulos do manuscrito HTML, os índices de figuras e tabelas às respetivas legendas e os títulos dos índices dos anexos aos destinos já existentes. Preservados o texto e a paginação original; atualizado o gerador e acrescentado relatório de destinos.
+
+- Acrescentado à apresentação da defesa um diapositivo com o objetivo geral e os sete objetivos específicos da secção 1.3. Mantidos os restantes conteúdos: 17 diapositivos principais e oito de apoio, com metas redistribuídas para 20/30 minutos. Atualizados os guiões, notas, remissões e exportações. Capa identificada como UPCA, com logótipo oficial em português e proveniência documentada; manuscrito preservado.
 
 ## 2026-10-10
 

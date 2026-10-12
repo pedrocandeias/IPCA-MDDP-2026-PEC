@@ -1,0 +1,44 @@
+[
+  {
+    "modelo": "Flexy Beast",
+    "material": "PLA",
+    "n": 12,
+    "min_mm": -0.398,
+    "max_mm": -0.108
+  },
+  {
+    "modelo": "Flexy Beast",
+    "material": "PETG",
+    "n": 12,
+    "min_mm": -0.527,
+    "max_mm": -0.137
+  },
+  {
+    "modelo": "Paraglider Hand",
+    "material": "PLA",
+    "n": 12,
+    "min_mm": -0.375,
+    "max_mm": -0.089
+  },
+  {
+    "modelo": "Paraglider Hand",
+    "material": "PETG",
+    "n": 12,
+    "min_mm": -0.523,
+    "max_mm": -0.117
+  },
+  {
+    "modelo": "UnLimbited Phoenix",
+    "material": "PLA",
+    "n": 12,
+    "min_mm": -0.302,
+    "max_mm": -0.084
+  },
+  {
+    "modelo": "UnLimbited Phoenix",
+    "material": "PETG",
+    "n": 12,
+    "min_mm": -0.414,
+    "max_mm": -0.121
+  }
+]

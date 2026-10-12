@@ -1,0 +1,72 @@
+[
+  {
+    "ficheiro": "assets/figura_20_1.png",
+    "fonte": "pedro-candeias-projeto-mestrado-mdddp-ipca-2026-revisto_v1_04102026-1955.odt",
+    "membro_odt": "Pictures/100000010000053100000408749EC3E9.png",
+    "figura": 20,
+    "sha256": "eacc7bcb65dd2d95ea16f9aa658c1981eec9a4f50fb731a28ec2dc29b68fd000"
+  },
+  {
+    "ficheiro": "assets/figura_22_1.png",
+    "fonte": "pedro-candeias-projeto-mestrado-mdddp-ipca-2026-revisto_v1_04102026-1955.odt",
+    "membro_odt": "Pictures/1000000100000A39000005B6B7780D44.png",
+    "figura": 22,
+    "sha256": "951b8e44412a1a9c126f14c8841e50788cae28c426335fae0f8eb4bf0b66f1f9"
+  },
+  {
+    "ficheiro": "assets/figura_22_2.png",
+    "fonte": "pedro-candeias-projeto-mestrado-mdddp-ipca-2026-revisto_v1_04102026-1955.odt",
+    "membro_odt": "Pictures/1000000100000A39000005B6205DF4AE.png",
+    "figura": 22,
+    "sha256": "301f69556f4824aa69ecd4ac7bc0bafcf817887fd21f28279f497387aa331f91"
+  },
+  {
+    "ficheiro": "assets/figura_22_3.png",
+    "fonte": "pedro-candeias-projeto-mestrado-mdddp-ipca-2026-revisto_v1_04102026-1955.odt",
+    "membro_odt": "Pictures/1000000100000A39000005B61D1C0CED.png",
+    "figura": 22,
+    "sha256": "e29918aa86ea171bc984b4034c07c4ad2832f0329ac12ba1c7e3b9fec5d56f54"
+  },
+  {
+    "ficheiro": "assets/figura_22_4.png",
+    "fonte": "pedro-candeias-projeto-mestrado-mdddp-ipca-2026-revisto_v1_04102026-1955.odt",
+    "membro_odt": "Pictures/1000000100000A39000005B63FF8CCFE.png",
+    "figura": 22,
+    "sha256": "6b80eb0a46559f75c7ae165792f6ec26a088e5a91cfef97c6ab1da78bf76a21d"
+  },
+  {
+    "ficheiro": "assets/figura_23_1.png",
+    "fonte": "pedro-candeias-projeto-mestrado-mdddp-ipca-2026-revisto_v1_04102026-1955.odt",
+    "membro_odt": "Pictures/10000001000007BA000005C8DE462100.png",
+    "figura": 23,
+    "sha256": "0501de518b2a58b80f50073c3a2778e74bd921b737d1f34bd5f1b29ea3e8d61b"
+  },
+  {
+    "ficheiro": "assets/figura_24_1.png",
+    "fonte": "pedro-candeias-projeto-mestrado-mdddp-ipca-2026-revisto_v1_04102026-1955.odt",
+    "membro_odt": "Pictures/10000001000007BA000005C8CB1BB096.png",
+    "figura": 24,
+    "sha256": "9bf0232a496f6abb772839b0bf172c181f3c0f4bf0263815512b8ef4bce5197a"
+  },
+  {
+    "ficheiro": "assets/figura_27_1.jpg",
+    "fonte": "pedro-candeias-projeto-mestrado-mdddp-ipca-2026-revisto_v1_04102026-1955.odt",
+    "membro_odt": "Pictures/100000000000092400000488771A989E.jpg",
+    "figura": 27,
+    "sha256": "a53bc526d3c3943c52e41e3373eabfd7bcdbc33f21889b5f8d22d948eba02d57"
+  },
+  {
+    "ficheiro": "assets/figura_28_1.jpg",
+    "fonte": "pedro-candeias-projeto-mestrado-mdddp-ipca-2026-revisto_v1_04102026-1955.odt",
+    "membro_odt": "Pictures/1000000000000AAA00000244637251F0.jpg",
+    "figura": 28,
+    "sha256": "5ebf73043a3a816c61ab27b94e2812e9bdcf568984d5f84c4a84289ba4fc7baa"
+  },
+  {
+    "ficheiro": "assets/figura_29_1.jpg",
+    "fonte": "pedro-candeias-projeto-mestrado-mdddp-ipca-2026-revisto_v1_04102026-1955.odt",
+    "membro_odt": "Pictures/1000000000000A90000004088DF1C5E7.jpg",
+    "figura": 29,
+    "sha256": "a02857b3cea8016a78cfdd97ba7024dec2686f4c551815ca710176f466080b87"
+  }
+]
