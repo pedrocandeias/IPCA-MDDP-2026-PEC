@@ -135,7 +135,7 @@ def main():
             '{' + NS['fo'] + '}keep-with-next': 'always',
         })
         for paragraph in xml.findall('.//text:p', NS):
-            if ''.join(paragraph.itertext()) == 'Resposta simples:':
+            if ''.join(paragraph.itertext()) == 'A minha resposta:':
                 paragraph.set(T + 'style-name', 'DefesaAnswerLabel')
         result = temp / 'result.odt'
         rewrite_zip(generated, result, {'content.xml': encoded(xml)})
@@ -144,7 +144,7 @@ def main():
         expected = re.findall(r'^### (\d+\. .+)$', (HERE / 'perguntas_juri.md').read_text(), re.M)
         assert len(expected) == 47 and all(t in texts for t in expected)
         paragraphs = [''.join(p.itertext()) for p in xml.findall('.//text:p', NS)]
-        assert sum(t == 'Resposta simples:' for t in paragraphs) == 47
+        assert sum(t == 'A minha resposta:' for t in paragraphs) == 47
         assert all(title in texts for _, title, _ in PARTS)
         bookmarks = {b.get(T + 'name') for b in xml.findall('.//text:bookmark-start', NS)}
         assert {part[2] for part in PARTS} <= bookmarks

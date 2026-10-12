@@ -1,6 +1,6 @@
 # Preparação da defesa do projeto
 
-Versão de trabalho: 0.13. 11/10/2026.
+Versão de trabalho: 0.16. 12/10/2026.
 
 Curso: **Mestrado em Design e Desenvolvimento de Produto, UPCA**. Arguente indicado pelo autor: **Bernardo Providência**.
 
@@ -14,11 +14,11 @@ O autor indicou 20 minutos para a apresentação e pediu a preparação de uma v
 - [Apresentação da defesa](apresentacao/README.md): versão gráfica revista, em [PPTX editável](apresentacao/apresentacao_defesa.pptx) e [PDF](apresentacao/apresentacao_defesa.pdf), com 17 diapositivos principais e oito de apoio. O PPTX inclui notas de fala e metas para 20 minutos e para treino de 30 minutos.
 - [Caderno completo de preparação em ODT](preparacao_defesa_bernardo_providencia.odt): reúne os seis Markdown desta pasta, incluindo este guia, o guião de apresentação, a contextualização e o perfil do arguente, as 47 perguntas com respostas simples e as evidências e pontos a alinhar. As ligações entre estas partes permitem navegar dentro do documento.
 - [Guião e estrutura de apresentação](guiao_apresentacao.md): 17 blocos, tempos, mensagem central, conteúdos e propostas visuais; inclui abertura, fecho e percurso de demonstração.
-- [Perguntas e respostas de treino para o júri](perguntas_juri.md): 47 perguntas com respostas simples em primeira pessoa, frases curtas e exemplos concretos; notas técnicas mantidas para aprofundamento. Inclui 21 questões ligadas às publicações de Bernardo Providência. As respostas 7, 9 e 47 têm decisões pessoais do autor por confirmar.
+- [Perguntas e respostas de treino para o júri](perguntas_juri.md), disponíveis em [PDF autónomo](perguntas_juri.pdf) e [ODT editável](perguntas_juri.odt): 47 perguntas com respostas em primeira pessoa e lembretes pessoais para consulta e preparação, na versão 0.7. Inclui 21 questões ligadas às publicações de Bernardo Providência. As respostas 7, 9 e 47 têm decisões pessoais do autor por confirmar.
 - [Evidências e pontos a alinhar](evidencias_e_pontos_a_alinhar.md): relação entre afirmações, resultados, fontes e limites.
 - [Manifesto das fontes](fontes.json): hashes dos ficheiros examinados e verificações dos CSV.
 - [Contextualização académica do arguente](contexto_arguente.md): fontes públicas e temas para preparar a discussão.
-- [Perfil de Bernardo Providência e análise de publicações](perfil_bernardo_providencia.md): oito trabalhos de 2012–2025 e complemento ORCID com estudo adicional de esgrima; métodos, limites e implicações para a defesa, com níveis de acesso declarados.
+- [Notas pessoais sobre Bernardo Providência e as suas publicações](perfil_bernardo_providencia.md): oito trabalhos de 2012–2025 e complemento ORCID com estudo adicional de esgrima; métodos, limites e implicações para a defesa, com níveis de acesso declarados.
 
 ## Argumento de trabalho
 
@@ -46,3 +46,15 @@ Leitura direta do conteúdo do ODT e conferência dos CSV do Suplemento 4. Os gu
 Gerar novamente a partir da raiz do projeto com `python3 docs/defesa/exportar_odt.py`. As fontes autoritativas são os seis Markdown desta pasta, reunidos pela seguinte ordem: `README.md`, `guiao_apresentacao.md`, `contexto_arguente.md`, `perfil_bernardo_providencia.md`, `perguntas_juri.md` e `evidencias_e_pontos_a_alinhar.md`. O script confere a inclusão de todos os Markdown e exporta através do Pandoc, transferindo os estilos do template IPCA convertido e arquivado em `docs/revisoes/manuscrito/estilos_template_ipca_2026_10_05/projeto-mestrado-template-ipca.odt`. Reutiliza as funções de apresentação dos suplementos, sem alterar o template ou o manuscrito. A grelha das tabelas é definida para este caderno, pois o template não contém tabelas.
 
 O ODT mantém as hiperligações externas e locais; as remissões entre os seis documentos reunidos passam a ligações internas. Cada parte seguinte começa em nova página. Os CSV, o manifesto JSON e os restantes ficheiros de apoio continuam acessíveis por ligação, sem serem transcritos. A verificação abrange a presença das seis partes, as 47 perguntas e respostas, a integridade XML/ZIP e a apresentação através de exportação temporária para PDF no LibreOffice, com perfil isolado. A regeneração substitui o ODT; as revisões devem ser feitas nas fontes Markdown.
+
+### Exportação das perguntas do júri
+
+A fonte é `perguntas_juri.md`. Depois de gerar o caderno, executar `python3 docs/defesa/exportar_perguntas_juri.py` na raiz do projeto. O script usa Pandoc e os estilos do caderno para produzir `perguntas_juri.odt`, com as 47 perguntas, respostas e notas de apoio. Os títulos e a etiqueta de resposta mantêm-se junto do texto seguinte.
+
+Para atualizar ambos os PDF, converter os ODT com LibreOffice, usando um perfil temporário isolado:
+
+```bash
+libreoffice -env:UserInstallation=file:///tmp/mestrado_defesa_pdf --headless --convert-to pdf --outdir docs/defesa docs/defesa/perguntas_juri.odt docs/defesa/preparacao_defesa_bernardo_providencia.odt
+```
+
+As alterações de conteúdo devem ser feitas no Markdown antes de regenerar os documentos.

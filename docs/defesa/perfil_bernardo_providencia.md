@@ -1,162 +1,180 @@
-# Bernardo Providência: perfil académico e leitura de publicações
+# Bernardo Providência: as minhas notas de leitura
 
-Data da pesquisa: 06/10/2026. Finalidade: preparação da defesa do Mestrado em Design e Desenvolvimento de Produto, IPCA.
+Pesquisa inicial: 06/10/2026. Complemento ORCID: 07/10/2026. Notas revistas em 12/10/2026.
 
-## 1. Âmbito e qualidade da evidência
+## 1. O que reuni e o que consegui consultar
 
-Foram selecionadas oito publicações, entre 2012 e 2025, pela sua relação com personalização, desenvolvimento de produto e avaliação da experiência. Esta seleção permite identificar linhas de investigação; não constitui um levantamento exaustivo da produção científica. O perfil Google Scholar indicado pelo autor não pôde ser consultado, pelo que não se apresentam contagens de publicações, citações ou índice h.
+Reuni inicialmente oito publicações, entre 2012 e 2025, pela proximidade com o meu trabalho. Interessa-me perceber como abordam a personalização e o desenvolvimento de produto, e como avaliam a experiência das pessoas. Esta seleção dá-me um ponto de partida para a leitura. Ficou por consultar o perfil Google Scholar, pelo que não tenho aqui uma contagem de publicações ou de citações.
 
-O nível de acesso é indicado em cada ficha: leitura de secções do texto integral disponível, ou apenas resumo e metadados. A análise distingue os resultados dos estudos da interpretação que fazemos para a defesa. Nos trabalhos em coautoria, as conclusões pertencem à equipa; não é possível individualizar o contributo de cada autor a partir da ordem de assinatura.
+Em cada ficha, deixo indicado o que consegui consultar: secções do texto integral ou apenas o resumo e os dados bibliográficos. Quero conseguir voltar à fonte e distinguir o que encontrei no estudo da relação que faço com o HandFab. Nos trabalhos em coautoria, refiro-me aos resultados da equipa; a ordem dos nomes não me permite saber qual foi a contribuição individual de Bernardo Providência.
 
-## 2. Percurso e posição académica
+## 2. Percurso académico e ligação ao meu tema
 
-A página institucional identifica Bernardo Providência como professor auxiliar da Escola de Arquitetura, Arte e Design da Universidade do Minho e investigador do Lab2PT. Regista formação em Design de Comunicação, mestrados em Design e Marketing e em Business Innovation and Technology Management, e doutoramento pela Universidade de Girona. Refere ainda investigação anterior no 2C2T e no grupo de engenharia de produtos, processos e produção de Girona. Esta combinação de formação e investigação ajuda a enquadrar a presença simultânea de projeto, tecnologia e experiência nas publicações. [Perfil institucional](https://www.arquitetura.uminho.pt/pt/_layouts/15/UMinho.PortaisUOEI.UI/Pages/userinfo.aspx?p=1867).
+Na página institucional consultada, Bernardo Providência é identificado como professor auxiliar da Escola de Arquitetura, Arte e Design da Universidade do Minho e investigador do Lab2PT. O percurso inclui formação em Design de Comunicação, mestrados em Design e Marketing e em Business Innovation and Technology Management, e doutoramento pela Universidade de Girona. A página refere também investigação anterior no 2C2T e no grupo de engenharia de produtos, processos e produção de Girona. Posso voltar ao [perfil institucional](https://www.arquitetura.uminho.pt/pt/_layouts/15/UMinho.PortaisUOEI.UI/Pages/userinfo.aspx?p=1867) para consultar estes dados.
 
-**Síntese interpretativa:** a seleção analisada mostra uma investigação que relaciona dados sobre pessoas, decisões de configuração, materialização e avaliação da experiência. A integração de software e mecanismos faz parte desse percurso. A questão disciplinar relevante para o HandFab é explicar como as decisões técnicas respondem a um problema de design e que conhecimento produzem.
+**O que retiro desta leitura:** encontro uma relação próxima entre decisões de projeto e desenvolvimento tecnológico, com atenção à experiência das pessoas. Isto ajuda-me a pensar no meu próprio argumento: como usei a tecnologia para concretizar escolhas de design e o que aprendi ao verificar os resultados do HandFab.
 
-## 3. Publicações analisadas
+## 3. Notas sobre as publicações
 
-### 3.1. Personalização e sistemas de informação — doutoramento, 2012
+### 3.1. Personalização e sistemas de informação: doutoramento, 2012
 
 Providência, A. B. (2012). *Metodologia de personalização de productos baseada em design centrado no utilizador. Methodology to design customized product based on user centered design* [Tese de doutoramento, Universitat de Girona]. [Registo e resumo institucional](https://www.tesisenred.net/handle/10803/84045).
 
-**Acesso:** resumo e metadados; o PDF integral não foi recuperado. Defesa em 26/07/2012.
+**O que consegui consultar:** resumo e metadados. Ainda falta obter o PDF integral. A defesa ocorreu em 26/07/2012.
 
-O resumo descreve um sistema modular que integra dados psicofísicos do utilizador, materiais e prototipagem, através de uma aplicação LabVIEW ligada a CAD/CAM e fabrico personalizado. O caso envolve pessoas com necessidades especiais e problemas decorrentes da permanência sentada. É a ligação temática mais direta ao HandFab. O resumo não permite avaliar a amostra, o desempenho ou a eficácia clínica; seria incorreto apresentar esses aspetos como verificados.
+O resumo descreve um sistema modular que liga dados psicofísicos do utilizador a materiais e prototipagem. Usa uma aplicação LabVIEW ligada a CAD/CAM e fabrico personalizado. O caso envolve pessoas com necessidades especiais e problemas associados à permanência sentada.
 
-### 3.2. Personalização, significado e relação com os objetos — 2020
+**Para o meu trabalho:** é a ligação temática mais direta ao HandFab. Quero aprofundar a passagem dos dados da pessoa para a configuração e para o fabrico. Para perceber como foi feita a avaliação, incluindo a amostra e os resultados, preciso de consultar a tese completa.
+
+### 3.2. Personalização, significado e relação com os objetos: 2020
 
 Cunha, J., & Providência, B. (2020). *Percursos do design emocional*. 2C2T/Lab2PT. ISBN 978-989-54168-2-0. [Texto disponibilizado pela coautora](https://www.researchgate.net/publication/343101600_PERCURSOS_DO_DESIGN_EMOCIONAL); [registo institucional](https://repositorium.sdum.uminho.pt/handle/1822/65288).
 
-**Acesso:** leitura das secções sobre personalização, casos e síntese no texto disponibilizado em linha.
+**O que consegui consultar:** secções sobre personalização, casos e síntese no texto disponível em linha.
 
-O livro relaciona participação na configuração, significado pessoal e ligação duradoura aos produtos. Discute casos como Freitag F-CUT, Shapeways e Fluid Forms. A personalização abrange escolhas e construção de significado para além da variação dimensional. Trata-se de uma discussão conceptual apoiada em casos: não demonstra que qualquer ferramenta de configuração aumente, por si, satisfação ou durabilidade.
+O livro relaciona a participação na configuração com o significado pessoal dos objetos e a ligação duradoura aos produtos. Discute casos como Freitag F-CUT, Shapeways e Fluid Forms. A personalização é tratada também como construção de significado.
 
-### 3.3. Hedonomia e prioridades dos utilizadores — 2021
+**Para me lembrar:** posso usar esta leitura para pensar no que fica por conhecer quando ofereço opções de configuração. Gostava de perceber o significado dessas escolhas para os destinatários. O livro apresenta uma discussão conceptual apoiada em casos; os efeitos do HandFab na satisfação ou na duração do uso teriam de ser estudados no meu contexto.
+
+### 3.3. Hedonomia e prioridades dos utilizadores: 2021
 
 Ribeiro, I. M., Providência, B., & Correia, W. F. M. (2021). Uma abordagem sobre a hedonomia e o usuário. *Design & Tecnologia, 11*(23), 93–105. [DOI](https://doi.org/10.23972/det2021iss23pp93-105); [texto consultado](https://www.researchgate.net/publication/357440009_Uma_abordagem_sobre_a_hedonomia_e_o_usuario).
 
-**Acesso:** secções de método e resultados do texto integral em linha.
+**O que consegui consultar:** secções de método e resultados do texto integral em linha.
 
-O estudo reúne 73 participantes em três grupos focais, articulando respostas individuais e discussão coletiva sobre funcionalidade, usabilidade, prazer e individualização. As prioridades alteram-se com o contexto e com os exemplos discutidos. A amostra educativa e a dinâmica de grupo limitam a generalização. Para o projeto, interessa sobretudo a necessidade de recolher prioridades concretas das pessoas antes de afirmar que determinada possibilidade de personalização lhes acrescenta valor.
+O estudo reúne 73 participantes em três grupos focais. Combina respostas individuais e discussão coletiva sobre funcionalidade, usabilidade, prazer e individualização. As prioridades variam com o contexto e com os exemplos discutidos. Tenho de considerar a amostra educativa e a influência da discussão em grupo ao interpretar os resultados.
 
-### 3.4. Qualidade percebida e AttrakDiff — 2021
+**Para o meu trabalho:** interessa-me sobretudo ouvir quais são as prioridades das pessoas. Antes de atribuir valor a uma possibilidade de personalização, precisaria de perceber se ela responde a uma necessidade concreta de quem a usaria.
+
+### 3.4. Qualidade percebida e AttrakDiff: 2021
 
 Ribeiro, I. M., & Providência, B. (2021). Quality perception with Attrakdiff method: A study in higher education. In *Advances in Design and Digital Communication* (pp. 222–233). Springer. [Publicação e resumo](https://doi.org/10.1007/978-3-030-61671-7_21).
 
-**Acesso:** resumo e metadados da editora. Ano bibliográfico recomendado: 2021; primeira publicação em linha: 23/10/2020.
+**O que consegui consultar:** resumo e metadados da editora. Uso o ano bibliográfico recomendado, 2021. A primeira publicação em linha foi em 23/10/2020.
 
-Aplica AttrakDiff a 282 estudantes, 81 antigos estudantes e 47 docentes de uma instituição. O resumo relata diferenças de qualidade percebida entre os grupos, apesar da apreciação global positiva. O interesse metodológico está na comparação de perspetivas. A leitura disponível não permite auditar integralmente o tratamento estatístico nem transpor os resultados para utilizadores de próteses.
+O estudo aplica AttrakDiff a 282 estudantes, 81 antigos estudantes e 47 docentes de uma instituição. O resumo refere diferenças de qualidade percebida entre os grupos, apesar de uma apreciação global positiva.
 
-### 3.5. EEG como ferramenta de investigação em design — 2022
+**Para me lembrar:** a comparação de perspetivas pode ajudar-me a pensar numa avaliação do HandFab. Quem configura o modelo e quem usaria a prótese podem valorizar aspetos diferentes. Para examinar o tratamento estatístico deste artigo, precisaria do texto completo. Uma avaliação no contexto das próteses teria de ter um desenho próprio.
+
+### 3.5. EEG como ferramenta de investigação em design: 2022
 
 Providência, B., & Silva, R. (2022). An exploratory approach with EEG – Electroencephalography in design as a research and development tool. In *Innovations in Mechatronics Engineering* (pp. 245–256). Springer. [Publicação e resumo](https://doi.org/10.1007/978-3-030-79168-1_23).
 
-**Acesso:** resumo e metadados da editora. Ano bibliográfico recomendado: 2022; publicação em linha: 16/06/2021.
+**O que consegui consultar:** resumo e metadados da editora. Uso o ano bibliográfico recomendado, 2022. A publicação em linha ocorreu em 16/06/2021.
 
-Explora a articulação entre EEG, autorrelato e interação com produtos, aproximando design e engenharia. O resumo apresenta objetivos e possibilidades metodológicas; não permite concluir que a medição fisiológica forneça uma leitura inequívoca das emoções. Esta publicação e o caso HERDMAR seguinte pertencem a uma linha relacionada e não devem ser contados como duas replicações independentes.
+O trabalho explora a relação entre EEG, autorrelato e interação com produtos. O resumo apresenta os objetivos e as possibilidades metodológicas dessa aproximação entre design e engenharia.
 
-### 3.6. Experiência material e indústria: HERDMAR — 2021
+**Para me lembrar:** quero perceber que pergunta justificaria usar uma medição fisiológica e como a relacionaria com o que a pessoa diz e faz. O resumo deixa em aberto a interpretação das emoções a partir dessas medições. Este trabalho e o caso HERDMAR pertencem a uma linha relacionada; preciso de os ler em conjunto, tendo presente que não correspondem a duas replicações independentes.
+
+### 3.6. Experiência material e indústria: HERDMAR, 2021
 
 Silva, G. D. A., Alexandre, R. F., Silva, R., & Providência, B. (2021). *Value co-creation in the multidisciplinary sharing between design and science: The case of a Portuguese cutlery industry*. BAMC2021, IAFOR. [Texto integral](https://papers.iafor.org/wp-content/uploads/papers/bamc2021/BAMC2021_61239.pdf).
 
-**Acesso:** método, resultados e conclusões, sobretudo pp. 7–11 do PDF.
+**O que consegui consultar:** método, resultados e conclusões, sobretudo nas páginas 7–11 do PDF.
 
-Combina autorrelato/PANAS e EEG na observação de fotografias, produtos e manipulação. O primeiro estudo envolveu 11 participantes. Algumas reações visuais mudaram com o contacto material. Os autores não identificaram diferenças significativas no EEG e discutem amostra, equipamento e algoritmo proprietário. O contributo é exploratório e metodológico; a publicação não prova a eficácia geral do EEG nem uma superioridade universal de determinadas formas.
+O estudo combina autorrelato/PANAS e EEG durante a observação de fotografias e produtos e o contacto com os objetos. O primeiro estudo envolveu 11 participantes. Algumas reações visuais mudaram quando houve contacto material. Os autores não encontraram diferenças significativas no EEG e discutem limitações da amostra, do equipamento e do algoritmo proprietário.
 
-### 3.7. Experiência ao longo do tempo: BRUMS — 2022
+**Para o meu trabalho:** este caso ajuda-me a explicar por que interessa passar da imagem no ecrã para a peça física. Quero também ter presente a forma como os autores discutem resultados inconclusivos. Leio este trabalho como uma exploração metodológica, com os limites que os próprios autores identificam.
+
+### 3.7. Experiência ao longo do tempo: BRUMS, 2022
 
 Margolis, I., Sampaio, J., & Providência, B. (2022). Education in context and the variation of moods throughout Covid-19: An emotional design perspective, using the BRUMS methodology. *Affective and Pleasurable Design, 41*, 272–281. [DOI](https://doi.org/10.54941/ahfe1001807); [PDF local](../../material/investigacao/defesa/bernardo_providencia/margolis_sampaio_providencia_2022_brums.pdf).
 
-**Acesso:** texto integral; leitura de método, discussão e conclusão.
+**O que consegui consultar:** texto integral, com leitura do método, da discussão e da conclusão.
 
-Recolhe 144 respostas em seis momentos do calendário académico. Identifica variações de humor associadas a esses momentos. São respostas, não necessariamente 144 pessoas distintas. O estudo limita-se a um curso/instituição durante a pandemia e não isola efeitos causais. Para a defesa, ilustra a diferença entre avaliar uma interação pontual e acompanhar uma experiência ao longo do uso.
+O estudo recolhe 144 respostas em seis momentos do calendário académico e identifica variações de humor associadas a esses momentos. Preciso de ter atenção ao número: são 144 respostas, podendo existir várias respostas da mesma pessoa. O contexto é um curso de uma instituição durante a pandemia, e o estudo não isola relações causais.
 
-### 3.8. Desenvolvimento de um produto tecnológico: controlo acústico — 2025
+**Para me lembrar:** uma apreciação no primeiro contacto e uma avaliação depois de várias utilizações respondem a questões diferentes. Esta leitura ajuda-me a pensar no acompanhamento da experiência ao longo do tempo. Teria de escolher momentos de observação adequados ao uso do HandFab.
+
+### 3.8. Desenvolvimento de um produto tecnológico: controlo acústico, 2025
 
 Providência, B., & Vieira, D. (2025). Design of a dynamic acoustic control solution for private or public spaces. *Design Principles and Practices: An International Journal—Annual Review, 19*(1), 111–129. [DOI](https://doi.org/10.18848/1833-1874/CGP/v19i01/111-129); [texto disponibilizado pelo coautor](https://www.researchgate.net/publication/396864632_Design_of_a_Dynamic_Acoustic_Control_Solution_for_Private_or_Public_Spaces).
 
-**Acesso:** desenvolvimento e conclusão do texto integral em linha.
+**O que consegui consultar:** desenvolvimento e conclusão do texto integral em linha.
 
-Descreve painéis modulares, mecanismos, sensores e controlo Arduino para variar superfícies acústicas. A conclusão reconhece software ainda em desenvolvimento e testes, e possível ruído do próprio mecanismo. Mostra investigação através de exploração formal e construção tecnológica, com limitações explícitas. Não se deve interpretar a proposta como demonstração de desempenho universal ou como produto plenamente validado.
+O artigo descreve painéis modulares com mecanismos, sensores e controlo Arduino para variar superfícies acústicas. A conclusão refere software ainda em desenvolvimento e testes, além da possibilidade de o próprio mecanismo produzir ruído.
 
-## 4. Leitura transversal
+**Para o meu trabalho:** interessa-me a forma como a exploração formal e a construção tecnológica são apresentadas como investigação em design. Posso voltar a este artigo para pensar em como explicar as minhas decisões e o estado de desenvolvimento do protótipo. A proposta acústica também tem aspetos que continuam por testar.
 
-As oito fichas sustentam a seguinte interpretação do percurso:
+## 4. O que relaciono entre estas leituras
 
-| Eixo | Evidência nas fichas | Consequência para a leitura do HandFab |
+Estas são as ligações que me parecem mais úteis para pensar no HandFab:
+
+| Tema | Fichas a consultar | O que quero explicar no meu trabalho |
 |---|---|---|
-| Personalização e integração tecnológica | 3.1, 3.8 | Explicar as relações entre entradas, regras, geometria e materialização. |
-| Experiência e significado | 3.2, 3.3, 3.6 | Separar possibilidades oferecidas pelo sistema de benefícios efetivamente observados. |
-| Avaliação por diferentes métodos | 3.4–3.7 | Definir o que mede cada procedimento e que afirmações pode sustentar. |
-| Desenvolvimento aplicado e colaboração | 3.1, 3.6, 3.8 | Identificar a decisão de design, a contribuição técnica e as competências externas necessárias. |
+| Personalização e integração tecnológica | 3.1, 3.8 | Como passo dos dados para as regras de configuração e verifico a forma produzida. |
+| Experiência e significado | 3.2, 3.3, 3.6 | Que opções disponibilizei e o que ainda preciso de saber sobre o valor que têm para as pessoas. |
+| Escolha dos métodos de avaliação | 3.4–3.7 | Que pergunta procuro responder com cada procedimento e que dados preciso de recolher. |
+| Desenvolvimento aplicado e colaboração | 3.1, 3.6, 3.8 | Onde tomei decisões de design e em que etapas precisaria de outras competências. |
 
-Há diversidade de formatos e graus de maturidade: tese, livro conceptual, estudos empíricos e desenvolvimento de protótipos. Há também limites relevantes, incluindo amostras circunscritas, estudos exploratórios e resultados inconclusivos. A leitura crítica exige preservar essas diferenças. As publicações não autorizam inferências sobre a personalidade do arguente, o grau de exigência na prova ou a sua posição sobre IA generativa.
+Encontro tipos de trabalho diferentes, desde uma tese e um livro conceptual até estudos com participantes e desenvolvimento de protótipos. Quero ter essas diferenças presentes quando voltar às fichas. As amostras e o estado de desenvolvimento de cada estudo ajudam-me a perceber o alcance dos resultados. Uso estas leituras para preparar a discussão do meu projeto; as opiniões pessoais de Bernardo Providência sobre IA generativa e a forma como conduzirá a prova ficam fora da informação que reuni.
 
-## 5. Implicações para a defesa deste projeto
+## 5. O que quero preparar para a defesa
 
-### 5.1. Como responder a «onde entra o design?»
+### 5.1. Como posso responder a «onde entra o design?»
 
-A preparação deve mostrar decisões e os seus efeitos. No HandFab, isso exige ligar referências antropométricas, limites dos modelos, opções de configuração, apresentação da informação e preparação das peças para fabrico. A presença de programação pode ser discutida através dessas relações.
+Quero mostrar decisões concretas e o que mudou por causa delas. No HandFab, posso começar por uma medida e explicar como a relacionei com os limites de um modelo. Depois posso mostrar o controlo na interface e a preparação da peça para fabrico. Assim consigo situar a programação no processo de design que desenvolvi.
 
-Uma formulação de trabalho, a confrontar com os exemplos do manuscrito, é:
+Uma resposta que posso trabalhar com os exemplos da tese:
 
-> O contributo de design está na definição e experimentação de um percurso de configuração que relaciona referências antropométricas, regras de variação dos modelos e preparação para fabrico. A plataforma tornou essas decisões operacionais e permitiu observar limites concretos. A avaliação realizada sustenta sobretudo a consistência técnica desse percurso; a adequação individual e a experiência de utilização continuam por avaliar com participantes.
+> O meu contributo está na forma como organizei e testei a configuração dos modelos. Parti de referências antropométricas, estudei as regras de variação e trabalhei a preparação das peças para fabrico. No HandFab, consegui pôr essas decisões em prática e observar limites concretos dos modelos. Os testes deram-me informação sobre o funcionamento técnico. Para perceber a adequação a uma pessoa e a experiência de utilização, preciso ainda de trabalhar com participantes.
 
-### 5.2. Pontos que exigem precisão
+### 5.2. Pontos que quero explicar com clareza
 
-- **Quem utiliza o quê:** distinguir o operador da plataforma da pessoa que utilizaria a prótese. As necessidades e os critérios de avaliação são diferentes.
-- **Que personalização foi demonstrada:** explicitar o alcance da configuração dimensional e das escolhas disponíveis. Dados populacionais não demonstram ajuste a uma pessoa concreta.
-- **Que decisões são autorais:** mostrar o que foi herdado dos modelos abertos e o que foi decidido ou alterado no projeto.
-- **Que resultados existem:** manter a diferença entre geração de geometria, preparação para impressão, observação de peças, funcionamento de bancada e utilização humana.
-- **Que papel tem a IA:** explicar o benefício proposto, as regras de controlo e a evidência disponível para o comparar com um percurso sem IA.
-- **Que participação ocorreu:** não apresentar uma orientação teórica centrada no utilizador como participação empírica que não teve lugar.
+- **Quem utiliza o quê:** preciso de distinguir quem configura o modelo de quem usaria a prótese. Quero explicar as necessidades de cada pessoa e o que avaliaria com cada grupo.
+- **Que personalização examinei:** posso mostrar a configuração dimensional e as escolhas disponíveis. Para avaliar o ajuste individual, precisaria de relacionar essas escolhas com uma pessoa concreta.
+- **Onde intervim:** quero ter exemplos das minhas alterações e identificar as características que já vinham dos modelos abertos.
+- **O que testei:** preciso de localizar os resultados de cada etapa, desde a geração da geometria até à observação de peças e da montagem em bancada. A utilização por pessoas ficou por avaliar.
+- **Que papel dei à IA:** quero explicar a sugestão de parâmetros e as regras que defini para a controlar. A comparação com um percurso manual seria um estudo seguinte.
+- **Como considerei o utilizador:** posso explicar as referências que orientaram os requisitos e a participação direta que ainda gostaria de incluir.
 
-### 5.3. Perguntas de treino fundamentadas nesta leitura
+### 5.3. Perguntas que esta leitura me ajuda a preparar
 
-Estas perguntas são propostas nossas; não são previsões de intervenção do arguente.
-
-| Pergunta | Base de preparação |
+| Pergunta | O que quero ter presente |
 |---|---|
-| O que transforma uma alteração de parâmetros numa resposta a uma necessidade individual? | Distinguir dados de referência, medição individual, decisão e validação. |
-| Que conhecimento de design produziu a construção da plataforma? | Apresentar uma sequência documentada de problema, decisão, materialização e resultado. |
-| Que valor oferece ao operador e à pessoa que usaria a prótese? | Separar as duas perspetivas e os benefícios ainda não avaliados. |
-| Uma peça geometricamente correta é uma solução adequada? | Explicar os limites da avaliação dimensional e a necessidade de avaliação de uso. |
-| Como avaliaria aceitação, significado pessoal e experiência material? | Propor um estudo futuro adequado, sem afirmar resultados inexistentes. |
-| Que resultados o levariam a alterar ou abandonar uma solução? | Mostrar critérios de decisão e reconhecer resultados negativos ou inconclusivos. |
+| O que transforma uma alteração de parâmetros numa resposta a uma necessidade individual? | Preciso de ligar os dados de referência à informação sobre a pessoa e explicar como avaliaria a configuração. |
+| Que conhecimento de design produziu a construção da plataforma? | Posso escolher um problema documentado e percorrer as minhas decisões até ao resultado e à aprendizagem. |
+| Que valor oferece ao operador e à pessoa que usaria a prótese? | Quero considerar as duas perspetivas e identificar o que ainda precisaria de avaliar com cada grupo. |
+| Uma peça geometricamente correta é uma solução adequada? | Posso mostrar o que medi e explicar que avaliação de uso me falta fazer. |
+| Como avaliaria aceitação, significado pessoal e experiência material? | Quero propor uma avaliação que me ajude a conhecer a experiência das pessoas com a solução. |
+| Que resultados o levariam a alterar ou abandonar uma solução? | Posso recorrer a uma decisão que revi e explicar como lidaria com resultados inconclusivos. |
 
-Os exemplos e os limites já inventariados estão em [Evidências e pontos a alinhar](evidencias_e_pontos_a_alinhar.md). A divergência entre a montagem Phoenix documentada e algumas formulações das conclusões deve ser resolvida antes do ensaio final da defesa.
+Tenho os exemplos e os pontos em aberto reunidos em [Evidências e pontos a alinhar](evidencias_e_pontos_a_alinhar.md). Antes do ensaio final, preciso de resolver a diferença entre o registo da montagem Phoenix e algumas formulações das conclusões.
 
-## 6. Prioridades de leitura e utilização
+## 6. Leituras a que quero voltar primeiro
 
-1. **Doutoramento de 2012:** prioridade para aprofundamento quando o PDF estiver acessível, pela proximidade temática. A análise atual limita-se ao resumo institucional.
-2. **Percursos do design emocional:** útil para preparar a distinção entre configuração, participação e significado.
-3. **Caso HERDMAR:** útil para discutir interação material e limites da evidência.
-4. **Controlo acústico de 2025:** útil para observar como o desenvolvimento técnico é apresentado como investigação em design.
+1. **Doutoramento de 2012:** quero obter o PDF e aprofundar a ligação entre os dados da pessoa e o fabrico personalizado. Por enquanto, tenho apenas o resumo institucional.
+2. **Percursos do design emocional:** quero voltar à participação nas escolhas e ao significado que os objetos podem ter para as pessoas.
+3. **Caso HERDMAR:** interessa-me rever a diferença entre observar uma imagem e contactar com o produto, incluindo os resultados inconclusivos.
+4. **Controlo acústico de 2025:** quero observar como os autores explicam as decisões de projeto e o desenvolvimento técnico ainda em curso.
 
-Estas fontes foram reunidas para compreender o contexto académico da discussão. A eventual inclusão no manuscrito depende da pertinência para o argumento científico, e não da identidade do arguente. Não foram alterados o manuscrito nem a sua bibliografia.
+Estas leituras ajudam-me a preparar a discussão. Se vier a usar alguma na tese, quero fazê-lo pela contribuição que traz para o argumento do trabalho. Estas notas ficam, por agora, no caderno de preparação.
 
-## 7. Rastreabilidade
+## 7. Onde voltar às fontes
 
-Pesquisa em páginas institucionais, editoras, atas e textos disponibilizados pelos próprios autores. A página institucional no domínio `eaad.uminho.pt` devolveu «Not found» na reverificação; foi utilizada a versão acessível em `arquitetura.uminho.pt`. As datas dos capítulos Springer seguem a citação recomendada pela editora, distinguindo o ano de primeira publicação em linha.
+Tenho referências de páginas institucionais, editoras e atas, além de textos disponibilizados pelos próprios autores. Na pesquisa, a página em `eaad.uminho.pt` devolveu «Not found»; a versão acessível estava em `arquitetura.uminho.pt`. Nos capítulos Springer, registei o ano recomendado pela editora e deixei separada a data da primeira publicação em linha.
 
-O único PDF recuperado para arquivo local nesta pesquisa foi o estudo BRUMS. A sua proveniência e integridade constam do [manifesto de fontes](../../material/investigacao/defesa/bernardo_providencia/manifesto.json). Os restantes textos foram consultados em linha nos níveis declarados nas fichas.
+Desta pesquisa, tenho guardado localmente o PDF do estudo BRUMS. Posso confirmar a origem e a integridade do ficheiro no [manifesto de fontes](../../material/investigacao/defesa/bernardo_providencia/manifesto.json). Para os restantes trabalhos, deixei em cada ficha as ligações e o nível de leitura que consegui fazer.
 
-## 8. Complemento ORCID — 07/10/2026
+## 8. Notas do complemento ORCID de 07/10/2026
 
-Consultado diretamente o [ORCID 0000-0001-6308-4123](https://orcid.org/0000-0001-6308-4123) através da API pública. O registo identifica Bernardo Providencia e contém 106 grupos com 197 resumos de entradas de diferentes fontes. Há obras repetidas mesmo entre grupos; estes totais não representam artigos distintos nem uma contagem bibliométrica validada. O ORCID ajuda a identificar e localizar trabalhos, mas os resultados devem ser conferidos nas publicações.
+O [ORCID 0000-0001-6308-4123](https://orcid.org/0000-0001-6308-4123), consultado através da API pública, identifica Bernardo Providencia. A resposta guardada contém 106 grupos com 197 resumos de entradas provenientes de diferentes fontes. Há obras repetidas, incluindo entre grupos, pelo que estes números precisam de ser tratados como entradas do registo. Uso o ORCID para localizar trabalhos e volto às publicações para confirmar o conteúdo.
 
-O [inventário CSV](../../material/investigacao/defesa/bernardo_providencia/orcid_trabalhos_2026_10_07.csv) preserva as entradas e a sua proveniência. O [JSON](../../material/investigacao/defesa/bernardo_providencia/orcid_trabalhos_2026_10_07.json) conserva o ramo de trabalhos da resposta pública. Não foram analisados integralmente os 106 grupos.
+Tenho as entradas e a sua origem no [inventário CSV](../../material/investigacao/defesa/bernardo_providencia/orcid_trabalhos_2026_10_07.csv). O [JSON](../../material/investigacao/defesa/bernardo_providencia/orcid_trabalhos_2026_10_07.json) guarda o ramo de trabalhos da resposta pública. A leitura que fiz abrange os trabalhos indicados nestas notas; ficou por analisar o conjunto dos 106 grupos.
 
-### Estudo adicional conferido na editora
+### Estudo adicional que consultei na editora
 
 Vieira, D., Providência, B., & Carvalho, H. (2023). Design of a smart garment for fencing: Measuring attractiveness using the AttrakDiff Mini method. *Human-Intelligent Systems Integration, 5*, 1–9. [Texto da editora](https://doi.org/10.1007/s42454-023-00047-z).
 
-Acesso: leitura do resumo, descrição do conceito e método no texto integral em linha. A proposta foi apresentada por vídeo e infografias e apreciada através de 36 respostas válidas ao AttrakDiff Mini. Trata-se de apreciação de uma proposta representada visualmente; não equivale a ensaio físico do vestuário. O artigo explicita uma adaptação da tradução do instrumento. A utilidade para a defesa está em discutir o que pode ser investigado com participantes antes da materialização completa e que conclusões essa etapa permite. Esta leitura motivou a pergunta 47 do guião.
+**O que consegui consultar:** resumo, descrição do conceito e método no texto integral em linha.
 
-### Trabalhos localizados para aprofundamento
+A proposta foi apresentada por vídeo e infografias e recebeu 36 respostas válidas ao AttrakDiff Mini. Os participantes apreciaram a representação visual do conceito. O artigo refere uma adaptação da tradução do instrumento.
 
-- *The Kansei Engineering and its Approaches* (Ribeiro e Providência, 2021), DOI [10.51358/id.v18i1.816](https://doi.org/10.51358/id.v18i1.816): resumo da editora consultado; comparação bibliográfica de abordagens para relacionar perceções e decisões de projeto. Texto integral ainda não analisado nesta revisão.
-- *Interface tool for human communication to integrate psychophysical inputs with rapid manufacturing technologies* (2010), DOI [10.1080/09511921003686003](https://doi.org/10.1080/09511921003686003): localizado no ORCID; conteúdo ainda não analisado. Prioridade temática pela relação com integração de dados e fabrico.
+**Para o meu trabalho:** este caso ajuda-me a pensar no que poderia ter discutido com participantes antes de ter as peças prontas. Essa conversa permitiria recolher apreciações sobre a proposta; os ensaios físicos responderiam depois a outras questões. Foi esta leitura que me levou à pergunta 47 das minhas notas para o júri.
 
-Esta atualização amplia a pesquisa inicial de oito publicações, preservando a distinção entre identificação bibliográfica, leitura de resumo e análise de secções do texto integral.
+### Trabalhos a que ainda quero voltar
+
+- *The Kansei Engineering and its Approaches* (Ribeiro e Providência, 2021), DOI [10.51358/id.v18i1.816](https://doi.org/10.51358/id.v18i1.816): tenho a leitura do resumo da editora. Apresenta uma comparação bibliográfica de abordagens que relacionam perceções e decisões de projeto. Falta-me analisar o texto integral.
+- *Interface tool for human communication to integrate psychophysical inputs with rapid manufacturing technologies* (2010), DOI [10.1080/09511921003686003](https://doi.org/10.1080/09511921003686003): localizei-o no ORCID e ainda preciso de ler o conteúdo. Quero dar-lhe prioridade pela ligação entre dados e fabrico.
+
+Com este complemento, acrescentei um estudo à leitura inicial de oito publicações e deixei outros trabalhos para aprofundar. As indicações de acesso ajudam-me a saber onde já tenho uma leitura do texto e onde preciso de começar pelo artigo completo.

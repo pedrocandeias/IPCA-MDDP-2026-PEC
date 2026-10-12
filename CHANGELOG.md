@@ -2,6 +2,12 @@
 
 ## 2026-10-12
 
+- Reescrito o perfil de Bernardo Providência como notas pessoais de leitura e preparação; retirada a indicação de finalidade. Conservadas as referências e os níveis de acesso às publicações e atualizado o caderno ODT/PDF.
+
+- Reescritas as notas das 47 perguntas do júri como apontamentos pessoais do autor (versão 0.7), com lembretes e exemplos para consulta. Mantidas as respostas e as decisões ainda por esclarecer; atualizados os exportadores e os documentos ODT/PDF.
+
+- Revistas as perguntas do júri (versão 0.6): retirados o preâmbulo indicado, a secção «Como ensaiar» e a ressalva sobre a prioridade das perguntas. Criadas exportações autónomas em ODT/PDF e atualizado o caderno completo de preparação.
+
 - Retirada da homepage PT/EN a secção da defesa e a respetiva entrada de navegação, conforme solicitado. Mantidos os documentos e as ligações no repositório.
 
 - Sincronizadas as notas pessoais da apresentação com a edição direta do autor nos diapositivos 1 e 2; recuperada a clarificação aprovada no diapositivo 3. Regenerados o PDF da apresentação e o guião na versão 1.4.2.
