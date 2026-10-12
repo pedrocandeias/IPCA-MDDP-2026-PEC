@@ -2,6 +2,8 @@
 
 ## 2026-10-12
 
+- Publicadas as perguntas do júri em PDF/ODT (versão 0.11) e atualizado o caderno de preparação, com notas pessoais e respostas 7, 9 e 47 completadas. Acesso pelos endereços diretos dos documentos.
+
 - Retirada a secção da defesa da homepage PT/EN e da navegação, por indicação do autor. Os documentos continuam no repositório.
 
 - Publicada a defesa do projeto: apresentação PDF/PPTX com 25 diapositivos, guião de leitura e caderno de preparação. Acrescentado acesso na homepage PT/EN; documentos em português. O guia explicativo pessoal permanece local.
