@@ -22,6 +22,8 @@ DEFENSE_FILES = {
     'guiao_falado.odt': 'apresentacao/guiao_falado.odt',
     'preparacao_defesa.pdf': 'preparacao_defesa_bernardo_providencia.pdf',
     'preparacao_defesa.odt': 'preparacao_defesa_bernardo_providencia.odt',
+    'perguntas_juri.pdf': 'perguntas_juri.pdf',
+    'perguntas_juri.odt': 'perguntas_juri.odt',
 }
 
 

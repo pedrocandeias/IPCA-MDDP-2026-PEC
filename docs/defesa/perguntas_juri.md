@@ -1,8 +1,6 @@
 # Perguntas do júri: as minhas notas
 
-Versão 0.7. 12/10/2026. Mestrado em Design e Desenvolvimento de Produto.
-
-Ainda preciso de completar as respostas 7, 9 e 47 com as minhas decisões de planeamento.
+Versão 0.11. 12/10/2026. Mestrado em Design e Desenvolvimento de Produto.
 
 ## Contributo e processo de design
 
@@ -60,11 +58,9 @@ Ainda preciso de completar as respostas 7, 9 e 47 com as minhas decisões de pla
 
 **A minha resposta:**
 
-> Há dois papéis a distinguir. Uma pessoa configura o modelo na plataforma; outra é a pessoa que poderá usar a prótese. Quem configura precisa de compreender os dados e rever o resultado. Quem vai usar a prótese precisa de ter as suas necessidades consideradas. Eu ainda não testei este percurso com esses grupos, por isso não posso dizer que qualquer pessoa consegue usar a plataforma sozinha.
+> Pensei o HandFab para que qualquer pessoa possa ser o operador principal, através do perfil de utilizador base. Existem cargos técnicos que podem moderar e apoiar as suas escolhas. Quem configura pode ser a própria pessoa que usaria a prótese ou alguém que a esteja a ajudar. A ideia é permitir essa participação com apoio técnico quando necessário. Ainda preciso de avaliar com utilizadores como este percurso funciona na prática.
 
-**Ainda preciso de completar:** Quem tinha em mente como principal operador da plataforma?
-
-**Para me lembrar:** Antes do ensaio, preciso de escrever uma descrição curta de quem imaginei a operar a plataforma. Vou rever os perfis e as permissões do capítulo 5 para tornar esse cenário concreto. Tenho de distinguir esse papel do da pessoa a quem a prótese se destinaria; ainda não observei a utilização com estes grupos.
+**Para me lembrar:** O operador principal que tenho em mente é qualquer pessoa. Posso mostrar os perfis e as permissões do capítulo 5 para explicar o que o utilizador base pode fazer e como os cargos técnicos podem moderar e apoiar as suas opções. Configurar e usar a prótese são papéis que podem pertencer à mesma pessoa. Na avaliação futura, quero perceber em que momentos precisa de ajuda.
 
 ### 8. Como pode falar de design centrado no utilizador sem participantes?
 
@@ -78,11 +74,19 @@ Ainda preciso de completar as respostas 7, 9 e 47 com as minhas decisões de pla
 
 **A minha resposta:**
 
-> Neste projeto, fiz testes ao sistema, aos modelos e às peças produzidas. Não fiz testes com utilizadores. Isso significa que ainda não sei, por observação direta, se a plataforma é fácil de usar ou se as peças seriam aceites pelos destinatários. Uma etapa seguinte seria pedir aos operadores previstos que realizassem tarefas e discutir as necessidades com as pessoas a quem a solução se destina.
+> Não consegui incluir a avaliação com utilizadores no prazo do projeto. O desenvolvimento e as verificações técnicas ocuparam o tempo disponível, e essa etapa ficou para trabalho futuro.
+>
+> Alguns dos modelos de origem já foram objeto de avaliações com participantes, como a Unlimbited Phoenix e a Cyborg Beast. Esses estudos ajudam-me a compreender o seu funcionamento e os limites encontrados. No meu projeto, avaliei a integração e a configuração dos modelos no HandFab.
+>
+> Quero agora avaliar como as pessoas utilizam o HandFab, onde encontram dificuldades e quando precisam de apoio técnico. Para isso, será necessário preparar as tarefas de avaliação e recrutar participantes. A avaliação das adaptações produzidas também faz parte desse trabalho futuro.
 
-**Ainda preciso de completar:** Qual foi a razão concreta para ter feito a avaliação técnica sem incluir testes com utilizadores?
+**Para me lembrar:** Posso recorrer aos estudos abaixo para explicar a evidência existente sobre os modelos de origem. No caso da Unlimbited Phoenix, os participantes usaram um adaptador para operar a mão. Nos estudos da Cyborg Beast, participaram crianças e adolescentes com diferenças nos membros superiores. Quero identificar a versão e as condições de cada avaliação. Para o HandFab, preciso de estudar o percurso de configuração com utilizadores e avaliar as adaptações produzidas. Na tese: 9.3–9.4.
 
-**Para me lembrar:** Preciso de completar esta resposta com a razão concreta da minha decisão. Descrever os testes que fiz ajuda a situar o trabalho, mas deixa por explicar por que não incluí utilizadores. Depois posso indicar a avaliação que faria a seguir e o que queria aprender com ela. Na tese: 9.3–9.4.
+**Estudos a que posso recorrer:**
+
+- **Malani (2019), Unlimbited Phoenix:** o [póster da Marymount University](https://www.marymount.edu/marymount.edu/media/Academic_media/Biology_Biochemistry/Eric-Malani-Research-Poster.pdf) compara Unlimbited Phoenix, Phoenix V2, Raptor Reloaded e Osprey através do Box and Block Test. Participaram dez pessoas sem deficiência do membro superior, com um adaptador para operar os dispositivos. Posso confirmar a apresentação em 2019 no [registo da conferência](https://digitalcommons.odu.edu/vchc-conference/2019/session3/6/).
+- **Zuniga et al. (2015), Cyborg Beast:** o [artigo sobre a mão e a adaptação à distância](https://doi.org/10.1186/s13104-015-0971-9) descreve a participação de 11 crianças, comparações de medidas e um questionário às famílias sobre utilização e qualidade de vida. Quero ter presente que se trata de uma investigação preliminar e que o questionário não foi validado estatisticamente.
+- **Dote et al. (2020), Cyborg Beast:** a [série de casos com cinco adolescentes](https://www.scielo.cl/pdf/rcp/v91n3/en_0370-4106-rcp-rchped-v91i3-1415.pdf) acompanha a utilização até quatro meses. Os autores concluíram que a prótese não foi uma solução funcional para aqueles participantes. Este estudo ajuda-me a explicar por que preciso de atender às pessoas e às condições concretas de utilização.
 
 ### 10. Que decisões demonstram a intervenção do designer?
 
@@ -464,13 +468,13 @@ Para voltar à leitura: integração de dados e fabrico (3.1), duração da rela
 
 **A minha resposta:**
 
-> Não fiz essa discussão inicial com utilizadores. Ela poderia ter ajudado a perceber mais cedo se as opções faziam sentido e se o percurso era compreensível. Poderia ter usado desenhos, exemplos ou demonstrações, sem esperar por uma peça final. Numa continuação, incluiria essa etapa antes de acrescentar mais funções. Essa discussão ajudaria a rever o conceito, mas não provaria o funcionamento da prótese.
-
-**Ainda preciso de completar:** Porque não discuti o conceito com utilizadores antes de avançar com o desenvolvimento?
+> Concentrei o trabalho no desenvolvimento do HandFab e nas verificações técnicas, e não consegui organizar essa participação no prazo do projeto. Olhando agora para o processo, reconheço que poderia ter discutido o conceito mais cedo, com esboços ou exemplos de configuração, sem esperar pela plataforma pronta. Isso teria ajudado a perceber se as opções propostas faziam sentido para as pessoas e que dúvidas surgiam.
+>
+> Numa continuação, quero começar por essa discussão antes de acrescentar novas funcionalidades. Posso apresentar um percurso de configuração ao utilizador base e a quem lhe dá apoio técnico, recolher as suas opiniões e rever as escolhas do projeto. A avaliação das tarefas na plataforma viria depois, com objetivos próprios.
 
 Para voltar à leitura: estudo de vestuário de esgrima de 2023, no complemento ORCID do [perfil](perfil_bernardo_providencia.md). A apresentação da proposta através de representações visuais dá-me um exemplo para pensar numa discussão do conceito antes de existir uma peça final.
 
-**Para me lembrar:** Preciso de explicar a minha decisão de planeamento. Posso depois desenvolver o que uma discussão inicial do conceito me teria permitido conhecer: que dúvidas surgiriam e que requisitos precisavam de ser revistos. É uma questão anterior à avaliação do funcionamento da peça.
+**Para me lembrar:** Esta pergunta é sobre a participação numa fase inicial. Quero reconhecer o espaço que faltou dar a essa discussão no planeamento. Uma conversa apoiada em esboços poderia ajudar-me a rever os requisitos antes de avançar com mais desenvolvimento. Os estudos dos modelos de origem, que refiro na pergunta 9, não recolhem as opiniões das pessoas sobre o conceito do HandFab.
 
 **O que quero ter à mão:** Posso preparar um cenário que pudesse ter discutido antes do desenvolvimento completo e pensar numa decisão que essa discussão poderia ter alterado. Vou articular esta resposta com a pergunta 9.
 

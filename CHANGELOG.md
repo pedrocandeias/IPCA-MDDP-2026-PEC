@@ -2,6 +2,16 @@
 
 ## 2026-10-12
 
+- Publicadas as perguntas do júri em PDF/ODT (versão 0.11) e o caderno revisto, com as respostas 7, 9 e 47 completadas. Acrescentados os ficheiros autónomos à lista explícita de publicação; confirmados 12 ficheiros públicos por comparação com o pacote local.
+
+- Completada a pergunta 47 sobre participação na apreciação inicial do conceito, com base na limitação de prazo indicada pelo autor e numa proposta de discussão antes de novas funcionalidades (versão 0.11). Retiradas as notas pendentes e atualizados os ODT/PDF.
+
+- Completada a pergunta 9 com a justificação de prazo aprovada pelo autor, articulada com os estudos anteriores dos modelos e a avaliação futura do HandFab (versão 0.10). Retirada a nota pendente desta pergunta e atualizadas as exportações.
+
+- Integrada na pergunta 9 a formulação aprovada sobre avaliações anteriores da Unlimbited Phoenix e da Cyborg Beast, com referências e condições dos estudos nas notas pessoais (versão 0.9). Mantida a avaliação do HandFab como trabalho futuro e regenerados os ODT/PDF.
+
+- Clarificado pelo autor o operador previsto na pergunta 7: qualquer pessoa, com perfil de utilizador base e cargos técnicos para moderação e apoio às escolhas. Retirada essa confirmação pendente e atualizadas as perguntas para a versão 0.8, com exportações ODT/PDF e caderno completo.
+
 - Reescrito o perfil de Bernardo Providência como notas pessoais de leitura e preparação; retirada a indicação de finalidade. Conservadas as referências e os níveis de acesso às publicações e atualizado o caderno ODT/PDF.
 
 - Reescritas as notas das 47 perguntas do júri como apontamentos pessoais do autor (versão 0.7), com lembretes e exemplos para consulta. Mantidas as respostas e as decisões ainda por esclarecer; atualizados os exportadores e os documentos ODT/PDF.

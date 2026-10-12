@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-12T08:43:38.318965+00:00",
+  "checked_at": "2026-10-12T20:43:44.699264+00:00",
   "url": "https://pedrocandeias.github.io/IPCA-MDDP-2026-PEC/",
   "english_url": "https://pedrocandeias.github.io/IPCA-MDDP-2026-PEC/en.html",
   "manuscript_url": "https://pedrocandeias.github.io/IPCA-MDDP-2026-PEC/manuscrito.html",
@@ -9,8 +9,8 @@
     "path": "/"
   },
   "status": "built",
-  "site_commit": "d08642a808f19143405fcbf1f74e59b46ba1615b",
-  "previous_site_commit": "8d81054b5325a41abd8b0aeed69cb32629e389cc",
+  "site_commit": "b51f258f52a83b89bf3ff9c9acc5ef60278e4bea",
+  "previous_site_commit": "d08642a808f19143405fcbf1f74e59b46ba1615b",
   "files": {
     "assets/homepage.css": "83c1127cc2a9a5abbe4d368d12f4d4ce908fbe29428bb5bb4ec8b452f761bf83",
     "assets/lightbox.css": "ec9a71179a024e0cc49d093432c57df2b5b10514274639476be30848bb55cdf9",
@@ -23,8 +23,10 @@
     "defesa/apresentacao_defesa.pptx": "89bec3648fc05553eed843cb522825907d0c58a90b7184fd9151447c7a5f7162",
     "defesa/guiao_falado.pdf": "61db54c8c97d72d44083bc9d683568736a22e72633e5ae8c3e0b0b5c3c21ac67",
     "defesa/guiao_falado.odt": "cd149b1b40022ec9c7a984ff11ed8ff7e43a4544c2b163720734781062c0071a",
-    "defesa/preparacao_defesa.pdf": "a2e37c7081f1a8e4262a88e5fabcc8910add6c3f4c9f724099af87bdba71271d",
-    "defesa/preparacao_defesa.odt": "fc462f7562f6671ceedf65f0991e9fa4087384ed6862ba0919390da743e67660"
+    "defesa/preparacao_defesa.pdf": "dfcd64e9fe06c4f1c4b8da24de016ca40990860d24b5cb9d5249d7148ea43c92",
+    "defesa/preparacao_defesa.odt": "ce466e6bf107a5642ae97c8a139687feabc5feb37260e2e5803dc8f133188cae",
+    "defesa/perguntas_juri.pdf": "ff79c22dc91973cbf9f3a7a1c6eb6aa9af6d26f5e76494d9b8b985dea5ac66a0",
+    "defesa/perguntas_juri.odt": "a9226c8b0ceb61fa2ca1ba43746526fdfc930d32549d83c81d15a0b78af9a3d1"
   },
   "online_browser_validation": {
     "homepage_languages": [
@@ -55,7 +57,7 @@
     "four_reference_panel": true,
     "javascript_errors": []
   },
-  "scope": "Secção e navegação da defesa retiradas da homepage PT/EN, mantendo os documentos no repositório.",
+  "scope": "Perguntas do júri v0.11 em PDF/ODT e caderno de preparação revisto, disponíveis por endereço direto.",
   "latest_update_validation": {
     "controls": 269,
     "source_occurrences": 416,
@@ -109,6 +111,12 @@
         "content_type": "text/html; charset=utf-8",
         "matches_local": true
       },
+      "assets/homepage.css": {
+        "sha256": "83c1127cc2a9a5abbe4d368d12f4d4ce908fbe29428bb5bb4ec8b452f761bf83",
+        "status": 200,
+        "content_type": "text/css; charset=utf-8",
+        "matches_local": true
+      },
       "defesa/apresentacao_defesa.pdf": {
         "sha256": "8de2524416ed233a9a2c2b9da60eaca6720e7b8f4277e026b2439d4fd56a8b59",
         "status": 200,
@@ -134,21 +142,27 @@
         "matches_local": true
       },
       "defesa/preparacao_defesa.pdf": {
-        "sha256": "a2e37c7081f1a8e4262a88e5fabcc8910add6c3f4c9f724099af87bdba71271d",
+        "sha256": "dfcd64e9fe06c4f1c4b8da24de016ca40990860d24b5cb9d5249d7148ea43c92",
         "status": 200,
         "content_type": "application/pdf",
         "matches_local": true
       },
       "defesa/preparacao_defesa.odt": {
-        "sha256": "fc462f7562f6671ceedf65f0991e9fa4087384ed6862ba0919390da743e67660",
+        "sha256": "ce466e6bf107a5642ae97c8a139687feabc5feb37260e2e5803dc8f133188cae",
         "status": 200,
         "content_type": "application/vnd.oasis.opendocument.text",
         "matches_local": true
       },
-      "assets/homepage.css": {
-        "sha256": "83c1127cc2a9a5abbe4d368d12f4d4ce908fbe29428bb5bb4ec8b452f761bf83",
+      "defesa/perguntas_juri.pdf": {
+        "sha256": "ff79c22dc91973cbf9f3a7a1c6eb6aa9af6d26f5e76494d9b8b985dea5ac66a0",
         "status": 200,
-        "content_type": "text/css; charset=utf-8",
+        "content_type": "application/pdf",
+        "matches_local": true
+      },
+      "defesa/perguntas_juri.odt": {
+        "sha256": "a9226c8b0ceb61fa2ca1ba43746526fdfc930d32549d83c81d15a0b78af9a3d1",
+        "status": 200,
+        "content_type": "application/vnd.oasis.opendocument.text",
         "matches_local": true
       }
     },
@@ -161,9 +175,12 @@
     "desktop_mobile_preview": true,
     "private_guide_in_git": false,
     "private_guide_published": false,
-    "public_documents": 6,
+    "public_documents": 8,
     "presentation_version": "1.4.2",
-    "homepage_defense_section": false
+    "homepage_defense_section": false,
+    "jury_questions_version": "0.11",
+    "jury_questions_pdf_pages": 18,
+    "jury_questions_count": 47
   },
   "defense_repository_url": "https://github.com/pedrocandeias/IPCA-MDDP-2026-PEC/tree/main/docs/defesa",
   "homepage_defense_removal_validation": {
@@ -171,5 +188,6 @@
     "navigation_and_section_removed": true,
     "matches_homepage_before_defense": true,
     "defense_documents_preserved": true
-  }
+  },
+  "jury_questions_url": "https://pedrocandeias.github.io/IPCA-MDDP-2026-PEC/defesa/perguntas_juri.pdf"
 }

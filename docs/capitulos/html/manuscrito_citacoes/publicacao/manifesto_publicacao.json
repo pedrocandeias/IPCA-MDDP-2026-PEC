@@ -35,12 +35,22 @@
     {
       "source": "docs/defesa/preparacao_defesa_bernardo_providencia.pdf",
       "published": "defesa/preparacao_defesa.pdf",
-      "sha256": "a2e37c7081f1a8e4262a88e5fabcc8910add6c3f4c9f724099af87bdba71271d"
+      "sha256": "dfcd64e9fe06c4f1c4b8da24de016ca40990860d24b5cb9d5249d7148ea43c92"
     },
     {
       "source": "docs/defesa/preparacao_defesa_bernardo_providencia.odt",
       "published": "defesa/preparacao_defesa.odt",
-      "sha256": "fc462f7562f6671ceedf65f0991e9fa4087384ed6862ba0919390da743e67660"
+      "sha256": "ce466e6bf107a5642ae97c8a139687feabc5feb37260e2e5803dc8f133188cae"
+    },
+    {
+      "source": "docs/defesa/perguntas_juri.pdf",
+      "published": "defesa/perguntas_juri.pdf",
+      "sha256": "ff79c22dc91973cbf9f3a7a1c6eb6aa9af6d26f5e76494d9b8b985dea5ac66a0"
+    },
+    {
+      "source": "docs/defesa/perguntas_juri.odt",
+      "published": "defesa/perguntas_juri.odt",
+      "sha256": "a9226c8b0ceb61fa2ca1ba43746526fdfc930d32549d83c81d15a0b78af9a3d1"
     }
   ],
   "private_guide_published": false,
