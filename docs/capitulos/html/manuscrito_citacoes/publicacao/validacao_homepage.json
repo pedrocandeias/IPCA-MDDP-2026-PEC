@@ -9,7 +9,15 @@
       1000
     ],
     [
+      768,
+      844
+    ],
+    [
       390,
+      844
+    ],
+    [
+      320,
       844
     ]
   ],
@@ -27,5 +35,20 @@
   "four_reference_panel": true,
   "javascript_errors": [],
   "source_excerpts": 408,
-  "pending_source_occurrences": 8
+  "pending_source_occurrences": 8,
+  "data": "2026-10-13",
+  "tema": "HandFab",
+  "two_reference_panel": true,
+  "manuscript_tables": 53,
+  "print_controls_hidden": true,
+  "full_manuscript_and_citation_data_preserved": true,
+  "homepage_text_and_links_preserved": true,
+  "visual_review": true,
+  "source_theme": "tools/conversao/tema_handfab.css",
+  "sha256_pages": {
+    "index.html": "3c4cead2e6f59cce6e5b016728b4938cafb038caf3dd3f5ea9faacac6cde7201",
+    "en.html": "21baf7882da19f8e9e75f6e19e9ef973bb5fa0e984c6cf33d5b1c6166f453390",
+    "manuscrito.html": "f1407e506e98687ae3ee6c90a9e2151a956dbe7b4342afdb12def0b565d8d812"
+  },
+  "sha256_theme": "a7235839a3984cab52feea620babedce8b1efdb8b9735592ace530d574803d54"
 }

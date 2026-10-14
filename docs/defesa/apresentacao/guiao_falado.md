@@ -1,8 +1,8 @@
 # As minhas notas para a defesa
 
-Versão 1.4.2. 12/10/2026. Pedro Miguel Candeias da Silva. Mestrado em Design e Desenvolvimento de Produto, Universidade Politécnica do Cávado e do Ave (UPCA).
+Versão 1.5. 12/10/2026. Pedro Miguel Candeias da Silva. Mestrado em Design e Desenvolvimento de Produto, Universidade Politécnica do Cávado e do Ave (UPCA).
 
-Estas notas ajudam-me a ensaiar e a acompanhar os 25 diapositivos. Termino a exposição no diapositivo 17. Os restantes ficam para a discussão, conforme as perguntas do júri.
+Estas notas ajudam-me a ensaiar e a acompanhar os 28 diapositivos. Termino a exposição no diapositivo 20. Os restantes ficam para a discussão, conforme as perguntas do júri.
 
 Em **O que quero dizer**, tenho uma proposta de fala que posso adaptar ao meu ritmo. **Se precisar de desenvolver** guarda explicações para o ensaio mais longo ou para uma pergunta. **Lembrar-me** contém apontamentos pessoais que não leio ao júri.
 
@@ -10,11 +10,11 @@ Os tempos são referências para o ensaio de 20 minutos e para a preparação de
 
 Fonte de referência: `pedro-candeias-projeto-mestrado-mdddp-ipca-2026-revisto_v1_06102026-0210.odt`, confrontado com os registos dos suplementos. O PDF `a30759_pedro-candeias-projeto-mestrado-mdddp-ipca-v10060211.pdf` é a referência de paginação. O manuscrito permanece inalterado. Os critérios de seleção das referências estão no README da apresentação.
 
-As perguntas aprovadas mantêm a formulação original no diapositivo 18. Os sete objetivos estão no diapositivo 4.
+As perguntas aprovadas mantêm a formulação original no diapositivo 21. Os sete objetivos estão no diapositivo 4.
 
 ## 01. Da medida à peça física
 
-Tempo previsto: 0:30 no percurso principal; 1:00 no treino desenvolvido.
+Tempo previsto: 0:30 no percurso principal; 0:45 no treino desenvolvido.
 
 ### O que quero dizer
 
@@ -52,12 +52,11 @@ Se precisar de um exemplo, usar a largura e o comprimento:
 
 ### Lembrar-me
 
-Este exemplo prepara o caso do Paraglider, mais à frente.
-Acompanhar os quatro cartões com o cursor. Não me demorar numa definição abstrata de parâmetro; o exemplo da largura chega para tornar o problema claro.
+Apontar primeiro para os controlos do HandFab e depois para os dedos impressos. Este exemplo prepara o caso do Paraglider, mais à frente.
 
 ## 03. Perguntas de investigação e âmbito da avaliação
 
-Tempo previsto: 1:00 no percurso principal; 1:30 no treino desenvolvido.
+Tempo previsto: 0:45 no percurso principal; 1:15 no treino desenvolvido.
 
 ### O que quero dizer
 
@@ -77,7 +76,7 @@ Se me perguntarem qual é a diferença entre verificar o funcionamento técnico 
 
 ### Lembrar-me
 
-Dizer claramente onde ficou o estudo e seguir em frente. Não preciso de repetir a lista de limitações em todos os diapositivos. Se pedirem a formulação exata de uma pergunta, ir ao diapositivo 18.
+Dizer claramente onde ficou o estudo e seguir em frente. Não preciso de repetir a lista de limitações em todos os diapositivos. Se pedirem a formulação exata de uma pergunta, ir ao diapositivo 21.
 
 ## 04. Objetivo geral e objetivos específicos
 
@@ -87,13 +86,19 @@ Tempo previsto: 1:30 no percurso principal; 2:00 no treino desenvolvido.
 
 O objetivo geral foi aprender através do desenvolvimento do projeto. Para isso, construí e avaliei tecnicamente um sistema paramétrico, com apoio de IA, para a configuração preliminar de modelos de mão protésica destinados à impressão 3D.
 
-Organizei o trabalho em sete objetivos específicos. O primeiro foi perceber como o design traduz necessidades humanas em decisões de projeto e de fabrico.
+Organizei o trabalho em sete objetivos específicos.
+
+O primeiro foi perceber como o design traduz necessidades humanas em decisões de projeto e de fabrico.
 
 O segundo foi organizar os dados antropométricos sem perder a informação sobre a sua origem. Isso inclui a população estudada, o protocolo de medição, as unidades e as estatísticas utilizadas, com as respetivas limitações.
 
 O terceiro foi adaptar modelos abertos a uma estrutura paramétrica explícita em OpenSCAD. O quarto foi integrar esse percurso numa plataforma web, com visualização, versões, exportação e preparação para impressão.
 
-O quinto foi definir o papel da IA como sugestão inicial, sujeita a revisão. O sexto foi verificar a coerência do percurso até às peças físicas. O sétimo foi identificar o que ficou por avaliar e as condições necessárias para estudos clínicos e de utilização, incluindo a função protésica.
+O quinto foi definir o papel da IA como sugestão inicial, sujeita a revisão.
+
+O sexto foi verificar a coerência do percurso até às peças físicas.
+
+O sétimo foi identificar o que ficou por avaliar e as condições necessárias para estudos clínicos e de utilização, incluindo a função protésica.
 
 ### Se precisar de desenvolver
 
@@ -105,7 +110,7 @@ Apresentar o objetivo geral antes de percorrer a lista. Seguir a numeração da 
 
 ## 05. Como a literatura orienta o projeto
 
-Tempo previsto: 1:00 no percurso principal; 1:30 no treino desenvolvido.
+Tempo previsto: 0:45 no percurso principal; 1:15 no treino desenvolvido.
 
 ### O que quero dizer
 
@@ -129,7 +134,7 @@ Não ler a tabela como uma lista de nomes. Ligar cada referência à ideia que m
 
 ## 06. Investigar através do desenvolvimento do protótipo
 
-Tempo previsto: 1:15 no percurso principal; 1:30 no treino desenvolvido.
+Tempo previsto: 1:15 no percurso principal; 1:45 no treino desenvolvido.
 
 ### O que quero dizer
 
@@ -147,23 +152,19 @@ Se me perguntarem onde está a investigação, voltar ao requisito que estava em
 
 ### Lembrar-me
 
-Usar o caso concreto para percorrer o ciclo. As referências estão no rodapé e no diapositivo 24, se precisar delas durante a discussão.
+Usar as imagens para explicar a passagem das regras para as peças. A captura de código mostra a Phoenix; as peças são do Paraglider. O caso que desenvolvo oralmente é a correção da escala da palma do Paraglider, documentada nos registos.
 
 ## 07. HandFab: um percurso com decisões explícitas
 
-Tempo previsto: 1:15 no percurso principal; 1:30 no treino desenvolvido.
+Tempo previsto: 0:45 no percurso principal; 1:15 no treino desenvolvido.
 
 ### O que quero dizer
 
-O HandFab é o protótipo web que desenvolvi para estudar esta passagem da configuração à geometria.
+Aqui está o HandFab que desenvolvi. Começo pela escolha do modelo. Estão disponíveis quatro modelos, cada um com as suas regras de configuração.
 
-Posso começar com valores introduzidos ou com uma referência antropométrica. Também posso pedir uma sugestão à IA e rever os valores antes de os aplicar.
+A partir daqui, posso trabalhar com uma referência antropométrica ou ajustar os valores. A IA pode ajudar a propor um ponto de partida. Continuo a poder rever os parâmetros antes de gerar e exportar a geometria.
 
-O OpenSCAD calcula a geometria no navegador, de acordo com as regras do modelo. Consigo observar o resultado e voltar aos parâmetros antes de exportar para preparar a impressão.
-
-A IA fica, portanto, num ponto definido do percurso. A proposta pode ser corrigida por quem configura, e a forma resulta das regras do modelo escolhido.
-
-Ao organizar isto, tive de decidir que alterações ficam disponíveis e em que situações é preciso rever uma configuração. Uma parte dessas decisões depende de perceber de onde vêm os dados antropométricos.
+Pensei no utilizador base como qualquer pessoa. Os cargos técnicos permitem moderar e apoiar as suas escolhas. A forma como esse apoio funciona na prática fica para a avaliação com utilizadores.
 
 ### Se precisar de desenvolver
 
@@ -171,7 +172,7 @@ Se houver dúvidas sobre a IA, esclarecer que o seu uso é opcional e depende de
 
 ### Lembrar-me
 
-Apontar para a posição da IA no esquema. Se surgir o tema do meta-design, falar do espaço de modificação que construí. A participação de utilizadores ficou por estudar. Tenho ainda de esclarecer o perfil principal de quem irá operar o sistema.
+Mostrar os quatro modelos no catálogo. Explicar o percurso enquanto aponto para o modelo escolhido. Reservar os detalhes de configuração para as capturas seguintes.
 
 ## 08. Fontes antropométricas e critérios de utilização
 
@@ -195,11 +196,11 @@ Se surgir uma dúvida sobre percentis, explicar com o percentil cinquenta: metad
 
 ### Lembrar-me
 
-Distinguir os anos dos levantamentos dos anos das publicações. Na DINED, identificar os conjuntos em vez de tratar a base como um único estudo. Se me perguntarem pela autoria, consultar a referência de cada conjunto.
+Apontar para os campos do formulário, sobretudo a origem e a unidade. Relacionar cada valor com a população e a medida de onde veio. As referências completas estão no diapositivo 28.
 
 ## 09. Da base consolidada aos perfis do HandFab
 
-Tempo previsto: 1:15 no percurso principal; 1:30 no treino desenvolvido.
+Tempo previsto: 1:00 no percurso principal; 1:30 no treino desenvolvido.
 
 ### O que quero dizer
 
@@ -219,11 +220,11 @@ Se me perguntarem pelos ficheiros, lembrar que o subconjunto ANSUR repete parte 
 
 ### Lembrar-me
 
-Separar bem o trabalho dos autores dos estudos do que eu fiz na base local. Usar o exemplo da média e do desvio-padrão se houver confusão nas contagens. A composição 97 + 2 + 1 descreve as vias de entrada dos perfis.
+Apontar para a tabela de perfis e explicar a contagem ao lado. Os 100 perfis são o estado documentado da aplicação; as linhas das bases estatísticas representam outra coisa.
 
 ## 10. Cada modelo exige regras próprias
 
-Tempo previsto: 1:30 no percurso principal; 2:00 no treino desenvolvido.
+Tempo previsto: 1:15 no percurso principal; 2:00 no treino desenvolvido.
 
 ### O que quero dizer
 
@@ -245,11 +246,11 @@ Lembrar que os modelos já existiam e mantêm a autoria dos seus criadores. O me
 
 ### Lembrar-me
 
-Dar espaço aos dois casos. Estou a mostrar uma explicação das regras, não imagens históricas de antes e depois. No Phoenix, dizer sempre «na configuração examinada», para não transformar o valor numa regra anatómica.
+Usar as fotografias para identificar os modelos. Explicar a correção da palma e o limite de largura a partir dos registos, sem apresentar estas imagens como uma comparação histórica antes e depois.
 
 ## 11. A IA propõe um ponto de partida
 
-Tempo previsto: 1:15 no percurso principal; 2:00 no treino desenvolvido.
+Tempo previsto: 1:15 no percurso principal; 1:45 no treino desenvolvido.
 
 ### O que quero dizer
 
@@ -267,23 +268,19 @@ Se me perguntarem pela qualidade da resposta, separar o formato dos valores. Con
 
 ### Lembrar-me
 
-Explicar lateralidade como a escolha entre esquerda e direita. As cinco execuções são o conjunto testado; não as apresentar como uma taxa geral de precisão da IA.
+Apontar para a caixa do pedido e para o botão de sugestão. A imagem mostra a interface documentada. Explicar oralmente a revisão dos valores e a regra da lateralidade.
 
 ## 12. Configuração e pré-visualização no HandFab
 
-Tempo previsto: 1:00 no percurso principal; 2:00 no treino desenvolvido.
+Tempo previsto: 1:00 no percurso principal; 1:45 no treino desenvolvido.
 
 ### O que quero dizer
 
-À esquerda está a seleção do modelo. À direita, a configuração com a pré-visualização em 3D.
+Aqui consigo mostrar melhor os controlos da configuração. Tenho os parâmetros do lado esquerdo e a pré-visualização do modelo do lado direito.
 
-Depois de escolher o modelo, posso rever os valores e gerar a geometria. Se o resultado não corresponder ao que pretendo, posso voltar aos parâmetros antes de exportar.
+O que me interessa explicar é a ligação entre um valor e a forma que aparece. Posso rever os valores e gerar novamente a geometria para examinar o resultado. Foi ao comparar estas alterações que encontrei diferenças importantes nas regras dos modelos.
 
-A questão de design é tornar compreensível a relação entre o que alterei e o que aparece na forma.
-
-Estas imagens mostram funcionalidades documentadas no manuscrito. Para saber como as pessoas compreendem este percurso, preciso de as observar a realizar tarefas. Essa parte ficou por fazer.
-
-Na avaliação que apresento a seguir, concentrei-me no que conseguia verificar tecnicamente.
+Esta sequência usa capturas guardadas durante o projeto. Para a defesa, ajuda-me a mostrar o percurso sem depender de uma ligação ao serviço de IA.
 
 ### Se precisar de desenvolver
 
@@ -291,11 +288,47 @@ Se tiver tempo, percorrer uma alteração pelas imagens: identificar o controlo 
 
 ### Lembrar-me
 
-Dar tempo para olhar para as imagens. Usar o cursor para ligar o controlo à pré-visualização. Estas capturas não registam necessariamente uma única execução contínua; apresentá-las como ilustração do percurso.
+Apontar para um controlo de dimensão e depois para a pré-visualização. Dar tempo ao júri para observar o modelo. Continuar para as cores e para a exportação.
 
-## 13. A avaliação acompanhou etapas diferentes
+## 13. Escolher cores e materiais no HandFab
 
-Tempo previsto: 1:30 no percurso principal; 2:00 no treino desenvolvido.
+Tempo previsto: 0:30 no percurso principal; 0:45 no treino desenvolvido.
+
+### O que quero dizer
+
+Nesta parte posso escolher as cores dos componentes e ver o resultado no modelo. A interface também reúne opções de material.
+
+Quis dar espaço a escolhas sobre a aparência da prótese. A forma como cada pessoa valoriza essas opções terá de ser estudada com utilizadores.
+
+### Se precisar de desenvolver
+
+Posso usar os dedos com cores diferentes para mostrar que a configuração atua em componentes identificados. A escolha que aparece no ecrã ainda precisa de ser concretizada e verificada na preparação para impressão.
+
+### Lembrar-me
+
+Apontar para uma cor e para o componente correspondente. Deixar a imagem explicar as opções, sem ler a lista de controlos.
+
+## 14. Da geometria gerada à exportação
+
+Tempo previsto: 0:45 no percurso principal; 1:00 no treino desenvolvido.
+
+### O que quero dizer
+
+Depois de rever a configuração, consigo examinar a geometria gerada e exportar a malha. Esta imagem mostra também o código OpenSCAD associado ao modelo.
+
+A exportação permite continuar o trabalho no programa de preparação para impressão. A partir desse momento, entram as escolhas do equipamento e das condições de fabrico. Foi por isso que acompanhei o processo até às peças físicas.
+
+### Se precisar de desenvolver
+
+Se precisar de explicar a diferença, a malha descreve a superfície do objeto. O programa de preparação usa essa geometria para calcular as trajetórias de impressão. As estimativas de tempo ou material pertencem a essa preparação.
+
+### Lembrar-me
+
+Apontar para a pré-visualização e para Export. Evitar ler código ao júri. A imagem seguinte mostra trabalho de impressão já realizado.
+
+## 15. A avaliação acompanhou etapas diferentes
+
+Tempo previsto: 1:00 no percurso principal; 1:30 no treino desenvolvido.
 
 ### O que quero dizer
 
@@ -311,13 +344,33 @@ Para interpretar os resultados, tenho de regressar à verificação que lhes deu
 
 ### Se precisar de desenvolver
 
-Se houver dúvidas nas contagens, ir ao diapositivo 19. A plataforma tem quatro modelos disponíveis, mas a comparação física principal abrange três. Preciso de manter esta diferença quando explico o alcance dos resultados.
+Se houver dúvidas nas contagens, ir ao diapositivo 22. A plataforma tem quatro modelos disponíveis, mas a comparação física principal abrange três. Preciso de manter esta diferença quando explico o alcance dos resultados.
 
 ### Lembrar-me
 
-Percorrer as quatro linhas antes de explicar os números. Evitar despejar todas as contagens de uma vez. Se o júri pedir detalhe, tenho os conjuntos separados no apoio.
+Começar pelas peças na placa e pela palma impressa. Explicar os conjuntos sem confundir projetos de preparação, casos digitais e leituras dimensionais. Os detalhes das contagens estão no diapositivo 22.
 
-## 14. Peça e malha: diferenças medidas, com limites
+## 16. Comparar peças de diferentes perfis
+
+Tempo previsto: 1:00 no percurso principal; 1:30 no treino desenvolvido.
+
+### O que quero dizer
+
+Aqui vê-se melhor o que imprimi para comparar os perfis. À esquerda estão dedos do Flexy Beast. À direita estão os do Paraglider.
+
+As marcações identificam os perfis de referência de 8, 15, 28 e 70 anos. Usei esses perfis para examinar como cada modelo responde a diferentes valores.
+
+As fotografias ajudam a observar a variação entre as peças. Para comparar dimensões, usei os registos de medição que resumo no gráfico seguinte.
+
+### Se precisar de desenvolver
+
+Posso apontar para duas peças da mesma série e explicar que a diferença depende da regra de parametrização. Os perfis são referências para o ensaio, não pessoas que tenham participado no estudo.
+
+### Lembrar-me
+
+Dar alguns segundos para observar as duas séries. Dizer o nome de cada modelo e explicar as marcações. Passar depois ao gráfico, que apresenta os valores medidos.
+
+## 17. Peça e malha: diferenças medidas, com limites
 
 Tempo previsto: 1:45 no percurso principal; 2:30 no treino desenvolvido.
 
@@ -343,31 +396,27 @@ Posso usar o Flexy Beast em PLA como exemplo: os extremos são menos 0,398 e men
 
 Mostrar primeiro o zero e depois um segmento. Ler os valores decimais devagar. Não preciso de ler todos os grupos. Se houver uma pergunta sobre uma dimensão concreta, consultar o CSV em vez de tirar uma conclusão geral do intervalo.
 
-## 15. As falhas também definem o próximo passo
+## 18. Phoenix: uma montagem observada em bancada
 
-Tempo previsto: 1:00 no percurso principal; 2:00 no treino desenvolvido.
+Tempo previsto: 1:00 no percurso principal; 1:30 no treino desenvolvido.
 
 ### O que quero dizer
 
-Os testes também mostraram falhas que preciso de resolver.
+Esta é a Phoenix que montei em PLA, para o perfil de referência de 15 anos. Observei em bancada o movimento manual e o retorno dos dedos. Durante essa montagem, substituí os elásticos.
 
-Num ensaio com uma resposta simulada, um valor acima do limite chegou ao estado interno da aplicação. Esse caso mostrou um ponto em que o controlo não estava a funcionar como devia.
-
-Na verificação manual de acessibilidade, cinco dos doze itens falharam. Identifiquei, portanto, barreiras no percurso de interação.
-
-Estes resultados ajudam-me a decidir onde rever o sistema e o que voltar a testar. A robustez global e a acessibilidade continuam por demonstrar; o funcionamento nas condições ensaiadas não chega para as garantir.
+A fotografia da direita deixa ver melhor a articulação. Foi uma forma de observar como as peças funcionavam em conjunto. Ficou por estudar o comportamento ao longo de uma utilização prolongada, com um protocolo próprio.
 
 ### Se precisar de desenvolver
 
-Se me perguntarem pelo valor fora do limite, esclarecer que foi uma resposta preparada para testar o comportamento do sistema. É diferente de uma chamada real à IA. Na acessibilidade, usei critérios e inspeção. Para compreender as dificuldades das pessoas durante uma tarefa, preciso de complementar isso com observação de utilização.
+Tenho o registo de um espécime. O número de ciclos não foi registado e os testes com cilindros não foram realizados. Os 15 anos identificam o perfil de configuração; não houve um participante com essa idade. Se me perguntarem pelo uso protésico, explicar que essa avaliação ficou para trabalho futuro.
 
 ### Lembrar-me
 
-Explicar o efeito de cada falha no desenvolvimento. Não ficar só pela lista de problemas: mostrar o que os registos me permitem rever.
+Apontar para a mão montada e depois para o pormenor da articulação. Dizer o que observei em bancada. Não simular uma demonstração de movimento a partir destas imagens estáticas.
 
-## 16. O contributo para a configuração do produto
+## 19. O contributo para a configuração do produto
 
-Tempo previsto: 1:45 no percurso principal; 3:00 no treino desenvolvido.
+Tempo previsto: 1:45 no percurso principal; 2:30 no treino desenvolvido.
 
 ### O que quero dizer
 
@@ -391,15 +440,13 @@ Se me perguntarem se isto se aplica a qualquer prótese, delimitar a resposta ao
 
 Aqui quero tornar o contributo claro, sem voltar a explicar toda a plataforma. Usar o Paraglider se precisar de um exemplo. Cross ajuda-me a enquadrar o conhecimento de design, e a investigação através do projeto enquadra a aprendizagem obtida com o protótipo.
 
-## 17. As regras de cada modelo condicionam o resultado
+## 20. As regras de cada modelo condicionam o resultado
 
-Tempo previsto: 0:30 no percurso principal; 1:00 no treino desenvolvido.
+Tempo previsto: 0:15 no percurso principal; 0:30 no treino desenvolvido.
 
 ### O que quero dizer
 
-Para terminar, o HandFab permitiu-me estudar a passagem da configuração à peça física. Os resultados mostraram que essa passagem depende das regras de cada modelo e precisa de ser verificada.
-
-O próximo passo é aprofundar a avaliação física e estudar o percurso com as pessoas a quem se destina. Fica uma base documentada para continuar esse trabalho. Muito obrigado.
+O que retiro deste trabalho é que configurar exige conhecer as regras de cada modelo e verificar o seu efeito na peça. O próximo passo é avaliar o HandFab com as pessoas que o irão utilizar. Obrigado.
 
 ### Se precisar de desenvolver
 
@@ -407,11 +454,11 @@ Se precisar de desenvolver a conclusão, voltar à relação entre a escolha e o
 
 ### Lembrar-me
 
-Terminar aqui. Fazer uma pausa e aguardar o júri. Os diapositivos seguintes ficam disponíveis para responder a perguntas; não preciso de os apresentar por rotina.
+Terminar com a fotografia do protótipo e olhar para o júri. Deixar este diapositivo no ecrã durante o início da discussão.
 
-## 18. Perguntas de investigação aprovadas
+## 21. Perguntas de investigação aprovadas
 
-Utilização: apoio à discussão, sem tempo incluído nos 20 minutos.
+Tempo previsto: apoio à discussão.
 
 ### O que quero dizer
 
@@ -429,9 +476,9 @@ As minhas respostas dizem respeito à parte técnica e dimensional que consegui 
 
 Abrir este diapositivo se pedirem a formulação exata de uma pergunta. Ler só a que estiver em discussão e explicar até onde consegui responder. Manter o texto aprovado tal como está.
 
-## 19. Os números representam conjuntos diferentes
+## 22. Os números representam conjuntos diferentes
 
-Utilização: apoio à discussão, sem tempo incluído nos 20 minutos.
+Tempo previsto: apoio à discussão.
 
 ### O que quero dizer
 
@@ -449,9 +496,9 @@ As idades de oito, quinze, vinte e oito e setenta anos identificam perfis de ens
 
 Começar pelo número sobre o qual me perguntaram. Se a dúvida for o número de modelos, explicar que havia quatro na plataforma e três na comparação física principal.
 
-## 20. Valores registados: amplitude por grupo
+## 23. Valores registados: amplitude por grupo
 
-Utilização: apoio à discussão, sem tempo incluído nos 20 minutos.
+Tempo previsto: apoio à discussão.
 
 ### O que quero dizer
 
@@ -467,25 +514,31 @@ Se a pergunta for sobre uma dimensão específica, posso consultar o registo cor
 
 Usar um grupo para explicar a leitura. Os restantes ficam para consulta conforme a pergunta. Lembrar-me de dizer «desvio observado», sem o transformar numa garantia de precisão.
 
-## 21. Phoenix: uma montagem observada em bancada
+## 24. As falhas também definem o próximo passo
 
-Utilização: apoio à discussão, sem tempo incluído nos 20 minutos.
+Tempo previsto: apoio à discussão.
 
 ### O que quero dizer
 
-Esta é a montagem da Phoenix em PLA, para o perfil de ensaio de quinze anos. As fotografias mostram o mesmo espécime de vários ângulos.
+Os testes também mostraram falhas que preciso de resolver.
 
-No registo de bancada, ficou documentado o movimento, incluindo o fecho por cabo e o retorno. Os elásticos alargaram e foram substituídos. O número exato de ciclos não foi registado, e os testes previstos com cilindros não foram realizados.
+Num ensaio com uma resposta simulada, um valor acima do limite chegou ao estado interno da aplicação. Esse caso mostrou um ponto em que o controlo não estava a funcionar como devia.
 
-O resultado é uma observação de montagem e movimento. Os quinze anos identificam o perfil usado na configuração. Não houve utilização por um participante dessa idade, nem avaliação de eficácia protésica ou de durabilidade em uso.
+Na verificação manual de acessibilidade, cinco dos doze itens falharam. Identifiquei, portanto, barreiras no percurso de interação.
+
+Estes resultados ajudam-me a decidir onde rever o sistema e o que voltar a testar. A robustez global e a acessibilidade continuam por demonstrar; o funcionamento nas condições ensaiadas não chega para as garantir.
+
+### Se precisar de desenvolver
+
+Se me perguntarem pelo valor fora do limite, esclarecer que foi uma resposta preparada para testar o comportamento do sistema. É diferente de uma chamada real à IA. Na acessibilidade, usei critérios e inspeção. Para compreender as dificuldades das pessoas durante uma tarefa, preciso de complementar isso com observação de utilização.
 
 ### Lembrar-me
 
-Mostrar as vistas da montagem. Antes da prova, tenho de alinhar as passagens do manuscrito que excluem genericamente montagem e articulação com este registo de bancada. Essa revisão ainda não foi feita.
+Explicar o efeito de cada falha no desenvolvimento. Não ficar só pela lista de problemas: mostrar o que os registos me permitem rever.
 
-## 22. Repetição e acessibilidade: resultados delimitados
+## 25. Repetição e acessibilidade: resultados delimitados
 
-Utilização: apoio à discussão, sem tempo incluído nos 20 minutos.
+Tempo previsto: apoio à discussão.
 
 ### O que quero dizer
 
@@ -501,9 +554,9 @@ No WebKit, o bloqueio de autenticação impediu concluir a avaliação. Esse res
 
 Usar só a parte relevante para a pergunta. No caso do WebKit, explicar o bloqueio encontrado sem o apresentar como prova de incompatibilidade geral.
 
-## 23. Dois usos de inteligência artificial
+## 26. Dois usos de inteligência artificial
 
-Utilização: apoio à discussão, sem tempo incluído nos 20 minutos.
+Tempo previsto: apoio à discussão.
 
 ### O que quero dizer
 
@@ -519,9 +572,9 @@ Quando explico os resultados, apoio-me nos procedimentos e registos dos ensaios.
 
 Dar exemplos que correspondam ao trabalho realizado. Separar as ferramentas que usei para desenvolver o projeto da função de IA que avaliei no HandFab.
 
-## 24. Referências: design e investigação
+## 27. Referências: design e investigação
 
-Utilização: apoio à discussão, sem tempo incluído nos 20 minutos.
+Tempo previsto: apoio à discussão.
 
 ### O que quero dizer
 
@@ -535,9 +588,9 @@ A seleção foi feita para apoiar o argumento desta apresentação. A revisão c
 
 Ir diretamente ao autor relevante para a pergunta. A entrada completa de Frayling ainda precisa de ser conferida antes da prova. O ano mantém o que está no manuscrito.
 
-## 25. Referências: próteses e antropometria
+## 28. Referências: próteses e antropometria
 
-Utilização: apoio à discussão, sem tempo incluído nos 20 minutos.
+Tempo previsto: apoio à discussão.
 
 ### O que quero dizer
 

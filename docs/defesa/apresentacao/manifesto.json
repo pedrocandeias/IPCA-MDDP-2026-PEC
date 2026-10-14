@@ -1,8 +1,8 @@
 {
   "data": "2026-10-12",
-  "estado": "Versão 1.4.2: notas pessoais sincronizadas com a edição do autor e clarificação da avaliação; sujeita a ensaio",
+  "estado": "Versão 1.5: apresentação visual do projeto, com notas pessoais; sujeita a ensaio",
   "formato": "16:9",
-  "diapositivos_principais": 17,
+  "diapositivos_principais": 20,
   "apoio": 8,
   "tempo_principal_segundos": 1200,
   "tempo_treino_segundos": 1800,
@@ -25,11 +25,11 @@
     },
     {
       "caminho": "docs/defesa/guiao_apresentacao.md",
-      "sha256": "ba28f80f8e6e43c63e2cb4af36a79e893ba3553682337c7b8847eeb92d73d091"
+      "sha256": "45b85c110e509d6117dca70bfcebad158f42cfc668b73adb819f641fc00f0235"
     },
     {
       "caminho": "docs/defesa/apresentacao/guiao_falado.md",
-      "sha256": "fbcf8da3c6a43952212858fcb2b40d1e60a16420bbb35e54b41e2bfe02b02d51"
+      "sha256": "ecf61cc41eaff31ff1daec6525b75b9f56f74d391b43641246c284d3e611a619"
     },
     {
       "caminho": "suplementos/01_dados_antropometricos/descricao_do_suplemento_1.md",
@@ -44,8 +44,8 @@
       "sha256": "1d13c078e9919a5068cef074f2021818fe4ae5d485c24dbd944f3733863afb33"
     },
     {
-      "caminho": "suplementos/04_preparacao_impressao_prototipos/fotografias_reduzidas/teste-impressao-phoenix-15-anos-13221117.jpg",
-      "sha256": "df6780cb00777affa07ef05c0815e9a4bb916fdddda3b0f0e9d64222c710fc01"
+      "caminho": "suplementos/04_preparacao_impressao_prototipos/fotografias_originais/teste-impressao-phoenix-15-anos-13221117.jpg",
+      "sha256": "c5bea27e3ae1b6dfaf1bd82cc6e989533a20256c32ac6e38fd22c02d3f7ada52"
     },
     {
       "caminho": "suplementos/04_preparacao_impressao_prototipos/registos/resultados_serie_b.csv",
@@ -56,11 +56,10 @@
       "sha256": "9ac7e6dbe9eceab5e1912f51327e880ceec9cfb6311f6db16041e3bcceddf8ad"
     }
   ],
-  "fotografias": "Imagens extraídas do ODT e cópia de fotografia do Suplemento 4, sem alteração do conteúdo. Redimensionamento proporcional na apresentação.",
+  "fotografias": "Capturas existentes do HandFab e fotografias originais do Suplemento 4. Ficheiros integrais incorporados; enquadramentos proporcionais registados em imagens_diapositivos.json.",
   "grafico": "Amplitude min/max de desvio_malha_peca_mm por modelo/material; 12 valores por grupo; sem inferência estatística.",
   "pendencias": [
     "Confirmar condições e data da defesa.",
-    "Confirmar operador principal previsto e razões para ausência de participantes.",
     "Alinhar as conclusões do manuscrito com o registo de montagem Phoenix.",
     "Conferir a entrada bibliográfica incompleta de Frayling, preservada conforme o manuscrito.",
     "Ensaiar e ajustar o tempo; não houve ensaio cronometrado nem gravação de demonstração."

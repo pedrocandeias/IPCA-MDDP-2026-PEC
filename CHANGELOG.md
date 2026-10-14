@@ -1,6 +1,16 @@
 # Changelog
 
+## 2026-10-14
+
+- Preparado o pacote de publicação com a apresentação visual da defesa (versão 1.5) e o tema HandFab na homepage PT/EN e no manuscrito. Conferidas as versões dos oito documentos públicos e os hashes das páginas previamente verificadas.
+
+## 2026-10-13
+
+- Aproximado o aspeto da homepage PT/EN e do manuscrito HTML ao HandFab, com tema partilhado, tipografia sem serifas, superfícies claras, botões escuros e cantos arredondados. Atualizados os estilos dos painéis de citações e da lightbox e regeneradas as páginas, preservando texto, referências e navegação.
+
 ## 2026-10-12
+
+- Revista a apresentação para mostrar o projeto através de capturas ampliadas do HandFab e fotografias originais da impressão, séries de peças e montagem Phoenix (versão 1.5). Organizados 20 diapositivos principais e oito de apoio, com notas pessoais e fontes das imagens; atualizados PPTX/PDF, guião e caderno de preparação.
 
 - Publicadas as perguntas do júri em PDF/ODT (versão 0.11) e o caderno revisto, com as respostas 7, 9 e 47 completadas. Acrescentados os ficheiros autónomos à lista explícita de publicação; confirmados 12 ficheiros públicos por comparação com o pacote local.
 

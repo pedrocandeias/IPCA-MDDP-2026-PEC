@@ -20,6 +20,7 @@ Para importar futuras revisões dos TXT, executar `python3 tools/conversao/impor
 - Excertos complementares conferidos diretamente em seis PDFs: `excertos_complementares.json`, com página, hash e nota de leitura.
 - PDFs: inventário `docs/revisoes/manuscrito/sincronizacao_markdown_2026_10_10/bibliografia_local.json`, complementado pelos caminhos registados na auditoria.
 - Gerador: `tools/conversao/exportar_html_citacoes.py`.
+- Tema partilhado com a homepage: `tools/conversao/tema_handfab.css`, inspirado nos estilos locais do HandFab e incorporado no HTML autónomo.
 - Fontes de apresentação: `tools/conversao/html_citacoes/template.html`, `style.css` e `script.js`.
 
 Executar a partir da raiz:

@@ -412,7 +412,7 @@ def build():
                            '<a href="#índice-de-tabelas">Índice de tabelas</a>']
         citation_json = json.dumps(data, ensure_ascii=False).replace('<', '\\u003c').replace('>', '\\u003e').replace('&', '\\u0026')
         payload = (ASSETS/'template.html').read_text()
-        replacements = {'{{CSS}}': (ASSETS/'style.css').read_text(), '{{JS}}': (ASSETS/'script.js').read_text(),
+        replacements = {'{{CSS}}': (ASSETS.parent/'tema_handfab.css').read_text() + '\n' + (ASSETS/'style.css').read_text(), '{{JS}}': (ASSETS/'script.js').read_text(),
                         '{{CONTENT}}': html.tostring(document, encoding='unicode'), '{{NAVIGATION}}': '\n'.join(navigation),
                         '{{CITATIONS}}': citation_json, '{{COUNT}}': str(len(data))}
         for key, value in replacements.items():

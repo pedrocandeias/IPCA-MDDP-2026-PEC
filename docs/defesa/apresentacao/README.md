@@ -1,13 +1,13 @@
 # Apresentação da defesa
 
-Versão 1.4.2. 12/10/2026. Mestrado em Design e Desenvolvimento de Produto, Universidade Politécnica do Cávado e do Ave (UPCA).
+Versão 1.5. 12/10/2026. Mestrado em Design e Desenvolvimento de Produto, Universidade Politécnica do Cávado e do Ave (UPCA).
 
 - [Apresentação editável em PPTX](apresentacao_defesa.pptx).
 - [Apresentação em PDF](apresentacao_defesa.pdf).
 - [As minhas notas para cada diapositivo (ODT)](guiao_falado.odt), [PDF](guiao_falado.pdf) e [fonte editável Markdown](guiao_falado.md).
 - [Guião de preparação](../guiao_apresentacao.md).
 
-Os diapositivos 1 a 17 constituem o percurso principal, com metas de tempo que somam 20 minutos. Os diapositivos 18 a 25 são de apoio à discussão. Todos incluem notas pessoais com uma proposta de fala em «O que quero dizer» e lembretes de ensaio em «Lembrar-me». As referências ficam em «Fontes para consulta». Os primeiros 17 incluem ainda «Se precisar de desenvolver», com exemplos e explicações de apoio para o treino de 30 minutos. Estes apontamentos opcionais podem ser adaptados à fala; os lembretes não se leem ao júri. A fala principal tem 2109 palavras e os acrescentos têm 849. Estas durações precisam de ser confirmadas por ensaio, incluindo pausas e explicação das imagens.
+Os diapositivos 1 a 20 constituem o percurso principal, com metas de tempo que somam 20 minutos. Os diapositivos 21 a 28 são de apoio à discussão. Todos incluem notas pessoais com uma proposta de fala em «O que quero dizer» e lembretes de ensaio em «Lembrar-me». As referências ficam em «Fontes para consulta». Os primeiros 20 incluem ainda «Se precisar de desenvolver», com exemplos e explicações de apoio para o treino de 30 minutos. Estes apontamentos opcionais podem ser adaptados à fala; os lembretes não se leem ao júri. A fala principal tem 2190 palavras e os acrescentos têm 949. Estas durações precisam de ser confirmadas por ensaio, incluindo pausas e explicação das imagens.
 
 A narrativa parte do problema de configuração do produto, apresenta o HandFab e duas situações concretas dos modelos Paraglider e Phoenix, explica o papel da IA e distingue os resultados técnicos das dimensões ainda por avaliar. As imagens são capturas e fotografias existentes no manuscrito e nos suplementos. A sequência de interface é ilustrativa, não uma demonstração ao vivo.
 
@@ -15,9 +15,9 @@ O diapositivo 4 apresenta o objetivo geral e uma síntese dos sete objetivos esp
 
 ## Critério de redação
 
-A revisão de estilo revê títulos, texto projetado e fala para evitar tríades retóricas, travessões e fórmulas de contraste enfático. As explicações ligam cada decisão ao resultado observado. As perguntas aprovadas mantêm a redação integral no apoio, assim como os dados e as enumerações técnicas necessárias. O diapositivo 11 passa a mostrar o percurso da sugestão de IA em quatro etapas.
+A revisão de estilo revê títulos, texto projetado e fala para evitar tríades retóricas, travessões e fórmulas de contraste enfático. As explicações ligam cada decisão ao resultado observado. As perguntas aprovadas mantêm a redação integral no apoio, assim como os dados e as enumerações técnicas necessárias. O diapositivo 11 mostra a interface de assistência de IA; o percurso é explicado nas notas.
 
-A versão 1.4 reescreve as notas como apontamentos pessoais do autor para o ensaio, com frases naturais em primeira pessoa e lembretes concretos. O texto projetado nos 25 diapositivos mantém-se.
+A versão 1.4 reescreveu as notas como apontamentos pessoais do autor para o ensaio, com frases naturais em primeira pessoa e lembretes concretos. Nessa versão, o texto projetado dos 25 diapositivos foi preservado.
 
 A versão 1.4.1 explicita, na nota opcional do diapositivo 3, a diferença entre verificação técnica e avaliação da experiência de utilização.
 
@@ -43,17 +43,23 @@ As fontes foram conferidas no manuscrito de referência e nos PDFs locais de Cro
 
 ### Antropometria e contribuição da base local
 
-O diapositivo 8 identifica as fontes e o significado das medidas; o diapositivo 9 explica três níveis: recolha e publicação pelos estudos originais, organização local dos dados estatísticos e perfis utilizados pela aplicação. A composição dos 100 perfis (97 importados em lote, dois por CSV e um criado manualmente) segue a secção 4.2 do ODT. Não se afirma uma correspondência automática entre uma linha e um perfil, nem que todos os perfis tenham a mesma via de entrada.
+O diapositivo 8 identifica as fontes e o significado das medidas; o diapositivo 9 mostra a tabela de perfis; as notas explicam a passagem dos estudos originais para a organização local e para a aplicação. A composição dos 100 perfis (97 importados em lote, dois por CSV e um criado manualmente) segue a secção 4.2 do ODT. Não se afirma uma correspondência automática entre uma linha e um perfil, nem que todos os perfis tenham a mesma via de entrada.
 
 Conferida a compilação multipopulacional distribuída: 1790 linhas, incluindo 852 linhas DINED. Os ficheiros ANSUR completo e subconjunto são sobrepostos. Estes valores descrevem registos estatísticos e não participantes. A fonte de apoio é `suplementos/01_dados_antropometricos/descricao_do_suplemento_1.md`; os valores e os ficheiros do suplemento foram preservados.
+
+### Revisão visual da versão 1.5
+
+O percurso principal passa a 20 diapositivos, com oito de apoio. O HandFab surge logo no problema de configuração. Capturas ampliadas mostram o catálogo, os perfis antropométricos, a assistência de IA, os parâmetros, as cores e a exportação. As fotografias da placa de impressão e das séries de peças precedem os resultados dimensionais. A montagem Phoenix passa para o percurso principal, com uma fotografia geral e um pormenor da articulação. As falhas da plataforma ficam disponíveis no apoio.
+
+Os originais fotográficos foram copiados integralmente do Suplemento 4 para permitir ampliação com maior qualidade. Os enquadramentos das capturas são feitos no PPTX, preservando as imagens incorporadas. `imagens_diapositivos.json` regista as regiões utilizadas; `assets_manifesto.json` identifica os originais e os seus hashes. As fotografias não são tratadas como comparações históricas antes/depois ou como avaliação com participantes. As notas pessoais foram adaptadas às imagens e conservam as edições do autor.
 
 ### Proveniência dos ficheiros
 
 O manuscrito de referência é `pedro-candeias-projeto-mestrado-mdddp-ipca-2026-revisto_v1_06102026-0210.odt`; o PDF de paginação é `a30759_pedro-candeias-projeto-mestrado-mdddp-ipca-v10060211.pdf`. A primeira apresentação utilizou o ODT `…04102026-1955.odt`; a comparação dos parágrafos não encontrou diferenças textuais entre os dois ODT. A fonte corrente foi atualizada na preparação da fala. A proveniência histórica das imagens mantém a indicação do ficheiro de onde foram extraídas. As afirmações foram confrontadas com os documentos de preparação e os registos dos suplementos. O manuscrito não foi alterado.
 
 - `gerar_apresentacao.py`: conteúdo visual, disposição gráfica e geração do gráfico dimensional; lê a fala de `guiao_falado.md` para atualizar as notas.
-- `guiao_falado.md`: fonte autoritativa da fala, dos acrescentos opcionais e das indicações de apresentação dos 25 diapositivos.
-- `exportar_guiao_falado.py`: leitura estruturada da fala e exportação ODT pelo Pandoc, com as famílias tipográficas e a página do caderno de preparação, texto de 12 pt e cada diapositivo iniciado em nova página. Verifica os 25 títulos e todos os parágrafos da fala na exportação.
+- `guiao_falado.md`: fonte autoritativa da fala, dos acrescentos opcionais e das indicações de apresentação dos 28 diapositivos.
+- `exportar_guiao_falado.py`: leitura estruturada da fala e exportação ODT pelo Pandoc, com as famílias tipográficas e a página do caderno de preparação, texto de 12 pt e cada diapositivo iniciado em nova página. Verifica os 28 títulos e todos os parágrafos da fala na exportação.
 - `tempos_fala.json`: contagens de palavras e estimativas explícitas de leitura, sem as confundir com ensaio cronometrado.
 - `diapositivos.json`: texto das notas, títulos, fontes e tempos por diapositivo.
 - `manifesto.json`: fontes locais, hashes SHA-256 e pendências.
@@ -85,6 +91,6 @@ O gerador substitui os derivados da apresentação. As imagens extraídas são u
 
 ## Antes da versão final
 
-Confirmar condições e data da prova, operador principal previsto e explicação do autor para a ausência de participantes. Alinhar a redação das conclusões com o registo de montagem Phoenix: existe observação de bancada de um espécime, embora algumas passagens do manuscrito a excluam do âmbito realizado. Conferir a entrada incompleta de Frayling na bibliografia. Ensaiar a exposição e decidir se haverá vídeo ou apresentação de peças.
+Confirmar condições e data da prova. Alinhar a redação das conclusões com o registo de montagem Phoenix: existe observação de bancada de um espécime, embora algumas passagens do manuscrito a excluam do âmbito realizado. Conferir a entrada incompleta de Frayling na bibliografia. Ensaiar a exposição e decidir se haverá vídeo ou apresentação de peças.
 
-Estas pendências são também registadas no manifesto e nas notas pertinentes. A primeira versão permite rever o argumento e a sequência visual antes do ensaio.
+Estas pendências são também registadas no manifesto e nas notas pertinentes. A sequência visual e as metas de tempo devem ser conferidas no ensaio.

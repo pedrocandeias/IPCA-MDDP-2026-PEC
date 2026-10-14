@@ -68,5 +68,53 @@
     "membro_odt": "Pictures/1000000000000A90000004088DF1C5E7.jpg",
     "figura": 29,
     "sha256": "a02857b3cea8016a78cfdd97ba7024dec2686f4c551815ca710176f466080b87"
+  },
+  {
+    "ficheiro": "assets/phoenix_montagem.jpg",
+    "fonte": "suplementos/04_preparacao_impressao_prototipos/fotografias_originais/teste-impressao-phoenix-15-anos-13221117.jpg",
+    "sha256": "c5bea27e3ae1b6dfaf1bd82cc6e989533a20256c32ac6e38fd22c02d3f7ada52",
+    "metodo": "Cópia integral do original; enquadramento e escala proporcionais no PPTX."
+  },
+  {
+    "ficheiro": "assets/phoenix_articulacao.jpeg",
+    "fonte": "suplementos/04_preparacao_impressao_prototipos/fotografias_originais/teste-impressao-phoenix-15anos-0010.jpeg",
+    "sha256": "4f739a40f380a7ded21b346f2968db9560cfc659cc56fad04c3acca2a6d27d7e",
+    "metodo": "Cópia integral do original; enquadramento e escala proporcionais no PPTX."
+  },
+  {
+    "ficheiro": "assets/flexy_placa.jpg",
+    "fonte": "suplementos/04_preparacao_impressao_prototipos/fotografias_originais/teste-impressao-09201338.jpg",
+    "sha256": "46a71fa655a5b55c7cb7436ded8e5ad543bec0e47e173f41d059a24bf3cc6882",
+    "metodo": "Cópia integral do original; enquadramento e escala proporcionais no PPTX."
+  },
+  {
+    "ficheiro": "assets/falanges_placa.jpg",
+    "fonte": "suplementos/04_preparacao_impressao_prototipos/fotografias_originais/teste-impressao-09201343.jpg",
+    "sha256": "d534457735f4349060be80fbc1a3df839bd22506f2e300408cf4a98449bc91bb",
+    "metodo": "Cópia integral do original; enquadramento e escala proporcionais no PPTX."
+  },
+  {
+    "ficheiro": "assets/palma_impressa.jpg",
+    "fonte": "suplementos/04_preparacao_impressao_prototipos/fotografias_originais/teste-impressao-08214912.jpg",
+    "sha256": "864edc4c492513921658ec1cdecf69499076a228df17337a7b766d964b928ba3",
+    "metodo": "Cópia integral do original; enquadramento e escala proporcionais no PPTX."
+  },
+  {
+    "ficheiro": "assets/flexy_perfis.jpeg",
+    "fonte": "suplementos/04_preparacao_impressao_prototipos/fotografias_originais/teste-impressao-dedos-flexy-beast-v1.jpeg",
+    "sha256": "93d4ead40955199805021d36bdc1c6cab667ce6bf869fd9e9a9e1348ea66734d",
+    "metodo": "Cópia integral do original; enquadramento e escala proporcionais no PPTX."
+  },
+  {
+    "ficheiro": "assets/paraglider_perfis.jpeg",
+    "fonte": "suplementos/04_preparacao_impressao_prototipos/fotografias_originais/teste-impressao-dedos-paraglider-hand-v1.jpeg",
+    "sha256": "eb93df9c5e2b077c3f377a072d4f97bd2a596764d0b21ac67a6b762736d29e15",
+    "metodo": "Cópia integral do original; enquadramento e escala proporcionais no PPTX."
+  },
+  {
+    "ficheiro": "assets/flexy_parametros.png",
+    "fonte": "componentes/figuras/handfab_parametros_configuracao.png",
+    "sha256": "41b8567e0f8e459d938cd6c6800191d733e1f6b94c347f9788b4b80e84603c25",
+    "metodo": "Cópia integral; enquadramento proporcional no PPTX."
   }
 ]

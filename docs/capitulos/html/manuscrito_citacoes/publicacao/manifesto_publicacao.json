@@ -1,11 +1,13 @@
 {
   "source": "docs/capitulos/html/manuscrito_citacoes/pedro_candeias_manuscrito_citacoes.html",
-  "sha256_source": "acbd25be0dd5dc6bf46cb7386485ab832742cdd1bef4aec94ebe4a8255b8d4cf",
+  "sha256_source": "ce04089f9373e5579159b95216d79c95d7be1211a92afa7385054e104880289f",
   "entrypoint": "dist/index.html",
   "manuscript": "dist/manuscrito.html",
-  "sha256_index": "c95977f2b44922a765c2a443ea79472d706146c6d8bb0f4fdec3dd50842d377c",
-  "sha256_manuscript": "c4ff2c0aee9fa7ea3e5f5de46878eb600221f55a5e44fbe5a4e794a51c3c8d9d",
+  "sha256_index": "3c4cead2e6f59cce6e5b016728b4938cafb038caf3dd3f5ea9faacac6cde7201",
+  "sha256_manuscript": "f1407e506e98687ae3ee6c90a9e2151a956dbe7b4342afdb12def0b565d8d812",
   "homepage_sources": "tools/conversao/homepage",
+  "shared_theme": "tools/conversao/tema_handfab.css",
+  "sha256_theme": "a7235839a3984cab52feea620babedce8b1efdb8b9735592ace530d574803d54",
   "image_source": "docs/defesa/apresentacao/assets/phoenix_montagem.jpg",
   "languages": [
     "pt-PT",
@@ -15,32 +17,32 @@
     {
       "source": "docs/defesa/apresentacao/apresentacao_defesa.pdf",
       "published": "defesa/apresentacao_defesa.pdf",
-      "sha256": "8de2524416ed233a9a2c2b9da60eaca6720e7b8f4277e026b2439d4fd56a8b59"
+      "sha256": "df0caddd584778a86fe2088363293eeabb4b39eb0dc9cac8a91131f93c20d08c"
     },
     {
       "source": "docs/defesa/apresentacao/apresentacao_defesa.pptx",
       "published": "defesa/apresentacao_defesa.pptx",
-      "sha256": "89bec3648fc05553eed843cb522825907d0c58a90b7184fd9151447c7a5f7162"
+      "sha256": "33c6b4c6ee2552adc3f967c3be1e493a2bb0694dd89b21109899c69fbc826f92"
     },
     {
       "source": "docs/defesa/apresentacao/guiao_falado.pdf",
       "published": "defesa/guiao_falado.pdf",
-      "sha256": "61db54c8c97d72d44083bc9d683568736a22e72633e5ae8c3e0b0b5c3c21ac67"
+      "sha256": "1905a522e7f08342d5349c2c5aa55ce83716558d592b26c22316e4a086653d50"
     },
     {
       "source": "docs/defesa/apresentacao/guiao_falado.odt",
       "published": "defesa/guiao_falado.odt",
-      "sha256": "cd149b1b40022ec9c7a984ff11ed8ff7e43a4544c2b163720734781062c0071a"
+      "sha256": "36342350f43839f6ee387649340bb90c01527a5e6a3f4d72e3ece02ed82618e0"
     },
     {
       "source": "docs/defesa/preparacao_defesa_bernardo_providencia.pdf",
       "published": "defesa/preparacao_defesa.pdf",
-      "sha256": "dfcd64e9fe06c4f1c4b8da24de016ca40990860d24b5cb9d5249d7148ea43c92"
+      "sha256": "a9b192d4c7ba301f3395c60a44de145fff3d6e22b88d51b9ecbbbc0df7a688bc"
     },
     {
       "source": "docs/defesa/preparacao_defesa_bernardo_providencia.odt",
       "published": "defesa/preparacao_defesa.odt",
-      "sha256": "ce466e6bf107a5642ae97c8a139687feabc5feb37260e2e5803dc8f133188cae"
+      "sha256": "3a8966325095ccacc11b3db7553aa7ed0fc76e7a5356fe8316a900ceda2d2b18"
     },
     {
       "source": "docs/defesa/perguntas_juri.pdf",

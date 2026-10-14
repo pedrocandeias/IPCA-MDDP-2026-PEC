@@ -1,6 +1,6 @@
 # Preparação da defesa do projeto
 
-Versão de trabalho: 0.20. 12/10/2026.
+Versão de trabalho: 0.21. 12/10/2026.
 
 Curso: **Mestrado em Design e Desenvolvimento de Produto, UPCA**. Arguente indicado pelo autor: **Bernardo Providência**.
 
@@ -10,10 +10,10 @@ O autor indicou 20 minutos para a apresentação e pediu a preparação de uma v
 
 ## Documentos
 
-- [Notas pessoais para cada diapositivo](apresentacao/guiao_falado.odt): guião oral autónomo para os 25 diapositivos, também disponível em [PDF](apresentacao/guiao_falado.pdf). Inclui uma proposta de fala em primeira pessoa e apontamentos para desenvolver a explicação, com lembretes pessoais que não se leem ao júri. O texto está também nas notas do PPTX; este guião autónomo encontra-se na subpasta da apresentação e não integra o caderno de seis partes.
-- [Apresentação da defesa](apresentacao/README.md): versão gráfica revista, em [PPTX editável](apresentacao/apresentacao_defesa.pptx) e [PDF](apresentacao/apresentacao_defesa.pdf), com 17 diapositivos principais e oito de apoio. O PPTX inclui notas de fala e metas para 20 minutos e para treino de 30 minutos.
+- [Notas pessoais para cada diapositivo](apresentacao/guiao_falado.odt): guião oral autónomo para os 28 diapositivos, também disponível em [PDF](apresentacao/guiao_falado.pdf). Inclui uma proposta de fala em primeira pessoa e apontamentos para desenvolver a explicação, com lembretes pessoais que não se leem ao júri. O texto está também nas notas do PPTX; este guião autónomo encontra-se na subpasta da apresentação e não integra o caderno de seis partes.
+- [Apresentação da defesa](apresentacao/README.md): versão gráfica revista, em [PPTX editável](apresentacao/apresentacao_defesa.pptx) e [PDF](apresentacao/apresentacao_defesa.pdf), com 20 diapositivos principais e oito de apoio. O PPTX inclui notas de fala e metas para 20 minutos e para treino de 30 minutos.
 - [Caderno completo de preparação em ODT](preparacao_defesa_bernardo_providencia.odt): reúne os seis Markdown desta pasta, incluindo este guia, o guião de apresentação, a contextualização e o perfil do arguente, as 47 perguntas com respostas simples e as evidências e pontos a alinhar. As ligações entre estas partes permitem navegar dentro do documento.
-- [Guião e estrutura de apresentação](guiao_apresentacao.md): 17 blocos, tempos, mensagem central, conteúdos e propostas visuais; inclui abertura, fecho e percurso de demonstração.
+- [Guião e estrutura de apresentação](guiao_apresentacao.md): 20 blocos, tempos, mensagem central, conteúdos e propostas visuais; inclui abertura, fecho e percurso de demonstração.
 - [Perguntas e respostas de treino para o júri](perguntas_juri.md), disponíveis em [PDF autónomo](perguntas_juri.pdf) e [ODT editável](perguntas_juri.odt): 47 perguntas com respostas em primeira pessoa e lembretes pessoais para consulta e preparação, na versão 0.11. Inclui 21 questões ligadas às publicações de Bernardo Providência.
 - [Evidências e pontos a alinhar](evidencias_e_pontos_a_alinhar.md): relação entre afirmações, resultados, fontes e limites.
 - [Manifesto das fontes](fontes.json): hashes dos ficheiros examinados e verificações dos CSV.

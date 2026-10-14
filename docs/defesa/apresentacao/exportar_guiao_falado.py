@@ -26,7 +26,7 @@ def ler_falas():
             'aprofundamento': parts.get('Se precisar de desenvolver', ''),
             'indicacao': parts['Lembrar-me'],
         }
-    assert list(result) == list(range(1, 26))
+    assert list(result) == list(range(1, 29))
     return result
 
 
@@ -92,17 +92,17 @@ def main():
     counts = [{'diapositivo': n, 'palavras_fala': len(r['fala'].split()),
                'palavras_aprofundamento': len(r['aprofundamento'].split())}
               for n, r in records.items()]
-    total = sum(r['palavras_fala'] for r in counts[:17])
+    total = sum(r['palavras_fala'] for r in counts[:20])
     stats = {'criterio_contagem': 'Tokens separados por espaço; inclui apenas texto para dizer.',
              'palavras_percurso_principal': total,
-             'palavras_aprofundamento': sum(r['palavras_aprofundamento'] for r in counts[:17]),
+             'palavras_aprofundamento': sum(r['palavras_aprofundamento'] for r in counts[:20]),
              'estimativa_leitura_sem_pausas_minutos': {
                  'a_115_palavras_por_minuto': round(total / 115, 1),
                  'a_135_palavras_por_minuto': round(total / 135, 1)},
              'pressuposto': 'Ritmos usados apenas para estimativa; não medidos no autor. As metas de 20/30 minutos incluem pausas e observação das imagens.',
              'diapositivos': counts}
     (HERE / 'tempos_fala.json').write_text(json.dumps(stats, ensure_ascii=False, indent=2) + '\n')
-    print(f'{output}: 25 falas verificadas; {total} palavras no percurso principal.')
+    print(f'{output}: 28 falas verificadas; {total} palavras no percurso principal.')
 
 
 if __name__ == '__main__':

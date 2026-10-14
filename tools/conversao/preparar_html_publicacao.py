@@ -44,6 +44,7 @@ def defense_documents(dist):
 def homepage(dist):
     assets = dist / 'assets'
     assets.mkdir(exist_ok=True)
+    shutil.copy2(HOMEPAGE.parent / 'tema_handfab.css', assets / 'tema_handfab.css')
     shutil.copy2(HOMEPAGE / 'style.css', assets / 'homepage.css')
     for name in ('lightbox.css', 'lightbox.js'):
         shutil.copy2(HOMEPAGE / name, assets / name)
@@ -93,6 +94,8 @@ def main():
               'sha256_index': hashlib.sha256((dist/'index.html').read_bytes()).hexdigest(),
               'sha256_manuscript': hashlib.sha256(target.read_bytes()).hexdigest(),
               'homepage_sources': str(HOMEPAGE.relative_to(ROOT)),
+              'shared_theme': 'tools/conversao/tema_handfab.css',
+              'sha256_theme': hashlib.sha256((HOMEPAGE.parent/'tema_handfab.css').read_bytes()).hexdigest(),
               'image_source': 'docs/defesa/apresentacao/assets/phoenix_montagem.jpg',
               'languages': ['pt-PT', 'en'],
               'defense_files': defense_files,

@@ -6,9 +6,16 @@
 
 A página inicial apresenta a investigação e o repositório, com acesso ao manuscrito, à plataforma HandFab, ao respetivo código no GitHub e às ferramentas bibliográficas e documentais, incluindo a extensão independente [Mendeley Cite for LibreOffice](https://github.com/pedrocandeias/mendeley-libreoffice). As duas versões da apresentação são páginas HTML completas, ligadas por um seletor de língua; não dependem de JavaScript para leitura ou navegação.
 
+## Aspeto visual
+
+A homepage em português e inglês e o manuscrito usam a mesma base visual do HandFab: superfícies brancas, cinzentos neutros, botões escuros, contornos discretos e cantos arredondados. Os detalhes decorativos usam o gradiente violeta/rosa da aplicação. A tipografia sem serifas usa fontes do sistema, sem carregamentos externos; o manuscrito conserva espaçamento próprio para leitura longa. Os painéis das citações e o visualizador de imagens seguem o mesmo tema.
+
+A referência é o código local de `ai-parametric-prosthetic-hand-generator/index.html` e `theme.css`, consultado em 13/10/2026. Os valores partilhados estão em `tools/conversao/tema_handfab.css`. O exportador incorpora esse CSS no HTML autónomo do manuscrito; a homepage carrega a cópia publicada em `assets/tema_handfab.css`. Os estilos de disposição de cada página permanecem nas respetivas pastas. A alteração visual preserva o texto e as ligações das duas línguas, o conteúdo do manuscrito e os dados das citações.
+
 ## Fontes e geração
 
 ```bash
+python3 tools/conversao/exportar_html_citacoes.py
 python3 tools/conversao/preparar_html_publicacao.py
 ```
 
