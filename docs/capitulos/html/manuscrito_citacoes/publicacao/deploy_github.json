@@ -1,34 +1,138 @@
 {
-  "checked_at": "2026-10-12T20:43:44.699264+00:00",
+  "checked_at": "2026-10-14T05:57:47.684439+00:00",
   "url": "https://pedrocandeias.github.io/IPCA-MDDP-2026-PEC/",
   "english_url": "https://pedrocandeias.github.io/IPCA-MDDP-2026-PEC/en.html",
   "manuscript_url": "https://pedrocandeias.github.io/IPCA-MDDP-2026-PEC/manuscrito.html",
+  "presentation_url": "https://pedrocandeias.github.io/IPCA-MDDP-2026-PEC/defesa/apresentacao_defesa.pdf",
+  "jury_questions_url": "https://pedrocandeias.github.io/IPCA-MDDP-2026-PEC/defesa/perguntas_juri.pdf",
   "repository": "pedrocandeias/IPCA-MDDP-2026-PEC",
   "source": {
     "branch": "gh-pages",
     "path": "/"
   },
+  "source_branch": "main",
+  "source_commit": "9fc9b41442c95a26d482a052b286988d2127fe5c",
+  "site_commit": "4ac373516b96ad1642bbf1656460a99297334fa8",
+  "previous_site_commit": "b51f258f52a83b89bf3ff9c9acc5ef60278e4bea",
   "status": "built",
-  "site_commit": "b51f258f52a83b89bf3ff9c9acc5ef60278e4bea",
-  "previous_site_commit": "d08642a808f19143405fcbf1f74e59b46ba1615b",
+  "scope": "Tema HandFab na homepage PT/EN e no manuscrito; apresentação visual da defesa v1.5 e documentos de preparação.",
   "files": {
-    "assets/homepage.css": "83c1127cc2a9a5abbe4d368d12f4d4ce908fbe29428bb5bb4ec8b452f761bf83",
-    "assets/lightbox.css": "ec9a71179a024e0cc49d093432c57df2b5b10514274639476be30848bb55cdf9",
+    "assets/homepage.css": "19ad8d3bf287f11c89a4579baee0f1c24d85e6977a4001d761c81a816b25ff9c",
+    "assets/lightbox.css": "919aa82223f94e92cb08a5e97d42394fbde0c878d2af57b8d793c07d5034cb57",
     "assets/lightbox.js": "560c9256b1e365def0b0b8cab2e2b9c37ecda2527dce55abfc17023d46ff41ff",
-    "assets/phoenix_montagem.jpg": "df6780cb00777affa07ef05c0815e9a4bb916fdddda3b0f0e9d64222c710fc01",
-    "en.html": "3973e2c5ca5eee2c37f7704836fe3fbb4e1c55f92a4c1a3c1dbd9b200fcb6944",
-    "index.html": "c95977f2b44922a765c2a443ea79472d706146c6d8bb0f4fdec3dd50842d377c",
-    "manuscrito.html": "c4ff2c0aee9fa7ea3e5f5de46878eb600221f55a5e44fbe5a4e794a51c3c8d9d",
-    "defesa/apresentacao_defesa.pdf": "8de2524416ed233a9a2c2b9da60eaca6720e7b8f4277e026b2439d4fd56a8b59",
-    "defesa/apresentacao_defesa.pptx": "89bec3648fc05553eed843cb522825907d0c58a90b7184fd9151447c7a5f7162",
-    "defesa/guiao_falado.pdf": "61db54c8c97d72d44083bc9d683568736a22e72633e5ae8c3e0b0b5c3c21ac67",
-    "defesa/guiao_falado.odt": "cd149b1b40022ec9c7a984ff11ed8ff7e43a4544c2b163720734781062c0071a",
-    "defesa/preparacao_defesa.pdf": "dfcd64e9fe06c4f1c4b8da24de016ca40990860d24b5cb9d5249d7148ea43c92",
-    "defesa/preparacao_defesa.odt": "ce466e6bf107a5642ae97c8a139687feabc5feb37260e2e5803dc8f133188cae",
+    "assets/phoenix_montagem.jpg": "c5bea27e3ae1b6dfaf1bd82cc6e989533a20256c32ac6e38fd22c02d3f7ada52",
+    "assets/tema_handfab.css": "a7235839a3984cab52feea620babedce8b1efdb8b9735592ace530d574803d54",
+    "defesa/apresentacao_defesa.pdf": "df0caddd584778a86fe2088363293eeabb4b39eb0dc9cac8a91131f93c20d08c",
+    "defesa/apresentacao_defesa.pptx": "33c6b4c6ee2552adc3f967c3be1e493a2bb0694dd89b21109899c69fbc826f92",
+    "defesa/guiao_falado.odt": "36342350f43839f6ee387649340bb90c01527a5e6a3f4d72e3ece02ed82618e0",
+    "defesa/guiao_falado.pdf": "1905a522e7f08342d5349c2c5aa55ce83716558d592b26c22316e4a086653d50",
+    "defesa/perguntas_juri.odt": "a9226c8b0ceb61fa2ca1ba43746526fdfc930d32549d83c81d15a0b78af9a3d1",
     "defesa/perguntas_juri.pdf": "ff79c22dc91973cbf9f3a7a1c6eb6aa9af6d26f5e76494d9b8b985dea5ac66a0",
-    "defesa/perguntas_juri.odt": "a9226c8b0ceb61fa2ca1ba43746526fdfc930d32549d83c81d15a0b78af9a3d1"
+    "defesa/preparacao_defesa.odt": "3a8966325095ccacc11b3db7553aa7ed0fc76e7a5356fe8316a900ceda2d2b18",
+    "defesa/preparacao_defesa.pdf": "a9b192d4c7ba301f3395c60a44de145fff3d6e22b88d51b9ecbbbc0df7a688bc",
+    "en.html": "21baf7882da19f8e9e75f6e19e9ef973bb5fa0e984c6cf33d5b1c6166f453390",
+    "index.html": "3c4cead2e6f59cce6e5b016728b4938cafb038caf3dd3f5ea9faacac6cde7201",
+    "manuscrito.html": "f1407e506e98687ae3ee6c90a9e2151a956dbe7b4342afdb12def0b565d8d812"
   },
-  "online_browser_validation": {
+  "online_files": {
+    "assets/homepage.css": {
+      "sha256": "19ad8d3bf287f11c89a4579baee0f1c24d85e6977a4001d761c81a816b25ff9c",
+      "status": 200,
+      "content_type": "text/css; charset=utf-8",
+      "matches_local": true
+    },
+    "assets/lightbox.css": {
+      "sha256": "919aa82223f94e92cb08a5e97d42394fbde0c878d2af57b8d793c07d5034cb57",
+      "status": 200,
+      "content_type": "text/css; charset=utf-8",
+      "matches_local": true
+    },
+    "assets/lightbox.js": {
+      "sha256": "560c9256b1e365def0b0b8cab2e2b9c37ecda2527dce55abfc17023d46ff41ff",
+      "status": 200,
+      "content_type": "application/javascript; charset=utf-8",
+      "matches_local": true
+    },
+    "assets/phoenix_montagem.jpg": {
+      "sha256": "c5bea27e3ae1b6dfaf1bd82cc6e989533a20256c32ac6e38fd22c02d3f7ada52",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "matches_local": true
+    },
+    "assets/tema_handfab.css": {
+      "sha256": "a7235839a3984cab52feea620babedce8b1efdb8b9735592ace530d574803d54",
+      "status": 200,
+      "content_type": "text/css; charset=utf-8",
+      "matches_local": true
+    },
+    "defesa/apresentacao_defesa.pdf": {
+      "sha256": "df0caddd584778a86fe2088363293eeabb4b39eb0dc9cac8a91131f93c20d08c",
+      "status": 200,
+      "content_type": "application/pdf",
+      "matches_local": true
+    },
+    "defesa/apresentacao_defesa.pptx": {
+      "sha256": "33c6b4c6ee2552adc3f967c3be1e493a2bb0694dd89b21109899c69fbc826f92",
+      "status": 200,
+      "content_type": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "matches_local": true
+    },
+    "defesa/guiao_falado.odt": {
+      "sha256": "36342350f43839f6ee387649340bb90c01527a5e6a3f4d72e3ece02ed82618e0",
+      "status": 200,
+      "content_type": "application/vnd.oasis.opendocument.text",
+      "matches_local": true
+    },
+    "defesa/guiao_falado.pdf": {
+      "sha256": "1905a522e7f08342d5349c2c5aa55ce83716558d592b26c22316e4a086653d50",
+      "status": 200,
+      "content_type": "application/pdf",
+      "matches_local": true
+    },
+    "defesa/perguntas_juri.odt": {
+      "sha256": "a9226c8b0ceb61fa2ca1ba43746526fdfc930d32549d83c81d15a0b78af9a3d1",
+      "status": 200,
+      "content_type": "application/vnd.oasis.opendocument.text",
+      "matches_local": true
+    },
+    "defesa/perguntas_juri.pdf": {
+      "sha256": "ff79c22dc91973cbf9f3a7a1c6eb6aa9af6d26f5e76494d9b8b985dea5ac66a0",
+      "status": 200,
+      "content_type": "application/pdf",
+      "matches_local": true
+    },
+    "defesa/preparacao_defesa.odt": {
+      "sha256": "3a8966325095ccacc11b3db7553aa7ed0fc76e7a5356fe8316a900ceda2d2b18",
+      "status": 200,
+      "content_type": "application/vnd.oasis.opendocument.text",
+      "matches_local": true
+    },
+    "defesa/preparacao_defesa.pdf": {
+      "sha256": "a9b192d4c7ba301f3395c60a44de145fff3d6e22b88d51b9ecbbbc0df7a688bc",
+      "status": 200,
+      "content_type": "application/pdf",
+      "matches_local": true
+    },
+    "en.html": {
+      "sha256": "21baf7882da19f8e9e75f6e19e9ef973bb5fa0e984c6cf33d5b1c6166f453390",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "matches_local": true
+    },
+    "index.html": {
+      "sha256": "3c4cead2e6f59cce6e5b016728b4938cafb038caf3dd3f5ea9faacac6cde7201",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "matches_local": true
+    },
+    "manuscrito.html": {
+      "sha256": "f1407e506e98687ae3ee6c90a9e2151a956dbe7b4342afdb12def0b565d8d812",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "matches_local": true
+    }
+  },
+  "local_browser_validation": {
     "homepage_languages": [
       "pt-PT",
       "en"
@@ -39,7 +143,15 @@
         1000
       ],
       [
+        768,
+        844
+      ],
+      [
         390,
+        844
+      ],
+      [
+        320,
         844
       ]
     ],
@@ -55,139 +167,38 @@
     "manuscript_images_with_lightbox": 34,
     "citation_controls": 269,
     "four_reference_panel": true,
-    "javascript_errors": []
-  },
-  "scope": "Perguntas do júri v0.11 em PDF/ODT e caderno de preparação revisto, disponíveis por endereço direto.",
-  "latest_update_validation": {
-    "controls": 269,
-    "source_occurrences": 416,
-    "with_excerpt": 408,
-    "pending": 8,
-    "origins": {
-      "markdown": 290,
-      "xlsx": 109,
-      "pdf": 9
+    "javascript_errors": [],
+    "source_excerpts": 408,
+    "pending_source_occurrences": 8,
+    "data": "2026-10-13",
+    "tema": "HandFab",
+    "two_reference_panel": true,
+    "manuscript_tables": 53,
+    "print_controls_hidden": true,
+    "full_manuscript_and_citation_data_preserved": true,
+    "homepage_text_and_links_preserved": true,
+    "visual_review": true,
+    "source_theme": "tools/conversao/tema_handfab.css",
+    "sha256_pages": {
+      "index.html": "3c4cead2e6f59cce6e5b016728b4938cafb038caf3dd3f5ea9faacac6cde7201",
+      "en.html": "21baf7882da19f8e9e75f6e19e9ef973bb5fa0e984c6cf33d5b1c6166f453390",
+      "manuscrito.html": "f1407e506e98687ae3ee6c90a9e2151a956dbe7b4342afdb12def0b565d8d812"
     },
-    "all_local_panels_checked": true,
-    "served_manuscript_matches_package": true,
-    "odt_and_audit_sources_unchanged": true,
-    "explanations": 416,
-    "historical_block_removed": true,
-    "academic_body_preserved": true,
-    "administrative_paragraphs_omitted": 14,
-    "index_links": 426,
-    "abbreviations": 64,
-    "editorial_revisions": 267,
-    "explanations_match_original_txt_and_editorial_revisions": true,
-    "index_pages_desktop_mobile_checked": true,
-    "front_matter_print_pages_checked": 25,
-    "homepage_tool_authorship_pt_en": true,
-    "homepage_authorship_desktop_mobile_checked": true,
-    "single_manuscript_cover": true,
-    "duplicate_cover_paragraphs_omitted": 8,
-    "all_three_served_html_match_package": true
+    "sha256_theme": "a7235839a3984cab52feea620babedce8b1efdb8b9735592ace530d574803d54"
   },
-  "intermediate_index_commit": "0776497fcefe62a85b72a1cde7f9e29ebaafcce3",
-  "previous_readme_commit": "a0546f7a56d10ecc403afa6b363a73ec78fe5ef4",
-  "source_branch": "main",
-  "presentation_url": "https://pedrocandeias.github.io/IPCA-MDDP-2026-PEC/defesa/apresentacao_defesa.pdf",
   "defense_publication_validation": {
-    "online_files": {
-      "index.html": {
-        "sha256": "c95977f2b44922a765c2a443ea79472d706146c6d8bb0f4fdec3dd50842d377c",
-        "status": 200,
-        "content_type": "text/html; charset=utf-8",
-        "matches_local": true
-      },
-      "en.html": {
-        "sha256": "3973e2c5ca5eee2c37f7704836fe3fbb4e1c55f92a4c1a3c1dbd9b200fcb6944",
-        "status": 200,
-        "content_type": "text/html; charset=utf-8",
-        "matches_local": true
-      },
-      "manuscrito.html": {
-        "sha256": "c4ff2c0aee9fa7ea3e5f5de46878eb600221f55a5e44fbe5a4e794a51c3c8d9d",
-        "status": 200,
-        "content_type": "text/html; charset=utf-8",
-        "matches_local": true
-      },
-      "assets/homepage.css": {
-        "sha256": "83c1127cc2a9a5abbe4d368d12f4d4ce908fbe29428bb5bb4ec8b452f761bf83",
-        "status": 200,
-        "content_type": "text/css; charset=utf-8",
-        "matches_local": true
-      },
-      "defesa/apresentacao_defesa.pdf": {
-        "sha256": "8de2524416ed233a9a2c2b9da60eaca6720e7b8f4277e026b2439d4fd56a8b59",
-        "status": 200,
-        "content_type": "application/pdf",
-        "matches_local": true
-      },
-      "defesa/apresentacao_defesa.pptx": {
-        "sha256": "89bec3648fc05553eed843cb522825907d0c58a90b7184fd9151447c7a5f7162",
-        "status": 200,
-        "content_type": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
-        "matches_local": true
-      },
-      "defesa/guiao_falado.pdf": {
-        "sha256": "61db54c8c97d72d44083bc9d683568736a22e72633e5ae8c3e0b0b5c3c21ac67",
-        "status": 200,
-        "content_type": "application/pdf",
-        "matches_local": true
-      },
-      "defesa/guiao_falado.odt": {
-        "sha256": "cd149b1b40022ec9c7a984ff11ed8ff7e43a4544c2b163720734781062c0071a",
-        "status": 200,
-        "content_type": "application/vnd.oasis.opendocument.text",
-        "matches_local": true
-      },
-      "defesa/preparacao_defesa.pdf": {
-        "sha256": "dfcd64e9fe06c4f1c4b8da24de016ca40990860d24b5cb9d5249d7148ea43c92",
-        "status": 200,
-        "content_type": "application/pdf",
-        "matches_local": true
-      },
-      "defesa/preparacao_defesa.odt": {
-        "sha256": "ce466e6bf107a5642ae97c8a139687feabc5feb37260e2e5803dc8f133188cae",
-        "status": 200,
-        "content_type": "application/vnd.oasis.opendocument.text",
-        "matches_local": true
-      },
-      "defesa/perguntas_juri.pdf": {
-        "sha256": "ff79c22dc91973cbf9f3a7a1c6eb6aa9af6d26f5e76494d9b8b985dea5ac66a0",
-        "status": 200,
-        "content_type": "application/pdf",
-        "matches_local": true
-      },
-      "defesa/perguntas_juri.odt": {
-        "sha256": "a9226c8b0ceb61fa2ca1ba43746526fdfc930d32549d83c81d15a0b78af9a3d1",
-        "status": 200,
-        "content_type": "application/vnd.oasis.opendocument.text",
-        "matches_local": true
-      }
-    },
-    "documents_in_portuguese": true,
-    "pptx_slides": 25,
-    "pptx_notes": 25,
+    "pptx_slides": 28,
+    "pptx_notes": 28,
     "notes_synchronised": true,
-    "speaker_notes_pdf_pages": 26,
-    "preparation_pdf_pages": 43,
-    "desktop_mobile_preview": true,
-    "private_guide_in_git": false,
-    "private_guide_published": false,
+    "speaker_notes_pdf_pages": 29,
+    "preparation_pdf_pages": 42,
     "public_documents": 8,
-    "presentation_version": "1.4.2",
-    "homepage_defense_section": false,
+    "presentation_version": "1.5",
     "jury_questions_version": "0.11",
     "jury_questions_pdf_pages": 18,
-    "jury_questions_count": 47
-  },
-  "defense_repository_url": "https://github.com/pedrocandeias/IPCA-MDDP-2026-PEC/tree/main/docs/defesa",
-  "homepage_defense_removal_validation": {
-    "pt_en_served_match_local": true,
-    "navigation_and_section_removed": true,
-    "matches_homepage_before_defense": true,
-    "defense_documents_preserved": true
-  },
-  "jury_questions_url": "https://pedrocandeias.github.io/IPCA-MDDP-2026-PEC/defesa/perguntas_juri.pdf"
+    "jury_questions_count": 47,
+    "private_guide_in_git": false,
+    "private_guide_published": false,
+    "homepage_defense_section": false
+  }
 }

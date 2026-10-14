@@ -2,6 +2,8 @@
 
 ## 2026-10-14
 
+- Publicadas a apresentação v1.5 e as páginas com tema HandFab no GitHub Pages; confirmados os 16 ficheiros públicos por comparação integral com o pacote local. Commit do conteúdo: 9fc9b41.
+
 - Preparado o pacote de publicação com a apresentação visual da defesa (versão 1.5) e o tema HandFab na homepage PT/EN e no manuscrito. Conferidas as versões dos oito documentos públicos e os hashes das páginas previamente verificadas.
 
 ## 2026-10-13
