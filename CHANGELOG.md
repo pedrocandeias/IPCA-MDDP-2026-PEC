@@ -1,5 +1,9 @@
 # Changelog
 
+## 2026-10-14
+
+- Publicado o tema HandFab na homepage PT/EN e no manuscrito, incluindo painéis de citações e lightbox. Atualizada a apresentação visual da defesa para a versão 1.5 (28 diapositivos) e os documentos de preparação. Fonte: main, commit 9fc9b41.
+
 ## 2026-10-12
 
 - Publicadas as perguntas do júri em PDF/ODT (versão 0.11) e atualizado o caderno de preparação, com notas pessoais e respostas 7, 9 e 47 completadas. Acesso pelos endereços diretos dos documentos.
