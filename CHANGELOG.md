@@ -1,5 +1,9 @@
 # Changelog
 
+## 2026-10-17
+
+- Publicado marcador de leitura no índice do manuscrito e asteriscos violeta. Ampliados os controlos e o cabeçalho da homepage, com botões violeta e idiomas PT/EN. Fonte: main, commit a522847.
+
 ## 2026-10-14
 
 - Publicado o tema HandFab na homepage PT/EN e no manuscrito, incluindo painéis de citações e lightbox. Atualizada a apresentação visual da defesa para a versão 1.5 (28 diapositivos) e os documentos de preparação. Fonte: main, commit 9fc9b41.
