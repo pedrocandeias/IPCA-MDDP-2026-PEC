@@ -31,6 +31,10 @@ python3 tools/conversao/exportar_html_citacoes.py
 
 Requer Python com `lxml`, `openpyxl`, `PyMuPDF` e Pandoc. O gerador reutiliza o conversor ODT existente sobre uma cópia temporária, recupera o conteúdo comprimido `MLO_DATA_*` em `meta.xml` e associa cada grupo ao marcador `MLO_C_*` em `content.xml`. O ODT, o Markdown canónico e o relatório de auditoria permanecem intactos. A versão publicada e os recursos da homepage encontram-se em `publicacao/`; executar também `python3 tools/conversao/preparar_html_publicacao.py` após regenerar o HTML local.
 
+## Orientação durante a leitura
+
+O índice lateral assinala a secção em leitura com um marcador violeta, fundo destacado e `aria-current="location"`. A posição é recalculada durante o scroll, ao redimensionar a janela e quando as imagens alteram a disposição do documento. As ligações conservam a navegação nativa por âncoras. Os asteriscos das citações são apresentados a branco sobre violeta, com estado mais escuro ao passar o cursor ou abrir o painel.
+
 ## Cobertura e limites
 
 - **269 asteriscos**: 239 citações identificadas pelos marcadores Mendeley e 30 citações textuais com associação autor–ano inequívoca. A normalização de travessões e caracteres diacríticos recuperou quatro controlos adicionais.

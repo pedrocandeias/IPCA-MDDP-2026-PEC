@@ -1,6 +1,14 @@
 # Changelog
 
+## 2026-10-17
+
+- Preparado o redirecionamento de `pedrocandeias.github.io` para a homepage do projeto, com fonte local e repositório GitHub Pages próprio.
+
+- Adicionado marcador automático da secção em leitura no índice lateral do manuscrito HTML, com destaque acessível e acompanhamento do scroll. Asteriscos das citações e botões da homepage passam a usar o violeta do tema. Ampliadas as ações e a tipografia do cabeçalho; seletor de idioma simplificado para PT/EN, com nomes acessíveis completos.
+
 ## 2026-10-14
+
+- Aumentada a tipografia da homepage PT/EN: texto principal de 18 px, introdução de 20 px em computador, descrições das ferramentas de 16 px e botões de 15 px. Ajustado o cabeçalho em telemóvel para acomodar a letra maior.
 
 - Publicadas a apresentação v1.5 e as páginas com tema HandFab no GitHub Pages; confirmados os 16 ficheiros públicos por comparação integral com o pacote local. Commit do conteúdo: 9fc9b41.
 

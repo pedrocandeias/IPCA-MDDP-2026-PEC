@@ -90,3 +90,67 @@ closeButton.addEventListener('click', () => closePanel());
 window.addEventListener('resize', positionPanel);
 window.addEventListener('scroll', positionPanel, {passive: true});
 document.getElementById('print').addEventListener('click', () => window.print());
+
+// Acompanhar a leitura sem alterar o URL, o foco ou o scroll do documento.
+(() => {
+  const sidebar = document.querySelector('.sidebar');
+  const navigation = sidebar.querySelector('nav');
+  const header = document.querySelector('.topbar');
+  const article = document.getElementById('manuscrito');
+  const entries = Array.from(navigation.querySelectorAll('a[href^="#"]'))
+    .map(link => ({link, target: document.getElementById(decodeURIComponent(link.hash.slice(1)))}))
+    .filter(entry => entry.target);
+  let active = null;
+  let scheduled = false;
+
+  function keepMarkerVisible(link) {
+    const mobile = window.matchMedia('(max-width: 700px)').matches;
+    const container = mobile ? navigation : sidebar;
+    const bounds = container.getBoundingClientRect();
+    const item = link.getBoundingClientRect();
+    if (mobile) {
+      if (item.left < bounds.left) container.scrollLeft += item.left - bounds.left - 6;
+      else if (item.right > bounds.right) container.scrollLeft += item.right - bounds.right + 6;
+    } else {
+      if (item.top < bounds.top) container.scrollTop += item.top - bounds.top - 6;
+      else if (item.bottom > bounds.bottom) container.scrollTop += item.bottom - bounds.bottom + 6;
+    }
+  }
+
+  function updateReadingPosition() {
+    scheduled = false;
+    const readingLine = header.getBoundingClientRect().bottom + 24;
+    // Medir de novo permite acompanhar imagens carregadas e mudanças de largura.
+    const positions = entries.map(entry => ({...entry, top: entry.target.getBoundingClientRect().top}))
+      .sort((a, b) => a.top - b.top);
+    const reached = positions.filter(entry => entry.top <= readingLine);
+    let current = reached.length ? reached[reached.length - 1].link : null;
+    if (window.scrollY > 0 && window.scrollY + window.innerHeight >= document.documentElement.scrollHeight - 2) {
+      current = positions.length ? positions[positions.length - 1].link : null;
+    }
+    if (current === active) return;
+    if (active) active.removeAttribute('aria-current');
+    active = current;
+    if (active) {
+      active.setAttribute('aria-current', 'location');
+      keepMarkerVisible(active);
+    }
+  }
+
+  function scheduleUpdate() {
+    if (scheduled) return;
+    scheduled = true;
+    window.requestAnimationFrame(updateReadingPosition);
+  }
+  window.addEventListener('scroll', scheduleUpdate, {passive: true});
+  window.addEventListener('resize', scheduleUpdate);
+  window.addEventListener('hashchange', scheduleUpdate);
+  window.addEventListener('pageshow', scheduleUpdate);
+  article.addEventListener('load', scheduleUpdate, true);
+  if ('ResizeObserver' in window) {
+    const observer = new ResizeObserver(scheduleUpdate);
+    observer.observe(article);
+    observer.observe(header);
+  }
+  scheduleUpdate();
+})();

@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-17",
+  "navigation_targets": 18,
+  "forward_and_reverse": true,
+  "native_links_and_fragment": true,
+  "keyboard_focus_preserved": true,
+  "url_preserved_on_scroll": true,
+  "last_section": true,
+  "marker_revealed_in_navigation": true,
+  "mobile_widths": [
+    320,
+    390
+  ],
+  "citation_colors": {
+    "background": "rgb(124, 58, 237)",
+    "text": "rgb(255, 255, 255)"
+  },
+  "four_source_panel": true,
+  "print_controls_hidden": true,
+  "javascript_errors": [],
+  "manuscript_and_citations_preserved": true,
+  "sha256_html": "207dc317397bb7861e639076bba616f74a46858fece3ebad12c871986ee68dd6"
+}

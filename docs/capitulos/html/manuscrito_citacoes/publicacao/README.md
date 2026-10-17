@@ -12,6 +12,8 @@ A homepage em português e inglês e o manuscrito usam a mesma base visual do Ha
 
 A referência é o código local de `ai-parametric-prosthetic-hand-generator/index.html` e `theme.css`, consultado em 13/10/2026. Os valores partilhados estão em `tools/conversao/tema_handfab.css`. O exportador incorpora esse CSS no HTML autónomo do manuscrito; a homepage carrega a cópia publicada em `assets/tema_handfab.css`. Os estilos de disposição de cada página permanecem nas respetivas pastas. A alteração visual preserva o texto e as ligações das duas línguas, o conteúdo do manuscrito e os dados das citações.
 
+O índice lateral do manuscrito destaca a secção em leitura durante o scroll, com marcador violeta e `aria-current="location"`. O destaque acompanha a navegação por âncoras e mantém a entrada visível dentro do índice, sem deslocar o documento nem alterar o foco. Os asteriscos e as ações da homepage usam o violeta partilhado do tema; os botões têm letra de 18 px e o seletor de idioma apresenta PT/EN com nomes acessíveis completos.
+
 ## Fontes e geração
 
 ```bash
@@ -28,6 +30,10 @@ O gerador escreve `dist/index.html`, `dist/en.html`, `dist/manuscrito.html` e os
 As imagens da apresentação e as 34 imagens do manuscrito abrem uma lightbox acessível por clique ou teclado, com ajuste ao ecrã, tamanho original, deslocação e fecho por botão, Escape ou clique fora da imagem. O visualizador usa o ficheiro original disponível; não acrescenta resolução artificial.
 
 `manifesto_publicacao.json` identifica as fontes e os hashes do HTML. `deploy_github.json` regista a publicação e a verificação.
+
+## Redirecionamento da raiz
+
+A raiz `https://pedrocandeias.github.io/` encaminha para a homepage deste projeto. A fonte encontra-se em `redirecionamento_raiz/`; a publicação usa o repositório separado `pedrocandeias/pedrocandeias.github.io`. O registo de verificação fica em `redirecionamento_github.json`.
 
 ## GitHub Pages
 

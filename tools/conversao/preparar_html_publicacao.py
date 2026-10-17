@@ -53,8 +53,8 @@ def homepage(dist):
     for language, content in json.loads((HOMEPAGE / 'conteudo.json').read_text()).items():
         values = {key: escape(value, quote=True) for key, value in content.items() if isinstance(value, str)}
         values['language_links'] = ''.join(
-            f'<a href="{filename}" lang="{lang}" hreflang="{lang}"' +
-            (' aria-current="page"' if key == language else '') + f'>{label}</a>'
+            f'<a href="{filename}" lang="{lang}" hreflang="{lang}" aria-label="{label}"' +
+            (' aria-current="page"' if key == language else '') + f'>{key.upper()}</a>'
             for key, filename, lang, label in [('pt', 'index.html', 'pt-PT', 'Português'), ('en', 'en.html', 'en', 'English')])
         values['tool_rows'] = ''.join(
             f'<article class="tool-row"><span class="tool-number" aria-hidden="true">{i:02}</span>'
