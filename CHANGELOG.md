@@ -2,6 +2,8 @@
 
 ## 2026-10-17
 
+- Publicadas e verificadas as cinco páginas/recursos alterados e a página de redirecionamento da raiz; confirmada a correspondência integral dos ficheiros servidos com as fontes locais.
+
 - Preparado o redirecionamento de `pedrocandeias.github.io` para a homepage do projeto, com fonte local e repositório GitHub Pages próprio.
 
 - Adicionado marcador automático da secção em leitura no índice lateral do manuscrito HTML, com destaque acessível e acompanhamento do scroll. Asteriscos das citações e botões da homepage passam a usar o violeta do tema. Ampliadas as ações e a tipografia do cabeçalho; seletor de idioma simplificado para PT/EN, com nomes acessíveis completos.
