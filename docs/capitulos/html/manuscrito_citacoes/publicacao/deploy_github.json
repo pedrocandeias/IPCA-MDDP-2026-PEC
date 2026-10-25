@@ -1,5 +1,4 @@
 {
-  "checked_at": "2026-10-17T17:46:05.211062+00:00",
   "url": "https://pedrocandeias.github.io/IPCA-MDDP-2026-PEC/",
   "english_url": "https://pedrocandeias.github.io/IPCA-MDDP-2026-PEC/en.html",
   "manuscript_url": "https://pedrocandeias.github.io/IPCA-MDDP-2026-PEC/manuscrito.html",
@@ -11,34 +10,107 @@
     "path": "/"
   },
   "source_branch": "main",
-  "source_commit": "a52284785ec2d0beeef6bd103ea119f0d2693889",
-  "site_commit": "e284d555374853ebe515370256adb07c4e589c47",
-  "previous_site_commit": "4ac373516b96ad1642bbf1656460a99297334fa8",
+  "checked_at": "2026-10-25T21:09:45.026337+00:00",
+  "source_commit": "c66509cdcf7d0eeac62e7ba4832c288150d29a2d",
+  "site_commit": "c0db557160ce44f53adbba5ea1cb0b887ddaf8cc",
+  "previous_site_commit": "e284d555374853ebe515370256adb07c4e589c47",
   "status": "built",
-  "scope": "Marcador de leitura no índice; asteriscos e botões violeta; tipografia ampliada; idiomas PT/EN; redirecionamento da raiz GitHub Pages.",
+  "scope": "Manuscrito HTML derivado do ODT gravado em 25/10/2026; explicações reconciliadas e legenda da Tabela 22 corrigida na edição de leitura; apresentação da defesa 1.6 e guiões revistos.",
   "files": {
     "assets/homepage.css": "bd542329e58667f8bbe6a46f0d8078a557011a6e3b191c9e2650c8d4a05478d5",
     "assets/lightbox.css": "919aa82223f94e92cb08a5e97d42394fbde0c878d2af57b8d793c07d5034cb57",
     "assets/lightbox.js": "560c9256b1e365def0b0b8cab2e2b9c37ecda2527dce55abfc17023d46ff41ff",
     "assets/phoenix_montagem.jpg": "c5bea27e3ae1b6dfaf1bd82cc6e989533a20256c32ac6e38fd22c02d3f7ada52",
     "assets/tema_handfab.css": "7ae06ab3c33545e08673654f046d724c66466d77639299a8ff20c42b49238eeb",
-    "defesa/apresentacao_defesa.pdf": "df0caddd584778a86fe2088363293eeabb4b39eb0dc9cac8a91131f93c20d08c",
-    "defesa/apresentacao_defesa.pptx": "33c6b4c6ee2552adc3f967c3be1e493a2bb0694dd89b21109899c69fbc826f92",
-    "defesa/guiao_falado.odt": "36342350f43839f6ee387649340bb90c01527a5e6a3f4d72e3ece02ed82618e0",
-    "defesa/guiao_falado.pdf": "1905a522e7f08342d5349c2c5aa55ce83716558d592b26c22316e4a086653d50",
+    "defesa/apresentacao_defesa.pdf": "19d6bee2b98868473bde9bac89cf21ce39790c1279d704a4bf919bd44bcc5e3d",
+    "defesa/apresentacao_defesa.pptx": "f8647f1e646387ac26deea8023765613a38f6405899a5d10079604bd28ad8a40",
+    "defesa/guiao_falado.odt": "b27b03caa51899e77222859d600c77612096dbb01dbf3c0170f9dec6715a4f76",
+    "defesa/guiao_falado.pdf": "5dcab085e743d993e311993abdd9af2dd892d790b2c01535295c98d8e291d57e",
     "defesa/perguntas_juri.odt": "a9226c8b0ceb61fa2ca1ba43746526fdfc930d32549d83c81d15a0b78af9a3d1",
     "defesa/perguntas_juri.pdf": "ff79c22dc91973cbf9f3a7a1c6eb6aa9af6d26f5e76494d9b8b985dea5ac66a0",
-    "defesa/preparacao_defesa.odt": "3a8966325095ccacc11b3db7553aa7ed0fc76e7a5356fe8316a900ceda2d2b18",
-    "defesa/preparacao_defesa.pdf": "a9b192d4c7ba301f3395c60a44de145fff3d6e22b88d51b9ecbbbc0df7a688bc",
+    "defesa/preparacao_defesa.odt": "9938cbbb29b88b28520b4189941fefc139160cf369d37d04da3b38eb797c261c",
+    "defesa/preparacao_defesa.pdf": "1f12a5ffb9a18adf669ccecaecdff6205ac65d0dc58c536d1006b1b493961a08",
     "en.html": "e086e0ed92129023a3f390481b43c3d530b64478fcc52395d0207babcfe5c72f",
     "index.html": "bfc261ef17cf5e54ee559455852463b38e9cbe5fac7754b5279b3d744e8f3662",
-    "manuscrito.html": "416135ee499b87d351bfe06b2db65cfbb046c0991cab84bab55c474e358eade7"
+    "manuscrito.html": "84fcf991f03309e2f9a9432ff518bb9a32ded60f517d3aa751bb5b66e3a6d89b"
   },
   "online_files": {
-    "index.html": {
-      "sha256": "bfc261ef17cf5e54ee559455852463b38e9cbe5fac7754b5279b3d744e8f3662",
+    "assets/homepage.css": {
+      "sha256": "bd542329e58667f8bbe6a46f0d8078a557011a6e3b191c9e2650c8d4a05478d5",
       "status": 200,
-      "content_type": "text/html; charset=utf-8",
+      "content_type": "text/css; charset=utf-8",
+      "matches_local": true
+    },
+    "assets/lightbox.css": {
+      "sha256": "919aa82223f94e92cb08a5e97d42394fbde0c878d2af57b8d793c07d5034cb57",
+      "status": 200,
+      "content_type": "text/css; charset=utf-8",
+      "matches_local": true
+    },
+    "assets/lightbox.js": {
+      "sha256": "560c9256b1e365def0b0b8cab2e2b9c37ecda2527dce55abfc17023d46ff41ff",
+      "status": 200,
+      "content_type": "application/javascript; charset=utf-8",
+      "matches_local": true
+    },
+    "assets/phoenix_montagem.jpg": {
+      "sha256": "c5bea27e3ae1b6dfaf1bd82cc6e989533a20256c32ac6e38fd22c02d3f7ada52",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "matches_local": true
+    },
+    "assets/tema_handfab.css": {
+      "sha256": "7ae06ab3c33545e08673654f046d724c66466d77639299a8ff20c42b49238eeb",
+      "status": 200,
+      "content_type": "text/css; charset=utf-8",
+      "matches_local": true
+    },
+    "defesa/apresentacao_defesa.pdf": {
+      "sha256": "19d6bee2b98868473bde9bac89cf21ce39790c1279d704a4bf919bd44bcc5e3d",
+      "status": 200,
+      "content_type": "application/pdf",
+      "matches_local": true
+    },
+    "defesa/apresentacao_defesa.pptx": {
+      "sha256": "f8647f1e646387ac26deea8023765613a38f6405899a5d10079604bd28ad8a40",
+      "status": 200,
+      "content_type": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "matches_local": true
+    },
+    "defesa/guiao_falado.odt": {
+      "sha256": "b27b03caa51899e77222859d600c77612096dbb01dbf3c0170f9dec6715a4f76",
+      "status": 200,
+      "content_type": "application/vnd.oasis.opendocument.text",
+      "matches_local": true
+    },
+    "defesa/guiao_falado.pdf": {
+      "sha256": "5dcab085e743d993e311993abdd9af2dd892d790b2c01535295c98d8e291d57e",
+      "status": 200,
+      "content_type": "application/pdf",
+      "matches_local": true
+    },
+    "defesa/perguntas_juri.odt": {
+      "sha256": "a9226c8b0ceb61fa2ca1ba43746526fdfc930d32549d83c81d15a0b78af9a3d1",
+      "status": 200,
+      "content_type": "application/vnd.oasis.opendocument.text",
+      "matches_local": true
+    },
+    "defesa/perguntas_juri.pdf": {
+      "sha256": "ff79c22dc91973cbf9f3a7a1c6eb6aa9af6d26f5e76494d9b8b985dea5ac66a0",
+      "status": 200,
+      "content_type": "application/pdf",
+      "matches_local": true
+    },
+    "defesa/preparacao_defesa.odt": {
+      "sha256": "9938cbbb29b88b28520b4189941fefc139160cf369d37d04da3b38eb797c261c",
+      "status": 200,
+      "content_type": "application/vnd.oasis.opendocument.text",
+      "matches_local": true
+    },
+    "defesa/preparacao_defesa.pdf": {
+      "sha256": "1f12a5ffb9a18adf669ccecaecdff6205ac65d0dc58c536d1006b1b493961a08",
+      "status": 200,
+      "content_type": "application/pdf",
       "matches_local": true
     },
     "en.html": {
@@ -47,159 +119,121 @@
       "content_type": "text/html; charset=utf-8",
       "matches_local": true
     },
-    "manuscrito.html": {
-      "sha256": "416135ee499b87d351bfe06b2db65cfbb046c0991cab84bab55c474e358eade7",
+    "index.html": {
+      "sha256": "bfc261ef17cf5e54ee559455852463b38e9cbe5fac7754b5279b3d744e8f3662",
       "status": 200,
       "content_type": "text/html; charset=utf-8",
       "matches_local": true
     },
-    "assets/homepage.css": {
-      "sha256": "bd542329e58667f8bbe6a46f0d8078a557011a6e3b191c9e2650c8d4a05478d5",
+    "manuscrito.html": {
+      "sha256": "84fcf991f03309e2f9a9432ff518bb9a32ded60f517d3aa751bb5b66e3a6d89b",
       "status": 200,
-      "content_type": "text/css; charset=utf-8",
+      "content_type": "text/html; charset=utf-8",
       "matches_local": true
-    },
-    "assets/tema_handfab.css": {
-      "sha256": "7ae06ab3c33545e08673654f046d724c66466d77639299a8ff20c42b49238eeb",
-      "status": 200,
-      "content_type": "text/css; charset=utf-8",
-      "matches_local": true
+    }
+  },
+  "github_pages_build": {
+    "commit": "c0db557160ce44f53adbba5ea1cb0b887ddaf8cc",
+    "created_at": "2026-10-25T21:08:56Z",
+    "updated_at": "2026-10-25T21:09:22Z",
+    "error": {
+      "message": null
     }
   },
   "local_browser_validation": {
-    "homepage_languages": [
-      "pt-PT",
-      "en"
-    ],
+    "date": "2026-10-25",
+    "sha256_html": "84fcf991f03309e2f9a9432ff518bb9a32ded60f517d3aa751bb5b66e3a6d89b",
     "viewports": [
-      [
-        1440,
-        1000
-      ],
-      [
-        768,
-        844
-      ],
-      [
-        390,
-        844
-      ],
-      [
-        320,
-        844
-      ]
+      {
+        "width": 1440,
+        "height": 1000,
+        "panel_fits": true,
+        "no_horizontal_overflow": true
+      },
+      {
+        "width": 390,
+        "height": 844,
+        "panel_fits": true,
+        "no_horizontal_overflow": true
+      },
+      {
+        "width": 320,
+        "height": 844,
+        "panel_fits": true,
+        "no_horizontal_overflow": true
+      }
     ],
-    "local_links_valid": true,
-    "handfab_app_and_repository_links": true,
-    "homepage_lightbox": {
-      "keyboard": true,
-      "original_size": true,
-      "escape": true,
-      "focus_restored": true,
-      "mobile": true
-    },
-    "manuscript_images_with_lightbox": 34,
-    "citation_controls": 269,
-    "four_reference_panel": true,
     "javascript_errors": [],
-    "source_excerpts": 408,
-    "pending_source_occurrences": 8,
-    "data": "2026-10-17",
-    "tema": "HandFab",
-    "two_reference_panel": true,
-    "manuscript_tables": 53,
-    "print_controls_hidden": true,
-    "full_manuscript_and_citation_data_preserved": true,
-    "homepage_text_and_links_preserved": true,
-    "visual_review": true,
-    "source_theme": "tools/conversao/tema_handfab.css",
-    "sha256_pages": {
-      "index.html": "bfc261ef17cf5e54ee559455852463b38e9cbe5fac7754b5279b3d744e8f3662",
-      "en.html": "e086e0ed92129023a3f390481b43c3d530b64478fcc52395d0207babcfe5c72f",
-      "manuscrito.html": "416135ee499b87d351bfe06b2db65cfbb046c0991cab84bab55c474e358eade7"
-    },
-    "sha256_theme": "7ae06ab3c33545e08673654f046d724c66466d77639299a8ff20c42b49238eeb",
-    "homepage_typography_validation": {
-      "date": "2026-10-17",
-      "languages": [
-        "pt-PT",
-        "en"
-      ],
-      "viewports": [
-        [
-          1440,
-          1000
-        ],
-        [
-          768,
-          844
-        ],
-        [
-          390,
-          844
-        ],
-        [
-          320,
-          844
-        ]
-      ],
-      "body_px": 18,
-      "lead_desktop_px": 20,
-      "tools_description_px": 16,
-      "buttons_px": 18,
-      "horizontal_overflow": false,
-      "lightbox_keyboard_and_focus": true,
-      "visual_review": true,
-      "sha256_css": "bd542329e58667f8bbe6a46f0d8078a557011a6e3b191c9e2650c8d4a05478d5",
-      "handfab_code_px": 17,
-      "header_identity_desktop_px": 19,
-      "language_labels": [
-        "PT",
-        "EN"
-      ],
-      "language_accessible_names": [
-        "Português",
-        "English"
-      ],
-      "button_color": "#7c3aed"
-    }
+    "internal_links_valid": true,
+    "browser": "151.0.7922.34",
+    "tables": 53,
+    "images": 34,
+    "citation_controls": 268,
+    "index_links": 425,
+    "all_panels_checked": true,
+    "explanations_checked": 415,
+    "table_22_caption_and_index_valid": true,
+    "native_navigation": [
+      {
+        "width": 1440,
+        "native_anchor_navigation": true,
+        "table22_visible": true,
+        "index_visible": true
+      },
+      {
+        "width": 390,
+        "native_anchor_navigation": true,
+        "table22_visible": true,
+        "index_visible": true
+      },
+      {
+        "width": 320,
+        "native_anchor_navigation": true,
+        "table22_visible": true,
+        "index_visible": true
+      }
+    ],
+    "image_lightbox_keyboard_zoom_escape": true,
+    "print_navigation_hidden": true
+  },
+  "manuscript_source": {
+    "path": "pedro-candeias-projeto-mestrado-mdddp-ipca-2026-revisto_v1_23102026-1047.odt",
+    "sha256": "f5255278485d7a04bf9a3dde3064315be6cef1ac33da26b3cb0f125b101d0f2d",
+    "saved_at": "2026-10-25T20:30:15.722",
+    "citation_controls": 268,
+    "source_associations": 415,
+    "associations_with_excerpt": 406,
+    "associations_without_excerpt": 9,
+    "index_links": 425,
+    "images": 34,
+    "tables": 53
   },
   "defense_publication_validation": {
-    "pptx_slides": 28,
-    "pptx_notes": 28,
-    "notes_synchronised": true,
-    "speaker_notes_pdf_pages": 29,
-    "preparation_pdf_pages": 42,
+    "presentation_version": "1.6",
+    "pptx_slides": 30,
+    "presentation_pdf_pages": 30,
+    "speaker_notes_pdf_pages": 31,
+    "preparation_pdf_pages": 44,
     "public_documents": 8,
-    "presentation_version": "1.5",
-    "jury_questions_version": "0.11",
-    "jury_questions_pdf_pages": 18,
-    "jury_questions_count": 47,
-    "private_guide_in_git": false,
     "private_guide_published": false,
-    "homepage_defense_section": false
-  },
-  "reading_marker_validation": {
-    "date": "2026-10-17",
-    "navigation_targets": 18,
-    "forward_and_reverse": true,
-    "native_links_and_fragment": true,
-    "keyboard_focus_preserved": true,
-    "url_preserved_on_scroll": true,
-    "last_section": true,
-    "marker_revealed_in_navigation": true,
-    "mobile_widths": [
-      320,
-      390
+    "homepage_defense_section": false,
+    "generation_validation": "docs/defesa/apresentacao/verificacao.json",
+    "pptx_saved_after_generation": "2026-10-25T20:49:45Z",
+    "notes_differences_from_generated_script": [
+      {
+        "slide": 1,
+        "field": "indicacao"
+      },
+      {
+        "slide": 3,
+        "field": "indicacao"
+      },
+      {
+        "slide": 13,
+        "field": "fala"
+      }
     ],
-    "citation_colors": {
-      "background": "rgb(124, 58, 237)",
-      "text": "rgb(255, 255, 255)"
-    },
-    "four_source_panel": true,
-    "print_controls_hidden": true,
-    "javascript_errors": [],
-    "manuscript_and_citations_preserved": true,
-    "sha256_html": "207dc317397bb7861e639076bba616f74a46858fece3ebad12c871986ee68dd6"
+    "notes_synchronised": false,
+    "note": "O PPTX foi guardado pelo autor após a geração; preservadas as alterações nas notas dos diapositivos 1, 3 e 13. O guião e os PDFs mantêm a exportação validada da versão 1.6; os hashes publicados identificam cada ficheiro efetivamente servido."
   }
 }

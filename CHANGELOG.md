@@ -2,6 +2,8 @@
 
 ## 2026-10-25
 
+- Publicados e verificados por SHA-256 os 16 ficheiros do GitHub Pages, incluindo o manuscrito atualizado e a defesa 1.6. Fonte: commit c66509c; publicação: c0db557. Atualizado o registo do deploy com os endereços públicos, o resultado da construção e as versões efetivamente servidas.
+
 - Atualizada a edição HTML a partir do manuscrito ODT gravado em 25/10/2026 às 20:30, com 268 citações, 415 explicações reconciliadas, 425 ligações nos índices, 53 tabelas e 34 imagens. Corrigida na edição de leitura a legenda da Tabela 22 fundida com um parágrafo; preservado o ODT. Atualizados geradores, proveniência e verificações; preparado o pacote público com a apresentação da defesa 1.6.
 
 - Revista a apresentação da defesa para a versão **1.6**: abertura com a motivação do desenvolvimento e as barreiras de acesso em contextos de baixos e médios rendimentos; metodologia com Research Through Design, Double Diamond, integração de IA e percurso bibliográfico com Elicit. Atualizados PPTX, PDF, notas de fala e guiões, com 23 diapositivos principais e sete de apoio, mantendo as metas de 20/30 minutos. Criada cópia de segurança e preservados os resultados do projeto e as notas pessoais da abertura.
