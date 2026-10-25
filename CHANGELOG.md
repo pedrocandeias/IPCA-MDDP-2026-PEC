@@ -1,5 +1,9 @@
 # Changelog
 
+## 2026-10-25
+
+- Publicado o manuscrito HTML a partir do ODT gravado em 25/10/2026: 268 citações, 415 explicações reconciliadas, 425 ligações nos índices, 53 tabelas e 34 imagens. Corrigida a apresentação da legenda da Tabela 22 na edição de leitura. Atualizada a apresentação da defesa para a versão 1.6, com 30 diapositivos, e os guiões. Fonte: main, commit c66509c.
+
 ## 2026-10-17
 
 - Publicado marcador de leitura no índice do manuscrito e asteriscos violeta. Ampliados os controlos e o cabeçalho da homepage, com botões violeta e idiomas PT/EN. Fonte: main, commit a522847.
