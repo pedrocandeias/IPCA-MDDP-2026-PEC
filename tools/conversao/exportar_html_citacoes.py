@@ -7,6 +7,7 @@ ODT, Markdown and audit files are never changed. Requires pandoc and lxml.
 from __future__ import annotations
 
 import base64
+import argparse
 import collections
 import copy
 import csv
@@ -21,6 +22,7 @@ import tempfile
 import unicodedata
 import zipfile
 import zlib
+from datetime import date
 from difflib import SequenceMatcher
 from pathlib import Path
 
@@ -29,10 +31,10 @@ import fitz
 from evidencia_matriz import read_matrix
 from importar_explicacoes_citacoes import attach_explanations
 from ligar_indices_html import link_indexes
-from preparar_leitura_html import prepare_reading
+from preparar_leitura_html import prepare_reading, repair_mixed_caption
 
 ROOT = Path(__file__).resolve().parents[2]
-SOURCE = ROOT / 'pedro-candeias-projeto-mestrado-mdddp-ipca-2026-revisto_v1_06102026-0210.odt'
+SOURCE = ROOT / 'pedro-candeias-projeto-mestrado-mdddp-ipca-2026-revisto_v1_23102026-1047.odt'
 AUDIT = ROOT / 'docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md'
 MATRIX = ROOT / 'material/bibliografia/auditoria_citacoes/referencias_evidencia_docx_2026-07-22.xlsx'
 OUT = ROOT / 'docs/capitulos/html/manuscrito_citacoes'
@@ -133,7 +135,10 @@ def get_citations():
             append(child.tail)
 
     visit(root)
-    assert not active and len(order) == len(set(order)) == len(data)
+    assert not active and len(order) == len(set(order))
+    # LibreOffice may retain metadata for a citation removed from the text.
+    # Only paired, visible bookmarks belong to this edition of the manuscript.
+    data = {key: data[key] for key in order}
     for key in order:
         assert visible[key], key
         data[key].update({'visible': visible[key], 'context': contexts[key]})
@@ -336,6 +341,12 @@ def attach_evidence(data, records, evidence):
 def build():
     OUT.mkdir(parents=True, exist_ok=True)
     original_hash = hashlib.sha256(SOURCE.read_bytes()).hexdigest()
+    with zipfile.ZipFile(SOURCE) as archive:
+        metadata = ET.fromstring(archive.read('meta.xml'))
+    saved_at = metadata.findtext('.//dc:date', namespaces=metadata.nsmap)
+    saved_date = date.fromisoformat(saved_at[:10]) if saved_at else date.fromtimestamp(SOURCE.stat().st_mtime)
+    months = ['janeiro', 'fevereiro', 'março', 'abril', 'maio', 'junho', 'julho', 'agosto', 'setembro', 'outubro', 'novembro', 'dezembro']
+    source_label = f'Fonte: ODT gravado em {saved_date.day} de {months[saved_date.month-1]} de {saved_date.year}'
     root, data, order = get_citations()
     records = {item['rec']['id']: item['rec'] for cite in data.values() for item in cite['items']}
     evidence = read_audit(records)
@@ -367,7 +378,7 @@ def build():
                 out.writestr(copy.copy(info), ET.tostring(root) if info.filename == 'content.xml' else archive.read(info.filename))
         subprocess.run(['python3', str(ROOT/'tools/conversao/sincronizar_manuscrito_odt.py'), str(prepared),
                         '--output', str(tmp/'source.md'), '--assets', str(tmp/'images'),
-                        '--report', str(tmp/'conversion.json'), '--version', '0.4.114'], check=True, capture_output=True)
+                        '--report', str(tmp/'conversion.json'), '--version', 'exportacao-html'], check=True, capture_output=True)
         markdown = (tmp/'source.md').read_text()
         markdown = re.sub(r'^Versão do documento:.*?-->\s*', '', markdown, count=1, flags=re.S)
         rendered = subprocess.check_output(['pandoc', '-f', 'gfm', '-t', 'html5', '--wrap=none'], input=markdown, text=True)
@@ -402,9 +413,11 @@ def build():
                 heading.set('id', f'seccao-{i}')
                 short = re.sub(r'^Capítulo (\d+) - ', r'\1. ', title)
                 navigation.append(f'<a href="#seccao-{i}">{html_std.escape(short)}</a>')
+        caption_repairs = repair_mixed_caption(document)
         index_report = link_indexes(document, norm)
         (OUT/'ligacoes_indices.json').write_text(json.dumps(index_report, ensure_ascii=False, indent=2)+'\n')
         reading_report = prepare_reading(document)
+        reading_report['caption_repairs'] = caption_repairs
         (OUT/'adaptacoes_leitura.json').write_text(json.dumps(reading_report, ensure_ascii=False, indent=2)+'\n')
         navigation[0:0] = ['<a href="#lista-de-abreviaturas-e-siglas">Lista de siglas</a>',
                            '<a href="#indice-geral">Índice</a>',
@@ -414,20 +427,20 @@ def build():
         payload = (ASSETS/'template.html').read_text()
         replacements = {'{{CSS}}': (ASSETS.parent/'tema_handfab.css').read_text() + '\n' + (ASSETS/'style.css').read_text(), '{{JS}}': (ASSETS/'script.js').read_text(),
                         '{{CONTENT}}': html.tostring(document, encoding='unicode'), '{{NAVIGATION}}': '\n'.join(navigation),
-                        '{{CITATIONS}}': citation_json, '{{COUNT}}': str(len(data))}
+                        '{{CITATIONS}}': citation_json, '{{COUNT}}': str(len(data)), '{{SOURCE_LABEL}}': html_std.escape(source_label)}
         for key, value in replacements.items():
             payload = payload.replace(key, value)
         (OUT/'pedro_candeias_manuscrito_citacoes.html').write_text(payload)
     (OUT/'citacoes.json').write_text(json.dumps(data, ensure_ascii=False, indent=2)+'\n')
     with (OUT/'cobertura_excertos.csv').open('w', encoding='utf-8', newline='') as f:
-        writer = csv.writer(f)
+        writer = csv.writer(f, lineterminator='\n')
         writer.writerow(['marcador_odt', 'citacao', 'obra', 'doi', 'excerto_disponivel', 'similaridade_contexto', 'secao_auditoria', 'origem', 'tipo_origem'])
         for key in order:
             for s in data[key]['sources']:
                 e = s['evidence'] or {}
                 writer.writerow([key, data[key]['visible'], s['label'], s['doi'], bool(e), e.get('context_similarity', ''), e.get('section', ''), e.get('origin', ''), e.get('origin_kind', '')])
     with (OUT/'excertos_pendentes.csv').open('w', encoding='utf-8', newline='') as f:
-        writer = csv.writer(f)
+        writer = csv.writer(f, lineterminator='\n')
         writer.writerow(['marcador', 'obra', 'titulo', 'contexto', 'nota'])
         for key, cite in data.items():
             for source in cite['sources']:
@@ -435,6 +448,7 @@ def build():
                     writer.writerow([key, source['label'], source['title'], cite['context'], source['pending_note']])
     items = [s for c in data.values() for s in c['sources']]
     report = {'source': SOURCE.name, 'sha256_odt': original_hash, 'audit': str(AUDIT.relative_to(ROOT)),
+              'source_saved_at': saved_at, 'source_label': source_label,
               'sha256_audit': hashlib.sha256(AUDIT.read_bytes()).hexdigest(), 'citations': len(data),
               'matrix': str(MATRIX.relative_to(ROOT)), 'sha256_matrix': hashlib.sha256(MATRIX.read_bytes()).hexdigest(),
               'supplement': str(supplement.relative_to(ROOT)), 'sha256_supplement': hashlib.sha256(supplement.read_bytes()).hexdigest(),
@@ -457,4 +471,7 @@ def build():
 
 
 if __name__ == '__main__':
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--source', type=Path, default=SOURCE, help='ODT gravado que serve de fonte ao HTML')
+    SOURCE = parser.parse_args().source.resolve()
     build()

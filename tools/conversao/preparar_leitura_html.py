@@ -6,6 +6,57 @@ from urllib.parse import unquote
 from lxml import html, etree
 
 
+def repair_mixed_caption(document):
+    """Recover the table caption accidentally pasted inside a word in the ODT.
+
+    This narrowly scoped reading adaptation preserves both texts and is logged;
+    it does not infer corrections for other captions or change the source ODT.
+    """
+    caption = 'Distribuição de tarefas entre regras, IA e supervisão humana'
+    pattern = re.compile(r'medidTabela\s+22\s*-\s*' + re.escape(caption) + r'as completas')
+    paragraphs = [p for p in document.xpath('./p') if pattern.search(p.text_content())]
+    if not paragraphs:
+        return []
+    assert len(paragraphs) == 2, 'Rever legenda fundida da Tabela 22'
+    entries = [p for p in paragraphs if re.search(r'hipotéticas\.\s*\d+\s*$', p.text_content())]
+    assert len(entries) == 1, 'Rever entrada da Tabela 22 no índice'
+    index_entry = entries[0]
+    body = next(p for p in paragraphs if p is not index_entry)
+    tables = [t for t in document.xpath('./table')
+              if re.sub(r'\s+', '', t.text_content()).startswith('TarefaMecanismoResultadoIdentificarsexoeidade')]
+    assert len(tables) == 1, 'Rever tabela de distribuição de tarefas'
+    title = 'Tabela 22 - ' + caption
+    original_body = body.text_content()
+    original_index = index_entry.text_content()
+    page = re.search(r'(\d+)\s*$', original_index)[1]
+    previous = tables[0].getprevious()
+    original_caption = None
+    if previous is not None and re.match(r'^Tabela\s+22\s*[-–—]', previous.text_content()):
+        caption_node = previous
+        original_caption = caption_node.text_content()
+        for child in list(caption_node):
+            caption_node.remove(child)
+    else:
+        caption_node = html.Element('p')
+        tables[0].addprevious(caption_node)
+    caption_node.text = title
+    # Preserve any old destinations at the caption's corrected location.
+    for value in body.xpath('.//@id'):
+        etree.SubElement(caption_node, 'span', id=value)
+    for child in list(body):
+        body.remove(child)
+    body.text = pattern.sub('medidas completas', original_body)
+    for child in list(index_entry):
+        index_entry.remove(child)
+    index_entry.text = title + page
+    return [{'type': 'mixed_table_caption', 'table': 22,
+             'source_body': original_body, 'reading_body': body.text_content(),
+             'source_index': original_index, 'reading_index': index_entry.text,
+             'source_caption_near_table': original_caption,
+             'caption': title,
+             'reason': 'Legenda fundida com a palavra medidas no ODT; separada e colocada antes da tabela identificada pelo cabeçalho Tarefa / Mecanismo / Resultado.'}]
+
+
 def prepare_reading(document):
     def text(node):
         return node.text_content().strip()
@@ -47,7 +98,7 @@ def prepare_reading(document):
         rows = []
         for node in source_rows:
             original = text(node)
-            if original == 'xx':
+            if kind == 'index' and re.fullmatch(r'[ivxlcdm]+|\d+', original, re.I):
                 report['print_artifacts_removed'].append(original)
                 document.remove(node)
                 continue

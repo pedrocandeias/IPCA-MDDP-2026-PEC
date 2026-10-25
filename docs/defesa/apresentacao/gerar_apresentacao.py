@@ -34,10 +34,10 @@ prs.core_properties.title='HandFab: Defesa do projeto de mestrado'
 prs.core_properties.subject='Design e Desenvolvimento de Produto · UPCA'
 prs.core_properties.author='Pedro Miguel Candeias da Silva'
 records=[]
-MAIN_SLIDES=20
+MAIN_SLIDES=23
 visuals=[]
-t20=[30, 60, 45, 90, 45, 75, 45, 60, 60, 75, 75, 60, 30, 45, 60, 60, 105, 60, 105, 15]
-t30=[45, 90, 75, 120, 75, 105, 75, 90, 90, 120, 105, 105, 45, 60, 90, 90, 150, 90, 150, 30]
+t20=[35, 75, 60, 40, 65, 80, 55, 90, 40, 45, 45, 45, 60, 55, 45, 20, 30, 50, 40, 75, 45, 85, 20]
+t30=[40, 110, 70, 60, 110, 125, 85, 150, 50, 55, 65, 65, 85, 85, 70, 30, 45, 65, 60, 120, 70, 155, 30]
 assert sum(t20)==1200 and sum(t30)==1800
 
 def rgb(c):return RGBColor.from_string(c)
@@ -135,13 +135,24 @@ s.shapes.add_picture(str(ASSETS/'upca_logo_oficial.png'), Inches(9.7), Inches(.4
 region(s,'phoenix_montagem.jpg',7.1,2.02,5.5,3.76)
 text(s,7.12,5.94,5.4,.52,'HandFab: da configuração à peça',18,TEAL,True)
 
+s=slide('O que motivou o desenvolvimento do projeto?', 'Motivação · Acesso e personalização', 'Manuscrito, 1.1–1.2 e 2.8, Lacuna 5 · Andrysek (2010); Alluhydan et al. (2023); Baumann e Maria (2023).')
+text(s,.85,1.97,11.5,.9,'Dificuldades de acesso a próteses adaptadas,\nparticularmente em contextos de baixos e médios rendimentos.',26,INK,True)
+box(s,.7,3.12,5.8,2.17,WHITE)
+text(s,.95,3.32,5.3,.4,'Barreiras identificadas',23,TEAL,True)
+text(s,.95,3.93,5.3,1.15,'Custo e apoio técnico especializado\nAdaptação, manutenção e infraestrutura',21)
+box(s,6.8,3.12,5.8,2.17,WHITE)
+text(s,7.05,3.32,5.3,.4,'Possibilidade a explorar',23,TEAL,True)
+text(s,7.05,3.93,5.3,1.15,'Modelos abertos e impressão 3D\nConfiguração ajustável e compreensível',21)
+box(s,.7,5.57,11.9,1.06,LIGHT)
+text(s,.95,5.64,11.35,.9,'Desenvolver o HandFab para ligar medidas a modelos configuráveis\ne examinar o resultado até às peças físicas.',22,INK,True)
+
 s=slide('Como passar de uma medida a uma peça?', 'Problema de design', 'Captura do HandFab e fotografias do autor · Configuração e peças ilustram etapas do projeto.')
 region(s,'flexy_parametros.png',.7,2.08,7.1,3.87)
 region(s,'flexy_perfis.jpeg',8.02,2.08,4.58,3.87)
 text(s,.8,6.16,7.0,.45,'Que efeito tem o valor que introduzo?',24,TEAL,True)
 text(s,8.1,6.16,4.5,.45,'O que chega à peça?',24,TEAL,True)
 
-s=slide('Perguntas de investigação e âmbito da avaliação', 'Perguntas e âmbito', 'Síntese das perguntas aprovadas · Formulações integrais no diapositivo 21 · Tabela 31.')
+s=slide('Perguntas de investigação e âmbito da avaliação', 'Perguntas e âmbito', 'Síntese das perguntas aprovadas · Formulações integrais no diapositivo 24 · Tabela 31.')
 card(s,.7,2.05,3.8,'P1','Configuração e controlo','Como apoiar escolhas sobre o modelo?')
 card(s,4.75,2.05,3.8,'P2','Avaliação e reprodução','Como examinar o processo e os resultados?')
 card(s,8.8,2.05,3.8,'P3','Requisitos e experiência','Como responder às necessidades das pessoas?')
@@ -167,6 +178,54 @@ for i,objective in enumerate(objectives):
  text(s,x,y,.42,.34,f'{i+1:02d}',16,TEAL,True)
  text(s,x+.48,y,5.12,.64,objective,17)
 
+# Metodologia e ferramentas de investigação no percurso principal.
+
+s=slide('Como organizei a investigação e o desenvolvimento', 'Metodologia de investigação', 'Manuscrito, 3.1–3.3 e Tabela 4 · Frayling (1994); Zimmerman et al. (2007); Design Council (2007).')
+text(s,.9,1.98,11.5,.45,'Double Diamond: organizar a exploração e a convergência',24,TEAL,True)
+phases=[('01','Descobrir','Literatura e modelos\nNecessidades'),
+        ('02','Definir','Problema e requisitos\nÂmbito da avaliação'),
+        ('03','Desenvolver','Modelos paramétricos\nPlataforma web'),
+        ('04','Entregar','Protótipos\nVerificação técnica')]
+for i,(num,title,body) in enumerate(phases):
+ x=.7+i*3.05
+ box(s,x,2.66,2.75,1.98,WHITE)
+ text(s,x+.17,2.82,2.4,.32,num,15,TEAL,True)
+ text(s,x+.17,3.23,2.4,.4,title,23,INK,True)
+ text(s,x+.17,3.78,2.4,.8,body,17,MUTED)
+ if i<3: text(s,x+2.77,3.35,.27,.4,'›',24,TEAL,True)
+text(s,.9,4.84,11.5,.4,'Os ensaios podem levar à revisão de decisões anteriores.',20,MUTED)
+box(s,.7,5.44,11.9,1.2,LIGHT)
+text(s,.93,5.57,11.4,.4,'Research Through Design: produzir conhecimento através do projeto',22,TEAL,True)
+text(s,.93,6.12,11.4,.33,'Problema observado → decisão → protótipo → ensaio → reflexão e alteração',20,INK)
+
+s=slide('Como integrei a IA na investigação', 'Ferramentas de apoio e objeto de estudo', 'Declaração de utilização de IA e capítulo 6 · Registos locais da pesquisa bibliográfica e do desenvolvimento.')
+box(s,.7,2.02,5.8,3.64,WHITE)
+text(s,.95,2.22,5.3,.45,'No trabalho de investigação',24,TEAL,True)
+text(s,.95,2.94,5.3,.85,'Elicit\nPesquisa e agregação de bibliografia',21,INK,True)
+text(s,.95,4.14,5.3,1.15,'ChatGPT, Codex e Claude\nApoio à organização, redação, revisão\ne desenvolvimento do código',20,MUTED)
+box(s,6.8,2.02,5.8,3.64,WHITE)
+text(s,7.05,2.22,5.3,.45,'Dentro do HandFab',24,TEAL,True)
+text(s,7.05,2.94,5.3,.85,'Sugestões iniciais\nValores para parâmetros existentes',21,INK,True)
+text(s,7.05,4.14,5.3,1.15,'Revisão das propostas\nAplicação de regras geométricas\nVerificação dos efeitos na peça',20,MUTED)
+text(s,.94,5.85,11.4,.85,'O investigador seleciona as fontes, verifica os resultados\ne assume a responsabilidade pelas decisões.',22,TEAL,True)
+
+s=slide('Elicit: da pergunta à bibliografia organizada', 'Pesquisa e revisão da literatura', 'Registos Elicit: pesquisas, relatórios e sessões por secção · Exemplo documentado no pacote da secção 6.1.')
+steps=[('01','Perguntar','Delimitar o tema\ne a secção'),
+       ('02','Pesquisar','Localizar estudos\ncom o Elicit'),
+       ('03','Agregar','Referências e\nsínteses temáticas'),
+       ('04','Verificar','Consultar originais\nAvaliar pertinência'),
+       ('05','Integrar','Organizar fontes\nRedigir a síntese')]
+for i,(num,title,body) in enumerate(steps):
+ x=.7+i*2.43
+ box(s,x,2.11,2.18,2.13,LIGHT if i==3 else WHITE)
+ text(s,x+.16,2.27,1.86,.34,num,17,TEAL,True)
+ text(s,x+.16,2.78,1.86,.4,title,21,INK,True)
+ text(s,x+.16,3.37,1.86,.73,body,16,MUTED)
+ if i<4: text(s,x+2.18,2.86,.25,.4,'›',23,TEAL,True)
+text(s,.94,4.53,11.35,.34,'EXEMPLO: PAPEL DA IA NA CONFIGURAÇÃO PROTÉSICA',13,TEAL,True)
+text(s,.94,5.04,11.35,.76,'Distinguir estudos sobre controlo da prótese de estudos\nsobre apoio à configuração a partir de dados antropométricos.',24,INK,True)
+text(s,.94,6.16,11.35,.4,'Registo local: pergunta, resultados, relatório, referências e notas por secção.',19,MUTED)
+
 # Referências que organizam o argumento
 
 s=slide('Como a literatura orienta o projeto', 'Fundamentação e seleção', 'Referências já mobilizadas no manuscrito · Seleção para esta exposição pela função no argumento.')
@@ -181,12 +240,6 @@ for i,(a,b,c) in enumerate(items):
  text(s,8.4,y+.1,3.95,.62,c,18,MUTED)
 text(s,.94,6.2,11.4,.5,'Critério: utilidade para justificar decisões e interpretar os resultados.',21,INK,True)
 
-
-s=slide('Investigar através do desenvolvimento do protótipo', 'Investigar através do projeto', 'Frayling (1994); Zimmerman et al. (2007) · Tabela 4 · Imagens do percurso de desenvolvimento.')
-region(s,'figura_20_1.png',.7,1.98,6.4,3.97)
-region(s,'paraglider_perfis.jpeg',7.35,1.98,5.25,3.97)
-text(s,.88,6.17,5.9,.4,'Configuração em OpenSCAD',23,TEAL,True)
-text(s,7.46,6.17,5.0,.4,'Peças do Paraglider Hand',23,TEAL,True)
 
 s=slide('HandFab: um percurso com decisões explícitas', 'Escolher um modelo', 'HandFab · Catálogo documentado na Figura 22 do manuscrito · Captura do projeto.')
 screen(s,'figura_22_1.png',(.11,.11,.90,.77))
@@ -290,10 +343,6 @@ s=slide('Repetição e acessibilidade: resultados delimitados', 'Apoio · Verifi
 card(s,.7,2.14,5.8,'7 / 5 / 5','Exportações concluídas','Flexy Beast / Paraglider / Phoenix. Objetivo inicial: 10 por modelo.',3.6)
 card(s,6.8,2.14,5.8,'7 conformes · 5 falhas','Verificação manual','12 itens. A auditoria identificou barreiras a corrigir.',3.6)
 
-s=slide('Dois usos de inteligência artificial', 'Apoio · Transparência e responsabilidade', 'Fonte: declaração inicial do manuscrito e capítulo 6.')
-card(s,.7,2.14,5.8,'Na elaboração','Ferramentas de apoio','Pesquisa e organização, texto, código e ficheiros complementares.',3.6)
-card(s,6.8,2.14,5.8,'No HandFab','Objeto de investigação','Sugestões iniciais de parâmetros, sujeitas a revisão.',3.6)
-text(s,.94,5.99,11.3,.7,'O autor assume a responsabilidade pelo conteúdo e pelas decisões do projeto.',21,TEAL,True)
 # Referências de apoio: design
 
 s=slide('Referências: design e investigação', 'Apoio · Referências', 'Seleção da bibliografia do manuscrito · A ligação ao HandFab é uma interpretação aplicada ao projeto.')
@@ -318,7 +367,7 @@ for i,(a,b) in enumerate(refs):
  text(s,.8,y,3.05,.7,a,18,TEAL,True);text(s,4.03,y,8.48,.78,b,17)
 
 falas=ler_falas()
-assert len(falas)==len(records)==len(prs.slides)==28
+assert len(falas)==len(records)==len(prs.slides)==30
 for s, record in zip(prs.slides, records):
     n=record['numero']; f=falas[n]
     assert record['titulo']==f['titulo'], (n, record['titulo'], f['titulo'])
@@ -333,8 +382,8 @@ for s, record in zip(prs.slides, records):
 
 out=HERE/'apresentacao_defesa.pptx';prs.save(out)
 (HERE/'diapositivos.json').write_text(json.dumps(records,ensure_ascii=False,indent=2)+'\n')
-sources=[ASSETS/'upca_logo_oficial.svg',ASSETS/'upca_logo_oficial.png',ROOT/'pedro-candeias-projeto-mestrado-mdddp-ipca-2026-revisto_v1_06102026-0210.odt',ROOT/'a30759_pedro-candeias-projeto-mestrado-mdddp-ipca-v10060211.pdf',ROOT/'docs/defesa/guiao_apresentacao.md',HERE/'guiao_falado.md',ROOT/'suplementos/01_dados_antropometricos/descricao_do_suplemento_1.md',ROOT/'suplementos/01_dados_antropometricos/multi_population_hand.csv',CSV,PHOTO,ROOT/'suplementos/04_preparacao_impressao_prototipos/registos/resultados_serie_b.csv',ROOT/'suplementos/04_preparacao_impressao_prototipos/registos/montagem_phoenix_15_anos.csv']
-manifest={'data':'2026-10-12','estado':'Versão 1.5: apresentação visual do projeto, com notas pessoais; sujeita a ensaio','formato':'16:9','diapositivos_principais':MAIN_SLIDES,'apoio':8,'tempo_principal_segundos':sum(t20),'tempo_treino_segundos':sum(t30),'fontes':[{'caminho':str(p.relative_to(ROOT)),'sha256':hashlib.sha256(p.read_bytes()).hexdigest()} for p in sources],'fotografias':'Capturas existentes do HandFab e fotografias originais do Suplemento 4. Ficheiros integrais incorporados; enquadramentos proporcionais registados em imagens_diapositivos.json.','grafico':'Amplitude min/max de desvio_malha_peca_mm por modelo/material; 12 valores por grupo; sem inferência estatística.','pendencias':['Confirmar condições e data da defesa.','Alinhar as conclusões do manuscrito com o registo de montagem Phoenix.','Conferir a entrada bibliográfica incompleta de Frayling, preservada conforme o manuscrito.','Ensaiar e ajustar o tempo; não houve ensaio cronometrado nem gravação de demonstração.']}
+sources=[ASSETS/'upca_logo_oficial.svg',ASSETS/'upca_logo_oficial.png',ROOT/'pedro-candeias-projeto-mestrado-mdddp-ipca-2026-revisto_v1_06102026-0210.odt',ROOT/'a30759_pedro-candeias-projeto-mestrado-mdddp-ipca-v10060211.pdf',ROOT/'pedro-candeias-projeto-mestrado-mdddp-ipca-2026-revisto_v1_23102026-1047.odt',ROOT/'docs/defesa/guiao_apresentacao.md',ROOT/'material/investigacao/elicit/capitulo-6/6.1/searches/search-03.md',ROOT/'material/investigacao/elicit/capitulo-6/6.1/reports/5aaf1fab-74a5-4a0b-a871-eadf2ec0e219/notes.md',ROOT/'material/investigacao/elicit/agent-sessions/INDEX.md',HERE/'guiao_falado.md',ROOT/'suplementos/01_dados_antropometricos/descricao_do_suplemento_1.md',ROOT/'suplementos/01_dados_antropometricos/multi_population_hand.csv',CSV,PHOTO,ROOT/'suplementos/04_preparacao_impressao_prototipos/registos/resultados_serie_b.csv',ROOT/'suplementos/04_preparacao_impressao_prototipos/registos/montagem_phoenix_15_anos.csv']
+manifest={'data':'2026-10-25','estado':'Versão 1.6: motivação do desenvolvimento, metodologia e pesquisa bibliográfica com IA e Elicit; sujeita a ensaio','formato':'16:9','diapositivos_principais':MAIN_SLIDES,'apoio':7,'tempo_principal_segundos':sum(t20),'tempo_treino_segundos':sum(t30),'fontes':[{'caminho':str(p.relative_to(ROOT)),'sha256':hashlib.sha256(p.read_bytes()).hexdigest()} for p in sources],'fotografias':'Capturas existentes do HandFab e fotografias originais do Suplemento 4. Ficheiros integrais incorporados; enquadramentos proporcionais registados em imagens_diapositivos.json.','grafico':'Amplitude min/max de desvio_malha_peca_mm por modelo/material; 12 valores por grupo; sem inferência estatística.','pendencias':['Confirmar condições e data da defesa.','Alinhar as conclusões do manuscrito com o registo de montagem Phoenix.','Conferir a entrada bibliográfica incompleta de Frayling, preservada conforme o manuscrito.','Ensaiar e ajustar o tempo; não houve ensaio cronometrado nem gravação de demonstração.']}
 (HERE/'manifesto.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n')
 print(out, len(prs.slides),'diapositivos; notas em todos; percurso principal 20 min; treino 30 min.')
 

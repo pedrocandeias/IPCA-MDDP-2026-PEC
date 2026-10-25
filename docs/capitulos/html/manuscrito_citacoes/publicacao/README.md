@@ -25,7 +25,7 @@ As fontes editáveis da apresentação encontram-se em `tools/conversao/homepage
 
 Os documentos da defesa estão disponíveis em `docs/defesa/` no repositório. A homepage não apresenta uma secção nem ligações para a defesa. As cópias publicadas anteriormente mantêm os seus endereços diretos. A publicação copia apenas os oito ficheiros declarados em `DEFENSE_FILES`, de `docs/defesa/` para `dist/defesa/`. As perguntas do júri estão disponíveis nos endereços diretos `defesa/perguntas_juri.pdf` e `defesa/perguntas_juri.odt`. A pasta pessoal `guia_leitura_local/` está excluída desta lista e do Git.
 
-O gerador escreve `dist/index.html`, `dist/en.html`, `dist/manuscrito.html` e os recursos partilhados em `dist/assets/`. O manuscrito deriva do HTML local validado e mantém os dados, as imagens e os painéis de citações. A versão de alojamento retira 407 ligações a PDFs locais, preservando referências, excertos e ligações DOI/URL. Os PDFs da biblioteca não integram o pacote.
+O gerador escreve `dist/index.html`, `dist/en.html`, `dist/manuscrito.html` e os recursos partilhados em `dist/assets/`. O manuscrito deriva do HTML local validado e mantém os dados, as imagens e os painéis de citações. A versão de alojamento retira 405 ligações a PDFs locais, preservando referências, excertos e ligações DOI/URL. Os PDFs da biblioteca não integram o pacote.
 
 As imagens da apresentação e as 34 imagens do manuscrito abrem uma lightbox acessível por clique ou teclado, com ajuste ao ecrã, tamanho original, deslocação e fecho por botão, Escape ou clique fora da imagem. O visualizador usa o ficheiro original disponível; não acrescenta resolução artificial.
 
@@ -43,4 +43,8 @@ As alterações pendentes do manuscrito na branch `main` são independentes dest
 
 ## Excertos das citações
 
-A publicação inclui 416 explicações fornecidas pelo autor, apresentadas em «Relação com o texto», e 408 associações com excerto (auditoria Markdown, matriz histórica Excel e seis PDFs consultados diretamente). Oito associações permanecem sem transcrição, com notas específicas. Os painéis mostram a explicação correspondente a cada fonte, os excertos e as páginas, sem os caminhos internos nem o antigo bloco de avaliação histórica. Os registos de auditoria mantêm-se nos dados de apoio. Ver os relatórios em `../`.
+A publicação inclui 415 explicações reconciliadas com a versão atual, a partir das notas fornecidas pelo autor, apresentadas em «Relação com o texto», e 406 associações com excerto (auditoria Markdown, matriz histórica Excel e seis PDFs consultados diretamente). Nove associações permanecem sem transcrição, com notas específicas. Os painéis mostram a explicação correspondente a cada fonte, os excertos e as páginas, sem os caminhos internos nem o antigo bloco de avaliação histórica. Os registos de auditoria mantêm-se nos dados de apoio. Ver os relatórios em `../`.
+
+## Edição de 25/10/2026
+
+O pacote usa o manuscrito gravado em 25/10/2026, com 268 citações interativas, 425 ligações nos índices, 53 tabelas e 34 imagens. Inclui também a apresentação da defesa 1.6 e os guiões revistos. O manifesto da publicação identifica os ficheiros locais; `deploy_github.json` identifica separadamente a versão efetivamente publicada e a conferência dos endereços públicos.

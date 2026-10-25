@@ -1,9 +1,9 @@
 {
-  "data": "2026-10-12",
-  "estado": "Versão 1.5: apresentação visual do projeto, com notas pessoais; sujeita a ensaio",
+  "data": "2026-10-25",
+  "estado": "Versão 1.6: motivação do desenvolvimento, metodologia e pesquisa bibliográfica com IA e Elicit; sujeita a ensaio",
   "formato": "16:9",
-  "diapositivos_principais": 20,
-  "apoio": 8,
+  "diapositivos_principais": 23,
+  "apoio": 7,
   "tempo_principal_segundos": 1200,
   "tempo_treino_segundos": 1800,
   "fontes": [
@@ -24,12 +24,28 @@
       "sha256": "bedb42e8a64cb17ceda97ffd81b08185f1c77d1b474c5bfe1fdea5bddf291d9e"
     },
     {
+      "caminho": "pedro-candeias-projeto-mestrado-mdddp-ipca-2026-revisto_v1_23102026-1047.odt",
+      "sha256": "48ba05210559b65d2c19d6b0239bd17b06edccb38da1966caafe3305a75ef035"
+    },
+    {
       "caminho": "docs/defesa/guiao_apresentacao.md",
-      "sha256": "45b85c110e509d6117dca70bfcebad158f42cfc668b73adb819f641fc00f0235"
+      "sha256": "c65b44dd7d4394e6fec70fda178328e30d836a590ba5c7701185a8d02a493094"
+    },
+    {
+      "caminho": "material/investigacao/elicit/capitulo-6/6.1/searches/search-03.md",
+      "sha256": "35885bd03e0f68df691bde6b48c0033523d22be1ca69b2c756968aa91141f833"
+    },
+    {
+      "caminho": "material/investigacao/elicit/capitulo-6/6.1/reports/5aaf1fab-74a5-4a0b-a871-eadf2ec0e219/notes.md",
+      "sha256": "d0d5e3fe6966de36ffe0032b09006721d0b5c94f1d003a7a128582694518f768"
+    },
+    {
+      "caminho": "material/investigacao/elicit/agent-sessions/INDEX.md",
+      "sha256": "eb36f8bc4e4c40b325eece438e11130849f2e6eccc7d9f0eca6b6ee18f586b5b"
     },
     {
       "caminho": "docs/defesa/apresentacao/guiao_falado.md",
-      "sha256": "ecf61cc41eaff31ff1daec6525b75b9f56f74d391b43641246c284d3e611a619"
+      "sha256": "4de6e06781ec49770aa6095b7d02aff8a200a5b988e9bc912db071ae0a97c27a"
     },
     {
       "caminho": "suplementos/01_dados_antropometricos/descricao_do_suplemento_1.md",

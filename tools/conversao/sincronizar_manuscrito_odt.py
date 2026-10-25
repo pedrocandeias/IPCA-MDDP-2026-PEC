@@ -169,7 +169,16 @@ def main():
                       'referencias_internas_sem_destino_convertidas_em_texto': sorted(set(unresolved)), 'imagens': manifest})
         args.report.parent.mkdir(parents=True, exist_ok=True)
         args.report.write_text(json.dumps(stats, ensure_ascii=False, indent=2)+'\n')
-        (args.assets/'proveniencia.json').write_text(json.dumps({'fonte': str(args.source), 'metodo': 'Extração direta do ZIP ODT por tools/conversao/sincronizar_manuscrito_odt.py; sem alteração das imagens.', 'imagens': manifest}, ensure_ascii=False, indent=2)+'\n')
+        repository_root = Path(__file__).resolve().parents[2]
+        try:
+            asset_group = args.assets.resolve().relative_to(repository_root / 'componentes/figuras')
+        except ValueError:
+            # Temporary HTML conversions keep their image provenance temporary.
+            provenance_dir = args.report.parent
+        else:
+            provenance_dir = repository_root / 'docs/desenvolvimento/figuras' / asset_group
+        provenance_dir.mkdir(parents=True, exist_ok=True)
+        (provenance_dir/'proveniencia.json').write_text(json.dumps({'fonte': str(args.source), 'metodo': 'Extração direta do ZIP ODT por tools/conversao/sincronizar_manuscrito_odt.py; sem alteração das imagens.', 'imagens': manifest}, ensure_ascii=False, indent=2)+'\n')
     assert args.source.read_bytes() == original
     print(json.dumps({k:v for k,v in stats.items() if k not in ('imagens', 'referencias_internas_sem_destino_convertidas_em_texto')}, ensure_ascii=False, indent=2))
 

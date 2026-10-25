@@ -1,0 +1,780 @@
+{
+  "date": "2026-10-25",
+  "source": "pedro-candeias-projeto-mestrado-mdddp-ipca-2026-revisto_v1_23102026-1047.odt",
+  "source_sha256": "f5255278485d7a04bf9a3dde3064315be6cef1ac33da26b3cb0f125b101d0f2d",
+  "backup": "docs/versoes/backups/html_2026-10-25_20-51-23_antes_atualizacao_manuscrito.zip",
+  "method": "Comparação das passagens ODT e dos identificadores de obra; revisão das alterações textuais e reassociação explícita das ocorrências manuais. TXT originais preservados; sem nova auditoria integral das fontes.",
+  "citations_before": 269,
+  "citations_after": 268,
+  "notes_before": 416,
+  "notes_after": 415,
+  "entries": [
+    {
+      "citation_id": "ce216838",
+      "previous_citation_id": "ce216838",
+      "previous_context": "Apesar da evolução tecnológica, o abandono das próteses de membro superior continua a ter expressão. (Smail et al., 2021) agrupam as razões identificadas sobretudo em duas áreas - conforto e função - e apontam o peso, a temperatura e a transpiração como alguns dos problemas de conforto mais persistentes. (Biddiss et al., 2007) e (Fink & Diamond, 2023), acrescentam que o peso, o conforto, o controlo e o ajuste do encaixe são aspetos relevantes para as prioridades dos utilizadores e para o processo de escolha e acompanhamento da prótese. Estes resultados indicam que a melhoria tecnológica não garante, por si só, a utilização continuada e que as decisões de design devem atender à experiência física e funcional do utilizador.",
+      "context": "Apesar da evolução tecnológica, o abandono das próteses de membro superior continua a ter expressão. (Smail et al., 2021) agrupam as razões identificadas sobretudo em duas áreas - conforto e função - e apontam o peso, a temperatura e a transpiração como alguns dos problemas de conforto mais persistentes. Biddiss et al. (2007) e Fink & Diamond (2023), acrescentam que o peso, o conforto, o controlo e o ajuste do encaixe são aspetos relevantes para as prioridades dos utilizadores e para o processo de escolha e acompanhamento da prótese. Estes resultados indicam que a melhoria tecnológica não garante, por si só, a utilização continuada e que as decisões de design devem atender à experiência física e funcional do utilizador.",
+      "previous_context_sha256": "11f5521924d201e22f7bd97d02c146084513a12e85b244183239a6271334cb39",
+      "context_sha256": "9cf6918f147045f61c714d3298fe427e11e5fdaa8aaa9a006efcca7f6d365cee",
+      "reason": "Alteração de pontuação, espaços ou apresentação da citação; preservado o conteúdo da explicação.",
+      "explanation_edits": []
+    },
+    {
+      "citation_id": "820414b1",
+      "previous_citation_id": "820414b1",
+      "previous_context": "Apesar da evolução tecnológica, o abandono das próteses de membro superior continua a ter expressão. (Smail et al., 2021) agrupam as razões identificadas sobretudo em duas áreas - conforto e função - e apontam o peso, a temperatura e a transpiração como alguns dos problemas de conforto mais persistentes. (Biddiss et al., 2007) e (Fink & Diamond, 2023), acrescentam que o peso, o conforto, o controlo e o ajuste do encaixe são aspetos relevantes para as prioridades dos utilizadores e para o processo de escolha e acompanhamento da prótese. Estes resultados indicam que a melhoria tecnológica não garante, por si só, a utilização continuada e que as decisões de design devem atender à experiência física e funcional do utilizador.",
+      "context": "Apesar da evolução tecnológica, o abandono das próteses de membro superior continua a ter expressão. (Smail et al., 2021) agrupam as razões identificadas sobretudo em duas áreas - conforto e função - e apontam o peso, a temperatura e a transpiração como alguns dos problemas de conforto mais persistentes. Biddiss et al. (2007) e Fink & Diamond (2023), acrescentam que o peso, o conforto, o controlo e o ajuste do encaixe são aspetos relevantes para as prioridades dos utilizadores e para o processo de escolha e acompanhamento da prótese. Estes resultados indicam que a melhoria tecnológica não garante, por si só, a utilização continuada e que as decisões de design devem atender à experiência física e funcional do utilizador.",
+      "previous_context_sha256": "11f5521924d201e22f7bd97d02c146084513a12e85b244183239a6271334cb39",
+      "context_sha256": "9cf6918f147045f61c714d3298fe427e11e5fdaa8aaa9a006efcca7f6d365cee",
+      "reason": "Alteração de pontuação, espaços ou apresentação da citação; preservado o conteúdo da explicação.",
+      "explanation_edits": []
+    },
+    {
+      "citation_id": "f7692ade",
+      "previous_citation_id": "f7692ade",
+      "previous_context": "Apesar da evolução tecnológica, o abandono das próteses de membro superior continua a ter expressão. (Smail et al., 2021) agrupam as razões identificadas sobretudo em duas áreas - conforto e função - e apontam o peso, a temperatura e a transpiração como alguns dos problemas de conforto mais persistentes. (Biddiss et al., 2007) e (Fink & Diamond, 2023), acrescentam que o peso, o conforto, o controlo e o ajuste do encaixe são aspetos relevantes para as prioridades dos utilizadores e para o processo de escolha e acompanhamento da prótese. Estes resultados indicam que a melhoria tecnológica não garante, por si só, a utilização continuada e que as decisões de design devem atender à experiência física e funcional do utilizador.",
+      "context": "Apesar da evolução tecnológica, o abandono das próteses de membro superior continua a ter expressão. (Smail et al., 2021) agrupam as razões identificadas sobretudo em duas áreas - conforto e função - e apontam o peso, a temperatura e a transpiração como alguns dos problemas de conforto mais persistentes. Biddiss et al. (2007) e Fink & Diamond (2023), acrescentam que o peso, o conforto, o controlo e o ajuste do encaixe são aspetos relevantes para as prioridades dos utilizadores e para o processo de escolha e acompanhamento da prótese. Estes resultados indicam que a melhoria tecnológica não garante, por si só, a utilização continuada e que as decisões de design devem atender à experiência física e funcional do utilizador.",
+      "previous_context_sha256": "11f5521924d201e22f7bd97d02c146084513a12e85b244183239a6271334cb39",
+      "context_sha256": "9cf6918f147045f61c714d3298fe427e11e5fdaa8aaa9a006efcca7f6d365cee",
+      "reason": "Alteração de pontuação, espaços ou apresentação da citação; preservado o conteúdo da explicação.",
+      "explanation_edits": []
+    },
+    {
+      "citation_id": "a4cd0a70",
+      "previous_citation_id": "a4cd0a70",
+      "previous_context": "As próteses de membro superior são classificadas como dispositivos médicos e estão sujeitas a regulamentação específica destinada a garantir a segurança, o desempenho e a vigilância durante todo o ciclo de vida. Na União Europeia, este enquadramento é estabelecido pelo (Parlamento Europeu e do Conselho Europeu, 2017), habitualmente designado pela sigla inglesa MDR (Medical Device Regulation). Nos termos do artigo 51.º, os dispositivos são integrados nas classes I, IIa, IIb e III, consoante a finalidade prevista e os riscos intrínsecos, de acordo com as regras do Anexo VIII. A classe de uma prótese de membro superior, incluindo uma prótese mioelétrica, não depende, portanto, apenas do tipo de acionamento, mas também das características e da finalidade previstas para o dispositivo. Antes da colocação no mercado, o fabricante deve aplicar o procedimento de avaliação da conformidade correspondente. Os dispositivos considerados conformes ostentam a marcação CE, e nas classes IIa, IIb e III, o procedimento envolve um organismo notificado (Parlamento Europeu e do Conselho Europeu, 2017).",
+      "context": "As próteses de membro superior são classificadas como dispositivos médicos e estão sujeitas a regulamentação específica destinada a garantir a segurança, o desempenho e a vigilância durante todo o ciclo de vida. Na União Europeia, este enquadramento é estabelecido pelo (Parlamento Europeu e do Conselho Europeu, 2017), habitualmente designado pela sigla inglesa MDR (Medical Device Regulation). Nos termos do artigo 51.º, os dispositivos são integrados nas classes I, IIa, IIb e III, consoante a finalidade prevista e os riscos intrínsecos, de acordo com as regras do Anexo VIII. A classe de uma prótese de membro superior, incluindo uma prótese mioelétrica, não depende, portanto, apenas do tipo de acionamento, mas também das características e da finalidade previstas para o dispositivo. Antes da colocação no mercado, o fabricante deve aplicar o procedimento de avaliação da conformidade correspondente. Os dispositivos considerados conformes ostentam a marcação CE, e nas classes IIa, IIb e III, este procedimento exige a intervenção de um organismo notificado, uma entidade independente, designada por um Estado-Membro da União Europeia para verificar o cumprimento dos requisitos regulamentares. Os dispositivos que cumprem os requisitos aplicáveis podem ostentar a marcação CE (Parlamento Europeu e do Conselho Europeu, 2017).",
+      "previous_context_sha256": "aadd9aacefa54ebe8eb1431e17b7a374d91551724a803edecb2058b0bae10a00",
+      "context_sha256": "fe6f61d1ba8519d2f6bbacf33a2fcc74d6a9b83508955336b05bb0c7aad12a21",
+      "reason": "Passagem revista conferida com a explicação existente; o contributo atribuído à fonte permanece compatível. Não constitui nova auditoria da evidência.",
+      "explanation_edits": []
+    },
+    {
+      "citation_id": "9e85e39a",
+      "previous_citation_id": "9e85e39a",
+      "previous_context": "As próteses de membro superior são classificadas como dispositivos médicos e estão sujeitas a regulamentação específica destinada a garantir a segurança, o desempenho e a vigilância durante todo o ciclo de vida. Na União Europeia, este enquadramento é estabelecido pelo (Parlamento Europeu e do Conselho Europeu, 2017), habitualmente designado pela sigla inglesa MDR (Medical Device Regulation). Nos termos do artigo 51.º, os dispositivos são integrados nas classes I, IIa, IIb e III, consoante a finalidade prevista e os riscos intrínsecos, de acordo com as regras do Anexo VIII. A classe de uma prótese de membro superior, incluindo uma prótese mioelétrica, não depende, portanto, apenas do tipo de acionamento, mas também das características e da finalidade previstas para o dispositivo. Antes da colocação no mercado, o fabricante deve aplicar o procedimento de avaliação da conformidade correspondente. Os dispositivos considerados conformes ostentam a marcação CE, e nas classes IIa, IIb e III, o procedimento envolve um organismo notificado (Parlamento Europeu e do Conselho Europeu, 2017).",
+      "context": "As próteses de membro superior são classificadas como dispositivos médicos e estão sujeitas a regulamentação específica destinada a garantir a segurança, o desempenho e a vigilância durante todo o ciclo de vida. Na União Europeia, este enquadramento é estabelecido pelo (Parlamento Europeu e do Conselho Europeu, 2017), habitualmente designado pela sigla inglesa MDR (Medical Device Regulation). Nos termos do artigo 51.º, os dispositivos são integrados nas classes I, IIa, IIb e III, consoante a finalidade prevista e os riscos intrínsecos, de acordo com as regras do Anexo VIII. A classe de uma prótese de membro superior, incluindo uma prótese mioelétrica, não depende, portanto, apenas do tipo de acionamento, mas também das características e da finalidade previstas para o dispositivo. Antes da colocação no mercado, o fabricante deve aplicar o procedimento de avaliação da conformidade correspondente. Os dispositivos considerados conformes ostentam a marcação CE, e nas classes IIa, IIb e III, este procedimento exige a intervenção de um organismo notificado, uma entidade independente, designada por um Estado-Membro da União Europeia para verificar o cumprimento dos requisitos regulamentares. Os dispositivos que cumprem os requisitos aplicáveis podem ostentar a marcação CE (Parlamento Europeu e do Conselho Europeu, 2017).",
+      "previous_context_sha256": "aadd9aacefa54ebe8eb1431e17b7a374d91551724a803edecb2058b0bae10a00",
+      "context_sha256": "fe6f61d1ba8519d2f6bbacf33a2fcc74d6a9b83508955336b05bb0c7aad12a21",
+      "reason": "Passagem revista conferida com a explicação existente; o contributo atribuído à fonte permanece compatível. Não constitui nova auditoria da evidência.",
+      "explanation_edits": []
+    },
+    {
+      "citation_id": "ca33529e",
+      "previous_citation_id": "ca33529e",
+      "previous_context": "A demonstração da segurança e do desempenho requer uma avaliação clínica sistemática, testes de biocompatibilidade, avaliação da segurança mecânica e elétrica, validação de software e consideração explícita dos fatores humanos e da usabilidade. O comité técnico ISO/TC 168 normaliza aspetos como o desempenho, a segurança, os fatores ambientais e a possibilidade de intercâmbio entre componentes de próteses e ortóteses (International Organization for Standardization, n.d.). Preparada por este comité, a ISO 8549-1:2020 estabelece a terminologia geral do domínio (International Organization for Standardization, 2020). Os fabricantes devem ainda implementar sistemas de vigilância pós-comercialização e recolher dados de uso real durante o ciclo de vida do dispositivo. Esta exigência reforça a natureza regulada e iterativa do domínio, bem como a necessidade de sustentar a sua evolução em evidência (Parlamento Europeu & Conselho da União Europeia, 2017).",
+      "context": "A demonstração da segurança e do desempenho requer uma avaliação clínica sistemática, testes de biocompatibilidade, avaliação da segurança mecânica e elétrica, validação de software e consideração explícita dos fatores humanos e da usabilidade. O comité técnico ISO/TC 168 normaliza aspetos como o desempenho, a segurança, os fatores ambientais e a possibilidade de intercâmbio entre componentes de próteses e ortóteses (International Organization for Standardization, 2020). Preparada por este comité, a ISO 8549-1:2020 estabelece a terminologia geral do domínio (International Organization for Standardization, 2020). Os fabricantes devem ainda implementar sistemas de vigilância pós-comercialização e recolher dados de uso real durante o ciclo de vida do dispositivo. Esta exigência reforça a natureza regulada e iterativa do domínio, bem como a necessidade de sustentar a sua evolução em evidência (Parlamento Europeu & Conselho da União Europeia, 2017).",
+      "previous_context_sha256": "f1d8329a2128159ec945f1ac486e91604ae5d38db800e1f55792c97dcbb2543b",
+      "context_sha256": "bec7aef72ce57032a8c8f4cfb352a6c51645238e5c19735244d41d7aa07a7ee7",
+      "reason": "Data visível editada no manuscrito; mantida a identidade da fonte e a explicação do seu contributo, sem alterar os metadados bibliográficos originais.",
+      "explanation_edits": []
+    },
+    {
+      "citation_id": "2718258b",
+      "previous_citation_id": "2718258b",
+      "previous_context": "A demonstração da segurança e do desempenho requer uma avaliação clínica sistemática, testes de biocompatibilidade, avaliação da segurança mecânica e elétrica, validação de software e consideração explícita dos fatores humanos e da usabilidade. O comité técnico ISO/TC 168 normaliza aspetos como o desempenho, a segurança, os fatores ambientais e a possibilidade de intercâmbio entre componentes de próteses e ortóteses (International Organization for Standardization, n.d.). Preparada por este comité, a ISO 8549-1:2020 estabelece a terminologia geral do domínio (International Organization for Standardization, 2020). Os fabricantes devem ainda implementar sistemas de vigilância pós-comercialização e recolher dados de uso real durante o ciclo de vida do dispositivo. Esta exigência reforça a natureza regulada e iterativa do domínio, bem como a necessidade de sustentar a sua evolução em evidência (Parlamento Europeu & Conselho da União Europeia, 2017).",
+      "context": "A demonstração da segurança e do desempenho requer uma avaliação clínica sistemática, testes de biocompatibilidade, avaliação da segurança mecânica e elétrica, validação de software e consideração explícita dos fatores humanos e da usabilidade. O comité técnico ISO/TC 168 normaliza aspetos como o desempenho, a segurança, os fatores ambientais e a possibilidade de intercâmbio entre componentes de próteses e ortóteses (International Organization for Standardization, 2020). Preparada por este comité, a ISO 8549-1:2020 estabelece a terminologia geral do domínio (International Organization for Standardization, 2020). Os fabricantes devem ainda implementar sistemas de vigilância pós-comercialização e recolher dados de uso real durante o ciclo de vida do dispositivo. Esta exigência reforça a natureza regulada e iterativa do domínio, bem como a necessidade de sustentar a sua evolução em evidência (Parlamento Europeu & Conselho da União Europeia, 2017).",
+      "previous_context_sha256": "f1d8329a2128159ec945f1ac486e91604ae5d38db800e1f55792c97dcbb2543b",
+      "context_sha256": "bec7aef72ce57032a8c8f4cfb352a6c51645238e5c19735244d41d7aa07a7ee7",
+      "reason": "Data visível editada no manuscrito; mantida a identidade da fonte e a explicação do seu contributo, sem alterar os metadados bibliográficos originais.",
+      "explanation_edits": []
+    },
+    {
+      "citation_id": "2177557e",
+      "previous_citation_id": "2177557e",
+      "previous_context": "Nas tecnologias de apoio, em particular, o design é descrito como um mediador da interação entre os utilizadores e o meio envolvente, contribuindo para reduzir barreiras funcionais e sociais e, por conseguinte, para melhorar os resultados de participação e a qualidade de vida (Clarkson & Coleman, 2010; Shah & Robinson, 2006)(Adel et al., 2020)",
+      "context": "Nas tecnologias de apoio, em particular, o design é descrito como um mediador da interação entre os utilizadores e o meio envolvente, contribuindo para reduzir barreiras funcionais e sociais e, por conseguinte, para melhorar os resultados de participação e a qualidade de vida (Clarkson & Coleman, 2010; Shah & Robinson, 2006; Adel et al., 2020).",
+      "previous_context_sha256": "55a2694ea8771091cba810af22e5ed45e2b5c183ff9b0881ef654f0ffe23fc6d",
+      "context_sha256": "b6f5d2ea7c3f693054563b0aff98fa1439705904ab205b8bf33a0b0d4dd467a9",
+      "reason": "Alteração de pontuação, espaços ou apresentação da citação; preservado o conteúdo da explicação.",
+      "explanation_edits": []
+    },
+    {
+      "citation_id": "12edca6a",
+      "previous_citation_id": "12edca6a",
+      "previous_context": "Nas tecnologias de apoio, em particular, o design é descrito como um mediador da interação entre os utilizadores e o meio envolvente, contribuindo para reduzir barreiras funcionais e sociais e, por conseguinte, para melhorar os resultados de participação e a qualidade de vida (Clarkson & Coleman, 2010; Shah & Robinson, 2006)(Adel et al., 2020)",
+      "context": "Nas tecnologias de apoio, em particular, o design é descrito como um mediador da interação entre os utilizadores e o meio envolvente, contribuindo para reduzir barreiras funcionais e sociais e, por conseguinte, para melhorar os resultados de participação e a qualidade de vida (Clarkson & Coleman, 2010; Shah & Robinson, 2006; Adel et al., 2020).",
+      "previous_context_sha256": "55a2694ea8771091cba810af22e5ed45e2b5c183ff9b0881ef654f0ffe23fc6d",
+      "context_sha256": "b6f5d2ea7c3f693054563b0aff98fa1439705904ab205b8bf33a0b0d4dd467a9",
+      "reason": "Alteração de pontuação, espaços ou apresentação da citação; preservado o conteúdo da explicação.",
+      "explanation_edits": []
+    },
+    {
+      "citation_id": "8f1da92c",
+      "previous_citation_id": "8f1da92c",
+      "previous_context": "(Shah & Robinson, 2006) demonstram que os utilizadores podem participar no desenvolvimento de tecnologias de saúde durante as fases de definição do conceito, desenvolvimento, teste e implementação. Para esse envolvimento, podem ser utilizados métodos como entrevistas, questionários, testes de usabilidade, simulações, atividades colaborativas de definição e desenvolvimento de soluções e discussões orientadas em grupo.",
+      "context": "Shah & Robinson (2006) demonstram que os utilizadores podem participar no desenvolvimento de tecnologias de saúde durante as fases de definição do conceito, desenvolvimento, teste e implementação. Para esse envolvimento, podem ser utilizados métodos como entrevistas, questionários, testes de usabilidade, simulações, atividades colaborativas de definição e desenvolvimento de soluções e discussões orientadas em grupo.",
+      "previous_context_sha256": "79439bf5ea7d26c8f568c0e2aff17f34f3634dcf32a47c176066f87692afb9f8",
+      "context_sha256": "56946b61f962dea2bdb90075a401c3eb97edec7a9829187b06e044f157ee9be3",
+      "reason": "Alteração de pontuação, espaços ou apresentação da citação; preservado o conteúdo da explicação.",
+      "explanation_edits": []
+    },
+    {
+      "citation_id": "65c575e9",
+      "previous_citation_id": "65c575e9",
+      "previous_context": "No domínio hospitalar e dos serviços de saúde, as ferramentas de avaliação baseadas em critérios de design universal e de design para todos (Design for All) recorrem a sistemas de análise multicritério e a listas de verificação estruturadas para aferir os níveis de inclusão (White & Mosca, 2022).",
+      "context": "No domínio hospitalar e dos serviços de saúde, as ferramentas de avaliação baseadas em critérios de design universal e de design para todos (Design for All)2O Design for All (design para todos) é uma abordagem de conceção de produtos, serviços e ambientes que considera a diversidade das características e capacidades humanas, procurando reduzir barreiras à utilização e promover a acessibilidade, a inclusão e a igualdade de participação. recorrem a sistemas de análise multicritério e a listas de verificação estruturadas para aferir os níveis de inclusão (White & Mosca, 2022).",
+      "previous_context_sha256": "7b30dbda6c757767c55cfce7e06e6991272fee445032aba379c0793c4b6b3995",
+      "context_sha256": "9cd172ca2855796841c48c7faee0dc8db9a9f924f03b80e8b33579eb7b28fc17",
+      "reason": "Inserção de definições ou renumeração de notas de rodapé; a explicação continua a referir-se ao mesmo contributo da obra no parágrafo.",
+      "explanation_edits": []
+    },
+    {
+      "citation_id": "e50802f3",
+      "previous_citation_id": "e50802f3",
+      "previous_context": "Na seleção de tecnologias de apoio, o modelo Matching Person and Technology (MPT) procura relacionar as capacidades e perspetivas da pessoa com uma tecnologia específica e com o ambiente em que esta será utilizada (van Niekerk et al., 2018). A Classificação Internacional de Funcionalidade, Incapacidade e Saúde (ICF), por sua vez, considera a interação entre a condição de saúde e os fatores pessoais e ambientais, que incluem os produtos e as tecnologias (Howard et al., 2022b). No âmbito do design, estes enquadramentos mostram que a adequação do dispositivo depende não só das suas características técnicas, mas também da correspondência com as necessidades da pessoa e o seu contexto de utilização.",
+      "context": "Na seleção de tecnologias de apoio, o modelo Matching Person and Technology (MPT) procura relacionar as capacidades e perspetivas da pessoa com uma tecnologia específica e com o ambiente em que esta será utilizada (van Niekerk et al., 2018). A Classificação Internacional de Funcionalidade, Incapacidade e Saúde (ICF)3A CIF/ICF é uma classificação da Organização Mundial da Saúde (OMS) que descreve a funcionalidade e a incapacidade, considerando as funções corporais, as atividades, a participação e os fatores ambientais., por sua vez, considera a interação entre a condição de saúde e os fatores pessoais e ambientais, que incluem os produtos e as tecnologias (Howard et al., 2022b). No âmbito do design, estes enquadramentos mostram que a adequação do dispositivo depende não só das suas características técnicas, mas também da correspondência com as necessidades da pessoa e o seu contexto de utilização.",
+      "previous_context_sha256": "9f6a1399682b11c112303e7a90d1a716e6554fe629b412f7668a6cdc33c29acf",
+      "context_sha256": "1bf88950703976c367efdb1a6a5e4f52280b9b6d5dd2ce75367ce856e0ec5e45",
+      "reason": "Inserção de definições ou renumeração de notas de rodapé; a explicação continua a referir-se ao mesmo contributo da obra no parágrafo.",
+      "explanation_edits": []
+    },
+    {
+      "citation_id": "efed2f6a",
+      "previous_citation_id": "efed2f6a",
+      "previous_context": "Na seleção de tecnologias de apoio, o modelo Matching Person and Technology (MPT) procura relacionar as capacidades e perspetivas da pessoa com uma tecnologia específica e com o ambiente em que esta será utilizada (van Niekerk et al., 2018). A Classificação Internacional de Funcionalidade, Incapacidade e Saúde (ICF), por sua vez, considera a interação entre a condição de saúde e os fatores pessoais e ambientais, que incluem os produtos e as tecnologias (Howard et al., 2022b). No âmbito do design, estes enquadramentos mostram que a adequação do dispositivo depende não só das suas características técnicas, mas também da correspondência com as necessidades da pessoa e o seu contexto de utilização.",
+      "context": "Na seleção de tecnologias de apoio, o modelo Matching Person and Technology (MPT) procura relacionar as capacidades e perspetivas da pessoa com uma tecnologia específica e com o ambiente em que esta será utilizada (van Niekerk et al., 2018). A Classificação Internacional de Funcionalidade, Incapacidade e Saúde (ICF)3A CIF/ICF é uma classificação da Organização Mundial da Saúde (OMS) que descreve a funcionalidade e a incapacidade, considerando as funções corporais, as atividades, a participação e os fatores ambientais., por sua vez, considera a interação entre a condição de saúde e os fatores pessoais e ambientais, que incluem os produtos e as tecnologias (Howard et al., 2022b). No âmbito do design, estes enquadramentos mostram que a adequação do dispositivo depende não só das suas características técnicas, mas também da correspondência com as necessidades da pessoa e o seu contexto de utilização.",
+      "previous_context_sha256": "9f6a1399682b11c112303e7a90d1a716e6554fe629b412f7668a6cdc33c29acf",
+      "context_sha256": "1bf88950703976c367efdb1a6a5e4f52280b9b6d5dd2ce75367ce856e0ec5e45",
+      "reason": "Inserção de definições ou renumeração de notas de rodapé; a explicação continua a referir-se ao mesmo contributo da obra no parágrafo.",
+      "explanation_edits": []
+    },
+    {
+      "citation_id": "69d223e3",
+      "previous_citation_id": "69d223e3",
+      "previous_context": "(Chapman et al., 2025), explicitam as etapas de identificação e seleção dos estudos incluídos na sua revisão, mediante uma adaptação das orientações PRISMA2PRISMA corresponde a Preferred Reporting Items for Systematic Reviews and Meta Analyses, um conjunto de orientações para a elaboração e apresentação transparente de revisões sistemáticas e meta-análises.. Este registo permite compreender a constituição do conjunto de estudos analisados e clarifica a fundamentação bibliográfica utilizada para apoiar decisões de design.",
+      "context": "Chapman et al. (2025), explicitam as etapas de identificação e seleção dos estudos incluídos na sua revisão, mediante uma adaptação das orientações PRISMA4PRISMA corresponde a Preferred Reporting Items for Systematic Reviews and Meta Analyses, um conjunto de orientações para a elaboração e apresentação transparente de revisões sistemáticas e meta-análises.. Este registo permite compreender a constituição do conjunto de estudos analisados e clarifica a fundamentação bibliográfica utilizada para apoiar decisões de design.",
+      "previous_context_sha256": "f4587039f4a3dfa34c3e79199bec5f65209b6da1b6e89bcdf471961dec2c68f3",
+      "context_sha256": "74434808ecbb45b4b40b5d18f04d592f8bd0b2866ee2dc80c55f1a09e2a8d975",
+      "reason": "Inserção de definições ou renumeração de notas de rodapé; a explicação continua a referir-se ao mesmo contributo da obra no parágrafo.",
+      "explanation_edits": []
+    },
+    {
+      "citation_id": "eb40db0c",
+      "previous_citation_id": "eb40db0c",
+      "previous_context": "A convergência entre a modelação paramétrica e o fabrico aditivo (FdA) tem sido amplamente reconhecida como um dos principais vetores de transformação do design contemporâneo, sobretudo em contextos que exigem personalização, adaptação morfológica e produção de variantes em pequena escala. A literatura considera estas abordagens complementares: a modelação paramétrica permite gerar múltiplas variações controladas a partir de um modelo-base, enquanto o fabrico aditivo possibilita a materialização de geometrias complexas sem moldes ou ferramentas dedicadas (Lei et al., 2016; Ozdemir et al., 2022; van Stralen, 2018).",
+      "context": "A convergência entre a modelação paramétrica e o fabrico aditivo tem sido amplamente reconhecida como um dos principais vetores de transformação do design contemporâneo, sobretudo em contextos que exigem personalização, adaptação morfológica e produção de variantes em pequena escala. A literatura considera estas abordagens complementares: a modelação paramétrica permite gerar múltiplas variações controladas a partir de um modelo-base, enquanto o fabrico aditivo possibilita a materialização de geometrias complexas sem moldes ou ferramentas dedicadas (Lei et al., 2016; Ozdemir et al., 2022; van Stralen, 2018).",
+      "previous_context_sha256": "b23aee34bd65c2a2856a6079a471aac988bcef5121bfc52266bc555bde7a5a56",
+      "context_sha256": "2f59cafdbe583c44d5f673727d308acb857009d4210971d2a24d9f948db17642",
+      "reason": "Passagem revista conferida com a explicação existente; o contributo atribuído à fonte permanece compatível. Não constitui nova auditoria da evidência.",
+      "explanation_edits": []
+    },
+    {
+      "citation_id": "b845bba4",
+      "previous_citation_id": "b845bba4",
+      "previous_context": "A revisão de (Wiberg et al., 2019) organiza os métodos e as ferramentas de apoio ao DfAM segundo as diferentes etapas do processo de desenvolvimento, relacionando o apoio disponível com o momento em que este é necessário.",
+      "context": "A revisão de Wiberg et al. (2019) organiza os métodos e as ferramentas de apoio ao DfAM segundo as diferentes etapas do processo de desenvolvimento, relacionando o apoio disponível com o momento em que este é necessário.",
+      "previous_context_sha256": "2321e20ee15d828505df76312457593a29f182d1c44487c861ac722ee4e99d4a",
+      "context_sha256": "94305f9dae778640cf0a4224c04df4737fdc2d433b951d02b0b81fbc9f2d2f39",
+      "reason": "Alteração de pontuação, espaços ou apresentação da citação; preservado o conteúdo da explicação.",
+      "explanation_edits": []
+    },
+    {
+      "citation_id": "cbc25802",
+      "previous_citation_id": "cbc25802",
+      "previous_context": "As tecnologias de fabrico aditivo utilizam materiais e mecanismos de consolidação distintos. A modelação por deposição fundida (FDM) e o fabrico por filamento fundido (FFF) depositam sucessivamente camadas de termoplástico extrudido; a sinterização seletiva a laser (SLS) consolida material em pó; a estereolitografia (SLA) solidifica uma resina líquida por ação da luz. Os processos industriais para metais recorrem frequentemente à fusão em leito de pó. Estas diferenças condicionam a orientação de fabrico, as espessuras mínimas, a necessidade de suportes, o acabamento superficial e o desempenho mecânico. Por esse motivo, a tecnologia deve ser considerada desde a definição do modelo paramétrico, e não apenas no momento da produção (Chtioui et al., 2023; Wiberg et al., 2019).",
+      "context": "As tecnologias de fabrico aditivo utilizam materiais e mecanismos de consolidação distintos. O fabrico por filamento fundido (FFF/FDM) deposita sucessivamente camadas de termoplástico extrudido; a sinterização seletiva a laser (SLS) consolida material em pó; e a estereolitografia (SLA) solidifica uma resina líquida por ação da luz. Os processos industriais para metais recorrem frequentemente à fusão em leito de pó. Estas diferenças condicionam a orientação de fabrico, as espessuras mínimas, a necessidade de suportes, o acabamento superficial e o desempenho mecânico. Por esse motivo, a tecnologia deve ser considerada desde a definição do modelo paramétrico, e não apenas no momento da produção (Chtioui et al., 2023; Wiberg et al., 2019).",
+      "previous_context_sha256": "3ebd1adaf8b4f4494012e2cd7d8ddeba0bfc1dc52cc7a25508372870a8216558",
+      "context_sha256": "ebcb9e236901231bab86015993ab7028ab5473f7e5c817de7444061099e8d868",
+      "reason": "Passagem revista conferida com a explicação existente; o contributo atribuído à fonte permanece compatível. Não constitui nova auditoria da evidência.",
+      "explanation_edits": []
+    },
+    {
+      "citation_id": "68387ccf",
+      "previous_citation_id": "68387ccf",
+      "previous_context": "A personalização em escala depende de uma definição controlada do espaço de variação. Os parâmetros de design, as relações entre eles e os respetivos constrangimentos delimitam as combinações válidas, que devem ser caracterizadas através de simulação ou experimentação. No âmbito do design, esta estrutura permite ampliar a variedade de soluções sem gerar configurações inviáveis ou difíceis de fabricar (Ozdemir et al., 2022).",
+      "context": "A personalização em escala depende de uma definição controlada do espaço de variação. Os parâmetros de design, as suas relações e restrições delimitam as combinações válidas, que devem ser analisadas por simulação ou experimentação. Esta estrutura permite ampliar a variedade de soluções sem gerar configurações inviáveis ou difíceis de fabricar (Ozdemir et al., 2022).",
+      "previous_context_sha256": "ea802e750b3e96aae7cc116b0f3ca759aa2e026cb80728286e3a7bd986f20162",
+      "context_sha256": "36baec20160483ebcccef7e9f3208b14a2743d72efeb4c58dba0c78fc3954b57",
+      "reason": "Passagem revista conferida com a explicação existente; o contributo atribuído à fonte permanece compatível. Não constitui nova auditoria da evidência.",
+      "explanation_edits": []
+    },
+    {
+      "citation_id": "6466b8ef",
+      "previous_citation_id": "6466b8ef",
+      "previous_context": "As próteses open source de membro superior passíveis de impressão 3D constituem um caso particularmente relevante para esta investigação, pois articulam o fabrico aditivo, a partilha digital de ficheiros, a reprodução distribuída e a adaptação local. Estes modelos circulam frequentemente sob a forma de ficheiros digitais editáveis ou imprimíveis, acompanhados de documentação comunitária, como instruções de fabrico e montagem. A disponibilização de modelos tridimensionais através da Internet favoreceu a formação de comunidades de criadores capazes de reproduzir e avaliar estes dispositivos (Manero et al., 2019). Nas soluções abertas analisadas por (Wendo et al., 2022), a disponibilidade dos ficheiros de desenho e impressão, bem como de instruções claras de fabrico e montagem, constitui um requisito essencial. Estes recursos facilitam a reprodução, o redimensionamento e a adaptação dos dispositivos, mas não garantem, por si só, a qualidade funcional de cada solução, que continua a exigir avaliação.",
+      "context": "As próteses open source de membro superior passíveis de impressão 3D constituem um caso particularmente relevante para esta investigação, pois articulam o fabrico aditivo, a partilha digital de ficheiros, a reprodução distribuída e a adaptação local. Estes modelos circulam frequentemente sob a forma de ficheiros digitais editáveis ou imprimíveis, acompanhados de documentação comunitária, como instruções de fabrico e montagem. A disponibilização de modelos tridimensionais através da Internet favoreceu a formação de comunidades de criadores capazes de reproduzir e avaliar estes dispositivos (Manero et al., 2019). Nas soluções abertas analisadas por Wendo et al. (2022), a disponibilidade dos ficheiros de desenho e impressão, bem como de instruções claras de fabrico e montagem, constitui um requisito essencial. Estes recursos facilitam a reprodução, o redimensionamento e a adaptação dos dispositivos, mas não garantem, por si só, a qualidade funcional de cada solução, que continua a exigir avaliação.",
+      "previous_context_sha256": "800ecea539a2819facc1dc25ad5470b32477f0fd959c0b60880593328874d870",
+      "context_sha256": "cbbcc444ceca2ea6c78e593ffce7a36b5c4202aee2a46e573ec7acea9966bdf8",
+      "reason": "Alteração de pontuação, espaços ou apresentação da citação; preservado o conteúdo da explicação.",
+      "explanation_edits": []
+    },
+    {
+      "citation_id": "a4576807",
+      "previous_citation_id": "a4576807",
+      "previous_context": "As próteses open source de membro superior passíveis de impressão 3D constituem um caso particularmente relevante para esta investigação, pois articulam o fabrico aditivo, a partilha digital de ficheiros, a reprodução distribuída e a adaptação local. Estes modelos circulam frequentemente sob a forma de ficheiros digitais editáveis ou imprimíveis, acompanhados de documentação comunitária, como instruções de fabrico e montagem. A disponibilização de modelos tridimensionais através da Internet favoreceu a formação de comunidades de criadores capazes de reproduzir e avaliar estes dispositivos (Manero et al., 2019). Nas soluções abertas analisadas por (Wendo et al., 2022), a disponibilidade dos ficheiros de desenho e impressão, bem como de instruções claras de fabrico e montagem, constitui um requisito essencial. Estes recursos facilitam a reprodução, o redimensionamento e a adaptação dos dispositivos, mas não garantem, por si só, a qualidade funcional de cada solução, que continua a exigir avaliação.",
+      "context": "As próteses open source de membro superior passíveis de impressão 3D constituem um caso particularmente relevante para esta investigação, pois articulam o fabrico aditivo, a partilha digital de ficheiros, a reprodução distribuída e a adaptação local. Estes modelos circulam frequentemente sob a forma de ficheiros digitais editáveis ou imprimíveis, acompanhados de documentação comunitária, como instruções de fabrico e montagem. A disponibilização de modelos tridimensionais através da Internet favoreceu a formação de comunidades de criadores capazes de reproduzir e avaliar estes dispositivos (Manero et al., 2019). Nas soluções abertas analisadas por Wendo et al. (2022), a disponibilidade dos ficheiros de desenho e impressão, bem como de instruções claras de fabrico e montagem, constitui um requisito essencial. Estes recursos facilitam a reprodução, o redimensionamento e a adaptação dos dispositivos, mas não garantem, por si só, a qualidade funcional de cada solução, que continua a exigir avaliação.",
+      "previous_context_sha256": "800ecea539a2819facc1dc25ad5470b32477f0fd959c0b60880593328874d870",
+      "context_sha256": "cbbcc444ceca2ea6c78e593ffce7a36b5c4202aee2a46e573ec7acea9966bdf8",
+      "reason": "Alteração de pontuação, espaços ou apresentação da citação; preservado o conteúdo da explicação.",
+      "explanation_edits": []
+    },
+    {
+      "citation_id": "3fb706de",
+      "previous_citation_id": "3fb706de",
+      "previous_context": "O projeto e-NABLE exemplifica este movimento e enquadra diretamente vários dos modelos analisados nesta investigação. Na revisão do catálogo e-NABLE, (Wendo et al., 2022) agruparam os dispositivos em duas categorias: modelos de mão e modelos de braço. Todos os modelos de mão incluídos na revisão eram acionados pelo corpo através do movimento de um punho funcional. Entre os modelos de braço analisados, o Unlimbited Arm v2.1 e o Kwawu Arm eram acionados pelo movimento do cotovelo, enquanto o El Medallo Bionic Arm utilizava acionamento elétrico controlado por sinais musculares. Para o design de próteses de membro superior, esta distinção evidencia a necessidade de relacionar o tipo de dispositivo e o respetivo mecanismo de acionamento com o movimento conservado pela pessoa.",
+      "context": "O projeto e-NABLE exemplifica este movimento e enquadra diretamente vários dos modelos analisados nesta investigação. Na revisão do catálogo e-NABLE, Wendo et al. (2022) agruparam os dispositivos em duas categorias: modelos de mão e modelos de braço. Todos os modelos de mão incluídos na revisão eram acionados pelo corpo através do movimento de um punho funcional. Entre os modelos de braço analisados, o Unlimbited Arm v2.1 e o Kwawu Arm eram acionados pelo movimento do cotovelo, enquanto o El Medallo Bionic Arm utilizava acionamento elétrico controlado por sinais musculares. Para o design de próteses de membro superior, esta distinção evidencia a necessidade de relacionar o tipo de dispositivo e o respetivo mecanismo de acionamento com o movimento conservado pela pessoa.",
+      "previous_context_sha256": "aa223d969fcb4fa0b74691deca4877e179299e99c7ef45456fd417332e2756a2",
+      "context_sha256": "e2ae60778a3430d1af263e74862d4f38190896ca8cf789a4d7ff40bab0f20efa",
+      "reason": "Alteração de pontuação, espaços ou apresentação da citação; preservado o conteúdo da explicação.",
+      "explanation_edits": []
+    },
+    {
+      "citation_id": "b98b8981",
+      "previous_citation_id": "b98b8981",
+      "previous_context": "O Victoria Hand Project constitui uma alternativa complementar ao modelo comunitário e maker do e-NABLE. Em vez de depender sobretudo de voluntários dispersos, organiza-se como uma estrutura de prestação de cuidados assente em parcerias locais, formação técnica, fabrico descentralizado e acompanhamento por profissionais ou clínicas parceiras. A sua relevância está na demonstração que a impressão 3D pode ser integrada num modelo de serviço mais estruturado, no qual a criação digital de componentes, a seleção modular, a adaptação de encaixes e a circulação de feedback entre os parceiros locais e a equipa central constituem uma infraestrutura de aprendizagem contínua (Dechev et al., 2023). Enquanto o e-NABLE demonstra o potencial da comunidade aberta e da documentação partilhada, o Victoria Hand Project demostra a importância da mediação clínica, da formação e da qualidade controlada em contextos com acesso limitado a serviços de adaptação e acompanhamento protésico.",
+      "context": "Em vez de depender sobretudo de voluntários dispersos, organiza-se como uma estrutura de prestação de cuidados assente em parcerias locais, formação técnica, fabrico descentralizado e acompanhamento por profissionais ou clínicas parceiras. A sua relevância está na demonstração que a impressão 3D pode ser integrada num modelo de serviço mais estruturado, no qual a criação digital de componentes, a seleção modular, a adaptação de encaixes e a circulação de feedback entre os parceiros locais e a equipa central constituem uma infraestrutura de aprendizagem contínua (Dechev et al., 2023). Enquanto o e-NABLE demonstra o potencial da comunidade aberta e da documentação partilhada, o Victoria Hand Project demostra a importância da mediação clínica, da formação e da qualidade controlada em contextos com acesso limitado a serviços de adaptação e acompanhamento protésico.",
+      "previous_context_sha256": "16f331bcb8540e1417520ae1f87ae6697e45ca320001ba3b039b4605258447ba",
+      "context_sha256": "3c5e2a4427aae3707be7aa9478e5490a74af18051a2b5926420c7a5df6ec3eba",
+      "reason": "Passagem revista conferida com a explicação existente; o contributo atribuído à fonte permanece compatível. Não constitui nova auditoria da evidência.",
+      "explanation_edits": []
+    },
+    {
+      "citation_id": "8119b755",
+      "previous_citation_id": "8119b755",
+      "previous_context": "As limitações técnicas são igualmente relevantes para o design. Estudos mecânicos sobre membros superiores open source mostram que a acessibilidade e o baixo custo coexistem com restrições claras em termos de desempenho, repertório de preensões, resistência, durabilidade e segurança funcional. No caso do Raptor Reloaded, por exemplo, uma mão corporalmente acionada pode ser útil em tarefas simples, mas permanece distante da diversidade de movimentos e preensões de uma mão humana (Cabibihan et al., 2021). Esta constatação não diminui o valor social destes modelos, mas impede a sua apresentação como substitutos clínicos universais. Reforça, antes, a necessidade de os tratar como plataformas de desenvolvimento, aprendizagem e personalização progressiva.",
+      "context": "As limitações técnicas são igualmente relevantes para o design. Estudos mecânicos sobre membros superiores open source mostram que a acessibilidade e o baixo custo coexistem com restrições claras em termos de desempenho, repertório de preensões, resistência, durabilidade e segurança funcional. O modelo Raptor Reloaded, por exemplo, consiste numa mão protésica acionada pelo corpo que pode ser útil em tarefas simples, mas apresenta limitações na reprodução da diversidade de movimentos e preensões da mão humana (Cabibihan et al., 2021). Estes modelos mantêm relevância social enquanto plataformas de desenvolvimento, aprendizagem e personalização progressiva, embora a sua aplicação clínica dependa de validação específica.",
+      "previous_context_sha256": "b9388120c22334c6b093a92f1b08a68d5db3ac5a433b8f79456a845e39200675",
+      "context_sha256": "d39b70b98be3377698aea9f2ee3cdebfe22c5661f3dec548c587085703494baf",
+      "reason": "Passagem revista conferida com a explicação existente; o contributo atribuído à fonte permanece compatível. Não constitui nova auditoria da evidência.",
+      "explanation_edits": []
+    },
+    {
+      "citation_id": "cb201e27",
+      "previous_citation_id": "cb201e27",
+      "previous_context": "Historicamente, a antropometria aplicada ao design baseou-se em medidas escalares (comprimentos, larguras, perímetros), obtidas com instrumentos como paquímetros, compassos antropométricos e fitas métricas, muitas vezes segundo procedimentos normalizados, como os definidos pela norma ISO 7250-1:2017 (International Organization for Standardization, 2017). No design protésico, porém, particularmente nas interfaces corpo-dispositivo, como o encaixe (socket), a literatura sublinha o papel determinante da “forma” (shape), pois pequenas variações volumétricas e distribuições de pressão podem causar desconforto, lesões cutâneas e abandono do dispositivo.",
+      "context": "Historicamente, a antropometria aplicada ao design baseou-se em medidas escalares (comprimentos, larguras, perímetros), obtidas com instrumentos como paquímetros, compassos antropométricos e fitas métricas, muitas vezes segundo procedimentos normalizados, como os definidos pela norma ISO 7250-1:2017 (International Organization for Standardization, 2017). No design protésico, porém, particularmente nas interfaces corpo-dispositivo, como o encaixe (socket), a literatura sublinha o papel determinante da “forma”, pois pequenas variações volumétricas e distribuições de pressão podem causar desconforto, lesões cutâneas e abandono do dispositivo.",
+      "previous_context_sha256": "595f6dd133e977ef729a1a80ab2a5553c8ac1306d8e3daeb5f9fce4d33aa74a6",
+      "context_sha256": "0b7a7d41032f316f47cab5772149e8e267e179ab33594b5d9900087da28f2937",
+      "reason": "Passagem revista conferida com a explicação existente; o contributo atribuído à fonte permanece compatível. Não constitui nova auditoria da evidência.",
+      "explanation_edits": []
+    },
+    {
+      "citation_id": "b0d093da",
+      "previous_citation_id": "b0d093da",
+      "previous_context": "- Modelos preditivos e modelação estatística de forma (SSM): aplicados para reconstruir a geometria a partir de medições reduzidas e inferir relações entre a superfície e a anatomia interna, com análise de componentes principais (PCA)5Técnica estatística usada para reduzir a complexidade de conjuntos de dados com muitas variáveis, identificando os principais eixos de variação. No contexto da modelação estatística de forma, permite representar diferenças geométricas entre vários corpos, membros ou superfícies anatómicas através de um número reduzido de componentes principais. e regressões como ferramentas frequentes, embora limitados por tamanhos amostrais reduzidos em vários estudos (Sunderland et al., 2024).",
+      "context": "- Modelos preditivos e modelação estatística de forma (SSM): aplicados para reconstruir a geometria a partir de medições reduzidas e inferir relações entre a superfície e a anatomia interna, com análise de componentes principais (PCA)7Técnica estatística usada para reduzir a complexidade de conjuntos de dados com muitas variáveis, identificando os principais eixos de variação. No contexto da modelação estatística de forma, permite representar diferenças geométricas entre vários corpos, membros ou superfícies anatómicas através de um número reduzido de componentes principais. e regressões como ferramentas frequentes, embora limitados por tamanhos amostrais reduzidos em vários estudos (Sunderland et al., 2024).",
+      "previous_context_sha256": "735b1a1cb4bc61982c17ef0437d64be11b773ad0df02ecea20dab368694d3401",
+      "context_sha256": "e37a65d63d3e5585404ffd55d37c278e566c02645bcf5782929901f6865f9657",
+      "reason": "Inserção de definições ou renumeração de notas de rodapé; a explicação continua a referir-se ao mesmo contributo da obra no parágrafo.",
+      "explanation_edits": []
+    },
+    {
+      "citation_id": "afbfffa7",
+      "previous_citation_id": "afbfffa7",
+      "previous_context": "- Próteses de membro superior: (Chainando et al., 2025) identificam a tomografia computorizada (CT), os digitalizadores 3D comerciais e a fotogrametria como os três principais métodos digitais de captura. A revisão assinala que estas técnicas permitem obter medições destinadas à personalização, mas também apresentam diferenças de precisão, custo, acessibilidade e requisitos técnicos. No estudo “Comparison of traditional, MRI, and 3D scanning anthropometric measurements in hand prosthesis design.” que comparou medições tradicionais, ressonância magnética e digitalização 3D, (Ciklacandir et al., 2022) não encontraram diferenças estatisticamente significativas entre os métodos. A digitalização 3D apresentou resultados próximos dos obtidos por ressonância magnética e vantagens potenciais relacionadas com o custo, o tempo, a fiabilidade e a repetibilidade.",
+      "context": "- Próteses de membro superior: Chainando et al. (2025) identificam a tomografia computorizada (CT), os digitalizadores 3D comerciais e a fotogrametria como os três principais métodos digitais de captura. A revisão assinala que estas técnicas permitem obter medições destinadas à personalização, mas também apresentam diferenças de precisão, custo, acessibilidade e requisitos técnicos. No estudo “Comparison of traditional, MRI, and 3D scanning anthropometric measurements in hand prosthesis design.” que comparou medições tradicionais, ressonância magnética e digitalização 3D, Ciklacandir et al. (2022) não encontraram diferenças estatisticamente significativas entre os métodos. A digitalização 3D apresentou resultados próximos dos obtidos por ressonância magnética e vantagens potenciais relacionadas com o custo, o tempo, a fiabilidade e a repetibilidade.",
+      "previous_context_sha256": "abe8bac5852f58e4ab5743e43bc954125663e352c5073a26d03936ac34504bc8",
+      "context_sha256": "0b082ffa8d46be852b43f3e6bb74d1e95b36da796e8c9e85f705e7801b6a3ac0",
+      "reason": "Alteração de pontuação, espaços ou apresentação da citação; preservado o conteúdo da explicação.",
+      "explanation_edits": []
+    },
+    {
+      "citation_id": "5ab3493a",
+      "previous_citation_id": "5ab3493a",
+      "previous_context": "- Próteses de membro superior: (Chainando et al., 2025) identificam a tomografia computorizada (CT), os digitalizadores 3D comerciais e a fotogrametria como os três principais métodos digitais de captura. A revisão assinala que estas técnicas permitem obter medições destinadas à personalização, mas também apresentam diferenças de precisão, custo, acessibilidade e requisitos técnicos. No estudo “Comparison of traditional, MRI, and 3D scanning anthropometric measurements in hand prosthesis design.” que comparou medições tradicionais, ressonância magnética e digitalização 3D, (Ciklacandir et al., 2022) não encontraram diferenças estatisticamente significativas entre os métodos. A digitalização 3D apresentou resultados próximos dos obtidos por ressonância magnética e vantagens potenciais relacionadas com o custo, o tempo, a fiabilidade e a repetibilidade.",
+      "context": "- Próteses de membro superior: Chainando et al. (2025) identificam a tomografia computorizada (CT), os digitalizadores 3D comerciais e a fotogrametria como os três principais métodos digitais de captura. A revisão assinala que estas técnicas permitem obter medições destinadas à personalização, mas também apresentam diferenças de precisão, custo, acessibilidade e requisitos técnicos. No estudo “Comparison of traditional, MRI, and 3D scanning anthropometric measurements in hand prosthesis design.” que comparou medições tradicionais, ressonância magnética e digitalização 3D, Ciklacandir et al. (2022) não encontraram diferenças estatisticamente significativas entre os métodos. A digitalização 3D apresentou resultados próximos dos obtidos por ressonância magnética e vantagens potenciais relacionadas com o custo, o tempo, a fiabilidade e a repetibilidade.",
+      "previous_context_sha256": "abe8bac5852f58e4ab5743e43bc954125663e352c5073a26d03936ac34504bc8",
+      "context_sha256": "0b082ffa8d46be852b43f3e6bb74d1e95b36da796e8c9e85f705e7801b6a3ac0",
+      "reason": "Alteração de pontuação, espaços ou apresentação da citação; preservado o conteúdo da explicação.",
+      "explanation_edits": []
+    },
+    {
+      "citation_id": "3e7953c1",
+      "previous_citation_id": "3e7953c1",
+      "previous_context": "No domínio dos exosqueletos, a ASTM F3661-24 distingue o ajuste estático, em posturas padronizadas, do ajuste dinâmico, durante movimentos funcionais, e diferencia ambos do conforto (ASTM International, 2024). Neste projeto, adota-se esta distinção como orientação conceptual para a avaliação futura da interface protésica.",
+      "context": "A norma ASTM F3661-24, relativa à avaliação do ajuste antropométrico de exosqueletos, distingue o ajuste estático, em posturas padronizadas, do ajuste dinâmico, durante movimentos funcionais, considerando o conforto uma dimensão distinta de ambos (ASTM International, 2024). (ASTM International, 2024). Neste projeto, esta distinção é adotada como referência conceptual para uma futura avaliação da interface protésica.",
+      "previous_context_sha256": "9e29b2c26849fb4f24117035544cdba9595037acda1972db1ef79f9c45ea6a84",
+      "context_sha256": "0c2cdbfa981643232f009b32037dfb2091c1a37422dc0ae988d7e95409823846",
+      "reason": "Passagem revista conferida com a explicação existente; o contributo atribuído à fonte permanece compatível. Não constitui nova auditoria da evidência.",
+      "explanation_edits": []
+    },
+    {
+      "citation_id": "4bf1a238",
+      "previous_citation_id": "4bf1a238",
+      "previous_context": "A aprendizagem profunda é um subconjunto da aprendizagem automática, baseado em redes neuronais artificiais6Redes neuronais artificiais são modelos computacionais compostos por camadas de unidades interligadas, que ajustam os seus parâmetros internos durante o treino para identificar padrões nos dados. com múltiplas camadas e particularmente adequado ao tratamento de dados complexos, como imagens e texto. A IA generativa, por sua vez, refere-se a modelos capazes de produzir novos conteúdos - por exemplo, texto, imagens, composições formais ou variantes de projeto - com base nos padrões aprendidos. Esta distinção é particularmente importante para o design, porque os vários tipos de IA apoiam tarefas diferentes, desde a análise de informação e a previsão de resultados até à otimização de soluções e à produção de alternativas (Khanolkar et al., 2023; Li et al., 2020). No desenvolvimento de produtos, estas técnicas podem, por exemplo, identificar padrões em modelos tridimensionais e gerar novas variantes de forma a partir de requisitos previamente definidos (Krahe et al., 2020).",
+      "context": "A aprendizagem profunda é um subconjunto da aprendizagem automática, baseado em redes neuronais artificiais8Redes neuronais artificiais são modelos computacionais compostos por camadas de unidades interligadas, que ajustam os seus parâmetros internos durante o treino para identificar padrões nos dados. com múltiplas camadas e particularmente adequado ao tratamento de dados complexos, como imagens e texto. A IA generativa, por sua vez, refere-se a modelos capazes de produzir novos conteúdos - por exemplo, texto, imagens, composições formais ou variantes de projeto - com base nos padrões aprendidos. Esta distinção é particularmente importante para o design, porque os vários tipos de IA apoiam tarefas diferentes, desde a análise de informação e a previsão de resultados até à otimização de soluções e à produção de alternativas (Khanolkar et al., 2023; Li et al., 2020). No desenvolvimento de produtos, estas técnicas podem, por exemplo, identificar padrões em modelos tridimensionais e gerar novas variantes de forma a partir de requisitos previamente definidos (Krahe et al., 2020).",
+      "previous_context_sha256": "39491e4d4c1e1abc513260cf111e78a0405967ddbcd519d56cd269b014fe305f",
+      "context_sha256": "b894a2f6101b9fb050417aef4dbeb3c0d3d9679639f4ecdffd58d56c7eb19bcd",
+      "reason": "Inserção de definições ou renumeração de notas de rodapé; a explicação continua a referir-se ao mesmo contributo da obra no parágrafo.",
+      "explanation_edits": []
+    },
+    {
+      "citation_id": "f07dc5c7",
+      "previous_citation_id": "f07dc5c7",
+      "previous_context": "A aprendizagem profunda é um subconjunto da aprendizagem automática, baseado em redes neuronais artificiais6Redes neuronais artificiais são modelos computacionais compostos por camadas de unidades interligadas, que ajustam os seus parâmetros internos durante o treino para identificar padrões nos dados. com múltiplas camadas e particularmente adequado ao tratamento de dados complexos, como imagens e texto. A IA generativa, por sua vez, refere-se a modelos capazes de produzir novos conteúdos - por exemplo, texto, imagens, composições formais ou variantes de projeto - com base nos padrões aprendidos. Esta distinção é particularmente importante para o design, porque os vários tipos de IA apoiam tarefas diferentes, desde a análise de informação e a previsão de resultados até à otimização de soluções e à produção de alternativas (Khanolkar et al., 2023; Li et al., 2020). No desenvolvimento de produtos, estas técnicas podem, por exemplo, identificar padrões em modelos tridimensionais e gerar novas variantes de forma a partir de requisitos previamente definidos (Krahe et al., 2020).",
+      "context": "A aprendizagem profunda é um subconjunto da aprendizagem automática, baseado em redes neuronais artificiais8Redes neuronais artificiais são modelos computacionais compostos por camadas de unidades interligadas, que ajustam os seus parâmetros internos durante o treino para identificar padrões nos dados. com múltiplas camadas e particularmente adequado ao tratamento de dados complexos, como imagens e texto. A IA generativa, por sua vez, refere-se a modelos capazes de produzir novos conteúdos - por exemplo, texto, imagens, composições formais ou variantes de projeto - com base nos padrões aprendidos. Esta distinção é particularmente importante para o design, porque os vários tipos de IA apoiam tarefas diferentes, desde a análise de informação e a previsão de resultados até à otimização de soluções e à produção de alternativas (Khanolkar et al., 2023; Li et al., 2020). No desenvolvimento de produtos, estas técnicas podem, por exemplo, identificar padrões em modelos tridimensionais e gerar novas variantes de forma a partir de requisitos previamente definidos (Krahe et al., 2020).",
+      "previous_context_sha256": "39491e4d4c1e1abc513260cf111e78a0405967ddbcd519d56cd269b014fe305f",
+      "context_sha256": "b894a2f6101b9fb050417aef4dbeb3c0d3d9679639f4ecdffd58d56c7eb19bcd",
+      "reason": "Inserção de definições ou renumeração de notas de rodapé; a explicação continua a referir-se ao mesmo contributo da obra no parágrafo.",
+      "explanation_edits": []
+    },
+    {
+      "citation_id": "2476a599",
+      "previous_citation_id": "2476a599",
+      "previous_context": "Nos modelos generativos, este processo é particularmente visível. O sistema aprende distribuições de forma, linguagem, composição ou estilo e produz, a partir delas, novas saídas em resposta a condições ou prompts7Em sistemas de IA generativa, um prompt corresponde à instrução, pergunta ou conjunto de condições fornecido pelo utilizador para orientar a resposta do modelo. Pode incluir texto, parâmetros, exemplos, restrições ou descrições do resultado pretendido.. Pode, assim, criar imagens, textos ou alternativas formais que não existiam previamente naquela forma exata. Um resultado aparentemente coerente pode, ainda assim, ser inadequado, derivativo ou tecnicamente frágil. Esta distinção é decisiva para o design: gerar muitas alternativas não equivale a resolver bem o problema de projeto (Burnap et al., 2019; Choudhury et al., 2025; Li et al., 2021).",
+      "context": "Nos modelos generativos, este processo é particularmente visível. O sistema aprende distribuições de forma, linguagem, composição ou estilo e produz, a partir delas, novas saídas em resposta a condições ou prompts9Em sistemas de IA generativa, um prompt corresponde à instrução, pergunta ou conjunto de condições fornecido pelo utilizador para orientar a resposta do modelo. Pode incluir texto, parâmetros, exemplos, restrições ou descrições do resultado pretendido.. Pode, assim, criar imagens, textos ou alternativas formais que não existiam previamente naquela forma exata. Um resultado aparentemente coerente pode, ainda assim, ser inadequado, derivativo ou tecnicamente frágil. Esta distinção é decisiva para o design: gerar muitas alternativas não equivale a resolver bem o problema de projeto (Burnap et al., 2019; Choudhury et al., 2025; Li et al., 2021).",
+      "previous_context_sha256": "545944d9660132d9e1dac949e0bd1c8faee65e49fb34d8ecdd42cdc518c3d1d1",
+      "context_sha256": "1700fc4cbfa4e008ec07e613ab5bb440384215c315bbb9cf2368f34a84cc76be",
+      "reason": "Inserção de definições ou renumeração de notas de rodapé; a explicação continua a referir-se ao mesmo contributo da obra no parágrafo.",
+      "explanation_edits": []
+    },
+    {
+      "citation_id": "5584ac46",
+      "previous_citation_id": "5584ac46",
+      "previous_context": "2. Configuração paramétrica: o utilizador, ou um intermediário clínico, fornece entradas num espaço de parâmetros e o sistema gera automaticamente artefactos de design, como ficheiros CAD, com base nesses valores. Este mecanismo é mais adequado quando a personalização depende de atributos mensuráveis, ligando diretamente dados antropométricos e cinemáticos a variáveis de projeto (Kuhl et al., 2021; Zhu & Zhong, 2025).",
+      "context": "2. Configuração paramétrica: o utilizador ou um intermediário clínico introduz valores num conjunto de parâmetros, a partir dos quais o sistema gera ficheiros CAD. Este mecanismo adequa-se à personalização baseada em atributos mensuráveis, relacionando dados antropométricos e cinemáticos com variáveis de projeto (Kuhl et al., 2021; Zhu & Zhong, 2025).",
+      "previous_context_sha256": "b415663b3ba8c66b8260212fc24e0843fcb273d990d549fada7be95dccfe6439",
+      "context_sha256": "b048b186901d525afc2f0ef49d043f21a2967b16b96840e95098fd27deb7f371",
+      "reason": "Passagem revista conferida com a explicação existente; o contributo atribuído à fonte permanece compatível. Não constitui nova auditoria da evidência.",
+      "explanation_edits": []
+    },
+    {
+      "citation_id": "869da9fb",
+      "previous_citation_id": "869da9fb",
+      "previous_context": "Em saúde, as plataformas baseadas em digital twins8Um digital twin pode ser entendido como uma representação digital dinâmica de um sistema físico, atualizada por dados recolhidos em tempo real ou quase real, permitindo simular, monitorizar e ajustar o seu comportamento. Em saúde, esta noção é aplicada a modelos personalizados que integram dados biométricos, sensores e métricas funcionais. são descritas como sistemas de serviço personalizados que ligam os participantes através da nuvem e integram sensores, parâmetros de movimento e métricas de desempenho. No estudo de Zhu e Zhong, a correspondência entre os modelos e os sinais recolhidos varia consoante o cenário experimental, pelo que os resultados não devem ser generalizados ao movimento humano real. Na personalização de exosqueletos de membro superior impressos em 3D, discutida por Mikołajewski e colaboradores, articulam-se a adaptação do dispositivo, a avaliação funcional e possibilidades de monitorização domiciliária apoiada em modelos virtuais (Mikołajewski et al., 2023; Zhu & Zhong, 2025).",
+      "context": "Em saúde, as plataformas baseadas em digital twins10Um digital twin pode ser entendido como uma representação digital dinâmica de um sistema físico, atualizada por dados recolhidos em tempo real ou quase real, permitindo simular, monitorizar e ajustar o seu comportamento. Em saúde, esta noção é aplicada a modelos personalizados que integram dados biométricos, sensores e métricas funcionais. são descritas como sistemas de serviço personalizados que ligam os participantes através da nuvem e integram sensores, parâmetros de movimento e métricas de desempenho. No estudo de Zhu e Zhong, a correspondência entre os modelos e os sinais recolhidos varia consoante o cenário experimental, pelo que os resultados não devem ser generalizados ao movimento humano real. Na personalização de exosqueletos de membro superior impressos em 3D, discutida por Mikołajewski e colaboradores, articulam-se a adaptação do dispositivo, a avaliação funcional e possibilidades de monitorização domiciliária apoiada em modelos virtuais (Mikołajewski et al., 2023; Zhu & Zhong, 2025).",
+      "previous_context_sha256": "60a390707f4a9e69b02aad711705f318c4c496a019ce7b2a6f4624b32a180f90",
+      "context_sha256": "0401529e8cd018d0496ef295696df8277ba3834b6c74c9c92a8cb9dd55c30219",
+      "reason": "Inserção de definições ou renumeração de notas de rodapé; a explicação continua a referir-se ao mesmo contributo da obra no parágrafo.",
+      "explanation_edits": []
+    },
+    {
+      "citation_id": "dc3ba93d",
+      "previous_citation_id": "dc3ba93d",
+      "previous_context": "Na reabilitação, as plataformas de virtual coaching9Virtual coaching designa sistemas digitais de orientação e acompanhamento que fornecem instruções, recomendações ou feedback ao utilizador durante atividades de treino, reabilitação ou aprendizagem, apoiando a adaptação do programa ao seu desempenho e evolução., os serious games10Serious games são jogos concebidos com uma finalidade principal para além do entretenimento, sendo aplicados em áreas como educação, saúde ou reabilitação para apoiar aprendizagem, treino funcional, motivação, adesão terapêutica ou avaliação de desempenho. configuráveis e os modelos de cocriação tecnológica são apresentados como formas de personalizar os tratamentos segundo o estado clínico, os objetivos terapêuticos e o feedback do utilizador. As avaliações indicam boa usabilidade e experiência do utilizador quando a participação integra o ciclo de desenvolvimento e abrange a interface, a seleção de exercícios, o ritmo do programa e a mediação por profissionais de saúde (Cole, 2011; Kerr et al., 2024; Seregni et al., 2021).",
+      "context": "Na reabilitação, as plataformas de virtual coaching11Virtual coaching designa sistemas digitais de orientação e acompanhamento que fornecem instruções, recomendações ou feedback ao utilizador durante atividades de treino, reabilitação ou aprendizagem, apoiando a adaptação do programa ao seu desempenho e evolução., os serious games12Serious games são jogos concebidos com uma finalidade principal para além do entretenimento, sendo aplicados em áreas como educação, saúde ou reabilitação para apoiar aprendizagem, treino funcional, motivação, adesão terapêutica ou avaliação de desempenho. configuráveis e os modelos de cocriação tecnológica são apresentados como formas de personalizar os tratamentos segundo o estado clínico, os objetivos terapêuticos e o feedback do utilizador. As avaliações indicam boa usabilidade e experiência do utilizador quando a participação integra o ciclo de desenvolvimento e abrange a interface, a seleção de exercícios, o ritmo do programa e a mediação por profissionais de saúde (Cole, 2011; Kerr et al., 2024; Seregni et al., 2021).",
+      "previous_context_sha256": "28beb52ef65d0e725f6e5ce58e16cb26eb96bdb4b516d563f18b26daa5619a20",
+      "context_sha256": "0776fa60dd46454aa59e3079fc64fc2f85e109ce0c5c430aa19990a359d97406",
+      "reason": "Inserção de definições ou renumeração de notas de rodapé; a explicação continua a referir-se ao mesmo contributo da obra no parágrafo.",
+      "explanation_edits": []
+    },
+    {
+      "citation_id": "ded6717d",
+      "previous_citation_id": "ded6717d",
+      "previous_context": "No contexto protésico e das tecnologias de apoio, sobressai a relevância dos ecossistemas modulares e das cadeias de aprendizagem distribuída. Estudos sobre próteses pediátricas, serviços de reabilitação e modelos como o Victoria Hand Project mostram que a personalização pode conjugar prototipagem iterativa, módulos intercambiáveis, criação digital de encaixes e circulação de comentários entre locais clínicos e equipas centrais de desenvolvimento. A plataforma funciona, neste enquadramento, como interface de configuração e como infraestrutura organizacional de aprendizagem e atualização contínua (Dechev et al., 2023; Howard et al., 2022a; Sims et al., 2017)",
+      "context": "No contexto protésico e das tecnologias de apoio, sobressai a relevância dos ecossistemas modulares e das cadeias de aprendizagem distribuída. Estudos sobre próteses pediátricas, serviços de reabilitação e modelos como o Victoria Hand Project mostram que a personalização pode conjugar prototipagem iterativa, módulos intercambiáveis, criação digital de encaixes e partilha de observações entre equipas clínicas e de desenvolvimento. A plataforma funciona, neste enquadramento, como interface de configuração e como infraestrutura organizacional de aprendizagem e atualização contínua (Dechev et al., 2023; Howard et al., 2022a; Sims et al., 2017)",
+      "previous_context_sha256": "6cbbfd1350cb1b04a2ab9daca34c863b9b3eac716ae7735aeaf24f23797b243a",
+      "context_sha256": "019e9e70a896eba2005b3eb5587119cc4f2eaecbd0abca7bbc1d0543231b7295",
+      "reason": "Passagem revista conferida com a explicação existente; o contributo atribuído à fonte permanece compatível. Não constitui nova auditoria da evidência.",
+      "explanation_edits": []
+    },
+    {
+      "citation_id": "07d51f59",
+      "previous_citation_id": "07d51f59",
+      "previous_context": "Embora incidam em segmentos distintos - (Cordella et al., 2016) no membro superior e (Manz et al., 2022) no membro inferior -, ambas as revisões bibliográficas identificam uma articulação insuficiente entre as necessidades expressas pelos utilizadores (como o conforto, o controlo intuitivo, a aparência e a participação social), os indicadores objetivos habitualmente medidos (incluindo o desempenho em testes funcionais, os parâmetros biomecânicos e as métricas instrumentadas de uso da prótese) e os resultados desejáveis (como a autonomia e a qualidade de vida). As revisões salientam ainda o carácter contextual e interdependente destas necessidades e observam que as medições laboratoriais nem sempre refletem tarefas relevantes do quotidiano, o que contribui para contradições entre resultados subjetivos e objetivos (Cordella et al., 2016; Manz et al., 2022).",
+      "context": "Embora incidam em segmentos distintos - Cordella et al. (2016) no membro superior e Manz et al. (2022) no membro inferior -, ambas as revisões bibliográficas identificam uma articulação insuficiente entre as necessidades expressas pelos utilizadores (como o conforto, o controlo intuitivo, a aparência e a participação social), os indicadores objetivos habitualmente medidos (incluindo o desempenho em testes funcionais, os parâmetros biomecânicos e as métricas instrumentadas de uso da prótese) e os resultados desejáveis (como a autonomia e a qualidade de vida). As revisões salientam ainda o carácter contextual e interdependente destas necessidades e observam que as medições laboratoriais nem sempre refletem tarefas relevantes do quotidiano, o que contribui para contradições entre resultados subjetivos e objetivos (Cordella et al., 2016; Manz et al., 2022).",
+      "previous_context_sha256": "592ed0d6dcc21c0679ce43b04221c0859eea202c84f78b857438577a95bd3f8a",
+      "context_sha256": "7640cd83fa6705109aee0b1ea9168cf5156abf493e17518067b44000d311e9e0",
+      "reason": "Alteração de pontuação, espaços ou apresentação da citação; preservado o conteúdo da explicação.",
+      "explanation_edits": []
+    },
+    {
+      "citation_id": "3c561532",
+      "previous_citation_id": "3c561532",
+      "previous_context": "Embora incidam em segmentos distintos - (Cordella et al., 2016) no membro superior e (Manz et al., 2022) no membro inferior -, ambas as revisões bibliográficas identificam uma articulação insuficiente entre as necessidades expressas pelos utilizadores (como o conforto, o controlo intuitivo, a aparência e a participação social), os indicadores objetivos habitualmente medidos (incluindo o desempenho em testes funcionais, os parâmetros biomecânicos e as métricas instrumentadas de uso da prótese) e os resultados desejáveis (como a autonomia e a qualidade de vida). As revisões salientam ainda o carácter contextual e interdependente destas necessidades e observam que as medições laboratoriais nem sempre refletem tarefas relevantes do quotidiano, o que contribui para contradições entre resultados subjetivos e objetivos (Cordella et al., 2016; Manz et al., 2022).",
+      "context": "Embora incidam em segmentos distintos - Cordella et al. (2016) no membro superior e Manz et al. (2022) no membro inferior -, ambas as revisões bibliográficas identificam uma articulação insuficiente entre as necessidades expressas pelos utilizadores (como o conforto, o controlo intuitivo, a aparência e a participação social), os indicadores objetivos habitualmente medidos (incluindo o desempenho em testes funcionais, os parâmetros biomecânicos e as métricas instrumentadas de uso da prótese) e os resultados desejáveis (como a autonomia e a qualidade de vida). As revisões salientam ainda o carácter contextual e interdependente destas necessidades e observam que as medições laboratoriais nem sempre refletem tarefas relevantes do quotidiano, o que contribui para contradições entre resultados subjetivos e objetivos (Cordella et al., 2016; Manz et al., 2022).",
+      "previous_context_sha256": "592ed0d6dcc21c0679ce43b04221c0859eea202c84f78b857438577a95bd3f8a",
+      "context_sha256": "7640cd83fa6705109aee0b1ea9168cf5156abf493e17518067b44000d311e9e0",
+      "reason": "Alteração de pontuação, espaços ou apresentação da citação; preservado o conteúdo da explicação.",
+      "explanation_edits": []
+    },
+    {
+      "citation_id": "bdf837c6",
+      "previous_citation_id": "bdf837c6",
+      "previous_context": "Embora incidam em segmentos distintos - (Cordella et al., 2016) no membro superior e (Manz et al., 2022) no membro inferior -, ambas as revisões bibliográficas identificam uma articulação insuficiente entre as necessidades expressas pelos utilizadores (como o conforto, o controlo intuitivo, a aparência e a participação social), os indicadores objetivos habitualmente medidos (incluindo o desempenho em testes funcionais, os parâmetros biomecânicos e as métricas instrumentadas de uso da prótese) e os resultados desejáveis (como a autonomia e a qualidade de vida). As revisões salientam ainda o carácter contextual e interdependente destas necessidades e observam que as medições laboratoriais nem sempre refletem tarefas relevantes do quotidiano, o que contribui para contradições entre resultados subjetivos e objetivos (Cordella et al., 2016; Manz et al., 2022).",
+      "context": "Embora incidam em segmentos distintos - Cordella et al. (2016) no membro superior e Manz et al. (2022) no membro inferior -, ambas as revisões bibliográficas identificam uma articulação insuficiente entre as necessidades expressas pelos utilizadores (como o conforto, o controlo intuitivo, a aparência e a participação social), os indicadores objetivos habitualmente medidos (incluindo o desempenho em testes funcionais, os parâmetros biomecânicos e as métricas instrumentadas de uso da prótese) e os resultados desejáveis (como a autonomia e a qualidade de vida). As revisões salientam ainda o carácter contextual e interdependente destas necessidades e observam que as medições laboratoriais nem sempre refletem tarefas relevantes do quotidiano, o que contribui para contradições entre resultados subjetivos e objetivos (Cordella et al., 2016; Manz et al., 2022).",
+      "previous_context_sha256": "592ed0d6dcc21c0679ce43b04221c0859eea202c84f78b857438577a95bd3f8a",
+      "context_sha256": "7640cd83fa6705109aee0b1ea9168cf5156abf493e17518067b44000d311e9e0",
+      "reason": "Alteração de pontuação, espaços ou apresentação da citação; preservado o conteúdo da explicação.",
+      "explanation_edits": []
+    },
+    {
+      "citation_id": "2be06abe",
+      "previous_citation_id": "2be06abe",
+      "previous_context": "Na avaliação das próteses do membro superior, a literatura assinala a falta de critérios comuns e de medidas especificamente desenvolvidas para esta população, o que limita a produção de dados objetivos e comparáveis sobre a experiência e o desempenho dos dispositivos (Cordella et al., 2016; Jones et al., 2023). No âmbito do design, (Chadwell et al., 2020) assinalam que continuam a existir poucos dados objetivos sobre os ajustamentos do dispositivo suscetíveis de aumentar a sua utilidade no ambiente quotidiano do utilizador. A monitorização em contexto real pode complementar as avaliações clínicas e contribuir para o desenvolvimento de dispositivos mais ajustados às necessidades individuais. A aplicação de sensores continua, contudo, condicionada pelo custo, pela autonomia limitada das baterias, pela disponibilidade dos equipamentos e pela formação necessária para recolher e interpretar os dados, o que dificulta a adoção desta prática na atividade clínica corrente.",
+      "context": "Na avaliação das próteses de membro superior, a literatura assinala a falta de critérios comuns e de medidas especificamente desenvolvidas para esta população, o que limita a produção de dados objetivos e comparáveis sobre a experiência e o desempenho dos dispositivos (Cordella et al., 2016; Jones et al., 2023). No âmbito do design, Chadwell et al. (2020) identificam também a escassez de dados objetivos que permitam determinar quais os ajustamentos mais relevantes para a utilização quotidiana das próteses. A observação em contexto real pode complementar as avaliações clínicas e contribuir para identificar problemas de adaptação e orientar melhorias no dispositivo.",
+      "previous_context_sha256": "a62eead225d7167fa7d2c1f6ef8c9c8a7514eefc4dc5f48de9308b4d670d065a",
+      "context_sha256": "1600362728ed2b6e00c3cd6c20ee4bd59754836c74e82f2ab994f68778d6d7af",
+      "reason": "Passagem revista conferida com a explicação existente; o contributo atribuído à fonte permanece compatível. Não constitui nova auditoria da evidência.",
+      "explanation_edits": []
+    },
+    {
+      "citation_id": "01d8fd26",
+      "previous_citation_id": "01d8fd26",
+      "previous_context": "Na avaliação das próteses do membro superior, a literatura assinala a falta de critérios comuns e de medidas especificamente desenvolvidas para esta população, o que limita a produção de dados objetivos e comparáveis sobre a experiência e o desempenho dos dispositivos (Cordella et al., 2016; Jones et al., 2023). No âmbito do design, (Chadwell et al., 2020) assinalam que continuam a existir poucos dados objetivos sobre os ajustamentos do dispositivo suscetíveis de aumentar a sua utilidade no ambiente quotidiano do utilizador. A monitorização em contexto real pode complementar as avaliações clínicas e contribuir para o desenvolvimento de dispositivos mais ajustados às necessidades individuais. A aplicação de sensores continua, contudo, condicionada pelo custo, pela autonomia limitada das baterias, pela disponibilidade dos equipamentos e pela formação necessária para recolher e interpretar os dados, o que dificulta a adoção desta prática na atividade clínica corrente.",
+      "context": "Na avaliação das próteses de membro superior, a literatura assinala a falta de critérios comuns e de medidas especificamente desenvolvidas para esta população, o que limita a produção de dados objetivos e comparáveis sobre a experiência e o desempenho dos dispositivos (Cordella et al., 2016; Jones et al., 2023). No âmbito do design, Chadwell et al. (2020) identificam também a escassez de dados objetivos que permitam determinar quais os ajustamentos mais relevantes para a utilização quotidiana das próteses. A observação em contexto real pode complementar as avaliações clínicas e contribuir para identificar problemas de adaptação e orientar melhorias no dispositivo.",
+      "previous_context_sha256": "a62eead225d7167fa7d2c1f6ef8c9c8a7514eefc4dc5f48de9308b4d670d065a",
+      "context_sha256": "1600362728ed2b6e00c3cd6c20ee4bd59754836c74e82f2ab994f68778d6d7af",
+      "reason": "Passagem revista conferida com a explicação existente; o contributo atribuído à fonte permanece compatível. Não constitui nova auditoria da evidência.",
+      "explanation_edits": []
+    },
+    {
+      "citation_id": "d2a3d3ab",
+      "previous_citation_id": "d2a3d3ab",
+      "previous_context": "A presente investigação, de natureza aplicada, segue o enquadramento de Research Through Design (RTD). Nesta abordagem, a conceção, a experimentação, a prototipagem e a reflexão crítica são atividades de investigação através das quais o artefacto permite formular e examinar conhecimento de projeto (Frayling, 1994; Zimmerman et al., 2007). O artefacto central consiste num protótipo de investigação: uma plataforma web que articula modelos paramétricos de mão protésica, dados antropométricos, sugestões geradas por IA, visualização tridimensional e exportação para fabrico.",
+      "context": "A presente investigação, de natureza aplicada, segue o enquadramento de Research Through Design. Nesta abordagem, a conceção, a experimentação, a prototipagem e a reflexão crítica são atividades de investigação através das quais o artefacto permite formular e examinar conhecimento de projeto (Frayling, 1994; Zimmerman et al., 2007). O artefacto central consiste num protótipo de investigação: uma plataforma web que articula modelos paramétricos de mão protésica, dados antropométricos, sugestões geradas por IA, visualização tridimensional e exportação para fabrico.",
+      "previous_context_sha256": "da7dce2143bfda696f05e832370dd8cfd74bcc2f41e8e4414d8eb807d8b164d3",
+      "context_sha256": "680afd51741ee4e0ecc59cae84a5537088cd52f82f495d72708b1a97f3d32b72",
+      "reason": "Passagem revista conferida com a explicação existente; o contributo atribuído à fonte permanece compatível. Não constitui nova auditoria da evidência.",
+      "explanation_edits": []
+    },
+    {
+      "citation_id": "68fdd84b",
+      "previous_citation_id": "68fdd84b",
+      "previous_context": "A literatura enquadra o desenvolvimento de próteses de membro superior como um problema de elevada complexidade, situado na interseção entre o desempenho biomecânico, a integração corpo-dispositivo e a experiência vivida do utilizador (Cordella et al., 2016; Guo, 2025). Este desafio ultrapassa a replicação formal da mão ou do segmento ausente e implica conceber dispositivos que conciliem funcionalidade, conforto, leveza, funcionamento consistente, controlo compreensível, aceitação estética e custos compatíveis com a produção, a adaptação, a manutenção e o acesso continuado à prótese, num contexto em que continuam a registar-se taxas elevadas de rejeição e abandono.",
+      "context": "O desenvolvimento de próteses de membro superior constitui um problema complexo, que articula o desempenho biomecânico, a interação entre o corpo e o dispositivo e a experiência de utilização (Cordella et al., 2016; Guo, 2025). Este desafio ultrapassa a reprodução formal da mão ou do segmento ausente, exigindo a conciliação de funcionalidade, conforto, leveza, funcionamento consistente, controlo compreensível, aceitação estética e custos associados à produção, adaptação, manutenção e acesso continuado à prótese.",
+      "previous_context_sha256": "873de762a5a1de7fa2d733f6200c2a00a1eac9c0a014fd02748071cdeaf6d8ea",
+      "context_sha256": "e8cf585fd89878f082af7000911a2b91c6b18c296bdba386cb56fe34967e5455",
+      "reason": "Passagem revista conferida com a explicação existente; o contributo atribuído à fonte permanece compatível. Não constitui nova auditoria da evidência.",
+      "explanation_edits": []
+    },
+    {
+      "citation_id": "5d5a67a2",
+      "previous_citation_id": "5d5a67a2",
+      "previous_context": "A literatura associa recorrentemente estas taxas ao desconforto no encaixe, ao peso excessivo, às limitações funcionais, à baixa robustez e a estratégias de controlo pouco intuitivas, revelando uma lacuna persistente entre a capacidade tecnológica dos dispositivos e as necessidades reais de uso (Biddiss & Chau, 2007; Cordella et al., 2016).",
+      "context": "A rejeição e o abandono destes dispositivos estão frequentemente associados ao desconforto no encaixe, ao peso excessivo, às limitações funcionais, à reduzida robustez e a mecanismos de controlo pouco intuitivos. Estes fatores evidenciam o desfasamento entre as capacidades tecnológicas disponíveis e as necessidades dos utilizadores (Biddiss & Chau, 2007; Cordella et al., 2016).",
+      "previous_context_sha256": "6b5db5691a18dc3383d4550adfc7ed328b61a9ec808cd0eaee0d8898a671e3dd",
+      "context_sha256": "b1850881f92d85b75a32657a52ab2aa6896bd8ffd0e210f8bd0bcaaf2b772ccf",
+      "reason": "Passagem revista conferida com a explicação existente; o contributo atribuído à fonte permanece compatível. Não constitui nova auditoria da evidência.",
+      "explanation_edits": []
+    },
+    {
+      "citation_id": "6e10ff5e",
+      "previous_citation_id": "6e10ff5e",
+      "previous_context": "A literatura identifica requisitos funcionais, ergonómicos, técnicos, produtivos e psicossociais que devem convergir num dispositivo protésico (Biddiss & Chau, 2007; Brack & Amalu, 2021; Henao et al., 2025; Walker et al., 2020). Neste estudo, contudo, apenas três grupos foram traduzidos em propriedades observáveis do protótipo: dimensões e relações geométricas; preservação de interfaces mecânicas herdadas; e preparação preliminar para fabrico aditivo. O conforto, a usabilidade, a força, a amplitude funcional, a durabilidade, a segurança, a aceitação e a incorporação corporal não foram operacionalizados nem avaliados.",
+      "context": "Neste contexto, o desenvolvimento protésico exige a articulação de requisitos funcionais, ergonómicos, técnicos, produtivos e psicossociais (Biddiss & Chau, 2007; Brack & Amalu, 2021; Henao et al., 2025; Walker et al., 2020).. Na presente investigação, foram traduzidos em propriedades observáveis do protótipo três aspetos: dimensões e relações geométricas, preservação de interfaces mecânicas herdadas e preparação preliminar para fabrico aditivo.",
+      "previous_context_sha256": "8f15d9452ad8b9b5daffafe15d7be32ae54344d572ec2cf84d9d21078dd9b5bf",
+      "context_sha256": "c80076791471becc753b835cc4ea3169b8063eb72059f9a38e790662eb1a76c0",
+      "reason": "Passagem revista conferida com a explicação existente; o contributo atribuído à fonte permanece compatível. Não constitui nova auditoria da evidência.",
+      "explanation_edits": []
+    },
+    {
+      "citation_id": "0d45f9b1",
+      "previous_citation_id": "0d45f9b1",
+      "previous_context": "Os parâmetros antropométricos mais relevantes definem, antes de mais, a estrutura dimensional de base da mão. O comprimento e a largura da mão, bem como o comprimento da palma, constituem descritores dimensionais primários que permitem estabelecer a escala e a organização geral do modelo. Incluem-se ainda parâmetros relativos aos dedos, como os comprimentos segmentares e as proporções entre falanges, além das dimensões do polegar e do punho, essenciais para a funcionalidade e a integração da mão protésica no uso quotidiano (Chatzıoglou et al., 2024; Nag et al., 2003).",
+      "context": "Os parâmetros antropométricos mais relevantes definem, antes de mais, a estrutura dimensional de base da mão. O comprimento e a largura da mão, bem como o comprimento da palma, são medidas de referência utilizadas para definir as dimensões e proporções gerais do modelo. Incluem-se ainda parâmetros relativos aos dedos, como os comprimentos segmentares e as proporções entre falanges, além das dimensões do polegar e do punho, essenciais para a funcionalidade e a integração da mão protésica no uso quotidiano (Chatzıoglou et al., 2024; Nag et al., 2003).",
+      "previous_context_sha256": "379c3deaca6a3388d7da517cbbe491e4e638394ba36defb56f6e78b6dd2ef0c3",
+      "context_sha256": "2d799472c758431b3e0080b2c9556c5b41ac52c963813fd6f2ff890c48722fac",
+      "reason": "Passagem revista conferida com a explicação existente; o contributo atribuído à fonte permanece compatível. Não constitui nova auditoria da evidência.",
+      "explanation_edits": []
+    },
+    {
+      "citation_id": "2c05094c",
+      "previous_citation_id": "2c05094c",
+      "previous_context": "Uma limitação recorrente das abordagens simplificadas de modelação consiste no redimensionamento proporcional (uniform scaling), em que um modelo base é dimensionado proporcionalmente em todas as direções. Esta abordagem é inadequada no contexto antropométrico, pois as dimensões da mão apresentam correlações imperfeitas entre si e não variam uniformemente entre populações, nomeadamente entre sexos e grupos etários. Assim, indivíduos com larguras de mão semelhantes podem ter comprimentos, proporções falângicas ou dimensões do polegar significativamente diferentes. A modelação paramétrica requer, portanto, parâmetros independentes que permitam derivar proporções locais sem pressupor uma homotetia global. As partes da prótese não são, por conseguinte, redimensionadas segundo uma proporção única, nem mantêm invariáveis todas as relações geométricas entre si (Lim et al., 2018; Nag et al., 2003; Rodríguez-Vega & Rodríguez-Vega, 2024).",
+      "context": "Uma limitação recorrente das abordagens simplificadas de modelação consiste no redimensionamento proporcional (uniform scaling), em que um modelo base é dimensionado proporcionalmente em todas as direções. Esta abordagem é inadequada no contexto antropométrico, pois as dimensões da mão apresentam correlações imperfeitas entre si e não variam uniformemente entre populações, nomeadamente entre sexos e grupos etários. Assim, indivíduos com larguras de mão semelhantes podem ter comprimentos, proporções falângicas ou dimensões do polegar significativamente diferentes. A modelação paramétrica requer, portanto, parâmetros independentes que permitam derivar proporções locais sem pressupor uma homotetia14A homotetia global é uma transformação geométrica que aumenta ou reduz todas as dimensões de um modelo pelo mesmo fator de escala, preservando as proporções entre os seus elementos. global. As partes da prótese não são, por conseguinte, redimensionadas segundo uma proporção única, nem mantêm invariáveis todas as relações geométricas entre si (Lim et al., 2018; Nag et al., 2003; Rodríguez-Vega & Rodríguez-Vega, 2024).",
+      "previous_context_sha256": "18e2036ffa762837c763f8702b5481ad5f5694584c7b40c18860009d245db1ec",
+      "context_sha256": "138025dcad3406875cc9164aafa58cacb22c830409b82a5f9e1af9c6ef07250d",
+      "reason": "Inserção de definições ou renumeração de notas de rodapé; a explicação continua a referir-se ao mesmo contributo da obra no parágrafo.",
+      "explanation_edits": []
+    },
+    {
+      "citation_id": "efe29713",
+      "previous_citation_id": "efe29713",
+      "previous_context": "Os dados podem ser recolhidos por diferentes métodos, com implicações diretas na precisão das medições e na sua tradução em parâmetros de projeto. A escolha depende do objetivo da medição: parametrização dimensional básica, reconstrução geométrica fina, desenho do encaixe ou obtenção de relações internas entre superfícies e estruturas ósseas. (Ciklacandir et al., 2022) e (Herbst et al., 2021) demonstram que nenhum método é universalmente superior; a sua adequação varia em função do custo, da acessibilidade e do tipo de dados necessários(Ciklacandir et al., 2022; Herbst et al., 2021).",
+      "context": "Os dados podem ser recolhidos por diferentes métodos, com implicações diretas na precisão das medições e na sua tradução em parâmetros de projeto. A escolha depende do objetivo da medição: parametrização dimensional básica, reconstrução geométrica fina, desenho do encaixe ou obtenção de relações internas entre superfícies e estruturas ósseas. Ciklacandir et al. (2022) e Herbst et al. (2021) demonstram que nenhum método é universalmente superior; a sua adequação varia em função do custo, da acessibilidade e do tipo de dados necessários (Ciklacandir et al., 2022; Herbst et al., 2021).",
+      "previous_context_sha256": "b40a136720afc9bf40e612311fe9b53c77554cbaa66fa3b101f482730ae19ecc",
+      "context_sha256": "0219969e2f751800719a400be8869c91116ff5e219c48063bd3b2d2a1d1c3607",
+      "reason": "Alteração de pontuação, espaços ou apresentação da citação; preservado o conteúdo da explicação.",
+      "explanation_edits": []
+    },
+    {
+      "citation_id": "50ab3b0d",
+      "previous_citation_id": "50ab3b0d",
+      "previous_context": "Os dados podem ser recolhidos por diferentes métodos, com implicações diretas na precisão das medições e na sua tradução em parâmetros de projeto. A escolha depende do objetivo da medição: parametrização dimensional básica, reconstrução geométrica fina, desenho do encaixe ou obtenção de relações internas entre superfícies e estruturas ósseas. (Ciklacandir et al., 2022) e (Herbst et al., 2021) demonstram que nenhum método é universalmente superior; a sua adequação varia em função do custo, da acessibilidade e do tipo de dados necessários(Ciklacandir et al., 2022; Herbst et al., 2021).",
+      "context": "Os dados podem ser recolhidos por diferentes métodos, com implicações diretas na precisão das medições e na sua tradução em parâmetros de projeto. A escolha depende do objetivo da medição: parametrização dimensional básica, reconstrução geométrica fina, desenho do encaixe ou obtenção de relações internas entre superfícies e estruturas ósseas. Ciklacandir et al. (2022) e Herbst et al. (2021) demonstram que nenhum método é universalmente superior; a sua adequação varia em função do custo, da acessibilidade e do tipo de dados necessários (Ciklacandir et al., 2022; Herbst et al., 2021).",
+      "previous_context_sha256": "b40a136720afc9bf40e612311fe9b53c77554cbaa66fa3b101f482730ae19ecc",
+      "context_sha256": "0219969e2f751800719a400be8869c91116ff5e219c48063bd3b2d2a1d1c3607",
+      "reason": "Alteração de pontuação, espaços ou apresentação da citação; preservado o conteúdo da explicação.",
+      "explanation_edits": []
+    },
+    {
+      "citation_id": "576ff77c",
+      "previous_citation_id": "576ff77c",
+      "previous_context": "Os dados podem ser recolhidos por diferentes métodos, com implicações diretas na precisão das medições e na sua tradução em parâmetros de projeto. A escolha depende do objetivo da medição: parametrização dimensional básica, reconstrução geométrica fina, desenho do encaixe ou obtenção de relações internas entre superfícies e estruturas ósseas. (Ciklacandir et al., 2022) e (Herbst et al., 2021) demonstram que nenhum método é universalmente superior; a sua adequação varia em função do custo, da acessibilidade e do tipo de dados necessários(Ciklacandir et al., 2022; Herbst et al., 2021).",
+      "context": "Os dados podem ser recolhidos por diferentes métodos, com implicações diretas na precisão das medições e na sua tradução em parâmetros de projeto. A escolha depende do objetivo da medição: parametrização dimensional básica, reconstrução geométrica fina, desenho do encaixe ou obtenção de relações internas entre superfícies e estruturas ósseas. Ciklacandir et al. (2022) e Herbst et al. (2021) demonstram que nenhum método é universalmente superior; a sua adequação varia em função do custo, da acessibilidade e do tipo de dados necessários (Ciklacandir et al., 2022; Herbst et al., 2021).",
+      "previous_context_sha256": "b40a136720afc9bf40e612311fe9b53c77554cbaa66fa3b101f482730ae19ecc",
+      "context_sha256": "0219969e2f751800719a400be8869c91116ff5e219c48063bd3b2d2a1d1c3607",
+      "reason": "Alteração de pontuação, espaços ou apresentação da citação; preservado o conteúdo da explicação.",
+      "explanation_edits": []
+    },
+    {
+      "citation_id": "56b98ba7",
+      "previous_citation_id": "56b98ba7",
+      "previous_context": "O OpenSCAD é um ambiente livre e open source de CAD tridimensional, baseado em ficheiros de script e orientado para a criação de geometria sólida, não para a modelação artística de superfícies. O modelo é descrito num ficheiro .scad, escrito numa linguagem própria que o programa interpreta para gerar o sólido correspondente. Em termos geométricos, o OpenSCAD baseia-se numa lógica de Constructive Solid Geometry (CSG), em que primitivas como cubos, cilindros, esferas e extrusões são combinadas mediante operações booleanas, transformações e relações hierárquicas entre módulos (Avila et al., 2024; Ghali, 2008).",
+      "context": "O OpenSCAD é um ambiente livre e de código aberto de CAD tridimensional, baseado em ficheiros de código e orientado para a modelação geométrica de sólidos. O modelo é definido num ficheiro .scad, através de uma linguagem própria que o OpenSCAD interpreta para gerar a geometria tridimensional correspondente. Em termos geométricos, o OpenSCAD baseia-se numa lógica de Constructive Solid Geometry (CSG), em que primitivas como cubos, cilindros, esferas e extrusões são combinadas mediante operações booleanas, transformações e relações hierárquicas entre módulos (Avila et al., 2024; Ghali, 2008).",
+      "previous_context_sha256": "c0973c54b4f02df03a18741b11e1c0997f74232c362827015451e783c3362a6c",
+      "context_sha256": "1132e4440301ad6584c5805b035d5b2d0b27b67fca2748d1c20b6bd57ab77108",
+      "reason": "Passagem revista conferida com a explicação existente; o contributo atribuído à fonte permanece compatível. Não constitui nova auditoria da evidência.",
+      "explanation_edits": []
+    },
+    {
+      "citation_id": "199d7ce0",
+      "previous_citation_id": "199d7ce0",
+      "previous_context": "A natureza programável do OpenSCAD distingue-o dos ambientes CAD convencionais, assentes sobretudo na manipulação gráfica direta. Em muitos sistemas CAD, o utilizador constrói uma sequência de operações num histórico visual e parametriza algumas das suas características. No OpenSCAD, a descrição textual constitui o próprio modelo paramétrico: as variáveis, funções e módulos não são uma camada posterior aplicada à geometria, mas a estrutura que a gera. Para a investigação, esta diferença torna mais explícitas, reexecutáveis e documentáveis as relações entre parâmetros, componentes e restrições, embora implique uma curva de aprendizagem maior e dificuldades conhecidas na navegação código-vista, na validação e na criação de formas orgânicas complexas (Gonzalez Avila, 2024; Trautmann, 2021).",
+      "context": "A natureza programável do OpenSCAD distingue-o dos ambientes CAD convencionais, assentes sobretudo na manipulação gráfica direta. Em muitos sistemas CAD, o utilizador constrói uma sequência de operações num histórico visual e parametriza algumas das suas características. No OpenSCAD, o código constitui a estrutura do modelo paramétrico e determina a geometria gerada. Esta abordagem facilita a documentação das relações entre os parâmetros e os componentes, permitindo reproduzir o processo de modelação. Contudo, exige maior familiaridade com a programação e apresenta dificuldades na correspondência entre o código e a visualização. A validação dos modelos e a criação de formas orgânicas complexas também podem ser mais exigentes (Gonzalez Avila, 2024; Trautmann, 2021).",
+      "previous_context_sha256": "54b89e3046f44dedda68c37f69b553b7e9a96f9d53b0def9a978572975f54856",
+      "context_sha256": "f96439ff98d23089faa474d5846ebfefc04aa8e063fb312cfcdfc116254710aa",
+      "reason": "Passagem revista conferida com a explicação existente; o contributo atribuído à fonte permanece compatível. Não constitui nova auditoria da evidência.",
+      "explanation_edits": []
+    },
+    {
+      "citation_id": "1bba9ea7",
+      "previous_citation_id": "1bba9ea7",
+      "previous_context": "A escolha do OpenSCAD decorre da sua adequação a processos documentados e consistentes de design paramétrico. Por ser constituído por texto simples, o ficheiro-fonte pode ser mantido sob controlo de versões, comparado, analisado e reutilizado, facilitando o registo das decisões de modelação e a regeneração de variantes. Esta característica é valorizada no hardware científico e open source, em que a documentação do processo assume uma importância equivalente à do ficheiro final exportado. O OpenSCAD também pode ser executado por linha de comando, receber valores por parâmetros e exportar automaticamente geometrias para formatos de fabrico digital, como STL ou 3MF, sendo assim compatível com fluxos de geração em lote e configuradores digitais (Machado et al., 2019).",
+      "context": "A escolha do OpenSCAD decorre da sua adequação a processos documentados e consistentes de design paramétrico. Por utilizar ficheiros de texto simples, o OpenSCAD facilita o controlo de versões, permitindo acompanhar as alterações ao código e reproduzir diferentes variantes do modelo. Esta característica é valorizada no hardware científico e open source, em que a documentação do processo assume uma importância equivalente à do ficheiro final exportado. O OpenSCAD também pode ser executado por linha de comando, receber valores por parâmetros e exportar automaticamente geometrias para formatos de fabrico digital, como STL ou 3MF, sendo assim compatível com fluxos de geração em lote e configuradores digitais (Machado et al., 2019).",
+      "previous_context_sha256": "37c77c903349b329c137619b261b4e28025bb094f8b74d9defe27b9216456a06",
+      "context_sha256": "f49494da882e9a0daf5424015740eaee97b119a8f3b015023f2256de130e3212",
+      "reason": "Passagem revista conferida com a explicação existente; o contributo atribuído à fonte permanece compatível. Não constitui nova auditoria da evidência.",
+      "explanation_edits": []
+    },
+    {
+      "citation_id": "8944077a",
+      "previous_citation_id": "8944077a",
+      "previous_context": "A modelação em OpenSCAD pode articular-se com fluxos de dados mais complexos, incluindo a digitalização tridimensional e a automatização parcial do desenho. Trabalhos como os de (Herbst et al., 2021) e (Saldarriaga et al., 2024) demonstram que a personalização tende a aproximar a medição, a parametrização e o fabrico, reduzindo o intervalo entre a captura anatómica e a geração de modelos prontos para produção. Nesta investigação, essa articulação utiliza a lógica explícita do código como núcleo organizador da integração consistente e documentada de dados, restrições e interfaces de configuração.",
+      "context": "A modelação em OpenSCAD pode articular-se com fluxos de dados mais complexos, incluindo a digitalização tridimensional e a automatização parcial do desenho. Trabalhos como os de Herbst et al. (2021) e Saldarriaga et al. (2024) demonstram que a personalização tende a aproximar a medição, a parametrização e o fabrico, reduzindo o intervalo entre a captura anatómica e a geração de modelos prontos para produção. Nesta investigação, essa articulação utiliza a lógica explícita do código como núcleo organizador da integração consistente e documentada de dados, restrições e interfaces de configuração.",
+      "previous_context_sha256": "4a1a7364f4a867ff5bf01ae0aa7b9c3c41d63f0d02587f8e937a87c81dcd13c8",
+      "context_sha256": "6719782a340a2cbc690ae4e5ee1a78cd7251c1ecadd16c58b0d5629c34bcdcb5",
+      "reason": "Alteração de pontuação, espaços ou apresentação da citação; preservado o conteúdo da explicação.",
+      "explanation_edits": []
+    },
+    {
+      "citation_id": "b588d2ab",
+      "previous_citation_id": "b588d2ab",
+      "previous_context": "A modelação em OpenSCAD pode articular-se com fluxos de dados mais complexos, incluindo a digitalização tridimensional e a automatização parcial do desenho. Trabalhos como os de (Herbst et al., 2021) e (Saldarriaga et al., 2024) demonstram que a personalização tende a aproximar a medição, a parametrização e o fabrico, reduzindo o intervalo entre a captura anatómica e a geração de modelos prontos para produção. Nesta investigação, essa articulação utiliza a lógica explícita do código como núcleo organizador da integração consistente e documentada de dados, restrições e interfaces de configuração.",
+      "context": "A modelação em OpenSCAD pode articular-se com fluxos de dados mais complexos, incluindo a digitalização tridimensional e a automatização parcial do desenho. Trabalhos como os de Herbst et al. (2021) e Saldarriaga et al. (2024) demonstram que a personalização tende a aproximar a medição, a parametrização e o fabrico, reduzindo o intervalo entre a captura anatómica e a geração de modelos prontos para produção. Nesta investigação, essa articulação utiliza a lógica explícita do código como núcleo organizador da integração consistente e documentada de dados, restrições e interfaces de configuração.",
+      "previous_context_sha256": "4a1a7364f4a867ff5bf01ae0aa7b9c3c41d63f0d02587f8e937a87c81dcd13c8",
+      "context_sha256": "6719782a340a2cbc690ae4e5ee1a78cd7251c1ecadd16c58b0d5629c34bcdcb5",
+      "reason": "Alteração de pontuação, espaços ou apresentação da citação; preservado o conteúdo da explicação.",
+      "explanation_edits": []
+    },
+    {
+      "citation_id": "7ab8803f",
+      "previous_citation_id": "7ab8803f",
+      "previous_context": "A integração do OpenSCAD por meio de WebAssembly permite executar localmente, no navegador, um modelo paramétrico baseado em código. A geometria é gerada no próprio ambiente do utilizador, sem depender de um servidor externo que calcule, ou devolva, o modelo tridimensional, sempre que os parâmetros são alterados. O OpenSCAD define a geometria a partir de instruções, parâmetros e relações explícitas, enquanto o WebAssembly (WASM) permite executar esse núcleo no ambiente web. Nesta investigação, esta articulação preserva a lógica do modelo e disponibiliza os seus controlos através da interface, sem demonstrar, por si só, acessibilidade ou facilidade de utilização (Machado et al., 2019; Nilsiam & Pearce, 2017).",
+      "context": "A integração do OpenSCAD por meio de WebAssembly permite executar localmente, no navegador, um modelo paramétrico baseado em código. A geometria é gerada no próprio ambiente do utilizador, sem depender de um servidor externo que calcule, ou devolva, o modelo tridimensional, sempre que os parâmetros são alterados. O OpenSCAD define a geometria a partir de instruções, parâmetros e relações explícitas, enquanto o WebAssembly (WASM) permite executar esse núcleo no ambiente web. Nesta investigação, esta articulação preserva a lógica do modelo e disponibiliza os seus controlos através da interface da plataforam (Machado et al., 2019; Nilsiam & Pearce, 2017).",
+      "previous_context_sha256": "1121b50dd4a796b326c01ec195e051a7d4267f46502577ba471dc639e9b5692c",
+      "context_sha256": "4b5fb8ff984deea657cbbe169b11d7d7d438198e05b9f02e550d32ac64db1de7",
+      "reason": "Passagem revista conferida com a explicação existente; o contributo atribuído à fonte permanece compatível. Não constitui nova auditoria da evidência.",
+      "explanation_edits": []
+    },
+    {
+      "citation_id": "96c0e867",
+      "previous_citation_id": "96c0e867",
+      "previous_context": "Do ponto de vista metodológico, esta solução preserva o estatuto do modelo paramétrico como especificação explícita, e não como caixa negra geométrica. A plataforma não substitui o OpenSCAD por uma representação simplificada desligada do código, mas torna o próprio núcleo algorítmico operável em ambiente web. A integração reduz ainda a distância entre modelação e interação, permitindo que a exploração formal decorra num contexto mais observável e iterativo. O utilizador não necessita de dominar a sintaxe do OpenSCAD para beneficiar da estrutura paramétrica do modelo, embora essa estrutura permaneça a base efetiva da geometria apresentada. A plataforma funciona, neste sentido, como camada intermédia entre a disciplina técnica do código e a experiência configurável descrita na literatura sobre configuradores e sistemas de personalização digital (Nilsiam & Pearce, 2017; Ozdemir et al., 2022).",
+      "context": "Do ponto de vista metodológico, esta solução mantém explícitas as regras que determinam a geometria dos modelos paramétricos, permitindo compreender como as alterações dos parâmetros influenciam a forma gerada. A plataforma não substitui o OpenSCAD por uma representação simplificada desligada do código, mas torna o próprio núcleo algorítmico operável em ambiente web. A integração reduz ainda a distância entre modelação e interação, permitindo que a exploração formal decorra num contexto mais observável e iterativo. O utilizador não necessita de dominar a sintaxe do OpenSCAD para beneficiar da estrutura paramétrica do modelo, embora essa estrutura permaneça a base efetiva da geometria apresentada. A plataforma funciona, neste sentido, como camada intermédia entre a disciplina técnica do código e a experiência configurável descrita na literatura sobre configuradores e sistemas de personalização digital (Nilsiam & Pearce, 2017; Ozdemir et al., 2022).",
+      "previous_context_sha256": "3bce7f16e28bd50b7d177ede3516795e27147a77649a92c138e5aa3abc8b0847",
+      "context_sha256": "e17648b422a303083dcffc2669d8fa1db79bf383b8679fb11bac42b5c881dcec",
+      "reason": "Passagem revista conferida com a explicação existente; o contributo atribuído à fonte permanece compatível. Não constitui nova auditoria da evidência.",
+      "explanation_edits": []
+    },
+    {
+      "citation_id": "ae7963f3",
+      "previous_citation_id": "ae7963f3",
+      "previous_context": "Quanto à expansão, a separação entre modelos, parâmetros, interface, autenticação e persistência permite acrescentar modelos OpenSCAD sem redesenhar todo o percurso. Nos sistemas de personalização, a arquitetura de base deve identificar as características variáveis e o modo como podem ser modificadas; os parâmetros, as respetivas dependências e os constrangimentos delimitam depois o espaço de soluções válidas (Ozdemir et al., 2022). Na plataforma HandFab, a integração do Paraglider, do UnLimbited Phoenix, do Flexy Beast e do Cyborg Beast demonstrou que é necessário declarar parâmetros, limites, dependências e modos de visualização e, em alguns casos, corrigir incompatibilidades ou preservar interfaces mecânicas herdadas. A expansão correspondeu a uma adaptação de design controlada, na qual a lógica geométrica e mecânica de cada modelo foi traduzida para a arquitetura configurável da plataforma, e não a uma importação automática de geometrias.",
+      "context": "Quanto à expansão, a separação entre modelos, parâmetros, interface, autenticação e persistência permite acrescentar modelos OpenSCAD sem redesenhar todo o percurso. Nos sistemas de personalização, a arquitetura de base deve identificar as características variáveis e o modo como podem ser modificadas; os parâmetros, as respetivas dependências e os constrangimentos delimitam depois o espaço de soluções válidas (Ozdemir et al., 2022). Na plataforma HandFab, a integração dos modelos Paraglider, UnLimbited Phoenix, Flexy Beast e Cyborg Beast demonstrou que é necessário declarar parâmetros, limites, dependências e modos de visualização e, em alguns casos, corrigir incompatibilidades ou preservar interfaces mecânicas herdadas. A expansão correspondeu a uma adaptação de design controlada, na qual a lógica geométrica e mecânica de cada modelo foi traduzida para a arquitetura configurável da plataforma, e não a uma importação automática de geometrias.",
+      "previous_context_sha256": "b1290a2fbaf2fc2a1a4025114ad1134a9bc48735e29ce72fdd4a95532c950662",
+      "context_sha256": "e6ff0534030cf55434469537fa5062a8bbce9beb40c3693d9f0243b3662eadcd",
+      "reason": "Passagem revista conferida com a explicação existente; o contributo atribuído à fonte permanece compatível. Não constitui nova auditoria da evidência.",
+      "explanation_edits": []
+    },
+    {
+      "citation_id": "4d64bed5",
+      "previous_citation_id": "4d64bed5",
+      "previous_context": "A pré-visualização é calculada localmente pelo OpenSCAD em WebAssembly. O Web Worker separa esta execução da tarefa principal da interface, evitando o seu bloqueio direto durante o cálculo. Não foram medidos o tempo percebido, a compreensão dos estados nem a qualidade da interação (Alili et al., 2023; Quintero et al., 2018).",
+      "context": "Nos ensaios realizados, a execução do OpenSCAD em WebAssembly através de um Web Worker permitiu manter os controlos da interface disponíveis durante a geração da pré-visualização tridimensional (Alili et al., 2023; Quintero et al., 2018).",
+      "previous_context_sha256": "1539e9873bcb96dd0890485b59d3f444b7e4cf463fc1b794464a46c92cb61667",
+      "context_sha256": "705bc02de6a61623160612290a77945910edaa2226a6c5b7195055c86f83f497",
+      "reason": "A nova passagem relata uma observação dos ensaios do HandFab; as explicações distinguem esse resultado dos exemplos de interfaces nas obras citadas.",
+      "explanation_edits": [
+        {
+          "record_id": "6f2a3cae-fcf2-383a-909e-024ce229c40b",
+          "before": "O estudo apresenta uma interface controlada pelo utilizador para afinar parâmetros de uma prótese robótica.",
+          "after": "O estudo apresenta uma interface controlada pelo utilizador para afinar parâmetros de uma prótese robótica. A observação sobre a disponibilidade dos controlos no HandFab pertence aos ensaios do projeto."
+        },
+        {
+          "record_id": "aa748afa-66db-3d4e-9f0d-530230a1dda5",
+          "before": "A fonte mostra uma interface clínica com indicação visual de parâmetros e estados de uma prótese.",
+          "after": "A fonte mostra uma interface clínica com indicação visual de parâmetros e estados de uma prótese. A observação sobre a disponibilidade dos controlos no HandFab pertence aos ensaios do projeto."
+        }
+      ]
+    },
+    {
+      "citation_id": "fb65172e",
+      "previous_citation_id": "fb65172e",
+      "previous_context": "Reproduzido de (da Silva et al., 2018) Interdisciplinary-based development of user-friendly customized 3D printed upper limb prosthesis. Comunicação em conferência.",
+      "context": "Reproduzido de da Silva et al. (2018), Interdisciplinary-based development of user-friendly customized 3D printed upper limb prosthesis. Comunicação em conferência.",
+      "previous_context_sha256": "157046a9f1aa56c1730770a60731bd5c0418c1e216aeb8c165744d5c0ec37059",
+      "context_sha256": "6e8214b575e7bdfe9b766a43a95d3837d31ca0c8db8938f819ea1944d4c616af",
+      "reason": "Alteração de pontuação, espaços ou apresentação da citação; preservado o conteúdo da explicação.",
+      "explanation_edits": []
+    },
+    {
+      "citation_id": "5b9043bb",
+      "previous_citation_id": "5b9043bb",
+      "previous_context": "A literatura sobre próteses de membro superior associa as razões de abandono sobretudo a problemas de conforto e função, incluindo o peso, a temperatura e a transpiração (Smail et al., 2021). (Biddiss et al., 2007) identificam o peso, o conforto e o controlo como prioridades expressas pelos utilizadores, enquanto (Fink & Diamond, 2023) destacam o ajuste do encaixe, o controlo, o peso, a facilidade de reparação e a estética entre os aspetos a considerar na escolha e no acompanhamento da prótese. Nesta investigação, estas preocupações foram convertidas em requisitos de referência para o processo de design. A configuração dimensional, a visualização, a escolha formal e cromática, a edição dos parâmetros e a possibilidade de aceitar, alterar ou rejeitar sugestões de IA respondem concretamente a esses requisitos. Os ensaios confirmaram a presença e o funcionamento técnico destes mecanismos, mas não mediram os seus efeitos no conforto percebido, na aceitação ou na utilização continuada.",
+      "context": "A literatura sobre próteses de membro superior associa as razões de abandono sobretudo a problemas de conforto e função, incluindo o peso, a temperatura e a transpiração (Smail et al., 2021). Biddiss et al. (2007) identificam o peso, o conforto e o controlo como prioridades expressas pelos utilizadores, enquanto Fink & Diamond (2023) destacam o ajuste do encaixe, o controlo, o peso, a facilidade de reparação e a estética entre os aspetos a considerar na escolha e no acompanhamento da prótese. Nesta investigação, estas preocupações foram convertidas em requisitos de referência para o processo de design. A configuração dimensional, a visualização, a escolha formal e cromática, a edição dos parâmetros e a possibilidade de aceitar, alterar ou rejeitar sugestões de IA respondem concretamente a esses requisitos. Os ensaios confirmaram a presença e o funcionamento técnico destes mecanismos, mas não mediram os seus efeitos no conforto percebido, na aceitação ou na utilização continuada.",
+      "previous_context_sha256": "dc1aa4daca90ee9d17238e9a36f2a47f87b86a40fe29c95c5b305d7a98f00500",
+      "context_sha256": "dddc0702e067c7d1626a8b401dec3ebee4345bef44a576a93c3c732c798f1573",
+      "reason": "Alteração de pontuação, espaços ou apresentação da citação; preservado o conteúdo da explicação.",
+      "explanation_edits": []
+    },
+    {
+      "citation_id": "90f3780c",
+      "previous_citation_id": "90f3780c",
+      "previous_context": "A literatura sobre próteses de membro superior associa as razões de abandono sobretudo a problemas de conforto e função, incluindo o peso, a temperatura e a transpiração (Smail et al., 2021). (Biddiss et al., 2007) identificam o peso, o conforto e o controlo como prioridades expressas pelos utilizadores, enquanto (Fink & Diamond, 2023) destacam o ajuste do encaixe, o controlo, o peso, a facilidade de reparação e a estética entre os aspetos a considerar na escolha e no acompanhamento da prótese. Nesta investigação, estas preocupações foram convertidas em requisitos de referência para o processo de design. A configuração dimensional, a visualização, a escolha formal e cromática, a edição dos parâmetros e a possibilidade de aceitar, alterar ou rejeitar sugestões de IA respondem concretamente a esses requisitos. Os ensaios confirmaram a presença e o funcionamento técnico destes mecanismos, mas não mediram os seus efeitos no conforto percebido, na aceitação ou na utilização continuada.",
+      "context": "A literatura sobre próteses de membro superior associa as razões de abandono sobretudo a problemas de conforto e função, incluindo o peso, a temperatura e a transpiração (Smail et al., 2021). Biddiss et al. (2007) identificam o peso, o conforto e o controlo como prioridades expressas pelos utilizadores, enquanto Fink & Diamond (2023) destacam o ajuste do encaixe, o controlo, o peso, a facilidade de reparação e a estética entre os aspetos a considerar na escolha e no acompanhamento da prótese. Nesta investigação, estas preocupações foram convertidas em requisitos de referência para o processo de design. A configuração dimensional, a visualização, a escolha formal e cromática, a edição dos parâmetros e a possibilidade de aceitar, alterar ou rejeitar sugestões de IA respondem concretamente a esses requisitos. Os ensaios confirmaram a presença e o funcionamento técnico destes mecanismos, mas não mediram os seus efeitos no conforto percebido, na aceitação ou na utilização continuada.",
+      "previous_context_sha256": "dc1aa4daca90ee9d17238e9a36f2a47f87b86a40fe29c95c5b305d7a98f00500",
+      "context_sha256": "dddc0702e067c7d1626a8b401dec3ebee4345bef44a576a93c3c732c798f1573",
+      "reason": "Alteração de pontuação, espaços ou apresentação da citação; preservado o conteúdo da explicação.",
+      "explanation_edits": []
+    },
+    {
+      "citation_id": "b953a80c",
+      "previous_citation_id": "b953a80c",
+      "previous_context": "A literatura sobre próteses de membro superior associa as razões de abandono sobretudo a problemas de conforto e função, incluindo o peso, a temperatura e a transpiração (Smail et al., 2021). (Biddiss et al., 2007) identificam o peso, o conforto e o controlo como prioridades expressas pelos utilizadores, enquanto (Fink & Diamond, 2023) destacam o ajuste do encaixe, o controlo, o peso, a facilidade de reparação e a estética entre os aspetos a considerar na escolha e no acompanhamento da prótese. Nesta investigação, estas preocupações foram convertidas em requisitos de referência para o processo de design. A configuração dimensional, a visualização, a escolha formal e cromática, a edição dos parâmetros e a possibilidade de aceitar, alterar ou rejeitar sugestões de IA respondem concretamente a esses requisitos. Os ensaios confirmaram a presença e o funcionamento técnico destes mecanismos, mas não mediram os seus efeitos no conforto percebido, na aceitação ou na utilização continuada.",
+      "context": "A literatura sobre próteses de membro superior associa as razões de abandono sobretudo a problemas de conforto e função, incluindo o peso, a temperatura e a transpiração (Smail et al., 2021). Biddiss et al. (2007) identificam o peso, o conforto e o controlo como prioridades expressas pelos utilizadores, enquanto Fink & Diamond (2023) destacam o ajuste do encaixe, o controlo, o peso, a facilidade de reparação e a estética entre os aspetos a considerar na escolha e no acompanhamento da prótese. Nesta investigação, estas preocupações foram convertidas em requisitos de referência para o processo de design. A configuração dimensional, a visualização, a escolha formal e cromática, a edição dos parâmetros e a possibilidade de aceitar, alterar ou rejeitar sugestões de IA respondem concretamente a esses requisitos. Os ensaios confirmaram a presença e o funcionamento técnico destes mecanismos, mas não mediram os seus efeitos no conforto percebido, na aceitação ou na utilização continuada.",
+      "previous_context_sha256": "dc1aa4daca90ee9d17238e9a36f2a47f87b86a40fe29c95c5b305d7a98f00500",
+      "context_sha256": "dddc0702e067c7d1626a8b401dec3ebee4345bef44a576a93c3c732c798f1573",
+      "reason": "Alteração de pontuação, espaços ou apresentação da citação; preservado o conteúdo da explicação.",
+      "explanation_edits": []
+    },
+    {
+      "citation_id": "7144ab45",
+      "previous_citation_id": "7144ab45",
+      "previous_context": "O Flexy Beast deriva do trabalho de daprice, que combina o Parametric Cyborg Beast com o Flexy Hand (daprice, n.d.). O ficheiro-fonte local indica a licença CC BY-SA 4.0. O modelo utiliza uma palma da linhagem Cyborg Beast e segmentos digitais ligados por conectores flexíveis. A adaptação procurou separar a escala da mão, os comprimentos relativos dos dedos e a braçadeira do antebraço.",
+      "context": "O Flexy Beast deriva do trabalho de daprice, que combina o Parametric Cyborg Beast com o Flexy Hand (daprice, 2014.). O ficheiro-fonte local indica a licença CC BY-SA 4.0. O modelo utiliza uma palma da linhagem Cyborg Beast e segmentos digitais ligados por conectores flexíveis. A adaptação procurou separar a escala da mão, os comprimentos relativos dos dedos e a braçadeira do antebraço.",
+      "previous_context_sha256": "0a5c1fd8fda51156242102e5624865fec3c366716634d91c0df6326baefbd8eb",
+      "context_sha256": "5784c8733377c31d28e89e2a67f7d921d95e6c4388ae9e66811fff5def21e745",
+      "reason": "Data visível editada no manuscrito; mantida a identidade da fonte e a explicação do seu contributo, sem alterar os metadados bibliográficos originais.",
+      "explanation_edits": []
+    },
+    {
+      "citation_id": "manual-1",
+      "previous_citation_id": "3e7953c1",
+      "previous_context": "No domínio dos exosqueletos, a ASTM F3661-24 distingue o ajuste estático, em posturas padronizadas, do ajuste dinâmico, durante movimentos funcionais, e diferencia ambos do conforto (ASTM International, 2024). Neste projeto, adota-se esta distinção como orientação conceptual para a avaliação futura da interface protésica.",
+      "context": "A norma ASTM F3661-24, relativa à avaliação do ajuste antropométrico de exosqueletos, distingue o ajuste estático, em posturas padronizadas, do ajuste dinâmico, durante movimentos funcionais, considerando o conforto uma dimensão distinta de ambos (ASTM International, 2024). (ASTM International, 2024). Neste projeto, esta distinção é adotada como referência conceptual para uma futura avaliação da interface protésica.",
+      "previous_context_sha256": "9e29b2c26849fb4f24117035544cdba9595037acda1972db1ef79f9c45ea6a84",
+      "context_sha256": "0c2cdbfa981643232f009b32037dfb2091c1a37422dc0ae988d7e95409823846",
+      "reason": "A nova ocorrência textual repete a citação ASTM no mesmo parágrafo da ocorrência Mendeley; mantém-se a nota sobre a aplicação conceptual ao projeto.",
+      "explanation_edits": []
+    },
+    {
+      "citation_id": "manual-2",
+      "previous_citation_id": "manual-1",
+      "previous_context": "O envolvimento do utilizador continua a constituir uma fragilidade metodológica e ética no desenvolvimento de próteses. A revisão bibliográfica associa os processos pouco ajustados às necessidades individuais dos utilizadores ao abandono dos dispositivos e à dificuldade de responder a prioridades relevantes de uso. Em várias áreas, persiste a ausência de métodos qualitativos sistemáticos para captar a experiência, a aceitação e os fatores de rejeição, mesmo em componentes diretamente relacionados com o conforto, como os revestimentos de interface. Esta limitação reduz a compreensão dos fatores que condicionam a adoção e a continuidade de uso (Marinelli et al., 2023; Richardson & Dillon, 2017; Walters et al., 2025).",
+      "context": "O envolvimento do utilizador continua a constituir uma fragilidade metodológica e ética no desenvolvimento de próteses. A revisão bibliográfica associa os processos pouco ajustados às necessidades individuais dos utilizadores ao abandono dos dispositivos e à dificuldade de responder a prioridades relevantes de uso. Em várias áreas, persiste a ausência de métodos qualitativos sistemáticos para captar a experiência, a aceitação e os fatores de rejeição, mesmo em componentes diretamente relacionados com o conforto, como os revestimentos de interface. Esta limitação reduz a compreensão dos fatores que condicionam a adoção e a continuidade de uso (Marinelli et al., 2023; Richardson & Dillon, 2017; Walters et al., 2025).",
+      "previous_context_sha256": "1fc612e3742b20c58d8682ae54adc4a1f75ab3983beaf38342baf35cc3960e06",
+      "context_sha256": "1fc612e3742b20c58d8682ae54adc4a1f75ab3983beaf38342baf35cc3960e06",
+      "reason": "Reassociação explícita das citações textuais após alteração da sua ordem; conferidas a obra e a passagem, sem depender do número sequencial.",
+      "explanation_edits": []
+    },
+    {
+      "citation_id": "manual-3",
+      "previous_citation_id": "manual-2",
+      "previous_context": "A Figura 14 evidencia a passagem entre a definição paramétrica, o modelo virtual e o protótipo físico. Para esta investigação, o seu valor não reside na replicação da solução apresentada, mas na representação da cadeia que liga a decomposição dimensional do dedo, a modelação computacional e a verificação material, preservando o mesmo tipo de continuidade procurado pelo modelo em OpenSCAD (Nini et al., 2024).",
+      "context": "A Figura 14 evidencia a passagem entre a definição paramétrica, o modelo virtual e o protótipo físico. Para esta investigação, o seu valor não reside na replicação da solução apresentada, mas na representação da cadeia que liga a decomposição dimensional do dedo, a modelação computacional e a verificação material, preservando o mesmo tipo de continuidade procurado pelo modelo em OpenSCAD (Nini et al., 2024).",
+      "previous_context_sha256": "762294d59f831c65866bb9ebe4ed2768d82c374b32f5439d0f8bd37ec6cb67bb",
+      "context_sha256": "762294d59f831c65866bb9ebe4ed2768d82c374b32f5439d0f8bd37ec6cb67bb",
+      "reason": "Reassociação explícita das citações textuais após alteração da sua ordem; conferidas a obra e a passagem, sem depender do número sequencial.",
+      "explanation_edits": []
+    },
+    {
+      "citation_id": "manual-4",
+      "previous_citation_id": "manual-3",
+      "previous_context": "Reproduzido de Nini et al. (2024) Parametric 3D modeling of a customized prosthetic hand finger for additive manufacturing. In 2024 10th IEEE RAS/EMBS International Conference for Biomedical Robotics and Biomechatronics (BioRob).",
+      "context": "Adaptado de Nini et al. (2024) Parametric 3D modeling of a customized prosthetic hand finger for additive manufacturing. In 2024 10th IEEE RAS/EMBS International Conference for Biomedical Robotics and Biomechatronics (BioRob).",
+      "previous_context_sha256": "3f6dd5d2dfaa556661ee06f28b8770b325a60e3a31b22cf0b3aabb3f6422976b",
+      "context_sha256": "fa6101316df2334f4d2175759ba1d5880a2ef17c72fb277979f2cea8d754bf4b",
+      "reason": "Reassociação explícita das citações textuais após alteração da sua ordem; conferidas a obra e a passagem, sem depender do número sequencial. A nota passa a identificar a fonte do esquema, acompanhando a alteração da legenda de reprodução para adaptação.",
+      "explanation_edits": [
+        {
+          "record_id": "29ad87fd-001d-3751-978a-d2608b91487f",
+          "before": "A imagem reproduz os parâmetros antropométricos e construtivos do modelo de dedo protésico estudado. A fonte corresponde à figura apresentada.",
+          "after": "A fonte descreve os parâmetros antropométricos e construtivos do modelo de dedo protésico usado como referência na figura."
+        }
+      ]
+    },
+    {
+      "citation_id": "manual-5",
+      "previous_citation_id": "manual-5",
+      "previous_context": "A Figura 25 sintetiza a tensão entre os desafios de compreensão das decisões e os princípios de IA responsável. No contexto desta investigação, mostra que a responsabilidade depende não só do desempenho preditivo, mas também de condições como a transparência, a possibilidade de examinar as decisões, a privacidade, a justiça e a prestação de contas. Estes princípios sustentam a opção por uma IA de apoio, limitada por regras e sujeita a revisão humana (Barredo Arrieta et al., 2020).",
+      "context": "A Figura 25 relaciona os desafios de compreensão das decisões dos sistemas de IA com princípios de utilização responsável, incluindo a transparência, a proteção dos dados pessoais, a equidade e a responsabilização pelas decisões. Na plataforma HandFab, este enquadramento orienta sobretudo a verificação das sugestões produzidas pela IA e a manutenção da decisão final sob supervisão humana (Barredo Arrieta et al., 2020).",
+      "previous_context_sha256": "26e16a8ce23a472784b0f74bc93931b9cbda5e71215e8db6a827777ca12ad2b3",
+      "context_sha256": "9a5f40874ff976db0261d82bf1588f39d3c8af3b587ccaada449bb14c62350ae",
+      "reason": "Passagem revista conferida com a explicação existente; o contributo atribuído à fonte permanece compatível. Não constitui nova auditoria da evidência.",
+      "explanation_edits": []
+    }
+  ],
+  "removed_previous_occurrences": [
+    {
+      "citation_id": "cfb255ea",
+      "context": "Outra vantagem decorre da afinidade entre a modelação baseada em código, a automatização e a partilha aberta. Os estudos analisados indicam que o OpenSCAD é particularmente adequado a fluxos de personalização digital nos quais o modelo é configurado por parâmetros, evitando a edição manual da geometria após cada alteração. Esta característica permite associar o ficheiro-fonte a interfaces web, gerar múltiplas variantes segundo regras explícitas e disponibilizar modelos reutilizáveis em comunidades distribuídas. A possibilidade de ajustar o modelo sem editar diretamente o código em cada iteração reforça a sua pertinência em contextos de personalização e fabrico digital (Nilsiam & Pearce, 2017). Num projeto que articula parametrização, interface e apoio computacional, esta característica assume especial relevância.",
+      "sources": [
+        {
+          "record_id": "3c2cad35-4957-33cd-9f8b-640d684d1479",
+          "label": "Nilsiam & Pearce (2017)",
+          "title": "Free and open source 3-d model customizer for websites to democratize design with openscad",
+          "reference": "Nilsiam, Y., & Pearce, J. M. (2017). Free and open source 3-d model customizer for websites to democratize design with openscad. Designs, 1(1), 1-15.",
+          "doi": "10.3390/designs1010005",
+          "url": "",
+          "locator": "",
+          "pdf": "../../../../material/bibliografia/nilsiam_pearce_2017_openscad_web_customizer.pdf",
+          "evidence": {
+            "section": "3.51 Nilsiam e Pearce (2017) — anexo Mendeley",
+            "claims": [],
+            "excerpts": [
+              "novice users can adjust the available parameters according to their needs and save these to a new file on a website.",
+              "an appropriately-formatted SCAD script allows novice users to adjust available parameters according to the user’s needs and to save it to a new file on the website."
+            ],
+            "pages": "página 1 do PDF, resumo. página 12 do PDF, Conclusões.",
+            "assessment": "suporte directo para configuradores web, parametrização e uso sem edição directa do código. O sistema de 2017 usa PHP e OpenSCAD no servidor; não demonstra execução do motor no navegador por WebAssembly. Essa parte da linha 1057 é sustentada apenas por Brooks (2026) e pelo repositório oficial actual do OpenSCAD.",
+            "pdf": "",
+            "origin": "docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md",
+            "origin_kind": "markdown",
+            "context_similarity": 0,
+            "same_passage": false
+          },
+          "pending_note": "",
+          "explanation": "O estudo demonstra que utilizadores podem personalizar modelos OpenSCAD através de um configurador na Internet sem editar código. O processamento é realizado no servidor."
+        }
+      ]
+    },
+    {
+      "citation_id": "manual-4",
+      "context": "A adoção do OpenSCAD neste projeto apresenta vantagens metodológicas, sobretudo por explicitar a construção do modelo paramétrico. A sua definição por código facilita a identificação das relações entre variáveis, dependências e restrições, comparativamente com muitos fluxos CAD baseados em operações gráficas. Esta condição favorece a transparência do processo, a análise crítica e a reconstituição das decisões de modelação, qualidades particularmente importantes num trabalho académico em que o modelo paramétrico é simultaneamente um instrumento de produção formal e um objeto de análise (Machado et al., 2019).",
+      "sources": [
+        {
+          "record_id": "b138a776-54f2-3994-89d9-a9b370d26aa2",
+          "label": "Machado et al. (2019)",
+          "title": "Parametric CAD modeling for open source scientific hardware: Comparing OpenSCAD and FreeCAD Python scripts",
+          "reference": "Machado, F., Malpica, N., & Borromeo, S. (2019). Parametric CAD modeling for open source scientific hardware: Comparing OpenSCAD and FreeCAD Python scripts. PLoS ONE, 14(12).",
+          "doi": "10.1371/journal.pone.0225795",
+          "url": "",
+          "locator": "",
+          "pdf": "../../../../material/bibliografia/Machado_Malpica_Borromeo_2019_Parametric_CAD_modeling_for_open_source_scientific_hardware.pdf",
+          "evidence": {
+            "section": "3.49 Machado et al. (2019) — OpenSCAD, documentação e interoperabilidade",
+            "claims": [],
+            "excerpts": [
+              "Open source hardware for scientific equipment needs to provide source files and enough documentation to allow the study, replication and modification of the design. In addition, parametric modeling is encouraged in order to facilitate customization",
+              "Parametric design, code based, version control",
+              "OpenSCAD can only export to tessellated 3D file formats. These formats are suitable for 3D printing, but not to get an exact representation of the model.",
+              "the parametric information is lost once the internal model is generated."
+            ],
+            "pages": "página 1 do PDF, resumo. página 26 do PDF, Tabela 8. página 20 do PDF, «Import/Export capabilities».",
+            "assessment": "suporte directo para documentação, código, controlo de versões e limitações de interoperabilidade; parcial para a organização da prótese em módulos anatómicos autónomos, que não é estudada no artigo. A execução em linha de comando e a exportação por parâmetros da linha 1055 são confirmadas pelo manual técnico, não por este paper.",
+            "pdf": "material/bibliografia/Machado_Malpica_Borromeo_2019_Parametric_CAD_modeling_for_open_source_scientific_hardware.pdf",
+            "origin": "docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md",
+            "origin_kind": "markdown",
+            "context_similarity": 0,
+            "same_passage": false
+          },
+          "pending_note": "",
+          "explanation": "O artigo destaca a importância de guardar o código e documentar os modelos para os tornar compreensíveis e reproduzíveis. Sustenta estas vantagens metodológicas."
+        }
+      ]
+    }
+  ]
+}

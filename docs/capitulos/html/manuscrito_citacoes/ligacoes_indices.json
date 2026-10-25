@@ -1,40 +1,40 @@
 {
-  "principal": 229,
+  "principal": 230,
   "figuras": 30,
   "tabelas": 31,
-  "anexos": 136,
+  "anexos": 134,
   "sem_titulo": [
-    "xx"
+    "xvii"
   ],
   "ligacoes": [
     {
       "indice": "principal",
-      "entrada": "RESUMOvi",
+      "entrada": "RESUMOiv",
       "destino": "resumo"
     },
     {
       "indice": "principal",
-      "entrada": "ABSTRACTvii",
+      "entrada": "ABSTRACTv",
       "destino": "abstract"
     },
     {
       "indice": "principal",
-      "entrada": "Declaração de utilização de ferramentas de inteligência artificialviii",
+      "entrada": "Declaração de utilização de ferramentas de inteligência artificialvi",
       "destino": "declaração-de-utilização-de-ferramentas-de-inteligência-artificial"
     },
     {
       "indice": "principal",
-      "entrada": "LISTA DE ABREVIATURAS E SIGLASx",
+      "entrada": "LISTA DE ABREVIATURAS E SIGLASviii",
       "destino": "lista-de-abreviaturas-e-siglas"
     },
     {
       "indice": "principal",
-      "entrada": "ÍNDICE DE FIGURASxix",
+      "entrada": "ÍNDICE DE FIGURASxvi",
       "destino": "índice-de-figuras"
     },
     {
       "indice": "principal",
-      "entrada": "ÍNDICE DE TABELASxxi",
+      "entrada": "ÍNDICE DE TABELASxviii",
       "destino": "índice-de-tabelas"
     },
     {
@@ -184,8 +184,8 @@
     },
     {
       "indice": "principal",
-      "entrada": "Implicações para o design industrial19",
-      "destino": "implicações-para-o-design-industrial"
+      "entrada": "Implicações para o design DE produto19",
+      "destino": "implicações-para-o-design-de-produto"
     },
     {
       "indice": "principal",
@@ -199,7 +199,7 @@
     },
     {
       "indice": "principal",
-      "entrada": "Da dimensão linear à “forma” como dado de projeto22",
+      "entrada": "Da dimensão linear à “forma” como dado de projeto21",
       "destino": "da-dimensão-linear-à-forma-como-dado-de-projeto"
     },
     {
@@ -214,7 +214,7 @@
     },
     {
       "indice": "principal",
-      "entrada": "Evidência por tipo de dispositivo25",
+      "entrada": "Evidência por tipo de dispositivo24",
       "destino": "evidência-por-tipo-de-dispositivo"
     },
     {
@@ -224,7 +224,7 @@
     },
     {
       "indice": "principal",
-      "entrada": "Estruturação de dados26",
+      "entrada": "Estruturação de dados25",
       "destino": "estruturação-de-dados"
     },
     {
@@ -239,12 +239,12 @@
     },
     {
       "indice": "principal",
-      "entrada": "Como funciona: dados, treino, inferência e geração28",
+      "entrada": "Como funciona: dados, treino, inferência e geração27",
       "destino": "como-funciona-dados-treino-inferência-e-geração"
     },
     {
       "indice": "principal",
-      "entrada": "Formas de IA mais relevantes para o design29",
+      "entrada": "Formas de IA mais relevantes para o design28",
       "destino": "formas-de-ia-mais-relevantes-para-o-design"
     },
     {
@@ -254,12 +254,12 @@
     },
     {
       "indice": "principal",
-      "entrada": "Papel do designer, riscos e necessidade de supervisão humana30",
+      "entrada": "Papel do designer, riscos e necessidade de supervisão humana29",
       "destino": "papel-do-designer-riscos-e-necessidade-de-supervisão-humana"
     },
     {
       "indice": "principal",
-      "entrada": "2.7 Plataformas digitais e sistemas configuráveis31",
+      "entrada": "2.7 Plataformas digitais e sistemas configuráveis30",
       "destino": "27-plataformas-digitais-e-sistemas-configuráveis"
     },
     {
@@ -269,12 +269,12 @@
     },
     {
       "indice": "principal",
-      "entrada": "Mecanismos de personalização: modularidade, parametrização e adaptação individualizada33",
+      "entrada": "Mecanismos de personalização: modularidade, parametrização e adaptação individualizada32",
       "destino": "mecanismos-de-personalização-modularidade-parametrização-e-adaptação-individualizada"
     },
     {
       "indice": "principal",
-      "entrada": "Fluxos participativos e infraestruturas remotas34",
+      "entrada": "Fluxos participativos e infraestruturas remotas33",
       "destino": "fluxos-participativos-e-infraestruturas-remotas"
     },
     {
@@ -289,7 +289,7 @@
     },
     {
       "indice": "principal",
-      "entrada": "2.8 Análise crítica do estado da arte e lacunas identificadas36",
+      "entrada": "2.8 Análise crítica do estado da arte e lacunas identificadas35",
       "destino": "28-análise-crítica-do-estado-da-arte-e-lacunas-identificadas"
     },
     {
@@ -314,7 +314,7 @@
     },
     {
       "indice": "principal",
-      "entrada": "Lacuna 5 - Acesso, custo, manutenção e ASSIMETRIAS sistémicas39",
+      "entrada": "Lacuna 5 - Acesso, custo, manutenção e ASSIMETRIAS sistémicas38",
       "destino": "lacuna-5---acesso-custo-manutenção-e-assimetrias-sistémicas"
     },
     {
@@ -339,7 +339,7 @@
     },
     {
       "indice": "principal",
-      "entrada": "3.2 O design industrial como prática de investigação43",
+      "entrada": "3.2 O design industrial como prática de investigação44",
       "destino": "32-o-design-industrial-como-prática-de-investigação"
     },
     {
@@ -349,7 +349,7 @@
     },
     {
       "indice": "principal",
-      "entrada": "3.4 Métodos de recolha e análise de dados48",
+      "entrada": "3.4 Métodos de recolha e análise de dados47",
       "destino": "34-métodos-de-recolha-e-análise-de-dados"
     },
     {
@@ -374,12 +374,12 @@
     },
     {
       "indice": "principal",
-      "entrada": "Conjuntos mínimos de parâmetros por nível de amputação54",
+      "entrada": "Conjuntos mínimos de parâmetros por nível de amputação53",
       "destino": "conjuntos-mínimos-de-parâmetros-por-nível-de-amputação"
     },
     {
       "indice": "principal",
-      "entrada": "Limitações do redimensionamento proporcional55",
+      "entrada": "Limitações do redimensionamento proporcional54",
       "destino": "limitações-do-redimensionamento-proporcional"
     },
     {
@@ -394,12 +394,12 @@
     },
     {
       "indice": "principal",
-      "entrada": "Correspondência entre perfil populacional e parâmetros do modelo57",
+      "entrada": "Correspondência entre perfil populacional e parâmetros do modelo56",
       "destino": "correspondência-entre-perfil-populacional-e-parâmetros-do-modelo"
     },
     {
       "indice": "principal",
-      "entrada": "Estrutura paramétrica e mapeamento de parâmetros58",
+      "entrada": "Estrutura paramétrica e mapeamento de parâmetros57",
       "destino": "estrutura-paramétrica-e-mapeamento-de-parâmetros"
     },
     {
@@ -419,12 +419,12 @@
     },
     {
       "indice": "principal",
-      "entrada": "4.3.2 Análise crítica da abordagem63",
+      "entrada": "4.3.2 Análise crítica da abordagem62",
       "destino": "432-análise-crítica-da-abordagem"
     },
     {
       "indice": "principal",
-      "entrada": "4.3.3 Relações implementadas nos modelos avaliados64",
+      "entrada": "4.3.3 Relações implementadas nos modelos avaliados63",
       "destino": "433-relações-implementadas-nos-modelos-avaliados"
     },
     {
@@ -494,663 +494,668 @@
     },
     {
       "indice": "principal",
-      "entrada": "6.4 Ajuste, verificação e limitações éticas e técnicas97",
+      "entrada": "6.4 Ajuste, verificação e limitações éticas e técnicas96",
       "destino": "64-ajuste-verificação-e-limitações-éticas-e-técnicas"
     },
     {
       "indice": "principal",
-      "entrada": "Capítulo 7 - Princípios de Interface e Decisões de Interação99",
+      "entrada": "Capítulo 7 - Princípios de Interface e Decisões de Interação98",
       "destino": "seccao-13"
     },
     {
       "indice": "principal",
-      "entrada": "7.1 Estratégia de interação e decisões de UI/UX99",
+      "entrada": "7.1 Estratégia de interação e decisões de UI/UX98",
       "destino": "71-estratégia-de-interação-e-decisões-de-uiux"
     },
     {
       "indice": "principal",
-      "entrada": "7.2 Papéis previstos e distribuição de decisões100",
+      "entrada": "7.2 Papéis previstos e distribuição de decisões99",
       "destino": "72-papéis-previstos-e-distribuição-de-decisões"
     },
     {
       "indice": "principal",
-      "entrada": "7.3 Mediação do processo de design e reflexão crítica101",
+      "entrada": "7.3 Mediação do processo de design e reflexão crítica100",
       "destino": "73-mediação-do-processo-de-design-e-reflexão-crítica"
     },
     {
       "indice": "principal",
-      "entrada": "Capítulo 8 - Avaliação e Discussão103",
+      "entrada": "Capítulo 8 - Avaliação e Discussão102",
       "destino": "seccao-14"
     },
     {
       "indice": "principal",
-      "entrada": "8.1 Estratégia e critérios de avaliação103",
+      "entrada": "8.1 Estratégia e critérios de avaliação102",
       "destino": "81-estratégia-e-critérios-de-avaliação"
     },
     {
       "indice": "principal",
-      "entrada": "8.1.1 Verificação técnica da plataforma103",
+      "entrada": "8.1.1 Verificação técnica da plataforma102",
       "destino": "811-verificação-técnica-da-plataforma"
     },
     {
       "indice": "principal",
-      "entrada": "8.1.2 Avaliação complementar da consistência da criação, recuperação e acessibilidade104",
+      "entrada": "8.1.2 Avaliação complementar da consistência da criação, recuperação e acessibilidade103",
       "destino": "812-avaliação-complementar-da-consistência-da-criação-recuperação-e-acessibilidade"
     },
     {
       "indice": "principal",
-      "entrada": "8.1.3 Preparação para impressão e protótipos físicos105",
+      "entrada": "8.1.3 Preparação para impressão e protótipos físicos104",
       "destino": "813-preparação-para-impressão-e-protótipos-físicos"
     },
     {
       "indice": "principal",
-      "entrada": "8.2 Avaliação da coerência das sugestões de IA111",
+      "entrada": "8.2 Avaliação da coerência das sugestões de IA109",
       "destino": "82-avaliação-da-coerência-das-sugestões-de-ia"
     },
     {
       "indice": "principal",
-      "entrada": "8.3 Verificação geométrica entre modelos114",
+      "entrada": "8.3 Verificação geométrica entre modelos113",
       "destino": "83-verificação-geométrica-entre-modelos"
     },
     {
       "indice": "principal",
-      "entrada": "8.4 Discussão dos resultados face aos objetivos116",
+      "entrada": "8.4 Discussão dos resultados face aos objetivos114",
       "destino": "84-discussão-dos-resultados-face-aos-objetivos"
     },
     {
       "indice": "principal",
-      "entrada": "Capítulo 9 - Conclusões e Trabalhos Futuros121",
+      "entrada": "Capítulo 9 - Conclusões e Trabalhos Futuros119",
       "destino": "seccao-15"
     },
     {
       "indice": "principal",
-      "entrada": "9.1 Resposta ao problema e às perguntas de investigação121",
+      "entrada": "9.1 Resposta ao problema e às perguntas de investigação119",
       "destino": "91-resposta-ao-problema-e-às-perguntas-de-investigação"
     },
     {
       "indice": "principal",
-      "entrada": "9.2 Contributos da investigação122",
+      "entrada": "9.2 Contributos da investigação120",
       "destino": "92-contributos-da-investigação"
     },
     {
       "indice": "principal",
-      "entrada": "9.3 Limitações123",
+      "entrada": "9.3 Limitações121",
       "destino": "93-limitações"
     },
     {
       "indice": "principal",
-      "entrada": "9.4 Trabalho futuro124",
+      "entrada": "9.4 Trabalho futuro122",
       "destino": "94-trabalho-futuro"
     },
     {
       "indice": "principal",
-      "entrada": "Anexo A - Metodologia de extração e codificação de dados antropométricos149",
+      "entrada": "Anexo A - Metodologia de extração e codificação de dados antropométricos147",
       "destino": "seccao-17"
     },
     {
       "indice": "principal",
-      "entrada": "Índice do Anexo A149",
+      "entrada": "Índice do Anexo A147",
       "destino": "índice-do-anexo-a"
     },
     {
       "indice": "principal",
-      "entrada": "A.1 Contexto e Objetivo150",
+      "entrada": "A.1 Contexto e Objetivo149",
       "destino": "a1-contexto-e-objetivo"
     },
     {
       "indice": "principal",
-      "entrada": "A.2 Estratégia de Pesquisa Bibliográfica150",
+      "entrada": "A.2 Estratégia de Pesquisa Bibliográfica149",
       "destino": "a2-estratégia-de-pesquisa-bibliográfica"
     },
     {
       "indice": "principal",
-      "entrada": "A.2.1 Pesquisa bibliográfica orientada150",
+      "entrada": "A.2.1 Pesquisa bibliográfica orientada149",
       "destino": "a21-pesquisa-bibliográfica-orientada"
     },
     {
       "indice": "principal",
-      "entrada": "A.2.2 Base ANSUR 1988151",
+      "entrada": "A.2.2 Base ANSUR 1988149",
       "destino": "a22-base-ansur-1988"
     },
     {
       "indice": "principal",
-      "entrada": "A.3 Critérios de Inclusão e Exclusão de Estudos151",
+      "entrada": "A.3 Critérios de Inclusão e Exclusão de Estudos150",
       "destino": "a3-critérios-de-inclusão-e-exclusão-de-estudos"
     },
     {
       "indice": "principal",
-      "entrada": "A.3.1 Critérios de inclusão151",
+      "entrada": "A.3.1 Critérios de inclusão150",
       "destino": "a31-critérios-de-inclusão"
     },
     {
       "indice": "principal",
-      "entrada": "A.3.2 Critérios de exclusão151",
+      "entrada": "A.3.2 Critérios de exclusão150",
       "destino": "a32-critérios-de-exclusão"
     },
     {
       "indice": "principal",
-      "entrada": "A.4 Processo de Extração de Dados152",
+      "entrada": "A.4 Processo de Extração de Dados151",
       "destino": "a4-processo-de-extração-de-dados"
     },
     {
       "indice": "principal",
-      "entrada": "A.4.1 Leitura dos PDFs e localização das tabelas152",
-      "destino": "a41-leitura-dos-pdfs-e-localização-das-tabelas"
+      "entrada": "A.4.1 ANÁLISE DAS FONTES E IDENTIFICAÇÃO DAS TABELAS ANTROPOMÉTRICAS151",
+      "destino": "a41-análise-das-fontes-e-identificação-das-tabelas-antropométricas"
     },
     {
       "indice": "principal",
-      "entrada": "A.4.2 Identificação das unidades e conversão152",
+      "entrada": "A.4.2 Identificação das unidades e conversão151",
       "destino": "a42-identificação-das-unidades-e-conversão"
     },
     {
       "indice": "principal",
-      "entrada": "A.4.3 Decomposição em linhas atómicas152",
-      "destino": "a43-decomposição-em-linhas-atómicas"
+      "entrada": "A.4.3 ORGANIZAÇÃO DOS DADOS POR INDICADOR ESTATÍSTICO151",
+      "destino": "a43-organização-dos-dados-por-indicador-estatístico"
     },
     {
       "indice": "principal",
-      "entrada": "A.4.4 Registo do contexto da medição153",
+      "entrada": "A.4.4 Registo do contexto da medição151",
       "destino": "a44-registo-do-contexto-da-medição"
     },
     {
       "indice": "principal",
-      "entrada": "A.5 Decisões por Estudo153",
+      "entrada": "A.5 Decisões por Estudo152",
       "destino": "a5-decisões-por-estudo"
     },
     {
       "indice": "principal",
-      "entrada": "A.5.1 ANSUR 1988 - EUA, militares (Gordon et al., 1989)153",
+      "entrada": "A.5.1 ANSUR 1988 - EUA, militares (Gordon et al., 1989)152",
       "destino": "a51-ansur-1988---eua-militares-gordon-et-al-1989"
     },
     {
       "indice": "principal",
-      "entrada": "A.5.2 Turquia - jovens adultos (Chatzıoglou et al., 2024)154",
+      "entrada": "A.5.2 Turquia - jovens adultos (Chatzıoglou et al., 2024)152",
       "destino": "a52-turquia---jovens-adultos-chatzıoglou-et-al-2024citpop62651207end"
     },
     {
       "indice": "principal",
-      "entrada": "A.5.3 México - população geral (Rodríguez-Vega & Rodríguez-Vega, 2024)154",
+      "entrada": "A.5.3 México - população geral (Rodríguez-Vega & Rodríguez-Vega, 2024)153",
       "destino": "a53-méxico---população-geral-rodríguez-vega--rodríguez-vega-2024citpopa7db44fdend"
     },
     {
       "indice": "principal",
-      "entrada": "A.5.4 Índia - mulheres trabalhadoras (Nag et al., 2003)154",
+      "entrada": "A.5.4 Índia - mulheres trabalhadoras (Nag et al., 2003)153",
       "destino": "a54-índia---mulheres-trabalhadoras-nag-et-al-2003citpop1a0e7276end"
     },
     {
       "indice": "principal",
-      "entrada": "A.5.5 Portugal - trabalhadores industriais (Anacleto Filho et al., 2023)154",
+      "entrada": "A.5.5 Portugal - trabalhadores industriais (Anacleto Filho et al., 2023)153",
       "destino": "a55-portugal---trabalhadores-industriais-anacleto-filho-et-al-2023citpopf07e79ceend"
     },
     {
       "indice": "principal",
-      "entrada": "A.5.6 Nigéria - atletas universitários (Ibiwari et al., 2025)155",
+      "entrada": "A.5.6 Nigéria - atletas universitários (Ibiwari et al., 2025)154",
       "destino": "a56-nigéria---atletas-universitários-ibiwari-et-al-2025citpop54c6ff54end"
     },
     {
       "indice": "principal",
-      "entrada": "A.5.7 Jordânia - trabalhadores com deficiência (Mistarihi, 2020)155",
+      "entrada": "A.5.7 Jordânia - trabalhadores com deficiência (Mistarihi, 2020)154",
       "destino": "a57-jordânia---trabalhadores-com-deficiência-mistarihi-2020citpop01dc4294end"
     },
     {
       "indice": "principal",
-      "entrada": "A.5.8 EUA - dedo indicador (Lim et al., 2018)156",
+      "entrada": "A.5.8 EUA - dedo indicador (Lim et al., 2018)154",
       "destino": "a58-eua---dedo-indicador-lim-et-al-2018"
     },
     {
       "indice": "principal",
-      "entrada": "A.5.9 Estudo excluído: (Moreo, 2016)156",
+      "entrada": "A.5.9 Estudo excluído: (Moreo, 2016)155",
       "destino": "a59-estudo-excluído-moreo-2016citpop91372b66end"
     },
     {
       "indice": "principal",
-      "entrada": "A.5.10 EUA - militares ANSUR II (Gordon et al., 2014)156",
+      "entrada": "A.5.10 EUA - militares ANSUR II (Gordon et al., 2014)155",
       "destino": "a510-eua---militares-ansur-ii-gordon-et-al-2014"
     },
     {
       "indice": "principal",
-      "entrada": "A.5.11 Países Baixos - DINED (TU Delft)157",
+      "entrada": "A.5.11 Países Baixos - DINED (TU Delft)155",
       "destino": "a511-países-baixos---dined-tu-delft"
     },
     {
       "indice": "principal",
-      "entrada": "A.5.12 China - idosos de Pequim157",
+      "entrada": "A.5.12 China - idosos de Pequim156",
       "destino": "a512-china---idosos-de-pequim"
     },
     {
       "indice": "principal",
-      "entrada": "A.5.13 Estudo excluído: reconstrução corporal 3D a partir de fotografias ortogonais158",
+      "entrada": "A.5.13 Estudo excluído: reconstrução corporal 3D a partir de fotografias ortogonais156",
       "destino": "a513-estudo-excluído-reconstrução-corporal-3d-a-partir-de-fotografias-ortogonais"
     },
     {
       "indice": "principal",
-      "entrada": "A.6 Estrutura do CSV e esquema de dados158",
+      "entrada": "A.6 Estrutura do CSV e esquema de dados157",
       "destino": "a6-estrutura-do-csv-e-esquema-de-dados"
     },
     {
       "indice": "principal",
-      "entrada": "A.6.1 Campos158",
+      "entrada": "A.6.1 Campos157",
       "destino": "a61-campos"
     },
     {
       "indice": "principal",
-      "entrada": "A.6.2 Formato longo (long format)159",
+      "entrada": "A.6.2 Formato longo (long format)158",
       "destino": "a62-formato-longo-long-format"
     },
     {
       "indice": "principal",
-      "entrada": "A.7 Controlo de Qualidade dos Dados159",
+      "entrada": "A.7 Controlo de Qualidade dos Dados158",
       "destino": "a7-controlo-de-qualidade-dos-dados"
     },
     {
       "indice": "principal",
-      "entrada": "A.7.1 Marcação inline de limitações159",
-      "destino": "a71-marcação-inline-de-limitações"
+      "entrada": "A.7.1 REGISTO DAS LIMITAÇÕES DOS DADOS158",
+      "destino": "a71-registo-das-limitações-dos-dados"
     },
     {
       "indice": "principal",
-      "entrada": "A.7.2 Verificação de unidades160",
+      "entrada": "A.7.2 Verificação de unidades158",
       "destino": "a72-verificação-de-unidades"
     },
     {
       "indice": "principal",
-      "entrada": "A.7.3 Ligação à fonte160",
+      "entrada": "A.7.3 Ligação à fonte158",
       "destino": "a73-ligação-à-fonte"
     },
     {
       "indice": "principal",
-      "entrada": "A.8 Escrita do Código de Geração160",
+      "entrada": "A.8 Escrita do Código de Geração158",
       "destino": "a8-escrita-do-código-de-geração"
     },
     {
       "indice": "principal",
-      "entrada": "A.8.1 Correspondência entre os CSV e os parâmetros da plataforma160",
+      "entrada": "A.8.1 Correspondência entre os CSV e os parâmetros da plataforma159",
       "destino": "a81-correspondência-entre-os-csv-e-os-parâmetros-da-plataforma"
     },
     {
       "indice": "principal",
-      "entrada": "A.9 Resultado Final161",
+      "entrada": "A.9 Resultado Final160",
       "destino": "a9-resultado-final"
     },
     {
       "indice": "principal",
-      "entrada": "A.10 Cobertura Global da Base de Dados e Lacunas162",
+      "entrada": "A.10 Cobertura Global da Base de Dados e Lacunas160",
       "destino": "a10-cobertura-global-da-base-de-dados-e-lacunas"
     },
     {
       "indice": "principal",
-      "entrada": "A.10.1 O que está coberto162",
+      "entrada": "A.10.1 O que está coberto160",
       "destino": "a101-o-que-está-coberto"
     },
     {
       "indice": "principal",
-      "entrada": "A.10.2 Onde a cobertura falha164",
+      "entrada": "A.10.2 Onde a cobertura falha162",
       "destino": "a102-onde-a-cobertura-falha"
     },
     {
       "indice": "principal",
-      "entrada": "A.10.3 PRIORIDADES identificadas para expansão futura166",
+      "entrada": "A.10.3 PRIORIDADES identificadas para expansão futura164",
       "destino": "a103-prioridades-identificadas-para-expansão-futura"
     },
     {
       "indice": "principal",
-      "entrada": "Anexo B - Avaliação do processo paramétrico e da interface da plataforma HandFab167",
+      "entrada": "Anexo B - Avaliação do processo paramétrico e da interface da plataforma HandFab165",
       "destino": "seccao-19"
     },
     {
       "indice": "principal",
-      "entrada": "Índice do Anexo B167",
+      "entrada": "Índice do Anexo B165",
       "destino": "índice-do-anexo-b"
     },
     {
       "indice": "principal",
-      "entrada": "B.1 Finalidade167",
+      "entrada": "B.1 Finalidade166",
       "destino": "b1-finalidade"
     },
     {
       "indice": "principal",
-      "entrada": "B.2 Âmbito e limites168",
+      "entrada": "B.2 Âmbito e limites166",
       "destino": "b2-âmbito-e-limites"
     },
     {
       "indice": "principal",
-      "entrada": "B.3 Procedimento168",
+      "entrada": "B.3 Procedimento166",
       "destino": "b3-procedimento"
     },
     {
       "indice": "principal",
-      "entrada": "B.4 Resultados de consistência da geração169",
+      "entrada": "B.4 Resultados de consistência da geração167",
       "destino": "b4-resultados-de-consistência-da-geração"
     },
     {
       "indice": "principal",
-      "entrada": "B.4.1 Repetição da mesma configuração169",
+      "entrada": "B.4.1 Repetição da mesma configuração167",
       "destino": "b41-repetição-da-mesma-configuração"
     },
     {
       "indice": "principal",
-      "entrada": "B.4.2 Comparação entre navegadores169",
+      "entrada": "B.4.2 Comparação entre navegadores168",
       "destino": "b42-comparação-entre-navegadores"
     },
     {
       "indice": "principal",
-      "entrada": "B.5 Resultados de recuperação e controlo170",
+      "entrada": "B.5 Resultados de recuperação e controlo168",
       "destino": "b5-resultados-de-recuperação-e-controlo"
     },
     {
       "indice": "principal",
-      "entrada": "B.6 Resultados da verificação de acessibilidade digital171",
+      "entrada": "B.6 Resultados da verificação de acessibilidade digital169",
       "destino": "b6-resultados-da-verificação-de-acessibilidade-digital"
     },
     {
       "indice": "principal",
-      "entrada": "B.6.1 Percurso local autenticado171",
+      "entrada": "B.6.1 Percurso local autenticado169",
       "destino": "b61-percurso-local-autenticado"
     },
     {
       "indice": "principal",
-      "entrada": "B.6.2 Superfície pública172",
+      "entrada": "B.6.2 Superfície pública170",
       "destino": "b62-superfície-pública"
     },
     {
       "indice": "principal",
-      "entrada": "B.6.3 Verificação manual complementar172",
+      "entrada": "B.6.3 Verificação manual complementar170",
       "destino": "b63-verificação-manual-complementar"
     },
     {
       "indice": "principal",
-      "entrada": "B.7 Aprendizagens para o Design Industrial173",
-      "destino": "b7-aprendizagens-para-o-design-industrial"
+      "entrada": "B.7 implicações dos resultados para o desenvolvimento da plataforma171",
+      "destino": "b7-implicações-dos-resultados-para-o-desenvolvimento-da-plataforma"
     },
     {
       "indice": "principal",
-      "entrada": "B.8 Conclusão174",
+      "entrada": "B.8 Conclusão172",
       "destino": "b8-conclusão"
     },
     {
       "indice": "principal",
-      "entrada": "B.9 Referências normativas174",
+      "entrada": "B.9 Referências normativas172",
       "destino": "b9-referências-normativas"
     },
     {
       "indice": "principal",
-      "entrada": "Anexo C - Adaptação paramétrica dos modelos de mão protésica176",
+      "entrada": "Anexo C - Adaptação paramétrica dos modelos de mão protésica173",
       "destino": "seccao-21"
     },
     {
       "indice": "principal",
-      "entrada": "Índice do Anexo C176",
+      "entrada": "Índice do Anexo C173",
       "destino": "índice-do-anexo-c"
     },
     {
       "indice": "principal",
-      "entrada": "C.1 Objectivo e âmbito178",
+      "entrada": "C.1 Objectivo e âmbito175",
       "destino": "c1-objectivo-e-âmbito"
     },
     {
       "indice": "principal",
-      "entrada": "C.2 Princípio comum de adaptação178",
+      "entrada": "C.2 Princípio comum de adaptação175",
       "destino": "c2-princípio-comum-de-adaptação"
     },
     {
       "indice": "principal",
-      "entrada": "C.2.1 Campos antropométricos comuns179",
+      "entrada": "C.2.1 Campos antropométricos comuns176",
       "destino": "c21-campos-antropométricos-comuns"
     },
     {
       "indice": "principal",
-      "entrada": "C.2.2 Tipos de parâmetros180",
+      "entrada": "C.2.2 Tipos de parâmetros177",
       "destino": "c22-tipos-de-parâmetros"
     },
     {
       "indice": "principal",
-      "entrada": "C.2.3 Coerência dos controlos no estado final examinado181",
+      "entrada": "C.2.3 Coerência dos controlos no estado final examinado178",
       "destino": "c23-coerência-dos-controlos-no-estado-final-examinado"
     },
     {
       "indice": "principal",
-      "entrada": "C.3 Flexy Beast181",
+      "entrada": "C.3 Flexy Beast178",
       "destino": "c3-flexy-beast"
     },
     {
       "indice": "principal",
-      "entrada": "C.3.1 Origem e estratégia de adaptação181",
+      "entrada": "C.3.1 Origem e estratégia de adaptação178",
       "destino": "c31-origem-e-estratégia-de-adaptação"
     },
     {
       "indice": "principal",
-      "entrada": "C.3.2 Entradas, limites e relações181",
+      "entrada": "C.3.2 Entradas, limites e relações178",
       "destino": "c32-entradas-limites-e-relações"
     },
     {
       "indice": "principal",
-      "entrada": "C.3.3 Braçadeira e interfaces confirmáveis183",
+      "entrada": "C.3.3 Braçadeira e interfaces confirmáveis180",
       "destino": "c33-braçadeira-e-interfaces-confirmáveis"
     },
     {
       "indice": "principal",
-      "entrada": "C.3.4 PROpagação paramétrica documentada no perfil de ensaio183",
+      "entrada": "C.3.4 PROpagação paramétrica documentada no perfil de ensaio180",
       "destino": "c34-propagação-paramétrica-documentada-no-perfil-de-ensaio"
     },
     {
       "indice": "principal",
-      "entrada": "C.3.5 Limitações específicas184",
+      "entrada": "C.3.5 Limitações específicas181",
       "destino": "c35-limitações-específicas"
     },
     {
       "indice": "principal",
-      "entrada": "C.4 Cyborg Beast184",
+      "entrada": "C.4 Cyborg Beast181",
       "destino": "c4-cyborg-beast"
     },
     {
       "indice": "principal",
-      "entrada": "C.4.1 Origem e estratégia de adaptação184",
+      "entrada": "C.4.1 Origem e estratégia de adaptação181",
       "destino": "c41-origem-e-estratégia-de-adaptação"
     },
     {
       "indice": "principal",
-      "entrada": "C.4.2 Entradas e escala da mão184",
-      "destino": "c42-entradas-e-escala-da-mão"
+      "entrada": "C.4.2 Parâmetros de configuração e escala da mão181",
+      "destino": "c42-parâmetros-de-configuração-e-escala-da-mão"
     },
     {
       "indice": "principal",
-      "entrada": "C.4.3 Divisão proximal-distal185",
+      "entrada": "C.4.3 Divisão proximal-distal181",
       "destino": "c43-divisão-proximal-distal"
     },
     {
       "indice": "principal",
-      "entrada": "C.4.4 Componente de fixação ao punho, folgas e parâmetros fixos185",
+      "entrada": "C.4.4 Componente de fixação ao punho, folgas e parâmetros fixos182",
       "destino": "c44-componente-de-fixação-ao-punho-folgas-e-parâmetros-fixos"
     },
     {
       "indice": "principal",
-      "entrada": "C.4.5 Exemplo de propagação paramétrica186",
+      "entrada": "C.4.5 Exemplo de propagação paramétrica183",
       "destino": "c45-exemplo-de-propagação-paramétrica"
     },
     {
       "indice": "principal",
-      "entrada": "C.4.6 Limitações específicas186",
+      "entrada": "C.4.6 Limitações específicas183",
       "destino": "c46-limitações-específicas"
     },
     {
       "indice": "principal",
-      "entrada": "C.5 Paraglider Hand187",
+      "entrada": "C.5 Paraglider Hand184",
       "destino": "c5-paraglider-hand"
     },
     {
       "indice": "principal",
-      "entrada": "C.5.1 Origem e estratégia de adaptação187",
+      "entrada": "C.5.1 Origem e estratégia de adaptação184",
       "destino": "c51-origem-e-estratégia-de-adaptação"
     },
     {
       "indice": "principal",
-      "entrada": "C.5.2 Relações implementadas187",
+      "entrada": "C.5.2 Relações implementadas184",
       "destino": "c52-relações-implementadas"
     },
     {
       "indice": "principal",
-      "entrada": "C.5.3 Hardware e limites confirmáveis188",
+      "entrada": "C.5.3 Hardware e limites confirmáveis185",
       "destino": "c53-hardware-e-limites-confirmáveis"
     },
     {
       "indice": "principal",
-      "entrada": "C.5.5 Limitações específicas189",
+      "entrada": "C.5.4 Exemplo de propagação paramétrica185",
+      "destino": "c54-exemplo-de-propagação-paramétrica"
+    },
+    {
+      "indice": "principal",
+      "entrada": "C.5.5 Limitações específicas186",
       "destino": "c55-limitações-específicas"
     },
     {
       "indice": "principal",
-      "entrada": "C.6 UnLimbited Phoenix Hand189",
+      "entrada": "C.6 UnLimbited Phoenix Hand187",
       "destino": "c6-unlimbited-phoenix-hand"
     },
     {
       "indice": "principal",
-      "entrada": "C.6.1 Origem e estratégia de adaptação189",
+      "entrada": "C.6.1 Origem e estratégia de adaptação187",
       "destino": "c61-origem-e-estratégia-de-adaptação"
     },
     {
       "indice": "principal",
-      "entrada": "C.6.2 Escala global e limite dimensional mínimo189",
+      "entrada": "C.6.2 Escala global e limite dimensional mínimo187",
       "destino": "c62-escala-global-e-limite-dimensional-mínimo"
     },
     {
       "indice": "principal",
-      "entrada": "C.6.3 Comprimentos digitais e preservação dos furos190",
+      "entrada": "C.6.3 Comprimentos digitais e preservação dos furos188",
       "destino": "c63-comprimentos-digitais-e-preservação-dos-furos"
     },
     {
       "indice": "principal",
-      "entrada": "C.6.4 Dependência entre comprimento dos dedos e escala global190",
+      "entrada": "C.6.4 Dependência entre comprimento dos dedos e escala global188",
       "destino": "c64-dependência-entre-comprimento-dos-dedos-e-escala-global"
     },
     {
       "indice": "principal",
-      "entrada": "C.6.5 Exemplo de propagação paramétrica191",
+      "entrada": "C.6.5 Exemplo de propagação paramétrica188",
       "destino": "c65-exemplo-de-propagação-paramétrica"
     },
     {
       "indice": "principal",
-      "entrada": "C.6.6 Componentes fixos e tolerâncias confirmáveis191",
+      "entrada": "C.6.6 Componentes fixos e tolerâncias confirmáveis189",
       "destino": "c66-componentes-fixos-e-tolerâncias-confirmáveis"
     },
     {
       "indice": "principal",
-      "entrada": "C.6.7 Limitações específicas192",
+      "entrada": "C.6.7 Limitações específicas190",
       "destino": "c67-limitações-específicas"
     },
     {
       "indice": "principal",
-      "entrada": "C.7 Síntese comparativa das estratégias192",
+      "entrada": "C.7 Síntese comparativa das estratégias190",
       "destino": "c7-síntese-comparativa-das-estratégias"
     },
     {
       "indice": "principal",
-      "entrada": "C.8 Critérios de aceitação, limitação e rejeição193",
+      "entrada": "C.8 Critérios de aceitação, limitação e rejeição191",
       "destino": "c8-critérios-de-aceitação-limitação-e-rejeição"
     },
     {
       "indice": "principal",
-      "entrada": "C.9 Relação com o Suplemento 3194",
+      "entrada": "C.9 Relação com o Suplemento 3192",
       "destino": "c9-relação-com-o-suplemento-3"
     },
     {
       "indice": "principal",
-      "entrada": "C.10 Limite de interpretação194",
+      "entrada": "C.10 Limite de interpretação192",
       "destino": "c10-limite-de-interpretação"
     },
     {
       "indice": "principal",
-      "entrada": "C.11 Fontes técnicas consultadas194",
+      "entrada": "C.11 Fontes técnicas consultadas192",
       "destino": "c11-fontes-técnicas-consultadas"
     },
     {
       "indice": "principal",
-      "entrada": "C.12 Verificações executadas195",
+      "entrada": "C.12 Verificações executadas192",
       "destino": "c12-verificações-executadas"
     },
     {
       "indice": "principal",
-      "entrada": "Anexo D - Preparação para fabrico e verificação dos protótipos196",
+      "entrada": "Anexo D - Preparação para fabrico e verificação dos protótipos194",
       "destino": "seccao-23"
     },
     {
       "indice": "principal",
-      "entrada": "Índice do Anexo D196",
+      "entrada": "Índice do Anexo D194",
       "destino": "índice-do-anexo-d"
     },
     {
       "indice": "principal",
-      "entrada": "D.1 Finalidade197",
+      "entrada": "D.1 Finalidade195",
       "destino": "d1-finalidade"
     },
     {
       "indice": "principal",
-      "entrada": "D.2 Distinção entre estimativa e medição real197",
+      "entrada": "D.2 Distinção entre estimativa e medição real195",
       "destino": "d2-distinção-entre-estimativa-e-medição-real"
     },
     {
       "indice": "principal",
-      "entrada": "D.3 Variáveis, controlos e materiais198",
+      "entrada": "D.3 Variáveis, controlos e materiais196",
       "destino": "d3-variáveis-controlos-e-materiais"
     },
     {
       "indice": "principal",
-      "entrada": "D.3.1 Série A - projetos de preparação digital para impressão 3D com configuração analisada198",
+      "entrada": "D.3.1 Série A - projetos de preparação digital para impressão 3D com configuração analisada196",
       "destino": "-d31-série-a---projetos-de-preparação-digital-para-impressão-3d-com-configuração-analisada"
     },
     {
       "indice": "principal",
-      "entrada": "D.3.2 Série B - comparação digital controlada198",
+      "entrada": "D.3.2 Série B - comparação digital controlada196",
       "destino": "d32-série-b---comparação-digital-controlada"
     },
     {
       "indice": "principal",
-      "entrada": "D.4 Resultados199",
+      "entrada": "D.4 Resultados197",
       "destino": "d4-resultados"
     },
     {
       "indice": "principal",
-      "entrada": "D.4.1 Série A199",
+      "entrada": "D.4.1 Série A197",
       "destino": "d41-série-a"
     },
     {
       "indice": "principal",
-      "entrada": "D.4.2 Série B (condição comum)200",
+      "entrada": "D.4.2 Série B (condição comum)198",
       "destino": "d42-série-b-condição-comum"
     },
     {
       "indice": "principal",
-      "entrada": "D.4.3 Geometria - tamanho do conjunto vs tamanho da peça201",
+      "entrada": "D.4.3 Geometria - tamanho do conjunto vs tamanho da peça199",
       "destino": "d43-geometria---tamanho-do-conjunto-vs-tamanho-da-peça"
     },
     {
       "indice": "principal",
-      "entrada": "D.4.4 Comparação entre entrada, malha e peça física202",
+      "entrada": "D.4.4 Comparação entre entrada, malha e peça física200",
       "destino": "d44-comparação-entre-entrada-malha-e-peça-física"
     },
     {
       "indice": "principal",
-      "entrada": "D.4.5 Registo fotográfico dos protótipos203",
+      "entrada": "D.4.5 Registo fotográfico dos protótipos202",
       "destino": "d45-registo-fotográfico-dos-protótipos"
     },
     {
       "indice": "principal",
-      "entrada": "D.5 Compatibilidade com orientações de dimensionamento204",
+      "entrada": "D.5 Compatibilidade com orientações de dimensionamento202",
       "destino": "d5-compatibilidade-com-orientações-de-dimensionamento"
     },
     {
       "indice": "principal",
-      "entrada": "D.6 Limites de comparabilidade204",
+      "entrada": "D.6 Limites de comparabilidade203",
       "destino": "d6-limites-de-comparabilidade"
     },
     {
       "indice": "principal",
-      "entrada": "D.7 Campos que não puderam ser obtidos205",
-      "destino": "d7-campos-que-não-puderam-ser-obtidos"
+      "entrada": "D.7 DISPONIBILIDADE E LIMITAÇÕES DOS REGISTOS TÉCNICOS203",
+      "destino": "d7-disponibilidade-e-limitações-dos-registos-técnicos"
     },
     {
       "indice": "principal",
-      "entrada": "D.8 O que pode e não pode ser afirmado na investigação205",
-      "destino": "d8-o-que-pode-e-não-pode-ser-afirmado-na-investigação"
+      "entrada": "D.8 SÍNTESE DOS RESULTADOS E ALCANCE DA AVALIAção204",
+      "destino": "d8-síntese-dos-resultados-e-alcance-da-avaliação"
     },
     {
       "indice": "figuras",
@@ -1179,17 +1184,17 @@
     },
     {
       "indice": "figuras",
-      "entrada": "Figura 6 - Marcos anatómicos e medidas de referência da mão para fins de personalização.23",
+      "entrada": "Figura 6 - Marcos anatómicos e medidas de referência da mão para fins de personalização.22",
       "destino": "figura-6"
     },
     {
       "indice": "figuras",
-      "entrada": "Figura 7 - Enquadramento de um fluxo de CAD apoiado por IA para desenvolvimento de produto.27",
+      "entrada": "Figura 7 - Enquadramento de um fluxo de CAD apoiado por IA para desenvolvimento de produto.26",
       "destino": "figura-7"
     },
     {
       "indice": "figuras",
-      "entrada": "Figura 8 - Modelo de processo para configurar participação em ecossistemas de inovação e cocriação.32",
+      "entrada": "Figura 8 - Modelo de processo para configurar participação em ecossistemas de inovação e cocriação.31",
       "destino": "figura-8"
     },
     {
@@ -1209,7 +1214,7 @@
     },
     {
       "indice": "figuras",
-      "entrada": "Figura 12 - Parâmetros antropométricos utilizados na modelação paramétrica de dedos protésicos.53",
+      "entrada": "Figura 12 - Parâmetros antropométricos utilizados na modelação paramétrica de dedos protésicos.52",
       "destino": "figura-12"
     },
     {
@@ -1279,27 +1284,27 @@
     },
     {
       "indice": "figuras",
-      "entrada": "Figura 26 - Exemplo publicado de teste de uma prótese impressa em 3D com um utilizador.101",
+      "entrada": "Figura 26 - Exemplo publicado de teste de uma prótese impressa em 3D com um utilizador.100",
       "destino": "figura-26"
     },
     {
       "indice": "figuras",
-      "entrada": "Figura 27 - Componentes impressos e estados preliminares de montagem: segmentos digitais articulados, palma e elementos separados. O painel documenta a materialização das geometrias e a compatibilidade visual entre componentes.109",
+      "entrada": "Figura 27 - Componentes impressos e estados preliminares de montagem: segmentos digitais articulados, palma e elementos separados. O painel documenta a materialização das geometrias e a compatibilidade visual entre componentes.108",
       "destino": "figura-27"
     },
     {
       "indice": "figuras",
-      "entrada": "Figura 28 - Séries físicas de segmentos identificados pelos perfis de ensaio de 8, 15, 28 e 70 anos. À esquerda apresenta-se a série Paraglider Hand; ao centro e à direita, duas vistas da série Flexy Beast. As diferenças visíveis documentam a variação dimensional.109",
+      "entrada": "Figura 28 - Séries físicas de segmentos identificados pelos perfis de ensaio de 8, 15, 28 e 70 anos. À esquerda apresenta-se a série Paraglider Hand; ao centro e à direita, duas vistas da série Flexy Beast. As diferenças visíveis documentam a variação dimensional.108",
       "destino": "figura-28"
     },
     {
       "indice": "figuras",
-      "entrada": "Figura 29 - UnLimbited Phoenix configurada para o perfil de ensaio de 15 anos, apresentada em sete vistas da montagem física. As imagens documentam a reunião dos componentes e a mobilidade manual observável das articulações, sem equivaler a um protocolo de funcionamento, preensão ou utilização protésica.110",
+      "entrada": "Figura 29 - UnLimbited Phoenix configurada para o perfil de ensaio de 15 anos, apresentada em sete vistas da montagem física. As imagens documentam a reunião dos componentes e a mobilidade manual observável das articulações, sem equivaler a um protocolo de funcionamento, preensão ou utilização protésica.108",
       "destino": "figura-29"
     },
     {
       "indice": "figuras",
-      "entrada": "Figura 30 - Tarefas funcionais usadas em avaliação de prótese personalizada de membro superior.110",
+      "entrada": "Figura 30 - Tarefas funcionais usadas em avaliação de prótese personalizada de membro superior.109",
       "destino": "figura-30"
     },
     {
@@ -1339,32 +1344,32 @@
     },
     {
       "indice": "tabelas",
-      "entrada": "Tabela 8 - Conjuntos mínimos de parâmetros por nível de amputação.54",
+      "entrada": "Tabela 8 - Conjuntos mínimos de parâmetros por nível de amputação.53",
       "destino": "tabela-8"
     },
     {
       "indice": "tabelas",
-      "entrada": "Tabela 9 - Métodos de recolha de dados antropométricos e suas características.56",
+      "entrada": "Tabela 9 - Métodos de recolha de dados antropométricos e suas características.55",
       "destino": "tabela-9"
     },
     {
       "indice": "tabelas",
-      "entrada": "Tabela 10 - Funções e limites da base antropométrica na configuração.57",
+      "entrada": "Tabela 10 - Funções e limites da base antropométrica na configuração.56",
       "destino": "tabela-10"
     },
     {
       "indice": "tabelas",
-      "entrada": "Tabela 11 - Estrutura hierárquica dos parâmetros no modelo paramétrico.58",
+      "entrada": "Tabela 11 - Estrutura hierárquica dos parâmetros no modelo paramétrico.57",
       "destino": "tabela-11"
     },
     {
       "indice": "tabelas",
-      "entrada": "Tabela 12 - Mapeamento entre parâmetros antropométricos e elementos do modelo.60",
+      "entrada": "Tabela 12 - Mapeamento entre parâmetros antropométricos e elementos do modelo.59",
       "destino": "tabela-12"
     },
     {
       "indice": "tabelas",
-      "entrada": "Tabela 13 - Estrutura técnica em camadas de um modelo paramétrico em OpenSCAD para próteses personalizadas.62",
+      "entrada": "Tabela 13 - Estrutura técnica em camadas de um modelo paramétrico em OpenSCAD para próteses personalizadas.61",
       "destino": "tabela-13"
     },
     {
@@ -1374,7 +1379,7 @@
     },
     {
       "indice": "tabelas",
-      "entrada": "Tabela 15 - Dicionário operacional dos parâmetros numéricos dos modelos avaliados.66",
+      "entrada": "Tabela 15 - Dicionário operacional dos parâmetros numéricos dos modelos avaliados.65",
       "destino": "tabela-15"
     },
     {
@@ -1384,7 +1389,7 @@
     },
     {
       "indice": "tabelas",
-      "entrada": "Tabela 17 - Cronologia das principais iterações paramétricas.71",
+      "entrada": "Tabela 17 - Cronologia das principais iterações paramétricas.70",
       "destino": "tabela-17"
     },
     {
@@ -1409,734 +1414,724 @@
     },
     {
       "indice": "tabelas",
-      "entrada": "Tabela 22 - Distribuição de tarefas entre regras, IA e supervisão humana.96",
+      "entrada": "Tabela 22 - Distribuição de tarefas entre regras, IA e supervisão humana96",
       "destino": "tabela-22"
     },
     {
       "indice": "tabelas",
-      "entrada": "Tabela 23 - Evidência do funcionamento da plataforma no processo de projeto.103",
+      "entrada": "Tabela 23 - Evidência do funcionamento da plataforma no processo de projeto.102",
       "destino": "tabela-23"
     },
     {
       "indice": "tabelas",
-      "entrada": "Tabela 24 - Projetos de preparação digital para impressão 3D com configuração analisada.106",
+      "entrada": "Tabela 24 - Projetos de preparação digital para impressão 3D com configuração analisada.105",
       "destino": "tabela-24"
     },
     {
       "indice": "tabelas",
-      "entrada": "Tabela 25 - Inspeção computacional das malhas geradas para um perfil antropométrico de 8 anos.108",
+      "entrada": "Tabela 25 - Inspeção computacional das malhas geradas para um perfil antropométrico de 8 anos.107",
       "destino": "tabela-25"
     },
     {
       "indice": "tabelas",
-      "entrada": "Tabela 26 - Descrições submetidas nos cenários de avaliação da IA.111",
+      "entrada": "Tabela 26 - Descrições submetidas nos cenários de avaliação da IA.110",
       "destino": "tabela-26"
     },
     {
       "indice": "tabelas",
-      "entrada": "Tabela 27 - Síntese da avaliação das sugestões de IA.113",
+      "entrada": "Tabela 27 - Síntese da avaliação das sugestões de IA.111",
       "destino": "tabela-27"
     },
     {
       "indice": "tabelas",
-      "entrada": "Tabela 28 - Modelos e mecanismos de escala avaliados.114",
+      "entrada": "Tabela 28 - Modelos e mecanismos de escala avaliados.113",
       "destino": "tabela-28"
     },
     {
       "indice": "tabelas",
-      "entrada": "Tabela 29 - Fator de escala da maior dimensão da palma exportada relativamente à configuração de referência.116",
+      "entrada": "Tabela 29 - Fator de escala da maior dimensão da palma exportada relativamente à configuração de referência.113",
       "destino": "tabela-29"
     },
     {
       "indice": "tabelas",
-      "entrada": "Tabela 30 - Discussão dos resultados face às lacunas selecionadas do estado da arte.118",
+      "entrada": "Tabela 30 - Discussão dos resultados face às lacunas selecionadas do estado da arte.116",
       "destino": "tabela-30"
     },
     {
       "indice": "tabelas",
-      "entrada": "Tabela 31 - Síntese dos resultados e das limitações face às perguntas de investigação.122",
+      "entrada": "Tabela 31 - Síntese dos resultados e das limitações face às perguntas de investigação.120",
       "destino": "tabela-31"
     },
     {
       "indice": "anexos",
-      "entrada": "A.1 Contexto e Objectivo 150",
+      "entrada": "A.1 Contexto e Objectivo 149",
+      "destino": "anchor-541"
+    },
+    {
+      "indice": "anexos",
+      "entrada": "A.2 Estratégia de Pesquisa Bibliográfica 149",
+      "destino": "anchor-542"
+    },
+    {
+      "indice": "anexos",
+      "entrada": "A.2.1 Pesquisa bibliográfica orientada 149",
+      "destino": "anchor-543"
+    },
+    {
+      "indice": "anexos",
+      "entrada": "A.2.2 Base ANSUR 1988 149",
       "destino": "anchor-544"
     },
     {
       "indice": "anexos",
-      "entrada": "A.2 Estratégia de Pesquisa Bibliográfica 150",
+      "entrada": "A.3 Critérios de Inclusão e Exclusão de Estudos 150",
       "destino": "anchor-545"
     },
     {
       "indice": "anexos",
-      "entrada": "A.2.1 Pesquisa bibliográfica orientada 150",
+      "entrada": "A.3.1 Critérios de inclusão 150",
       "destino": "anchor-546"
     },
     {
       "indice": "anexos",
-      "entrada": "A.2.2 Base ANSUR 1988 151",
+      "entrada": "A.3.2 Critérios de exclusão 150",
       "destino": "anchor-547"
     },
     {
       "indice": "anexos",
-      "entrada": "A.3 Critérios de Inclusão e Exclusão de Estudos151",
+      "entrada": "A.4 Processo de Extração de Dados 151",
       "destino": "anchor-548"
     },
     {
       "indice": "anexos",
-      "entrada": "A.3.1 Critérios de inclusão 151",
+      "entrada": "A.4.1 Leitura dos PDFs e localização das tabelas 151",
       "destino": "anchor-549"
     },
     {
       "indice": "anexos",
-      "entrada": "A.3.2 Critérios de exclusão 151",
+      "entrada": "A.4.2 Identificação das unidades e conversão 151",
       "destino": "anchor-550"
     },
     {
       "indice": "anexos",
-      "entrada": "A.4 Processo de Extração de Dados 152",
+      "entrada": "A.4.3 Decomposição em linhas atómicas 151",
       "destino": "anchor-551"
     },
     {
       "indice": "anexos",
-      "entrada": "A.4.1 Leitura dos PDFs e localização das tabelas 152",
+      "entrada": "A.4.4 Registo fiel do contexto da medição 151",
       "destino": "anchor-552"
     },
     {
       "indice": "anexos",
-      "entrada": "A.4.2 Identificação das unidades e conversão 152",
+      "entrada": "A.5 Decisões por Estudo 152",
       "destino": "anchor-553"
     },
     {
       "indice": "anexos",
-      "entrada": "A.4.3 Decomposição em linhas atómicas 152",
+      "entrada": "A.5.1 ANSUR 1988 - EUA, militares (Gordon et al., 1989) 152",
       "destino": "anchor-554"
     },
     {
       "indice": "anexos",
-      "entrada": "A.4.4 Registo fiel do contexto da medição 153",
+      "entrada": "A.5.2 Turquia - jovens adultos (Chatzioglou et al., 2024) 152",
       "destino": "anchor-555"
     },
     {
       "indice": "anexos",
-      "entrada": "A.5 Decisões por Estudo 153",
+      "entrada": "A.5.3 México - população geral (Rodríguez-Vega & Rodríguez-Vega, 2024) 153",
       "destino": "anchor-556"
     },
     {
       "indice": "anexos",
-      "entrada": "A.5.1 ANSUR 1988 - EUA, militares (Gordon et al., 1989) 153",
+      "entrada": "A.5.4 Índia - mulheres trabalhadoras (Nag et al., 2003) 153",
       "destino": "anchor-557"
     },
     {
       "indice": "anexos",
-      "entrada": "A.5.2 Turquia - jovens adultos (Chatzioglou et al., 2024) 154",
+      "entrada": "A.5.5 Portugal - trabalhadores industriais (Anacleto Filho et al., 2023) 153",
       "destino": "anchor-558"
     },
     {
       "indice": "anexos",
-      "entrada": "A.5.3 México - população geral (Rodríguez-Vega & Rodríguez-Vega, 2024) 154",
+      "entrada": "A.5.6 Nigéria - atletas universitários (Ibiwari et al., 2025) 154",
       "destino": "anchor-559"
     },
     {
       "indice": "anexos",
-      "entrada": "A.5.4 Índia - mulheres trabalhadoras (Nag et al., 2003) 154",
+      "entrada": "A.5.7 Jordânia - trabalhadores com deficiência (Mistarihi, 2020) 154",
       "destino": "anchor-560"
     },
     {
       "indice": "anexos",
-      "entrada": "A.5.5 Portugal - trabalhadores industriais (Anacleto Filho et al., 2023) 154",
+      "entrada": "A.5.8 EUA - dedo indicador (Lim et al., 2018) 154",
       "destino": "anchor-561"
     },
     {
       "indice": "anexos",
-      "entrada": "A.5.6 Nigéria - atletas universitários (Ibiwari et al., 2025) 155",
+      "entrada": "A.5.9 Estudo excluído: Moreo (2016) 155",
       "destino": "anchor-562"
     },
     {
       "indice": "anexos",
-      "entrada": "A.5.7 Jordânia - trabalhadores com deficiência (Mistarihi, 2020) 155",
+      "entrada": "A.5.10 EUA - militares ANSUR II (Gordon et al., 2014) 155",
       "destino": "anchor-563"
     },
     {
       "indice": "anexos",
-      "entrada": "A.5.8 EUA - dedo indicador (Lim et al., 2018) 156",
+      "entrada": "A.5.11 Países Baixos - DINED (TU Delft) 155",
       "destino": "anchor-564"
     },
     {
       "indice": "anexos",
-      "entrada": "A.5.9 Estudo excluído: Moreo (2016) 156",
+      "entrada": "A.5.12 China - idosos de Pequim 156",
       "destino": "anchor-565"
     },
     {
       "indice": "anexos",
-      "entrada": "A.5.10 EUA - militares ANSUR II (Gordon et al., 2014) 156",
+      "entrada": "A.5.13 Estudo excluído: reconstrução corporal 3D a partir de fotografias ortogonais 156",
       "destino": "anchor-566"
     },
     {
       "indice": "anexos",
-      "entrada": "A.5.11 Países Baixos - DINED (TU Delft) 157",
+      "entrada": "A.6 Estrutura do CSV e esquema de dados 157",
       "destino": "anchor-567"
     },
     {
       "indice": "anexos",
-      "entrada": "A.5.12 China - idosos de Pequim 157",
+      "entrada": "A.6.1 Campos 157",
       "destino": "anchor-568"
     },
     {
       "indice": "anexos",
-      "entrada": "A.5.13 Estudo excluído: reconstrução corporal 3D a partir de fotografias ortogonais 158",
+      "entrada": "A.6.2 Formato longo (long format) 158",
       "destino": "anchor-569"
     },
     {
       "indice": "anexos",
-      "entrada": "A.6 Estrutura do CSV e esquema de dados 158",
+      "entrada": "A.7 Controlo de Qualidade dos Dados 158",
       "destino": "anchor-570"
     },
     {
       "indice": "anexos",
-      "entrada": "A.6.1 Campos 158",
+      "entrada": "A.7.1 Marcação inline de limitações 158",
       "destino": "anchor-571"
     },
     {
       "indice": "anexos",
-      "entrada": "A.6.2 Formato longo (long format) 159",
+      "entrada": "A.7.2 Verificação de unidades 158",
       "destino": "anchor-572"
     },
     {
       "indice": "anexos",
-      "entrada": "A.7 Controlo de Qualidade dos Dados 159",
+      "entrada": "A.7.3 Ligação à fonte 158",
       "destino": "anchor-573"
     },
     {
       "indice": "anexos",
-      "entrada": "A.7.1 Marcação inline de limitações 159",
+      "entrada": "A.8 Escrita do Código de Geração 158",
       "destino": "anchor-574"
     },
     {
       "indice": "anexos",
-      "entrada": "A.7.2 Verificação de unidades 160",
+      "entrada": "A.8.1 Correspondência entre os CSV e os parâmetros da plataforma 159",
       "destino": "anchor-575"
     },
     {
       "indice": "anexos",
-      "entrada": "A.7.3 Ligação à fonte 160",
+      "entrada": "A.9 Resultado Final 160",
       "destino": "anchor-576"
     },
     {
       "indice": "anexos",
-      "entrada": "A.8 Escrita do Código de Geração 160",
+      "entrada": "A.10 Cobertura Global da Base de Dados e Lacunas 160",
       "destino": "anchor-577"
     },
     {
       "indice": "anexos",
-      "entrada": "A.8.1 Correspondência entre os CSV e os parâmetros da plataforma 160",
+      "entrada": "A.10.1 O que está coberto 160",
       "destino": "anchor-578"
     },
     {
       "indice": "anexos",
-      "entrada": "A.9 Resultado Final 161",
+      "entrada": "A.10.1.1. Cobertura geográfica 161",
       "destino": "anchor-579"
     },
     {
       "indice": "anexos",
-      "entrada": "A.10 Cobertura Global da Base de Dados e Lacunas 162",
+      "entrada": "A.10.1.2. Cobertura etária 161",
       "destino": "anchor-580"
     },
     {
       "indice": "anexos",
-      "entrada": "A.10.1 O que está coberto 162",
+      "entrada": "A.10.1.3. Cobertura estatística 162",
       "destino": "anchor-581"
     },
     {
       "indice": "anexos",
-      "entrada": "A.10.1.1. Cobertura geográfica 162",
+      "entrada": "A.10.2 Onde a cobertura falha 162",
       "destino": "anchor-582"
     },
     {
       "indice": "anexos",
-      "entrada": "A.10.1.2. Cobertura etária 162",
+      "entrada": "A.10.2.1. Lacunas geográficas 162",
       "destino": "anchor-583"
     },
     {
       "indice": "anexos",
-      "entrada": "A.10.1.3. Cobertura estatística 163",
+      "entrada": "A.10.2.2. Lacunas demográficas 163",
       "destino": "anchor-584"
     },
     {
       "indice": "anexos",
-      "entrada": "A.10.2 Onde a cobertura falha 164",
+      "entrada": "A.10.2.3. Limitações qualitativas dos dados existentes 163",
       "destino": "anchor-585"
     },
     {
       "indice": "anexos",
-      "entrada": "A.10.2.1. Lacunas geográficas 164",
-      "destino": "anchor-586"
-    },
-    {
-      "indice": "anexos",
-      "entrada": "A.10.2.2. Lacunas demográficas 164",
+      "entrada": "A.10.3.1. Prioridade alta 164",
       "destino": "anchor-587"
     },
     {
       "indice": "anexos",
-      "entrada": "A.10.2.3. Limitações qualitativas dos dados existentes 165",
+      "entrada": "A.10.3.2. Prioridade média 164",
       "destino": "anchor-588"
     },
     {
       "indice": "anexos",
-      "entrada": "A.10.3 PRIORIDADES identificadas para expansão futura 166",
+      "entrada": "A.10.3.3. Pertinência direta para o tema da tese 164",
       "destino": "anchor-589"
     },
     {
       "indice": "anexos",
-      "entrada": "A.10.3.1. Prioridade alta 166",
+      "entrada": "Tabela A.1 - Campos, tipos e descrição do esquema de dados antropométricos. 157",
       "destino": "anchor-590"
     },
     {
       "indice": "anexos",
-      "entrada": "A.10.3.2. Prioridade média 166",
+      "entrada": "Tabela A.2 - Síntese dos conjuntos de dados antropométricos consolidados. 160",
       "destino": "anchor-591"
     },
     {
       "indice": "anexos",
-      "entrada": "A.10.3.3. Pertinência direta para o tema da tese 166",
+      "entrada": "Tabela A.3 - Cobertura geográfica da base de dados da mão. 161",
       "destino": "anchor-592"
     },
     {
       "indice": "anexos",
-      "entrada": "Tabela A.1 - Campos, tipos e descrição do esquema de dados antropométricos. 158",
+      "entrada": "Tabela A.4 - Cobertura etária da base de dados da mão. 161",
       "destino": "anchor-593"
     },
     {
       "indice": "anexos",
-      "entrada": "Tabela A.2 - Síntese dos conjuntos de dados antropométricos consolidados. 161",
+      "entrada": "Tabela A.5 - Indicadores estatísticos disponíveis por fonte. 162",
       "destino": "anchor-594"
     },
     {
       "indice": "anexos",
-      "entrada": "Tabela A.3 - Cobertura geográfica da base de dados da mão. 162",
-      "destino": "anchor-595"
+      "entrada": "B.1 Finalidade 166",
+      "destino": "anchor-661"
     },
     {
       "indice": "anexos",
-      "entrada": "Tabela A.4 - Cobertura etária da base de dados da mão. 162",
-      "destino": "anchor-596"
+      "entrada": "B.2 Âmbito e limites 166",
+      "destino": "anchor-662"
     },
     {
       "indice": "anexos",
-      "entrada": "Tabela A.5 - Indicadores estatísticos disponíveis por fonte. 163",
-      "destino": "anchor-597"
-    },
-    {
-      "indice": "anexos",
-      "entrada": "B.1 Finalidade 167",
+      "entrada": "B.3 Procedimento 166",
       "destino": "anchor-663"
     },
     {
       "indice": "anexos",
-      "entrada": "B.2 Âmbito e limites 168",
-      "destino": "anchor-664"
-    },
-    {
-      "indice": "anexos",
-      "entrada": "B.3 Procedimento 168",
+      "entrada": "B.4.1 Repetição da mesma configuração 167",
       "destino": "anchor-665"
     },
     {
       "indice": "anexos",
-      "entrada": "B.4 Resultados de consistência da geração 169",
+      "entrada": "B.4.2 Comparação entre navegadores 168",
       "destino": "anchor-666"
     },
     {
       "indice": "anexos",
-      "entrada": "B.4.1 Repetição da mesma configuração 169",
+      "entrada": "B.5 Resultados de recuperação e controlo 168",
       "destino": "anchor-667"
     },
     {
       "indice": "anexos",
-      "entrada": "B.4.2 Comparação entre navegadores 169",
+      "entrada": "B.6 Resultados da verificação de acessibilidade digital 169",
       "destino": "anchor-668"
     },
     {
       "indice": "anexos",
-      "entrada": "B.5 Resultados de recuperação e controlo 170",
+      "entrada": "B.6.1 Percurso local autenticado 169",
       "destino": "anchor-669"
     },
     {
       "indice": "anexos",
-      "entrada": "B.6 Resultados da verificação de acessibilidade digital 171",
+      "entrada": "B.6.2 Superfície pública 170",
       "destino": "anchor-670"
     },
     {
       "indice": "anexos",
-      "entrada": "B.6.1 Percurso local autenticado 171",
+      "entrada": "B.6.3 Verificação manual complementar 170",
       "destino": "anchor-671"
     },
     {
       "indice": "anexos",
-      "entrada": "B.6.2 Superfície pública 172",
+      "entrada": "B.7 Aprendizagens para o Design Industrial 171",
       "destino": "anchor-672"
     },
     {
       "indice": "anexos",
-      "entrada": "B.6.3 Verificação manual complementar 172",
+      "entrada": "B.8 Conclusão 172",
       "destino": "anchor-673"
     },
     {
       "indice": "anexos",
-      "entrada": "B.7 Aprendizagens para o Design Industrial 173",
+      "entrada": "B.9 Referências normativas 172",
       "destino": "anchor-674"
     },
     {
       "indice": "anexos",
-      "entrada": "B.8 Conclusão 174",
+      "entrada": "Tabela B.1 - Resultados da repetição da mesma configuração por modelo. 167",
       "destino": "anchor-675"
     },
     {
       "indice": "anexos",
-      "entrada": "B.9 Referências normativas 174",
+      "entrada": "Tabela B.2 - Resultados do percurso examinado em três navegadores. 168",
       "destino": "anchor-676"
     },
     {
       "indice": "anexos",
-      "entrada": "Tabela B.1 - Resultados da repetição da mesma configuração por modelo. 169",
+      "entrada": "Tabela B.3 - Comportamento observado perante limites, entradas inválidas e falhas previstas. 168",
       "destino": "anchor-677"
     },
     {
       "indice": "anexos",
-      "entrada": "Tabela B.2 - Resultados do percurso examinado em três navegadores. 169",
+      "entrada": "Tabela B.4 - Categorias de problemas de acessibilidade digital detetadas automaticamente. 170",
       "destino": "anchor-678"
     },
     {
       "indice": "anexos",
-      "entrada": "Tabela B.3 - Comportamento observado perante limites, entradas inválidas e falhas previstas. 170",
+      "entrada": "Tabela B.5 - Resultados da verificação manual complementar de acessibilidade. 170",
       "destino": "anchor-679"
     },
     {
       "indice": "anexos",
-      "entrada": "Tabela B.4 - Categorias de problemas de acessibilidade digital detetadas automaticamente. 172",
-      "destino": "anchor-680"
+      "entrada": "C.1 Objectivo e âmbito 175",
+      "destino": "anchor-699"
     },
     {
       "indice": "anexos",
-      "entrada": "Tabela B.5 - Resultados da verificação manual complementar de acessibilidade. 172",
-      "destino": "anchor-681"
-    },
-    {
-      "indice": "anexos",
-      "entrada": "C.1 Objectivo e âmbito 178",
+      "entrada": "C.2 Princípio comum de adaptação 175",
       "destino": "anchor-700"
     },
     {
       "indice": "anexos",
-      "entrada": "C.2 Princípio comum de adaptação 178",
+      "entrada": "C.2.1 Campos antropométricos comuns 176",
       "destino": "anchor-701"
     },
     {
       "indice": "anexos",
-      "entrada": "C.2.1 Campos antropométricos comuns 179",
+      "entrada": "C.2.2 Tipos de parâmetros 177",
       "destino": "anchor-702"
     },
     {
       "indice": "anexos",
-      "entrada": "C.2.2 Tipos de parâmetros 180",
+      "entrada": "C.2.3 Coerência dos controlos no estado final examinado 178",
       "destino": "anchor-703"
     },
     {
       "indice": "anexos",
-      "entrada": "C.2.3 Coerência dos controlos no estado final examinado 181",
+      "entrada": "C.3 Flexy Beast 178",
       "destino": "anchor-704"
     },
     {
       "indice": "anexos",
-      "entrada": "C.3 Flexy Beast 181",
+      "entrada": "C.3.1 Origem e estratégia de adaptação 178",
       "destino": "anchor-705"
     },
     {
       "indice": "anexos",
-      "entrada": "C.3.1 Origem e estratégia de adaptação 181",
+      "entrada": "C.3.2 Entradas, limites e relações 178",
       "destino": "anchor-706"
     },
     {
       "indice": "anexos",
-      "entrada": "C.3.2 Entradas, limites e relações 181",
+      "entrada": "C.3.3 Braçadeira e interfaces confirmáveis 180",
       "destino": "anchor-707"
     },
     {
       "indice": "anexos",
-      "entrada": "C.3.3 Braçadeira e interfaces confirmáveis 183",
+      "entrada": "C.3.4 PROpagação paramétrica documentada no perfil de ensaio 180",
       "destino": "anchor-708"
     },
     {
       "indice": "anexos",
-      "entrada": "C.3.4 PROpagação paramétrica documentada no perfil de ensaio 183",
+      "entrada": "C.3.5 Limitações específicas 181",
       "destino": "anchor-709"
     },
     {
       "indice": "anexos",
-      "entrada": "C.3.5 Limitações específicas 184",
+      "entrada": "C.4 Cyborg Beast 181",
       "destino": "anchor-710"
     },
     {
       "indice": "anexos",
-      "entrada": "C.4 Cyborg Beast 184",
+      "entrada": "C.4.1 Origem e estratégia de adaptação 181",
       "destino": "anchor-711"
     },
     {
       "indice": "anexos",
-      "entrada": "C.4.1 Origem e estratégia de adaptação 184",
+      "entrada": "C.4.2 Entradas e escala da mão 181",
       "destino": "anchor-712"
     },
     {
       "indice": "anexos",
-      "entrada": "C.4.2 Entradas e escala da mão 184",
+      "entrada": "C.4.3 Divisão proximal-distal 181",
       "destino": "anchor-713"
     },
     {
       "indice": "anexos",
-      "entrada": "C.4.3 Divisão proximal-distal 185",
+      "entrada": "C.4.4 Braçadeira, folgas e parâmetros fixos 182",
       "destino": "anchor-714"
     },
     {
       "indice": "anexos",
-      "entrada": "C.4.4 Braçadeira, folgas e parâmetros fixos 185",
+      "entrada": "C.4.5 Exemplo de propagação 183",
       "destino": "anchor-715"
     },
     {
       "indice": "anexos",
-      "entrada": "C.4.5 Exemplo de propagação 186",
+      "entrada": "C.4.6 Limitações específicas 183",
       "destino": "anchor-716"
     },
     {
       "indice": "anexos",
-      "entrada": "C.4.6 Limitações específicas 186",
+      "entrada": "C.5 Paraglider Hand 184",
       "destino": "anchor-717"
     },
     {
       "indice": "anexos",
-      "entrada": "C.5 Paraglider Hand 187",
+      "entrada": "C.5.1 Origem e estratégia de adaptação 184",
       "destino": "anchor-718"
     },
     {
       "indice": "anexos",
-      "entrada": "C.5.1 Origem e estratégia de adaptação 187",
+      "entrada": "C.5.2 Relações implementadas 184",
       "destino": "anchor-719"
     },
     {
       "indice": "anexos",
-      "entrada": "C.5.2 Relações implementadas 187",
+      "entrada": "C.5.3 Hardware e limites confirmáveis 185",
       "destino": "anchor-720"
     },
     {
       "indice": "anexos",
-      "entrada": "C.5.3 Hardware e limites confirmáveis 188",
+      "entrada": "C.5.4 Exemplo de propagação 185",
       "destino": "anchor-721"
     },
     {
       "indice": "anexos",
-      "entrada": "C.5.4 Exemplo de propagação 188",
+      "entrada": "C.5.5 Limitações específicas 186",
       "destino": "anchor-722"
     },
     {
       "indice": "anexos",
-      "entrada": "C.5.5 Limitações específicas 189",
+      "entrada": "C.6 UnLimbited Phoenix Hand 187",
       "destino": "anchor-723"
     },
     {
       "indice": "anexos",
-      "entrada": "C.6 UnLimbited Phoenix Hand 189",
+      "entrada": "C.6.1 Origem e estratégia de adaptação 187",
       "destino": "anchor-724"
     },
     {
       "indice": "anexos",
-      "entrada": "C.6.1 Origem e estratégia de adaptação 189",
+      "entrada": "C.6.2 Escala global e limite dimensional mínimo 187",
       "destino": "anchor-725"
     },
     {
       "indice": "anexos",
-      "entrada": "C.6.2 Escala global e limite dimensional mínimo 189",
+      "entrada": "C.6.3 Comprimentos digitais e preservação dos furos 188",
       "destino": "anchor-726"
     },
     {
       "indice": "anexos",
-      "entrada": "C.6.3 Comprimentos digitais e preservação dos furos 190",
+      "entrada": "C.6.4 Dependência entre comprimento digital e escala global 188",
       "destino": "anchor-727"
     },
     {
       "indice": "anexos",
-      "entrada": "C.6.4 Dependência entre comprimento digital e escala global 190",
+      "entrada": "C.6.5 Exemplo de propagação 188",
       "destino": "anchor-728"
     },
     {
       "indice": "anexos",
-      "entrada": "C.6.5 Exemplo de propagação 191",
+      "entrada": "C.6.6 Componentes fixos e tolerâncias confirmáveis 189",
       "destino": "anchor-729"
     },
     {
       "indice": "anexos",
-      "entrada": "C.6.6 Componentes fixos e tolerâncias confirmáveis 191",
+      "entrada": "C.6.7 Limitações específicas 190",
       "destino": "anchor-730"
     },
     {
       "indice": "anexos",
-      "entrada": "C.6.7 Limitações específicas 192",
+      "entrada": "C.7 Síntese comparativa das estratégias 190",
       "destino": "anchor-731"
     },
     {
       "indice": "anexos",
-      "entrada": "C.7 Síntese comparativa das estratégias 192",
+      "entrada": "C.8 Critérios de aceitação, limitação e rejeição 191",
       "destino": "anchor-732"
     },
     {
       "indice": "anexos",
-      "entrada": "C.8 Critérios de aceitação, limitação e rejeição 193",
+      "entrada": "C.9 Relação com o Suplemento 3 192",
       "destino": "anchor-733"
     },
     {
       "indice": "anexos",
-      "entrada": "C.9 Relação com o Suplemento 3 194",
+      "entrada": "C.10 Limite de interpretação 192",
       "destino": "anchor-734"
     },
     {
       "indice": "anexos",
-      "entrada": "C.10 Limite de interpretação 194",
+      "entrada": "C.11 Fontes técnicas consultadas 192",
       "destino": "anchor-735"
     },
     {
       "indice": "anexos",
-      "entrada": "C.11 Fontes técnicas consultadas 194",
+      "entrada": "C.12 Verificações executadas 192",
       "destino": "anchor-736"
     },
     {
       "indice": "anexos",
-      "entrada": "C.12 Verificações executadas 195",
+      "entrada": "Tabela C.1 - Correspondência entre medidas normalizadas e parâmetros dos modelos. 176",
       "destino": "anchor-737"
     },
     {
       "indice": "anexos",
-      "entrada": "Tabela C.1 - Correspondência entre medidas normalizadas e parâmetros dos modelos. 179",
+      "entrada": "Tabela C.2 - Parâmetros numéricos do Flexy Beast com efeito dimensional. 178",
       "destino": "anchor-738"
     },
     {
       "indice": "anexos",
-      "entrada": "Tabela C.2 - Parâmetros numéricos do Flexy Beast com efeito dimensional. 181",
+      "entrada": "Tabela C.3 - Relações dimensionais do Paraglider Hand. 184",
       "destino": "anchor-739"
     },
     {
       "indice": "anexos",
-      "entrada": "Tabela C.3 - Relações dimensionais do Paraglider Hand. 187",
+      "entrada": "Tabela C.4 - Comparação das adaptações e exceções de escala. 190",
       "destino": "anchor-740"
     },
     {
       "indice": "anexos",
-      "entrada": "Tabela C.4 - Comparação das adaptações e exceções de escala. 192",
-      "destino": "anchor-741"
-    },
-    {
-      "indice": "anexos",
-      "entrada": "D.1 Finalidade 197",
+      "entrada": "D.1 Finalidade 195",
       "destino": "anchor-784"
     },
     {
       "indice": "anexos",
-      "entrada": "D.2 Distinção entre estimativa e medição real 197",
+      "entrada": "D.2 Distinção entre estimativa e medição real 195",
       "destino": "anchor-785"
     },
     {
       "indice": "anexos",
-      "entrada": "D.3 Variáveis, controlos e materiais 198",
+      "entrada": "D.3 Variáveis, controlos e materiais 196",
       "destino": "anchor-786"
     },
     {
       "indice": "anexos",
-      "entrada": "D.3.1 Série A - projetos de preparação digital para impressão 3D com configuração analisada 198",
+      "entrada": "D.3.1 Série A - projetos de preparação digital para impressão 3D com configuração analisada 196",
       "destino": "anchor-787"
     },
     {
       "indice": "anexos",
-      "entrada": "D.3.2 Série B - comparação digital controlada 198",
+      "entrada": "D.3.2 Série B - comparação digital controlada 196",
       "destino": "anchor-788"
     },
     {
       "indice": "anexos",
-      "entrada": "D.4 Resultados 199",
+      "entrada": "D.4 Resultados 197",
       "destino": "anchor-789"
     },
     {
       "indice": "anexos",
-      "entrada": "D.4.1 Série A 199",
+      "entrada": "D.4.1 Série A 197",
       "destino": "anchor-790"
     },
     {
       "indice": "anexos",
-      "entrada": "D.4.2 Série B (condição comum) 200",
+      "entrada": "D.4.2 Série B (condição comum) 198",
       "destino": "anchor-791"
     },
     {
       "indice": "anexos",
-      "entrada": "D.4.3 Geometria - tamanho do conjunto vs tamanho da peça 201",
+      "entrada": "D.4.3 Geometria - tamanho do conjunto vs tamanho da peça 199",
       "destino": "anchor-792"
     },
     {
       "indice": "anexos",
-      "entrada": "D.4.4 Comparação entre entrada, malha e peça física 202",
+      "entrada": "D.4.4 Comparação entre entrada, malha e peça física 200",
       "destino": "anchor-793"
     },
     {
       "indice": "anexos",
-      "entrada": "D.4.5 Registo fotográfico dos protótipos 203",
+      "entrada": "D.4.5 Registo fotográfico dos protótipos 202",
       "destino": "anchor-794"
     },
     {
       "indice": "anexos",
-      "entrada": "D.5 Compatibilidade com orientações de dimensionamento 204",
+      "entrada": "D.5 Compatibilidade com orientações de dimensionamento 202",
       "destino": "anchor-795"
     },
     {
       "indice": "anexos",
-      "entrada": "D.6 Limites de comparabilidade 204",
+      "entrada": "D.6 Limites de comparabilidade 203",
       "destino": "anchor-796"
     },
     {
       "indice": "anexos",
-      "entrada": "D.7 Campos que não puderam ser obtidos 205",
+      "entrada": "D.7 Campos que não puderam ser obtidos 203",
       "destino": "anchor-797"
     },
     {
       "indice": "anexos",
-      "entrada": "D.8 O que pode e não pode ser afirmado na INVESTIGAÇÃO 205",
+      "entrada": "D.8 O que pode e não pode ser afirmado na INVESTIGAÇÃO 204",
       "destino": "anchor-798"
     },
     {
       "indice": "anexos",
-      "entrada": "Tabela D.1 - Projetos e configurações analisados na série A. 198",
+      "entrada": "Tabela D.1 - Projetos e configurações analisados na série A. 196",
       "destino": "anchor-799"
     },
     {
       "indice": "anexos",
-      "entrada": "Tabela D.2 - Variáveis e condições da série B. 198",
+      "entrada": "Tabela D.2 - Variáveis e condições da série B. 196",
       "destino": "anchor-800"
     },
     {
       "indice": "anexos",
-      "entrada": "Tabela D.3 - Estimativas dos projetos de preparação digital para impressão 3D com configuração analisada. 199",
+      "entrada": "Tabela D.3 - Estimativas dos projetos de preparação digital para impressão 3D com configuração analisada. 197",
       "destino": "anchor-801"
     },
     {
       "indice": "anexos",
-      "entrada": "Tabela D.4 - Estimativas de preparação para impressão na condição digital comum. 200",
+      "entrada": "Tabela D.4 - Estimativas de preparação para impressão na condição digital comum. 198",
       "destino": "anchor-802"
     },
     {
       "indice": "anexos",
-      "entrada": "Tabela D.5 - Comparação dimensional da palma no eixo X em PLA e PETG. 202",
+      "entrada": "Tabela D.5 - Comparação dimensional da palma no eixo X em PLA e PETG. 200",
       "destino": "anchor-803"
     },
     {
       "indice": "anexos",
-      "entrada": "Tabela D.6 - Escalas calculadas para o Phoenix e intervalo de dimensionamento de referência. 204",
+      "entrada": "Tabela D.6 - Escalas calculadas para o Phoenix e intervalo de dimensionamento de referência. 202",
       "destino": "anchor-804"
     }
   ],
-  "total": 426
+  "total": 425
 }

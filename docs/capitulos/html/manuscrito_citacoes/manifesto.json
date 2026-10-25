@@ -1,16 +1,18 @@
 {
-  "source": "pedro-candeias-projeto-mestrado-mdddp-ipca-2026-revisto_v1_06102026-0210.odt",
-  "sha256_odt": "c516b48143538d40c09190fe27e6b23e9417bf95d0a550204d5622f1badc710f",
+  "source": "pedro-candeias-projeto-mestrado-mdddp-ipca-2026-revisto_v1_23102026-1047.odt",
+  "sha256_odt": "f5255278485d7a04bf9a3dde3064315be6cef1ac33da26b3cb0f125b101d0f2d",
   "audit": "docs/revisoes/bibliografia/auditoria_referencias_texto_papers_061.md",
+  "source_saved_at": "2026-10-25T20:30:15.722213236",
+  "source_label": "Fonte: ODT gravado em 25 de outubro de 2026",
   "sha256_audit": "d9ca3355866a1460275d4e4a77bc027ae3b8efebeccd947d557d040f203c9b66",
-  "citations": 269,
+  "citations": 268,
   "matrix": "material/bibliografia/auditoria_citacoes/referencias_evidencia_docx_2026-07-22.xlsx",
   "sha256_matrix": "c6cf8492e012ce4374ad40333f9e8d0167e1ad1c0a8dddd012686042b087a563",
   "supplement": "docs/capitulos/html/manuscrito_citacoes/excertos_complementares.json",
   "sha256_supplement": "c6906051187af45317075d437347ee007ad0e74e96b0e353a3b1814134cddc67",
-  "source_occurrences": 416,
+  "source_occurrences": 415,
   "unique_sources": 157,
-  "index_links": 426,
+  "index_links": 425,
   "reading_adaptations": {
     "administrative_paragraphs_removed": [
       "Declaração",
@@ -29,7 +31,7 @@
       "INTEGRAÇÃO DO DESIGN E DA INTELIGÊNCIA ARTIFICIAL EM PROCESSOS PARAMÉTRICOS PARA O DESENVOLVIMENTO DE PRÓTESES DE MEMBROS SUPERIORES EM IMPRESSÃO 3D."
     ],
     "print_artifacts_removed": [
-      "xx"
+      "xvii"
     ],
     "sections": [
       {
@@ -39,7 +41,7 @@
       },
       {
         "title": "ÍNDICE",
-        "entries": 229,
+        "entries": 230,
         "pages": 14
       },
       {
@@ -55,7 +57,7 @@
       {
         "title": "Índice do Anexo A",
         "entries": 54,
-        "pages": 3
+        "pages": 4
       },
       {
         "title": "Índice do Anexo B",
@@ -82,19 +84,32 @@
       "para obtenção do Grau de Mestre em Design e Desenvolvimento de Produto",
       "Este trabalho não inclui as críticas e sugestões feitas pelo Júri.",
       "julho, 2026"
+    ],
+    "caption_repairs": [
+      {
+        "type": "mixed_table_caption",
+        "table": 22,
+        "source_body": "Foram utilizados cinco perfis baseados em indicadores demográficos e três cenários de ausência unilateral com diferentes níveis de detalhe: medidTabela 22 - Distribuição de tarefas entre regras, IA e supervisão humanaas completas da mão contralateral, uma medida direta e uma descrição demográfica. Uma bateria complementar reuniu 15 cenários construídos a partir de descrições vagas, comparativas, multilingues ou sem medidas. Para avaliar a interpretação da lateralidade pela IA, foram realizadas 12 execuções de teste, organizadas em séries de quatro repetições, com pedidos que especificavam a mão esquerda ou direita. Estes ensaios decorreram antes da alteração que transferiu o controlo da lateralidade para a interface da plataforma. Todos os cenários utilizaram descrições hipotéticas.",
+        "reading_body": "Foram utilizados cinco perfis baseados em indicadores demográficos e três cenários de ausência unilateral com diferentes níveis de detalhe: medidas completas da mão contralateral, uma medida direta e uma descrição demográfica. Uma bateria complementar reuniu 15 cenários construídos a partir de descrições vagas, comparativas, multilingues ou sem medidas. Para avaliar a interpretação da lateralidade pela IA, foram realizadas 12 execuções de teste, organizadas em séries de quatro repetições, com pedidos que especificavam a mão esquerda ou direita. Estes ensaios decorreram antes da alteração que transferiu o controlo da lateralidade para a interface da plataforma. Todos os cenários utilizaram descrições hipotéticas.",
+        "source_index": "Foram utilizados cinco perfis baseados em indicadores demográficos e três cenários de ausência unilateral com diferentes níveis de detalhe: medidTabela 22 - Distribuição de tarefas entre regras, IA e supervisão humanaas completas da mão contralateral, uma medida direta e uma descrição demográfica. Uma bateria complementar reuniu 15 cenários construídos a partir de descrições vagas, comparativas, multilingues ou sem medidas. Para avaliar a interpretação da lateralidade pela IA, foram realizadas 12 execuções de teste, organizadas em séries de quatro repetições, com pedidos que especificavam a mão esquerda ou direita. Estes ensaios decorreram antes da alteração que transferiu o controlo da lateralidade para a interface da plataforma. Todos os cenários utilizaram descrições hipotéticas.96",
+        "reading_index": "Tabela 22 - Distribuição de tarefas entre regras, IA e supervisão humana96",
+        "source_caption_near_table": "Tabela 22 – distribuição de tarefas entre regras, IA e supervisão human",
+        "caption": "Tabela 22 - Distribuição de tarefas entre regras, IA e supervisão humana",
+        "reason": "Legenda fundida com a palavra medidas no ODT; separada e colocada antes da tabela identificada pelo cabeçalho Tarefa / Mecanismo / Resultado."
+      }
     ]
   },
-  "source_occurrences_with_explanation": 416,
-  "sha256_explanations": "a6b27fbcb12f3efb3baf036b5b9faf9d53c433b8e127276cbdaab613911df61b",
+  "source_occurrences_with_explanation": 415,
+  "sha256_explanations": "bda538f72ec311eb51b4942e271c0ec745ee41b105e4298bc0d52b8ad17a5a89",
   "multiple_source_citations": 108,
   "maximum_sources_per_citation": 4,
-  "mendeley_citations": 239,
+  "mendeley_citations": 238,
   "manual_citations_matched_by_author_year": 30,
-  "source_occurrences_with_excerpt": 408,
-  "source_occurrences_with_historical_excerpt": 399,
-  "source_occurrences_with_similar_historical_passage": 121,
+  "source_occurrences_with_excerpt": 406,
+  "source_occurrences_with_historical_excerpt": 397,
+  "source_occurrences_with_similar_historical_passage": 116,
   "selected_excerpt_origins": {
-    "markdown": 290,
+    "markdown": 288,
     "xlsx": 109,
     "pdf": 9
   },

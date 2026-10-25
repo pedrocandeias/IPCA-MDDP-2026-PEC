@@ -10,7 +10,7 @@
     ]
   },
   {
-    "diapositivo": 2,
+    "diapositivo": 3,
     "ficheiro": "assets/flexy_parametros.png",
     "regiao_normalizada": [
       0,
@@ -20,7 +20,7 @@
     ]
   },
   {
-    "diapositivo": 2,
+    "diapositivo": 3,
     "ficheiro": "assets/flexy_perfis.jpeg",
     "regiao_normalizada": [
       0,
@@ -30,27 +30,7 @@
     ]
   },
   {
-    "diapositivo": 6,
-    "ficheiro": "assets/figura_20_1.png",
-    "regiao_normalizada": [
-      0,
-      0,
-      1,
-      1
-    ]
-  },
-  {
-    "diapositivo": 6,
-    "ficheiro": "assets/paraglider_perfis.jpeg",
-    "regiao_normalizada": [
-      0,
-      0,
-      1,
-      1
-    ]
-  },
-  {
-    "diapositivo": 7,
+    "diapositivo": 10,
     "ficheiro": "assets/figura_22_1.png",
     "regiao_normalizada": [
       0.11,
@@ -60,7 +40,7 @@
     ]
   },
   {
-    "diapositivo": 8,
+    "diapositivo": 11,
     "ficheiro": "assets/figura_24_1.png",
     "regiao_normalizada": [
       0.13,
@@ -70,7 +50,7 @@
     ]
   },
   {
-    "diapositivo": 9,
+    "diapositivo": 12,
     "ficheiro": "assets/figura_23_1.png",
     "regiao_normalizada": [
       0.035,
@@ -80,7 +60,7 @@
     ]
   },
   {
-    "diapositivo": 10,
+    "diapositivo": 13,
     "ficheiro": "assets/paraglider_perfis.jpeg",
     "regiao_normalizada": [
       0,
@@ -90,7 +70,7 @@
     ]
   },
   {
-    "diapositivo": 10,
+    "diapositivo": 13,
     "ficheiro": "assets/phoenix_montagem.jpg",
     "regiao_normalizada": [
       0,
@@ -100,7 +80,7 @@
     ]
   },
   {
-    "diapositivo": 11,
+    "diapositivo": 14,
     "ficheiro": "assets/figura_22_2.png",
     "regiao_normalizada": [
       0.1,
@@ -110,7 +90,7 @@
     ]
   },
   {
-    "diapositivo": 12,
+    "diapositivo": 15,
     "ficheiro": "assets/figura_22_3.png",
     "regiao_normalizada": [
       0.1,
@@ -120,7 +100,7 @@
     ]
   },
   {
-    "diapositivo": 13,
+    "diapositivo": 16,
     "ficheiro": "assets/figura_22_4.png",
     "regiao_normalizada": [
       0.1,
@@ -130,7 +110,7 @@
     ]
   },
   {
-    "diapositivo": 14,
+    "diapositivo": 17,
     "ficheiro": "assets/figura_20_1.png",
     "regiao_normalizada": [
       0,
@@ -140,7 +120,7 @@
     ]
   },
   {
-    "diapositivo": 15,
+    "diapositivo": 18,
     "ficheiro": "assets/flexy_placa.jpg",
     "regiao_normalizada": [
       0,
@@ -150,7 +130,7 @@
     ]
   },
   {
-    "diapositivo": 15,
+    "diapositivo": 18,
     "ficheiro": "assets/falanges_placa.jpg",
     "regiao_normalizada": [
       0,
@@ -160,7 +140,7 @@
     ]
   },
   {
-    "diapositivo": 15,
+    "diapositivo": 18,
     "ficheiro": "assets/palma_impressa.jpg",
     "regiao_normalizada": [
       0,
@@ -170,7 +150,7 @@
     ]
   },
   {
-    "diapositivo": 16,
+    "diapositivo": 19,
     "ficheiro": "assets/flexy_perfis.jpeg",
     "regiao_normalizada": [
       0,
@@ -180,7 +160,7 @@
     ]
   },
   {
-    "diapositivo": 16,
+    "diapositivo": 19,
     "ficheiro": "assets/paraglider_perfis.jpeg",
     "regiao_normalizada": [
       0,
@@ -190,7 +170,7 @@
     ]
   },
   {
-    "diapositivo": 18,
+    "diapositivo": 21,
     "ficheiro": "assets/phoenix_montagem.jpg",
     "regiao_normalizada": [
       0,
@@ -200,7 +180,7 @@
     ]
   },
   {
-    "diapositivo": 18,
+    "diapositivo": 21,
     "ficheiro": "assets/phoenix_articulacao.jpeg",
     "regiao_normalizada": [
       0,
@@ -210,7 +190,7 @@
     ]
   },
   {
-    "diapositivo": 20,
+    "diapositivo": 23,
     "ficheiro": "assets/phoenix_montagem.jpg",
     "regiao_normalizada": [
       0,

@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-10-25
+
+- Atualizada a edição HTML a partir do manuscrito ODT gravado em 25/10/2026 às 20:30, com 268 citações, 415 explicações reconciliadas, 425 ligações nos índices, 53 tabelas e 34 imagens. Corrigida na edição de leitura a legenda da Tabela 22 fundida com um parágrafo; preservado o ODT. Atualizados geradores, proveniência e verificações; preparado o pacote público com a apresentação da defesa 1.6.
+
+- Revista a apresentação da defesa para a versão **1.6**: abertura com a motivação do desenvolvimento e as barreiras de acesso em contextos de baixos e médios rendimentos; metodologia com Research Through Design, Double Diamond, integração de IA e percurso bibliográfico com Elicit. Atualizados PPTX, PDF, notas de fala e guiões, com 23 diapositivos principais e sete de apoio, mantendo as metas de 20/30 minutos. Criada cópia de segurança e preservados os resultados do projeto e as notas pessoais da abertura.
+
 ## 2026-10-17
 
 - Publicadas e verificadas as cinco páginas/recursos alterados e a página de redirecionamento da raiz; confirmada a correspondência integral dos ficheiros servidos com as fontes locais.

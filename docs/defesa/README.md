@@ -1,6 +1,6 @@
 # Preparação da defesa do projeto
 
-Versão de trabalho: 0.21. 12/10/2026.
+Versão de trabalho: 0.22. 25/10/2026.
 
 Curso: **Mestrado em Design e Desenvolvimento de Produto, UPCA**. Arguente indicado pelo autor: **Bernardo Providência**.
 
@@ -10,15 +10,17 @@ O autor indicou 20 minutos para a apresentação e pediu a preparação de uma v
 
 ## Documentos
 
-- [Notas pessoais para cada diapositivo](apresentacao/guiao_falado.odt): guião oral autónomo para os 28 diapositivos, também disponível em [PDF](apresentacao/guiao_falado.pdf). Inclui uma proposta de fala em primeira pessoa e apontamentos para desenvolver a explicação, com lembretes pessoais que não se leem ao júri. O texto está também nas notas do PPTX; este guião autónomo encontra-se na subpasta da apresentação e não integra o caderno de seis partes.
-- [Apresentação da defesa](apresentacao/README.md): versão gráfica revista, em [PPTX editável](apresentacao/apresentacao_defesa.pptx) e [PDF](apresentacao/apresentacao_defesa.pdf), com 20 diapositivos principais e oito de apoio. O PPTX inclui notas de fala e metas para 20 minutos e para treino de 30 minutos.
+- [Notas pessoais para cada diapositivo](apresentacao/guiao_falado.odt): guião oral autónomo para os 30 diapositivos, também disponível em [PDF](apresentacao/guiao_falado.pdf). Inclui uma proposta de fala em primeira pessoa e apontamentos para desenvolver a explicação, com lembretes pessoais que não se leem ao júri. O texto está também nas notas do PPTX; este guião autónomo encontra-se na subpasta da apresentação e não integra o caderno de seis partes.
+- [Apresentação da defesa](apresentacao/README.md): versão gráfica revista, em [PPTX editável](apresentacao/apresentacao_defesa.pptx) e [PDF](apresentacao/apresentacao_defesa.pdf), com 23 diapositivos principais e sete de apoio. O PPTX inclui notas de fala e metas para 20 minutos e para treino de 30 minutos.
 - [Caderno completo de preparação em ODT](preparacao_defesa_bernardo_providencia.odt): reúne os seis Markdown desta pasta, incluindo este guia, o guião de apresentação, a contextualização e o perfil do arguente, as 47 perguntas com respostas simples e as evidências e pontos a alinhar. As ligações entre estas partes permitem navegar dentro do documento.
-- [Guião e estrutura de apresentação](guiao_apresentacao.md): 20 blocos, tempos, mensagem central, conteúdos e propostas visuais; inclui abertura, fecho e percurso de demonstração.
+- [Guião e estrutura de apresentação](guiao_apresentacao.md): 23 blocos, tempos, mensagem central, conteúdos e propostas visuais; inclui abertura, fecho e percurso de demonstração.
 - [Perguntas e respostas de treino para o júri](perguntas_juri.md), disponíveis em [PDF autónomo](perguntas_juri.pdf) e [ODT editável](perguntas_juri.odt): 47 perguntas com respostas em primeira pessoa e lembretes pessoais para consulta e preparação, na versão 0.11. Inclui 21 questões ligadas às publicações de Bernardo Providência.
 - [Evidências e pontos a alinhar](evidencias_e_pontos_a_alinhar.md): relação entre afirmações, resultados, fontes e limites.
 - [Manifesto das fontes](fontes.json): hashes dos ficheiros examinados e verificações dos CSV.
 - [Contextualização académica do arguente](contexto_arguente.md): fontes públicas e temas para preparar a discussão.
 - [Notas pessoais sobre Bernardo Providência e as suas publicações](perfil_bernardo_providencia.md): oito trabalhos de 2012–2025 e complemento ORCID com estudo adicional de esgrima; métodos, limites e implicações para a defesa, com níveis de acesso declarados.
+
+A revisão da apresentação de 25/10/2026 conferiu a motivação, a metodologia e a declaração de IA no ODT `…23102026-1047.odt`, complementando a base anterior com os registos locais do Elicit. A abertura destaca as barreiras de acesso em contextos de baixos e médios rendimentos como motivação do desenvolvimento. A metodologia passa a explicar o apoio da IA e o processo de pesquisa, seleção e organização da bibliografia.
 
 ## Argumento de trabalho
 
@@ -34,7 +36,7 @@ A defesa deverá apoiar este argumento em dois casos concretos de decisão, num 
 - Identificada divergência sobre a montagem Phoenix entre algumas conclusões e o registo de bancada; ver documento de evidências.
 - Ainda por definir: data, restantes elementos do júri, orientações específicas, língua definitiva e condições para demonstração ou apresentação de peças.
 - Primeira versão gráfica produzida, com fotografias, capturas da plataforma, gráfico calculado a partir dos CSV e notas em todos os diapositivos.
-- Texto oral completo produzido: 2109 palavras no percurso principal e 844 nos acrescentos opcionais, além das falas dos diapositivos de apoio.
+- Texto oral completo produzido: 2164 palavras no percurso principal e 1210 nos acrescentos opcionais, além das falas dos diapositivos de apoio.
 - Ainda por realizar: revisão da apresentação com o autor, eventual gravação de demonstração e ensaio cronometrado. Os 20 e 30 minutos reservam tempo para pausas e explicação das imagens; são metas que precisam de ser ajustadas ao ritmo do autor.
 
 ## Método de preparação

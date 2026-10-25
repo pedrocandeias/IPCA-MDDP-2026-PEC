@@ -1,0 +1,56 @@
+{
+  "date": "2026-10-25",
+  "sha256_html": "84fcf991f03309e2f9a9432ff518bb9a32ded60f517d3aa751bb5b66e3a6d89b",
+  "viewports": [
+    {
+      "width": 1440,
+      "height": 1000,
+      "panel_fits": true,
+      "no_horizontal_overflow": true
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "panel_fits": true,
+      "no_horizontal_overflow": true
+    },
+    {
+      "width": 320,
+      "height": 844,
+      "panel_fits": true,
+      "no_horizontal_overflow": true
+    }
+  ],
+  "javascript_errors": [],
+  "internal_links_valid": true,
+  "browser": "151.0.7922.34",
+  "tables": 53,
+  "images": 34,
+  "citation_controls": 268,
+  "index_links": 425,
+  "all_panels_checked": true,
+  "explanations_checked": 415,
+  "table_22_caption_and_index_valid": true,
+  "native_navigation": [
+    {
+      "width": 1440,
+      "native_anchor_navigation": true,
+      "table22_visible": true,
+      "index_visible": true
+    },
+    {
+      "width": 390,
+      "native_anchor_navigation": true,
+      "table22_visible": true,
+      "index_visible": true
+    },
+    {
+      "width": 320,
+      "native_anchor_navigation": true,
+      "table22_visible": true,
+      "index_visible": true
+    }
+  ],
+  "image_lightbox_keyboard_zoom_escape": true,
+  "print_navigation_hidden": true
+}

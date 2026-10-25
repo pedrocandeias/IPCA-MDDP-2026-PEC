@@ -11,8 +11,8 @@
       "sha256": "67c91fd30240b7d156b2a22f13688047e294ceaa39d5ea030a0320ee4d022dba"
     }
   ],
-  "citations_count": 269,
-  "explanations_count": 416,
+  "citations_count": 268,
+  "explanations_count": 415,
   "editorial_revisions": {
     "path": "docs/revisoes/bibliografia/explicacoes_citacoes_revistas.json",
     "sha256": "dbca017cf60a8ff3efcfab62c43537f3b79eba257cd3fe76c7f8c469d00dc67a",
@@ -142,7 +142,7 @@
       }
     },
     "ce216838": {
-      "context_sha256": "11f5521924d201e22f7bd97d02c146084513a12e85b244183239a6271334cb39",
+      "context_sha256": "9cf6918f147045f61c714d3298fe427e11e5fdaa8aaa9a006efcca7f6d365cee",
       "sources": {
         "4d45d387-587b-3e65-ab73-510721b6ed61": {
           "reference": "Smail, L. C., Neal, C., Wilkins, C., & Packham, T. L. (2021). Comfort and function remain key factors in upper limb prosthetic abandonment: findings of a scoping review. Disability and Rehabilitation: Assistive Technology, 16(8), 821-830.",
@@ -151,7 +151,7 @@
       }
     },
     "820414b1": {
-      "context_sha256": "11f5521924d201e22f7bd97d02c146084513a12e85b244183239a6271334cb39",
+      "context_sha256": "9cf6918f147045f61c714d3298fe427e11e5fdaa8aaa9a006efcca7f6d365cee",
       "sources": {
         "0cc97771-92fc-3da3-911f-8fe10ce87e67": {
           "reference": "Biddiss, E., Beaton, D., & Chau, T. (2007). Consumer design priorities for upper limb prosthetics. Disability and Rehabilitation: Assistive Technology, 2(6), 346-357.",
@@ -160,7 +160,7 @@
       }
     },
     "f7692ade": {
-      "context_sha256": "11f5521924d201e22f7bd97d02c146084513a12e85b244183239a6271334cb39",
+      "context_sha256": "9cf6918f147045f61c714d3298fe427e11e5fdaa8aaa9a006efcca7f6d365cee",
       "sources": {
         "a758bcf8-3b2a-3b0a-b9fb-e96c66f3e0f9": {
           "reference": "Fink, C., & Diamond, Y. (2023). Prosthesis Options and Management in Upper Extremity Amputation. Operative Techniques in Orthopaedics, 33(3).",
@@ -187,7 +187,7 @@
       }
     },
     "a4cd0a70": {
-      "context_sha256": "aadd9aacefa54ebe8eb1431e17b7a374d91551724a803edecb2058b0bae10a00",
+      "context_sha256": "fe6f61d1ba8519d2f6bbacf33a2fcc74d6a9b83508955336b05bb0c7aad12a21",
       "sources": {
         "3efcdd41-7315-3bd3-be78-ae28d50a6612": {
           "reference": "Parlamento Europeu e do Conselho Europeu (2017). Regulamento (UE) 2017/745 do Parlamento Europeu e do Conselho, de 5 de abril de 2017, relativo aos dispositivos médicos, que altera a Diretiva 2001/83/CE, o Regulamento (CE) n.º 178/2002 e o Regulamento (CE) n.º 1223/2009 e que revoga as Diretivas 90/385/CEE e 93/42/CEE do Conselho.",
@@ -196,7 +196,7 @@
       }
     },
     "9e85e39a": {
-      "context_sha256": "aadd9aacefa54ebe8eb1431e17b7a374d91551724a803edecb2058b0bae10a00",
+      "context_sha256": "fe6f61d1ba8519d2f6bbacf33a2fcc74d6a9b83508955336b05bb0c7aad12a21",
       "sources": {
         "3efcdd41-7315-3bd3-be78-ae28d50a6612": {
           "reference": "Parlamento Europeu e do Conselho Europeu (2017). Regulamento (UE) 2017/745 do Parlamento Europeu e do Conselho, de 5 de abril de 2017, relativo aos dispositivos médicos, que altera a Diretiva 2001/83/CE, o Regulamento (CE) n.º 178/2002 e o Regulamento (CE) n.º 1223/2009 e que revoga as Diretivas 90/385/CEE e 93/42/CEE do Conselho.",
@@ -214,7 +214,7 @@
       }
     },
     "ca33529e": {
-      "context_sha256": "f1d8329a2128159ec945f1ac486e91604ae5d38db800e1f55792c97dcbb2543b",
+      "context_sha256": "bec7aef72ce57032a8c8f4cfb352a6c51645238e5c19735244d41d7aa07a7ee7",
       "sources": {
         "540bc7b7-2045-338f-a136-0bf537aa5423": {
           "reference": "International Organization for Standardization (s.d.). ISO/TC 168 — Prosthetics and orthotics.",
@@ -223,7 +223,7 @@
       }
     },
     "2718258b": {
-      "context_sha256": "f1d8329a2128159ec945f1ac486e91604ae5d38db800e1f55792c97dcbb2543b",
+      "context_sha256": "bec7aef72ce57032a8c8f4cfb352a6c51645238e5c19735244d41d7aa07a7ee7",
       "sources": {
         "ead13e5c-24dd-3d1d-a61c-2e603791dd36": {
           "reference": "International Organization for Standardization (2020). Prosthetics and orthotics — Vocabulary — Part 1: General terms for external limb prostheses and external orthoses. ISO.",
@@ -232,7 +232,7 @@
       }
     },
     "2177557e": {
-      "context_sha256": "55a2694ea8771091cba810af22e5ed45e2b5c183ff9b0881ef654f0ffe23fc6d",
+      "context_sha256": "b6f5d2ea7c3f693054563b0aff98fa1439705904ab205b8bf33a0b0d4dd467a9",
       "sources": {
         "f7954690-a818-32fb-8d40-7ba11592df3e": {
           "reference": "Clarkson, J., & Coleman, R. (2010). Inclusive design. Journal of Engineering Design, 21(2-3), 127-129.",
@@ -245,7 +245,7 @@
       }
     },
     "12edca6a": {
-      "context_sha256": "55a2694ea8771091cba810af22e5ed45e2b5c183ff9b0881ef654f0ffe23fc6d",
+      "context_sha256": "b6f5d2ea7c3f693054563b0aff98fa1439705904ab205b8bf33a0b0d4dd467a9",
       "sources": {
         "7eaf2ee6-ac5b-3e63-9640-ec3837c1d626": {
           "reference": "Adel, E., Khmais, Z., Omar, H., & Abdelaziz, L. (2020). Progress in Polyethylene Terephthalate Recycling. Progress in Polyethylene Terephthalate Recycling.",
@@ -418,7 +418,7 @@
       }
     },
     "8f1da92c": {
-      "context_sha256": "79439bf5ea7d26c8f568c0e2aff17f34f3634dcf32a47c176066f87692afb9f8",
+      "context_sha256": "56946b61f962dea2bdb90075a401c3eb97edec7a9829187b06e044f157ee9be3",
       "sources": {
         "9258d802-a00a-3800-b556-006b2f7c9df1": {
           "reference": "Shah, S. G. S., & Robinson, I. (2006). User involvement in healthcare technology development and assessment: Structured literature review. International Journal of Health Care Quality Assurance, 19(6), 498-513.",
@@ -427,7 +427,7 @@
       }
     },
     "65c575e9": {
-      "context_sha256": "7b30dbda6c757767c55cfce7e06e6991272fee445032aba379c0793c4b6b3995",
+      "context_sha256": "9cd172ca2855796841c48c7faee0dc8db9a9f924f03b80e8b33579eb7b28fc17",
       "sources": {
         "cb7bcb65-f0cb-385e-ac15-6bb272396932": {
           "reference": "White, J., & Mosca, E. I. (2022). Developing Innovative Solutions for Universal Design in Healthcare and Other Sectors. Studies in Health Technology and Informatics, 297, 340-347.",
@@ -436,7 +436,7 @@
       }
     },
     "e50802f3": {
-      "context_sha256": "9f6a1399682b11c112303e7a90d1a716e6554fe629b412f7668a6cdc33c29acf",
+      "context_sha256": "1bf88950703976c367efdb1a6a5e4f52280b9b6d5dd2ce75367ce856e0ec5e45",
       "sources": {
         "ee8a7402-38d0-3c15-b16e-bdbe5c97958d": {
           "reference": "van Niekerk, K., Dada, S., Tönsing, K., & Boshoff, K. (2018). Factors Perceived by Rehabilitation Professionals to Influence the Provision of Assistive Technology to Children: A Systematic Review. Physical and Occupational Therapy in Pediatrics, 38(2), 168-189.",
@@ -445,7 +445,7 @@
       }
     },
     "efed2f6a": {
-      "context_sha256": "9f6a1399682b11c112303e7a90d1a716e6554fe629b412f7668a6cdc33c29acf",
+      "context_sha256": "1bf88950703976c367efdb1a6a5e4f52280b9b6d5dd2ce75367ce856e0ec5e45",
       "sources": {
         "ce809d93-3338-3a25-ad8b-56ad8e4fb9b2": {
           "reference": "Howard, J., Fisher, Z., Kemp, A., Lindsay, S., Tasker, L., & Tree, J. (2022). Exploring the barriers to using assistive technology for individuals with chronic conditions: a meta-synthesis review Authors. Disability and Rehabilitation: Assistive Technology.",
@@ -454,7 +454,7 @@
       }
     },
     "69d223e3": {
-      "context_sha256": "f4587039f4a3dfa34c3e79199bec5f65209b6da1b6e89bcdf471961dec2c68f3",
+      "context_sha256": "74434808ecbb45b4b40b5d18f04d592f8bd0b2866ee2dc80c55f1a09e2a8d975",
       "sources": {
         "61787fa2-b9a5-3623-aac1-546c6aa66c2f": {
           "reference": "Chapman, K., Allen, C., & Kendall, E. (2025). Methods for Co-designing Health Communication Initiatives with People with Disability: A Scoping Review. Journal of Health Communication, 30(1-3), 120-132.",
@@ -485,7 +485,7 @@
       }
     },
     "eb40db0c": {
-      "context_sha256": "b23aee34bd65c2a2856a6079a471aac988bcef5121bfc52266bc555bde7a5a56",
+      "context_sha256": "2f59cafdbe583c44d5f673727d308acb857009d4210971d2a24d9f948db17642",
       "sources": {
         "0508c68f-f86a-3d3f-9fd0-67aaa87592c3": {
           "reference": "Lei, N., Yao, X., Moon, S. K., & Bi, G. (2016). An additive manufacturing process model for product family design. Journal of Engineering Design, 27(11), 751-767.",
@@ -559,7 +559,7 @@
       }
     },
     "b845bba4": {
-      "context_sha256": "2321e20ee15d828505df76312457593a29f182d1c44487c861ac722ee4e99d4a",
+      "context_sha256": "94305f9dae778640cf0a4224c04df4737fdc2d433b951d02b0b81fbc9f2d2f39",
       "sources": {
         "d7936eda-4a43-320c-a781-236658265470": {
           "reference": "Wiberg, A., Persson, J., & Ölvander, J. (2019). Design for additive manufacturing – a review of available design methods and software. Rapid Prototyping Journal, 25(6), 1080-1094.",
@@ -581,7 +581,7 @@
       }
     },
     "cbc25802": {
-      "context_sha256": "3ebd1adaf8b4f4494012e2cd7d8ddeba0bfc1dc52cc7a25508372870a8216558",
+      "context_sha256": "ebcb9e236901231bab86015993ab7028ab5473f7e5c817de7444061099e8d868",
       "sources": {
         "d7936eda-4a43-320c-a781-236658265470": {
           "reference": "Wiberg, A., Persson, J., & Ölvander, J. (2019). Design for additive manufacturing – a review of available design methods and software. Rapid Prototyping Journal, 25(6), 1080-1094.",
@@ -679,7 +679,7 @@
       }
     },
     "68387ccf": {
-      "context_sha256": "ea802e750b3e96aae7cc116b0f3ca759aa2e026cb80728286e3a7bd986f20162",
+      "context_sha256": "36baec20160483ebcccef7e9f3208b14a2743d72efeb4c58dba0c78fc3954b57",
       "sources": {
         "efd738ed-6539-3bb0-bd46-109aeb439eb5": {
           "reference": "Ozdemir, M., Verlinden, J., & Cascini, G. (2022). Design methodology for mass personalisation enabled by digital manufacturing. Design Science, 8.",
@@ -715,7 +715,7 @@
       }
     },
     "6466b8ef": {
-      "context_sha256": "800ecea539a2819facc1dc25ad5470b32477f0fd959c0b60880593328874d870",
+      "context_sha256": "cbbcc444ceca2ea6c78e593ffce7a36b5c4202aee2a46e573ec7acea9966bdf8",
       "sources": {
         "27b777e0-5c92-396c-a4fc-67eb17d38d70": {
           "reference": "Manero, A., Smith, P., Sparkman, J., Dombrowski, M., Courbin, D., Kester, A., Womack, I., & Chi, A. (2019). Implementation of 3D printing technology in the field of prosthetics: Past, present, and future. International Journal of Environmental Research and Public Health, 16(9).",
@@ -724,7 +724,7 @@
       }
     },
     "a4576807": {
-      "context_sha256": "800ecea539a2819facc1dc25ad5470b32477f0fd959c0b60880593328874d870",
+      "context_sha256": "cbbcc444ceca2ea6c78e593ffce7a36b5c4202aee2a46e573ec7acea9966bdf8",
       "sources": {
         "28f65d74-ae35-3102-939b-c5c45467e578": {
           "reference": "Wendo, K., Barbier, O., Bollen, X., Schubert, T., Lejeune, T., Raucent, B., & Olszewski, R. (2022). Open-Source 3D Printing in the Prosthetic Field—The Case of Upper Limb Prostheses: A Review. Machines, 10(6).",
@@ -733,7 +733,7 @@
       }
     },
     "3fb706de": {
-      "context_sha256": "aa223d969fcb4fa0b74691deca4877e179299e99c7ef45456fd417332e2756a2",
+      "context_sha256": "e2ae60778a3430d1af263e74862d4f38190896ca8cf789a4d7ff40bab0f20efa",
       "sources": {
         "28f65d74-ae35-3102-939b-c5c45467e578": {
           "reference": "Wendo, K., Barbier, O., Bollen, X., Schubert, T., Lejeune, T., Raucent, B., & Olszewski, R. (2022). Open-Source 3D Printing in the Prosthetic Field—The Case of Upper Limb Prostheses: A Review. Machines, 10(6).",
@@ -751,7 +751,7 @@
       }
     },
     "b98b8981": {
-      "context_sha256": "16f331bcb8540e1417520ae1f87ae6697e45ca320001ba3b039b4605258447ba",
+      "context_sha256": "3c5e2a4427aae3707be7aa9478e5490a74af18051a2b5926420c7a5df6ec3eba",
       "sources": {
         "77da8155-4513-3ce1-a19c-30616f1bacf0": {
           "reference": "Dechev, N., Knights, K., Arklie, K., Martindale, M., & Peirone, M. (2023). Accessible prosthetic arms: Victoria Hand Project and the impact of 3D printing. Canadian Prosthetics and Orthotics Journal, 6(2).",
@@ -778,7 +778,7 @@
       }
     },
     "8119b755": {
-      "context_sha256": "b9388120c22334c6b093a92f1b08a68d5db3ac5a433b8f79456a845e39200675",
+      "context_sha256": "d39b70b98be3377698aea9f2ee3cdebfe22c5661f3dec548c587085703494baf",
       "sources": {
         "1167d7a0-c272-36fd-86a1-4791c55accf7": {
           "reference": "Cabibihan, J. J., Alkhatib, F., Mudassir, M., Lambert, L. A., Al-Kwifi, O. S., Diab, K., & Mahdi, E. (2021). Suitability of the Openly Accessible 3D Printed Prosthetic Hands for War-Wounded Children. Frontiers in Robotics and AI, 7.",
@@ -796,7 +796,7 @@
       }
     },
     "cb201e27": {
-      "context_sha256": "595f6dd133e977ef729a1a80ab2a5553c8ac1306d8e3daeb5f9fce4d33aa74a6",
+      "context_sha256": "0b7a7d41032f316f47cab5772149e8e267e179ab33594b5d9900087da28f2937",
       "sources": {
         "55184ff1-9ce1-338c-9c61-bbe2dda04276": {
           "reference": "International Organization for Standardization (2017). Basic human body measurements for technological design — Part 1: Body measurement definitions and landmarks. ISO.",
@@ -876,7 +876,7 @@
       }
     },
     "b0d093da": {
-      "context_sha256": "735b1a1cb4bc61982c17ef0437d64be11b773ad0df02ecea20dab368694d3401",
+      "context_sha256": "e37a65d63d3e5585404ffd55d37c278e566c02645bcf5782929901f6865f9657",
       "sources": {
         "22c48017-2afe-3fbc-876c-423015bdbe54": {
           "reference": "Sunderland, F., Sobey, A., Bramley, J., Steer, J., Al-Dirini, R., Metcalf, C., Worsley, P. R., & Dickinson, A. (2024). OpenLimbTT, a Transtibial Residual Limb Shape Model for Prosthetics Simulation and Design: creating a statistical anatomic model using sparse data. medRxiv.",
@@ -907,7 +907,7 @@
       }
     },
     "afbfffa7": {
-      "context_sha256": "abe8bac5852f58e4ab5743e43bc954125663e352c5073a26d03936ac34504bc8",
+      "context_sha256": "0b082ffa8d46be852b43f3e6bb74d1e95b36da796e8c9e85f705e7801b6a3ac0",
       "sources": {
         "0a8ca203-6a2b-3526-a9e0-719072091e44": {
           "reference": "Chainando, N., Martawidjaja, M., Darius, R. A., Yahya, L. C., Yemima, S., Tan, W. S., Harito, C., Chandra, R. C., Andhini, G. K., Putra, K. B., Lumban Tobing, C. C., Syafi’i, M., & Syafrudin, M. (2025). Applying 3D Scanning and Printing Techniques to Produce Upper Limb Prostheses: Bibliometric Analysis and Scoping Review. Prosthesis, 7(2).",
@@ -916,7 +916,7 @@
       }
     },
     "5ab3493a": {
-      "context_sha256": "abe8bac5852f58e4ab5743e43bc954125663e352c5073a26d03936ac34504bc8",
+      "context_sha256": "0b082ffa8d46be852b43f3e6bb74d1e95b36da796e8c9e85f705e7801b6a3ac0",
       "sources": {
         "30c639c7-0f24-3a3c-aa0d-acd7cadaa57f": {
           "reference": "Ciklacandir, S., Yilmaz, M., Ozmert, O. S., Sahin, A. M., & Mihcin, S. (2022). Comparison of Traditional, MRI, and 3D Scanning Anthropometric Measurements in Hand Prosthesis Design. TIPTEKNO 2022 - Medical Technologies Congress, Proceedings.",
@@ -943,7 +943,7 @@
       }
     },
     "3e7953c1": {
-      "context_sha256": "9e29b2c26849fb4f24117035544cdba9595037acda1972db1ef79f9c45ea6a84",
+      "context_sha256": "0c2cdbfa981643232f009b32037dfb2091c1a37422dc0ae988d7e95409823846",
       "sources": {
         "d8e7c408-6e42-369e-9b2f-f4a806e9c0a1": {
           "reference": "ASTM International (2024). Standard guide for assessing fit accommodation of exoskeletons for manufacturers and designers. ASTM International.",
@@ -1000,7 +1000,7 @@
       }
     },
     "4bf1a238": {
-      "context_sha256": "39491e4d4c1e1abc513260cf111e78a0405967ddbcd519d56cd269b014fe305f",
+      "context_sha256": "b894a2f6101b9fb050417aef4dbeb3c0d3d9679639f4ecdffd58d56c7eb19bcd",
       "sources": {
         "afef5b27-c19e-327c-8104-d3a9f2b3b2ed": {
           "reference": "Khanolkar, P. M., Vrolijk, A., & Olechowski, A. (2023). Mapping artificial intelligence-based methods to engineering design stages: a focused literature review. Artificial Intelligence for Engineering Design, Analysis and Manufacturing: AIEDAM, 37.",
@@ -1013,7 +1013,7 @@
       }
     },
     "f07dc5c7": {
-      "context_sha256": "39491e4d4c1e1abc513260cf111e78a0405967ddbcd519d56cd269b014fe305f",
+      "context_sha256": "b894a2f6101b9fb050417aef4dbeb3c0d3d9679639f4ecdffd58d56c7eb19bcd",
       "sources": {
         "8d3ed490-d222-35d7-a232-3103a622770e": {
           "reference": "Krahe, C., Bräunche, A., Jacob, A., Stricker, N., & Lanza, G. (2020). Deep Learning for Automated Product Design. Procedia CIRP, 91, 3-8.",
@@ -1052,7 +1052,7 @@
       }
     },
     "2476a599": {
-      "context_sha256": "545944d9660132d9e1dac949e0bd1c8faee65e49fb34d8ecdd42cdc518c3d1d1",
+      "context_sha256": "1700fc4cbfa4e008ec07e613ab5bb440384215c315bbb9cf2368f34a84cc76be",
       "sources": {
         "c436ae9b-8dea-36a9-a4d8-00c767eab0d1": {
           "reference": "Burnap, A., Hauser, J. R., & Timoshenko, A. (2019). Design and Evaluation of Product Aesthetics: A Human-Machine Hybrid Approach. SSRN Electronic Journal.",
@@ -1301,7 +1301,7 @@
       }
     },
     "5584ac46": {
-      "context_sha256": "b415663b3ba8c66b8260212fc24e0843fcb273d990d549fada7be95dccfe6439",
+      "context_sha256": "b048b186901d525afc2f0ef49d043f21a2967b16b96840e95098fd27deb7f371",
       "sources": {
         "84feb364-8d95-3830-8c1e-fb95be76f270": {
           "reference": "Kuhl, J., Ding, A., Ngo, N. T., Braschkat, A., Fiehler, J., & Krause, D. (2021). Design of Personalized Devices—The Tradeoff between Individual Value and Personalization Workload. Applied Sciences (Switzerland), 11(1), 1-21.",
@@ -1370,7 +1370,7 @@
       }
     },
     "869da9fb": {
-      "context_sha256": "60a390707f4a9e69b02aad711705f318c4c496a019ce7b2a6f4624b32a180f90",
+      "context_sha256": "0401529e8cd018d0496ef295696df8277ba3834b6c74c9c92a8cb9dd55c30219",
       "sources": {
         "f6f26fad-919f-3477-9d66-c15f1ab71d62": {
           "reference": "Mikołajewski, D., Rojek, I., Kotlarz, P., Dorożyński, J., & Kopowski, J. (2023). Personalization of the 3D-Printed Upper Limb Exoskeleton Design—Mechanical and IT Aspects. Applied Sciences (Switzerland), 13(12), 7236.",
@@ -1383,7 +1383,7 @@
       }
     },
     "dc3ba93d": {
-      "context_sha256": "28beb52ef65d0e725f6e5ce58e16cb26eb96bdb4b516d563f18b26daa5619a20",
+      "context_sha256": "0776fa60dd46454aa59e3079fc64fc2f85e109ce0c5c430aa19990a359d97406",
       "sources": {
         "d46ebaa4-3cb9-3288-9db8-3028c7a39a24": {
           "reference": "Cole, E. (2011). Patient-Centered Design: Interface Personalization for Individuals with Brain Injury. Universal Access in Human-Computer Interaction. Users Diversity, 6766, 291-300.",
@@ -1400,7 +1400,7 @@
       }
     },
     "ded6717d": {
-      "context_sha256": "6cbbfd1350cb1b04a2ab9daca34c863b9b3eac716ae7735aeaf24f23797b243a",
+      "context_sha256": "019e9e70a896eba2005b3eb5587119cc4f2eaecbd0abca7bbc1d0543231b7295",
       "sources": {
         "77da8155-4513-3ce1-a19c-30616f1bacf0": {
           "reference": "Dechev, N., Knights, K., Arklie, K., Martindale, M., & Peirone, M. (2023). Accessible prosthetic arms: Victoria Hand Project and the impact of 3D printing. Canadian Prosthetics and Orthotics Journal, 6(2).",
@@ -1555,7 +1555,7 @@
       }
     },
     "07d51f59": {
-      "context_sha256": "592ed0d6dcc21c0679ce43b04221c0859eea202c84f78b857438577a95bd3f8a",
+      "context_sha256": "7640cd83fa6705109aee0b1ea9168cf5156abf493e17518067b44000d311e9e0",
       "sources": {
         "48cd5914-3e3f-3d0e-a099-cfa3cec58af2": {
           "reference": "Cordella, F., Ciancio, A. L., Sacchetti, R., Davalli, A., Cutti, A. G., Guglielmelli, E., & Zollo, L. (2016). Literature review on needs of upper limb prosthesis users. Frontiers in Neuroscience, 10(MAY).",
@@ -1564,7 +1564,7 @@
       }
     },
     "3c561532": {
-      "context_sha256": "592ed0d6dcc21c0679ce43b04221c0859eea202c84f78b857438577a95bd3f8a",
+      "context_sha256": "7640cd83fa6705109aee0b1ea9168cf5156abf493e17518067b44000d311e9e0",
       "sources": {
         "6a24fe0b-8245-32d2-8450-703eec653166": {
           "reference": "Manz, S., Valette, R., Damonte, F., Avanci Gaudio, L., Gonzalez-Vargas, J., Sartori, M., Dosen, S., & Rietman, J. (2022). A review of user needs to drive the development of lower limb prostheses. Journal of NeuroEngineering and Rehabilitation, 19(1).",
@@ -1573,7 +1573,7 @@
       }
     },
     "bdf837c6": {
-      "context_sha256": "592ed0d6dcc21c0679ce43b04221c0859eea202c84f78b857438577a95bd3f8a",
+      "context_sha256": "7640cd83fa6705109aee0b1ea9168cf5156abf493e17518067b44000d311e9e0",
       "sources": {
         "48cd5914-3e3f-3d0e-a099-cfa3cec58af2": {
           "reference": "Cordella, F., Ciancio, A. L., Sacchetti, R., Davalli, A., Cutti, A. G., Guglielmelli, E., & Zollo, L. (2016). Literature review on needs of upper limb prosthesis users. Frontiers in Neuroscience, 10(MAY).",
@@ -1616,7 +1616,7 @@
       }
     },
     "2be06abe": {
-      "context_sha256": "a62eead225d7167fa7d2c1f6ef8c9c8a7514eefc4dc5f48de9308b4d670d065a",
+      "context_sha256": "1600362728ed2b6e00c3cd6c20ee4bd59754836c74e82f2ab994f68778d6d7af",
       "sources": {
         "48cd5914-3e3f-3d0e-a099-cfa3cec58af2": {
           "reference": "Cordella, F., Ciancio, A. L., Sacchetti, R., Davalli, A., Cutti, A. G., Guglielmelli, E., & Zollo, L. (2016). Literature review on needs of upper limb prosthesis users. Frontiers in Neuroscience, 10(MAY).",
@@ -1629,7 +1629,7 @@
       }
     },
     "01d8fd26": {
-      "context_sha256": "a62eead225d7167fa7d2c1f6ef8c9c8a7514eefc4dc5f48de9308b4d670d065a",
+      "context_sha256": "1600362728ed2b6e00c3cd6c20ee4bd59754836c74e82f2ab994f68778d6d7af",
       "sources": {
         "04816797-e203-30c7-80da-ccf9e650876e": {
           "reference": "Chadwell, A., Diment, L., Micó-Amigo, M., Morgado Ramírez, D. Z., Dickinson, A., Granat, M., Kenney, L., Kheng, S., Sobuh, M., Ssekitoleko, R., & Worsley, P. (2020). Technology for monitoring everyday prosthesis use: A systematic review. Journal of NeuroEngineering and Rehabilitation, 17(1).",
@@ -1693,23 +1693,6 @@
         }
       }
     },
-    "manual-1": {
-      "context_sha256": "1fc612e3742b20c58d8682ae54adc4a1f75ab3983beaf38342baf35cc3960e06",
-      "sources": {
-        "cc63e55d-8a2b-3d0a-80a5-545f4d18c383": {
-          "reference": "Marinelli, A., Boccardo, N., Tessari, F., Di Domenico, D., Caserta, G., Canepa, M., Gini, G., Barresi, G., Laffranchi, M., De Michieli, L., & Semprini, M. (2023). Active upper limb prostheses: a review on current state and upcoming breakthroughs. Progress in Biomedical Engineering, 5(1).",
-          "explanation": "O artigo aborda problemas e necessidades no desenvolvimento e controlo de próteses. A referência apresenta dados bibliográficos que requerem correção."
-        },
-        "3214fcb1-bcd3-3044-a42a-840f9b2be56b": {
-          "reference": "Richardson, A., & Dillon, M. P. (2017). User experience of transtibial prosthetic liners: A systematic review. Prosthetics and Orthotics International, 41(1), 6-18.",
-          "explanation": "A revisão evidencia diferenças entre métodos e medidas de avaliação protésica."
-        },
-        "4a302764-f92d-37c3-ae1a-24706be03057": {
-          "reference": "Walters, S., Seminati, E., Metcalfe, B., Bailey, N. Y., & Pegg, E. C. (2025). Demystifying upper limb hybrid prostheses—a scoping review. Frontiers in Rehabilitation Sciences, 6.",
-          "explanation": "A revisão analisa a qualidade dos estudos sobre próteses híbridas. Apoia a necessidade de avaliações mais cuidadas."
-        }
-      }
-    },
     "e3865a33": {
       "context_sha256": "08de35ca43809f362cbb58c06f1bdbf414cbe09ca5e76fbe6c174b33c89b0d0c",
       "sources": {
@@ -1745,7 +1728,7 @@
       }
     },
     "d2a3d3ab": {
-      "context_sha256": "da7dce2143bfda696f05e832370dd8cfd74bcc2f41e8e4414d8eb807d8b164d3",
+      "context_sha256": "680afd51741ee4e0ecc59cae84a5537088cd52f82f495d72708b1a97f3d32b72",
       "sources": {
         "1cee61bb-0d02-3916-ad82-2cb906ff0792": {
           "reference": "Frayling, C. (1994). Research in art and design. Royal College of Art Research Papers, 1(1).",
@@ -1803,7 +1786,7 @@
       }
     },
     "68fdd84b": {
-      "context_sha256": "873de762a5a1de7fa2d733f6200c2a00a1eac9c0a014fd02748071cdeaf6d8ea",
+      "context_sha256": "e8cf585fd89878f082af7000911a2b91c6b18c296bdba386cb56fe34967e5455",
       "sources": {
         "48cd5914-3e3f-3d0e-a099-cfa3cec58af2": {
           "reference": "Cordella, F., Ciancio, A. L., Sacchetti, R., Davalli, A., Cutti, A. G., Guglielmelli, E., & Zollo, L. (2016). Literature review on needs of upper limb prosthesis users. Frontiers in Neuroscience, 10(MAY).",
@@ -1816,7 +1799,7 @@
       }
     },
     "5d5a67a2": {
-      "context_sha256": "6b5db5691a18dc3383d4550adfc7ed328b61a9ec808cd0eaee0d8898a671e3dd",
+      "context_sha256": "b1850881f92d85b75a32657a52ab2aa6896bd8ffd0e210f8bd0bcaaf2b772ccf",
       "sources": {
         "a2836313-ad42-3238-8ab2-943ecfb32af2": {
           "reference": "Biddiss, E., & Chau, T. (2007). Upper limb prosthesis use and abandonment: A survey of the last 25 years. Prosthetics and Orthotics International, 31(3), 236-257.",
@@ -1829,7 +1812,7 @@
       }
     },
     "6e10ff5e": {
-      "context_sha256": "8f15d9452ad8b9b5daffafe15d7be32ae54344d572ec2cf84d9d21078dd9b5bf",
+      "context_sha256": "c80076791471becc753b835cc4ea3169b8063eb72059f9a38e790662eb1a76c0",
       "sources": {
         "a2836313-ad42-3238-8ab2-943ecfb32af2": {
           "reference": "Biddiss, E., & Chau, T. (2007). Upper limb prosthesis use and abandonment: A survey of the last 25 years. Prosthetics and Orthotics International, 31(3), 236-257.",
@@ -1876,7 +1859,7 @@
       }
     },
     "0d45f9b1": {
-      "context_sha256": "379c3deaca6a3388d7da517cbbe491e4e638394ba36defb56f6e78b6dd2ef0c3",
+      "context_sha256": "2d799472c758431b3e0080b2c9556c5b41ac52c963813fd6f2ff890c48722fac",
       "sources": {
         "309230ea-74ca-3622-9df2-2146d4f31e80": {
           "reference": "Chatzıoglou, G. N., Pınar, Y., & Govsa, F. (2024). Biometric analysis hand parameters in young adults for prosthetic hand and ergonomic product applications. Anatomy and Cell Biology, 57(2), 172-182.",
@@ -1902,7 +1885,7 @@
       }
     },
     "2c05094c": {
-      "context_sha256": "18e2036ffa762837c763f8702b5481ad5f5694584c7b40c18860009d245db1ec",
+      "context_sha256": "138025dcad3406875cc9164aafa58cacb22c830409b82a5f9e1af9c6ef07250d",
       "sources": {
         "fb38ffce-ea74-3c7f-a914-414df2dc7a53": {
           "reference": "Nag, A., Nag, P. K., & Desai, H. (2003). Hand anthropometry of Indian women. Indian Journal of Medical Research, 117, 260-269.",
@@ -1928,7 +1911,7 @@
       }
     },
     "efe29713": {
-      "context_sha256": "b40a136720afc9bf40e612311fe9b53c77554cbaa66fa3b101f482730ae19ecc",
+      "context_sha256": "0219969e2f751800719a400be8869c91116ff5e219c48063bd3b2d2a1d1c3607",
       "sources": {
         "30c639c7-0f24-3a3c-aa0d-acd7cadaa57f": {
           "reference": "Ciklacandir, S., Yilmaz, M., Ozmert, O. S., Sahin, A. M., & Mihcin, S. (2022). Comparison of Traditional, MRI, and 3D Scanning Anthropometric Measurements in Hand Prosthesis Design. TIPTEKNO 2022 - Medical Technologies Congress, Proceedings.",
@@ -1937,7 +1920,7 @@
       }
     },
     "50ab3b0d": {
-      "context_sha256": "b40a136720afc9bf40e612311fe9b53c77554cbaa66fa3b101f482730ae19ecc",
+      "context_sha256": "0219969e2f751800719a400be8869c91116ff5e219c48063bd3b2d2a1d1c3607",
       "sources": {
         "d0c66a10-d96d-3c69-9cc2-248ed8560630": {
           "reference": "Herbst, Y., Polinsky, S., Fischer, A., Medan, Y., Schneor, R., Kahn, J., & Wolf, A. (2021). Scan-Driven Fully-Automated Pipeline for a Personalized, 3D Printed Low-Cost Prosthetic Hand. 2021 IEEE 17th International Conference on Automation Science and Engineering (CASE), 183-188.",
@@ -1946,7 +1929,7 @@
       }
     },
     "576ff77c": {
-      "context_sha256": "b40a136720afc9bf40e612311fe9b53c77554cbaa66fa3b101f482730ae19ecc",
+      "context_sha256": "0219969e2f751800719a400be8869c91116ff5e219c48063bd3b2d2a1d1c3607",
       "sources": {
         "d0c66a10-d96d-3c69-9cc2-248ed8560630": {
           "reference": "Herbst, Y., Polinsky, S., Fischer, A., Medan, Y., Schneor, R., Kahn, J., & Wolf, A. (2021). Scan-Driven Fully-Automated Pipeline for a Personalized, 3D Printed Low-Cost Prosthetic Hand. 2021 IEEE 17th International Conference on Automation Science and Engineering (CASE), 183-188.",
@@ -1972,7 +1955,7 @@
       }
     },
     "56b98ba7": {
-      "context_sha256": "c0973c54b4f02df03a18741b11e1c0997f74232c362827015451e783c3362a6c",
+      "context_sha256": "1132e4440301ad6584c5805b035d5b2d0b27b67fca2748d1c20b6bd57ab77108",
       "sources": {
         "1f375744-784a-3c8a-aa82-2db386f373ab": {
           "reference": "Ghali, S. (2008). Introduction to Geometric Computing.",
@@ -1985,7 +1968,7 @@
       }
     },
     "199d7ce0": {
-      "context_sha256": "54b89e3046f44dedda68c37f69b553b7e9a96f9d53b0def9a978572975f54856",
+      "context_sha256": "f96439ff98d23089faa474d5846ebfefc04aa8e063fb312cfcdfc116254710aa",
       "sources": {
         "faa2405f-fb99-320b-af54-11d872594364": {
           "reference": "Trautmann, L. (2021). Product customization and generative design. Multidiszciplináris tudományok, 11(4), 87-95.",
@@ -1998,7 +1981,7 @@
       }
     },
     "1bba9ea7": {
-      "context_sha256": "37c77c903349b329c137619b261b4e28025bb094f8b74d9defe27b9216456a06",
+      "context_sha256": "f49494da882e9a0daf5424015740eaee97b119a8f3b015023f2256de130e3212",
       "sources": {
         "b138a776-54f2-3994-89d9-a9b370d26aa2": {
           "reference": "Machado, F., Malpica, N., & Borromeo, S. (2019). Parametric CAD modeling for open source scientific hardware: Comparing OpenSCAD and FreeCAD Python scripts. PLoS ONE, 14(12).",
@@ -2070,24 +2053,6 @@
         }
       }
     },
-    "manual-2": {
-      "context_sha256": "762294d59f831c65866bb9ebe4ed2768d82c374b32f5439d0f8bd37ec6cb67bb",
-      "sources": {
-        "29ad87fd-001d-3751-978a-d2608b91487f": {
-          "reference": "Nini, L., Ceccarelli, A., Tagliamonte, N. L., Zollo, L., & Taffoni, F. (2024). Parametric 3D Modeling of a Customized Prosthetic Hand Finger for Additive Manufacturing. Proceedings of the IEEE RAS and EMBS International Conference on Biomedical Robotics and Biomechatronics, 1328-1333.",
-          "explanation": "O estudo relaciona medidas anatómicas, modelo paramétrico e protótipo fabricado. Confirma o percurso ilustrado na figura; a organização em quatro camadas é uma síntese da dissertação."
-        }
-      }
-    },
-    "manual-3": {
-      "context_sha256": "3f6dd5d2dfaa556661ee06f28b8770b325a60e3a31b22cf0b3aabb3f6422976b",
-      "sources": {
-        "29ad87fd-001d-3751-978a-d2608b91487f": {
-          "reference": "Nini, L., Ceccarelli, A., Tagliamonte, N. L., Zollo, L., & Taffoni, F. (2024). Parametric 3D Modeling of a Customized Prosthetic Hand Finger for Additive Manufacturing. Proceedings of the IEEE RAS and EMBS International Conference on Biomedical Robotics and Biomechatronics, 1328-1333.",
-          "explanation": "A imagem reproduz os parâmetros antropométricos e construtivos do modelo de dedo protésico estudado. A fonte corresponde à figura apresentada."
-        }
-      }
-    },
     "72bbf9cf": {
       "context_sha256": "8e1d63a3753436853224d7764e17c3102ed3d4171a5e19bd9c58ad9925727bae",
       "sources": {
@@ -2132,7 +2097,7 @@
       }
     },
     "8944077a": {
-      "context_sha256": "4a1a7364f4a867ff5bf01ae0aa7b9c3c41d63f0d02587f8e937a87c81dcd13c8",
+      "context_sha256": "6719782a340a2cbc690ae4e5ee1a78cd7251c1ecadd16c58b0d5629c34bcdcb5",
       "sources": {
         "d0c66a10-d96d-3c69-9cc2-248ed8560630": {
           "reference": "Herbst, Y., Polinsky, S., Fischer, A., Medan, Y., Schneor, R., Kahn, J., & Wolf, A. (2021). Scan-Driven Fully-Automated Pipeline for a Personalized, 3D Printed Low-Cost Prosthetic Hand. 2021 IEEE 17th International Conference on Automation Science and Engineering (CASE), 183-188.",
@@ -2141,29 +2106,11 @@
       }
     },
     "b588d2ab": {
-      "context_sha256": "4a1a7364f4a867ff5bf01ae0aa7b9c3c41d63f0d02587f8e937a87c81dcd13c8",
+      "context_sha256": "6719782a340a2cbc690ae4e5ee1a78cd7251c1ecadd16c58b0d5629c34bcdcb5",
       "sources": {
         "ce83da90-5e4d-3dab-99a0-086b3d67a2b7": {
           "reference": "Saldarriaga, A. M., Romero, E., Abarca, V. E., & Elias, D. A. (2024). A Parametric Design Approach for Affordable Customized 3D Socket for Transradial Upper Limb Prostheses. 10th 2024 International Conference on Control, Decision and Information Technologies, CoDIT 2024, 745-750.",
           "explanation": "O artigo descreve um percurso desde a digitalização até à produção de uma prótese personalizada. Sustenta a articulação entre dados e fabrico."
-        }
-      }
-    },
-    "manual-4": {
-      "context_sha256": "d0fcbf0e664137891e9d9e23c0945dd9ba5afc0c95d59472a352e1baf286b314",
-      "sources": {
-        "b138a776-54f2-3994-89d9-a9b370d26aa2": {
-          "reference": "Machado, F., Malpica, N., & Borromeo, S. (2019). Parametric CAD modeling for open source scientific hardware: Comparing OpenSCAD and FreeCAD Python scripts. PLoS ONE, 14(12).",
-          "explanation": "O artigo destaca a importância de guardar o código e documentar os modelos para os tornar compreensíveis e reproduzíveis. Sustenta estas vantagens metodológicas."
-        }
-      }
-    },
-    "cfb255ea": {
-      "context_sha256": "57013e81015c8821be95269207fcd9c2caf8460d61806d37945cff1088dd0265",
-      "sources": {
-        "3c2cad35-4957-33cd-9f8b-640d684d1479": {
-          "reference": "Nilsiam, Y., & Pearce, J. M. (2017). Free and open source 3-d model customizer for websites to democratize design with openscad. Designs, 1(1), 1-15.",
-          "explanation": "O estudo demonstra que utilizadores podem personalizar modelos OpenSCAD através de um configurador na Internet sem editar código. O processamento é realizado no servidor."
         }
       }
     },
@@ -2256,7 +2203,7 @@
       }
     },
     "7ab8803f": {
-      "context_sha256": "1121b50dd4a796b326c01ec195e051a7d4267f46502577ba471dc639e9b5692c",
+      "context_sha256": "4b5fb8ff984deea657cbbe169b11d7d7d438198e05b9f02e550d32ac64db1de7",
       "sources": {
         "b138a776-54f2-3994-89d9-a9b370d26aa2": {
           "reference": "Machado, F., Malpica, N., & Borromeo, S. (2019). Parametric CAD modeling for open source scientific hardware: Comparing OpenSCAD and FreeCAD Python scripts. PLoS ONE, 14(12).",
@@ -2269,7 +2216,7 @@
       }
     },
     "96c0e867": {
-      "context_sha256": "3bce7f16e28bd50b7d177ede3516795e27147a77649a92c138e5aa3abc8b0847",
+      "context_sha256": "e17648b422a303083dcffc2669d8fa1db79bf383b8679fb11bac42b5c881dcec",
       "sources": {
         "3c2cad35-4957-33cd-9f8b-640d684d1479": {
           "reference": "Nilsiam, Y., & Pearce, J. M. (2017). Free and open source 3-d model customizer for websites to democratize design with openscad. Designs, 1(1), 1-15.",
@@ -2339,7 +2286,7 @@
       }
     },
     "ae7963f3": {
-      "context_sha256": "b1290a2fbaf2fc2a1a4025114ad1134a9bc48735e29ce72fdd4a95532c950662",
+      "context_sha256": "e6ff0534030cf55434469537fa5062a8bbce9beb40c3693d9f0243b3662eadcd",
       "sources": {
         "efd738ed-6539-3bb0-bd46-109aeb439eb5": {
           "reference": "Ozdemir, M., Verlinden, J., & Cascini, G. (2022). Design methodology for mass personalisation enabled by digital manufacturing. Design Science, 8.",
@@ -2411,15 +2358,6 @@
         }
       }
     },
-    "manual-5": {
-      "context_sha256": "26e16a8ce23a472784b0f74bc93931b9cbda5e71215e8db6a827777ca12ad2b3",
-      "sources": {
-        "8bc5d517-64f4-3003-ac69-215d38612f5e": {
-          "reference": "Barredo Arrieta, A., Díaz-Rodríguez, N., Del Ser, J., Bennetot, A., Tabik, S., Barbado, A., Garcia, S., Gil-Lopez, S., Molina, D., Benjamins, R., Chatila, R., & Herrera, F. (2020). Explainable Artificial Intelligence (XAI): Concepts, taxonomies, opportunities and challenges toward responsible AI. Information Fusion, 58, 82-115.",
-          "explanation": "A revisão relaciona a explicabilidade da IA com transparência, justiça, privacidade e responsabilidade. Sustenta estes princípios; a sua aplicação a sugestões paramétricas sujeitas a regras é uma decisão da investigação."
-        }
-      }
-    },
     "31aed188": {
       "context_sha256": "4cf68023981a3e100be51955ce68ba389715b4dfb16a96e6a4ba536631b8a19c",
       "sources": {
@@ -2452,15 +2390,15 @@
       }
     },
     "4d64bed5": {
-      "context_sha256": "1539e9873bcb96dd0890485b59d3f444b7e4cf463fc1b794464a46c92cb61667",
+      "context_sha256": "705bc02de6a61623160612290a77945910edaa2226a6c5b7195055c86f83f497",
       "sources": {
         "6f2a3cae-fcf2-383a-909e-024ce229c40b": {
           "reference": "Alili, A., Nalam, V., Li, M., Liu, M., Feng, J., Si, J., & Huang, H. (2023). A Novel Framework to Facilitate User Preferred Tuning for a Robotic Knee Prosthesis. IEEE Transactions on Neural Systems and Rehabilitation Engineering, 31, 895-903.",
-          "explanation": "O estudo apresenta uma interface controlada pelo utilizador para afinar parâmetros de uma prótese robótica."
+          "explanation": "O estudo apresenta uma interface controlada pelo utilizador para afinar parâmetros de uma prótese robótica. A observação sobre a disponibilidade dos controlos no HandFab pertence aos ensaios do projeto."
         },
         "aa748afa-66db-3d4e-9f0d-530230a1dda5": {
           "reference": "Quintero, D., Reznick, E., Lambert, D. J., Rezazadeh, S., Gray, L., & Gregg, R. D. (2018). Intuitive Clinician Control Interface for a Powered Knee-Ankle Prosthesis: A Case Study. IEEE Journal of Translational Engineering in Health and Medicine, 6.",
-          "explanation": "A fonte mostra uma interface clínica com indicação visual de parâmetros e estados de uma prótese."
+          "explanation": "A fonte mostra uma interface clínica com indicação visual de parâmetros e estados de uma prótese. A observação sobre a disponibilidade dos controlos no HandFab pertence aos ensaios do projeto."
         }
       }
     },
@@ -2491,7 +2429,7 @@
       }
     },
     "fb65172e": {
-      "context_sha256": "157046a9f1aa56c1730770a60731bd5c0418c1e216aeb8c165744d5c0ec37059",
+      "context_sha256": "6e8214b575e7bdfe9b766a43a95d3837d31ca0c8db8938f819ea1944d4c616af",
       "sources": {
         "f6ce7567-8cf7-3727-ab01-58ef49ca49d2": {
           "reference": "da Silva, L. A., Medola, F. O., Rodrigues, O. V., Rodrigues, A. C. T., & Sandnes, F. E. (2018). Interdisciplinary-Based Development of User-Friendly Customized 3D Printed Upper Limb Prosthesis. Advances in Usability, User Experience and Assistive Technology, 899-908.",
@@ -2522,7 +2460,7 @@
       }
     },
     "5b9043bb": {
-      "context_sha256": "dc1aa4daca90ee9d17238e9a36f2a47f87b86a40fe29c95c5b305d7a98f00500",
+      "context_sha256": "dddc0702e067c7d1626a8b401dec3ebee4345bef44a576a93c3c732c798f1573",
       "sources": {
         "4d45d387-587b-3e65-ab73-510721b6ed61": {
           "reference": "Smail, L. C., Neal, C., Wilkins, C., & Packham, T. L. (2021). Comfort and function remain key factors in upper limb prosthetic abandonment: findings of a scoping review. Disability and Rehabilitation: Assistive Technology, 16(8), 821-830.",
@@ -2531,7 +2469,7 @@
       }
     },
     "90f3780c": {
-      "context_sha256": "dc1aa4daca90ee9d17238e9a36f2a47f87b86a40fe29c95c5b305d7a98f00500",
+      "context_sha256": "dddc0702e067c7d1626a8b401dec3ebee4345bef44a576a93c3c732c798f1573",
       "sources": {
         "0cc97771-92fc-3da3-911f-8fe10ce87e67": {
           "reference": "Biddiss, E., Beaton, D., & Chau, T. (2007). Consumer design priorities for upper limb prosthetics. Disability and Rehabilitation: Assistive Technology, 2(6), 346-357.",
@@ -2540,7 +2478,7 @@
       }
     },
     "b953a80c": {
-      "context_sha256": "dc1aa4daca90ee9d17238e9a36f2a47f87b86a40fe29c95c5b305d7a98f00500",
+      "context_sha256": "dddc0702e067c7d1626a8b401dec3ebee4345bef44a576a93c3c732c798f1573",
       "sources": {
         "a758bcf8-3b2a-3b0a-b9fb-e96c66f3e0f9": {
           "reference": "Fink, C., & Diamond, Y. (2023). Prosthesis Options and Management in Upper Extremity Amputation. Operative Techniques in Orthopaedics, 33(3).",
@@ -2677,15 +2615,6 @@
         }
       }
     },
-    "manual-6": {
-      "context_sha256": "9471523eb8475fa4347807350aa954607d976bf3b8dca5113cf80f0a11adacc3",
-      "sources": {
-        "f0ad277a-b1ba-3929-9d31-a44e4c478c90": {
-          "reference": "Moreo, M. (2016). Parametric design of a 3D printable hand prosthesis for children in developing countries. , 45.",
-          "explanation": "A dissertação de Moreo utiliza percentis de uma base KIMA/DINED, pelo que é adequado classificá-la como fonte secundária. A obra refere uma amostra de 279 crianças."
-        }
-      }
-    },
     "feeef24c": {
       "context_sha256": "62e9a259cc66b167da88b31a553e5779a4bf5ef6d332ac25178b8251b3562edd",
       "sources": {
@@ -2776,15 +2705,6 @@
         }
       }
     },
-    "manual-7": {
-      "context_sha256": "d6ee453c23353eac549acb73bd16914635ece02a093d3a8de064f631d0efd2af",
-      "sources": {
-        "f0ad277a-b1ba-3929-9d31-a44e4c478c90": {
-          "reference": "Moreo, M. (2016). Parametric design of a 3D printable hand prosthesis for children in developing countries. , 45.",
-          "explanation": "A obra confirma a utilização de percentis de uma base antropométrica KIMA/DINED para dimensionar uma prótese infantil. Os dados foram recolhidos a 279 crianças e são utilizados como fonte secundária."
-        }
-      }
-    },
     "75ffeef9": {
       "context_sha256": "4a0e1e3666739cdddde051c271d4b86138328d89dc75c9a23d963be6a4090a94",
       "sources": {
@@ -2809,6 +2729,86 @@
         "e717b60d-4fff-381c-8d4e-12a50737406d": {
           "reference": "Hu, H., Li, Z., Yan, J., Wang, X., Xiao, H., Duan, J., & Zheng, L. (2007). Anthropometric measurement of the Chinese elderly living in the Beijing area. International Journal of Industrial Ergonomics, 37(4), 303-311.",
           "explanation": "O estudo confirma a amostra de 108 pessoas idosas de Pequim, a recolha de medidas e as estatísticas apresentadas. A seleção de cinco medidas e a interpretação de «finger length» como comprimento do dedo médio são opções da compilação."
+        }
+      }
+    },
+    "7144ab45": {
+      "context_sha256": "5784c8733377c31d28e89e2a67f7d921d95e6c4388ae9e66811fff5def21e745",
+      "sources": {
+        "d6491e36-221d-3c69-8827-5265fdc6050b": {
+          "reference": "daprice (s.d.). Flexy Beast. GitHub.",
+          "explanation": "O registo aponta para o README original do Flexy Beast como fonte da autoria e da combinação de modelos."
+        }
+      }
+    },
+    "manual-1": {
+      "context_sha256": "0c2cdbfa981643232f009b32037dfb2091c1a37422dc0ae988d7e95409823846",
+      "sources": {
+        "d8e7c408-6e42-369e-9b2f-f4a806e9c0a1": {
+          "reference": "ASTM International (2024). Standard guide for assessing fit accommodation of exoskeletons for manufacturers and designers. ASTM International.",
+          "explanation": "A referência remete para a norma ASTM F3661-24 sobre ajuste de exosqueletos. A aplicação da distinção entre tipos de ajuste às próteses é uma proposta conceptual desta dissertação."
+        }
+      }
+    },
+    "manual-2": {
+      "context_sha256": "1fc612e3742b20c58d8682ae54adc4a1f75ab3983beaf38342baf35cc3960e06",
+      "sources": {
+        "cc63e55d-8a2b-3d0a-80a5-545f4d18c383": {
+          "reference": "Marinelli, A., Boccardo, N., Tessari, F., Di Domenico, D., Caserta, G., Canepa, M., Gini, G., Barresi, G., Laffranchi, M., De Michieli, L., & Semprini, M. (2023). Active upper limb prostheses: a review on current state and upcoming breakthroughs. Progress in Biomedical Engineering, 5(1).",
+          "explanation": "O artigo aborda problemas e necessidades no desenvolvimento e controlo de próteses. A referência apresenta dados bibliográficos que requerem correção."
+        },
+        "3214fcb1-bcd3-3044-a42a-840f9b2be56b": {
+          "reference": "Richardson, A., & Dillon, M. P. (2017). User experience of transtibial prosthetic liners: A systematic review. Prosthetics and Orthotics International, 41(1), 6-18.",
+          "explanation": "A revisão evidencia diferenças entre métodos e medidas de avaliação protésica."
+        },
+        "4a302764-f92d-37c3-ae1a-24706be03057": {
+          "reference": "Walters, S., Seminati, E., Metcalfe, B., Bailey, N. Y., & Pegg, E. C. (2025). Demystifying upper limb hybrid prostheses—a scoping review. Frontiers in Rehabilitation Sciences, 6.",
+          "explanation": "A revisão analisa a qualidade dos estudos sobre próteses híbridas. Apoia a necessidade de avaliações mais cuidadas."
+        }
+      }
+    },
+    "manual-3": {
+      "context_sha256": "762294d59f831c65866bb9ebe4ed2768d82c374b32f5439d0f8bd37ec6cb67bb",
+      "sources": {
+        "29ad87fd-001d-3751-978a-d2608b91487f": {
+          "reference": "Nini, L., Ceccarelli, A., Tagliamonte, N. L., Zollo, L., & Taffoni, F. (2024). Parametric 3D Modeling of a Customized Prosthetic Hand Finger for Additive Manufacturing. Proceedings of the IEEE RAS and EMBS International Conference on Biomedical Robotics and Biomechatronics, 1328-1333.",
+          "explanation": "O estudo relaciona medidas anatómicas, modelo paramétrico e protótipo fabricado. Confirma o percurso ilustrado na figura; a organização em quatro camadas é uma síntese da dissertação."
+        }
+      }
+    },
+    "manual-4": {
+      "context_sha256": "fa6101316df2334f4d2175759ba1d5880a2ef17c72fb277979f2cea8d754bf4b",
+      "sources": {
+        "29ad87fd-001d-3751-978a-d2608b91487f": {
+          "reference": "Nini, L., Ceccarelli, A., Tagliamonte, N. L., Zollo, L., & Taffoni, F. (2024). Parametric 3D Modeling of a Customized Prosthetic Hand Finger for Additive Manufacturing. Proceedings of the IEEE RAS and EMBS International Conference on Biomedical Robotics and Biomechatronics, 1328-1333.",
+          "explanation": "A fonte descreve os parâmetros antropométricos e construtivos do modelo de dedo protésico usado como referência na figura."
+        }
+      }
+    },
+    "manual-5": {
+      "context_sha256": "9a5f40874ff976db0261d82bf1588f39d3c8af3b587ccaada449bb14c62350ae",
+      "sources": {
+        "8bc5d517-64f4-3003-ac69-215d38612f5e": {
+          "reference": "Barredo Arrieta, A., Díaz-Rodríguez, N., Del Ser, J., Bennetot, A., Tabik, S., Barbado, A., Garcia, S., Gil-Lopez, S., Molina, D., Benjamins, R., Chatila, R., & Herrera, F. (2020). Explainable Artificial Intelligence (XAI): Concepts, taxonomies, opportunities and challenges toward responsible AI. Information Fusion, 58, 82-115.",
+          "explanation": "A revisão relaciona a explicabilidade da IA com transparência, justiça, privacidade e responsabilidade. Sustenta estes princípios; a sua aplicação a sugestões paramétricas sujeitas a regras é uma decisão da investigação."
+        }
+      }
+    },
+    "manual-6": {
+      "context_sha256": "9471523eb8475fa4347807350aa954607d976bf3b8dca5113cf80f0a11adacc3",
+      "sources": {
+        "f0ad277a-b1ba-3929-9d31-a44e4c478c90": {
+          "reference": "Moreo, M. (2016). Parametric design of a 3D printable hand prosthesis for children in developing countries. , 45.",
+          "explanation": "A dissertação de Moreo utiliza percentis de uma base KIMA/DINED, pelo que é adequado classificá-la como fonte secundária. A obra refere uma amostra de 279 crianças."
+        }
+      }
+    },
+    "manual-7": {
+      "context_sha256": "d6ee453c23353eac549acb73bd16914635ece02a093d3a8de064f631d0efd2af",
+      "sources": {
+        "f0ad277a-b1ba-3929-9d31-a44e4c478c90": {
+          "reference": "Moreo, M. (2016). Parametric design of a 3D printable hand prosthesis for children in developing countries. , 45.",
+          "explanation": "A obra confirma a utilização de percentis de uma base antropométrica KIMA/DINED para dimensionar uma prótese infantil. Os dados foram recolhidos a 279 crianças e são utilizados como fonte secundária."
         }
       }
     },
@@ -2875,21 +2875,21 @@
         }
       }
     },
-    "manual-16": {
-      "context_sha256": "77066bd17b3caecddd7c3dd8dd114ee0891224d37890443e97dbc46d3942df18",
-      "sources": {
-        "c56a2099-659a-3622-a8e9-c575e56915db": {
-          "reference": "Lim, D., Georgiou, T., Bhardwaj, A., O’Connell, G. D., & Agogino, A. M. (2018). Customization of a 3D printed prosthetic finger using parametric modeling. Proceedings of the ASME Design Engineering Technical Conference, 2A-2018.",
-          "explanation": "O artigo confirma a medição separada do comprimento e da largura do dedo indicador em 50 participantes. Apoia a inclusão desses dados e a observação de que as duas dimensões têm uma correlação fraca."
-        }
-      }
-    },
     "manual-15": {
       "context_sha256": "77066bd17b3caecddd7c3dd8dd114ee0891224d37890443e97dbc46d3942df18",
       "sources": {
         "309230ea-74ca-3622-9df2-2146d4f31e80": {
           "reference": "Chatzıoglou, G. N., Pınar, Y., & Govsa, F. (2024). Biometric analysis hand parameters in young adults for prosthetic hand and ergonomic product applications. Anatomy and Cell Biology, 57(2), 172-182.",
           "explanation": "O estudo confirma os valores e os métodos de medição em 51 jovens adultos. A escolha dos dados da mão direita para comparação com outras fontes é uma decisão da compilação."
+        }
+      }
+    },
+    "manual-16": {
+      "context_sha256": "77066bd17b3caecddd7c3dd8dd114ee0891224d37890443e97dbc46d3942df18",
+      "sources": {
+        "c56a2099-659a-3622-a8e9-c575e56915db": {
+          "reference": "Lim, D., Georgiou, T., Bhardwaj, A., O’Connell, G. D., & Agogino, A. M. (2018). Customization of a 3D printed prosthetic finger using parametric modeling. Proceedings of the ASME Design Engineering Technical Conference, 2A-2018.",
+          "explanation": "O artigo confirma a medição separada do comprimento e da largura do dedo indicador em 50 participantes. Apoia a inclusão desses dados e a observação de que as duas dimensões têm uma correlação fraca."
         }
       }
     },
@@ -2929,15 +2929,6 @@
         }
       }
     },
-    "manual-22": {
-      "context_sha256": "2fb5a9adc498e840cc9c706670ecc1fb15a9b6e84f3509d785fcf5cca56edf77",
-      "sources": {
-        "fb38ffce-ea74-3c7f-a914-414df2dc7a53": {
-          "reference": "Nag, A., Nag, P. K., & Desai, H. (2003). Hand anthropometry of Indian women. Indian Journal of Medical Research, 117, 260-269.",
-          "explanation": "O artigo confirma uma amostra de 95 trabalhadoras indianas e um conjunto detalhado de medidas da mão. Sustenta a diversidade de dimensões disponíveis."
-        }
-      }
-    },
     "manual-21": {
       "context_sha256": "2fb5a9adc498e840cc9c706670ecc1fb15a9b6e84f3509d785fcf5cca56edf77",
       "sources": {
@@ -2947,12 +2938,12 @@
         }
       }
     },
-    "manual-24": {
-      "context_sha256": "1c8659b1162248e5d5308f1afed0f8c9a1a1649a9f4fd1aa71b879979a514d17",
+    "manual-22": {
+      "context_sha256": "2fb5a9adc498e840cc9c706670ecc1fb15a9b6e84f3509d785fcf5cca56edf77",
       "sources": {
-        "309230ea-74ca-3622-9df2-2146d4f31e80": {
-          "reference": "Chatzıoglou, G. N., Pınar, Y., & Govsa, F. (2024). Biometric analysis hand parameters in young adults for prosthetic hand and ergonomic product applications. Anatomy and Cell Biology, 57(2), 172-182.",
-          "explanation": "O estudo confirma medições antropométricas de 51 jovens adultos com recurso a fotografias e ImageJ."
+        "fb38ffce-ea74-3c7f-a914-414df2dc7a53": {
+          "reference": "Nag, A., Nag, P. K., & Desai, H. (2003). Hand anthropometry of Indian women. Indian Journal of Medical Research, 117, 260-269.",
+          "explanation": "O artigo confirma uma amostra de 95 trabalhadoras indianas e um conjunto detalhado de medidas da mão. Sustenta a diversidade de dimensões disponíveis."
         }
       }
     },
@@ -2965,12 +2956,12 @@
         }
       }
     },
-    "manual-26": {
-      "context_sha256": "2f35dde0b71c49801b6b822d8cde6f893266cb29df32a3f40f48bd1e11fd7b00",
+    "manual-24": {
+      "context_sha256": "1c8659b1162248e5d5308f1afed0f8c9a1a1649a9f4fd1aa71b879979a514d17",
       "sources": {
-        "d3e5bc4f-d1dc-3dfc-833f-5a4fbb04dd9c": {
-          "reference": "Mistarihi, M. Z. (2020). A data set on anthropometric measurements and degree of discomfort of physically disabled workers for ergonomic requirements in work space design. Data in Brief, 30.",
-          "explanation": "O estudo apresenta medidas antropométricas de trabalhadores com deficiência na Jordânia, incluindo a largura da mão. Sustenta a comparação desta dimensão com outras fontes."
+        "309230ea-74ca-3622-9df2-2146d4f31e80": {
+          "reference": "Chatzıoglou, G. N., Pınar, Y., & Govsa, F. (2024). Biometric analysis hand parameters in young adults for prosthetic hand and ergonomic product applications. Anatomy and Cell Biology, 57(2), 172-182.",
+          "explanation": "O estudo confirma medições antropométricas de 51 jovens adultos com recurso a fotografias e ImageJ."
         }
       }
     },
@@ -2983,30 +2974,21 @@
         }
       }
     },
+    "manual-26": {
+      "context_sha256": "2f35dde0b71c49801b6b822d8cde6f893266cb29df32a3f40f48bd1e11fd7b00",
+      "sources": {
+        "d3e5bc4f-d1dc-3dfc-833f-5a4fbb04dd9c": {
+          "reference": "Mistarihi, M. Z. (2020). A data set on anthropometric measurements and degree of discomfort of physically disabled workers for ergonomic requirements in work space design. Data in Brief, 30.",
+          "explanation": "O estudo apresenta medidas antropométricas de trabalhadores com deficiência na Jordânia, incluindo a largura da mão. Sustenta a comparação desta dimensão com outras fontes."
+        }
+      }
+    },
     "manual-27": {
       "context_sha256": "d7de87ac1ff1aa2551c8fde653a954a31b43c75d524e250c6cc7239270029c63",
       "sources": {
         "d3e5bc4f-d1dc-3dfc-833f-5a4fbb04dd9c": {
           "reference": "Mistarihi, M. Z. (2020). A data set on anthropometric measurements and degree of discomfort of physically disabled workers for ergonomic requirements in work space design. Data in Brief, 30.",
           "explanation": "A fonte inclui 40 trabalhadores com deficiência física na Jordânia. Confirma a presença desta população na compilação."
-        }
-      }
-    },
-    "manual-30": {
-      "context_sha256": "f5320c8538be12c7440e99ad6828003d80caa19fffb82c10991d49b6228fc88c",
-      "sources": {
-        "309230ea-74ca-3622-9df2-2146d4f31e80": {
-          "reference": "Chatzıoglou, G. N., Pınar, Y., & Govsa, F. (2024). Biometric analysis hand parameters in young adults for prosthetic hand and ergonomic product applications. Anatomy and Cell Biology, 57(2), 172-182.",
-          "explanation": "O artigo apresenta dados antropométricos de uma amostra de 51 jovens adultos."
-        }
-      }
-    },
-    "manual-29": {
-      "context_sha256": "f5320c8538be12c7440e99ad6828003d80caa19fffb82c10991d49b6228fc88c",
-      "sources": {
-        "b0913665-d797-3128-8713-4d4a61449df9": {
-          "reference": "Ibiwari, B., Emmanuel Osemeke, B., Dakuro Progress, V., Khadija, A., & Patience Chikere, O. (2025). Hand anthropometric measurement and grip strength for basketball and volleyball players in higher institutions in Port Harcourt metropolis. International Journal of Science Academic Research, 6(8), 10513-10517.",
-          "explanation": "O estudo analisa atletas universitários de duas instituições da região de Port Harcourt. Sustenta a caracterização desta amostra específica."
         }
       }
     },
@@ -3019,14 +3001,30 @@
         }
       }
     },
-    "7144ab45": {
-      "context_sha256": "0a5c1fd8fda51156242102e5624865fec3c366716634d91c0df6326baefbd8eb",
+    "manual-29": {
+      "context_sha256": "f5320c8538be12c7440e99ad6828003d80caa19fffb82c10991d49b6228fc88c",
       "sources": {
-        "d6491e36-221d-3c69-8827-5265fdc6050b": {
-          "reference": "daprice (s.d.). Flexy Beast. GitHub.",
-          "explanation": "O registo aponta para o README original do Flexy Beast como fonte da autoria e da combinação de modelos."
+        "b0913665-d797-3128-8713-4d4a61449df9": {
+          "reference": "Ibiwari, B., Emmanuel Osemeke, B., Dakuro Progress, V., Khadija, A., & Patience Chikere, O. (2025). Hand anthropometric measurement and grip strength for basketball and volleyball players in higher institutions in Port Harcourt metropolis. International Journal of Science Academic Research, 6(8), 10513-10517.",
+          "explanation": "O estudo analisa atletas universitários de duas instituições da região de Port Harcourt. Sustenta a caracterização desta amostra específica."
+        }
+      }
+    },
+    "manual-30": {
+      "context_sha256": "f5320c8538be12c7440e99ad6828003d80caa19fffb82c10991d49b6228fc88c",
+      "sources": {
+        "309230ea-74ca-3622-9df2-2146d4f31e80": {
+          "reference": "Chatzıoglou, G. N., Pınar, Y., & Govsa, F. (2024). Biometric analysis hand parameters in young adults for prosthetic hand and ergonomic product applications. Anatomy and Cell Biology, 57(2), 172-182.",
+          "explanation": "O artigo apresenta dados antropométricos de uma amostra de 51 jovens adultos."
         }
       }
     }
+  },
+  "reconciliation": {
+    "path": "docs/capitulos/html/manuscrito_citacoes/reconciliacao_explicacoes_2026_10_25.json",
+    "sha256": "4397623f5200af02190c3d376eb9a49eaa1c63b928965926f01718d1c36f2729",
+    "source_sha256": "f5255278485d7a04bf9a3dde3064315be6cef1ac33da26b3cb0f125b101d0f2d",
+    "reviewed_contexts": 68,
+    "method": "Comparação das passagens ODT e dos identificadores de obra; revisão das alterações textuais e reassociação explícita das ocorrências manuais. TXT originais preservados; sem nova auditoria integral das fontes."
   }
 }

@@ -1,62 +1,86 @@
 {
+  "data": "2026-10-25",
+  "fonte": "pedro-candeias-projeto-mestrado-mdddp-ipca-2026-revisto_v1_23102026-1047.odt",
+  "sha256_odt": "f5255278485d7a04bf9a3dde3064315be6cef1ac33da26b3cb0f125b101d0f2d",
+  "sha256_html": "d6c19cd81ffc2d061be35bdaedff73283006e473c730799305282ee94977026a",
   "odt_preservado": true,
   "auditoria_preservada": true,
-  "botoes": 269,
-  "fontes_associadas": 416,
+  "matriz_preservada": true,
+  "texto_academico_preservado": true,
+  "adaptacoes_de_leitura_declaradas": true,
+  "botoes": 268,
+  "fontes_associadas": 415,
   "tabelas": 53,
   "imagens_incorporadas": 34,
-  "entradas_navegacao": 18,
+  "imagens_conferidas_por_hash": true,
+  "ligacoes_indices": 425,
   "pdfs_locais_existentes": true,
-  "browser": "Chromium 131 / Playwright 1.52",
-  "testes_navegador": [
-    "Abertura de citação com duas referências",
-    "Quatro referências separadas na mesma janela",
-    "Escape fecha e devolve o foco ao asterisco",
-    "Botão de fechar",
-    "Painel dentro do ecrã a 390 × 844",
-    "Sem erros JavaScript",
-    "Nota Østlie 2011/2012 visível",
-    "Lightbox preservada",
-    "269 painéis: 416 explicações conferidas com os TXT e as 267 revisões editoriais",
-    "Bloco histórico e caminhos internos ausentes dos painéis",
-    "64 siglas em folhas de leitura, com duas colunas",
-    "426 entradas com destino único, níveis hierárquicos e página alinhada",
-    "Sem transbordo das folhas a 1440 e 390 px",
-    "Impressão A4: 25 folhas dos índices iniciais e siglas, sem folhas vazias ou cortes adicionais"
-  ],
-  "sha256_html": "acbd25be0dd5dc6bf46cb7386485ab832742cdd1bef4aec94ebe4a8255b8d4cf",
-  "associacoes_com_excerto": 408,
-  "associacoes_sem_excerto": 8,
+  "todos_os_paineis_verificados": true,
+  "associacoes_com_excerto": 406,
+  "associacoes_sem_excerto": 9,
   "origens_excertos": {
-    "markdown": 290,
+    "markdown": 288,
     "xlsx": 109,
     "pdf": 9
   },
-  "matriz_preservada": true,
-  "grupos_mendeley_preservados": true,
-  "todos_os_paineis_verificados": true,
-  "notas_especificas_nas_pendencias": true,
-  "consultas_pdf_com_hash_e_pagina": 6,
-  "explicacoes_importadas": 416,
-  "txt_recebidos_preservados": true,
-  "importacao_rejeita_contexto_ou_referencia_alterados": true,
-  "indices": {
-    "principal": 229,
-    "figuras": 30,
-    "tabelas": 31,
-    "anexos": 136,
-    "total": 426,
-    "sem_titulo": {
-      "xx": "Artefacto da paginação original omitido na edição de leitura"
-    },
-    "destinos_unicos_verificados": true,
-    "verificacao_navegador": "28 navegações por teclado, a 1280 e 390 px, com e sem JavaScript; destinos visíveis abaixo da barra superior",
-    "data": "2026-10-11",
-    "restante_texto_e_excertos_preservados": true
+  "reconciliacao_explicacoes": "reconciliacao_explicacoes_2026_10_25.json",
+  "texto_e_imagens": "validacao_conteudo_2026_10_25.json",
+  "testes_navegador": {
+    "date": "2026-10-25",
+    "sha256_html": "84fcf991f03309e2f9a9432ff518bb9a32ded60f517d3aa751bb5b66e3a6d89b",
+    "viewports": [
+      {
+        "width": 1440,
+        "height": 1000,
+        "panel_fits": true,
+        "no_horizontal_overflow": true
+      },
+      {
+        "width": 390,
+        "height": 844,
+        "panel_fits": true,
+        "no_horizontal_overflow": true
+      },
+      {
+        "width": 320,
+        "height": 844,
+        "panel_fits": true,
+        "no_horizontal_overflow": true
+      }
+    ],
+    "javascript_errors": [],
+    "internal_links_valid": true,
+    "browser": "151.0.7922.34",
+    "tables": 53,
+    "images": 34,
+    "citation_controls": 268,
+    "index_links": 425,
+    "all_panels_checked": true,
+    "explanations_checked": 415,
+    "table_22_caption_and_index_valid": true,
+    "native_navigation": [
+      {
+        "width": 1440,
+        "native_anchor_navigation": true,
+        "table22_visible": true,
+        "index_visible": true
+      },
+      {
+        "width": 390,
+        "native_anchor_navigation": true,
+        "table22_visible": true,
+        "index_visible": true
+      },
+      {
+        "width": 320,
+        "native_anchor_navigation": true,
+        "table22_visible": true,
+        "index_visible": true
+      }
+    ],
+    "image_lightbox_keyboard_zoom_escape": true,
+    "print_navigation_hidden": true
   },
-  "texto_academico_preservado": true,
-  "explicacoes_revistas": 267,
-  "explicacoes_verificadas_contra_revisoes": true,
   "adaptacoes_leitura": {
     "administrative_paragraphs_removed": [
       "Declaração",
@@ -75,7 +99,7 @@
       "INTEGRAÇÃO DO DESIGN E DA INTELIGÊNCIA ARTIFICIAL EM PROCESSOS PARAMÉTRICOS PARA O DESENVOLVIMENTO DE PRÓTESES DE MEMBROS SUPERIORES EM IMPRESSÃO 3D."
     ],
     "print_artifacts_removed": [
-      "xx"
+      "xvii"
     ],
     "sections": [
       {
@@ -85,7 +109,7 @@
       },
       {
         "title": "ÍNDICE",
-        "entries": 229,
+        "entries": 230,
         "pages": 14
       },
       {
@@ -101,7 +125,7 @@
       {
         "title": "Índice do Anexo A",
         "entries": 54,
-        "pages": 3
+        "pages": 4
       },
       {
         "title": "Índice do Anexo B",
@@ -128,9 +152,24 @@
       "para obtenção do Grau de Mestre em Design e Desenvolvimento de Produto",
       "Este trabalho não inclui as críticas e sugestões feitas pelo Júri.",
       "julho, 2026"
+    ],
+    "caption_repairs": [
+      {
+        "type": "mixed_table_caption",
+        "table": 22,
+        "source_body": "Foram utilizados cinco perfis baseados em indicadores demográficos e três cenários de ausência unilateral com diferentes níveis de detalhe: medidTabela 22 - Distribuição de tarefas entre regras, IA e supervisão humanaas completas da mão contralateral, uma medida direta e uma descrição demográfica. Uma bateria complementar reuniu 15 cenários construídos a partir de descrições vagas, comparativas, multilingues ou sem medidas. Para avaliar a interpretação da lateralidade pela IA, foram realizadas 12 execuções de teste, organizadas em séries de quatro repetições, com pedidos que especificavam a mão esquerda ou direita. Estes ensaios decorreram antes da alteração que transferiu o controlo da lateralidade para a interface da plataforma. Todos os cenários utilizaram descrições hipotéticas.",
+        "reading_body": "Foram utilizados cinco perfis baseados em indicadores demográficos e três cenários de ausência unilateral com diferentes níveis de detalhe: medidas completas da mão contralateral, uma medida direta e uma descrição demográfica. Uma bateria complementar reuniu 15 cenários construídos a partir de descrições vagas, comparativas, multilingues ou sem medidas. Para avaliar a interpretação da lateralidade pela IA, foram realizadas 12 execuções de teste, organizadas em séries de quatro repetições, com pedidos que especificavam a mão esquerda ou direita. Estes ensaios decorreram antes da alteração que transferiu o controlo da lateralidade para a interface da plataforma. Todos os cenários utilizaram descrições hipotéticas.",
+        "source_index": "Foram utilizados cinco perfis baseados em indicadores demográficos e três cenários de ausência unilateral com diferentes níveis de detalhe: medidTabela 22 - Distribuição de tarefas entre regras, IA e supervisão humanaas completas da mão contralateral, uma medida direta e uma descrição demográfica. Uma bateria complementar reuniu 15 cenários construídos a partir de descrições vagas, comparativas, multilingues ou sem medidas. Para avaliar a interpretação da lateralidade pela IA, foram realizadas 12 execuções de teste, organizadas em séries de quatro repetições, com pedidos que especificavam a mão esquerda ou direita. Estes ensaios decorreram antes da alteração que transferiu o controlo da lateralidade para a interface da plataforma. Todos os cenários utilizaram descrições hipotéticas.96",
+        "reading_index": "Tabela 22 - Distribuição de tarefas entre regras, IA e supervisão humana96",
+        "source_caption_near_table": "Tabela 22 – distribuição de tarefas entre regras, IA e supervisão human",
+        "caption": "Tabela 22 - Distribuição de tarefas entre regras, IA e supervisão humana",
+        "reason": "Legenda fundida com a palavra medidas no ODT; separada e colocada antes da tabela identificada pelo cabeçalho Tarefa / Mecanismo / Resultado."
+      }
     ]
   },
-  "paginas_impressas_verificadas": 25,
-  "capa_unica_verificada": true,
-  "restante_conteudo_identico_apos_remocao_capa": true
+  "inspecao_visual": [
+    "Painéis em computador e telemóvel.",
+    "Índice em telemóvel e legenda da Tabela 22 junto da tabela."
+  ],
+  "ensaio_publicacao": "O estado remoto é registado separadamente em publicacao/deploy_github.json."
 }
