@@ -1,5 +1,4 @@
-"""Prepare the reading edition: administrative omission and paged indexes."""
-import math
+"""Prepare the reading edition: administrative omission and continuous indexes."""
 import re
 from urllib.parse import unquote
 
@@ -112,7 +111,6 @@ def prepare_reading(document):
                 definition.text = match[2]
                 for child in list(node):
                     definition.append(child)
-                cost = 1 + math.ceil(len(original) / 66)
             else:
                 row = node
                 links = node.xpath('./a[@class="index-link"]')
@@ -125,11 +123,11 @@ def prepare_reading(document):
                     # titles themselves can end in Roman letters or digits.
                     suffix = original[len(target_title):].strip()
                     if original.startswith(target_title) and re.fullmatch(r'[ivxlcdm]+|\d+', suffix):
-                        label, page = target_title, suffix
+                        label = target_title
                     else:
                         match = re.match(r'^(.*?)(\d+)\s*$', original)
                         assert match, original
-                        label, page = match[1].rstrip(), match[2]
+                        label = match[1].rstrip()
                     level = min(int(target.tag[1:]) - 1, 3) if re.fullmatch(r'h[1-6]', target.tag) else 0
                     if re.match(r'^[A-D]\.\d+\.\d+', label):
                         level = 2
@@ -141,46 +139,52 @@ def prepare_reading(document):
                     for child in list(link):
                         link.remove(child)
                     etree.SubElement(link, 'span', attrib={'class': 'index-label'}).text = label
-                    etree.SubElement(link, 'span', attrib={'class': 'index-leader', 'aria-hidden': 'true'})
-                    etree.SubElement(link, 'span', attrib={'class': 'index-page'}).text = page
-                    link.set('aria-label', f'{label}, página {page} no documento original')
-                    cost = 1 + math.ceil(len(label) / 66) + int(major)
+                    link.set('aria-label', label)
                 else:
                     row.set('class', 'index-group-label')
-                    cost = 3
             row.set('data-original-text', original)
-            rows.append((row, cost))
+            rows.append(row)
             if kind == 'abbreviations':
                 document.remove(node)
 
-        chunks = [[]]
-        units = 0
-        for row, cost in rows:
-            if units + cost > 38 and chunks[-1]:
-                chunks.append([])
-                units = 0
-            chunks[-1].append(row)
-            units += cost
-        # Keep an appendix group label with its first entry.
-        for index in range(len(chunks) - 1):
-            if chunks[index][-1].get('class') == 'index-group-label':
-                chunks[index + 1].insert(0, chunks[index].pop())
         title = text(heading)
         position = document.index(heading)
         section = html.Element('section', attrib={'class': 'reading-section', 'aria-label': title})
         document.insert(position, section)
-        for number, chunk in enumerate(chunks, 1):
-            page = etree.SubElement(section, 'section', attrib={'class': f'reading-page {kind}-sheet'})
-            if number == 1:
-                page.append(heading)
-                heading.set('class', 'reading-page-title')
-            else:
-                etree.SubElement(page, 'h2', attrib={'class': 'reading-page-title', 'data-reading-decoration': 'true'}).text = title + ' · continuação'
-            if kind == 'index':
-                etree.SubElement(page, 'p', attrib={'class': 'index-page-note', 'data-reading-decoration': 'true'}).text = 'Páginas do documento original'
-            container = etree.SubElement(page, 'dl' if kind == 'abbreviations' else 'div', attrib={'class': 'abbreviation-list' if kind == 'abbreviations' else 'index-entries'})
-            for row in chunk:
-                container.append(row)
-            etree.SubElement(page, 'p', attrib={'class': 'reading-page-number', 'data-reading-decoration': 'true'}).text = f'{number} / {len(chunks)}'
-        report['sections'].append({'title': title, 'entries': len(rows), 'pages': len(chunks)})
+        section.append(heading)
+        heading.set('class', 'reading-section-title')
+        container = etree.SubElement(section, 'dl' if kind == 'abbreviations' else 'div', attrib={'class': 'abbreviation-list' if kind == 'abbreviations' else 'index-entries'})
+        for row in rows:
+            container.append(row)
+        report['sections'].append({'title': title, 'entries': len(rows), 'layout': 'continuous'})
+
+    dedication_texts = [
+        'À Patrícia, pela coragem de abraçar os meus desafios.',
+        'À família e aos amigos, pelo apoio constante.',
+        'A ti, por estares a ler estas palavras.',
+    ]
+    declaration = document.get_element_by_id('declaração-de-utilização-de-ferramentas-de-inteligência-artificial')
+    dedication_rows = [n for n in document if n.tag == 'p' and text(n) in dedication_texts]
+    assert [text(n) for n in dedication_rows] == dedication_texts, 'Rever dedicatória'
+    declaration_rows = []
+    for node in declaration.itersiblings():
+        if node is dedication_rows[0]:
+            break
+        declaration_rows.append(node)
+    declaration_section = html.Element('section', attrib={'class': 'ai-declaration', 'aria-labelledby': declaration.get('id')})
+    document.insert(document.index(declaration), declaration_section)
+    for node in [declaration, *declaration_rows]:
+        declaration_section.append(node)
+    dedication = html.Element('section', attrib={'class': 'dedication', 'aria-labelledby': 'dedicatoria'})
+    document.insert(document.index(dedication_rows[0]), dedication)
+    etree.SubElement(dedication, 'h1', id='dedicatoria').text = 'Dedicatória'
+    for node in dedication_rows:
+        dedication.append(node)
+    report['dedication_separated'] = True
+    backlinks = document.xpath('.//a[@role="doc-backlink"]')
+    for link in backlinks:
+        reference = document.get_element_by_id(unquote(link.get('href')[1:]))
+        link.text = '↩ Voltar ao texto'
+        link.set('aria-label', f'Voltar ao texto da nota {text(reference)}')
+    report['footnote_return_links'] = len(backlinks)
     return report

@@ -22,42 +22,42 @@
     {
       "title": "LISTA DE ABREVIATURAS E SIGLAS",
       "entries": 64,
-      "pages": 5
+      "layout": "continuous"
     },
     {
       "title": "ÍNDICE",
       "entries": 230,
-      "pages": 14
+      "layout": "continuous"
     },
     {
       "title": "ÍNDICE DE FIGURAS",
       "entries": 30,
-      "pages": 3
+      "layout": "continuous"
     },
     {
       "title": "ÍNDICE DE TABELAS",
       "entries": 31,
-      "pages": 3
+      "layout": "continuous"
     },
     {
       "title": "Índice do Anexo A",
       "entries": 54,
-      "pages": 4
+      "layout": "continuous"
     },
     {
       "title": "Índice do Anexo B",
       "entries": 19,
-      "pages": 2
+      "layout": "continuous"
     },
     {
       "title": "Índice do Anexo C",
       "entries": 42,
-      "pages": 3
+      "layout": "continuous"
     },
     {
       "title": "Índice do Anexo D",
       "entries": 21,
-      "pages": 2
+      "layout": "continuous"
     }
   ],
   "duplicate_cover_paragraphs_removed": [
@@ -70,6 +70,8 @@
     "Este trabalho não inclui as críticas e sugestões feitas pelo Júri.",
     "julho, 2026"
   ],
+  "dedication_separated": true,
+  "footnote_return_links": 15,
   "caption_repairs": [
     {
       "type": "mixed_table_caption",

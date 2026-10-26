@@ -4,7 +4,9 @@ Abrir [`pedro_candeias_manuscrito_citacoes.html`](pedro_candeias_manuscrito_cita
 
 O asterisco junto de cada citação abre um painel com uma secção por obra, incluindo referência, DOI/URL, PDF local quando associado e excertos disponíveis. O painel suporta clique, teclado, Escape, clique exterior e ecrãs pequenos. Citações múltiplas mostram todas as obras no mesmo painel rolável.
 
-As entradas do índice principal ligam aos títulos correspondentes. Os índices de figuras e tabelas ligam às legendas, e os índices dos anexos têm a entrada completa clicável. As siglas e os índices são organizados em folhas de leitura, com definições alinhadas, níveis hierárquicos e números de página numa coluna própria. As páginas indicadas nas entradas continuam a corresponder ao ODT; os rodapés numeram apenas as folhas de cada lista. A impressão inicia cada folha numa página nova. Os números isolados de paginação, como «xvii» nesta edição, são omitidos dos índices. O módulo `tools/conversao/ligar_indices_html.py`, chamado pelo exportador, verifica destinos únicos e regista as correspondências em `ligacoes_indices.json`.
+As entradas do índice principal ligam aos títulos correspondentes. Os índices de figuras e tabelas ligam às legendas, e os índices dos anexos têm a entrada completa clicável. A lista de abreviaturas e siglas e cada índice ocupam um único cartão contínuo, com definições alinhadas e níveis hierárquicos. A edição HTML omite a paginação e os cabeçalhos de continuação; os números originais ficam nos dados de proveniência. O módulo `tools/conversao/ligar_indices_html.py`, chamado pelo exportador, verifica destinos únicos e regista as correspondências em `ligacoes_indices.json`.
+
+A dedicatória à Patrícia, à família, aos amigos e ao leitor tem título e secção próprios, separados da declaração de utilização de ferramentas de inteligência artificial; os três parágrafos são preservados integralmente.
 
 O bloco administrativo de declaração de reprodução, incluindo a assinatura e o título repetido antes do resumo, é omitido desta edição HTML. A capa e a folha de rosto idênticas do ODT são apresentadas uma única vez, com título, autor, orientador, instituição e data. A transformação é feita por `tools/conversao/preparar_leitura_html.py` e registada em `adaptacoes_leitura.json`; os documentos canónicos permanecem intactos.
 
@@ -32,6 +34,8 @@ python3 tools/conversao/exportar_html_citacoes.py
 Requer Python com `lxml`, `openpyxl`, `PyMuPDF` e Pandoc. O gerador reutiliza o conversor ODT existente sobre uma cópia temporária, recupera o conteúdo comprimido `MLO_DATA_*` em `meta.xml` e associa cada grupo ao marcador `MLO_C_*` em `content.xml`. O ODT, o Markdown canónico e o relatório de auditoria permanecem intactos. A versão publicada e os recursos da homepage encontram-se em `publicacao/`; executar também `python3 tools/conversao/preparar_html_publicacao.py` após regenerar o HTML local.
 
 ## Orientação durante a leitura
+
+Cada nota de rodapé apresenta a ação «↩ Voltar ao texto», com destino à chamada correspondente. A navegação usa ligações nativas e funciona sem JavaScript; a nota de destino e a chamada de regresso ficam destacadas.
 
 O índice lateral assinala a secção em leitura com um marcador violeta, fundo destacado e `aria-current="location"`. A posição é recalculada durante o scroll, ao redimensionar a janela e quando as imagens alteram a disposição do documento. As ligações conservam a navegação nativa por âncoras. Os asteriscos das citações são apresentados a branco sobre violeta, com estado mais escuro ao passar o cursor ou abrir o painel.
 
@@ -72,3 +76,7 @@ Foram reconciliados 68 contextos ou identificadores de citações. As alteraçõ
 A Tabela 22 apresenta um problema editorial na fonte: a legenda completa ficou fundida com a palavra «medidas» num parágrafo, contaminando o índice; junto da tabela existia uma legenda manual truncada. A edição de leitura separa o texto, recupera a legenda completa junto da tabela e corrige o índice. A transformação é delimitada e verificável em `caption_repairs`, dentro de `adaptacoes_leitura.json`. O ODT não foi alterado.
 
 O Markdown canónico permanece uma fonte independente desta exportação. O corpo do HTML provém diretamente do ODT identificado no manifesto, não do Markdown anterior. As conversões temporárias mantêm também temporários os registos das imagens, evitando criar proveniências que apontem para ficheiros já removidos.
+
+## Verificação de 26/10/2026
+
+`validacao_atualizacao_2026_10_26.json` regista a comparação com a edição anterior, os hashes do HTML e do PDF e as verificações de navegação e descarga em Chromium/Playwright. As imagens `previsualizacao_leitura_continua_1440.png`, `previsualizacao_leitura_continua_390.png` e `previsualizacao_dedicatoria.png` são capturas da edição pública local, gerada pelos comandos acima; documentam os cartões contínuos e a dedicatória separada.

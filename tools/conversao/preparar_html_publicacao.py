@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
-"""Prepare the annotated manuscript for static hosting without local PDF links."""
+"""Prepare the annotated manuscript and thesis PDF for static hosting."""
 from pathlib import Path
+import argparse
 import hashlib
 import json
 import re
@@ -25,6 +26,21 @@ DEFENSE_FILES = {
     'perguntas_juri.pdf': 'perguntas_juri.pdf',
     'perguntas_juri.odt': 'perguntas_juri.odt',
 }
+
+
+def manuscript_pdf(dist):
+    manifest = json.loads((SOURCE_DIR / 'manifesto.json').read_text())
+    source_odt = ROOT / manifest['source']
+    if hashlib.sha256(source_odt.read_bytes()).hexdigest() != manifest['sha256_odt']:
+        raise RuntimeError('Regenerar o HTML a partir da versão atual do manuscrito.')
+    source = source_odt.with_suffix('.pdf')
+    if source.stat().st_mtime < source_odt.stat().st_mtime:
+        raise RuntimeError('Exportar o PDF da versão atual do manuscrito antes de publicar.')
+    target = dist / 'tese.pdf'
+    shutil.copy2(source, target)
+    return {'source': str(source.relative_to(ROOT)), 'published': target.name,
+            'source_odt': str(source_odt.relative_to(ROOT)),
+            'sha256': hashlib.sha256(target.read_bytes()).hexdigest()}
 
 
 def defense_documents(dist):
@@ -64,7 +80,10 @@ def homepage(dist):
         (dist / content['file']).write_text(template.substitute(values))
 
 
-def main():
+def main(manuscript_only=False):
+    dist = OUTPUT / 'dist'
+    dist.mkdir(parents=True, exist_ok=True)
+    pdf = manuscript_pdf(dist)
     source = SOURCE.read_text()
     pattern = re.compile(r'(<script id="citation-data" type="application/json">)(.*?)(</script>)', re.S)
     match = pattern.search(source)
@@ -81,18 +100,23 @@ def main():
     marker = '<button class="print-button"'
     if marker not in deployed:
         raise RuntimeError('Não foi encontrado o cabeçalho para a ligação de regresso.')
-    deployed = deployed.replace(marker, '<a class="print-button" href="index.html">Início / Home</a>\n    ' + marker, 1)
+    actions = ('<a class="print-button" href="index.html">Início / Home</a>\n    '
+               f'<a class="print-button" id="download-pdf" href="{pdf["published"]}?v={pdf["sha256"][:12]}" '
+               'download="pedro-candeias-tese.pdf" aria-label="Descarregar a última versão da tese em PDF">Descarregar PDF</a>\n    ')
+    deployed = deployed.replace(marker, actions + marker, 1)
     deployed = deployed.replace('</head>', '<link rel="stylesheet" href="assets/lightbox.css">\n<script src="assets/lightbox.js" defer></script>\n</head>', 1)
-    dist = OUTPUT / 'dist'
-    dist.mkdir(parents=True, exist_ok=True)
     target = dist/'manuscrito.html'
     target.write_text(deployed)
-    homepage(dist)
-    defense_files = defense_documents(dist)
+    if manuscript_only:
+        defense_files = json.loads((OUTPUT / 'manifesto_publicacao.json').read_text())['defense_files']
+    else:
+        homepage(dist)
+        defense_files = defense_documents(dist)
     report = {'source': str(SOURCE.relative_to(ROOT)), 'sha256_source': hashlib.sha256(SOURCE.read_bytes()).hexdigest(),
               'entrypoint': 'dist/index.html', 'manuscript': 'dist/manuscrito.html',
               'sha256_index': hashlib.sha256((dist/'index.html').read_bytes()).hexdigest(),
               'sha256_manuscript': hashlib.sha256(target.read_bytes()).hexdigest(),
+              'manuscript_pdf': pdf,
               'homepage_sources': str(HOMEPAGE.relative_to(ROOT)),
               'shared_theme': 'tools/conversao/tema_handfab.css',
               'sha256_theme': hashlib.sha256((HOMEPAGE.parent/'tema_handfab.css').read_bytes()).hexdigest(),
@@ -108,4 +132,6 @@ def main():
 
 
 if __name__ == '__main__':
-    main()
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--manuscript-only', action='store_true', help='Atualizar apenas o manuscrito HTML e PDF, preservando a homepage e a defesa publicadas.')
+    main(manuscript_only=parser.parse_args().manuscript_only)
