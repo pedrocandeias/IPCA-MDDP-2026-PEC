@@ -2,6 +2,8 @@
 
 ## 2026-10-26
 
+- Publicados e verificados por SHA-256 os 17 ficheiros do GitHub Pages, incluindo a interface com a designação «dissertação», o PDF em destaque, a tipografia alinhada e o botão «Explora o HandFab». README da branch main atualizado com as versões disponíveis dos documentos. Fonte: commit 0cec3f1; publicação: 9850377. Atualizado o registo do deploy.
+
 - Uniformizada a interface do site para «dissertação»/«dissertation», com destaque violeta e ícone no botão «Descarregar PDF». Alinhados os tamanhos de letra do cabeçalho e da navegação com a homepage; acrescentado o botão «Explora o HandFab» com gradiente. Atualizado o README da raiz com as ligações para o ODT/PDF de 25/10/2026, o Word arquivado mais recente e os documentos de defesa disponíveis; distinguida a versão do Markdown. Atualizados geradores e documentação, preservando os endereços existentes.
 
 - Publicados e verificados por SHA-256 os 17 ficheiros do GitHub Pages, incluindo o manuscrito com listas e índices contínuos, dedicatória separada, regresso das notas de rodapé e descarga da tese em PDF. Fonte: commit 2f769c7; publicação: e5b6744. Atualizado o registo do deploy.
