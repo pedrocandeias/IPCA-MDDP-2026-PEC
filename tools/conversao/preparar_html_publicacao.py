@@ -80,7 +80,7 @@ def homepage(dist):
         (dist / content['file']).write_text(template.substitute(values))
 
 
-def main(manuscript_only=False):
+def main(manuscript_only=False, preserve_defense=False):
     dist = OUTPUT / 'dist'
     dist.mkdir(parents=True, exist_ok=True)
     pdf = manuscript_pdf(dist)
@@ -102,15 +102,19 @@ def main(manuscript_only=False):
         raise RuntimeError('Não foi encontrado o cabeçalho para a ligação de regresso.')
     actions = ('<a class="print-button" href="index.html">Início / Home</a>\n    '
                f'<a class="print-button" id="download-pdf" href="{pdf["published"]}?v={pdf["sha256"][:12]}" '
-               'download="pedro-candeias-tese.pdf" aria-label="Descarregar a última versão da tese em PDF">Descarregar PDF</a>\n    ')
+               'download="pedro-candeias-dissertacao.pdf" aria-label="Descarregar a última versão da dissertação em PDF">'
+               '<svg class="download-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" '
+               'stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">'
+               '<path d="M12 3v12m-5-5 5 5 5-5M4 16v5h16v-5"/></svg>Descarregar PDF</a>\n    ')
     deployed = deployed.replace(marker, actions + marker, 1)
     deployed = deployed.replace('</head>', '<link rel="stylesheet" href="assets/lightbox.css">\n<script src="assets/lightbox.js" defer></script>\n</head>', 1)
     target = dist/'manuscrito.html'
     target.write_text(deployed)
-    if manuscript_only:
+    if not manuscript_only:
+        homepage(dist)
+    if manuscript_only or preserve_defense:
         defense_files = json.loads((OUTPUT / 'manifesto_publicacao.json').read_text())['defense_files']
     else:
-        homepage(dist)
         defense_files = defense_documents(dist)
     report = {'source': str(SOURCE.relative_to(ROOT)), 'sha256_source': hashlib.sha256(SOURCE.read_bytes()).hexdigest(),
               'entrypoint': 'dist/index.html', 'manuscript': 'dist/manuscrito.html',
@@ -134,4 +138,6 @@ def main(manuscript_only=False):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--manuscript-only', action='store_true', help='Atualizar apenas o manuscrito HTML e PDF, preservando a homepage e a defesa publicadas.')
-    main(manuscript_only=parser.parse_args().manuscript_only)
+    parser.add_argument('--preserve-defense', action='store_true', help='Atualizar o site e a dissertação sem substituir os documentos da defesa já preparados.')
+    args = parser.parse_args()
+    main(manuscript_only=args.manuscript_only, preserve_defense=args.preserve_defense)

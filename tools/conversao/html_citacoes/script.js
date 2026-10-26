@@ -97,6 +97,10 @@ document.getElementById('print').addEventListener('click', () => window.print())
   const navigation = sidebar.querySelector('nav');
   const header = document.querySelector('.topbar');
   const article = document.getElementById('manuscrito');
+  function syncHeaderHeight() {
+    document.documentElement.style.setProperty('--reading-header-height', `${header.offsetHeight}px`);
+  }
+  syncHeaderHeight();
   const entries = Array.from(navigation.querySelectorAll('a[href^="#"]'))
     .map(link => ({link, target: document.getElementById(decodeURIComponent(link.hash.slice(1)))}))
     .filter(entry => entry.target);
@@ -119,6 +123,7 @@ document.getElementById('print').addEventListener('click', () => window.print())
 
   function updateReadingPosition() {
     scheduled = false;
+    syncHeaderHeight();
     const readingLine = header.getBoundingClientRect().bottom + 24;
     // Medir de novo permite acompanhar imagens carregadas e mudanças de largura.
     const positions = entries.map(entry => ({...entry, top: entry.target.getBoundingClientRect().top}))

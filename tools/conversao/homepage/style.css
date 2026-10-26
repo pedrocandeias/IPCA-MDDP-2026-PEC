@@ -7,10 +7,10 @@ a:focus-visible, button:focus-visible { outline: 3px solid var(--focus); outline
 .wrap { width: min(1200px, calc(100% - 80px)); margin-inline: auto; }
 .site-header { position: sticky; top: 0; z-index: 10; background: #fffffff2; backdrop-filter: blur(12px); border-bottom: 1px solid var(--line); }
 .header { display: flex; flex-wrap: wrap; align-items: center; gap: 32px; min-height: 76px; padding-block: 12px; }
-.identity { display: flex; gap: 12px; align-items: center; text-decoration: none; font-size: 19px; font-weight: 600; line-height: 1.3; }
-.identity small { display: block; font-size: 14px; font-weight: 400; color: var(--muted); margin-top: 4px; }
-.monogram { display: grid; place-items: center; flex-shrink: 0; width: 40px; height: 40px; border: 1px solid #e9d5ff; border-radius: var(--radius); background: linear-gradient(135deg, #f3e8ff, #fce7f3); font-size: 16px; font-weight: 700; }
-.navigation { margin-left: auto; display: flex; gap: 24px; font-size: 17px; }
+.identity { display: flex; gap: 12px; align-items: center; text-decoration: none; font-size: var(--identity-font-size); font-weight: 600; line-height: 1.3; }
+.identity small { display: block; font-size: var(--identity-detail-size); font-weight: 400; color: var(--muted); margin-top: 4px; }
+.monogram { display: grid; place-items: center; flex-shrink: 0; width: 40px; height: 40px; border: 1px solid #e9d5ff; border-radius: var(--radius); background: linear-gradient(135deg, #f3e8ff, #fce7f3); font-size: var(--monogram-font-size); font-weight: 700; }
+.navigation { margin-left: auto; display: flex; gap: 24px; font-size: var(--navigation-font-size); }
 .navigation a { text-decoration: none; color: var(--muted); }
 .navigation a:hover { color: var(--ink); }
 .languages { display: flex; gap: 3px; padding: 3px; border-radius: var(--radius); background: var(--soft); font-size: 16px; }
@@ -26,8 +26,10 @@ h2 { font-size: clamp(29px, 2.8vw, 38px); letter-spacing: -.8px; }
 h3 { font-size: 29px; letter-spacing: -.5px; }
 .lead { font-size: 20px; color: var(--muted); max-width: 570px; margin: 24px 0 28px; }
 .actions { display: flex; gap: 20px; align-items: center; flex-wrap: wrap; }
-.button { display: inline-flex; gap: 24px; align-items: center; justify-content: space-between; background: var(--interactive-accent); color: white; border: 1px solid var(--interactive-accent); border-radius: var(--radius); font-size: 18px; font-weight: 500; padding: 12px 18px; text-decoration: none; line-height: 1.5; }
+.button { display: inline-flex; gap: 24px; align-items: center; justify-content: space-between; background: var(--interactive-accent); color: white; border: 1px solid var(--interactive-accent); border-radius: var(--radius); font-size: var(--action-font-size); font-weight: 500; padding: 12px 18px; text-decoration: none; line-height: 1.5; }
 .button:hover { background: var(--interactive-hover); border-color: var(--interactive-hover); }
+.button.handfab-button { background: linear-gradient(115deg, #4338ca, #a21caf); border-color: #4338ca; box-shadow: 0 5px 16px #4338ca26; }
+.button.handfab-button:hover { background: linear-gradient(115deg, #3730a3, #86198f); border-color: #3730a3; }
 .text-link { font-size: 17px; font-weight: 600; color: var(--interactive-accent); }
 .hero-image { margin: 0; background: var(--soft); border: 1px solid var(--line); border-radius: var(--radius-xl); overflow: hidden; box-shadow: var(--shadow); }
 .hero-image img { display: block; width: 100%; height: auto; aspect-ratio: 1.25; object-fit: cover; object-position: 48% center; }
@@ -84,10 +86,10 @@ footer p { margin: 0; }
   html { scroll-padding-top: 135px; }
   .wrap { width: calc(100% - 36px); }
   .header { flex-wrap: wrap; gap: 14px; padding-block: 14px; }
-  .identity { font-size: 18px; flex: 1 1 100%; }
-  .identity small { max-width: 260px; font-size: 14px; }
-  .monogram { width: 34px; height: 34px; font-size: 14px; }
-  .navigation { flex: 1; margin: 0; gap: 18px; font-size: 16px; }
+  .identity { flex: 1 1 100%; }
+  .identity small { max-width: 260px; }
+  .monogram { width: 34px; height: 34px; }
+  .navigation { flex: 1; margin: 0; gap: 18px; }
   .languages { gap: 0; font-size: 16px; }
   .languages a { padding: 5px 6px; }
   .hero { grid-template-columns: 1fr; padding-block: 34px; gap: 30px; }

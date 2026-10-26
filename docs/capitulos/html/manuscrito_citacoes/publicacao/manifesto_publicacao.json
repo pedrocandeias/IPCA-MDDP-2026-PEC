@@ -1,10 +1,10 @@
 {
   "source": "docs/capitulos/html/manuscrito_citacoes/pedro_candeias_manuscrito_citacoes.html",
-  "sha256_source": "b58ca7281c6d4d0d0bf420cdaec9f113d2c7e27d53278360acf12651b834cd9f",
+  "sha256_source": "d0352fe2373626ae7d3df4ab7ae8e55a5cf740e68337140b9e9af8d75d2b3d92",
   "entrypoint": "dist/index.html",
   "manuscript": "dist/manuscrito.html",
-  "sha256_index": "bfc261ef17cf5e54ee559455852463b38e9cbe5fac7754b5279b3d744e8f3662",
-  "sha256_manuscript": "330526a3eda73ea677f9a72971ffaff326db739c8293d5fc3114d161a7c9735a",
+  "sha256_index": "9498d004074c31ff09b09ec848c3618bc3aa4776a19313771baa08cc9215378f",
+  "sha256_manuscript": "c4d201679ffea49c0707f44e016404fb8431455a5b8c3aea68d216bd871fb9c0",
   "manuscript_pdf": {
     "source": "pedro-candeias-projeto-mestrado-mdddp-ipca-2026-revisto_v1_23102026-1047.pdf",
     "published": "tese.pdf",
@@ -13,7 +13,7 @@
   },
   "homepage_sources": "tools/conversao/homepage",
   "shared_theme": "tools/conversao/tema_handfab.css",
-  "sha256_theme": "7ae06ab3c33545e08673654f046d724c66466d77639299a8ff20c42b49238eeb",
+  "sha256_theme": "2adb929e94030a6bcd71a932beb835eac7611f72f1e36e2affa99e1fde50d2fe",
   "image_source": "docs/defesa/apresentacao/assets/phoenix_montagem.jpg",
   "languages": [
     "pt-PT",

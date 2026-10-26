@@ -1,0 +1,128 @@
+{
+  "date": "2026-10-26",
+  "method": "Comparação estrutural com a edição publicada; verificação de tamanhos de letra e navegação em Chromium/Playwright, com e sem JavaScript.",
+  "sha256_html": "c4d201679ffea49c0707f44e016404fb8431455a5b8c3aea68d216bd871fb9c0",
+  "internal_links_valid": true,
+  "pdf_pages": 224,
+  "body_text_and_citations_preserved": true,
+  "tables": 53,
+  "images": 34,
+  "citation_controls": 268,
+  "index_links": 425,
+  "abbreviations": 64,
+  "continuous_sections": 8,
+  "dedication_separated": true,
+  "footnote_return_links": 15,
+  "sha256_pdf": "17f6266b2eff650d9aac2dd0fb4d5cff80a54bca87de941117b9fd61e09d6f1a",
+  "viewports": [
+    {
+      "width": 1440,
+      "height": 1000,
+      "no_horizontal_overflow": true,
+      "pdf_button_fits": true,
+      "index_navigation": true,
+      "footnote_round_trip": true,
+      "citation_panel": true,
+      "matching_font_sizes": {
+        ".brand": "19px",
+        ".brand small": "14px",
+        ".brand-symbol": "16px",
+        ".sidebar nav a": "17px",
+        "#download-pdf": "18px"
+      },
+      "homepage_no_overflow": true
+    },
+    {
+      "width": 1024,
+      "height": 900,
+      "no_horizontal_overflow": true,
+      "pdf_button_fits": true,
+      "index_navigation": true,
+      "footnote_round_trip": true,
+      "citation_panel": true,
+      "matching_font_sizes": {
+        ".brand": "19px",
+        ".brand small": "14px",
+        ".brand-symbol": "16px",
+        ".sidebar nav a": "17px",
+        "#download-pdf": "18px"
+      },
+      "homepage_no_overflow": true
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "no_horizontal_overflow": true,
+      "pdf_button_fits": true,
+      "index_navigation": true,
+      "footnote_round_trip": true,
+      "citation_panel": true,
+      "matching_font_sizes": {
+        ".brand": "19px",
+        ".brand small": "14px",
+        ".brand-symbol": "16px",
+        ".sidebar nav a": "17px",
+        "#download-pdf": "18px"
+      },
+      "homepage_no_overflow": true
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "no_horizontal_overflow": true,
+      "pdf_button_fits": true,
+      "index_navigation": true,
+      "footnote_round_trip": true,
+      "citation_panel": true,
+      "matching_font_sizes": {
+        ".brand": "18px",
+        ".brand small": "14px",
+        ".brand-symbol": "14px",
+        ".sidebar nav a": "16px",
+        "#download-pdf": "18px"
+      },
+      "homepage_no_overflow": true
+    },
+    {
+      "width": 320,
+      "height": 844,
+      "no_horizontal_overflow": true,
+      "pdf_button_fits": true,
+      "index_navigation": true,
+      "footnote_round_trip": true,
+      "citation_panel": true,
+      "matching_font_sizes": {
+        ".brand": "18px",
+        ".brand small": "14px",
+        ".brand-symbol": "14px",
+        ".sidebar nav a": "16px",
+        "#download-pdf": "18px"
+      },
+      "homepage_no_overflow": true
+    }
+  ],
+  "javascript_errors": [],
+  "browser": "151.0.7922.34",
+  "pdf_download_verified": true,
+  "homepage_languages": [
+    {
+      "file": "index.html",
+      "dissertation_label": true,
+      "handfab_button": true
+    },
+    {
+      "file": "en.html",
+      "dissertation_label": true,
+      "handfab_button": true
+    }
+  ],
+  "footnotes_and_pdf_without_javascript": true,
+  "screenshots": [
+    "previsualizacao_interface_index_1440.png",
+    "previsualizacao_interface_index_390.png",
+    "previsualizacao_interface_dissertacao_1440.png",
+    "previsualizacao_interface_dissertacao_390.png",
+    "previsualizacao_interface_dedicatoria.png"
+  ],
+  "readme_links_valid": true
+}

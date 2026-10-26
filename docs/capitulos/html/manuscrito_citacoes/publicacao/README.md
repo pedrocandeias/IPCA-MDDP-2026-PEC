@@ -1,8 +1,8 @@
-# Página do projeto e manuscrito anotado
+# Página do projeto e dissertação anotada
 
 - Português: <https://pedrocandeias.github.io/IPCA-MDDP-2026-PEC/>
 - English: <https://pedrocandeias.github.io/IPCA-MDDP-2026-PEC/en.html>
-- Manuscrito em português: <https://pedrocandeias.github.io/IPCA-MDDP-2026-PEC/manuscrito.html>
+- Dissertação em português: <https://pedrocandeias.github.io/IPCA-MDDP-2026-PEC/manuscrito.html>
 
 A página inicial apresenta a investigação e o repositório, com acesso ao manuscrito, à plataforma HandFab, ao respetivo código no GitHub e às ferramentas bibliográficas e documentais, incluindo a extensão independente [Mendeley Cite for LibreOffice](https://github.com/pedrocandeias/mendeley-libreoffice). As duas versões da apresentação são páginas HTML completas, ligadas por um seletor de língua; não dependem de JavaScript para leitura ou navegação.
 
@@ -50,3 +50,9 @@ A publicação inclui 415 explicações reconciliadas com a versão atual, a par
 ## Edição de 25/10/2026
 
 O pacote usa o manuscrito gravado em 25/10/2026, com 268 citações interativas, 425 ligações nos índices, 53 tabelas e 34 imagens. Inclui também a apresentação da defesa 1.6 e os guiões revistos. O manifesto da publicação identifica os ficheiros locais; `deploy_github.json` identifica separadamente a versão efetivamente publicada e a conferência dos endereços públicos.
+
+## Terminologia e interface
+
+A interface usa «dissertação» em português e «dissertation» em inglês. Os caminhos e identificadores internos com `manuscrito` são conservados para manter as ligações. O cabeçalho e a navegação da edição de leitura usam os mesmos tamanhos de letra da homepage, definidos em `tools/conversao/tema_handfab.css`: nome a 19 px, informação complementar a 14 px, navegação a 17 px e botões a 18 px; em telemóvel, o nome passa a 18 px e a navegação a 16 px. A descarga do PDF tem fundo violeta, ícone e maior destaque; os botões do HandFab usam um gradiente azul-violeta e rosa. A altura do cabeçalho é tida em conta na navegação por âncoras.
+
+Para regenerar as páginas e os recursos da interface sem substituir os documentos da defesa já preparados, executar `python3 tools/conversao/preparar_html_publicacao.py --preserve-defense`. A verificação da interface e as capturas estão identificadas em `../validacao_interface_dissertacao_2026_10_26.json`.

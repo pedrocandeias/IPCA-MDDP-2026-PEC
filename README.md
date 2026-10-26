@@ -1,37 +1,49 @@
-# Dissertação — espaço de trabalho
+# Dissertação de mestrado · Pedro Candeias
 
 **[Página do projeto — Português](https://pedrocandeias.github.io/IPCA-MDDP-2026-PEC/)** · **[English](https://pedrocandeias.github.io/IPCA-MDDP-2026-PEC/en.html)**
 
-Apresentação da investigação, acesso ao HandFab e ao respetivo código, ferramentas de apoio e **[manuscrito com citações interativas](https://pedrocandeias.github.io/IPCA-MDDP-2026-PEC/manuscrito.html)**.
+**[Ler a dissertação](https://pedrocandeias.github.io/IPCA-MDDP-2026-PEC/manuscrito.html)** · **[Descarregar PDF](https://pedrocandeias.github.io/IPCA-MDDP-2026-PEC/tese.pdf)** · **[Explora o HandFab](https://handfab.pedrocandeias.net/)**
 
-Este repositório reúne o manuscrito, os documentos finais no modelo do IPCA, os anexos, a bibliografia, as figuras, os dados de apoio e as ferramentas usadas na dissertação de Mestrado em Design e Desenvolvimento de Produto:
+Este repositório reúne a dissertação, os documentos no modelo do IPCA, os anexos, a bibliografia, as figuras, os dados de apoio e as ferramentas usadas no Mestrado em Design e Desenvolvimento de Produto:
 
 > **Integração do Design e da Inteligência Artificial em Processos Paramétricos para o Desenvolvimento de Próteses de Membros Superiores em Impressão 3D**
 
 Autor: Pedro Miguel Candeias da Silva
 
-Orientador: Demétrio Ferreira Matos
+Orientador: Professor Doutor Demétrio Ferreira Matos
 
-Organização da raiz atualizada: 10 de outubro de 2026
+Referências aos documentos e à edição online atualizadas em 26 de outubro de 2026.
 
-Versão de trabalho: ODT de 6 de outubro de 2026, às 02h10. O Markdown está sincronizado com esta fonte e tem a versão **0.4.114**, atribuída em 10 de outubro de 2026.
+O ODT atual foi gravado em **25 de outubro de 2026, às 20h30**, no ficheiro com identificador `23102026-1047`. O PDF correspondente tem **224 páginas**. A edição HTML deriva desse ODT e permite consultar as referências e os excertos associados às citações. O Markdown conserva a sua própria identificação de fonte e revisão.
 
 ## Documentos principais
 
 | Ficheiro | Função |
 | --- | --- |
-| [`pedro-candeias-projeto-mestrado-mdddp-ipca-2026-revisto_v1_06102026-0210.odt`](pedro-candeias-projeto-mestrado-mdddp-ipca-2026-revisto_v1_06102026-0210.odt) | Fonte editável atual do manuscrito. |
-| [`pedro-candeias-projeto-mestrado-mdddp-ipca-2026-revisto.md`](pedro-candeias-projeto-mestrado-mdddp-ipca-2026-revisto.md) | Manuscrito textual atualizado (0.4.114), sincronizado com o ODT atual, incluindo capítulos, anexos, bibliografia, tabelas, figuras e notas de rodapé. |
-| [`a30759_pedro-candeias-projeto-mestrado-mdddp-ipca-v10060211.pdf`](a30759_pedro-candeias-projeto-mestrado-mdddp-ipca-v10060211.pdf) | PDF de referência da versão de 6 de outubro de 2026. |
-| [Manuscrito HTML com citações](docs/capitulos/html/manuscrito_citacoes/pedro_candeias_manuscrito_citacoes.html) | Leitura interativa do ODT, com asteriscos para abrir referências múltiplas e os excertos disponíveis da auditoria bibliográfica. |
-| [Apresentação da defesa](docs/defesa/apresentacao/README.md) | 25 diapositivos em PPTX e PDF, com notas pessoais de leitura no PPTX e guião autónomo. |
+| [Dissertação — ODT atual](pedro-candeias-projeto-mestrado-mdddp-ipca-2026-revisto_v1_23102026-1047.odt) | Fonte editável gravada em 25/10/2026 às 20h30. |
+| [Dissertação — PDF atual](pedro-candeias-projeto-mestrado-mdddp-ipca-2026-revisto_v1_23102026-1047.pdf) | Exportação de 25/10/2026, com 224 páginas; corresponde ao PDF disponibilizado no site. |
+| [Dissertação — Word (DOCX), arquivo mais recente](docs/versoes/documentos-historicos/limpeza_raiz_2026_10_10/pedro-candeias-projeto-mestrado-mdddp-ipca-2026-revisto_v1_04102026-1955-pangram.docx) | DOCX arquivado, com última gravação interna em 05/10/2026. É anterior ao ODT/PDF atual. |
+| [Dissertação — Markdown](pedro-candeias-projeto-mestrado-mdddp-ipca-2026-revisto.md) | Representação textual com versão e fonte identificadas no próprio ficheiro. Não substitui o ODT/PDF de 25/10/2026. |
+| [Dissertação — HTML com citações](docs/capitulos/html/manuscrito_citacoes/pedro_candeias_manuscrito_citacoes.html) | Leitura interativa do ODT atual, com 268 citações, 425 ligações nos índices, listas contínuas e regresso das notas de rodapé. |
+| [Apresentação da defesa — PowerPoint](docs/defesa/apresentacao/apresentacao_defesa.pptx) · [PDF](docs/defesa/apresentacao/apresentacao_defesa.pdf) | Ficheiros da apresentação, com notas de fala no PPTX; [fontes e registos](docs/defesa/apresentacao/README.md). |
+| [Guião falado — ODT](docs/defesa/apresentacao/guiao_falado.odt) · [PDF](docs/defesa/apresentacao/guiao_falado.pdf) | Guião autónomo de apoio à apresentação. |
+| [Preparação da defesa — ODT](docs/defesa/preparacao_defesa_bernardo_providencia.odt) · [PDF](docs/defesa/preparacao_defesa_bernardo_providencia.pdf) | Caderno de preparação e fundamentação das respostas. |
+| [Perguntas do júri — ODT](docs/defesa/perguntas_juri.odt) · [PDF](docs/defesa/perguntas_juri.pdf) | Perguntas e respostas para preparação da defesa. |
 | [Preparação da defesa](docs/defesa/README.md) | Caderno de preparação, perguntas para treino e documentação de apoio. |
 | [`CHANGELOG.md`](CHANGELOG.md) | Registo cronológico das alterações realizadas. |
 | [`AGENTS.md`](AGENTS.md) | Regras obrigatórias de edição, cópias de segurança, bibliografia, exportação e organização. |
 
-O ODT e o PDF de 6 de outubro constituem os documentos atuais; o Markdown é a representação textual sincronizada do ODT. A sincronização e os limites de conversão estão documentados no [relatório de 10 de outubro](docs/revisoes/manuscrito/sincronizacao_markdown_2026_10_10/README.md). As versões anteriores foram arquivadas em [`docs/versoes/documentos-historicos/limpeza_raiz_2026_10_10/`](docs/versoes/documentos-historicos/limpeza_raiz_2026_10_10/), com um [`manifesto.csv`](docs/versoes/documentos-historicos/limpeza_raiz_2026_10_10/manifesto.csv) que regista os caminhos originais e os valores SHA-256. O DOCX experimental com prefixo `pangram_` foi apagado por indicação do autor.
+O par ODT/PDF de 25/10/2026 é a referência atual para leitura e edição. O Word mais recente disponível continua no arquivo histórico e não inclui as alterações posteriores desse par. A sincronização anterior do Markdown e os limites de conversão estão documentados no [relatório de 10 de outubro](docs/revisoes/manuscrito/sincronizacao_markdown_2026_10_10/README.md). As versões anteriores conservam-se em [`docs/versoes/documentos-historicos/limpeza_raiz_2026_10_10/`](docs/versoes/documentos-historicos/limpeza_raiz_2026_10_10/), com um [`manifesto.csv`](docs/versoes/documentos-historicos/limpeza_raiz_2026_10_10/manifesto.csv) que regista caminhos originais e valores SHA-256.
 
 Os comandos abaixo que usam o antigo par `…2026-revisto.docx`/`…2026-revisto.pdf` dizem respeito ao fluxo anterior; esses ficheiros encontram-se agora no arquivo e não devem ser usados como fonte atual.
+
+## Leitura online e publicação
+
+A [dissertação online](https://pedrocandeias.github.io/IPCA-MDDP-2026-PEC/manuscrito.html) apresenta a lista de siglas e cada índice num cartão contínuo, a dedicatória separada da declaração de utilização de IA e a ação «Voltar ao texto» nas 15 notas de rodapé. Os asteriscos abrem painéis com as referências e os excertos disponíveis. O botão «Descarregar PDF» dá acesso à versão paginada do mesmo documento.
+
+A página inicial está disponível em português e inglês e inclui acesso direto ao [HandFab](https://handfab.pedrocandeias.net/), além das ferramentas de apoio e dos materiais de investigação. O endereço `manuscrito.html` é conservado para manter as ligações existentes; a designação apresentada ao leitor é «dissertação».
+
+As fontes e os comandos de geração estão documentados em [`docs/capitulos/html/manuscrito_citacoes/publicacao/README.md`](docs/capitulos/html/manuscrito_citacoes/publicacao/README.md). O [manifesto de publicação](docs/capitulos/html/manuscrito_citacoes/publicacao/manifesto_publicacao.json) identifica o pacote local; o [registo do deploy](docs/capitulos/html/manuscrito_citacoes/publicacao/deploy_github.json) identifica os ficheiros efetivamente publicados. Os documentos locais da defesa podem ser mais recentes do que as cópias do site; as ligações da tabela acima apontam para os ficheiros deste repositório.
 
 ## Estado documentado em 1 de agosto de 2026
 
@@ -98,19 +110,20 @@ A plataforma é apresentada na dissertação como protótipo funcional de invest
 - `docs/revisoes/`: auditorias e relatórios organizados em `manuscrito/`, `bibliografia/`, `linguagem/`, `figuras/`, `anexos/` e `fabrico/`.
 - `docs/notas/`: notas de trabalho que ainda não pertencem a uma secção específica.
 - `docs/versoes/`: cópias de segurança, exportações datadas e documentos históricos.
-- `componentes/`: **tudo o que é embebido no DOCX** — `figuras/` (só as imagens do documento), `tabelas/` (fontes editáveis das tabelas) e `anexos/` (Anexos A–D, integrados no corpo do documento).
+- `componentes/`: figuras, tabelas e anexos incorporados na dissertação — `figuras/` contém apenas imagens, `tabelas/` conserva as fontes editáveis das tabelas e `anexos/` reúne os Anexos A–D.
 - `suplementos/`: pacote agregado de entrega com os quatro conjuntos suplementares e o respectivo manifesto.
-- `material/`: **tudo o que foi usado para produzir a tese** — artigos, normas, dados de referência, `bibliografia/` (PDFs das obras citadas), `figuras-extraidas/` e `tabelas-extraidas/` (figuras e tabelas retiradas dos artigos); os originais não devem ser sobrescritos.
+- `material/`: **tudo o que foi usado para produzir a dissertação** — artigos, normas, dados de referência, `bibliografia/` (PDFs das obras citadas), `figuras-extraidas/` e `tabelas-extraidas/` (figuras e tabelas retiradas dos artigos); os originais não devem ser sobrescritos.
 - `material/investigacao/elicit/`: pesquisas, relatórios, sessões, protocolos e exportações Elicit organizados por capítulo e secção.
 - `material/documentos_apoio/`: documentos editáveis auxiliares que não pertencem ao manuscrito canónico.
 - `tools/`: **todos os scripts do repositório**, organizados por finalidade — ver `tools/README.md` para o índice completo e a secção «Ferramentas» abaixo para os comandos correntes.
 - `archive/` e `recovered/`: materiais históricos ou recuperados; não são fontes activas.
 
-A raiz separa três coisas: `componentes/` é o que fica embebido no DOCX,
-`material/` é tudo o que foi consultado para o produzir, e `suplementos/` é a
-entrega autónoma que acompanha a dissertação. As 52 imagens do manuscrito
-vivem em `componentes/figuras/` (33) e, por pertencerem a um anexo autónomo com
-DOCX e PDF próprios, em `componentes/anexos/testes_preparacao_impressao/figuras/` (19).
+Os conteúdos incorporados na dissertação ficam em `componentes/`, as fontes
+consultadas em `material/` e a entrega autónoma de apoio em `suplementos/`.
+A edição HTML derivada do ODT de 25/10/2026 contém 34 imagens e 53 tabelas.
+As fontes das figuras ficam em `componentes/figuras/` e nas pastas dos anexos
+a que pertencem. Os geradores de imagens ficam em `tools/figuras/`; as notas,
+os dados e a proveniência ficam em `docs/desenvolvimento/figuras/`.
 `tools/docx_to_md.py` extrai para `componentes/figuras/` por omissão (`--media-dir` para
 outra pasta), para que uma conversão não volte a criar uma pasta `_media`
 paralela — foi assim que surgiu a antiga `projecto-completo_media/`.

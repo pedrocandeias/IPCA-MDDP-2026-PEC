@@ -3,6 +3,11 @@
 :root {
   color-scheme: light;
   --font: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  --identity-font-size: 19px;
+  --identity-detail-size: 14px;
+  --monogram-font-size: 16px;
+  --navigation-font-size: 17px;
+  --action-font-size: 18px;
   --paper: #ffffff;
   --bg: #f8f8fa;
   --ink: #030213;
@@ -19,5 +24,12 @@
   --radius-xl: 14px;
   --shadow: 0 1px 3px #03021308, 0 4px 16px #03021306;
   --brand-gradient: linear-gradient(135deg, #a855f7, #ec4899 55%, #f97316);
+}
+@media (max-width: 700px) {
+  :root {
+    --identity-font-size: 18px;
+    --monogram-font-size: 14px;
+    --navigation-font-size: 16px;
+  }
 }
 ::selection { background: #e9d5ff; color: var(--ink); }
