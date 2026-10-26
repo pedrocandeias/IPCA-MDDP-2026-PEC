@@ -2,6 +2,8 @@
 
 ## 2026-10-26
 
+- Publicada a interface com a designação «dissertação»/«dissertation», descarga do PDF em destaque, tipografia do cabeçalho e menu alinhada com a homepage e botão «Explora o HandFab» com gradiente. Atualizado o README na branch main com as versões disponíveis dos documentos. Interface verificada em cinco tamanhos de ecrã. Fonte: main, commit 0cec3f1.
+
 - Publicado o botão «Descarregar PDF», com a tese exportada em 25/10/2026. A lista de siglas e cada índice passam a ocupar um único cartão contínuo, sem paginação. Dedicatória separada da declaração de utilização de IA; ação «Voltar ao texto» nas 15 notas de rodapé. Verificadas a descarga e a navegação em computador e telemóvel, com e sem JavaScript. Fonte: main, commit 2f769c7.
 
 ## 2026-10-25
