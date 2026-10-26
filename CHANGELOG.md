@@ -1,5 +1,9 @@
 # Changelog
 
+## 2026-10-26
+
+- Publicado o botão «Descarregar PDF», com a tese exportada em 25/10/2026. A lista de siglas e cada índice passam a ocupar um único cartão contínuo, sem paginação. Dedicatória separada da declaração de utilização de IA; ação «Voltar ao texto» nas 15 notas de rodapé. Verificadas a descarga e a navegação em computador e telemóvel, com e sem JavaScript. Fonte: main, commit 2f769c7.
+
 ## 2026-10-25
 
 - Publicado o manuscrito HTML a partir do ODT gravado em 25/10/2026: 268 citações, 415 explicações reconciliadas, 425 ligações nos índices, 53 tabelas e 34 imagens. Corrigida a apresentação da legenda da Tabela 22 na edição de leitura. Atualizada a apresentação da defesa para a versão 1.6, com 30 diapositivos, e os guiões. Fonte: main, commit c66509c.
