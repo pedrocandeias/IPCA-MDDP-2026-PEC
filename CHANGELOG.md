@@ -2,6 +2,8 @@
 
 ## 2026-10-26
 
+- Publicados e verificados por SHA-256 os 17 ficheiros do GitHub Pages, incluindo o manuscrito com listas e índices contínuos, dedicatória separada, regresso das notas de rodapé e descarga da tese em PDF. Fonte: commit 2f769c7; publicação: e5b6744. Atualizado o registo do deploy.
+
 - Adicionado ao manuscrito HTML o botão «Descarregar PDF», com a versão da tese exportada em 25/10/2026 e origem/hash registados no pacote público. Convertidas a lista de siglas e os índices em cartões contínuos, sem paginação ou títulos de continuação. Separada a dedicatória da declaração de utilização de IA, preservando os três parágrafos. Tornada explícita a ação «Voltar ao texto» nas 15 notas de rodapé. Atualizados geradores e documentação; mantidos os documentos fonte e os restantes recursos públicos.
 
 ## 2026-10-25

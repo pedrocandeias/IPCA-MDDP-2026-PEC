@@ -10,12 +10,12 @@
     "path": "/"
   },
   "source_branch": "main",
-  "checked_at": "2026-10-25T21:09:45.026337+00:00",
-  "source_commit": "c66509cdcf7d0eeac62e7ba4832c288150d29a2d",
-  "site_commit": "c0db557160ce44f53adbba5ea1cb0b887ddaf8cc",
-  "previous_site_commit": "e284d555374853ebe515370256adb07c4e589c47",
+  "checked_at": "2026-10-26T13:59:43.987525+00:00",
+  "source_commit": "2f769c734c7c1dfc7b890a482597a04959ea4f85",
+  "site_commit": "e5b67446ad19cde88f0ee6a16fc50196d7082439",
+  "previous_site_commit": "c0db557160ce44f53adbba5ea1cb0b887ddaf8cc",
   "status": "built",
-  "scope": "Manuscrito HTML derivado do ODT gravado em 25/10/2026; explicações reconciliadas e legenda da Tabela 22 corrigida na edição de leitura; apresentação da defesa 1.6 e guiões revistos.",
+  "scope": "Manuscrito HTML com descarga da tese em PDF, listas e índices contínuos, dedicatória separada e regresso das 15 notas de rodapé.",
   "files": {
     "assets/homepage.css": "bd542329e58667f8bbe6a46f0d8078a557011a6e3b191c9e2650c8d4a05478d5",
     "assets/lightbox.css": "919aa82223f94e92cb08a5e97d42394fbde0c878d2af57b8d793c07d5034cb57",
@@ -32,7 +32,8 @@
     "defesa/preparacao_defesa.pdf": "1f12a5ffb9a18adf669ccecaecdff6205ac65d0dc58c536d1006b1b493961a08",
     "en.html": "e086e0ed92129023a3f390481b43c3d530b64478fcc52395d0207babcfe5c72f",
     "index.html": "bfc261ef17cf5e54ee559455852463b38e9cbe5fac7754b5279b3d744e8f3662",
-    "manuscrito.html": "84fcf991f03309e2f9a9432ff518bb9a32ded60f517d3aa751bb5b66e3a6d89b"
+    "manuscrito.html": "330526a3eda73ea677f9a72971ffaff326db739c8293d5fc3114d161a7c9735a",
+    "tese.pdf": "17f6266b2eff650d9aac2dd0fb4d5cff80a54bca87de941117b9fd61e09d6f1a"
   },
   "online_files": {
     "assets/homepage.css": {
@@ -133,68 +134,71 @@
     }
   },
   "github_pages_build": {
-    "commit": "c0db557160ce44f53adbba5ea1cb0b887ddaf8cc",
-    "created_at": "2026-10-25T21:08:56Z",
-    "updated_at": "2026-10-25T21:09:22Z",
+    "commit": "e5b67446ad19cde88f0ee6a16fc50196d7082439",
+    "created_at": "2026-10-26T13:57:38Z",
+    "updated_at": "2026-10-26T13:58:36Z",
     "error": {
       "message": null
     }
   },
   "local_browser_validation": {
-    "date": "2026-10-25",
-    "sha256_html": "84fcf991f03309e2f9a9432ff518bb9a32ded60f517d3aa751bb5b66e3a6d89b",
-    "viewports": [
-      {
-        "width": 1440,
-        "height": 1000,
-        "panel_fits": true,
-        "no_horizontal_overflow": true
-      },
-      {
-        "width": 390,
-        "height": 844,
-        "panel_fits": true,
-        "no_horizontal_overflow": true
-      },
-      {
-        "width": 320,
-        "height": 844,
-        "panel_fits": true,
-        "no_horizontal_overflow": true
-      }
-    ],
-    "javascript_errors": [],
+    "date": "2026-10-26",
+    "method": "Comparação estrutural com a edição anterior; Chromium/Playwright em servidor HTTP local, com JavaScript e sem JavaScript.",
+    "sha256_html": "330526a3eda73ea677f9a72971ffaff326db739c8293d5fc3114d161a7c9735a",
     "internal_links_valid": true,
-    "browser": "151.0.7922.34",
+    "pdf_pages": 224,
+    "body_text_and_citations_preserved": true,
     "tables": 53,
     "images": 34,
     "citation_controls": 268,
     "index_links": 425,
-    "all_panels_checked": true,
-    "explanations_checked": 415,
-    "table_22_caption_and_index_valid": true,
-    "native_navigation": [
+    "abbreviations": 64,
+    "continuous_sections": 8,
+    "dedication_separated": true,
+    "footnote_return_links": 15,
+    "sha256_pdf": "17f6266b2eff650d9aac2dd0fb4d5cff80a54bca87de941117b9fd61e09d6f1a",
+    "viewports": [
       {
         "width": 1440,
-        "native_anchor_navigation": true,
-        "table22_visible": true,
-        "index_visible": true
+        "height": 1000,
+        "no_horizontal_overflow": true,
+        "pdf_button_fits": true,
+        "index_navigation": true,
+        "footnote_round_trip": true,
+        "citation_panel": true
+      },
+      {
+        "width": 768,
+        "height": 1024,
+        "no_horizontal_overflow": true,
+        "pdf_button_fits": true,
+        "index_navigation": true,
+        "footnote_round_trip": true,
+        "citation_panel": true
       },
       {
         "width": 390,
-        "native_anchor_navigation": true,
-        "table22_visible": true,
-        "index_visible": true
+        "height": 844,
+        "no_horizontal_overflow": true,
+        "pdf_button_fits": true,
+        "index_navigation": true,
+        "footnote_round_trip": true,
+        "citation_panel": true
       },
       {
         "width": 320,
-        "native_anchor_navigation": true,
-        "table22_visible": true,
-        "index_visible": true
+        "height": 844,
+        "no_horizontal_overflow": true,
+        "pdf_button_fits": true,
+        "index_navigation": true,
+        "footnote_round_trip": true,
+        "citation_panel": true
       }
     ],
-    "image_lightbox_keyboard_zoom_escape": true,
-    "print_navigation_hidden": true
+    "javascript_errors": [],
+    "browser": "151.0.7922.34",
+    "pdf_download_verified": true,
+    "footnotes_and_pdf_without_javascript": true
   },
   "manuscript_source": {
     "path": "pedro-candeias-projeto-mestrado-mdddp-ipca-2026-revisto_v1_23102026-1047.odt",
@@ -235,5 +239,116 @@
     ],
     "notes_synchronised": false,
     "note": "O PPTX foi guardado pelo autor após a geração; preservadas as alterações nas notas dos diapositivos 1, 3 e 13. O guião e os PDFs mantêm a exportação validada da versão 1.6; os hashes publicados identificam cada ficheiro efetivamente servido."
+  },
+  "verified_files": {
+    "assets/homepage.css": {
+      "sha256": "bd542329e58667f8bbe6a46f0d8078a557011a6e3b191c9e2650c8d4a05478d5",
+      "status": 200,
+      "content_type": "text/css; charset=utf-8",
+      "matches_local": true
+    },
+    "assets/lightbox.css": {
+      "sha256": "919aa82223f94e92cb08a5e97d42394fbde0c878d2af57b8d793c07d5034cb57",
+      "status": 200,
+      "content_type": "text/css; charset=utf-8",
+      "matches_local": true
+    },
+    "assets/lightbox.js": {
+      "sha256": "560c9256b1e365def0b0b8cab2e2b9c37ecda2527dce55abfc17023d46ff41ff",
+      "status": 200,
+      "content_type": "application/javascript; charset=utf-8",
+      "matches_local": true
+    },
+    "assets/phoenix_montagem.jpg": {
+      "sha256": "c5bea27e3ae1b6dfaf1bd82cc6e989533a20256c32ac6e38fd22c02d3f7ada52",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "matches_local": true
+    },
+    "assets/tema_handfab.css": {
+      "sha256": "7ae06ab3c33545e08673654f046d724c66466d77639299a8ff20c42b49238eeb",
+      "status": 200,
+      "content_type": "text/css; charset=utf-8",
+      "matches_local": true
+    },
+    "defesa/apresentacao_defesa.pdf": {
+      "sha256": "19d6bee2b98868473bde9bac89cf21ce39790c1279d704a4bf919bd44bcc5e3d",
+      "status": 200,
+      "content_type": "application/pdf",
+      "matches_local": true
+    },
+    "defesa/apresentacao_defesa.pptx": {
+      "sha256": "f8647f1e646387ac26deea8023765613a38f6405899a5d10079604bd28ad8a40",
+      "status": 200,
+      "content_type": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "matches_local": true
+    },
+    "defesa/guiao_falado.odt": {
+      "sha256": "b27b03caa51899e77222859d600c77612096dbb01dbf3c0170f9dec6715a4f76",
+      "status": 200,
+      "content_type": "application/vnd.oasis.opendocument.text",
+      "matches_local": true
+    },
+    "defesa/guiao_falado.pdf": {
+      "sha256": "5dcab085e743d993e311993abdd9af2dd892d790b2c01535295c98d8e291d57e",
+      "status": 200,
+      "content_type": "application/pdf",
+      "matches_local": true
+    },
+    "defesa/perguntas_juri.odt": {
+      "sha256": "a9226c8b0ceb61fa2ca1ba43746526fdfc930d32549d83c81d15a0b78af9a3d1",
+      "status": 200,
+      "content_type": "application/vnd.oasis.opendocument.text",
+      "matches_local": true
+    },
+    "defesa/perguntas_juri.pdf": {
+      "sha256": "ff79c22dc91973cbf9f3a7a1c6eb6aa9af6d26f5e76494d9b8b985dea5ac66a0",
+      "status": 200,
+      "content_type": "application/pdf",
+      "matches_local": true
+    },
+    "defesa/preparacao_defesa.odt": {
+      "sha256": "9938cbbb29b88b28520b4189941fefc139160cf369d37d04da3b38eb797c261c",
+      "status": 200,
+      "content_type": "application/vnd.oasis.opendocument.text",
+      "matches_local": true
+    },
+    "defesa/preparacao_defesa.pdf": {
+      "sha256": "1f12a5ffb9a18adf669ccecaecdff6205ac65d0dc58c536d1006b1b493961a08",
+      "status": 200,
+      "content_type": "application/pdf",
+      "matches_local": true
+    },
+    "en.html": {
+      "sha256": "e086e0ed92129023a3f390481b43c3d530b64478fcc52395d0207babcfe5c72f",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "matches_local": true
+    },
+    "index.html": {
+      "sha256": "bfc261ef17cf5e54ee559455852463b38e9cbe5fac7754b5279b3d744e8f3662",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "matches_local": true
+    },
+    "manuscrito.html": {
+      "sha256": "330526a3eda73ea677f9a72971ffaff326db739c8293d5fc3114d161a7c9735a",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "matches_local": true
+    },
+    "tese.pdf": {
+      "sha256": "17f6266b2eff650d9aac2dd0fb4d5cff80a54bca87de941117b9fd61e09d6f1a",
+      "status": 200,
+      "content_type": "application/pdf",
+      "matches_local": true
+    }
+  },
+  "thesis_pdf_url": "https://pedrocandeias.github.io/IPCA-MDDP-2026-PEC/tese.pdf",
+  "thesis_pdf": {
+    "source": "pedro-candeias-projeto-mestrado-mdddp-ipca-2026-revisto_v1_23102026-1047.pdf",
+    "published": "tese.pdf",
+    "source_odt": "pedro-candeias-projeto-mestrado-mdddp-ipca-2026-revisto_v1_23102026-1047.odt",
+    "sha256": "17f6266b2eff650d9aac2dd0fb4d5cff80a54bca87de941117b9fd61e09d6f1a"
   }
 }
