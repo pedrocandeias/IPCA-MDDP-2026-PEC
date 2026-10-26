@@ -10,14 +10,14 @@
     "path": "/"
   },
   "source_branch": "main",
-  "checked_at": "2026-10-26T18:42:34.600797+00:00",
-  "source_commit": "0cec3f165c2402b2560136b82c52bc73b2e82e44",
-  "site_commit": "98503775a6e8b9391d8c4f7b89dcb843bdd63668",
-  "previous_site_commit": "e5b67446ad19cde88f0ee6a16fc50196d7082439",
+  "checked_at": "2026-10-26T20:37:18.930396+00:00",
+  "source_commit": "bc77aab92bd0c228c96dee61e85817e55e59acba",
+  "site_commit": "c85e5dd10e075df14f351a69486e0118d43f91a2",
+  "previous_site_commit": "98503775a6e8b9391d8c4f7b89dcb843bdd63668",
   "status": "built",
-  "scope": "Interface PT/EN com a designação dissertação/dissertation, PDF em destaque, tipografia partilhada e botão Explora o HandFab; README da branch main atualizado com os documentos disponíveis.",
+  "scope": "Separação da investigação, arquivo e geradores para submódulo privado, bibliografia consolidada pública e README atualizado; interface com botões maiores e coloridos, navegação ampliada e gradiente HandFab partilhado.",
   "files": {
-    "assets/homepage.css": "b9b75ec07e0dba06fe3bc8e7e644a9c53670ffa359402c3124ba09e6c08487bb",
+    "assets/homepage.css": "905fd0daeb701b8f2133ec39c87294a8bb4295aec0faec90aa595c464dc6f4ae",
     "assets/lightbox.css": "919aa82223f94e92cb08a5e97d42394fbde0c878d2af57b8d793c07d5034cb57",
     "assets/lightbox.js": "560c9256b1e365def0b0b8cab2e2b9c37ecda2527dce55abfc17023d46ff41ff",
     "assets/phoenix_montagem.jpg": "c5bea27e3ae1b6dfaf1bd82cc6e989533a20256c32ac6e38fd22c02d3f7ada52",
@@ -30,9 +30,9 @@
     "defesa/perguntas_juri.pdf": "ff79c22dc91973cbf9f3a7a1c6eb6aa9af6d26f5e76494d9b8b985dea5ac66a0",
     "defesa/preparacao_defesa.odt": "9938cbbb29b88b28520b4189941fefc139160cf369d37d04da3b38eb797c261c",
     "defesa/preparacao_defesa.pdf": "1f12a5ffb9a18adf669ccecaecdff6205ac65d0dc58c536d1006b1b493961a08",
-    "en.html": "0126e10c4a2e06fc1996e885ca66d98c6b43d5e56e41571e612df9e99864d0ef",
-    "index.html": "9498d004074c31ff09b09ec848c3618bc3aa4776a19313771baa08cc9215378f",
-    "manuscrito.html": "c4d201679ffea49c0707f44e016404fb8431455a5b8c3aea68d216bd871fb9c0",
+    "en.html": "4db40febe246a98fa4dbb78ed2c56330bf2c3c781382da57e165d8a1368d6287",
+    "index.html": "e4749a680072dff2d2189af2e7f7fdb9f4e4184cbd8586a4153dd380995ac921",
+    "manuscrito.html": "07763f6b13cc8b54ce3defd6625b4d375df577132c784a16c6f776da1fd8bda6",
     "tese.pdf": "17f6266b2eff650d9aac2dd0fb4d5cff80a54bca87de941117b9fd61e09d6f1a"
   },
   "online_files": {
@@ -134,17 +134,17 @@
     }
   },
   "github_pages_build": {
-    "commit": "98503775a6e8b9391d8c4f7b89dcb843bdd63668",
-    "created_at": "2026-10-26T18:41:42Z",
-    "updated_at": "2026-10-26T18:42:17Z",
+    "commit": "c85e5dd10e075df14f351a69486e0118d43f91a2",
+    "created_at": "2026-10-26T20:36:14Z",
+    "updated_at": "2026-10-26T20:36:46Z",
     "error": {
       "message": null
     }
   },
   "local_browser_validation": {
     "date": "2026-10-26",
-    "method": "Comparação estrutural com a edição publicada; verificação de tamanhos de letra e navegação em Chromium/Playwright, com e sem JavaScript.",
-    "sha256_html": "c4d201679ffea49c0707f44e016404fb8431455a5b8c3aea68d216bd871fb9c0",
+    "method": "Comparação estrutural com a edição publicada; verificação dos tamanhos de letra ampliados, fundos dos botões e navegação em Chromium/Playwright, com e sem JavaScript.",
+    "sha256_html": "07763f6b13cc8b54ce3defd6625b4d375df577132c784a16c6f776da1fd8bda6",
     "internal_links_valid": true,
     "pdf_pages": 224,
     "body_text_and_citations_preserved": true,
@@ -166,12 +166,12 @@
         "index_navigation": true,
         "footnote_round_trip": true,
         "citation_panel": true,
-        "matching_font_sizes": {
+        "reader_font_sizes": {
           ".brand": "19px",
           ".brand small": "14px",
           ".brand-symbol": "16px",
-          ".sidebar nav a": "17px",
-          "#download-pdf": "18px"
+          ".sidebar nav a": "20px",
+          "header_buttons": "22px"
         },
         "homepage_no_overflow": true
       },
@@ -183,12 +183,12 @@
         "index_navigation": true,
         "footnote_round_trip": true,
         "citation_panel": true,
-        "matching_font_sizes": {
+        "reader_font_sizes": {
           ".brand": "19px",
           ".brand small": "14px",
           ".brand-symbol": "16px",
-          ".sidebar nav a": "17px",
-          "#download-pdf": "18px"
+          ".sidebar nav a": "20px",
+          "header_buttons": "22px"
         },
         "homepage_no_overflow": true
       },
@@ -200,12 +200,12 @@
         "index_navigation": true,
         "footnote_round_trip": true,
         "citation_panel": true,
-        "matching_font_sizes": {
+        "reader_font_sizes": {
           ".brand": "19px",
           ".brand small": "14px",
           ".brand-symbol": "16px",
-          ".sidebar nav a": "17px",
-          "#download-pdf": "18px"
+          ".sidebar nav a": "20px",
+          "header_buttons": "22px"
         },
         "homepage_no_overflow": true
       },
@@ -217,12 +217,12 @@
         "index_navigation": true,
         "footnote_round_trip": true,
         "citation_panel": true,
-        "matching_font_sizes": {
+        "reader_font_sizes": {
           ".brand": "18px",
           ".brand small": "14px",
           ".brand-symbol": "14px",
-          ".sidebar nav a": "16px",
-          "#download-pdf": "18px"
+          ".sidebar nav a": "18px",
+          "header_buttons": "22px"
         },
         "homepage_no_overflow": true
       },
@@ -234,12 +234,12 @@
         "index_navigation": true,
         "footnote_round_trip": true,
         "citation_panel": true,
-        "matching_font_sizes": {
+        "reader_font_sizes": {
           ".brand": "18px",
           ".brand small": "14px",
           ".brand-symbol": "14px",
-          ".sidebar nav a": "16px",
-          "#download-pdf": "18px"
+          ".sidebar nav a": "18px",
+          "header_buttons": "22px"
         },
         "homepage_no_overflow": true
       }
@@ -267,7 +267,60 @@
       "previsualizacao_interface_dissertacao_390.png",
       "previsualizacao_interface_dedicatoria.png"
     ],
-    "readme_links_valid": true
+    "readme_links_valid": true,
+    "pdf_source_repository": {
+      "url": "https://github.com/pedrocandeias/IPCA-MDDP-2026-PEC/blob/main/pedro-candeias-projeto-mestrado-mdddp-ipca-2026-revisto_v1_23102026-1047.pdf",
+      "matches_origin_main": true
+    },
+    "handfab_gradient": {
+      "matches_card_accent": true,
+      "minimum_sampled_text_contrast": 5.19,
+      "sha256_homepage_css": "905fd0daeb701b8f2133ec39c87294a8bb4295aec0faec90aa595c464dc6f4ae",
+      "checks": [
+        {
+          "file": "index.html",
+          "width": 1440,
+          "matches_card_gradient": true,
+          "hover_preserves_gradient": true,
+          "no_overflow": true
+        },
+        {
+          "file": "index.html",
+          "width": 390,
+          "matches_card_gradient": true,
+          "hover_preserves_gradient": true,
+          "no_overflow": true
+        },
+        {
+          "file": "index.html",
+          "width": 320,
+          "matches_card_gradient": true,
+          "hover_preserves_gradient": true,
+          "no_overflow": true
+        },
+        {
+          "file": "en.html",
+          "width": 1440,
+          "matches_card_gradient": true,
+          "hover_preserves_gradient": true,
+          "no_overflow": true
+        },
+        {
+          "file": "en.html",
+          "width": 390,
+          "matches_card_gradient": true,
+          "hover_preserves_gradient": true,
+          "no_overflow": true
+        },
+        {
+          "file": "en.html",
+          "width": 320,
+          "matches_card_gradient": true,
+          "hover_preserves_gradient": true,
+          "no_overflow": true
+        }
+      ]
+    }
   },
   "manuscript_source": {
     "path": "pedro-candeias-projeto-mestrado-mdddp-ipca-2026-revisto_v1_23102026-1047.odt",
@@ -311,7 +364,7 @@
   },
   "verified_files": {
     "assets/homepage.css": {
-      "sha256": "b9b75ec07e0dba06fe3bc8e7e644a9c53670ffa359402c3124ba09e6c08487bb",
+      "sha256": "905fd0daeb701b8f2133ec39c87294a8bb4295aec0faec90aa595c464dc6f4ae",
       "status": 200,
       "content_type": "text/css; charset=utf-8",
       "matches_local": true
@@ -389,19 +442,19 @@
       "matches_local": true
     },
     "en.html": {
-      "sha256": "0126e10c4a2e06fc1996e885ca66d98c6b43d5e56e41571e612df9e99864d0ef",
+      "sha256": "4db40febe246a98fa4dbb78ed2c56330bf2c3c781382da57e165d8a1368d6287",
       "status": 200,
       "content_type": "text/html; charset=utf-8",
       "matches_local": true
     },
     "index.html": {
-      "sha256": "9498d004074c31ff09b09ec848c3618bc3aa4776a19313771baa08cc9215378f",
+      "sha256": "e4749a680072dff2d2189af2e7f7fdb9f4e4184cbd8586a4153dd380995ac921",
       "status": 200,
       "content_type": "text/html; charset=utf-8",
       "matches_local": true
     },
     "manuscrito.html": {
-      "sha256": "c4d201679ffea49c0707f44e016404fb8431455a5b8c3aea68d216bd871fb9c0",
+      "sha256": "07763f6b13cc8b54ce3defd6625b4d375df577132c784a16c6f776da1fd8bda6",
       "status": 200,
       "content_type": "text/html; charset=utf-8",
       "matches_local": true

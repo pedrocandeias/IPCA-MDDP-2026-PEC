@@ -23,5 +23,10 @@
   "sha256_files_checked": 4224,
   "lfs_objects_checked": true,
   "private_worktree_clean": true,
-  "private_remote_up_to_date": true
+  "private_remote_up_to_date": true,
+  "fresh_public_clone_verified": true,
+  "private_submodule_skipped_by_default": true,
+  "public_source_commit": "bc77aab92bd0c228c96dee61e85817e55e59acba",
+  "site_commit": "c85e5dd10e075df14f351a69486e0118d43f91a2",
+  "public_site_files_verified": 17
 }

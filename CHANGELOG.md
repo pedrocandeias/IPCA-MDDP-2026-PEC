@@ -2,6 +2,8 @@
 
 ## 2026-10-26
 
+- Publicados e verificados por SHA-256 os 17 ficheiros do GitHub Pages, incluindo os botões ampliados e coloridos da dissertação e o gradiente HandFab partilhado. Publicada a separação da investigação e dos geradores, com bibliografia mantida pública e README atualizado. Fonte: commit bc77aab; publicação: c85e5dd. Atualizado o registo do deploy.
+
 - Mantida `material/bibliografia/` no repositório público, por indicação do autor. Transferidos também os geradores do site, das figuras, dos documentos e da apresentação para o submódulo privado, com os respetivos dados de configuração e ligações locais de compatibilidade.
 
 - Separada a investigação e o arquivo num repositório privado associado como submódulo `investigacao_privada/`. Inventariados 4 005 ficheiros de trabalho, com origem e SHA-256; mantidos públicos os 202 ficheiros de `material/bibliografia/`; preservados os caminhos locais através de ligações ignoradas. Retirados `archive/`, os materiais de investigação, relatórios, revisões e versões antigas da estrutura pública atual; mantidos os documentos de leitura e os recursos do site. README e guias adaptados; histórico público anterior preservado.
