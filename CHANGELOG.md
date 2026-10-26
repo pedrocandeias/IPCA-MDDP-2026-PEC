@@ -2,6 +2,8 @@
 
 ## 2026-10-26
 
+- Retirado do índice público um ficheiro temporário de bloqueio de um relatório Elicit, remanescente da separação da investigação. Mantida a cópia local e confirmada a correspondência do pacote do site com a versão já publicada.
+
 - Publicados e verificados por SHA-256 os 17 ficheiros do GitHub Pages, incluindo os botões ampliados e coloridos da dissertação e o gradiente HandFab partilhado. Publicada a separação da investigação e dos geradores, com bibliografia mantida pública e README atualizado. Fonte: commit bc77aab; publicação: c85e5dd. Atualizado o registo do deploy.
 
 - Mantida `material/bibliografia/` no repositório público, por indicação do autor. Transferidos também os geradores do site, das figuras, dos documentos e da apresentação para o submódulo privado, com os respetivos dados de configuração e ligações locais de compatibilidade.
