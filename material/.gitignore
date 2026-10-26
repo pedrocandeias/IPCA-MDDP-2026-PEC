@@ -1,40 +1,6 @@
-# Python
+# A bibliografia é pública; os restantes materiais ficam no submódulo privado.
 __pycache__/
 *.py[cod]
-*.tmp.pdf
-
-# PDFs and research files (not versioned)
-*.pdf
-# Excepção: bibliografia/ guarda os PDFs das obras citadas e é versionada.
-# Sem isto, um PDF novo aí colocado seria silenciosamente ignorado — os 182
-# já versionados sobrevivem por terem entrado antes desta pasta ser movida
-# para dentro de material/.
-!bibliografia/**/*.pdf
-*.zip
-*.f3d
-*.webp
-*.csv
-
-# Folders with research material
-prosthetics-design/
-3dprinting-prosthetics/
-antropometria/
-amputacao/
-reabilitacao/
-parametrico/
-prosthetics-user/
-colaboracao/
-prosthetics-control/
-outros/
-lower-limb/
-normas/
-Modelos\ de\ proteses/
-Diagramas/
-capitulos/
-
-# Registos operacionais de investigação e documentos auxiliares do projecto.
-# Permanecem versionados, incluindo os respectivos CSV e PDF.
-!investigacao/
-!investigacao/**
-!documentos_apoio/
-!documentos_apoio/**
+.~lock.*#
+.env
+.env.*

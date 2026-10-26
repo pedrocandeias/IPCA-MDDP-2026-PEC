@@ -1,5 +1,7 @@
 # Preparação da defesa do projeto
 
+Os geradores, os dados de configuração e os recursos de composição passaram para o submódulo privado. Os documentos de leitura mantêm-se públicos; ver o [guia de acesso aos geradores](../investigacao_privada.md).
+
 Versão de trabalho: 0.22. 25/10/2026.
 
 Curso: **Mestrado em Design e Desenvolvimento de Produto, UPCA**. Arguente indicado pelo autor: **Bernardo Providência**.
@@ -16,7 +18,7 @@ O autor indicou 20 minutos para a apresentação e pediu a preparação de uma v
 - [Guião e estrutura de apresentação](guiao_apresentacao.md): 23 blocos, tempos, mensagem central, conteúdos e propostas visuais; inclui abertura, fecho e percurso de demonstração.
 - [Perguntas e respostas de treino para o júri](perguntas_juri.md), disponíveis em [PDF autónomo](perguntas_juri.pdf) e [ODT editável](perguntas_juri.odt): 47 perguntas com respostas em primeira pessoa e lembretes pessoais para consulta e preparação, na versão 0.11. Inclui 21 questões ligadas às publicações de Bernardo Providência.
 - [Evidências e pontos a alinhar](evidencias_e_pontos_a_alinhar.md): relação entre afirmações, resultados, fontes e limites.
-- [Manifesto das fontes](fontes.json): hashes dos ficheiros examinados e verificações dos CSV.
+- [Manifesto das fontes — acesso autorizado](https://github.com/pedrocandeias/IPCA-MDDP-2026-PEC-investigacao/blob/main/docs/defesa/fontes.json): hashes dos ficheiros examinados e verificações dos CSV.
 - [Contextualização académica do arguente](contexto_arguente.md): fontes públicas e temas para preparar a discussão.
 - [Notas pessoais sobre Bernardo Providência e as suas publicações](perfil_bernardo_providencia.md): oito trabalhos de 2012–2025 e complemento ORCID com estudo adicional de esgrima; métodos, limites e implicações para a defesa, com níveis de acesso declarados.
 

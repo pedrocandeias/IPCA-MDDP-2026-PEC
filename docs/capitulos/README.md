@@ -1,9 +1,5 @@
-# Rascunhos e exportações de capítulos
+# Dissertação em HTML
 
-`text/` conserva os rascunhos textuais por capítulo e `html/` as exportações
-HTML históricas correspondentes. Estes ficheiros foram transferidos da antiga
-pasta local `material/capitulos/`; não foi identificado um método de geração
-mais específico nos originais.
+A edição anotada atual encontra-se em [`html/manuscrito_citacoes/`](html/manuscrito_citacoes/), com os dados das citações, as verificações e o pacote de publicação do site.
 
-O manuscrito canónico permanece na raiz. Alterações nestes rascunhos não são
-automaticamente propagadas para o DOCX ou para o Markdown consolidados.
+Os rascunhos de capítulos em texto e as exportações HTML históricas foram transferidos para o [repositório privado de investigação](https://github.com/pedrocandeias/IPCA-MDDP-2026-PEC-investigacao). O [guia de acesso](../investigacao_privada.md) explica como recuperar os caminhos locais de trabalho.

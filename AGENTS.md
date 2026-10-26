@@ -72,3 +72,11 @@ Integrate research incrementally. After each meaningful search or report cycle, 
 Treat Elicit report workflows as a scarce resource. Use targeted searches first to refine scope, reduce noise, and identify likely anchor papers before launching a report. Do not create a new report until the expected value is clear and the question is sufficiently focused to justify consuming a workflow.
 When preparing a systematic review, create and maintain a local protocol pack that records the research question, eligibility criteria, search strategy, screening rules, extraction fields, and PRISMA-style decision log, even if the review itself is carried out in the Elicit web interface.
 Treat the local systematic review folder as the authoritative operational record for the review. Mirror protocol decisions, UI workflow choices, exports, and status updates there so the review remains reproducible outside the Elicit interface.
+
+## Investigação e arquivo privados
+
+O material de investigação e arquivo é mantido no submódulo privado `investigacao_privada/`, exceto `material/bibliografia/`, que permanece público. Os restantes caminhos de investigação, as pastas `docs/versoes/`, `docs/revisoes/`, `docs/desenvolvimento/`, `docs/elicit/`, `docs/notas/`, os rascunhos e os geradores usam ligações locais ignoradas no Git público. Não adicionar essas ligações com `--force`. Registar e enviar primeiro as alterações no privado e só depois atualizar o apontador do submódulo no público.
+
+Para preparar um posto autorizado, executar `git submodule update --init --checkout investigacao_privada` e `python3 tools/manutencao/preparar_investigacao_privada.py`. A atualização automática do submódulo está desativada. Os caminhos locais de cópias de segurança, pesquisa e geração mantêm-se; `archive/` conserva-se apenas dentro do submódulo. O guia pessoal `docs/defesa/guia_leitura_local/` continua exclusivamente local e fora dos commits.
+
+Manter no público os documentos de leitura, a bibliografia consolidada, as figuras, os anexos, os suplementos e os recursos do site. O GitHub Pages publica `gh-pages`, sem submódulos privados. A separação não autoriza reescrever o histórico público; essa operação requer um pedido explícito.

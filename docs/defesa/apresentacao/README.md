@@ -1,5 +1,7 @@
 # Apresentação da defesa
 
+Os geradores, os dados de configuração e os recursos de composição passaram para o submódulo privado. Os documentos de leitura mantêm-se públicos; ver o [guia de acesso aos geradores](../../investigacao_privada.md).
+
 Versão 1.6. 25/10/2026. Mestrado em Design e Desenvolvimento de Produto, Universidade Politécnica do Cávado e do Ave (UPCA).
 
 - [Apresentação editável em PPTX](apresentacao_defesa.pptx).

@@ -1,10 +1,10 @@
 {
   "source": "docs/capitulos/html/manuscrito_citacoes/pedro_candeias_manuscrito_citacoes.html",
-  "sha256_source": "d0352fe2373626ae7d3df4ab7ae8e55a5cf740e68337140b9e9af8d75d2b3d92",
+  "sha256_source": "0709f63e1bfd564fa925a3b5181b0b88577e9e036e95a82930eefb38f1746e5c",
   "entrypoint": "dist/index.html",
   "manuscript": "dist/manuscrito.html",
-  "sha256_index": "9498d004074c31ff09b09ec848c3618bc3aa4776a19313771baa08cc9215378f",
-  "sha256_manuscript": "c4d201679ffea49c0707f44e016404fb8431455a5b8c3aea68d216bd871fb9c0",
+  "sha256_index": "e4749a680072dff2d2189af2e7f7fdb9f4e4184cbd8586a4153dd380995ac921",
+  "sha256_manuscript": "07763f6b13cc8b54ce3defd6625b4d375df577132c784a16c6f776da1fd8bda6",
   "manuscript_pdf": {
     "source": "pedro-candeias-projeto-mestrado-mdddp-ipca-2026-revisto_v1_23102026-1047.pdf",
     "published": "tese.pdf",

@@ -1,7 +1,7 @@
 {
   "date": "2026-10-26",
-  "method": "Comparação estrutural com a edição publicada; verificação de tamanhos de letra e navegação em Chromium/Playwright, com e sem JavaScript.",
-  "sha256_html": "c4d201679ffea49c0707f44e016404fb8431455a5b8c3aea68d216bd871fb9c0",
+  "method": "Comparação estrutural com a edição publicada; verificação dos tamanhos de letra ampliados, fundos dos botões e navegação em Chromium/Playwright, com e sem JavaScript.",
+  "sha256_html": "07763f6b13cc8b54ce3defd6625b4d375df577132c784a16c6f776da1fd8bda6",
   "internal_links_valid": true,
   "pdf_pages": 224,
   "body_text_and_citations_preserved": true,
@@ -23,12 +23,12 @@
       "index_navigation": true,
       "footnote_round_trip": true,
       "citation_panel": true,
-      "matching_font_sizes": {
+      "reader_font_sizes": {
         ".brand": "19px",
         ".brand small": "14px",
         ".brand-symbol": "16px",
-        ".sidebar nav a": "17px",
-        "#download-pdf": "18px"
+        ".sidebar nav a": "20px",
+        "header_buttons": "22px"
       },
       "homepage_no_overflow": true
     },
@@ -40,12 +40,12 @@
       "index_navigation": true,
       "footnote_round_trip": true,
       "citation_panel": true,
-      "matching_font_sizes": {
+      "reader_font_sizes": {
         ".brand": "19px",
         ".brand small": "14px",
         ".brand-symbol": "16px",
-        ".sidebar nav a": "17px",
-        "#download-pdf": "18px"
+        ".sidebar nav a": "20px",
+        "header_buttons": "22px"
       },
       "homepage_no_overflow": true
     },
@@ -57,12 +57,12 @@
       "index_navigation": true,
       "footnote_round_trip": true,
       "citation_panel": true,
-      "matching_font_sizes": {
+      "reader_font_sizes": {
         ".brand": "19px",
         ".brand small": "14px",
         ".brand-symbol": "16px",
-        ".sidebar nav a": "17px",
-        "#download-pdf": "18px"
+        ".sidebar nav a": "20px",
+        "header_buttons": "22px"
       },
       "homepage_no_overflow": true
     },
@@ -74,12 +74,12 @@
       "index_navigation": true,
       "footnote_round_trip": true,
       "citation_panel": true,
-      "matching_font_sizes": {
+      "reader_font_sizes": {
         ".brand": "18px",
         ".brand small": "14px",
         ".brand-symbol": "14px",
-        ".sidebar nav a": "16px",
-        "#download-pdf": "18px"
+        ".sidebar nav a": "18px",
+        "header_buttons": "22px"
       },
       "homepage_no_overflow": true
     },
@@ -91,12 +91,12 @@
       "index_navigation": true,
       "footnote_round_trip": true,
       "citation_panel": true,
-      "matching_font_sizes": {
+      "reader_font_sizes": {
         ".brand": "18px",
         ".brand small": "14px",
         ".brand-symbol": "14px",
-        ".sidebar nav a": "16px",
-        "#download-pdf": "18px"
+        ".sidebar nav a": "18px",
+        "header_buttons": "22px"
       },
       "homepage_no_overflow": true
     }
@@ -124,5 +124,58 @@
     "previsualizacao_interface_dissertacao_390.png",
     "previsualizacao_interface_dedicatoria.png"
   ],
-  "readme_links_valid": true
+  "readme_links_valid": true,
+  "pdf_source_repository": {
+    "url": "https://github.com/pedrocandeias/IPCA-MDDP-2026-PEC/blob/main/pedro-candeias-projeto-mestrado-mdddp-ipca-2026-revisto_v1_23102026-1047.pdf",
+    "matches_origin_main": true
+  },
+  "handfab_gradient": {
+    "matches_card_accent": true,
+    "minimum_sampled_text_contrast": 5.19,
+    "sha256_homepage_css": "905fd0daeb701b8f2133ec39c87294a8bb4295aec0faec90aa595c464dc6f4ae",
+    "checks": [
+      {
+        "file": "index.html",
+        "width": 1440,
+        "matches_card_gradient": true,
+        "hover_preserves_gradient": true,
+        "no_overflow": true
+      },
+      {
+        "file": "index.html",
+        "width": 390,
+        "matches_card_gradient": true,
+        "hover_preserves_gradient": true,
+        "no_overflow": true
+      },
+      {
+        "file": "index.html",
+        "width": 320,
+        "matches_card_gradient": true,
+        "hover_preserves_gradient": true,
+        "no_overflow": true
+      },
+      {
+        "file": "en.html",
+        "width": 1440,
+        "matches_card_gradient": true,
+        "hover_preserves_gradient": true,
+        "no_overflow": true
+      },
+      {
+        "file": "en.html",
+        "width": 390,
+        "matches_card_gradient": true,
+        "hover_preserves_gradient": true,
+        "no_overflow": true
+      },
+      {
+        "file": "en.html",
+        "width": 320,
+        "matches_card_gradient": true,
+        "hover_preserves_gradient": true,
+        "no_overflow": true
+      }
+    ]
+  }
 }

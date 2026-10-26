@@ -16,6 +16,8 @@ O índice lateral do manuscrito destaca a secção em leitura durante o scroll, 
 
 ## Fontes e geração
 
+Os geradores e os ficheiros de configuração ficam no submódulo privado `investigacao_privada/`. Os caminhos abaixo são ligações locais preparadas pelo [script de acesso](../../../../../tools/manutencao/preparar_investigacao_privada.py), para quem tem autorização. O pacote `dist/` e a bibliografia consolidada mantêm-se públicos.
+
 ```bash
 python3 tools/conversao/exportar_html_citacoes.py
 python3 tools/conversao/preparar_html_publicacao.py
@@ -53,6 +55,6 @@ O pacote usa o manuscrito gravado em 25/10/2026, com 268 citações interativas,
 
 ## Terminologia e interface
 
-A interface usa «dissertação» em português e «dissertation» em inglês. Os caminhos e identificadores internos com `manuscrito` são conservados para manter as ligações. O cabeçalho e a navegação da edição de leitura usam os mesmos tamanhos de letra da homepage, definidos em `tools/conversao/tema_handfab.css`: nome a 19 px, informação complementar a 14 px, navegação a 17 px e botões a 18 px; em telemóvel, o nome passa a 18 px e a navegação a 16 px. A descarga do PDF tem fundo violeta, ícone e maior destaque; os botões do HandFab usam um gradiente azul-violeta e rosa. A altura do cabeçalho é tida em conta na navegação por âncoras.
+A interface usa «dissertação» em português e «dissertation» em inglês. Os caminhos e identificadores internos com `manuscrito` são conservados para manter as ligações. O nome e a informação complementar do cabeçalho mantêm os tamanhos da homepage (19/14 px; nome a 18 px em telemóvel). Na edição de leitura, os botões do cabeçalho usam 22 px e a navegação lateral 20 px, passando a 18 px em telemóvel. «Início» tem fundo violeta claro, «Imprimir» fundo laranja claro e «Descarregar PDF» mantém o fundo violeta forte, com texto branco e ícone. Os botões do HandFab usam o mesmo gradiente violeta, rosa e laranja de `.handfab::before`, definido em `--brand-gradient`, com texto escuro. A altura do cabeçalho é tida em conta na navegação por âncoras.
 
 Para regenerar as páginas e os recursos da interface sem substituir os documentos da defesa já preparados, executar `python3 tools/conversao/preparar_html_publicacao.py --preserve-defense`. A verificação da interface e as capturas estão identificadas em `../validacao_interface_dissertacao_2026_10_26.json`.

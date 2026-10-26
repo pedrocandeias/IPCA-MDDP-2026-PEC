@@ -2,6 +2,14 @@
 
 ## 2026-10-26
 
+- Mantida `material/bibliografia/` no repositório público, por indicação do autor. Transferidos também os geradores do site, das figuras, dos documentos e da apresentação para o submódulo privado, com os respetivos dados de configuração e ligações locais de compatibilidade.
+
+- Separada a investigação e o arquivo num repositório privado associado como submódulo `investigacao_privada/`. Inventariados 4 005 ficheiros de trabalho, com origem e SHA-256; mantidos públicos os 202 ficheiros de `material/bibliografia/`; preservados os caminhos locais através de ligações ignoradas. Retirados `archive/`, os materiais de investigação, relatórios, revisões e versões antigas da estrutura pública atual; mantidos os documentos de leitura e os recursos do site. README e guias adaptados; histórico público anterior preservado.
+
+- Ampliados para 22 px os botões do cabeçalho da dissertação e para 20 px/18 px a navegação lateral em computador/telemóvel. Aplicados fundos violeta claro a «Início» e laranja claro a «Imprimir», mantendo o PDF em violeta forte. Confirmada a identidade entre o PDF público e o ficheiro `pedro-candeias-projeto-mestrado-mdddp-ipca-2026-revisto_v1_23102026-1047.pdf` da raiz.
+
+- Alinhado o fundo dos botões do HandFab com o gradiente de `.handfab::before`, reutilizando `--brand-gradient` (violeta, rosa e laranja). Aplicado texto escuro para manter o contraste; atualizado o CSS publicado e a documentação.
+
 - Publicados e verificados por SHA-256 os 17 ficheiros do GitHub Pages, incluindo a interface com a designação «dissertação», o PDF em destaque, a tipografia alinhada e o botão «Explora o HandFab». README da branch main atualizado com as versões disponíveis dos documentos. Fonte: commit 0cec3f1; publicação: 9850377. Atualizado o registo do deploy.
 
 - Uniformizada a interface do site para «dissertação»/«dissertation», com destaque violeta e ícone no botão «Descarregar PDF». Alinhados os tamanhos de letra do cabeçalho e da navegação com a homepage; acrescentado o botão «Explora o HandFab» com gradiente. Atualizado o README da raiz com as ligações para o ODT/PDF de 25/10/2026, o Word arquivado mais recente e os documentos de defesa disponíveis; distinguida a versão do Markdown. Atualizados geradores e documentação, preservando os endereços existentes.

@@ -67,11 +67,17 @@ main{min-width:0;background:var(--paper);border:1px solid var(--line);border-rad
 
 /* Cabeçalho e controlos com a mesma linguagem da aplicação HandFab. */
 .header-actions{display:flex;align-items:center;justify-content:flex-end;flex-wrap:wrap;gap:8px;max-width:100%}
-.print-button{display:inline-flex;align-items:center;justify-content:center;gap:9px;min-height:48px;padding:10px 16px;border-radius:var(--radius);font-size:var(--action-font-size);line-height:1.5;text-decoration:none;white-space:nowrap}
+.print-button{display:inline-flex;align-items:center;justify-content:center;gap:9px;min-height:56px;padding:10px 16px;border-radius:var(--radius);font-size:22px;line-height:1.4;text-decoration:none;white-space:nowrap}
 .print-button:hover{background:var(--soft)}
+.home-button{background:#f3e8ff;color:#581c87;border-color:#d8b4fe}
+.home-button:hover{background:#e9d5ff}
+#print{background:#ffedd5;color:#7c2d12;border-color:#fdba74}
+#print:hover{background:#fed7aa}
 #download-pdf{background:var(--interactive-accent);color:white;border-color:var(--interactive-accent);font-weight:600;box-shadow:0 5px 16px #7c3aed33}
 #download-pdf:hover{background:var(--interactive-hover);border-color:var(--interactive-hover)}
 .download-icon{flex-shrink:0}
+.sidebar nav a{font-size:20px}
+@media(max-width:700px){.sidebar nav a{font-size:18px}}
 .sidebar nav a:focus-visible{outline-offset:-3px}
 .panel-header button:focus-visible{outline:3px solid var(--focus);outline-offset:2px}
 article h2,article h3,article h4{font-weight:600}
@@ -91,7 +97,7 @@ article pre{border-radius:var(--radius-sm)}
   <a class="skip" href="#manuscrito">Saltar para a dissertação</a>
   <header class="topbar">
     <a class="brand" href="#inicio"><span class="brand-symbol">PC</span><span>Pedro Candeias<small>Dissertação · MDDDP / IPCA</small></span></a>
-    <div class="header-actions"><a class="print-button" href="index.html">Início / Home</a>
+    <div class="header-actions"><a class="print-button home-button" href="index.html" aria-label="Página inicial / Home">Início</a>
     <a class="print-button" id="download-pdf" href="tese.pdf?v=17f6266b2eff" download="pedro-candeias-dissertacao.pdf" aria-label="Descarregar a última versão da dissertação em PDF"><svg class="download-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12m-5-5 5 5 5-5M4 16v5h16v-5"/></svg>Descarregar PDF</a>
     <button class="print-button" type="button" id="print">Imprimir</button></div>
   </header>

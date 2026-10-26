@@ -7,3 +7,7 @@
 [submodule "tools/mendeley-downloader"]
 	path = tools/mendeley-downloader
 	url = git@github.com:pedrocandeias/mendeley-downloader.git
+[submodule "investigacao_privada"]
+	path = investigacao_privada
+	url = git@github.com:pedrocandeias/IPCA-MDDP-2026-PEC-investigacao.git
+	update = none

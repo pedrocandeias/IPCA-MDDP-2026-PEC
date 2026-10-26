@@ -1,6 +1,6 @@
 # Manuscrito HTML com citações e excertos
 
-Abrir [`pedro_candeias_manuscrito_citacoes.html`](pedro_candeias_manuscrito_citacoes.html) num navegador. O documento funciona localmente, sem servidor, e incorpora as 34 imagens, os estilos, o JavaScript e os dados das citações. As ligações aos PDFs locais requerem a estrutura do repositório; as ligações DOI requerem acesso à Internet.
+Abrir [`pedro_candeias_manuscrito_citacoes.html`](pedro_candeias_manuscrito_citacoes.html) num navegador. O documento funciona localmente, sem servidor, e incorpora as 34 imagens, os estilos, o JavaScript e os dados das citações. Os PDFs da biblioteca consolidada mantêm-se em `material/bibliografia/`; outras ligações locais podem requerer a investigação privada e as ligações de compatibilidade; as ligações DOI requerem acesso à Internet.
 
 O asterisco junto de cada citação abre um painel com uma secção por obra, incluindo referência, DOI/URL, PDF local quando associado e excertos disponíveis. O painel suporta clique, teclado, Escape, clique exterior e ecrãs pequenos. Citações múltiplas mostram todas as obras no mesmo painel rolável.
 
@@ -80,3 +80,7 @@ O Markdown canónico permanece uma fonte independente desta exportação. O corp
 ## Verificação de 26/10/2026
 
 `validacao_atualizacao_2026_10_26.json` regista a comparação com a edição anterior, os hashes do HTML e do PDF e as verificações de navegação e descarga em Chromium/Playwright. As imagens `previsualizacao_leitura_continua_1440.png`, `previsualizacao_leitura_continua_390.png` e `previsualizacao_dedicatoria.png` são capturas da edição pública local, gerada pelos comandos acima; documentam os cartões contínuos e a dedicatória separada.
+
+## Material de investigação
+
+Os relatórios de trabalho e os geradores passaram para o submódulo privado `investigacao_privada/`. A biblioteca consolidada, a matriz e os PDFs guardados em `material/bibliografia/` mantêm-se públicos. Para regenerar esta edição a partir do ODT, obter o submódulo autorizado e executar `python3 tools/manutencao/preparar_investigacao_privada.py`. A edição pública preparada e o respetivo pacote do site podem ser consultados sem esse material. Ver o [guia de acesso](../../../investigacao_privada.md).

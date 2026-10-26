@@ -8,3 +8,76 @@ recovered/
 __pycache__/
 *.pyc
 tools/.local/
+
+# Investigação e arquivo privados: ligações locais para o submódulo.
+/docs/versoes
+/docs/revisoes
+/docs/desenvolvimento
+/docs/elicit
+/docs/notas
+/archive
+/docs/capitulos/text
+/docs/capitulos/html/cap_4_1.html
+/docs/capitulos/html/capitulo_4_3_1.html
+/pedro-candeias-projeto-mestrado-mdddp-ipca-2026-revisto_v1_06102026-0210.odt
+/a30759_pedro-candeias-projeto-mestrado-mdddp-ipca-v10060211.pdf
+/.obsidian
+/8.3_explicacao_O fator 0 760 resultou.txt
+
+# Ficheiros de trabalho temporários.
+/lu*.tmp
+/.preview*/
+
+# Conteúdo associado como submódulo privado, nunca como pasta comum.
+/investigacao_privada/
+
+# Geradores e configurações mantidos no submódulo privado.
+/tools/conversao
+/tools/figuras
+/tools/bibliografia
+/tools/elicit
+/tools/extraccao
+/tools/revisao
+/tools/revisoes
+/tools/pdfs
+/tools/editar_docx_libreoffice.sh
+/tools/docx_to_pdf.sh
+/tools/backup_docx.sh
+/tools/word_lo_bridge.py
+/tools/docx_to_md.py
+/tools/md_to_docx.py
+/tools/manutencao/sync_annex_d_source.py
+/tools/manutencao/version_manuscript.py
+/tools/manutencao/synchronise_docx_pagination.py
+/tools/manutencao/update_changelog.py
+/tools/manutencao/commit_from_changelog.py
+/docs/defesa/fontes.json
+/docs/defesa/exportar_odt.py
+/docs/defesa/exportar_perguntas_juri.py
+/docs/defesa/apresentacao/aplicar_fundo_wireframes.py
+/docs/defesa/apresentacao/verificacao.json
+/docs/defesa/apresentacao/diapositivos.json
+/docs/defesa/apresentacao/manifesto.json
+/docs/defesa/apresentacao/fundo_wireframes_aplicacao.json
+/docs/defesa/apresentacao/revisao_pedida_2026_10_25.json
+/docs/defesa/apresentacao/fundo_wireframes_validacao.json
+/docs/defesa/apresentacao/exportar_guiao_falado.py
+/docs/defesa/apresentacao/atualizar_notas.py
+/docs/defesa/apresentacao/assets_manifesto.json
+/docs/defesa/apresentacao/resumo_dimensional.json
+/docs/defesa/apresentacao/tempos_fala.json
+/docs/defesa/apresentacao/preparar_logo_upca.py
+/docs/defesa/apresentacao/gerar_apresentacao.py
+/docs/defesa/apresentacao/verificacao_recuperacao.json
+/docs/defesa/apresentacao/imagens_diapositivos.json
+/docs/defesa/apresentacao/assets
+/deploy.sh
+/package.json
+/package-lock.json
+
+/material/*
+!/material/bibliografia/
+!/material/.gitignore
+
+# Configuração de migração e caminhos internos conservados no privado.
+/tools/manutencao/investigacao_privada.json

@@ -1,21 +1,9 @@
-# Documentação
+# Documentação pública
 
-Esta pasta reúne documentação de trabalho da dissertação. O manuscrito
-canónico permanece na raiz e os resultados de investigação bibliográfica
-ficam em `material/`.
+- [`capitulos/html/manuscrito_citacoes/`](capitulos/html/manuscrito_citacoes/): dissertação anotada e pacote do site.
+- [`documentos/`](documentos/): versões documentais disponibilizadas ao leitor.
+- [`defesa/`](defesa/): apresentação, guiões e preparação da defesa.
+- [`ferramentas/`](ferramentas/): guias das ferramentas auxiliares.
+- [`investigacao_privada.md`](investigacao_privada.md): acesso opcional ao submódulo privado de investigação e arquivo.
 
-## Organização
-
-- `capitulos/`: rascunhos textuais e exportações HTML por capítulo;
-- `desenvolvimento/`: documentação técnica dos modelos, avaliações de IA e
-  dados de dimensionamento;
-- `elicit/`: guias de utilização e organização do Elicit;
-- `ferramentas/`: documentação de ferramentas auxiliares;
-- `notas/`: notas de trabalho ainda sem integração específica;
-- `revisoes/`: auditorias e relatórios organizados por tema;
-- `versoes/`: cópias de segurança, exportações e documentos históricos.
-
-Relatórios, pesquisas e *prompts* produzidos pelo Elicit não pertencem a esta
-pasta. Esses registos ficam associados à secção correspondente em
-`material/investigacao/elicit/`.
-
+Relatórios, rascunhos, revisões, notas de desenvolvimento e versões anteriores são conservados no repositório privado. As ligações locais usadas pelos geradores são criadas apenas no posto de trabalho autorizado e não são publicadas como pastas neste repositório.
