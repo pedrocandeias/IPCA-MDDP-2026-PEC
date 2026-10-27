@@ -1,5 +1,9 @@
 # Changelog
 
+## 2026-10-27
+
+- Transferidos para o privado os 62 ficheiros de apoio à edição HTML e à publicação (capturas de teste, validações, dados e cópias de preparação), cerca de 95,3 MiB. Atualizados o README público e os guias para apontar diretamente para a leitura online; mantido o site em `gh-pages` sem alterações.
+
 ## 2026-10-26
 
 - Retirado do índice público um ficheiro temporário de bloqueio de um relatório Elicit, remanescente da separação da investigação. Mantida a cópia local e confirmada a correspondência do pacote do site com a versão já publicada.

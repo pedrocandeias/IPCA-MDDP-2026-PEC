@@ -2,7 +2,7 @@
 
 O repositório [IPCA-MDDP-2026-PEC-investigacao](https://github.com/pedrocandeias/IPCA-MDDP-2026-PEC-investigacao) é **privado** e está associado em `investigacao_privada/` como submódulo Git. O nome, o endereço e o commit associado são públicos; o conteúdo requer autorização.
 
-Reúne o material de investigação (exceto `material/bibliografia/`, que fica público), os relatórios Elicit, `docs/versoes/`, `docs/revisoes/`, os registos de desenvolvimento, notas, guias de investigação, rascunhos de capítulos e `archive/`. Os geradores do site, das figuras, dos documentos e da apresentação, com a respetiva configuração, estão também no privado. Os documentos atuais de leitura, a bibliografia consolidada, figuras, anexos e suplementos mantêm-se no repositório público.
+Reúne também as capturas de teste, validações e ficheiros de preparação da publicação, além do material de investigação (exceto `material/bibliografia/`, que fica público), os relatórios Elicit, `docs/versoes/`, `docs/revisoes/`, os registos de desenvolvimento, notas, guias de investigação, rascunhos de capítulos e `archive/`. Os geradores do site, das figuras, dos documentos e da apresentação, com a respetiva configuração, estão também no privado. Os documentos atuais de leitura, a bibliografia consolidada, figuras, anexos e suplementos mantêm-se no repositório público.
 
 ## Obter o material autorizado
 
@@ -44,3 +44,5 @@ O manifesto de transferência, com tamanhos e SHA-256, fica em `investigacao_pri
 O site é publicado a partir de `gh-pages`, que não inclui o submódulo. O processo de publicação não necessita de acesso ao repositório privado para servir o pacote já preparado.
 
 A separação não reescreveu o histórico público anterior. A retirada das pastas da versão atual não elimina os ficheiros que já constavam de commits públicos antigos.
+
+A pasta de trabalho `docs/capitulos/html/manuscrito_citacoes/` é privada e reaparece localmente como ligação de compatibilidade. Não é necessária no repositório público: o site usa as cópias estáticas existentes na branch `gh-pages`.

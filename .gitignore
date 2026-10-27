@@ -81,3 +81,8 @@ tools/.local/
 
 # Configuração de migração e caminhos internos conservados no privado.
 /tools/manutencao/investigacao_privada.json
+
+# Capturas, validações e preparação da publicação: mantidas no privado.
+/docs/capitulos/html/manuscrito_citacoes
+/docs/capitulos/README.md
+/docs/separacao_investigacao_2026_10_26.json

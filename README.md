@@ -25,7 +25,7 @@ O ODT de referência foi gravado em **25/10/2026 às 20h30**, no ficheiro com id
 | [Dissertação — Word (DOCX)](docs/documentos/pedro-candeias-projeto-mestrado-mdddp-ipca-2026-revisto_v1_04102026-1955-pangram.docx) | Versão Word mais recente disponível, gravada em 05/10/2026; anterior ao ODT/PDF atual. |
 | [Bibliografia e PDFs de apoio](material/bibliografia/) | Biblioteca consolidada mantida no repositório público. |
 | [Dissertação — Markdown](pedro-candeias-projeto-mestrado-mdddp-ipca-2026-revisto.md) | Representação textual com fonte e revisão identificadas no próprio ficheiro. |
-| [Dissertação — HTML anotado](docs/capitulos/html/manuscrito_citacoes/pedro_candeias_manuscrito_citacoes.html) | Leitura com 268 citações interativas, 425 ligações nos índices, listas contínuas e regresso das notas de rodapé. Os PDFs da biblioteca consolidada ficam em `material/bibliografia/`; outras fontes de trabalho podem requerer acesso à investigação privada. A edição online conserva referências, excertos e DOI/URL. |
+| [Dissertação — leitura online](https://pedrocandeias.github.io/IPCA-MDDP-2026-PEC/manuscrito.html) | Leitura com 268 citações interativas, 425 ligações nos índices, listas contínuas e regresso das notas de rodapé. Os PDFs da biblioteca consolidada ficam em `material/bibliografia/`; outras fontes de trabalho podem requerer acesso à investigação privada. A edição online conserva referências, excertos e DOI/URL. |
 | [Apresentação — PowerPoint](docs/defesa/apresentacao/apresentacao_defesa.pptx) · [PDF](docs/defesa/apresentacao/apresentacao_defesa.pdf) | Apresentação da defesa, com notas de fala no PPTX. |
 | [Guião falado — ODT](docs/defesa/apresentacao/guiao_falado.odt) · [PDF](docs/defesa/apresentacao/guiao_falado.pdf) | Guião autónomo de apoio à apresentação. |
 | [Preparação da defesa — ODT](docs/defesa/preparacao_defesa_bernardo_providencia.odt) · [PDF](docs/defesa/preparacao_defesa_bernardo_providencia.pdf) | Caderno de preparação e fundamentação das respostas. |
@@ -53,7 +53,6 @@ As ferramentas bibliográficas têm repositórios próprios: [Mendeley Cite for 
 ## Organização pública e investigação privada
 
 - `componentes/` e `suplementos/`: figuras, anexos e dados de apoio à dissertação.
-- `docs/capitulos/html/manuscrito_citacoes/`: edição anotada e pacote de publicação.
 - `docs/documentos/` e `docs/defesa/`: documentos disponibilizados para consulta.
 - `material/bibliografia/`: bibliografia e PDFs de apoio mantidos públicos.
 - `tools/`: acesso às ferramentas externas e preparação opcional do ambiente privado.
@@ -74,13 +73,13 @@ A separação altera a versão atual do repositório. O histórico público ante
 
 ## Publicação do site
 
-O GitHub Pages publica a raiz da branch `gh-pages`, com os ficheiros preparados em `docs/capitulos/html/manuscrito_citacoes/publicacao/dist/`. Essa branch não contém o submódulo privado.
+O GitHub Pages publica os ficheiros estáticos da branch `gh-pages`. As capturas de teste, validações, dados de preparação e cópias intermédias de publicação ficam no repositório privado; não são necessários para visitar o site. A branch de publicação não contém submódulos privados.
 
 ```bash
 # Atualizar as páginas e os estilos sem substituir os documentos da defesa:
 python3 tools/conversao/preparar_html_publicacao.py --preserve-defense
 ```
 
-Os comandos de geração ficam disponíveis depois de inicializar o submódulo privado e preparar as ligações locais. Regenerar o HTML anotado a partir do ODT requer também os dados da investigação privada. As fontes e o procedimento completo estão no [guia de publicação](docs/capitulos/html/manuscrito_citacoes/publicacao/README.md). O [manifesto](docs/capitulos/html/manuscrito_citacoes/publicacao/manifesto_publicacao.json) identifica o pacote local e o [registo do deploy](docs/capitulos/html/manuscrito_citacoes/publicacao/deploy_github.json) identifica a versão efetivamente publicada.
+Os comandos de geração ficam disponíveis depois de inicializar o submódulo privado e preparar as ligações locais. Regenerar o HTML anotado a partir do ODT requer também os dados da investigação privada. As fontes, o procedimento completo, os manifestos e os registos de verificação estão no repositório privado. O [guia de acesso](docs/investigacao_privada.md) explica como obter o ambiente de autoria. Para leitura, usar o site ou os documentos públicos da tabela acima.
 
 As regras de edição encontram-se em [`AGENTS.md`](AGENTS.md); as alterações são registadas em [`CHANGELOG.md`](CHANGELOG.md).

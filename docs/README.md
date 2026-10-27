@@ -1,6 +1,6 @@
 # Documentação pública
 
-- [`capitulos/html/manuscrito_citacoes/`](capitulos/html/manuscrito_citacoes/): dissertação anotada e pacote do site.
+- [Dissertação online](https://pedrocandeias.github.io/IPCA-MDDP-2026-PEC/manuscrito.html): leitura anotada disponibilizada pelo GitHub Pages.
 - [`documentos/`](documentos/): versões documentais disponibilizadas ao leitor.
 - [`defesa/`](defesa/): apresentação, guiões e preparação da defesa.
 - [`ferramentas/`](ferramentas/): guias das ferramentas auxiliares.
