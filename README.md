@@ -56,14 +56,14 @@ As ferramentas bibliográficas têm repositórios próprios: [Mendeley Cite for 
 - `docs/documentos/` e `docs/defesa/`: documentos disponibilizados para consulta.
 - `material/bibliografia/`: bibliografia e PDFs de apoio mantidos públicos.
 - `tools/`: acesso às ferramentas externas e preparação opcional do ambiente privado.
-- `investigacao_privada/`: submódulo de [investigação e arquivo](https://github.com/pedrocandeias/IPCA-MDDP-2026-PEC-investigacao), com acesso restrito.
+- `desenvolvimento/`: submódulo de [investigação e arquivo](https://github.com/pedrocandeias/IPCA-MDDP-2026-PEC-investigacao), com acesso restrito.
 
 Os relatórios Elicit, os restantes materiais de investigação, as notas, revisões, rascunhos, versões antigas, cópias de segurança e geradores passaram para o repositório privado. A pasta `material/bibliografia/` mantém-se pública. `archive/` foi retirado da raiz pública. Não é necessário obter o submódulo privado para ler os documentos, consultar o site ou descarregar os suplementos.
 
 Para trabalhar com a investigação, dispondo de autorização:
 
 ```bash
-git submodule update --init --checkout investigacao_privada
+git submodule update --init --checkout desenvolvimento
 python3 tools/manutencao/preparar_investigacao_privada.py
 ```
 

@@ -2,6 +2,8 @@
 
 ## 2026-10-27
 
+- Renomeada a pasta e o submódulo privado de `investigacao_privada/` para `desenvolvimento/`, mantendo o repositório remoto. Atualizados os guias, o preparador, 119 scripts e 98 ligações locais de compatibilidade.
+
 - Transferidos para o privado os 62 ficheiros de apoio à edição HTML e à publicação (capturas de teste, validações, dados e cópias de preparação), cerca de 95,3 MiB. Atualizados o README público e os guias para apontar diretamente para a leitura online; mantido o site em `gh-pages` sem alterações.
 
 ## 2026-10-26

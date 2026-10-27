@@ -29,7 +29,7 @@ tools/.local/
 /.preview*/
 
 # Conteúdo associado como submódulo privado, nunca como pasta comum.
-/investigacao_privada/
+/desenvolvimento/
 
 # Geradores e configurações mantidos no submódulo privado.
 /tools/conversao

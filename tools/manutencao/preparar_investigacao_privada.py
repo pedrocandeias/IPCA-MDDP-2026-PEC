@@ -6,13 +6,13 @@ import os
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
-CONFIG = ROOT / 'investigacao_privada/docs/migracao/configuracao.json'
+CONFIG = ROOT / 'desenvolvimento/docs/migracao/configuracao.json'
 
 
 def main(check=False):
-    private = ROOT / 'investigacao_privada'
+    private = ROOT / 'desenvolvimento'
     if not (private / 'README.md').is_file() or not CONFIG.is_file():
-        raise SystemExit('Inicialize primeiro o submódulo autorizado: git submodule update --init --checkout investigacao_privada')
+        raise SystemExit('Inicialize primeiro o submódulo autorizado: git submodule update --init --checkout desenvolvimento')
     config = json.loads(CONFIG.read_text())
     problems = []
     for entry in config['mappings']:
@@ -24,6 +24,13 @@ def main(check=False):
             problems.append(f'Ficheiro privado em falta: {entry["target"]}')
         elif original.is_symlink() and original.resolve() == target.resolve():
             continue
+        elif original.is_symlink() and Path(os.path.abspath(original.parent / os.readlink(original))) == ROOT / 'investigacao_privada' / entry['target']:
+            if check:
+                problems.append(f'Ligação local com nome antigo: {entry["source"]}')
+            else:
+                original.unlink()
+                original.symlink_to(os.path.relpath(target, original.parent), target_is_directory=target.is_dir())
+                print(f'Ligação local atualizada: {entry["source"]}')
         elif original.exists() or original.is_symlink():
             problems.append(f'Caminho local ocupado, preservado: {entry["source"]}')
         elif check:
